@@ -10,15 +10,19 @@ const md = markdownit({html: true}).use(markdownitFootnote);
 
 // Intialize the map as the variable "map"
 // This also hides the + / - zoom controls.
-const map = L.map("mapdiv", { zoomSnap: 0.25, zoomControl: false });
-
-// Set a center point and zoom level for it:
-const zoomLevel = 5;
-
-// Now set the view of the map and add a tile layer:
-map.setView([0,0], zoomLevel);
-L.tileLayer.provider("OpenStreetMap.Mapnik").addTo(map);
+const map = L.map("mapdiv", { 
+  center: [0,0], 
+  zoom: 5, 
+  zoomSnap: 0.25, 
+  zoomControl: false 
+});
 map.fitBounds([[24.396, -124.848974, 24.396308], [49.384, -66.885444]]);
+L.tileLayer.provider("OpenStreetMap.Mapnik").addTo(map);
+
+// append an <svg> for d3 to play with.
+const svg = d3.select(map.getPanes().overlayPane).append("svg"),
+    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
 
 d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
   // return {
@@ -83,7 +87,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
 
 // Use jQuery & Markdown to manipulate the html elements.
 $("#card-header-text").html("<strong>Frontera Crisis</strong>");
-[["body", "outlet-card-body"]].forEach( data => {
+[["welcome", "nav-tabs-body"]].forEach( data => {
   $.ajax({ url: `markdown-files/${data[0]}.md`,
     success(markdown) {
       $(`#${data[1]}`).html(md.render(markdown));

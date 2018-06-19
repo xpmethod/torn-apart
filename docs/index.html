@@ -82,8 +82,25 @@
             aria-label="Minimize main card"
             data-toggle="collapse" data-target="#outlet-card-body"><i class="fa fa-arrows-alt-v"></i></button>
         </div>
-        <div id="outlet-card-body" class="card-body collapse show text-dark">
-          Card body.
+        <div id="card-body" class="card-body collapse show text-dark">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active nav-tab" data-file:"welcome">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" data-file:"facts">Quick Facts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" data-file:"textures">Textures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" data-file:"visualizations">Visualizations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" data-file:"contribute">Contribute</a>
+            </li>
+          </ul>
+          <div id="nav-tabs-body"></div>
         </div>
       </div>
     </div>
