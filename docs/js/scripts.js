@@ -85,21 +85,29 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
   }).addTo(map);
 });
 
+//////// TEXTUAL CONTENT
+// 
 // Use jQuery & Markdown to manipulate the html elements.
 $("#card-header-text").html("<strong>Frontera Crisis</strong>");
 
-$.ajax({ url: "markdown-files/welcome.md",
-  success(markdown) {
-    $("#nav-tabs-body").html(md.render(markdown));
-  }
-});
+// on load…
+fillCard("welcome");
 
 $(".nav-tab").click(function(){
   $(".nav-tab").removeClass("active");
   $(this).addClass("active");
-  $.ajax({ url: `markdown-files/${$(this).data("file")}.md`,
+  fillCard($(this).data("file"));
+});
+
+function fillCard(mdFile, divId = "nav-tabs-body"){
+  $.ajax({ url: `markdown-files/${mdFile}.md`,
     success(markdown) {
-      $("#nav-tabs-body").html(md.render(markdown));
+      $(`#${divId}`).html(md.render(markdown));
     }
   });
-});
+}
+
+function projectPoint(x, y) {
+  const point = map.latLngToLayerPoint(new L.LatLng(y, x));
+  this.stream.point(point.x, point.y);
+}
