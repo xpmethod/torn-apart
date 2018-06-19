@@ -1,4 +1,4 @@
-/* global detention, crossing */
+/* global DCOs, detention, crossing */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -26,6 +26,13 @@ const baseLayers = {
 mapnik.addTo(map);
 L.control.layers(baseLayers).addTo(map);
 
+// Angrily show all the official ICE detention facilities they also map
+// OfficialICEDCs["features"].forEach( dc => {
+//   L.marker([dc["lat"], dc["lon"]])
+//     .bindPopup(dc["popup"])
+//     .addTo(map);
+// });
+
 // append an <svg> for d3 to play with.
 // const svg = d3.select(map.getPanes().overlayPane).append("svg"),
 //   g = svg.append("g").attr("class", "leaflet-zoom-hide");
@@ -42,37 +49,33 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
 //},
   list => {
   // iterate over the list object
-    const juvFacs = ["ABRXSPA", "CAJUVMN", "CMPJVNY", "COWJVWA", "GFJUVND", "MEYTHCT", "NOJUVOR", "NVJDCVA", "SHAJUKS"];
     list.forEach(place => {
-      let circleStyle;
-      if (juvFacs.includes(place["DETLOC"])){
-        circleStyle = {
-          color: "#0000dd",
-          fillColor: "#0000dd"
-        };
-      } else if (place["Type"] === "ORR") {
-        circleStyle = {
-          color: "#00dddd",
-          fillColor: "#00dddd",
-          fillOpacity: 0.2,
-          opacity: 0.2,
-          weight: 0
-        };
+      if (place["Type"] === "ORR") {
+        const dcoffice = DCOs[place["DCO"]];
+        console.log(dcoffice);
       } else {
-        circleStyle = {
-          color: "#0000dd",
-          fillColor: "#0000dd",
-          fillOpacity: 0.1,
-          opacity: 0.1,
-          weight: 0,
-          radius: 4
-        };
-      }
-      if(!isNaN(place.lat)){
-        const lat = +place.lat;
-        const lng = +place.lon;
-        L.circleMarker([lat, lng], circleStyle
-        ).addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+        let circleStyle;
+        if (place["Type.Detailed"] === "JUVENILE"){
+          circleStyle = {
+            color: "#0000dd",
+            fillColor: "#0000dd"
+          };
+        } else {
+          circleStyle = {
+            color: "#0000dd",
+            fillColor: "#0000dd",
+            fillOpacity: 0.1,
+            opacity: 0.1,
+            weight: 0,
+            radius: 4
+          };
+        }
+        if(!isNaN(place.lat)){
+          const lat = +place.lat;
+          const lng = +place.lon;
+          L.circleMarker([lat, lng], circleStyle
+          ).addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+        }
       // Alternatively, we can use icons from font-awesome.
       // L.marker([place.latitude, place.longitude],
       //   { icon: L.divIcon(
