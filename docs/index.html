@@ -71,6 +71,19 @@
         border: none;
         font-size: 250%;
       }
+      .nav-tab {
+        font-size: 0.75rem;
+        border-bottom: 1px #dee2e6;
+      }
+
+      .nav-tabs .nav-link.active {
+        background-color: rgba(0,0,0,0);
+        border-color: #dee2e6 #dee2e6 rgba(0,0,0,0);
+      }
+
+      .nav-tabs {
+        border-bottom: 1px transparent;
+      }
     </style>
   </head>
   <body>
@@ -80,24 +93,24 @@
           <span id="card-header-text">Card Header</span>
           <button type="button" class="close" 
             aria-label="Minimize main card"
-            data-toggle="collapse" data-target="#outlet-card-body"><i class="fa fa-arrows-alt-v"></i></button>
+            data-toggle="collapse" data-target="#card-body"><i class="fa fa-arrows-alt-v"></i></button>
         </div>
         <div id="card-body" class="card-body collapse show text-dark">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link active nav-tab" data-file:"welcome">Welcome</a>
+              <a class="nav-link active nav-tab" data-file="welcome">Welcome</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-tab" data-file:"facts">Quick Facts</a>
+              <a class="nav-link nav-tab" data-file="facts">Facts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-tab" data-file:"textures">Textures</a>
+              <a class="nav-link nav-tab" data-file="textures">Textures</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-tab" data-file:"visualizations">Visualizations</a>
+              <a class="nav-link nav-tab" data-file="visualizations">Visualizations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-tab" data-file:"contribute">Contribute</a>
+              <a class="nav-link nav-tab" data-file="contribute">Contribute</a>
             </li>
           </ul>
           <div id="nav-tabs-body"></div>

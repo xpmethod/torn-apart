@@ -61,7 +61,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
           radius: 4
         };
       }
-      if(place.lat){
+      if(!isNaN(place.lat)){
         const lat = +place.lat;
         const lng = +place.lon;
         L.circleMarker([lat, lng], circleStyle
@@ -87,10 +87,19 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
 
 // Use jQuery & Markdown to manipulate the html elements.
 $("#card-header-text").html("<strong>Frontera Crisis</strong>");
-[["welcome", "nav-tabs-body"]].forEach( data => {
-  $.ajax({ url: `markdown-files/${data[0]}.md`,
+
+$.ajax({ url: "markdown-files/welcome.md",
+  success(markdown) {
+    $("#nav-tabs-body").html(md.render(markdown));
+  }
+});
+
+$(".nav-tab").click(function(){
+  $(".nav-tab").removeClass("active");
+  $(this).addClass("active");
+  $.ajax({ url: `markdown-files/${$(this).data("file")}.md`,
     success(markdown) {
-      $(`#${data[1]}`).html(md.render(markdown));
+      $("#nav-tabs-body").html(md.render(markdown));
     }
   });
 });
