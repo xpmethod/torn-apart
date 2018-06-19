@@ -92,7 +92,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
         const latlng = `${l.lat}${l.lng}`;
         popup = `<div class="row"><div class="col-6"><h4>${f.properties["Name"]}</h4></div><div class="col-6"><img class="img-fluid" alt="${f.properties["Name"]} satellite photo" src="imgs/sat-${latlng}.png"></div></div>`;
       } else {
-        popup = `<h4>${f.properties["Name"]}</h4><br>Name above`;
+        popup = `<h4>${f.properties["Name"]}</h4>`;
       }
       return L.circleMarker(l, {fillColor: geojson[1], color: geojson[1]}).bindPopup(popup);
     }
