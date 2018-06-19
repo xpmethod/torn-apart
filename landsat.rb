@@ -6,9 +6,16 @@ class Landsat
   include HTTParty
   base_uri "earthexplorer.usgs.gov/inventory/json/v/latest"
 
-  def initialize
+  def initialize(api_key = nil)
     @options = { query: { jsonRequest: {} } }
-    @api_key = get_api_key
+    api_key.nil? ? @api_key = get_api_key : @api_key = api_key
+  end
+
+  def search(search_options)
+    raise APIError.new("datasetName missing") if search_options[:datasetName].nil?
+    search_options[:apiKey] = @api_key
+    json_request search_options
+    handle "/search"
   end
 
   def logout
