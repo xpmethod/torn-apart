@@ -14,4 +14,5 @@ Structure:
   site.
 
 
-Based on [muziejus/leaflet-quickstart](http://github.com/muziejus/leaflet-quickstart].
+Based on
+[muziejus/leaflet-quickstart](http://github.com/muziejus/leaflet-quickstart).
