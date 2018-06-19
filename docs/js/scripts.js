@@ -17,11 +17,18 @@ const map = L.map("mapdiv", {
   zoomControl: false 
 });
 map.fitBounds([[24.396, -124.848974, 24.396308], [49.384, -66.885444]]);
-L.tileLayer.provider("OpenStreetMap.Mapnik").addTo(map);
+const mapnik = L.tileLayer.provider("OpenStreetMap.Mapnik");
+const esri = L.tileLayer.provider("Esri.WorldImagery");
+const baseLayers = {
+  "OSM Mapnik": mapnik,
+  "ESRI World": esri
+};
+mapnik.addTo(map);
+L.control.layers(baseLayers).addTo(map);
 
 // append an <svg> for d3 to play with.
-const svg = d3.select(map.getPanes().overlayPane).append("svg"),
-    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+// const svg = d3.select(map.getPanes().overlayPane).append("svg"),
+//   g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
 
 d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
@@ -114,7 +121,7 @@ function fillCard(mdFile, divId = "nav-tabs-body"){
   });
 }
 
-function projectPoint(x, y) {
-  const point = map.latLngToLayerPoint(new L.LatLng(y, x));
-  this.stream.point(point.x, point.y);
-}
+// function projectPoint(x, y) {
+//   const point = map.latLngToLayerPoint(new L.LatLng(y, x));
+//   this.stream.point(point.x, point.y);
+// }
