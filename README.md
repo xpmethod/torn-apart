@@ -1,5 +1,7 @@
 # Torn Apart
 
+An XPMethod joint.
+
 Structure:
 
 * data/ : where data files that aren’t accessed by the webpage should go.
