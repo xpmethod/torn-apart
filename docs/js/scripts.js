@@ -35,45 +35,59 @@ L.control.layers(baseLayers).addTo(map);
 
 // Fire up the d3/svg engine.
 // These are only really messed with when calling reset();
-const svg = d3.select(map.getPanes().overlayPane).append("svg"),
-  g = svg.append("g").attr("class", "leaflet-zoom-hide"),
-  transform = d3.geoTransform({point: projectPoint}),
-  path = d3.geoPath().projection(transform);
+const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
+  g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
 d3.json("web-data/blacksites.json", (error, collection) => {
   if (error) throw error;
-  const feature = g.selectAll("path")
+  // d3 is very clever w/ geojson (paths and transforms), but if we want
+  // to simply take latlngs and make them into points we can 
+  // subsequently build on, we have to get a bit craftier.
+  collection.features.forEach(feature => {
+    feature.LatLng = new L.LatLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
+  });
+  const features = g.selectAll("text")
     .data(collection.features)
-    .enter().append("path");
+    .enter().append("text")
+    .attr("text-anchor", "middle")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", "18")
+    .attr("fill", "#333")
+    .attr("id", d => d.properties.dco)
+    // .attr("opacity", 0.0)
+    .classed("dco", true)
+    .text(d => d.properties.dco);
 
-  map.on("viewreset", reset);
+  // const 
+  //   const nodes = d3.range(feature.properties.count).map(() => { return {type: 1}; });
+  //   console.log(nodes.length);
+  //   console.log(feature.properties.dco);
+  //   const dots = g.selectAll("circle")
+  //     .data(nodes)
+  //     .enter().append("circle")
+  //     .attr("r", 5)
+  //     .attr("fill", "#333");
+  //   const simulation = d3.forceSimulation(nodes)
+  //     .force("charge", d3.forceCollide().radius(5))
+  //     .force("r", d3.forceRadial(10, map.latLngToLayerPoint(feature.LatLng).x, map.latLngToLayerPoint(feature.LatLng).y ))
+  //     .on("tick", ticked);
+
+  //   function ticked() {
+  //     dots.attr("cx", d => d.x)
+  //       .attr("cy", d => d.y);
+  //   }
+  // });
+
+  map.on("viewreset", reset());
   map.on("zoomend", reset);
   reset();
 
   function reset() {
-    const mapTopLeft = map.getBounds().getNorthWest();
-    const mapBotRight = map.getBounds().getSouthEast();
-    const topLeft = LatLngToXY([mapTopLeft.lat, mapTopLeft.lng], map);
-    const botRight = LatLngToXY([mapBotRight.lat, mapBotRight.lng], map);
-    svg.attr("width", botRight[0] - topLeft[0])
-      .attr("height", botRight[1] - topLeft[1])
-      .style("left", topLeft[0] + "px")
-      .style("top", topLeft[1] + "px");
-    g.attr("transform", `translate(${-topLeft[0]},${-topLeft[1]})`);
-    feature.attr("d", path);
+    features.attr("transform", d => `translate(${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
   }
-
 });
 
-d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
-  // return {
-  //   nom: data.nom,
-  //   latitude: +data.latitude,
-  //   longitude: +data.longitude,
-  //   type: data.type,
-  //   lien: data.lien
-  // };
-//},
+d3.csv("web-data/ice-facs_geocoded.csv", null,
   list => {
   // iterate over the list object
     list.forEach(place => {
@@ -146,15 +160,3 @@ function fillCard(mdFile, divId = "nav-tabs-body"){
     }
   });
 }
-
-// d3 functions
-function LatLngToXY(arr, map) {
-  var latLng = map.latLngToLayerPoint(new L.LatLng(arr[0], arr[1]));
-  return [latLng.x, latLng.y];
-}
-
-function projectPoint(x, y) {
-  const point = map.latLngToLayerPoint(new L.LatLng(y, x));
-  this.stream.point(point.x, point.y);
-}
-
