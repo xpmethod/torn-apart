@@ -37,39 +37,60 @@ L.control.layers(baseLayers).addTo(map);
 // These are only really messed with when calling reset();
 const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
   g = svg.append("g").attr("class", "leaflet-zoom-hide");
+  // const blackSites = [];
 
 d3.json("web-data/blacksites.json", (error, collection) => {
   if (error) throw error;
   // d3 is very clever w/ geojson (paths and transforms), but if we want
   // to simply take latlngs and make them into points we can 
   // subsequently build on, we have to get a bit craftier.
-  collection.features.forEach(feature => {
-    feature.LatLng = new L.LatLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
-  });
-  const features = g.selectAll("text")
-    .data(collection.features)
-    .enter().append("text")
-    .attr("text-anchor", "middle")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", "18")
-    .attr("fill", "#333")
-    .attr("id", d => d.properties.dco)
-    // .attr("opacity", 0.0)
-    .classed("dco", true)
-    .text(d => d.properties.dco);
+  const blackSites = [{}, {}, {}, {}];
+  // collection.features.forEach(feature => {
+  //   feature.LatLng = new L.LatLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
+  //   for(let i = 1; i <= feature.properties.count; i++) {
+  //     blackSites.push({dco: feature.properties.dco, latLng: feature.LatLng});
+  //   }
+  // });
+  // console.log(blackSites);
+  const simulation = d3.forceSimulation(blackSites)
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter($(window).width / 2, $(window).height / 2))
+    .on("tick", ticked);
 
-  // const 
+
+  // function ticked() {
+  //   var u = d3.select('svg')
+  //     .selectAll('circle')
+  //     .data(blackSites)
+
+  //   u.enter()
+  //     .append('circle')
+  //     .attr('r', 5)
+  //     .merge(u)
+  //     .attr('cx', function(d) {
+  //       return d.x
+  //     })
+  //     .attr('cy', function(d) {
+  //       return d.y
+  //     })
+
+  //   u.exit().remove()
+  // }
+  
+  // collection.features.forEach(feature => {
+  //   console.log("now drawing for", feature.properties.dco);
+  //   console.log("should be this many nodes:", feature.properties.count);
+  //   feature.LatLng = new L.LatLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
   //   const nodes = d3.range(feature.properties.count).map(() => { return {type: 1}; });
-  //   console.log(nodes.length);
-  //   console.log(feature.properties.dco);
   //   const dots = g.selectAll("circle")
   //     .data(nodes)
   //     .enter().append("circle")
+  //     .classed(feature.properties.dco, true)
   //     .attr("r", 5)
   //     .attr("fill", "#333");
   //   const simulation = d3.forceSimulation(nodes)
-  //     .force("charge", d3.forceCollide().radius(5))
-  //     .force("r", d3.forceRadial(10, map.latLngToLayerPoint(feature.LatLng).x, map.latLngToLayerPoint(feature.LatLng).y ))
+  //     .force("charge", d3.forceCollide().radius(10))
+  //     .force("r", d3.forceRadial(20, map.latLngToLayerPoint(feature.LatLng).x, map.latLngToLayerPoint(feature.LatLng).y ))
   //     .on("tick", ticked);
 
   //   function ticked() {
@@ -77,14 +98,31 @@ d3.json("web-data/blacksites.json", (error, collection) => {
   //       .attr("cy", d => d.y);
   //   }
   // });
+  // const features = g.selectAll("text")
+  //   .data(collection.features)
+  //   .enter().append("text")
+  //   .attr("text-anchor", "middle")
+  //   .attr("font-family", "sans-serif")
+  //   .attr("font-size", "18")
+  //   .attr("fill", "#333")
+  //   .attr("id", d => d.properties.dco)
+  //   // .attr("opacity", 0.0)
+  //   .classed("dco", true)
+  //   .text(d => d.properties.dco);
 
-  map.on("viewreset", reset());
-  map.on("zoomend", reset);
-  reset();
+  // const 
+  //   console.log(nodes.length);
+  //   console.log(feature.properties.dco);
 
-  function reset() {
-    features.attr("transform", d => `translate(${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
-  }
+  // });
+
+  // map.on("viewreset", reset());
+  // map.on("zoomend", reset);
+  // reset();
+
+  // function reset() {
+  //   features.attr("transform", d => `translate(${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
+  // }
 });
 
 d3.csv("web-data/ice-facs_geocoded.csv", null,
