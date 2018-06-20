@@ -33,10 +33,37 @@ L.control.layers(baseLayers).addTo(map);
 //     .addTo(map);
 // });
 
-// append an <svg> for d3 to play with.
-// const svg = d3.select(map.getPanes().overlayPane).append("svg"),
-//   g = svg.append("g").attr("class", "leaflet-zoom-hide");
+// Fire up the d3/svg engine.
+// These are only really messed with when calling reset();
+const svg = d3.select(map.getPanes().overlayPane).append("svg"),
+  g = svg.append("g").attr("class", "leaflet-zoom-hide"),
+  transform = d3.geoTransform({point: projectPoint}),
+  path = d3.geoPath().projection(transform);
 
+d3.json("web-data/blacksites.json", (error, collection) => {
+  if (error) throw error;
+  const feature = g.selectAll("path")
+    .data(collection.features)
+    .enter().append("path");
+
+  map.on("viewreset", reset);
+  map.on("zoomend", reset);
+  reset();
+
+  function reset() {
+    const mapTopLeft = map.getBounds().getNorthWest();
+    const mapBotRight = map.getBounds().getSouthEast();
+    const topLeft = LatLngToXY([mapTopLeft.lat, mapTopLeft.lng], map);
+    const botRight = LatLngToXY([mapBotRight.lat, mapBotRight.lng], map);
+    svg.attr("width", botRight[0] - topLeft[0])
+      .attr("height", botRight[1] - topLeft[1])
+      .style("left", topLeft[0] + "px")
+      .style("top", topLeft[1] + "px");
+    g.attr("transform", `translate(${-topLeft[0]},${-topLeft[1]})`);
+    feature.attr("d", path);
+  }
+
+});
 
 d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
   // return {
@@ -50,39 +77,36 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
   list => {
   // iterate over the list object
     list.forEach(place => {
-      if (place["Type"] === "ORR") {
-        const dcoffice = DCOs[place["DCO"]];
-        console.log(dcoffice);
+      let circleStyle;
+      if (place["Type.Detailed"] === "JUVENILE"){
+        circleStyle = {
+          color: "#0000dd",
+          fillColor: "#0000dd",
+          opacity: 0.4,
+          fillOpacity: 0.2
+        };
       } else {
-        let circleStyle;
-        if (place["Type.Detailed"] === "JUVENILE"){
-          circleStyle = {
-            color: "#0000dd",
-            fillColor: "#0000dd"
-          };
-        } else {
-          circleStyle = {
-            color: "#0000dd",
-            fillColor: "#0000dd",
-            fillOpacity: 0.1,
-            opacity: 0.1,
-            weight: 0,
-            radius: 4
-          };
-        }
-        if(!isNaN(place.lat)){
-          const lat = +place.lat;
-          const lng = +place.lon;
-          L.circleMarker([lat, lng], circleStyle
-          ).addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
-        }
+        circleStyle = {
+          color: "#0000dd",
+          fillColor: "#0000dd",
+          fillOpacity: 0.1,
+          opacity: 0.1,
+          weight: 0,
+          radius: 4
+        };
+      }
+      if(!isNaN(place.lat)){
+        const lat = +place.lat;
+        const lng = +place.lon;
+        L.circleMarker([lat, lng], circleStyle
+        ).addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+      }
       // Alternatively, we can use icons from font-awesome.
       // L.marker([place.latitude, place.longitude],
       //   { icon: L.divIcon(
       //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
       //   )}
       // ).bindTooltip(place.nom).addTo(map);
-      }
     });
   });
  
@@ -92,8 +116,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null, // data => {
   L.geoJSON(geojson[0], {
     pointToLayer(f, l) {
       if (geojson[0] === detention) {
-        const latlng = `${l.lat}${l.lng}`;
-        popup = `<div class="row"><div class="col-6"><h4>${f.properties["Name"]}</h4></div><div class="col-6"><img class="img-fluid" alt="${f.properties["Name"]} satellite photo" src="imgs/sat-${latlng}.png"></div></div>`;
+        const latlng = `${l.lat}${l.lng}`;popup = `<div class="row"><div class="col-6"><h4>${f.properties["Name"]}</h4></div><div class="col-6"><img class="img-fluid" alt="${f.properties["Name"]} satellite photo" src="imgs/sat-${latlng}.png"></div></div>`;
       } else {
         popup = `<h4>${f.properties["Name"]}</h4>`;
       }
@@ -124,7 +147,14 @@ function fillCard(mdFile, divId = "nav-tabs-body"){
   });
 }
 
-// function projectPoint(x, y) {
-//   const point = map.latLngToLayerPoint(new L.LatLng(y, x));
-//   this.stream.point(point.x, point.y);
-// }
+// d3 functions
+function LatLngToXY(arr, map) {
+  var latLng = map.latLngToLayerPoint(new L.LatLng(arr[0], arr[1]));
+  return [latLng.x, latLng.y];
+}
+
+function projectPoint(x, y) {
+  const point = map.latLngToLayerPoint(new L.LatLng(y, x));
+  this.stream.point(point.x, point.y);
+}
+

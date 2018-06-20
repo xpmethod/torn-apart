@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.848808,
+          39.783559
+        ]
+      },
+      "properties": {
+        "dco": "DEN",
+        "detloc": "DENHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005437,
+          40.728432
+        ]
+      },
+      "properties": {
+        "dco": "VRK",
+        "detloc": "VRK",
+        "count": "13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.312044,
+          29.95204
+        ]
+      },
+      "properties": {
+        "dco": "HOU",
+        "detloc": "HOUHOLD",
+        "count": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71681,
+          26.2002
+        ]
+      },
+      "properties": {
+        "dco": "HLG",
+        "detloc": "HLGHOLD",
+        "count": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.877725,
+          42.887987
+        ]
+      },
+      "properties": {
+        "dco": "BUF",
+        "detloc": "BUFHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.165295,
+          39.960012
+        ]
+      },
+      "properties": {
+        "dco": "PHI",
+        "detloc": "PHIHOLD",
+        "count": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.676087,
+          45.515284
+        ]
+      },
+      "properties": {
+        "dco": "POO",
+        "detloc": "POOHOLD",
+        "count": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.391956,
+          29.522121
+        ]
+      },
+      "properties": {
+        "dco": "SNA",
+        "detloc": "SNAHOLD",
+        "count": "13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.229338,
+          38.880675
+        ]
+      },
+      "properties": {
+        "dco": "WAS",
+        "detloc": "WASHOLD",
+        "count": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.401714,
+          37.796455
+        ]
+      },
+      "properties": {
+        "dco": "SFR",
+        "detloc": "SFRHOLD",
+        "count": "7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.87117,
+          32.82514
+        ]
+      },
+      "properties": {
+        "dco": "DAL",
+        "detloc": "DALHOLD",
+        "count": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.899887,
+          29.39471
+        ]
+      },
+      "properties": {
+        "dco": "DLR",
+        "detloc": "DLRHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.153735,
+          25.925868
+        ]
+      },
+      "properties": {
+        "dco": "MIA",
+        "detloc": "MIAHOLD",
+        "count": "17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.296675,
+          33.750491
+        ]
+      },
+      "properties": {
+        "dco": "LOS",
+        "detloc": "LOSHOLD",
+        "count": "7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.009676,
+          42.343346
+        ]
+      },
+      "properties": {
+        "dco": "DET",
+        "detloc": "DETHOLD",
+        "count": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.437893,
+          25.75506
+        ]
+      },
+      "properties": {
+        "dco": "KRO",
+        "detloc": "KRO",
+        "count": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292496,
+          47.492384
+        ]
+      },
+      "properties": {
+        "dco": "SEA",
+        "detloc": "SEAHOLD",
+        "count": "9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073702,
+          33.470625
+        ]
+      },
+      "properties": {
+        "dco": "PHO",
+        "detloc": "PHOHOLD",
+        "count": "22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.631811,
+          41.896627
+        ]
+      },
+      "properties": {
+        "dco": "CHI",
+        "detloc": "CHIHOLD",
+        "count": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.369373,
+          31.793411
+        ]
+      },
+      "properties": {
+        "dco": "EPC",
+        "detloc": "EPC",
+        "count": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.211469,
+          42.48526
+        ]
+      },
+      "properties": {
+        "dco": "BOS",
+        "detloc": "BOSHOLD",
+        "count": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.869687,
+          40.705141
+        ]
+      },
+      "properties": {
+        "dco": "SLC",
+        "detloc": "SLCHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.162631,
+          32.992938
+        ]
+      },
+      "properties": {
+        "dco": "SND",
+        "detloc": "SNDHOLD",
+        "count": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.683357,
+          39.256226
+        ]
+      },
+      "properties": {
+        "dco": "BAL",
+        "detloc": "BALHOLD",
+        "count": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.379447,
+          27.92485
+        ]
+      },
+      "properties": {
+        "dco": "TAM",
+        "detloc": "TAMHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.714329,
+          39.671492
+        ]
+      },
+      "properties": {
+        "dco": "NEW",
+        "detloc": "NEWHOLD",
+        "count": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003227,
+          40.714936
+        ]
+      },
+      "properties": {
+        "dco": "NYC",
+        "detloc": "NYCHOLD",
+        "count": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.369373,
+          31.793411
+        ]
+      },
+      "properties": {
+        "dco": "ELP",
+        "detloc": "ELPHOLD",
+        "count": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59675,
+          35.424242
+        ]
+      },
+      "properties": {
+        "dco": "OKC",
+        "detloc": "OKCHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073702,
+          33.470625
+        ]
+      },
+      "properties": {
+        "dco": "PIT",
+        "detloc": "PHOHOLD",
+        "count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39569,
+          33.747549
+        ]
+      },
+      "properties": {
+        "dco": "ATL",
+        "detloc": "ATLANGA",
+        "count": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.389464,
+          35.018129
+        ]
+      },
+      "properties": {
+        "dco": "HAR",
+        "detloc": "HARHOLD",
+        "count": "1"
+      }
+    }
+  ]
+}
