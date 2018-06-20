@@ -113,7 +113,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null,
         const lat = +place.lat;
         const lng = +place.lon;
         L.circleMarker([lat, lng], circleStyle
-        ).addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+        )//.addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
       }
       // Alternatively, we can use icons from font-awesome.
       // L.marker([place.latitude, place.longitude],
@@ -136,7 +136,7 @@ d3.csv("web-data/ice-facs_geocoded.csv", null,
       }
       return L.circleMarker(l, {fillColor: geojson[1], color: geojson[1]}).bindPopup(popup);
     }
-  }).addTo(map);
+  })//.addTo(map);
 });
 
 //////// TEXTUAL CONTENT
