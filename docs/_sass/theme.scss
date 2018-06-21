@@ -1,9 +1,32 @@
 // Color Brewer colors:
 $orange: #fc8d62;
 $green: #66c2a5;
+$midgreen: #41a485;
+$darkgreen: #3a9276;
 $purple: #8da0cb;
 $white: #ffffff;
 $faintwhite: rgba(255,255,255,.5);
+
+.btn-primary {
+  background-color: $green;
+  border-color: $green;
+}
+
+.btn-primary:hover {
+  background-color: $darkgreen;
+  border-color: $darkgreen;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(58, 146, 118, .5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: $midgreen;
+  border-color: $darkgreen;
+}
+
+
 
 @import "navbar";
 @import "leaflet";
