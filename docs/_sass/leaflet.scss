@@ -5,15 +5,31 @@
   top: 0;
 }
 
-  .leaflet-top {
-    top: 55px;
-  }
+.leaflet-container a {
+  color: $green;
+}
+
+.leaflet-top {
+  top: 60px;
+}
 
 .leaflet-div-icon {
   background: none;
   border: none;
   font-size: 250%;
 }
+
+.leaflet-bar a {
+  background-color: $green;
+  color: $faintwhite;
+  border-bottom: 1px solid $faintwhite;
+}
+
+.leaflet-bar a:hover {
+  background-color: $green;
+  color: $white;
+}
+
 
 #above-map {
   position: absolute;
