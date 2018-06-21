@@ -8,23 +8,55 @@
 // Fire up markdown
 // const md = markdownit({html: true}).use(markdownitFootnote);
 
-// Intialize the map as the variable "map"
-const map = L.map("mapdiv", { 
-  center: [0,0], 
-  zoom: 5, 
-  zoomSnap: 0.25
-});
-map.fitBounds([[24.396, -124.848974, 24.396308], [49.384, -66.885444]]);
-// const mapnik = L.tileLayer.provider("OpenStreetMap.Mapnik");
-const esri = L.tileLayer.provider("Esri.WorldImagery");
-// const baseLayers = {
-//   "ESRI World": esri,
-//   "OSM Mapnik": mapnik
-// };
-esri.addTo(map);
-if (L.Browser.mobile) {
-  map.removeControl(map.zoomControl);
-}
+$( document ).ready(() => {
+  
+  if($("#mapdiv").length > 0){
+    // Initialize map.
+    const map = L.map("mapdiv", { 
+      center: [0,0], 
+      zoom: 5, 
+      zoomSnap: 0.25
+    });
+    map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    L.tileLayer.provider("Esri.WorldImagery").addTo(map);
+    if (L.Browser.mobile) {
+      map.removeControl(map.zoomControl);
+    }
+    d3.csv("assets/data/ice-facs_geocoded.csv", null,
+      list => {
+      // iterate over the list object
+        list.forEach(place => {
+          const circleStyle = {
+            color: "#000",
+            fillColor: "#fc8d62",
+            opacity: 0.8
+          };
+          if (place["Type.Detailed"] === "JUVENILE"){
+            circleStyle.fillOpacity = 0.9;
+            circleStyle.fillColor = "#8da0cb";
+            circleStyle.radius = 8;
+            circleStyle.weight = 1;
+          } else {
+            circleStyle.fillOpacity = 0.8;
+            circleStyle.weight = 1;
+            circleStyle.radius = 4;
+          }
+          if(!isNaN(place.lat)){
+            const lat = +place.lat;
+            const lng = +place.lon;
+            L.circleMarker([lat, lng], circleStyle).addTo(map);
+            //.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+          }
+          // Alternatively, we can use icons from font-awesome.
+          // L.marker([place.latitude, place.longitude],
+          //   { icon: L.divIcon(
+          //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
+          //   )}
+          // ).bindTooltip(place.nom).addTo(map);
+        });
+      });
+     
+  }
 
 // Angrily show all the official ICE detention facilities they also map
 // OfficialICEDCs["features"].forEach( dc => {
@@ -127,45 +159,7 @@ d3.json("web-data/blacksites.json", (error, collection) => {
 });
 */
 
-/*
-d3.csv("web-data/ice-facs_geocoded.csv", null,
-  list => {
-  // iterate over the list object
-    list.forEach(place => {
-      let circleStyle;
-      if (place["Type.Detailed"] === "JUVENILE"){
-        circleStyle = {
-          color: "#0000dd",
-          fillColor: "#0000dd",
-          opacity: 0.4,
-          fillOpacity: 0.2
-        };
-      } else {
-        circleStyle = {
-          color: "#0000dd",
-          fillColor: "#0000dd",
-          fillOpacity: 0.1,
-          opacity: 0.1,
-          weight: 0,
-          radius: 4
-        };
-      }
-      if(!isNaN(place.lat)){
-        const lat = +place.lat;
-        const lng = +place.lon;
-        L.circleMarker([lat, lng], circleStyle
-        )//.addTo(map);//.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
-      }
-      // Alternatively, we can use icons from font-awesome.
-      // L.marker([place.latitude, place.longitude],
-      //   { icon: L.divIcon(
-      //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
-      //   )}
-      // ).bindTooltip(place.nom).addTo(map);
-    });
-  });
- */
- 
+
 /*
 // Now add the other layers.
 [[crossing, "#00dd00"], [detention, "#dd0000"]].forEach( geojson => {
@@ -182,3 +176,5 @@ d3.csv("web-data/ice-facs_geocoded.csv", null,
   })//.addTo(map);
 });
 */
+
+}); // close document.ready()
