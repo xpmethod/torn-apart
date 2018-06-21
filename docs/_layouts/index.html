@@ -7,14 +7,25 @@
     {% include navbar.html %}
   </div>
   <div class="d-none d-md-block">
+    <div id="navs">
     <nav id="index-nav" class="nav ml-2 mt-2">
-      <a id="visualizations-button" class="nav-link nav-item" href="visualizations.html">Visualizations</a>
+      <a id="visualizations-button" class="nav-link nav-item" href="visualizations.html#the-trap">Visualizations</a>
       <a id="textures-button" class="nav-link nav-item" href="textures.html">Textures</a>
       <a id="reflections-button" class="nav-link nav-item" href="reflections.html">Reflections</a>
       <a id="allies-button" class="nav-link nav-item" href="allies.html">Allies</a>
       <a id="bibliography-button" class="nav-link nav-item" href="bibliography.html">Bibliography</a>
       <a id="credits-button" class="nav-link nav-item" href="credits.html">Credits</a>
     </nav>
+      {% if page.permalink == "visualizations.html" %}
+        <nav id="visualizations-nav" class="nav ml-2">
+          <a id="the-trap-button" class="nav-link nav-item" href="#the-trap">The Trap</a>
+          <a id="detention-centers-button" class="nav-link nav-item" href="#detention-centers">Detention Centers</a>
+          <a id="the-eye-button" class="nav-link nav-item" href="#the-eye">The Eye</a>
+          <a id="charts-button" class="nav-link nav-item" href="#charts">Charts</a>
+          <a id="orr-button" class="nav-link nav-item" href="#orr">ORR</a>
+        </nav>
+      {% endif %}
+    </div>
   </div>
 </div>
 <div class="full-map" id="{{page.mapid}}">

@@ -3,7 +3,7 @@
 }
 
 
-#index-nav.nav { 
+#index-nav.nav, #visualizations-nav.nav { 
   a {
     border: 2px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
@@ -17,4 +17,8 @@
   a:hover, a.active {
     color: $white;
   }
+}
+
+#visualizations-nav.nav a.nav-link {
+  background-color: $orange;
 }
