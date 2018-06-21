@@ -1,0 +1,18 @@
+.bg-dark {
+  background-color: $green !important;
+}
+
+
+#index-nav.nav { 
+  a {
+    border-radius: .25rem;
+    color: $faintwhite; 
+    background-color: $green;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  a:hover {
+    color: $white;
+  }
+}

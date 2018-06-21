@@ -9,22 +9,22 @@
 // const md = markdownit({html: true}).use(markdownitFootnote);
 
 // Intialize the map as the variable "map"
-// This also hides the + / - zoom controls.
 const map = L.map("mapdiv", { 
   center: [0,0], 
-  //zoomControl: false,
   zoom: 5, 
   zoomSnap: 0.25
 });
 map.fitBounds([[24.396, -124.848974, 24.396308], [49.384, -66.885444]]);
-const mapnik = L.tileLayer.provider("OpenStreetMap.Mapnik");
+// const mapnik = L.tileLayer.provider("OpenStreetMap.Mapnik");
 const esri = L.tileLayer.provider("Esri.WorldImagery");
-const baseLayers = {
-  "ESRI World": esri,
-  "OSM Mapnik": mapnik
-};
+// const baseLayers = {
+//   "ESRI World": esri,
+//   "OSM Mapnik": mapnik
+// };
 esri.addTo(map);
-L.control.layers(baseLayers).addTo(map);
+if (L.Browser.mobile) {
+  map.removeControl(map.zoomControl);
+}
 
 // Angrily show all the official ICE detention facilities they also map
 // OfficialICEDCs["features"].forEach( dc => {

@@ -3,14 +3,19 @@
 {% include header.html %}
 <body>
 <div id="above-map">
-  <nav class="nav nav-pills m-3">
-    <a class="nav-link nav-item" href="visualizations.html">Visualizations</a>
-    <a class="nav-link nav-item" href="textures.html">Textures</a>
-    <a class="nav-link nav-item" href="reflections.html">Reflections</a>
-    <a class="nav-link nav-item" href="allies.html">Allies</a>
-    <a class="nav-link nav-item" href="bibliography.html">Bibliography</a>
-    <a class="nav-link nav-item" href="credits.html">Credits</a>
-  </nav>
+  <div class="d-md-none">
+    {% include navbar.html %}
+  </div>
+  <div class="d-none d-md-block">
+    <nav id="index-nav" class="nav m-3">
+      <a class="nav-link nav-item" href="visualizations.html">Visualizations</a>
+      <a class="nav-link nav-item" href="textures.html">Textures</a>
+      <a class="nav-link nav-item" href="reflections.html">Reflections</a>
+      <a class="nav-link nav-item" href="allies.html">Allies</a>
+      <a class="nav-link nav-item" href="bibliography.html">Bibliography</a>
+      <a class="nav-link nav-item" href="credits.html">Credits</a>
+    </nav>
+  </div>
 </div>
 <div id="mapdiv">
 </div>
