@@ -13,10 +13,6 @@ $( document ).ready(() => {
   const orange = "#fc8d62";
   const purple = "#8da0cb";
 
-  if($("#indexModal").length){
-    $("#indexModal").modal("show");
-  }
-
   if($("#border-buffer").length){
     const map = initMap("border-buffer");
     $.getJSON("assets/data/7.5mi.geojson", geojson => {
@@ -33,6 +29,8 @@ $( document ).ready(() => {
   }
   
   if($("#mapdiv").length){
+    // #mapdiv is only on index, so…
+    $("#indexModal").modal("show");
     const map = initMap("mapdiv");
     d3.csv("assets/data/ice-facs_geocoded.csv", null,
       list => {
@@ -202,7 +200,7 @@ function initMap(mapid){
   if (L.Browser.mobile) {
     map.removeControl(map.zoomControl);
   }
-  $(".leaflet-top").css("margin-top", `${$("#index-nav").height()}px`);
+  $(".leaflet-top").css("margin-top", `${$("#navs").height()}px`);
   return map;
 }
 
