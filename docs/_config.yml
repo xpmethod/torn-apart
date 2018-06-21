@@ -17,8 +17,8 @@ title: Torn Apart
 email: torn-apart@moacir.moacir.com
 description: >- # this means to ignore newlines until "baseurl:"
   Torn Apart description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/torn-apart" # the subpath of your site, e.g. /blog
+url: "http://xpmethod.plaintext.in" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
