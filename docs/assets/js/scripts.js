@@ -9,8 +9,12 @@
 // const md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
+
+  if($("#indexModal").length){
+    $("#indexModal").modal("show");
+  }
   
-  if($("#mapdiv").length > 0){
+  if($("#mapdiv").length){
     // Initialize map.
     const map = L.map("mapdiv", { 
       center: [0,0], 
