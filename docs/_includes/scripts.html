@@ -18,4 +18,16 @@
     <script src="{{ site.baseurl }}/assets/js/detention.js"></script>
     <script src="{{ site.baseurl }}/assets/js/constants.js"></script>
     <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+    {% if page.active %}
+      <script>
+        $("#{{ page.active }}").addClass("active");
+      </script>
+    {% elsif page.permalink %}
+      <script>
+        $("#nav-{{ page.permalink | replace: ".html", ""}}").addClass("active");
+      </script>
+    {% else %}
+    {% endif %}
+
+
 
