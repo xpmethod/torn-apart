@@ -1,5 +1,6 @@
 ---
 layout: index
+mapid: mapdiv
 ---
 
 # Torn Apart

@@ -15,17 +15,7 @@ $( document ).ready(() => {
   }
   
   if($("#mapdiv").length){
-    // Initialize map.
-    const map = L.map("mapdiv", { 
-      center: [0,0], 
-      zoom: 5, 
-      zoomSnap: 0.25
-    });
-    map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    L.tileLayer.provider("Esri.WorldImagery").addTo(map);
-    if (L.Browser.mobile) {
-      map.removeControl(map.zoomControl);
-    }
+    const map = initMap("mapdiv");
     d3.csv("assets/data/ice-facs_geocoded.csv", null,
       list => {
       // iterate over the list object
@@ -182,3 +172,18 @@ d3.json("web-data/blacksites.json", (error, collection) => {
 */
 
 }); // close document.ready()
+
+function initMap(mapid){
+  const map = L.map(mapid, { 
+    center: [0,0], 
+    zoom: 5, 
+    zoomSnap: 0.25
+  });
+  map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+  L.tileLayer.provider("Esri.WorldImagery").addTo(map);
+  if (L.Browser.mobile) {
+    map.removeControl(map.zoomControl);
+  }
+  return map;
+}
+
