@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.497278,
-          25.899196
+          -97.496978,
+          25.899143
         ]
       },
       "properties": {
@@ -33,8 +33,26 @@
         "City": "Brownsville",
         "State": "Texas",
         "County": "Cameron",
-        "Address": "",
+        "Address": "500 East Gateway Bridge, Brownsville, Texas 78520",
         "Sources": "https://www.mexpro.com/blog/cross-u-s-mexican-border-arizona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.505497,
+          25.89329
+        ]
+      },
+      "properties": {
+        "Name": "Brownsville and Matamoros International Bridge",
+        "City": "Brownsville",
+        "State": "Texas",
+        "County": "Cameron",
+        "Address": "1300 West Mexico Street, Brownsville, Texas 78520",
+        "Sources": "https://www.mexpro.com/blog/cross-new-mexicomexican-border"
       }
     },
     {
@@ -48,11 +66,11 @@
       },
       "properties": {
         "Name": "Los Indios International Bridge",
-        "City": "San Benito",
+        "City": "Los Indios",
         "State": "Texas",
         "County": "Cameron",
-        "Address": "Free Trade Bridge, San Benito, TX 78586",
-        "Sources": "https://www.mexpro.com/blog/cross-new-mexicomexican-border"
+        "Address": "100 Puente Internacional Libre Comercio Lucio Blanco, Los Indios, TX 78567",
+        "Sources": "https://www.google.com/maps/"
       }
     },
     {
@@ -70,7 +88,7 @@
         "State": "Texas",
         "County": "Hidalgo",
         "Address": "8000 S., International Blvd, Donna, TX 78537",
-        "Sources": ""
+        "Sources": "https://en.wikipedia.org/wiki/List_of_Mexico%E2%80%93United_States_border_crossings#Texas%E2%80%93Tamaulipas"
       }
     },
     {
@@ -88,7 +106,7 @@
         "State": "Texas",
         "County": "Hidalgo",
         "Address": "9900 S Cage Blvd, Pharr, TX 78577",
-        "Sources": ""
+        "Sources": "https://www.cbp.gov/contact/ports"
       }
     },
     {
@@ -160,7 +178,7 @@
         "State": "Texas",
         "County": "Starr",
         "Address": "FM 2098 Spur, Falcon Heights, Texas 78545",
-        "Sources": "https://en.wikipedia.org/wiki/List_of_Mexico%E2%80%93United_States_border_crossings#Texas%E2%80%93Tamaulipas"
+        "Sources": ""
       }
     },
     {
@@ -178,24 +196,6 @@
         "State": "Texas",
         "County": "Starr",
         "Address": "405 N. Estrella St., Suite B. Roma, TX 78584",
-        "Sources": "https://www.cbp.gov/contact/ports"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.918164,
-          29.334091
-        ]
-      },
-      "properties": {
-        "Name": "Del Rio Port of Entry",
-        "City": "Del Rio",
-        "State": "Texas",
-        "County": "Val Verde",
-        "Address": "3140 Spur 239, International Bridge. Del Rio, TX 78840",
         "Sources": ""
       }
     },
@@ -214,6 +214,24 @@
         "State": "Texas",
         "County": "Hidalgo",
         "Address": "200 Flores St, Los Ebanos, TX 78565",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.949167,
+          26.061944
+        ]
+      },
+      "properties": {
+        "Name": "Progreso - Nuevo Progeso International Bridge",
+        "City": "Progreso",
+        "State": "Texas",
+        "County": "Hidalgo",
+        "Address": "100 South International Boulevard. Progreso, TX 78579",
         "Sources": ""
       }
     },
@@ -263,7 +281,7 @@
         ]
       },
       "properties": {
-        "Name": "World Trade Bridge #3",
+        "Name": "World Trade Bridge #4",
         "City": "Laredo",
         "State": "Texas",
         "County": "Webb",
@@ -281,7 +299,7 @@
         ]
       },
       "properties": {
-        "Name": "Laredo Colombia Solidarity International Bridge Bridge #4",
+        "Name": "Laredo Colombia Solidarity International Bridge Bridge #3",
         "City": "Laredo",
         "State": "Texas",
         "County": "Webb",
@@ -299,10 +317,10 @@
         ]
       },
       "properties": {
-        "Name": "Eagle Pass International Bridge I",
-        "City": "",
+        "Name": "Eagle Pass-Piedras Negras International Bridge ",
+        "City": "Eagle Pass",
         "State": "Texas",
-        "County": "Eagle Pass",
+        "County": "Maverick ",
         "Address": "160 E Garrison St, Eagle Pass, TX 78852",
         "Sources": ""
       }
@@ -312,15 +330,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.917931,
-          29.334519
+          -100.506411,
+          28.698328
         ]
       },
       "properties": {
-        "Name": "Del Río-Ciudad Acuña",
-        "City": "",
+        "Name": "Camino Real International Bridge",
+        "City": "Eagle Pass",
         "State": "Texas",
-        "County": "Del Río",
+        "County": "Maverick ",
+        "Address": "500 S. Adams Street, Eagle Pass, Texas 78852",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.918164,
+          29.334091
+        ]
+      },
+      "properties": {
+        "Name": "Del Río-Ciudad Acuña International Bridge",
+        "City": "Del Río",
+        "State": "Texas",
+        "County": "Val Verde",
         "Address": "3140 State Loop 239, Del Rio, TX 78840",
         "Sources": ""
       }
@@ -330,16 +366,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.060862,
-          29.453381
+          -101.054365,
+          29.449856
         ]
       },
       "properties": {
-        "Name": "* Puente Internacional Presa la Amistad",
-        "City": "",
-        "State": "Coahuila",
-        "County": "Del Río",
-        "Address": "Highway 2, Del Rio, Coah.",
+        "Name": "Puente Internacional Presa la Amistad",
+        "City": "Del Río",
+        "State": "Texas",
+        "County": "Val Verde",
+        "Address": "Spur 349, Del Rio, Texas 78840",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.946545,
+          29.190093
+        ]
+      },
+      "properties": {
+        "Name": "Boquillas Port of Entry",
+        "City": "Big Ben National Park",
+        "State": "Texas",
+        "County": "Brewster",
+        "Address": "Big Bend National Park, Big Bend, Texas79834",
         "Sources": ""
       }
     },
@@ -353,10 +407,10 @@
         ]
       },
       "properties": {
-        "Name": "Presidio-Ojinaga Port of Entry",
-        "City": "",
+        "Name": "Presidio-Ojinaga International Bridge",
+        "City": "Presidio",
         "State": "Texas",
-        "County": "Presidio",
+        "County": "Marfa",
         "Address": "4902 US-67, Presidio, TX 79845",
         "Sources": ""
       }
@@ -371,10 +425,10 @@
         ]
       },
       "properties": {
-        "Name": "Fort Hancock Port of Entry",
-        "City": "",
+        "Name": "Fort Hancock-El Porvenir International Bridge",
+        "City": "Fort Hancock",
         "State": "Texas",
-        "County": "Fort Hancock",
+        "County": "Hudspeth",
         "Address": "828 South HWY 1088, Fort Hancock, TX 79839",
         "Sources": ""
       }
@@ -390,9 +444,9 @@
       },
       "properties": {
         "Name": "Tornillo-Guadalupe International Bridge",
-        "City": "",
+        "City": "Tornillo",
         "State": "Texas",
-        "County": "Tornillo",
+        "County": "El Paso",
         "Address": "18051 Island Guadalupe Rd, Fabens, TX 79838",
         "Sources": ""
       }
@@ -408,7 +462,7 @@
       },
       "properties": {
         "Name": "Ysleta-Zaragoza International Bridge",
-        "City": "",
+        "City": "Ysleta",
         "State": "Texas",
         "County": "El Paso",
         "Address": "797 S Zaragoza Rd, El Paso, TX 79927",
@@ -425,8 +479,8 @@
         ]
       },
       "properties": {
-        "Name": "Cordova Bridge of the Americas International Bridge",
-        "City": "",
+        "Name": "Cordova- Bridge of the Americas ",
+        "City": "El Paso",
         "State": "Texas",
         "County": "El Paso",
         "Address": "3600 E Paisano Dr, El Paso, TX 79905",
@@ -444,7 +498,7 @@
       },
       "properties": {
         "Name": "Paso del Norte International Bridge",
-        "City": "",
+        "City": "El Paso",
         "State": "Texas",
         "County": "El Paso",
         "Address": "1011-1083 S El Paso St, El Paso, TX 79901",
@@ -461,8 +515,8 @@
         ]
       },
       "properties": {
-        "Name": "Santa Fe Port of Entry",
-        "City": "",
+        "Name": "El Paso-Staton Bridge",
+        "City": "El Paso",
         "State": "Texas",
         "County": "El Paso",
         "Address": "S Stanton St, El Paso, TX 79901",
@@ -480,9 +534,9 @@
       },
       "properties": {
         "Name": "Santa Teresa-San Jerónimo Border",
-        "City": "",
+        "City": "Santa Teresa",
         "State": "New Mexico",
-        "County": "Santa Teresa",
+        "County": "Doña Ana",
         "Address": "170 Pete V Domenici Hwy, Santa Teresa, NM 88008",
         "Sources": ""
       }
@@ -498,9 +552,9 @@
       },
       "properties": {
         "Name": "Columbus-Puerto Palomas International Bridge",
-        "City": "",
+        "City": "Columbus",
         "State": "New Mexico",
-        "County": "Columbus",
+        "County": "Luna",
         "Address": "NM-11, Mile Marker 0, Columbus, NM 88029",
         "Sources": ""
       }
@@ -516,9 +570,9 @@
       },
       "properties": {
         "Name": "Antelope Wells-El Berrendo International Bridge",
-        "City": "",
+        "City": "Hachita",
         "State": "New Mexico",
-        "County": "Hachita ",
+        "County": "Grand",
         "Address": "NM-81, Hachita, NM 88040",
         "Sources": ""
       }
@@ -536,7 +590,7 @@
         "Name": "Raul H. Castro Douglas-Agua Prieta Port of Entry",
         "City": "Douglas",
         "State": "Arizona",
-        "County": "",
+        "County": "Cochise",
         "Address": "1st St & Pan American Avenue, Douglas, AZ 85607",
         "Sources": ""
       }
@@ -554,7 +608,7 @@
         "Name": "Naco Port of Entry",
         "City": "Naco",
         "State": "Arizona",
-        "County": "",
+        "County": "Cochise",
         "Address": "3867 S Towner Ave, Naco, AZ 85620",
         "Sources": ""
       }
@@ -564,16 +618,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.942758,
-          31.332831
+          -110.942873,
+          31.333417
         ]
       },
       "properties": {
         "Name": "Nogales-Morley Gate Port of Entry",
         "City": "Nogales",
         "State": "Arizona",
-        "County": "",
-        "Address": "9 N Grand Ave, Nogales, AZ 85621",
+        "County": "Santa Cruz",
+        "Address": "Calle Internacional, Buenos Aires Oeste, 85621 Nogales, AZ, Mexico",
         "Sources": ""
       }
     },
@@ -590,8 +644,26 @@
         "Name": "Nogales-Mariposa Port of Entry",
         "City": "Nogales",
         "State": "Arizona",
-        "County": "",
+        "County": "Santa Cruz",
         "Address": "121-209 N Mariposa Rd, Nogales, AZ 85621",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.94253,
+          31.332964
+        ]
+      },
+      "properties": {
+        "Name": "Nogales-Grand Avenue Port of Entry",
+        "City": "Nogales",
+        "State": "Arizona",
+        "County": "Santa Cruz",
+        "Address": "9 N Grand Ave, Nogales, AZ 85621",
         "Sources": ""
       }
     },
@@ -608,7 +680,7 @@
         "Name": "Sasabe Port of Entry",
         "City": "Sasabe",
         "State": "Arizona",
-        "County": "",
+        "County": "Pima",
         "Address": "South Sasabe Highway, Sasabe, AZ 85633",
         "Sources": ""
       }
@@ -626,7 +698,7 @@
         "Name": "Lukeville-Sonoyta Port of Entry",
         "City": "Lukeville",
         "State": "Arizona",
-        "County": "",
+        "County": "Pima",
         "Address": "190 AZ-85, Lukeville, AZ 85341",
         "Sources": ""
       }
@@ -644,7 +716,7 @@
         "Name": "San Luis  Port of Entry",
         "City": "San Luis",
         "State": "Arizona",
-        "County": "",
+        "County": "Yuma",
         "Address": "431 Main St, San Luis, AZ 85349",
         "Sources": ""
       }
@@ -662,7 +734,7 @@
         "Name": "San Luis II Port of Entry",
         "City": "Somerton",
         "State": "Arizona",
-        "County": "",
+        "County": "Yuma",
         "Address": "Somerton, AZ 85350",
         "Sources": ""
       }
@@ -680,7 +752,7 @@
         "Name": "Andrade Port of Entry",
         "City": "Andrade",
         "State": "California",
-        "County": "",
+        "County": "Imperial",
         "Address": "235 Andrade Rd, Winterhaven, CA 92283",
         "Sources": ""
       }
@@ -695,10 +767,10 @@
         ]
       },
       "properties": {
-        "Name": "Calexico East Port of Entry",
+        "Name": "Calexico East/West Port of Entry",
         "City": "Calexico",
         "State": "California",
-        "County": "",
+        "County": "Imperial",
         "Address": "1699 East Carr Rd, Calexico, CA 92231",
         "Sources": ""
       }
@@ -716,7 +788,7 @@
         "Name": "Tecate Port of Entry",
         "City": "Tecate",
         "State": "California",
-        "County": "",
+        "County": "San Diego",
         "Address": "405 Tecate Rd, Tecate, CA 91980",
         "Sources": ""
       }
@@ -734,7 +806,7 @@
         "Name": "Otay Mesa Port of Entry",
         "City": "Otay",
         "State": "California",
-        "County": "",
+        "County": "San Diego",
         "Address": "9777 Via De La Amistad, San Diego, CA 92154",
         "Sources": ""
       }
@@ -752,8 +824,62 @@
         "Name": "Cross Border Terminal, Tijuana International Airport",
         "City": "Otay",
         "State": "California",
-        "County": "",
+        "County": "San Diego",
         "Address": "2745 Otay Pacific Drive, San Diego, CA 92154",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.033318,
+          32.543679
+        ]
+      },
+      "properties": {
+        "Name": "San Ysidro Pedestrian Border Crossing",
+        "City": "San Ysidro",
+        "State": "California",
+        "County": "San Diego",
+        "Address": "5165 Camino De La Plaza, San Diego, CA 92173",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.029229,
+          32.544147
+        ]
+      },
+      "properties": {
+        "Name": "San Ysidro Land Port of Entry",
+        "City": "San Ysidro",
+        "State": "California",
+        "County": "San Diego",
+        "Address": "San Diego, CA 92173",
+        "Sources": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.035953,
+          32.542212
+        ]
+      },
+      "properties": {
+        "Name": "PedWest US",
+        "City": "San Diego",
+        "State": "California",
+        "County": "San Diego",
+        "Address": "499 Virginia Ave, San Diego, CA 92173",
         "Sources": ""
       }
     }

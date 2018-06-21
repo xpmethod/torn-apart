@@ -10,8 +10,26 @@
 
 $( document ).ready(() => {
 
+  const orange = "#fc8d62";
+  const purple = "#8da0cb";
+
   if($("#indexModal").length){
     $("#indexModal").modal("show");
+  }
+
+  if($("#border-buffer").length){
+    const map = initMap("border-buffer");
+    $.getJSON("assets/data/7.5mi.geojson", geojson => {
+      const bufferLayer = L.geoJSON(geojson, { 
+        style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
+      }).addTo(map);
+      map.fitBounds(bufferLayer.getBounds());
+    });
+    $.getJSON("assets/data/points-of-entry.json", geojson => {
+      L.geoJSON(geojson, {
+        pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
+      }).addTo(map);
+    });
   }
   
   if($("#mapdiv").length){
@@ -22,12 +40,12 @@ $( document ).ready(() => {
         list.forEach(place => {
           const circleStyle = {
             color: "#000",
-            fillColor: "#fc8d62",
+            fillColor: orange,
             opacity: 0.8
           };
           if (place["Type.Detailed"] === "JUVENILE"){
             circleStyle.fillOpacity = 0.9;
-            circleStyle.fillColor = "#8da0cb";
+            circleStyle.fillColor = purple;
             circleStyle.radius = 8;
             circleStyle.weight = 1;
           } else {
@@ -184,6 +202,7 @@ function initMap(mapid){
   if (L.Browser.mobile) {
     map.removeControl(map.zoomControl);
   }
+  $(".leaflet-top").css("margin-top", `${$("#index-nav").height()}px`);
   return map;
 }
 
