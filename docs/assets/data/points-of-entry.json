@@ -1,4 +1,4 @@
-const crossing = {
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -758,4 +758,4 @@ const crossing = {
       }
     }
   ]
-};
+}
