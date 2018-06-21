@@ -1,0 +1,21 @@
+#mapdiv {
+  height: 100vh; //calc(100vh - 56px);
+  position: absolute;
+  width: 100vw;
+  top: 0;
+}
+
+.leaflet-top {
+  top: 55px;
+}
+
+.leaflet-div-icon {
+  background: none;
+  border: none;
+  font-size: 250%;
+}
+
+#above-map {
+  position: absolute;
+  z-index: 1000;
+}

@@ -6,24 +6,24 @@
 // d3 available as d3
 
 // Fire up markdown
-const md = markdownit({html: true}).use(markdownitFootnote);
+// const md = markdownit({html: true}).use(markdownitFootnote);
 
 // Intialize the map as the variable "map"
 // This also hides the + / - zoom controls.
 const map = L.map("mapdiv", { 
   center: [0,0], 
+  //zoomControl: false,
   zoom: 5, 
-  zoomSnap: 0.25, 
-  zoomControl: false 
+  zoomSnap: 0.25
 });
 map.fitBounds([[24.396, -124.848974, 24.396308], [49.384, -66.885444]]);
 const mapnik = L.tileLayer.provider("OpenStreetMap.Mapnik");
 const esri = L.tileLayer.provider("Esri.WorldImagery");
 const baseLayers = {
-  "OSM Mapnik": mapnik,
-  "ESRI World": esri
+  "ESRI World": esri,
+  "OSM Mapnik": mapnik
 };
-mapnik.addTo(map);
+esri.addTo(map);
 L.control.layers(baseLayers).addTo(map);
 
 // Angrily show all the official ICE detention facilities they also map
@@ -35,10 +35,11 @@ L.control.layers(baseLayers).addTo(map);
 
 // Fire up the d3/svg engine.
 // These are only really messed with when calling reset();
-const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
-  g = svg.append("g").attr("class", "leaflet-zoom-hide");
+// const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
+//   g = svg.append("g").attr("class", "leaflet-zoom-hide");
   // const blackSites = [];
 
+  /*
 d3.json("web-data/blacksites.json", (error, collection) => {
   if (error) throw error;
   // d3 is very clever w/ geojson (paths and transforms), but if we want
@@ -124,7 +125,9 @@ d3.json("web-data/blacksites.json", (error, collection) => {
   //   features.attr("transform", d => `translate(${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
   // }
 });
+*/
 
+/*
 d3.csv("web-data/ice-facs_geocoded.csv", null,
   list => {
   // iterate over the list object
@@ -161,7 +164,9 @@ d3.csv("web-data/ice-facs_geocoded.csv", null,
       // ).bindTooltip(place.nom).addTo(map);
     });
   });
+ */
  
+/*
 // Now add the other layers.
 [[crossing, "#00dd00"], [detention, "#dd0000"]].forEach( geojson => {
   let popup;
@@ -176,25 +181,4 @@ d3.csv("web-data/ice-facs_geocoded.csv", null,
     }
   })//.addTo(map);
 });
-
-//////// TEXTUAL CONTENT
-// 
-// Use jQuery & Markdown to manipulate the html elements.
-$("#card-header-text").html("<strong>Frontera Crisis</strong>");
-
-// on load…
-fillCard("welcome");
-
-$(".nav-tab").click(function(){
-  $(".nav-tab").removeClass("active");
-  $(this).addClass("active");
-  fillCard($(this).data("file"));
-});
-
-function fillCard(mdFile, divId = "nav-tabs-body"){
-  $.ajax({ url: `markdown-files/${mdFile}.md`,
-    success(markdown) {
-      $(`#${divId}`).html(md.render(markdown));
-    }
-  });
-}
+*/
