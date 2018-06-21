@@ -9,8 +9,12 @@
   color: $green;
 }
 
-.leaflet-top {
-  top: 60px;
+.leaflet-top .leaflet-control {
+  margin-top: 60px;
+}
+
+.leaflet-left .leaflet-control {
+  margin-left: .5rem;
 }
 
 .leaflet-div-icon {
