@@ -14,6 +14,7 @@ $.i18n().load({
     "ta-credits": "Credits",
     "ta-the-trap": "The Trap",
     "ta-detention-centers": "Detention Centers",
+    "ta-detention-ctrs": "Detention Ctrs",
     "ta-the-eye": "The Eye",
     "ta-charts": "Charts",
     "ta-orr": "ORR"
@@ -27,6 +28,7 @@ $.i18n().load({
     "ta-credits": "Créditos",
     "ta-the-trap": "The Trap",
     "ta-detention-centers": "Detention Centers",
+    "ta-detention-ctrs": "Detention Ctrs",
     "ta-the-eye": "el Ojo",
     "ta-charts": "Charts",
     "ta-orr": "ORR"
