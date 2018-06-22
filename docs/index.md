@@ -5,4 +5,4 @@ mapid: mapdiv
 
 ### Torn Apart Project/ Proyecto Destruyendo
 
-A rapidly deployed critical data & visualization intervention in the "Trump administration family separation policy" of 2018 and the humanitarian crisis that has followed. ##Separados #TornApart ![@elotroalex](http://i.imgur.com/tXSoThF.png)
+A rapidly deployed critical data & visualization intervention in the "Trump administration family separation policy" of 2018 and the humanitarian crisis that has followed. ##Separados #TornApart ![](http://i.imgur.com/tXSoThF.png)
