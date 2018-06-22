@@ -28,6 +28,10 @@
     {% if page.mapid == "visualizations-mapdiv" %}
       <script src="{{ site.baseurl }}/assets/js/buffer.js"></script>
     {% endif %}
+    {% if page.mapid %}
+      <script src="{{ site.baseurl }}/assets/js/iceFacs.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/detCtrs.js"></script>
+    {% endif %}
     <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
     {% if page.active %}
       <script>

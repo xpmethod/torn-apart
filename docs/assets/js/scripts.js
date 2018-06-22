@@ -1,10 +1,11 @@
-/* global bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
 // Markdown-it available as markdownit
 // d3 available as d3
 
+var map;
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 
@@ -16,12 +17,17 @@ $( document ).ready(() => {
   update_texts();
 
   if($("#visualizations-mapdiv").length){
-    const map = initMap("visualizations-mapdiv");
-    const detentionCenters = L.layerGroup();
-    buildIndexMap(map, detentionCenters);
-    const bufferLayer = buildBufferLayer(map);
-    console.log(bufferLayer);
-    // map.fitBounds(bufferLayer.getBounds());
+    map = initMap("visualizations-mapdiv");
+    const theViz = window.location.href.replace(/^.*#/, "");
+    $("[href='#" + theViz + "']").addClass("active");
+    const bufferLayer = buildBufferLayer();
+    const detentionCentersLayer = buildPointsLayer();
+    showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
+    $(".viz-button").click(function() {
+      $(".viz-button").removeClass("active");
+      $( this ).addClass("active");
+      showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
+    });
 
   }
   
@@ -29,7 +35,8 @@ $( document ).ready(() => {
     // #mapdiv is only on index, so… show the modal.
     $("#indexModal").modal("show");
     const map = initMap("mapdiv");
-    buildIndexMap(map);
+    const pointsLayer = buildPointsLayer();
+    pointsLayer.addTo(map);
   }
 
   // Fire up the d3/svg engine.
@@ -188,57 +195,67 @@ function update_texts() {
   $("body").i18n();
 }
 
-function buildIndexMap(map, layer = nil) {
-  d3.csv("assets/data/ice-facs_geocoded.csv", null, list => {
-    let indexLayer;
-    if(layer){
-      indexLayer = layer
+function buildPointsLayer() {
+  const indexLayer = L.layerGroup();
+  const iceFacsLayer = L.layerGroup();
+  const detCtrsLayer = L.layerGroup();
+  // iterate over the list object
+  iceFacs.forEach(place => {
+    let population = "";
+    let radius;
+    if (+place.adpSum > 0){
+      radius = 8;
+      population = `<br /><strong>Avg. Daily ICE Pop.:</strong> ${place["FY18.ADP"]}, 
+      <strong>Max Pop.:</strong> ${place["FY18.Max.Population.Count"]}`;
     } else {
-      indexLayer = L.layerGroup();
+      radius = 4;
     }
-    // iterate over the list object
-    list.forEach(place => {
-      let juvenileText;
-      if (place["Type.Detailed"] === "JUVENILE"){
-        juvenileText = "<h5>Juvenile Facility</h5>";
-      } else {
-        juvenileText = "";
-      }
-      const popup = `<div class="media">
-      <img height="150" width="150" data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="popup-image mr-3" 
-      src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
-      <div class="media-body">
-      <h5>${place["Name"]}</h5>
-      ${juvenileText}
-      ${place["City"]}, ${place["State"]}
-      </div>
-      `;
-      const circleStyle = {
-        color: "#000",
-        fillColor: orange,
-        opacity: 0.8
-      };
-      if (place["Type.Detailed"] === "JUVENILE"){
-        circleStyle.fillOpacity = 0.9;
-        circleStyle.fillColor = purple;
-        circleStyle.radius = 8;
-        circleStyle.weight = 1;
-      } else {
-        circleStyle.fillOpacity = 0.8;
-        circleStyle.weight = 1;
-        circleStyle.radius = 4;
-      }
-      if(!isNaN(place.lat)){
-        const lat = +place.lat;
-        const lng = +place.lon;
-        indexLayer.addLayer(L.circleMarker([lat, lng], circleStyle).bindPopup(popup));
-      }
-    });
-    indexLayer.addTo(map);
+    const popup = `<div class="media">
+    <img height="150" width="150" class="popup-image mr-3" 
+    src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+    <div class="media-body">
+    <h5>${place["Name"]}</h5>
+    ${place["City"]}, ${place["State"]}
+    ${population}
+    </div>
+    `;
+    if(!isNaN(place.lat)){
+      const circle = buildCircle(place, radius, orange);
+      iceFacsLayer.addLayer(circle.bindPopup(popup));
+    }
   });
+  detCtrs.forEach(place => {
+    const popup = `<div class="media">
+    <img height="150" width="150" class="popup-image mr-3" 
+    src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+    <div class="media-body">
+    <h5>${place["Name"]}</h5>
+    ${place["State"]}
+    </div>
+    `;
+    if(!isNaN(place.lat)){
+      const circle = buildCircle(place, 6, purple);
+      detCtrsLayer.addLayer(circle.bindPopup(popup));
+    }
+  });
+  return indexLayer.addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+}
+
+function buildCircle(place, radius = 4, color = orange){
+  const circleStyle = {
+    weight: 1,
+    radius: radius,
+    color: "#000",
+    fillColor: color,
+    fillOpacity: 0.8,
+    opacity: 0.8
+  };
+  const lat = +place.lat;
+  const lng = +place.lon;
+  return L.circleMarker([lat, lng], circleStyle);
 }
    
-function buildBufferLayer(map){
+function buildBufferLayer(){
   const layer = L.layerGroup();
   const buffer = L.geoJSON(bufferGeoJSON, { 
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
@@ -246,5 +263,27 @@ function buildBufferLayer(map){
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
     pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
   });
-  return layer.addLayer(buffer).addLayer(pointsOfEntry).addTo(map);
+  return layer.addLayer(buffer).addLayer(pointsOfEntry);
+}
+
+function showViz(viz, map, layers){
+  switch (viz) {
+  case "the-trap":
+    layers[0].addTo(map);
+    map.removeLayer(layers[1]);
+    map.fitBounds(layers[0].getBounds());
+    break;
+  case "the-eye":
+    // map.eachLayer( layer => layer.remove() );
+    // map.addLayer(layers[1]);
+    break;
+  case "charts":
+    break;
+  case "detention-centers":
+    layers[1].addTo(map);
+    map.removeLayer(layers[0]);
+    break;
+  case "orr":
+    break;
+  }
 }
