@@ -1,4 +1,4 @@
-/* global iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -197,19 +197,25 @@ function update_texts() {
 
 function buildPointsLayer() {
   const indexLayer = L.layerGroup();
+  const zeroIceFacsLayer = L.layerGroup();
   const iceFacsLayer = L.layerGroup();
   const detCtrsLayer = L.layerGroup();
+  let defaultRadius;
+  if (L.Browser.mobile) {
+    defaultRadius = 4;
+  } else {
+    defaultRadius = $( window ).width() / 250;
+  }
   // iterate over the list object
-  iceFacs.forEach(place => {
-    let population = "";
-    let radius;
-    if (+place.adpSum > 0){
-      radius = 8;
-      population = `<br /><strong>Avg. Daily ICE Pop.:</strong> ${place["FY18.ADP"]}, 
-      <strong>Max Pop.:</strong> ${place["FY18.Max.Population.Count"]}`;
-    } else {
-      radius = 4;
+  zeroIceFacs.forEach(place => {
+    if(!isNaN(place.lat)){
+      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange));
     }
+  });
+  iceFacs.forEach(place => {
+    const radius = defaultRadius * 2;
+    const population = `<br /><strong>Avg. Daily ICE Pop.:</strong> ${place["FY18.ADP"]}, 
+      <strong>Max Pop.:</strong> ${place["FY18.Max.Population.Count"]}`;
     const popup = `<div class="media">
     <img height="150" width="150" class="popup-image mr-3" 
     src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
@@ -234,11 +240,11 @@ function buildPointsLayer() {
     </div>
     `;
     if(!isNaN(place.lat)){
-      const circle = buildCircle(place, 6, purple);
+      const circle = buildCircle(place, defaultRadius * 1.5, purple);
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
-  return indexLayer.addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+  return indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
 }
 
 function buildCircle(place, radius = 4, color = orange){
