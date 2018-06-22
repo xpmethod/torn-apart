@@ -16,15 +16,6 @@ language: es
 ---
 
 <h4>Reflections</h4> 
-{% for page in site.reflections %}
-    <li>
-		<a href="{{ page.url | prepend:site.baseurl }}">
-        <span class="toc-title">{{ page.title.long  | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-      	</a><br>
-      	<span class="toc-author">{{ page.author.name }}</span>
-    </li>
-{% endfor %} 
-
 
 
 ### Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
