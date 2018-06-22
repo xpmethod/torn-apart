@@ -3,7 +3,7 @@
 }
 
 
-#index-nav.nav, #visualizations-nav.nav { 
+#index-nav.nav, #visualizations-teeny-nav.nav, #visualizations-nav.nav { 
   a {
     border: 2px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
@@ -19,6 +19,12 @@
   }
 }
 
-#visualizations-nav.nav a.nav-link {
+#visualizations-nav.nav a.nav-link, #visualizations-teeny-nav.nav a.nav-link {
   background-color: $orange;
+}
+
+#visualizations-teeny-nav.nav a.nav-link {
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+  padding: .5rem;
 }

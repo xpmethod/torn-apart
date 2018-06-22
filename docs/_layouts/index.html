@@ -5,10 +5,24 @@
 <div id="above-map">
   <div class="d-md-none">
     {% include navbar.html %}
+    {% if page.permalink == "visualizations.html" %}
+    <div style="margin-top: 65px;">
+      <nav id="visualizations-teeny-nav" class="nav mt-2 ml-2">
+        <a id="the-trap-button" class="nav-link nav-item" href="#the-trap">The Trap</a>
+        <a id="detention-centers-button" class="nav-link nav-item" href="#detention-centers">Detention Ctrs</a>
+        <a id="the-eye-button" class="nav-link nav-item" href="#the-eye"><span class="sr-only">The Eye</span><i class="fas fa-eye"></i></a>
+        <a id="charts-button" class="nav-link nav-item" href="#charts"><span class="sr-only">Charts</span><i class="fas fa-chart-bar"></i></a>
+        <a id="orr-button" class="nav-link nav-item" href="#orr">ORR</a>
+      </nav>
+    </div>
+    {% endif %}
   </div>
   <div class="d-none d-md-block">
     <div id="navs">
     <nav id="index-nav" class="nav ml-2 mt-2">
+      {% unless page.mapid == "mapdiv" %}
+      <a id="index-button" class="nav-link nav-item" href="index.html"><strong>Torn Apart</strong></a>
+      {% endunless %}
       <a id="visualizations-button" class="nav-link nav-item" href="visualizations.html#the-trap">Visualizations</a>
       <a id="textures-button" class="nav-link nav-item" href="textures.html">Textures</a>
       <a id="reflections-button" class="nav-link nav-item" href="reflections.html">Reflections</a>
