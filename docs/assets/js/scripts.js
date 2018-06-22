@@ -5,15 +5,15 @@
 // Markdown-it available as markdownit
 // d3 available as d3
 
+var orange = "#fc8d62";
+var purple = "#8da0cb";
+
 // Fire up markdown
 // const md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
 
   update_texts();
-
-  const orange = "#fc8d62";
-  const purple = "#8da0cb";
 
   if($("#border-buffer").length){
     const map = initMap("border-buffer");
@@ -31,72 +31,20 @@ $( document ).ready(() => {
   }
   
   if($("#mapdiv").length){
-    // #mapdiv is only on index, so…
+    // #mapdiv is only on index, so… show the modal.
     $("#indexModal").modal("show");
     const map = initMap("mapdiv");
-    d3.csv("assets/data/ice-facs_geocoded.csv", null,
-      list => {
-      // iterate over the list object
-        list.forEach(place => {
-          let juvenileText;
-          if (place["Type.Detailed"] === "JUVENILE"){
-            juvenileText = "<h5>Juvenile Facility</h5>";
-          } else {
-            juvenileText = "";
-          }
-          const popup = `<div class="row"><div class="col-8">
-          <h4>${titleize(swapCase(place["Name"]))}</h4>
-          ${juvenileText}
-          ${place["City"]}, ${place["State"]}
-          </div><div class="col-4">
-          <img data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="img-fluid" src="/torn-apart/assets/imgs/onepixel.png"></div></div>`;
-          const circleStyle = {
-            color: "#000",
-            fillColor: orange,
-            opacity: 0.8
-          };
-          if (place["Type.Detailed"] === "JUVENILE"){
-            circleStyle.fillOpacity = 0.9;
-            circleStyle.fillColor = purple;
-            circleStyle.radius = 8;
-            circleStyle.weight = 1;
-          } else {
-            circleStyle.fillOpacity = 0.8;
-            circleStyle.weight = 1;
-            circleStyle.radius = 4;
-          }
-          if(!isNaN(place.lat)){
-            const lat = +place.lat;
-            const lng = +place.lon;
-            L.circleMarker([lat, lng], circleStyle).bindPopup(popup).addTo(map);
-            //.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
-          }
-          // Alternatively, we can use icons from font-awesome.
-          // L.marker([place.latitude, place.longitude],
-          //   { icon: L.divIcon(
-          //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
-          //   )}
-          // ).bindTooltip(place.nom).addTo(map);
-        });
-      });
-     
+    buildIndexMap(map);
   }
 
-// Angrily show all the official ICE detention facilities they also map
-// OfficialICEDCs["features"].forEach( dc => {
-//   L.marker([dc["lat"], dc["lon"]])
-//     .bindPopup(dc["popup"])
-//     .addTo(map);
-// });
-
-// Fire up the d3/svg engine.
-// These are only really messed with when calling reset();
-// const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
-//   g = svg.append("g").attr("class", "leaflet-zoom-hide");
+  // Fire up the d3/svg engine.
+  // These are only really messed with when calling reset();
+  // const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
+  //   g = svg.append("g").attr("class", "leaflet-zoom-hide");
   // const blackSites = [];
 
   /*
-d3.json("web-data/blacksites.json", (error, collection) => {
+  d3.json("web-data/blacksites.json", (error, collection) => {
   if (error) throw error;
   // d3 is very clever w/ geojson (paths and transforms), but if we want
   // to simply take latlngs and make them into points we can 
@@ -180,26 +128,26 @@ d3.json("web-data/blacksites.json", (error, collection) => {
   // function reset() {
   //   features.attr("transform", d => `translate(${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
   // }
-});
-*/
+  });
+  */
 
 
-/*
-// Now add the other layers.
-[[crossing, "#00dd00"], [detention, "#dd0000"]].forEach( geojson => {
-  let popup;
-  L.geoJSON(geojson[0], {
-    pointToLayer(f, l) {
-      if (geojson[0] === detention) {
-        const latlng = `${l.lat}${l.lng}`;popup = `<div class="row"><div class="col-6"><h4>${f.properties["Name"]}</h4></div><div class="col-6"><img class="img-fluid" alt="${f.properties["Name"]} satellite photo" src="imgs/sat-${latlng}.png"></div></div>`;
-      } else {
-        popup = `<h4>${f.properties["Name"]}</h4>`;
+  /*
+  // Now add the other layers.
+  [[crossing, "#00dd00"], [detention, "#dd0000"]].forEach( geojson => {
+    let popup;
+    L.geoJSON(geojson[0], {
+      pointToLayer(f, l) {
+        if (geojson[0] === detention) {
+          const latlng = `${l.lat}${l.lng}`;popup = `<div class="row"><div class="col-6"><h4>${f.properties["Name"]}</h4></div><div class="col-6"><img class="img-fluid" alt="${f.properties["Name"]} satellite photo" src="imgs/sat-${latlng}.png"></div></div>`;
+        } else {
+          popup = `<h4>${f.properties["Name"]}</h4>`;
+        }
+        return L.circleMarker(l, {fillColor: geojson[1], color: geojson[1]}).bindPopup(popup);
       }
-      return L.circleMarker(l, {fillColor: geojson[1], color: geojson[1]}).bindPopup(popup);
-    }
-  })//.addTo(map);
-});
-*/
+    })//.addTo(map);
+  });
+  */
 
   $(".locale-button").click(function(e){
     e.preventDefault();
@@ -208,6 +156,22 @@ d3.json("web-data/blacksites.json", (error, collection) => {
     $.i18n().locale = $(this).data("locale");
     update_texts();
   });
+
+  $(".locale-toggle").click(function(e){
+    e.preventDefault();
+    const langs = ["EN", "ES"];
+    const langCodes = ["en", "es"];
+    let index = langs.indexOf($( this ).text());
+    index === langs.length - 1 ? index = 0 : index = index + 1;
+    $.i18n().locale = langCodes[index];
+    $( this ).text(langs[index]);
+    update_texts();
+  });
+
+    
+
+    
+
 }); // close document.ready()
 
 function initMap(mapid){
@@ -228,4 +192,52 @@ function initMap(mapid){
 function update_texts() {
   $("body").i18n();
 }
+
+function buildIndexMap(map) {
+  d3.csv("assets/data/ice-facs_geocoded.csv", null, list => {
+    // iterate over the list object
+    list.forEach(place => {
+      let juvenileText;
+      if (place["Type.Detailed"] === "JUVENILE"){
+        juvenileText = "<h5>Juvenile Facility</h5>";
+      } else {
+        juvenileText = "";
+      }
+      const popup = `<div class="row"><div class="col-8">
+      <h4>${place["Name"]}</h4>
+      ${juvenileText}
+      ${place["City"]}, ${place["State"]}
+      </div><div class="col-4">
+      <img data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="img-fluid" src="/torn-apart/assets/imgs/onepixel.png"></div></div>`;
+      const circleStyle = {
+        color: "#000",
+        fillColor: orange,
+        opacity: 0.8
+      };
+      if (place["Type.Detailed"] === "JUVENILE"){
+        circleStyle.fillOpacity = 0.9;
+        circleStyle.fillColor = purple;
+        circleStyle.radius = 8;
+        circleStyle.weight = 1;
+      } else {
+        circleStyle.fillOpacity = 0.8;
+        circleStyle.weight = 1;
+        circleStyle.radius = 4;
+      }
+      if(!isNaN(place.lat)){
+        const lat = +place.lat;
+        const lng = +place.lon;
+        L.circleMarker([lat, lng], circleStyle).bindPopup(popup).addTo(map);
+        //.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+      }
+      // Alternatively, we can use icons from font-awesome.
+      // L.marker([place.latitude, place.longitude],
+      //   { icon: L.divIcon(
+      //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
+      //   )}
+      // ).bindTooltip(place.nom).addTo(map);
+    });
+  });
+}
+   
 
