@@ -7,7 +7,7 @@ doi:
 author: 
   name: Sylvia Fernández
   shortname: Fernández
-  bio: "Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with [Recovering the US Hispanic Literary Heritage](https://twitter.com/apprecovery). She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina/o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities."
+  bio: "Sylvia Fernández is a Ph.D. Candidate in [Hispanic Studies](https://ssl.uh.edu/class/spanish/) at the University of Houston and a Research Fellow with [Recovering the US Hispanic Literary Heritage](https://twitter.com/apprecovery). She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina/o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities."
 date: 2018-06-23
 issue: 1
 order: 1
@@ -16,7 +16,8 @@ language: es
 ---
 
 
-# Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
+### Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
+#### [Sylvia Fernández](https://www.hastac.org/u/sferna109)
 
 Desde que entré a la universidad en 2009, surgió en mí una inquietud, derivada de la frustración generada al tomar cursos relacionados con la frontera. En un principio estos se enfocaban en los feminicidios, las maquiladoras-NAFTA, la post-guerra contra el narcotráfico y, posteriormente, en otras situaciones atadas a la frontera entre México y Estados Unidos, como la inmigración, la militarización, la violencia y más violencia. La mayoría de estas clases han sido muy difíciles de asimilar para mí por la perspectiva que se genera desde este lugar y sus comunidades. A pesar de la realidad de estos problemas, interpretada de forma particular en estos contextos, esta se presenta enmarcada por un sinnúmero de generalizaciones, sin profundizar en la historia y lo que llevan detrás de las continuas crisis.
 
