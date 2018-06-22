@@ -1,11 +1,22 @@
 $.i18n().load({
+  "@metadata": {
+    "authors": [
+      "Moacir P. de Sá Pereira",
+    ],
+    "locale": "en"
+  },
   "en": {
     "ta-visualizations": "Visualizations",
     "ta-textures": "Textures",
     "ta-reflections": "Reflections",
     "ta-allies": "Allies",
     "ta-bibliography": "Bibliography",
-    "ta-credits": "Credits"
+    "ta-credits": "Credits",
+    "ta-the-trap": "The Trap",
+    "ta-detention-centers": "Detention Centers",
+    "ta-the-eye": "The Eye",
+    "ta-charts": "Charts",
+    "ta-orr": "ORR"
   },
   "es": {
     "ta-visualizations": "Visualizaciones",
@@ -13,7 +24,12 @@ $.i18n().load({
     "ta-reflections": "Reflexiones",
     "ta-allies": "Aliadxs",
     "ta-bibliography": "Bibliografía",
-    "ta-credits": "Créditos"
+    "ta-credits": "Créditos",
+    "ta-the-trap": "The Trap",
+    "ta-detention-centers": "Detention Centers",
+    "ta-the-eye": "el Ojo",
+    "ta-charts": "Charts",
+    "ta-orr": "ORR"
   }
 });
 
