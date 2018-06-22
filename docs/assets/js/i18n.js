@@ -1,4 +1,4 @@
-$.i18n().load( {
+$.i18n().load({
   "en": {
     "ta-visualizations": "Visualizations",
     "ta-textures": "Textures",
@@ -16,3 +16,4 @@ $.i18n().load( {
     "ta-credits": "Créditos"
   }
 });
+

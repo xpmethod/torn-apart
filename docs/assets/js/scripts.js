@@ -10,6 +10,8 @@
 
 $( document ).ready(() => {
 
+  update_texts();
+
   const orange = "#fc8d62";
   const purple = "#8da0cb";
 
@@ -36,6 +38,18 @@ $( document ).ready(() => {
       list => {
       // iterate over the list object
         list.forEach(place => {
+          let juvenileText;
+          if (place["Type.Detailed"] === "JUVENILE"){
+            juvenileText = "<h5>Juvenile Facility</h5>";
+          } else {
+            juvenileText = "";
+          }
+          const popup = `<div class="row"><div class="col-8">
+          <h4>${titleize(swapCase(place["Name"]))}</h4>
+          ${juvenileText}
+          ${place["City"]}, ${place["State"]}
+          </div><div class="col-4">
+          <img data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="img-fluid" src="/torn-apart/assets/imgs/onepixel.png"></div></div>`;
           const circleStyle = {
             color: "#000",
             fillColor: orange,
@@ -54,7 +68,7 @@ $( document ).ready(() => {
           if(!isNaN(place.lat)){
             const lat = +place.lat;
             const lng = +place.lon;
-            L.circleMarker([lat, lng], circleStyle).addTo(map);
+            L.circleMarker([lat, lng], circleStyle).bindPopup(popup).addTo(map);
             //.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
           }
           // Alternatively, we can use icons from font-awesome.
@@ -187,6 +201,13 @@ d3.json("web-data/blacksites.json", (error, collection) => {
 });
 */
 
+  $(".locale-button").click(function(e){
+    e.preventDefault();
+    $(".locale-button").removeClass("active");
+    $( this ).addClass("active");
+    $.i18n().locale = $(this).data("locale");
+    update_texts();
+  });
 }); // close document.ready()
 
 function initMap(mapid){
@@ -202,5 +223,9 @@ function initMap(mapid){
   }
   $(".leaflet-top").css("margin-top", `${$("#navs").height()}px`);
   return map;
+}
+
+function update_texts() {
+  $("body").i18n();
 }
 

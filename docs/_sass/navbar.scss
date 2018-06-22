@@ -28,3 +28,18 @@
   font-size: 0.75rem;
   padding: .5rem;
 }
+
+// Localization links:
+
+.navbar {
+  color: $faintwhite;
+
+  a.nav-item {
+    color: $faintwhite; 
+  }
+
+  a:hover, a.active {
+    color: $white;
+  }
+}
+
