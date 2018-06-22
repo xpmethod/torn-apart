@@ -1,17 +1,17 @@
 ---
 layout: article
 title: 
-  "long": "Una mujer de frontera"
-  "short": "una mujer de frontera"
+  "long": "Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica"
+  "short": "Triple D"
 doi:
 author: 
   name: Sylvia Fernández
   shortname: Fernández
-  bio: ""
+  bio: "Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with [Recovering the US Hispanic Literary Heritage](https://twitter.com/apprecovery). She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina/o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities."
 date: 2018-06-23
 issue: 1
 order: 1
-abstract: "Desde que entré a la universidad en 2009, surgió en mí una inquietud, derivada de la frustración generada al tomar cursos relacionados con la frontera."
+abstract: "Desde una perspectiva personal esta reflexión enfatiza la importancia de nuevas formas de interpretación, visualización y documentación de la historia de comunidades, como las de Centroamérica y la frontera de México y Estados Unidos, con el fin de concientizar,empoderar y resistir a mecanismos de opresión a través de humanidades movilizadas y digitales conscientes de estas historias."
 language: es
 ---
 
