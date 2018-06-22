@@ -203,12 +203,15 @@ function buildIndexMap(map) {
       } else {
         juvenileText = "";
       }
-      const popup = `<div class="row"><div class="col-8">
-      <h4>${place["Name"]}</h4>
+      const popup = `<div class="media">
+      <img height="150" width="150" data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="popup-image mr-3" 
+      src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+      <div class="media-body">
+      <h5>${place["Name"]}</h5>
       ${juvenileText}
       ${place["City"]}, ${place["State"]}
-      </div><div class="col-4">
-      <img data-src="ice-${place["DETLOC"]}-${place.lat}${place.lon}.png" class="img-fluid" src="/torn-apart/assets/imgs/onepixel.png"></div></div>`;
+      </div>
+      `;
       const circleStyle = {
         color: "#000",
         fillColor: orange,
