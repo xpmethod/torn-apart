@@ -12,7 +12,7 @@ date: 2018-06-23
 issue: 1
 order: 1
 abstract: "Desde que entré a la universidad en 2009, surgió en mí una inquietud, derivada de la frustración generada al tomar cursos relacionados con la frontera."
-language: en
+language: es
 ---
 
 
