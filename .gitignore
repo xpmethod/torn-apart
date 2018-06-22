@@ -1,6 +1,8 @@
 .env
+localdata/
 cache/
 tmp/
 .DS_Store
 docs/_site
+imgur_config.yml
 
