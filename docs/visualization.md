@@ -1,10 +1,8 @@
 ---
 layout: index
-mapid: border-buffer
+mapid: visualizations-mapdiv
 title: Visualizations
 permalink: visualizations.html
 active: visualizations-button
 ---
-
-# Visualizations.
 

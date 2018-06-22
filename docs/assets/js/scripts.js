@@ -1,4 +1,4 @@
-/* global DCOs, detention, crossing */
+/* global bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -15,19 +15,14 @@ $( document ).ready(() => {
 
   update_texts();
 
-  if($("#border-buffer").length){
-    const map = initMap("border-buffer");
-    $.getJSON("assets/data/7.5mi.geojson", geojson => {
-      const bufferLayer = L.geoJSON(geojson, { 
-        style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
-      }).addTo(map);
-      map.fitBounds(bufferLayer.getBounds());
-    });
-    $.getJSON("assets/data/points-of-entry.json", geojson => {
-      L.geoJSON(geojson, {
-        pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
-      }).addTo(map);
-    });
+  if($("#visualizations-mapdiv").length){
+    const map = initMap("visualizations-mapdiv");
+    const detentionCenters = L.layerGroup();
+    buildIndexMap(map, detentionCenters);
+    const bufferLayer = buildBufferLayer(map);
+    console.log(bufferLayer);
+    // map.fitBounds(bufferLayer.getBounds());
+
   }
   
   if($("#mapdiv").length){
@@ -193,8 +188,14 @@ function update_texts() {
   $("body").i18n();
 }
 
-function buildIndexMap(map) {
+function buildIndexMap(map, layer = nil) {
   d3.csv("assets/data/ice-facs_geocoded.csv", null, list => {
+    let indexLayer;
+    if(layer){
+      indexLayer = layer
+    } else {
+      indexLayer = L.layerGroup();
+    }
     // iterate over the list object
     list.forEach(place => {
       let juvenileText;
@@ -230,17 +231,20 @@ function buildIndexMap(map) {
       if(!isNaN(place.lat)){
         const lat = +place.lat;
         const lng = +place.lon;
-        L.circleMarker([lat, lng], circleStyle).bindPopup(popup).addTo(map);
-        //.bindPopup(`<h3><a href="${place.lien}">${place.nom}</a></h3>`).addTo(map);
+        indexLayer.addLayer(L.circleMarker([lat, lng], circleStyle).bindPopup(popup));
       }
-      // Alternatively, we can use icons from font-awesome.
-      // L.marker([place.latitude, place.longitude],
-      //   { icon: L.divIcon(
-      //     { html: `<i style="color: ${color}" class="fa fa-${icon}"></i>`, iconSize: [30, 30] }
-      //   )}
-      // ).bindTooltip(place.nom).addTo(map);
     });
+    indexLayer.addTo(map);
   });
 }
    
-
+function buildBufferLayer(map){
+  const layer = L.layerGroup();
+  const buffer = L.geoJSON(bufferGeoJSON, { 
+    style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
+  });
+  const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
+    pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
+  });
+  return layer.addLayer(buffer).addLayer(pointsOfEntry).addTo(map);
+}
