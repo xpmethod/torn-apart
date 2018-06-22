@@ -6,6 +6,7 @@ $.i18n().load({
     "locale": "en"
   },
   "en": {
+    "ta-sitename": "Torn Apart",
     "ta-visualizations": "Visualizations",
     "ta-textures": "Textures",
     "ta-reflections": "Reflections",
@@ -20,6 +21,7 @@ $.i18n().load({
     "ta-orr": "ORR"
   },
   "es": {
+    "ta-sitename": "Torn Apart",
     "ta-visualizations": "Visualizaciones",
     "ta-textures": "Texturas",
     "ta-reflections": "Reflexiones",
