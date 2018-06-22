@@ -17,7 +17,7 @@ language: es
 
 
 ### Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
-#### [Sylvia Fernández](https://www.hastac.org/u/sferna109)
+#### by [Sylvia Fernández](https://www.hastac.org/u/sferna109)
 
 Desde que entré a la universidad en 2009, surgió en mí una inquietud, derivada de la frustración generada al tomar cursos relacionados con la frontera. En un principio estos se enfocaban en los feminicidios, las maquiladoras-NAFTA, la post-guerra contra el narcotráfico y, posteriormente, en otras situaciones atadas a la frontera entre México y Estados Unidos, como la inmigración, la militarización, la violencia y más violencia. La mayoría de estas clases han sido muy difíciles de asimilar para mí por la perspectiva que se genera desde este lugar y sus comunidades. A pesar de la realidad de estos problemas, interpretada de forma particular en estos contextos, esta se presenta enmarcada por un sinnúmero de generalizaciones, sin profundizar en la historia y lo que llevan detrás de las continuas crisis.
 
