@@ -12,18 +12,29 @@
 <div id="time-series-places-number" class="tab-pane active" role="tabpanel" aria-labelledby="places-number-tab">
 <div class="row">
 <div class="col-6">
-<svg id="total-places-svg"></svg>
-</div>
-<div class="col-6">
 <p class="big-number" id="total-places-no">No.</p>
 <p class="big-number-desc">ICE facilities in use</p>
 This is some description text
 </div>
+<div class="pl-0 col-6">
+<svg id="total-places-svg"></svg>
 </div>
 </div>
+
+</div>
+
 <div id="time-series-adp" class="tab-pane" role="tabpanel" aria-labelledby="adp-tab">
 
-# ADP
+<div class="row">
+<div class="col-6">
+<p class="big-number" id="adp-no">No.</p>
+<p class="big-number-desc">Current average daily population</p>
+This is some description text
+</div>
+<div class="pl-0 col-6">
+<svg id="adp-svg"></svg>
+</div>
+</div>
 
 </div>
 <div id="time-series-bookins" class="tab-pane" role="tabpanel" aria-labelledby="bookins-tab">

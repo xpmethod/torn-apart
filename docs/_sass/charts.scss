@@ -2,10 +2,15 @@
   margin: 0;
   color: $green;
   font-size: 5rem;
+  font-weight: bold;
   text-align: center;
 }
 
 .big-number-desc {
   text-align: center;
   font-size: .75rem;
+}
+
+.bar {
+  fill: $green;
 }

@@ -522,28 +522,54 @@ function buildCharts() {
 
     const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
     const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
-    const tpX = d3.scaleLinear().rangeRound([0, width]);
+    const tpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
     const tpY = d3.scaleLinear().rangeRound([height, 0]);
-    const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
+    // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
+    const adpSvg = d3.select("#adp-svg").attr("width", svgWidth).attr("height", svgHeight);
+    const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
+    const adpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
+    const adpY = d3.scaleLinear().rangeRound([height, 0]);
 
     console.log(data[0]);
     const totalPlaces = [];
+    const adpByYear = [];
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
       totalPlaces.push([+year, data.filter(d => +d[fy + ".ADP"] > 0).length]);
+      adpByYear.push([+year, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
     });
 
+    console.log(adpByYear);
     $("#total-places-no").html(totalPlaces[4][1]);
-    const tpMax = d3.max(totalPlaces.map(d => d[1]));
-    tpX.domain([2014, 2018]);
-    tpY.domain([0, tpMax]);
-    tpG.append("path").datum(totalPlaces).attr("fill", "none").attr("stroke", green).attr("stroke-linejoin", "round").attr("stroke-linecap", "round")
-      .attr("stroke-width", 1.5).attr("d", tpLine);
+    // const tpMax = d3.max(totalPlaces.map(d => d[1]));
+    tpX.domain(totalPlaces.map(d => d[0]));
+    tpY.domain([0, 400]);
+    // tpG.append("path").datum(totalPlaces).attr("fill", "none").attr("stroke", green).attr("stroke-linejoin", "round").attr("stroke-linecap", "round")
+      // .attr("stroke-width", 1.5).attr("d", tpLine);
+    tpG.selectAll(".bar")
+      .data(totalPlaces).enter().append("rect").attr("class", "bar")
+      .attr("y", d => tpY(d[1])).attr("x", d => tpX(d[0]))
+      .attr("height", d => height - tpY(d[1]))
+      .attr("width", tpX.bandwidth());
     tpG.append("g").attr("transform", `translate(0,${height})`)
       .call(d3.axisBottom(tpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
     tpG.append("g").call(d3.axisLeft(tpY).ticks(5).tickFormat(d3.format(".0f"))).append("text")
       .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
       .attr("text-anchor", "end").text("Num. of Facilities"); 
+
+    $("#adp-no").html(adpByYear[4][1]);
+    adpX.domain(adpByYear.map(d => d[0]));
+    adpY.domain([0, 45000]);
+    adpG.selectAll(".bar")
+      .data(adpByYear).enter().append("rect").attr("class", "bar")
+      .attr("y", d => adpY(d[1])).attr("x", d => adpX(d[0]))
+      .attr("height", d => height - adpY(d[1]))
+      .attr("width", adpX.bandwidth());
+    adpG.append("g").attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(adpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+    adpG.append("g").call(d3.axisLeft(adpY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
+      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+      .attr("text-anchor", "end").text("Avg. Daily Pop."); 
 
     
 
