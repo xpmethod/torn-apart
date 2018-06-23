@@ -16,12 +16,15 @@ var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 
+var rem = parseInt($("html").css("font-size").replace("px", ""));
+
+var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
+
 // Fire up markdown
-// const md = markdownit({html: true}).use(markdownitFootnote);
+var md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
-  const externalLink = $.parseHTML("<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>");
-  $("a[href^='http']:not(a:has(img))").append(externalLink);
+  $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
   $("a[href^='http']").attr("target", "_blank");
 
   $("#legend").click(function(){ $(this).hide(); });
@@ -217,7 +220,7 @@ function buildPointsLayer() {
   // iterate over the list object
   zeroIceFacs.forEach(place => {
     if(!isNaN(place.lat)){
-      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange));
+      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange, false));
     }
   });
   iceFacs.forEach(place => {
@@ -255,13 +258,13 @@ function buildPointsLayer() {
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
-  zeroIceFacsLayer.off();
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   return indexLayer;
 }
 
-function buildCircle(place, radius = 4, color = orange){
+function buildCircle(place, radius = 4, color = orange, interactive = true){
   const circleStyle = {
+    interactive, 
     weight: 1,
     radius: radius,
     color: "#000",
@@ -273,39 +276,65 @@ function buildCircle(place, radius = 4, color = orange){
   const lng = +place.lon;
   return L.circleMarker([lat, lng], circleStyle);
 }
-   
+
 function buildBufferLayer(){
   const layer = L.layerGroup();
   const buffer = L.geoJSON(bufferGeoJSON, { 
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
   });
-  console.log( buffer.getBounds());
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
     pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
   });
   return layer.addLayer(buffer).addLayer(pointsOfEntry);
 }
 
+function buildTheEye() {
+  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - 5; 
+  const vizWidth = $( window ).width() - 2 * rem; 
+  const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
+  const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
+  const colArray = d3.range(columns).map(() => "<div class='m-1'><img class='rounded' src='/torn-apart/assets/imgs/EAZ-thumb.png'></div>").join("");
+  let row = `<div class="d-flex justify-content-around">${colArray}</div>`;
+  const rowArray = d3.range(rows).map(() => row).join("");
+  const matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">${rowArray}</div>`;
+  $("#the-eye-div").html(matrix);
+  $("#the-eye-div").show();
+
+}
+
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    $("#the-eye-div").hide();
+    $(".leaflet-control-zoom").show();
+    $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
     map.fitBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
+    buildTrapLegend();
     break;
   case "the-eye":
-    // map.eachLayer( layer => layer.remove() );
-    // map.addLayer(layers[1]);
+    $(".leaflet-control-zoom").hide();
+    $("#legend").hide();
+    map.removeLayer(layers[1]);
+    map.removeLayer(layers[0]);
+    buildTheEye();
     break;
   case "charts":
+    $("#the-eye-div").hide();
+    $(".leaflet-control-zoom").hide();
     break;
-  case "detention-centers":
+  case "clinks":
+    $("#the-eye-div").hide();
+    $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
+    map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     buildPointsLegend();
     break;
   case "orr":
+    $(".leaflet-control-zoom").show();
     break;
   }
 }
@@ -345,7 +374,7 @@ function buildSpark(data) {
 
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).ticks(4).tickFormat(d3.format(".0f")));
+    .call(d3.axisBottom(x).tickValues([2014, 2018]).tickFormat(d3.format(".0f")));
 
   g.append("g")
     .call(d3.axisLeft(y).ticks(d3.min([max, 5])).tickFormat(d3.format(".0f")))
@@ -361,12 +390,27 @@ function buildSpark(data) {
 }
 
 function buildTrapLegend(){
+  let legendText = `The border is a trap. Begun in 2005, 
+  [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
+  has criminalized border crossing. 
+  Authorized ports of entry, tiny holes shown here as 15mi wide 
+  [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
+  leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
+  where they are exposed to harsh conditions both from the 
+  environment and law enforcement.`
+  legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
+  
   $("#legend").html(() => {
-    return `<div class="px-3 pt-2">
-      <div class="media">
-        <svg class="m-2" height="">
+    return `<div class="px-3 py-2">
+        <svg class="float-left m-2" height="50" width="50">
+          <rect width="50" height="50" 
+          style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
+        </svg>
+          ${legendText}
     </div>`;
   });
+  moveLegend();
+  $("#legend").show();
 }
 
 function buildPointsLegend(){

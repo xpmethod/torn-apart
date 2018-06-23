@@ -9,7 +9,7 @@ permalink: textures.html
 
 *Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
 
-Working nimbly and remotely from four sites in the United States and one in Europe, over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
+Working nimbly and remotely from four sites in the United States over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee Resettlement (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
 
 Our sources for obtaining the data were varied. Those we worked from included a FOIA-ed list of ICE facilities, publicly available lists of CBP sites, data sets of ICE detainee hearings, state childcare licensing databases, government grant awards lists, and USASpending.gov. We cross-checked our data through non-governmental sources as well: news reports about immigrant detention, business databases, tax documents for non-profit organization, job advertisements, Google Maps entries, Facebook Places, and more. All of our data has been verified through a minimum of [two sources]({{site.baseurl}}/bibliography.html), at least one directly from the government. 
 
@@ -20,7 +20,6 @@ This is not to say that Torn Apart, now in alpha release, paints a complete pict
 ![]({{site.baseurl}}/assets/figures/textures-fig1.png)
 
 Our desire to ensure accuracy also led to decisions to not include public data we could not verify. For example, numbers of beds in ORR shelters, which can be found through government and state sources, might seem to offer a picture of the numbers of children in ORR custody, but our research revealed that some of those organizations also work with Child Protective Services. As a result, it’s unclear exactly what percentage of children in ORR shelters are, in fact, in the ORR system. At a moment when there is significant confusion about the exact whereabouts of migrant children who have been separated from their parents, we did not want to add an additional layer of confusion by suggesting that children might be in places they are not.   
-
 We also had some difficult political and ethical choices to make choosing the data that should not become easily available to the public, and we revisited our decisions daily. Revealing the addresses of these facilities, particularly the ORR children’s shelters, was a matter of great concern. While we were using publicly available data, aggregating it in a single place seemed a potentially dangerous choice and a road map to an already vulnerable population, or to preempt careful organization by activists. Thus, by mapping detention facilities at the city and state level, we circumvented the immediate dangers while still achieving our goal of accurately depicting the vast geographical sweep of immigrant detention in the United States. 
 
 As we cross-referenced our findings among these sources, we found ourselves down rabbit holes revealing the more human and heartbreaking dimensions of immigrant detention. Below are some samples that provide a bit of texture to our visualizations.
@@ -47,7 +46,6 @@ In "[Registering the Handicapped in Nazi Germany: A Case Study]({{site.baseurl}}
 
 ![]({{site.baseurl}}/assets/figures/textures-fig4.png)
 
-
 Sensing that their shadows were dissipating, some of these companies  [began to whitewash their operations](http://www.mtctrains.com/mtcs-involvement-in-operating-ice-detention-centers/). Others began the all too familiar process of deleting their records. Below is the 404 page that sits now where the above GIF came from.
 
 ![]({{site.baseurl}}/assets/figures/textures-fig5.png)
@@ -65,7 +63,6 @@ As our experiences show, wading into the waters of public information on immigra
 
 What we have demonstrated here, we hope, is that a small team of researchers with varied skill sets—librarians, graduate students, literary scholars, and historians—and experience with digital humanities can pool their expertise to respond quickly, yet carefully, in times of crisis. While *Torn Apart* is one iteration of our work, we are gladly deploying our data, using various mechanisms, to other teams that wish to use it in new ways. We hope they do.
 
---- 
 
 #### Works Cited
 

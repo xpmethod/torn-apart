@@ -5,6 +5,8 @@ permalink: bibliography.html
 
 # Bibliography
 
+Link to zotero => https://www.zotero.org/groups/2199147/hummingbird/i
+
 ## Data Sources
 
 
