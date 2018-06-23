@@ -5,19 +5,17 @@
 // Markdown-it available as markdownit
 // d3 available as d3
 
+var map;
 var defaultRadius;
 if (L.Browser.mobile) {
   defaultRadius = 4;
 } else {
   defaultRadius = $( window ).width() / 250;
 }
-
 var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
-
 var rem = parseInt($("html").css("font-size").replace("px", ""));
-
 var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
 
 // Fire up markdown
@@ -32,7 +30,7 @@ $( document ).ready(() => {
   update_texts();
 
   if($("#visualizations-mapdiv").length){
-    const map = initMap("visualizations-mapdiv");
+    map = initMap("visualizations-mapdiv");
     const theViz = window.location.href.replace(/^.*#/, "");
     $("[href='#" + theViz + "']").addClass("active");
     const bufferLayer = buildBufferLayer();
@@ -49,7 +47,7 @@ $( document ).ready(() => {
   if($("#mapdiv").length){
     // #mapdiv is only on index, so… show the modal.
     $("#indexModal").modal("show");
-    const map = initMap("mapdiv");
+    map = initMap("mapdiv");
     buildPointsLegend();
     const pointsLayer = buildPointsLayer();
     pointsLayer.addTo(map);
@@ -193,7 +191,7 @@ $( document ).ready(() => {
 }); // close document.ready()
 
 function initMap(mapid){
-  const map = L.map(mapid, { 
+  map = L.map(mapid, { 
     center: [0,0], 
     zoom: 5, 
     zoomSnap: 0.25
@@ -305,13 +303,15 @@ function buildTheEye() {
   $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
   $(".eye-tile-div").click(function(){
-    console.log("click");
-    const lat = $( this ).data("lat");
-    const lon = $( this ).data("lon");
-    const imgCenter = [$( this ).position().left + 64, $( this ).position().top + 64];
+    const pixelCoords = map.project(L.latLng($( this ).data("lat"), $( this ).data("lon")), 15);
+    const imgfromOrigin = [$( this ).position().left + 64 - $( window ).width() / 2, 
+      $( window ).height() / 2 - $( this ).position().top + 64];
+    const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
+    const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
     $(".eye-tile-div").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
     $( this ).addClass("eye-tile-div");
+    map.flyTo(newlatlng, 15);
   });
 
 }
