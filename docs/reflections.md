@@ -14,4 +14,4 @@ Hence, in addition to reflections from our own project group, we have reached ou
 
 We provide all of this in order to help contextualize both our impetus and our efforts.
 
-* [Sylvia Fernández](https://www.hastac.org/u/sferna109): "[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica](torn-apart/docs/_reflections/sylvia_fernandez.html)"
+* [Sylvia Fernández](https://www.hastac.org/u/sferna109): Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica](http://xpmethod.plaintext.in/torn-apart/reflections/sylvia_fernandez.html)
