@@ -309,8 +309,8 @@ function buildTheEye() {
     const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
     const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
-    $(".eye-tile-div").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
-    $( this ).addClass("eye-tile-div");
+    $(".eye-tile-div").removeClass("shadow").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
+    $( this ).addClass("eye-tile-div").addClass("shadow");
     map.flyTo(newlatlng, 15);
   });
 
