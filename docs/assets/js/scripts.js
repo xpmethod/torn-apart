@@ -305,7 +305,6 @@ function buildTheEye() {
       lon: currPlace.lon
     };
   });
-  console.log(images);
   let matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">`;
   for(let i = 1; i <= rows; i++){
     matrix = matrix + "<div class='d-flex justify-content-around'>";
