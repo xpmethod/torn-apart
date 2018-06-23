@@ -43,23 +43,30 @@ After Alex [tweeted a screenshot](https://twitter.com/elotroalex/status/10088962
 
 ### The Banality of Annual Reports
 
-In "[Registering the Handicapped in Nazi Germany: A Case Study]({{site.baseurl}}/assets/docs/friedlander-registering.pdf)," Henry Friedlander reminds us that infrastructures building on one another, fueled by racist ideology and operating in relative shadows, can lead to a final infrastructure. Part of the fuel of our own project is keeping the spotlight fixed on the massive infestation of immigration detention centers in the United States today, while iterating the long history of tearing families apart to feed the national fevers of the United States. Though these companies were relatively obscure until very recently, the way they are run is all too familiar. Part of our research brought us to company sites and business databases behind the paywalls. What we found was the usual paraphernalia of management culture, including their annual reports. Below you can see how American management culture, in the compulsion for spin, betrays the racist nature of the operation they "serve." 
-[IMAGE]
+In "[Registering the Handicapped in Nazi Germany: A Case Study]({{site.baseurl}}/assets/docs/friedlander-registering.pdf)," Henry Friedlander reminds us that infrastructures building on one another, fueled by racist ideology and operating in relative shadows, can lead to a final infrastructure. Part of the fuel of our own project is keeping the spotlight fixed on the massive infestation of immigration detention centers in the United States today, while iterating the long history of tearing families apart to feed the national fevers of the United States. Though these companies were relatively obscure until very recently, the way they are run is all too familiar. Part of our research brought us to company sites and business databases behind paywalls. What we found was the usual paraphernalia of management culture, including their annual reports. Below you can see how American management culture, in their compulsion for spin, betrays the racist nature of their "service." 
 
-Sensing that their shadows were dissipating, some of these companies began to stand out from the others for not being the ones with these kids. Others, though, began the all too familiar process of deleting their records. Below is the 404 page that sits now where the above GIF came from.
-[IMAGE]
+![]({{site.baseurl}}/assets/figures/textures-fig4.png)
+
+
+Sensing that their shadows were dissipating, some of these companies  [began to whitewash their operations](http://www.mtctrains.com/mtcs-involvement-in-operating-ice-detention-centers/). Others began the all too familiar process of deleting their records. Below is the 404 page that sits now where the above GIF came from.
+
+![]({{site.baseurl}}/assets/figures/textures-fig5.png)
 
 
 ### The Detention Gold Rush
 
-Immigrant detention is not just big business, it is "job creation." While just a year ago non-profit organizations housing children in ORR custody engaged in [massive layoffs](http://valleycentral.com/news/local/southwest-key-program-conducts-mass-layoffs-due-to-recent-decline-in-immigration), the “zero tolerance” immigration policy has led to a hiring spree. A barely over minimum wage hiring spree, but [only the best](https://www.texasmonthly.com/news/southwest-key-hired-child-case-manager-previously-arrested-child-pornography/) for migrant children. After all, they sometimes even want an employee who’s bilingual. Then again, not all brown immigrants speak Spanish. 
+Immigrant detention is not just big business, it is also "job creation." While just a year ago non-profit organizations housing children in ORR custody engaged in [massive layoffs](http://valleycentral.com/news/local/southwest-key-program-conducts-mass-layoffs-due-to-recent-decline-in-immigration), the “zero tolerance” immigration policy has led to a hiring spree. A barely over minimum wage hiring spree, but [only the best](https://www.texasmonthly.com/news/southwest-key-hired-child-case-manager-previously-arrested-child-pornography/) for migrant children. After all, they sometimes even want an employee who’s bilingual. Then again, not all brown immigrants speak Spanish. 
 
-[IMAGE]
+![]({{site.baseurl}}/assets/figures/textures-fig6.png)
 
-As our experiences show, wading into the waters of public information on immigrant detention is a decision that shouldn’t be undertaken lightly. It must be done with the safety of migrants and asylum-seekers at the forefront. Researchers must also be aware that this work can be taxing on the spirit. Exposure to this level of cruelty is probably best handled by those who feel prepared to fix their eyes on intimate horrors and still fight on with clarity of mind and a stout will. We urge you take care of yourself at the same time as you care for others, through this work.
+### Passing On the Nimble Tent
 
-What we have demonstrated here is that a small team of researchers with varied skill sets—librarians, graduate students, literary scholars, and historians—and experience with digital humanities can pool their expertise to respond quickly, yet carefully, in a time of crisis. While Torn Apart is one iteration of our work, we are able to deploy our data to other teams that wish to use it in new ways. 
+As our experiences show, wading into the waters of public information on immigrant detention is a decision that shouldn’t be undertaken lightly. First and foremost, it must be done with the safety of migrants and asylum-seekers in mind. Researchers must also be aware that this work can be taxing on the spirit. Exposure to this level of cruelty is probably best handled by those who feel prepared to fix their eyes on intimate horrors and still fight on with clarity of mind and a stout will. We urge you take care of yourself at the same time as you care for others—through the work.
+
+What we have demonstrated here, we hope, is that a small team of researchers with varied skill sets—librarians, graduate students, literary scholars, and historians—and experience with digital humanities can pool their expertise to respond quickly, yet carefully, in times of crisis. While *Torn Apart* is one iteration of our work, we are gladly deploying our data, using various mechanisms, to other teams that wish to use it in new ways. We hope they do.
+
+--- 
 
 #### Works Cited
 
-Friedlander, H. "Registering the Handicapped in Nazi Germany: A Case Study," *Jew History* (1997) 11: 89. https://doi.org/10.1007/BF02335679
+Friedlander, H. "Registering the Handicapped in Nazi Germany: A Case Study," *Jew History* (1997) 11: 89. DOI: https://doi.org/10.1007/BF02335679
