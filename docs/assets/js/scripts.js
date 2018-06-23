@@ -217,7 +217,7 @@ function buildPointsLayer() {
   // iterate over the list object
   zeroIceFacs.forEach(place => {
     if(!isNaN(place.lat)){
-      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange));
+      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange, false));
     }
   });
   iceFacs.forEach(place => {
@@ -255,13 +255,13 @@ function buildPointsLayer() {
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
-  zeroIceFacsLayer.off();
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   return indexLayer;
 }
 
-function buildCircle(place, radius = 4, color = orange){
+function buildCircle(place, radius = 4, color = orange, interactive = true){
   const circleStyle = {
+    interactive, 
     weight: 1,
     radius: radius,
     color: "#000",
@@ -273,13 +273,12 @@ function buildCircle(place, radius = 4, color = orange){
   const lng = +place.lon;
   return L.circleMarker([lat, lng], circleStyle);
 }
-   
+
 function buildBufferLayer(){
   const layer = L.layerGroup();
   const buffer = L.geoJSON(bufferGeoJSON, { 
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
   });
-  console.log( buffer.getBounds());
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
     pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
   });
