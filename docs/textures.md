@@ -7,13 +7,14 @@ permalink: textures.html
 
 ## Our Research
 
-*Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
+*Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s 2018 “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
 
 Working nimbly and remotely from four sites in the United States over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee Resettlement (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
 
-Our sources for obtaining the data were varied. Those we worked from included a FOIA-ed list of ICE facilities, publicly available lists of CBP sites, data sets of ICE detainee hearings, state childcare licensing databases, government grant awards lists, and USASpending.gov. We cross-checked our data through non-governmental sources as well: news reports about immigrant detention, business databases, tax documents for non-profit organization, job advertisements, Google Maps entries, Facebook Places, and more. All of our data has been verified through a minimum of [two sources]({{site.baseurl}}/bibliography.html), at least one directly from the government. 
 
-What our data has revealed is a shadowy network of government facilities, subcontractors from the prison-industrial complex, “non-profit” administrators paid over half a million dollars a year, and religious organizations across the country that, together, prop up the immigrant detention machine. Immigrant detention is a multi-billion dollar business and it’s happening in our own backyards. The crisis for immigrants in the United States is not only happening at the Mexico-United States border or other ports of entry. Rather, the border is everywhere. 
+Our sources for obtaining the data were varied. Those we worked from included a FOIA-ed list of ICE facilities, publicly available lists of CBP sites, data sets of ICE detainee hearings, state childcare licensing databases, government grant awards lists, and USASpending.gov. We cross-checked our data through non-governmental sources as well: news reports about immigrant detention, business databases, tax documents for non-profit organization, job advertisements, Google Maps entries, Facebook Places, and more. All of our data has been verified through a minimum of [two sources]({{site.baseurl}}/bibliography.html), at least one directly from the government.
+
+What our data reveals is a shadowy network of government facilities, subcontractors from the prison-industrial complex, “non-profit” administrators paid over half a million dollars a year, and religious organizations across the country that, together, prop up the immigrant detention machine. Immigrant detention is a multi-billion dollar business and it’s happening in our own backyards. The crisis for immigrants in the United States is not only happening at the Mexico-United States border or other ports of entry. Rather, the border is everywhere. 
 
 This is not to say that Torn Apart, now in alpha release, paints a complete picture of immigrant detention. Like all maps, ours is a representation of data, reflecting choices we made while designing visualizations. A simple decision to place data points in the foreground, rather than in the background as we have done, offers a very different reading of the locations of ICE detention centers, as the map below demonstrates.
 
@@ -38,7 +39,6 @@ Facebook has been [rightly chastised this year](https://www.amazon.com/Antisocia
 After Alex [tweeted a screenshot](https://twitter.com/elotroalex/status/1008896200869908481) of one of these pages, Rachelle Hampton at Slate took on the specific challenge of investigating them. The result was her story, "[Family Members of Detainees Are Reviewing Border Detention Centers on Facebook](https://slate.com/human-interest/2018/06/detainees-family-members-are-reviewing-border-detention-centers-on-facebook-and-google.html)." Now, members of the public are filling these pages with demands for [accountability and transparency](https://www.facebook.com/pages/Southwest-Key-Programs/463839093693174). 
 
 ![]({{site.baseurl}}/assets/figures/textures-fig3.jpg)
-
 
 ### The Banality of Annual Reports
 
