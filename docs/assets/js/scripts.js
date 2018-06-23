@@ -391,7 +391,7 @@ function buildTrapLegend(){
   [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
   has criminalized border crossing. 
   Authorized ports of entry, tiny holes shown here as 15mi wide 
-  [turning back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
+  [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
   leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
   where they are exposed to harsh conditions both from the 
   environment and law enforcement.`
