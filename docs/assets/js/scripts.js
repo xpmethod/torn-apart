@@ -289,15 +289,15 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
+  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - 5; 
   const vizWidth = $( window ).width() - 2 * rem; 
-  const columns = Math.floor( vizWidth / (128 + .5 * rem ));
-  // const rows = Math.floor($( window ).height() / (128 + .5 * rem ));
-  let row = `<div class="d-flex justify-content-around" style="width: ${vizWidth}px">`;
-  for (let i = 1; i <= columns; i++){
-    row = row + "<div class='m-1'><img class='rounded' src='/torn-apart/assets/imgs/EAZ-thumb.png'></div>";
-  }
-  row = row + "</div>";
-  $("#the-eye-div").append(row);
+  const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
+  const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
+  const colArray = d3.range(columns).map(() => "<div class='m-1'><img class='rounded' src='/torn-apart/assets/imgs/EAZ-thumb.png'></div>").join("");
+  let row = `<div class="d-flex justify-content-around">${colArray}</div>`;
+  const rowArray = d3.range(rows).map(() => row).join("");
+  const matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">${rowArray}</div>`;
+  $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
 
 }
@@ -305,6 +305,7 @@ function buildTheEye() {
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[0].addTo(map);
@@ -320,9 +321,11 @@ function showViz(viz, map, layers){
     buildTheEye();
     break;
   case "charts":
+    $("#the-eye-div").hide();
     $(".leaflet-control-zoom").hide();
     break;
   case "detention-centers":
+    $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[1].addTo(map);

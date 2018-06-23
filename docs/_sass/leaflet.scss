@@ -7,6 +7,17 @@
   top: 50vh;
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.75);
+
+  p {
+    margin: 0px;
+  }
+
+  a {
+    padding: 0 .25rem;
+    border-radius: .25rem;
+    color: $green;
+    background-color: $white;
+  }
 }
 
 @media (min-width: 576px){
@@ -59,3 +70,13 @@
   position: absolute;
   z-index: 1000;
 }
+
+#the-eye-div {
+  display: none;
+
+  img {
+    border: 3px solid $green;;
+  }
+}
+
+
