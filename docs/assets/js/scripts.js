@@ -347,7 +347,7 @@ function buildSpark(data) {
 
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).ticks(4).tickFormat(d3.format(".0f")));
+    .call(d3.axisBottom(x).tickValues([2014, 2018]).tickFormat(d3.format(".0f")));
 
   g.append("g")
     .call(d3.axisLeft(y).ticks(d3.min([max, 5])).tickFormat(d3.format(".0f")))
