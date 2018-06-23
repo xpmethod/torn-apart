@@ -1,4 +1,4 @@
-/* global s, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global s, imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -222,13 +222,16 @@ function buildPointsLayer() {
     }
   });
   iceFacs.forEach(place => {
+    const detloc = place["DETLOC"];
     const radius = defaultRadius * 2;
     const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
     const svgData = buildSpark(data);
-    const imgSrc = "/torn-apart/assets/imgs/webbcounty.png"
-    // const imgSrc = "/torn-apart/assets/imgs/onepixel.png"
+    let imgSrc = "/torn-apart/assets/imgs/onepixel.png";
+    if (detloc !== "Redacted") {
+      imgSrc = imgurImages.filter((img) => img.hasOwnProperty(detloc))[0][detloc].thumb;
+    }
     const popup = `<div class="row">
-      <div class="col-xs pl-3">
+      <div class="col-xs pl-3" style="height: 128; width: 128">
         <img height="128" width="128" class="popup-image" 
         src="${imgSrc}">
       </div>
@@ -289,17 +292,29 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
-  const place = {"lat": 32.8177, "lon": -111.52};
   const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem; 
   const vizWidth = $( window ).width() - 2 * rem; 
   const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
   const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
-  const colArray = d3.range(columns).map(() => `<div class="eye-tile-div m-1" data-lat="${place.lat}" data-lon="${place.lon}" >
-    <img class="eye-img rounded" 
-    src="/torn-apart/assets/imgs/EAZ-thumb.png"></div>`).join("");
-  let row = `<div class="d-flex justify-content-around">${colArray}</div>`;
-  const rowArray = d3.range(rows).map(() => row).join("");
-  const matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">${rowArray}</div>`;
+  const images = d3.shuffle(imgurImages).slice(0, columns * rows).map( image => {
+    const detloc = Object.keys(image)[0];
+    const currPlace = iceFacs.filter(fac => fac["DETLOC"] === detloc)[0];
+    return {
+      thumb: image[detloc].thumb,
+      lat: currPlace.lat,
+      lon: currPlace.lon
+    };
+  });
+  console.log(images);
+  let matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">`;
+  for(let i = 1; i <= rows; i++){
+    matrix = matrix + "<div class='d-flex justify-content-around'>";
+    matrix = matrix + images.splice(0, columns).map(image => `<div class="eye-tile-div m-1" 
+      data-lat="${image.lat}" data-lon="${image.lon}" >
+      <img class="eye-img rounded" src="${image.thumb}"></div>`).join("");
+    matrix = matrix + "</div>";
+  }
+  matrix = matrix + "</div>";
   $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
   $(".eye-tile-div").click(function(){
@@ -433,7 +448,7 @@ function buildTrapLegend(){
   [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
   leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
   where they are exposed to harsh conditions both from the 
-  environment and law enforcement.`
+  environment and law enforcement.`;
   legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
   
   $("#legend").html(() => {
