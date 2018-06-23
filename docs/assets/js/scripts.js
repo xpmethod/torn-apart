@@ -305,6 +305,7 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
+    map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     buildPointsLegend();
     break;
   case "orr":
