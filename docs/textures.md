@@ -7,7 +7,7 @@ permalink: textures.html
 
 ## Our Research
 
-Torn Apart aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
+*Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
 
 Working nimbly and remotely from four sites in the United States over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
 
@@ -52,8 +52,6 @@ Sensing that their shadows were dissipating, some of these companies began to st
 Immigrant detention is not just big business, it is "job creation." While just a year ago non-profit organizations housing children in ORR custody engaged in [massive layoffs](http://valleycentral.com/news/local/southwest-key-program-conducts-mass-layoffs-due-to-recent-decline-in-immigration), the “zero tolerance” immigration policy has led to a hiring spree. A barely over minimum wage hiring spree, but [only the best](https://www.texasmonthly.com/news/southwest-key-hired-child-case-manager-previously-arrested-child-pornography/) for migrant children. After all, they sometimes even want an employee who’s bilingual. Then again, not all brown immigrants speak Spanish. 
 
 [IMAGE]
-
----
 
 As our experiences show, wading into the waters of public information on immigrant detention is a decision that shouldn’t be undertaken lightly. It must be done with the safety of migrants and asylum-seekers at the forefront. Researchers must also be aware that this work can be taxing on the spirit. Exposure to this level of cruelty is probably best handled by those who feel prepared to fix their eyes on intimate horrors and still fight on with clarity of mind and a stout will. We urge you take care of yourself at the same time as you care for others, through this work.
 
