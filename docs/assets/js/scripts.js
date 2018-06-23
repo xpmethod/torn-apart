@@ -1,4 +1,4 @@
-/* global s, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global s, imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -222,13 +222,16 @@ function buildPointsLayer() {
     }
   });
   iceFacs.forEach(place => {
+    const detloc = place["DETLOC"];
     const radius = defaultRadius * 2;
     const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
     const svgData = buildSpark(data);
-    const imgSrc = "/torn-apart/assets/imgs/webbcounty.png"
-    // const imgSrc = "/torn-apart/assets/imgs/onepixel.png"
+    let imgSrc = "/torn-apart/assets/imgs/onepixel.png";
+    if (detloc !== "Redacted") {
+      imgSrc = imgurImages.filter((img) => img.hasOwnProperty(detloc))[0][detloc].thumb;
+    }
     const popup = `<div class="row">
-      <div class="col-xs pl-3">
+      <div class="col-xs pl-3" style="height: 128; width: 128">
         <img height="128" width="128" class="popup-image" 
         src="${imgSrc}">
       </div>
@@ -289,17 +292,28 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
-  const place = {"lat": 32.8177, "lon": -111.52};
   const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem; 
   const vizWidth = $( window ).width() - 2 * rem; 
   const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
   const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
-  const colArray = d3.range(columns).map(() => `<div class="eye-tile-div m-1" data-lat="${place.lat}" data-lon="${place.lon}" >
-    <img class="eye-img rounded" 
-    src="/torn-apart/assets/imgs/EAZ-thumb.png"></div>`).join("");
-  let row = `<div class="d-flex justify-content-around">${colArray}</div>`;
-  const rowArray = d3.range(rows).map(() => row).join("");
-  const matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">${rowArray}</div>`;
+  const images = d3.shuffle(imgurImages).slice(0, columns * rows).map( image => {
+    const detloc = Object.keys(image)[0];
+    const currPlace = iceFacs.filter(fac => fac["DETLOC"] === detloc)[0];
+    return {
+      thumb: image[detloc].thumb,
+      lat: currPlace.lat,
+      lon: currPlace.lon
+    };
+  });
+  let matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">`;
+  for(let i = 1; i <= rows; i++){
+    matrix = matrix + "<div class='d-flex justify-content-around'>";
+    matrix = matrix + images.splice(0, columns).map(image => `<div class="eye-tile-div m-1" 
+      data-lat="${image.lat}" data-lon="${image.lon}" >
+      <img class="eye-img rounded" src="${image.thumb}"></div>`).join("");
+    matrix = matrix + "</div>";
+  }
+  matrix = matrix + "</div>";
   $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
   $(".eye-tile-div").click(function(){
@@ -312,16 +326,6 @@ function buildTheEye() {
     $(".eye-tile-div").removeClass("shadow").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
     $( this ).addClass("eye-tile-div").addClass("shadow");
     map.flyTo(newlatlng, 15);
-  });
-
-}
-
-function buildCharts() {
-  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
-  $("#charts-debugger").html(() => {
-    return `phone-navs: ${$("#phone-navs").height()}
-      navs: ${$("#navs").height()}
-      attrib: ${$(".leaflet-control-attribution").height()}`;
   });
 
 }
@@ -433,7 +437,7 @@ function buildTrapLegend(){
   [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
   leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
   where they are exposed to harsh conditions both from the 
-  environment and law enforcement.`
+  environment and law enforcement.`;
   legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
   
   $("#legend").html(() => {
@@ -498,5 +502,77 @@ function buildPointsLegend(){
   });
   moveLegend();
   $("#legend").show();
+}
+
+function buildCharts() {
+  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
+  $("#charts-debugger").html(() => {
+    return `phone-navs: ${$("#phone-navs").height()}
+      navs: ${$("#navs").height()}
+      attrib: ${$(".leaflet-control-attribution").height()}`;
+  });
+  d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
+    if (error) throw error;
+
+    const svgHeight = 200;
+    const svgWidth = $("#time-series-div").width() / 2;
+    const margins = {top: 10, bottom: 20, left: 28, right: 20};
+    const height = svgHeight - margins.top - margins.bottom;
+    const width = svgWidth - margins.left - margins.right;
+
+    const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
+    const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
+    const tpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
+    const tpY = d3.scaleLinear().rangeRound([height, 0]);
+    // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
+    const adpSvg = d3.select("#adp-svg").attr("width", svgWidth).attr("height", svgHeight);
+    const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
+    const adpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
+    const adpY = d3.scaleLinear().rangeRound([height, 0]);
+
+    console.log(data[0]);
+    const totalPlaces = [];
+    const adpByYear = [];
+    ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
+      const fy = year.replace("20", "FY");
+      totalPlaces.push([+year, data.filter(d => +d[fy + ".ADP"] > 0).length]);
+      adpByYear.push([+year, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
+    });
+
+    console.log(adpByYear);
+    $("#total-places-no").html(totalPlaces[4][1]);
+    // const tpMax = d3.max(totalPlaces.map(d => d[1]));
+    tpX.domain(totalPlaces.map(d => d[0]));
+    tpY.domain([0, 400]);
+    // tpG.append("path").datum(totalPlaces).attr("fill", "none").attr("stroke", green).attr("stroke-linejoin", "round").attr("stroke-linecap", "round")
+      // .attr("stroke-width", 1.5).attr("d", tpLine);
+    tpG.selectAll(".bar")
+      .data(totalPlaces).enter().append("rect").attr("class", "bar")
+      .attr("y", d => tpY(d[1])).attr("x", d => tpX(d[0]))
+      .attr("height", d => height - tpY(d[1]))
+      .attr("width", tpX.bandwidth());
+    tpG.append("g").attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(tpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+    tpG.append("g").call(d3.axisLeft(tpY).ticks(5).tickFormat(d3.format(".0f"))).append("text")
+      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+      .attr("text-anchor", "end").text("Num. of Facilities"); 
+
+    $("#adp-no").html(adpByYear[4][1]);
+    adpX.domain(adpByYear.map(d => d[0]));
+    adpY.domain([0, 45000]);
+    adpG.selectAll(".bar")
+      .data(adpByYear).enter().append("rect").attr("class", "bar")
+      .attr("y", d => adpY(d[1])).attr("x", d => adpX(d[0]))
+      .attr("height", d => height - adpY(d[1]))
+      .attr("width", adpX.bandwidth());
+    adpG.append("g").attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(adpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+    adpG.append("g").call(d3.axisLeft(adpY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
+      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+      .attr("text-anchor", "end").text("Avg. Daily Pop."); 
+
+    
+
+  });
 }
 
