@@ -13,15 +13,3 @@ As we have gathered and curated this data and produced these visualizations, we 
 Hence, in addition to reflections from our own project group, we have reached out to a small group of historians, activists, artists, and writers to provide their own readings of our curated data and visualizations. 
 
 We provide all of this in order to help contextualize both our impetus and our efforts.
-
-<ul>
-{% for page in site.reflections %}
-    <li>
-		<a href="{{ page.url | prepend:site.baseurl }}">
-        <span class="toc-title">{{ page.title.long  | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-      	</a><br>
-      	<span class="toc-author">{{ page.author.name }}</span>
-    </li>
-{% endfor %} 
-</ul>
-
