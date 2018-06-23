@@ -1,3 +1,21 @@
+// AlexEd Code
+
+.container h1 {
+	margin-top: 4em;
+}
+
+.container > *:not( img ):not( video ) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img {
+	width: 100%;
+}
+
 // Color Brewer colors:
 $orange: #fc8d62;
 $green: #66c2a5;
