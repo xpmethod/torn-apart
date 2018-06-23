@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 {% include header.html %}
 <body>
+<h1 class="sr-only">Torn Apart / Separados</h1>
 <div id="above-map">
   <div class="d-md-none">
     {% include navbar.html %}
@@ -44,6 +45,9 @@
   </div>
 </div>
 <div class="full-map" id="{{page.mapid}}">
+</div>
+<div class="mx-3 card" id="legend">
+  <h3>Legend</h3>
 </div>
 <div id="indexModal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
