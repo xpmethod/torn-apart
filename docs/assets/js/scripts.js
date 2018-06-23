@@ -516,7 +516,7 @@ function buildCharts() {
 
     const svgHeight = 200;
     const svgWidth = $("#time-series-div").width() / 2;
-    const margins = {top: 10, bottom: 20, left: 28, right: 20};
+    const margins = {top: 10, bottom: 30, left: 28, right: 20};
     const height = svgHeight - margins.top - margins.bottom;
     const width = svgWidth - margins.left - margins.right;
 
@@ -527,19 +527,28 @@ function buildCharts() {
     // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
     const adpSvg = d3.select("#adp-svg").attr("width", svgWidth).attr("height", svgHeight);
     const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
-    const adpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
+    const adpX = d3.scaleBand().rangeRound([0, width - 5]).padding(0.1);
     const adpY = d3.scaleLinear().rangeRound([height, 0]);
+    const bookinsSvg = d3.select("#bookins-svg").attr("width", svgWidth).attr("height", svgHeight);
+    const bookinsG = bookinsSvg.append("g").attr("transform", `translate(${margins.left + 20},${margins.top})`);
+    const bookinsX = d3.scaleBand().rangeRound([0, width - 5]).padding(0.1);
+    const bookinsY = d3.scaleLinear().rangeRound([height, 0]);
 
     console.log(data[0]);
     const totalPlaces = [];
     const adpByYear = [];
+    const bookinsByYear = [];
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
-      totalPlaces.push([+year, data.filter(d => +d[fy + ".ADP"] > 0).length]);
-      adpByYear.push([+year, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
+      totalPlaces.push([fy, data.filter(d => +d[fy + ".ADP"] > 0).length]);
+      adpByYear.push([fy, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
+      if (year !== "2014"){
+        bookinsByYear.push([fy, d3.sum(data.map(d => +d[fy + ".Facility.Bookins"]))]);
+      }
     });
 
-    console.log(adpByYear);
+    console.log(bookinsByYear);
+
     $("#total-places-no").html(totalPlaces[4][1]);
     // const tpMax = d3.max(totalPlaces.map(d => d[1]));
     tpX.domain(totalPlaces.map(d => d[0]));
@@ -552,10 +561,12 @@ function buildCharts() {
       .attr("height", d => height - tpY(d[1]))
       .attr("width", tpX.bandwidth());
     tpG.append("g").attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(tpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+      .call(d3.axisBottom(tpX));
     tpG.append("g").call(d3.axisLeft(tpY).ticks(5).tickFormat(d3.format(".0f"))).append("text")
       .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
       .attr("text-anchor", "end").text("Num. of Facilities"); 
+    tpSvg.append("text").attr("transform", `translate(${svgWidth - margins.right},${svgHeight - 2})`)
+      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
 
     $("#adp-no").html(adpByYear[4][1]);
     adpX.domain(adpByYear.map(d => d[0]));
@@ -566,10 +577,28 @@ function buildCharts() {
       .attr("height", d => height - adpY(d[1]))
       .attr("width", adpX.bandwidth());
     adpG.append("g").attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(adpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+      .call(d3.axisBottom(adpX));
     adpG.append("g").call(d3.axisLeft(adpY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
       .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
       .attr("text-anchor", "end").text("Avg. Daily Pop."); 
+    adpSvg.append("text").attr("transform", `translate(${svgWidth - 3},${svgHeight - 2})`)
+      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
+
+    $("#bookins-no").html(bookinsByYear[3][1]);
+    bookinsX.domain(bookinsByYear.map(d => d[0]));
+    bookinsY.domain([0, 800000]);
+    bookinsG.selectAll(".bar")
+      .data(bookinsByYear).enter().append("rect").attr("class", "bar")
+      .attr("y", d => bookinsY(d[1])).attr("x", d => bookinsX(d[0]))
+      .attr("height", d => height - bookinsY(d[1]))
+      .attr("width", bookinsX.bandwidth());
+    bookinsG.append("g").attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(bookinsX));
+    bookinsG.append("g").call(d3.axisLeft(bookinsY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
+      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+      .attr("text-anchor", "end").text("Bookins"); 
+    bookinsSvg.append("text").attr("transform", `translate(${svgWidth - 3},${svgHeight - 2})`)
+      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
 
     
 

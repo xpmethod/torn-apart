@@ -39,7 +39,16 @@ This is some description text
 </div>
 <div id="time-series-bookins" class="tab-pane" role="tabpanel" aria-labelledby="bookins-tab">
 
-# Bookins
+<div class="row">
+<div class="col-6">
+<p class="big-number" id="bookins-no">No.</p>
+<p class="big-number-desc">Bookins October and November 2017</p>
+This is some description text
+</div>
+<div class="pl-0 col-6">
+<svg id="bookins-svg"></svg>
+</div>
+</div>
 
 </div>
 </div>

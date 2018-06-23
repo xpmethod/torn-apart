@@ -1,7 +1,7 @@
 .big-number {
   margin: 0;
   color: $green;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: bold;
   text-align: center;
 }
@@ -13,4 +13,8 @@
 
 .bar {
   fill: $green;
+}
+
+text {
+  font-size: 10px;
 }
