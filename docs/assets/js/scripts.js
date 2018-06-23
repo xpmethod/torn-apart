@@ -330,16 +330,6 @@ function buildTheEye() {
 
 }
 
-function buildCharts() {
-  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
-  $("#charts-debugger").html(() => {
-    return `phone-navs: ${$("#phone-navs").height()}
-      navs: ${$("#navs").height()}
-      attrib: ${$(".leaflet-control-attribution").height()}`;
-  });
-
-}
-
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
@@ -512,5 +502,51 @@ function buildPointsLegend(){
   });
   moveLegend();
   $("#legend").show();
+}
+
+function buildCharts() {
+  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
+  $("#charts-debugger").html(() => {
+    return `phone-navs: ${$("#phone-navs").height()}
+      navs: ${$("#navs").height()}
+      attrib: ${$(".leaflet-control-attribution").height()}`;
+  });
+  d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
+    if (error) throw error;
+
+    const svgHeight = 200;
+    const svgWidth = $("#time-series-div").width() / 2;
+    const margins = {top: 10, bottom: 20, left: 28, right: 20};
+    const height = svgHeight - margins.top - margins.bottom;
+    const width = svgWidth - margins.left - margins.right;
+
+    const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
+    const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
+    const tpX = d3.scaleLinear().rangeRound([0, width]);
+    const tpY = d3.scaleLinear().rangeRound([height, 0]);
+    const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
+
+    console.log(data[0]);
+    const totalPlaces = [];
+    ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
+      const fy = year.replace("20", "FY");
+      totalPlaces.push([+year, data.filter(d => +d[fy + ".ADP"] > 0).length]);
+    });
+
+    $("#total-places-no").html(totalPlaces[4][1]);
+    const tpMax = d3.max(totalPlaces.map(d => d[1]));
+    tpX.domain([2014, 2018]);
+    tpY.domain([0, tpMax]);
+    tpG.append("path").datum(totalPlaces).attr("fill", "none").attr("stroke", green).attr("stroke-linejoin", "round").attr("stroke-linecap", "round")
+      .attr("stroke-width", 1.5).attr("d", tpLine);
+    tpG.append("g").attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(tpX).tickValues([2014, 2015, 2016, 2017, 2018]).tickFormat(d3.format(".0f")));
+    tpG.append("g").call(d3.axisLeft(tpY).ticks(5).tickFormat(d3.format(".0f"))).append("text")
+      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+      .attr("text-anchor", "end").text("Num. of Facilities"); 
+
+    
+
+  });
 }
 
