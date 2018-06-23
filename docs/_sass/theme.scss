@@ -83,6 +83,14 @@ main {
   margin-top: 60px;
 }
 
+a {
+  color: $green;
+}
+
+a:hover {
+  color: $darkgreen;
+}
+
 .btn-primary {
   background-color: $green;
   border-color: $green;
