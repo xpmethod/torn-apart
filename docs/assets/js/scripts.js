@@ -324,7 +324,7 @@ function showViz(viz, map, layers){
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").hide();
     break;
-  case "detention-centers":
+  case "clinks":
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
