@@ -4,7 +4,7 @@
 <body>
 <h1 class="sr-only">Torn Apart / Separados</h1>
 <div id="above-map">
-  <div class="d-md-none">
+  <div id="phone-navs" class="d-md-none">
     {% include navbar.html %}
     {% if page.permalink == "visualizations.html" %}
     <div style="margin-top: 65px;">
@@ -47,9 +47,15 @@
 </div>
 <div class="full-map" id="{{page.mapid}}">
 </div>
-<div class="mx-3 card" id="legend">
-  <h3>Legend</h3>
-</div>
+{% if page.permalink == "visualizations.html" %}
+  <div class="mx-3 px-3 py-2 card" id="charts-div">
+    {% capture charts_include %}{% include charts.md %}{% endcapture %}
+    {{ charts_include | markdownify }}
+  </div>
+  <div class="mx-3 card" id="legend">
+    <h3>Legend</h3>
+  </div>
+{% endif %}
 <div id="indexModal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">

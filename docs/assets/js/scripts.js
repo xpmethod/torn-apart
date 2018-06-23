@@ -309,9 +309,19 @@ function buildTheEye() {
     const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
     const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
-    $(".eye-tile-div").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
-    $( this ).addClass("eye-tile-div");
+    $(".eye-tile-div").removeClass("shadow").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
+    $( this ).addClass("eye-tile-div").addClass("shadow");
     map.flyTo(newlatlng, 15);
+  });
+
+}
+
+function buildCharts() {
+  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
+  $("#charts-debugger").html(() => {
+    return `phone-navs: ${$("#phone-navs").height()}
+      navs: ${$("#navs").height()}
+      attrib: ${$(".leaflet-control-attribution").height()}`;
   });
 
 }
@@ -319,15 +329,17 @@ function buildTheEye() {
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
+    $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
-    map.fitBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
     buildTrapLegend();
     break;
   case "the-eye":
+    $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
     $("#legend").hide();
     map.removeLayer(layers[1]);
@@ -335,19 +347,29 @@ function showViz(viz, map, layers){
     buildTheEye();
     break;
   case "charts":
+    $("#legend").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").hide();
+    layers[1].addTo(map);
+    map.removeLayer(layers[0]);
+    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    buildCharts();
+    $("#charts-div").show();
     break;
   case "clinks":
+    $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
-    map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     buildPointsLegend();
     break;
   case "orr":
+    $("#legend").hide();
+    $("#charts-div").hide();
+    $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     break;
   }

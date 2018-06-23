@@ -17,10 +17,13 @@ $.i18n().load({
     "ta-clinks": "Clinks",
     "ta-the-eye": "The Eye",
     "ta-charts": "Charts",
-    "ta-orr": "ORR"
+    "ta-orr": "ORR",
+    "ta-adp": "ADP",
+    "ta-facilities": "Facilities",
+    "ta-bookins": "Bookins"
   },
   "es": {
-    "ta-sitename": "Torn Apart",
+    "ta-sitename": "Separados",
     "ta-visualizations": "Visualizaciones",
     "ta-textures": "Texturas",
     "ta-reflections": "Reflexiones",
@@ -32,7 +35,10 @@ $.i18n().load({
     "ta-detention-ctrs": "Detention Ctrs",
     "ta-the-eye": "el Ojo",
     "ta-charts": "Charts",
-    "ta-orr": "ORR"
+    "ta-orr": "ORR",
+    "ta-adp": "ADP",
+    "ta-facilities": "Instalaciones",
+    "ta-bookins": "Bookins"
   }
 });
 
