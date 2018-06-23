@@ -5,6 +5,13 @@
 // Markdown-it available as markdownit
 // d3 available as d3
 
+var defaultRadius;
+if (L.Browser.mobile) {
+  defaultRadius = 4;
+} else {
+  defaultRadius = $( window ).width() / 250;
+}
+
 var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
@@ -13,6 +20,11 @@ var purple = "#8da0cb";
 // const md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
+  const externalLink = $.parseHTML("<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>");
+  $("a[href^='http']:not(a:has(img))").append(externalLink);
+  $("a[href^='http']").attr("target", "_blank");
+
+  $("#legend").click(function(){ $(this).hide(); });
 
   update_texts();
 
@@ -35,6 +47,7 @@ $( document ).ready(() => {
     // #mapdiv is only on index, so… show the modal.
     $("#indexModal").modal("show");
     const map = initMap("mapdiv");
+    buildPointsLegend();
     const pointsLayer = buildPointsLayer();
     pointsLayer.addTo(map);
   }
@@ -188,6 +201,7 @@ function initMap(mapid){
     map.removeControl(map.zoomControl);
   }
   $(".leaflet-top").css("margin-top", `${$("#navs").height()}px`);
+  moveLegend();
   return map;
 }
 
@@ -200,12 +214,6 @@ function buildPointsLayer() {
   const zeroIceFacsLayer = L.layerGroup();
   const iceFacsLayer = L.layerGroup();
   const detCtrsLayer = L.layerGroup();
-  let defaultRadius;
-  if (L.Browser.mobile) {
-    defaultRadius = 4;
-  } else {
-    defaultRadius = $( window ).width() / 250;
-  }
   // iterate over the list object
   zeroIceFacs.forEach(place => {
     if(!isNaN(place.lat)){
@@ -247,6 +255,7 @@ function buildPointsLayer() {
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
+  zeroIceFacsLayer.off();
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   return indexLayer;
 }
@@ -270,6 +279,7 @@ function buildBufferLayer(){
   const buffer = L.geoJSON(bufferGeoJSON, { 
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
   });
+  console.log( buffer.getBounds());
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
     pointToLayer(f, l) { return L.circleMarker(l, { opacity: 0.0, fillOpacity: 0.0 }).bindTooltip(f.properties.Name); }
   });
@@ -281,7 +291,7 @@ function showViz(viz, map, layers){
   case "the-trap":
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
-    // map.fitBounds(layers[0].getBounds());
+    map.fitBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
     break;
   case "the-eye":
     // map.eachLayer( layer => layer.remove() );
@@ -290,12 +300,18 @@ function showViz(viz, map, layers){
   case "charts":
     break;
   case "detention-centers":
+    $("#legend").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
+    buildPointsLegend();
     break;
   case "orr":
     break;
   }
+}
+
+function moveLegend() {
+  $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
 }
 
 function titleize(string) {
@@ -318,6 +334,15 @@ function buildSpark(data) {
   x.domain([2014, 2018]);
   y.domain([0, max]);
 
+  g.append("path")
+    .datum(data)
+    .attr("fill", "none")
+    .attr("stroke", green)
+    .attr("stroke-linejoin", "round")
+    .attr("stroke-linecap", "round")
+    .attr("stroke-width", 1.5)
+    .attr("d", line);
+
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).ticks(4).tickFormat(d3.format(".0f")));
@@ -332,14 +357,66 @@ function buildSpark(data) {
     .attr("text-anchor", "end")
     .text("Avg. Daily Pop."); 
 
-  g.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", green)
-    .attr("stroke-linejoin", "round")
-    .attr("stroke-linecap", "round")
-    .attr("stroke-width", 1.5)
-    .attr("d", line);
   return svg.node().innerHTML;
+}
+
+function buildTrapLegend(){
+  $("#legend").html(() => {
+    return `<div class="px-3 pt-2">
+      <div class="media">
+        <svg class="m-2" height="">
+    </div>`;
+  });
+}
+
+function buildPointsLegend(){
+  $("#legend").html(() => {
+    return `<div class="row px-3 pt-2">
+      <div class="col-sm-4">
+        <div class="media">
+          <svg class="m-2" height="${defaultRadius * 4}" width="${defaultRadius * 4}">
+            <circle r="${defaultRadius * 1.5}" 
+              cx="${defaultRadius * 2}" cy="${defaultRadius * 2}" 
+              fill="${purple}" fill-opacity="0.8"
+              stroke="black" stroke-width="1" stroke-opacity="0.8" />
+          </svg>
+          <div class="media-body">
+            Private juvenile detention facilities
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media">
+          <svg class="m-2" height="${defaultRadius * 4}" width="${defaultRadius * 4}">
+            <circle r="${defaultRadius * 2}" 
+              cx="${defaultRadius * 2}" cy="${defaultRadius * 2}" 
+              fill="${orange}" fill-opacity="0.8"
+              stroke="black" stroke-width="1" stroke-opacity="0.8" />
+          </svg>
+          <div class="media-body">
+            ICE facilities in use since 2014
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media">
+          <svg class="m-2" height="${defaultRadius * 4}" width="${defaultRadius * 4}">
+            <circle r="${defaultRadius}" 
+              cx="${defaultRadius * 2}" cy="${defaultRadius * 2}" 
+              fill="${orange}" fill-opacity="0.8"
+              stroke="black" stroke-width="1" stroke-opacity="0.8" />
+          </svg>
+          <div class="media-body">
+            ICE facilities not in use
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mx-3">
+      This is some text for the legend.
+    </div>`;
+  });
+  moveLegend();
+  $("#legend").show();
 }
 
