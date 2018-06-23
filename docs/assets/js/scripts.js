@@ -5,7 +5,7 @@
 // Markdown-it available as markdownit
 // d3 available as d3
 
-var map;
+var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 
@@ -17,7 +17,7 @@ $( document ).ready(() => {
   update_texts();
 
   if($("#visualizations-mapdiv").length){
-    map = initMap("visualizations-mapdiv");
+    const map = initMap("visualizations-mapdiv");
     const theViz = window.location.href.replace(/^.*#/, "");
     $("[href='#" + theViz + "']").addClass("active");
     const bufferLayer = buildBufferLayer();
@@ -216,17 +216,17 @@ function buildPointsLayer() {
     const radius = defaultRadius * 2;
     const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
     const svgData = buildSpark(data);
-    const popup = `<h5>${titleize(place["Name"])}</h5>
-    ${titleize(place["City"])}, ${place["State"]}
-    <div class="row">
-      <div class="col-6">
-        <img height="150" width="150" class="popup-image mr-3" 
-        src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+    const popup = `<div class="row">
+      <div class="col-xs pl-3">
+        <img height="128" width="128" class="popup-image" 
+        src="/torn-apart/assets/imgs/onepixel.png">
       </div>
-      <div class="col-6 spark-div">
-        <svg width="150" height="150">${svgData}</svg>
+      <div class="col-xs spark-div">
+        <svg width="150" height="128">${svgData}</svg>
       </div>
     </div>
+    <h5>${place["Name"]}</h5>
+    ${titleize(place["City"])}, ${place["State"]}
     `;
     if(!isNaN(place.lat)){
       const circle = buildCircle(place, radius, orange);
@@ -248,8 +248,6 @@ function buildPointsLayer() {
     }
   });
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
-  console.log($(".spark-div").length);
-  console.log("sparks length");
   return indexLayer;
 }
 
@@ -305,7 +303,8 @@ function titleize(string) {
 }
 
 function buildSpark(data) {
-  const svg = d3.select("#hidden-svg").append("svg").attr("width", 150).attr("height", 150),
+  const max = d3.max(data.map(d => d[1]));
+  const svg = d3.select("#hidden-svg").append("svg").attr("width", 150).attr("height", 128),
     width = +svg.attr("width") - 50,
     height = +svg.attr("height") - 30,
     g = svg.append("g").attr("transform", "translate(35,10)");
@@ -316,29 +315,27 @@ function buildSpark(data) {
   const line = d3.line()
     .x(function(d) { return x(d[0]); })
     .y(function(d) { return y(d[1]); });
-  x.domain(d3.extent(data, d => d[0]));
-  y.domain(d3.extent(data, d => d[1]));
+  x.domain([2014, 2018]);
+  y.domain([0, max]);
 
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).tickValues([2014, 2018]).tickFormat(d3.format(".0f")))
-    .select(".domain")
-    .remove();
+    .call(d3.axisBottom(x).ticks(4).tickFormat(d3.format(".0f")));
 
   g.append("g")
-    .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".0f")))
+    .call(d3.axisLeft(y).ticks(d3.min([max, 5])).tickFormat(d3.format(".0f")))
     .append("text")
     .attr("fill", "#000")
     .attr("transform", "rotate(-90)")
     .attr("y", 6)
     .attr("dy", "0.71em")
     .attr("text-anchor", "end")
-    .text("Avg. Daily Population"); 
+    .text("Avg. Daily Pop."); 
 
   g.append("path")
     .datum(data)
     .attr("fill", "none")
-    .attr("stroke", "steelblue")
+    .attr("stroke", green)
     .attr("stroke-linejoin", "round")
     .attr("stroke-linecap", "round")
     .attr("stroke-width", 1.5)

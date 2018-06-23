@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Torn Apart
+title: Torn Apart / Separados
 email: torn-apart@moacir.moacir.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Torn Apart description.
+  A rapidly deployed critical data & visualization intervention in USA’s 2018
+  “Zero Tolerance Policy” for asylum seekers at the US Ports of Entry and the
+  humanitarian crisis that has followed.
 baseurl: "/torn-apart" # the subpath of your site, e.g. /blog
 url: "http://xpmethod.plaintext.in" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
