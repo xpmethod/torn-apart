@@ -53,7 +53,7 @@ In "[Registering the Handicapped in Nazi Germany: A Case Study]({{site.baseurl}}
 
 Sensing that their shadows were dissipating, some of these companies [began to whitewash their operations](http://www.mtctrains.com/mtcs-involvement-in-operating-ice-detention-centers/). Others began the all too familiar process of deleting their records. Below is the 404 page that sits now where the above GIF came from.
 
-{: .figure-landscape}
+{: .figure-justified}
 ![]({{site.baseurl}}/assets/figures/textures-fig5.png)
 
 
