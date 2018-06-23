@@ -17,9 +17,9 @@ What our data reveals is a shadowy network of government facilities, subcontract
 
 This is not to say that *Torn Apart*, now in alpha release, paints a complete picture of immigrant detention. Like all maps, ours is a representation of data, reflecting choices we made while designing visualizations. For example, a simple decision to place data points in the foreground rather than in the background offers a very different reading of the locations of ICE detention centers, as the map below demonstrates.
 
-<div class="figure"><img width="42" src="{{site.baseurl}}/assets/figures/textures-fig1.png"></img></div>	
-
+{: .figure}
 ![]({{site.baseurl}}/assets/figures/textures-fig1.png)
+
 
 Our desire to ensure accuracy also led to decisions to not include public data we could not verify with confidence. For example, numbers of beds in ORR shelters, which can be found through government and state sources, might seem to offer a picture of the numbers of children in ORR custody, but our research revealed that some of those organizations also work with Child Protective Services. As a result, it’s unclear exactly what percentage of children in their shelters are, in fact, in the ORR system. At a moment when there is significant confusion about the exact whereabouts of migrant children who have been separated from their parents, we did not want to add an additional layer of confusion by suggesting that children might be in places they are not.   
 

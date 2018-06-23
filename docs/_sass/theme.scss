@@ -1,15 +1,28 @@
 // AlexEd Code
 
-.container h1 {
+.page h1 {
 	margin-top: 4em;
 }
 
-.container > *:not( img ):not( video ) {
+.page > *:not( img ):not( .figure ) {
     margin-left: auto;
     margin-right: auto;
     max-width: 50rem;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.page h2 {
+	margin-top: 1em;
+}
+
+.page p {
+	font-size: 1.1rem;
+}
+
+.figure {
+	margin-bottom: 1.5em;
+	margin-top: 1em;
 }
 
 img {
