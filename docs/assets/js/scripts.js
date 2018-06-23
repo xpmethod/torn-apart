@@ -227,10 +227,12 @@ function buildPointsLayer() {
     const radius = defaultRadius * 2;
     const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
     const svgData = buildSpark(data);
+    const imgSrc = "/torn-apart/assets/imgs/webbcounty.png"
+    // const imgSrc = "/torn-apart/assets/imgs/onepixel.png"
     const popup = `<div class="row">
       <div class="col-xs pl-3">
         <img height="128" width="128" class="popup-image" 
-        src="/torn-apart/assets/imgs/onepixel.png">
+        src="${imgSrc}">
       </div>
       <div class="col-xs spark-div">
         <svg width="150" height="128">${svgData}</svg>
@@ -289,16 +291,28 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
-  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - 5; 
+  const place = {"lat": 32.8177, "lon": -111.52};
+  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem; 
   const vizWidth = $( window ).width() - 2 * rem; 
   const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
   const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
-  const colArray = d3.range(columns).map(() => "<div class='m-1'><img class='rounded' src='/torn-apart/assets/imgs/EAZ-thumb.png'></div>").join("");
+  const colArray = d3.range(columns).map(() => `<div class="eye-tile-div m-1" data-lat="${place.lat}" data-lon="${place.lon}" >
+    <img class="eye-img rounded" 
+    src="/torn-apart/assets/imgs/EAZ-thumb.png"></div>`).join("");
   let row = `<div class="d-flex justify-content-around">${colArray}</div>`;
   const rowArray = d3.range(rows).map(() => row).join("");
   const matrix = `<div style="width: ${vizWidth}px; height: ${vizHeight}px;" class="d-flex flex-column justify-content-around">${rowArray}</div>`;
   $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
+  $(".eye-tile-div").click(function(){
+    console.log("click");
+    const lat = $( this ).data("lat");
+    const lon = $( this ).data("lon");
+    const imgCenter = [$( this ).position().left + 64, $( this ).position().top + 64];
+    $( this ).removeClass("eye-tile-div").css("transform", "none");
+    $(".eye-tile-div").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
+    $( this ).addClass("eye-tile-div");
+  });
 
 }
 
