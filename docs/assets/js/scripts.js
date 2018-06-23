@@ -317,7 +317,12 @@ function buildTheEye() {
 }
 
 function buildCharts() {
-  $("#charts").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem).css("top", $("#navs").height() + .5 * rem);
+  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
+  $("#charts-debugger").html(() => {
+    return `phone-navs: ${$("#phone-navs").height()}
+      navs: ${$("#navs").height()}
+      attrib: ${$(".leaflet-control-attribution").height()}`;
+  });
 
 }
 
@@ -325,7 +330,7 @@ function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
     map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
-    $("#charts").hide();
+    $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
@@ -334,7 +339,7 @@ function showViz(viz, map, layers){
     buildTrapLegend();
     break;
   case "the-eye":
-    $("#charts").hide();
+    $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
     $("#legend").hide();
     map.removeLayer(layers[1]);
@@ -349,10 +354,10 @@ function showViz(viz, map, layers){
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     buildCharts();
-    $("#charts").show();
+    $("#charts-div").show();
     break;
   case "clinks":
-    $("#charts").hide();
+    $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
@@ -363,7 +368,7 @@ function showViz(viz, map, layers){
     break;
   case "orr":
     $("#legend").hide();
-    $("#charts").hide();
+    $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     break;

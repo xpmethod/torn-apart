@@ -65,7 +65,7 @@
   z-index: 1000;
 }
 
-#the-eye-div, #charts {
+#the-eye-div, #charts-div {
   display: none;
   z-index: 1000;
 
@@ -75,10 +75,18 @@
 
 }
 
-#charts {
+#charts-div {
   position: absolute;
-  width: 100vw;
+  width: calc(100vw - 2rem);
   overflow-y: scroll; 
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $green;
+  }
+
+  div {
+    border: 1px solid red;
+  }
 }
 
 
@@ -91,7 +99,7 @@
     width: 50vw;
   }
 
-  #charts {
+  #charts-div {
     width: 50vw;
   }
 }
