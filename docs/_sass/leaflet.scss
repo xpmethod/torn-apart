@@ -70,7 +70,7 @@
   z-index: 1000;
 
   img {
-    border: 3px solid $green;;
+    border: 3px solid $purple;;
   }
 
 }
@@ -89,6 +89,11 @@
   }
 }
 
+.eye-tile-div {
+  background-color: rgba(255, 255, 255, 0);
+  width: 128px;
+  height: 128px;
+}
 
 .eye-tile-div.shadow {
   box-shadow: 0px 0px 50px 5px #000000 !important;

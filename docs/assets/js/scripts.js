@@ -207,13 +207,14 @@ function buildTheEye() {
   $("#the-eye-div").html(matrix);
   $("#the-eye-div").show();
   $(".eye-tile-div").click(function(){
+    $(".eye-img").css("border-width", "3px");
     const pixelCoords = map.project(L.latLng($( this ).data("lat"), $( this ).data("lon")), 15);
     const imgfromOrigin = [$( this ).position().left + 64 - $( window ).width() / 2, 
       $( window ).height() / 2 - $( this ).position().top - 64];
     const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
     const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
-    $(".eye-tile-div").removeClass("shadow").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%");
+    $(".eye-tile-div").removeClass("shadow").css("transform", "scale(0.25, 0.25)").css("transform-origin", "50% 50%").children("img").css("border-width", "12px");
     $( this ).addClass("eye-tile-div").addClass("shadow");
     map.flyTo(newlatlng, 15);
   });
