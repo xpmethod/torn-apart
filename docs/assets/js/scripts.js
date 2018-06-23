@@ -209,7 +209,7 @@ function buildTheEye() {
   $(".eye-tile-div").click(function(){
     const pixelCoords = map.project(L.latLng($( this ).data("lat"), $( this ).data("lon")), 15);
     const imgfromOrigin = [$( this ).position().left + 64 - $( window ).width() / 2, 
-      $( window ).height() / 2 - $( this ).position().top + 64];
+      $( window ).height() / 2 - $( this ).position().top - 64];
     const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
     const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
