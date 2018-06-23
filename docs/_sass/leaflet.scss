@@ -20,12 +20,6 @@
   }
 }
 
-@media (min-width: 576px){
-  #legend {
-    width: 50vw;
-  }
-}
-
 .full-map {
   height: 100vh; //calc(100vh - 56px);
   position: absolute;
@@ -71,8 +65,9 @@
   z-index: 1000;
 }
 
-#the-eye-div {
+#the-eye-div, #charts {
   display: none;
+  z-index: 1000;
 
   img {
     border: 3px solid $green;;
@@ -80,7 +75,24 @@
 
 }
 
+#charts {
+  position: absolute;
+  width: 100vw;
+  overflow-y: scroll; 
+}
+
+
 .eye-tile-div.shadow {
   box-shadow: 0px 0px 50px 5px #000000 !important;
+}
+
+@media (min-width: 576px){
+  #legend {
+    width: 50vw;
+  }
+
+  #charts {
+    width: 50vw;
+  }
 }
 
