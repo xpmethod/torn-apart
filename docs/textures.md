@@ -17,7 +17,7 @@ What our data reveals is a shadowy network of government facilities, subcontract
 
 This is not to say that *Torn Apart*, now in alpha release, paints a complete picture of immigrant detention. Like all maps, ours is a representation of data, reflecting choices we made while designing visualizations. For example, a simple decision to place data points in the foreground rather than in the background offers a very different reading of the locations of ICE detention centers, as the map below demonstrates.
 
-{: .figure}
+{: .figure-landscape}
 ![]({{site.baseurl}}/assets/figures/textures-fig1.png)
 
 
@@ -30,8 +30,9 @@ As we cross-referenced our findings among these sources, we found ourselves down
 
 ### Googling “Where are the children?”
 
-We can find almost anything on Google these days, so perhaps it’s no surprise desperate parents are using it to [find their detained children](https://www.vice.com/en_us/article/435mqd/how-charities-are-trying-to-reunite-separated-immigrant-families). While researching shelters subcontracted by ORR, we came across this curious use of Google business listings. On the listing below for a shelter run by [Southwest Key](http://www.swkey.org), a Latinx-run “non-profit” that has [received nearly $1B](https://www.usaspending.gov/#/search/281d94b393e15b6a0caf31afd04d1261) in government contracts and grants over the last four years, a horrifying note from a parent pleads, “I need information about my daughter.” [Let me Google that for you](http://lmgtfy.com/?q=where+is+my+detained+child%3F) has never been so tragic. 
+We can find almost anything on Google these days, so perhaps it’s no surprise desperate parents are using it to [find their detained children](https://www.vice.com/en_us/article/435mqd/how-charities-are-trying-to-reunite-separated-immigrant-families). While researching shelters subcontracted by ORR, we came across this curious use of Google business listings. On the listing below for a shelter run by [Southwest Key](http://www.swkey.org), a Latinx-run “non-profit” that has [received nearly $1B](https://www.usaspending.gov/#/search/281d94b393e15b6a0caf31afd04d1261) in government contracts and grants over the last four years, a horrifying note from a parent pleads, “I need information about my daughter.” [Let me Google that for you](http://lmgtfy.com/?q=where+is+my+detained+child%3F) has never been so tragic.
 
+{: .figure-portrait}
 ![]({{site.baseurl}}/assets/figures/textures-fig2.png)
 
 ### Rate My Detention Center
@@ -40,16 +41,19 @@ Facebook has been [rightly chastised this year](https://www.amazon.com/Antisocia
 
 After Alex [tweeted a screenshot](https://twitter.com/elotroalex/status/1008896200869908481) of one of these pages, Rachelle Hampton at *Slate* took on the specific challenge of investigating them. The result was her story, "[Family Members of Detainees Are Reviewing Border Detention Centers on Facebook](https://slate.com/human-interest/2018/06/detainees-family-members-are-reviewing-border-detention-centers-on-facebook-and-google.html)." Now, members of the public are filling these pages with demands for [accountability and transparency](https://www.facebook.com/pages/Southwest-Key-Programs/463839093693174). 
 
+{: .figure-landscape}
 ![]({{site.baseurl}}/assets/figures/textures-fig3.jpg)
 
 ### The Banality of Annual Reports
 
 In "[Registering the Handicapped in Nazi Germany: A Case Study]({{site.baseurl}}/assets/docs/friedlander-registering.pdf)," Henry Friedlander reminds us that infrastructures building on one another, fueled by racist ideology and operating in relative shadows, can lead to a final infrastructure. Part of the fuel for our own project is keeping the spotlight fixed on the massive infestation of immigration detention centers in the United States today, while iterating the [long history of tearing families apart](https://me.me/i/martha-s-jones-marthasjones-forcibly-separating-parents-from-children-has-22176180) to feed the national fevers of the United States. Though these companies were relatively obscure until very recently, the way they are run is all too familiar. Part of our research brought us to company sites and business databases behind paywalls. What we found was the usual paraphernalia of management culture, including their annual reports. Below you can see how United States management culture, in their compulsion for spin, betrays the racist nature of their "service." 
 
+{: .figure-portrait}
 ![]({{site.baseurl}}/assets/figures/textures-fig4.png)
 
 Sensing that their shadows were dissipating, some of these companies [began to whitewash their operations](http://www.mtctrains.com/mtcs-involvement-in-operating-ice-detention-centers/). Others began the all too familiar process of deleting their records. Below is the 404 page that sits now where the above GIF came from.
 
+{: .figure-landscape}
 ![]({{site.baseurl}}/assets/figures/textures-fig5.png)
 
 
@@ -57,6 +61,7 @@ Sensing that their shadows were dissipating, some of these companies [began to w
 
 Immigrant detention is not just big business, it is also "job creation." While just a year ago non-profit organizations housing children in ORR custody engaged in [massive layoffs](http://valleycentral.com/news/local/southwest-key-program-conducts-mass-layoffs-due-to-recent-decline-in-immigration), the “zero tolerance” immigration policy has led to a hiring spree. A barely over minimum wage hiring spree, but [only the best](https://www.texasmonthly.com/news/southwest-key-hired-child-case-manager-previously-arrested-child-pornography/) for migrant children. After all, they sometimes even want an employee who’s bilingual. Then again, not all brown immigrants [speak Spanish](https://twitter.com/minh81/status/1009892301433458688). 
 
+{: .figure-portrait}
 ![]({{site.baseurl}}/assets/figures/textures-fig6.png)
 
 ### Passing On the Nimble Tent
@@ -65,7 +70,6 @@ As our experiences show, wading into the waters of public information on immigra
 
 What we have demonstrated here, we hope, is that a small team of researchers with varied skill sets—librarians, graduate students, literary scholars, and historians—and experience with digital humanities can pool their expertise to respond quickly, yet carefully, in times of crisis. While *Torn Apart* is one iteration of our work, we are gladly deploying our data, using various mechanisms, to other teams that wish to use it in new ways. We hope they do.
 
-
-#### Works Cited
+### Works Cited
 
 Friedlander, H. "Registering the Handicapped in Nazi Germany: A Case Study," *Jew History* (1997) 11: 89. DOI: https://doi.org/10.1007/BF02335679
