@@ -1,4 +1,4 @@
-/* global zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global s, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -214,15 +214,18 @@ function buildPointsLayer() {
   });
   iceFacs.forEach(place => {
     const radius = defaultRadius * 2;
-    const population = `<br /><strong>Avg. Daily ICE Pop.:</strong> ${place["FY18.ADP"]}, 
-      <strong>Max Pop.:</strong> ${place["FY18.Max.Population.Count"]}`;
-    const popup = `<div class="media">
-    <img height="150" width="150" class="popup-image mr-3" 
-    src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
-    <div class="media-body">
-    <h5>${place["Name"]}</h5>
-    ${place["City"]}, ${place["State"]}
-    ${population}
+    const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
+    const svgData = buildSpark(data);
+    const popup = `<h5>${titleize(place["Name"])}</h5>
+    ${titleize(place["City"])}, ${place["State"]}
+    <div class="row">
+      <div class="col-6">
+        <img height="150" width="150" class="popup-image mr-3" 
+        src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+      </div>
+      <div class="col-6 spark-div">
+        <svg width="150" height="150">${svgData}</svg>
+      </div>
     </div>
     `;
     if(!isNaN(place.lat)){
@@ -244,7 +247,10 @@ function buildPointsLayer() {
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
-  return indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+  indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+  console.log($(".spark-div").length);
+  console.log("sparks length");
+  return indexLayer;
 }
 
 function buildCircle(place, radius = 4, color = orange){
@@ -277,7 +283,7 @@ function showViz(viz, map, layers){
   case "the-trap":
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
-    map.fitBounds(layers[0].getBounds());
+    // map.fitBounds(layers[0].getBounds());
     break;
   case "the-eye":
     // map.eachLayer( layer => layer.remove() );
@@ -293,3 +299,50 @@ function showViz(viz, map, layers){
     break;
   }
 }
+
+function titleize(string) {
+  return s.titleize(s.swapCase(string));
+}
+
+function buildSpark(data) {
+  const svg = d3.select("#hidden-svg").append("svg").attr("width", 150).attr("height", 150),
+    width = +svg.attr("width") - 50,
+    height = +svg.attr("height") - 30,
+    g = svg.append("g").attr("transform", "translate(35,10)");
+  const x = d3.scaleLinear()
+    .rangeRound([0, width]);
+  const y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+  const line = d3.line()
+    .x(function(d) { return x(d[0]); })
+    .y(function(d) { return y(d[1]); });
+  x.domain(d3.extent(data, d => d[0]));
+  y.domain(d3.extent(data, d => d[1]));
+
+  g.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x).tickValues([2014, 2018]).tickFormat(d3.format(".0f")))
+    .select(".domain")
+    .remove();
+
+  g.append("g")
+    .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".0f")))
+    .append("text")
+    .attr("fill", "#000")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("dy", "0.71em")
+    .attr("text-anchor", "end")
+    .text("Avg. Daily Population"); 
+
+  g.append("path")
+    .datum(data)
+    .attr("fill", "none")
+    .attr("stroke", "steelblue")
+    .attr("stroke-linejoin", "round")
+    .attr("stroke-linecap", "round")
+    .attr("stroke-width", 1.5)
+    .attr("d", line);
+  return svg.node().innerHTML;
+}
+

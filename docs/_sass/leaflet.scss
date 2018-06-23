@@ -5,6 +5,10 @@
   top: 0;
 }
 
+.leaflet-popup-content {
+  width: 350px !important;
+}
+
 .leaflet-container a {
   color: $green;
 }
