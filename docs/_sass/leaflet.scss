@@ -1,3 +1,20 @@
+#legend {
+  display: none;
+  position: absolute;
+  // height: 15vh;
+  width: calc(100vw - 2.0rem);
+  right: 0;
+  top: 50vh;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@media (min-width: 576px){
+  #legend {
+    width: 50vw;
+  }
+}
+
 .full-map {
   height: 100vh; //calc(100vh - 56px);
   position: absolute;

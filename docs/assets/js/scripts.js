@@ -289,9 +289,11 @@ function buildBufferLayer(){
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
     map.fitBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
+    buildTrapLegend();
     break;
   case "the-eye":
     // map.eachLayer( layer => layer.remove() );
@@ -362,11 +364,20 @@ function buildSpark(data) {
 
 function buildTrapLegend(){
   $("#legend").html(() => {
-    return `<div class="px-3 pt-2">
+    return `<div class="px-3 py-2">
       <div class="media">
-        <svg class="m-2" height="">
+        <svg class="m-2" height="50" width="50">
+          <rect width="50" height="50" 
+          style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
+        </svg>
+        <div class="media-body">
+          The border is an enormous trap.
+        </div>
+      </div>
     </div>`;
   });
+  moveLegend();
+  $("#legend").show();
 }
 
 function buildPointsLegend(){
