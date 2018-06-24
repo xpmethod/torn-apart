@@ -26,7 +26,7 @@ $.i18n().load({
     "ta-private-juvenile-detention-facilities": "Private juvenile detention facilities",
     "ta-ice-facilities-since-2014": "ICE facilities in use since 2014",
     "ta-ice-facilities-not-in-use": "ICE facilities not in use",
-    "ta-clinks-legend-supp-text": "This is some text for the legend",
+    "ta-clinks-legend-supp-text": "We are not showing the addresses of ICE facilities not in use. However this is the full landscape of incarceration for those deemed without papers.",
     "ta-trap-legend-1": "The border is a trap. Begun in 2005,",
     "ta-trap-legend-2": "has criminalized border crossing. Authorized ports of entry, tiny holes shown here as 15mi-wide",
     "ta-trap-legend-3": "turn back asylum seekers",
