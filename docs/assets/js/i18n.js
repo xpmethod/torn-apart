@@ -33,7 +33,7 @@ $.i18n().load({
     "ta-trap-legend-4": ", leading seekers into the",
     "ta-trap-legend-5": "100-mile-wide border zone",
     "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement.",
-    "ta-orr-legend": "As of November 2017, 113 redacted Offices of Refugee Resettlement reported average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
+    "ta-orr-legend": "As of November 2017, Offices of Refugee Resettlement has 113 redacted sites which reportedly average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
