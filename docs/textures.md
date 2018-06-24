@@ -168,3 +168,63 @@ mechanisms, to other teams that wish to use it in new ways. We hope they do.
 ## Works Cited
 
 Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,” *Jew History* (1997) 11: 89. DOI: https://doi.org/10.1007/BF02335679
+
+
+---
+
+# Texturas
+
+## Nuestra Investigación
+
+* Torn Apart * agrega y interrelaciona datos disponibles públicamente para visualizar la geografía de la política de inmigración de "tolerancia cero" de Donald Trump e iterar nuestra atención a los paisajes, las familias y las comunidades destrozadas por la red masiva de detención de inmigrantes en los Estados Unidos.
+
+Trabajando ágilmente y remotamente desde cuatro sitios en los Estados Unidos durante un período de seis días, nuestro pequeño equipo de investigadores se dedicó a identificar fuentes de datos sobre la detención de inmigrantes, desde los puertos de entrada operados por la Aduana y Protección Fronteriza (CBP), hasta los centros de detención de la Oficina de Inmigración y Aduanas (ICE), a albergues subcontratados por la Oficina de Reasentamiento de Refugiados (ORR) del Departamento de Salud y Servicios Humanos para cuidar niños bajo su custodia, a los rastros financieros dejados por una red pública, privada y organizaciones sin fines de lucro cómplices en la compleja infraestructura de detención de inmigrantes en los Estados Unidos.
+
+Utilizamos varias fuentes para obtener los datos. Las fuentes que trabajamos incluyeron una lista obtenida a través de una FOIA de las instalaciones de ICE, listas de sitios CBP disponibles públicamente, conjuntos de datos de audiencias de los detenidos por ICE, conjuntos de datos de audiencias de los detenidos de ICE, bases de datos estatales de la autorización del cuidado de niños, listas de premios de subvenciones gubernamentales y USASpending.gov. También verificamos nuestros datos a través de fuentes no gubernamentales: informes de prensa sobre detención de inmigrantes, bases de datos comerciales, documentos fiscales para organizaciones sin fines de lucro, anuncios de empleo, entradas de Google Maps, Facebook Places y más. Todos nuestros datos se han verificado a través de un mínimo de [dos fuentes] (http://xpmethod.plaintext.in/torn-apart/bibliography.html), al menos uno directamente del gobierno.
+
+Nuestros datos han revelado una oscura red de instalaciones gubernamentales, subcontratistas del complejo penitenciario industrial, administradores "sin fines de lucro" que son pagados más de medio millón de dólares al año, y organizaciones religiosas en todo el país que, juntas, apoyan a la maquinaria de la detención de inmigrantes. La detención de inmigrantes es una industria miles de millones de dólares, y está sucediendo en nuestras comunidades. La crisis para los inmigrantes en los Estados Unidos no solo ocurre en la frontera México-Estados Unidos u otros puertos de entrada. Por el contrario, la frontera está en todas partes.
+
+Esto no quiere decir que * Torn Apart *, ahora en versión alfa, pinta una imagen completa de la detención de inmigrantes. Al igual que todos los mapas, el nuestro es una representación de datos que refleja las elecciones que hicimos al diseñar visualizaciones. Una simple decisión de colocar los puntos de datos en primer plano, en lugar del fondo como lo hemos hecho, ofrece una lectura muy diferente de las ubicaciones de los centros de detención de ICE, como lo demuestra el siguiente mapa.
+
+[IMAGEN]
+
+Nuestro deseo de asegurar la la precisión de los datos también nos llevó a la decisión de no incluir datos públicos que no pudimos verificar. Por ejemplo, el número de camas en los albergues de la ORR, que se pueden encontrar a través de fuentes gubernamentales y estatales, podría ofrecer una idea del número de niños bajo custodia de la ORR, pero nuestra investigación reveló que algunas de esas organizaciones también trabajan con los Servicios de Protección Infantil. Como resultado, no está claro exactamente qué porcentaje de los niños en los albergues de la ORR están, de hecho, en el sistema de la ORR. En un momento en que existe una gran confusión sobre el paradero exacto de los niños migrantes que han sido separados de sus padres, no queríamos agregar una capa adicional de confusión al sugerir que los niños podrían estar en lugares donde no están.
+
+También tuvimos que tomar decisiones políticas y éticas difíciles sobre los datos que deberían y no deberían ponerse a la disposición del público, y revisamos nuestras decisiones diariamente. Revelar las direcciones de estas instalaciones, particularmente los refugios para niños de la ORR, nos preocupó mucho. Mientras usábamos datos disponibles públicamente, el hecho de agregarlos en un solo lugar parecía una elección potencialmente peligrosa y una hoja de ruta a una población ya vulnerable, o una manera de detener la organización cuidadosa de activistas. Por lo tanto, mediante el mapeo de las instalaciones de detención a nivel de ciudad y estado, eludimos este peligro al mismo tiempo que logramos nuestro objetivo de describir con precisión la gran extensión geográfica de la detención de inmigrantes en los Estados Unidos. Si bien contamos con un conjunto confiable de datos de los refugios para niños, no incluimos los nombres porque una búsqueda rápida de Google revela las direcciones de las calles.
+
+Al comparar nuestros hallazgos entre estas fuentes, nos encontramos siguiendo hilos que revelaron las dimensiones más humanas y desgarradoras de la detención de inmigrantes. Debajo hay solo una muestra.
+
+### Google "¿Dónde están los niños?"
+ 
+Hoy en día podemos encontrar casi cualquier cosa en Google, por lo cual no es sorprendente que padres desesperados por [encontrar a sus hijos detenidos] lo estén utilizando (https://www.vice.com/en_us/article/435mqd/how-charities-are- tratando de reunir familias inmigrantes separadas). Mientras investigábamos refugios subcontratados por la ORR, encontramos este curioso uso de listas de empresas en Google. En el siguiente listado de un refugio administrado por [Southwest Key] (http://www.swkey.org), una "organización sin fines de lucro" dirigida por Latinos que ha recibido [casi $ 1B] (https: //www.pendingpending .gov / # / search / 281d94b393e15b6a0caf31afd04d1261) en contratos gubernamentales y subvenciones en los últimos cuatro años, una desgarradora nota de un padre suplica, "Necesito información sobre mi hija". [Déjame googlearlo] (http: // lmgtfy.com/?q=where+is+my+detained+child%3F) nunca había sido tan trágico.
+
+### Evalúe mi centro de detención
+ 
+Facebook ha sido [justamente reprendido este año] (https://www.amazon.com/Antisocial-Media-Disconnects-Undermines-Democracy/dp/0190841168) por la forma en que su mediascape ha socavado la democracia y deliberación cuidadosa. Junto con los silos bipartitos de la actualidad, muchos de sus rincones poco conocidos están poseídos con las texturas cotidianas de nuestra noche de terror estadounidense. Durante nuestra investigación, visitamos algunas de las páginas que Facebook parece generar automáticamente de otros directorios de centros de detención—cuando menos, están marcadas como "no oficiales". En esas páginas encontramos peticiones similares a las búsquedas en Google pero también encontramos selfies de familias en autos registrándose en las instalaciones para visitar a un ser querido, notas llenas de emoticones de corazón y buenos deseos de amigos, al igual que la voz en off de un niño que ofrece una brillante evaluación de su estadía en un refugio ORR desde la cuenta de Facebook de su madre y mucho más. Debido a la estructura de la plataforma de Facebook, nos llamó la atención la forma en que las familias estaban utilizando su sistema de evaluación para sus propios fines, reforzando para nosotros [la esperanza de la desobediencia tecnológica] (http://www.technologicaldisobedience.com/).
+
+Después de que Alex [tuiteó una captura de pantalla] (https://twitter.com/elotroalex/status/1008896200869908481) de una de estas páginas, Rachelle Hampton en Slate se enfrentó al desafío de investigarlas. El resultado fue su historia, "[Los familiares de los detenidos están evaluando los centros de detención de la frontera en Facebook] (https://slate.com/human-interest/2018/06/detainees-family-members-are-reviewing-border-detention -centers-on-facebook-and-google.html)." Ahora, los ciudadanos están llenando estas páginas con demandas de [rendición de cuentas y transparencia] (https://www.facebook.com/pages/Southwest-Key-Programs/463839093693174).
+
+[IMAGEN]
+
+### La Banalidad de los Informes 
+
+En "Registering the Handicapped in Nazi Germany: A Case Study," Henry Friedlander nos recuerda que las infraestructuras que se construyen uno sobre otras, impulsadas por una ideología racista en zonas desconocidas, pueden llegar a una infraestructura final. Parte de la impulsión de nuestro proyecto es mantener el centro de atención en la infestación masiva de centros de detención de inmigrantes en los Estados Unidos hoy e iterar la larga historia de desgarrar familias en las fiebres nacionales de los Estados Unidos. Aunque estas empresas fueron relativamente oscuras hasta hace muy poco, la forma en que se ejecutan es demasiado familiar. Una parte de nuestra investigación nos llevó a los sitios de la compañías y las bases de datos comerciales detrás de los muros de pago. Lo que encontramos fue la parafernalia habitual de la cultura de gestión, incluidos sus informes anuales. A continuación puede ver cómo la cultura de gestión estadounidense, en la compulsión por el “spin”, revela la naturaleza racista de la operación a la que "sirven".
+
+[IMAGEN]
+
+Sintiendo que sus sombras se estaban disipando, algunas de estas compañías comenzaron a destacarse de las otras por no ser las mismas con estos niños. Otros, sin embargo, comenzaron el demasiado familiar proceso de borrar sus registros. A continuación se muestra la página 404 que se encuentra ahora desde donde proviene el GIF anterior.
+[IMAGEN]
+
+### La Fiebre de Oro de la Detención 
+
+La detención de inmigrantes no es solo un gran negocio, es “la creación de empleo". A pesar de que, hace solo un año, las organizaciones sin fines de lucro que albergaban los niños bajo custodia de la ORR participaron en [despidos masivos] (http://valleycentral.com/news/local/southwest-key-program-conducts-mass-layoffs-due-to-recent -decline-in-immigration), la política de inmigración de "tolerancia cero" ahora ha creado una ola de contratación. Son trabajos que pagan un poquito mas del salario mínimo, pero [solo lo mejor] (https://www.texasmonthly.com/news/southwest-key-hired-child-case-manager-previously-rested-child-pornography/) para los migrantes niños. Después de todo, a veces incluso quieren un empleado que sea bilingüe. Pero no todos los inmigrantes de piel oscuro hablan español.
+
+[IMAGEN]
+
+Como muestran nuestras experiencias, entrar en las esferas de la información pública sobre la detención de inmigrantes es una decisión que no debe tomarse a la ligera. Debe hacerse con la seguridad de los migrantes y los solicitantes de asilo a la vanguardia. Los investigadores también deben ser conscientes de que este trabajo puede ser agotador en el espíritu. La exposición a este nivel de crueldad probablemente sea mejor manejada por aquellos que se sienten preparados para fijar sus ojos en los horrores íntimos y aún luchan con claridad mental y una firme voluntad. Le instamos a que se cuide a sí mismo al mismo tiempo que cuida a los demás, a través de este trabajo.
+
+Lo que hemos demostrado aquí es que un pequeño equipo de investigadores con diferentes conjuntos de habilidades—bibliotecarios, estudiantes de posgrado, académicos literarios e historiadores—y con experiencia con las humanidades digitales puede combinar su conocimiento para responder rápidamente, pero con cuidado, en un momento de crisis. Si bien * Torn Apart * es una iteración de nuestro trabajo, podemos desplegar nuestros datos a otros equipos que deseen utilizarlo de nuevas maneras.
+#### Obras Citadas
+
+Friedlander, H. "Registering the Handicapped in Nazi Germany: A Case Study," *Jew History* (1997) 11: 89. https://doi.org/10.1007/BF02335679
+
