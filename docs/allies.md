@@ -11,63 +11,58 @@ The list below was curated by our research team and is by no means exhaustive.
 
 ## International
 
-**[Pueblo Sin Fronteras](http://www.pueblosinfronteras.org/)**\\
+* **[Pueblo Sin Fronteras](http://www.pueblosinfronteras.org/)**\\
 <a href="https://twitter.com/pueblosf">@pueblosf <i class="fab fa-twitter"></i></a>
 
 ## Mexico
 
 
-**[Al Otro Lado](https://alotrolado.org/)**\\
-1200 N State St #1008, Los Angeles, CA 90033\\
-<a href="https://twitter.com/alotrolado_org">@alotrolado_org <i class="fab fa-twitter"></i></a> 
 
-
-
-**Comision Nacional de los Derechos Humanos**\\
+* **Comision Nacional de los Derechos Humanos**\\
 <a href="informacion@derechoshumanosbc.org">informacion@derechoshumanosbc.org <i class="fas fa-envelope"></i></a> 
 
 
 
-**[Madres y familias deportadas en acción](https://alexhd2010.wixsite.com/madres1)**\\
+* **[Madres y familias deportadas en acción](https://alexhd2010.wixsite.com/madres1)**\\
 52 664 976 7541<br>
 
 
-**Albergue San Vicente: Instituto de Derechos Humanos de Indigentes y Migrantes, A.C.**\\
+* **Albergue San Vicente: Instituto de Derechos Humanos de Indigentes y Migrantes, A.C.**\\
 Calle Novena #691, Colonia Bustamante, Ensenada, Baja California 22840\\
 (646)1760306<br>
 <a href="alberguemigrantes@prodigy.net.mx">alberguemigrantes@prodigy.net.mx <i class="fas fa-envelope"></i></a> 
 
 
 
-**Albergue del Desierto: Centro de Reintegración Familiar de Menores Migrantes**\\
+* **Albergue del Desierto: Centro de Reintegración Familiar de Menores Migrantes**\\
 Ave. Carpinteros #1515 entre calle G y H, Colonia Industrial, Mexicali, Baja California 21010\\
 (686)5545364, (686)5546045<br>
 <a href="alberguedes@prodigy.net.mx">alberguedes@prodigy.net.mx <i class="fas fa-envelope"></i></a> 
 
 
 
-**Módulo de Atención Centro de Apoyo al Trabajador Migrante y Albergue del Desierto**\\
+* **Módulo de Atención Centro de Apoyo al Trabajador Migrante y Albergue del Desierto**\\
 Garita #1 Mexicali-Calexico, Mexicali, Baja California, Modulo #2\\
 (686)5534882<br>
 <a href="alberguedes@prodigy.net.mx">alberguedes@prodigy.net.mx <i class="fas fa-envelope"></i></a> 
 
 
 
-**Centro de Apoyo al Trabajador Migrante: Comité de Promoción para el Desarrollo de Mexicali**\\
+* **Centro de Apoyo al Trabajador Migrante: Comité de Promoción para el Desarrollo de Mexicali**\\
 Calle Jabonera #6, Colonia Nueva, Mexicali, Baja California 21100\\
 (686) 553482<br>
 <a href="mezaoro@prodigy.net.mx, catm@telnor.net">mezaoro@prodigy.net.mx, catm@telnor.net <i class="fas fa-envelope"></i></a> 
 
 
 
-**Módulo Fronterizo "Juntos en el Camino"**\\
+* **Módulo Fronterizo "Juntos en el Camino"**\\
 Garita #1 Mexicali-Calexico, Mexicali, Baja California, Módulo #3\\
 (686) 5519060<br>
 <a href="juntosenelcamino@prodigy.net.mx">juntosenelcamino@prodigy.net.mx <i class="fas fa-envelope"></i></a> 
 
 
 
-**Centro Pastoral Maná de Mexicali**\\
+* **Centro Pastoral Maná de Mexicali**\\
 Jesús García #1799, Colonia Héroes de Nacozari, Mexicali, Baja California 21030\\
 (686) 5560271<br>
 <a href="alberguemana@hotmail.com">alberguemana@hotmail.com <i class="fas fa-envelope"></i></a> 
@@ -416,6 +411,10 @@ Calle Ma. J. González #501 Esq. con Libramiento Luis Echeverría, Col. Aquíles
 
 
 
+**[Al Otro Lado](https://alotrolado.org/)**\\
+1200 N State St #1008, Los Angeles, CA 90033\\
+<a href="https://twitter.com/alotrolado_org">@alotrolado_org <i class="fab fa-twitter"></i></a> 
+
 **[Hope Border Institute](https://www.hopeborder.org/)**\\
 499 St. Matthews St., El Paso, TX 79907\\
 (915)8428400<br>
@@ -434,7 +433,6 @@ Calle Ma. J. González #501 Esq. con Libramiento Luis Echeverría, Col. Aquíles
 202 E McDowell Rd # 250, Phoenix, AZ 85004\\
 (520) 868-0191<br>
 <a href="https://twitter.com/FlorenceProject">@FlorenceProject <i class="fab fa-twitter"></i></a> 
-
 
 
 **[Colibri Center for Human Rights](http://www.colibricenter.org/)**\\
