@@ -3,19 +3,49 @@
 }
 
 
-#index-nav.nav, #visualizations-teeny-nav.nav, #visualizations-nav.nav { 
+#index-nav.nav, #visualizations-nav.nav, #time-series-nav.nav { 
+  margin-top: .5rem;
   a {
     border: 2px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
     border-radius: .25rem;
     color: $faintwhite; 
     background-color: $green;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
   }
 
   a:hover, a.active {
     color: $white;
+  }
+}
+
+#time-series-nav.nav, #visualizations-nav.nav {
+  a {
+    margin: 0;
+    font-size: 0.75rem;
+    padding: .5rem;
+  }
+}
+
+#visualizations-nav.nav {
+  width: 100vw;
+  margin-top: 4.5rem;
+}
+
+#time-series-nav.nav a {
+  border: none;
+  margin-right: 1rem;
+}
+
+@media (min-width: 576px){
+  #time-series-nav.nav, #index-nav.nav, #visualizations-nav.nav {
+    margin-top: .5rem;
+    padding-left: .5rem;
+
+    a {
+      font-size: 1rem;
+      padding: .5rem 1rem;
+      margin-right: .5rem;
+    }
   }
 }
 

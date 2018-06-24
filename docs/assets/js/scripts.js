@@ -27,7 +27,17 @@ $( document ).ready(() => {
 
   $("#legend").click(function(){ $(this).hide(); });
 
-  $.i18n().locale = "en";
+  const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+  if (locales.length === 0){
+    $.i18n().locale = "en";
+  } else {
+    $.i18n().locale = locales[0];
+  }
+  if ($.i18n().locale === "en") {
+    $(".locale-toggle").html("ES");
+  } else {
+    $(".locale-toggle").html("EN");
+  }
   update_texts();
 
   if($("#visualizations-mapdiv").length){
@@ -95,7 +105,6 @@ function initMap(mapid){
   if (L.Browser.mobile) {
     map.removeControl(map.zoomControl);
   }
-  $(".leaflet-top").css("margin-top", `${$("#navs").height()}px`);
   moveLegend();
   return map;
 }
@@ -186,8 +195,8 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
-  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem; 
-  const vizWidth = $( window ).width() - 2 * rem; 
+  const vizHeight = $("#the-eye-div").height(); 
+  const vizWidth = $("#the-eye-div").width(); 
   const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
   const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
   const images = d3.shuffle(imgurImages).slice(0, columns * rows).map( image => {
@@ -238,6 +247,7 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
+    update_texts();
     buildTrapLegend();
     break;
   case "the-eye":
@@ -275,6 +285,7 @@ function showViz(viz, map, layers){
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    update_texts();
     buildPointsLegend();
     break;
   case "orr":
@@ -291,6 +302,7 @@ function showViz(viz, map, layers){
     buildORR();
     break;
   }
+  update_texts();
 }
 
 function moveLegend() {
@@ -424,20 +436,22 @@ function buildPointsLegend(){
 }
 
 function buildCharts() {
-  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
-  $("#charts-debugger").html(() => {
-    return `phone-navs: ${$("#phone-navs").height()}
-      navs: ${$("#navs").height()}
-      attrib: ${$(".leaflet-control-attribution").height()}`;
-  });
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
+    let svgWidth = $("#time-series-div").width() / 2;
+    if (L.Browser.mobile) {
+      svgWidth = svgWidth * 2;
+    }
     const svgHeight = 200;
-    const svgWidth = $("#time-series-div").width() / 2;
-    const margins = {top: 10, bottom: 30, left: 28, right: 20};
+    const margins = {top: 10, bottom: 30, left: 28, right: 2};
     const height = svgHeight - margins.top - margins.bottom;
     const width = svgWidth - margins.left - margins.right;
+
+    const tp = { margins, svg: d3.select("#total-places-svg") };
+    const adp = { margins, svg: d3.select("#adp-svg") };
+    const bookins = { margins, svg: d3.select("#bookins-svg") };
+    const operators = { margins, svg: d3.select("operators-svg") };
 
     const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
     const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
@@ -539,15 +553,12 @@ function prepareORRData() {
 
 function buildORR(){
   $("#orr-legend").click(function(){ $(this).hide(); });
-  const yOffset = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem;
-  $("#orr-div").css("height", yOffset).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
       .attr("height", "100%"),//$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
-  const red = (a, c) => a + c;
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);

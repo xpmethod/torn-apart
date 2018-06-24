@@ -6,21 +6,9 @@
 <div id="above-map">
   <div id="phone-navs" class="d-md-none">
     {% include navbar.html %}
-    {% if page.permalink == "visualizations.html" %}
-    <div style="margin-top: 65px;">
-      <nav id="visualizations-teeny-nav" class="nav mt-2 ml-2">
-        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-button nav-item" href="#clinks">Clinks</a>
-        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-button nav-item" href="#the-trap">The Trap</a>
-        <a id="the-eye-button" class="nav-link viz-button nav-item" href="#the-eye"><span class="sr-only">The Eye</span><i class="fas fa-eye"></i></a>
-        <a id="charts-button" class="nav-link viz-button nav-item" href="#charts"><span class="sr-only">Charts</span><i class="fas fa-chart-bar"></i></a>
-        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="#orr">ORR</a>
-      </nav>
-    </div>
-    {% endif %}
   </div>
   <div class="d-none d-md-block">
-    <div id="navs">
-    <nav id="index-nav" class="nav ml-2 mt-2">
+    <nav id="index-nav" class="nav">
       {% unless page.mapid == "mapdiv" %}
         <a id="index-button" class="nav-link nav-item" href="index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
       {% endunless %}
@@ -32,18 +20,18 @@
       <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="credits.html">Credits</a>
       <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="#">ES</a>
     </nav>
-      {% if page.permalink == "visualizations.html" %}
-        <nav id="visualizations-nav" class="nav ml-2">
-          <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-button nav-item" href="#clinks">Clinks</a>
-          <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-button nav-item" href="#the-trap">The Trap</a>
-          <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-button nav-item" href="#the-eye">The Eye</a>
-          <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-button nav-item" href="#charts">Charts</a>
-          <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="#orr">ORR</a>
-        </nav>
-      {% endif %}
+  </div>
+    {% if page.permalink == "visualizations.html" %}
+      <nav id="visualizations-nav" class="nav d-flex justify-content-around justify-content-md-start">
+        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-button nav-item" href="#clinks">Clinks</a>
+        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-button nav-item" href="#the-trap">The Trap</a>
+        <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-button nav-item" href="#the-eye">The Eye</a>
+        <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-button nav-item" href="#charts">Charts</a>
+        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="#orr">ORR</a>
+      </nav>
+    {% endif %}
     </div>
   </div>
-  <div id="the-eye-div" class="px-3"></div>
   <div id="orr-div"></div>
   <div class="d-flex align-items-center justify-content-center full-container">
     <div id="orr-legend" class="card mx-3 px-3 py-2" data-i18n="ta-orr-legend"></div>
@@ -52,7 +40,8 @@
 <div class="full-map" id="{{page.mapid}}">
 </div>
 {% if page.permalink == "visualizations.html" %}
-  <div class="mx-3 px-3 py-2 card" id="charts-div">
+  <div id="the-eye-div"></div>
+  <div class="px-3 py-2 card" id="charts-div">
     {% capture charts_include %}{% include charts.md %}{% endcapture %}
     {{ charts_include | markdownify }}
   </div>

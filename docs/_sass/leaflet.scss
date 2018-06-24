@@ -68,6 +68,10 @@
   margin-left: .5rem;
 }
 
+.leaflet-top {
+  margin-top: 6.5rem;
+}
+
 .leaflet-div-icon {
   background: none;
   border: none;
@@ -91,6 +95,11 @@
 }
 
 #the-eye-div, #charts-div {
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+  height: calc(100vh - 8rem - 3rem);
+  width: calc(100vw - 2rem);
   display: none;
   z-index: 2100;
 
@@ -111,16 +120,12 @@
 
 #charts-div {
   position: absolute;
-  width: calc(100vw - 2rem);
   overflow-y: scroll; 
 
   h1, h2, h3, h4, h5, h6 {
     color: $green;
   }
 
-  div {
-    border: 1px solid red;
-  }
 }
 
 .eye-tile-div {
@@ -137,6 +142,12 @@
   #legend, #charts-div, #orr-legend {
     width: 50vw;
     font-size: 0.8rem;
+  }
+
+  #the-eye-div, #charts-div {
+    top: 7.25rem;
+    left: .5rem;
+    height: calc(100vh - 7.5rem - 1.75rem);
   }
 }
 

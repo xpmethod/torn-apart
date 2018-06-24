@@ -1,9 +1,7 @@
 ## Charts
 
-<div id="charts-debugger"></div>
-
 <div id="time-series-div" class="w-100">
-<ul class="nav nav-pills" role="tablist">
+<ul id="time-series-nav" class="nav nav-pills" role="tablist">
 <li class="nav-item"><a href="#time-series-places-number" id="places-number-tab" class="nav-link active" data-toggle="tab" role="tab" aria-controls="time-series-places-number" aria-selected="true" data-i18n="ta-facilities">Facilities</a></li>
 <li class="nav-item"><a href="#time-series-adp" id="adp-tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="time-series-adp" aria-selected="true" data-i18n="ta-adp">ADP</a></li>
 <li class="nav-item"><a href="#time-series-bookins" id="bookins-tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="time-series-bookins" aria-selected="true" data-i18n="ta-bookins">Bookins</a></li>
@@ -11,12 +9,12 @@
 <div class="tab-content">
 <div id="time-series-places-number" class="tab-pane active" role="tabpanel" aria-labelledby="places-number-tab">
 <div class="row">
-<div class="col-6">
+<div class="col-md-6 col-xs-4">
 <p class="big-number" id="total-places-no">No.</p>
 <p class="big-number-desc">ICE facilities in use</p>
 This is some description text
 </div>
-<div class="pl-0 col-6">
+<div class="pl-0 col-md-6 col-xs-8">
 <svg id="total-places-svg"></svg>
 </div>
 </div>
