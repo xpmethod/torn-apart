@@ -414,7 +414,7 @@ function buildPointsLegend(){
       </div>
     </div>
     <div class="mx-3" data-i18n="ta-clinks-legend-supp-text">
-      This is some text for the legend.
+      We are not showing the addresses of ICE facilities currently not in use. However, this is the full landscape of incarceration for those deemed without papers.
     </div>`;
   });
   moveLegend();

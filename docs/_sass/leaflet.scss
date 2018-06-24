@@ -9,6 +9,7 @@
 }
 
 #legend {
+  font-size: 0.9rem;
   display: none;
   position: absolute;
   // height: 15vh;
@@ -31,6 +32,8 @@
 }
 
 #orr-legend {
+  font-size: 0.9rem;
+  display: none;
   pointer-events: auto;
   display: none;
   width: calc(100vw - 2.0rem);
@@ -84,7 +87,7 @@
 
 #above-map {
   position: absolute;
-  z-index: 2000;
+  z-index: 1050;
 }
 
 #the-eye-div, #charts-div {
@@ -133,6 +136,7 @@
 @media (min-width: 576px){
   #legend, #charts-div, #orr-legend {
     width: 50vw;
+    font-size: 0.8rem;
   }
 }
 
