@@ -502,6 +502,34 @@ function buildCharts() {
   });
 }
 
+function updateORR(feature){
+
+  feature.attr("transform", d => `translate(
+    ${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
+}
+
 function buildORR(){
+  const svg = d3.select(map.getPanes().overlayPane).append("svg")
+      .attr("width", $( window ).width())
+      .attr("height", $( window ).height()),
+    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+  const data = [
+    { LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
+    { LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
+  ];
+
+  const feature = g.selectAll("circle")
+    .data(data)
+    .enter().append("circle")
+    .style("stroke", "black")  
+    .style("opacity", .6) 
+    .style("fill", "red")
+    .attr("r", 20);  
+
+  map.on("viewreset", updateORR(feature));
+  updateORR(feature);
 
 }
+
+
