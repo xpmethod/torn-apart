@@ -21,7 +21,7 @@ This is not to say that *Torn Apart*, now in alpha release, paints a complete pi
 {: .figure-landscape}
 ![]({{site.baseurl}}/assets/figures/textures-fig1.png)
 
-Our desire to ensure accuracy also led to decisions to not include public data
+Our desire to ensure accuracy also led to the decision not to include public data
 we could not verify with confidence. For example, numbers of beds in ORR
 shelters, which can be found through government and state sources, might seem
 to offer a picture of the numbers of children in ORR custody, but our research
@@ -81,8 +81,7 @@ places—at the very least, they are marked as “unofficial.” On those pages 
 found pleas similar to the ones we found in Google searches, but we also found
 selfies of families in cars checking in at facilities to visit loved ones,
 comments full of heart emojis and well wishes from friends, the disembodied
-voice of a child offering a glowing review of his stay at an ORR shelter from
-his mother’s Facebook account, and much more. Because of Facebook's web
+voice of a child offering a glowing review of his stay at an ORR shelter, and much more. Because of Facebook's web
 architecture, we were struck by the way that families were using their review
 system for their own purposes, reinforcing for us [the hope of technological
 disobedience](http://www.technologicaldisobedience.com/). 
