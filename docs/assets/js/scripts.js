@@ -27,7 +27,12 @@ $( document ).ready(() => {
 
   $("#legend").click(function(){ $(this).hide(); });
 
-  $.i18n().locale = "en";
+  const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+  if (locales.length === 0){
+    $.i18n().locale = "en";
+  } else {
+    $.i18n().locale = locales[0];
+  }
   update_texts();
 
   if($("#visualizations-mapdiv").length){
@@ -426,11 +431,19 @@ function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
+    let svgWidth = $("#time-series-div").width() / 2;
+    if (L.Browser.mobile) {
+      svgWidth = svgWidth * 2;
+    }
     const svgHeight = 200;
-    const svgWidth = $("#time-series-div").width() / 2;
-    const margins = {top: 10, bottom: 30, left: 28, right: 20};
+    const margins = {top: 10, bottom: 30, left: 28, right: 2};
     const height = svgHeight - margins.top - margins.bottom;
     const width = svgWidth - margins.left - margins.right;
+
+    const tp = { margins, svg: d3.select("#total-places-svg") };
+    const adp = { margins, svg: d3.select("#adp-svg") };
+    const bookins = { margins, svg: d3.select("#bookins-svg") };
+    const operators = { margins, svg: d3.select("operators-svg") };
 
     const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
     const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
