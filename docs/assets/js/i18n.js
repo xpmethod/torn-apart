@@ -24,7 +24,7 @@ $.i18n().load({
     "ta-bookins": "Bookins"
   },
   "es": {
-    "ta-index-modal": "Algo en español.",
+    "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva \"Política de cero tolerancia\" de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
     "ta-sitename": "Separados",
     "ta-visualizations": "Gráfica",
     "ta-textures": "Texturas",
