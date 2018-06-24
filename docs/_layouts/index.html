@@ -41,7 +41,7 @@
 <div class="full-map" id="{{page.mapid}}">
 </div>
 {% if page.permalink == "visualizations.html" %}
-  <div class="mx-3 px-3 py-2 card" id="charts-div">
+  <div class="px-3 py-2 card" id="charts-div">
     {% capture charts_include %}{% include charts.md %}{% endcapture %}
     {{ charts_include | markdownify }}
   </div>

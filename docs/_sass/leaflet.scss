@@ -91,6 +91,10 @@
 }
 
 #the-eye-div, #charts-div {
+
+  top: 8rem;
+  left: 1rem;
+  height: calc(100vh - 8rem - 3rem);
   display: none;
   z-index: 2100;
 
@@ -134,6 +138,12 @@
   #legend, #charts-div, #orr-legend {
     width: 50vw;
     font-size: 0.8rem;
+  }
+
+  #the-eye-div, #charts-div {
+    top: 7.25rem;
+    left: .5rem;
+    height: calc(100vh - 7.5rem - 1.75rem);
   }
 }
 
