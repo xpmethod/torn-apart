@@ -72,9 +72,9 @@ $( document ).ready(() => {
     const langs = ["EN", "ES"];
     const langCodes = ["en", "es"];
     let index = langs.indexOf($( this ).text());
-    index === langs.length - 1 ? index = 0 : index = index + 1;
     $.i18n().locale = langCodes[index];
-    $( this ).text(langs[index]);
+    index === langs.length - 1 ? index = 0 : index = index + 1;
+    $(".locale-toggle").text(langs[index]);
     update_texts();
   });
 
@@ -266,6 +266,10 @@ function showViz(viz, map, layers){
     $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
+    map.removeLayer(layers[1]);
+    map.removeLayer(layers[0]);
+    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    buildORR();
     break;
   }
 }
@@ -395,6 +399,8 @@ function buildPointsLegend(){
   $("#legend").show();
 }
 
+
+
 function buildCharts() {
   $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
   $("#charts-debugger").html(() => {
@@ -496,3 +502,6 @@ function buildCharts() {
   });
 }
 
+function buildORR(){
+
+}
