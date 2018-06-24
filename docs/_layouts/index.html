@@ -42,8 +42,7 @@
 {% if page.permalink == "visualizations.html" %}
   <div id="the-eye-div"></div>
   <div class="px-3 py-2 card" id="charts-div">
-    {% capture charts_include %}{% include charts.md %}{% endcapture %}
-    {{ charts_include | markdownify }}
+    {% include charts.html %}
   </div>
 {% endif %}
 <div class="mx-3 card" id="legend"></div>
