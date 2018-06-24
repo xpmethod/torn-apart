@@ -75,6 +75,15 @@
 
 }
 
+#orr-div{
+  display: none;
+  z-index: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
 #charts-div {
   position: absolute;
   width: calc(100vw - 2rem);

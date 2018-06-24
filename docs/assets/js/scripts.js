@@ -225,26 +225,32 @@ function buildTheEye() {
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    map.dragging.enable();
     map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
     $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
+    $("#orr-div").hide();
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
     buildTrapLegend();
     break;
   case "the-eye":
+    map.dragging.enable();
     $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
+    $("#orr-div").hide();
     $("#legend").hide();
     map.removeLayer(layers[1]);
     map.removeLayer(layers[0]);
     buildTheEye();
     break;
   case "charts":
+    map.dragging.enable();
     $("#legend").hide();
     $("#the-eye-div").hide();
+    $("#orr-div").hide();
     $(".leaflet-control-zoom").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
@@ -253,8 +259,10 @@ function showViz(viz, map, layers){
     $("#charts-div").show();
     break;
   case "clinks":
+    map.dragging.enable();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
+    $("#orr-div").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[1].addTo(map);
@@ -266,10 +274,12 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
-    $(".leaflet-control-zoom").show();
+    $("#orr-div").show();
+    $(".leaflet-control-zoom").hide();
     map.removeLayer(layers[1]);
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    map.dragging.disable();
     buildORR();
     break;
   }
@@ -508,6 +518,10 @@ function buildCharts() {
   });
 }
 
+function lLToPoint(ll){
+  return map.latLngToLayerPoint(ll);
+}
+
 function updateORR(feature){
 
   feature.attr("transform", d => `translate(
@@ -515,31 +529,72 @@ function updateORR(feature){
 }
 
 function buildORR(){
-  const svg = d3.select(map.getPanes().overlayPane).append("svg")
+  const yOffset = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem;
+  $("#orr-div").css("height", yOffset).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
+  const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
-      .attr("height", $( window ).height()),
+      .attr("height", "100%"),//$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
-  // const data = [
-  //   { LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
-  //   { LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
-  // ];
+  const data = [
+    { dco: "CHI", LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
+    { dco: "DAL", LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
+  ];
 
-  // const feature = g.selectAll("circle")
-  //   .data(data)
-  //   .enter().append("circle")
-  //   .style("stroke", "black")  
-  //   .style("opacity", .6) 
-  //   .style("fill", "red")
-  //   .attr("r", 20);  
+  data.forEach( datum => {
+    const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
+    const x = lLToPoint(datum.LatLng).x;
+    const y = lLToPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
+    const simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(d => d.index))
+      .force("collide", d3.forceCollide(8).iterations(16))
+      .force("charge", d3.forceManyBody())
+      .force("center", d3.forceCenter(x, y))
+      .force("y", d3.forceY(0))
+      .force("x", d3.forceX(0));
 
-  const data = [{}, {}, {}, {}];
-  // const simulation = d3.forceSimulation(data)
-  //   .force('c
+    const node = dg.selectAll("circle")
+      .data(datum.blacksites).enter().append("circle")
+      .attr("r", 8)
+      .attr("stroke", "white")
+      .on("mouseover", function() {
+        const dx = d3.randomNormal(0, 25)();
+        const dy = d3.randomNormal(0, 25)();
+        d3.select(this).attr("transform", `translate(${dx},${dy})`); 
+      });
+      // .call(d3.drag()
+      //   .on("start", dragstarted)
+      //   .on("drag", dragged)
+      //   .on("end", dragended));
+
+    const ticked = function() {
+      node.attr("cx", d => d.x).attr("cy", d => d.y);
+    };
+
+    simulation
+      .nodes(datum.blacksites)
+      .on("tick", ticked);
+      
+    // function dragstarted(d) {
+    //   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    //   d.fx = d.x;
+    //   d.fy = d.y;
+    // }
+    
+    // function dragged(d) {
+    //   d.fx = d3.event.x;
+    //   d.fy = d3.event.y;
+    // }
+    
+    // function dragended(d) {
+    //   if (!d3.event.active) simulation.alphaTarget(0);
+    //   d.fx = null;
+    //   d.fy = null;
+    // } 
 
   // map.on("viewreset", updateORR(feature));
   // updateORR(feature);
-
+  });
 }
 
 
