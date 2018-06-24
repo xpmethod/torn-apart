@@ -76,6 +76,7 @@ $( document ).ready(() => {
     index === langs.length - 1 ? index = 0 : index = index + 1;
     $(".locale-toggle").text(langs[index]);
     update_texts();
+    moveLegend();
   });
 
 }); // close document.ready()
@@ -359,7 +360,7 @@ function buildPointsLegend(){
               fill="${purple}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div class="media-body">
+          <div data-i18n="ta-private-juvenile-detention-facilities" class="media-body">
             Private juvenile detention facilities
           </div>
         </div>
@@ -372,7 +373,7 @@ function buildPointsLegend(){
               fill="${orange}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div class="media-body">
+          <div data-i18n="ta-ice-facilities-since-2014" class="media-body">
             ICE facilities in use since 2014
           </div>
         </div>
@@ -385,13 +386,13 @@ function buildPointsLegend(){
               fill="${orange}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div class="media-body">
+          <div data-i18n="ta-ice-facilities-not-in-use" class="media-body">
             ICE facilities not in use
           </div>
         </div>
       </div>
     </div>
-    <div class="mx-3">
+    <div class="mx-3" data-i18n="ta-clinks-legend-supp-text">
       This is some text for the legend.
     </div>`;
   });
@@ -512,23 +513,27 @@ function buildORR(){
   const svg = d3.select(map.getPanes().overlayPane).append("svg")
       .attr("width", $( window ).width())
       .attr("height", $( window ).height()),
-    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+    g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
-  const data = [
-    { LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
-    { LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
-  ];
+  // const data = [
+  //   { LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
+  //   { LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
+  // ];
 
-  const feature = g.selectAll("circle")
-    .data(data)
-    .enter().append("circle")
-    .style("stroke", "black")  
-    .style("opacity", .6) 
-    .style("fill", "red")
-    .attr("r", 20);  
+  // const feature = g.selectAll("circle")
+  //   .data(data)
+  //   .enter().append("circle")
+  //   .style("stroke", "black")  
+  //   .style("opacity", .6) 
+  //   .style("fill", "red")
+  //   .attr("r", 20);  
 
-  map.on("viewreset", updateORR(feature));
-  updateORR(feature);
+  const data = [{}, {}, {}, {}];
+  // const simulation = d3.forceSimulation(data)
+  //   .force('c
+
+  // map.on("viewreset", updateORR(feature));
+  // updateORR(feature);
 
 }
 
