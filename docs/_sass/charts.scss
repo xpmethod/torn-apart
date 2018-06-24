@@ -1,24 +1,26 @@
-svg {
-  width: 100%;
-}
+#charts-div {
+  svg {
+    width: 100%;
+  }
 
-.big-number {
-  margin: 0;
-  color: $green;
-  font-size: 4.5rem;
-  font-weight: bold;
-  text-align: center;
-}
+  .big-number {
+    margin: 0;
+    color: $green;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
 
-.big-number-desc {
-  text-align: center;
-  font-size: .75rem;
-}
+  .big-number-desc {
+    text-align: center;
+    font-size: .75rem;
+  }
 
-.bar {
-  fill: $green;
-}
+  .bar {
+    fill: $green;
+  }
 
-text {
-  font-size: 10px;
-}
+  text {
+    font-size: 10px;
+  }
+};
