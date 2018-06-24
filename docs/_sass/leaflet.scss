@@ -16,7 +16,7 @@
   width: calc(100vw - 2.0rem);
   right: 0;
   top: 50vh;
-  z-index: 2100;
+  z-index: 1025;
   background-color: rgba(255, 255, 255, 0.75);
 
   p {
@@ -87,7 +87,7 @@
 
 #above-map {
   position: absolute;
-  z-index: 1050;
+  z-index: 1010;
 }
 
 #the-eye-div, #charts-div {

@@ -423,8 +423,6 @@ function buildPointsLegend(){
   $("#legend").show();
 }
 
-
-
 function buildCharts() {
   $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
   $("#charts-debugger").html(() => {
