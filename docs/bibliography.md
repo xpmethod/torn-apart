@@ -21,7 +21,7 @@ permalink: bibliography.html
 
 * Immigration and Customs Enforcement. “ICE Detention Facility Locator.” [US Immigrations and Customs Enforcement, 2018](https://www.ice.gov/detention-facilities)
 
- - “ICE Detention Facility Locator (Hutto).” [US Immigrations and Customs Enforcement, 23 May 2017](https://www.ice.gov/detention-facility/t-don-hutto-residential-center)
+* “ICE Detention Facility Locator (Hutto).” [US Immigrations and Customs Enforcement, 23 May 2017](https://www.ice.gov/detention-facility/t-don-hutto-residential-center)
 
 * Immigration Detention Justice Center. “Immigration Detention Justice Center.” [Immigration Detention Justice Center, 2018](http://www.immigrationdetention.org) 
 
