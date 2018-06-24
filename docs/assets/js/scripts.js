@@ -518,7 +518,7 @@ function buildORR(){
   $("#orr-legend").click(function(){ $(this).hide(); });
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
-      .attr("height", "100%"),//$( window ).height()),
+      .attr("height",$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
@@ -526,7 +526,7 @@ function buildORR(){
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
     const x = map.latLngToLayerPoint(datum.LatLng).x;
-    const y = map.latLngToLayerPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
+    const y = map.latLngToLayerPoint(datum.LatLng).y;
     const simulation = d3.forceSimulation()
       .force("collide", d3.forceCollide(d => d3.max([6, Math.pow(d.r, 0.62)])).iterations(16))
       .force("charge", d3.forceManyBody())
