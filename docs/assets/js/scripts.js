@@ -295,6 +295,7 @@ function showViz(viz, map, layers){
     buildORR();
     break;
   }
+  update_texts();
 }
 
 function moveLegend() {
