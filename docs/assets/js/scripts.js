@@ -74,8 +74,8 @@ $( document ).ready(() => {
     const langCodes = ["en", "es"];
     console.log($(this).text());
     let index = langs.indexOf($( this ).text());
-    index === langs.length - 1 ? index = 0 : index = index + 1;
     $.i18n().locale = langCodes[index];
+    index === langs.length - 1 ? index = 0 : index = index + 1;
     $(".locale-toggle").text(langs[index]);
     update_texts();
   });
