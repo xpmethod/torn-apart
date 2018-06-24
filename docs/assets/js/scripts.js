@@ -342,7 +342,12 @@ function buildTrapLegend(){
           <rect width="50" height="50" 
           style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
         </svg>
-          ${legendText}
+          <span data-i18n="ta-trap-legend-1">The border is a trap. Begun in 2005,</span>
+          <a href="https://en.wikipedia.org/wiki/Operation_Streamline">Operation Streamline</a>
+          <span data-i18n="ta-trap-legend-2">has criminalized border crossing. Authorized ports of entry,
+          tiny holes shown here as 15mi-wide</span> <a href="https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c" data-i18n="ta-trap-legend-3">turn back asylum seekers</a><span data-i18n="ta-trap-legend-4">, leading seekers into the</span>
+          <a href="https://www.aclu.org/other/constitution-100-mile-border-zone" data-i18n="ta-trap-legend-5">100-mile-wide border zone</a>
+          <span data-i18n="ta-trap-legend-6">where they are exposed to harsh conditions both from the environment and law enforcement.</span>
     </div>`;
   });
   moveLegend();

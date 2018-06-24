@@ -25,7 +25,13 @@ $.i18n().load({
     "ta-private-juvenile-detention-facilities": "Private juvenile detention facilities",
     "ta-ice-facilities-since-2014": "ICE facilities in use since 2014",
     "ta-ice-facilities-not-in-use": "ICE facilities not in use",
-    "ta-clinks-legend-supp-text": "This is some text for the legend"
+    "ta-clinks-legend-supp-text": "This is some text for the legend",
+    "ta-trap-legend-1": "The border is a trap. Begun in 2005,",
+    "ta-trap-legend-2": "has criminalized border crossing. Authorized ports of entry, tiny holes shown here as 15mi-wide",
+    "ta-trap-legend-3": "turn back asylum seekers",
+    "ta-trap-legend-4": ", leading seekers into the",
+    "ta-trap-legend-5": "100-mile-wide border zone",
+    "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement."
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
@@ -48,7 +54,13 @@ $.i18n().load({
     "ta-private-juvenile-detention-facilities": "Instalaciones privadas de detención juveníl",
     "ta-ice-facilities-since-2014": "Instalaciones ICE funcionandas desde 2014",
     "ta-ice-facilities-not-in-use": "Instalaciones actualmente non utilizadas por ICE",
-    "ta-clinks-legend-supp-text": "algo suplementário"
+    "ta-clinks-legend-supp-text": "algo suplementário",
+    "ta-trap-legend-1": "La frontera es una trampa. Desde 2005,",
+    "ta-trap-legend-2": "ha criminalizado el cruce fronterizo. Los puertos de entrada autorizados, mostrados aquí como pequeños huecos de 15 millas,",
+    "ta-trap-legend-3": "rechazan los solicitantes de asilo",
+    "ta-trap-legend-4": " y los empujan hacia",
+    "ta-trap-legend-5": "la zona fronteriza de 100 millas",
+    "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen."
   }
 });
 
