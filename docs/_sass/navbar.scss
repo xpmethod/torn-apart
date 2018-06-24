@@ -3,7 +3,7 @@
 }
 
 
-#index-nav.nav, #visualizations-teeny-nav.nav, #visualizations-nav.nav { 
+#index-nav.nav, #visualizations-teeny-nav.nav, #visualizations-nav.nav, #time-series-nav.nav { 
   a {
     border: 2px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
@@ -16,6 +16,25 @@
 
   a:hover, a.active {
     color: $white;
+  }
+}
+
+#time-series-nav.nav {
+  a {
+    margin-right: 0.5rem;
+    font-size: 0.75rem;
+    padding: .5rem;
+    border: none;
+  }
+}
+
+@media (min-width: 576px){
+  #time-series-nav.nav {
+    a {
+      margin-right: 1rem;
+      font-size: 1rem;
+      padding: .5rem 1rem;
+    }
   }
 }
 
