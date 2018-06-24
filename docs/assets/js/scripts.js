@@ -554,7 +554,7 @@ function buildORR(){
     const x = lLToPoint(datum.LatLng).x;
     const y = lLToPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
     const simulation = d3.forceSimulation()
-      .force("collide", d3.forceCollide(d => d3.max([5, Math.sqrt(d.r)])).iterations(16))
+      .force("collide", d3.forceCollide(d => d3.max([6, Math.pow(d.r, 0.62)])).iterations(16))
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(x, y))
       .force("y", d3.forceY(0))
@@ -562,7 +562,7 @@ function buildORR(){
 
     const node = dg.selectAll("circle")
       .data(datum.blacksites).enter().append("circle")
-      .attr("r", d => d3.max([5, Math.sqrt(d.r)]))
+      .attr("r", d => d3.max([6, Math.pow(d.r, 0.6)]))
       .attr("stroke", "rgba(255,255,255,0.25)")
       .attr("stroke-width", 3)
       .on("tap", fleeMouse)
