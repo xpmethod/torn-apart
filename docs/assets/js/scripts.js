@@ -95,7 +95,6 @@ function initMap(mapid){
   if (L.Browser.mobile) {
     map.removeControl(map.zoomControl);
   }
-  $(".leaflet-top").css("margin-top", `${$("#navs").height()}px`);
   moveLegend();
   return map;
 }
@@ -186,8 +185,8 @@ function buildBufferLayer(){
 }
 
 function buildTheEye() {
-  const vizHeight = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - rem; 
-  const vizWidth = $( window ).width() - 2 * rem; 
+  const vizHeight = $("#the-eye-div").height(); 
+  const vizWidth = $("#the-eye-div").width(); 
   const columns = Math.floor( vizWidth / (128 + 6 + .5 * rem ));
   const rows = Math.floor( vizHeight / (128 + 6 + .5 * rem ));
   const images = d3.shuffle(imgurImages).slice(0, columns * rows).map( image => {
@@ -424,12 +423,6 @@ function buildPointsLegend(){
 }
 
 function buildCharts() {
-  $("#charts-div").css("height", $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
-  $("#charts-debugger").html(() => {
-    return `phone-navs: ${$("#phone-navs").height()}
-      navs: ${$("#navs").height()}
-      attrib: ${$(".leaflet-control-attribution").height()}`;
-  });
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
@@ -539,15 +532,12 @@ function prepareORRData() {
 
 function buildORR(){
   $("#orr-legend").click(function(){ $(this).hide(); });
-  const yOffset = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem;
-  $("#orr-div").css("height", yOffset).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
       .attr("height", "100%"),//$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
-  const red = (a, c) => a + c;
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);

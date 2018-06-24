@@ -1,7 +1,5 @@
 ## Charts
 
-<div id="charts-debugger"></div>
-
 <div id="time-series-div" class="w-100">
 <ul id="time-series-nav" class="nav nav-pills" role="tablist">
 <li class="nav-item"><a href="#time-series-places-number" id="places-number-tab" class="nav-link active" data-toggle="tab" role="tab" aria-controls="time-series-places-number" aria-selected="true" data-i18n="ta-facilities">Facilities</a></li>
