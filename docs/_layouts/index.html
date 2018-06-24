@@ -45,6 +45,9 @@
   </div>
   <div id="the-eye-div" class="px-3"></div>
   <div id="orr-div"></div>
+  <div class="d-flex align-items-center justify-content-center full-container">
+    <div id="orr-legend" class="card mx-3 px-3 py-2" data-i18n="ta-orr-legend"></div>
+  </div>
 </div>
 <div class="full-map" id="{{page.mapid}}">
 </div>
@@ -53,10 +56,9 @@
     {% capture charts_include %}{% include charts.md %}{% endcapture %}
     {{ charts_include | markdownify }}
   </div>
-  <div class="mx-3 card" id="legend">
-    <h3>Legend</h3>
-  </div>
 {% endif %}
+<div class="mx-3 card" id="legend"></div>
+<div id="hidden-svg" class="d-none"></div>
 <div id="indexModal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -64,19 +66,15 @@
         <h2 class="mr-auto">{{ page.modalTitle }}</h2>
         <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">ES</button>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          &times;
         </button>
       </div>
       <div class="modal-body">
          {{ content }}
-      <div id="hidden-svg" class="d-none"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-  {% include scripts.html %}
 </div>
+  {% include scripts.html %}
 </body>
 </html>
