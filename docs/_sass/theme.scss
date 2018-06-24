@@ -110,6 +110,18 @@ a:hover {
   border-color: $darkgreen;
 }
 
+.modal-header .close {
+  margin: -1rem -1rem -1rem 0;
+}
+
+#locale-toggle-modal {
+    border-radius: .25rem;
+}
+
+code {
+  color: $green;
+}
+
 @import "navbar";
 @import "leaflet";
 @import "charts";

@@ -59,8 +59,9 @@
 <div id="indexModal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h2>{{ page.modalTitle }}</h2>
+      <div class="modal-header d-flex">
+        <h2 class="mr-auto">{{ page.modalTitle }}</h2>
+        <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">EN</button>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
