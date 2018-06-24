@@ -1,4 +1,4 @@
-/* global s, imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global s, blacksites, imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -27,6 +27,7 @@ $( document ).ready(() => {
 
   $("#legend").click(function(){ $(this).hide(); });
 
+  $.i18n().locale = "en";
   update_texts();
 
   if($("#visualizations-mapdiv").length){
@@ -231,6 +232,7 @@ function showViz(viz, map, layers){
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
     $("#orr-div").hide();
+    $("#orr-legend").hide();
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
@@ -241,6 +243,7 @@ function showViz(viz, map, layers){
     $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
     $("#orr-div").hide();
+    $("#orr-legend").hide();
     $("#legend").hide();
     map.removeLayer(layers[1]);
     map.removeLayer(layers[0]);
@@ -251,6 +254,7 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     $("#the-eye-div").hide();
     $("#orr-div").hide();
+    $("#orr-legend").hide();
     $(".leaflet-control-zoom").hide();
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
@@ -263,6 +267,7 @@ function showViz(viz, map, layers){
     $("#charts-div").hide();
     $("#the-eye-div").hide();
     $("#orr-div").hide();
+    $("#orr-legend").hide();
     $(".leaflet-control-zoom").show();
     $("#legend").hide();
     layers[1].addTo(map);
@@ -275,6 +280,7 @@ function showViz(viz, map, layers){
     $("#charts-div").hide();
     $("#the-eye-div").hide();
     $("#orr-div").show();
+    $("#orr-legend").show();
     $(".leaflet-control-zoom").hide();
     map.removeLayer(layers[1]);
     map.removeLayer(layers[0]);
@@ -522,13 +528,19 @@ function lLToPoint(ll){
   return map.latLngToLayerPoint(ll);
 }
 
-function updateORR(feature){
-
-  feature.attr("transform", d => `translate(
-    ${map.latLngToLayerPoint(d.LatLng).x},${map.latLngToLayerPoint(d.LatLng).y})`);
+function prepareORRData() {
+  return blacksites.features.map(site => {
+    const adps = site.properties.adp.map(adp => { return {r: adp}; });
+    return {
+      dco: site.properties.dco,
+      LatLng: new L.LatLng(site.geometry.coordinates[1], site.geometry.coordinates[0]),
+      blacksites: adps
+    };
+  });
 }
 
 function buildORR(){
+  $("#orr-legend").click(function(){ $(this).hide(); });
   const yOffset = $( window ).height() - $("#navs").height() - $(".leaflet-control-attribution").height() - $("#phone-navs").height() - rem;
   $("#orr-div").css("height", yOffset).css("top", $("#phone-navs").height() + $("#navs").height() + .5 * rem);
   const svg = d3.select("#orr-div").append("svg")
@@ -536,18 +548,17 @@ function buildORR(){
       .attr("height", "100%"),//$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
-  const data = [
-    { dco: "CHI", LatLng: new L.LatLng(41.84, -87.68), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1},{a: 1}]},
-    { dco: "DAL", LatLng: new L.LatLng(32.78, -96.8), blacksites: [{a: 1},{a: 1},{a: 1},{a: 1}]}
-  ];
+  const data = prepareORRData();
+  console.log(data);
+  const red = (a, c) => a + c;
+  console.log(data.map(d => d.blacksites.length).reduce(red, 0));
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
     const x = lLToPoint(datum.LatLng).x;
     const y = lLToPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
     const simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(d => d.index))
-      .force("collide", d3.forceCollide(8).iterations(16))
+      .force("collide", d3.forceCollide(d => d3.max([5, Math.sqrt(d.r)])).iterations(16))
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(x, y))
       .force("y", d3.forceY(0))
@@ -555,17 +566,12 @@ function buildORR(){
 
     const node = dg.selectAll("circle")
       .data(datum.blacksites).enter().append("circle")
-      .attr("r", 8)
-      .attr("stroke", "white")
-      .on("mouseover", function() {
-        const dx = d3.randomNormal(0, 25)();
-        const dy = d3.randomNormal(0, 25)();
-        d3.select(this).attr("transform", `translate(${dx},${dy})`); 
-      });
-      // .call(d3.drag()
-      //   .on("start", dragstarted)
-      //   .on("drag", dragged)
-      //   .on("end", dragended));
+      .attr("r", d => d3.max([5, Math.sqrt(d.r)]))
+      .attr("stroke", "rgba(255,255,255,0.25)")
+      .attr("stroke-width", 3)
+      .on("tap", fleeMouse)
+      .on("touch", fleeMouse)
+      .on("mouseover", fleeMouse);
 
     const ticked = function() {
       node.attr("cx", d => d.x).attr("cy", d => d.y);
@@ -574,27 +580,12 @@ function buildORR(){
     simulation
       .nodes(datum.blacksites)
       .on("tick", ticked);
-      
-    // function dragstarted(d) {
-    //   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-    //   d.fx = d.x;
-    //   d.fy = d.y;
-    // }
-    
-    // function dragged(d) {
-    //   d.fx = d3.event.x;
-    //   d.fy = d3.event.y;
-    // }
-    
-    // function dragended(d) {
-    //   if (!d3.event.active) simulation.alphaTarget(0);
-    //   d.fx = null;
-    //   d.fy = null;
-    // } 
-
-  // map.on("viewreset", updateORR(feature));
-  // updateORR(feature);
   });
 }
+
+function fleeMouse(){
+  d3.select(this).attr("transform", `translate(${d3.randomNormal(0, 25)()},${d3.randomNormal(0, 25)()})`); 
+}
+
 
 

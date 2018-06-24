@@ -1,3 +1,11 @@
+.full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
 #legend {
   display: none;
   position: absolute;
@@ -17,6 +25,17 @@
     border-radius: .25rem;
     color: $green;
     background-color: $white;
+  }
+}
+
+#orr-legend {
+  display: none;
+  width: calc(100vw - 2.0rem);
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  p {
+    margin: 0px;
   }
 }
 
@@ -109,11 +128,7 @@
 }
 
 @media (min-width: 576px){
-  #legend {
-    width: 50vw;
-  }
-
-  #charts-div {
+  #legend, #charts-div, #orr-legend {
     width: 50vw;
   }
 }

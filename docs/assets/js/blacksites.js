@@ -1,21 +1,6 @@
-{
+const blacksites = {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.848808,
-          39.783559
-        ]
-      },
-      "properties": {
-        "dco": "DEN",
-        "detloc": "DENHOLD",
-        "count": "1"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -28,6 +13,7 @@
       "properties": {
         "dco": "VRK",
         "detloc": "VRK",
+        "adp": [146,110,126,55,23,19,32,8,7],
         "count": "13"
       }
     },
@@ -43,7 +29,8 @@
       "properties": {
         "dco": "HOU",
         "detloc": "HOUHOLD",
-        "count": "21"
+        "count": "21",
+        "adp": [33,90,66,62,58,8,22,23,25,8,101,90]
       }
     },
     {
@@ -57,6 +44,7 @@
       },
       "properties": {
         "dco": "HLG",
+        "adp": [197,130,106,130,83,46,46,36,28,26,33,37,22,23,4],
         "detloc": "HLGHOLD",
         "count": "21"
       }
@@ -72,6 +60,7 @@
       },
       "properties": {
         "dco": "BUF",
+        "adp": [7],
         "detloc": "BUFHOLD",
         "count": "1"
       }
@@ -87,6 +76,7 @@
       },
       "properties": {
         "dco": "PHI",
+        "adp": [53],
         "detloc": "PHIHOLD",
         "count": "5"
       }
@@ -102,6 +92,7 @@
       },
       "properties": {
         "dco": "POO",
+        "adp": [5,10],
         "detloc": "POOHOLD",
         "count": "4"
       }
@@ -117,6 +108,7 @@
       },
       "properties": {
         "dco": "SNA",
+        "adp": [106,71,44,31,18,55,134,53,134,34],
         "detloc": "SNAHOLD",
         "count": "13"
       }
@@ -132,6 +124,7 @@
       },
       "properties": {
         "dco": "WAS",
+        "adp": [83,28,6],
         "detloc": "WASHOLD",
         "count": "6"
       }
@@ -147,6 +140,7 @@
       },
       "properties": {
         "dco": "SFR",
+        "adp": [21,10],
         "detloc": "SFRHOLD",
         "count": "7"
       }
@@ -163,22 +157,8 @@
       "properties": {
         "dco": "DAL",
         "detloc": "DALHOLD",
+        "adp": [14],
         "count": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.899887,
-          29.39471
-        ]
-      },
-      "properties": {
-        "dco": "DLR",
-        "detloc": "DLRHOLD",
-        "count": "1"
       }
     },
     {
@@ -192,6 +172,7 @@
       },
       "properties": {
         "dco": "MIA",
+        "adp": [104,64,366],
         "detloc": "MIAHOLD",
         "count": "17"
       }
@@ -208,6 +189,7 @@
       "properties": {
         "dco": "LOS",
         "detloc": "LOSHOLD",
+        "adp": [64,52,33,14,8],
         "count": "7"
       }
     },
@@ -222,23 +204,9 @@
       },
       "properties": {
         "dco": "DET",
+        "adp": [96, 14],
         "detloc": "DETHOLD",
         "count": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.437893,
-          25.75506
-        ]
-      },
-      "properties": {
-        "dco": "KRO",
-        "detloc": "KRO",
-        "count": "2"
       }
     },
     {
@@ -252,6 +220,7 @@
       },
       "properties": {
         "dco": "SEA",
+        "adp": [27,8,6,9,30,2],
         "detloc": "SEAHOLD",
         "count": "9"
       }
@@ -267,6 +236,7 @@
       },
       "properties": {
         "dco": "PHO",
+        "adp": [211,144,105,111,86,77,56,22,9,7,14,44,40,3],
         "detloc": "PHOHOLD",
         "count": "22"
       }
@@ -282,6 +252,7 @@
       },
       "properties": {
         "dco": "CHI",
+        "adp": [155,43,25,29,13,13,10,1,21,11,6],
         "detloc": "CHIHOLD",
         "count": "16"
       }
@@ -297,6 +268,7 @@
       },
       "properties": {
         "dco": "EPC",
+        "adp": [70,66],
         "detloc": "EPC",
         "count": "3"
       }
@@ -312,23 +284,9 @@
       },
       "properties": {
         "dco": "BOS",
+        "adp": [21, 2],
         "detloc": "BOSHOLD",
         "count": "2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.869687,
-          40.705141
-        ]
-      },
-      "properties": {
-        "dco": "SLC",
-        "detloc": "SLCHOLD",
-        "count": "1"
       }
     },
     {
@@ -342,6 +300,7 @@
       },
       "properties": {
         "dco": "SND",
+        "adp": [64],
         "detloc": "SNDHOLD",
         "count": "2"
       }
@@ -357,23 +316,9 @@
       },
       "properties": {
         "dco": "BAL",
+        "adp": [18, 5],
         "detloc": "BALHOLD",
         "count": "4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.379447,
-          27.92485
-        ]
-      },
-      "properties": {
-        "dco": "TAM",
-        "detloc": "TAMHOLD",
-        "count": "1"
       }
     },
     {
@@ -388,6 +333,7 @@
       "properties": {
         "dco": "NEW",
         "detloc": "NEWHOLD",
+        "adp": [14],
         "count": "2"
       }
     },
@@ -403,7 +349,8 @@
       "properties": {
         "dco": "NYC",
         "detloc": "NYCHOLD",
-        "count": "5"
+        "count": "5",
+        "adp": [15,6,7,6]
       }
     },
     {
@@ -418,7 +365,8 @@
       "properties": {
         "dco": "ELP",
         "detloc": "ELPHOLD",
-        "count": "4"
+        "count": "4",
+        "adp": [41,42]
       }
     },
     {
@@ -426,44 +374,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.59675,
-          35.424242
-        ]
-      },
-      "properties": {
-        "dco": "OKC",
-        "detloc": "OKCHOLD",
-        "count": "1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.073702,
-          33.470625
+          -79.99479,
+          40.435595  
         ]
       },
       "properties": {
         "dco": "PIT",
-        "detloc": "PHOHOLD",
+        "adp": [15],
+        "detloc": "ALLEGPA",
         "count": "1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.39569,
-          33.747549
-        ]
-      },
-      "properties": {
-        "dco": "ATL",
-        "detloc": "ATLANGA",
-        "count": "2"
       }
     },
     {
@@ -478,8 +397,9 @@
       "properties": {
         "dco": "HAR",
         "detloc": "HARHOLD",
+        "adp": [3],
         "count": "1"
       }
     }
   ]
-}
+};

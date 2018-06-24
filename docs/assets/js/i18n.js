@@ -2,6 +2,7 @@ $.i18n().load({
   "@metadata": {
     "authors": [
       "Moacir P. de Sá Pereira",
+      "Alex Gil"
     ],
     "locale": "en"
   },
@@ -31,7 +32,8 @@ $.i18n().load({
     "ta-trap-legend-3": "turn back asylum seekers",
     "ta-trap-legend-4": ", leading seekers into the",
     "ta-trap-legend-5": "100-mile-wide border zone",
-    "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement."
+    "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement.",
+    "ta-orr-legend": "As of November 2017, 113 redacted Offices of Refugee Resettlement reported average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
@@ -60,7 +62,8 @@ $.i18n().load({
     "ta-trap-legend-3": "rechazan los solicitantes de asilo",
     "ta-trap-legend-4": " y los empujan hacia",
     "ta-trap-legend-5": "la zona fronteriza de 100 millas",
-    "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen."
+    "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen.",
+    "ta-orr-legend": "Algo en español"
   }
 });
 
