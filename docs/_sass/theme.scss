@@ -1,76 +1,3 @@
-// AlexEd Code
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-.page {
-  h1 {
-    margin-top: 4em;
-  }
-
-  h2 {
-    margin-top: 1em;
-  }
-
-  h3 {
-    margin-top: 1.2em;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-}
-
-
-// Figures
-
-.page > *:not( .figure-landscape ) {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50rem;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.figure-landscape, .figure-portrait {
-	margin-bottom: 1.5em;
-	margin-top: 1em;
-}
-
-.figure-portrait {
-	width: 44%;
-
-	   	@include media-query($on-palm) {
-    	width: 88%;
-    	}
-}
-
-main img {
-  // Alex, you can feed "img-fluid" as a class to images and it will expand them to the width of the container.
-	width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
 // Color Brewer colors:
 $orange: #fc8d62;
 $green: #66c2a5;
@@ -92,37 +19,12 @@ a:hover {
   color: $darkgreen;
 }
 
-.btn-primary {
-  background-color: $green;
-  border-color: $green;
-}
-
-.btn-primary:hover {
-  background-color: $darkgreen;
-  border-color: $darkgreen;
-}
-
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(58, 146, 118, .5);
-}
-
-.btn-primary:not(:disabled):not(.disabled):active {
-  background-color: $midgreen;
-  border-color: $darkgreen;
-}
-
-.modal-header .close {
-  margin: -1rem -1rem -1rem 0;
-}
-
-#locale-toggle-modal {
-    border-radius: .25rem;
-}
-
 code {
   color: $green;
 }
 
+@import "buttons";
+@import "page";
 @import "navbar";
 @import "leaflet";
 @import "charts";

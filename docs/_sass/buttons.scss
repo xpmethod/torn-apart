@@ -1,0 +1,27 @@
+.btn-primary {
+  background-color: $green;
+  border-color: $green;
+}
+
+.btn-primary:hover {
+  background-color: $darkgreen;
+  border-color: $darkgreen;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(58, 146, 118, .5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: $midgreen;
+  border-color: $darkgreen;
+}
+
+.modal-header .close {
+  margin: -1rem -1rem -1rem 0;
+}
+
+#locale-toggle-modal {
+    border-radius: .25rem;
+}
+
