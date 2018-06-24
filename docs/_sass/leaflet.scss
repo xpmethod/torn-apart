@@ -1,4 +1,6 @@
 .full-container {
+  pointer-events:none;
+  z-index: 2000;
   position: absolute;
   top: 0;
   left: 0;
@@ -13,7 +15,7 @@
   width: calc(100vw - 2.0rem);
   right: 0;
   top: 50vh;
-  z-index: 1000;
+  z-index: 2100;
   background-color: rgba(255, 255, 255, 0.75);
 
   p {
@@ -29,9 +31,10 @@
 }
 
 #orr-legend {
+  pointer-events: auto;
   display: none;
   width: calc(100vw - 2.0rem);
-  z-index: 1000;
+  z-index: 3000;
   background-color: rgba(255, 255, 255, 0.75);
 
   p {
@@ -81,12 +84,12 @@
 
 #above-map {
   position: absolute;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 #the-eye-div, #charts-div {
   display: none;
-  z-index: 1000;
+  z-index: 2100;
 
   img {
     border: 3px solid $purple;;
@@ -96,7 +99,7 @@
 
 #orr-div{
   display: none;
-  z-index: 700;
+  // z-index: 500;
   position: absolute;
   top: 0;
   left: 0;
