@@ -35,6 +35,7 @@ $.i18n().load({
     "ta-trap-legend-5": "100-mile-wide border zone",
     "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement.",
     "ta-orr-legend": "As of November 2017, Offices of Refugee Resettlement has 113 redacted sites which reportedly average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view.",
+    "ta-5-yrs-of-detention": "Five Years of Detention",
     "ta-ice-facilities-in-use": "ICE facilities in use",
     "ta-time-series-text": "This is some description text",
     "ta-fiscal-year-begins": "(fiscal year begins previous October)",
@@ -50,7 +51,13 @@ $.i18n().load({
     "ta-operators-text": "Operators text",
     "ta-active-num": "active number.",
     "ta-active-text": "active text",
-
+    "ta-name-header": "Facility",
+    "ta-operator-header": "Operator",
+    "ta-mandays-header": "Mandays",
+    "ta-pctDaysInUse-header": "Usage",
+    "ta-2017-mandays-and-overpop": "Total 2017 Mandays and Usage",
+    "ta-mandays": "Mandays",
+    "ta-mandays-definition": "Number of days per detainee spent at the facility for 2017"
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
@@ -81,6 +88,7 @@ $.i18n().load({
     "ta-trap-legend-5": "la zona fronteriza de 100 millas",
     "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen.",
     "ta-orr-legend": "Algo en español",
+    "ta-5-yrs-of-detention": "Cinco Años de Detención",
     "ta-ice-facilities-in-use": "ICE facilities in use",
     "ta-time-series-text": "algo en español",
     "ta-fiscal-year-begins": "(fiscal year begins previous October)",
@@ -96,6 +104,13 @@ $.i18n().load({
     "ta-operators-text": "Operators text",
     "ta-active-num": "active number.",
     "ta-active-text": "active text",
+    "ta-name-header": "Instalación",
+    "ta-operator-header": "Operador",
+    "ta-mandays-header": "Mandays",
+    "ta-pctDaysInUse-header": "Uso",
+    "ta-2017-mandays-and-overpop": "Total 2017 Mandays and Usage",
+    "ta-mandays": "Mandays",
+    "ta-mandays-definition": "Number of days per detainee spent at the facility for 2017",
   }
 });
 

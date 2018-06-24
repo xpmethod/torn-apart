@@ -1,4 +1,15 @@
 #charts-div {
+
+  #mandays-table-div {
+    overflow-y: scroll; 
+    height: 250px;
+  }
+
+  .table .thead-dark th {
+    background-color: $green;
+    border-color: $faintwhite;
+  }
+
   svg {
     border: 1px solid red;
     width: 100%;
@@ -23,5 +34,13 @@
 
   text {
     font-size: 10px;
+  }
+
+  th.des:after {
+    content: "\21E9";
+  }
+
+  th.des:after {
+    content: "\21E7";
   }
 };

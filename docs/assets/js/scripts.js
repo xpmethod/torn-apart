@@ -449,7 +449,16 @@ function buildCharts() {
     const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, i18n: "ta-bookins", showFY: true };
     const operators = { data: [], margins, id: "operators-svg" };
     const active = { data: [], margins, id: "active-svg" };
-    const fy2017 = { data: [], margins, id: "fy2017-svg" };
+    const mandays = { data: data.map(row => {
+      return {
+        lat: +row.lat,
+        lon: +row.lon,
+        name: row.Name,
+        operator: row["Facility.Operator"],
+        mandays: +row["FY17.Total.Mandays"],
+        pctDaysInUse: +row["FY17...of.Days.in.Use"] };
+        // pctDaysInUse: `${+row["FY17...of.Days.in.Use"] * 100}%` };
+    }) };
 
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
@@ -486,6 +495,43 @@ function buildCharts() {
           .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");//.text("(fiscal year begins in previous October)"); 
       }
     });
+
+    mandays.sortAscending = false;
+    const table = d3.select("#mandays-table-div").append("table")
+        .classed("table", true).classed("table-hover", true).classed("table-sm", true),
+      titles = ["name", "operator", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
+    const headers = table.append("thead").append("tr").classed("thead-dark", true)
+      .selectAll("th")
+      .data(titles).enter()
+      .append("th")
+      .attr("data-i18n", d => `ta-${d}-header`)
+      .on("click", function(d) {
+        headers.classed("header", true);
+        if (mandays.sortAscending) {
+          rows.sort((a, b) => b[d] < a[d]);
+          mandays.sortAscending = false;
+          this.className = "aes";
+        } else {
+          rows.sort((a, b) => b[d] > a[d]);
+          mandays.sortAscending = true;
+          this.className = "des";
+        }
+      });
+    const rows = table.append("tbody").selectAll("tr")
+      .data(mandays.data).enter().append("tr");
+    rows.selectAll("td")
+      .data(d => titles.map(k => { return { "value": d[k], "name":  k}; })).enter()
+      .append("td").attr("data-th", d => d.name).text(d => {
+        if(d.name === "name" || d.name === "operator"){
+          return titleize(d.value.replace(/\([^)]*\)/, ""));
+        } else if (d.name === "mandays") {
+          return d3.format(",.0f")(d.value);
+        } else {
+          return `${Math.floor(d.value * 100)}%`;
+        }
+      });
+
+
 
     // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
     // const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
