@@ -1,4 +1,4 @@
-/* global s, blacksites, imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
+/* global s, blacksites, facOperators imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 // jQuery available as $
 // Leaflet available as L
 // Turf available as turf
@@ -450,15 +450,24 @@ function buildCharts() {
     const operators = { data: [], margins, id: "operators-svg" };
     const active = { data: [], margins, id: "active-svg" };
     const mandays = { data: data.map(row => {
+      let name = titleize(row["Name"].replace(/\([^)]*\)/, ""));
+      const operator = facOperators.filter(o => o.code === row["Facility.Operator"])[0];
+      if(operator && operator.name){
+        if(operator.url){
+          name = name + `, <a href="${operator.url}">${operator.name}</a>`;
+        } else {
+          name = name + `, ${operator.name}`;
+        }
+      }
       return {
         lat: +row.lat,
         lon: +row.lon,
-        name: row.Name,
-        operator: row["Facility.Operator"],
+        name,
         mandays: +row["FY17.Total.Mandays"],
         pctDaysInUse: +row["FY17...of.Days.in.Use"] };
-        // pctDaysInUse: `${+row["FY17...of.Days.in.Use"] * 100}%` };
     }) };
+
+    console.log(mandays.data);
 
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
@@ -499,7 +508,7 @@ function buildCharts() {
     mandays.sortAscending = false;
     const table = d3.select("#mandays-table-div").append("table")
         .classed("table", true).classed("table-hover", true).classed("table-sm", true),
-      titles = ["name", "operator", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
+      titles = ["name", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
     const headers = table.append("thead").append("tr").classed("thead-dark", true)
       .selectAll("th")
       .data(titles).enter()
@@ -521,9 +530,9 @@ function buildCharts() {
       .data(mandays.data).enter().append("tr");
     rows.selectAll("td")
       .data(d => titles.map(k => { return { "value": d[k], "name":  k}; })).enter()
-      .append("td").attr("data-th", d => d.name).text(d => {
-        if(d.name === "name" || d.name === "operator"){
-          return titleize(d.value.replace(/\([^)]*\)/, ""));
+      .append("td").attr("data-th", d => d.name).html(d => {
+        if(d.name === "name"){
+          return d.value;
         } else if (d.name === "mandays") {
           return d3.format(",.0f")(d.value);
         } else {
