@@ -26,14 +26,14 @@ $.i18n().load({
     "ta-private-juvenile-detention-facilities": "Private juvenile detention facilities",
     "ta-ice-facilities-since-2014": "ICE facilities in use since 2014",
     "ta-ice-facilities-not-in-use": "ICE facilities not in use",
-    "ta-clinks-legend-supp-text": "This is some text for the legend",
+    "ta-clinks-legend-supp-text": "We are not showing the addresses of ICE facilities not in use. However this is the full landscape of incarceration for those deemed without papers.",
     "ta-trap-legend-1": "The border is a trap. Begun in 2005,",
     "ta-trap-legend-2": "has criminalized border crossing. Authorized ports of entry, tiny holes shown here as 15mi-wide",
     "ta-trap-legend-3": "turn back asylum seekers",
     "ta-trap-legend-4": ", leading seekers into the",
     "ta-trap-legend-5": "100-mile-wide border zone",
     "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement.",
-    "ta-orr-legend": "As of November 2017, 113 redacted Offices of Refugee Resettlement reported average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
+    "ta-orr-legend": "As of November 2017, Offices of Refugee Resettlement has 113 redacted sites which reportedly average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
