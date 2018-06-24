@@ -11,7 +11,7 @@ permalink: credits.html
 *Torn Apart* is a result of intense 6-day collaboration between
 [xpMethod](http://xpmethod.plaintext.in) (Manan Ahmed, Alex Gil, Moacir P. de
 Sá Pereira, Roopika Risam), [Borderlands Archives
-Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fernández), Linda Rodriguez, and Merisa Martinez.
+Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fernández), Linda Rodriguez, and Merisa Martinez. A special acknowledgment for [Moacir P. de Sá Pereira](http://moacir.com) who hand-cranked the code for everything here.
 
 ## Data 
 
