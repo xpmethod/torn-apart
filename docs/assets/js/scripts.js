@@ -466,8 +466,6 @@ function buildCharts() {
       }
     });
 
-    console.log(bookinsByYear);
-
     $("#total-places-no").html(totalPlaces[4][1]);
     // const tpMax = d3.max(totalPlaces.map(d => d[1]));
     tpX.domain(totalPlaces.map(d => d[0]));
@@ -549,9 +547,7 @@ function buildORR(){
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
-  console.log(data);
   const red = (a, c) => a + c;
-  console.log(data.map(d => d.blacksites.length).reduce(red, 0));
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
