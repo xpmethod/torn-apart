@@ -35,4 +35,4 @@ I like to think, as well, that in its design and execution, this project is a sm
 
 ---
 
-[Roopika Risam](http://roopikarisam.com) Roopika Risam is Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018).
+[Roopika Risam](http://roopikarisam.com) is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018).
