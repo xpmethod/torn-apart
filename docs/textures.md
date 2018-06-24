@@ -19,7 +19,7 @@ What our data reveals is a shadowy network of government facilities, subcontract
 This is not to say that *Torn Apart*, now in alpha release, paints a complete picture of immigrant detention. Like all maps, ours is a representation of data, reflecting choices we made while designing visualizations. For example, a simple decision to place data points in the foreground rather than in the background offers a very different reading of the locations of ICE detention centers, as the map below demonstrates.
 
 {: .figure-landscape}
-![]({{site.baseurl}}/assets/figures/textures-fig1.png)
+![map of USA with ICE and CBP detention sites]({{site.baseurl}}/assets/figures/textures-fig1.png)
 
 Our desire to ensure accuracy also led to decisions to not include public data
 we could not verify with confidence. For example, numbers of beds in ORR
@@ -66,7 +66,7 @@ that for you](http://lmgtfy.com/?q=where+is+my+detained+child%3F) has never
 been so tragic.
 
 {: .figure-portrait}
-![]({{site.baseurl}}/assets/figures/textures-fig2.png)
+![Southwest Key Tucson Google Business page]({{site.baseurl}}/assets/figures/textures-fig2.png)
 
 ## Rate My Detention Center
 
@@ -98,7 +98,7 @@ Now, members of the public are filling these pages with demands for
 transparency](https://www.facebook.com/pages/Southwest-Key-Programs/463839093693174). 
 
 {: .figure-landscape}
-![]({{site.baseurl}}/assets/figures/textures-fig3.jpg)
+![East Hidalgo Detention Center FB Page]({{site.baseurl}}/assets/figures/textures-fig3.jpg)
 
 ## The Banality of Annual Reports
 
@@ -119,7 +119,7 @@ United States management culture, in their compulsion for spin, betrays the
 racist nature of their "service." 
 
 {: .figure-portrait}
-![]({{site.baseurl}}/assets/figures/textures-fig4.png)
+![Graphic from Southwest Key Annual Report 2015]({{site.baseurl}}/assets/figures/textures-fig4.png)
 
 Sensing that their shadows were dissipating, some of these companies [began to
 whitewash their
@@ -128,7 +128,7 @@ Others began the all too familiar process of deleting their records. Below is
 the 404 page that sits now where the above GIF came from.
 
 {: .figure-justified}
-![]({{site.baseurl}}/assets/figures/textures-fig5.png)
+![Current 404 for Southwest Key Annual Reports]({{site.baseurl}}/assets/figures/textures-fig5.png)
 
 
 ## The Detention Gold Rush
@@ -145,7 +145,7 @@ bilingual. Then again, not all brown immigrants [speak
 Spanish](https://twitter.com/minh81/status/1009892301433458688). 
 
 {: .figure-portrait}
-![]({{site.baseurl}}/assets/figures/textures-fig6.png)
+![Job postings on Glassdoor]({{site.baseurl}}/assets/figures/textures-fig6.png)
 
 ## Passing on the Nimble Tent
 
