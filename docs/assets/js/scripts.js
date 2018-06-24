@@ -444,9 +444,9 @@ function buildCharts() {
     const svgWidth = $("#time-series-text").width();
 
     // Init the charts.
-    const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, text: "Num. of facilities", showFY: true };
-    const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, text: "Avg. daily population", showFY: true };
-    const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, text: "Bookins", showFY: true };
+    const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
+    const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
+    const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, i18n: "ta-bookins", showFY: true };
     const operators = { data: [], margins, id: "operators-svg" };
     const active = { data: [], margins, id: "active-svg" };
     const fy2017 = { data: [], margins, id: "fy2017-svg" };
@@ -479,11 +479,11 @@ function buildCharts() {
         .call(d3.axisBottom(chart.x));
       chart.g.append("g").call(d3.axisLeft(chart.y).ticks(5).tickFormat(d3.format(".0f"))).append("text")
         .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
-        .attr("text-anchor", "end").text(chart.text); 
+        .attr("text-anchor", "end").attr("data-i18n", chart.i18n);
 
       if(chart.showFY){
         chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 2})`)
-          .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
+          .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");//.text("(fiscal year begins in previous October)"); 
       }
     });
 
@@ -493,7 +493,9 @@ function buildCharts() {
 
     console.log(data[0]);
 
+    update_texts();
   });
+
 }
 
 function initChart(chart, svgWidth, svgHeight){

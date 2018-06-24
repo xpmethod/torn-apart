@@ -1,4 +1,5 @@
 ## Charts
+{: data-i18n="ta-charts"}
 
 <div id="time-series-div" class="w-100">
 <ul id="time-series-nav" class="nav nav-pills" role="tablist">
@@ -11,8 +12,8 @@
 <div class="row">
 <div id="time-series-text" class="col-md-6">
 <p class="big-number" id="total-places-no">No.</p>
-<p class="big-number-desc">ICE facilities in use</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-ice-facilities-in-use"></p>
+<p data-i18n="ta-time-series-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="total-places-svg"></svg>
@@ -26,8 +27,8 @@ This is some description text
 <div class="row">
 <div class="col-md-6">
 <p class="big-number" id="adp-no">No.</p>
-<p class="big-number-desc">Current average daily population</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-current-avg-daily-pop">Current average daily population</p>
+<p data-i18n="ta-adp-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="adp-svg"></svg>
@@ -40,8 +41,8 @@ This is some description text
 <div class="row">
 <div class="col-md-6">
 <p class="big-number" id="bookins-no">No.</p>
-<p class="big-number-desc">Bookins October and November 2017</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-bookins-october-and-november">Bookins October and November 2017</p>
+<p data-i18n="ta-adp-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="bookins-svg"></svg>
@@ -57,8 +58,8 @@ This is some description text
 <div class="row">
 <div class="col-md-6">
 <p class="big-number" id="fy2017-no">No.</p>
-<p class="big-number-desc">FY2017 number</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-fy2017-num">FY2017 number</p>
+<p data-i18n="ta-fy2017-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="fy2017-svg"></svg>
@@ -67,29 +68,29 @@ This is some description text
 
 
 </div>
-<div id="operator-div" class="w-100">
+
+<div id="operators-div" class="w-100">
 
 <div class="row">
 <div class="col-md-6">
 <p class="big-number" id="operators-no">No.</p>
-<p class="big-number-desc">Operators number</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-operators-num">Operators number</p>
+<p data-i18n="ta-operators-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="operators-svg"></svg>
 </div>
 </div>
 
-Pie chart for operators.
-
 </div>
+
 <div id="active-vs-inactive-div" class="w-100">
 
 <div class="row">
 <div class="col-md-6">
 <p class="big-number" id="active-no">No.</p>
-<p class="big-number-desc">active number</p>
-This is some description text
+<p class="big-number-desc" data-i18n="ta-active-num">active number</p>
+<p data-i18n="ta-active-text"></p>
 </div>
 <div class="pl-0 col-md-6">
 <svg id="active-svg"></svg>
