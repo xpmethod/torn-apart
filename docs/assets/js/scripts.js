@@ -33,6 +33,11 @@ $( document ).ready(() => {
   } else {
     $.i18n().locale = locales[0];
   }
+  if ($.i18n().locale === "en") {
+    $(".locale-toggle").html("ES");
+  } else {
+    $(".locale-toggle").html("EN");
+  }
   update_texts();
 
   if($("#visualizations-mapdiv").length){
@@ -242,6 +247,7 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
+    update_texts();
     buildTrapLegend();
     break;
   case "the-eye":
@@ -279,6 +285,7 @@ function showViz(viz, map, layers){
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    update_texts();
     buildPointsLegend();
     break;
   case "orr":
