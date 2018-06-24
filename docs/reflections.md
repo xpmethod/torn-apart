@@ -12,10 +12,14 @@ As we have gathered and curated this data and produced these visualizations, we 
 
 Hence, in addition to reflections from our own project group, we have reached out to a small group of historians, activists, artists, and writers to provide their own readings of our curated data and visualizations. 
 
-We provide all of this in order to help contextualize both our impetus and our efforts.
+We provide all the reflections below in order to help contextualize both our impetus and our efforts.
 
-* [Sylvia Fernández](https://www.hastac.org/u/sferna109): *[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica]*(http://xpmethod.plaintext.in/torn-apart/reflections/sylvia_fernandez.html). 
+<br>
+
+**[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica]({{site.baseurl}}/reflections/sylvia_fernandez.html)**.  
+[Sylvia Fernández](https://www.hastac.org/u/sferna109)   
 Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography 
 
-* [Roopika Risam](http://roopikarisam.com): *[What We Have, What We Can](http://xpmethod.plaintext.in/torn-apart/reflections/roopika_risam.html)*. 
+**[What We Have, What We Can]({{site.baseurl}}/reflections/roopika_risam.html)**.  
+[Roopika Risam](http://roopikarisam.com)   
 Roopika Risam  is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)
