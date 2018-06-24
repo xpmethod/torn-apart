@@ -19,7 +19,7 @@ What our data reveals is a shadowy network of government facilities, subcontract
 This is not to say that *Torn Apart*, now in alpha release, paints a complete picture of immigrant detention. Like all maps, ours is a representation of data, reflecting choices we made while designing visualizations. For example, a simple decision to place data points in the foreground rather than in the background offers a very different reading of the locations of ICE detention centers, as the map below demonstrates.
 
 {: .figure-landscape}
-![map of USA with ICE and CBP detention sites]({{site.baseurl}}/assets/figures/textures-fig1.png)
+![map of USA with ICE and CBP detention sites]({{site.baseurl}}/assets/figures/textures-fig1a.png)
 
 Our desire to ensure accuracy also led to decisions to not include public data
 we could not verify with confidence. For example, numbers of beds in ORR
