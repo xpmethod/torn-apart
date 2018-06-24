@@ -7,7 +7,7 @@ permalink: allies.html
 
 The list below was curated by our research team and is by no means exhaustive.
 
-{:toc}
+<a href="#united-states">Jump to United States section</a>
 
 ## International
 

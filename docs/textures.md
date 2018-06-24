@@ -12,7 +12,7 @@ permalink: textures.html
 
 Working nimbly and remotely from four sites in the United States over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee Resettlement (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
 
-Our sources for obtaining [the data]({{site.baseurl}}/credits.html] were varied. Those we worked from included a FOIA-ed list of ICE facilities, publicly available lists of CBP sites, data sets of ICE detainee hearings, state childcare licensing databases, government grant awards lists, and [USASpending.gov](https://www.usaspending.gov/#/search). We cross-checked our data through non-governmental sources as well: news reports about immigrant detention, business databases, tax documents for non-profit organizations, job advertisements, Google Maps entries, Facebook Places, and more. All of our data has been verified through a minimum of [two sources]({{site.baseurl}}/bibliography.html), at least one directly from the government.
+Our sources for obtaining [the data]({{site.baseurl}}/credits.html) were varied. Those we worked from included a FOIA-ed list of ICE facilities, publicly available lists of CBP sites, data sets of ICE detainee hearings, state childcare licensing databases, government grant awards lists, and [USASpending.gov](https://www.usaspending.gov/#/search). We cross-checked our data through non-governmental sources as well: news reports about immigrant detention, business databases, tax documents for non-profit organizations, job advertisements, Google Maps entries, Facebook Places, and more. All of our data has been verified through a minimum of [two sources]({{site.baseurl}}/bibliography.html), at least one directly from the government.
 
 What our data reveals is a shadowy network of government facilities, subcontractors from the prison-industrial complex, “non-profit” administrators paid over half a million dollars a year, and religious organizations across the country that, together, prop up the immigrant detention machine. Immigrant detention is a multi-billion dollar business and it’s happening in our own backyards. The crisis for immigrants in the United States is not only happening at the Mexico-United States border or other ports of entry. Rather, the border is everywhere. 
 
@@ -87,7 +87,7 @@ architecture, we were struck by the way that families were using their review
 system for their own purposes, reinforcing for us [the hope of technological
 disobedience](http://www.technologicaldisobedience.com/). 
 
-After Alex [tweeted a
+After Alex Gil [tweeted a
 screenshot](https://twitter.com/elotroalex/status/1008896200869908481) of one
 of these pages, Rachelle Hampton at *Slate* took on the specific challenge of
 investigating them. The result was her story, "[Family Members of Detainees
