@@ -503,10 +503,6 @@ function initChart(chart, svgWidth, svgHeight){
   chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
 }
 
-function lLToPoint(ll){
-  return map.latLngToLayerPoint(ll);
-}
-
 function prepareORRData() {
   return blacksites.features.map(site => {
     const adps = site.properties.adp.map(adp => { return {r: adp}; });
@@ -529,8 +525,8 @@ function buildORR(){
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
-    const x = lLToPoint(datum.LatLng).x;
-    const y = lLToPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
+    const x = map.latLngToLayerPoint(datum.LatLng).x;
+    const y = map.latLngToLayerPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
     const simulation = d3.forceSimulation()
       .force("collide", d3.forceCollide(d => d3.max([6, Math.pow(d.r, 0.62)])).iterations(16))
       .force("charge", d3.forceManyBody())
