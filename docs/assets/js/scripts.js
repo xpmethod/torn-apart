@@ -368,7 +368,7 @@ function buildTrapLegend(){
   
   $("#legend").html(() => {
     return `<div class="px-3 py-2">
-        <svg class="float-left m-2" height="50" width="50">
+        <svg class="float-left" height="50" width="50">
           <rect width="50" height="50" 
           style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
         </svg>
@@ -389,7 +389,7 @@ function buildPointsLegend(){
     return `<div class="row px-3 pt-2">
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg  height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius * 1.5}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${purple}" fill-opacity="0.8"
@@ -402,7 +402,7 @@ function buildPointsLegend(){
       </div>
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius * 2}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${orange}" fill-opacity="0.8"
@@ -415,7 +415,7 @@ function buildPointsLegend(){
       </div>
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${orange}" fill-opacity="0.8"
