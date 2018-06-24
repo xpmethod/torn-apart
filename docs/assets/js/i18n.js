@@ -55,7 +55,7 @@ $.i18n().load({
     "ta-operator-header": "Operator",
     "ta-mandays-header": "Mandays",
     "ta-pctDaysInUse-header": "Usage",
-    "ta-2017-mandays-and-overpop": "Total 2017 Mandays and Usage",
+    "ta-2017-mandays-and-overpop": "Total Mandays and (Over-)Usage in 2017",
     "ta-mandays": "Mandays",
     "ta-mandays-definition": "Number of days per detainee spent at the facility for 2017"
   },
