@@ -24,21 +24,21 @@ $.i18n().load({
   },
   "es": {
     "ta-sitename": "Separados",
-    "ta-visualizations": "Visualizaciones",
+    "ta-visualizations": "Gráfica",
     "ta-textures": "Texturas",
     "ta-reflections": "Reflexiones",
     "ta-allies": "Aliadxs",
     "ta-bibliography": "Bibliografía",
     "ta-credits": "Créditos",
-    "ta-the-trap": "The Trap",
-    "ta-clinks": "Clinks",
-    "ta-detention-ctrs": "Detention Ctrs",
-    "ta-the-eye": "el Ojo",
-    "ta-charts": "Charts",
+    "ta-the-trap": "La trampa",
+    "ta-clinks": "Barrotes",
+    "ta-detention-ctrs": "Penitenciarias",
+    "ta-the-eye": "El ojo",
+    "ta-charts": "Cifras",
     "ta-orr": "ORR",
     "ta-adp": "ADP",
     "ta-facilities": "Instalaciones",
-    "ta-bookins": "Bookins"
+    "ta-bookins": "Registros"
   }
 });
 
