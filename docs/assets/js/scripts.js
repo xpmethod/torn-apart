@@ -68,11 +68,9 @@ $( document ).ready(() => {
   });
 
   $(".locale-toggle").click(function(e){
-    console.log("click");
     e.preventDefault();
     const langs = ["EN", "ES"];
     const langCodes = ["en", "es"];
-    console.log($(this).text());
     let index = langs.indexOf($( this ).text());
     $.i18n().locale = langCodes[index];
     index === langs.length - 1 ? index = 0 : index = index + 1;
