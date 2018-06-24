@@ -74,7 +74,9 @@ $( document ).ready(() => {
     const langCodes = ["en", "es"];
     let index = langs.indexOf($( this ).text());
     $.i18n().locale = langCodes[index];
+    $(`.${langCodes[index]}-button`).addClass("active");
     index === langs.length - 1 ? index = 0 : index = index + 1;
+    $(`.${langCodes[index]}-button`).removeClass("active");
     $(".locale-toggle").text(langs[index]);
     update_texts();
     moveLegend();
