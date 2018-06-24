@@ -368,7 +368,7 @@ function buildTrapLegend(){
   
   $("#legend").html(() => {
     return `<div class="px-3 py-2">
-        <svg class="float-left m-2" height="50" width="50">
+        <svg class="float-left" height="50" width="50">
           <rect width="50" height="50" 
           style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
         </svg>
@@ -389,7 +389,7 @@ function buildPointsLegend(){
     return `<div class="row px-3 pt-2">
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg  height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius * 1.5}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${purple}" fill-opacity="0.8"
@@ -402,7 +402,7 @@ function buildPointsLegend(){
       </div>
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius * 2}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${orange}" fill-opacity="0.8"
@@ -415,7 +415,7 @@ function buildPointsLegend(){
       </div>
       <div class="col-sm-4">
         <div class="media">
-          <svg class="m-2" height="${defaultRadius * 5}" width="${defaultRadius * 5}">
+          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
             <circle r="${defaultRadius}" 
               cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
               fill="${orange}" fill-opacity="0.8"
@@ -439,105 +439,70 @@ function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
-    let svgWidth = $("#time-series-div").width() / 2;
-    if (L.Browser.mobile) {
-      svgWidth = svgWidth * 2;
-    }
-    const svgHeight = 200;
     const margins = {top: 10, bottom: 30, left: 28, right: 2};
-    const height = svgHeight - margins.top - margins.bottom;
-    const width = svgWidth - margins.left - margins.right;
+    const svgHeight = 200;
+    const svgWidth = $("#time-series-text").width();
 
-    const tp = { margins, svg: d3.select("#total-places-svg") };
-    const adp = { margins, svg: d3.select("#adp-svg") };
-    const bookins = { margins, svg: d3.select("#bookins-svg") };
-    const operators = { margins, svg: d3.select("operators-svg") };
+    // Init the charts.
+    const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
+    const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
+    const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, i18n: "ta-bookins", showFY: true };
+    const operators = { data: [], margins, id: "operators-svg" };
+    const active = { data: [], margins, id: "active-svg" };
+    const fy2017 = { data: [], margins, id: "fy2017-svg" };
 
-    const tpSvg = d3.select("#total-places-svg").attr("width", svgWidth).attr("height", svgHeight);
-    const tpG = tpSvg.append("g").attr("transform", `translate(${margins.left},${margins.top})`);
-    const tpX = d3.scaleBand().rangeRound([0, width]).padding(0.1);
-    const tpY = d3.scaleLinear().rangeRound([height, 0]);
-    // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
-    const adpSvg = d3.select("#adp-svg").attr("width", svgWidth).attr("height", svgHeight);
-    const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
-    const adpX = d3.scaleBand().rangeRound([0, width - 5]).padding(0.1);
-    const adpY = d3.scaleLinear().rangeRound([height, 0]);
-    const bookinsSvg = d3.select("#bookins-svg").attr("width", svgWidth).attr("height", svgHeight);
-    const bookinsG = bookinsSvg.append("g").attr("transform", `translate(${margins.left + 20},${margins.top})`);
-    const bookinsX = d3.scaleBand().rangeRound([0, width - 5]).padding(0.1);
-    const bookinsY = d3.scaleLinear().rangeRound([height, 0]);
-
-    console.log(data[0]);
-    const totalPlaces = [];
-    const adpByYear = [];
-    const bookinsByYear = [];
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
-      totalPlaces.push([fy, data.filter(d => +d[fy + ".ADP"] > 0).length]);
-      adpByYear.push([fy, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
+      tp.data.push([fy, data.filter(d => +d[fy + ".ADP"] > 0).length]);
+      adp.data.push([fy, d3.sum(data.map(d => +d[fy + ".ADP"]))]);
       if (year !== "2014"){
-        bookinsByYear.push([fy, d3.sum(data.map(d => +d[fy + ".Facility.Bookins"]))]);
+        bookins.data.push([fy, d3.sum(data.map(d => +d[fy + ".Facility.Bookins"]))]);
       }
     });
 
-    $("#total-places-no").html(totalPlaces[4][1]);
-    // const tpMax = d3.max(totalPlaces.map(d => d[1]));
-    tpX.domain(totalPlaces.map(d => d[0]));
-    tpY.domain([0, 400]);
-    // tpG.append("path").datum(totalPlaces).attr("fill", "none").attr("stroke", green).attr("stroke-linejoin", "round").attr("stroke-linecap", "round")
-      // .attr("stroke-width", 1.5).attr("d", tpLine);
-    tpG.selectAll(".bar")
-      .data(totalPlaces).enter().append("rect").attr("class", "bar")
-      .attr("y", d => tpY(d[1])).attr("x", d => tpX(d[0]))
-      .attr("height", d => height - tpY(d[1]))
-      .attr("width", tpX.bandwidth());
-    tpG.append("g").attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(tpX));
-    tpG.append("g").call(d3.axisLeft(tpY).ticks(5).tickFormat(d3.format(".0f"))).append("text")
-      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
-      .attr("text-anchor", "end").text("Num. of Facilities"); 
-    tpSvg.append("text").attr("transform", `translate(${svgWidth - margins.right},${svgHeight - 2})`)
-      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
+    [tp, adp, bookins].forEach(chart => initChart(chart, svgWidth, svgHeight));
 
-    $("#adp-no").html(adpByYear[4][1]);
-    adpX.domain(adpByYear.map(d => d[0]));
-    adpY.domain([0, 45000]);
-    adpG.selectAll(".bar")
-      .data(adpByYear).enter().append("rect").attr("class", "bar")
-      .attr("y", d => adpY(d[1])).attr("x", d => adpX(d[0]))
-      .attr("height", d => height - adpY(d[1]))
-      .attr("width", adpX.bandwidth());
-    adpG.append("g").attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(adpX));
-    adpG.append("g").call(d3.axisLeft(adpY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
-      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
-      .attr("text-anchor", "end").text("Avg. Daily Pop."); 
-    adpSvg.append("text").attr("transform", `translate(${svgWidth - 3},${svgHeight - 2})`)
-      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
+    [tp, adp, bookins].forEach(chart => {
+      chart.x = d3.scaleBand().rangeRound([0, chart.width]).padding(0.1);
+      chart.y = d3.scaleLinear().rangeRound([chart.height, 0]);
+      chart.x.domain(chart.data.map(d => d[0]));
+      chart.y.domain([0, chart.ymax]);
 
-    $("#bookins-no").html(bookinsByYear[3][1]);
-    bookinsX.domain(bookinsByYear.map(d => d[0]));
-    bookinsY.domain([0, 800000]);
-    bookinsG.selectAll(".bar")
-      .data(bookinsByYear).enter().append("rect").attr("class", "bar")
-      .attr("y", d => bookinsY(d[1])).attr("x", d => bookinsX(d[0]))
-      .attr("height", d => height - bookinsY(d[1]))
-      .attr("width", bookinsX.bandwidth());
-    bookinsG.append("g").attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(bookinsX));
-    bookinsG.append("g").call(d3.axisLeft(bookinsY).ticks(5).tickFormat(d3.format(",.0f"))).append("text")
-      .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
-      .attr("text-anchor", "end").text("Bookins"); 
-    bookinsSvg.append("text").attr("transform", `translate(${svgWidth - 3},${svgHeight - 2})`)
-      .attr("text-anchor", "end").text("(fiscal year begins in previous October)"); 
+      $(chart.id.replace("svg", "no")).html(chart.data[chart.data.length - 1][1]);
 
-    
+      chart.g.selectAll(".bar")
+        .data(chart.data).enter().append("rect").attr("class", "bar")
+        .attr("y", d => chart.y(d[1])).attr("x", d => chart.x(d[0]))
+        .attr("height", d => chart.height - chart.y(d[1]))
+        .attr("width", chart.x.bandwidth());
+      chart.g.append("g").attr("transform", `translate(0,${chart.height})`)
+        .call(d3.axisBottom(chart.x));
+      chart.g.append("g").call(d3.axisLeft(chart.y).ticks(5).tickFormat(d3.format(".0f"))).append("text")
+        .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
+        .attr("text-anchor", "end").attr("data-i18n", chart.i18n);
 
+      if(chart.showFY){
+        chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 2})`)
+          .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");//.text("(fiscal year begins in previous October)"); 
+      }
+    });
+
+    // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
+    // const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
+    // const bookinsG = bookinsSvg.append("g").attr("transform", `translate(${margins.left + 20},${margins.top})`);
+
+    console.log(data[0]);
+
+    update_texts();
   });
+
 }
 
-function lLToPoint(ll){
-  return map.latLngToLayerPoint(ll);
+function initChart(chart, svgWidth, svgHeight){
+  chart.height = svgHeight - chart.margins.top - chart.margins.bottom;
+  chart.width = svgWidth - chart.margins.left - chart.margins.right;
+  chart.svg = d3.select(chart.id).attr("height", svgHeight);
+  chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
 }
 
 function prepareORRData() {
@@ -555,15 +520,15 @@ function buildORR(){
   $("#orr-legend").click(function(){ $(this).hide(); });
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
-      .attr("height", "100%"),//$( window ).height()),
+      .attr("height",$( window ).height()),
     g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
 
   data.forEach( datum => {
     const dg = g.append("g").attr("id", datum.dco).classed("nodes", true);
-    const x = lLToPoint(datum.LatLng).x;
-    const y = lLToPoint(datum.LatLng).y - $("#navs").height() - $("#phone-navs").height();
+    const x = map.latLngToLayerPoint(datum.LatLng).x;
+    const y = map.latLngToLayerPoint(datum.LatLng).y;
     const simulation = d3.forceSimulation()
       .force("collide", d3.forceCollide(d => d3.max([6, Math.pow(d.r, 0.62)])).iterations(16))
       .force("charge", d3.forceManyBody())

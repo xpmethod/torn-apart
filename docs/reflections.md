@@ -14,6 +14,7 @@ Hence, in addition to reflections from our own project group, we have reached ou
 
 We provide all the reflections below in order to help contextualize both our impetus and our efforts.
 
+
 <br>
 
 **[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica]({{site.baseurl}}/reflections/sylvia_fernandez.html)**.  
@@ -21,5 +22,5 @@ We provide all the reflections below in order to help contextualize both our imp
 Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography 
 
 **[What We Have, What We Can]({{site.baseurl}}/reflections/roopika_risam.html)**.  
-[Roopika Risam](http://roopikarisam.com)   
+[Roopika Risam](http://roopikarisam.com)  
 Roopika Risam  is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)

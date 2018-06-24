@@ -1,20 +1,27 @@
-.big-number {
-  margin: 0;
-  color: $green;
-  font-size: 4.5rem;
-  font-weight: bold;
-  text-align: center;
-}
+#charts-div {
+  svg {
+    border: 1px solid red;
+    width: 100%;
+  }
 
-.big-number-desc {
-  text-align: center;
-  font-size: .75rem;
-}
+  .big-number {
+    margin: 0;
+    color: $green;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
 
-.bar {
-  fill: $green;
-}
+  .big-number-desc {
+    text-align: center;
+    font-size: .75rem;
+  }
 
-text {
-  font-size: 10px;
-}
+  .bar {
+    fill: $green;
+  }
+
+  text {
+    font-size: 10px;
+  }
+};

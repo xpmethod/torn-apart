@@ -23,6 +23,10 @@
     margin: 0px;
   }
 
+  svg {
+    margin: .25rem .5rem .5rem 0;
+  }
+
   a {
     padding: 0 .25rem;
     border-radius: .25rem;
@@ -111,7 +115,7 @@
 
 #orr-div{
   display: none;
-  // z-index: 500;
+  z-index: 1001;
   position: absolute;
   top: 0;
   left: 0;

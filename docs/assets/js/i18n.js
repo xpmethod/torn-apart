@@ -34,7 +34,23 @@ $.i18n().load({
     "ta-trap-legend-4": ", leading seekers into the",
     "ta-trap-legend-5": "100-mile-wide border zone",
     "ta-trap-legend-6": "where they are exposed to harsh conditions both from the environment and law enforcement.",
-    "ta-orr-legend": "As of November 2017, Offices of Refugee Resettlement has 113 redacted sites which reportedly average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view."
+    "ta-orr-legend": "As of November 2017, Offices of Refugee Resettlement has 113 redacted sites which reportedly average daily populations greater than zero. Each site is related to a Docket Control Office, which lets us guess more or less where each site is, at least at the scale you see here. But these sites are sneaky and always slip out of view.",
+    "ta-ice-facilities-in-use": "ICE facilities in use",
+    "ta-time-series-text": "This is some description text",
+    "ta-fiscal-year-begins": "(fiscal year begins previous October)",
+    "ta-number-of-facilities": "Num. of facilities",
+    "ta-avg-daily-pop": "Avg. daily population",
+    "ta-current-avg-daily-pop": "Current average daily population",
+    "ta-adp-text": "something text",
+    "ta-bookins-october-and-november": "Bookins for October and November 2017",
+    "ta-bookins-text": "something about bookins",
+    "ta-fy2017-num": "fy2017 number.",
+    "ta-fy2017-text": "fy2017 text",
+    "ta-operators-num": "Operators number.",
+    "ta-operators-text": "Operators text",
+    "ta-active-num": "active number.",
+    "ta-active-text": "active text",
+
   },
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
@@ -64,7 +80,22 @@ $.i18n().load({
     "ta-trap-legend-4": " y los empujan hacia",
     "ta-trap-legend-5": "la zona fronteriza de 100 millas",
     "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen.",
-    "ta-orr-legend": "Algo en español"
+    "ta-orr-legend": "Algo en español",
+    "ta-ice-facilities-in-use": "ICE facilities in use",
+    "ta-time-series-text": "algo en español",
+    "ta-fiscal-year-begins": "(fiscal year begins previous October)",
+    "ta-number-of-facilities": "Num. de instalaciones",
+    "ta-avg-daily-pop": "Población media diaria",
+    "ta-current-avg-daily-pop": "Población media diaria actual",
+    "ta-adp-text": "algo en español",
+    "ta-bookins-october-and-november": "Bookins for October and November 2017",
+    "ta-bookins-text": "algo en español",
+    "ta-fy2017-num": "fy2017 number.",
+    "ta-fy2017-text": "fy2017 text",
+    "ta-operators-num": "Operators number.",
+    "ta-operators-text": "Operators text",
+    "ta-active-num": "active number.",
+    "ta-active-text": "active text",
   }
 });
 
