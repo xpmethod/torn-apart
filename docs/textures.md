@@ -178,7 +178,7 @@ Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,”
 
 ## Nuestra Investigación
 
-*Torn Apart* agrega y relaciona datos disponibles públicamente para visualizar la geografía de la política de inmigración de "tolerancia cero" de Donald Trump e iterar nuestra atención hacia los paisajes, las familias y las comunidades destrozadas por la red masiva de detención de inmigrantes en los Estados Unidos.
+*Separados* agrega y relaciona datos disponibles públicamente para visualizar la geografía de la política de inmigración de "tolerancia cero" de Donald Trump e iterar nuestra atención hacia los paisajes, las familias y las comunidades destrozadas por la red masiva de detención de inmigrantes en los Estados Unidos.
 
 Trabajando dinámicamente y en remoto desde cuatro lugares de dicho país durante un período de seis días, nuestro pequeño equipo de investigadores se dedicó a identificar fuentes de datos sobre la detención de inmigrantes, tales como los puertos de entrada operados por la Aduana y Protección Fronteriza (CBP), los centros de detención de la Oficina de Inmigración y Aduanas (ICE), o los albergues subcontratados por la Oficina de Reasentamiento de Refugiados (ORR) del Departamento de Salud y Servicios Humanos para cuidar niños bajo su custodia, e incluso los rastros financieros de redes públicas, privadas y de organizaciones sin fines de lucro cómplices en la compleja infraestructura de detención de inmigrantes en los Estados Unidos.
 
@@ -186,7 +186,7 @@ Para ello utilizamos varias fuentes que nos permitieron obtener los datos necesa
 
 Nuestros datos han revelado una oscura red de instalaciones gubernamentales, subcontratistas del complejo penitenciario industrial, administradores "sin fines de lucro" que han recibido como pagos más de millón y medio de dólares al año, y organizaciones religiosas en todo el país que sostienen la maquinaria de detención de inmigrantes. La detención de inmigrantes es una industria de miles de millones de dólares y está sucediendo en nuestras comunidades. La crisis para los inmigrantes en los Estados Unidos no solo ocurre en la frontera México-Estados Unidos u otros puertos de entrada, por el contrario, la frontera está en todas partes.
 
-Esto no quiere decir que *Torn Apart*, ahora en versión alfa, busque ofrecer una imagen completa de la detención de inmigrantes. Al igual que todos los mapas, el nuestro es una representación de datos que refleja las elecciones que hicimos al diseñar visualizaciones. Una simple decisión de colocar los puntos de datos en primer plano, creemos, ofrece una lectura muy diferente de la de las ubicaciones de los centros de detención de ICE, como lo demuestra el siguiente mapa.
+Esto no quiere decir que *Separados*, ahora en versión alfa, busque ofrecer una imagen completa de la detención de inmigrantes. Al igual que todos los mapas, el nuestro es una representación de datos que refleja las elecciones que hicimos al diseñar visualizaciones. Una simple decisión de colocar los puntos de datos en primer plano, creemos, ofrece una lectura muy diferente de la de las ubicaciones de los centros de detención de ICE, como lo demuestra el siguiente mapa.
 
 {: .figure-landscape}
 ![map of USA with ICE and CBP detention sites]({{site.baseurl}}/assets/figures/textures-fig1a.png)
@@ -234,7 +234,7 @@ La detención de inmigrantes no es solo un gran negocio, es “la creación de e
 
 Como muestran nuestras experiencias, entrar en las esferas de la información pública sobre la detención de inmigrantes es una decisión que no debe tomarse a la ligera. Debe hacerse con la seguridad de los migrantes y los solicitantes de asilo a la vanguardia. Los investigadores también deben ser conscientes de que este trabajo puede ser agotador en el espíritu. La exposición a este nivel de crueldad probablemente sea mejor manejada por aquellos que se sienten preparados para fijar sus ojos en los horrores íntimos y aún luchan con claridad mental y una firme voluntad. Le instamos a que se cuide a sí mismo al mismo tiempo que cuida a los demás, a través de este trabajo.
 
-Lo que hemos demostrado aquí es que un pequeño equipo de investigadores con diferentes conjuntos de habilidades—bibliotecarios, estudiantes de posgrado, académicos literarios e historiadores—y con experiencia con las humanidades digitales puede combinar su conocimiento para responder rápidamente, pero con cuidado, en un momento de crisis. Si bien * Torn Apart * es una iteración de nuestro trabajo, podemos desplegar nuestros datos a otros equipos que deseen utilizarlo de nuevas maneras.
+Lo que hemos demostrado aquí es que un pequeño equipo de investigadores con diferentes conjuntos de habilidades—bibliotecarios, estudiantes de posgrado, académicos literarios e historiadores—y con experiencia con las humanidades digitales puede combinar su conocimiento para responder rápidamente, pero con cuidado, en un momento de crisis. Si bien *Separados* es una iteración de nuestro trabajo, podemos desplegar nuestros datos a otros equipos que deseen utilizarlo de nuevas maneras.
 
 #### Obras Citadas
 
