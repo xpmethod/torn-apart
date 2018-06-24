@@ -17,7 +17,7 @@ permalink: bibliography.html
   
 * El Colegia de la Frontera Norte, and Observatorio de Legislacion Politicas Migratorias. “Aprehensiones de Unidades Familiares Por Patrulla Fronteriza de Estados Unidos, Año Fiscal 2018 (Octubre-Abril).” [Oberservatoriocolef.org, 7 June 2018](http://observatoriocolef.org/?mapas=aprehensiones-de-unidades-familiares-por-patrulla-fronteriza-de-estados-unidos-ano-fiscal-2018-octubre-abril)
 
-* Iannelli, Jerry, and Tarpley Hitt. “Feds Holding 1,000 Migrant Children at Miami-Area Compound, Lawmaker Says.” [Miami New Times, 18 June 2018](http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472
+* Iannelli, Jerry, and Tarpley Hitt. “Feds Holding 1,000 Migrant Children at Miami-Area Compound, Lawmaker Says.” [Miami New Times, 18 June 2018](http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472)
 
 * Immigration and Customs Enforcement. “ICE Detention Facility Locator.” [US Immigrations and Customs Enforcement, 2018](https://www.ice.gov/detention-facilities)
 
