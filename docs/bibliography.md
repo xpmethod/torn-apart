@@ -6,7 +6,7 @@ permalink: bibliography.html
 # Bibliography
 {: data-i18n="ta-bibliography"}
 
-Below you fill find a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/i). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society.
+Below is a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/i). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society.
 
 ## Data Sources
 
