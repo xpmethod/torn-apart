@@ -42,7 +42,7 @@ We want to acknowledge the work of Josh Begley's [Prison Map: What does the geog
 
 The website is based on [@muziejus/leaflet-quickstart](http://github.com/muziejus/leaflet-quickstart),
 a GitHub repository that lets learners build much, much simpler maps online
-quickly. But It would not be possible without the efforts of everyone who has
+quickly. But it would not be possible without the efforts of everyone who has
 ever written a tutorial or answered a question about programming online. It
 makes use of the following open technologies:
 
