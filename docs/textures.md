@@ -11,7 +11,7 @@ permalink: textures.html
 
 ## Our Research
 
-*Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s 2018 “zero tolerance” immigration policy and iterate our attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
+*Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy in 2018 and immigration incarceration in the USA in general. We also draw attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
 
 Working nimbly and remotely from four sites in the United States over a six-day period, our small team of researchers set about identifying sources of data on immigrant detention, from ports of entry run by Customs and Border Protection (CBP), to Immigration and Customs Enforcement (ICE) detention centers, to shelters subcontracted by the Department of Health and Human Services’ Office of Refugee Resettlement (ORR) to care for children in their custody, to the financial trails left by a network of public, private, and non-profit organizations complicit with the complex infrastructure of immigrant detention in the United States. 
 
@@ -117,13 +117,13 @@ relatively obscure until very recently, the way they are run is all too
 familiar. Part of our research brought us to company sites and business
 databases behind paywalls. What we found was the usual paraphernalia of
 management culture, including their annual reports. Below you can see how
-United States management culture, in their compulsion for spin, betrays the
-racist nature of their "service." 
+United States management culture, in its compulsion for spin, betrays the
+racist nature of "service."  
 
 {: .figure-portrait}
 ![Graphic from Southwest Key Annual Report 2015]({{site.baseurl}}/assets/figures/textures-fig4.png)
 
-Sensing that their shadows were dissipating, some of these companies [began to
+Facing public backlash, some of these companies [began to
 whitewash their
 operations](http://www.mtctrains.com/mtcs-involvement-in-operating-ice-detention-centers/).
 Others began the all too familiar process of deleting their records. Below is
@@ -149,7 +149,7 @@ Spanish](https://twitter.com/minh81/status/1009892301433458688).
 {: .figure-portrait}
 ![Job postings on Glassdoor]({{site.baseurl}}/assets/figures/textures-fig6.png)
 
-## Passing on the Nimble Tent
+## What's Next?
 
 As our experiences show, wading into the waters of public information on
 immigrant detention is a decision that shouldn’t be undertaken lightly. First
@@ -163,9 +163,10 @@ the same time as you care for others—through the work.
 What we have demonstrated here, we hope, is that a small team of researchers
 with varied skill sets—librarians, graduate students, literary scholars, and
 historians—and experience with digital humanities can pool their expertise to
-respond quickly, yet carefully, in times of crisis. While *Torn Apart* is one
-iteration of our work, we are gladly deploying our data, using various
-mechanisms, to other teams that wish to use it in new ways. We hope they do.
+respond quickly, yet carefully, in times of crisis. Reflections on this project will form part of a forthcoming "[Nimble Tents](https://nimbletents.github.io/)" toolkit, to be hosted by the [Digital Library Federation](https://diglib.org/), detailing lessons learned from similar rapid-response projects. 
+
+While *Torn Apart* is one iteration of our work, we are gladly sharing our data, using various curated mechanisms, to other teams that wish to use it in new ways.
+
 
 ## Works Cited
 
@@ -231,6 +232,9 @@ La detención de inmigrantes no es solo un gran negocio, es “la creación de e
 
 {: .figure-portrait}
 ![Job postings on Glassdoor]({{site.baseurl}}/assets/figures/textures-fig6.png)
+
+
+### Pasos siguientes
 
 Como muestran nuestras experiencias, entrar en las esferas de la información pública sobre la detención de inmigrantes es una decisión que no debe tomarse a la ligera. Debe hacerse con la seguridad de los migrantes y los solicitantes de asilo a la vanguardia. Los investigadores también deben ser conscientes de que este trabajo puede ser agotador en el espíritu. La exposición a este nivel de crueldad probablemente sea mejor manejada por aquellos que se sienten preparados para fijar sus ojos en los horrores íntimos y aún luchan con claridad mental y una firme voluntad. Le instamos a que se cuide a sí mismo al mismo tiempo que cuida a los demás, a través de este trabajo.
 
