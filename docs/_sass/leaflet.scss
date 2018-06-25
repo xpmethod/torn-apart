@@ -133,12 +133,12 @@
 }
 
 @media (min-width: 576px){
-  #legend, #charts-div, #orr-legend {
+  #legend, #orr-legend {
     width: 50vw;
     font-size: 0.8rem;
   }
 
-  #the-eye-div, #charts-div {
+  #the-eye-div {
     top: 7.25rem;
     left: .5rem;
     max-height: calc(100vh - 7.5rem - 1.75rem);

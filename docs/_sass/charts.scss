@@ -91,3 +91,16 @@
     }
   }
 }
+
+@media (min-width: 576px){
+  #charts-div {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+
+  #charts-div {
+    top: 7.25rem;
+    left: .5rem;
+    max-height: calc(100vh - 7.5rem - 1.75rem);
+  }
+}
