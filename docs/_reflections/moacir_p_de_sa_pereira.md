@@ -38,16 +38,16 @@ its presence; it perturbs us.
 Yet this is the crisis that has been the crisis that has been the crisis. For
 all the blockades put up and [regimens
 instituted](http://www.nybooks.com/daily/2016/11/10/trump-election-autocracy-rules-for-survival/)
-to prevent the tearing apart of norms, it had to be this way. Working through
-Hannah Arendt’s 
+to prevent the tearing apart of norms, it had to be this way. 
 
-Giorgio Agamben notes that “refugees… put the originary fiction of modern
-sovereignty into crisis.”[^agamben1] The visualizations here generate a
-challenge to the rhetoric of the wall, where a fixation on determining who is
-in and who is out produces both chilling multimodal reports of a government
-doing what needs to be done to respect the distinction and the continued
-fantasy that such determination is even possible while also granting people
-“inalienable rights.” 
+Working through Hannah Arendt’s “The Decline of the Nation-State and the End
+of the Rights of Man,” Giorgio Agamben notes that “refugees… put the originary
+fiction of modern sovereignty into crisis.”[^agamben1] The visualizations here
+generate a challenge to the rhetoric of the wall, where a fixation on
+determining who is in and who is out produces both chilling multimodal reports
+of a government doing what needs to be done to respect the distinction and the
+continued fantasy that such determination is even possible while also granting
+people “inalienable rights.” 
 
 Are these concentration camps? In the original camps, “a state of emergency
 linked to a colonial war [was] extended to an entire civil population,”
@@ -99,37 +99,37 @@ visualizations is that despite Google’s (or Esri’s, or NASA’s, or USGS’s
 whoever’s) God’s Eye, an Eye reproduced most explicitly in the visualization
 “[The Eye](/torn-apart/visualizations.html#the-eye),” the crisis, such as it
 is, emerged entirely because of the unseeable—or at least the previously
-unseen, despite the “conquering gaze” of the techno-monster, here to perform
-the “god-trick of seeing everything from nowhere.”[^haraway] Children’s being
+unseen. The “conquering gaze” of the techno-monster, here to perform
+the “god-trick of seeing everything from nowhere” has failed us?[^haraway] Children’s being
 separated from parents happens daily without “our” knowledge; the black holes
 of the [Office of Refugee Resettlement](https://www.acf.hhs.gov/orr) hide
 children crossing the border, both for their safety and for our own comfort.
 We don’t take on the weight of their sticky, obstacled steps through space.
 
 The unknowing and uncertainty occasioned because of speed, because of a
-secretive government, because of concerns over children’s safety, leave the
+secretive government, because of concerns over children’s safety, leave these
 visualizations in tenuous relationship to privacy. We see all, and we rely on
 that voyeurism to allow the leap into transcendence to imagine the role of ICE
-and other agencies involved in immigration to gesture towards the ability to
-grasp the whole crisis at once. Not just we, but [_The Washington
+and other agencies involved in immigration as we gesture towards the ability to
+grasp the whole crisis at once. Not just we, of course, but [_The Washington
 Post_](https://www.washingtonpost.com/graphics/2018/national/migrant-child-shelters/)
 and [_The New York
 Times_](https://www.nytimes.com/interactive/2018/06/21/us/where-are-the-border-children.html)
-have read the news last week and felt that immediate urge to map the problem.
-Where are the children? But as Arendt reminds us, the problem isn’t spatial;
+have read the news last week and felt that immediate urge to map the problem:
+**Where are the children?** But as Arendt reminds us, the problem isn’t spatial;
 it’s political.
 
 Veronica Sawyer, in the 1988 movie
 [_Heathers_](https://en.wikipedia.org/wiki/Heathers), chastises Heather McNamara for
-wanting “to become a statistic on _U. S. Fucking A. Today_,” adding that doing
-so is “about the least private thing” she can think of. The circumstances are
+wanting “to become a statistic in _U. S. Fucking A. Today_,” adding that doing
+so is “about the least private thing” she can think of.[^fuck] The circumstances are
 different, but the tension is reproduced here. Every dot on Snow’s map is a
 life, is a loved one now gone. And yet put together, they’re generalized by the
 techno-monsters into statistics.
 
 The rhetoric surrounding the [American borders that are
 everywhere](https://www.vox.com/2015/2/7/7993273/border-port-map) moves
-towards discussion of “dehumanization” In referring to people eager to come
+towards discussion of “dehumanization.” In referring to people eager to come
 to the United States, often (if not typically?) fleeing a political or
 economic situation launched or exacerbated by the United States itself, as an
 “infestation,” both points above glow like the dots on our maps. We render
@@ -142,7 +142,7 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 
 [^agamben3]: Agamben, 181.
 
-[^yerba-buena]: On zits, consider the unsettled persona looking to stop her own genre flailing through what Urayoán Noel calls Sandra Maria Esteves’s “organic poetics”: “[I got up this morning to brush my teeth](http://www.sandraesteves.com/images/480_Yerba_Buena_p31.jpg) / and found seven new imples on my face / The first pimpe was green / had a picture of george washington / smiled at me a long time saying it was my friend / but when I squeezed it / it was full of war and blood.” Noel, _In Visible Movement: Nuyorican Poetry from the Sixties to Slam_ (Iowa City, University of Iowa Press: 2014), 75–82 and Esteves, “Staring into the eye of truth,” in _Yerba buena: dibujos y poemas_ (Greenfield Center, NY: Greenfield Review, 1980), 44.  Note especially how crisis and the various modes of flailing themselves reproduce themselves in the persona’s body, on her face, while she looks below, to the humus, to ground and stop the flailing.
+[^yerba-buena]: On zits, consider the unsettled persona looking to stop her own genre flailing through what Urayoán Noel calls Sandra Maria Esteves’s “organic poetics”: “[I got up this morning to brush my teeth](http://www.sandraesteves.com/images/480_Yerba_Buena_p31.jpg) / and found seven new pimples on my face / The first pimple was green / had a picture of george washington / smiled at me a long time saying it was my friend / but when I squeezed it / it was full of war and blood.” Noel, _In Visible Movement: Nuyorican Poetry from the Sixties to Slam_ (Iowa City, University of Iowa Press: 2014), 75–82 and Esteves, “Staring into the eye of truth,” in _Yerba buena: dibujos y poemas_ (Greenfield Center, NY: Greenfield Review, 1980), 44.  Note especially how crisis and the various modes of flailing themselves reproduce themselves in the persona’s body, on her face, while she looks below, to the humus, to ground and stop the flailing. For grounding in terms of geographical visualization, see LaDona Knigge and Meghan Cope, “Grounded Visualization: Integrating the Analysis of Qualitative and Quantitative Data through Grounded Theory and Visualization,” _Environment and Planning A_ 31.11 (2006), 2021–2037.
 
 [^drucker1]: Johanna Drucker, _Graphesis: Visual Forms of Knowledge Production_ (Cambridge, MA: MIT Press, 2014), 136.
 
@@ -151,6 +151,8 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 [^arendt]: Hannah Arendt, _The Origins of Totalitarianism_ (San Diego: Harcourt, Inc., 1985), 293–294.
 
 [^haraway]: Donna Haraway, “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,” in _Simians, Cyborgs, and Women: the Reinvention of Nature_ Donna Haraway (New York: Routledge, 1991), 188, 189.
+
+[^fuck]: Haraway’s Eye “fucks the world to make techno-monsters,” of course, but I prefer, optimistically, to thinking of ourselves as just [getting screwed](https://youtu.be/fgSpeV-bklk). But that’s for a different now.
 
 ---
 

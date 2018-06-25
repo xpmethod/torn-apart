@@ -18,9 +18,27 @@
   p {
     font-size: 1.1rem;
   }
-  li {
-    overflow: hidden;
+  // li {
+  //   overflow: hidden;
+  // }
+
+  .footnotes {
+    ol {
+      margin: 2rem 0;
+      padding: 0;
+      padding-left: 1rem;
+
+      li {
+        list-style: decimal;
+        font-size: 0.75rem;
+
+        p {
+          font-size: 0.75rem;
+        }
+      }
+    }
   }
+
 
 }
 

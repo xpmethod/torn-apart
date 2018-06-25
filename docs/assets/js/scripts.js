@@ -33,6 +33,7 @@ $( document ).ready(() => {
     return textArray.map(text => `<span class="redacted-span">${text}</span>`).join(" ");
   });
 
+  $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
 
   if($("#visualizations-mapdiv").length){
     map = initMap("visualizations-mapdiv");
