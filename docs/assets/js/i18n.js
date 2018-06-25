@@ -67,6 +67,7 @@ $.i18n().load({
     "ta-geo": "GEO Group",
     "ta-cca": "CoreCivic",
     "ta-legend": "Legend",
+    "ta-owned-or-operated-by": "Owned or operated by",
     
 
   },
@@ -132,5 +133,6 @@ $.i18n().load({
     "ta-geo": "GEO Group",
     "ta-cca": "CoreCivic",
     "ta-legend": "Legend",
+    "ta-owned-or-operated-by": "Owned or operated by",
   }
 });

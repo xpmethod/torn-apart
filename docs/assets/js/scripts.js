@@ -199,10 +199,11 @@ function buildPointsLayer() {
   detCtrs.forEach(place => {
     const popup = `<div class="media">
     <img height="150" width="150" class="popup-image mr-3" 
-    src="/torn-apart/assets/imgs/ice-${place["DETLOC"]}-${place.lat}${place.lon}.png">
+    src="${place.imgur}">
     <div class="media-body">
     <h5>${place["Name"]}</h5>
-    ${place["State"]}
+    <p>${place["State"]}<br />
+    <span data-i18n="ta-owned-or-operated-by"></span>: ${place["Owner"]}</p>
     </div>
     `;
     if(!isNaN(place.lat)){
