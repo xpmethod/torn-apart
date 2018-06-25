@@ -29,4 +29,8 @@ Roopika Risam is an Assistant Professor of English at Salem State University. Sh
 by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
 Moacir P. de Sá Pereira is Assistant Professor / Faculty Fellow of English at New York University.
 
+**[Lawlessness & Exile]({{site.baseurl}}/reflections/manan_ahmed.html)**.  
+by [Manan Ahmed](http://twitter.com/sepoy).   
+Manan Ahmed is an Associate Professor in the History Department at Columbia University.
+
 <br>
