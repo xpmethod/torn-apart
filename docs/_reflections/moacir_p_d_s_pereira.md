@@ -10,6 +10,7 @@ author:
   shortname: Moacir
   bio: ""
   date: 2018-06-23
+  url: https://moacir.com
 issue: 1
 order: 1
 abstract: "My goofus abstract"
