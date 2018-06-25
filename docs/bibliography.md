@@ -10,7 +10,7 @@ permalink: bibliography.html
 
 ## Data Sources
 
-* A New Leaf. A Job Ad (Now Removed) from A New Leaf. [http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310.](http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310).
+* A New Leaf. A Job Ad (Now Removed) from A New Leaf. [http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310.](http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310)
 
 * Arizona Department of Human Services. Arizona Department of Human Services Medicare Record. [https://www.azdhs.gov/documents/licensing/databases/MEDCAID_CERT_LIST.txt](https://www.azdhs.gov/documents/licensing/databases/MEDCAID_CERT_LIST.txt).
 
@@ -20,7 +20,7 @@ permalink: bibliography.html
 
 * ---. New Hope Emergency Shelter. [http://www.carf.org/providerProfile.aspx?cid=271185](http://www.carf.org/providerProfile.aspx?cid=271185).
 
-* Catholic Charities Archdiocese of Miami. Unaccompanied Minors. [http://www.ccadm.org/our-ministries/refugee-services/unaccompanied-minors/.](http://www.ccadm.org/our-ministries/refugee-services/unaccompanied-minors/).
+* Catholic Charities Archdiocese of Miami. Unaccompanied Minors. [http://www.ccadm.org/our-ministries/refugee-services/unaccompanied-minors/](http://www.ccadm.org/our-ministries/refugee-services/unaccompanied-minors/).
 
 * Center for Human Rights. Interim Guidance on Flores v. Sessions. [http://www.centerforhumanrights.org/PDFs/ORR_InterimGuidanceReCustodyHearings072017.pdf](http://www.centerforhumanrights.org/PDFs/ORR_InterimGuidanceReCustodyHearings072017.pdf).
 
@@ -30,9 +30,9 @@ permalink: bibliography.html
 
 * Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” The News Tribune, 14 June 2018, [https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy](https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy).
 
-* El Colegia de la Frontera Norte, and Observatorio de Legislacion Politicas Migratorias. “Aprehensiones de Unidades Familiares Por Patrulla Fronteriza de Estados Unidos, Año Fiscal 2018 (Octubre-Abril).” Oberservatoriocolef.Org, 7 June 2018, [http://observatoriocolef.org/?mapas=aprehensiones-de-unidades-familiares-por-patrulla-fronteriza-de-estados-unidos-ano-fiscal-2018-octubre-abril.](http://observatoriocolef.org/?mapas=aprehensiones-de-unidades-familiares-por-patrulla-fronteriza-de-estados-unidos-ano-fiscal-2018-octubre-abril).
+* El Colegia de la Frontera Norte, and Observatorio de Legislacion Politicas Migratorias. “Aprehensiones de Unidades Familiares Por Patrulla Fronteriza de Estados Unidos, Año Fiscal 2018 (Octubre-Abril).” Oberservatoriocolef.Org, 7 June 2018, [http://observatoriocolef.org/?mapas=aprehensiones-de-unidades-familiares-por-patrulla-fronteriza-de-estados-unidos-ano-fiscal-2018-octubre-abril](http://observatoriocolef.org/?mapas=aprehensiones-de-unidades-familiares-por-patrulla-fronteriza-de-estados-unidos-ano-fiscal-2018-octubre-abril).
 
-* Facebook. Facebook Page for New Hope Children’s Shelter. [https://www.facebook.com/pages/New-Hope-Childrens-Shelter/457524514435182.](https://www.facebook.com/pages/New-Hope-Childrens-Shelter/457524514435182).
+* Facebook. Facebook Page for New Hope Children’s Shelter. [https://www.facebook.com/pages/New-Hope-Childrens-Shelter/457524514435182](https://www.facebook.com/pages/New-Hope-Childrens-Shelter/457524514435182).
 
 * Friends of Youth. Griffin Home. [http://www.friendsofyouth.org/griffinhome.aspx](http://www.friendsofyouth.org/griffinhome.aspx).
 
@@ -46,13 +46,13 @@ permalink: bibliography.html
 
 * His House Children’s Home. Services. [https://www.hhch.org/services/](https://www.hhch.org/services/).
 
-* Iannelli, Jerry, and Tarpley Hitt. “Feds Holding 1,000 Migrant Children at Miami-Area Compound, Lawmaker Says.” Miami New Times, 18 June 2018, [http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472.](http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472).
+* Iannelli, Jerry, and Tarpley Hitt. “Feds Holding 1,000 Migrant Children at Miami-Area Compound, Lawmaker Says.” Miami New Times, 18 June 2018, [http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472](http://www.miaminewtimes.com/news/1000-migrant-children-held-in-homestead-florida-wasserman-schultz-says-10451472).
 
 * ICE.gov. Berks Family Residential Center. [https://www.ice.gov/detention-facility/berks-family-residential-center](https://www.ice.gov/detention-facility/berks-family-residential-center).
 
 *  ---. Elizabeth Contract Detention Facility. [https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility](https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility).
 
-* Idealist. Job Ads for Lutheran Social Services on Idealist. [https://www.idealist.org/en/nonprofit/44b6e3b7f7bc4513a408072f590901d6-lutheran-social-services-of-new-york-new-york?redirected-from-listing=true.](https://www.idealist.org/en/nonprofit/44b6e3b7f7bc4513a408072f590901d6-lutheran-social-services-of-new-york-new-york?redirected-from-listing=true).
+* Idealist. Job Ads for Lutheran Social Services on Idealist. [https://www.idealist.org/en/nonprofit/44b6e3b7f7bc4513a408072f590901d6-lutheran-social-services-of-new-york-new-york?redirected-from-listing=true](https://www.idealist.org/en/nonprofit/44b6e3b7f7bc4513a408072f590901d6-lutheran-social-services-of-new-york-new-york?redirected-from-listing=true).
 
 * Immigration and Customs Enforcement. “ICE Detention Facility Locator.” US Immigrations and Customs Enforcement, 2018, [https://www.ice.gov/detention-facilities](https://www.ice.gov/detention-facilities).
 
@@ -74,7 +74,7 @@ permalink: bibliography.html
 
 * Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” The Washington Post, 14 June 2018, [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
 
-* Ministerio de Relaciones Exteriores Informa Sobre Resultados de Visita Realizada a EUA Para Verificar Condiciones de Niñez Migrante Salvadoreña. [http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18.](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
+* Ministerio de Relaciones Exteriores Informa Sobre Resultados de Visita Realizada a EUA Para Verificar Condiciones de Niñez Migrante Salvadoreña. [http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
 
 * National Immigration Justice Center. “November 2017 ICE Detention Facility Lists National Immigrant Justice Center.” SCRIBD, 6 Nov. 2017, [https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed](https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed).
 
