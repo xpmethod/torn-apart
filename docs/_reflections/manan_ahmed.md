@@ -35,14 +35,14 @@ I have lived in the republic of the border-question for a long time. Why were yo
 {: .redacted} 
 I have lived in fear. When I was younger, I confused fear for the pain of exile. This is a true story. I thought that pit in my stomach was being away from Homeland. I thought that yearning to read an Urdu ghazal was a yearning for the taste of a land I could not access. The funny thing, and yes I only realized it much later, was that I was actually reading the Urdu ghazal and it was not the land that I was missing, it was basic sense of security, of knowing that I was not going to be swept up and put behind bars and thrown out, outside the border. That fear is particular. It is not romantic. It is not illustrative of art, or creativity. It is bottomless but also is a very small cage. It is this movement, where you carry your prison on your shoulder. That is what that fear feels like, and no it is not exile. 
 
-{: .redacted} 
+
 So here we are on an another long day in another long summer at a long border where families are being corralled and ripped apart as they have been done for ever and ever, legally and morally and truimphantly, in this country, under these many administrations, forever 
 
 {: .redacted} 
 for the protection of families not-brown. 
 
 
-
+The visualizations and data produced by this project, we hope, will let people see the cartographies in new ways. That is all we are hoping to do. 
 
 
 
