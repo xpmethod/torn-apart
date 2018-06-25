@@ -15,6 +15,7 @@ order: 1
 abstract: "This reflection speaks to the responsibilities of immigrants whose passages were marked by ease to those being criminalized by the United States government. It further contextualizes the efforts of the *Torn Apart* team in relation to the ingenuity of migrants, whose every day acts of survival are spaces of possibility."
 language: en
 dcType: article
+
 ---
 
 ### Reflection
