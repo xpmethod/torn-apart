@@ -1,17 +1,38 @@
 #charts-div {
+  position: absolute;
+  overflow-y: auto; 
+  top: 9rem;
+  left: 1rem;
+  max-height: calc(100vh - 3rem - 8rem - 3rem);
+  width: calc(100vw - 2rem);
+  display: none;
+  z-index: 1020;
+
+  background-color: rgba(255, 255, 255, 0.93);
+
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $green;
+  }
+
+  h2 {
+    text-align: right;
+  }
 
   #mandays-table-div {
+    padding: 0 1.5rem;
     overflow-y: scroll; 
     height: 250px;
+    font-size: 0.75rem;
   }
 
   .table .thead-dark th {
+    fill: rgba(102, 194, 165, 0.9);
     background-color: $green;
     border-color: $faintwhite;
   }
 
   svg {
-    border: 1px solid red;
     width: 100%;
   }
 
@@ -25,16 +46,33 @@
 
   .big-number-desc {
     text-align: center;
-    font-size: .75rem;
   }
 
   .bar {
-    fill: $green;
+    fill: rgba(102, 194, 165, 0.9);
   }
 
   text {
     font-size: 10px;
   }
+
+  #operators-adp-pie-div, #operators-pie-div, #operators-legend-div,
+  #total-places-svg-div, #adp-svg-div, #bookins-svg-div {
+    margin: 0;
+    padding: 0;
+  }
+
+  .legend-ul li {
+    font-weight: bold;
+  }
+
+  h5 {
+    margin: 0 .5rem;
+    color: #000000;
+    font-size: 1.0rem;
+  }
+
+
 
   th.des:after {
     content: "\21E9";
@@ -43,4 +81,30 @@
   th.des:after {
     content: "\21E7";
   }
-};
+  
+  @media (min-width: 576px){
+    .legend-ul li {
+      font-size: 1.0rem;
+    }
+    #mandays-table-div {
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: 576px){
+  #charts-div {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+
+  #total-places-svg-div, #adp-svg-div, #bookins-svg-div {
+    margin-right: 1rem;
+  }
+
+  #charts-div {
+    top: 7.25rem;
+    left: .5rem;
+    max-height: calc(100vh - 7.5rem - 1.75rem);
+  }
+}

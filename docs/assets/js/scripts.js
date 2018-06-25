@@ -15,8 +15,6 @@ if (L.Browser.mobile) {
 var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
-var pink = "#e78ac3";
-// var lime = "#a6d854";
 var rem = parseInt($("html").css("font-size").replace("px", ""));
 var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
 
@@ -27,6 +25,7 @@ $( document ).ready(() => {
   $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
   $("a[href^='http']").attr("target", "_blank");
 
+  $(".navbar-toggler").click(() => $("#charts-div").hide());
   $("#legend").click(function(){ $(this).hide(); });
 
   const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
@@ -441,20 +440,25 @@ function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
-    const margins = {top: 10, bottom: 30, left: 28, right: 2};
+    const margins = {top: 10, bottom: 32, left: 32, right: rem};
     const svgHeight = 200;
-    const svgWidth = $("#time-series-text").width();
+    const svgWidth = $("#total-places-svg-div").width();
+    const thirdWidth = Math.floor(svgWidth * 2 / 3);
+    const fadedgreen = "rgba(102, 194, 165, 0.9)";
+    const fadedorange = "rgba(252, 141, 98, 0.9)";
+    const fadedpurple = "rgba(141, 160, 203, 0.9)";
+    const fadedpink = "rgba(231, 138, 195, 0.9)";
+    const fadedblack = "rgba(51, 51, 51, 0.9)";
 
     // Init the charts.
     const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
     const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
-    const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, i18n: "ta-bookins", showFY: true };
-    const operators = { data: [{name: "Other Private", facilityCount: 0, adpCount: 0}, {name: "Government", facilityCount: 0, adpCount: 0}], 
+    const bookins = { data: [], margins, id: "#bookins-svg", ymax: 900000, i18n: "ta-bookins", showFY: true };
+    const operators = { data: [{taName: "Other Private", facilityCount: 0, adpCount: 0}, {name: "Government", facilityCount: 0, adpCount: 0}], 
       margins: { top: 0, bottom: 0, left: 0, right: 0},
-      id: "#operators-svg", number: "facilityCount" };
+      id: "#operators-svg", number: "facilityCount", svgWidth: thirdWidth };
     const operatorsAdp = { margins: { top: 0, bottom: 0, left: 0, right: 0},
-      id: "#operators-adp-svg", number: "adpCount" };
-    const active = { data: [], margins, id: "#active-svg" };
+      id: "#operators-adp-svg", number: "adpCount", svgWidth: thirdWidth };
     const mandays = { data: data.map(row => {
       let name = titleize(row["Name"].replace(/\([^)]*\)/, ""));
       const operator = facOperators.filter(o => o.code === row["Facility.Operator"])[0];
@@ -490,9 +494,7 @@ function buildCharts() {
       chart.y = d3.scaleLinear().rangeRound([chart.height, 0]);
       chart.x.domain(chart.data.map(d => d[0]));
       chart.y.domain([0, chart.ymax]);
-
-      $(chart.id.replace("svg", "no")).html(chart.data[chart.data.length - 1][1]);
-
+      $(chart.id.replace("svg", "no")).html(d3.format(",.0f")(chart.data[chart.data.length - 1][1]));
       chart.g.selectAll(".bar")
         .data(chart.data).enter().append("rect").attr("class", "bar")
         .attr("y", d => chart.y(d[1])).attr("x", d => chart.x(d[0]))
@@ -500,13 +502,12 @@ function buildCharts() {
         .attr("width", chart.x.bandwidth());
       chart.g.append("g").attr("transform", `translate(0,${chart.height})`)
         .call(d3.axisBottom(chart.x));
-      chart.g.append("g").call(d3.axisLeft(chart.y).ticks(5).tickFormat(d3.format(".0f"))).append("text")
+      chart.g.append("g").call(d3.axisLeft(chart.y).ticks(5).tickFormat(d3.format(".2s"))).append("text")
         .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
         .attr("text-anchor", "end").attr("data-i18n", chart.i18n);
-
       if(chart.showFY){
-        chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 2})`)
-          .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");//.text("(fiscal year begins in previous October)"); 
+        chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 4})`)
+          .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");
       }
     });
 
@@ -523,28 +524,21 @@ function buildCharts() {
       operators.data[0].facilityCount += data.filter(f => f["Facility.Operator"] === code).length;
       operators.data[0].adpCount += d3.sum(data.filter(f => f["Facility.Operator"] === code).map(d => +d["FY18.ADP"]));
     });
-    operators.data[1].facilityCount = data.length - d3.sum(operators.data.map(d => +d.facilityCount));
+    operators.data[1].facilityCount = data.filter(d => +d["FY18.ADP"] > 0).length - d3.sum(operators.data.map(d => +d.facilityCount));
     operators.data[1].adpCount = d3.sum(data.map(d => +d["FY18.ADP"])) - d3.sum(operators.data.map(d => +d.facilityCount));
-    [pink, green, orange, purple, "#333333"].forEach((color, i) => {
+    [fadedpink, fadedgreen, fadedorange, fadedpurple, fadedblack].forEach((color, i) => {
       operators.data[i].color = color;
     });
     operatorsAdp.data = operators.data;
-
-
-    // console.log(operatorsAdp.data);
-
     [operators, operatorsAdp].forEach(chart => {
       const radius = Math.min(chart.width, chart.height)/2;
-      chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${chart.width / 2},${chart.height / 2})`);
+      chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${$(chart.id).width() / 2},${chart.height / 2})`);
       const pie = d3.pie()
         .sort(null)
         .value(d => +d[chart.number]);
       const path = d3.arc()
         .outerRadius(radius - 10)
         .innerRadius(0);
-      const label = d3.arc()
-        .outerRadius(radius - 40)
-        .innerRadius(radius - 40);
       const arc = chart.g.selectAll(".arc")
         .data(pie(chart.data))
         .enter().append("g")
@@ -554,29 +548,17 @@ function buildCharts() {
         .attr("fill", d => d.data.color);
     });
 
-    mandays.sortAscending = false;
+    // mandays.sortAscending = false;
     const table = d3.select("#mandays-table-div").append("table")
         .classed("table", true).classed("table-hover", true).classed("table-sm", true),
       titles = ["name", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
-    const headers = table.append("thead").append("tr").classed("thead-dark", true)
+    table.append("thead").append("tr").classed("thead-dark", true)
       .selectAll("th")
       .data(titles).enter()
       .append("th")
-      .attr("data-i18n", d => `ta-${d}-header`)
-      .on("click", function(d) {
-        headers.classed("header", true);
-        if (mandays.sortAscending) {
-          rows.sort((a, b) => b[d] < a[d]);
-          mandays.sortAscending = false;
-          this.className = "aes";
-        } else {
-          rows.sort((a, b) => b[d] > a[d]);
-          mandays.sortAscending = true;
-          this.className = "des";
-        }
-      });
+      .attr("data-i18n", d => `ta-${d}-header`);
     const rows = table.append("tbody").selectAll("tr")
-      .data(mandays.data).enter().append("tr");
+      .data(mandays.data.filter(d => d.mandays > 0).sort((b, a) => a.mandays - b.mandays)).enter().append("tr");
     rows.selectAll("td")
       .data(d => titles.map(k => { return { "value": d[k], "name":  k}; })).enter()
       .append("td").attr("data-th", d => d.name).html(d => {
@@ -588,21 +570,20 @@ function buildCharts() {
           return `${Math.floor(d.value * 100)}%`;
         }
       });
-
-
-
-    // const tpLine = d3.line().x(d => tpX(d[0])).y(d => tpY(d[1]));
-    // const adpG = adpSvg.append("g").attr("transform", `translate(${margins.left + 15},${margins.top})`);
-    // const bookinsG = bookinsSvg.append("g").attr("transform", `translate(${margins.left + 20},${margins.top})`);
-
     update_texts();
   });
 
 }
 
 function initChart(chart, svgWidth, svgHeight){
+  let svgW;
+  if(chart.svgWidth){
+    svgW = chart.svgWidth;
+  } else {
+    svgW = svgWidth;
+  }
   chart.height = svgHeight - chart.margins.top - chart.margins.bottom;
-  chart.width = svgWidth - chart.margins.left - chart.margins.right;
+  chart.width = svgW - chart.margins.left - chart.margins.right;
   chart.svg = d3.select(chart.id).attr("height", svgHeight);
   chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
 }

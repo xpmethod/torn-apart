@@ -98,7 +98,7 @@
   z-index: 1010;
 }
 
-#the-eye-div, #charts-div {
+#the-eye-div {
   position: absolute;
   top: 8rem;
   left: 1rem;
@@ -122,16 +122,6 @@
   width: 100vw;
 }
 
-#charts-div {
-  position: absolute;
-  overflow-y: scroll; 
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $green;
-  }
-
-}
-
 .eye-tile-div {
   background-color: rgba(255, 255, 255, 0);
   width: 128px;
@@ -143,15 +133,15 @@
 }
 
 @media (min-width: 576px){
-  #legend, #charts-div, #orr-legend {
+  #legend, #orr-legend {
     width: 50vw;
     font-size: 0.8rem;
   }
 
-  #the-eye-div, #charts-div {
+  #the-eye-div {
     top: 7.25rem;
     left: .5rem;
-    height: calc(100vh - 7.5rem - 1.75rem);
+    max-height: calc(100vh - 7.5rem - 1.75rem);
   }
 }
 
