@@ -477,7 +477,6 @@ function buildCharts() {
         pctDaysInUse: +row["FY17...of.Days.in.Use"] };
     }) };
 
-
     ["2014", "2015", "2016", "2017", "2018"].forEach(year => {
       const fy = year.replace("20", "FY");
       tp.data.push([fy, data.filter(d => +d[fy + ".ADP"] > 0).length]);
@@ -548,28 +547,7 @@ function buildCharts() {
         .attr("fill", d => d.data.color);
     });
 
-    // mandays.sortAscending = false;
-    const table = d3.select("#mandays-table-div").append("table")
-        .classed("table", true).classed("table-hover", true).classed("table-sm", true),
-      titles = ["name", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
-    table.append("thead").append("tr").classed("thead-dark", true)
-      .selectAll("th")
-      .data(titles).enter()
-      .append("th")
-      .attr("data-i18n", d => `ta-${d}-header`);
-    const rows = table.append("tbody").selectAll("tr")
-      .data(mandays.data.filter(d => d.mandays > 0).sort((b, a) => a.mandays - b.mandays)).enter().append("tr");
-    rows.selectAll("td")
-      .data(d => titles.map(k => { return { "value": d[k], "name":  k}; })).enter()
-      .append("td").attr("data-th", d => d.name).html(d => {
-        if(d.name === "name"){
-          return d.value;
-        } else if (d.name === "mandays") {
-          return d3.format(",.0f")(d.value);
-        } else {
-          return `${Math.floor(d.value * 100)}%`;
-        }
-      });
+    buildSpreadsheet(mandays);
     update_texts();
   });
 
@@ -586,6 +564,30 @@ function initChart(chart, svgWidth, svgHeight){
   chart.width = svgW - chart.margins.left - chart.margins.right;
   chart.svg = d3.select(chart.id).attr("height", svgHeight);
   chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
+}
+
+function buildSpreadsheet(mandays){
+  const table = d3.select("#mandays-table-div").append("table")
+      .classed("table", true).classed("table-hover", true).classed("table-sm", true),
+    titles = ["name", "mandays", "pctDaysInUse"];//d3.keys(mandays.data[0]);
+  table.append("thead").append("tr").classed("thead-dark", true)
+    .selectAll("th")
+    .data(titles).enter()
+    .append("th")
+    .attr("data-i18n", d => `ta-${d}-header`);
+  const rows = table.append("tbody").selectAll("tr")
+    .data(mandays.data.filter(d => d.mandays > 0).sort((b, a) => a.mandays - b.mandays)).enter().append("tr");
+  rows.selectAll("td")
+    .data(d => titles.map(k => { return { "value": d[k], "name":  k}; })).enter()
+    .append("td").attr("data-th", d => d.name).html(d => {
+      if(d.name === "name"){
+        return d.value;
+      } else if (d.name === "mandays") {
+        return d3.format(",.0f")(d.value);
+      } else {
+        return `${Math.floor(d.value * 100)}%`;
+      }
+    });
 }
 
 function prepareORRData() {
