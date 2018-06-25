@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "What We Have, What We Can"
+title: 
   "long": "What We Have, What We Can"
   "short": "What We Have, What We Can"
 doi:
