@@ -512,6 +512,12 @@ function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
+    d3.selection.prototype.moveToFront = function() {  
+      return this.each(function(){
+        this.parentNode.appendChild(this);
+      });
+    };
+
     const margins = {top: 10, bottom: 32, left: 32, right: rem};
     const svgHeight = 200;
     const svgWidth = $("#total-places-svg-div").width();
@@ -630,12 +636,12 @@ function buildCharts() {
         .style("opacity", 0.7)
         .on("click", function(){
           const slice = d3.select(this);
-            d3.selectAll(".clicked")
-              .transition().delay(0).duration(250)
-              .style("stroke-width", 0)
-              .style("opacity", "0.7");
-            d3.selectAll(".clicked")
-              .classed("clicked", false);
+          d3.selectAll(".clicked")
+            .transition().delay(0).duration(250)
+            .style("stroke-width", 0)
+            .style("opacity", "0.7");
+          d3.selectAll(".clicked")
+            .classed("clicked", false);
           if(slice.classed("ORR-slice")){
             d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
               .transition().delay(0).duration(250)
@@ -650,8 +656,12 @@ function buildCharts() {
                 .transition().delay(0).duration(250)
                 .style("fill", orange);
               const selector = `.ice-dot.${slice.attr("data-group")}`;
+              // d3.select("#ice-g").selectAll("circle").each(function(d){
+              //   console.log(d);
+              // });
               d3.selectAll(selector).classed("highlighted-dot", true)
-                .transition().delay(125).duration(500)
+                .moveToFront()
+                .transition().delay(100).duration(500)
                 .style("fill", "red");
             }
           }
