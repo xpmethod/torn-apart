@@ -34,6 +34,7 @@ $( document ).ready(() => {
   });
 
   $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
+  $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
 
   if($("#visualizations-mapdiv").length){
     map = initMap("visualizations-mapdiv");
