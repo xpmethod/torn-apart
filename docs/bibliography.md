@@ -107,7 +107,7 @@ https://www.risingground.org/program/passage-hope/](https://www.risingground.org
 [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
 
 * Ministerio de Relaciones Exteriores Informa Sobre Resultados de Visita Realizada a EUA Para Verificar Condiciones de Niñez Migrante Salvadoreña.  
-http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
+[http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
 
 * National Immigration Justice Center. “November 2017 ICE Detention Facility Lists National Immigrant Justice Center.” SCRIBD, 6 Nov. 2017.  
 [https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed](https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed).
@@ -119,7 +119,7 @@ http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/
 [https://www.documentcloud.org/documents/4523974-ORR-Capacity-Census-and-Variances-in-Effect-6-18.html](https://www.documentcloud.org/documents/4523974-ORR-Capacity-Census-and-Variances-in-Effect-6-18.html).
 
 * Senate.gov. Appendix.  
-https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf](https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf).
+[https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf](https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf).
 
 * Snow, Violet. “Readings Describe Refugee Kids’ Pain and Hope.” Hudson Valley One, 18 Apr. 2017.  
 [https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/](https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/).
@@ -152,7 +152,7 @@ https://childrensvillage.org/our-programs/inwood-house/](https://childrensvillag
 [http://trac.syr.edu/phptools/immigration/charges/deport_filing_charge.php](http://trac.syr.edu/phptools/immigration/charges/deport_filing_charge.php).
 
 * ---. Transfers of ICE Detainees from the Southwest Key - Conroe.  
-http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/](http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/).
+[http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/](http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/).
 
 * United States District Court Southern District Of New York. 1:18-cv–01453.  
 [https://www.nyclu.org/sites/default/files/field_documents/ecf_1_class_action_complaint_and_petition_for_a_writ_of_habeas_corpus_2018-02-16_00062143xb2d9a.pdf](https://www.nyclu.org/sites/default/files/field_documents/ecf_1_class_action_complaint_and_petition_for_a_writ_of_habeas_corpus_2018-02-16_00062143xb2d9a.pdf).
