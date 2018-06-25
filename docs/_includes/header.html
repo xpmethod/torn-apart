@@ -40,7 +40,33 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="https://i.imgur.com/mZUyUCr.jpg" />
   <script type="application/ld+json">
-    {"name":"{{site.title}}","description":"{{ page.abstract | default: site.description }}","author":null,"@type":"WebPage","url":null,"image":null,"publisher":null,"headline":"{{site.title}}","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}
+    { 
+      "@context": "http://schema.org", 
+      "@type": "{{ page.dcType | default: "WebSite" }}", 
+      {% if page.permalink %}
+        "url": "{{page.permalink}}", 
+      {% else %}
+        "url": "http://xpmethod.plaintext.in/torn-apart/", 
+      {% endif %}
+      "name": "{{ page.title.long | default: site.title }}",
+      {% if page.author %}
+        "author": [{ "@type": "Person", "name": "{{ page.author.name }}", "url": "{{ page.author.url | default: "" }}" }],
+      {% else %}
+        "author": [
+          { "@type": "Person", "name": "Manan Ahmed", "url": "http://history.columbia.edu/faculty/manan-ahmed" },
+          { "@type": "Person", "name": "Maira E. Álvarez", "url": "http://https://www.bacartography.org/" },
+          { "@type": "Person", "name": "Sylvia A. Fernández", "url": "http://https://www.bacartography.org/" },
+          { "@type": "Person", "name": "Alex Gil", "url": "https://twitter.com/elotroalex/" },
+          { "@type": "Person", "name": "Merisa Martinez", "url": "https://twitter.com/merisamartinez/" },
+          { "@type": "Person", "name": "Moacir P. de Sá Pereira", "url": "https://moacir.com/" },
+          { "@type": "Person", "name": "Linda Rodriguez" },
+          { "@type": "Person", "name": "Roopika Risam", "url": "https://roopikarisam.com/" }
+          ],
+      {% endif %}
+      "description": "{{ page.abstract | default: site.description }}",
+      "publisher": "xpMethod",
+      "datePublished": "2018-06-25"
+    }
   </script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
