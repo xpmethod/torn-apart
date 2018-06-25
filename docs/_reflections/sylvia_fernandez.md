@@ -1,13 +1,16 @@
 ---
 layout: article
-title: "Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica"
+title: 
+  "long": "Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica"
+  "short": "Triple D"
 doi:
 author: 
   creator: "Fernández, Sylvia"
   name: Sylvia Fernández
   shortname: Sylvia
-  bio: "Sylvia Fernández is a Ph.D. Candidate in [Hispanic Studies](https://ssl.uh.edu/class/spanish/) at the University of Houston and a Research Fellow with [Recovering the US Hispanic Literary Heritage](https://twitter.com/apprecovery). She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina/o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities."
+  bio: "Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography."
   date: 2018-06-23
+  url: https://www.bacartography.org/
 issue: 1
 order: 1
 abstract: "Desde una perspectiva personal esta reflexión enfatiza la importancia de nuevas formas de interpretación, visualización y documentación de la historia de comunidades, como las de Centroamérica y la frontera de México y Estados Unidos, con el fin de concientizar,empoderar y resistir a mecanismos de opresión a través de humanidades movilizadas y digitales conscientes de estas historias."
@@ -15,10 +18,11 @@ language: es
 dcType: article
 ---
 
+### Reflection
 
 
-## Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
-**by [Sylvia Fernández](https://www.hastac.org/u/sferna109)**
+#### Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica
+##### by [Sylvia Fernández](https://www.hastac.org/u/sferna109)
 
 Desde que entré a la universidad en 2009, surgió en mí una inquietud, derivada de la frustración generada al tomar cursos relacionados con la frontera. En un principio estos se enfocaban en los feminicidios, las maquiladoras-NAFTA, la post-guerra contra el narcotráfico y, posteriormente, en otras situaciones atadas a la frontera entre México y Estados Unidos, como la inmigración, la militarización, la violencia y más violencia. La mayoría de estas clases han sido muy difíciles de asimilar para mí por la perspectiva que se genera desde este lugar y sus comunidades. A pesar de la realidad de estos problemas, interpretada de forma particular en estos contextos, esta se presenta enmarcada por un sinnúmero de generalizaciones, sin profundizar en la historia y lo que llevan detrás de las continuas crisis.
 
@@ -27,4 +31,5 @@ Al ser una mujer de frontera, del mismo lugar en donde mi mamá y mi papá se co
 La situación por la que en estas semanas de junio de 2018, la frontera entre México y Estados Unidos es nuevamente el encabezado de periódicos y discursos del gobierno estadounidense me ha hecho sentir frustrada, una vez más. Una de las razones de este sentimiento es que la crisis que hoy enfrentan las familias migrantes que están siendo separadas y trasladadas a centros de detención es la misma estrategia de odio, discriminación, racismo y deshumanización, entre muchas otras injusticias, perpetradas y perpetuadas por la ambición de poder de Estados Unidos. Y es aquí donde me pregunto, ¿qué termina pasando siempre después de una crisis como esta? Se olvida. Y la verdadera historia, la que abarca las voces, los documentos y estadísticas de estas comunidades se pierde. Y cuando se quiere recuperar, en muchos casos, se encuentra incompleta o corrompida. Es así como la historia que respalda ese pasado termina por ser una creación alterada a beneficio de la nación dominante y agresora. 
 
 ---
-> Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage . She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina / o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities.
+{: .bio-slug}
+Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage . She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina / o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities.
