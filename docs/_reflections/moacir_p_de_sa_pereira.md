@@ -18,11 +18,10 @@ language: en
 dcType: article
 ---
 
-### Reflection
+# Mapping Maybe
 
-
-#### Mapping Maybe
-##### by [Moacir P. de Sá Pereira](http://moacir.com/)
+{: .author-credit }
+by [Moacir P. de Sá Pereira](http://moacir.com/)
 
 > What is unprecedented is not the loss of a home but the impossibility of
 finding a new one… [This is] a problem not of space but of political

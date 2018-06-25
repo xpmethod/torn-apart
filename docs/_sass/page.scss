@@ -1,6 +1,10 @@
 .page {
+
+  margin-top: 4em;
+  padding-top: 4em;
+
   h1 {
-    margin-top: 4em;
+    margin-top: 2rem;
   }
 
   h2 {
@@ -16,13 +20,26 @@
   }
 }
 
+p.author-credit {
+  font-weight: bold;
+  color: #666666;
+}
+
+.bio-slug {
+  color: #999999;
+
+  a {
+    font-weight: bold;
+  }
+}
+
 blockquote {
   p {
     margin: 0
   }
 
-  margin: 1rem 0 1rem 3rem;
-  padding: .5rem 0 .5rem 1.5rem;
+  margin: 1rem 0 1rem 4rem;
+  padding: .5rem 0 .5rem 4rem;
   border-left: 5px solid $green;
   color: #999999;
   font-style: italic;
