@@ -22,9 +22,9 @@ We provide all the reflections below in order to help contextualize both our imp
 Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography 
 
 **[What We Have, What We Can]({{site.baseurl}}/reflections/roopika_risam.html)**.  
-{: .author-credit } by Roopika Risam
-{: .bio-slug} Roopika Risam  is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)
+by [Roopika Risam](http://roopikarisam.com)
+Roopika Risam is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)
 
 **[Mapping Maybe]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira.html)**
-{: .author-credit } by Moacir P. de Sá Pereira
+by [Moacir P. de Sá Pereira](http://twitter.com/muziejus) is Assistant Professor / Faculty Fellow of English at New York University.
 <br>
