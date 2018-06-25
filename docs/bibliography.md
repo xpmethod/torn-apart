@@ -86,7 +86,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 [http://www.immigrationdetention.org](http://www.immigrationdetention.org).
 
 * Indeed. Job Ads for Bethany Children’s Home on Indeed.  
-https://www.indeed.com/jobs?q=Bethany+Children%27s+Home](https://www.indeed.com/jobs?q=Bethany+Children%27s+Home).
+[https://www.indeed.com/jobs?q=Bethany+Children%27s+Home](https://www.indeed.com/jobs?q=Bethany+Children%27s+Home).
 
 * ---. Reviews on Indeed for Neighbor to Family.  
 [https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/reviews).
