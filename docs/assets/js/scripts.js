@@ -715,7 +715,7 @@ function buildSpreadsheet(mandays){
     const zoom = 12;
     const latLon = $( this ).data("latlng").split(",");
     const pixelCoords = map.project(L.latLng(latLon), zoom);
-    const newCenter = L.point(pixelCoords.x - .25 * $( window ).width(), pixelCoords.y + .35 * $( window ).width());
+    const newCenter = L.point(pixelCoords.x - .25 * $( window ).width(), pixelCoords.y + .1 * $( window ).width());
     const newlatLng = map.unproject(newCenter, zoom);
     map.flyTo(newlatLng, zoom);
     d3.select(`#${$( this ).data("detloc")}-dot`).transition()
