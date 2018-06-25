@@ -40,5 +40,20 @@ We began with ICE/CBP websites and got the public geo-data that they serve. We t
 
 We want to acknowledge the work of Josh Begley's [Prison Map: What does the geography of incarceration for United States look like?](http://prisonmap.com/) for inspiring our "The Eye".  
 
+The website is based on [@muziejus/leaflet-quickstart](http://github.com/muziejus/leaflet-quickstart),
+a GitHub repository that lets learners build much, much simpler maps online
+quickly. But It would not be possible without the efforts of everyone who has
+ever written a tutorial or answered a question about programming online. It
+makes use of the following open technologies:
+
+* [Leaflet](http://leafletjs.com), which powers the maps
+* [d3](http://d3js.org), which provides the charts and more complex
+visualizations
+* [Bootstrap](http://getbootstrap.com), which allowed us to quickly develop a
+coherent visual style
+* [Jekyll](http://jekyllrb.com), which provides the structural frame for the
+project
+
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; width:100px " src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> (2018).
