@@ -1,6 +1,6 @@
 ---
 layout: article
-title: What We Have, What We Can
+title: "What We Have, What We Can"
 doi:
 author: 
   creator: "Risam, Roopika"
