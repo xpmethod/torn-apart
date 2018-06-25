@@ -19,7 +19,9 @@ dcType: article
 
 # Lawlessness & Exile
 
-{: .author-credit} by [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/)
+{: .author-credit} 
+
+by [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/)
 
 I confess that I am familiar with both the exilic and the lawlessness in my own personal journey.
 
@@ -42,11 +44,10 @@ So here we are on an another long day in another long summer at a long border wh
 {: .redacted} 
 for the protection of families not-brown. 
 
-
 The visualizations and data produced by this project, we hope, will let people see the cartographies in new ways. That is all we are hoping to do. 
-
 
 
 ---
 
-{: .bio-slug} Manan Ahmed is an Associate Professor in the History Department at Columbia University. He is a not a citizen of United States.
+{: .bio-slug} 
+Manan Ahmed is an Associate Professor in the History Department at Columbia University. He is a not a citizen of United States.

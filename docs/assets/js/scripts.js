@@ -28,6 +28,11 @@ $( document ).ready(() => {
   $(".navbar-toggler").click(() => $("#charts-div").hide());
   $("#legend").click(function(){ $(this).hide(); });
 
+  $(".redacted").html(function(i, html){
+    const textArray = html.split(" ");
+    return textArray.map(text => `<span class="redacted-span">${text}</span>`).join(" ");
+  });
+
 
   if($("#visualizations-mapdiv").length){
     map = initMap("visualizations-mapdiv");
