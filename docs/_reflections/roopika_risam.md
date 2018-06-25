@@ -18,11 +18,10 @@ language: en
 dcType: article
 ---
 
-### Reflection
+# What We Have, What We Can
 
-#### What We Have, What We Can  
-
-##### by [Roopika Risam](http://roopikarisam.com)
+{: .author-credit }
+by [Roopika Risam](http://roopikarisam.com)
 
 At Salem State University, our common read for first-year students in 2015 was [*Spare Parts*](https://books.google.com/books?id=on1zAwAAQBAJ&printsec=frontcover&dq=spare+parts&hl=en&sa=X&ved=0ahUKEwjmlpbXnuPbAhUD7oMKHR89CUUQ6AEIKTAA#v=onepage&q=irrigation&f=false), the story of a team of undocumented high school students—Lorenzo Santillan, Luis Aranda, Oscar Vazquez, and Crisitan Arcega—who beat elite college teams, including MIT, in an underwater robotics competition. While teams from universities had funding from corporations like ExxonMobile and access to state-of-the art polymers, the young high school students from Phoenix, Arizona relied on their natural gifts in engineering, along with knowledge gained from watching family members working as gardeners and mechanics. These experiences proved more practical than the academic preparation of an MIT robotics team, despite being a low-tech approach to problem solving.  
 
