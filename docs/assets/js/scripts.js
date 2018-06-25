@@ -25,6 +25,7 @@ $( document ).ready(() => {
   $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
   $("a[href^='http']").attr("target", "_blank");
 
+  $(".navbar-toggler").click(() => $("#charts-div").hide());
   $("#legend").click(function(){ $(this).hide(); });
 
   const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
@@ -441,7 +442,7 @@ function buildCharts() {
 
     const margins = {top: 10, bottom: 32, left: 32, right: rem};
     const svgHeight = 200;
-    const svgWidth = $("#time-series-text").width() + 2 * rem;
+    const svgWidth = $("#total-places-svg-div").width();
     const thirdWidth = Math.floor(svgWidth * 2 / 3);
     const fadedgreen = "rgba(102, 194, 165, 0.9)";
     const fadedorange = "rgba(252, 141, 98, 0.9)";
