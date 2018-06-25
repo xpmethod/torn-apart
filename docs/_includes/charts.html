@@ -16,10 +16,10 @@
       <div class="row">
         <div id="time-series-text" class="col-md-6">
           <p class="big-number" id="total-places-no">No.</p>
-          <p class="big-number-desc" data-i18n="ta-ice-facilities-in-use"></p>
+          <h5 class="big-number-desc" data-i18n="ta-ice-facilities-in-use"></h5>
           <p data-i18n="ta-time-series-text"></p>
         </div>
-        <div class="pl-0 col-md-6">
+        <div id="total-places-svg-div" class="col-md-6">
           <svg id="total-places-svg"></svg>
         </div>
       </div>
@@ -29,10 +29,10 @@
       <div class="row">
         <div class="col-md-6">
           <p class="big-number" id="adp-no">No.</p>
-          <p class="big-number-desc" data-i18n="ta-current-avg-daily-pop">Current average daily population</p>
+          <h5 class="big-number-desc" data-i18n="ta-current-avg-daily-pop">Current average daily population</h5>
           <p data-i18n="ta-adp-text"></p>
         </div>
-        <div class="pl-0 col-md-6">
+        <div id="adp-svg-div" class="col-md-6">
           <svg id="adp-svg"></svg>
         </div>
       </div>
@@ -42,10 +42,10 @@
       <div class="row">
         <div class="col-md-6">
           <p class="big-number" id="bookins-no">No.</p>
-          <p class="big-number-desc" data-i18n="ta-bookins-october-and-november">Bookins October and November 2017</p>
+          <h5 class="big-number-desc" data-i18n="ta-bookins-october-and-november"></h5>
           <p data-i18n="ta-adp-text"></p>
         </div>
-        <div class="pl-0 col-md-6">
+        <div id="bookins-svg-div" class="col-md-6">
           <svg id="bookins-svg"></svg>
         </div>
       </div>
@@ -67,30 +67,22 @@
 <div id="operators-div" class="w-100">
   <h3 data-i18n="ta-facility-operators"></h3>
   <div class="row">
-    <div class="col-md-6">
-      <h4 data-i18n="ta-18-adp-by-operator"></h4>
+    <div id="operators-adp-pie-div" class="col-md-4">
       <svg id="operators-adp-svg"></svg>
+      <h5 data-i18n="ta-18-adp-by-operator"></h5>
     </div>
-    <div class="pl-0 col-md-6">
-      <h4 data-i18n="ta-facility-by-operator"></h4>
+    <div id="operators-pie-div" class="col-md-4">
       <svg id="operators-svg"></svg>
+      <h5 data-i18n="ta-facility-by-operator"></h5>
+    </div>
+    <div id="operators-legend-div" class="col-md-4">
+      <ul class="legend-ul">
+        <li><span data-i18n="ta-government" style="color:#66c2a5;"></span></li>
+        <li><span data-i18n="ta-geo" style="color:#fc8d62;"></span>&nbsp;<a href="http://geogroup.com/"><i class="fa fa-globe"></i></a></li>
+        <li><span data-i18n="ta-cca" style="color:#8da0cb;"></span>&nbsp;<a href="http://correctionscorp.com/"><i class="fa fa-globe"></i></a></li>
+        <li><span data-i18n="ta-other-private" style="color:#e78ac3;"></span></li>
+        <li><span data-i18n="ta-orr" style="color:#333333;"></span></li>
+      </ul>
     </div>
   </div>
-</div>
-
-<div id="active-vs-inactive-div" class="w-100">
-
-<div class="row">
-<div class="col-md-6">
-<p class="big-number" id="active-no">No.</p>
-<p class="big-number-desc" data-i18n="ta-active-num">active number</p>
-<p data-i18n="ta-active-text"></p>
-</div>
-<div class="pl-0 col-md-6">
-<svg id="active-svg"></svg>
-</div>
-</div>
-
-I wrote down active vs. inactive and huh?
-
 </div>

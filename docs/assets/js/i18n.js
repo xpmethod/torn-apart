@@ -43,7 +43,7 @@ $.i18n().load({
     "ta-avg-daily-pop": "Avg. daily population",
     "ta-current-avg-daily-pop": "Current average daily population",
     "ta-adp-text": "something text",
-    "ta-bookins-october-and-november": "Bookins for October and November 2017",
+    "ta-bookins-october-and-november": "Bookins for Oct. and Nov. 2017",
     "ta-bookins-text": "something about bookins",
     "ta-fy2017-num": "fy2017 number.",
     "ta-fy2017-text": "fy2017 text",
@@ -54,9 +54,20 @@ $.i18n().load({
     "ta-name-header": "Facility and Operator",
     "ta-mandays-header": "Mandays",
     "ta-pctDaysInUse-header": "Usage",
-    "ta-2017-mandays-and-overpop": "Total Mandays and (Over-)Usage in 2017",
+    "ta-2017-mandays-and-overpop": "Mandays and (Over-)Usage in Fiscal Year 2017",
     "ta-mandays": "Mandays",
-    "ta-mandays-definition": "Number of days per detainee spent at the facility for 2017"
+    "ta-mandays-definition": "The sum of midnight count mandays for a facility for all days in the fiscal year.",
+    "ta-usage": "Usage",
+    "ta-usage-definition": "Indicates the percentage of fiscal year days in use to date.",
+    "ta-facility-operators": "Fiscal Year 2018 Facilities by Operator",
+    "ta-18-adp-by-operator": "Portion of Total Average Daily Population per Operator",
+    "ta-facility-by-operator": "Portion of Facilities per Operator",
+    "ta-other-private": "Other Private",
+    "ta-government": "Government",
+    "ta-geo": "GEO Group",
+    "ta-cca": "CoreCivic",
+    
+
   },
 
   "es": {
@@ -109,7 +120,16 @@ $.i18n().load({
     "ta-pctDaysInUse-header": "Uso",
     "ta-2017-mandays-and-overpop": "Total 2017 Mandays and Usage",
     "ta-mandays": "Mandays",
-    "ta-mandays-definition": "Number of days per detainee spent at the facility for 2017",
+    "ta-mandays-definition": "The sum of midnight count mandays for a facility for all days in the fiscal year.",
+    "ta-usage": "Usage",
+    "ta-usage-definition": "Indicates the percentage of fiscal year days in use to date",
+    "ta-facility-operators": "Fiscal Year 2018 Facilities by Operator",
+    "ta-18-adp-by-operator": "Portion of Total Average Daily Population per Operator",
+    "ta-facility-by-operator": "Portion of Facilities per Operator",
+    "ta-other-private": "Other Private",
+    "ta-government": "Government",
+    "ta-geo": "GEO Group",
+    "ta-cca": "CoreCivic",
   }
 });
 

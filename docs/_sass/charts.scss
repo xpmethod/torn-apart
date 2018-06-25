@@ -1,8 +1,10 @@
 #charts-div {
 
   #mandays-table-div {
+    padding: 0 1.5rem;
     overflow-y: scroll; 
     height: 250px;
+    font-size: 0.75rem;
   }
 
   .table .thead-dark th {
@@ -25,7 +27,6 @@
 
   .big-number-desc {
     text-align: center;
-    font-size: .75rem;
   }
 
   .bar {
@@ -36,6 +37,24 @@
     font-size: 10px;
   }
 
+  #operators-adp-pie-div, #operators-pie-div, #operators-legend-div,
+  #total-places-svg-div, #adp-svg-div, #bookins-svg-div {
+    margin: 0;
+    padding: 0;
+  }
+
+  .legend-ul li {
+    font-weight: bold;
+  }
+
+  h5 {
+    margin-left: .5rem;
+    color: #000000;
+    font-size: 1.0rem;
+  }
+
+
+
   th.des:after {
     content: "\21E9";
   }
@@ -43,4 +62,13 @@
   th.des:after {
     content: "\21E7";
   }
-};
+  
+  @media (min-width: 576px){
+    .legend-ul li {
+      font-size: 1.0rem;
+    }
+    #mandays-table-div {
+      padding: 0;
+    }
+  }
+}

@@ -441,20 +441,20 @@ function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
     if (error) throw error;
 
-    const margins = {top: 10, bottom: 30, left: 28, right: 2};
+    const margins = {top: 10, bottom: 32, left: 28, right: 2};
     const svgHeight = 200;
     const svgWidth = $("#time-series-text").width();
+    const thirdWidth = Math.floor(svgWidth * 2 / 3);
 
     // Init the charts.
     const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
     const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
     const bookins = { data: [], margins, id: "#bookins-svg", ymax: 1000000, i18n: "ta-bookins", showFY: true };
-    const operators = { data: [{name: "Other Private", facilityCount: 0, adpCount: 0}, {name: "Government", facilityCount: 0, adpCount: 0}], 
+    const operators = { data: [{taName: "Other Private", facilityCount: 0, adpCount: 0}, {name: "Government", facilityCount: 0, adpCount: 0}], 
       margins: { top: 0, bottom: 0, left: 0, right: 0},
-      id: "#operators-svg", number: "facilityCount" };
+      id: "#operators-svg", number: "facilityCount", svgWidth: thirdWidth };
     const operatorsAdp = { margins: { top: 0, bottom: 0, left: 0, right: 0},
-      id: "#operators-adp-svg", number: "adpCount" };
-    const active = { data: [], margins, id: "#active-svg" };
+      id: "#operators-adp-svg", number: "adpCount", svgWidth: thirdWidth };
     const mandays = { data: data.map(row => {
       let name = titleize(row["Name"].replace(/\([^)]*\)/, ""));
       const operator = facOperators.filter(o => o.code === row["Facility.Operator"])[0];
@@ -490,9 +490,7 @@ function buildCharts() {
       chart.y = d3.scaleLinear().rangeRound([chart.height, 0]);
       chart.x.domain(chart.data.map(d => d[0]));
       chart.y.domain([0, chart.ymax]);
-
-      $(chart.id.replace("svg", "no")).html(chart.data[chart.data.length - 1][1]);
-
+      $(chart.id.replace("svg", "no")).html(d3.format(",.0f")(chart.data[chart.data.length - 1][1]));
       chart.g.selectAll(".bar")
         .data(chart.data).enter().append("rect").attr("class", "bar")
         .attr("y", d => chart.y(d[1])).attr("x", d => chart.x(d[0]))
@@ -503,9 +501,8 @@ function buildCharts() {
       chart.g.append("g").call(d3.axisLeft(chart.y).ticks(5).tickFormat(d3.format(".0f"))).append("text")
         .attr("fill", "#000").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", "0.71em")
         .attr("text-anchor", "end").attr("data-i18n", chart.i18n);
-
       if(chart.showFY){
-        chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 2})`)
+        chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 4})`)
           .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");//.text("(fiscal year begins in previous October)"); 
       }
     });
@@ -523,19 +520,15 @@ function buildCharts() {
       operators.data[0].facilityCount += data.filter(f => f["Facility.Operator"] === code).length;
       operators.data[0].adpCount += d3.sum(data.filter(f => f["Facility.Operator"] === code).map(d => +d["FY18.ADP"]));
     });
-    operators.data[1].facilityCount = data.length - d3.sum(operators.data.map(d => +d.facilityCount));
+    operators.data[1].facilityCount = data.filter(d => +d["FY18.ADP"] > 0).length - d3.sum(operators.data.map(d => +d.facilityCount));
     operators.data[1].adpCount = d3.sum(data.map(d => +d["FY18.ADP"])) - d3.sum(operators.data.map(d => +d.facilityCount));
     [pink, green, orange, purple, "#333333"].forEach((color, i) => {
       operators.data[i].color = color;
     });
     operatorsAdp.data = operators.data;
-
-
-    // console.log(operatorsAdp.data);
-
     [operators, operatorsAdp].forEach(chart => {
       const radius = Math.min(chart.width, chart.height)/2;
-      chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${chart.width / 2},${chart.height / 2})`);
+      chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${$(chart.id).width() / 2},${chart.height / 2})`);
       const pie = d3.pie()
         .sort(null)
         .value(d => +d[chart.number]);
@@ -601,8 +594,14 @@ function buildCharts() {
 }
 
 function initChart(chart, svgWidth, svgHeight){
+  let svgW;
+  if(chart.svgWidth){
+    svgW = chart.svgWidth;
+  } else {
+    svgW = svgWidth;
+  }
   chart.height = svgHeight - chart.margins.top - chart.margins.bottom;
-  chart.width = svgWidth - chart.margins.left - chart.margins.right;
+  chart.width = svgW - chart.margins.left - chart.margins.right;
   chart.svg = d3.select(chart.id).attr("height", svgHeight);
   chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
 }
