@@ -18,6 +18,10 @@
   p {
     font-size: 1.1rem;
   }
+  li {
+    overflow: hidden;
+  }
+
 }
 
 p.author-credit {
@@ -28,7 +32,7 @@ p.author-credit {
 .bio-slug {
   color: #999999;
 
-  a {
+li {
     font-weight: bold;
   }
 }
