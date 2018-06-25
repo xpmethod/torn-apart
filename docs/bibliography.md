@@ -37,7 +37,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * Colibri Center for Human Rights. “Reportar una Persona Desparecida en la Frontera \| Report a Missing Person on the Border.” Colibri Center for Human Rights, 2018.  
 [http://www.colibricenter.org/report-a-missing-border-crosser/](http://www.colibricenter.org/report-a-missing-border-crosser/).
 
-* Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” The News Tribune, 14 June 2018.  
+* Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” *The News Tribune*, 14 June 2018.  
 [https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy](https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy).
 
 * El Colegia de la Frontera Norte, and Observatorio de Legislacion Politicas Migratorias. “Aprehensiones de Unidades Familiares Por Patrulla Fronteriza de Estados Unidos, Año Fiscal 2018 (Octubre-Abril).” Oberservatoriocolef.Org, 7 June 2018.  
@@ -61,7 +61,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * Hireable. A Job Ad for Leake and Watts from Hireable.  
 [https://hireable.com/job/youth-care-worker-spanish-english-bilingual-at-leake-and-watts-in-yonkers-ny_16970879d2dd3045108e60776fec4fa458a5fa7f](https://hireable.com/job/youth-care-worker-spanish-english-bilingual-at-leake-and-watts-in-yonkers-ny_16970879d2dd3045108e60776fec4fa458a5fa7f).
 
-* His House Children’s Home. Services.  
+* His House Children’s Home Services.  
 [https://www.hhch.org/services/](https://www.hhch.org/services/).
 
 * Iannelli, Jerry, and Tarpley Hitt. “Feds Holding 1,000 Migrant Children at Miami-Area Compound, Lawmaker Says.” Miami New Times, 18 June 2018.  
@@ -91,19 +91,19 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * ---. Reviews on Indeed for Neighbor to Family.  
 [https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/reviews).
 
-* Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” The Young Turks Network, 28 May 2018.  
+* Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” *The Young Turks Network,* 28 May 2018.  
 [https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/](https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/).
 
 * Leake and Watts. Passages of Hope Program.  
-https://www.risingground.org/program/passage-hope/](https://www.risingground.org/program/passage-hope/).
+[https://www.risingground.org/program/passage-hope/](https://www.risingground.org/program/passage-hope/).
 
-* Lind, Dara. “One Map That Shows the US’ ‘Border’ Is Everywhere.” Vox, 7 Feb. 2015.  
+* Lind, Dara. “One Map That Shows the US’ ‘Border’ Is Everywhere.” *Vox*, 7 Feb. 2015.  
 [https://www.vox.com/2015/2/7/7993273/border-port-map](https://www.vox.com/2015/2/7/7993273/border-port-map).
 
 * MercyFirst. MercyFirst Professional Psychology Internship Training Program.  
 [http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
 
-* Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” The Washington Post, 14 June 2018.  
+* Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” *The Washington Post*, 14 June 2018.  
 [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
 
 * Ministerio de Relaciones Exteriores Informa Sobre Resultados de Visita Realizada a EUA Para Verificar Condiciones de Niñez Migrante Salvadoreña.  
@@ -112,7 +112,7 @@ https://www.risingground.org/program/passage-hope/](https://www.risingground.org
 * National Immigration Justice Center. “November 2017 ICE Detention Facility Lists National Immigrant Justice Center.” SCRIBD, 6 Nov. 2017.  
 [https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed](https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed).
 
-* Office of Refugee Resettlement. Announcement of the Award of 43 Single-Source Low-Cost Extension Supplement Grants within the Office of Refugee Resettlement’s Unaccompanied Alien Children’s (UAC) Program. The Federal Register, 2017.  
+* Office of Refugee Resettlement. Announcement of the Award of 43 Single-Source Low-Cost Extension Supplement Grants within the Office of Refugee Resettlement’s Unaccompanied Alien Children’s (UAC) Program. *The Federal Register*, 2017.  
 [https://s3.amazonaws.com/public-inspection.federalregister.gov/2017-13081.pdf](https://s3.amazonaws.com/public-inspection.federalregister.gov/2017-13081.pdf).
 
 * ---. ORR Capacity Census and Variances in Effect 6 18 2018. June 2018.  
@@ -121,25 +121,25 @@ https://www.risingground.org/program/passage-hope/](https://www.risingground.org
 * Senate.gov. Appendix.  
 [https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf](https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf).
 
-* Snow, Violet. “Readings Describe Refugee Kids’ Pain and Hope.” Hudson Valley One, 18 Apr. 2017.  
+* Snow, Violet. “Readings Describe Refugee Kids’ Pain and Hope.” *Hudson Valley One*, 18 Apr. 2017.  
 [https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/](https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/).
 
 * Southwest Key. Job Advertisements (Now Removed) for South West Key on CareerBuilder.  
-https://www.careerbuilder.com/jobs?company=southwest+key+programs](https://www.careerbuilder.com/jobs?company=southwest+key+programs).
+[https://www.careerbuilder.com/jobs?company=southwest+key+programs](https://www.careerbuilder.com/jobs?company=southwest+key+programs).
 
 * St. Peter St. Joseph’s Children’s Home. Employment Opportunities.  
-http://www.stpjhome.org/employmentopportunities/](http://www.stpjhome.org/employmentopportunities/).
+[http://www.stpjhome.org/employmentopportunities/](http://www.stpjhome.org/employmentopportunities/).
 
 * Texas Department of Family and Protective Services. Licensed Childcare Providers Tx (Includes but Not Limited to Non-Governmental Detention Centers).  
 [https://www.dfps.state.tx.us/child_care/search_texas_child_care/](https://www.dfps.state.tx.us/child_care/search_texas_child_care/).
 
-* The Brownsville Herald. “Texas Inspectors Find Series of Violations at Youth Shelters.” The Brownsville Herald, 12 June 2018.  
+* The Brownsville Herald. “Texas Inspectors Find Series of Violations at Youth Shelters.” *The Brownsville Herald*, 12 June 2018.  
 [https://www.brownsvilleherald.com/news/local/texas-inspectors-find-series-of-violations-at-youth-shelters/article_4d2ee338-6e65-11e8-b857-3b5a1864b1b4.html](https://www.brownsvilleherald.com/news/local/texas-inspectors-find-series-of-violations-at-youth-shelters/article_4d2ee338-6e65-11e8-b857-3b5a1864b1b4.html).
 
 * The Children’s Village. Inwood House.  
-https://childrensvillage.org/our-programs/inwood-house/](https://childrensvillage.org/our-programs/inwood-house/).
+[https://childrensvillage.org/our-programs/inwood-house/](https://childrensvillage.org/our-programs/inwood-house/).
 
-* Tiano, Sarah. “Feds Almost Lose One of Its Two Secure Detention Centers for Unaccompanied Immigrant Minors.” Chronicle of Social Change, 4 Apr. 2018.  
+* Tiano, Sarah. “Feds Almost Lose One of Its Two Secure Detention Centers for Unaccompanied Immigrant Minors.” *Chronicle of Social Change*, 4 Apr. 2018.  
 [https://chronicleofsocialchange.org/juvenile-justice-2/feds-almost-lose-juvenile-detention-contract-unaccompanied-kids-arriving-border](https://chronicleofsocialchange.org/juvenile-justice-2/feds-almost-lose-juvenile-detention-contract-unaccompanied-kids-arriving-border).
 
 * TRAC Immigration. Detention Facility Reports: Transfers. 2015.  
@@ -166,9 +166,9 @@ https://childrensvillage.org/our-programs/inwood-house/](https://childrensvillag
 * USASpending.gov. “USA Spending - Who’s Getting the Govt’s $$ (e.g. Southwest Key Got ~$1B since 2014).” USASpending.Gov, 2018.  
 [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
 
-* Walters, Edgar, et al. “What We Know about Texas-Regulated Facilities Holding Migrant Children.” Reveal News, 20 June 2018.  
+* Walters, Edgar, et al. “What We Know about Texas-Regulated Facilities Holding Migrant Children.” *Reveal News*, 20 June 2018.  
 [https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/](https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/).
 
-* Ward, Paula Reed, and Ashley Murray. “Child Migrants Separated from Families Being Housed at Holy Family Institute in Emsworth.” The Pittsburgh Post-Gazette.  
+* Ward, Paula Reed, and Ashley Murray. “Child Migrants Separated from Families Being Housed at Holy Family Institute in Emsworth.” *The Pittsburgh Post-Gazette*.  
 [http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074](http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074).
 
