@@ -101,7 +101,7 @@ https://www.risingground.org/program/passage-hope/](https://www.risingground.org
 [https://www.vox.com/2015/2/7/7993273/border-port-map](https://www.vox.com/2015/2/7/7993273/border-port-map).
 
 * MercyFirst. MercyFirst Professional Psychology Internship Training Program.  
-http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
+[http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
 
 * Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” The Washington Post, 14 June 2018.  
 [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
