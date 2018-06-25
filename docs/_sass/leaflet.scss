@@ -132,6 +132,28 @@
   box-shadow: 0px 0px 50px 5px #000000 !important;
 }
 
+.orange-dot, .purple-dot {
+  fill-opacity: 0.8;
+}
+
+.purple-dot {
+  fill: $purple;
+}
+
+.orange-dot {
+  fill: $orange;
+}
+
+.orange-polygon {
+  pointer-events: none;
+  fill: $orange;
+  fill-opacity: 0.5;
+  stroke: $orange;
+  stroke-width: 5;
+  stroke-opacity: 1;
+}
+
+
 @media (min-width: 576px){
   #legend, #orr-legend {
     width: 50vw;

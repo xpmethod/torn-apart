@@ -19,7 +19,7 @@ var rem = parseInt($("html").css("font-size").replace("px", ""));
 var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
 
 // Fire up markdown
-var md = markdownit({html: true}).use(markdownitFootnote);
+// var md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
   $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
@@ -114,17 +114,62 @@ function update_texts() {
   $("body").i18n();
 }
 
+function buildD3Points() {
+  const svg = d3.select(map.getPanes().overlayPane).append("svg")
+    .style("z-index", 210)
+    .style("pointer-events", "none")
+    .attr("width", $( window ).width())
+    .attr("height", $( window ).height())
+    .attr("id", "d3-leaflet-svg");
+  const iceG = svg.append("g").attr("id", "ice-g").classed("leaflet-zoom-hide", true);
+  const dcG = svg.append("g").attr("id", "dc-g").classed("leaflet-zoom-hide", true);
+  iceG.selectAll("circle")
+    .data(iceFacs.filter(d => d.lat !== "NA"))
+    .enter().append("circle")
+    .style("stroke", "black")
+    .classed("orange-dot", true)
+    .classed("ice-dot", true)
+    .attr("data-operator", d => d["Facility.Operator"])
+    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("r", defaultRadius * 2);
+  dcG.selectAll("circle")
+    .data(detCtrs)
+    .enter().append("circle")
+    .style("stroke", "black")
+    .classed("purple-dot", true)
+    .classed("dc-dot", true)
+    .attr("data-operator", d => d["Owner"])
+    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("r", defaultRadius * 1.5);
+
+  map.on("zoomend", d3Update);
+  d3Update();
+}
+
+function d3Update(){
+  [d3.select("#ice-g").selectAll("circle"),
+    d3.select("#dc-g").selectAll("circle")].forEach(feature => {
+    feature.attr("transform", d => {
+      const LL = new L.LatLng(d.lat, d.lon);
+      // const pp = map.latLngToLayerPoint(LL);
+      return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
+    });
+  });
+}
+
 function buildPointsLayer() {
   const indexLayer = L.layerGroup();
   const zeroIceFacsLayer = L.layerGroup();
   const iceFacsLayer = L.layerGroup();
   const detCtrsLayer = L.layerGroup();
+  
   // iterate over the list object
   zeroIceFacs.forEach(place => {
     if(!isNaN(place.lat)){
-      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange, false));
+      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange, false, 0.8));
     }
   });
+
   iceFacs.forEach(place => {
     const detloc = place["DETLOC"];
     const radius = defaultRadius * 2;
@@ -166,18 +211,19 @@ function buildPointsLayer() {
     }
   });
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+  buildD3Points();
   return indexLayer;
 }
 
-function buildCircle(place, radius = 4, color = orange, interactive = true){
+function buildCircle(place, radius = 4, color = orange, interactive = true, opacity = 0){
   const circleStyle = {
     interactive, 
     weight: 1,
     radius: radius,
     color: "#000",
     fillColor: color,
-    fillOpacity: 0.8,
-    opacity: 0.8
+    fillOpacity: opacity,
+    opacity: opacity
   };
   const lat = +place.lat;
   const lng = +place.lon;
@@ -250,8 +296,10 @@ function showViz(viz, map, layers){
     map.removeLayer(layers[1]);
     update_texts();
     buildTrapLegend();
+    $("#d3-leaflet-svg").hide();
     break;
   case "the-eye":
+    $("#d3-leaflet-svg").hide();
     map.dragging.enable();
     $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
@@ -263,6 +311,7 @@ function showViz(viz, map, layers){
     buildTheEye();
     break;
   case "charts":
+    $("#d3-leaflet-svg").show();
     map.dragging.enable();
     $("#legend").hide();
     $("#the-eye-div").hide();
@@ -276,6 +325,7 @@ function showViz(viz, map, layers){
     $("#charts-div").show();
     break;
   case "clinks":
+    $("#d3-leaflet-svg").show();
     map.dragging.enable();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -290,6 +340,7 @@ function showViz(viz, map, layers){
     buildPointsLegend();
     break;
   case "orr":
+    $("#d3-leaflet-svg").hide();
     $("#legend").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -357,21 +408,20 @@ function buildSpark(data) {
 }
 
 function buildTrapLegend(){
-  let legendText = `The border is a trap. Begun in 2005, 
-  [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
-  has criminalized border crossing. 
-  Authorized ports of entry, tiny holes shown here as 15mi wide 
-  [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
-  leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
-  where they are exposed to harsh conditions both from the 
-  environment and law enforcement.`;
-  legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
+  // let legendText = `The border is a trap. Begun in 2005, 
+  // [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
+  // has criminalized border crossing. 
+  // Authorized ports of entry, tiny holes shown here as 15mi wide 
+  // [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
+  // leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
+  // where they are exposed to harsh conditions both from the 
+  // environment and law enforcement.`;
+  // legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
   
   $("#legend").html(() => {
     return `<div class="px-3 py-2">
         <svg class="float-left" height="50" width="50">
-          <rect width="50" height="50" 
-          style="stroke-width:5;fill:${orange};stroke:${orange};fill-opacity:0.5;" />
+          <rect width="50" height="50" class="orange-polygon" />
         </svg>
           <span data-i18n="ta-trap-legend-1">The border is a trap. Begun in 2005,</span>
           <a href="https://en.wikipedia.org/wiki/Operation_Streamline">Operation Streamline</a>
@@ -460,7 +510,12 @@ function buildCharts() {
     const operatorsAdp = { margins: { top: 0, bottom: 0, left: 0, right: 0},
       id: "#operators-adp-svg", number: "adpCount", svgWidth: thirdWidth };
     const mandays = { data: data.map(row => {
-      let name = titleize(row["Name"].replace(/\([^)]*\)/, ""));
+      let name = `<a href="#" class="map-icon d-none d-md-inline"
+        data-latlng="${row.lat},${row.lon}" data-detloc="${row["DETLOC"]}"><i class="fa fa-map"></i></a>&nbsp;`;
+      if(row.lat === "NA"){
+        name = "<i class='fa fa-user-secret'></i>&nbsp;";
+      }
+      name = name + titleize(row["Name"].replace(/\([^)]*\)/, ""));
       const operator = facOperators.filter(o => o.code === row["Facility.Operator"])[0];
       if(operator && operator.name){
         if(operator.url){
@@ -588,6 +643,26 @@ function buildSpreadsheet(mandays){
         return `${Math.floor(d.value * 100)}%`;
       }
     });
+  $(".map-icon").click(function(e) {
+    e.preventDefault();
+    const zoom = 12;
+    const latLon = $( this ).data("latlng").split(",");
+    const pixelCoords = map.project(L.latLng(latLon), zoom);
+    const newCenter = L.point(pixelCoords.x - .25 * $( window ).width(), pixelCoords.y + .35 * $( window ).width());
+    const newlatLng = map.unproject(newCenter, zoom);
+    map.flyTo(newlatLng, zoom);
+    d3.select(`#${$( this ).data("detloc")}-dot`).transition()
+      .delay(1000)
+      .duration(6000)
+      .attr("r", defaultRadius * 6)
+      .style("fill", "red");
+    d3.select(`#${$( this ).data("detloc")}-dot`).transition()
+      .delay(20000)
+      .duration(5000)
+      .attr("r", defaultRadius * 2)
+      .style("fill", orange);
+    
+  });
 }
 
 function prepareORRData() {
