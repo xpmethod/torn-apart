@@ -13,7 +13,6 @@ order: 1
 abstract: "Desde una perspectiva personal esta reflexión enfatiza la importancia de nuevas formas de interpretación, visualización y documentación de la historia de comunidades, como las de Centroamérica y la frontera de México y Estados Unidos, con el fin de concientizar,empoderar y resistir a mecanismos de opresión a través de humanidades movilizadas y digitales conscientes de estas historias."
 language: es
 dcType: article
-permalink: "sylvia_fernandez.html"
 ---
 
 
