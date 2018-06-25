@@ -19,7 +19,7 @@ var rem = parseInt($("html").css("font-size").replace("px", ""));
 var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
 
 // Fire up markdown
-// var md = markdownit({html: true}).use(markdownitFootnote);
+var md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
   $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
@@ -106,7 +106,14 @@ function initMap(mapid){
 }
 
 function update_texts() {
-  $("body").i18n();
+  const q = d3.queue();
+  q.defer(callback => {$("body").i18n(); callback(null);});
+  q.await(function(e){
+    if (e) throw e;
+    $(".markdownify").html(function(){
+      return md.render($( this ).html());
+    });
+  });
 }
 
 function buildD3Points() {
