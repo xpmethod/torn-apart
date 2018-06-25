@@ -34,7 +34,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * Children and Families Administration. “Announcement of the Award of 43 Single-Source Low-Cost Extension Supplement Grants Within the Office of Refugee Resettlement’s Unaccompanied Alien Children’s (UAC) Program.” Federal Register: The Daily Journal of the United States Government, 23 June 2017.  
 [https://www.federalregister.gov/documents/2017/06/23/2017-13081/announcement-of-the-award-of-43-single-source-low-cost-extension-supplement-grants-within-the-office](https://www.federalregister.gov/documents/2017/06/23/2017-13081/announcement-of-the-award-of-43-single-source-low-cost-extension-supplement-grants-within-the-office).
 
-* Colibri Center for Human Rights. “REPORTAR UNA PERSONA DESAPARECIDA EN LA FRONTERA \| REPORT A MISSING PERSON ON THE BORDER.” Colibri Center for Human Rights, 2018.  
+* Colibri Center for Human Rights. “Reportar una Persona Desparecida en la Frontera \| Report a Missing Person on the Border.” Colibri Center for Human Rights, 2018.  
 [http://www.colibricenter.org/report-a-missing-border-crosser/](http://www.colibricenter.org/report-a-missing-border-crosser/).
 
 * Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” The News Tribune, 14 June 2018.  
@@ -89,7 +89,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 https://www.indeed.com/jobs?q=Bethany+Children%27s+Home](https://www.indeed.com/jobs?q=Bethany+Children%27s+Home).
 
 * ---. Reviews on Indeed for Neighbor to Family.  
-https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/review).
+[https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/reviews).
 
 * Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” The Young Turks Network, 28 May 2018.  
 [https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/](https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/).
