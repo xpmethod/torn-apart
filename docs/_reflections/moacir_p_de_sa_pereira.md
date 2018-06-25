@@ -155,4 +155,4 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 ---
 
 {: .bio-slug}
-[Moacir P. de Sá Pereira]([@muziejus](http://twitter.com/muziejus)) is Assistant Professor / Faculty Fellow of English at New York University.
+[Moacir P. de Sá Pereira](http://moacir.com) ([@muziejus](http://twitter.com/muziejus)) is Assistant Professor / Faculty Fellow of English at New York University.
