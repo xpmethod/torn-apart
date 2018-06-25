@@ -20,6 +20,7 @@ dcType: article
 # Lawlessness & Exile
 
 {: .author-credit} 
+
 by [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/)
 
 I confess that I am familiar with both the exilic and the lawlessness in my own personal journey.
