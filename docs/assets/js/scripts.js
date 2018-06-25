@@ -28,18 +28,6 @@ $( document ).ready(() => {
   $(".navbar-toggler").click(() => $("#charts-div").hide());
   $("#legend").click(function(){ $(this).hide(); });
 
-  const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
-  if (locales.length === 0){
-    $.i18n().locale = "en";
-  } else {
-    $.i18n().locale = locales[0];
-  }
-  if ($.i18n().locale === "en") {
-    $(".locale-toggle").html("ES");
-  } else {
-    $(".locale-toggle").html("EN");
-  }
-  update_texts();
 
   if($("#visualizations-mapdiv").length){
     map = initMap("visualizations-mapdiv");
@@ -65,11 +53,18 @@ $( document ).ready(() => {
     pointsLayer.addTo(map);
   }
 
-  // Fire up the d3/svg engine.
-  // These are only really messed with when calling reset();
-  // const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("width", $( window ).width()).attr("height", $( window ).height()),
-  //   g = svg.append("g").attr("class", "leaflet-zoom-hide");
-  // const blackSites = [];
+  const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+  if (locales.length === 0){
+    $.i18n().locale = "en";
+  } else {
+    $.i18n().locale = locales[0];
+  }
+  if ($.i18n().locale === "en") {
+    $(".locale-toggle").html("ES");
+  } else {
+    $(".locale-toggle").html("EN");
+  }
+  update_texts();
 
   $(".locale-button").click(function(e){
     e.preventDefault();
@@ -202,8 +197,8 @@ function buildPointsLayer() {
     src="${place.imgur}">
     <div class="media-body">
     <h5>${place["Name"]}</h5>
-    <p>${place["State"]}<br />
-    <span data-i18n="ta-owned-or-operated-by"></span>: ${place["Owner"]}</p>
+    <p><strong>${place["State"]}</strong></p>
+    <!--<p>${place["Owner"]}</p>-->
     </div>
     `;
     if(!isNaN(place.lat)){
@@ -213,6 +208,7 @@ function buildPointsLayer() {
   });
   indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   buildD3Points();
+  update_texts();
   return indexLayer;
 }
 
