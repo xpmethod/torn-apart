@@ -24,3 +24,5 @@ Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of 
 **[What We Have, What We Can]({{site.baseurl}}/reflections/roopika_risam.html)**.  
 [Roopika Risam](http://roopikarisam.com)  
 Roopika Risam  is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)
+
+<br>
