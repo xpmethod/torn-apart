@@ -38,7 +38,7 @@ permalink: bibliography.html
 
 * Get Social Worker Jobs. A Job Ad (Now Removed) from Get Social Worker Jobs. [https://www.getsocialworkerjobs.com/job-seekers/job-search2.php?kw=&location=&submit=Search&in=&oops=1](https://www.getsocialworkerjobs.com/job-seekers/job-search2.php?kw=&location=&submit=Search&in=&oops=1).
 
-* ---. Job Ad: “Program Director-Migrant Children and Youth Network Galveston & Brazoria.” [https://www.getsocialworkerjobs.com/m/detail.php?job=94873128}(https://www.getsocialworkerjobs.com/m/detail.php?job=94873128).
+* ---. Job Ad: “Program Director-Migrant Children and Youth Network Galveston & Brazoria.” [https://www.getsocialworkerjobs.com/m/detail.php?job=94873128](https://www.getsocialworkerjobs.com/m/detail.php?job=94873128).
 
 * Guerrero, Jean. “Rare Look Inside A Child Migrant Shelter In El Cajon Amid Family Separation Outcry.” KPBS, 15 June 2018, [http://www.kpbs.org/news/2018/jun/15/look-inside-child-migrant-shelter-el-cajon-amid-fa/](http://www.kpbs.org/news/2018/jun/15/look-inside-child-migrant-shelter-el-cajon-amid-fa/).
 
