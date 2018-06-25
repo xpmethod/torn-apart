@@ -50,4 +50,4 @@ The visualizations and data produced by this project, we hope, will let people s
 ---
 
 {: .bio-slug} 
-Manan Ahmed is an Associate Professor in the History Department at Columbia University. He is a not a citizen of United States.
+Manan Ahmed is an Associate Professor in the History Department at Columbia University.
