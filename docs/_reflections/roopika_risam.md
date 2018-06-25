@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "What We Have, What We Can"
+  "long": "What We Have, What We Can"
+  "short": "What We Have, What We Can"
 doi:
 author: 
   creator: "Risam, Roopika"
@@ -15,9 +17,11 @@ language: en
 dcType: article
 ---
 
+### Reflection
 
-## What We Have, What We Can  
-**by Roopika Risam**
+#### What We Have, What We Can  
+
+##### by [Roopika Risam](http://roopikarisam.com)
 
 At Salem State University, our common read for first-year students in 2015 was [*Spare Parts*](https://books.google.com/books?id=on1zAwAAQBAJ&printsec=frontcover&dq=spare+parts&hl=en&sa=X&ved=0ahUKEwjmlpbXnuPbAhUD7oMKHR89CUUQ6AEIKTAA#v=onepage&q=irrigation&f=false), the story of a team of undocumented high school students—Lorenzo Santillan, Luis Aranda, Oscar Vazquez, and Crisitan Arcega—who beat elite college teams, including MIT, in an underwater robotics competition. While teams from universities had funding from corporations like ExxonMobile and access to state-of-the art polymers, the young high school students from Phoenix, Arizona relied on their natural gifts in engineering, along with knowledge gained from watching family members working as gardeners and mechanics. These experiences proved more practical than the academic preparation of an MIT robotics team, despite being a low-tech approach to problem solving.  
 
@@ -36,5 +40,5 @@ Thus, I joined our small team of researchers, many of us immigrants, in the hope
 I like to think, as well, that in its design and execution, this project is a small tribute to young, undocumented people like Lorenzo Santillan, Luis Aranda, Oscar Vazquez, and Crisitan Arcega. Every day, they demonstrate that brilliance, ingenuity, and the ability to put together skills honed in the unlikeliest of places while simply trying to survive can be applied to other problems. In this spirit, through our assemblage of skills, we’ve put together a low-tech project using the tools we have at our disposal for a timely but careful intervention. At a time of political upheaval and obfuscation, our ability to draw on their example and use what we have, to do what we can, is the only way that human dignity will survive. 
 
 ---
-
+{: .bio-slug}
 [Roopika Risam](http://roopikarisam.com) is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018).
