@@ -26,7 +26,7 @@ by [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/)
 I confess that I am familiar with both the exilic and the lawlessness in my own personal journey.
 
 {: .redacted} 
-To be an "illegal" has its own history that inevitably divides those who have never had to experience such an ontology from those who can never know the insecurity from a question: how are you here? There are abstract principle that are imagined in that they are universally applied. For the US, say Free Speech. I grew up in two different kinds of dictatorships-- monarchical and military. I have never had the rights of a citizen in this country and have never imagined myself as participating in any liberal democracy with universal rights. 
+To be an "illegal" has its own history that inevitably divides those who have never had to experience such an ontology from those who can never know the insecurity from a question: how are you here? There are abstract principle that are imagined in that they are universally applied. I grew up in two different kinds of dictatorships-- monarchical and military. I have never had the rights of a citizen in this country and have never imagined myself as participating in any liberal democracy with universal rights. 
 
 {: .redacted} 
 I have however participated in another the exilic republic, in the legal grey zone, where I stand behind the line and wait for a judgement to be rendered, to be allowed in, to look up, to register my biometrics, my fingerprints, my freedom to follow a direct command to walk this way, and sit that way, and wait, wait for the data to be input and the file to be clicked on, for the moments to fall, thuddingly, as my history, of my deeds, where I messed up, and did not have a good answer to the I-94, where each encounter, all my previous words, are clickable with the initial, only an initial, of the investigating officer, the border agent, the judge, the one who has the right to deny you entry, and ban you for ten years (those were simpler times no when Janet Reno was the most terrifying name in my awareness), and there is no end to how long a minute can take. 
@@ -44,7 +44,7 @@ So here we are on an another long day in another long summer at a long border wh
 {: .redacted} 
 for the protection of families not-brown. 
 
-The visualizations and data produced by this project, we hope, will let people see the cartographies in new ways. That is all we are hoping to do. 
+The visualizations and data produced by this project, we hope, will let people see the cartographies of fear. Some will know the maps, and some will, for the first time, see: that is all we are hoping to do. 
 
 
 ---
