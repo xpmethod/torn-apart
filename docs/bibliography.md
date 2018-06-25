@@ -64,13 +64,13 @@ permalink: bibliography.html
 
 * ---. Reviews on Indeed for Neighbor to Family. [https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/review).
 
-* Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” The Young Turks Network, 28 May 2018, (https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/)[https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/].
+* Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” The Young Turks Network, 28 May 2018, [https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/](https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/).
 
-* Leake and Watts. Passages of Hope Program. (https://www.risingground.org/program/passage-hope/)[https://www.risingground.org/program/passage-hope/].
+* Leake and Watts. Passages of Hope Program. [https://www.risingground.org/program/passage-hope/](https://www.risingground.org/program/passage-hope/).
 
-* Lind, Dara. “One Map That Shows the US’ ‘Border’ Is Everywhere.” Vox, 7 Feb. 2015, (https://www.vox.com/2015/2/7/7993273/border-port-map)[https://www.vox.com/2015/2/7/7993273/border-port-map].
+* Lind, Dara. “One Map That Shows the US’ ‘Border’ Is Everywhere.” Vox, 7 Feb. 2015, [https://www.vox.com/2015/2/7/7993273/border-port-map](https://www.vox.com/2015/2/7/7993273/border-port-map).
 
-* MercyFirst. MercyFirst Professional Psychology Internship Training Program. (http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf)[http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf].
+* MercyFirst. MercyFirst Professional Psychology Internship Training Program. [http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
 
 * Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” The Washington Post, 14 June 2018, [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
 
