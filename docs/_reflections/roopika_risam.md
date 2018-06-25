@@ -3,15 +3,19 @@ layout: article
 title: "What We Have, What We Can"
 doi:
 author: 
-  name: Roopika Risam
-  shortname: Risam
+  creator: "Risam, Roopika"
+  name: Risam Roopika
+  shortname: Roopika
   bio: "Roopika Risam is Assistant Professor of English at Salem State University. She is the author of New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy (Northwestern UP, 2018). Her website is [roopikarisam.com](http://roopikarisam.com)"
 date: 2018-06-23
 issue: 1
 order: 1
 abstract: "This reflection speaks to the responsibilities of immigrants whose passages were marked by ease to those being criminalized by the United States government. It further contextualizes the efforts of the *Torn Apart* team in relation to the ingenuity of migrants, whose every day acts of survival are spaces of possibility."
 language: en
+dcType: article
+permalink: "roopika_risam.html"
 ---
+
 
 ## What We Have, What We Can  
 **by Roopika Risam**

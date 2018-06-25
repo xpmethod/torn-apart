@@ -3,14 +3,17 @@ layout: article
 title: "Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica"
 doi:
 author: 
+  creator: "Fernández, Sylvia"
   name: Sylvia Fernández
-  shortname: Fernández
+  shortname: Sylvia
   bio: "Sylvia Fernández is a Ph.D. Candidate in [Hispanic Studies](https://ssl.uh.edu/class/spanish/) at the University of Houston and a Research Fellow with [Recovering the US Hispanic Literary Heritage](https://twitter.com/apprecovery). She is the co-founder of [Borderlands Archives Cartography](https://www.bacartography.org/). Her research is on US Latina/o and Mexican literature with a focus on US-Mexico borderlands, transnational feminisms, postcolonial theory and digital humanities."
-date: 2018-06-23
+  date: 2018-06-23
 issue: 1
 order: 1
 abstract: "Desde una perspectiva personal esta reflexión enfatiza la importancia de nuevas formas de interpretación, visualización y documentación de la historia de comunidades, como las de Centroamérica y la frontera de México y Estados Unidos, con el fin de concientizar,empoderar y resistir a mecanismos de opresión a través de humanidades movilizadas y digitales conscientes de estas historias."
 language: es
+dcType: article
+permalink: "sylvia_fernandez.html"
 ---
 
 
