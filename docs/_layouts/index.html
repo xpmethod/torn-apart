@@ -10,24 +10,24 @@
   <div class="d-none d-md-block">
     <nav id="index-nav" class="nav">
       {% unless page.mapid == "mapdiv" %}
-        <a id="index-button" class="nav-link nav-item" href="index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
+        <a id="index-button" class="nav-link nav-item" href="{{ site.baseurl }}/index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
       {% endunless %}
-      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="visualizations.html#clinks">Visualizations</a>
-      <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="textures.html">Textures</a>
-      <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="reflections.html">Reflections</a>
-      <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="allies.html">Allies</a>
-      <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="bibliography.html">Bibliography</a>
-      <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="credits.html">Credits</a>
-      <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="#">ES</a>
+      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/visualizations.html#clinks">Visualizations</a>
+      <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="{{ site.baseurl }}/textures.html">Textures</a>
+      <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="{{ site.baseurl }}/reflections.html">Reflections</a>
+      <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
+      <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
+      <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
+      <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">ES</a>
     </nav>
   </div>
     {% if page.permalink == "visualizations.html" %}
       <nav id="visualizations-nav" class="nav d-flex justify-content-around justify-content-md-start">
-        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-button nav-item" href="#clinks">Clinks</a>
-        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-button nav-item" href="#the-trap">The Trap</a>
-        <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-button nav-item" href="#the-eye">The Eye</a>
-        <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-button nav-item" href="#charts">Charts</a>
-        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="#orr">ORR</a>
+        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/#clinks">Clinks</a>
+        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/#the-trap">The Trap</a>
+        <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/#the-eye">The Eye</a>
+        <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/#charts">Charts</a>
+        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/#orr">ORR</a>
       </nav>
     {% endif %}
     </div>
