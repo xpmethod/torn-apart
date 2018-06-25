@@ -42,9 +42,7 @@ So here we are on an another long day in another long summer at a long border wh
 {: .redacted} 
 for the protection of families not-brown. 
 
-
 The visualizations and data produced by this project, we hope, will let people see the cartographies in new ways. That is all we are hoping to do. 
-
 
 
 ---
