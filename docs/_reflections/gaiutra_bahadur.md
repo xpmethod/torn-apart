@@ -5,24 +5,24 @@ title:
   "short": ""
 doi:
 author: 
+  creator: "Bahadur, Gaiutra"
   name: Gaiutra Bahadur
   shortname: Bahadur
   bio: ""
   date: 2018-06-23
+  url: 
 issue: 1
 order: 1
 abstract: ""
 language: en
+dcType: article
 ---
 
-### Reflection
-
-
-#### 
-##### by [Gaiutra Bahadur](http://clips.bahadur.ws/)
-
+# 
+{: .author-credit }
+by 
 
 
 ---
 
-> Gaiutra Bahadur is
+{: .bio-slug}
