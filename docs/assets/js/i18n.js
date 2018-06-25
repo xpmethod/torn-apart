@@ -42,15 +42,12 @@ $.i18n().load({
     "ta-number-of-facilities": "Num. of facilities",
     "ta-avg-daily-pop": "Avg. daily population",
     "ta-current-avg-daily-pop": "Current average daily population",
-    "ta-adp-text": "ADP is the Average Daily Population and represents someone in ICE detention. However, this is as fungible a number as any other and depends on Congressional language for 'beds'.",
+    "ta-adp-text": "ADP is the Average Daily Population and represents someone in ICE detention. However, this is as fungible a number as any other and depends on Congressional language for “beds.”",
     "ta-bookins-october-and-november": "Bookins for Oct. and Nov. 2017",
     "ta-bookins-text": "The initial book-ins into detention facilities rate",
-    "ta-fy2017-num": "fy2017 number.",
-    "ta-fy2017-text": "fy2017 text",
     "ta-operators-num": "Operators number.",
-   "ta-operators-text": "The facility can be operated by ICE, GEO, MVM, CCA or other contractors",
+    "ta-operators-text": "The facility can be operated by ICE, GEO, MVM, CCA or other contractors",
     "ta-active-num": "active number.",
-    "ta-active-text": "some active text",
     "ta-name-header": "Facility and Operator",
     "ta-mandays-header": "Mandays",
     "ta-pctDaysInUse-header": "Usage",
@@ -72,7 +69,7 @@ $.i18n().load({
 
   },
 
-"es": {
+  "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
     "ta-sitename": "Separados",
     "ta-visualizations": "Gráfica",
@@ -90,9 +87,11 @@ $.i18n().load({
     "ta-adp": "ADP",
     "ta-facilities": "Instalaciones",
     "ta-bookins": "Registros",
+// I AM IN PORTUNHOL!!!!
     "ta-private-juvenile-detention-facilities": "Instalaciones privadas de detención juveníl",
     "ta-ice-facilities-since-2014": "Instalaciones ICE funcionandas desde 2014",
     "ta-ice-facilities-not-in-use": "Instalaciones actualmente non utilizadas por ICE",
+// NOT ANYMORE
     "ta-clinks-legend-supp-text": "Representación de la infrastructura de encarcelación de inmigrantes en EE. UU.",
     "ta-trap-legend-1": "La frontera es una trampa. Desde 2005,",
     "ta-trap-legend-2": "ha criminalizado el cruce fronterizo. Los puertos de entrada autorizados, mostrados aquí como pequeños huecos de 15 millas,",
@@ -100,7 +99,9 @@ $.i18n().load({
     "ta-trap-legend-4": " y los empujan hacia",
     "ta-trap-legend-5": "la zona fronteriza de 100 millas",
     "ta-trap-legend-6": "donde condiciones duras del medio ambiente y de ICE los oprimen.",
+// I AM A TEMPLATE!!!
     "ta-orr-legend": "Algo en español",
+// NOT ANYMORE
     "ta-5-yrs-of-detention": "Cinco Años de Detención:",
     "ta-ice-facilities-in-use": "Instalaciones de ICE",
     "ta-time-series-text": "Número de personas detenidas basado en datos de los ultimo 4 años. Nuestro esfuerzo es similar a otros similares.",
@@ -108,16 +109,12 @@ $.i18n().load({
     "ta-number-of-facilities": "Num. de instalaciones",
     "ta-avg-daily-pop": "Población media diaria",
     "ta-current-avg-daily-pop": "Población media diaria actual",
-    "ta-adp-text": "ADP es la promedio Población Diaria y representa a alguien en detención de ICE. Sinembargo, este número es relativo y depende de la definición del congreso de una 'cama'.",
+    "ta-adp-text": "ADP es la promedio Población Diaria y representa a alguien en detención de ICE. Sinembargo, este número es relativo y depende de la definición del congreso de una “cama”.",
     "ta-bookins-october-and-november": "Registros Oct-Nov 2017",
     "ta-bookins-text": "Medida inicial de arrestos",
-    "ta-fy2017-num": "Número año fiscal 2017.",
-    "ta-fy2017-text": "fy2017 text",
     "ta-operators-num": "Número de operadores.",
-    "ta-operators-text": "Texto opéradores",
     "ta-active-num": "Número activo.",
-    "ta-active-text": "Algo en español",
-   "ta-operators-text": "La instalación puede ser operada por ICE, GEO, MVM, CCA o otros contratistas",
+    "ta-operators-text": "La instalación puede ser operada por ICE, GEO, MVM, CCA o otros contratistas",
     "ta-name-header": "Instalación y Operador",
     "ta-mandays-header": "Mandays",
     "ta-pctDaysInUse-header": "Uso",
