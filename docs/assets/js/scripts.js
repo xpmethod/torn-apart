@@ -748,7 +748,7 @@ function buildORR(){
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
       .attr("height",$( window ).height()),
-    g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
+    g = svg.append("g");//.classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
 
