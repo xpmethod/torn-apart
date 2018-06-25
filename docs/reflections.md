@@ -25,6 +25,12 @@ Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of 
 by [Roopika Risam](http://roopikarisam.com)
 Roopika Risam is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018)
 
-**[Mapping Maybe]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira.html)**
-by [Moacir P. de Sá Pereira](http://twitter.com/muziejus) is Assistant Professor / Faculty Fellow of English at New York University.
+**[Mapping Maybe]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira.html)**.  
+by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
+Moacir P. de Sá Pereira is Assistant Professor / Faculty Fellow of English at New York University.
+
+**[Lawlessness & Exile]({{site.baseurl}}/reflections/manan_ahmed.html)**.  
+by [Manan Ahmed](http://twitter.com/sepoy).   
+Manan Ahmed is an Associate Professor in the History Department at Columbia University.
+
 <br>
