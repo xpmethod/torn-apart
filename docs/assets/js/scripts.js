@@ -129,6 +129,17 @@ function buildD3Points() {
     .data(iceFacs.filter(d => d.lat !== "NA"))
     .enter().append("circle")
     .style("stroke", "black")
+    .attr("class", d => {
+      const code = d["Facility.Operator"];
+      let group = "GOVT";
+      ["AHTNA (GUARD)", "M&TC", "ICA", "LASALLE CORRECTIONS", "AGS", "AKAL", "CEC", "MVM"].forEach(operator => {
+        if(operator === code){ 
+          group = "OPRIV"; 
+        }
+      });
+      ["CCA", "GEO", "ORR"].forEach(operator => { if(operator === code) group = operator; });
+      return group;
+    })
     .classed("orange-dot", true)
     .classed("ice-dot", true)
     .attr("data-operator", d => d["Facility.Operator"])
@@ -508,7 +519,7 @@ function buildCharts() {
     const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
     const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
     const bookins = { data: [], margins, id: "#bookins-svg", ymax: 900000, i18n: "ta-bookins", showFY: true };
-    const operators = { data: [{taName: "Other Private", facilityCount: 0, adpCount: 0}, {name: "Government", facilityCount: 0, adpCount: 0}], 
+    const operators = { data: [{group: "OPRIV", taName: "Other Private", facilityCount: 0, adpCount: 0}, {group: "GOVT", name: "Government", facilityCount: 0, adpCount: 0}], 
       margins: { top: 0, bottom: 0, left: 0, right: 0},
       id: "#operators-svg", number: "facilityCount", svgWidth: thirdWidth };
     const operatorsAdp = { margins: { top: 0, bottom: 0, left: 0, right: 0},
@@ -572,6 +583,7 @@ function buildCharts() {
     ["GEO", "CCA", "ORR"].forEach( code => {
       const operator = facOperators.filter(o => o.code === code)[0];
       operators.data.push({
+        group: code,
         name: operator.name,
         url: operator.url,
         facilityCount: data.filter(f => f["Facility.Operator"] === code).length,
@@ -603,7 +615,41 @@ function buildCharts() {
         .classed("arc", true);
       arc.append("path")
         .attr("d", path)
-        .attr("fill", d => d.data.color);
+        .attr("class", d => `${d.data.group}-slice`)
+        .attr("data-group", d => d.data.group)
+        .attr("fill", d => d.data.color)
+        .style("stroke-width", 0)
+        .style("stroke", "black")
+        .style("opacity", 0.7)
+        .on("click", function(){
+          const slice = d3.select(this);
+            d3.selectAll(".clicked")
+              .transition().delay(0).duration(250)
+              .style("stroke-width", 0)
+              .style("opacity", "0.7");
+            d3.selectAll(".clicked")
+              .classed("clicked", false);
+          if(slice.classed("ORR-slice")){
+            d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
+              .transition().delay(0).duration(250)
+              .style("fill", orange);
+          } else {
+            if (!slice.classed("clicked")){
+              d3.selectAll(`.${slice.attr("data-group")}-slice`).classed("clicked", true)
+                .transition().delay(0).duration(250)
+                .style("stroke-width", 5)
+                .style("opacity", "1");
+              d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
+                .transition().delay(0).duration(250)
+                .style("fill", orange);
+              const selector = `.ice-dot.${slice.attr("data-group")}`;
+              d3.selectAll(selector).classed("highlighted-dot", true)
+                .transition().delay(125).duration(500)
+                .style("fill", "red");
+            }
+          }
+        });
+          
     });
 
     buildSpreadsheet(mandays);
