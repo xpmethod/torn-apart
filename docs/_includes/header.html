@@ -2,24 +2,45 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <meta property="og:title" content="{{ page.title | default: site.title }} " />
-  <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
-  <meta name="DC.title" content="{{ page.title | default: site.title }}" />
-  <title>{{ page.title | default: site.title }}</title>
-  <!-- <meta name="DC.creator" content="" /> -->
-  <!-- <meta name="twitter:creator" content="" /> -->
-  <meta name="DC.description" content="{{ page.description | default: site.description }}" />
-  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
-  <meta property="og:description" content="{{ page.description | default: site.description }}" />
-  <meta property="description" content="{{ page.description | default: site.description }}" />
-  <meta name="DC.type" content="Text">
-  <meta property="og:type" content="website" />
-  <meta name="DC.created" content="2018-06-22">
-  <meta name="DC.date" content="2018-06-22">
+  <meta property="og:title" content="{{ page.title.long | default: site.title }}" />
+  <meta name="twitter:title" content="{{ page.title.long | default: site.title }}" />
+  <meta name="DC.title" content="{{ page.title.long | default: site.title }}" />
+  <title>{{ page.title.long | default: site.title }}</title>
+  {% if page.author.creator %}
+  <meta name="DC.creator" content="{{page.author.creator}}">
+  {% else %}
+    <meta name="DC.creator" content="Ahmed, Manan">
+    <meta name="DC.creator" content="Álvarez, Maira E.">
+    <meta name="DC.creator" content="Fernández, Sylvia A.">
+    <meta name="DC.creator" content="Gil, Alex">
+    <meta name="DC.creator" content="Martinez, Merisa">
+    <meta name="DC.creator" content="Sá Pereira, Moacir P. de">
+    <meta name="DC.creator" content="Rodriguez, Linda">
+    <meta name="DC.creator" content="Risam, Roopika">
+  {% endif %}
+  <meta name="twitter:creator" content="@elotroalex" />
+  <meta property="description" content="{{ page.abstract | default: site.description }}" />
+  <meta name="DC.description" content="{{ page.abstract | default: site.description }}" />
+  <meta name="twitter:description" content="{{ page.abstract | default: site.description }}" />
+  <meta property="og:description" content="{{ page.abstract | default: site.description }}" />
+  <meta property="og:image" content="https://i.imgur.com/tmhUHk6.jpg" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:height" content="627" />
+  <meta property="og:image:width" content="1200" />
+  {% if page.dcType %}
+  <meta name="DC.type" content="{{ page.dcType }}">
+    <meta property="og:type" content="{{ page.dcType }}" />
+  {% else %}
+    <meta name="DC.type" content="Text">
+    <meta property="og:type" content="website" />
+  {% endif %}
+  <meta name="DC.created" content="2018-06-25">
+  <meta name="DC.date" content="2018-06-25">
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://i.imgur.com/mZUyUCr.jpg" />
   <script type="application/ld+json">
-    {"name":"{{site.title}}","description":"{{ page.description | default: site.description }}","author":null,"@type":"WebPage","url":null,"image":null,"publisher":null,"headline":"{{site.title}}","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}
+    {"name":"{{site.title}}","description":"{{ page.abstract | default: site.description }}","author":null,"@type":"WebPage","url":null,"image":null,"publisher":null,"headline":"{{site.title}}","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}
   </script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="

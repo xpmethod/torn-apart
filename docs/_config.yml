@@ -16,9 +16,7 @@
 title: Torn Apart / Separados
 email: torn-apart@moacir.moacir.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A rapidly deployed critical data & visualization intervention in the USA’s 2018
-  “Zero Tolerance Policy” for asylum seekers at the US Ports of Entry and the
-  humanitarian crisis that has followed.
+  Torn Apart is a curation and visualization of publicly available data concerning ICE, CBP facilities, and usages. Also lists of allied and pro-immigrant facilities.
 baseurl: "/torn-apart" # the subpath of your site, e.g. /blog
 url: "http://xpmethod.plaintext.in" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
