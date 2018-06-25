@@ -6,7 +6,7 @@ permalink: bibliography.html
 # Bibliography
 {: data-i18n="ta-bibliography"}
 
-[Zotero link](https://www.zotero.org/groups/2199147/hummingbird/i)
+Below is a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/i). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society.
 
 ## Data Sources
 
@@ -34,7 +34,7 @@ permalink: bibliography.html
 * Children and Families Administration. “Announcement of the Award of 43 Single-Source Low-Cost Extension Supplement Grants Within the Office of Refugee Resettlement’s Unaccompanied Alien Children’s (UAC) Program.” Federal Register: The Daily Journal of the United States Government, 23 June 2017.  
 [https://www.federalregister.gov/documents/2017/06/23/2017-13081/announcement-of-the-award-of-43-single-source-low-cost-extension-supplement-grants-within-the-office](https://www.federalregister.gov/documents/2017/06/23/2017-13081/announcement-of-the-award-of-43-single-source-low-cost-extension-supplement-grants-within-the-office).
 
-* Colibri Center for Human Rights. “REPORTAR UNA PERSONA DESAPARECIDA EN LA FRONTERA \| REPORT A MISSING PERSON ON THE BORDER.” Colibri Center for Human Rights, 2018.  
+* Colibri Center for Human Rights. “Reportar una Persona Desparecida en la Frontera \| Report a Missing Person on the Border.” Colibri Center for Human Rights, 2018.  
 [http://www.colibricenter.org/report-a-missing-border-crosser/](http://www.colibricenter.org/report-a-missing-border-crosser/).
 
 * Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” The News Tribune, 14 June 2018.  
@@ -86,10 +86,10 @@ permalink: bibliography.html
 [http://www.immigrationdetention.org](http://www.immigrationdetention.org).
 
 * Indeed. Job Ads for Bethany Children’s Home on Indeed.  
-https://www.indeed.com/jobs?q=Bethany+Children%27s+Home](https://www.indeed.com/jobs?q=Bethany+Children%27s+Home).
+[https://www.indeed.com/jobs?q=Bethany+Children%27s+Home](https://www.indeed.com/jobs?q=Bethany+Children%27s+Home).
 
 * ---. Reviews on Indeed for Neighbor to Family.  
-https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/review).
+[https://www.indeed.com/cmp/Neighbor-to-Family/reviews](https://www.indeed.com/cmp/Neighbor-to-Family/reviews).
 
 * Kotch, Alex. “Trump Administration Using Contractors Accused of Abuse to Detain Undocumented Children.” The Young Turks Network, 28 May 2018.  
 [https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/](https://tytnetwork.com/2018/05/28/trump-administration-using-contractors-accused-of-abuse-to-detain-undocumented-children/).
@@ -101,13 +101,13 @@ https://www.risingground.org/program/passage-hope/](https://www.risingground.org
 [https://www.vox.com/2015/2/7/7993273/border-port-map](https://www.vox.com/2015/2/7/7993273/border-port-map).
 
 * MercyFirst. MercyFirst Professional Psychology Internship Training Program.  
-http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
+[http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf](http://videos.mercyfirst.org/wwwTemp/documents/Intern_Brochure_2017.pdf).
 
 * Miller, Michael E., et al. “Inside Casa Padre, the Converted Walmart Where the U.S. Is Holding Nearly 1,500 Immigrant Children.” The Washington Post, 14 June 2018.  
 [https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4](https://www.washingtonpost.com/local/inside-casa-padre-the-converted-walmart-where-the-us-is-holding-nearly-1500-immigrant-children/2018/06/14/0cd65ce4-6eba-11e8-bd50-b80389a4e569_story.html?noredirect=on&utm_term=.e14c71e2c8c4).
 
 * Ministerio de Relaciones Exteriores Informa Sobre Resultados de Visita Realizada a EUA Para Verificar Condiciones de Niñez Migrante Salvadoreña.  
-http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
+[http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18](http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/189-noticias-new-jersey?start=18).
 
 * National Immigration Justice Center. “November 2017 ICE Detention Facility Lists National Immigrant Justice Center.” SCRIBD, 6 Nov. 2017.  
 [https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed](https://www.scribd.com/document/373733514/November-2017-ICE-Detention-Facility-Lists#from_embed).
@@ -119,7 +119,7 @@ http://consuladolosangeles.rree.gob.sv/index.php/component/k2/itemlist/category/
 [https://www.documentcloud.org/documents/4523974-ORR-Capacity-Census-and-Variances-in-Effect-6-18.html](https://www.documentcloud.org/documents/4523974-ORR-Capacity-Census-and-Variances-in-Effect-6-18.html).
 
 * Senate.gov. Appendix.  
-https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf](https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf).
+[https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf](https://www.hsgac.senate.gov/imo/media/doc/2016-01-28%20Final%20Redacted%20Appendix%20-%20for%20Website.pdf).
 
 * Snow, Violet. “Readings Describe Refugee Kids’ Pain and Hope.” Hudson Valley One, 18 Apr. 2017.  
 [https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/](https://hudsonvalleyone.com/2017/04/18/readings-describe-refugee-kids-pain-and-hope/).
@@ -131,7 +131,7 @@ https://www.careerbuilder.com/jobs?company=southwest+key+programs](https://www.c
 http://www.stpjhome.org/employmentopportunities/](http://www.stpjhome.org/employmentopportunities/).
 
 * Texas Department of Family and Protective Services. Licensed Childcare Providers Tx (Includes but Not Limited to Non-Governmental Detention Centers).  
-http://www.dfps.state.tx.us/child_care/search_texas_child_care/ppFacilitySearchResults.asp?res_Care_Flag=T&txt_Operation_Name=&txt_Street_Address=&txt_Location_City=&slt_County=&txt_Zip_Code=&slt_Operation_Type=&slt_Issuance_Type=&btn_facDCSearch=Search&apfs=&gender_served=&slt_Programs_Provided=&chk_Emotional_Disorders=&chk_Mental_Retardation=&chk_Pervasive_Develpmental_Disorder=&chk_Primary_Needs=&chk_Therapeutic_Camp=&chk_Transitional_Living=&chk_Emergency_Care=&chk_Assessment_Services=&pagenum=26](http://www.dfps.state.tx.us/child_care/search_texas_child_care/ppFacilitySearchResults.asp?res_Care_Flag=T&txt_Operation_Name=&txt_Street_Address=&txt_Location_City=&slt_County=&txt_Zip_Code=&slt_Operation_Type=&slt_Issuance_Type=&btn_facDCSearch=Search&apfs=&gender_served=&slt_Programs_Provided=&chk_Emotional_Disorders=&chk_Mental_Retardation=&chk_Pervasive_Develpmental_Disorder=&chk_Primary_Needs=&chk_Therapeutic_Camp=&chk_Transitional_Living=&chk_Emergency_Care=&chk_Assessment_Services=&pagenum=26).
+[https://www.dfps.state.tx.us/child_care/search_texas_child_care/](https://www.dfps.state.tx.us/child_care/search_texas_child_care/).
 
 * The Brownsville Herald. “Texas Inspectors Find Series of Violations at Youth Shelters.” The Brownsville Herald, 12 June 2018.  
 [https://www.brownsvilleherald.com/news/local/texas-inspectors-find-series-of-violations-at-youth-shelters/article_4d2ee338-6e65-11e8-b857-3b5a1864b1b4.html](https://www.brownsvilleherald.com/news/local/texas-inspectors-find-series-of-violations-at-youth-shelters/article_4d2ee338-6e65-11e8-b857-3b5a1864b1b4.html).
@@ -152,7 +152,7 @@ https://childrensvillage.org/our-programs/inwood-house/](https://childrensvillag
 [http://trac.syr.edu/phptools/immigration/charges/deport_filing_charge.php](http://trac.syr.edu/phptools/immigration/charges/deport_filing_charge.php).
 
 * ---. Transfers of ICE Detainees from the Southwest Key - Conroe.  
-http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/](http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/).
+[http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/](http://trac.syr.edu/immigration/detention/201509/SWCONTX/tran/).
 
 * United States District Court Southern District Of New York. 1:18-cv–01453.  
 [https://www.nyclu.org/sites/default/files/field_documents/ecf_1_class_action_complaint_and_petition_for_a_writ_of_habeas_corpus_2018-02-16_00062143xb2d9a.pdf](https://www.nyclu.org/sites/default/files/field_documents/ecf_1_class_action_complaint_and_petition_for_a_writ_of_habeas_corpus_2018-02-16_00062143xb2d9a.pdf).
