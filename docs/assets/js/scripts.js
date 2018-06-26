@@ -120,7 +120,11 @@ function update_texts() {
     $(".click-to-hide a").each(function() {
       $( this ).attr("onclick", "event.stopPropagation();");
     });
-    $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
+    $("a[href^='http']:not(a:has(img))").html(function(i, html){
+      if(!html.match("fa-external-link-alt")){
+        $( this ).append($.parseHTML(externalLinkHTML));
+      }
+    });
     $("a[href^='http']").attr("target", "_blank");
   });
 }
