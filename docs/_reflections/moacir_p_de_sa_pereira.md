@@ -73,10 +73,7 @@ bodies, always surveilling. Each glance, each moment of becoming a morsel in
 the state’s insatiable data-collection maw adds to the weight on the body.
 More exhaustion. Then there are the bodies that [*literally die of
 exhaustion*](https://www.theguardian.com/us-news/2016/dec/07/report-us-border-patrol-desert-weapon-immigrants-mexico)
-because of the logic of the nation-state. In “Big Man,” Berlant writes about
-the fattening of the white body, in how whiteness is becoming “enfleshed.”
-There a different exhaustion awaits, I suppose, as these bodies begin to move
-thickly through space, perturbing and being perturbed by the surroundings.
+because of the logic of the nation-state. 
 
 Flailing itself, of course, exhausts. Can it be otherwise? Yet… maybe this
 time. Maybe this coalition. Maybe this action. This heavy wall isn’t see
@@ -142,7 +139,7 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 
 [^agamben3]: Agamben, 181.
 
-[^yerba-buena]: On zits, consider the unsettled persona looking to stop her own genre flailing through what Urayoán Noel calls Sandra Maria Esteves’s “organic poetics”: “[I got up this morning to brush my teeth](http://www.sandraesteves.com/images/480_Yerba_Buena_p31.jpg) / and found seven new pimples on my face / The first pimple was green / had a picture of george washington / smiled at me a long time saying it was my friend / but when I squeezed it / it was full of war and blood.” Noel, _In Visible Movement: Nuyorican Poetry from the Sixties to Slam_ (Iowa City, University of Iowa Press: 2014), 75–82 and Esteves, “Staring into the eye of truth,” in _Yerba buena: dibujos y poemas_ (Greenfield Center, NY: Greenfield Review, 1980), 44.  Note especially how crisis and the various modes of flailing themselves reproduce themselves in the persona’s body, on her face, while she looks below, to the humus, to ground and stop the flailing. For grounding in terms of geographical visualization, see LaDona Knigge and Meghan Cope, “Grounded Visualization: Integrating the Analysis of Qualitative and Quantitative Data through Grounded Theory and Visualization,” _Environment and Planning A_ 31.11 (2006), 2021–2037.
+[^yerba-buena]: On zits, consider the unsettled persona looking to stop her own genre flailing through what Urayoán Noel calls Sandra Maria Esteves’s “organic poetics”: “[I got up this morning to brush my teeth](http://www.sandraesteves.com/images/480_Yerba_Buena_p31.jpg) / and found seven new pimples on my face / The first pimple was green / had a picture of george washington / smiled at me a long time saying it was my friend / but when I squeezed it / it was full of war and blood.” Noel, _In Visible Movement: Nuyorican Poetry from the Sixties to Slam_ (Iowa City, University of Iowa Press: 2014), 75–82 and Esteves, “Staring into the eye of truth,” in _Yerba buena: dibujos y poemas_ (Greenfield Center, NY: Greenfield Review, 1980), 44.  Note especially how crisis and the various modes of flailing themselves reproduce themselves in the persona’s body, on her face, while she looks below, to the humus, to ground and stop the flailing. For grounding in terms of geographical visualization, see LaDona Knigge and Meghan Cope, “Grounded Visualization: Integrating the Analysis of Qualitative and Quantitative Data through Grounded Theory and Visualization,” _Environment and Planning A_ 31.11 (2006), 2021–2037 [http://dx.doi.org/10.1068/a37327](http://dx.doi.org/10.1068/a37327).
 
 [^drucker1]: Johanna Drucker, _Graphesis: Visual Forms of Knowledge Production_ (Cambridge, MA: MIT Press, 2014), 136.
 
@@ -152,7 +149,7 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 
 [^haraway]: Donna Haraway, “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,” in _Simians, Cyborgs, and Women: the Reinvention of Nature_ Donna Haraway (New York: Routledge, 1991), 188, 189.
 
-[^fuck]: Haraway’s Eye “fucks the world to make techno-monsters,” of course, but I prefer, optimistically, to thinking of ourselves as just [getting screwed](https://youtu.be/fgSpeV-bklk). But that’s for a different now.
+[^fuck]: Haraway’s Eye “fucks the world to make techno-monsters,” of course, but I prefer, optimistically, to think of ourselves as just [getting screwed](https://youtu.be/fgSpeV-bklk). But that’s for a different now.
 
 ---
 

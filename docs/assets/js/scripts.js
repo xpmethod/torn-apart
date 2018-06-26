@@ -1,10 +1,6 @@
 /* global s, blacksites, facOperators imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
-// jQuery available as $
-// Leaflet available as L
-// Turf available as turf
-// Markdown-it available as markdownit
-// d3 available as d3
 
+// More globals
 var map;
 var defaultRadius;
 if (L.Browser.mobile) {
@@ -16,51 +12,66 @@ var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 var rem = parseInt($("html").css("font-size").replace("px", ""));
-var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
-
-// Fire up markdown
-var md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
-  $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
-  $("a[href^='http']").attr("target", "_blank");
+  initPages();
+  initI18n();
+  formatRedacted();  
+  formatFootnotes();
+});
 
-  $(".navbar-toggler").click(() => $("#charts-div").hide());
+function initPages(){
+  if($("#mapdiv").length) initIndex();
+  if($("#visualizations-mapdiv").length) initVisualizations();
+  if($("#textures-full-text-1").length) initTextures();
+}
+
+function initIndex(){
+  $("#indexModal").modal("show");
+  map = initMap("mapdiv");
   $("#legend").click(function(){ $(this).hide(); });
+  buildPointsLegend();
+  const pointsLayer = buildPointsLayer();
+  pointsLayer.addTo(map);
+}
 
-  $(".redacted").html(function(i, html){
-    const textArray = html.split(" ");
-    return textArray.map(text => `<span class="redacted-span">${text}</span>`).join(" ");
+function initVisualizations(){
+  $(".navbar-toggler").click(() => $("#charts-div").hide());
+  map = initMap("visualizations-mapdiv");
+  $("#legend").click(function(){ $(this).hide(); });
+  const theViz = window.location.href.replace(/^.*#/, "");
+  $("[href='#" + theViz + "']").addClass("active");
+  const bufferLayer = buildBufferLayer();
+  const detentionCentersLayer = buildPointsLayer();
+  showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
+  $(".viz-button").click(function() {
+    $(".viz-button").removeClass("active");
+    $( this ).addClass("active");
+    showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
   });
+}
 
-  $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
-  $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
-
-  if($("#visualizations-mapdiv").length){
-    map = initMap("visualizations-mapdiv");
-    const theViz = window.location.href.replace(/^.*#/, "");
-    $("[href='#" + theViz + "']").addClass("active");
-    const bufferLayer = buildBufferLayer();
-    const detentionCentersLayer = buildPointsLayer();
-    showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
-    $(".viz-button").click(function() {
-      $(".viz-button").removeClass("active");
-      $( this ).addClass("active");
-      showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
+function initTextures(){
+// #IMGTAG#
+  // const q = d3.queue();
+  const textures = {};
+  d3.queue()
+    .defer(callback => {
+      buildTexturesMessages(callback, textures, "en");
+    })
+    .defer(callback => {
+      buildTexturesMessages(callback, textures, "es");
+    })
+    .awaitAll(e => {
+      if (e) throw e;
+      $.i18n().load(textures);      
+      update_texts();
     });
+}
 
-  }
-  
-  if($("#mapdiv").length){
-    // #mapdiv is only on index, so… show the modal.
-    $("#indexModal").modal("show");
-    map = initMap("mapdiv");
-    buildPointsLegend();
-    const pointsLayer = buildPointsLayer();
-    pointsLayer.addTo(map);
-  }
-
+function initI18n(){
   const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+
   if (locales.length === 0){
     $.i18n().locale = "en";
   } else {
@@ -94,8 +105,7 @@ $( document ).ready(() => {
     update_texts();
     moveLegend();
   });
-
-}); // close document.ready()
+}
 
 function initMap(mapid){
   map = L.map(mapid, { 
@@ -113,13 +123,24 @@ function initMap(mapid){
 }
 
 function update_texts() {
+  const md = markdownit({html: true}).use(markdownitFootnote);
+  const externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
   const q = d3.queue();
   q.defer(callback => {$("body").i18n(); callback(null);});
   q.await(function(e){
     if (e) throw e;
-    $(".markdownify").html(function(){
-      return md.render($( this ).html());
+    $(".markdownify").html((i, html) => {
+      return md.render(html);
     });
+    $(".click-to-hide a").each(function() {
+      $( this ).attr("onclick", "event.stopPropagation();");
+    });
+    $("a[href^='http']:not(a:has(img))").html(function(i, html){
+      if(!html.match("fa-external-link-alt")){
+        $( this ).append($.parseHTML(externalLinkHTML));
+      }
+    });
+    $("a[href^='http']").attr("target", "_blank");
   });
 }
 
@@ -255,6 +276,7 @@ function buildCircle(place, radius = 4, color = orange, interactive = true, opac
 function buildBufferLayer(){
   const layer = L.layerGroup();
   const buffer = L.geoJSON(bufferGeoJSON, { 
+    interactive: false,
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
   });
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
@@ -291,8 +313,8 @@ function buildTheEye() {
   $(".eye-tile-div").click(function(){
     $(".eye-img").css("border-width", "3px");
     const pixelCoords = map.project(L.latLng($( this ).data("lat"), $( this ).data("lon")), 15);
-    const imgfromOrigin = [$( this ).position().left + 64 - $( window ).width() / 2, 
-      $( window ).height() / 2 - $( this ).position().top - 64];
+    const imgfromOrigin = [$( this ).position().left + 32 - $( window ).width() / 2, 
+      $( window ).height() / 2 - $( this ).position().top - 128];
     const newCenter = L.point(pixelCoords.x - imgfromOrigin[0], pixelCoords.y + imgfromOrigin[1]);
     const newlatlng = map.unproject(newCenter, 15);
     $( this ).removeClass("eye-tile-div").css("transform", "none");
@@ -430,29 +452,8 @@ function buildSpark(data) {
 }
 
 function buildTrapLegend(){
-  // let legendText = `The border is a trap. Begun in 2005, 
-  // [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
-  // has criminalized border crossing. 
-  // Authorized ports of entry, tiny holes shown here as 15mi wide 
-  // [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
-  // leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
-  // where they are exposed to harsh conditions both from the 
-  // environment and law enforcement.`;
-  // legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
-  
-  $("#legend").html(() => {
-    return `<div class="px-3 py-2">
-        <svg class="float-left" height="50" width="50">
-          <rect width="50" height="50" class="orange-polygon" />
-        </svg>
-          <span data-i18n="ta-trap-legend-1">The border is a trap. Begun in 2005,</span>
-          <a href="https://en.wikipedia.org/wiki/Operation_Streamline">Operation Streamline</a>
-          <span data-i18n="ta-trap-legend-2">has criminalized border crossing. Authorized ports of entry,
-          tiny holes shown here as 15mi-wide</span> <a href="https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c" data-i18n="ta-trap-legend-3">turn back asylum seekers</a><span data-i18n="ta-trap-legend-4">, leading seekers into the</span>
-          <a href="https://www.aclu.org/other/constitution-100-mile-border-zone" data-i18n="ta-trap-legend-5">100-mile-wide border zone</a>
-          <span data-i18n="ta-trap-legend-6">where they are exposed to harsh conditions both from the environment and law enforcement.</span>
-    </div>`;
-  });
+  $("#legend").html("<div class='px-3 py-2'><svg class='float-left' height='40' width='50'><rect width='50' height='40' class='orange-polygon' /></svg><span data-i18n='ta-trap-legend' class='markdownify'></span></div>");
+  update_texts();
   moveLegend();
   $("#legend").show();
 }
@@ -500,10 +501,9 @@ function buildPointsLegend(){
         </div>
       </div>
     </div>
-    <div class="mx-3" data-i18n="ta-clinks-legend-supp-text">
-      We are not showing the addresses of ICE facilities currently not in use. However, this is the full landscape of incarceration for those deemed without papers.
-    </div>`;
+    <p class="mx-3 mb-2" data-i18n="ta-clinks-legend-supp-text"></p>`;
   });
+  update_texts();
   moveLegend();
   $("#legend").show();
 }
@@ -640,12 +640,12 @@ function buildCharts() {
             .transition().delay(0).duration(250)
             .style("stroke-width", 0)
             .style("opacity", "0.7");
-          d3.selectAll(".clicked")
-            .classed("clicked", false);
           if(slice.classed("ORR-slice")){
             d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
               .transition().delay(0).duration(250)
               .style("fill", orange);
+            d3.selectAll(".clicked")
+              .classed("clicked", false);
           } else {
             if (!slice.classed("clicked")){
               d3.selectAll(`.${slice.attr("data-group")}-slice`).classed("clicked", true)
@@ -656,13 +656,19 @@ function buildCharts() {
                 .transition().delay(0).duration(250)
                 .style("fill", orange);
               const selector = `.ice-dot.${slice.attr("data-group")}`;
-              // d3.select("#ice-g").selectAll("circle").each(function(d){
-              //   console.log(d);
-              // });
               d3.selectAll(selector).classed("highlighted-dot", true)
                 .moveToFront()
                 .transition().delay(100).duration(500)
                 .style("fill", "red");
+            } else {
+              slice.transition().delay(0).duration(250)
+                .style("stroke-width", 0)
+                .style("opacity", "0.7");
+              d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
+                .transition().delay(0).duration(250)
+                .style("fill", orange);
+              d3.selectAll(".clicked")
+                .classed("clicked", false);
             }
           }
         });
@@ -748,7 +754,7 @@ function buildORR(){
   const svg = d3.select("#orr-div").append("svg")
       .attr("width", $( window ).width())
       .attr("height",$( window ).height()),
-    g = svg.append("g").classed("leaflet-zoom-hide", true).classed("chartLayer", true);
+    g = svg.append("g");//.classed("leaflet-zoom-hide", true).classed("chartLayer", true);
 
   const data = prepareORRData();
 
@@ -786,5 +792,23 @@ function fleeMouse(){
   d3.select(this).attr("transform", `translate(${d3.randomNormal(0, 25)()},${d3.randomNormal(0, 25)()})`); 
 }
 
+function formatRedacted(){
+  $(".redacted").html((i, html) => html.split(" ").map(text => `<span class="redacted-span">${text}</span>`).join(" "));
+}
 
+function formatFootnotes(){
+  $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
+  $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
+}
+
+function buildTexturesMessages(callback, textures, lang){
+  textures[lang] = {};
+  $.ajax({ url: `assets/markdown/textures_${lang}.md` })
+    .done( data => { 
+      data.split("#IMGTAG#").forEach((chunk, i) => {
+        textures[lang][`ta-textures-full-text-${i + 1}`] = chunk;
+      });
+      callback(null);
+    });
+}
 
