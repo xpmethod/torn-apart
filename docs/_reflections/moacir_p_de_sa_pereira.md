@@ -73,10 +73,7 @@ bodies, always surveilling. Each glance, each moment of becoming a morsel in
 the state’s insatiable data-collection maw adds to the weight on the body.
 More exhaustion. Then there are the bodies that [*literally die of
 exhaustion*](https://www.theguardian.com/us-news/2016/dec/07/report-us-border-patrol-desert-weapon-immigrants-mexico)
-because of the logic of the nation-state. In “Big Man,” Berlant writes about
-the fattening of the white body, in how whiteness is becoming “enfleshed.”
-There a different exhaustion awaits, I suppose, as these bodies begin to move
-thickly through space, perturbing and being perturbed by the surroundings.
+because of the logic of the nation-state. 
 
 Flailing itself, of course, exhausts. Can it be otherwise? Yet… maybe this
 time. Maybe this coalition. Maybe this action. This heavy wall isn’t see
