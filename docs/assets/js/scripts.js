@@ -16,15 +16,11 @@ var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 var rem = parseInt($("html").css("font-size").replace("px", ""));
-var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
 
 // Fire up markdown
 var md = markdownit({html: true}).use(markdownitFootnote);
 
 $( document ).ready(() => {
-  $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
-  $("a[href^='http']").attr("target", "_blank");
-
   $(".navbar-toggler").click(() => $("#charts-div").hide());
   $("#legend").click(function(){ $(this).hide(); });
 
@@ -113,6 +109,7 @@ function initMap(mapid){
 }
 
 function update_texts() {
+  var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
   const q = d3.queue();
   q.defer(callback => {$("body").i18n(); callback(null);});
   q.await(function(e){
@@ -120,6 +117,11 @@ function update_texts() {
     $(".markdownify").html(function(){
       return md.render($( this ).html());
     });
+    $(".click-to-hide a").each(function() {
+      $( this ).attr("onclick", "event.stopPropagation();");
+    });
+    $("a[href^='http']:not(a:has(img))").append($.parseHTML(externalLinkHTML));
+    $("a[href^='http']").attr("target", "_blank");
   });
 }
 
@@ -430,29 +432,8 @@ function buildSpark(data) {
 }
 
 function buildTrapLegend(){
-  // let legendText = `The border is a trap. Begun in 2005, 
-  // [Operation Streamline](https://en.wikipedia.org/wiki/Operation_Streamline) 
-  // has criminalized border crossing. 
-  // Authorized ports of entry, tiny holes shown here as 15mi wide 
-  // [turn back asylum seekers](https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c),
-  // leading seekers into the [100-mile wide border zone](https://www.aclu.org/other/constitution-100-mile-border-zone) 
-  // where they are exposed to harsh conditions both from the 
-  // environment and law enforcement.`;
-  // legendText = md.render(legendText).replace(/href/g, "onclick='event.stopPropagation();' target='_blank' href").replace(/<\/a>/g, `${externalLinkHTML}</a>`);
-  
-  $("#legend").html(() => {
-    return `<div class="px-3 py-2">
-        <svg class="float-left" height="50" width="50">
-          <rect width="50" height="50" class="orange-polygon" />
-        </svg>
-          <span data-i18n="ta-trap-legend-1">The border is a trap. Begun in 2005,</span>
-          <a href="https://en.wikipedia.org/wiki/Operation_Streamline">Operation Streamline</a>
-          <span data-i18n="ta-trap-legend-2">has criminalized border crossing. Authorized ports of entry,
-          tiny holes shown here as 15mi-wide</span> <a href="https://www.washingtonpost.com/world/national-security/at-the-us-border-asylum-seekers-fleeing-violence-are-told-to-come-back-later/2018/06/12/79a12718-6e4d-11e8-afd5-778aca903bbe_story.html?utm_term=.1caf2e540b8c" data-i18n="ta-trap-legend-3">turn back asylum seekers</a><span data-i18n="ta-trap-legend-4">, leading seekers into the</span>
-          <a href="https://www.aclu.org/other/constitution-100-mile-border-zone" data-i18n="ta-trap-legend-5">100-mile-wide border zone</a>
-          <span data-i18n="ta-trap-legend-6">where they are exposed to harsh conditions both from the environment and law enforcement.</span>
-    </div>`;
-  });
+  $("#legend").html("<div class='px-3 py-2'><svg class='float-left' height='40' width='50'><rect width='50' height='40' class='orange-polygon' /></svg><span data-i18n='ta-trap-legend' class='markdownify'></span></div>");
+  update_texts();
   moveLegend();
   $("#legend").show();
 }
@@ -500,10 +481,9 @@ function buildPointsLegend(){
         </div>
       </div>
     </div>
-    <div class="mx-3" data-i18n="ta-clinks-legend-supp-text">
-      We are not showing the addresses of ICE facilities currently not in use. However, this is the full landscape of incarceration for those deemed without papers.
-    </div>`;
+    <p class="mx-3 mb-2" data-i18n="ta-clinks-legend-supp-text"></p>`;
   });
+  update_texts();
   moveLegend();
   $("#legend").show();
 }
