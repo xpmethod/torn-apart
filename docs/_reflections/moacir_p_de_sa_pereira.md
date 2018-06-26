@@ -149,7 +149,7 @@ flatten them for printing in _U. S. Fucking A. Today_. Yet maybe this time.
 
 [^haraway]: Donna Haraway, “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,” in _Simians, Cyborgs, and Women: the Reinvention of Nature_ Donna Haraway (New York: Routledge, 1991), 188, 189.
 
-[^fuck]: Haraway’s Eye “fucks the world to make techno-monsters,” of course, but I prefer, optimistically, to thinking of ourselves as just [getting screwed](https://youtu.be/fgSpeV-bklk). But that’s for a different now.
+[^fuck]: Haraway’s Eye “fucks the world to make techno-monsters,” of course, but I prefer, optimistically, to think of ourselves as just [getting screwed](https://youtu.be/fgSpeV-bklk). But that’s for a different now.
 
 ---
 
