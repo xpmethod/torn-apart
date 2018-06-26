@@ -12,8 +12,6 @@ var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 var rem = parseInt($("html").css("font-size").replace("px", ""));
-var md = markdownit({html: true}).use(markdownitFootnote);
-// var md = new kramed.Renderer();
 
 $( document ).ready(() => {
   initPages();
@@ -25,7 +23,7 @@ $( document ).ready(() => {
 function initPages(){
   if($("#mapdiv").length) initIndex();
   if($("#visualizations-mapdiv").length) initVisualizations();
-  if($("#textures-full-text").length) initTextures();
+  if($("#textures-full-text-1").length) initTextures();
 }
 
 function initIndex(){
@@ -54,23 +52,21 @@ function initVisualizations(){
 }
 
 function initTextures(){
-  const q = d3.queue();
+// #IMGTAG#
+  // const q = d3.queue();
   const textures = {};
-  q.defer(callback => {
-    $.ajax({ url: "assets/markdown/textures_en.md" })
-      .done( data => { textures.en = data; callback(null); });
-  });
-  q.defer(callback => {
-    $.ajax({ url: "assets/markdown/textures_es.md" })
-      .done( data => { textures.es = data; callback(null); });
-  });
-  q.await(e => {
-    if (e) throw e;
-    // console.log(textures.en.slice(1140, 1150));
-    $.i18n().load( { en: {"ta-textures-full-text": textures.en },
-      es: {"ta-textures-full-text": textures.es } });
-    update_texts();
-  });
+  d3.queue()
+    .defer(callback => {
+      buildTexturesMessages(callback, textures, "en");
+    })
+    .defer(callback => {
+      buildTexturesMessages(callback, textures, "es");
+    })
+    .awaitAll(e => {
+      if (e) throw e;
+      $.i18n().load(textures);      
+      update_texts();
+    });
 }
 
 function initI18n(){
@@ -126,8 +122,8 @@ function initMap(mapid){
   return map;
 }
 
-function update_texts(divArray = null) {
-  divArray;
+function update_texts() {
+  const md = markdownit({html: true}).use(markdownitFootnote);
   const externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
   const q = d3.queue();
   q.defer(callback => {$("body").i18n(); callback(null);});
@@ -280,6 +276,7 @@ function buildCircle(place, radius = 4, color = orange, interactive = true, opac
 function buildBufferLayer(){
   const layer = L.layerGroup();
   const buffer = L.geoJSON(bufferGeoJSON, { 
+    interactive: false,
     style() { return { color: orange, fillColor: orange, fillOpacity: 0.5 } ; }
   });
   const pointsOfEntry = L.geoJSON(pointsOfEntryGeoJSON, {
@@ -643,12 +640,12 @@ function buildCharts() {
             .transition().delay(0).duration(250)
             .style("stroke-width", 0)
             .style("opacity", "0.7");
-          d3.selectAll(".clicked")
-            .classed("clicked", false);
           if(slice.classed("ORR-slice")){
             d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
               .transition().delay(0).duration(250)
               .style("fill", orange);
+            d3.selectAll(".clicked")
+              .classed("clicked", false);
           } else {
             if (!slice.classed("clicked")){
               d3.selectAll(`.${slice.attr("data-group")}-slice`).classed("clicked", true)
@@ -659,13 +656,19 @@ function buildCharts() {
                 .transition().delay(0).duration(250)
                 .style("fill", orange);
               const selector = `.ice-dot.${slice.attr("data-group")}`;
-              // d3.select("#ice-g").selectAll("circle").each(function(d){
-              //   console.log(d);
-              // });
               d3.selectAll(selector).classed("highlighted-dot", true)
                 .moveToFront()
                 .transition().delay(100).duration(500)
                 .style("fill", "red");
+            } else {
+              slice.transition().delay(0).duration(250)
+                .style("stroke-width", 0)
+                .style("opacity", "0.7");
+              d3.selectAll(".highlighted-dot").classed("highlighted-dot", false)
+                .transition().delay(0).duration(250)
+                .style("fill", orange);
+              d3.selectAll(".clicked")
+                .classed("clicked", false);
             }
           }
         });
@@ -796,5 +799,16 @@ function formatRedacted(){
 function formatFootnotes(){
   $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
   $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
+}
+
+function buildTexturesMessages(callback, textures, lang){
+  textures[lang] = {};
+  $.ajax({ url: `assets/markdown/textures_${lang}.md` })
+    .done( data => { 
+      data.split("#IMGTAG#").forEach((chunk, i) => {
+        textures[lang][`ta-textures-full-text-${i + 1}`] = chunk;
+      });
+      callback(null);
+    });
 }
 
