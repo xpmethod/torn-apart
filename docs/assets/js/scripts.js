@@ -1,10 +1,6 @@
 /* global s, blacksites, facOperators imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
-// jQuery available as $
-// Leaflet available as L
-// Turf available as turf
-// Markdown-it available as markdownit
-// d3 available as d3
 
+// More globals
 var map;
 var defaultRadius;
 if (L.Browser.mobile) {
@@ -16,47 +12,70 @@ var green = "#66c2a5";
 var orange = "#fc8d62";
 var purple = "#8da0cb";
 var rem = parseInt($("html").css("font-size").replace("px", ""));
-
-// Fire up markdown
 var md = markdownit({html: true}).use(markdownitFootnote);
+// var md = new kramed.Renderer();
 
 $( document ).ready(() => {
-  $(".navbar-toggler").click(() => $("#charts-div").hide());
+  initPages();
+  initI18n();
+  formatRedacted();  
+  formatFootnotes();
+});
+
+function initPages(){
+  if($("#mapdiv").length) initIndex();
+  if($("#visualizations-mapdiv").length) initVisualizations();
+  if($("#textures-full-text").length) initTextures();
+}
+
+function initIndex(){
+  $("#indexModal").modal("show");
+  map = initMap("mapdiv");
   $("#legend").click(function(){ $(this).hide(); });
+  buildPointsLegend();
+  const pointsLayer = buildPointsLayer();
+  pointsLayer.addTo(map);
+}
 
-  $(".redacted").html(function(i, html){
-    const textArray = html.split(" ");
-    return textArray.map(text => `<span class="redacted-span">${text}</span>`).join(" ");
+function initVisualizations(){
+  $(".navbar-toggler").click(() => $("#charts-div").hide());
+  map = initMap("visualizations-mapdiv");
+  $("#legend").click(function(){ $(this).hide(); });
+  const theViz = window.location.href.replace(/^.*#/, "");
+  $("[href='#" + theViz + "']").addClass("active");
+  const bufferLayer = buildBufferLayer();
+  const detentionCentersLayer = buildPointsLayer();
+  showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
+  $(".viz-button").click(function() {
+    $(".viz-button").removeClass("active");
+    $( this ).addClass("active");
+    showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
   });
+}
 
-  $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
-  $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
+function initTextures(){
+  const q = d3.queue();
+  const textures = {};
+  q.defer(callback => {
+    $.ajax({ url: "assets/markdown/textures_en.md" })
+      .done( data => { textures.en = data; callback(null); });
+  });
+  q.defer(callback => {
+    $.ajax({ url: "assets/markdown/textures_es.md" })
+      .done( data => { textures.es = data; callback(null); });
+  });
+  q.await(e => {
+    if (e) throw e;
+    // console.log(textures.en.slice(1140, 1150));
+    $.i18n().load( { en: {"ta-textures-full-text": textures.en },
+      es: {"ta-textures-full-text": textures.es } });
+    update_texts();
+  });
+}
 
-  if($("#visualizations-mapdiv").length){
-    map = initMap("visualizations-mapdiv");
-    const theViz = window.location.href.replace(/^.*#/, "");
-    $("[href='#" + theViz + "']").addClass("active");
-    const bufferLayer = buildBufferLayer();
-    const detentionCentersLayer = buildPointsLayer();
-    showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
-    $(".viz-button").click(function() {
-      $(".viz-button").removeClass("active");
-      $( this ).addClass("active");
-      showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
-    });
-
-  }
-  
-  if($("#mapdiv").length){
-    // #mapdiv is only on index, so… show the modal.
-    $("#indexModal").modal("show");
-    map = initMap("mapdiv");
-    buildPointsLegend();
-    const pointsLayer = buildPointsLayer();
-    pointsLayer.addTo(map);
-  }
-
+function initI18n(){
   const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+
   if (locales.length === 0){
     $.i18n().locale = "en";
   } else {
@@ -90,8 +109,7 @@ $( document ).ready(() => {
     update_texts();
     moveLegend();
   });
-
-}); // close document.ready()
+}
 
 function initMap(mapid){
   map = L.map(mapid, { 
@@ -108,14 +126,15 @@ function initMap(mapid){
   return map;
 }
 
-function update_texts() {
-  var externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
+function update_texts(divArray = null) {
+  divArray;
+  const externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
   const q = d3.queue();
   q.defer(callback => {$("body").i18n(); callback(null);});
   q.await(function(e){
     if (e) throw e;
-    $(".markdownify").html(function(){
-      return md.render($( this ).html());
+    $(".markdownify").html((i, html) => {
+      return md.render(html);
     });
     $(".click-to-hide a").each(function() {
       $( this ).attr("onclick", "event.stopPropagation();");
@@ -770,5 +789,12 @@ function fleeMouse(){
   d3.select(this).attr("transform", `translate(${d3.randomNormal(0, 25)()},${d3.randomNormal(0, 25)()})`); 
 }
 
+function formatRedacted(){
+  $(".redacted").html((i, html) => html.split(" ").map(text => `<span class="redacted-span">${text}</span>`).join(" "));
+}
 
+function formatFootnotes(){
+  $(".footnotes").prepend("<hr><h2 class='footnotes-header'>Footnotes</h2>");
+  $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
+}
 
