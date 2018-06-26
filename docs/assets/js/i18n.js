@@ -10,6 +10,8 @@ $.i18n().load({
   "en": {
     "ta-index-modal": "A rapidly deployed critical data & visualization intervention in the USA’s 2018 “Zero Tolerance Policy” for asylum seekers at the US Ports of Entry and the humanitarian crisis that has followed.",
     "ta-sitename": "Torn Apart",
+    "ta-page-not-found": "Page not found :(",
+    "ta-requested-page-could-not-be-found": "The requested page could not be found.",
     "ta-visualizations": "Visualizations",
     "ta-textures": "Textures",
     "ta-reflections": "Reflections",
@@ -67,6 +69,8 @@ $.i18n().load({
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
     "ta-sitename": "Separados",
+    "ta-page-not-found": "Página no encontrada",
+    "ta-requested-page-could-not-be-found": "La página solicitada no se encontró en el servidor.",
     "ta-visualizations": "Gráfica",
     "ta-textures": "Texturas",
     "ta-reflections": "Reflexiones",
