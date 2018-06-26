@@ -64,8 +64,8 @@ blockquote {
     margin: 0
   }
 
-  margin: 1rem 0 1rem 4rem;
-  padding: .5rem 0 .5rem 4rem;
+  margin: 1rem 0 1rem 2rem;
+  padding: .5rem 0 .5rem 2rem;
   border-left: 5px solid $green;
   color: #999999;
   font-style: italic;
@@ -104,6 +104,10 @@ main img {
 @media (min-width: 576px){
   .figure-portrait {
     width: 44%;
+  }
+  blockquote {
+    margin-left: 4rem;
+    padding-left: 4rem;
   }
 }
 
