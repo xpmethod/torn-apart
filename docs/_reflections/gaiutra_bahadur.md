@@ -45,5 +45,5 @@ To resist official mapping, as undocumented immigrants know, can also be an act 
 ---
 
 {: .bio-slug}
-BIO
+
 Gaiutra Bahadur is an American writer. She is the author of [Coolie Woman: The Odyssey of Indenture](https://www.theguardian.com/books/2016/jun/14/gaiutra-bahadurindentured-female-labourers-coolie-woman), a personal history of indenture shortlisted in 2014 for the Orwell Prize, the British literary prize for artful political writing.  Her debut fiction, the short story “The Stained Veil,” appears in the anthology Go Home! (New York: The Feminist Press at CUNY, 2018). Gaiutra was born in Guyana and emigrated with her family to Jersey City, New Jersey when she was six years old
