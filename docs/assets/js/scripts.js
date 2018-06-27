@@ -338,7 +338,6 @@ function showViz(viz, map, layers){
     $("#legend").hide();
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
-    update_texts();
     buildTrapLegend();
     $("#d3-leaflet-svg").hide();
     break;
@@ -380,7 +379,6 @@ function showViz(viz, map, layers){
     layers[1].addTo(map);
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    update_texts();
     buildPointsLegend();
     break;
   case "orr":
@@ -397,6 +395,19 @@ function showViz(viz, map, layers){
     map.dragging.disable();
     buildORR();
     break;
+  case "banned":
+    $("#d3-leaflet-svg").hide();
+    $("#legend").hide();
+    $("#charts-div").hide();
+    $("#the-eye-div").hide();
+    $("#orr-div").hide();
+    $("#orr-legend").hide();
+    $(".leaflet-control-zoom").hide();
+    map.removeLayer(layers[1]);
+    map.removeLayer(layers[0]);
+    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+    map.dragging.disable();
+    buildBanned();
   }
   update_texts();
 }
@@ -449,6 +460,19 @@ function buildSpark(data) {
     .text("Avg. Daily Pop."); 
 
   return svg.node().innerHTML;
+}
+
+function buildBannedLegend(total){
+  $.i18n().load({
+    en: {
+      "ta-banned-legend": `EO 13769 bans people from Iran, Libya, North Korea, Syria, Venezuela, Yemen, and Somalia from entering the US. The imaginary country of closed borders shown here, however, is about ${d3.format(".0f")(total * 100)}% of that total population.`}, 
+    es: {
+      "ta-banned-legend": `EO 13769 bans people from Iran, Libya, North Korea, Syria, Venezuela, Yemen, and Somalia from entering the US. That imaginary country shown here, however, is about ${d3.format(".0f")(total * 100)}% of that total.`}
+  });
+  $("#legend").html("<div class='px-3 py-2' data-i18n='ta-banned-legend'></div>");
+  update_texts();
+  moveLegend();
+  $("#legend").show();
 }
 
 function buildTrapLegend(){
@@ -812,3 +836,68 @@ function buildTexturesMessages(callback, textures, lang){
     });
 }
 
+function buildBanned(){
+  const banTotal = 208832081;
+  d3.queue()
+    .defer(callback => {
+      d3.json("/torn-apart/assets/data/us-population.json", (e, data) => {
+        if (e) throw e;
+        callback(null, composeTotal(banTotal, data));
+      });
+    })
+    .await((e, steps) => {
+      if (e) throw e;
+      const lastState = steps.steps.pop();
+      steps.banTotal = steps.banTotal - lastState.population;
+      d3.json("/torn-apart/assets/data/us48.geojson", (e, geojson) => {
+        const feature = turf.featureCollection(steps.steps.map(state => geojson.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
+        L.geoJSON(feature, {
+          style: {
+            fillColor: "#000000",
+            fillOpacity: 1,
+            weight: 2,
+            color: "#000000",
+            opacity: 1
+
+          }
+        }).addTo(map);
+        buildBannedLegend(steps.banTotal / banTotal);
+      });
+    });
+}
+
+function composeTotal(banTotal, data, steps = []){
+  let state;
+  if (steps.length === 0){
+    state = d3.shuffle(data).pop();
+    steps.push(state);
+    composeTotal(banTotal - state.population, data, steps);
+  } else if (banTotal > 0) {
+    state = neighbor(steps, data);
+    if(state !== "no more cands"){
+      steps.push(state);
+      composeTotal(banTotal - state.population, data, steps);
+    }
+  }  
+  return { banTotal, steps };
+  // return { banTotal, states: steps.map(state => `US-${state.code}`) };
+}
+
+function neighbor(steps, data = []){
+  for( let i = steps.length - 1; i >= 0; i--  ){
+    const prevState = steps[i];
+    if (prevState.neighbors.length > 0){
+      let code = d3.shuffle(prevState.neighbors).pop();
+      let candState = data.filter( datum =>  datum.code === code)[0];
+      if(candState){
+        [data, steps].forEach(datum => {
+          datum.forEach((step) => {
+            step.neighbors = step.neighbors.filter(neighbor => neighbor !== candState.code);
+          });
+        });
+        return candState;
+      }
+    }
+  }
+  return "no more cands";
+}
