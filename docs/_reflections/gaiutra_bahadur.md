@@ -18,7 +18,8 @@ language: en
 dcType: article
 ---
 
-# 
+# To Map the Human
+
 {: .author-credit }
 by [Gaiutra Bahadur](http://clips.bahadur.ws/)
 
