@@ -473,13 +473,13 @@ function buildBannedLegend(total){
     en: {
       "ta-banned-legend": `[Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
       bans people from Iran, Libya, North Korea, Somalia, Syria, Venezuela, and Yemen from entering the US. 
-      The population of the imaginary country of closed borders shown here, however, 
+      The population of the epehemral country of closed borders shown here, however, 
       is about ${Math.floor(total * 100)}% of that total, excluded, majority Muslim population.`
     }, 
     es: {
       "ta-banned-legend": `[La Proclamación presidencial 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
       prohibe a las personas de Irán, Libia, Corea del Norte, Somalia, Siria, Venezuela y Yemen ingresar a los EE. UU.
-      La población del país imaginario de fronteras cerradas mostrado aquí es de aproximadamente
+      La población del país efímero de fronteras cerradas mostrado aquí es de aproximadamente
       ${Math.floor(total * 100)}% de esa población total, excluida y mayoritariamente musulmana.`
     }
   });
