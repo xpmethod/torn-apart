@@ -41,7 +41,7 @@ function initVisualizations(){
   map = initMap("visualizations-mapdiv");
   $("#legend").click(function(){ $(this).hide(); });
   const theViz = window.location.href.replace(/^.*#/, "");
-  $("[href='#" + theViz + "']").addClass("active");
+  $("[href='/torn-apart/visualizations.html#" + theViz + "']").addClass("active");
   const bufferLayer = buildBufferLayer();
   const detentionCentersLayer = buildPointsLayer();
   showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
