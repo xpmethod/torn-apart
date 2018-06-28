@@ -21,9 +21,21 @@ We provide all the reflections below in order to help contextualize both our imp
 by [Manan Ahmed](http://twitter.com/sepoy).   
 Manan Ahmed is an Associate Professor in the History Department at Columbia University.
 
+**[Do Not Forget]({{site.baseurl}}/reflections/maira_alvarez.html)**.  
+by [Maira Álvarez](http://twitter.com/fronteriza956).   
+Maira Álvarez is a Ph.D. Candidate and currently a Research Assistant for the Center for Mexican American Studies at the University of Houston.
+
+**[To Map the Human]({{site.baseurl}}/reflections/gaiutra_bahadur.html)**.  
+by [Gaiutra Bahadur](http://twitter.com/gbahadur).   
+Gaiutra Bahadur is an American writer. She is the author of Coolie Woman: The Odyssey of Indenture (2014).
+
 **[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado la memoria histórica]({{site.baseurl}}/reflections/sylvia_fernandez.html)**.  
 [Sylvia Fernández](https://www.hastac.org/u/sferna109)   
-Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography 
+Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography.
+
+**[Idiomas]({{site.baseurl}}/reflections/durba_mitra.html)**.  
+by [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra).   
+Durba Mitra is Assistant Professor of Women, Gender, and Sexuality and Carol K. Pforzheimer Assistant Professor at the Radcliffe Institute at Harvard University.
 
 **[Mapping Maybe]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira.html)**.  
 by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
