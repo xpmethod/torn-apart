@@ -1,3 +1,8 @@
+
+.fixed-top, #navbar-list {
+  z-index: 4000;
+}
+
 .bg-dark {
   background-color: $green !important;
 }
