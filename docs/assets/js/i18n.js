@@ -63,7 +63,7 @@ $.i18n().load({
     "ta-cca": "CoreCivic",
     "ta-legend": "Legend",
     "ta-owned-or-operated-by": "Owned or operated by",
-    "ta-banned-legend": "The population of this ephemeral country of closed borders is about _N%_ of that of the excluded majority Muslim population banned from entering the US by [Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).",
+    "ta-banned-legend": "The population of this ephemeral, blackened country of closed borders is about _N%_ of that of the excluded majority Muslim population banned from entering the US by [Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).",
     "ta-drafting-borders": "Drafting borders…",
     
 
