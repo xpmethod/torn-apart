@@ -33,7 +33,7 @@ Gaiutra Bahadur is an American writer. She is the author of Coolie Woman: The Od
 [Sylvia Fernández](https://www.hastac.org/u/sferna109)   
 Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography.
 
-**[Idiomas]({{site.baseurl}}/reflections/durba_mitra.html)**.  
+**[Idioms]({{site.baseurl}}/reflections/durba_mitra.html)**.  
 by [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra).   
 Durba Mitra is Assistant Professor of Women, Gender, and Sexuality and Carol K. Pforzheimer Assistant Professor at the Radcliffe Institute at Harvard University.
 
