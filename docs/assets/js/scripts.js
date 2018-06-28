@@ -333,6 +333,7 @@ function showViz(viz, map, layers){
     $("#drawing-dialog").hide();
     map.dragging.enable();
     map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
+    $("#banned-legend").hide();
     $("#d3-banned-svg").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -346,6 +347,7 @@ function showViz(viz, map, layers){
     $("#d3-dots-svg").hide();
     break;
   case "the-eye":
+    $("#banned-legend").hide();
     $("#drawing-dialog").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").hide();
@@ -361,6 +363,7 @@ function showViz(viz, map, layers){
     break;
   case "charts":
     $("#drawing-dialog").hide();
+    $("#banned-legend").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").show();
     map.dragging.enable();
@@ -377,6 +380,7 @@ function showViz(viz, map, layers){
     break;
   case "clinks":
     $("#drawing-dialog").hide();
+    $("#banned-legend").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").show();
     map.dragging.enable();
@@ -393,6 +397,7 @@ function showViz(viz, map, layers){
     break;
   case "orr":
     $("#drawing-dialog").hide();
+    $("#banned-legend").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").hide();
     $("#legend").hide();
