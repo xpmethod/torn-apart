@@ -1,6 +1,7 @@
 /* global s, blacksites, facOperators imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 
 // More globals
+var timer;
 var map;
 var defaultRadius;
 if (L.Browser.mobile) {
@@ -45,6 +46,7 @@ function initVisualizations(){
   const detentionCentersLayer = buildPointsLayer();
   showViz(theViz, map, [bufferLayer, detentionCentersLayer]);
   $(".viz-button").click(function() {
+    clearTimeout(timer);
     $(".viz-button").removeClass("active");
     $( this ).addClass("active");
     showViz($( this ).attr("href").replace(/^.*#/, ""), map, [bufferLayer, detentionCentersLayer]);
@@ -328,6 +330,7 @@ function buildTheEye() {
 function showViz(viz, map, layers){
   switch (viz) {
   case "the-trap":
+    $("#drawing-dialog").hide();
     map.dragging.enable();
     map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
     $("#d3-banned-svg").hide();
@@ -343,6 +346,7 @@ function showViz(viz, map, layers){
     $("#d3-dots-svg").hide();
     break;
   case "the-eye":
+    $("#drawing-dialog").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").hide();
     map.dragging.enable();
@@ -356,6 +360,7 @@ function showViz(viz, map, layers){
     buildTheEye();
     break;
   case "charts":
+    $("#drawing-dialog").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").show();
     map.dragging.enable();
@@ -371,6 +376,7 @@ function showViz(viz, map, layers){
     $("#charts-div").show();
     break;
   case "clinks":
+    $("#drawing-dialog").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").show();
     map.dragging.enable();
@@ -386,6 +392,7 @@ function showViz(viz, map, layers){
     buildPointsLegend();
     break;
   case "orr":
+    $("#drawing-dialog").hide();
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").hide();
     $("#legend").hide();
@@ -401,6 +408,7 @@ function showViz(viz, map, layers){
     buildORR();
     break;
   case "banned":
+    $("#drawing-dialog").show();
     $("#d3-dots-svg").hide();
     $("#legend").hide();
     $("#charts-div").hide();
@@ -412,8 +420,8 @@ function showViz(viz, map, layers){
     map.removeLayer(layers[0]);
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     map.dragging.disable();
-    buildBanned();
     $("#d3-banned-svg").show();
+    buildBanned();
   }
   update_texts();
 }
@@ -466,27 +474,6 @@ function buildSpark(data) {
     .text("Avg. Daily Pop."); 
 
   return svg.node().innerHTML;
-}
-
-function buildBannedLegend(total){
-  $.i18n().load({
-    en: {
-      "ta-banned-legend": `[Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
-      bans people from Iran, Libya, North Korea, Somalia, Syria, Venezuela, and Yemen from entering the US. 
-      The population of the epehemral country of closed borders shown here, however, 
-      is about ${Math.floor(total * 100)}% of that total, excluded, majority Muslim population.`
-    }, 
-    es: {
-      "ta-banned-legend": `[La Proclamación presidencial 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
-      prohibe a las personas de Irán, Libia, Corea del Norte, Somalia, Siria, Venezuela y Yemen ingresar a los EE. UU.
-      La población del país efímero de fronteras cerradas mostrado aquí es de aproximadamente
-      ${Math.floor(total * 100)}% de esa población total, excluida y mayoritariamente musulmana.`
-    }
-  });
-  $("#legend").html("<div class='markdownify px-3 py-2' data-i18n='ta-banned-legend'></div>");
-  update_texts();
-  moveLegend();
-  $("#legend").show();
 }
 
 function buildTrapLegend(){
@@ -856,44 +843,68 @@ function projectPoint(x, y) {
 }
 
 function buildBanned(){
+  const loop = 10000;
+  const loopFactor = 0.1;
+  $("#drawing-dialog").show();
+  $("#banned-legend").click(function(){ $(this).hide(); });
   const banTotal = 208832081;
-  d3.queue()
-    .defer(callback => {
-      d3.json("/torn-apart/assets/data/us-population.json", (e, data) => {
+  $(map.getPanes().overlayPane).append("<svg id='d3-banned-svg'></svg>");
+  loopBanned(banTotal, loop, loopFactor);
+  setTimeout(() => {$("#banned-legend").show(loop * loopFactor);}, loop);
+}
+
+function loopBanned(banTotal, loop, loopFactor){
+  const fadeDuration = loop * loopFactor;
+  console.log("duration", fadeDuration);
+  d3.select("#drawing-dialog").transition()
+    .transition().delay(0).duration(loop + fadeDuration)
+    .style("transform", "scale(0, 0)");
+  timer = setTimeout(() => {
+    d3.queue()
+      .defer(callback => {
+        d3.json("/torn-apart/assets/data/us-population.json", (e, data) => {
+          if (e) throw e;
+          callback(null, composeTotal(banTotal, data));
+        });
+      })
+      .await((e, steps) => {
         if (e) throw e;
-        callback(null, composeTotal(banTotal, data));
-      });
-    })
-    .await((e, steps) => {
-      if (e) throw e;
-      const lastState = steps.steps.pop();
-      steps.banTotal = steps.banTotal - lastState.population;
-      const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("id", "d3-banned-svg"),
-        g = svg.append("g").attr("class", "leaflet-zoom-hide");
+        const lastState = steps.steps.pop();
+        steps.banTotal = steps.banTotal - lastState.population;
+        $("#banned-legend p em").html((i, html) => html.replace(/\S*%/, `${Math.floor(100 * steps.banTotal / banTotal)}%`));
+        const svg = d3.select("#d3-banned-svg");
+        svg.selectAll("g").remove();
+        const g = svg.append("g").attr("class", "leaflet-zoom-hide");
+        d3.json("/torn-apart/assets/data/us48.geojson", (e, geojson) => {
+          const collection = turf.featureCollection(steps.steps.map(state => geojson.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
+          const transform = d3.geoTransform({ point: projectPoint }),
+            path = d3.geoPath().projection(transform);
+          const feature = g.selectAll("path").data(collection.features)
+            .enter().append("path").attr("opacity", 0).classed("banned-state", true).attr("stroke-width", 4);
 
-      d3.json("/torn-apart/assets/data/us48.geojson", (e, geojson) => {
-        const collection = turf.featureCollection(steps.steps.map(state => geojson.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
-        const transform = d3.geoTransform({ point: projectPoint }),
-          path = d3.geoPath().projection(transform);
-        const feature = g.selectAll("path").data(collection.features)
-          .enter().append("path").attr("stroke-width", 4);
-
-        reset();
-        
-        function reset() {
-          const bounds = path.bounds(collection),
-            topLeft = bounds[0],
-            bottomRight = bounds[1];
-          svg.attr("width", bottomRight[0] - topLeft[0])
-            .attr("height", bottomRight[1] - topLeft[1])
-            .style("left", topLeft[0] + "px")
-            .style("top", topLeft[1] + "px");
-          g.attr("transform", `translate(${-topLeft[0]},${-topLeft[1]})`);
-          feature.attr("d", path);
-        }
-        buildBannedLegend(steps.banTotal / banTotal);
+          reset();
+          
+          function reset() {
+            const bounds = path.bounds(collection),
+              topLeft = bounds[0],
+              bottomRight = bounds[1];
+            svg.attr("width", bottomRight[0] - topLeft[0])
+              .attr("height", bottomRight[1] - topLeft[1])
+              .style("left", topLeft[0] + "px")
+              .style("top", topLeft[1] + "px");
+            g.attr("transform", `translate(${-topLeft[0]},${-topLeft[1]})`);
+            feature.attr("d", path)
+              .transition()
+              .delay(0).duration(fadeDuration)
+              .style("opacity", 1);
+            feature.transition()
+              .delay(loop - fadeDuration).duration(fadeDuration)
+              .style("opacity", 0);
+          }
+        });
       });
-    });
+    loopBanned(banTotal, loop, loopFactor);
+  }, loop);
 }
 
 function composeTotal(banTotal, data, steps = []){
