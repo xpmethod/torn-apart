@@ -10,6 +10,8 @@ $.i18n().load({
   "en": {
     "ta-index-modal": "A rapidly deployed critical data & visualization intervention in the USA’s 2018 “Zero Tolerance Policy” for asylum seekers at the US Ports of Entry and the humanitarian crisis that has followed.",
     "ta-sitename": "Torn Apart",
+    "ta-page-not-found": "Page not found :(",
+    "ta-requested-page-could-not-be-found": "The requested page could not be found.",
     "ta-visualizations": "Visualizations",
     "ta-textures": "Textures",
     "ta-reflections": "Reflections",
@@ -21,6 +23,7 @@ $.i18n().load({
     "ta-the-eye": "The Eye",
     "ta-charts": "Charts",
     "ta-orr": "ORR",
+    "ta-banned": "Banned",
     "ta-adp": "ADP",
     "ta-facilities": "Facilities",
     "ta-bookins": "Bookins",
@@ -60,6 +63,8 @@ $.i18n().load({
     "ta-cca": "CoreCivic",
     "ta-legend": "Legend",
     "ta-owned-or-operated-by": "Owned or operated by",
+    "ta-banned-legend": "[Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) bans people from Iran, Libya, North Korea, Somalia, Syria, Venezuela, and Yemen from entering the US.  The population of the ephemeral country of closed borders shown here, however, is about _N%_ of that total, excluded, majority Muslim population.",
+    "ta-drafting-borders": "Drafting borders…",
     
 
   },
@@ -67,6 +72,8 @@ $.i18n().load({
   "es": {
     "ta-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
     "ta-sitename": "Separados",
+    "ta-page-not-found": "Página no encontrada",
+    "ta-requested-page-could-not-be-found": "La página solicitada no se encontró en el servidor.",
     "ta-visualizations": "Gráfica",
     "ta-textures": "Texturas",
     "ta-reflections": "Reflexiones",
@@ -79,6 +86,7 @@ $.i18n().load({
     "ta-the-eye": "El ojo",
     "ta-charts": "Cifras",
     "ta-orr": "ORR",
+    "ta-banned": "Prohibidxs",
     "ta-adp": "ADP",
     "ta-facilities": "Instalaciones",
     "ta-bookins": "Registros",
@@ -124,5 +132,7 @@ $.i18n().load({
     "ta-cca": "CoreCivic",
     "ta-legend": "Legend",
     "ta-owned-or-operated-by": "Owned or operated by",
+    "ta-banned-legend": "[La Proclamación presidencial 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) prohibe a las personas de Irán, Libia, Corea del Norte, Siria, Somalia, Venezuela y Yemen ingresar a los EE. UU. La población del país efímero de fronteras cerradas en muestra aquí es de aproximadamente _N%_ de esa población total, excluida y mayoritariamente musulmana.",
+    "ta-drafting-borders": "Delineando fronteras…",
   }
 });

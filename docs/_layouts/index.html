@@ -28,9 +28,19 @@
         <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/visualizations.html#the-eye">The Eye</a>
         <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/visualizations.html#charts">Charts</a>
         <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/visualizations.html#orr">ORR</a>
+        <!-- <a data-i18n="ta-banned" id="banned-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/visualizations.html#banned">Banned</a> -->
       </nav>
     {% endif %}
     </div>
+  </div>
+  <div class="d-flex align-items-center justify-content-center full-container">
+    <div id="drawing-dialog" class="legend click-to-hide card mx-3 px-3 py-2">
+      <i class="m-3 fa-spin fas fa-drafting-compass"></i><br>
+      <span data-i18n="ta-drafting-borders">Drafting borders…</span>
+    </div>
+  </div>
+  <div class="d-flex align-items-end justify-content-end full-container">
+    <div id="banned-legend" class="markdownify legend click-to-hide card mx-3 px-3 py-2" data-i18n="ta-banned-legend"></div>
   </div>
   <div id="orr-div"></div>
   <div class="d-flex align-items-center justify-content-center full-container">
