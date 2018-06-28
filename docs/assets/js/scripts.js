@@ -851,7 +851,8 @@ function buildBanned(){
   const loop = 10000;
   const loopFactor = 0.1;
   $("#drawing-dialog").show();
-  $("#banned-legend").click(function(){ $(this).hide(); });
+  $("#banned-legend").click(function(){ $(this).hide(); }).css("margin-bottom", $(".leaflet-control-attribution").height() + rem);
+
   const banTotal = 208832081;
   $(map.getPanes().overlayPane).append("<svg id='d3-banned-svg'></svg>");
   loopBanned(banTotal, loop, loopFactor);
@@ -860,7 +861,6 @@ function buildBanned(){
 
 function loopBanned(banTotal, loop, loopFactor){
   const fadeDuration = loop * loopFactor;
-  console.log("duration", fadeDuration);
   d3.select("#drawing-dialog").transition()
     .transition().delay(0).duration(loop + fadeDuration)
     .style("transform", "scale(0, 0)");
