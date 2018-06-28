@@ -150,7 +150,7 @@ function buildD3Points() {
     .style("pointer-events", "none")
     .attr("width", $( window ).width())
     .attr("height", $( window ).height())
-    .attr("id", "d3-leaflet-svg");
+    .attr("id", "d3-dots-svg");
   const iceG = svg.append("g").attr("id", "ice-g").classed("leaflet-zoom-hide", true);
   const dcG = svg.append("g").attr("id", "dc-g").classed("leaflet-zoom-hide", true);
   iceG.selectAll("circle")
@@ -330,6 +330,7 @@ function showViz(viz, map, layers){
   case "the-trap":
     map.dragging.enable();
     map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
+    $("#d3-banned-svg").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
     $(".leaflet-control-zoom").show();
@@ -339,10 +340,11 @@ function showViz(viz, map, layers){
     layers[0].addTo(map);
     map.removeLayer(layers[1]);
     buildTrapLegend();
-    $("#d3-leaflet-svg").hide();
+    $("#d3-dots-svg").hide();
     break;
   case "the-eye":
-    $("#d3-leaflet-svg").hide();
+    $("#d3-banned-svg").hide();
+    $("#d3-dots-svg").hide();
     map.dragging.enable();
     $("#charts-div").hide();
     $(".leaflet-control-zoom").hide();
@@ -354,7 +356,8 @@ function showViz(viz, map, layers){
     buildTheEye();
     break;
   case "charts":
-    $("#d3-leaflet-svg").show();
+    $("#d3-banned-svg").hide();
+    $("#d3-dots-svg").show();
     map.dragging.enable();
     $("#legend").hide();
     $("#the-eye-div").hide();
@@ -368,7 +371,8 @@ function showViz(viz, map, layers){
     $("#charts-div").show();
     break;
   case "clinks":
-    $("#d3-leaflet-svg").show();
+    $("#d3-banned-svg").hide();
+    $("#d3-dots-svg").show();
     map.dragging.enable();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -382,7 +386,8 @@ function showViz(viz, map, layers){
     buildPointsLegend();
     break;
   case "orr":
-    $("#d3-leaflet-svg").hide();
+    $("#d3-banned-svg").hide();
+    $("#d3-dots-svg").hide();
     $("#legend").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -396,7 +401,7 @@ function showViz(viz, map, layers){
     buildORR();
     break;
   case "banned":
-    $("#d3-leaflet-svg").hide();
+    $("#d3-dots-svg").hide();
     $("#legend").hide();
     $("#charts-div").hide();
     $("#the-eye-div").hide();
@@ -408,6 +413,7 @@ function showViz(viz, map, layers){
     map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
     map.dragging.disable();
     buildBanned();
+    $("#d3-banned-svg").show();
   }
   update_texts();
 }
@@ -465,11 +471,19 @@ function buildSpark(data) {
 function buildBannedLegend(total){
   $.i18n().load({
     en: {
-      "ta-banned-legend": `EO 13769 bans people from Iran, Libya, North Korea, Syria, Venezuela, Yemen, and Somalia from entering the US. The imaginary country of closed borders shown here, however, is about ${d3.format(".0f")(total * 100)}% of that total population.`}, 
+      "ta-banned-legend": `[Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
+      bans people from Iran, Libya, North Korea, Somalia, Syria, Venezuela, and Yemen from entering the US. 
+      The population of the imaginary country of closed borders shown here, however, 
+      is about ${Math.floor(total * 100)}% of that total, excluded, majority Muslim population.`
+    }, 
     es: {
-      "ta-banned-legend": `EO 13769 bans people from Iran, Libya, North Korea, Syria, Venezuela, Yemen, and Somalia from entering the US. That imaginary country shown here, however, is about ${d3.format(".0f")(total * 100)}% of that total.`}
+      "ta-banned-legend": `[La Proclamación presidencial 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645) 
+      prohibe a las personas de Irán, Libia, Corea del Norte, Somalia, Siria, Venezuela y Yemen ingresar a los EE. UU.
+      La población del país imaginario de fronteras cerradas mostrado aquí es de aproximadamente
+      ${Math.floor(total * 100)}% de esa población total, excluida y mayoritariamente musulmana.`
+    }
   });
-  $("#legend").html("<div class='px-3 py-2' data-i18n='ta-banned-legend'></div>");
+  $("#legend").html("<div class='markdownify px-3 py-2' data-i18n='ta-banned-legend'></div>");
   update_texts();
   moveLegend();
   $("#legend").show();
@@ -836,6 +850,11 @@ function buildTexturesMessages(callback, textures, lang){
     });
 }
 
+function projectPoint(x, y) {
+  var point = map.latLngToLayerPoint(new L.LatLng(y, x));
+  this.stream.point(point.x, point.y);
+}
+
 function buildBanned(){
   const banTotal = 208832081;
   d3.queue()
@@ -849,18 +868,29 @@ function buildBanned(){
       if (e) throw e;
       const lastState = steps.steps.pop();
       steps.banTotal = steps.banTotal - lastState.population;
-      d3.json("/torn-apart/assets/data/us48.geojson", (e, geojson) => {
-        const feature = turf.featureCollection(steps.steps.map(state => geojson.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
-        L.geoJSON(feature, {
-          style: {
-            fillColor: "#000000",
-            fillOpacity: 1,
-            weight: 2,
-            color: "#000000",
-            opacity: 1
+      const svg = d3.select(map.getPanes().overlayPane).append("svg").attr("id", "d3-banned-svg"),
+        g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-          }
-        }).addTo(map);
+      d3.json("/torn-apart/assets/data/us48.geojson", (e, geojson) => {
+        const collection = turf.featureCollection(steps.steps.map(state => geojson.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
+        const transform = d3.geoTransform({ point: projectPoint }),
+          path = d3.geoPath().projection(transform);
+        const feature = g.selectAll("path").data(collection.features)
+          .enter().append("path").attr("stroke-width", 4);
+
+        reset();
+        
+        function reset() {
+          const bounds = path.bounds(collection),
+            topLeft = bounds[0],
+            bottomRight = bounds[1];
+          svg.attr("width", bottomRight[0] - topLeft[0])
+            .attr("height", bottomRight[1] - topLeft[1])
+            .style("left", topLeft[0] + "px")
+            .style("top", topLeft[1] + "px");
+          g.attr("transform", `translate(${-topLeft[0]},${-topLeft[1]})`);
+          feature.attr("d", path);
+        }
         buildBannedLegend(steps.banTotal / banTotal);
       });
     });
