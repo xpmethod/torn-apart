@@ -33,6 +33,10 @@ Gaiutra Bahadur is an American writer. She is the author of Coolie Woman: The Od
 [Sylvia Fernández](https://www.hastac.org/u/sferna109)   
 Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies at the University of Houston and a Research Fellow with Recovering the US Hispanic Literary Heritage. She is the co-founder of Borderlands Archives Cartography.
 
+**[The Damage is Done: Visualizing Immigrant Child Social Death]({{site.baseurl}}/reflections/guidotti_hernandez.html)**.  
+by [Nicole M. Guidotti-Hernández](https://twitter.com/drnmgh).   
+Dr. Nicole M. Guidotti-Hernández is Associate Professor of American Studies and Mexican American and Latina/o Studies. She is an expert in Borderlands History after 1846, Transnational Feminist Methodologies, Latinx Studies, and Popular Culture and Immigration.
+
 **[Idioms]({{site.baseurl}}/reflections/durba_mitra.html)**.  
 by [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra).   
 Durba Mitra is Assistant Professor of Women, Gender, and Sexuality and Carol K. Pforzheimer Assistant Professor at the Radcliffe Institute at Harvard University.
