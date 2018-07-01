@@ -72,17 +72,12 @@ function initTextures(){
 }
 
 function initI18n(){
-  const locales = navigator.languages.filter( i => i.match(/(en|es)/) ).map( i => i.replace(/-.*/, ""));
+  const locales = navigator.languages.filter( i => i.match(/(en|fr|es)/) ).map( i => i.replace(/-.*/, ""));
 
   if (locales.length === 0){
     $.i18n().locale = "en";
   } else {
     $.i18n().locale = locales[0];
-  }
-  if ($.i18n().locale === "en") {
-    $(".locale-toggle").html("ES");
-  } else {
-    $(".locale-toggle").html("EN");
   }
   update_texts();
 
@@ -96,14 +91,10 @@ function initI18n(){
 
   $(".locale-toggle").click(function(e){
     e.preventDefault();
-    const langs = ["EN", "ES"];
-    const langCodes = ["en", "es"];
-    let index = langs.indexOf($( this ).text());
-    $.i18n().locale = langCodes[index];
-    $(`.${langCodes[index]}-button`).addClass("active");
+    const langs = ["en", "es", "fr"];
+    let index = langs.indexOf($.i18n().locale);
     index === langs.length - 1 ? index = 0 : index = index + 1;
-    $(`.${langCodes[index]}-button`).removeClass("active");
-    $(".locale-toggle").text(langs[index]);
+    $.i18n().locale = langs[index];
     update_texts();
     moveLegend();
   });
@@ -124,6 +115,11 @@ function initMap(mapid){
   return map;
 }
 
+function currentLocaleToggle(locale){
+  $(".locale-toggle-text").removeClass("active");
+  $(`.locale-toggle-${locale}`).addClass("active");
+}
+
 function update_texts() {
   const md = markdownit({html: true}).use(markdownitFootnote);
   const externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
@@ -131,6 +127,7 @@ function update_texts() {
   q.defer(callback => {$("body").i18n(); callback(null);});
   q.await(function(e){
     if (e) throw e;
+    currentLocaleToggle($.i18n().locale);
     $(".markdownify").html((i, html) => {
       return md.render(html);
     });

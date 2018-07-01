@@ -23,6 +23,10 @@
   }
 }
 
+.locale-toggle-text.active {
+  color: $white;
+}
+
 #time-series-nav.nav, #visualizations-nav.nav {
   a {
     margin: 0;

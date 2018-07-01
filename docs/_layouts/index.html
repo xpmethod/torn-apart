@@ -18,7 +18,11 @@
       <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
       <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
       <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
-      <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">ES</a>
+      <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">
+        <span class="locale-toggle-text locale-toggle-en">EN</span> | 
+        <span class="locale-toggle-text locale-toggle-es">ES</span> | 
+        <span class="locale-toggle-text locale-toggle-fr">FR</span>
+      </a>
     </nav>
   </div>
     {% if page.permalink == "visualizations.html" %}
@@ -62,7 +66,11 @@
     <div class="modal-content">
       <div class="modal-header d-flex">
         <h2 class="mr-auto">{{ page.modalTitle }}</h2>
-        <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">ES</button>
+        <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">
+          <span class="locale-toggle-text locale-toggle-en">EN</span> | 
+          <span class="locale-toggle-text locale-toggle-es">ES</span> | 
+          <span class="locale-toggle-text locale-toggle-fr">FR</span>
+        </button>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           &times;
         </button>
