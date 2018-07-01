@@ -54,8 +54,6 @@ function initVisualizations(){
 }
 
 function initTextures(){
-// #IMGTAG#
-  // const q = d3.queue();
   const textures = {};
   d3.queue()
     .defer(callback => {
@@ -63,6 +61,9 @@ function initTextures(){
     })
     .defer(callback => {
       buildTexturesMessages(callback, textures, "es");
+    })
+    .defer(callback => {
+      buildTexturesMessages(callback, textures, "fr");
     })
     .awaitAll(e => {
       if (e) throw e;

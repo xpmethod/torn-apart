@@ -1,4 +1,5 @@
-**Por la version en español, presiona el “ES” arriba**
+* **Por la version en español, presiona el “ES” arriba**
+* **Pour la version française, cliquez sur “FR” ci-dessus.**
 
 ## Our Research
 
@@ -156,4 +157,4 @@ While *Torn Apart* is one iteration of our work, we are gladly sharing our data,
 
 ## Works Cited
 
-Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,” *Jew History* (1997) 11: 89. DOI: https://doi.org/10.1007/BF02335679
+Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,” *Jew History* (1997) 11: 89. DOI: [https://doi.org/10.1007/BF02335679](https://doi.org/10.1007/BF02335679)

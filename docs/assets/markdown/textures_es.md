@@ -100,4 +100,4 @@ Lo que hemos demostrado aquí es que un pequeño equipo de investigadores con di
 
 ### Obras Citadas
 
-Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,” *Jew History* (1997) 11: 89. https://doi.org/10.1007/BF02335679
+Friedlander, H. “Registering the Handicapped in Nazi Germany: A Case Study,” *Jew History* (1997) 11: 89. DOI: [https://doi.org/10.1007/BF02335679](https://doi.org/10.1007/BF02335679)
