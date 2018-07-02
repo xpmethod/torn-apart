@@ -171,7 +171,7 @@
     "code": "NH",
     "name": "New Hampshire",
     "population": 1342795,
-    "neighbors": ["ME", "MA", "VT"]
+    "neighbors": ["MA", "VT"]
   },
   {
     "code": "NJ",
