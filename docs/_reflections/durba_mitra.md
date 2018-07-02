@@ -66,7 +66,7 @@ the American landscape of immigration control. From afar, “[The
 Trap](/torn-apart/visualizations.html#the-trap)” is a dead
 zone, quite literally. It looks like an arrow pointing south, wider than one
 would ever imagine the border between the US and Mexico. From “[The
-Eye](/torn-apart/visualizations.html#the-eye],” we
+Eye](/torn-apart/visualizations.html#the-eye),” we
 learn that ICE facilities, when viewed from above, incarcerate people on every
 sort of terrain, hills and valleys and deserts. ICE is everywhere, on all
 kinds of land, and these bird’s eye views show just how diverse and agile the
