@@ -100,8 +100,9 @@ prosecuted as a criminal and sent back to die alone in our village? I cannot
 help but wonder.
 
 It seems to me that there could be no better map for our current predicament
-than the one on this site representing as black sites the 113 shelters with
-government contracts to house migrant children. Hover over any site, and it
+than the one on this site [representing as black sites the 113 shelters with
+government contracts to house migrant
+children](/torn-apart/visualizations.html#orr). Hover over any site, and it
 will change position. Now you see it. Now you don’t. The locations of the
 shelters glide away whenever your cursor attempts to zero in. This instability
 rests on uncertainties in the data, provided by the Office of Refugee
