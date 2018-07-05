@@ -44,7 +44,7 @@ Odyssey of Indenture_ (2014).
 
 **[Triple D: Desmantelando la mafia, desestabilizando mecanismos y documentado
 la memoria histórica]({{site.baseurl}}/reflections/sylvia_fernandez.html)**.  
-by [Sylvia Fernández](https://www.hastac.org/u/sferna109). 
+by [Sylvia Fernández](https://www.hastac.org/u/sferna109).   
 Sylvia Fernández is a
 Ph.D. Candidate in Hispanic Studies at the University of Houston and a
 Research Fellow with Recovering the US Hispanic Literary Heritage. She is the
