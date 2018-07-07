@@ -9,11 +9,42 @@ class NewsSniffer
 
   def initialize 
     @api_key = get_api_key
-    @states = states
-    # @ice_facs = CSV.read("../docs/assets/data/iceFacs.csv", { headers: true })
+    @ice_facs = CSV.read("docs/assets/data/iceFacs.csv", { headers: true })
+  end
+
+  def detloc_report(detloc)
+    dir = "data/news-sniffer-reports/#{detloc}" 
+    Dir.mkdir dir unless File.exists? dir
+    name = @ice_facs.select{|f| f["DETLOC"] == detloc}.first["Name"].downcase
+    ["Massachusetts", "Rhode Island"].each do |state|
+      hits = search_everything_in_state(name, state)
+      puts "Searching for #{name} in #{state}"
+      File.open("#{dir}/#{state}.json", "w") do |f|
+        f.puts hits.to_json
+      end
+      sleep 20
+    end
+  end
+
+  def search_everything_in_state(query, state)
+    state_sources = sources_by_state[state]
+    source_list = state_sources.join(",")
+    if source_list.length < 1500
+      search_everything({ q: query, domains: source_list })
+    else
+      sources_1 = state_sources[0..(state_sources.length / 2)].join(",")
+      sources_2 = state_sources[(1 + state_sources.length / 2)..-1].join(",")
+      first = search_everything({ q: query, domains: sources_1 })
+      second = search_everything({ q: query, domains: sources_2 })
+      { status: "ok", 
+        totalResults: (first[:totalResults] + second[:totalResults]),
+        articles: first[:articles] + second[:articles]
+      }
+    end
   end
 
   def search_everything(query_options)
+    query_options[:pageSize] = 100
     @options = {
       query: query_options,
     }
@@ -42,7 +73,6 @@ class NewsSniffer
 
   def handle(endpoint)
     @options[:headers] = { "x-api-key" => @api_key }
-    puts @options
 
     response = JSON.parse self.class.get(endpoint, @options).body, symbolize_names: true
     if response[:status] == "error"
