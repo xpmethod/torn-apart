@@ -1,5 +1,5 @@
-* **Por la version en español, presiona el “ES” arriba**
-* **Pour la version française, cliquez sur “FR” ci-dessus.**
+<!-- * **Para la version en español, presiona el “ES” arriba**
+* **Pour la version française, cliquez sur “FR” ci-dessus.** -->
 
 ## Our Research
 
