@@ -13,17 +13,23 @@ class NewsSniffer
     # @ice_facs = CSV.read("../docs/assets/data/iceFacs.csv", { headers: true })
   end
 
+  def search_everything(query_options)
+    @options = {
+      query: query_options,
+    }
+    handle "/everything"
+  end
+
   def sources_by_state
     news_sources = CSV.read("data/news-crawl-output.csv", {headers: true })
+    sources = {}
     states = news_sources.map{ |source| source["state"] }.uniq
-    state_source_domains = states.map do |state|
-      { state: state,
-        sources: news_sources.select{ |news_source| news_source["state"] == state }.map{ |source|
+    states.map do |state|
+      sources[state] = news_sources.select{ |news_source| news_source["state"] == state }.map{ |source|
           URI.parse(source["link"]).host.downcase.gsub(/^www\./, "")
         }
-      }
     end
-    state_source_domains
+    sources
   end
 
   def print_sources_by_state(file = "data/news-sources-by-state.json")
@@ -33,6 +39,18 @@ class NewsSniffer
   end
 
   private
+
+  def handle(endpoint)
+    @options[:headers] = { "x-api-key" => @api_key }
+    puts @options
+
+    response = JSON.parse self.class.get(endpoint, @options).body, symbolize_names: true
+    if response[:status] == "error"
+      raise APIError.new("Error: #{response[:code]}, Msg: #{response[:message]}")
+    else
+      response
+    end
+  end
 
   def get_api_key
     Dotenv.load
