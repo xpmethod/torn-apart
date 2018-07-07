@@ -1,6 +1,3 @@
-<!-- * **Para la version en español, presiona el “ES” arriba**
-* **Pour la version française, cliquez sur “FR” ci-dessus.** -->
-
 ## Our Research
 
 *Torn Apart* aggregates and cross-references publicly available data to visualize the geography of Donald Trump’s “zero tolerance” immigration policy in 2018 and immigration incarceration in the USA in general. We also draw attention to the landscapes, families, and communities riven by the massive web of immigrant detention in the United States.
