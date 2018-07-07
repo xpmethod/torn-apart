@@ -1,12 +1,15 @@
 require "csv"
-require "news-api"
+require "httparty"
 require "dotenv"
 
 class NewsSniffer 
 
+  include HTTParty
+  base_uri "newsapi.org/v2/"
+
   def initialize 
-    @newsapi = News.new(ENV["GOOGLE_NEWS_API"])
-    @ice_facs = CSV.read("../docs/assets/data/iceFacs.csv", { headers: true })
+    @api_key = get_api_key
+    # @ice_facs = CSV.read("../docs/assets/data/iceFacs.csv", { headers: true })
   end
 
   def create_domains_by_state
@@ -24,6 +27,15 @@ class NewsSniffer
     end
   end
 
+  private
+
+  def get_api_key
+    Dotenv.load
+    raise APIError.new("Missing API key in .env") if ENV["GOOGLE_NEWS_API"].nil?
+    ENV["GOOGLE_NEWS_API"]
+  end
+
+  class APIError < StandardError ; end
 end
 
 
