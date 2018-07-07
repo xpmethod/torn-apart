@@ -12,8 +12,8 @@ class NewsSniffer
     # @ice_facs = CSV.read("../docs/assets/data/iceFacs.csv", { headers: true })
   end
 
-  def create_domains_by_state
-    news_sources = CSV.read("../data/news-crawl-output.csv", {headers: true })
+  def sources_by_state
+    news_sources = CSV.read("data/news-crawl-output.csv", {headers: true })
     states = news_sources.map{ |source| source["state"] }.uniq
     state_source_domains = states.map do |state|
       { state: state,
@@ -22,8 +22,12 @@ class NewsSniffer
         }
       }
     end
-    File.open("../data/news-sources-by-state.json", "w") do |file|
-      file.puts state_source_domains.to_json
+    state_source_domains
+  end
+
+  def print_sources_by_state(file = "data/news-sources-by-state.json")
+    File.open(file, "w") do |f|
+      f.puts sources_by_state.to_json
     end
   end
 
