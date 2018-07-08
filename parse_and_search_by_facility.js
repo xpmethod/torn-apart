@@ -1,6 +1,6 @@
 //Parses the iceFacs csv (assuming it is in the same folder), saves to nested array, then searches all of newsapi for each facility, associating the results with the DETLOC. Call with "node parse_and_search_by_facility.js > log-file.txt" to save results to text file. Hopefully doesn't quite exceed the API limit but we'll see (haven't tested because already exceeded my api limit for this six hour period)
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('ba71f465561b460cb50f98c1cb3320fc');
+const newsapi = new NewsAPI('YOUR API KEY');
 
 var parse = require('csv-parse');
 var shell = require('shelljs'); // I seem to need this in order to construct intermediate directories if they don't already exist in the final step where I write to the directory structure. fs-extras and the standard mkdir can do the final directory, but not intermediate ones, or so it seems. Or maybe I implemented them wrong.
