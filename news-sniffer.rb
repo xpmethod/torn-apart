@@ -148,7 +148,7 @@ class NewsSniffer
       { name: "Washington", abbreviation: "WA" },
       { name: "West Virginia", abbreviation: "WV" },
       { name: "Wisconsin", abbreviation: "WI" },
-      { name: "Wyoming ", abbreviation: "WY" }
+      { name: "Wyoming", abbreviation: "WY" }
     ]
   end
 
