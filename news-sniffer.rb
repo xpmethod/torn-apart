@@ -10,13 +10,22 @@ class NewsSniffer
   def initialize 
     @api_key = get_api_key
     @ice_facs = CSV.read("docs/assets/data/iceFacs.csv", { headers: true })
+    @states = states
   end
 
-  def detloc_report(detloc)
+  def get_states
+    @states
+  end
+
+  def ice_facs
+    @ice_facs
+  end
+
+  def detloc_report(detloc, states)
     dir = "data/news-sniffer-reports/#{detloc}" 
     Dir.mkdir dir unless File.exists? dir
     name = @ice_facs.select{|f| f["DETLOC"] == detloc}.first["Name"].downcase
-    ["Massachusetts", "Rhode Island"].each do |state|
+    states.each do |state|
       hits = search_everything_in_state(name, state)
       puts "Searching for #{name} in #{state}"
       File.open("#{dir}/#{state}.json", "w") do |f|
