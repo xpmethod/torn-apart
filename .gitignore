@@ -1,4 +1,5 @@
 .env
+environment.mjs
 localdata/
 cache/
 tmp/

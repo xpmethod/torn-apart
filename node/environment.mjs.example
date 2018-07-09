@@ -1,0 +1,5 @@
+export default function() {
+  return {
+    newsApiKey: "SOME STRING FROM newsapi.org"
+  };
+};
