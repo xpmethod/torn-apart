@@ -9,7 +9,7 @@ var shell = require('shelljs'); // I seem to need this in order to construct int
 var fs = require('fs');
 
 //reads in iceFacs.csv (must be in same folder), and puts into a nested array.This is so we can associate facility names with their identifiers.
-fs.readFile('iceFacs2.csv', function(err, data) {
+fs.readFile('../data/iceFacs.csv', function(err, data) {
 	if (err) {
 		return console.log(err);
 	}		
@@ -19,7 +19,7 @@ fs.readFile('iceFacs2.csv', function(err, data) {
 	
 	var i;
 	var DETLOC = "";
-	for (i=1;i<output.length; i++) //for every row in CSV, i.e. every item in array
+	for (i=1;i<(output.length/2); i++) //for every row in CSV, i.e. every item in array
 	{
 		
 		DETLOC = output[i][6];
@@ -35,7 +35,7 @@ fs.readFile('iceFacs2.csv', function(err, data) {
                 var responseBody = response[1];
                // console.log(response[1]);
 
-			 var folderString = "data/news-sniffer-reports/" + DetentionLocation;
+			 var folderString = "../data/news-sniffer-reports/" + DetentionLocation;
 			 console.log("\n\nDetentionLocation = " + DetentionLocation + "\n\n");
 			 shell.mkdir('-p', folderString); //creates folders if they don't already exist.
 			 var fileString = folderString + "/everything.json";
