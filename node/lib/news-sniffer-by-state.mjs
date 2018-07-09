@@ -41,10 +41,10 @@ export default function(){
             }
           }
           if (doSearch === false) {
-              stdout.write(`Skipping ${facility["Name"]}\n`);
+            stdout.write(`Skipping ${facility["Name"]}\n`);
           } else {
             // do the search...
-              stdout.write(`Checking on ${facility["Name"]} (${facility["DETLOC"]}) in ${stateName}\n`);
+            stdout.write(`Checking on ${facility["Name"]} (${facility["DETLOC"]}) in ${stateName}\n`);
             // build the container for the results.
             const results = {
               totalResults: 0,
@@ -52,7 +52,7 @@ export default function(){
               status: ""
             };
             // now build the domain chunks list for the query.
-  /*          const domainChunks = [];
+            const domainChunks = [];
             if(sources.join(",").length < 1500){
               // only need one chunk
               domainChunks.push(sources.join(","));
@@ -79,7 +79,7 @@ export default function(){
                   });
                 }
               });
-            }); */
+            });
           }
         }
       }); // Closes facilities .map();
