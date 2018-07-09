@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":3,"articles":[{"source":{"id":null,"name":"Dispatch.com"},"author":"Earl Rinehart","title":"Surge in prisoners prompts federal court to contract with northwest Ohio jail","description":"Benjamin C. Glassman is costing taxpayers more money, and he's OK with that.Glassman, the U.S. attorney for the Southern District of Ohio, is reaching far and wide — very far, in some cases — to fight crime that could hurt Ohioans.He persuaded the U.S. Drug E…","url":"http://www.dispatch.com/news/20171022/surge-in-prisoners-prompts-federal-court-to-contract-with-northwest-ohio-jail","urlToImage":"http://www.dispatch.com/storyimage/OH/20171022/NEWS/171029525/AR/0/AR-171029525.jpg","publishedAt":"2017-10-22T09:00:00Z"},{"source":{"id":null,"name":"Dispatch.com"},"author":"Earl Rinehart","title":"Feds drop deportation case after ICE's Columbus traffic stop challenged","description":"Zenon Natividad Cruz was driving with his wife to work early on the morning of Feb. 5, 2016, when the inside of their vehicle lit up with blue flashing lights.A police officer was pulling them over. Natividad Cruz couldn't think of what he had done wrong. Wha…","url":"http://www.dispatch.com/news/20171204/feds-drop-deportation-case-after-ices-columbus-traffic-stop-challenged","urlToImage":"http://www.dispatch.com/storyimage/OH/20171204/NEWS/171209545/AR/0/AR-171209545.jpg","publishedAt":"2017-12-04T10:46:46Z"},{"source":{"id":null,"name":"Dispatch.com"},"author":"Bonnie Meibers","title":"Fireworks bill stil up in the air as July Fourth holiday approaches","description":"Hopes for legal backyard fireworks displays this July Fourth remain unfulfilled, as legislation to allow Ohioans to shoot off fireworks — and not merely purchase them — is still stalled in the Statehouse.The bill would establish a study group to review sectio…","url":"http://www.dispatch.com/article/20180701/NEWS/180709876","urlToImage":"http://www.dispatch.com/storyimage/OH/20180701/NEWS/180709876/AR/0/AR-180709876.jpg","publishedAt":"2018-07-01T09:47:00Z"}]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Dispatch.com"
+      },
+      "author": "Earl Rinehart",
+      "title": "Surge in prisoners prompts federal court to contract with northwest Ohio jail",
+      "description": "Benjamin C. Glassman is costing taxpayers more money, and he's OK with that.Glassman, the U.S. attorney for the Southern District of Ohio, is reaching far and wide — very far, in some cases — to fight crime that could hurt Ohioans.He persuaded the U.S. Drug E…",
+      "url": "http://www.dispatch.com/news/20171022/surge-in-prisoners-prompts-federal-court-to-contract-with-northwest-ohio-jail",
+      "urlToImage": "http://www.dispatch.com/storyimage/OH/20171022/NEWS/171029525/AR/0/AR-171029525.jpg",
+      "publishedAt": "2017-10-22T09:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dispatch.com"
+      },
+      "author": "Earl Rinehart",
+      "title": "Feds drop deportation case after ICE's Columbus traffic stop challenged",
+      "description": "Zenon Natividad Cruz was driving with his wife to work early on the morning of Feb. 5, 2016, when the inside of their vehicle lit up with blue flashing lights.A police officer was pulling them over. Natividad Cruz couldn't think of what he had done wrong. Wha…",
+      "url": "http://www.dispatch.com/news/20171204/feds-drop-deportation-case-after-ices-columbus-traffic-stop-challenged",
+      "urlToImage": "http://www.dispatch.com/storyimage/OH/20171204/NEWS/171209545/AR/0/AR-171209545.jpg",
+      "publishedAt": "2017-12-04T10:46:46Z"
+    }
+  ],
+  "status": "ok"
+}

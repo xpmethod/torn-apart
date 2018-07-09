@@ -1,1 +1,66 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "Arizona Republic, Bayan Wang, Arizona Republic",
+      "title": "Trump administration releases plan to reunite migrant children with parents in mass detention center",
+      "description": "Trump administration releases plan to reunite migrant children with parents in mass detention center in Texas",
+      "url": "https://www.azcentral.com/story/news/politics/immigration/2018/06/23/trump-administration-releases-plan-reunite-migrant-families/728795002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/ebd1e48e8f6474f58c10a9c8e163075922b92c6b/c=0-153-3000-1848&r=x1683&c=3200x1680/local/-/media/2018/06/21/Phoenix/Phoenix/636652185069430189-062118-NogalesAsylumSeekers32.JPG",
+      "publishedAt": "2018-06-24T05:42:32Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "Arizona Republic, Bayan Wang, Arizona Republic",
+      "title": "Trump administration releases plan to reunite migrant children with parents in mass detention center",
+      "description": "Trump administration releases plan to reunite migrant children with parents in mass detention center in Texas",
+      "url": "https://www.azcentral.com/story/news/local/arizona-breaking/2018/06/23/trump-administration-releases-plan-reunite-migrant-families/728795002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/ebd1e48e8f6474f58c10a9c8e163075922b92c6b/c=0-153-3000-1848&r=x1683&c=3200x1680/local/-/media/2018/06/21/Phoenix/Phoenix/636652185069430189-062118-NogalesAsylumSeekers32.JPG",
+      "publishedAt": "2018-06-24T05:18:34Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Rafael Carranza, The Republic | azcentral.com",
+      "title": "Unfilled jobs at Arizona border ports likely add to your grocery bill",
+      "description": "U.S. Customs and Border Protection is working to recruit new hires as understaffed ports of entry are driving up costs of produce and grocery imports.",
+      "url": "https://www.azcentral.com/story/news/politics/border-issues/2018/01/24/unfilled-jobs-arizona-border-ports-add-your-grocery-bill-customs-border-protection-hiring/1021873001/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/840601f2b58f7d2609ee1efc625022fa988e9683/c=0-455-4028-2731&r=x1683&c=3200x1680/local/-/media/2018/01/24/Phoenix/Phoenix/636523907516501140-ports2.jpg",
+      "publishedAt": "2018-01-24T21:07:48Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, The Republic | azcentral.com",
+      "title": "Clogged border ports chasing away customers from Arizona businesses",
+      "description": "Experts say unlike a border wall,  improvements and staffing at ports where legal border crossings occur would directly boost the nation’s economy.",
+      "url": "https://www.azcentral.com/story/news/politics/border-issues/2017/11/08/clogged-border-ports-keep-customers-workers-away-arizona-businesstake-economic-toll-border-businesse/623579001/",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/29d9383a26b6cc9261c9f7f8921113ed1fa8c09b/c=0-122-2397-1476&r=x803&c=1600x800/local/-/media/2017/11/07/Phoenix/Phoenix/636456631344580780-uscpcent02-6x9vn0cjojdpk47ean9-original.jpg",
+      "publishedAt": "2017-11-08T17:22:12Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Alex Devoid, The Republic | azcentral.com",
+      "title": "Back from the brink, the Sonoran pronghorn now roam an increasingly political landscape",
+      "description": "For the last Sonoran pronghorn in the United States, the only hope for survival could be their greatest menace from the past century: Humans.",
+      "url": "https://www.azcentral.com/story/news/local/arizona-environment/2018/03/27/saving-sonoran-pronghorn-antelope-increasingly-political-landscape/310133002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/7f7406dea1e246929ed83e19d926604889cd82c2/c=0-0-3599-2034&r=x1683&c=3200x1680/local/-/media/2018/03/22/Phoenix/Phoenix/636573361533332047-sonoran-pronghorn014.jpg",
+      "publishedAt": "2018-03-27T19:04:56Z"
+    }
+  ],
+  "status": "ok"
+}

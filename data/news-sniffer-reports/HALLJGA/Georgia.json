@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":2,"articles":[{"source":{"id":null,"name":"Ajc.com"},"author":null,"title":"UGA employee arrested for using hidden camera in locker room - Atlanta Journal Constitution","description":"UGA employee arrested for using hidden camera in locker room Atlanta Journal Constitution An equipment manager for the Georgia football team is accused of using a hidden camera to capture images of at least one individual showering in the Bulldogs' locker roo…","url":"https://www.ajc.com/sports/college/uga-employee-arrested-for-using-hidden-camera-locker-room/0FcBykodgzUuYyUo2HW6KO/","urlToImage":"https://www.ajc.com/rf/image_large/Pub/p9/AJC/2018/03/24/Images/UGA%20helmets.jpg","publishedAt":"2018-03-24T15:43:00Z"},{"source":{"id":null,"name":"Ajc.com"},"author":"The Associated Press","title":"The Latest: Pence says Trump acting to improve school safety - Atlanta Journal Constitution","description":"Atlanta Journal Constitution The Latest: Pence says Trump acting to improve school safety Atlanta Journal Constitution The Latest on a shooting at a high school in Santa Fe, Texas (all times local):. 4:15 p.m.. Vice President Mike Pence says President Donald …","url":"https://www.ajc.com/news/the-latest-pence-says-trump-acting-improve-school-safety/1v5b5UljAKYkKyoMioCnzJ/","urlToImage":"https://www.ajc.com/rf/image_large/Wires/w2/AP_Top_News_General_Stories/2018/05/18/Images/30c573341cbe4235810da5c66ca55397.jpg","publishedAt":"2018-05-18T21:29:41Z"}]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Ajc.com"
+      },
+      "author": null,
+      "title": "UGA employee arrested for using hidden camera in locker room - Atlanta Journal Constitution",
+      "description": "UGA employee arrested for using hidden camera in locker room Atlanta Journal Constitution An equipment manager for the Georgia football team is accused of using a hidden camera to capture images of at least one individual showering in the Bulldogs' locker roo…",
+      "url": "https://www.ajc.com/sports/college/uga-employee-arrested-for-using-hidden-camera-locker-room/0FcBykodgzUuYyUo2HW6KO/",
+      "urlToImage": "https://www.ajc.com/rf/image_large/Pub/p9/AJC/2018/03/24/Images/UGA%20helmets.jpg",
+      "publishedAt": "2018-03-24T15:43:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ajc.com"
+      },
+      "author": "The Associated Press",
+      "title": "The Latest: Pence says Trump acting to improve school safety - Atlanta Journal Constitution",
+      "description": "Atlanta Journal Constitution The Latest: Pence says Trump acting to improve school safety Atlanta Journal Constitution The Latest on a shooting at a high school in Santa Fe, Texas (all times local):. 4:15 p.m.. Vice President Mike Pence says President Donald …",
+      "url": "https://www.ajc.com/news/the-latest-pence-says-trump-acting-improve-school-safety/1v5b5UljAKYkKyoMioCnzJ/",
+      "urlToImage": "https://www.ajc.com/rf/image_large/Wires/w2/AP_Top_News_General_Stories/2018/05/18/Images/30c573341cbe4235810da5c66ca55397.jpg",
+      "publishedAt": "2018-05-18T21:29:41Z"
+    }
+  ],
+  "status": "ok"
+}

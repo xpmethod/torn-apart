@@ -1,1 +1,54 @@
-{"status":"ok","totalResults":4,"articles":[{"source":{"id":null,"name":"Denverpost.com"},"author":"Kieran Nicholson","title":"Immigrants can sue federal detention center in Colorado over forced labor, appeals court says","description":"A lawsuit representing about 62,000 people who were held in an Aurora immigration detention center can proceed the 10th Circuit Court of Appeals ruled.","url":"https://www.denverpost.com/2018/02/09/geo-group-aurora-immigration-detention-center-lawsuit/","urlToImage":"https://www.denverpost.com/wp-content/uploads/2017/06/ap17172779779224.jpg?w=1024&h=683","publishedAt":"2018-02-10T01:17:27Z"},{"source":{"id":null,"name":"Denverpost.com"},"author":"Danika Worthington","title":"Denver Sheriff’s Department to consider bringing back in-person visits with working committee next week","description":"The Denver Sheriff's Department is convening a 35-person working committee to explore how to bring in-person inmate visitation back to the city's jails at the request of the independent monitor.","url":"http://www.denverpost.com/2017/11/29/denver-sheriffs-department-in-person-visits-consideration/","urlToImage":"http://www.denverpost.com/wp-content/uploads/2017/10/jail_video_conferencing_rj_099241.jpg?w=787&h=530","publishedAt":"2017-11-29T21:06:51Z"},{"source":{"id":null,"name":"Denverpost.com"},"author":"Diana DeGette","title":"America must do better for those coming to us in need","description":"We must do this not just for people who come here with hope in their hearts and the tiny hands of the next generation clasped in their own.","url":"https://www.denverpost.com/2018/06/29/america-must-do-better-for-those-coming-to-us-in-need/","urlToImage":"https://www.denverpost.com/wp-content/uploads/2018/06/981572270.jpg?w=1024&h=683","publishedAt":"2018-06-29T18:24:09Z"},{"source":{"id":null,"name":"Denverpost.com"},"author":"Shane Harris, David Weigel, Karoun Demirjian","title":"Democrats intensify fight for immigrant children — and bludgeon Trump and Republicans ahead of midterms","description":"Democrats expanded their campaign Sunday to spotlight the Trump administration's forced separation of migrant children from their families at the U.S. border, trying to compel a change of policy and gain political advantage five months before midterm election…","url":"https://www.denverpost.com/2018/06/18/immigration-child-seperation-midterms-impact/","urlToImage":"https://www.denverpost.com/wp-content/uploads/2018/06/98127b66d7934636b9a4b196a1507e43.jpg?w=1024&h=763","publishedAt":"2018-06-18T14:58:48Z"}]}
+{
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Kieran Nicholson",
+      "title": "Immigrants can sue federal detention center in Colorado over forced labor, appeals court says",
+      "description": "A lawsuit representing about 62,000 people who were held in an Aurora immigration detention center can proceed the 10th Circuit Court of Appeals ruled.",
+      "url": "https://www.denverpost.com/2018/02/09/geo-group-aurora-immigration-detention-center-lawsuit/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2017/06/ap17172779779224.jpg?w=1024&h=683",
+      "publishedAt": "2018-02-10T01:17:27Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Danika Worthington",
+      "title": "Denver Sheriff’s Department to consider bringing back in-person visits with working committee next week",
+      "description": "The Denver Sheriff's Department is convening a 35-person working committee to explore how to bring in-person inmate visitation back to the city's jails at the request of the independent monitor.",
+      "url": "http://www.denverpost.com/2017/11/29/denver-sheriffs-department-in-person-visits-consideration/",
+      "urlToImage": "http://www.denverpost.com/wp-content/uploads/2017/10/jail_video_conferencing_rj_099241.jpg?w=787&h=530",
+      "publishedAt": "2017-11-29T21:06:51Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Diana DeGette",
+      "title": "America must do better for those coming to us in need",
+      "description": "We must do this not just for people who come here with hope in their hearts and the tiny hands of the next generation clasped in their own.",
+      "url": "https://www.denverpost.com/2018/06/29/america-must-do-better-for-those-coming-to-us-in-need/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2018/06/981572270.jpg?w=1024&h=683",
+      "publishedAt": "2018-06-29T18:24:09Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Shane Harris, David Weigel, Karoun Demirjian",
+      "title": "Democrats intensify fight for immigrant children — and bludgeon Trump and Republicans ahead of midterms",
+      "description": "Democrats expanded their campaign Sunday to spotlight the Trump administration's forced separation of migrant children from their families at the U.S. border, trying to compel a change of policy and gain political advantage five months before midterm election…",
+      "url": "https://www.denverpost.com/2018/06/18/immigration-child-seperation-midterms-impact/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2018/06/98127b66d7934636b9a4b196a1507e43.jpg?w=1024&h=763",
+      "publishedAt": "2018-06-18T14:58:48Z"
+    }
+  ],
+  "status": "ok"
+}

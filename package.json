@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "csv-parse": "^2.5.0",
+    "newsapi": "^2.2.2"
+  }
+}

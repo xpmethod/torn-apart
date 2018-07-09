@@ -1,1 +1,18 @@
-{"status":"ok","totalResults":1,"articles":[{"source":{"id":null,"name":"Thesunchronicle.com"},"author":"By David Linton dlinton@thesunchronicle.com","title":"Alleged mastermind in $2 million Attleboro gold theft to stand trial","description":"ATTLEBORO — The alleged mastermind of the “Ocean’s Eleven,” high-tech, $2 million gold heist at an Attleboro jewelry company a decade ago is scheduled to stand trial on Monday.","url":"http://www.thesunchronicle.com/news/local_news/alleged-mastermind-in-million-attleboro-gold-theft-to-stand-trial/article_9b4edc2f-f82e-5e1c-ae59-e86a0a1b27a3.html","urlToImage":"https://bloximages.chicago2.vip.townnews.com/thesunchronicle.com/content/tncms/assets/v3/editorial/7/db/7db83cb3-40c2-56a1-b1ef-4a97358ee438/59e18f0b02691.image.jpg?resize=428%2C630","publishedAt":"2017-10-14T02:15:00Z"}]}
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Thesunchronicle.com"
+      },
+      "author": "By David Linton dlinton@thesunchronicle.com",
+      "title": "Alleged mastermind in $2 million Attleboro gold theft to stand trial",
+      "description": "ATTLEBORO — The alleged mastermind of the “Ocean’s Eleven,” high-tech, $2 million gold heist at an Attleboro jewelry company a decade ago is scheduled to stand trial on Monday.",
+      "url": "http://www.thesunchronicle.com/news/local_news/alleged-mastermind-in-million-attleboro-gold-theft-to-stand-trial/article_9b4edc2f-f82e-5e1c-ae59-e86a0a1b27a3.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/thesunchronicle.com/content/tncms/assets/v3/editorial/7/db/7db83cb3-40c2-56a1-b1ef-4a97358ee438/59e18f0b02691.image.jpg?resize=428%2C630",
+      "publishedAt": "2017-10-14T02:15:00Z"
+    }
+  ],
+  "status": "ok"
+}

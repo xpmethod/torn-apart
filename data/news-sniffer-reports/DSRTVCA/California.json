@@ -1,1 +1,414 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 34,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Joe Mozingo, Sonali Kohli, Melissa Etehad",
+      "title": "When the shooting stopped, 59 distant lives ended together at a Vegas country music concert",
+      "description": "They came from Alaska and Tennessee, Riverside and Simi Valley, commercial fishermen, police officers, teachers, retirees — drawn together only by a love of country music. When the shooting stopped, 59 of those distant lives would end on the warm desert aspha…",
+      "url": "http://www.latimes.com/nation/la-na-las-vegas-shooting-victims-20171003-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59d30072/turbine/la-na-las-vegas-shooting-victims-20171003",
+      "publishedAt": "2017-10-03T03:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes, Shelby Grad",
+      "title": "Essential California: Three Californias? It's a longshot, but...",
+      "description": "Good morning, and welcome to the Essential California newsletter. It’s Wednesday, June 13, and here’s what’s happening across California: TOP STORIES California’s 168-year run as a single entity, hugging the continent’s edge for hundreds of miles and sprawlin…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20180613-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/XZZS9-qJ6xO17QvqBOqmwHPwd9k=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/Z4BG7YCHJJGE5PJNCQNULCG2SQ.jpg",
+      "publishedAt": "2018-06-13T12:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Laura Bleiberg",
+      "title": "These dancers find a most unusual stage: A South L.A. hospital",
+      "description": "For 33 years choreographer Heidi Duckler has staged dance performances at far-flung and unexpected locales, from an abandoned Studio City gas station to the Frank Gehry-designed Cabrillo Marine Aquarium in San Pedro. Her next destination: a hospital campus in…",
+      "url": "http://www.latimes.com/entertainment/arts/la-ca-cm-heidi-duckler-20180524-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/mFzDY0Pr-Z2inzgcjslJ3lDGLbo=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QARI6AM4EJAJVMWNQGNOUY4OS4.jpg",
+      "publishedAt": "2018-05-24T14:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Marisa Gerber",
+      "title": "Drug dealer to be sentenced for his role in 2012 beating death of Fox executive",
+      "description": "A convicted drug dealer is expected to be sentenced Tuesday for his role in the 2012 slaying of a 20th Century Fox executive whose decomposed body was found in the desert more than two years after he disappeared. A downtown Los Angeles jury rejected prosecuti…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-creech-sentencing-2170919-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c048e1/turbine/la-me-ln-creech-sentencing-2170919",
+      "publishedAt": "2017-09-19T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes, Shelby Grad",
+      "title": "Essential California: Where in the world is Harvey Weinstein?",
+      "description": "Good morning, and welcome to the Essential California newsletter. It is Saturday, Feb. 24. Here’s what you don’t want to miss this weekend: TOP STORIES Where is Weinstein? To visitors of the Phoenix suburb of Paradise Valley, one of the main attractions is th…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20180224-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/NGPFF8sQgY9FoCY02Yf8rcdx_9o=/1200x0/www.trbimg.com/img-5a9159c0/turbine/la-me-ln-essential-california-20180224",
+      "publishedAt": "2018-02-24T13:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Neal J. Leitereg and Lauren Beale",
+      "title": "Hot Property: Something old, something new",
+      "description": "Hollywood and history just go together. This week’s offerings include the haunts of a film director giant and a famously married, then divorced, actress. There are also homes owned by a popular comic actor and a decorated soap opera producer. For a look insid…",
+      "url": "http://www.latimes.com/business/realestate/hot-property/la-fi-hotprop-newsletter-20180310-story.html",
+      "urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+      "publishedAt": "2018-03-10T08:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Neal J. Leitereg and Lauren Beale",
+      "title": "Hot Property: Something old, something new",
+      "description": "Hollywood and history just go together. This week’s offerings include the haunts of a film director giant and a famously married, then divorced, actress. There are also homes owned by a popular comic actor and a decorated soap opera producer. For a look insid…",
+      "url": "http://www.latimes.com/business/realestate/hot-property/la-fi-hotprop-newsletter-20180310-story.html",
+      "urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+      "publishedAt": "2018-03-10T08:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Paloma Esquivel",
+      "title": "Joshua Tree has exploded in popularity, demanding more of volunteer rescue workers",
+      "description": "David Sewell lay against a pile of granite rocks, struggling even to shift his hips slightly beneath him. He told himself that if he was going to die, he should write a note to his children. Three days earlier, on a Saturday afternoon in April, the legally bl…",
+      "url": "http://www.latimes.com/local/lanow/la-me-joshua-tree-rescues-20180526-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/cnYWKgp3UBrw9ValRZIfomE21_I=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/YYKEA4BQF5EO5IHGXXZFV5TJDQ.jpg",
+      "publishedAt": "2018-05-28T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Paloma Esquivel",
+      "title": "Joshua Tree has exploded in popularity, demanding more of volunteer rescue workers",
+      "description": "David Sewell lay against a pile of granite rocks, struggling even to shift his hips slightly beneath him. He told himself that if he was going to die, he should write a note to his children. Three days earlier, on a Saturday afternoon in April, the legally bl…",
+      "url": "http://www.latimes.com/local/lanow/la-me-joshua-tree-rescues-20180526-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/cnYWKgp3UBrw9ValRZIfomE21_I=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/YYKEA4BQF5EO5IHGXXZFV5TJDQ.jpg",
+      "publishedAt": "2018-05-28T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Steve Lopez",
+      "title": "Hear about the house that went for $800,000 above asking? Welcome to California",
+      "description": "The population of California was just above 10 million when I joined the party in 1953. Today we’ve got nearly four times as many residents, or just short of 40 million. Is that too many people? Plenty of folks think so, judging by the reaction I get whenever…",
+      "url": "http://www.latimes.com/local/california/la-me-lopez-housing-population-20170916-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59bc8a87/turbine/la-me-lopez-housing-population-20170916",
+      "publishedAt": "2017-09-16T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes, Shelby Grad",
+      "title": "Essential California: Trump administration sues over laws protecting immigrants",
+      "description": "Good morning, and welcome to the Essential California newsletter. It’s Wednesday, March 7, and here’s what’s happening across California: TOP STORIES The Trump administration, seeking to force a defiant California to cooperate with its agenda of stepped-up im…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20180307-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/iTacPd991lmg0YpOMsopk6JF5AA=/1200x0/www.trbimg.com/img-5a9fd698/turbine/la-me-ln-essential-california-20180307",
+      "publishedAt": "2018-03-07T13:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Dean R. Owen",
+      "title": "The Seattle of Jimi Hendrix summons the soul of the legendary musician",
+      "description": "SEATTLE — This sprawling city overlooking Puget Sound has been home to some of the world’s most influential singers and songwriters, including Quincy Jones, Judy Collins and Kurt Cobain. But another musician, whom Rolling Stone magazine contends “exploded our…",
+      "url": "http://www.latimes.com/travel/la-tr-seattle-jimi-hendrix-20171127-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a1b815b/turbine/la-tr-seattle-jimi-hendrix-20171127",
+      "publishedAt": "2017-11-27T14:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes , Shelby Grad",
+      "title": "Essential California: Cult leader Charles Manson is dead - Los Angeles Times",
+      "description": "Los Angeles Times Essential California: Cult leader Charles Manson is dead Los Angeles Times Good morning, and welcome to the Essential California newsletter. It's Monday, Nov. 20, and here's what's happening across California: TOP STORIES. Manson dies. Charl…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20171120-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a12c7de/turbine/la-me-ln-essential-california-20171120",
+      "publishedAt": "2017-11-20T13:30:47Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "John Cherwa",
+      "title": "Racing! Going to be an interesting Belmont",
+      "description": "Horse racing newsletter",
+      "url": "http://www.latimes.com/sports/more/la-sp-horse-racing-newsletter-20180520-htmlstory.html",
+      "urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+      "publishedAt": "2018-05-20T12:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

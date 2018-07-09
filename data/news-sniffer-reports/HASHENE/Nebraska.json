@@ -1,1 +1,18 @@
-{"status":"ok","totalResults":1,"articles":[{"source":{"id":null,"name":"Omaha.com"},"author":"By Joe Duggan World-Herald Bureau","title":"Senator cites 'fiasco' – 59 calls between inmate and attorney were recorded – in pushing new bill","description":"The incident illustrates the need for a law that would ban jails from recording attorney-client phone calls, State Sen. John McCollister said last weekcq during a hearing before Legislature's Judiciary Committee. The Omaha senator included the provision in Le…","url":"http://www.omaha.com/news/plus/senator-cites-fiasco-calls-between-inmate-and-attorney-were-recorded/article_d2a5e9f3-b44b-5775-a29a-d23c36443142.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/3/54/35424d1a-0557-5ebc-94fa-43d1b1205f3c/5a667281b098a.image.jpg?crop=396%2C297%2C101%2C0&resize=396%2C297&order=crop%2Cresize","publishedAt":"2018-01-22T16:03:00Z"}]}
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Omaha.com"
+      },
+      "author": "By Joe Duggan World-Herald Bureau",
+      "title": "Senator cites 'fiasco' – 59 calls between inmate and attorney were recorded – in pushing new bill",
+      "description": "The incident illustrates the need for a law that would ban jails from recording attorney-client phone calls, State Sen. John McCollister said last weekcq during a hearing before Legislature's Judiciary Committee. The Omaha senator included the provision in Le…",
+      "url": "http://www.omaha.com/news/plus/senator-cites-fiasco-calls-between-inmate-and-attorney-were-recorded/article_d2a5e9f3-b44b-5775-a29a-d23c36443142.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/3/54/35424d1a-0557-5ebc-94fa-43d1b1205f3c/5a667281b098a.image.jpg?crop=396%2C297%2C101%2C0&resize=396%2C297&order=crop%2Cresize",
+      "publishedAt": "2018-01-22T16:03:00Z"
+    }
+  ],
+  "status": "ok"
+}

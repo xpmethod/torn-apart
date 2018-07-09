@@ -1,1 +1,222 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 18,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "Mother, boyfriend charged in death of daughter, 11",
+      "description": "NORFOLK, Va. (AP) — A Virginia mother has been charged with the murder of her 11-year-old daughter.",
+      "url": "http://www.roanoke.com/news/virginia/wire/mother-boyfriend-charged-in-death-of-daughter/article_830e060d-379b-59ae-98de-f841b3562ab3.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-05-20T17:17:50Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": null,
+      "title": "Head of beleaguered Virginia jail steps down after 1 year",
+      "description": "PORTSMOUTH, Va. (AP) — After a year on the job, the superintendent of a Virginia jail under federal investigation has stepped down.",
+      "url": "http://www.richmond.com/news/virginia/ap/head-of-beleaguered-virginia-jail-steps-down-after-year/article_f7d5c966-8d08-580d-a9b7-3bad4c2c3315.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/custom/image/d3d347f2-efa0-11e6-b02b-d30e16810f0d.jpg?_dc=1486738470",
+      "publishedAt": "2018-03-22T00:26:08Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "Head of beleaguered Virginia jail steps down after 1 year",
+      "description": "PORTSMOUTH, Va. (AP) — After a year on the job, the superintendent of a Virginia jail under federal investigation has stepped down.",
+      "url": "http://www.roanoke.com/news/virginia/wire/head-of-beleaguered-virginia-jail-steps-down-after-year/article_cdc00062-dbd6-5408-8d95-59c2f68cbd1e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-03-22T00:26:08Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By Kristine Phillips, The Washington Post",
+      "title": "She sent her child to school with a recorder to catch bullies – and was charged with a felony",
+      "description": "A Virginia mother said she was charged with a felony after she sent her daughter to school with an audio recorder in her backpack to see if the child was being bullied at school.",
+      "url": "http://www.roanoke.com/news/virginia/she-sent-her-child-to-school-with-a-recorder-to/article_bbd987b5-1974-5388-bb15-1898de9c90d4.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2017-11-28T20:42:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "BY FRANK GREEN Richmond Times-Dispatch",
+      "title": "Advocacy groups join ACLU in urging Va. governor to curb use of solitary confinement; state DOC contends it does not use the practice",
+      "description": "Advocacy groups joined the ACLU of Virginia on Thursday in urging Gov. Ralph Northam and other state officials to greatly curb the use of solitary confinement.",
+      "url": "http://www.roanoke.com/news/virginia/advocacy-groups-join-aclu-in-urging-va-governor-to-curb/article_14c54885-95bb-5be5-9d41-3ec14596b86f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/7/df/7dffc820-a4f0-56dc-a796-3c68b29acad8/5af4b4f018e6f.image.jpg?resize=1050%2C630",
+      "publishedAt": "2018-05-10T20:52:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By DENISE LAVOIE AP Legal Affairs Writer",
+      "title": "ACLU calls for limits on solitary confinement in Virginia",
+      "description": "RICHMOND, Va. (AP) — The American Civil Liberties Union of Virginia on Thursday called on Gov. Ralph Northam to sharply limit the use of solitary confinement in state prisons.",
+      "url": "http://www.roanoke.com/news/virginia/wire/aclu-calls-for-limits-on-solitary-confinement-in-virginia/article_046b9b6d-2083-5fbd-bc62-138e38e3d44a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-05-10T17:01:29Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By Jeff Sturgeon jeff.sturgeon@roanoke.com 981-3251",
+      "title": "Roanoke mulls ideas for train and bus center",
+      "description": "Roanoke roared about getting passenger service. A new train station could be next, but those talks are barely above a whisper.",
+      "url": "http://www.roanoke.com/business/news/roanoke/roanoke-mulls-ideas-for-train-and-bus-center/article_b29c6095-f1bf-592b-9a75-c1a702529bb3.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2017-11-20T04:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY FRANK GREEN Richmond Times-Dispatch",
+      "title": "Joseph M. Giarratano, controversial former death row inmate, granted parole",
+      "description": "After 38 years behind bars and a close brush with execution for a rape and double murder that supporters have long claimed he did not commit, Joseph M. Giarratano has been granted parole.",
+      "url": "http://www.richmond.com/news/joseph-m-giarratano-controversial-former-death-row-inmate-granted-parole/article_2eb47e71-4a18-5122-87ad-61681185b17d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/b/3e/b3ea1268-56a8-5e78-b40b-26f0c90755d4/5a1371e9da6e0.image.jpg?resize=200%2C259",
+      "publishedAt": "2017-11-21T00:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By Ellen Robertson Richmond Times-Dispatch",
+      "title": "Holocaust survivor Rosalia Kaplan, who was liberated from Auschwitz when she was 11, died this week",
+      "description": "RICHMOND — On a frigid day in January 1945, the Soviet Army liberated more than 7,000 remaining inmates of the Auschwitz concentration camp in Poland, including an 11-year-old Dutch Jewish girl named Rosalia Cato Kats.",
+      "url": "http://www.roanoke.com/news/virginia/holocaust-survivor-rosalia-kaplan-who-was-liberated-from-auschwitz-when/article_5657734b-bf22-5522-b07e-7393387c5819.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/e/e8/ee8a9378-8a04-5bca-8b85-7fb05ddc5ea4/5a3ef7dbe44f6.image.jpg?resize=942%2C630",
+      "publishedAt": "2017-12-23T23:54:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By The Associated Press",
+      "title": "Recent editorials published in Nebraska newspapers",
+      "description": "Omaha World Herald. April 19, 2018",
+      "url": "http://www.roanoke.com/news/virginia/wire/recent-editorials-published-in-nebraska-newspapers/article_603594ae-325a-5133-bde5-a78fdd52794c.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-04-23T14:01:24Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY PATRICK WILSON Richmond Times-Dispatch",
+      "title": "After backing marijuana decriminalization, Sen. Norment stops short with bill",
+      "description": "After saying he was open to decriminalization of marijuana, the state GOP's powerful Senate leader disappointed reform advocates by filing a bill that stops short.",
+      "url": "http://www.richmond.com/news/virginia/government-politics/general-assembly/after-backing-marijuana-decriminalization-sen-norment-stops-short-with-bill/article_48f90f4d-7f9e-55c9-b043-9d63b7328c19.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/f/97/f9745fe0-2a75-5ebc-98fd-81b586ee0839/5997421aa0f82.image.jpg?resize=955%2C630",
+      "publishedAt": "2018-01-20T19:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By PATRICK WILSON Richmond Times-Dispatch",
+      "title": "After backing marijuana decriminalization, Sen. Norment stops short with bill",
+      "description": "After saying he was open to decriminalization of marijuana, the state GOP’s powerful Senate leader disappointed reform advocates by filing a bill that stops short.",
+      "url": "http://www.roanoke.com/news/politics/general_assembly/after-backing-marijuana-decriminalization-sen-norment-stops-short-with-bill/article_270224b7-9a3e-5a80-b055-7487583dd683.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/5/bd/5bdd3250-b600-5ef5-860e-8066e8c0f692/5a65eb57588d3.image.jpg?resize=955%2C630",
+      "publishedAt": "2018-01-22T13:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By The Associated Press",
+      "title": "Recent editorials published in Nebraska newspapers",
+      "description": "Omaha World Herald. June 8, 2018",
+      "url": "http://www.roanoke.com/news/virginia/wire/recent-editorials-published-in-nebraska-newspapers/article_adc62e52-5075-5007-af5f-ee534ba492cc.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-06-11T14:05:37Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY ELLEN ROBERTSON Richmond Times-Dispatch",
+      "title": "Service will be held today for local Holocaust child survivor Rosalia Kaplan",
+      "description": "On a frigid day in January 1945, the Soviet Army liberated more than 7,000 remaining inmates of the Auschwitz concentration camp in Poland, including an 11-year-old Dutch Jewish girl named Rosalia Cato Kats.",
+      "url": "http://www.richmond.com/news/obituary/service-will-be-held-today-for-local-holocaust-child-survivor/article_4cbe81fd-8c69-5754-9dfd-5d9cd68568e7.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/3/bd/3bd3faf2-2671-58fc-b5b2-ac70b9076412/5a3ca2e99ec2e.image.jpg?crop=957%2C770%2C352%2C115&resize=783%2C630&order=crop%2Cresize",
+      "publishedAt": "2017-12-22T06:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY ELLEN ROBERTSON Richmond Times-Dispatch",
+      "title": "Service held Friday for local Holocaust child survivor Rosalia Kaplan",
+      "description": "On a frigid day in January 1945, the Soviet Army liberated more than 7,000 remaining inmates of the Auschwitz concentration camp in Poland, including an 11-year-old Dutch Jewish girl named Rosalia Cato Kats.",
+      "url": "http://www.richmond.com/news/obituary/service-held-friday-for-local-holocaust-child-survivor-rosalia-kaplan/article_4cbe81fd-8c69-5754-9dfd-5d9cd68568e7.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/3/bd/3bd3faf2-2671-58fc-b5b2-ac70b9076412/5a3ca2e99ec2e.image.jpg?crop=957%2C770%2C352%2C115&resize=783%2C630&order=crop%2Cresize",
+      "publishedAt": "2017-12-22T16:58:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "BY RICHARD A. SOMMA ASSOCIATED PRESS",
+      "title": "This week in odd news: Dog unemployment, calamari calamity",
+      "description": "OWNER RECEIVES LETTER GRANTING DOG UNEMPLOYMENT BENEFITS",
+      "url": "http://www.roanoke.com/news/nation/wire/this-week-in-odd-news-dog-unemployment-calamari-calamity/article_f6752088-4d33-558a-89eb-240732b06b0e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/1/2f/12f89969-a0c3-5be3-815d-d16ab2f1438e/5a73e61379b06.image.jpg?resize=700%2C630",
+      "publishedAt": "2018-02-03T12:17:39Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "BY RICHARD A. SOMMA ASSOCIATED PRESS",
+      "title": "This week in odd news: Dog found after 10 years; 1-2-3 mom",
+      "description": "FAMILY'S DOG TURNS UP 10 YEARS AFTER VANISHING FROM HOME",
+      "url": "http://www.roanoke.com/news/nation/wire/this-week-in-odd-news-dog-found-after-years-/article_f6752088-4d33-558a-89eb-240732b06b0e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/3/5e/35e1dc72-1d7c-5fff-81ca-5caab817bad0/5a74451894236.image.jpg?resize=894%2C630",
+      "publishedAt": "2018-02-03T16:54:54Z"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "USATODAY, USATODAY",
+      "title": "Corrections & Clarifications",
+      "description": "The following corrections and clarifications have been published by USA TODAY.",
+      "url": "https://www.usatoday.com/story/news/2013/01/09/corrections-clarifications/1821023/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/GDContent/applogos/usatoday.png",
+      "publishedAt": "2018-03-27T20:25:54Z"
+    }
+  ],
+  "status": "ok"
+}

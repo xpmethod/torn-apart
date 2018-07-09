@@ -1,1 +1,54 @@
-{"status":"ok","totalResults":4,"articles":[{"source":{"id":null,"name":"Nypost.com"},"author":"Joshua Rhett Miller","title":"Sword murder suspect claims he was defending himself from sex assault","description":"A homeless man accused of killing another man with a three-foot sword at a makeshift encampment in Florida claims he was acting in self-defense after being sexually harassed, police said. George Christopher Livingston, 51, was arrested after 58-year-old David…","url":"https://nypost.com/2017/11/28/sword-murder-suspect-claims-he-was-defending-himself-from-sex-assault/","urlToImage":"https://thenypost.files.wordpress.com/2017/11/livingston.jpg?quality=90&strip=all&w=1200","publishedAt":"2017-11-28T19:50:55Z"},{"source":{"id":null,"name":"Nypost.com"},"author":"Associated Press","title":"Deputy arrested for alleged sex with jail inmates","description":"RICHMOND, Calif. — A San Francisco Bay Area sheriff’s deputy has been arrested on suspicion of having sex with two jail inmates. The East Bay Times reports that 26-year-old Patrick Morseman was arrested Wednesday. He’s free on bail and it’s not immediately cl…","url":"https://nypost.com/2018/04/06/deputy-arrested-for-alleged-sex-with-jail-inmates/","urlToImage":"https://thenypost.files.wordpress.com/2018/04/180406-deputy-arrested-sex-with-inmates-feature.jpg?quality=90&strip=all&w=1200","publishedAt":"2018-04-06T19:13:32Z"},{"source":{"id":null,"name":"Nypost.com"},"author":"Variety","title":"Inmate awaiting trial in fatal swatting case tweets threats from jail","description":"An inmate awaiting trial on a 2017 involuntary manslaughter case in which he is accused of making a fake 911 call that led to the shooting death of a Kansas man by a Wichita SWAT unit, apparently managed to get on Twitter from jail, where he threatened to swa…","url":"https://nypost.com/2018/04/10/inmate-awaiting-trial-in-fatal-swatting-case-tweets-threats-from-jail/","urlToImage":"https://thenypost.files.wordpress.com/2018/04/inmate-tweets-jail.jpg?quality=90&strip=all&w=1200","publishedAt":"2018-04-10T22:55:43Z"},{"source":{"id":"the-new-york-times","name":"The New York Times"},"author":"Mitch Smith","title":"Fatal 'Swatting' Episode in Kansas Raises Quandary: Who Is to Blame? - New York Times","description":"New York Times Fatal 'Swatting' Episode in Kansas Raises Quandary: Who Is to Blame? New York Times When the police surrounded a house in Wichita, Kan., late Thursday, they expected to find a gunman who told a 911 dispatcher that he was holding his mother and …","url":"https://www.nytimes.com/2017/12/31/us/wichita-swatting-barriss.html","urlToImage":"https://static01.nyt.com/images/2018/01/01/us/01wichita1/01wichita1-facebookJumbo.jpg","publishedAt":"2017-12-31T23:58:00Z"}]}
+{
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Joshua Rhett Miller",
+      "title": "Sword murder suspect claims he was defending himself from sex assault",
+      "description": "A homeless man accused of killing another man with a three-foot sword at a makeshift encampment in Florida claims he was acting in self-defense after being sexually harassed, police said. George Christopher Livingston, 51, was arrested after 58-year-old David…",
+      "url": "https://nypost.com/2017/11/28/sword-murder-suspect-claims-he-was-defending-himself-from-sex-assault/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2017/11/livingston.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2017-11-28T19:50:55Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Associated Press",
+      "title": "Deputy arrested for alleged sex with jail inmates",
+      "description": "RICHMOND, Calif. — A San Francisco Bay Area sheriff’s deputy has been arrested on suspicion of having sex with two jail inmates. The East Bay Times reports that 26-year-old Patrick Morseman was arrested Wednesday. He’s free on bail and it’s not immediately cl…",
+      "url": "https://nypost.com/2018/04/06/deputy-arrested-for-alleged-sex-with-jail-inmates/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2018/04/180406-deputy-arrested-sex-with-inmates-feature.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2018-04-06T19:13:32Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Variety",
+      "title": "Inmate awaiting trial in fatal swatting case tweets threats from jail",
+      "description": "An inmate awaiting trial on a 2017 involuntary manslaughter case in which he is accused of making a fake 911 call that led to the shooting death of a Kansas man by a Wichita SWAT unit, apparently managed to get on Twitter from jail, where he threatened to swa…",
+      "url": "https://nypost.com/2018/04/10/inmate-awaiting-trial-in-fatal-swatting-case-tweets-threats-from-jail/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2018/04/inmate-tweets-jail.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2018-04-10T22:55:43Z"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": "Mitch Smith",
+      "title": "Fatal 'Swatting' Episode in Kansas Raises Quandary: Who Is to Blame? - New York Times",
+      "description": "New York Times Fatal 'Swatting' Episode in Kansas Raises Quandary: Who Is to Blame? New York Times When the police surrounded a house in Wichita, Kan., late Thursday, they expected to find a gunman who told a 911 dispatcher that he was holding his mother and …",
+      "url": "https://www.nytimes.com/2017/12/31/us/wichita-swatting-barriss.html",
+      "urlToImage": "https://static01.nyt.com/images/2018/01/01/us/01wichita1/01wichita1-facebookJumbo.jpg",
+      "publishedAt": "2017-12-31T23:58:00Z"
+    }
+  ],
+  "status": "ok"
+}

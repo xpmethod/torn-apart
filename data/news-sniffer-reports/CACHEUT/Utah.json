@@ -1,1 +1,18 @@
-{"status":"ok","totalResults":1,"articles":[{"source":{"id":null,"name":"Sltrib.com"},"author":"https://www.facebook.com/schreifels.miller","title":"A Utah mother and her young son went missing in 2015. Authorities now believe her boyfriend killed them. - Salt Lake Tribune","description":"Salt Lake Tribune A Utah mother and her young son went missing in 2015. Authorities now believe her boyfriend killed them. Salt Lake Tribune Christopher Poulson was arrested in Hawaii and has been charged with two counts of aggravated murder. A Utah mother an…","url":"http://www.sltrib.com/news/2017/10/30/utah-double-murder-suspect-arrested-in-hawaii/","urlToImage":"http://www.sltrib.com/resizer/ME8FNDUeKK6LHR8b7r3d0tuOv8w=/1200x630/filters:quality(100)/arc-anglerfish-arc2-prod-sltrib.s3.amazonaws.com/public/GNKEIYYQ7BFNTD2CZARBOOZIUE.PNG","publishedAt":"2017-10-30T17:16:26Z"}]}
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Sltrib.com"
+      },
+      "author": "https://www.facebook.com/schreifels.miller",
+      "title": "A Utah mother and her young son went missing in 2015. Authorities now believe her boyfriend killed them. - Salt Lake Tribune",
+      "description": "Salt Lake Tribune A Utah mother and her young son went missing in 2015. Authorities now believe her boyfriend killed them. Salt Lake Tribune Christopher Poulson was arrested in Hawaii and has been charged with two counts of aggravated murder. A Utah mother an…",
+      "url": "http://www.sltrib.com/news/2017/10/30/utah-double-murder-suspect-arrested-in-hawaii/",
+      "urlToImage": "http://www.sltrib.com/resizer/ME8FNDUeKK6LHR8b7r3d0tuOv8w=/1200x630/filters:quality(100)/arc-anglerfish-arc2-prod-sltrib.s3.amazonaws.com/public/GNKEIYYQ7BFNTD2CZARBOOZIUE.PNG",
+      "publishedAt": "2017-10-30T17:16:26Z"
+    }
+  ],
+  "status": "ok"
+}

@@ -1,1 +1,198 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 16,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "James Queally",
+      "title": "Muslim woman sues Ventura County Sheriff's Department, says deputies forced her to remove hijab while jailed",
+      "description": "A Muslim woman filed a federal lawsuit against the Ventura County Sheriff’s Department on Monday, claiming deputies forced her to remove her head scarf while in custody last year, a move that runs counter to established case law protecting the religious right…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-ventura-county-hijab-lawsuit-20180507-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/SbgWNB6DTB6A9MD8OC_Ogv7PpTI=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/D66WHNIF3NHR5OB5XMZIFVVYAM.jpg",
+      "publishedAt": "2018-05-07T18:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Alene Tchekmedyian",
+      "title": "He spent 39 years behind bars for two murders he didn't commit. Gov. Jerry Brown just pardoned him",
+      "description": "Gov. Jerry Brown on Wednesday pardoned a 70-year-old man who spent nearly four decades in custody for two murders that police and prosecutors now say he didn't commit.",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-jerry-brown-pardon-20171122-htmlstory.html",
+      "urlToImage": "http://www.trbimg.com/img-5a166a6e/turbine/la-me-ln-jerry-brown-pardon-20171122",
+      "publishedAt": "2017-11-23T05:35:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Associated Press",
+      "title": "New Jersey teen held in New Year's Eve shooting death of parents and sister, prosecutor says - Los Angeles Times",
+      "description": "New York Times New Jersey teen held in New Year's Eve shooting death of parents and sister, prosecutor says Los Angeles Times A 16-year-old New Jersey boy armed with a semiautomatic rifle shot and killed his parents, sister and a family friend on New Year's E…",
+      "url": "http://www.latimes.com/nation/nationnow/la-new-jersey-teen-shooting-20180101-story.html",
+      "urlToImage": "http://www.trbimg.com/img-56fd643a/turbine/la-l-a-times-logo-20160331/600",
+      "publishedAt": "2018-01-02T02:55:35Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Alene Tchekmedyian",
+      "title": "He spent 38 years in prison for two murders he didn't commit. Gov. Jerry Brown just pardoned him",
+      "description": "Gov. Jerry Brown on Wednesday pardoned a 70-year-old man who spent nearly four decades in prison for two murders that officials now believe he did not commit. Craig Coley was convicted in 1980 of strangling to death his ex-girlfriend and fatally smothering he…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-jerry-brown-pardon-20171122-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a16134a/turbine/la-me-ln-jerry-brown-pardon-20171122",
+      "publishedAt": "2017-11-23T00:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kurtis Lee",
+      "title": "In hopes of getting around federal law, immigrants seek governors' pardons to block deportation - Los Angeles Times",
+      "description": "Los Angeles Times In hopes of getting around federal law, immigrants seek governors' pardons to block deportation Los Angeles Times The two Cambodian refugees living in Northern California had been convicted of crimes years ago and, under the Trump administra…",
+      "url": "http://www.latimes.com/nation/la-na-immigration-pardons-20171225-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a403b78/turbine/la-na-immigration-pardons-20171225",
+      "publishedAt": "2017-12-25T11:03:25Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Makeda Easter",
+      "title": "21-year-old files claim against Pasadena police after beating was caught on camera during a traffic stop",
+      "description": "After a November traffic stop led to his violent beating, arrest and a broken leg, an Altadena man has filed a claim for damages against the city of Pasadena, its police department and chief, and the two officers involved. Christopher Ballew’s Nov. 9 arrest a…",
+      "url": "http://www.latimes.com/local/lanow/la-me-pasadena-police-beating-20171220-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a3b23d5/turbine/la-me-pasadena-police-beating-20171220",
+      "publishedAt": "2017-12-21T03:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Evan Halper",
+      "title": "Trump administration to challenge California laws protecting immigrants",
+      "description": "The Trump administration, seeking to force a defiant California to cooperate with its agenda of stepped-up immigrant deportations, went to federal court Tuesday to invalidate three state laws — the administration’s most direct challenge yet to the state’s pol…",
+      "url": "http://www.latimes.com/politics/la-na-pol-trump-california-immigration-20180306-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/ArKfV_7f5cl8XaAKSpVIRrkFhoA=/1200x0/www.trbimg.com/img-5a9f4a65/turbine/la-na-pol-trump-california-immigration-20180306",
+      "publishedAt": "2018-03-07T02:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Evan Halper",
+      "title": "Trump administration to challenge California laws protecting immigrants",
+      "description": "The Trump administration, seeking to force a defiant California to cooperate with its agenda of stepped-up immigrant deportations, went to federal court Tuesday to invalidate three state laws — the administration’s most direct challenge yet to the state’s pol…",
+      "url": "http://www.latimes.com/politics/la-na-pol-trump-california-immigration-20180306-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/ArKfV_7f5cl8XaAKSpVIRrkFhoA=/1200x0/www.trbimg.com/img-5a9f4a65/turbine/la-na-pol-trump-california-immigration-20180306",
+      "publishedAt": "2018-03-07T02:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Dylan Farrow",
+      "title": "Dylan Farrow: Why has the #MeToo revolution spared Woody Allen?",
+      "description": "Editor’s Note: Woody Allen, who declined to comment prior to publication, has long denied the allegations described in this Op-Ed. Dylan Farrow’s allegations against Allen were investigated by sex-abuse experts at Yale-New Haven Hospital and by law enforcemen…",
+      "url": "http://www.latimes.com/opinion/op-ed/la-oe-farrow-woody-allen-me-too-20171207-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a289326/turbine/la-oe-farrow-woody-allen-me-too-20171207",
+      "publishedAt": "2017-12-07T11:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes, Shelby Grad",
+      "title": "Essential California: Separating migrants and their children",
+      "description": "Good morning, and welcome to the Essential California newsletter. It’s Tuesday, May 8, and here’s what’s happening across California: TOP STORIES All immigrants who cross the border illegally will be charged with a crime under a new \"zero tolerance\" border en…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20180508-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/i-pQYBUBkS2jatyTGAD8MXYMDsM=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/ML5LDABYSNCSPPKJTGDBCEOV6A.jpg",
+      "publishedAt": "2018-05-08T12:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Associated Press",
+      "title": "Once held by the Taliban, now held by Canada on charges of sexual assault",
+      "description": "A Canadian man recently freed with his American wife and children after years of being held hostage in Afghanistan has been arrested and faces at least a dozen charges, including sexual assault, his lawyer said Tuesday. Attorney Eric Granger said Joshua Boyle…",
+      "url": "http://www.latimes.com/world/la-fg-canada-taliban-prisoner-20180102-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a4c38a0/turbine/la-fg-canada-taliban-prisoner-20180102",
+      "publishedAt": "2018-01-03T01:50:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Richard Winton, Tracey Lien, Paige St. John, Benjamin Oreskes",
+      "title": "The first step in finding Golden State Killer suspect: Finding his great-great-great-grandparents on genealogy site",
+      "description": "There was no match in the FBI’s national DNA database. A search of California’s forensic data bank came up blank. The clue that led investigators this week to the door of the suspected Golden State Killer came instead from an unexpected source: an amateur gen…",
+      "url": "http://www.latimes.com/local/lanow/la-me-golden-state-dna-match-20180427-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/8qYCEAiR7K0i7xgYIf2QLHADuQ8=/1200x0/www.trbimg.com/img-5ae3bcd1/turbine/la-me-golden-state-dna-match-20180427",
+      "publishedAt": "2018-04-28T00:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Joseph Serna, Benjamin Oreskes",
+      "title": "Why did it take so long to arrest the Golden State Killer suspect? Interagency rivalries, old technology, errors and bad luck",
+      "description": "The killer was thought to have law enforcement or military experience. He was believed to stand around 6 feet tall, with an athletic build. He was presumed to live in the Central Valley and Sacramento area at different points in the 1970s. Joseph James DeAnge…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-golden-state-killer-case-20180525-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/1DfDe4L0-G5VzYZZMjhphTZUsDA=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/SSDCHSNEFFBSHPLBDWNN6ZT57Y.jpg",
+      "publishedAt": "2018-05-25T10:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Andrew Khouri",
+      "title": "More workers say their bosses are threatening to have them deported",
+      "description": "The deal the worker struck was simple: $150 a day to tile a bathroom and stucco the walls of a home in Arcadia. The pay was to come at the end of each day but never did, according to a lawsuit filed in Los Angeles County Superior Court by the California labor…",
+      "url": "http://www.latimes.com/business/la-fi-immigration-retaliation-20180102-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a4b24be/turbine/la-fi-immigration-retaliation-20180102",
+      "publishedAt": "2018-01-02T15:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Liz Weston",
+      "title": "Why failing to pay your taxes is a risky form of protest",
+      "description": "Dear Liz: I write in earnest hope that you might consider giving advice to those wondering about withholding federal taxes as a form of protest over the enactment of the new tax bill. What are the possible legal ramifications of withholding federal taxes? If …",
+      "url": "http://www.latimes.com/business/la-fi-money-talk-tax-protest-20171231-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a44678f/turbine/la-fi-money-talk-tax-protest-20171231",
+      "publishedAt": "2017-12-31T11:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Sarah Parvini, Joseph Serna, Paige St. John",
+      "title": "Golden State Killer: Did middle-class life provide suspect a perfect cover?",
+      "description": "To neighbors in the Sacramento suburb of Citrus Heights, Joseph James DeAngelo appeared to lead a perfectly unremarkable middle-class existence — one that may have kept the man believed to be the Golden State Killer from drawing suspicion for decades. The Nav…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-golden-state-killer-profile-20180426-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/GPCZUMBYvneMZWe7KlK4wCimmTw=/1200x0/www.trbimg.com/img-5ae23a77/turbine/la-me-ln-golden-state-killer-profile-20180426",
+      "publishedAt": "2018-04-26T15:30:00Z"
+    }
+  ],
+  "status": "ok"
+}

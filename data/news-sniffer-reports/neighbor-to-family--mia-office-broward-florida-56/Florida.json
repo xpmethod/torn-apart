@@ -1,0 +1,78 @@
+{
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Sun-sentinel.com"
+      },
+      "author": "Anne Geggis",
+      "title": "Three members of same family killed in Mexico bus crash - Sun Sentinel",
+      "description": "Sun Sentinel Three members of same family killed in Mexico bus crash Sun Sentinel A 78-year-old Coconut Creek woman is among the dozen passengers killed in a bus crash in Mexico, according to family members. Anne GeggisContact Reporter · Privacy Policy. A Coc…",
+      "url": "http://www.sun-sentinel.com/news/florida/fl-reg-mexico-bus-crash-update-20171220-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a3ae043/turbine/fl-reg-mexico-bus-crash-update-20171220",
+      "publishedAt": "2017-12-20T22:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sun-sentinel.com"
+      },
+      "author": "Brittany Wallman, Paula McMahon, Megan O'Matz, Susannah Bryan",
+      "title": "School shooter Nikolas Cruz: A lost and lonely killer - Sun Sentinel",
+      "description": "Sun Sentinel School shooter Nikolas Cruz: A lost and lonely killer Sun Sentinel Nikolas Jacob Cruz's troubled life comes into sharper focus through police and school records, and interviews with friends, family and former classmates. Brittany Wallman, Paula M…",
+      "url": "http://www.sun-sentinel.com/local/broward/parkland/florida-school-shooting/fl-florida-school-shooting-nikolas-cruz-life-20180220-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a91ea23/turbine/fl-florida-school-shooting-nikolas-cruz-life-20180220",
+      "publishedAt": "2018-02-24T21:45:01Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Orlandosentinel.com"
+      },
+      "author": "Gray Rohrer",
+      "title": "John Morgan won't run for Florida governor as Democrat - Orlando Sentinel",
+      "description": "Orlando Sentinel John Morgan won't run for Florida governor as Democrat Orlando Sentinel Agriculture Commissioner Adam Putnam, a Bartow Republican, raised $1.1 million for both his campaign and political committee last month - more than double the $529,000 co…",
+      "url": "http://www.orlandosentinel.com/news/politics/political-pulse/os-john-morgan-governor-florida-decision-20171124-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a185dfa/turbine/os-john-morgan-governor-florida-decision-20171124",
+      "publishedAt": "2017-11-24T16:53:54Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sun-sentinel.com"
+      },
+      "author": "Marc Freeman, Wayne K. Roustan",
+      "title": "Two days before alligator killed woman, her community was urged to be on guard - Sun Sentinel",
+      "description": "Sun Sentinel Two days before alligator killed woman, her community was urged to be on guard Sun Sentinel Alligator attack victim Shizuka Matsuki lived in a waterfront community where a warning about a trespassing gator went out to homeowners two days before s…",
+      "url": "http://www.sun-sentinel.com/local/broward/davie/fl-sb-davie-gator-attacks-dog-walker-found-20180609-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5b1c969d/turbine/fl-sb-davie-gator-attacks-dog-walker-found-20180609",
+      "publishedAt": "2018-06-10T02:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-press.com"
+      },
+      "author": "brett.murphy@naplesnews.com, Brett Murphy, brett.murphy@naplesnews.com; 239-213-6042",
+      "title": "Numerous missed opportunities to alter Florida shooter's path, records show",
+      "description": "Instead of helping an obviously troubled youth diagnosed with depression, autism and ADHD, authorities allowed him to languish unchecked.",
+      "url": "https://www.news-press.com/story/news/crime/2018/02/18/numerous-missed-opportunities-before-florida-shooter-killed-17-broward-high-school/349332002?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/33a2542fa248f66bf7b987c4ce596c3c5b6fc403/c=0-436-4577-3022&r=x1683&c=3200x1680/local/-/media/2018/02/18/FortMyers/FortMyers/636545577431417351-Change001.jpg",
+      "publishedAt": "2018-02-18T23:50:22Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-press.com"
+      },
+      "author": "pborns@news-press.com, pborns@news-press.com",
+      "title": "Last wave of returning Florida Keys residents find helpful neighbors, heaps of damage",
+      "description": "It was an emotional homecoming to witness damage in the area hit hardest a week earlier.",
+      "url": "http://www.news-press.com/story/weather/hurricane/2017/09/17/final-wave-florida-keys-residents-return-they-find-damage-and-neighbors-helping/674889001",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/f98625fc2c6b19aeddaa6a9c2cb74741d20e5a63/c=86-0-2727-1492&r=x803&c=1600x800/local/-/media/2017/09/17/USATODAY/USATODAY/636412579061606841-BigPineKey-06.jpg",
+      "publishedAt": "2017-09-17T21:00:20Z"
+    }
+  ],
+  "status": "ok"
+}

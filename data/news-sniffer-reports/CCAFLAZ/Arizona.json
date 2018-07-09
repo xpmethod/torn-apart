@@ -1,1 +1,90 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 7,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Victor Ren, The Republic | azcentral.com",
+      "title": "Arizona prison officer arrested on suspicion of sexual conduct with minor",
+      "description": "Paul Thornton, 46, was arrested after police investigated a report of an adult male and juvenile female \"making out.\"",
+      "url": "https://www.azcentral.com/story/news/local/arizona-breaking/2018/02/09/arizona-prison-officer-arrested-suspicion-sexual-conduct-minor/325026002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/949bafc3f87d7e1d83bfeb3a58c9792fa464f83e/c=0-722-1879-1784&r=x803&c=1600x800/local/-/media/2018/02/09/Phoenix/Phoenix/636538023292644760-Paul-Thornton.jpg",
+      "publishedAt": "2018-02-10T01:53:59Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Ken Alltucker, The Republic | azcentral.com",
+      "title": "Florence prison doctor disciplined for prescribing testosterone, hormones during off-hours",
+      "description": "A doctor at Florence prison agrees to Arizona Medical Board order that includes probation for improperly prescribing testosterone and other hormones.",
+      "url": "https://www.azcentral.com/story/news/local/pinal/2018/04/05/florence-prison-doctor-disciplined-prescribing-testosterone-hormones-during-off-hours/482616002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/0a27b35653aa66f5b7706873eb683d04b12abf59/c=0-0-1906-1077&r=x1683&c=3200x1680/local/-/media/2018/04/05/Phoenix/Phoenix/636585659844791763-PNIBrd2-08-02-2015-Republic-1-A003-2015-08-01-IMG-PNI-A3-Index-teasers-1-1-FFBGIL2U-L652010286-IMG-PNI-A3-Index-teasers-1-1-FFBGIL2U.jpg",
+      "publishedAt": "2018-04-06T03:19:43Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Craig Harris, The Republic | azcentral.com",
+      "title": "Yuma officers tried to warn Corrections about riot, but officials ignored tip, attorney says",
+      "description": "Officers in Yuma warned Corrections about talk of a March 1 riot, but officials ignored the tip and understaffed the unit, attorney says.",
+      "url": "https://www.azcentral.com/story/news/local/arizona/2018/03/05/yuma-officers-warn-corrections-riot-but-officials-ignored-tip-attorney/396471002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/7033ef0465ea558cd544a9093df90acc7fce60b6/c=118-0-744-354&r=x803&c=1600x800/local/-/media/2018/03/02/Phoenix/Phoenix/636556045686600138-yuma-prison-complex.JPG",
+      "publishedAt": "2018-03-06T02:15:08Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, The Republic | azcentral.com",
+      "title": "Nevada sending 200 violent inmates to Arizona private prison in Eloy",
+      "description": "Nevada, facing a prison-bed shortage, will send 200 violent inmates, including gang members, to a CoreCivic private prison in Eloy, Arizona.",
+      "url": "http://www.azcentral.com/story/news/local/arizona/2017/10/12/nevada-sends-200-violent-inmates-to-arizona-eloy-private-prison/758362001/",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/7b01777f43cc7d4e8e1f4e1998652dc3f4245bf9/c=0-37-724-446&r=x803&c=1600x800/local/-/media/2017/05/22/Phoenix/Phoenix/636310943966993155-GettyImages-517526824.jpg",
+      "publishedAt": "2017-10-12T20:10:29Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Craig Harris, The Republic | azcentral.com",
+      "title": "Yuma inmates warned Corrections about potential for riot, but officials ignored tip, attorney says",
+      "description": "Inmates in Yuma warned Corrections about talk of a March 1 riot, but officials ignored the tip and understaffed the unit, attorney says.",
+      "url": "https://www.azcentral.com/story/news/local/arizona/2018/03/05/yuma-inmates-warned-potential-riot-but-officials-ignored-tip-attorney-says/396471002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/7033ef0465ea558cd544a9093df90acc7fce60b6/c=118-0-744-354&r=x803&c=1600x800/local/-/media/2018/03/02/Phoenix/Phoenix/636556045686600138-yuma-prison-complex.JPG",
+      "publishedAt": "2018-03-06T01:08:51Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Michael Kiefer, The Republic | azcentral.com",
+      "title": "Did Arizona's inmate-care provider deny care to avoid fines? Judge hears testimony in case",
+      "description": "A hearing in U.S. District Court in Phoenix is addressing whether or not the inmate-care provider failed to care for inmates in order to avoid fines.",
+      "url": "https://www.azcentral.com/story/news/local/phoenix/2018/02/27/arizona-judge-hears-testimony-over-whether-corizon-inmate-care-provider-denied-care-avoid-fines/378472002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/7b01777f43cc7d4e8e1f4e1998652dc3f4245bf9/c=0-37-724-446&r=x803&c=1600x800/local/-/media/2017/05/22/Phoenix/Phoenix/636310943966993155-GettyImages-517526824.jpg",
+      "publishedAt": "2018-02-27T22:01:51Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "The Republic | azcentral.com, Michael Kiefer, The Republic | azcentral.com",
+      "title": "Judge rejects state bid to remove him from Arizona prison health case",
+      "description": "The state could face fines for failing to agree to terms of settlement in suit alleging inadequate inmate care.",
+      "url": "https://www.azcentral.com/story/news/local/arizona/2018/05/03/judge-rejects-state-bid-remove-him-arizona-prison-health-case/577262002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/d6cbaa4594b100a5102ed044bda038d11ce3f7c6/c=0-120-2400-1476&r=x1683&c=3200x1680/local/-/media/2017/06/19/Phoenix/Phoenix/636334929245162835-PNIBrd2-03-02-2015-Republic-1-A012-2015-03-01-IMG-prison-1-1-GKA38LKC-L572116067-IMG-prison-1-1-GKA38LKC.jpg",
+      "publishedAt": "2018-05-03T21:25:42Z"
+    }
+  ],
+  "status": "ok"
+}

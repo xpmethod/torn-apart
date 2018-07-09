@@ -1,1 +1,234 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 19,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "Virginia juvenile detention center ending federal contract",
+      "description": "ALEXANDRIA, Va. (AP) — The Northern Virginia Juvenile Detention Center is ending its contract with the federal government amid local objections to holding non-criminal children in jail-like settings.",
+      "url": "http://www.roanoke.com/news/virginia/wire/virginia-juvenile-detention-center-ending-federal-contract/article_4ce77d77-5bab-5996-a1d3-d6e11d488e0e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-06-20T15:38:05Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By MAGGIE MICHAEL and BRIAN ROHAN Associated Press",
+      "title": "Egypt votes for president, with el-Sissi a sure winner",
+      "description": "CAIRO (AP) — Egyptians began voting Monday in an election that virtually guaranteed another term for President Abdel-Fattah el-Sissi, who faced only a token opponent in balloting that resembled the referendums held by autocrats for decades before the Arab Spr…",
+      "url": "http://www.roanoke.com/news/wire_headlines/egypt-votes-for-president-with-el-sissi-a-sure-winner/article_b5f23903-014c-570f-b5d7-b0b43e357b48.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/0/4f/04f67bcc-3563-56d7-80aa-e99dacf96bfe/5ab8e1fbeacaa.image.jpg?resize=945%2C630",
+      "publishedAt": "2018-03-26T18:38:46Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By MAGGIE MICHAEL and BRIAN ROHAN Associated Press",
+      "title": "Egypt begins voting for president, with el-Sissi assured win",
+      "description": "CAIRO (AP) — Egyptians began voting Monday in an election that virtually guaranteed another term for President Abdel-Fattah el-Sissi, who faced only a token opponent in balloting that resembled the referendums held by autocrats for decades before the Arab Spr…",
+      "url": "http://www.roanoke.com/news/wire_headlines/egypt-begins-voting-for-president-with-el-sissi-assured-win/article_b5f23903-014c-570f-b5d7-b0b43e357b48.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/e/8c/e8c36fe4-3f88-514f-8434-5782fc8e867a/5ab8b3478df75.image.jpg?resize=872%2C630",
+      "publishedAt": "2018-03-27T01:51:13Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": null,
+      "title": "House panel defeats bill to decriminalize simple possession of marijuana",
+      "description": "House panel snuffs out",
+      "url": "http://www.richmond.com/news/virginia/government-politics/general-assembly/house-panel-defeats-bill-to-decriminalize-simple-possession-of-marijuana/article_dbc25795-b47d-5e23-a060-60538277e02a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/f/6b/f6b16b22-6d8c-5e05-b718-b3ded4ed2025/584b51f518000.preview.jpg?resize=920%2C505",
+      "publishedAt": "2018-01-25T00:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY ROBBY KORTH The Roanoke Times",
+      "title": "Former Virginia Tech professor is subject of congressional probe",
+      "description": "A congressional committee is investigating potential misuse of research funds by a former Virginia Tech biological systems engineering professor charged with several fraud crimes last month in federal court.",
+      "url": "http://www.richmond.com/news/virginia/former-virginia-tech-professor-is-subject-of-congressional-probe/article_1e8f08d9-fc6c-52b2-b4c6-8c27db3b387d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/4/b4/4b41631e-01af-5b1b-a977-f89a9a25179c/59ca574a7288c.image.jpg?resize=400%2C300",
+      "publishedAt": "2017-10-11T02:50:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By Robby Korth robby.korth@roanoke.com (540) 381-1679",
+      "title": "Former Virginia Tech professor subject of congressional probe",
+      "description": "A congressional committee is investigating potential misuse of research funds by a former Virginia Tech biological systems engineering professor charged with several fraud crimes last month in federal court.",
+      "url": "http://www.roanoke.com/news/crime/blacksburg/former-virginia-tech-professor-subject-of-congressional-probe/article_857257d9-adbf-5b2f-83df-36897298593e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/b/03/b034e060-8339-5ad8-9bc0-6a76bb123ba9/59c97df84a570.image.jpg?resize=400%2C300",
+      "publishedAt": "2017-10-10T20:29:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY PATRICK WILSON Richmond Times-Dispatch",
+      "title": "Delegate-elect Danica Roem: 'I will always be a reporter before I'm a politician'",
+      "description": "Danica Roem, elected Tuesday as the first transgender lawmaker in Virginia history, is no longer able to keep up with media requests.",
+      "url": "http://www.richmond.com/news/virginia/government-politics/delegate-elect-danica-roem-i-will-always-be-a-reporter/article_6c6bf555-899e-568b-a17b-5b5c039718b4.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/d/68/d6896d54-3545-5203-979e-0dedbd140f62/5a03469c18750.image.jpg?resize=512%2C341",
+      "publishedAt": "2017-11-10T17:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By MAGGIE MICHAEL and BRIAN ROHAN Associated Press",
+      "title": "Egypt votes for president, with el-Sissi certain to win",
+      "description": "CAIRO (AP) — Egyptians began voting Monday in an election that President Abdel-Fattah el-Sissi is virtually guaranteed to win, one that resembles the referendums held by Arab autocrats in the decades before the 2011 uprisings briefly raised hopes of democrati…",
+      "url": "http://www.roanoke.com/news/wire_headlines/egypt-votes-for-president-with-el-sissi-certain-to-win/article_b5f23903-014c-570f-b5d7-b0b43e357b48.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/c/92/c926f835-eb5a-5134-97e7-791be08961de/5ab8cbda35e55.image.jpg?resize=931%2C630",
+      "publishedAt": "2018-03-26T15:01:52Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By Robby Korth robby.korth@roanoke.com (540) 381-1679",
+      "title": "Prosecutor: Rogue Radford frat involved in hazing investigation also killed goat",
+      "description": "RADFORD — The remaining members of a rogue Radford University fraternity had all hazing charges against them dropped Thursday with most pleading guilty to lesser charges.",
+      "url": "http://www.roanoke.com/news/crime/radford/prosecutor-rogue-radford-frat-involved-in-hazing-investigation-also-killed/article_f91999d5-ecb3-5323-8796-e05ab72fad53.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-03-01T19:37:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "BY PATRICK WILSON Richmond Times-Dispatch",
+      "title": "After backing marijuana decriminalization, Sen. Norment stops short with bill",
+      "description": "After saying he was open to decriminalization of marijuana, the state GOP's powerful Senate leader disappointed reform advocates by filing a bill that stops short.",
+      "url": "http://www.richmond.com/news/virginia/government-politics/general-assembly/after-backing-marijuana-decriminalization-sen-norment-stops-short-with-bill/article_48f90f4d-7f9e-55c9-b043-9d63b7328c19.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/f/97/f9745fe0-2a75-5ebc-98fd-81b586ee0839/5997421aa0f82.image.jpg?resize=955%2C630",
+      "publishedAt": "2018-01-20T19:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By PATRICK WILSON Richmond Times-Dispatch",
+      "title": "After backing marijuana decriminalization, Sen. Norment stops short with bill",
+      "description": "After saying he was open to decriminalization of marijuana, the state GOP’s powerful Senate leader disappointed reform advocates by filing a bill that stops short.",
+      "url": "http://www.roanoke.com/news/politics/general_assembly/after-backing-marijuana-decriminalization-sen-norment-stops-short-with-bill/article_270224b7-9a3e-5a80-b055-7487583dd683.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/5/bd/5bdd3250-b600-5ef5-860e-8066e8c0f692/5a65eb57588d3.image.jpg?resize=955%2C630",
+      "publishedAt": "2018-01-22T13:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By HAMZA HENDAWI and SAMY MAGDY Associated Press",
+      "title": "Egypt tries to boost voter turnout with incentives, threats",
+      "description": "CAIRO (AP) — One manager threatened employees to get them to vote — and then checked for telltale ink-stained fingers as they clocked in the next day. A regional governor pledged improved water and sanitation service to towns with a…",
+      "url": "http://www.roanoke.com/news/wire_headlines/egypt-tries-to-boost-voter-turnout-with-incentives-threats/article_8495807b-77da-5f5e-9b85-cef33bec84cd.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/1/2b/12ba10be-400c-5277-9c81-2e74d28190fc/5aba9c6098a94.image.jpg?resize=956%2C630",
+      "publishedAt": "2018-03-27T19:09:04Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "By HAMZA HENDAWI and SAMY MAGDY Associated Press",
+      "title": "Egypt tries to boost voter turnout with incentives, threats",
+      "description": "CAIRO (AP) — One manager threatened employees to get them to vote — and then checked for telltale ink-stained fingers as they clocked in the next day. A regional governor pledged improved water and sanitation service to towns with a…",
+      "url": "http://www.richmond.com/news/latest-news/ap/egypt-tries-to-boost-voter-turnout-with-incentives-threats/article_282564ed-52a1-533b-ac50-ebcd28d82c10.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/1/9e/19e87809-f0d1-581f-a664-164688079133/5aba91cf9a18d.image.jpg?resize=945%2C630",
+      "publishedAt": "2018-03-27T20:13:53Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By HAMZA HENDAWI and SAMY MAGDY Associated Press",
+      "title": "Egypt tries to boost voter turnout with incentives, threats",
+      "description": "CAIRO (AP) — One manager threatened employees who didn't vote — and then checked for their ink-stained finger as they clocked in the next day. A regional governor pledged improved water and sanitation service to towns with a high turnout.…",
+      "url": "http://www.roanoke.com/news/world/wire/egypt-tries-to-boost-voter-turnout-with-incentives-threats/article_8495807b-77da-5f5e-9b85-cef33bec84cd.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/4/ed/4ed062b3-6547-50f3-bcfe-fc102cb1ead5/5aba925e09c16.image.jpg?resize=760%2C630",
+      "publishedAt": "2018-03-27T18:45:56Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Richmond.com"
+      },
+      "author": "By HAMZA HENDAWI and SAMY MAGDY Associated Press",
+      "title": "Egypt tries to boost voter turnout with incentives, threats",
+      "description": "CAIRO (AP) — One manager threatened employees who didn't vote — and then checked for their ink-stained finger as they clocked in the next day. A regional governor pledged improved water and sanitation service to towns with a high turnout.…",
+      "url": "http://www.richmond.com/news/national-world/ap/egypt-tries-to-boost-voter-turnout-with-incentives-threats/article_282564ed-52a1-533b-ac50-ebcd28d82c10.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/1/9e/19e87809-f0d1-581f-a664-164688079133/5aba91cf9a18d.image.jpg?resize=945%2C630",
+      "publishedAt": "2018-03-27T18:45:56Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": "By AMANDA HANCOCK Quad-City Times",
+      "title": "Davenport barber becomes anchor of community after 50 years",
+      "description": "DAVENPORT, Iowa (AP) — If no one else is in his barbershop, you'll find Joe McLemore leaning against his chair, lost in a book.",
+      "url": "http://www.roanoke.com/news/virginia/wire/davenport-barber-becomes-anchor-of-community-after-years/article_54b59a98-7181-5f06-ac75-4f097a7bf66e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/custom/image/00f1ee32-f2d0-11e6-9926-f7249dbfe53a.jpg?_dc=1487088586",
+      "publishedAt": "2018-01-28T06:02:23Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "AP Was There: The fiery end of the standoff in Waco, Texas",
+      "description": "WACO, Texas (AP) — Around 6 a.m. on April 19, 1993, FBI agents moved in to end a 51-day standoff with the Branch Davidian religious sect near Waco, Texas, ramming holes in the group's compound with armored vehicles and spraying…",
+      "url": "http://www.roanoke.com/news/virginia/wire/ap-was-there-the-fiery-end-of-the-standoff-in/article_0b208ebc-1bf7-50e9-8186-264ff1729ee6.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/b/43/b43a89a5-148b-5cc7-b18a-aa4bdcefbde1/5ad7cb3b90996.image.jpg?resize=973%2C630",
+      "publishedAt": "2018-04-18T22:51:19Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "AP Was There: The fiery end of the standoff near Waco, Texas",
+      "description": "WACO, Texas (AP) — Around 6 a.m. on April 19, 1993, FBI agents moved in to end a 51-day standoff with the Branch Davidian religious sect near Waco, Texas, ramming holes in the group's compound with armored vehicles and spraying…",
+      "url": "http://www.roanoke.com/news/virginia/wire/ap-was-there-the-fiery-end-of-the-standoff-near/article_45516fd9-a186-5e3a-9278-60f0a32a4119.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/b/43/b43a89a5-148b-5cc7-b18a-aa4bdcefbde1/5ad7cb3b90996.image.jpg?resize=973%2C630",
+      "publishedAt": "2018-04-19T19:58:29Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Roanoke.com"
+      },
+      "author": null,
+      "title": "AP Was There: The fiery end of the standoff in Waco, Texas",
+      "description": "WACO, Texas (AP) — Around 6 a.m. on April 19, 1993, FBI agents moved in to end a 51-day standoff with the Branch Davidian religious sect near Waco, Texas, ramming holes in the group's compound with armored vehicles and spraying…",
+      "url": "http://www.roanoke.com/news/nation/wire/ap-was-there-the-fiery-end-of-the-standoff-in/article_45516fd9-a186-5e3a-9278-60f0a32a4119.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/6/8b/68bba302-f79c-5828-ae20-738f557b83ee/5ad7cb3ab755e.image.jpg?resize=942%2C630",
+      "publishedAt": "2018-04-19T08:25:54Z"
+    }
+  ],
+  "status": "ok"
+}
