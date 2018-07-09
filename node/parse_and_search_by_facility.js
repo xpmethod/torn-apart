@@ -19,7 +19,7 @@ fs.readFile('../data/iceFacs.csv', function(err, data) {
 	
 	var i;
 	var DETLOC = "";
-	for (i=1;i<(output.length/2); i++) //for every row in CSV, i.e. every item in array
+	for (i=1;i<output.length; i++) //for every row in CSV, i.e. every item in array
 	{
 		
 		DETLOC = output[i][6];
