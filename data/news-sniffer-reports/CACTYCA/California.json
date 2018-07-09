@@ -1,1 +1,90 @@
-{"status":"ok","totalResults":7,"articles":[{"source":{"id":null,"name":"Latimes.com"},"author":"David Montero","title":"O.J. Simpson released from Nevada prison","description":"OJ Simpson is free. The former football star who spent the last nine years in prison for a 2008 armed robbery and kidnapping in Las Vegas was paroled early Sunday, a Nevada prison official told the Associated Press. Simpson, 70, had been in the Lovelock Corre…","url":"http://www.latimes.com/nation/la-na-oj-simpson-released-2017-story.html","urlToImage":"http://www.trbimg.com/img-59d0a12d/turbine/la-na-oj-simpson-released-2017","publishedAt":"2017-10-01T07:50:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"David Montero","title":"Speculation swirls over when O.J. Simpson's release from Nevada prison will happen","description":"This time, it’s speculation and rumors chasing O.J. Simpson. The former football star could be released as soon as Monday from prison over his 2008 armed robbery and kidnapping convictions in Las Vegas. But Nevada Department of Corrections officials have been…","url":"http://www.latimes.com/nation/la-na-oj-simpson-rumors-20170930-story.html","urlToImage":"http://www.trbimg.com/img-59cf0d19/turbine/la-na-oj-simpson-rumors-20170930","publishedAt":"2017-09-30T12:00:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"Nina Agrawal","title":"Citing potential danger, judge orders anonymous jury in 'El Chapo' trial","description":"A federal judge has ordered that the identities of jurors in the upcoming trial against drug kingpin Joaquin “El Chapo” Guzman be kept secret and that the jurors be partially sequestered during court proceedings to protect their privacy and safety. In court d…","url":"http://www.latimes.com/nation/la-na-el-chapo-jury-20180206-story.html","urlToImage":"http://www.latimes.com/resizer/s2FCoYEXovTbKKt0PeIsiAJwd3s=/1200x0/www.trbimg.com/img-5a7a0164/turbine/la-na-el-chapo-jury-20180206","publishedAt":"2018-02-06T19:25:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"Carolina A. Miranda","title":"How the black radical female artists of the '60s and '70s made art that speaks to today's politics","description":"An exhibition at the California African American Museum looks at feminism through a distinctly black lens - highlighting little-seen works in the process.","url":"http://www.latimes.com/entertainment/arts/miranda/la-et-cam-black-radical-women-caam-20171228-htmlstory.html","urlToImage":"http://www.trbimg.com/img-5a4677ce/turbine/la-et-cam-black-radical-women-caam-20171228","publishedAt":"2017-12-29T17:10:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"Carolina A. Miranda","title":"How the black radical female artists of the '60s and '70s made art that speaks to today's politics","description":"An exhibition at the California African American Museum looks at feminism through a distinctly black lens - highlighting little-seen works in the process.","url":"http://www.latimes.com/entertainment/arts/miranda/la-et-cam-black-radical-women-caam-20171228-htmlstory.html","urlToImage":"http://beta.latimes.com/resizer/5p4nlZ1UbTtm39np3aUjq4N-VMk=/1200x0/www.trbimg.com/img-5a4677ce/turbine/la-et-cam-black-radical-women-caam-20171228","publishedAt":"2017-12-29T17:10:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"Los Angeles Times","title":"A prison newsroom mourns its former editor in chief, recently released and then killed in a crash","description":"Arnulfo Garcia, prisoner who brought great change at San Quentin State Prison, dies in car crash two months after his release","url":"http://www.latimes.com/local/california/la-me-san-quentin-20171008-htmlstory.html","urlToImage":"http://www.trbimg.com/img-59da688c/turbine/la-me-san-quentin-20171008","publishedAt":"2017-10-08T12:00:00Z"},{"source":{"id":null,"name":"Latimes.com"},"author":"Maya Lau, Ben Poston, Corina Knoll","title":"Sex. Lies. Abuse. How these L.A. deputies landed on a secret 2014 list of problem officers","description":"The Times reviewed a version of the so-called Brady list from 2014 and obtained government and court documents that detail the accusations against the deputies.","url":"http://www.latimes.com/local/california/la-me-2014-brady-list-deputies-20171208-htmlstory.html","urlToImage":"http://www.trbimg.com/img-5a2a44de/turbine/la-me-2014-brady-list-deputies-20171208","publishedAt":"2017-12-08T13:00:00Z"}]}
+{
+  "totalResults": 7,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "David Montero",
+      "title": "O.J. Simpson released from Nevada prison",
+      "description": "OJ Simpson is free. The former football star who spent the last nine years in prison for a 2008 armed robbery and kidnapping in Las Vegas was paroled early Sunday, a Nevada prison official told the Associated Press. Simpson, 70, had been in the Lovelock Corre…",
+      "url": "http://www.latimes.com/nation/la-na-oj-simpson-released-2017-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59d0a12d/turbine/la-na-oj-simpson-released-2017",
+      "publishedAt": "2017-10-01T07:50:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "David Montero",
+      "title": "Speculation swirls over when O.J. Simpson's release from Nevada prison will happen",
+      "description": "This time, it’s speculation and rumors chasing O.J. Simpson. The former football star could be released as soon as Monday from prison over his 2008 armed robbery and kidnapping convictions in Las Vegas. But Nevada Department of Corrections officials have been…",
+      "url": "http://www.latimes.com/nation/la-na-oj-simpson-rumors-20170930-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59cf0d19/turbine/la-na-oj-simpson-rumors-20170930",
+      "publishedAt": "2017-09-30T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Nina Agrawal",
+      "title": "Citing potential danger, judge orders anonymous jury in 'El Chapo' trial",
+      "description": "A federal judge has ordered that the identities of jurors in the upcoming trial against drug kingpin Joaquin “El Chapo” Guzman be kept secret and that the jurors be partially sequestered during court proceedings to protect their privacy and safety. In court d…",
+      "url": "http://www.latimes.com/nation/la-na-el-chapo-jury-20180206-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/s2FCoYEXovTbKKt0PeIsiAJwd3s=/1200x0/www.trbimg.com/img-5a7a0164/turbine/la-na-el-chapo-jury-20180206",
+      "publishedAt": "2018-02-06T19:25:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Carolina A. Miranda",
+      "title": "How the black radical female artists of the '60s and '70s made art that speaks to today's politics",
+      "description": "An exhibition at the California African American Museum looks at feminism through a distinctly black lens - highlighting little-seen works in the process.",
+      "url": "http://www.latimes.com/entertainment/arts/miranda/la-et-cam-black-radical-women-caam-20171228-htmlstory.html",
+      "urlToImage": "http://beta.latimes.com/resizer/5p4nlZ1UbTtm39np3aUjq4N-VMk=/1200x0/www.trbimg.com/img-5a4677ce/turbine/la-et-cam-black-radical-women-caam-20171228",
+      "publishedAt": "2017-12-29T17:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Carolina A. Miranda",
+      "title": "How the black radical female artists of the '60s and '70s made art that speaks to today's politics",
+      "description": "An exhibition at the California African American Museum looks at feminism through a distinctly black lens - highlighting little-seen works in the process.",
+      "url": "http://www.latimes.com/entertainment/arts/miranda/la-et-cam-black-radical-women-caam-20171228-htmlstory.html",
+      "urlToImage": "http://www.trbimg.com/img-5a4677ce/turbine/la-et-cam-black-radical-women-caam-20171228",
+      "publishedAt": "2017-12-29T17:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Los Angeles Times",
+      "title": "A prison newsroom mourns its former editor in chief, recently released and then killed in a crash",
+      "description": "Arnulfo Garcia, prisoner who brought great change at San Quentin State Prison, dies in car crash two months after his release",
+      "url": "http://www.latimes.com/local/california/la-me-san-quentin-20171008-htmlstory.html",
+      "urlToImage": "http://www.trbimg.com/img-59da688c/turbine/la-me-san-quentin-20171008",
+      "publishedAt": "2017-10-08T12:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Maya Lau, Ben Poston, Corina Knoll",
+      "title": "Sex. Lies. Abuse. How these L.A. deputies landed on a secret 2014 list of problem officers",
+      "description": "The Times reviewed a version of the so-called Brady list from 2014 and obtained government and court documents that detail the accusations against the deputies.",
+      "url": "http://www.latimes.com/local/california/la-me-2014-brady-list-deputies-20171208-htmlstory.html",
+      "urlToImage": "http://www.trbimg.com/img-5a2a44de/turbine/la-me-2014-brady-list-deputies-20171208",
+      "publishedAt": "2017-12-08T13:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

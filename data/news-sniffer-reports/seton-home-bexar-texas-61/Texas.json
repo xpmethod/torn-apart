@@ -1,0 +1,30 @@
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Lubbockonline.com"
+      },
+      "author": "A-j Media",
+      "title": "No. 18 Texas Tech set for first true road game against No. 10 Kansas",
+      "description": "Chris Beard has maintained that protecting home court is a huge factor in a college basketball team’s success throughout the season.",
+      "url": "http://lubbockonline.com/sports/sports-red-raiders-mens-basketball/sports-red-raiders/2018-01-01/no-18-texas-tech-set-first",
+      "urlToImage": "http://lubbockonline.com/sites/default/files/image5377630_web0_TXBT114.jpg",
+      "publishedAt": "2018-01-02T02:11:02Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lubbockonline.com"
+      },
+      "author": "A-j Media",
+      "title": "Tech remains unbeaten with 103-69 win against Savannah State",
+      "description": "Even though it’s trotted out the same senior lineup five times in a row, the Texas Tech men’s basketball has shown it’s more than just about its veteran players.",
+      "url": "http://lubbockonline.com/sports-red-raiders-mens-basketball/news/sports/2017-11-25/tech-remains-unbeaten-103-69-win-against",
+      "urlToImage": "http://lubbockonline.com/sites/default/files/image4955439_web0_11-26-Savannah-St-v-Texas-Tech-MBB-JW-04.jpg",
+      "publishedAt": "2017-11-25T22:07:29Z"
+    }
+  ],
+  "status": "ok"
+}

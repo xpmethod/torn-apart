@@ -1,1 +1,18 @@
-{"status":"ok","totalResults":1,"articles":[{"source":{"id":null,"name":"Latimes.com"},"author":"Paige St. John, Abbie VanSickle","title":"California’s local D.A. races become big-dollar battleground in nation’s justice debate","description":"In most district attorney elections, the campaign playbook is clear: Win over the local cops and talk tough on crime. But in California this year, the strategy is being turned on its head. Wealthy donors are spending millions of dollars to back would-be prose…","url":"http://www.latimes.com/local/california/la-me-prosecutor-campaign-20180523-story.html","urlToImage":"http://www.latimes.com/resizer/PBvXXXWNy0nXsYnUgPYW9dtDe-Y=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/V5742QAQWRAIPJV6AJGGHV6YEU.jpg","publishedAt":"2018-05-23T10:00:00Z"}]}
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Paige St. John, Abbie VanSickle",
+      "title": "California’s local D.A. races become big-dollar battleground in nation’s justice debate",
+      "description": "In most district attorney elections, the campaign playbook is clear: Win over the local cops and talk tough on crime. But in California this year, the strategy is being turned on its head. Wealthy donors are spending millions of dollars to back would-be prose…",
+      "url": "http://www.latimes.com/local/california/la-me-prosecutor-campaign-20180523-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/PBvXXXWNy0nXsYnUgPYW9dtDe-Y=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/V5742QAQWRAIPJV6AJGGHV6YEU.jpg",
+      "publishedAt": "2018-05-23T10:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

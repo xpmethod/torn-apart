@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":2,"articles":[{"source":{"id":null,"name":"Stripes.com"},"author":null,"title":"More states to remove border National Guard due to Trump policy","description":"The governors of Maryland and Virginia have announced they will recall members of their state's National Guard from the U.S.-Mexico border and Delaware's governor is turning down a request. They join Massachusetts in disagreeing with a federal policy of separ…","url":"https://www.stripes.com/news/us/more-states-to-remove-border-national-guard-due-to-trump-policy-1.533644?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+starsandstripes%2Fgeneral+%28Stars+and+Stripes%29","urlToImage":"https://www.stripes.com/polopoly_fs/1.533650.1529427395!/image/image.jpg_gen/derivatives/landscape_490/image.jpg","publishedAt":"2018-06-19T19:51:00Z"},{"source":{"id":null,"name":"Stripes.com"},"author":null,"title":"Maryland, Virginia to remove border National Guard due to Trump policy","description":"The governors of Maryland and Virginia have announced they will recall members of their state's National Guard from the U.S.-Mexico border because they disagree with a federal policy of separating immigrant children from their families.","url":"https://www.stripes.com/news/us/maryland-virginia-to-remove-border-national-guard-due-to-trump-policy-1.533644?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+starsandstripes%2Fgeneral+%28Stars+and+Stripes%29","urlToImage":"https://www.stripes.com/polopoly_fs/1.533650.1529427395!/image/image.jpg_gen/derivatives/landscape_490/image.jpg","publishedAt":"2018-06-19T18:34:00Z"}]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Stripes.com"
+      },
+      "author": null,
+      "title": "Maryland, Virginia to remove border National Guard due to Trump policy",
+      "description": "The governors of Maryland and Virginia have announced they will recall members of their state's National Guard from the U.S.-Mexico border because they disagree with a federal policy of separating immigrant children from their families.",
+      "url": "https://www.stripes.com/news/us/maryland-virginia-to-remove-border-national-guard-due-to-trump-policy-1.533644?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+starsandstripes%2Fgeneral+%28Stars+and+Stripes%29",
+      "urlToImage": "https://www.stripes.com/polopoly_fs/1.533650.1529427395!/image/image.jpg_gen/derivatives/landscape_490/image.jpg",
+      "publishedAt": "2018-06-19T18:34:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Stripes.com"
+      },
+      "author": null,
+      "title": "More states to remove border National Guard due to Trump policy",
+      "description": "The governors of Maryland and Virginia have announced they will recall members of their state's National Guard from the U.S.-Mexico border and Delaware's governor is turning down a request. They join Massachusetts in disagreeing with a federal policy of separ…",
+      "url": "https://www.stripes.com/news/us/more-states-to-remove-border-national-guard-due-to-trump-policy-1.533644?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+starsandstripes%2Fgeneral+%28Stars+and+Stripes%29",
+      "urlToImage": "https://www.stripes.com/polopoly_fs/1.533650.1529427395!/image/image.jpg_gen/derivatives/landscape_490/image.jpg",
+      "publishedAt": "2018-06-19T19:51:00Z"
+    }
+  ],
+  "status": "ok"
+}

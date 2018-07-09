@@ -1,1 +1,1086 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 90,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Two men arrested for capital murder",
+      "description": "Two men were booked into the Hidalgo County jail in the early morning hours Friday on capital murder charges, according to Hidalgo County jail records released Monday morning.",
+      "url": "http://www.themonitor.com/news/local/article_f79f5062-c8d1-11e7-8559-c71621c78d03.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/b7/2b7139b4-c8d2-11e7-9e0c-6b39191e47c2/5a0a3838ba8a5.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-11-14T00:22:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Fourth suspect charged in Monmack Road homicide",
+      "description": "EDINBURG — Hidalgo County Sheriff J.E. “Eddie” Guerra said he is not anticipating additional arrests in the death of Jose Angel Martinez, news which comes after a woman was arraigned at the Hidalgo County jail Tuesday morning on a capital…",
+      "url": "http://www.themonitor.com/news/local/article_d1bbb950-d491-11e7-8ea4-67ec1dbdf6d6.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/f/88/f889bed8-d491-11e7-9999-27afc0e303b8/5a1dee2b5a1f7.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-11-28T23:13:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Sheriff's deputy faces injury to a child allegation",
+      "description": "McALLEN — A Hidalgo County Sheriff’s deputy was arrested Saturday morning for alleged injury to a child, a state jail felony.",
+      "url": "http://www.themonitor.com/news/local/article_78d17fa2-a096-11e7-9d52-0311572cb1b4.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/c/4b/c4b6a568-a097-11e7-8bfa-03b5d5bd51f2/59c6ba0637eb8.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-09-23T20:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Bus driver arrested on eighth child sexual assault charge",
+      "description": "The Hidalgo County Sheriff’s Office filed a new criminal charge against a former school bus driver Wednesday, a day after his release from jail on bond.",
+      "url": "https://www.themonitor.com/news/local/article_317ff6b2-7104-11e8-b3b9-77d0c59f94b3.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/66/266b19ae-6949-11e8-bd62-cbc6b77ab84d/5b176ef41ff51.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-06-16T01:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Former school bus driver back in jail on new charges",
+      "description": "A former school bus driver already facing sexual abuse allegations was booked back into jail Monday afternoon on two new charges of indecency with a child through sexual contact, according to Hidalgo County jail records.",
+      "url": "https://www.themonitor.com/news/local/article_fb14be04-6948-11e8-b123-dbeb8db3d69e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/66/266b19ae-6949-11e8-bd62-cbc6b77ab84d/5b176ef41ff51.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-06-06T13:59:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Former bus driver back in jail on new charges",
+      "description": "A former school bus driver already facing sexual abuse allegations was booked back into jail Monday afternoon on two new charges of indecency with a child through sexual contact, according to Hidalgo County jail records.",
+      "url": "http://www.themonitor.com/news/local/article_fb14be04-6948-11e8-b123-dbeb8db3d69e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/66/266b19ae-6949-11e8-bd62-cbc6b77ab84d/5b176ef41ff51.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-06-06T05:17:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "CRISTINA M. GARCIA | STAFF WRITER",
+      "title": "Eight-liner operation raided near Alamo, 7 arrested",
+      "description": "Hidalgo County Sheriff’s Office investigators raided an eight-liner game room Tuesday near Alamo and arrested seven workers.",
+      "url": "http://www.themonitor.com/news/local/article_5275c37c-0e14-11e8-89aa-27b2999716cf.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/50/950b387a-0e14-11e8-b4c8-135000bce104/5a7e6a6bb734f.image.png?resize=358%2C448",
+      "publishedAt": "2018-02-10T03:41:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "WWE wrestler arrested for DWI in Hidalgo County",
+      "description": "Pro wrestler Joshua Samuel Fatu, better known by his stage name Jey Uso, was arrested by the Texas Department of Public Safety in Hidalgo County over the weekend for driving while intoxicated.",
+      "url": "http://www.themonitor.com/news/local/article_ae8ff598-fb08-11e7-98a3-5f5e7d1296bc.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/4b/34b98f72-fb17-11e7-ac1b-13c2fc035b01/5a5e8ea753221.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-01-16T23:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Woman charged with murder of granddaughter’s ex-husband",
+      "description": "EDINBURG — A woman who allegedly fatally struck her granddaughter’s former common-law husband with an SUV faced a justice of the peace Saturday afternoon at the Hidalgo County jail to hear the charge against her.",
+      "url": "http://www.themonitor.com/news/local/article_c4a05f2e-c739-11e7-aa37-33aa5c2fbbfa.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/34/e3496452-c739-11e7-92af-230d2fc5096b/5a078b0bce50a.image.jpg?resize=448%2C630",
+      "publishedAt": "2017-11-11T23:40:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "John Feit transferred to TDCJ prison",
+      "description": "The former priest convicted of a local schoolteacher’s 1960 murder was transferred from the Hidalgo County jail Monday morning to the Texas Department of Criminal Justice’s Byrd Unit in Huntsville.",
+      "url": "http://www.themonitor.com/irenegarza/article_93d61522-e427-11e7-86a2-773b3d48d06a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/c/cb/ccb5684e-dc83-11e7-a12c-c3782f930202/5a2b422d2262c.image.jpg?resize=827%2C630",
+      "publishedAt": "2017-12-18T19:13:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NANCY MOYER | SPECIAL TO THE MONITOR",
+      "title": "Artist tells of psychological damage from cartel violence in latest exhibit",
+      "description": "A new art space in the Rio Grande Valley, Creative Arts Studio, is located in the picturesque old Hidalgo County Jail House and opens with Manuel Antonio Lince’s exhibition, “#Daño Colateral.”",
+      "url": "http://www.themonitor.com/life/article_7da1dbd8-b7f4-11e7-8458-9fb826273203.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/02/d0297b18-b7f4-11e7-99b6-fb56948d0e9b/59edec894701a.image.jpg?resize=630%2C630",
+      "publishedAt": "2017-10-23T13:17:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Man faces multiple charges, accused of string of robberies",
+      "description": "EDINBURG — A man was arraigned on multiple aggravated robbery charges Wednesday after allegedly robbing a string of small businesses in western Hidalgo County last week.",
+      "url": "http://www.themonitor.com/news/local/article_c83314f4-4e81-11e8-8956-5354b5f39aa7.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/71/b71153ca-0d7d-562e-ad44-007fa4f5e7da/59262ab310fb5.image.jpg?resize=640%2C480",
+      "publishedAt": "2018-05-03T03:26:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BY CRISTINA GARCIA | STAFF WRITER",
+      "title": "Weslaco man charged in strip club murder",
+      "description": "Hidalgo County sheriff’s investigators arrested a man in connection with a murder at LipZtick strip club near Donna.",
+      "url": "http://www.themonitor.com/news/local/article_01a1edca-a980-11e7-80c8-ef0cb5a717ca.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/3f/23fd8456-a980-11e7-993e-8337745e31c6/59d5abf05be4f.image.png?resize=384%2C480",
+      "publishedAt": "2017-10-05T03:48:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Women turn themselves in, child in CPS custody",
+      "description": "A 2-year-old girl believed abducted in rural Mission Thursday morning is now in the custody of Child Protective Services, according to the Hidalgo County Sheriff’s Office.",
+      "url": "http://www.themonitor.com/news/local/article_9c966254-c643-11e7-a31b-eb975e1180e9.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/c/d0/cd0438ee-c643-11e7-be97-b7e5f2120b2f/5a05ee267bf07.image.jpg?resize=319%2C339",
+      "publishedAt": "2017-11-10T18:18:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Sheriff’s office busts Weslaco eight-liner operation",
+      "description": "WESLACO — Undercover investigators with the Hidalgo County Sheriff’s Office executed a search warrant Tuesday at 6308 N. Mile 6 West Road in Weslaco and discovered more than 80 eight-liner gambling machines, also known as maquinitas.",
+      "url": "http://www.themonitor.com/news/local/article_4d1b3828-c5c4-11e7-9d82-7fdc299152d0.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/7f/87f8452c-26c7-11e7-be98-978628a9021e/58fa5b940a231.image.jpg?resize=945%2C630",
+      "publishedAt": "2017-11-10T03:07:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Noon Fix: Hidalgo, Starr runoffs today; McAllen PD investigating skimming; Women accuse local doctor of false diagnosis; Lawsuit filed against mall kiosk owners",
+      "description": "Runoffs to be decided today in Hidalgo and Starr counties",
+      "url": "http://www.themonitor.com/news/local/article_4cf51174-5de1-11e8-9f82-9394bd697c4e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/a/db/adb39a2c-c2f9-11e7-a254-eb9dda71fc3b/5a00691c4ab92.image.jpg?resize=1090%2C630",
+      "publishedAt": "2018-05-22T16:58:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Ex-district clerk’s bond forfeiture hearing reset",
+      "description": "EDINBURG — The $1 million bond for former Hidalgo County District Clerk Omar Guerrero has yet to be collected after a Tuesday morning bond forfeiture hearing was reset for late December.",
+      "url": "http://www.themonitor.com/news/local/article_1184592e-cf2f-11e7-ba0e-3b69450739ec.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/80/880dc750-b51d-11e2-9c7d-001a4bcf6878/5185ac6c1acde.preview-620.jpg?resize=620%2C430",
+      "publishedAt": "2017-11-22T02:44:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Sheriff’s office busts McAllen eight-liner operation",
+      "description": "McALLEN — The Hidalgo County Sheriff’s Office executed a search warrant Friday at an alleged illegal gambling operation on Bentsen Road, located south of 6 Mile Line, which resulted in five arrests.",
+      "url": "http://www.themonitor.com/news/local/article_3aed02f2-cf34-11e7-a43b-af1495969017.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/5/d0/5d0ee3ca-6dfb-11e4-8091-cb7471413f13/5469532554c24.image.jpg?resize=571%2C429",
+      "publishedAt": "2017-11-22T03:21:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER",
+      "title": "Hidalgo man charged in auto-pedestrian fatality",
+      "description": "PHARR — A Hidalgo man faces a felony charge after a crash early Sunday morning left one woman dead.",
+      "url": "http://www.themonitor.com/news/article_f2bf555e-a259-11e7-a569-3f2f2eedc1d2.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/custom/image/63d4e448-c8f9-11e5-a9d3-ef190d0e9873.jpg?_dc=1454340915",
+      "publishedAt": "2017-09-26T01:28:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "McAllen ISD police launch first offender program",
+      "description": "McALLEN — Hidalgo County youth have another opportunity at a clean slate with the launch of McAllen ISD’s first offender program.",
+      "url": "http://www.themonitor.com/news/local/article_e0c8dcba-1b5a-11e8-88f8-cfbd5e41fd89.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/09/309a9f12-1b5b-11e8-9ca4-f7b1f8e021a2/5a94b0795f3af.image.jpg?resize=200%2C266",
+      "publishedAt": "2018-02-27T01:09:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Bond forfeiture case set for trial in case tied to Omar Guerrero",
+      "description": "EDINBURG — A Hidalgo County jury may hear the county’s first bond forfeiture case in recent memory should attorneys for the state and a bail bondsman not come to an agreement by Monday.",
+      "url": "http://www.themonitor.com/news/local/article_69127966-3558-11e8-adb9-2750a8b42ea6.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/f/12/f12c0e9e-31d5-11e6-b56e-f7ace5132448/575f68fde0ed4.image.jpg?resize=200%2C299",
+      "publishedAt": "2018-04-01T02:57:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Sheriff’s investigators: Robbery suspects used Facebook to lure victims",
+      "description": "Investigators with the Hidalgo County Sheriff’s Office believe that two Mid-Valley women arrested Saturday for assault and robbery may have used social media to “lure males to rob them,” according to a sheriff’s office news release.",
+      "url": "http://www.themonitor.com/news/local/article_e39bd7c0-3ded-11e8-8fda-df775d2d7595.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/4/bc/4bcfae66-3dee-11e8-885b-8319abadc9d1/5aceb207c90e5.image.jpg?crop=338%2C487%2C237%2C232&resize=338%2C487&order=crop%2Cresize",
+      "publishedAt": "2018-04-12T01:07:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Strip club murder suspect jailed in Louisiana",
+      "description": "Authorities have found the second suspect wanted in Sunday's strip club murder near Donna.",
+      "url": "http://www.themonitor.com/news/local/article_46c0c37c-a9f8-11e7-84e6-633b53987c4f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/c3/6c38d31a-a9f8-11e7-a1d5-2335ff2b83d2/59d675af6e7bc.image.png?resize=636%2C476",
+      "publishedAt": "2017-10-05T18:09:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Trial begins in county’s first bond forfeiture case",
+      "description": "EDINBURG — After a bondsman failed to reach an agreement with the state, trial began Monday afternoon in Hidalgo County’s first bond forfeiture case.",
+      "url": "http://www.themonitor.com/news/local/article_b02c7124-36e0-11e8-9ce2-cff70f91f2ab.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/95/79580e02-36e4-11e8-be21-77f6ddbf4898/5ac2e37ab42cb.image.jpg?resize=800%2C630",
+      "publishedAt": "2018-04-03T01:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE | STAFF WRITER Follow @naxiely !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "County judge candidates report hefty donations in Democratic primary race",
+      "description": "EDINBURG — In just three months, former McAllen Mayor Richard Cortez outraised and outspent his Democratic primary opponent Eloy Pulido, who spent most of 2017 fundraising, in the quest to become Hidalgo County Judge.",
+      "url": "http://www.themonitor.com/news/local/article_ff1c8212-0c86-11e8-a63e-87445620cf8f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/1/08/1084ff96-f67c-11e7-a490-735214a3645c/5a56d41d29137.image.jpg?resize=816%2C630",
+      "publishedAt": "2018-02-08T04:17:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Aiming to rehabilitate first-time offenders, county graduates inaugural Domestic Violence Court",
+      "description": "EDINBURG — After a physical altercation with her ex-wife, a 29-year-old single mom found herself with two options: she could face up to a year in county jail or apply to take part in Domestic Violence Court.",
+      "url": "http://www.themonitor.com/news/local/article_67a31006-3d35-11e8-9b7e-97a2f892d07a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/92/b9218246-3d35-11e8-af28-6b28512e2e74/5acd7c5e578a3.image.jpg?resize=804%2C630",
+      "publishedAt": "2018-04-11T03:07:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE | STAFF WRITER Follow @naxiely !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Former DA: No regrets about Feit case",
+      "description": "EDINBURG — The former Hidalgo County district attorney who refused to take the Irene Garza case to trial said Thursday he wasn’t surprised the jury found John Feit, a former priest, guilty of the 1960 murder of the McAllen beauty…",
+      "url": "http://www.themonitor.com/irenegarza/article_c9ea5f52-dd5a-11e7-9cb6-b7377f3fd277.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/12/e1240a74-41ba-11e7-9c16-530015418964/592792977d9c4.image.jpg?resize=725%2C630",
+      "publishedAt": "2017-12-10T03:59:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Two women arrested in ongoing kidnapping investigation",
+      "description": "Two women were formally charged Wednesday with aggravated kidnapping stemming from an incident over the weekend when a 27-year-old man was taken from his rural Mission home at gunpoint by an unknown group of men.",
+      "url": "http://www.themonitor.com/news/local/article_9f55348e-0711-11e8-909f-e38a1ca4ae6b.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/c/88/c8894a20-0711-11e8-a80c-97649959969a/5a72a73f7cca1.image.jpg?resize=350%2C458",
+      "publishedAt": "2018-02-01T13:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER Follow @smithmollyk !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "McAllen man faces murder charge in woman’s death",
+      "description": "McALLEN — A local man was formally charged Monday in the death of a 61-year-old woman over the weekend.",
+      "url": "http://www.themonitor.com/news/local/article_30c60ca2-be6c-11e7-909a-1b18fa22b022.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/c7/6c745bbe-be6c-11e7-bef5-d7ec17f8e3a1/59f8c65244edd.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-10-31T18:49:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Three arrested in Hidalgo runoff voter fraud investigation",
+      "description": "EDINBURG — The wife of a Hidalgo school board trustee and two other women were arrested this week on voter fraud charges tied to the city of Hidalgo’s 2016 runoff election.",
+      "url": "https://www.themonitor.com/news/local/article_d1ac17a4-79b2-11e8-a817-e70d5da6e867.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/custom/image/63d4e448-c8f9-11e5-a9d3-ef190d0e9873.jpg?_dc=1454340915",
+      "publishedAt": "2018-06-27T03:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE | STAFF WRITER",
+      "title": "Developer offers second site for new courthouse",
+      "description": "EDINBURG — A farmer-turned-developer here wants to gift Hidalgo County 20 acres of what he calls prime real estate off of Highway 281 to build the new county courthouse, but his offer comes as the project continues to pick up…",
+      "url": "http://www.themonitor.com/news/local/article_5feda47a-2fb6-11e8-9d19-4f47980daa10.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/b4/6b4aa9be-2fb9-11e8-81a2-f3d1661428ad/5ab6dcba5e20b.image.jpg?resize=1200%2C573",
+      "publishedAt": "2018-03-25T13:08:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "CRISTINA M. GARCIA | STAFF WRITER",
+      "title": "Records: San Juan man killed woman by running over her with vehicle",
+      "description": "A San Juan man was charged Thursday with the murder of a woman whose body was found on a roadway in McAllen.",
+      "url": "http://www.themonitor.com/news/local/article_64104154-d703-11e7-bea2-4be76e5ac578.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/c4/8c4c89c0-d703-11e7-91ea-c3ded50a001b/5a2207a92e2c2.image.png?resize=384%2C480",
+      "publishedAt": "2017-12-02T01:52:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Allegations mount against Mission man accused of killing wife",
+      "description": "Moments after allegedly bludgeoning his wife to death, a Mission man confessed to his brothers that he had “done something he would regret for the rest of his life,” according to a probable cause affidavit filed by the Hidalgo County舰",
+      "url": "http://www.themonitor.com/news/local/article_90f173c0-aa2e-11e7-8c31-3b75b42bd396.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/06/e061c3a2-a870-11e7-8776-f7071f6f8004/59d3e4d90188e.image.png?resize=482%2C582",
+      "publishedAt": "2017-10-06T00:37:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BY SAUL BERRIOS-THOMAS | STAFF WRITER Follow @Saul_Monitor !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "UPDATED: Edinburg Vela coach Campbell involved in one-vehicle crash before arrest",
+      "description": "This story has been updated to include information from Campbell's arrest warrant affidavit and a response from ECISD.",
+      "url": "http://www.themonitor.com/sports/high_school/article_ae3cac80-fef5-11e7-b453-9f6ba52e9e57.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/18/d18744fc-fef5-11e7-b07a-6f5d3a063430/5a650c93dda7b.image.jpg?resize=504%2C630",
+      "publishedAt": "2018-01-22T20:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE | STAFF WRITER",
+      "title": "Details emerge in fifth voter fraud arrest",
+      "description": "EDINBURG — The fifth person arrested in connection to an alleged voter fraud scheme faced a justice of the peace Saturday, and two days later, his bond was reduced from $100,000 cash surety to one that allows him to walk…",
+      "url": "http://www.themonitor.com/news/local/article_3d02c994-6874-11e8-a157-c7a7f82d1074.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/d8/6d8335ae-6874-11e8-822c-4b862d2e89cb/5b160a0f5deb6.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-06-05T03:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Edcouch mayor formally charged with DWI",
+      "description": "EDINBURG — The mayor of Edcouch appeared in county court Tuesday for his arraignment on a driving while intoxicated charge after failing to appear for his initial February arraignment.",
+      "url": "http://www.themonitor.com/news/local/article_950180b4-3df8-11e8-a98b-af77b04859d3.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/3e/b3ed2c52-8f35-11e7-b49a-a7ccc60f7964/59a9904b66bda.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-04-12T02:24:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Police release name of man fatally stabbed Sunday",
+      "description": "PHARR — Police released the identify Friday of the victim of last weekend's fatal stabbing here.",
+      "url": "http://www.themonitor.com/news/local/article_b0c76894-4a88-11e8-b85b-2b2f88d95bb4.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/66/d6621994-9dc7-11e4-a5ab-67b83ad6e518/54b984b146a5d.image.jpg?resize=1200%2C600",
+      "publishedAt": "2018-04-28T02:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "McAllen police investigating credit card skimming scheme",
+      "description": "McALLEN — Two Cuban nationals were arrested late last month for allegedly stealing thousands of dollars from McAllen residents by planting credit card skimming devices inside gas pumps across the city.",
+      "url": "http://www.themonitor.com/news/local/article_0b1d0cf8-5d68-11e8-bab2-ef8bf39ce9c8.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/6a/36a1c5ee-5d68-11e8-aea7-a7c51f252a5e/5b03811c297d6.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-05-22T02:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Standoff ends with family violence arrest in Pharr",
+      "description": "PHARR — A police standoff Sunday night resulted in the arrest of Luis Alberto De La Cruz for family violence.",
+      "url": "http://www.themonitor.com/news/local/article_9fca4dc0-0002-11e8-a974-e3a851de9279.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/5/e5/5e5f2b5c-0003-11e8-ae5a-afa474ee97af/5a66d0c68433b.image.jpg?resize=504%2C630",
+      "publishedAt": "2018-01-23T05:59:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Arrests, more details announced in accidental shooting at H-E-B grocery store",
+      "description": "PHARR — Officials have announced charges and released more details about the unintentional shooting at an H-E-B store Wednesday night when a shopper dropped a concealed handgun.",
+      "url": "http://www.themonitor.com/news/local/article_1439bf74-f8dd-11e7-8d83-03161c99f794.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/6c/d6c8d82c-f8dd-11e7-8ea7-07e5d87a6f0c/5a5ad3254a84a.image.jpg?resize=200%2C287",
+      "publishedAt": "2018-01-14T03:43:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Judge denies bondsman’s request for new forfeiture trial",
+      "description": "EDINBURG — A county court-at-law judge denied a local bondsman’s request for a new trial Monday, leaving the bondsman with two options, both of which require putting down the $50,000 he forfeited when the man he bailed out of jail…",
+      "url": "http://www.themonitor.com/news/local/article_8f2c7f9a-687d-11e8-b20f-2ff7b0374124.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/49/b49ab792-687d-11e8-9409-8f89b962a62c/5b161995848ea.image.jpg?resize=774%2C630",
+      "publishedAt": "2018-06-05T05:01:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Judge denies bondsman’s request for new forfeiture trial",
+      "description": "EDINBURG — A county court-at-law judge denied a local bondsman’s request for a new trial Monday, leaving the bondsman with two options, both of which require putting down the $50,000 he forfeited when the man he bailed out of jail…",
+      "url": "https://www.themonitor.com/news/local/article_8f2c7f9a-687d-11e8-b20f-2ff7b0374124.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/49/b49ab792-687d-11e8-9409-8f89b962a62c/5b161995848ea.image.jpg?resize=774%2C630",
+      "publishedAt": "2018-06-05T05:01:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Student arrested for posting false alarm to Snapchat",
+      "description": "MISSION — A 17-year-old student was arrested Tuesday morning after sending his friends an alarming message Friday.",
+      "url": "http://www.themonitor.com/news/local/article_8dad4e38-1c38-11e8-ba09-03c6c73c11fc.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/7f/87f8452c-26c7-11e7-be98-978628a9021e/58fa5b940a231.image.jpg?resize=945%2C630",
+      "publishedAt": "2018-02-28T03:36:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Pharr man sentenced to 28 years for murder",
+      "description": "EDINBURG — Ramon Aguilar Jr. was sentenced to 28 years in prison Monday morning after pleading guilty to murder in October for his role in a double homicide that took place in rural Mission in December 2015.",
+      "url": "http://www.themonitor.com/news/local/article_4725b9ce-c8d1-11e7-a964-3311bfadf0c5.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/61/661348a6-c8d1-11e7-8885-afcad6574878/5a0a3691cf87d.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-11-14T00:18:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Alton pastor arraigned on additional sexual assault charge",
+      "description": "An Alton pastor was arraigned Thursday on a new sexual assault charge after a McAllen woman came forward with allegations following his April 11 arrest.",
+      "url": "http://www.themonitor.com/news/local/article_be416292-4987-11e8-b760-9774690c8f90.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/5/16/516b5322-3f45-11e8-836c-f732a5b2eee1/5ad0f1b445afc.image.jpg?resize=504%2C630",
+      "publishedAt": "2018-04-26T19:26:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "DPS stepping up enforcement of 'Move Over, Slow Down' law this week",
+      "description": "Texas Department of Public Safety troopers will be on the lookout Thursday and Friday for Rio Grande Valley drivers who don’t move over or slow down for vehicles stopped along the road with their emergency lights on.",
+      "url": "http://www.themonitor.com/news/local/article_6a1f5204-177e-11e8-b6a9-33d0c0f0d32f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/64/b64f39c8-177e-11e8-96ab-1ff3019ee3a3/5a8e361e875c2.image.jpg?resize=345%2C200",
+      "publishedAt": "2018-02-22T03:13:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Traffic stop results in 300-pound marijuana seizure",
+      "description": "SULLIVAN CITY — A Thursday morning traffic stop on Expressway 83 resulted in the seizure of more than 300 pounds of marijuana valued at more than $2 million.",
+      "url": "http://www.themonitor.com/news/local/article_93242bd0-e208-11e7-ac49-7fafda222cd1.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/59/e59a6b98-8ce9-11e5-9f68-83f370c73c1e/564ab7846323d.image.jpg?resize=300%2C232",
+      "publishedAt": "2017-12-16T02:26:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Pharr man arraigned on murder charge",
+      "description": "PHARR — A man was arraigned on multiple charges Sunday in connection with the murder of a man a few days before who police have yet to identify.",
+      "url": "http://www.themonitor.com/news/local/article_f76b4a70-35d6-11e8-b683-bb79bdb8475e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/1/d7/1d77fc80-35d8-11e8-8abc-1ffdddef2eae/5ac121d76f09a.image.jpg?resize=840%2C630",
+      "publishedAt": "2018-04-01T18:18:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Parents charged with death of infant",
+      "description": "Days after their 3-month-old child was taken off life support, two parents were arrested Monday in connection with the child’s death.",
+      "url": "http://www.themonitor.com/news/local/article_8fd2ca1e-322a-11e8-a689-c7af413b4fcb.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/e8/be895d0a-322a-11e8-af1a-d7e06c53401c/5abaf57c24f2c.image.jpg?crop=288%2C360%2C145%2C86&resize=288%2C360&order=crop%2Cresize",
+      "publishedAt": "2018-03-28T01:51:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Police ID woman whose body was dumped outside Mission hospital",
+      "description": "Authorities have identified the woman whose body was dumped outside Mission Regional Medical Center Friday night by a man believed to be her boyfriend.",
+      "url": "http://www.themonitor.com/news/local/article_43625340-2bc5-11e8-9e95-4fdde7afda62.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/0d/60dc1870-2bc5-11e8-a207-8709d539deec/5ab03a956ff12.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-03-19T22:31:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Arrest made in Elsa capital murder case",
+      "description": "An arrest has been made in the death of a 49-year-old Elsa resident.",
+      "url": "http://www.themonitor.com/news/local/article_b53d7f08-9a57-11e7-9bea-6bb5b9b2b0f7.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/0/77/0772f356-9a59-11e7-b148-abab378ff81f/59bc3fe1d11e0.image.png?resize=384%2C464",
+      "publishedAt": "2017-09-15T20:51:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Suspect in October shooting death arraigned",
+      "description": "EDINBURG — A man accused of fatally shooting another man at a rural Donna strip club last October was arraigned Thursday.",
+      "url": "http://www.themonitor.com/news/local/article_c3d31672-023a-11e8-a4fc-9f9fe46e12da.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/3f/23fd8456-a980-11e7-993e-8337745e31c6/59d5abf05be4f.image.png?resize=384%2C480",
+      "publishedAt": "2018-01-26T01:46:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Sullivan City woman charged in fatal drunk driving crash",
+      "description": "WESLACO — Police here arrested a Sullivan City woman accused of drunkenly crashing into a parked vehicle, killing a passenger, early Wednesday morning.",
+      "url": "http://www.themonitor.com/news/local/article_af0b1b02-5976-11e8-864c-0f96986d5e5a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/4b/d4b4f19e-9902-11e4-8af9-a3c6e0ab9d72/54b18451e97b0.image.jpg?resize=571%2C429",
+      "publishedAt": "2018-05-17T02:04:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Mission police arrest man accused of running over officer",
+      "description": "A man wanted for running over a police officer was apprehended Friday evening, according to Mission police.",
+      "url": "http://www.themonitor.com/news/local/article_15529c6a-50ac-11e8-b999-bbe291576bb2.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/1/8a/18aaa026-5014-11e8-b289-03b87a61a7fc/5aed24c16d9b0.image.jpg?crop=231%2C356%2C151%2C120&resize=231%2C356&order=crop%2Cresize",
+      "publishedAt": "2018-05-05T21:34:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Bonds reduced for suspects in murder of Starr County teen",
+      "description": "RIO GRANDE CITY — A judge lowered the bonds Friday for two of the defendants in the Chayse Olivarez murder case.",
+      "url": "http://www.themonitor.com/news/local/article_2cf87e1a-fd88-11e7-90a7-87673563bfe5.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/e8/7e873e50-78a5-11e7-8616-934d1df70f49/5983b52d24870.image.jpg?resize=473%2C630",
+      "publishedAt": "2018-01-20T02:18:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Woman faces 20 years in prison for intoxication manslaughter",
+      "description": "Nanette Yvonne Alejandre, 42, was arrested Wednesday on an intoxication manslaughter charge for her role in a fatal accident earlier this month that occurred after her car veered into oncoming traffic and struck a semitrailer in Progreso.",
+      "url": "http://www.themonitor.com/news/local/article_8574e25c-1919-11e8-a7d3-c3d5c97428fe.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/4b/d4b4f19e-9902-11e4-8af9-a3c6e0ab9d72/54b18451e97b0.image.jpg?resize=571%2C429",
+      "publishedAt": "2018-02-24T04:16:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BERENICE GARCIA | STAFF WRITER Follow @Berenice__G !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "RGC school district employee first arrest in voter fraud investigation",
+      "description": "RIO GRANDE CITY — County investigators have made their first arrest in an investigation into voter fraud Monday morning.",
+      "url": "http://www.themonitor.com/news/local/article_72a48208-0542-11e8-9f91-131073f1e6b9.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/b/38/b38e75ee-0542-11e8-8b2b-5bfcbf7dc567/5a6f9e9691d2b.image.jpg?resize=507%2C630",
+      "publishedAt": "2018-01-29T22:19:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "RAUL GARCIA | STAFF WRITER",
+      "title": "Hit-and-run suspect has DWI rap sheet",
+      "description": "MERCEDES — The man accused of leaving one woman dead and three children in critical condition after a hit-and-run crash in Mercedes has a rap sheet of DWIs dating back 17 years.",
+      "url": "http://www.themonitor.com/news/local/article_5e987d2a-559a-11e8-9e18-4b288b9fac6b.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/6c/96c70136-0190-51a0-87ff-edf79afed236/5af6690b5d0df.image.jpg?resize=549%2C630",
+      "publishedAt": "2018-05-12T04:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Edinburg officer remains on leave after arrest for assault",
+      "description": "EDINBURG — A police sergeant here remains on unpaid administrative leave more than three months after he was arrested and charged in connection with assaulting a family member.",
+      "url": "http://www.themonitor.com/news/local/article_6df51668-e0ef-11e7-b8a0-6390ac3294bb.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/2a/e2ade5c0-e0ef-11e7-a68a-3f5ff24d5596/5a32adfc2e83b.image.png?resize=416%2C574",
+      "publishedAt": "2017-12-14T16:54:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Husband charged in wife’s death",
+      "description": "EDINBURG — Authorities believe a Peñitas woman was bludgeoned to death with a cement block during a domestic dispute.",
+      "url": "http://www.themonitor.com/news/local/article_bf50eef4-a870-11e7-b53d-0bd8d4789070.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/06/e061c3a2-a870-11e7-8776-f7071f6f8004/59d3e4d90188e.image.png?resize=482%2C582",
+      "publishedAt": "2017-10-04T12:44:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "IDEA Public Schools bus driver faces child abuse charges",
+      "description": "A local charter school bus driver was arrested last week for allegedly sexually abusing at least three children he drove to school.",
+      "url": "http://www.themonitor.com/news/local/article_1a041cb4-57c5-11e8-b066-5bb6aab897ac.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/04/2044792a-57c5-11e8-bf53-efdd7a47b61b/5afa0d33d961f.image.jpg?resize=358%2C448",
+      "publishedAt": "2018-05-14T22:21:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Alton pastor arrested on sexual assault charge",
+      "description": "EDINBURG — An Alton pastor was arrested Wednesday after a woman reported that he sexually assaulted her while she was unconscious.",
+      "url": "http://www.themonitor.com/news/local/article_84a53bf8-3f46-11e8-b79a-b7877c3a5b96.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/5/16/516b5322-3f45-11e8-836c-f732a5b2eee1/5ad0f1b445afc.image.jpg?resize=504%2C630",
+      "publishedAt": "2018-04-13T18:14:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Catholic state prosecutor in ex-priest’s murder trial balanced faith with duty",
+      "description": "EDINBURG — Nearly a week removed from getting a conviction in a historic trial, even exhaling proved challenging.",
+      "url": "http://www.themonitor.com/news/local/article_bcf7ce50-e2d8-11e7-967d-477b3ce95658.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/dc/3dcc9cb8-e2d9-11e7-816b-ffd29c6124e2/5a35e281123b4.image.jpg?resize=461%2C630",
+      "publishedAt": "2017-12-17T15:16:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "DA, county judge candidates offer sharp criticism of each other at forum",
+      "description": "McALLEN — The candidates for two of the most contentious races this election season met again this week at the McAllen Citizens League forum Thursday.",
+      "url": "http://www.themonitor.com/news/local/article_7e2930ea-0242-11e8-a15f-635e412ca15f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/a/d8/ad870092-0242-11e8-9df1-8bba478ccc8e/5a6a960448ee0.image.jpg?resize=691%2C630",
+      "publishedAt": "2018-01-26T02:42:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "High school students charged with stealing police vehicle",
+      "description": "Three Donna North High School students were charged this past week in connection to a police vehicle that was stolen from the same school they attend.",
+      "url": "http://www.themonitor.com/news/local/article_2309379e-dd5f-11e7-96b0-6b8eaa9f3561.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/1b/71b7e6ba-dd5f-11e7-87dc-ab85811ac4a5/5a2cb2adba114.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-12-10T04:13:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "High school students charged with stealing police vehicle",
+      "description": "Three Donna North High School students were charged this past week in connection to a police vehicle that was stolen from the same school they attend.",
+      "url": "http://www.themonitor.com/news/local/article_f8eb0236-de1b-11e7-90f3-d75d2137873e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/1b/71b7e6ba-dd5f-11e7-87dc-ab85811ac4a5/5a2cb2adba114.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-12-11T02:35:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "Two men arraigned for fatal Pharr shooting",
+      "description": "PHARR — Two men were arraigned Saturday for their role in a fatal Friday morning shooting that occurred in the 800 block of West Coyote Trail.",
+      "url": "http://www.themonitor.com/news/local/article_45d45f30-e465-11e7-9a23-536053c2f6e9.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/custom/image/63d4e448-c8f9-11e5-a9d3-ef190d0e9873.jpg?_dc=1454340915",
+      "publishedAt": "2017-12-19T02:35:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "CRISTINA M. GARCIA | STAFF WRITER",
+      "title": "Mercedes police officer charged with driving while intoxicated",
+      "description": "MERCEDES — A Texas Department of Public Safety trooper arrested a Mercedes police officer last week on suspicion of driving while intoxicated.",
+      "url": "http://www.themonitor.com/news/local/article_16882eb0-da05-11e7-8391-afee068c397d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/c5/6c587a20-da05-11e7-932d-0fee32b59450/5a271376be5b2.image.png?resize=384%2C480",
+      "publishedAt": "2017-12-05T21:41:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Pharr murder victim identified",
+      "description": "PHARR — The man found dead inside a home here Friday was identified Tuesday as 32-year-old Arnulfo Gaitan.",
+      "url": "http://www.themonitor.com/news/local/article_c428e5d0-37b3-11e8-8e74-bbc99293ae00.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/1/d7/1d77fc80-35d8-11e8-8abc-1ffdddef2eae/5ac121d76f09a.image.jpg?resize=840%2C630",
+      "publishedAt": "2018-04-04T02:56:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "DANYA PEREZ-HERNANDEZ AND SAUL BERRIOS-THOMAS | STAFF WRITERS",
+      "title": "Edinburg Vela football coach Campbell reinstated following suspension",
+      "description": "Edinburg Vela football coach John Campbell was reinstated by Edinburg CISD earlier this month following a two-week suspension.",
+      "url": "http://www.themonitor.com/news/local/article_8b4c52c4-15e9-11e8-8a2c-2f199422c0b7.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/18/d18744fc-fef5-11e7-b07a-6f5d3a063430/5a650c93dda7b.image.jpg?resize=504%2C630",
+      "publishedAt": "2018-02-20T02:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "DPS: Man charged for evading arrest after chase, shooting",
+      "description": "Department of Public Safety Texas Rangers are investigating an officer-involved shooting that took place Thursday night near Pharr.",
+      "url": "http://www.themonitor.com/news/local/article_dcafaee0-b5c2-11e7-bca2-cb41929022c0.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/7f/87f8452c-26c7-11e7-be98-978628a9021e/58fa5b940a231.image.jpg?resize=945%2C630",
+      "publishedAt": "2017-10-20T18:16:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Notice of appeal filed in ex-priest’s murder conviction",
+      "description": "EDINBURG — In what can be seen as a procedural move, John Feit's defense attorney filed a notice of appeal earlier this week, according to court records.",
+      "url": "http://www.themonitor.com/irenegarza/article_7082db9a-f17f-11e7-bd4e-ffaf7d2cb26f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/6b/26bda69a-ec1e-11e7-94e0-8392fd50ffda/5a456f961f067.image.jpg?resize=833%2C630",
+      "publishedAt": "2018-01-05T02:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Bus driver accused of sexual abuse faces new charges",
+      "description": "A former bus driver charged with sexually abusing students he drove to and from school faced two new charges Tuesday.",
+      "url": "http://www.themonitor.com/news/local/article_1fe746a8-5e03-11e8-b5e7-6729efff2541.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/0/b7/0b7afcf0-58b8-11e8-b9a8-77ce8e588b28/5afba3828a41a.image.jpg?resize=200%2C251",
+      "publishedAt": "2018-05-22T21:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Two arraigned on capital murder charges tied to double homicide",
+      "description": "EDINBURG — A couple was arraigned on capital murder charges Monday in connection with a double homicide after police discovered two decomposing bodies on an Edinburg property over the weekend.",
+      "url": "http://www.themonitor.com/news/local/article_691410b8-4ce7-11e8-85eb-5bcda621cdf1.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/custom/image/63d4e448-c8f9-11e5-a9d3-ef190d0e9873.jpg?_dc=1454340915",
+      "publishedAt": "2018-05-01T02:29:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Briseño Construction owners facing new theft charge",
+      "description": "The owners of a local construction firm accused of targeting Spanish-speaking customers in a home building scam are facing a new criminal theft charge.",
+      "url": "http://www.themonitor.com/news/local/article_69e42302-42b0-11e8-a3fd-8bdd44d81218.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/88/9889f8da-42b0-11e8-b05a-13d97fcd670d/5ad6adff8ac5a.image.jpg?crop=491%2C562%2C2%2C115&resize=491%2C562&order=crop%2Cresize",
+      "publishedAt": "2018-04-18T02:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER",
+      "title": "Alarmed by family separations, O’Rourke urges end to ‘zero tolerance’ during tour of immigration facilities",
+      "description": "HIDALGO — U.S. Rep. Beto O’Rourke, D-El Paso, got a first-hand look here on Monday of what he refers to as a humanitarian crisis: the detaining of immigrants and the separation of their families as part of the Trump Administration’s…",
+      "url": "https://www.themonitor.com/news/local/article_349b870e-6e01-11e8-982f-8bc4ea751f94.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/8/5f/85f5c1fa-6e01-11e8-8401-5f0f28e6be61/5b1f5a219d185.image.jpg?resize=829%2C630",
+      "publishedAt": "2018-06-12T05:26:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "McAllen man arrested for attempted murder of a peace officer",
+      "description": "A McAllen man was arrested Sunday for the attempted murder of a peace officer after he fired at a Palmhurst police officer.",
+      "url": "http://www.themonitor.com/news/local/article_b8d43424-c40d-11e7-bf29-835d799fe888.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/31/63161ac4-c40e-11e7-95ae-1baad2eb32bb/5a0239601e473.image.jpg?resize=384%2C480",
+      "publishedAt": "2017-11-07T22:48:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "LORENZO ZAZUETA-CASTRO | STAFF WRITER Follow @lorenzozazueta !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "All eyes on county as decades-old case finally set for trial",
+      "description": "EDINBURG — The nearly 60-year saga in the death of a schoolteacher and beauty queen is expected to reach its conclusion by the end of the year as the former priest accused with her murder finally faces a jury.",
+      "url": "http://www.themonitor.com/news/local/article_c6f31ff4-d252-11e7-8165-1b7bfbf51cb3.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/a/ce/acef9874-e76d-11e6-8e45-3f067a2bf83e/5890148b8e5e3.image.jpg?resize=860%2C630",
+      "publishedAt": "2017-11-26T03:17:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Corpus to avoid payment in bond forfeiture case … again",
+      "description": "EDINBURG — What’s another month or so if more than 1,600 days have already expired to collect a forfeited bond?",
+      "url": "http://www.themonitor.com/news/local/article_2392027e-ec21-11e7-8d69-dfcb1721a2e1.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/4/b3/4b3356c4-ec22-11e7-aef5-37a766cd59ac/5a457689451ae.image.jpg?resize=842%2C630",
+      "publishedAt": "2017-12-28T22:47:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "PSJA ISD paraprofessional fired amid sexual assault allegations",
+      "description": "A high school paraprofessional was terminated earlier this month by the Pharr-San Juan-Alamo school district days prior to his arrest for sexual assault of a child, a charge which stems from an alleged relationship with a student.",
+      "url": "https://www.themonitor.com/news/local/article_5a0b21f0-7a83-11e8-a52b-070e67585732.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/4/2c/42cceca4-7a5a-11e8-9f08-6b21d24c1f79/5b34111de1b5d.image.jpg?resize=384%2C480",
+      "publishedAt": "2018-06-28T03:28:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE | STAFF WRITER Follow @naxiely !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'http",
+      "title": "Former candidates react to illegal voting arrests",
+      "description": "EDINBURG — Former city council candidates on last year’s November ballot expressed disappointment with the recent arrests surrounding alleged illegal voting in the municipal election and called for new oversight and accountability measures.t of ele",
+      "url": "http://www.themonitor.com/news/local/article_d6be67a8-6092-11e8-9ef5-0f87015afb25.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/46/d460f3f0-d0a4-11e2-a3fd-0019bb30f31a/51b3dbd11894a.image.jpg?resize=505%2C630",
+      "publishedAt": "2018-05-26T03:14:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "NAXIELY LOPEZ-PUENTE and MOLLY SMITH | STAFF WRITERS",
+      "title": "Rangers arrest 3 in Edinburg illegal voting case; mayor denies wrongdoing",
+      "description": "EDINBURG — The mayor here is asking authorities to take a closer look at possible voter fraud committed in past elections after Texas Rangers arrested three of his supporters for allegedly voting illegally in last November’s municipal election.",
+      "url": "http://www.themonitor.com/news/local/article_bd4fe0b6-5efe-11e8-82db-27f4da1b5028.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/f/94/f942d0a6-5efe-11e8-860f-e3abbec4a519/5b062b6723a5e.image.jpg?resize=854%2C630",
+      "publishedAt": "2018-05-24T03:01:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Man gets 25 years for manslaughter",
+      "description": "EDINBURG — Before a jury sentenced a young man convicted of manslaughter, aggravated assault and deadly conduct to 25 years in prison Friday, he asked jurors to consider rehabilitating him instead of punishing him.",
+      "url": "http://www.themonitor.com/news/local/article_82164614-e796-11e7-a718-97e7f7141f3f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/97/d97fc8d0-e796-11e7-9d04-67dace676bcc/5a3dd699ca195.image.jpg?resize=846%2C630",
+      "publishedAt": "2017-12-23T04:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Jury hands down seven-year sentence in intoxication manslaughter case",
+      "description": "EDINBURG — A jury found a Donna woman guilty Thursday of intoxication manslaughter for her role in a New Year’s Day car crash in Alamo that killed the passenger in her minivan.",
+      "url": "http://www.themonitor.com/news/local/article_a3180e9c-9a6b-11e7-b8ca-870699717591.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/de/2de8991a-9853-11e4-bc11-87bef2d03c98/54b05e06530fe.image.jpg?resize=947%2C630",
+      "publishedAt": "2017-09-15T23:54:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BERENICE GARCIA | STAFF WRITER",
+      "title": "La Joya alone in denying ICE detainers",
+      "description": "No man is an island unless you’re La Joya Mayor Jose “Fito” Salinas.",
+      "url": "https://www.themonitor.com/news/immigration/article_6c3a75f0-7a89-11e8-ab8e-5f9c8037d642.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/4/72/4721a66e-7816-11e8-8106-c38a8af76197/5b304414da1ba.image.jpg?resize=480%2C619",
+      "publishedAt": "2018-06-28T12:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Patterson requests new trial challenging conviction",
+      "description": "EDINBURG — Monica Melissa Patterson’s appellate attorney has filed a motion for a new trial after a jury found her guilty of capital murder in early November.",
+      "url": "http://www.themonitor.com/news/local/article_ed7624fe-deec-11e7-8192-b70b6663602e.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/7f/67f5b076-bf78-11e7-85fd-5b24d95ed188/59fa87a7e4be4.image.jpg?resize=474%2C630",
+      "publishedAt": "2017-12-12T04:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Man gets 6 years for fatal street racing crash",
+      "description": "EDINBURG — Emotions ran high in the 370th district court Tuesday evening when a young man who accepted responsibility for a fatal crash that occurred nearly two years ago learned his fate.",
+      "url": "http://www.themonitor.com/news/local/article_cd316662-c9bc-11e7-bd6c-730c2b9230ba.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/a/dc/adc72392-c9b8-11e7-a2f5-cb7f85a48f6a/5a0bba7479acc.image.jpg?resize=840%2C630",
+      "publishedAt": "2017-11-15T04:23:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Witness drops bombshell testimony in Patterson capital murder trial",
+      "description": "EDINBURG — Monica Melissa Patterson abruptly left the courtroom Friday afternoon during a day of testimony that was arguably the most intense of her monthlong capital murder trial.",
+      "url": "http://www.themonitor.com/news/local/article_ed111b1c-b60c-11e7-b92d-2395555cc145.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/60/760b32c2-b60d-11e7-9d41-ef7a1d0cfdff/59eabac2e5f61.image.jpg?resize=875%2C630",
+      "publishedAt": "2017-10-21T03:07:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Lead investigator in Patterson case called to testify",
+      "description": "EDINBURG — It took 15 days in court to finally get here, after three weeks of exhaustive testimony into the defendant’s and victim’s personal finances.",
+      "url": "http://www.themonitor.com/news/article_014f97d2-b2ea-11e7-b84f-d74b319b8f3b.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/2/e1/2e1b52b0-b2ea-11e7-92b0-6bf0e7f7eca4/59e577aa1df46.image.jpg?resize=930%2C630",
+      "publishedAt": "2017-10-17T03:19:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Ruling on Patterson’s motion for new trial expected Jan. 16",
+      "description": "EDINBURG — A judge has a week to rule on Monica Melissa Patterson’s motion for a new trial, after hearing arguments from her appellate attorney and the state Monday.",
+      "url": "http://www.themonitor.com/news/local/article_2131ad72-f4eb-11e7-8aad-d3042cbd41e5.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/10/710156f4-f4eb-11e7-acfa-f7bd905738b3/5a54343c77f9e.image.jpg?resize=934%2C630",
+      "publishedAt": "2018-01-09T04:15:00Z"
+    }
+  ],
+  "status": "ok"
+}

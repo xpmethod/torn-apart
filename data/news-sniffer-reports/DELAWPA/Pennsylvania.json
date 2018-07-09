@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Philly.com"
+      },
+      "author": "Angela Couloumbis, Brad Bumsted, Paula Knudsen",
+      "title": "Tighter security planned at Harrisburg Capitol after Miccarelli protection order - Philly.com",
+      "description": "Philly.com Tighter security planned at Harrisburg Capitol after Miccarelli protection order Philly.com Back in the race: Toilet flushes got this State Rep. candidate kicked off the ballot last year. Mar 9 - 11:55 AM. assault01-a4. Camera icon BLAINE SHAHAN. S…",
+      "url": "http://www.philly.com/philly/news/tighter-security-planned-at-harrisburg-capitol-following-miccarelli-protection-order-20180310.html",
+      "urlToImage": "http://media.philly.com/images/dixon-415374-f-wp-content-uploads-2018-03-1049911_1e97dba2425ed75-e1520729691854-1200x799.jpg",
+      "publishedAt": "2018-03-11T01:32:28Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Philly.com"
+      },
+      "author": "Chris Goldstein",
+      "title": "Millennials bear the brunt of Pa. marijuana arrests - Philly",
+      "description": "Philadelphia is evolving into a safe haven for cannabis consumers even as arrests increase across Pennsylvania. Newly-elected District Attorney Larry Krasner announced Thursday that he would drop any marijuana possession cases brought to the court by police.",
+      "url": "http://www.philly.com/philly/business/cannabis/millennials-bear-the-brunt-of-pa-marijuana-arrests-20180216.html",
+      "urlToImage": "http://media.philly.com/images/dixon-382211-f-wp-content-uploads-2018-02-1031902_bf0ad87f7c40030-e1518802317815-1200x799.jpg",
+      "publishedAt": "2018-02-16T17:59:20Z"
+    }
+  ],
+  "status": "ok"
+}

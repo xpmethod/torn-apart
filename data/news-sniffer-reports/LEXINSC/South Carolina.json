@@ -1,1 +1,78 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Noah Feit nfeit@thestate.com",
+      "title": "One of three escaped SC inmates has been captured, sheriff says",
+      "description": "One of the three inmates who escaped from Orangeburg County Detention Center on Saturday after assaulting a guard has been captured, according to the sheriff's office. Christopher Boltin was taken into custody in Lexington County, SC.",
+      "url": "http://www.thestate.com/news/local/crime/article211565809.html",
+      "urlToImage": "http://www.thestate.com/latest-news/nm1fay/picture211565839/alternates/LANDSCAPE_1140/Christopher%20Bolti_fitted.jpeg",
+      "publishedAt": "2018-05-21T01:00:04Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Noah Feit nfeit@thestate.com",
+      "title": "Dad helped son who escaped jail, SC cops say. Now they're both in jail instead",
+      "description": "The father of one of the escaped inmates from Orangeburg County Detention Center helped his son before he was caught. Now both will be behind bars as Hoyte Boltin has also been taken into custody, the sheriff's department said.",
+      "url": "http://www.thestate.com/news/local/crime/article211614679.html",
+      "urlToImage": "http://www.thestate.com/latest-news/hpwb0q/picture211624664/alternates/LANDSCAPE_1140/Screenshot%202018-05-21%2018.50.1_fitted.jpeg",
+      "publishedAt": "2018-05-21T23:24:56Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Noah Feit nfeit@thestate.com",
+      "title": "Arrest made in hit-and-run that killed Lexington teen riding bicycle, cops say",
+      "description": "The South Carolina Highway Patrol said a man was arrested in connection with a hit-and-run crash that killed a Lexington teenager on YMCA Road June 22, 2018. Tijhee Dijon Salley was on a bicycle when he was struck by Kyle Roach's van.",
+      "url": "https://www.thestate.com/news/local/crime/article214041944.html",
+      "urlToImage": "https://www.thestate.com/latest-news/ajpp4y/picture214041969/ALTERNATES/LANDSCAPE_1140/ROACH,%20KYLE%20ANDRE_fitted.jpeg",
+      "publishedAt": "2018-06-29T03:27:24Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Susan Ardis sardis@thestate.com",
+      "title": "School threats lead to arrests throughout SC",
+      "description": "Law enforcement officers from around South Carolina continue to field calls about threats to schools two weeks after the mass shooting at Marjory Stoneman Douglas High School in Parkland, FL, … Click to Continue »",
+      "url": "http://www.thestate.com/news/local/crime/article202811679.html",
+      "urlToImage": "http://www.thestate.com/news/local/crime/bkvtfk/picture202811674/alternates/LANDSCAPE_1140/school-buses",
+      "publishedAt": "2018-03-01T13:42:43Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Bristow Marchant bmarchant@thestate.com",
+      "title": "Can't make it to the polls Tuesday? You still can vote in the SC primary",
+      "description": "Are SC voters taking advantage of the Palmetto State's absentee voting options ahead of next Tuesday's primary election? With less than a week to go, voters still can request a Democratic or Republican ballot and vote absentee.",
+      "url": "http://www.thestate.com/news/politics-government/article212576824.html",
+      "urlToImage": "http://www.thestate.com/news/politics-government/ds9kal/picture212649964/alternates/LANDSCAPE_1140/California_Primary_Voting_Stickers.jpg",
+      "publishedAt": "2018-06-07T16:06:37Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestate.com"
+      },
+      "author": "By Bristow Marchant bmarchant@thestate.com",
+      "title": "Who can vote in a runoff? What you need to know about SC's extended primary season",
+      "description": "Who can and can't vote in SC's runoff? When and where? With several races still to be decided after last week's primary election, SC voters still can vote absentee in Tuesday's Democratic and Republican races.",
+      "url": "http://www.thestate.com/news/politics-government/article213577339.html",
+      "urlToImage": "http://www.thestate.com/news/politics-government/1l5u83/picture213608414/alternates/LANDSCAPE_1140/Voting.jpg",
+      "publishedAt": "2018-06-22T14:21:20Z"
+    }
+  ],
+  "status": "ok"
+}

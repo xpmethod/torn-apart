@@ -1,1 +1,78 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson shane.sanderson@trib.com",
+      "title": "Man avoids jail after pointing a rifle at sheriff's deputies",
+      "description": "A judge sentenced a Natrona County man to five years of probation Wednesday for pointing an AR-15 rifle at sheriff's deputies who were responding to a shots fired call.",
+      "url": "http://trib.com/news/local/crime-and-courts/man-avoids-jail-after-pointing-a-rifle-at-sheriff-s/article_32f7d6a2-1f45-5a4c-8d94-c7891a0a8526.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/2/31/231decad-b9ee-5ece-902c-ea6d51219934/58e80cd37620c.image.jpg?crop=480%2C270%2C0%2C165&resize=480%2C270&order=crop%2Cresize",
+      "publishedAt": "2017-11-15T23:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson shane.sanderson@trib.com",
+      "title": "Natrona County men arrested after separate alleged assaults with a pick axe and hammer",
+      "description": "Two Natrona County men were arrested in the past week on suspicion of aggravated assault in separate incidents involving makeshift weapons.",
+      "url": "http://trib.com/news/local/crime-and-courts/natrona-county-men-arrested-after-separate-alleged-assaults-with-a/article_5957a034-fbd9-544c-80d4-f1fb9bd103ee.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/7/3f/73ff52cd-1405-5546-beac-e256c073bb18/5a1cb82b08a11.image.jpg?crop=480%2C270%2C0%2C165&resize=480%2C270&order=crop%2Cresize",
+      "publishedAt": "2017-11-28T01:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson shane.sanderson@trib.com",
+      "title": "Man pleads guilty to burglary charge in Casper arson case, second charge dropped",
+      "description": "A man accused of breaking into a north Casper home, stealing from it and setting it on fire pleaded guilty to a burglary charge Tuesday in Natrona County District Court.",
+      "url": "http://trib.com/news/local/crime-and-courts/man-pleads-guilty-to-burglary-charge-in-casper-arson-case/article_2da01ebe-0d6f-5f18-81f7-be31e72bce04.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/0/e5/0e5c38f6-40dd-595b-80ea-a19924f1e8da/5a1e0401d9fa1.preview.jpg?crop=470%2C264%2C0%2C144&resize=470%2C264&order=crop%2Cresize",
+      "publishedAt": "2017-11-29T01:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson shane.sanderson@trib.com",
+      "title": "Deputies take man into custody alleging he shot into Bar Nunn home, striking cat",
+      "description": "A woman was in bed Saturday morning in her home near Bar Nunn when a man fired into her bedroom and hit a cat she was petting, her husband said Monday morning.",
+      "url": "http://trib.com/news/local/crime-and-courts/deputies-take-man-into-custody-alleging-he-shot-into-bar/article_d79f3d66-85a7-5b60-be3b-bee0f804cc8c.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/b/07/b07153d4-538e-5610-8b00-14d35e6cfe82/5acbf5284b743.image.jpg?crop=1778%2C1000%2C0%2C82&resize=1120%2C630&order=crop%2Cresize",
+      "publishedAt": "2018-04-09T21:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson shane.sanderson@trib.com",
+      "title": "Defendant in painkiller conspiracy case pleads guilty, would avoid prison",
+      "description": "A Wyoming man pleaded guilty Friday to conspiring to sell painkillers purchased from a former Casper doctor who is now facing federal drug trafficking charges.",
+      "url": "http://trib.com/news/local/crime-and-courts/defendant-in-painkiller-conspiracy-case-pleads-guilty-would-avoid-prison/article_7afd2a94-6513-5722-ae8a-c33a4a3c04b7.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/1/85/1856d13b-bea9-54d0-98dd-4af4b35ea47e/59c599b559d63.image.jpg?crop=480%2C270%2C0%2C165&resize=480%2C270&order=crop%2Cresize",
+      "publishedAt": "2017-09-23T00:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Shane Sanderson 307-266-0624, shane.sanderson@trib.com",
+      "title": "Wyoming man pleads not guilty to charges alleging he kidnapped 95-year-old woman",
+      "description": "A Riverton man pleaded not guilty Thursday to charges alleging he kidnapped a 95-year-old Casper woman and fled from police while driving her car.",
+      "url": "http://trib.com/news/local/crime-and-courts/riverton-man-pleads-not-guilty-to-charges-alleging-he-kidnapped/article_3475da07-eeea-50f8-b7a6-d2511a6778c8.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/3/d2/3d2afa31-813f-5853-ba1f-7cf5b3ed9fa2/5ad910b554687.image.jpg?crop=1742%2C980%2C0%2C104&resize=1120%2C630&order=crop%2Cresize",
+      "publishedAt": "2018-04-19T22:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

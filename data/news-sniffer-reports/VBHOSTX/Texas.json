@@ -1,1 +1,90 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 7,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORTS",
+      "title": "Passenger dead, two ejected from van",
+      "description": "RAYMONDVILLE — A car crash yesterday afternoon sent seven to the hospital and left one dead.",
+      "url": "http://www.themonitor.com/news/local/article_14ae50dc-10ca-11e8-80b7-5fc7f71d96b0.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/72/3723e32a-10ca-11e8-9bbc-2bfc5816b24e/5a82f6b7d16c5.image.jpg?resize=760%2C570",
+      "publishedAt": "2018-02-13T14:27:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "San Benito woman killed in Sunday night crash",
+      "description": "Alcohol may have played a role in a crash in which a 22-year-old San Benito woman was killed after driving head-on into an oncoming car, sending three people to the hospital.",
+      "url": "http://www.themonitor.com/news/local/article_541926c0-a793-11e7-9705-9342b827ab25.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/4a/64a229c6-80cf-11e4-8fac-43852d59d82a/5488e9f785f07.image.jpg?resize=571%2C429",
+      "publishedAt": "2017-10-02T17:01:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "STAFF REPORT",
+      "title": "DPS investigating fatal two-car crash on F.M. 1425 in Mercedes",
+      "description": "The Texas Department of Public Safety is investigating a fatal two-car crash that occurred Wednesday morning in Mercedes.",
+      "url": "https://www.themonitor.com/news/local/article_1046825a-6f14-11e8-961c-d787f6c4f846.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/4b/d4b4f19e-9902-11e4-8af9-a3c6e0ab9d72/54b18451e97b0.image.jpg?resize=571%2C429",
+      "publishedAt": "2018-06-13T14:14:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "DIANA EVA MALDONADO | STAFF WRITER",
+      "title": "Children critically hurt when car strikes Harlingen home",
+      "description": "A number of children were hurt Thursday night when a car slammed into the front yard of a Harlingen home.",
+      "url": "http://www.themonitor.com/news/local/article_328a1b2a-3444-11e8-b250-ab803e5ed8db.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/6/4a/64a28dd6-3444-11e8-82ce-af4a2b1626b6/5abe7bb184925.image.jpg?resize=300%2C223",
+      "publishedAt": "2018-03-30T18:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "RAUL GARCIA | STAFF WRITER",
+      "title": "Hit-and-run suspect has DWI rap sheet",
+      "description": "MERCEDES — The man accused of leaving one woman dead and three children in critical condition after a hit-and-run crash in Mercedes has a rap sheet of DWIs dating back 17 years.",
+      "url": "http://www.themonitor.com/news/local/article_5e987d2a-559a-11e8-9e18-4b288b9fac6b.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/6c/96c70136-0190-51a0-87ff-edf79afed236/5af6690b5d0df.image.jpg?resize=549%2C630",
+      "publishedAt": "2018-05-12T04:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "FERNANDO DEL VALLE | STAFF WRITER",
+      "title": "Raymondville Police seeking hit-and-run suspect",
+      "description": "RAYMONDVILLE — Police have a suspect in the hit-and-run accident that critically injured a cyclist.",
+      "url": "http://www.themonitor.com/news/local/article_97543446-d44a-11e7-9baf-03dae253778d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/custom/image/63d4e448-c8f9-11e5-a9d3-ef190d0e9873.jpg?_dc=1454340915",
+      "publishedAt": "2017-11-28T14:44:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Border Patrol, healthcare workers discuss checkpoint protocol for EMS transports",
+      "description": "EDINBURG — Ten thousand vehicles pass through the Falfurrias checkpoint every day, most of them personal vehicles, commuter buses and commercial tractor trailers. While not as common, ambulances also pass through to transport patients to higher-level care fac…",
+      "url": "http://www.themonitor.com/news/immigration/article_f6418bd2-5b10-11e8-9fa1-cb8dc765d59a.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/c8/ec817402-d882-11e6-89e7-2fcb0cb45ee2/58770bf8668ef.image.jpg?resize=1003%2C566",
+      "publishedAt": "2018-05-19T03:11:00Z"
+    }
+  ],
+  "status": "ok"
+}

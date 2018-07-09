@@ -1,1 +1,54 @@
-{"status":"ok","totalResults":4,"articles":[{"source":{"id":null,"name":"Themonitor.com"},"author":"MOLLY SMITH | STAFF WRITER","title":"Woman attempts to cross bridge with $20,000 of cocaine","description":"HIDALGO — U.S. Customs and Border Protection officers arrested a U.S. citizen Monday attempting to enter Texas with more than 2 pounds of cocaine concealed on her body.","url":"http://www.themonitor.com/news/local/article_dbd824be-cb0e-11e7-8a69-931a067a36d4.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/3e/d3ed3490-fdee-11e5-ad5a-bbc4329c51c3/570854e106931.image.jpg?resize=300%2C203","publishedAt":"2017-11-16T20:43:00Z"},{"source":{"id":null,"name":"Themonitor.com"},"author":"MOLLY SMITH | STAFF WRITER","title":"More sexual abuse charges pending against former bus driver","description":"The Hidalgo County Sheriff’s Office confirmed Tuesday it is investigating additional child sexual abuse cases involving a former charter school bus driver.","url":"http://www.themonitor.com/news/local/article_dfbf8d7e-58b7-11e8-a0c4-2fe3def1c3ec.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/0/b7/0b7afcf0-58b8-11e8-b9a8-77ce8e588b28/5afba3828a41a.image.jpg?resize=200%2C251","publishedAt":"2018-05-16T03:28:00Z"},{"source":{"id":null,"name":"Themonitor.com"},"author":"BERENICE GARCIA | STAFF WRITER Follow @Berenice__G !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'ht","title":"Federal judge again denies bond for indicted doctor","description":"McALLEN — Jorge Zamora-Quezada, the doctor facing federal charges of healthcare fraud, was again held without bond Tuesday, a decision his defense attorney quipped is usually reserved for the likes of drug lords.","url":"http://www.themonitor.com/news/local/article_c2cd857c-63bb-11e8-9490-ff0f9e4b1f98.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/e5/ee55e236-5d6a-11e8-8fce-dbbba8bf24f2/5b03859de679f.image.jpg?resize=887%2C630","publishedAt":"2018-05-30T03:44:00Z"},{"source":{"id":null,"name":"Themonitor.com"},"author":"BY BERENICE GARCIA | STAFF WRITER","title":"Embattled doctor’s son: No-bond left patients in limbo","description":"EDINBURG — Posted on the front door of the Arthritis & Osteoporosis Centers here is a sign asking patients to show their support for Jorge Zamora-Quezada, the rheumatologist who was arrested last month on charges of healthcare fraud.","url":"https://www.themonitor.com/news/local/article_99bcc5ac-704b-11e8-a9a9-175be71ec08d.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/ae/eae21638-57f7-11e8-8169-674607669c06/5afa613701973.image.jpg?resize=882%2C630","publishedAt":"2018-06-15T03:24:00Z"}]}
+{
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "Woman attempts to cross bridge with $20,000 of cocaine",
+      "description": "HIDALGO — U.S. Customs and Border Protection officers arrested a U.S. citizen Monday attempting to enter Texas with more than 2 pounds of cocaine concealed on her body.",
+      "url": "http://www.themonitor.com/news/local/article_dbd824be-cb0e-11e7-8a69-931a067a36d4.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/d/3e/d3ed3490-fdee-11e5-ad5a-bbc4329c51c3/570854e106931.image.jpg?resize=300%2C203",
+      "publishedAt": "2017-11-16T20:43:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MOLLY SMITH | STAFF WRITER",
+      "title": "More sexual abuse charges pending against former bus driver",
+      "description": "The Hidalgo County Sheriff’s Office confirmed Tuesday it is investigating additional child sexual abuse cases involving a former charter school bus driver.",
+      "url": "http://www.themonitor.com/news/local/article_dfbf8d7e-58b7-11e8-a0c4-2fe3def1c3ec.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/0/b7/0b7afcf0-58b8-11e8-b9a8-77ce8e588b28/5afba3828a41a.image.jpg?resize=200%2C251",
+      "publishedAt": "2018-05-16T03:28:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BERENICE GARCIA | STAFF WRITER Follow @Berenice__G !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'ht",
+      "title": "Federal judge again denies bond for indicted doctor",
+      "description": "McALLEN — Jorge Zamora-Quezada, the doctor facing federal charges of healthcare fraud, was again held without bond Tuesday, a decision his defense attorney quipped is usually reserved for the likes of drug lords.",
+      "url": "http://www.themonitor.com/news/local/article_c2cd857c-63bb-11e8-9490-ff0f9e4b1f98.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/e5/ee55e236-5d6a-11e8-8fce-dbbba8bf24f2/5b03859de679f.image.jpg?resize=887%2C630",
+      "publishedAt": "2018-05-30T03:44:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "BY BERENICE GARCIA | STAFF WRITER",
+      "title": "Embattled doctor’s son: No-bond left patients in limbo",
+      "description": "EDINBURG — Posted on the front door of the Arthritis & Osteoporosis Centers here is a sign asking patients to show their support for Jorge Zamora-Quezada, the rheumatologist who was arrested last month on charges of healthcare fraud.",
+      "url": "https://www.themonitor.com/news/local/article_99bcc5ac-704b-11e8-a9a9-175be71ec08d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/e/ae/eae21638-57f7-11e8-8169-674607669c06/5afa613701973.image.jpg?resize=882%2C630",
+      "publishedAt": "2018-06-15T03:24:00Z"
+    }
+  ],
+  "status": "ok"
+}

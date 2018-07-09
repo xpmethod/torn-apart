@@ -1,1 +1,42 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Omaha.com"
+      },
+      "author": "By Paul Hammel World-Herald Bureau",
+      "title": "Turnover at Nebraska prisons increases to 34 percent, despite state's efforts",
+      "description": "Turnover for such workers rose to the highest in recent memory, 34 percent, up from 31 percent in 2016. Overtime expenses are also on pace to eclipse the $9.3 million spent during the 2016-17 fiscal year.",
+      "url": "http://www.omaha.com/news/nebraska/turnover-at-nebraska-prisons-increases-to-percent-despite-state-s/article_c82b7da7-97dc-5a2c-9caf-6e0b60322f0f.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/4/59/459caaad-11b1-5021-bc69-0a6d2183222a/5a9b50f388c5a.image.jpg?crop=1567%2C1175%2C98%2C0&resize=840%2C630&order=crop%2Cresize",
+      "publishedAt": "2018-03-06T06:00:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Omaha.com"
+      },
+      "author": null,
+      "title": "20180217_new_briefs_merged",
+      "description": "Metro area",
+      "url": "http://www.omaha.com/news/new-briefs-merged/article_4a154e87-70f4-5a60-9f82-952b508d10a8.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/7/f3/7f33bbf1-2513-5a0f-864c-08ad4f1fb462/5a8748d115581.image.jpg?crop=451%2C338%2C74%2C0&resize=451%2C338&order=crop%2Cresize",
+      "publishedAt": "2018-02-16T21:02:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Omaha.com"
+      },
+      "author": "By Brad Dickson / World-Herald columnist",
+      "title": "Breaking Brad: World-Herald finalizes plans for Scott Frost keepsake edition",
+      "description": "A large photo of Scott Frost appeared on The World Herald’s front page Thursday. For those keeping track, I believe the president and governor appeared on pages 3 and 8, respectively.",
+      "url": "http://www.omaha.com/columnists/dickson/breaking-brad-world-herald-finalizes-plans-for-scott-frost-keepsake/article_e639ec24-cbab-11e7-8590-9b461e60e28d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/2/81/281a04d2-cbb9-11e7-83c6-c39e76fe3596/59d25bb169a5b.image.jpg?crop=1079%2C809%2C60%2C0&resize=840%2C630&order=crop%2Cresize",
+      "publishedAt": "2017-11-17T15:45:00Z"
+    }
+  ],
+  "status": "ok"
+}

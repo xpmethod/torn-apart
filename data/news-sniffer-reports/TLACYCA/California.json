@@ -1,1 +1,18 @@
-{"status":"ok","totalResults":1,"articles":[{"source":{"id":null,"name":"Latimes.com"},"author":"Brittny Mejia","title":"It's not just criminals — ICE is nabbing lawful permanent residents too","description":"Legal immigrants in the U.S. have never been completely protected from being targeted for possible deportation. But in its war against illegal immigration, the Trump administration has lowered the bar for who immigration agents can go after, experts say.","url":"http://www.latimes.com/local/lanow/la-me-ln-lawful-resident-20180628-htmlstory.html","urlToImage":"http://www.latimes.com/resizer/mT-0zN59rnB7iiSiDJ6nFnAWNhc=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/27ZMUWTQDZEY7NYN7XAA2NDASQ.jpg","publishedAt":"2018-06-28T11:00:00Z"}]}
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Brittny Mejia",
+      "title": "It's not just criminals — ICE is nabbing lawful permanent residents too",
+      "description": "Legal immigrants in the U.S. have never been completely protected from being targeted for possible deportation. But in its war against illegal immigration, the Trump administration has lowered the bar for who immigration agents can go after, experts say.",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-lawful-resident-20180628-htmlstory.html",
+      "urlToImage": "http://www.latimes.com/resizer/mT-0zN59rnB7iiSiDJ6nFnAWNhc=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/27ZMUWTQDZEY7NYN7XAA2NDASQ.jpg",
+      "publishedAt": "2018-06-28T11:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

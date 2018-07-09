@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":3,"articles":[{"source":{"id":null,"name":"Ajc.com"},"author":"Ben Brasch","title":"Girlfriend burns down home because man went to see another woman...","description":"A woman was in Cobb County jail Tuesday morning for allegedly burning down a house because a man went to see another woman. Earnica Lowe, 32, faces a felony arson count after Cobb fire investigators say she lit the home on fire June 18.","url":"https://www.ajc.com/news/local/cobb-fire-woman-burns-down-home-because-man-went-see-another-woman/D7atxQtN2au9X873OUxbQI/","urlToImage":"https://www.ajc.com/rf/image_large/Pub/p9/AJC/2018/07/03/Videos/4430139.vpx.jpg","publishedAt":"2018-07-03T20:19:37Z"},{"source":{"id":null,"name":"Ajc.com"},"author":"Zachary Hansen","title":"Former NBA player charged for home invasion...","description":"A former NBA player who went to high school in Cobb County was arrested Friday night in connection w...","url":"https://www.ajc.com/news/crime--law/former-nba-player-charged-with-armed-robbery-coweta-county/RKsjSFosvDioSvzq2AkqzO/","urlToImage":"https://www.ajc.com/rf/image_large/Pub/p9/AJC/2018/06/16/Videos/4417850.vpx.jpg","publishedAt":"2018-06-17T10:16:30Z"},{"source":{"id":null,"name":"Ajc.com"},"author":"Fleming Smith","title":"Ex-NBA player stole $100000, assaulted teen during home invasion, officials say - Atlanta Journal Constitution","description":"Atlanta Journal Constitution Ex-NBA player stole $100000, assaulted teen during home invasion, officials say Atlanta Journal Constitution A former NBA player who went to high school in Cobb County stole $100,000 during a violent Coweta County home invasion an…","url":"https://www.ajc.com/news/breaking-news/new-details-nba-player-stole-100-000-assaulted-teen-during-home-invasion/BXuwYRb48gYgW7aUcU1ubJ/","urlToImage":"https://www.ajc.com/rf/image_large/Pub/p9/MyAJC/2018/06/18/Images/jj%20hickson_cropped.PNG","publishedAt":"2018-06-18T18:14:24Z"}]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Ajc.com"
+      },
+      "author": "Zachary Hansen",
+      "title": "Former NBA player charged for home invasion...",
+      "description": "A former NBA player who went to high school in Cobb County was arrested Friday night in connection w...",
+      "url": "https://www.ajc.com/news/crime--law/former-nba-player-charged-with-armed-robbery-coweta-county/RKsjSFosvDioSvzq2AkqzO/",
+      "urlToImage": "https://www.ajc.com/rf/image_large/Pub/p9/AJC/2018/06/16/Videos/4417850.vpx.jpg",
+      "publishedAt": "2018-06-17T10:16:30Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ajc.com"
+      },
+      "author": "Fleming Smith",
+      "title": "Ex-NBA player stole $100000, assaulted teen during home invasion, officials say - Atlanta Journal Constitution",
+      "description": "Atlanta Journal Constitution Ex-NBA player stole $100000, assaulted teen during home invasion, officials say Atlanta Journal Constitution A former NBA player who went to high school in Cobb County stole $100,000 during a violent Coweta County home invasion an…",
+      "url": "https://www.ajc.com/news/breaking-news/new-details-nba-player-stole-100-000-assaulted-teen-during-home-invasion/BXuwYRb48gYgW7aUcU1ubJ/",
+      "urlToImage": "https://www.ajc.com/rf/image_large/Pub/p9/MyAJC/2018/06/18/Images/jj%20hickson_cropped.PNG",
+      "publishedAt": "2018-06-18T18:14:24Z"
+    }
+  ],
+  "status": "ok"
+}

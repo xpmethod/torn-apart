@@ -1,1 +1,138 @@
-{"status":"ok","totalResults":0,"articles":[]}
+{
+  "totalResults": 11,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kate Morrissey",
+      "title": "Operator moves to expand detention center for migrants in San Diego County",
+      "description": "A contractor working for private prison company CoreCivic has applied for construction permits to expand Otay Mesa Detention Center in southern San Diego County, which houses immigrants awaiting court proceedings. The plans would add 512 beds to the facility …",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-detention-center-expansion-20180624-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/EDJE4JbxF0CPxIDg7b8Q9PPxjdY=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/S3NV7LAI5RBD7PNORLSRCKI2VQ.jpg",
+      "publishedAt": "2018-06-24T19:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kate Morrissey",
+      "title": "Poor medical care led to deaths at immigration detention facilities, advocates' report alleges",
+      "description": "Inadequate medical care probably contributed to the majority of deaths of detainees at U.S. immigration facilities between December 2015 and April 2017, according to a new report issued by a coalition of advocacy organizations. Substandard medical care contri…",
+      "url": "http://www.latimes.com/local/lanow/la-me-migrant-deaths-20180620-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/7T-BJAkH0qGm7FgJ49g9FOgP80I=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/WCZHWLQ6G5DXDBQP434A2WDCSU.jpg",
+      "publishedAt": "2018-06-20T17:05:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "The Times Editorial Board",
+      "title": "Separating children and parents at the border is cruel and unnecessary",
+      "description": "The Trump administration has shown that it’s willing — eager, actually — to go to great lengths to limit illegal immigration into the United States, from building a multi-billion-dollar border wall with Mexico to escalated roundups that grab those living here…",
+      "url": "http://www.latimes.com/opinion/editorials/la-ed-immigrants-border-asylum-ice-201802305-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/fH-Nmr8eeFcrjHzQcJZ9dcjt288=/1200x0/www.trbimg.com/img-5a99b6e8/turbine/la-ed-immigrants-border-asylum-ice-201802305",
+      "publishedAt": "2018-03-05T12:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Melissa Etehad",
+      "title": "Complaint alleges harm to pregnant women in immigration detention centers",
+      "description": "When Jennye Pagoada Lopez arrived at the U.S. border post of San Ysidro in July seeking political asylum, she showed agents ultrasound images of her pregnancy and told them she was bleeding and needed immediate medical attention. But instead of taking her to …",
+      "url": "http://www.latimes.com/nation/la-na-pregnant-women-ice-20170928-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59cdb452/turbine/la-na-pregnant-women-ice-20170928",
+      "publishedAt": "2017-09-29T02:45:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kate Morrissey",
+      "title": "ICE more likely to detain pregnant women with immigration cases under new policy",
+      "description": "Pregnant women who have cases in immigration court are more likely to be detained following a policy change announced Thursday by Immigration and Customs Enforcement. Under the old policy, unless there were extraordinary circumstances or a mandatory detention…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ice-pregnant-20180330-story.html",
+      "urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+      "publishedAt": "2018-03-30T14:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kate Morrissey",
+      "title": "ICE more likely to detain pregnant women with immigration cases under new policy",
+      "description": "Pregnant women who have cases in immigration court are more likely to be detained following a policy change announced Thursday by Immigration and Customs Enforcement. Under the old policy, unless there were extraordinary circumstances or a mandatory detention…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ice-pregnant-20180330-story.html",
+      "urlToImage": "/pb/resources/assets/img/fallback-promo-image.png?token=false",
+      "publishedAt": "2018-03-30T14:15:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Gustavo Solis and David Hernandez",
+      "title": "About a third of caravan migrants enter U.S., but 'we won’t be happy until the last one of us gets through'",
+      "description": "Spirits were high Wednesday as more members of the Central American caravan — about one-third of the roughly 150 who made the trek — entered the United States. But as their monthlong journey to the United States comes to an end, those seeking asylum are prepa…",
+      "url": "http://www.latimes.com/local/lanow/la-me-caravan-mexico-20180503-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/53FLCdSOZ6yQ5RoKkK3s1FiBAos=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/2ER2DYE3WJCTBEBZQZE2LFR3AE.jpg",
+      "publishedAt": "2018-05-03T14:10:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Kate Morrissey",
+      "title": "Migrants from Central American caravan face a long road to asylum in U.S.",
+      "description": "A caravan of asylum seekers from Central America made it to the California border Sunday. Here’s a look at what’s ahead for them: What do we know about this caravan? At its largest, the caravan reportedly numbered about 1,200 people, mostly from Central Ameri…",
+      "url": "http://www.latimes.com/local/lanow/la-me-caravanqa-20180429-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/w_I9VicV1qnXEGQPjz6RacGPEzg=/1200x0/www.trbimg.com/img-5ae6482c/turbine/la-me-caravanqa-20180429",
+      "publishedAt": "2018-04-29T22:30:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Richard Marosi",
+      "title": "What family separation looks like: Guatemalan man is deported, while his 6-year-old daughter remains behind in New York City",
+      "description": "Six weeks ago Nazario Jacinto-Carrillo left his village in Guatemala with his 6-year-old daughter, Filemona, to seek asylum in the United States, but his plan went awry soon after illegally crossing the California border. U.S. Border Patrol agents, he said, t…",
+      "url": "http://www.latimes.com/nation/immigration/la-me-ln-guatemalan-family-separation-20180621-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/e78rFmzoq1qdW68wMh079GWHc_8=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/IDYBC6UMABGJHOYFFX7GCUYMLM.jpg",
+      "publishedAt": "2018-06-21T22:55:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Variety.com"
+      },
+      "author": "Brian Steinberg",
+      "title": "TV Anchors Fight to Stay Objective in Coverage of Family Separation at Border",
+      "description": "Gayle King hadn’t planned on traveling to Texas any time soon. But late last week she made a point of ensuring that “CBS This Morning” was prepared to cover a heart-wrenching story unfolding along the border between Texas and Mexico. After reading several acc…",
+      "url": "https://variety.com/2018/tv/news/family-separation-at-border-tv-coverage-gayle-king-lester-holt-1202851098/",
+      "urlToImage": "https://pmcvariety.files.wordpress.com/2018/06/gayle.jpg?w=700&h=393&crop=1",
+      "publishedAt": "2018-06-19T21:55:57Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Benjamin Oreskes, Shelby Grad",
+      "title": "Essential California: An agonizing decision for asylum seekers",
+      "description": "Good morning, and welcome to the Essential California newsletter. It’s Monday, June 25, and here’s what’s happening across California: TOP STORIES At dozens of temporary shelters lining the U.S.-Mexico border in Tijuana, hundreds of asylum seekers fleeing vio…",
+      "url": "http://www.latimes.com/newsletters/la-me-ln-essential-california-20180624-story.html",
+      "urlToImage": "http://www.latimes.com/resizer/9N5s9P8uDNFsNiS70T8QjOB8KC0=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/XPX4YPFX4NEMBLKRRRIYA4ZSTM.jpg",
+      "publishedAt": "2018-06-25T12:30:00Z"
+    }
+  ],
+  "status": "ok"
+}

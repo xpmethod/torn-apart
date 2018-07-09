@@ -1,1 +1,30 @@
-{"status":"ok","totalResults":3,"articles":[{"source":{"id":null,"name":"Naplesnews.com"},"author":"Naples Daily News, Naples Daily News","title":"Hurricane Irma: Hospital linked to nursing-home deaths was paid $48M to care for Florida prisoners","description":"Despite governor's claim the owner of a nursing home where 11 people died shouldn't have access to patients, his hospital cares for state prisoners.","url":"http://www.naplesnews.com/story/news/politics/2017/09/26/nursing-home-deaths-owner-paid-23-2-million-state-prisoner-health/704040001","urlToImage":"https://www.gannett-cdn.com/-mm-/a36f9ba96a033998ca9e03fc9e114794a173de6d/c=0-0-2996-1693&r=x803&c=1600x800/local/-/media/2017/09/26/USATODAY/USATODAY/636420454367122951-090217-NDN-Scott-Flood-02.jpg","publishedAt":"2017-09-26T22:22:15Z"},{"source":{"id":null,"name":"Orlandosentinel.com"},"author":"Naseem S. Miller","title":"Florida Hospital campuses get 'A' from group that grades patient safety - Orlando Sentinel","description":"Orlando Sentinel Florida Hospital campuses get 'A' from group that grades patient safety Orlando Sentinel Florida Hospital campuses in Orlando once again received straight A's from a national group that regularly evaluates and grades hospitals for patient saf…","url":"http://www.orlandosentinel.com/get-healthy-orlando/os-leapfrog-safety-score-2018-story.html","urlToImage":"http://www.trbimg.com/img-5adfc2c5/turbine/os-leapfrog-safety-score-2018","publishedAt":"2018-04-25T10:00:54Z"},{"source":{"id":null,"name":"Orlandosentinel.com"},"author":"Tallahassee Bureau","title":"Report: Gov. Scott deleted nursing home voicemails ahead of deaths - Orlando Sentinel","description":"Orlando Sentinel Report: Gov. Scott deleted nursing home voicemails ahead of deaths Orlando Sentinel Frustrated by the lack of attention that nursing home staff were paying to her 79-year-old mother during an air-conditioning outage in the aftermath of Hurric…","url":"http://www.orlandosentinel.com/news/politics/political-pulse/os-gov-scott-deleted-voice-mails-20170925-story.html","urlToImage":"http://www.trbimg.com/img-59c914ea/turbine/os-gov-scott-deleted-voice-mails-20170925","publishedAt":"2017-09-25T14:36:20Z"}]}
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Orlandosentinel.com"
+      },
+      "author": "Naseem S. Miller",
+      "title": "Florida Hospital campuses get 'A' from group that grades patient safety - Orlando Sentinel",
+      "description": "Orlando Sentinel Florida Hospital campuses get 'A' from group that grades patient safety Orlando Sentinel Florida Hospital campuses in Orlando once again received straight A's from a national group that regularly evaluates and grades hospitals for patient saf…",
+      "url": "http://www.orlandosentinel.com/get-healthy-orlando/os-leapfrog-safety-score-2018-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5adfc2c5/turbine/os-leapfrog-safety-score-2018",
+      "publishedAt": "2018-04-25T10:00:54Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Orlandosentinel.com"
+      },
+      "author": "Tallahassee Bureau",
+      "title": "Report: Gov. Scott deleted nursing home voicemails ahead of deaths - Orlando Sentinel",
+      "description": "Orlando Sentinel Report: Gov. Scott deleted nursing home voicemails ahead of deaths Orlando Sentinel Frustrated by the lack of attention that nursing home staff were paying to her 79-year-old mother during an air-conditioning outage in the aftermath of Hurric…",
+      "url": "http://www.orlandosentinel.com/news/politics/political-pulse/os-gov-scott-deleted-voice-mails-20170925-story.html",
+      "urlToImage": "http://www.trbimg.com/img-59c914ea/turbine/os-gov-scott-deleted-voice-mails-20170925",
+      "publishedAt": "2017-09-25T14:36:20Z"
+    }
+  ],
+  "status": "ok"
+}

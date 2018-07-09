@@ -18,12 +18,7 @@ export default function(){
     parse(data, { columns: true }, (err, facilities) => {
       if (err) throw err;
       // iterate over the list of facilities
-      // facilities.map( facility => {
-      const facility = {
-        "State": "MA",
-        "Name": "BRISTOL COUNTY DETENTION CENTER",
-        "DETLOC": "BRINDMA"
-      };
+      facilities.map( facility => {
         // skip the facility if it doesn't have a state attached to it.
         if (facility["State"]){
           const stateName = states().filter(state => state.abbreviation === facility["State"])[0].name;
@@ -71,7 +66,7 @@ export default function(){
             });
           });
         }
-      // }); // Closes facilities .map();
+      }); // Closes facilities .map();
     });
   });
 }

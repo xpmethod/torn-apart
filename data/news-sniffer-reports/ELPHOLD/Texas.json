@@ -1,1 +1,42 @@
-{"status":"ok","totalResults":4,"articles":[{"source":{"id":null,"name":"Dallasobserver.com"},"author":"Christian McPhate","title":"Steven Apilado's Parents Shielded Their Mentally Ill Son From the Law — Until He Murdered One of Them","description":"Steven Apilado says he dreamed of Mister Rogers when he shot and killed his father two days after Thanksgiving in 2015. The dream, Apilado later told detectives, was like a TV commercial in which someone had thrown a tomato at Mister Rogers’ face. “I guess th…","url":"http://www.dallasobserver.com/news/steven-apilado-was-violent-and-mentally-ill-when-his-parents-bought-him-the-gun-he-turned-on-them-10043627","urlToImage":"https://images1.dallasobserver.com/imager/u/original/10044085/110117_ed_steele_dallas_observer_mental_health_story_christi.jpg","publishedAt":"2017-11-07T10:00:00Z"},{"source":{"id":null,"name":"Themonitor.com"},"author":"MITCHELL FERMAN | STAFF WRITER Follow @mitchellferman !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');","title":"Democratic Senate hopeful O’Rourke talks issues and his campaign challenging Ted Cruz","description":"McALLEN — Ten months from the 2018 midterm elections, Democratic Senate hopeful and U.S. Rep. Beto O’Rourke, D-El Paso, has been holding town halls across the state, hoping to hit all 254 Texas counties.","url":"http://www.themonitor.com/news/local/article_b9cdcdfe-f8e2-11e7-9995-6b52df725758.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/a0/7a0c4858-759d-11e7-8254-8f4ac5487ebd/597e9f7dd38a3.image.jpg?resize=933%2C630","publishedAt":"2018-01-14T16:23:00Z"},{"source":{"id":null,"name":"Themonitor.com"},"author":"MITCHELL FERMAN | STAFF WRITER Follow @mitchellferman !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');","title":"Democratic Senate hopeful stumps across Rio Grande Valley","description":"MISSION — The senate candidate climbed onto the back of a John Deere Gator utility vehicle, crossed his legs and soon saw the start of federal construction he had no idea existed.","url":"http://www.themonitor.com/news/local/article_4417e4a8-f362-11e7-9998-efbeeec75730.html","urlToImage":"https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/17/917c4810-f362-11e7-a466-c33dd49b4d40/5a51a0d920820.image.jpg?resize=868%2C630","publishedAt":"2018-01-07T04:21:00Z"},{"source":{"id":null,"name":"Chron.com"},"author":"Keri Blakinger","title":"'See y'all on the other side': San Antonio lovers' lane killer executed amid claims of innocence - Chron.com","description":"Chron.com 'See y'all on the other side': San Antonio lovers' lane killer executed amid claims of innocence Chron.com HUNTSVILLE - After three canceled death dates in one year, lovers' lane killer Juan Castillo was executed Wednesday night after years of prote…","url":"https://www.chron.com/news/houston-texas/article/San-Antonio-lovers-lane-killer-scheduled-for-12918627.php","urlToImage":"https://s.hdnux.com/photos/73/27/33/15562441/3/rawImage.jpg","publishedAt":"2018-05-16T19:45:00Z"}]}
+{
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MITCHELL FERMAN | STAFF WRITER Follow @mitchellferman !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Democratic Senate hopeful O’Rourke talks issues and his campaign challenging Ted Cruz",
+      "description": "McALLEN — Ten months from the 2018 midterm elections, Democratic Senate hopeful and U.S. Rep. Beto O’Rourke, D-El Paso, has been holding town halls across the state, hoping to hit all 254 Texas counties.",
+      "url": "http://www.themonitor.com/news/local/article_b9cdcdfe-f8e2-11e7-9995-6b52df725758.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/7/a0/7a0c4858-759d-11e7-8254-8f4ac5487ebd/597e9f7dd38a3.image.jpg?resize=933%2C630",
+      "publishedAt": "2018-01-14T16:23:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MITCHELL FERMAN | STAFF WRITER Follow @mitchellferman !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Democratic Senate hopeful stumps across Rio Grande Valley",
+      "description": "MISSION — The senate candidate climbed onto the back of a John Deere Gator utility vehicle, crossed his legs and soon saw the start of federal construction he had no idea existed.",
+      "url": "http://www.themonitor.com/news/local/article_4417e4a8-f362-11e7-9998-efbeeec75730.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/17/917c4810-f362-11e7-a466-c33dd49b4d40/5a51a0d920820.image.jpg?resize=868%2C630",
+      "publishedAt": "2018-01-07T04:21:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Chron.com"
+      },
+      "author": "Keri Blakinger",
+      "title": "'See y'all on the other side': San Antonio lovers' lane killer executed amid claims of innocence - Chron.com",
+      "description": "Chron.com 'See y'all on the other side': San Antonio lovers' lane killer executed amid claims of innocence Chron.com HUNTSVILLE - After three canceled death dates in one year, lovers' lane killer Juan Castillo was executed Wednesday night after years of prote…",
+      "url": "https://www.chron.com/news/houston-texas/article/San-Antonio-lovers-lane-killer-scheduled-for-12918627.php",
+      "urlToImage": "https://s.hdnux.com/photos/73/27/33/15562441/3/rawImage.jpg",
+      "publishedAt": "2018-05-16T19:45:00Z"
+    }
+  ],
+  "status": "ok"
+}
