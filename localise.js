@@ -1,3 +1,5 @@
+//for now this file assumes you have a single results file in the same directory, specifically California.json
+
 
 
 var fs = require('fs');
@@ -22,21 +24,8 @@ fs.readFile('data/news-sources-by-state.json', 'utf8', function (err, data) {
 	};
 
 		var obj;
-		const mainFolder = 'data/news-sniffer-reports/';
-		
-		fs.readdir(mainFolder, (err, files) => {
-			files.forEach(file => {
-			
-			
-		var readFileString = file + '/everything.json';
-		console.log(readFileString);
-		fs.readFile(readFileString, 'utf8', function (err, data) {//going to need to do this for every file in the folder tree, and in my case they will be called "everything.json"
-		if (err) 
-		{
-			throw err;
-		}
-		else
-		{
+		fs.readFile('data/news-sniffer-reports/TELLECO/Colorado.json', 'utf8', function (err, data) {//going to need to do this for every file in the folder tree, and in my case they will be called "everything.json"
+		if (err) throw err;
 		obj = JSON.parse(data);
 		var resultsnumber = obj.totalResults;
 		var sourcesArray = obj.articles;
@@ -62,8 +51,7 @@ fs.readFile('data/news-sources-by-state.json', 'utf8', function (err, data) {
 		results = results + "\n" +  resultsArray[item][0] + ", " + JSON.stringify(resultsArray[item][1]);
 	}
 	
-	
-		fs.open("localised.csv", 'a+', function(err, data) {
+		fs.open("localised.csv", 'w+', function(err, data) {
 		if (err) {
 			console.log("ERROR !! " + err);
 				} else {
@@ -76,10 +64,6 @@ fs.readFile('data/news-sources-by-state.json', 'utf8', function (err, data) {
 						});
 					}
 		});
-		}
-		}
-			}); //end foreach
-	}) // end readdir callback
-	
+		
 	}); 
 });
