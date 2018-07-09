@@ -1,6 +1,4 @@
-//for now this file assumes you have a single results file in the same directory, specifically California.json
 
-//BUG: it is saving everything four times somewhere. I don't know where this bug is. Probably somewhere I am looping through something I don't need to.
 
 var fs = require('fs');
 
@@ -12,7 +10,7 @@ var notLocalised = [];
 var newsStatesArray = [];
 
 //put the json news sources in reverse order so can look up url and get state
-fs.readFile('news-sources-by-state.json', 'utf8', function (err, data) {
+fs.readFile('data/news-sources-by-state.json', 'utf8', function (err, data) {
 	if (err) throw err;
 	var newsSources = JSON.parse(data);
 	for (var key in newsSources) {
@@ -24,12 +22,25 @@ fs.readFile('news-sources-by-state.json', 'utf8', function (err, data) {
 	};
 
 		var obj;
-		fs.readFile('California.json', 'utf8', function (err, data) {//going to need to do this for every file in the folder tree, and in my case they will be called "everything.json"
-		if (err) throw err;
+		const mainFolder = 'data/news-sniffer-reports/';
+		
+		fs.readdir(mainFolder, (err, files) => {
+			files.forEach(file => {
+			
+			
+		var readFileString = file + '/everything.json';
+		console.log(readFileString);
+		fs.readFile(readFileString, 'utf8', function (err, data) {//going to need to do this for every file in the folder tree, and in my case they will be called "everything.json"
+		if (err) 
+		{
+			throw err;
+		}
+		else
+		{
 		obj = JSON.parse(data);
 		var resultsnumber = obj.totalResults;
 		var sourcesArray = obj.articles;
-		for (var i = 0; i<resultsnumber; i++){
+		for (var i = 0; i<sourcesArray.length; i++){
 			
 			var resultsURL = sourcesArray[i].url; // get the url for each story in the json file
 			
@@ -51,7 +62,8 @@ fs.readFile('news-sources-by-state.json', 'utf8', function (err, data) {
 		results = results + "\n" +  resultsArray[item][0] + ", " + JSON.stringify(resultsArray[item][1]);
 	}
 	
-		fs.open("\localised.csv", 'w+', function(err, data) {
+	
+		fs.open("localised.csv", 'a+', function(err, data) {
 		if (err) {
 			console.log("ERROR !! " + err);
 				} else {
@@ -64,6 +76,10 @@ fs.readFile('news-sources-by-state.json', 'utf8', function (err, data) {
 						});
 					}
 		});
-		
+		}
+		}
+			}); //end foreach
+	}) // end readdir callback
+	
 	}); 
 });
