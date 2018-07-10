@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "torn-apart",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,5 +8,27 @@
   "dependencies": {
     "csv-parse": "^2.5.0",
     "newsapi": "^2.2.2"
-  }
+  },
+  "description": "Please see [our site](http://xpmethod.plaintext.in/torn-apart/) for a thorough discussion of what our project and its goals are. This README is here more just to satisfy people curious as to how this was all technically done.",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpmethod/torn-apart.git"
+  },
+  "keywords": [
+    "immigration",
+    "immigration-visualizer",
+    "digital-humanities",
+    "mapping"
+  ],
+  "author": "Moacir P. de Sá Pereira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xpmethod/torn-apart/issues"
+  },
+  "homepage": "https://github.com/xpmethod/torn-apart#readme"
 }
