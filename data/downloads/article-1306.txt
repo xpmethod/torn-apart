@@ -1,0 +1,230 @@
+Sign up for the For The Win daily email newsletter for the top stories every day.
+
+
+			Thanks for signing up.
+			You'll be waking up a little more awesome tomorrow.		
+
+
+			Something went wrong.		
+
+
+
+	By Ted Berg 
+		October 3, 2017 9:32 am
+
+	
+	
+					
+				
+					Follow					@ogtedberg				
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			
+		
+	
+
+
+		By: Ted Berg		| October 3, 2017 9:32 am		
+							
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+										
+	
+		Follow @ogtedberg	
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+					
+	
+
+One season after ending their 108-year title drought, the Chicago Cubs will begin postseason play on Friday in Washington for an NLDS set against the Nationals. 
+
+This year’s version of the team hardly dominated throughout the regular season like the 2016 club did, but the outcomes of short series between good baseball teams are often dictated as much by good fortune as by good play. The Cubs will not enjoy home-field advantage this October unless they face a wild-card winner in the NLCS or the World Series, but outside of that small disadvantage, they’ve got about as good a chance as any team to take home championship rings. 
+
+Here are five keys for the Chicago Cubs to win the World Series:
+
+(AP Photo/Gene J. Puskar)
+
+Given the abundance of youth on their roster and the breadth of their 2016 success, the Cubs endured a frustrating regular season. They used almost the exact same starting rotation that performed as the best in the Majors last season, but saw inconsistent results — especially from veterans Jon Lester and John Lackey. Rough offensive seasons from Ben Zobrist and Addison Russell and an ice-cold start from Kyle Schwarber opened a few more holes in their lineup than they ever showed last season. Every time it felt like the Cubs were ready to pull away in the NL Central, they stumbled.
+
+But after the Cubs lost their third straight to the Milwaukee Brewers on Sept. 10 — their sixth loss in eight games, the team finally found the gas pedal and floored it in a three-game trashing of the New York Mets. They scored 39 runs in that series to kick off a 15-3 stretch that finally secured the division title. 
+
+Is it better to enter a postseason like the Cubs, riding whatever momentum comes with playing well and winning a surprisingly competitive division, or like the Nationals, who finished 20 games ahead of the pack in the NL East and had time to lighten workloads on their starting rotation and rest regulars to prep for October? Hindsight will reward one or the other, but the truth is impossible to distinguish from the randomness that dominates baseball. Nonetheless, the Cubs enter October after playing their best baseball to finish out the regular season, and continuing to play their best baseball would obviously help them effort another deep postseason run. 
+
+(Charles LeClaire/USA TODAY Sports)
+
+Here’s an odd fact: The 2017 Cubs became only the 11th team in history to use as many as 11 position players for at least 110 games apiece. They go to 11! It’s only happened twice before since 2000: The injury-ravaged Cardinals did it last year, and the platoon-heavy Phillies did it in their 2008 championship season.
+
+Joe Maddon negotiated a crowd all season, but more off days and more urgency mean he will need to make some tough lineup decisions this month. Maddon’s reputed for his creativity, and the Cubs hardly seem likely to trot out the same eight position players for every game of the playoffs. But the 2016 World Series MVP, Ben Zobrist, had a miserable offensive season in 2017. Are the Cubs better off with Zobrist in left field against righties, or do they take the risks associated with Kyle Schwarber’s defense on behalf of a bat that produced a .903 OPS from July forward? Would they rather have the superior offensive combo of Ian Happ and Javier Baez at second base and shortstop, respectively, or the better defensive set with Baez at second and Russell at short?
+
+Outside of Kris Bryant, Happ, Baez, Schwarber and outfielder Albert Almora were the Cubs’ biggest offensive contributors in September. Maddon will need to decide between the hot hands and some better known quantities to get the most out of his roster. 
+
+Jake Arrieta (Photo by Jon Durr/Getty Images)
+
+After a lousy first half of the season, the 2015 NL Cy Young Award got his second half off to a spectacular start before suffering a hamstring injury in his first start of September. Arrieta returned to action in late September but threw only eight innings across two starts and admitted the leg issue is still affecting him. He will throw Wednesday before the Cubs announce their NLDS rotation. Everything we know about Arrieta suggests he will wrestle an actual bear if that’s what it takes to prove himself ready, and his health represents a big factor in the Cubs’ postseason outlook. 
+
+A rotation of Kyle Hendricks, Jose Quintana, Jon Lester and one of John Lackey and Mike Montgomery is hardly unfit to compete. But up against a strong offense like the Nationals’, the Cubs — stop me if this take is too hot — would be best served having their four best starting pitchers healthy. 
+
+Quintana, incidentally, should finally get his chance to shine on a big stage. One of the most underrated pitchers in baseball for years, the July acquisition will look to become the first native Colombian to pitch in the World Series, and the first player from his country to appear in the fall classic since Edgar Renteria’s MVP performance for the 2010 Giants. 
+
+Carl Edwards Jr. (Charles LeClaire/USA TODAY Sports)
+
+While Maddon’s Cubs famously walked Bryce Harper 13 times in a four-game set last May — purportedly messing with the young slugger’s head in the process — the Nationals’ lineup features far fewer holes this year. Chicago has some great arms in its bullpen, but there are moderate to massive walk rates all over the relief corps. No bullpen walked a higher percentage of batters in 2017, and some of the biggest culprits — like primary setup men Carl Edwards Jr. and Pedro Strop and closer Wade Davis — will be the same ones the Cubs call on the most in the postseason. 
+
+All three of those pitchers did a great job limiting hits in the regular season, mitigating the damage done by free passes. But the control issues are the main thing keeping the Cubs’ bullpen a notch below the best of the best in this postseason, and this homer-heavy era in baseball means a couple of late walks could get real costly real quick.
+
+ Pretty cool night IMO
+
+A post shared by  Ted  Berg (@ogtedberg) on Oct 21, 2015 at 11:36pm PDT
+
+Last year’s Cubs won a championship for the fans who’d suffered for more than a century, eradicating the Curse of the Billy Goat and exonerating Steve Bartman. Now that all that is covered, this year’s Cubs should try to win one last championship for the Taco Bell across the street from Wrigley Field. It’s set to be demolished next summer to make way for something that will inevitably be dumber and significantly likely to serve me tacos in the middle of the night after covering a Cubs postseason game. 
+
+I have been to the Wrigleyville Taco Bell at least four times, meaning it is probably the Taco Bell I have visited the second most while traveling, just behind the Taco Bell right across the street from Kauffman Stadium in Kansas City. Obviously I have been to my local Taco Bells more than either, but the Taco Bell near Wrigley Field is nonetheless a special place where I have eaten tacos and it will be sad to see it go. After an NLCS game last year I had a brief but thrilling conversation about Fire Sauce with a very drunk lady. 
+
+Also: Maybe in celebration of its final postseason in the shadow of Wrigley Field, that Taco Bell should serve goat for the length of the Cubs’ playoff run. Jerk Goat Gordita Supreme? I’d get down on that. You have my info, Taco Bell. 
+
+Chicago, Chicago Cubs, Jake Arrieta, Kris Bryant, MLB Postseason Previews, morning win, MLB
+
+
+		Ted Berg is FTW's lead baseball and Taco Bell writer. He lives in New York City, where Darryl Strawberry once bought him a sandwich. 	
+
+
+			
+				Phil Hellmuth and Phil Ivey both eliminated from World Series of Poker Main Event			
+		
+
+
+			
+				What's the #InMyFeelingsChallenge Odell Beckham Jr. and Russell Wilson have participated in?			
+		
+
+
+			
+				How Kelly Slater took surfing out of the ocean and onto dry land			
+		
+
+
+												July 9, 2018 9:43 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Worth it.  
+
+
+												July 9, 2018 8:26 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Rob Lowe can do it all.  
+
+
+												July 9, 2018 6:28 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Relatable.  
+
+
+												July 9, 2018 5:59 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+His mother died in June.  
+
+
+												July 9, 2018 5:47 pm 
+						·
+						
+							Ted Berg													
+					
+
+The sandwich is named for young goat, but it features no goat.  
+
+
+												July 9, 2018 5:12 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Just cruel.  
+
+
+												July 9, 2018 3:56 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Insane.  
+
+
+												July 9, 2018 3:36 pm 
+						·
+						
+							Charles Curtis													
+					
+
+Football’s coming home! 
+
+
+												July 9, 2018 2:15 pm 
+						·
+						
+							Steven Ruiz													
+					
+
+Five years ago today, the last of EA Sports’ NCAA Football series was released.  
+
+
+												July 9, 2018 12:44 pm 
+						·
+						
+							Steven Ruiz													
+					
+
+The Alabama alum has earned the right to talk trash about other SEC schools.  
+
+
+					Thanks for signing up.
+					You'll be waking up a little more awesome tomorrow.
+				
+
+
+					Something went wrong.
+				
+
+Rays fan faceplants on the field after leaping out of the stands for a foul ball
+
+Justin Verlander points out obvious flaw in All-Star selection process
+
+Mike Trout Monday: Mike Trout is the 6th player in MLB history to be a 7-time All-Star at his age
+
+
+		
+			
+		
+	
+
+
+			Powered by WordPress.com VIP		
+
+
+		
+			Show More Information		
+		
+	
+
+How will Joe Maddon negotiate a crowded roster of position players? 
