@@ -17,7 +17,7 @@ fs.readFile('../data/facilities-for-news-sniffing.csv', function(err, data) {
 	
 	var i;
 	var DETLOC = "";
-	for (i=1;i<output.length; i++) //change this to first 200 detention centres to avoid rate-limiting
+	for (i=200;i<output.length; i++) //change this to first 200 detention centres to avoid rate-limiting
 	{
 		
 		DETLOC = output[i][0];
