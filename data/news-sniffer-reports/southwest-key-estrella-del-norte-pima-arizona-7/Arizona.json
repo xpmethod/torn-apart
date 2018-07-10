@@ -1,0 +1,18 @@
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Azcentral.com"
+      },
+      "author": "Arizona Republic, Rachel Leingang, Arizona Republic",
+      "title": "Meet the man who says he made Trump overturn family separation policy",
+      "description": "People shared Antar Davidson's story as an example of the harm caused by Trump's zero tolerance policy that led to separating children from parents.",
+      "url": "https://www.azcentral.com/story/news/politics/immigration/2018/06/21/immigrant-shelter-worker-antar-davidson-saw-effects-family-separation-first-hand/720462002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/581841430c6ceab62aad91a49b47b140be4e887e/c=0-264-5184-3193&r=x1683&c=3200x1680/local/-/media/2018/06/21/Phoenix/Phoenix/636651375613468855--E1-2960.jpg",
+      "publishedAt": "2018-06-21T15:32:44Z"
+    }
+  ],
+  "status": "ok"
+}

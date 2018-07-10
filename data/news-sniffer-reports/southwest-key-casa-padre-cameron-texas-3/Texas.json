@@ -1,0 +1,30 @@
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Mysanantonio.com"
+      },
+      "author": "Aaron Nelsen, Allie Morris",
+      "title": "Immigrant children's shelter opens doors after protests - mySanAntonio.com",
+      "description": "mySanAntonio.com Immigrant children's shelter opens doors after protests mySanAntonio.com BROWNSVILLE — Following a week of speculation about the treatment of immigrant children kept behind the windowless walls of the largest shelter for minors in the nation,…",
+      "url": "https://www.mysanantonio.com/news/local/article/Immigrant-children-s-shelter-opens-doors-after-12992642.php",
+      "urlToImage": "https://s.hdnux.com/photos/73/75/51/15718995/5/rawImage.jpg",
+      "publishedAt": "2018-06-14T02:38:57Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MARK REAGAN | STAFF WRITER",
+      "title": "New York Woman, son make trek to Casa Presidente",
+      "description": "BROWNSVILLE - Ashley Casale and her 7-year-old son, Gabriel, drove nearly 2,000 miles after the school year ended last Friday in New York to the Rio Grande Valley to see for herself the impact of President Donald Trump’s zero-tolerance policy…",
+      "url": "https://www.themonitor.com/news/local/article_d0b9e63a-7c11-11e8-96e9-8f06e807d015.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/3/ed/3edff5ec-96d0-501b-84d1-f102fd432e2b/5b2981709ed95.image.jpg?resize=400%2C300",
+      "publishedAt": "2018-06-30T03:15:00Z"
+    }
+  ],
+  "status": "ok"
+}
