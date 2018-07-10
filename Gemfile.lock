@@ -5,7 +5,6 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
-    csv (3.0.0)
     dotenv (2.4.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -65,7 +64,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  csv
   dotenv
   httparty
   jekyll

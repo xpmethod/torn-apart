@@ -1,0 +1,234 @@
+
+
+    
+        
+        
+    
+                        
+                                                                                                                                                                                                                
+                                                                                                                                                                            
+    
+                                
+                																									
+																																																																						
+																																																																																																																																  
+                                            
+                                               
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        
+                                                                        
+                                                                
+                                        
+                                                        
+                    
+                                                                
+                                
+                                            
+            
+
+                                                                                                                                                                                                
+                        
+                                                                                                                                                                                                                                                                                
+            
+            
+            
+                        
+            
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                    
+                                                                                                                    
+                                    
+                                                                                        
+            
+                        
+                        
+                        
+                        
+                        
+                                    
+                    
+                                
+                                
+        
+                                                                                                                                                                                                                        
+            
+                                
+                                            
+                                                        
+                    
+                                                                                                                                    
+                                
+                                                                                                        
+            
+                                
+                                
+
+                        
+    
+    
+            
+    
+    
+        
+    
+                                                                                                        
+        
+    
+    
+        
+                
+        
+    
+        
+                    
+            PMNdataLayer = [{"analytics":{"Sub-Sub Section":"","timesincepublish":"10518065","hidetags":"false","source":"Inquirer and Daily News","updatedDate":"2018-03-10T20:35:00-04:00","Article_Length_Label":"long","title":"Tighter security planned at Harrisburg Capitol after Miccarelli protection order","type":"Article","primarysegment":"news","weekendplanner":false,"chartbeatdate":"March 10 2018 8:00 PM EST","Omniture_Section":"news","Channel_omniture":"philly:news","id":"UA-1605085-6","Hierarchy_omniture":"philly,news,index","chartbeatpath":"/philly/news/tighter-security-planned-at-harrisburg-capitol-following-miccarelli-protection-order-20180310.html","generatedsegment":"news","contentid":"476468373","Pagename_omniture":"article: news: Tighter security planned at Harrisburg Capitol after Miccarelli protection order - 03/10/2018","published":"201803102035","version":"11","sections":"news/politics|news/politics/state|hp/news_top|news/breaking","originalTitle":"Tighter security planned at Harrisburg Capitol following Miccarelli protection order","parselydomain":"philly.com","publishedDate":"2018-03-10T20:35:56-04:00","Sub-Section":"news","authors":"Angela Couloumbis|Brad Bumsted|Paula Knudsen"}}];
+        
+        
+        
+    
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','PMNdataLayer','GTM-PMVLLW');
+    
+
+    !function(d,e){window.addEventListener('load',function(){if(!window.noBlocker&&!window.google_tag_manager){for(var t=new XMLHttpRequest,n=(new Date).getTime()+Math.floor(1e8*Math.random()),o='ab_gc=',a=document.cookie.split(';'),i=0;i
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"headline": "Tighter security planned at Harrisburg Capitol after Miccarelli protection order",
+"url": "http://www.philly.com/philly/news/tighter-security-planned-at-harrisburg-capitol-following-miccarelli-protection-order-20180310.html",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "http://www.philly.com/philly/news/tighter-security-planned-at-harrisburg-capitol-following-miccarelli-protection-order-20180310.html"
+ },
+"thumbnailUrl": "http://media.philly.com/images/dixon-415374-f-wp-content-uploads-2018-03-1049911_1e97dba2425ed75-e1520729691854-1200x799.jpg",
+"image": "http://media.philly.com/images/dixon-415374-f-wp-content-uploads-2018-03-1049911_1e97dba2425ed75-e1520729691854-1200x799.jpg",
+"dateCreated": "2018-03-11T01:35:56Z",
+"datePublished": "2018-03-11T01:35:56Z",
+"dateModified": "2018-03-10T20:35:00-04:00",
+"articleSection": "news",
+"creator": [ "Angela Couloumbis","Brad Bumsted","Paula Knudsen" ],
+"author": [ "Angela Couloumbis","Brad Bumsted","Paula Knudsen" ],
+"keywords": [ "news/politics","news/politics/state","hp/news_top","news/breaking","content/fromclicka","source/inquirer-and-daily-news-staff","476468373","content/long","content/hasimage" ],
+"publisher": {
+    "@type": "Organization",
+    "name": "Philly.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://media.philly.com/designimages/phillydotcom-logo-dark.png",
+      "width": "300px",
+      "height": "60px"
+    }
+  },
+"identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "articleID",
+ "value": "476468373"
+ }
+}
+
+
+
+var _vwo_code=(function(){
+var account_id=303812,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+
+
+                        var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; 
+-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=476468373";_q+="&7=165761";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')
+
+
+
+The Pennsylvania House of Representatives will return to session Monday amid tighter security after a lawmaker, alleging she was stalked and threatened, obtained a restraining order against a fellow member of the chamber last week.
+
+The protection-from-abuse order against embattled Rep. Nick Miccarelli states that the Delaware County Republican shall be “evicted and excluded” from any location at which his accuser, Rep. Tarah Toohil, works or lives. Miccarelli is also prohibited from having any contact with the Luzerne County Republican.
+
+Whether that means Miccarelli will be prevented from returning to the Capitol building for the House’s first session day in more than a month is unclear. That apparently will be a moot point.
+
+Miccarelli’s spokesman, Frank Keel, issued a statement Saturday saying the lawmaker from Ridley Park will not be at the Capitol on Monday but will be in his district office.
+
+“He will not willingly submit to the ‘Jerry Springer’ environment his accusers wish to create in Harrisburg,” Keel said in the statement.  Miccarelli, who has maintained his innocence, could not be reached for comment.
+
+Authorities in the General Assembly have never had to protect one member from another. But officials for the Republican Caucus and the governor’s office said enhanced security measures would be in place.
+
+“House security with Capitol Police are working to ensure the safety of members and staff on the floor, and the public, members and staff in the Capitol building,” said Stephen Miskin, a spokesman for the House Republicans.
+
+Capitol authorities are trying to determine how to enforce the terms of the restraining order, a source with knowledge of security measures in the building said. The source spoke on the condition he not be identified because he did not have authorization to speak about the matter to the news media.
+
+The source predicted House lawyers would seek guidance from the judge who signed the order on how much physical distance is required between Toohil and Miccarelli.
+
+      AP 
+State Rep. Tarah Toohil has accused Miccarelli of brandishing a gun and threatening to kill them both when they dated in 2012.
+
+
+In her application for the restraining order, Toohil alleged Miccarelli, a former boyfriend, threatened to kill her when they dated and stalked her on the floor of the House. She also stated that Miccarelli was “obsessed” with the on-camera suicide of State Treasurer Budd Dwyer, who shot himself at a news conference in 1989 as he was facing sentencing on corruption charges, shocking a roomful of journalists and Pennsylvanians who were watching live on television.
+
+As he has in the past, Keel on Saturday characterized Toohil’s request for a restraining order against Miccarelli as being part of a “well-orchestrated smear campaign.”
+
+“Furthermore, the temporary PFA order is expansive, unprecedented and unwarranted,” Keel said. “It was pushed through by Toohil without all the facts and without affording Nick the opportunity to be heard. He looks forward to being able to tell his side of the story and present the actual facts to the judge this Thursday.” Details were not immediately available Saturday, but that presumably is a reference to a hearing to determine whether the protection order should be made permanent.
+
+Noting Miccarelli’s 18-year military service, including in the Iraq war, Keel’s statement contends the veteran is “now being deprived of his rights to defend himself and could lose everything based on nothing more than baseless allegations.” He called Toohil’s claims that Miccarelli was “obsessed” with the Dwyer suicide “a disgusting lie” that “demonstrates the ruthless attack he is facing.”
+
+Luzerne County Judge Michael Vough signed Toohil’s application Friday and issued a temporary restraining order against Miccarelli. The order states that violations could result in charges of indirect criminal contempt, which carry a maximum penalty of $1,000 in fines and six months in jail.
+
+The order does not address specifically whether Miccarelli is permitted to enter the Capitol complex; he and Toohil work in separate wings of the building. The judge’s order states that the “defendant shall be evicted and excluded from the residence at: anywhere plaintiff resides or works.”
+
+On Friday, Toohil revealed in a public statement issued through her attorney that she was one of the two women who filed a confidential complaint with the House alleging sexual or physical assault by Miccarelli. The Inquirer and Daily News and the Caucus, a publication of LNP Media Group, first reported on the complaint in February.
+
+In that complaint, Toohil alleges Miccarelli kicked, pinched, or hit her when the two dated in 2012, including at legislative events they attended. And she described him wielding a gun during an argument while driving at high speed. The second woman, a private consultant who has not made her name public, accused Miccarelli of forcing her to have sex after they stopped dating in 2014.
+
+The allegations are under review by the Dauphin County District Attorney’s Office and House GOP lawyers.
+
+Toohil alleged in the restraining-order petition filed Friday that Miccarelli physically assaulted her and threatened to shoot her. “In 2012, [the] defendant pointed his gun at me threatening to kill me and himself,” Toohil wrote. In 2011 and 2012, he “hit, pinched, kicked me [and] verbally abused me.”
+
+The petition also alleged Miccarelli had been “stalking and staring at her” and “finding ways to physically intimidate” Toohil on the House floor. “He stands close to my desk on the House floor,” she wrote, adding that Miccarelli “walks by my office when there are other ways to go.”
+
+Toohil also alleged that Miccarelli has carried a gun on the House floor and that he was “obsessed with violence and firearms.” At least a dozen members carry firearms on the floor, according to an investigation by the Caucus last month. House Speaker Mike Turzai, (R., Allegheny) has said there is no House rule against it.
+
+The Luzerne County judge’s restraining order includes a provision that Miccarelli must relinquish any guns within 24 hours of being served with a copy of the order. It was unknown if Miccarelli had been served Saturday.
+
+Earlier this month, Miccarelli was stripped of his security privileges and his parking spot was moved from a basement garage to outside of the Capitol building. He must now enter through public doors with metal detectors, sources say.
+
+Gov. Wolf’s press secretary, J.J. Abbott, said the Capitol Police and Pennsylvania State Police were taking “every precaution to protect the people who visit, work, and serve in our Capitol complex.”
+
+Abbott repeated Wolf’s call, issued last month, for Miccarelli to resign.
+
+“No person, especially any victim of his abuse, should fear for their safety because he still holds the office that he has disgraced,” Abbott said.
+
+House Republican leaders have also called on Miccarelli to resign.
+
+
+                    
+
+
+
+                    
+
+
+
+                    
+                        
+                            Show all
+                            ▾
+                        
+                    
+                
+
+© Copyright 2018 Philadelphia Media Network (Digital), LLC Terms of Use &amp; Privacy Policy
