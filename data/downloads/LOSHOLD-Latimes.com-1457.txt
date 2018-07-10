@@ -1,0 +1,53 @@
+The Supreme Court is set to decide whether corporate whistle-blowers are protected from being fired if they disclose wrongdoing to company officials rather than to the Securities and Exchange Commission.
+
+At issue in the case to be argued Tuesday is the scope of the Dodd-Frank Wall Street Reform Act, which aimed to encourage whistle-blowers and prevent the kind of retaliation seen against those who tried to sound an alarm at Lehman Bros. and other firms that collapsed during the Great Recession.
+
+But it is unclear that the law does as much as its sponsors and supporters assumed. It faces a stiff challenge based on “textualism,” the approach that has won favor with most of the justices, and none more so than new Justice Neil M. Gorsuch. He has repeatedly declared his devotion to deciding cases based on the text of the law, not its broader purpose.
+
+Although the 2010 law clearly says companies may be sued if they “discharge [or] demote” employees for disclosing wrongdoing, it separately defines a whistle-blower as an “individual who provides information … to the commission.”
+
+The question is now whether that narrow definition excludes those who step forward to expose potential frauds by reporting them internally, rather to the SEC.
+
+And if a company quickly fires such an employee — before a report is made to the SEC — is the whistle-blower left unprotected by the Dodd-Frank law?
+
+Gorsuch gave the keynote address this month at the conservative Federalist Society’s annual meeting and credited the late Justice Antonin Scalia with winning over most of the justices to the view that they should focus narrowly on the words of the law.
+
+“Textualism has triumphed,” Gorsuch proclaimed, and it is not “going anywhere on my watch.… The duty of a judge is to say what the law is, not what it should be.”
+
+The case — Digital Realty Trust vs. Somers — highlights the clash between two ways of interpreting a federal law.
+
+Three years ago, Paul Somers was a vice president and portfolio manager working in Singapore for a real estate trust based in San Francisco. He said the business in Asia was booming, but he became concerned that his supervisor was cutting corners, including hiding a $7-million cost overrun on a project in Hong Kong.
+
+He decided to report his concerns to the company’s top executives in San Francisco. “I didn’t want to go to the SEC. I loved my company and my job, and I wanted to resolve this discreetly inside the company,” he said in an interview. The company’s code of conduct also required employees to report suspected wrongdoing within the company, he said.
+
+But a few weeks after he sent his memo, Somers was told he had been terminated. “It was a strange situation, and I never got to the bottom of it,” he said.
+
+He filed a wrongful termination suit in federal court in San Francisco, alleging he had been fired in retaliation for disclosing wrongdoing in violation of the Dodd-Frank Act. He relied on one provision that broadly protects employees “in making disclosures” of potential violations of “any other law, rule or regulation” enforced by the SEC.
+
+The law authorizes double back pay for employees who are fired in retaliation for disclosing violations.
+
+But lawyers for Digital Realty said his suit should be dismissed because he did not qualify as a protected whistle-blower, citing the strict definition.
+
+U.S. District Judge Edward Chen denied the motion. He said it was a close case because different provisions of the law were in conflict, but he deferred to the SEC, which said internal whistle-blowers were protected.
+
+Digital Realty appealed, but in March, the U.S. 9th Circuit Court of Appeals, in a 2-1 decision, cleared the suit to proceed. Judge Mary Schroeder pointed to the provision that broadly protected employees who disclose violations. “In view of that language, and the overall operation of the statute, we conclude that the SEC regulation correctly reflects congressional intent to provide protection for those who make internal disclosures as well as to those who make disclosures to the SEC.”
+
+Lawyers for Digital Realty appealed to the Supreme Court, arguing this broad view of the law would open the door for disgruntled employees to rush to federal court.
+
+The company said in a statement it appealed the case “to bring clarity to an important legal issue that affects employers and employees.” It said employees who lodge internal complaints have some protection against retaliation under Sarbannes-Oxley Act if they file a complaint with the Labor Department within 180 days.
+
+In late June, the justices voted to hear the appeal.
+
+Washington lawyer Kannon Shanmugam, a former clerk for Justice Scalia, represents Digital Realty and emphasized that the Dodd-Frank law as written did not protect insiders who did not disclose violations to the SEC. “This case turns on a principle of statutory interpretation so self-evident it hardly needs stating: When a statute includes an express definition of a term, courts and agencies may not invent a different definition,” he said.
+
+The Trump administration’s Solicitor Gen. Noel Francisco and Sen. Charles E. Grassley (R-Iowa), co-author of the whistle-blower provisions, filed briefs on Somers’ side, arguing the 2010 law was intended to broadly protect company insiders who disclose wrongdoing.
+
+Legal experts say a win for Digital Realty may hurt both whistle-blowers and their companies.
+
+“The vast majority of whistle-blowers report internally. If you can fire people for going to their supervisor or their auditors or to the board of directors, it would have a devastating impact,” said Stephen Kohn, a Washington lawyer and executive director of the National Whistleblower Center.
+
+Claire Sylvia, a San Francisco lawyer who represents whistle-blowers, said companies in 2010 urged the SEC to encourage internal disclosures. “The broader implication of this case is that if people can be fired for reporting internally, they would have an incentive to go directly to the SEC,” she said. “That’s the opposite of what was discussed in 2010.”
+
+Michael Celio, a corporate defense lawyer in San Francisco, said the SEC is likely to lose in the Supreme Court, but he too is wary about the outcome.
+
+“Given Justice Gorsuch’s position, they may say the SEC got this wrong,” he said. “But the danger is this would give people an incentive to go the SEC rather than to someone in their company. That’s the bad news. Every company wants people to report internally so they can fix things quickly.”

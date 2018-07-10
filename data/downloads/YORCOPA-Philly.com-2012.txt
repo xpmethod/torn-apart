@@ -1,0 +1,263 @@
+
+
+    
+        
+        
+    
+                        
+                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    
+    
+                                
+                																									
+																										
+																																																																																																																																  						   
+                                            
+                                               
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                        
+                                                                        
+                                                                
+                                        
+                                                        
+                    
+                                                                
+                                
+                                            
+            
+
+                                                                                                                                                                                                                                                        
+                        
+                                                                                                                                                                                                                                                                                                                                                        
+            
+            
+            
+                        
+            
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                    
+                                                                                                                    
+                                    
+                                                                                        
+            
+                        
+                        
+                        
+                                    
+                        
+                                    
+                    
+                                
+                                
+        
+                                                                                                                                                                                                                                                                                                                                                        
+            
+                                
+                                            
+                                                        
+                    
+                                                                                                                                                                                                                                            
+                    
+                                                                                                        
+            
+                                
+                                
+
+                        
+    
+    
+            
+    
+    
+        
+    
+                                                                                                        
+        
+    
+    
+        
+                
+        
+    
+        
+                    
+            PMNdataLayer = [{"analytics":{"Sub-Sub Section":"","timesincepublish":"6127896","hidetags":"false","source":"Inquirer and Daily News","updatedDate":"2018-04-30T17:27:00-04:00","Article_Length_Label":"long","title":"Bill Cosby jurors speak out; Cosby compares himself to Nelson Mandela","type":"Article","primarysegment":"news","weekendplanner":false,"chartbeatdate":"April 30 2018 5:00 PM EDT","Omniture_Section":"news","Channel_omniture":"philly:news:cosby","id":"UA-1605085-6","Hierarchy_omniture":"philly,news,cosby,index","chartbeatpath":"/philly/news/cosby/bill-cosby-juror-quaaludes-own-words-guilty-20180430.html","generatedsegment":"news","contentid":"481222851","Pagename_omniture":"article: news: Bill Cosby jurors speak out; Cosby compares himself to Nelson Mandela - 04/30/2018","published":"201804301704","version":"42","sections":"news/cosby|/archive/jeremy_roebuck|/archive/laura_mccrystal|news/breaking|news/pennsylvania|hp/news_top","originalTitle":"Cosby juror: I was convinced by comedy icon's deposition","parselydomain":"philly.com","publishedDate":"2018-04-30T17:04:54-04:00","Sub-Section":"cosby","authors":"Jeremy Roebuck|Laura McCrystal|Justine McDaniel"}}];
+        
+        
+        
+    
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','PMNdataLayer','GTM-PMVLLW');
+    
+
+    !function(d,e){window.addEventListener('load',function(){if(!window.noBlocker&&!window.google_tag_manager){for(var t=new XMLHttpRequest,n=(new Date).getTime()+Math.floor(1e8*Math.random()),o='ab_gc=',a=document.cookie.split(';'),i=0;i
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"headline": "Bill Cosby jurors speak out; Cosby compares himself to Nelson Mandela",
+"url": "http://www.philly.com/philly/news/cosby/bill-cosby-juror-quaaludes-own-words-guilty-20180430.html",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "http://www.philly.com/philly/news/cosby/bill-cosby-juror-quaaludes-own-words-guilty-20180430.html"
+ },
+"thumbnailUrl": "http://media.philly.com/images/dixon-493602-f-wp-content-uploads-2018-04-1131338_c62f0e5cc8852f8-1-e1525086672911-1200x800.jpg",
+"image": "http://media.philly.com/images/dixon-493602-f-wp-content-uploads-2018-04-1131338_c62f0e5cc8852f8-1-e1525086672911-1200x800.jpg",
+"dateCreated": "2018-04-30T21:04:54Z",
+"datePublished": "2018-04-30T21:04:54Z",
+"dateModified": "2018-04-30T17:27:00-04:00",
+"articleSection": "news",
+"creator": [ "Jeremy Roebuck","Laura McCrystal","Justine McDaniel" ],
+"author": [ "Jeremy Roebuck","Laura McCrystal","Justine McDaniel" ],
+"keywords": [ "news/cosby","/archive/jeremy_roebuck","/archive/laura_mccrystal","news/breaking","news/pennsylvania","hp/news_top","content/fromclicka","source/inquirer-and-daily-news-staff","content/hastwitter","481222851","content/long","content/hasimage" ],
+"publisher": {
+    "@type": "Organization",
+    "name": "Philly.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://media.philly.com/designimages/phillydotcom-logo-dark.png",
+      "width": "300px",
+      "height": "60px"
+    }
+  },
+"identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "articleID",
+ "value": "481222851"
+ }
+}
+
+
+
+var _vwo_code=(function(){
+var account_id=303812,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+
+
+                        var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; 
+-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=481222851";_q+="&7=3038351";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')
+
+
+
+&amp;nbsp
+
+ 
+
+Jeremy Roebuck covers federal courts and law enforcement.
+
+&amp;nbsp
+
+ 
+
+Laura McCrystal covers everything about taxes, government revenue, and how such policies impact people in Philadelphia and beyond. She previously covered news in Montgomery County, including Bill Cosby's trial.
+
+&amp;nbsp
+
+ 
+
+Justine McDaniel covers vices on the policy and solutions team, writing about topics such as gambling, liquor control, marijuana legalization, and opioid policy. 
+
+Speaking publicly for the first time, the jurors who convicted Bill Cosby last week said Monday that they were not swayed by celebrity, race, or the #MeToo movement in finding the comedy icon guilty of sexual assault charges.
+
+In a statement issued on behalf of all the jurors, the forewoman said she and her fellow panel members reached their verdict Thursday only after “thoughtful and meticulous consideration” of the evidence they saw and heard over nearly three weeks in the courtroom and that they stood by their decision to convict Cosby for his 2004 assault of Andrea Constand with “100 percent conviction.”
+
+“Our decision was not influenced in any way by factors other than what we heard and saw in the courtroom,” said the statement. “Not once were race or the #MeToo movement ever discussed, nor did either factor into our decision.”
+
+The forewoman did not release her name.
+
+Just one panelist, Harrison Snyder, 22, of Gilbertsville, gave a public interview, telling ABC News that he found Cosby’s own words to be the most damning evidence against him.
+
+“I think it was his deposition, really,” Snyder said in an interview that aired Monday on Good Morning America. “Mr. Cosby admitted to giving these Quaaludes to women — young women – in order to have sex with him.”
+
+ 
+
+
+
+
+.@ABC EXCLUSIVE: Inside the Cosby deliberations.Harrison Snyder, a juror in the trial, speaks out to our @LinseyDavis after last week's verdict: https://t.co/MhqQqcHz0s pic.twitter.com/E6OGrvJ95C
+
+— Good Morning America (@GMA) April 30, 2018
+
+The jurors began speaking out four days after the panel convicted Cosby on three counts of aggravated indecent assault, setting him up for a sentencing hearing within the next 90 days that could send him to prison for the rest of his life.
+
+Judge Steven T. O’Neill has yet to rule on a motion to release a full list of juror names filed on behalf of a coalition of news organizations, including the Philadelphia Media Network, parent company of the Inquirer, the Daily News, and Philly.com. The judge released such a list after Cosby’s first trial, which ended in a hung jury and a mistrial in June. He has scheduled a hearing for Tuesday afternoon to consider whether to do so again.
+
+Cosby, meanwhile, remained confined to his Cheltenham Township home under orders from O’Neill to wear a GPS ankle monitor and to seek permission to travel to medical appointments and meetings with his lawyers.
+
+Although his spokesman has compared last week’s verdict to a “public lynching” and his defense team is vowing to appeal, Cosby — in an interview published over the weekend by PageSix.com, the gossip website of the New York Post – said he is already mentally preparing for prison.
+
+He likened himself to Nelson Mandela, the South African protest leader who was jailed for nearly three decades for his opposition to his nation’s apartheid policies and who went on to be elected president after his release.
+
+“This is what they wanted,” Cosby said of his own conviction. Of Mandela, whom he and his wife, Camille, visited in prison in the ’80s, Cosby added: “I sat in that cell where he lived, and I saw how he lived … what he had to eat to live and what he went through. So if they send me to that place, then that’s what they will do, and I will have to go there.”
+
+The jury forewoman’s statement — first reported Monday by NBC News — did not identify any jurors by name. But another member of the panel reached Monday by the Inquirer and Daily News said that the statement was meant to speak on their behalf and that they all had agreed not to speak to the media directly. In it, the jurors said that Cosby’s future weighed heavily on their minds throughout their deliberations.
+
+&gt;&gt;&gt;&gt;Read more: The Bill Cosby jury explains its guilty verdict&gt;&gt;&gt;&gt;
+
+“Each of us spoke of the weight of our responsibility,” the forewoman wrote. “We understood the consequences to human lives, to an American icon, and to all who are victims and we knew we needed to be comfortable with our decisions in order to sleep at night with clear consciences. Each of us is walking away with that sense of peace, knowing we performed our duty in the manner it deserved.”
+
+For his part, Snyder, the Gilbertsville man, said that before he was selected for the jury he was only vaguely aware of Cosby’s career and had not heard of the allegations from more than 60 women who have come forward since 2014 to accuse the entertainer of drugging and sexually assaulting them in incidents dating back decades.
+
+He was also unaware of #MeToo, the cultural movement that has brought down the likes of Hollywood producer Harvey Weinstein and media figures such as the Today show’s Matt Lauer with accounts of alleged sexual improprieties, he said.
+
+“I don’t watch the news ever,” he told Good Morning America. “I didn’t even know what he was on trial for.”
+
+He added: “I never watched The Cosby Show or anything. I’m a little too young for that.”
+
+Snyder said he was not necessarily set on a guilty verdict when he and his fellow jurors began deliberations Wednesday, but quickly came around once he and the others began reviewing the evidence. Although he said he believed the five other Cosby accusers who testified at the trial — including supermodel and reality TV staple Janice Dickinson — he added that their accounts did not factor into his decision.
+
+“I don’t really think it necessarily mattered that those five women were there, because [Cosby] said it himself, that he used the drugs for other women,” he said.
+
+Snyder’s focus on Cosby’s 2005 deposition echoed similar statements from some of the jurors in the entertainer’s first trial.
+
+Those jurors also said they had found compelling the sworn testimony Cosby gave in response to a lawsuit Constand filed against him that year, which he later settled for nearly $3.4 million.
+
+In his decade-old testimony, Cosby confirmed much of Constand’s story and referenced his use of drugs in sexual encounters with other women. Prosecutors wielded those words against him during both trials.
+
+But unlike the proceedings last year, with deliberations dragging on for 52 hours in what some jurors described as a tense back-and-forth, Snyder and the jury forewoman’s statement both said Monday that there was no dissension in the jury room this time.
+
+“Simply put, we were asked to assess the credibility of Miss Constand’s account of what happened to her,” the forewoman wrote, “and each one of us found her account credible and compelling.”
+
+Still, the reactions each juror has encountered since returning home from the DoubleTree Hotel in Plymouth Meeting – where they were sequestered for the length of the trial – have not been unanimous, Snyder said.
+
+“Some have said that I made the right decision, and some people have said that they still think [Cosby’s] innocent,” he said. “I just tell them that if you were there, you would say the same thing – that he’s guilty.”
+
+Keep up with every development in Bill Cosby’s case with our day-by-day recaps, timeline, and explainer on everything you need to know about the case and its major players.
+
+Correction: A previous version of this story misstated when Judge O’Neill will convene a hearing on a request to release jurors’ names.  
+
+
+                    
+
+
+
+                    
+
+
+
+                    
+                        
+                            Show all
+                            ▾
+                        
+                    
+                
+
+© Copyright 2018 Philadelphia Media Network (Digital), LLC Terms of Use &amp; Privacy Policy
