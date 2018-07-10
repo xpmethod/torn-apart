@@ -1,0 +1,60 @@
+
+
+JESSICA BIDWELL/STARS AND STRIPES
+											
+									
+
+By ELLEN NAKASHIMA | The Washington Post | Published: December 1, 2017
+
+
+	WASHINGTON — A National Security Agency employee who worked at home without authorization on sensitive hacking tools pleaded guilty Friday to violating the Espionage Act — a security breach that the agency was tipped off to by Israeli cyberspies.
+
+
+	Federal prosecutors said they will seek an eight-year sentence for Nghia Hoang Pho, 67, of Ellicott City, Maryland, for willful detention of classified information.
+
+
+	Pho's case is noteworthy not only because it is one of several significant breaches at the NSA but also because he was using anti-virus software from a Russian firm on his computer - software the agency never deployed on its computers for fear it could enable Russian government spying.
+
+
+	The U.S. government and Congress this year have moved to ban the use of Kaspersky Lab anti-virus products from federal government computers.
+
+
+	Pho, a naturalized citizen, worked as a developer in Tailored Access Operations (TAO), the agency's elite hacking unit, which gathers intelligence by penetrating the computers of foreign governments and other targets overseas.
+
+
+	He held various security clearances, and former officials said he had no malicious intent in working on the tools at home. But the breach violated protocols and conditions for holding a security clearance. According to a court document, from 2010 to March 2015, Pho removed classified material in hard copy and digital form.
+
+
+	"The facts supporting this criminal charge and guilty plea display a total disregard of the defendant's oath and promise to protect our nation's national security," said Stephen Schenning, acting U.S. attorney in Maryland. "Such conduct cannot and will not be tolerated."
+
+
+	Anti-virus software detects malicious code on a system by scanning its contents and can serve as a platform for digital espionage. U.S. officials have said that Kaspersky Lab, by virtue of being located in Moscow, is subject to Russian surveillance.
+
+
+	In a remarkable spy-vs.-spy twist, Israeli government hackers who had compromised Kaspersky's network detected hacking-tool signatures that they recognized as the NSA's. They alerted the agency, which began an investigation code-named Red Magic.
+
+
+	The hunt quickly led to Pho, who was removed from his position in 2015.
+
+
+	In a November investigative report on the incident, Kaspersky Lab said its software had "inadvertently" retrieved the NSA tools because they were contained in a larger file that had NSA code in it that the firm classifies as malicious.
+
+
+	"We deleted those files," the report said, because they were not needed to improve customer security and because of concerns regarding the handling of potentially classified materials.
+
+
+	Last fall, the Justice Department charged another TAO employee, a contractor named Harold Martin III, who had taken classified tools and other material home over several years. Martin was indicted in February on charges of violating the Espionage Act. He has pleaded not guilty.
+
+
+	The two breaches are compounded by the August 2016 release online of a cache of sensitive NSA hacking tools that are similar to those Martin took. The trove was published by a mysterious group calling itself the Shadow Brokers. Investigators suspect the Russian government is behind that release but have not obtained proof.
+
+
+	The agency's loss of control over its sensitive hacking tools has caused great concern at its Fort Meade headquarters, at the Pentagon and in Congress.
+
+
+	The scope of harm in Pho's case is "not theoretical," said Gordon Johnson, special agent in charge of the FBI's Baltimore field office. "It denotes another attack on the bedrock secrecy and discipline required" of those holding security clearances, he said.
+
+
+	Pho is scheduled to be sentenced in April in U.S. district court in Baltimore.
+
+article continues below 

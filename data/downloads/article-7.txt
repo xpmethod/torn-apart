@@ -1,0 +1,212 @@
+
+
+    
+        
+        
+    
+                        
+                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    
+    
+                                
+                																									
+																								
+																																																		  
+                                            
+                                               
+                                                
+                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                     
+                        
+                                                                        
+                                                                
+                                        
+                                                        
+                    
+                                                                
+                                
+                                            
+            
+
+                                                                                            
+                        
+            
+                                                        
+            
+            
+                        
+            
+
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                    
+                                                                                                                    
+                                    
+                                                                                        
+            
+                        
+                        
+                        
+                        
+                        
+                                    
+                    
+                                
+                                
+        
+                                                                                                                                                    
+                        
+                                
+                                            
+                                                        
+                    
+                                                                                                                                                                                                                                            
+                    
+                                                                                                        
+            
+                                
+                                
+
+                        
+    
+    
+            
+    
+    
+        
+    
+                                                                                                        
+        
+    
+    
+        
+                
+        
+    
+        
+                    
+            PMNdataLayer = [{"analytics":{"Sub-Sub Section":"","timesincepublish":"12393830","hidetags":"false","source":"Inquirer and Daily News","updatedDate":"2018-02-16T12:50:52-04:00","Article_Length_Label":"medium","title":"Millennials bear the brunt of Pa. marijuana arrests","type":"Article","primarysegment":"business","weekendplanner":false,"chartbeatdate":"February 16 2018 12:00 PM EST","Omniture_Section":"business","Channel_omniture":"philly:business:cannabis","id":"UA-1605085-6","Hierarchy_omniture":"philly,business,cannabis,index","chartbeatpath":"/philly/business/cannabis/millennials-bear-the-brunt-of-pa-marijuana-arrests-20180216.html","generatedsegment":"None","contentid":"474307283","Pagename_omniture":"article: business: Millennials bear the brunt of Pa. marijuana arrests - 02/16/2018","published":"201802161234","version":"4","sections":"business/cannabis|columnists/philly420","originalTitle":"Millennials bear the brunt of Pa. marijuana arrests","parselydomain":"philly.com","publishedDate":"2018-02-16T12:34:12-04:00","Sub-Section":"cannabis","authors":"CHRIS GOLDSTEIN"}}];
+        
+        
+        
+    
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','PMNdataLayer','GTM-PMVLLW');
+    
+
+    !function(d,e){window.addEventListener('load',function(){if(!window.noBlocker&&!window.google_tag_manager){for(var t=new XMLHttpRequest,n=(new Date).getTime()+Math.floor(1e8*Math.random()),o='ab_gc=',a=document.cookie.split(';'),i=0;i
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"headline": "Millennials bear the brunt of Pa. marijuana arrests",
+"url": "http://www.philly.com/philly/business/cannabis/millennials-bear-the-brunt-of-pa-marijuana-arrests-20180216.html",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "http://www.philly.com/philly/business/cannabis/millennials-bear-the-brunt-of-pa-marijuana-arrests-20180216.html"
+ },
+"thumbnailUrl": "http://media.philly.com/images/dixon-382211-f-wp-content-uploads-2018-02-1031902_bf0ad87f7c40030-e1518802317815-1200x799.jpg",
+"image": "http://media.philly.com/images/dixon-382211-f-wp-content-uploads-2018-02-1031902_bf0ad87f7c40030-e1518802317815-1200x799.jpg",
+"dateCreated": "2018-02-16T17:34:12Z",
+"datePublished": "2018-02-16T17:34:12Z",
+"dateModified": "2018-02-16T12:50:52-04:00",
+"articleSection": "business",
+"creator": [ "CHRIS GOLDSTEIN" ],
+"author": [ "CHRIS GOLDSTEIN" ],
+"keywords": [ "business/cannabis","columnists/philly420","content/fromclicka","source/inquirer-and-daily-news-staff","474307283","content/medium","content/hasimage" ],
+"publisher": {
+    "@type": "Organization",
+    "name": "Philly.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://media.philly.com/designimages/phillydotcom-logo-dark.png",
+      "width": "300px",
+      "height": "60px"
+    }
+  },
+"identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "articleID",
+ "value": "474307283"
+ }
+}
+
+
+
+var _vwo_code=(function(){
+var account_id=303812,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+
+
+                        var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; 
+-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=474307283";_q+="&7=2954761";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')
+
+
+
+Philadelphia is evolving into a safe haven for cannabis consumers even as arrests increase across Pennsylvania. Newly-elected District Attorney Larry Krasner announced Thursday that he would drop any marijuana possession cases brought to the court by police.
+
+A 2014 decriminalization ordinance allowing tickets caused common weed arrests to decline by more than 85 percent.  Still, I reported last year that hundreds of racially disparate cases were still being brought to Philly courts each year for less than 30 grams of buds.
+
+Krasner isn’t the only DA to make such a move: Brooklyn’s Kenneth Thompson dismissed thousands of possession cases, and Kim Ogg in Houston, TX recently stopped charging weed possession as a crime.
+
+Outside of Philly, the police and prosecutors of Pennsylvania are turning a little bit of green into a lifetime of problems for a big group of young adults. There were 27,133 arrests for cannabis last year, and fewer than 20 percent were for the more serious charges of growing and selling.
+
+The commonwealth saw 20,392 adults and 2,269 juveniles charged during 2017 for low-level marijuana possession, according to the Pa. Uniform Crime Reporting System (UCRS).
+
+That means  police were arresting 55 adults every day, simply for the act of having cannabis in the Keystone State. The number nearly equals all other drug possession arrests, combined.
+
+The cost? A RAND Corporation study commissioned by Vermont put the cost of one weed arrest at $1,266. In Philadelphia, each misdemeanor case was estimated to cost $1,000 to process.
+
+That means about $46 million taxpayer dollars were spent just last year to prosecute average consumers for having less than an ounce of cannabis.
+
+People under age 30 comprised a huge portion – 71 percent – of all Pa.’s low-level marijuana arrests.  Millennials alone – those between the ages of 21 and 29 – made up nearly half (43 percent) of those caught. Our young adults who should be getting their lives, degrees and careers underway bear the brunt of this harsh policy.
+
+Each number in the total is a person; someone whose entire life was upended.
+
+Fines and probation are almost always assigned. Judges often use Accelerated Rehabilitative Disposition (ARD) for first time charges, but the out-of-pocket expense to an offender is often more than $2,000. Factor in hiring a lawyer, possibly losing a driver’s license or even a job, and that marijuana arrest can turn into a financial tragedy.
+
+Once in the system, cannabis abstinence is enforced through urine tests. Failing for THC while on probation can force the offender into mandatory drug treatment or even jail. During 2016 there were 3,507 free treatment admissions in Philadelphia paid for by Single County Authority funding. And 640 – about 20 percent – were administered for “marijuana.” These resources are desperately needed for the opiate crisis.
+
+Males were also more commonly caught: Women were 9 times less likely to get arrested for marijuana. Parents can often face custody or family court issues over a few grams of cannabis.
+
+After all the court requirements are satisfied, each offender is saddled with a permanent record that can lead to a lifetime of job discrimination.
+
+The arrests are in stark contrast to Gov. Tom Wolf heralding a limited number of medical marijuana dispensaries that are opening across the state. It also goes against much of the bipartisan sentiment to clear criminal records.
+
+Erie recently joined York, Harrisburg, Pittsburgh, State College and other cities by enacting a local ordinance to downgrade these charges to a summary, but still count them as a crime. Only Philadelphia’s 2014 decriminalization ordinance punishes possession with a civil fine, keeping offenders out of the courts and never starting a record.
+
+Some politicians in Harrisburg are looking for answers. Rep. Jordan Harris (D., Phila.), Rep. Ed Gainey (D., Allegheny), and Rep. Barry Jozwiak (R., Berks) have active legislation to downgrade or decriminalize marijuana possession statewide. Full legalization is also coming into clearer view on the political horizon.
+
+Today, New Jersey and Delaware are both poised to cross the threshold to regulated sales, yet the Keystone State is still plowing forward with the bulldozer of prohibition. Until legislators in Harrisburg stop marijuana arrests I hope that District Attorneys in every Pa. county consider taking Krasner’s approach.
+
+
+                    
+
+
+
+                    
+
+
+
+                    
+                        
+                            Show all
+                            ▾
+                        
+                    
+                
+
+© Copyright 2018 Philadelphia Media Network (Digital), LLC Terms of Use &amp; Privacy Policy

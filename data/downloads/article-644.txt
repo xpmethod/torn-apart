@@ -1,0 +1,248 @@
+
+
+    
+        
+        
+    
+                        
+                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    
+    
+                                
+                																									
+																																
+																																																		  
+                                            
+                                               
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                        
+                                                                        
+                                                                
+                                        
+                                                        
+                    
+                                                                
+                                
+                                            
+            
+
+                                                                                                                                                                                                                                                        
+                        
+                                                                                                                                                                                                                                                                                                                                                        
+            
+            
+            
+                        
+            
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                    
+                                                                                                                    
+                                    
+                                                                                        
+            
+                        
+                        
+                        
+                        
+                        
+                                    
+                    
+                                
+                                
+        
+                                                                                                                                                                                                                                                                                                                                                                                            
+            
+                                
+                                            
+                                                        
+                    
+                                                                                                                                                                                                                                            
+                    
+                                                                                                        
+            
+                                
+                                
+
+                        
+    
+    
+            
+    
+    
+        
+    
+                                                                                                        
+        
+    
+    
+        
+                
+        
+    
+        
+                    
+            PMNdataLayer = [{"analytics":{"Sub-Sub Section":"","timesincepublish":"24130553","hidetags":"false","source":"Inquirer and Daily News","updatedDate":"2017-10-03T17:34:00-04:00","Article_Length_Label":"medium","title":"Montco seizure: Enough fentanyl to kill half the county's residents","type":"Article","primarysegment":"news","weekendplanner":false,"chartbeatdate":"October 3 2017 5:00 PM EDT","Omniture_Section":"news","Channel_omniture":"philly:news:crime","id":"UA-1605085-6","Hierarchy_omniture":"philly,news,crime,index","chartbeatpath":"/philly/news/crime/montco-seizure-enough-fentanyl-to-kill-half-the-countys-residents-20171003.html","generatedsegment":"news","contentid":"449304003","Pagename_omniture":"article: news: Montco seizure: Enough fentanyl to kill half the county's residents - 10/03/2017","published":"201710031735","version":"8","sections":"news/crime|/archive/erin_mccarthy|news/pennsylvania|hp/news_top|news/breaking|news/new_jersey","originalTitle":"Montco seizure: Enough fentanyl to kill half the county's residents","parselydomain":"philly.com","publishedDate":"2017-10-03T17:35:23-04:00","Sub-Section":"crime","authors":"Erin McCarthy"}}];
+        
+        
+        
+    
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','PMNdataLayer','GTM-PMVLLW');
+    
+
+    !function(d,e){window.addEventListener('load',function(){if(!window.noBlocker&&!window.google_tag_manager){for(var t=new XMLHttpRequest,n=(new Date).getTime()+Math.floor(1e8*Math.random()),o='ab_gc=',a=document.cookie.split(';'),i=0;i
+
+
+
+
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"headline": "Montco seizure: Enough fentanyl to kill half the county's residents",
+"url": "http://www.philly.com/philly/news/crime/montco-seizure-enough-fentanyl-to-kill-half-the-countys-residents-20171003.html",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "http://www.philly.com/philly/news/crime/montco-seizure-enough-fentanyl-to-kill-half-the-countys-residents-20171003.html"
+ },
+"thumbnailUrl": "http://media.philly.com/images/dixon-185057-f-wp-content-uploads-2017-10-Heroin-v.-Fentanyl-002-1200x799.jpg",
+"image": "http://media.philly.com/images/dixon-185057-f-wp-content-uploads-2017-10-Heroin-v.-Fentanyl-002-1200x799.jpg",
+"dateCreated": "2017-10-03T21:35:23Z",
+"datePublished": "2017-10-03T21:35:23Z",
+"dateModified": "2017-10-03T17:34:00-04:00",
+"articleSection": "news",
+"creator": [ "Erin McCarthy" ],
+"author": [ "Erin McCarthy" ],
+"keywords": [ "news/crime","/archive/erin_mccarthy","news/pennsylvania","hp/news_top","news/breaking","news/new_jersey","content/fromclicka","source/inquirer-and-daily-news-staff","449304003","content/medium","content/hasimage" ],
+"publisher": {
+    "@type": "Organization",
+    "name": "Philly.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://media.philly.com/designimages/phillydotcom-logo-dark.png",
+      "width": "300px",
+      "height": "60px"
+    }
+  },
+"identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "articleID",
+ "value": "449304003"
+ }
+}
+
+
+
+var _vwo_code=(function(){
+var account_id=303812,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+
+
+                        var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; 
+-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=449304003";_q+="&7=1951241";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')
+
+
+
+&amp;nbsp
+
+ 
+
+Authorities in Montgomery County announced Tuesday the seizure of enough deadly fentanyl that they said could have killed half of the county’s 800,000 residents. The controlled buy at a Cheltenham shopping center in July was one of the largest fentanyl seizures in area history.
+
+Police seized nearly a kilogram (about two pounds) of the potent painkiller. Three people — two from Philadelphia and one from New York — were arrested on drug-trafficking charges as a result of the joint investigation.
+
+“We pulled together to bring down these defendants,” said District Attorney Kevin R. Steele, “who were peddling some of the worst kinds of poison.”
+
+      Montgomery County District Attorney 
+The deadly fentanyl seized in the Montgomery County bust
+
+
+Less than  a week ago, the White House Office of National Drug Control Policy named Montgomery County a High-Intensity Drug Trafficking Area. The designation means more money, law enforcement resources, and training aimed at nabbing big-time drug dealers and stemming drug-related crime, said Jeffrey Daley, executive director of the Philadelphia-Camden High Intensity Drug Trafficking Area.
+
+Daley said he could not put an estimate on the amount of federal money Montgomery County could receive or when those funds might be available. The designation comes after six months of discussion, petitioning, and congressional review.
+
+Montgomery County joins Delaware, Chester, Philadelphia, and Camden Counties, which have for years been considered High-Intensity Drug Trafficking Areas because of higher-than-average drug trafficking and related crime.
+
+While the large-scale fentanyl bust was not related to this designation, Steele said the case was a prime example of why Montgomery County needs more help fighting the opioid epidemic.
+
+The investigation began July 11, when undercover officers arranged for a controlled buy of nearly 15 grams of heroin. For $1,000, authorities bought the drug from Christina Mota Soto, 29, of Philadelphia, authorities said.
+
+      Montgomery County District Attorney 
+Christina Mota Soto, 29, of Philadelphia.
+
+
+Tests showed the substance was fentanyl, a pain medication often found in anesthesia that can be up to 50 times more powerful than heroin.
+
+So another buy was arranged, this time for a kilogram of fentanyl. The price: $64,000.
+
+On July 24, in the parking lot of a Home Depot in the Cheltenham Shopping Mall, Mota Soto handed over the fentanyl and was placed under arrest, according to authorities.
+
+The investigation continued.
+
+“We’re looking at where the drugs are coming in, the borders they’re crossing, the source cities,” Steele said.
+
+Based on messaging evidence found on Mota Soto’s phone, Lincoln Payano Del Orbe Jr., 25, of Philadelphia, and Wilbert Taveras Payano, 33, of Bronx, N.Y., were linked to the case and subsequently charged.
+
+      Montgomery County District Attorney 
+Lincoln Payano Del Orbe Jr., 25, of Philadelphia.
+
+
+Mota Soto’s lawyer could not be reached for comment Tuesday afternoon and court documents for Taveras Payano did not list an attorney.
+
+But R. Emmett Madden, who represents Payano Del Orbe Jr., said the evidence against his client is based solely on messages allegedly sent and received using a WhatsApp account connected to his phone number. WhatsApp is a phone and desktop application in which accounts are linked to a phone number but can be logged into from any device, not just the device connected to that number.
+
+Authorities “never saw my client talking to anyone,” Madden said. “No one ever saw him do a darn thing.”
+
+All three defendants were being held at Montgomery County Prison on Tuesday, with bail set at $1 million for each.
+
+Even a few grains of fentanyl can be fatal. In Montgomery County, authorities have stopped field-testing heroin, Steele said, after two police officers went into respiratory arrest when a puff of what they thought was heroin went airborne. The substance was actually fentanyl.
+
+“This is deadly stuff,” Steele said. “It is a scourge that we want to rid this county of.”
+
+      Montgomery County District Attorney 
+Wilbert Taveras Payano, 33, of Bronx, N.Y.
+
+
+As opioid overdose has become a nationally recognized crisis, many lawmakers have focused in on the dangers of fentanyl, which users have been known to lace into heroin, or take separately.
+
+Between 2015 and 2016, deaths by fentanyl and similar synthetic opioids nearly doubled nationally, accounting for more than 20,000 overdose deaths last year, according to the U.S. Centers for Disease Control and Prevention.
+
+In Pennsylvania, fentanyl was identified in about 52 percent of the more than 4,600 people who died from overdose in 2016, according to a joint report by Philadelphia’s Drug Enforcement Agency and the University of Pittsburgh. In Philadelphia, almost half of the 2016 overdose deaths involved fentanyl.
+
+And the problem has shown no signs of slowing down this year. Just last week, four men were indicted in New Jersey after a June bust uncovered nearly 100 pounds of fentanyl in North Bergen and Willingboro. Authorities there said it was the most fentanyl ever seized in the state.
+
+In 2016, Montgomery County saw 249 overdose deaths, 108 of which involved fentanyl, according to the District Attorney’s Office. So far this year, the county is on pace to log a similar number of fatal overdoses, but fentanyl has been involved in more than 50 percent of those deaths.
+
+“This is more [fatalities] than traffic. This is more than guns,” Steele said. “This is the mechanism of death.”
+
+
+                    
+
+
+
+                    
+
+
+
+                    
+                        
+                            Show all
+                            ▾
+                        
+                    
+                
+
+© Copyright 2018 Philadelphia Media Network (Digital), LLC Terms of Use &amp; Privacy Policy

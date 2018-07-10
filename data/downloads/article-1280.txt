@@ -1,0 +1,212 @@
+Sign up for the For The Win daily email newsletter for the top stories every day.
+
+
+			Thanks for signing up.
+			You'll be waking up a little more awesome tomorrow.		
+
+
+			Something went wrong.		
+
+
+
+	By Alysha Tsuji 
+		September 22, 2017 11:03 pm
+
+	
+	
+					
+				
+					Follow					@alyshatsuji				
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			
+		
+	
+
+
+		By: Alysha Tsuji		| September 22, 2017 11:03 pm		
+							
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+										
+	
+		Follow @alyshatsuji	
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+					
+	
+
+The Washington Wizards’ John Wall gave a touching speech at the University of Kentucky Athletics Hall of Fame induction ceremony on Friday night. The most emotional part was when he thanked his mom.
+
+Wall asked her to stand up so that everyone could applaud her. Then, he said that he hoped she wouldn’t cry and also hoped he himself wouldn’t cry, but admitted it’d be tough. As he started speaking, the tears welled up in his eyes.
+
+The 27-year-old recalled the sacrifices his mom made, like how sometimes she wouldn’t pay the light bill so that he could go play in basketball tournaments, and he thanked her for being so strong for him.
+
+Special night in Kentucky! We're here to watch our WallStar get inducted into the @UKAthletics Hall of Fame! #DCFamily #BBN pic.twitter.com/0KV38eSjlt
+
+— Washington Wizards (@WashWizards) September 22, 2017
+
+
+
+You can watch the video above, or read what he said about his mom here:
+
+“I just want to thank you. I just wanted to say thank you for being my mom. I now it was tough growing up with me and my two sisters, seeing my dad go to jail at a young age, and you sacrificing everything. I seen you taking me to school and picking me up from school. I always wondered what it’d be like to be able to do things with my mom. I never had the chance. You always told me when I was 16, you said you knew I was a hardheaded kid.
+
+“I know you used to hate when I was in kindergarten. You had to sit in the parking lot a lot of times because I could never stay in school more than 30 minutes. I was always getting kicked out, and she had to drive 45 minutes to take me to school. Then all of a sudden I started playing youth basketball and I met one of my close friends EJ, we would call him Grizzly, and she would miss a lot of tournaments, but she would sacrifice sometimes not playing the light bill so I could go play basketball.
+
+“Then when I was 16 years old, I kept getting in trouble. She took basketball away from me. She said, ‘You can go down the same road as your dad and your brothers, or you could be somebody very special and change our family’s life.’
+
+“That’s why I want to thank Coach Cal. My senior year I got a breaking and entering charge just doing some dumb stuff as a kid that had the opportunity to go to college. One of the first people that came down there was Coach Cal. He said, ‘Listen, you come to school. We getting you away from here.’ A lot of coaches would’ve ran from that. They wouldn’t have believed in me. They would’ve gave up on me, and to see what I did and what I’ve accomplished and the person I have became, I couldn’t thank nobody else.
+
+“I want to thank you mom for being who you are, being a strong powerful woman, having that gritty attitude that some people look at me and see in my face and say, ‘Well, John Wall’s not approachable.’ Well, I get it from my mom, and I’m cool with that because when you really get to know me, I’m really a loyal person, I’m a family person. I just want to thank you for being my mom. I wouldn’t ask for nobody else in this world to be my mom. I hope whoever I marry, whoever the mom to my kid, they can be just as strong as you is and just as powerful.”
+
+After spilling out his heart, Wall ended his speech on a light note. He told everyone to not forget about his dance.
+
+
+
+John Wall, Kentucky Basketball, Kentucky Wildcats, NBA
+
+
+		Alysha Tsuji is a writer at FTW. She's based in Los Angeles and enjoys writing about all sorts of sports. 	
+
+
+			
+				Phil Hellmuth and Phil Ivey both eliminated from World Series of Poker Main Event			
+		
+
+
+			
+				What's the #InMyFeelingsChallenge Odell Beckham Jr. and Russell Wilson have participated in?			
+		
+
+
+			
+				How Kelly Slater took surfing out of the ocean and onto dry land			
+		
+
+
+												July 9, 2018 9:43 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Worth it.  
+
+
+												July 9, 2018 8:26 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Rob Lowe can do it all.  
+
+
+												July 9, 2018 6:28 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Relatable.  
+
+
+												July 9, 2018 5:59 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+His mother died in June.  
+
+
+												July 9, 2018 5:47 pm 
+						·
+						
+							Ted Berg													
+					
+
+The sandwich is named for young goat, but it features no goat.  
+
+
+												July 9, 2018 5:12 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Just cruel.  
+
+
+												July 9, 2018 3:56 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Insane.  
+
+
+												July 9, 2018 3:36 pm 
+						·
+						
+							Charles Curtis													
+					
+
+Football’s coming home! 
+
+
+												July 9, 2018 2:15 pm 
+						·
+						
+							Steven Ruiz													
+					
+
+Five years ago today, the last of EA Sports’ NCAA Football series was released.  
+
+
+												July 9, 2018 12:44 pm 
+						·
+						
+							Steven Ruiz													
+					
+
+The Alabama alum has earned the right to talk trash about other SEC schools.  
+
+
+					Thanks for signing up.
+					You'll be waking up a little more awesome tomorrow.
+				
+
+
+					Something went wrong.
+				
+
+NBA fans made the same Rob Lowe joke about LeBron's Lakers signing
+
+LeBron James' first tweet since joining the Lakers was about pizza
+
+LiAngelo Ball realizes dream of playing for LA basketball team ... in the JBA
+
+
+		
+			
+		
+	
+
+
+			Powered by WordPress.com VIP		
+
+
+		
+			Show More Information		
+		
+	
+
+“I want to thank you mom for being who you are, being a strong powerful woman.” 
