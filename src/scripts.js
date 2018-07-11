@@ -72,35 +72,6 @@ function initTextures(){
     });
 }
 
-function initI18n(){
-  const locales = navigator.languages.filter( i => i.match(/(en|fr|es)/) ).map( i => i.replace(/-.*/, ""));
-
-  if (locales.length === 0){
-    $.i18n().locale = "en";
-  } else {
-    $.i18n().locale = locales[0];
-  }
-  update_texts();
-
-  $(".locale-button").click(function(e){
-    e.preventDefault();
-    $(".locale-button").removeClass("active");
-    $( this ).addClass("active");
-    $.i18n().locale = $(this).data("locale");
-    update_texts();
-  });
-
-  $(".locale-toggle").click(function(e){
-    e.preventDefault();
-    const langs = ["en", "es", "fr"];
-    let index = langs.indexOf($.i18n().locale);
-    index === langs.length - 1 ? index = 0 : index = index + 1;
-    $.i18n().locale = langs[index];
-    update_texts();
-    moveLegend();
-  });
-}
-
 function initMap(mapid){
   map = L.map(mapid, { 
     center: [0,0], 
@@ -114,34 +85,6 @@ function initMap(mapid){
   }
   moveLegend();
   return map;
-}
-
-function currentLocaleToggle(locale){
-  $(".locale-toggle-text").removeClass("active");
-  $(`.locale-toggle-${locale}`).addClass("active");
-}
-
-function update_texts() {
-  const md = markdownit({html: true}).use(markdownitFootnote);
-  const externalLinkHTML = "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
-  const q = d3.queue();
-  q.defer(callback => {$("body").i18n(); callback(null);});
-  q.await(function(e){
-    if (e) throw e;
-    currentLocaleToggle($.i18n().locale);
-    $(".markdownify").html((i, html) => {
-      return md.render(html);
-    });
-    $(".click-to-hide a").each(function() {
-      $( this ).attr("onclick", "event.stopPropagation();");
-    });
-    $("a[href^='http']:not(a:has(img))").html(function(i, html){
-      if(!html.match("fa-external-link-alt")){
-        $( this ).append($.parseHTML(externalLinkHTML));
-      }
-    });
-    $("a[href^='http']").attr("target", "_blank");
-  });
 }
 
 function buildD3Points() {
@@ -429,9 +372,6 @@ function showViz(viz, map, layers){
   update_texts();
 }
 
-function moveLegend() {
-  $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
-}
 
 function titleize(string) {
   return s.titleize(s.swapCase(string));

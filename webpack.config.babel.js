@@ -3,6 +3,7 @@ import { join } from "path";
 const context = join(__dirname, "src");
 
 export default {
+  mode: "development",
   context,
   entry: {
     i18n: "./i18n.js"
@@ -13,11 +14,11 @@ export default {
     libraryTarget: "umd",
     library: "tornApart",
   },
-  optimization: {
-    splitChunks: {
-      chunks: "all"
-    }
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: "all"
+  //   }
+  // },
   externals: {
     jquery: "jQuery"
   },
