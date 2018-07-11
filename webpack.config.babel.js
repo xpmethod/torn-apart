@@ -1,24 +1,24 @@
 import { join } from "path";
 
-const include = join(__dirname, "src");
+const context = join(__dirname, "src");
 
 export default {
-  entry: "./src/index",
+  context,
+  entry: {
+    reflections: "./reflections.js"
+  },
   output: {
-    path: join(__dirname, "dist"),
+    filename: "[name].bundle.js",
+    path: join(__dirname, "docs", "assets", "js"),
     libraryTarget: "umd",
     library: "tornApart",
   },
-  respove: {
-    alias: {
-      $: "jquery/src/jquery",
+  optimization: {
+    splitChunks: {
+      chunks: "all"
     }
   },
-  devtool: "source-map",
-  module: {
-    loaders: [
-      {test: /\.js$/, loader: "babel", include},
-      {test: /\.json$/, loader: "json", include},
-    ]
-  }
+  externals: {
+    jquery: "jQuery"
+  },
 };
