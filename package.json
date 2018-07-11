@@ -10,7 +10,7 @@
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "lint": "eslint src",
     "start": "node app",
-    "validate": "npm-run-all --parallel lint"
+    "validate": "npm-run-all --parallel lint build"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
@@ -33,6 +33,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "ghooks": "^2.0.4",
     "npm-run-all": "^4.1.3",
     "rimraf": "^2.6.2",
@@ -54,5 +55,15 @@
   "bugs": {
     "url": "https://github.com/xpmethod/torn-apart/issues"
   },
-  "homepage": "https://github.com/xpmethod/torn-apart#readme"
+  "homepage": "https://github.com/xpmethod/torn-apart#readme",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
 }
