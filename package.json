@@ -26,7 +26,6 @@
     "underscore": "^1.9.1"
   },
   "description": "Please see [our site](http://xpmethod.plaintext.in/torn-apart/) for a thorough discussion of what our project and its goals are. This README is here more just to satisfy people curious as to how this was all technically done.",
-  "main": "src/index.js",
   "directories": {
     "doc": "docs"
   },
