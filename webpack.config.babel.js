@@ -6,10 +6,11 @@ export default {
   mode: "development",
   context,
   entry: {
-    i18n: "./i18n.js"
+    i18n: "./i18n.js",
+    textures: "./textures.js"
   },
   output: {
-    filename: "[name].js",
+    filename: "[name].bundle.js",
     path: join(__dirname, "docs", "assets", "js"),
     libraryTarget: "umd",
     library: "tornApart",
