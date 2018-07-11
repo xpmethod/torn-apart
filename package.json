@@ -1,13 +1,14 @@
 {
   "name": "torn-apart",
+  "sideEffects": false,
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf dist docs/assets/js/",
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
-    "build:umd": "webpack --output-filename index.umd.js",
-    "build:umd.min": "webpack --output-filename index.umd.min.js -p",
+    "build:umd": "webpack",
+    "build:umd.min": "webpack -p",
     "lint": "eslint src",
     "start": "node app",
     "validate": "npm-run-all --parallel lint build"
