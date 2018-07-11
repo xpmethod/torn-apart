@@ -8,5 +8,9 @@
   "dependencies": {
     "csv-parse": "^2.5.0",
     "newsapi": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }
