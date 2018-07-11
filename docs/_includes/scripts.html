@@ -19,6 +19,9 @@
   <script src="{{ site.baseurl }}/assets/js/imgurImages.js"></script>
   <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 {% endif %}
+{% if page.url contains "/textures" %}
+  <script src="{{ site.baseurl }}/assets/js/textures.bundle.js"></script>
+{% endif %}
 {% if page.active %}
   <script>
     $("#{{ page.active }}").addClass("active");
