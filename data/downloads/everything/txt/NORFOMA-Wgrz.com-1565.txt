@@ -1,0 +1,196 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 79 degrees
+
+DETROIT — As the UAW, Fiat Chrysler and federal investigators unravel a scandal over the misappropriation of millions of dollars meant for worker training, federal records show that embezzling from union offices is endemic around the country. 
+
+
+U.S. Department of Labor documents obtained by the Detroit Free Press show embezzlement from hundreds of union offices nationwide over the past decade. In just the past two years, more than 300 union locations have discovered theft, often resulting in more than one person charged in each instance, the records show. 
+
+Two UAW incidents uncovered in 2017, one in Michigan and the other in New Jersey, exceeded $1 million, among the biggest labor theft cases in a decade.
+
+
+Cases involved unions representing nurses, aerospace engineers, firefighters, teachers, film and TV artists, air traffic controllers, musicians, bus inspectors, bakery workers, roofers, postal workers, machinists, ironworkers, steelworkers, dairy workers, plasterers, train operators, plumbers, stagehands, engineers, electricians, heat insulators, missile range workers and bricklayers.
+
+
+More: Church says pastor stole over $300,000 from coffers
+
+
+More: Police: Teacher steals homecoming money, spends it at casino
+
+
+Individual cases compiled by the Office of Labor-Management Standards last year cite theft and fraud ranging from $1,051 to nearly $6.5 million.
+
+
+“Unions are not unique,” said Peter Henning, a former federal prosecutor who teaches law at Wayne State University. “Another group hit hard by embezzlement are churches. You can’t train people to be ethical. It’s just access to money.”
+
+
+He added, "These people view themselves as overworked and underpaid. Well, I’ve just identified 80% of the country.”
+
+
+Indeed, prosecutors say theft is common from non-profits and small businesses, and often goes undetected for years. Thieves often are beloved colleagues who leave behind a profound sense of betrayal.
+
+The Labor Department records show that union theft happens in big cities and tiny towns in all corners of the country. Usually, the crimes are committed by the union local's bookkeeper, president or treasurer. Gambling addiction is an issue at times. Frequently, money goes to buy luxury items. 
+
+
+Andy Dunbar, a union steward for electricians at Cobo Center, said he went to federal court and watched as dues-paying members urged the judge to punish a clerk who embezzled during the economic downturn.
+
+
+Ann Marie Shaffer, 57, of Livonia was sentenced to a year in prison after admitting to embezzling $101,059.56 from 2008 to 2010. 
+
+
+“The hard part is that everybody liked her," Dunbar said. "She was personable and bubbly. If I would mail my dues to her, my receipt would come back with a little note saying she hoped all is good and maybe it had stickers on it. It was hard to believe she was stealing from us. At the time, we were giving out food boxes and Meijer gift cards. People were leaving town for work.”
+
+
+Dunbar has since been elected president of the International Brotherhood of Electrical Workers Local 58 in Detroit. He said the team has implemented as many safeguards as possible, with multiple signatures required on all financial paperwork with real-time bank account reviews. The incident created distrust that remains years later.
+
+
+“Every penny we have comes from the 5,000 hardworking men and women,” he said. “Scandal just reinforces stereotypes about unions. I think the public has a perception that they’re all greedy mobsters and these things reinforce stereotypes that there’s corruption. It’s counterproductive. We need to focus on important issues that support our members, like fair wages as the cost of living goes up.”
+
+
+For the UAW, its two biggest cases involved members working hand-in-hand with corrupt auto industry executives. The UAW says this illustrates that its constitution provides the intended checks and balances that essentially require two keys and conspiracy to steal.
+
+In the Fiat Chrysler case in Detroit, money provided by auto companies for worker training was embezzled from 2009 to 2015 by men who were supposed to be working together to negotiate a labor contract rather than divvying up hundreds of thousands of dollars in personal gifts.
+
+
+The case is working its way through the courts, so far resulting in charges against four people. Investigators are said to be examining General Motors and Ford union training centers, as well. 
+
+
+In the other multimillion-dollar case, charges were filed Jan. 9, 2017, against a former UAW president in New Jersey accused of hatching a scheme with a health insurance broker to steal $1 million from the union’s self-insured health plan and defraud Horizon Blue Cross Blue Shield of approximately $5.5 million.
+
+
+Sergio Acosta oversaw the benefit plan for UAW Local 2326 and, authorities say, conspired with Lawrence Ackerman, who is accused of creating two shell companies to market health insurance to about 700 ineligible participants from across the country, New Jersey Advance Media reported. Acosta is accused of permitting ineligible participants to remain on the union's health care plan. No trial dates have been set. Each defendant faces up to 10 years in prison, if convicted.
+
+
+In addition to the UAW, federal records show the biggest embezzlement cases resulting in criminal charges during the past decade have unfolded in the court system over the past three years:
+
+
+• Laborers Local 657 in Washington, D.C., saw its business manager sentenced to four years in prison in February 2017 for embezzlement and was ordered to pay $1,632,000 in restitution. Two contractors were sent to prison and ordered to pay restitution, too.
+
+
+• The International Brotherhood of Boilermakers Local 154 in Pittsburgh saw its former business manager plead guilty in September 2017 to embezzling approximately $1.5 million, plus tax evasion.
+
+
+• A former financial secretary for the International Longshoremen’s Association Local 970 in Norfolk, Va., was sentenced in February 2017 to 41 months in prison after stealing $1,072,669 from the union by making cash withdrawals and using money to buy gas, food, clothing, shoes, toys, entertainment and home improvement supplies.  
+
+• A former executive director of the Hawaii Painting &amp; Decorating Contractors Association pleaded guilty in May 2016 to embezzling approximately $1,483,800 from the Hawaii Painters Trade Promotion &amp; Charity Fund, which comes out of the hourly wages of Painters District Council 50 in Honolulu.
+
+
+• A former union business manager for Allied Novelty and Production Workers Local 223 in New York and former president of Teamsters Local 810 in August 2016 pleaded guilty to soliciting and receive kickbacks to influence the operation of an employee benefit plan and commit theft of $1 million. 
+
+
+• The founder of Prim Capital Corp., who managed as much as $250 million for the National Basketball Players Association, was sentenced in June 2014 to 18 months in prison for trying to defraud the union of $3 million.
+
+
+Embezzlement cases are often discovered by unions or during routine audits. The situation may be as simple as a bookkeeper going on vacation and leaving an attentive part-timer in charge who notices irregularity. Prosecutors noted federal laws heavily regulate union finances, so the odds of discovering wrongdoing are greater than in the private sector. They also said that labor unions operate on shoestring budgets and often lack resources needed to provide oversight. 
+
+
+“We had our union president build a big elaborate house with materials, money and labor through our union. Now he’s in prison,” said Michael Galetti, a carpenter who works in Detroit. 
+
+
+Law enforcement officials said less-qualified people tend to end up in union finance roles because they're often elected based on popularity rather than qualification. One financial analyst recalled working with a treasurer who was dyslexic and another who had trouble balancing his own checkbook. 
+
+
+In Detroit, four defendants remain in the spotlight of the UAW-Fiat Chrysler (FCA) case: 
+
+
+• Jerome Durden, a former financial analyst in corporate accounting at Fiat Chrysler and former Controller of the UAW-Chrysler National Training Center, pleaded guilty in August 2017 after preparing and filing tax returns that concealed millions of dollars in prohibited payments directed to others in 2009-15. His sentencing is scheduled for Jan. 23.
+
+• Alphons Iacobelli, former vice president at FCA, was charged in July 2017 with conspiracy and delivering more than $1.2 million in prohibited payments and things of value to the late General Holiefield, former vice president of the UAW, Holiefield's wife and other UAW officials. His trial is scheduled for March 19. 
+
+
+• Monica Morgan, wife of Holiefield, was charged in July 2017 with tax evasion and conspiracy stemming from her family’s receipt of more than $1.2 million from the former vice president of FCA between 2009 and 2014. Her trial is scheduled for March 19. 
+
+
+• Virdell King, a former assistant director of the UAW-Chrysler National Training Center, pleaded guilty in August 2017 to receiving more than $40,000 in prohibited payments and things of value from the former vice president of FCA and “others acting in the interest of FCA.” Payments received between 2012 and 2015 included purchases of clothing, jewelry, luggage, golf equipment, concert tickets and theme park tickets. She is scheduled to be sentenced May 1.
+
+
+Gina Balaya, public information officer with the U.S. Attorney’s Office in the Eastern District of Michigan, said, “The U.S. Attorney’s Office works closely with the Department of Labor, Federal Bureau of Investigation, Internal Revenue Service, and other law enforcement agencies to investigate and prosecute significant financial crimes committed in this district, including fraud and embezzlement. The office will continue to file the appropriate criminal charges and to seek the most serious penalties, including jail time, restitution, and the forfeiture of criminal profits, that are supported by the evidence.”
+
+
+Annual reports from the Department of Labor from 2008 through 2017 illustrate chronic embezzlement totaling millions. Scenarios range from a toy worker receiving kickbacks to influence an employee benefit plan in New York to extortion by a former Teamster steward named “Jimmy the Bull” in South Boston. 
+
+
+Federal records for 2017 show a handful of smaller losses to UAW locals:
+
+
+• On Dec. 5, a former president in Danville, Ill., was indicted for embezzling $19,482.
+
+
+• On Sept. 21, a former local president was sentenced to prison after diverting more than $129,723 in union money for personal use in Danville, Ill. He pleaded guilty in 2016.
+
+
+• On Oct. 31, a former secretary-treasurer pleaded guilty to embezzling $37,197 in Rushville, Ind.
+
+
+• In June, a former president in Lafayette, Ind., was sentenced to jail and ordered to pay restitution after diverting more than $100,000 in union money for personal use.
+
+
+Federal records for 2016 document these losses to UAW locals:
+
+
+• On Jan. 25, a former secretary treasurer of the UAW Fox Valley Area Community Action Program in Oshkosh, Wis., was sentenced to prison and ordered to pay $30,020 in restitution for embezzlement.
+
+
+• On Jan. 21, a former vice president in Shreveport, La., pleaded guilty to forgery of $581.
+
+
+• On Feb. 17, a former member was sentenced to probation and ordered to pay restitution of $3,208 after pleading guilty to lying to an investigator.
+
+
+Preventing embezzlement is nearly impossible, so decisive action must be taken when it arises, said Harley Shaiken, a professor at the University of California-Berkeley who specializes in labor and the global economy. “Corruption undermines the very soul of unions. And it’s used effectively to damage unions politically.”
+
+
+Dennis Williams, president of the UAW, said the 415,000-member union takes seriously issues of fraud and wrongdoing. He conceded it hurts the union's image internally and externally.
+
+
+“The UAW has weathered many storms over the years, and through bad economic times, long strikes, relentless and vicious organizing drives. We have also at times withstood investigations that have tested our goodwill," he said.
+
+
+"Over the last several months, we have been under a magnifying glass, and rightfully so. A former officer of the UAW was implicated in allegedly defrauding the FCA National Training Center for personal gain, along with other company officials and a few international reps. We will never tolerate this type of misconduct,.
+
+
+"The actions of a few individuals should not be held against the entire union and its membership, almost all of whom act with the utmost honesty and integrity every day to help our working men and women.”
+
+
+Finance experts in Michigan and nationally say it is essential that people understand the toll embezzlement takes on charities, business and public and private schools.
+
+
+Lisa McCormick, chief assistant prosecuting attorney for Ingham County, Mich., noted the current case of St. Martha Parish in Okemos. Its founding pastor is accused of stealing up to $5 million after audits and reviews in the summer of 2017.
+
+
+“What you find in these embezzlement cases is very trusted employees that have worked for organizations for a number of years. Trust is a very large factor. And it takes a while to uncover,” McCormick said.
+
+
+The Ingham County DA made headlines for prosecuting 53 embezzlement cases in 2014, up from 35 cases the year prior, according to the Lansing State Journal. And law enforcement warned of a growing trend at the time.
+
+
+Ironically, it’s government entities and organized labor groups, which are highly regulated, that discover embezzlement because of auditing requirements. In addition, analysts said, lean times have led to cutbacks that limit oversight controls, and employee turnover during hard economic times may help expose wrongdoing.
+
+
+“The thing that I think is most surprising is that a lot of small businesses don’t think it can happen. It’s typically a very trusted relationship with somebody who has been with the company a long time and has access to be able to get away with the fraud. It’s the same basic story over and over again. They’re all very stung, not only financially but emotionally,” said Todd Rammler, president of Michigan CFO Associates. “It’s everywhere. I mean, the teacher at my son’s high school just embezzled from the homecoming fund.”
+
+
+Finance experts say theft related to labor unions is a reflection of what's happening throughout society. 
+
+
+“Fraud in small business in Michigan, and nationally, is chronic. It should be a daily concern for business owners,” said Amy Buben, a certified fraud examiner with Yeo &amp; Yeo CPAs &amp; Business Consultants, which works with the Michigan Small Business Association.
+
+
+“It’s well beyond the horrific labor union stories we more often hear about. In fact, small businesses are the most vulnerable, and we are seeing more significant occurrences in churches, non-profits, financial institutions and the manufacturing industry,” she said. “Sadly, fraud can destroy a company’s trust, impact it financially, and in some cases, shut it right down. We are hired to detect suspected fraud, and to help businesses recover from the catastrophic financial effect it can have. We see more fraud cases go unreported to avoid publicity.”
+
+
+Contributing: Eric D. Lawrence, Detroit Free Press. Follow Phoebe Wall Howard on Twitter: @phoebesaid

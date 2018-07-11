@@ -1,0 +1,31 @@
+
+
+Jeong Ki-wook, a former executive at Cisco and the founder of TrustVerse, a South Korea-based wealth management platform, said that cryptocurrency assets like bitcoin and ethereum can evolve into safe haven assets in the long-term.
+
+In an interview with ZDNet Korea, Jeong said that cryptocurrencies have the potential to become safe haven assets if innovative technologies and solutions can be employed to minimize risk in investment. Currently, the cryptocurrency market is extremely volatile and as a means of payment, digital currencies still remain immature. 
+
+But, as the adoption of cryptocurrencies from merchants, businesses, individual users, and retailers grow, the market will become stable, allowing cryptocurrencies to reach a certain level of stability that is necessary for businesses to adopt them as legitimate payment methods.
+
+As an investment, cryptocurrencies remain a high risk and high return asset class, and traders could secure a 30 percent gain in a 24-hour period or experience a 50 percent loss. For full-time traders and individuals that are deeply committed to the industry, such a level of volatility is manageable but for casual traders and institutional investors, it is difficult deal with highly volatile assets.
+
+Jeong said that it is key for investors to gain access to systems that can autonomously detect risk and alter the portfolio of cryptocurrencies and tokens based on the state of the market. In order to do so, he emphasized that artificial intelligence is crucial to autonomously create suggestions for investors and create a balanced portfolio of digital assets. 
+
+Over the past three years, ever since the creation of Ethereum, many organizations and startups have tried to utilize AI and decentralized governance to invest in the market and reduce risk in cryptocurrency investment. The Decentralized Autonomous Organization (DAO), the first ICO on the Ethereum platform, was the first project that attempted to commercialize the idea, but ultimately failed.
+
+More projects followed the DAO and tried to develop systems and methods that could reduce risk for cryptocurrency investors through AI-based market analysis, but struggled to appeal to the public. Ethereum-based Numerai is one of the many projects that attempted to carry out a similar model by creating a decentralized hedge fund with data scientists, but has struggled to see large-scale success.
+
+I’ve yet to see a clever application of AI and blockchains, save for @numerai.
+
+— Emin Gün Sirer (@el33th4xor) April 19, 2018
+
+Recently, billionaire investor Peter Thiel-led venture capital firm Founders Fund invested in a startup called Tagomi which will help institutional investors and large-scale family funds invest in the cryptocurrency market with high liquidity by evenly distributing orders across over-the-counter (OTC) markets and cryptocurrency exchanges. Apart from this traditional stock market investment method, Tagomi is expected to implement other innovative solutions to minimize risk for large-scale investors.
+
+As Cornell professor Emin Gun Sirer explained, the blockchain sector is yet to see a practical implementation of artificial intelligence in cryptocurrency wealth management and investment. But, success in doing so could lead to mass adoption of cryptocurrencies and could appeal to public investors.
+
+Featured Image from Shutterstock
+
+
+
+
+
+

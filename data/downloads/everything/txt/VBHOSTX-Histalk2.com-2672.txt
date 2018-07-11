@@ -1,0 +1,142 @@
+
+
+Winston-Salem, NC’s two biggest health systems – Novant and Wake Forest Baptist Health – go live on “Happy Together,” in which the Epic MyChart instances of the respective systems are combined into a single patient view. 
+
+
+
+Novant CMIO Keith Griffin, MD said in an announcement, ““Happy Together for MyChart will allow patients to combine data from the two systems into a single view to improve their understanding of medications, lab results, plan of care, and follow-up appointments. It is truly a major step forward towards the goal of patient engagement and elimination of barriers of information and confusion.”
+
+Novant says it will expand the program to include other Epic-using organizations. 
+
+From Finance Guy: “Re: consultants. I switched to corp-to-corp because of the new pass-through tax rules. I think the 20 percent deduction will be big enough to justify the extra hassle. I don’t think most consultants will do it, though even for the extra money. Most are used to the firm holding their hands and are delusional in thinking the firm is looking out for their interests. Corp-to-corps can contribute 20 percent of their net profit to a self-employed 401(k).” I’m fascinated at how people create businesses with themselves as the only employee. I bet that practice ramped up after the ACA came into law and allowed them to buy competitively priced insurance on their own, although those days might be coming to an end. I also read about professional employer organizations, where for a small annual fee a company will permanently hire “your” employees that still work for you, offer whatever benefits (including health insurance available at big-group rates) you’re willing to pay for, and run the entire HR function, all for a single check. 
+
+
+
+From Epic Trainee: “Re: Advocate Health Care. At least 10 people from the long-time Cerner and Allscripts shop were in my Epic Implementation Overview class. New CIO and a merger with Aurora = another Epic shop.” Unverified.
+
+
+
+From Movin’ On: “Re: bad job situations. Complaining doesn’t get you anywhere – either work with you employer’s leaders to make things better or move on. It’s time when: (a) they don’t offer career growth in your desired area; (b) you have no confidence in leadership or there’s unprofessional or unethical behavior at the top; or (c) personal reasons come up such as not wanting to relocate or travel.” I’ve hung on to jobs that made me miserable at least a couple of times because I was scared of change, it wasn’t a good time to upend my life (hint: it never is), and I secretly worried that I wouldn’t be good enough to compete with a new set of ladder-climbers. The final straw that forced me to move on – for which I was eventually grateful – was differences with a new boss. My conclusion is that unless you are anointed as a fast-tracker early on, your best path at moving up is to move out as the opportunity arises, probably at least every 3-5 promotion-free years unless you plan to live to 150. It’s OK to stay put if the prospect of change is too scary, but you then need to downsize your expectations and find some other source of ego-stroking beyond the company to whom you are unhappily selling the majority of your waking hours. I’m embarrassed when people complain about their jobs because it means they’ve settled for something they don’t like, which suggests a lack of either motivation or ability (I’m experientially jaded having suffered from both). It gets really bad when your occupational frustration, disappointment, and embarrassment bleed over into your family life and you feel personally diminished as a result. ”Spent a lifetime hunched over from the weight of a soul-sapping job” makes a poor epitaph. 
+
+
+
+From Amazon Grace: “Re: Martin Levine, MD’s role at Amazon. They posted a chief medical officer job last April to run their ‘healthcare’ practice’ that was pulled after 24 hours. It wouldn’t surprise me if that’s the role he is filling.” Seems reasonable since his background is regional chief medical officer for the highly regarded Medicare primary care practice of Iora Health. I expect Amazon is paying a big chunk of expense to pay for our overutilized, overpriced healthcare system, so they could be looking at either offering their own employee healthcare service or creating one as a business.
+
+ 
+
+From Sarah: “Re: Ingenious Med. Fired CEO Joe Marabito and CRO Phil Spinelli over the weekend.” Unverified, but their bios have been expunged from the company’s executive page despite their unchanged LinkedIn profiles. I reached out to the company but haven’t heard back. Marabito joined the company in September 2016, while Spinelli came on board in April 2017.
+
+From WorryWart: “Re: ransomware. Have you heard of patients with conditions such as STDs being blackmailed for bitcoin based on leaked PHI?” I haven’t heard of that. It doesn’t seem practical for a hacker – they would have to identify who to go after, limit their efforts to those with assets and fear of exposure, contact them electronically (email addresses are cutting edge to some practices), and come up with a fear-inducing list of people they would contact. I think the greater risk is that someone local – like a provider’s employee – gets the information and recognizes the patient as a rich target, although the threat of serving time under US extortion laws is probably a dissuader. My conclusion: hackers, like lawyers, don’t waste time on shallow pockets.
+
+Last chance to tell me about ““What I Wish I’d Known Before … Implementing a Vendor’s Cloud-Based Application.” Responses are few, which likely marks an untimely demise to the reader-suggested  “What I Wish I’d Known Before …” series that will otherwise be cancelled after only the pilot episode has aired. 
+
+
+
+Need an inexpensive fitness tracker that — beyond the usual counting of steps and calories burned — includes monitors for heart rate, blood pressure, and blood oxygen? I just bought this one for less than $25 and it works great – it even includes an extra band. It’s probably not amazing, but then again, neither is my workout regimen. 
+
+I watched the premiere of “The Resident” on Hulu and it was kind of interesting, but cliche. The idea that hospitals are money-grubbing, faceless corporations led by bean-counters rang somewhat true since I’ve worked for those, but the titular protagonist with the bad-boy facial fuzz and the ability to bond only with patients he just met is a stereotypical cartoon – brilliant, cynical, anti-antiauthority, unaccepting of incompetence, quick to thrust his endless libido at convenient nurses, and full of unconventional medical methods that magically pull patients (sometimes not even his own) back from the brink after they were nearly killed by the dreaded evidence-based medicine, team care, and expert consensus. All we need, apparently, are more world-weary, narcissistic clinical cowboys who think they know more than the entire body of medical literature.
+
+January 24 (Wednesday) 1:00 ET: “Location, Location, Location: How to Deploy RTLS Asset Management for Capital Savings.” Sponsor: Versus Technology. Presenter: Doug Duvall, solution architect, Versus Technology. Misplaced or sub-optimally deployed medical equipment delays patient care and hampers safety-mandated preventive maintenance. It also forces hospitals to buy more equipment despite an average utilization that may be as low as 30 percent, misdirecting precious capital dollars that could be better spent on more strategic projects. A real-time locating system (RTLS) cannot only track asset location, but also help ensure that equipment is properly distributed to the right place at the right time. This webinar will provide insight into the evaluation, selection, and benefits of an RTLS-powered asset management solution.  
+
+February 13 (Tuesday) 1:00 ET. “Beyond Sliding Scale: Closing the Gap Between Current and Optimal Glycemic Management Practices.” Sponsor: Monarch Medical Technologies. Presenter: Laurel Fuqua, BSN, MSN, EVP/chief clinical officer, Monarch Medical Technologies. The glycemic management practices of many hospitals and physician staff differ from what is overwhelmingly recommended by experts and relevant specialty societies. As a result, they are missing an opportunity to improve the quality, safety, and cost of care for their patients with diabetes and hyperglycemia, which commonly represent more than 25 percent of their inpatient population. Hospitals that transition from sliding-scale insulin regimens to consistent use of basal / bolus / correction protocols are seeing reductions in hyperglycemia, hypoglycemia, and costs. Making this shift more effective and efficient is the use of computerized insulin-dosing algorithms that can support dedicated staff using a systematic approach.  
+
+February 14 (Wednesday) 2:00 ET. “Time is Money: Aurora Health’s Journey of Implementing and Advancing Cost Accounting.” Sponsor: Strata Decision Technology. Presenter: Patrick Nolan, VP of finance, Aurora Health Care. Aurora Health Care’s implementation of Strata’s Decision Support module involved not only building an improved cost accounting model, but improving the process to engage a cross-functional team in cost development. It now has accurate, consistent cost data to support decision-making. Aurora’s next phase will be to use actual procedure and visit times to allocate costs. This presentation will provide a detailed view into both the implementation and future direction of the Strata Decision Support program within Aurora.  
+
+Previous webinars are on our YouTube channel. Contact Lorre for information.  
+
+The state of Kentucky sues McKesson for providing pharmacies with the narcotics its not-being-sued doctors prescribed. Perhaps they should go after Kroger next for selling its overweight people Doritos and Vienna sausages.  
+
+Ohio Valley Hospital (PA) selects Parallon Technology Solutions to provide training go-live and support for its implementation of Meditech physician documentation. 
+
+
+
+Doylestown Hospital (PA) chooses the cloud-based EHR of EClinicalWorks for its 169 providers. 
+
+ 
+
+Release-of-information vendor Ciox Health hires Mike Connolly (PwC) as president of retrieval services and Leke Adesida (Anthem) as SVP/chief compliance officer. 
+
+
+
+Divurgent promotes Liz Keller to VP of client services. 
+
+
+
+Industry long-timer Meg Aranow (SRG Technology) joins Brighton, MA-based urgent care EHR vendor Edaris Health as COO. 
+
+
+
+Henry Ford Health System (MI) hires Paul Browne (Tenet Healthcare) as SVP/CIO. 
+
+Colorado’s CORHIO goes live on Medicity’s Community Interchange, which gives clinicians CCDs for making patient care decisions. 
+
+Clinical Computer Systems, Inc. announces Obix as a Service, a cloud-based version of its Perinatal Data System. 
+
+CenTrak adds Bluetooth Low Energy beacon technology to its Enterprise Location Services infrastructure, offering advantages over off-the-shelf beacons that include interoperability, reliability, five-year battery life, and scalability.  
+
+Four new published studies find that use of Glytec’s EGlycemic Management System improves treatment safety and effectiveness versus paper-based diabetes and insulin management protocols. 
+
+Nuance releases Dragon Medical Practice Edition 4. 
+
+Cleveland Clinic Florida describes its $4,000 per year concierge medicine program as providing “consistent, comprehensive, personalized medical care while cultivating in-depth patient-physical relationships that support patients’ health goals,” “assistance with medical records,” and “always ample time” during office visits. Apparently we rabble who are paying for visits with insurance and cash can’t expect such service. 
+
+A claims analysis study finds that commercially insured Americans used less healthcare in 2016 than 2015, but rising prices  — especially drug, surgery, and ED costs — drove 2016 spending up more than any of the past five years. 
+
+The corporate communications director of Fairview Health Services walks back the CEO’s pointed criticism of Epic for being anti-innovation, soothing vendor relations with, “Given Epic’s prominence as an electronic health record provider, they are uniquely positioned to support collaboration for innovation in healthcare.” Notice that she didn’t actually say what Epic is or isn’t doing and thus contradict her boss – only that the company is “uniquely positioned.” 
+
+Blog Posts
+
+Mr. H, Lorre, Jenn, Dr. Jayne.Get HIStalk updates. Send news or rumors.Contact us.  
+
+
+
+Reply to Finance Guy:  I’m fascinated at how people create businesses with themselves as the only employee. I bet that practice ramped up after the ACA came into law and allowed them to buy competitively priced insurance on their own, although those days might be coming to an end.
+&amp;
+Reply to Movin’ On: The final straw that forced me to move on – for which I was eventually grateful – was differences with a new boss. 
+
+That’s why by the mid-1980s (clearly not after ACA came into law) I created a business with myself as the only employee.  At that time I was able to 1) buy competitively priced insurance on my own (although, unfortunately, those days did come to an end); and, 2) operate (admittedly, crudely) virtually.  Sure, there were tough times when I did look back.  However, I have been grateful that, for over 30 years, I was able to happily sell the majority of my waking hours to my company as well as not to suffer the hits of a revolving door of new company bosses/owners, many with whom I had differences.
+
+I’m not sure I get what Novant and Wake have done.  Happy Together is “baked in” to Epic with the most recent version.  And the patient controls the joining of the MyChart instances across provider instances.  Sounds more like marketing to me.
+
+
+
+
+
+
+
+
+Anonymous online form
+E-mail
+Rumor line: 801.HIT.NEWS
+
+
+
+
+
+Contact Form
+
+Report News or Rumors
+
+Mr. HIStalk Founder, owner, HIStalk writer
+
+Lorre General, webinar, and sponsor contact
+
+JennHIStalk Practice Writer
+
+Dr. Jayne Curbside Consult, EPtalk
+
+Staff and contributor bios are here.
+
+HIStalk has been bringing the healthcare IT industry together since 2003 with reader-contributed material such as interviews, guest articles, news and rumor reports, and Advisory Panel participation. We gratefully solicit your involvement in our efforts to educate and inform. Please see how you can become involved.
+
+HIStalk reaches a huge daily audience of provider and vendor executives, technologists, clinicians, consultants, journalists, investment professionals, professors, government officials, and other influencers. Of those, 99 percent say HIStalk influences the industry, 92 percent say it helps them do their job better, and 83 percent say it influences how they perceive companies and products. Interesting in helping both our work and yours? Contact us for an information packet.
+
+Subscribe (RSS)
+
+
+
+
+
+Start Date: 
+
+End Date: 

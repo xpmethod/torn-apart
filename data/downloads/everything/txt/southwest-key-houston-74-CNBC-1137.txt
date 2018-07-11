@@ -1,0 +1,312 @@
+
+                    							    		    			    				    				
+					    						    						    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		    				
+					    						    						    							    								    							    							    							    							      				      			       		       		    		    			    				    				
+					    						    						    							    								    							    							    							    							      				      			       		       		    									
+			
+                
+                
+        
+            var postLoadFunctions = {};
+            var foresee_enabled = 1
+            var dynamic_yield_enabled = 1
+                    
+        
+        
+                
+        
+        
+                
+
+	CNBC_Comscore = 'Politics';
+
+        
+         	
+	
+		var mpscall = {
+						'node_brand' : '2'  ,  
+
+					'site' : 'cnbc.com-relaunch'  ,  
+
+					'content_id' : '105286493'  ,  
+
+					'path' : '/id/105286493'  ,  
+
+					'is_content' : '1'  ,  
+
+					'is_sponsored' : '0'  ,  
+
+					'adunits' : 'Top Banner|Badge A|Badge B|Badge C|Badge D|Flex Ad First|Box Ad 1|Non Iframe Custom|Inline Custom|Movable Box Ad|Responsive Rectangle'  ,  
+
+					'keywords' : '~'  ,  
+
+					'cat' : 'Politics|Law|Immigration'  ,  
+
+					'cag[attribution_source]' : 'The New York Times'  ,  
+
+					'cag[configuration_franchise]' : 'Immigration'  ,  
+
+					'cag[related_primary]' : 'Immigration|US: News|Walmart Inc|Donald Trump|Laws|Politics|Texas|Pennsylvania|United States|Law'  ,  
+
+					'cag[type_source]' : 'The New York Times'  ,  
+
+					'cag[type_franchise]' : 'Immigration|Law|US: News|Politics|US: News'  ,  
+
+					'cag[type_tag]' : 'Immigration|Laws|Politics'  ,  
+
+					'cag[type_company]' : 'Walmart Inc'  ,  
+
+					'cag[type_person]' : 'Donald Trump'  ,  
+
+					'cag[type_place]' : 'Texas|Pennsylvania|United States'  ,  
+
+					'cag[brand]' : 'none'  ,  
+
+					'cag[template]' : 'story_simple'  ,  
+
+					'cag[device]' : 'web'  ,  
+
+					'hline' : 'Immigration'  ,  
+
+					'type' : 'partnerstory'  ,  
+
+					'template' : 'story_simple'  ,  
+
+					'title' : 'The billion-dollar, secretive business of operating shelters for migrant children'  ,  
+
+					'pubdate' : '1529588420'  ,  
+
+					'stitle' : 'Migrant children shelters NYT 180621 EC'  ,  
+
+					'subtype' : 'section'  ,  
+
+					'id' : '105286493'  ,  
+
+					'nid' : '105286493'  
+
+		
+		}, mpsopts = {
+		  
+		"host" : 'mps.cnbc.com',
+		"updatecorrelator" : true
+
+		};
+
+		var mps = mps || {};
+		mps._ext = mps._ext || {};
+		mps._adsheld = [];
+		mps._queue = mps._queue || {};
+		mps._queue.mpsloaded = mps._queue.mpsloaded || [];
+		mps._queue.mpsinit = mps._queue.mpsinit || [];
+		mps._queue.gptloaded = mps._queue.gptloaded || [];
+		mps._queue.adload = mps._queue.adload || [];
+		mps._queue.adclone = mps._queue.adclone || [];
+		mps._queue.adview = mps._queue.adview || [];
+		mps._queue.refreshads = mps._queue.refreshads || [];
+		mps.__timer = Date.now ? Date.now() : (function() { return +new Date })();
+		mps.__intcode = "v2";
+		if (typeof mps.getAd != "function") mps.getAd = function(adunit) {
+		    if (typeof adunit != "string") return false;
+		    var slotid = "mps-getad-" + adunit.replace(/\W/g, "");
+		    if (!mps._ext || !mps._ext.loaded) {
+		        mps._queue.gptloaded.push(function() {
+		            typeof mps._gptfirst == "function" && mps._gptfirst(adunit, slotid);
+		            mps.insertAd("#" + slotid, adunit)
+		        });
+		        mps._adsheld.push(adunit)
+		    }
+		    return ''
+		};
+		(function() {
+		    head = document.head || document.getElementsByTagName("head")[0], mpsload = document.createElement("script");
+		    mpsload.src = "//" + mpsopts.host + "/fetch/ext/load-" + mpscall.site + ".js?nowrite=2";
+		    mpsload.id = "mps-load";
+		    head.insertBefore(mpsload, head.firstChild)
+		})();
+
+	
+		
+	
+
+
+
+
+        
+
+        
+        
+
+  
+
+        
+
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t34||h
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  mps._queue.mpsloaded.push(function(){
+    mps._log('**** LOADED: cnbc-cms-header-insert');
+    if (window.mps) {
+        if (window.CNBC_Premium && CNBC_Premium.isPremium && document.cookie.indexOf('ispro=true') == -1 && (mps.pagevars.type!="franchise")) {
+          mps.nlformtypes = mps.nlformtypes || [];
+          mps.nlformtypes.push('paywall');
+        }
+
+        //
+        mps.scodePath="//fm.cnbc.com/applications/cnbc.com/staticcontent/scripts/omniture/s_code.js?v=1.6.4.1";
+        //
+
+        //
+        mps._queue.mpsinit.push(function() {
+          (function(){
+            mps._urlContainsEmail = function() {
+              var _qs = window.location.href;
+              if (!_qs) {
+                return false;
+              }
+              var _regex = /([^=&/()[].,;:s@"]+(.[^=&/()[].,;:s@"]+)*)@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))/;
+              return _regex.test(_qs);
+            };
+            if (mps._urlContainsEmail()) {
+              mps._debug('[MPS]: email address detected in url, bypass gpt.');
+              if (mps.response && mps.response.dart && typeof(mps.response.dart.adunits) === 'object') {
+                if (typeof(window._mpspixZ) != 'string') {
+                  window._mpspixZ = (function(a){var b="abcdefghiklmnopqrstuvwxyz".split("");a||(a=Math.floor(Math.random()*b.length));for(var c="",d=0;d';
+                }
+              }
+              mps.cloneAd = function() { return false; }
+              return true;
+            } else {
+              return false;
+            }
+          })();
+        });
+        //
+   }
+ });
+});
+
+
+
+
+    var setAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 60 * 24 * 30 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    }
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setAdblockerCookie(true);");
+    script.setAttribute("onload", "setAdblockerCookie(false);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+
+  if(typeof window.MediaSource !== 'function') {
+    if(typeof document.getElementsByTagName('meta')['tp:PreferredRuntimes'] === 'object') {
+        document.getElementsByTagName('meta')['tp:PreferredRuntimes'].setAttribute("content", "flash,html5");
+    }
+}
+
+
+
+        
+                
+    
+
+    
+    
+     -->
+    
+                    var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"411582",ustr:"",originlat:"0",clientrtt:"17",ghostip:"65.202.184.182",ipv6:false,pct:"10",clientip:"108.27.49.54",requestid:"4b207e7c",region:"27475",protocol:"",blver:14,akM:"e12",akN:"ae",akTT:"O",akTX:"1",akTI:"4b207e7c",ai:"265598",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}
+                    
+    
+
+
+
+The business of housing, transporting and watching over migrant children detained along the southwest border is not a multimillion-dollar business.
+
+It's a billion-dollar one.
+
+The nonprofit Southwest Key Programs has won at least $955 million in federal contracts since 2015 to run shelters and provide other services to immigrant children in federal custody. Its shelter for migrant boys at a former Walmart Supercenter in South Texas has been the focus of nationwide scrutiny, but Southwest Key is but one player in the lucrative, secretive world of the migrant-shelter business. About a dozen contractors operate more than 30 facilities in Texas alone, with numerous others contracted for about 100 shelters in 16 other states.
+
+Read more from The New York Times: Defense Dept. to help Justice Dept. prosecute immigration casesSwift frontier justice for migrants brought to federal courtsWhat's behind the 'tender age' shelters opening for young migrants
+
+If there is a migrant-shelter hub in America, then it is perhaps in the four-county Rio Grande Valley region of South Texas, where about a dozen shelters occupy former stores, schools and medical centers. They are some of the region's biggest employers, though what happens inside is often highly confidential: One group has employees sign nondisclosure agreements, more a fixture of the high-stakes corporate world than of nonprofit child-care centers.
+
+The recent separation of some 2,300 migrant children from their families under the Trump administration's "zero tolerance" policy on illegal border crossers has thrust this invisible industry into the spotlight in recent weeks, as images of toddlers and teenagers taken from their parents and detained behind locked doors have set off a political firestorm. President Trump's order on Wednesday calling for migrant families to be detained together likely means millions more in contracts for private shelter operators, construction companies and defense contractors.
+
+A small network of private prison companies already is operating family detention centers in Texas and Pennsylvania, and those facilities are likely to expand under the new presidential directive, should it stand up to legal review, analysts said.
+
+The range of contractors working in the migrant-shelter industry varies widely.
+
+BCFS, a global network of nonprofit groups, has received at least $179 million in federal contracts since 2015 under the government's so-called unaccompanied alien children program, designed to handle migrant youths who arrive in the country without a parent or other family member. Many of the contractors, some of which are religiously affiliated organizations and emergency-management agencies such as Catholic Charities, see their work as humanitarian aid to some of the most vulnerable children in the world.
+
+But several large defense contractors and security firms are also building a presence in the system, including General Dynamics, the global aerospace and defense company, and MVM Inc., which until 2008 contracted with the government to supply guards in Iraq. MVM recently put up job postings seeking "bilingual travel youth care workers" in the McAllen area of South Texas. It described the jobs as providing care to immigrant children "while you are accompanying them on domestic flights and via ground transportation to shelters all over the country."
+
+The migrant-shelter business has been booming since family separations began on a large scale last month along the southwest border.
+
+For years, including during the Obama administration, contractors housed children who were caught illegally crossing the border unaccompanied by a parent or guardian. After the new policy, the contractors put in new beds and expanded beyond their licensed capacities to house the growing numbers of children the government separated from their families. In Texas alone, 15 shelters have received variances from state officials to expand, including adding bedroom space and toilets, increasing the total licensed capacity in Texas to nearly 5,300 children, from around 4,500.
+
+The shelters' rush to house, and cash in on, the surge of children has made them a new target for Democrats, immigrant advocates and a vocal chorus of local, state and federal officials and community leaders.
+
+Many of these contractors, including Southwest Key, whose president and chief executive, Juan Sánchez, has been a well-known and politically connected figure in South Texas for years, saw themselves as the good guys in all the years they were sheltering, housing and educating young people who had crossed the border on their own. But as their client base increasingly has included children forcibly removed from their parents, that public good will has eroded.
+
+Critics have released tax records showing Mr. Sánchez's compensation — more than $770,000 in 2015 alone — and his organization's usually under-the-radar efforts to open new shelters have become pitched public battles. In Houston, a number of Democratic officials, including Mayor Sylvester Turner, called on Mr. Sánchez to abandon plans to turn a former homeless shelter into a new migrant youth shelter near downtown. Mr. Turner and others said they would urge state regulators to deny the proposed shelter a child-care-facility license.
+
+Some have raised concerns that the rush to expand will make it difficult to properly manage the housing and care of infants, toddlers and teenagers, all of whom have a host of complex emotional, health and legal issues. In recent years, a number of migrant youth shelters have run into problems unseen by the public: fire-code violations, lawsuits claiming abuse, and complaints from employees alleging wrongful termination and unpaid wages.
+
+The former Walmart shelter failed two of its 12 fire inspections, including for sprinkler-system problems, but passed its most recent inspection this month. State officials have investigated allegations of sexual abuse and neglectful supervision at numerous facilities.
+
+Shelter executives and their supporters, as well as federal officials, say they stand behind the contractors' management, their fiscal responsibility and their overall mission.
+
+"Our growth is in direct response to kids coming to the border," said Alexia Rodriguez, Southwest Key's vice president of immigrant children's services.
+
+She said that Southwest Key shelters must be in compliance with hundreds of standards to keep their state licenses.
+
+The majority of the thousands of potential violations that are investigated each year are self-reported by Southwest Key staff to state licensing officials, who conduct an investigation and decide whether there has been a violation. When applicable, Ms. Rodriguez said, staff members under investigation are suspended pending the results.
+
+The 150 or so deficiencies cited over the past three years are out of tens of thousands of potential violations, most of which were reported by Southwest Key, Ms. Rodriguez said. "We may overreport. But what's critical is how a company responds to a possible incident," she said. "I can say we've never had a deficiency that was not addressed appropriately."
+
+While Southwest Key has garnered attention because of the Trump administration's policy of breaking up families at the border, only 10 percent of children in its facilities were separated from their relatives. The vast majority in its care still came to the United States alone as unaccompanied minors, mainly from Guatemala and El Salvador.
+
+The group's shelter capacity has grown significantly: In 2010, it had capacity for up to 500 children a day across 10 shelters. Now it can serve up to 5,000 children a day across 26 shelters. The recent surge in family separations has put even more of a demand on its facilities.
+
+In Harlingen one recent morning, the federal courthouse that hears immigration cases was packed. Teenagers who had been apprehended crossing the border sat in the courtrooms, fidgeting in their rolled-up jeans and sneakers.
+
+In the lobby, a group of men and women whispered among themselves as they patiently waited for the hearings to end. They were there for the migrant youth. But they were neither relatives nor lawyers. They were contractors. Their job was to escort the detained children back to nearby shelters.
+
+Transportation to and from shelters is but one service supplied by contractors on the federal dime.
+
+Adults and children who are apprehended illegally crossing the border are detained and housed in a variety of facilities, some of which are run by the government and some by private contractors. There are detention centers at Border Patrol stations and at facilities operated by private-prison contractors such as CoreCivic. And then there are the migrant youth shelters.
+
+One of the best-known is Casa Padre, the name of Southwest Key's shelter for 10- to 17-year-old boys at the converted Walmart. It is the largest shelter of its kind in the country, with nearly 1,500 boys.
+
+The building is owned not by Walmart but by private owners, who lease it to Southwest Key. The Walmart was gutted, redesigned and renovated into a kind of mini-city, with murals, classrooms, medical offices, on-call physicians, work cubicles, movie theaters, a barbershop and a cafeteria.
+
+Pre-Trump, Southwest Key was warmly received by left-leaning immigration activists and civil rights organizations. Post-Trump, some of the group's former allies are now leading the outcry.
+
+Legal organizations including the A.C.L.U. and the Lawyers' Committee for Civil Rights Under Law represented Southwest Key in a 2015 lawsuit against Escondido, Calif., accusing the city of manipulating land use and zoning laws to block the opening of a new center that could house 96 children.
+
+The lawsuit quoted Escondido citizens who had opposed the facility in letters and hearings. "I believe most of us are sick of paying for undocumented invaders," one comment read.
+
+Southwest Key eventually received a $550,000 settlement from Escondido, but during the case the organization opened housing elsewhere instead.
+
+"I was taken aback by the venom that came out of certain members of that community, and the threats I received personally to my safety and security," said Ms. Rodriguez, the Southwest Key executive. "These are innocent children that have done nothing wrong, fleeing violent communities, and this is the response we were getting in Escondido?"
+
+Migrant shelter operators say they have been wrongly thought to be housing youths in the kind of heavily crowded facilities near border crossings at which migrants receive their initial processing.
+
+Images of children in chain-link cages and pens that have circulated online recently are mainly taken at Border Patrol sites run by the government. Housing at places like Southwest Key facilities generally include dorms, classroom areas and medical and counseling centers.
+
+"If we ever put a kid in a cage, we'd be shut down for mistreating children," said Ms. Rodriguez. "People are conflating us with the facilities run by Border Patrol, which is a division of Homeland Security. We work with the social service side of the federal government. We are not law enforcement."

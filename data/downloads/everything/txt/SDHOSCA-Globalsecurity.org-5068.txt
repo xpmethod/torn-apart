@@ -1,0 +1,70 @@
+
+﻿
+
+
+
+
+    document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+    var setNptTechAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    }
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+
+
+
+
+
+(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("//experience.tinypass.com/xbuilder/experience/load?aid=bYdYZQml5V");
+
+
+
+
+
+
+
+Navy News Service
+
+Story Number: NNS171204-05
+  Release Date: 12/4/2017 9:55:00 AM
+
+By Mass Communication Specialist 3rd Class Justin Schoenberger USS San Diego Public Affairs
+
+NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (NNS) -- The amphibious transport dock ship USS San Diego (LPD 22) departed Naval Support Activity Souda Bay, Greece, Nov. 30 after a scheduled port visit.
+
+During San Diego's five-day port visit, the crew hosted commander, United States Africa Command (AFRICOM), Marine Gen. Thomas D. Waldhauser, who held an all-hands call to thank the crew for the role they played in advancing the national objectives while in the region.
+
+"I want to thank San Diego for how you guys separated from the [America Amphibious Ready Group] and everything that you've done in support of AFRICOM over the past two and a half months," said Waldhauser. "We could not do what we needed to do on the ground without San Diego being here and we appreciate San Diego's hard work, dedication, and timeliness that you guys all provided."
+
+Speaking to the U.S. Marines assigned to the 15th Marine Expeditionary Unit (MEU) was significant to Waldhauser, who formerly served as the commanding officer of the 15th MEU, and his words resonated with the crew.
+
+"It was pretty awesome that AFRICOM came on board to talk to all of us about what we're doing here in U.S. 6th Fleet," said U.S. Marine Cpl. Angel Vargas. "It's even better than I thought when I found out he was once the 15th Marine Expeditionary Unit's commanding officer."
+
+In addition to the visit from AFRICOM, the port visit allowed the crew to conduct maintenance on the ship and provided some time to relax, and enjoy the scenery of Souda Bay and the surrounding areas.
+
+"We've been out at sea for a while," said Hospital Corpsman 3rd Class Colby Duchesne. "Souda Bay is a beautiful place and I am glad we had the opportunity to experience it again."
+
+While in port, San Diego took the opportunity to complete preservation projects to reduce corrosion on the ship.
+
+"We've been painting most of the side of the ship during our time in port," said Seaman Daniel Roberts. "The ship looks really good and I can see how much hard work is put into it."
+
+The port visit came at a convenient time for the deployed Sailors and Marines aboard San Diego as it provided them the opportunity to complete some holiday shopping.
+
+"I'm glad we had the chance to pull in prior to the holidays", said U.S. Marine Gunnery Sgt. Dana Cisneros. "Even while deployed and on the other side of the world from our home, we had the ability to go out in town and get gifts for our friends and families to spread some joy during this festive season."
+
+San Diego is deployed with the America Amphibious Ready Group (ARG) and the 15th MEU to conduct maritime security operations and theater security cooperation in efforts in the U.S. 6th Fleet area of operations.
+
+The America ARG and 15th MEU provide senior U.S. military leadership and partners with a flexible force which can rapidly respond to contingencies and crises within the region. With ships, aircraft, troops, and logistical equipment, the ARG/MEU is capable of conducting a wide range of military operations including humanitarian assistance and disaster relief.
+
+The America ARG, led by Commander, Amphibious Squadron 3, consists of the San Diego, the America-class amphibious assault ship USS America (LHA 6), and the Harpers Ferry-class amphibious dock landing ship USS Pearl Harbor (LSD 52). They operate with embarked forces of the 15th MEU, the "Wildcards" of Helicopter Sea Combat Squadron (HSC) 23, and detachments from Assault Craft Unit 5, Naval Beach Group 1, Beachmaster Unit 1, Fleet Surgical Team 1 and Tactical Air Control Squadron 11.
+
+The 15th MEU is a Marine Air-Ground Task Force comprised of a ground combat element, Battalion Landing Team 1st Battalion, 5th Marines; an aviation combat element, Marine Medium Tiltrotor Squadron 161 (Reinforced); a Logistics Combat Element, Combat Logistics Battalion 15.
+
+
+
+

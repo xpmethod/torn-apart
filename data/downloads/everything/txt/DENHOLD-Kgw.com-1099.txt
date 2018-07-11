@@ -1,0 +1,80 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 84 degrees
+
+DENVER (AP) - Nikola Jokic posted his 10th triple-double of the season and the Denver Nuggets kept their playoff hopes alive by rallying past the Portland Trail Blazers 88-82 on Monday night.
+
+
+The Nuggets have won a season-high six straight games and a seventh, on Wednesday night in Minnesota, would clinch their first playoff berth since 2012-13.
+
+Jokic scored 15 points and pulled down a season-best 20 rebounds and had 11 assists. Will Barton added 22 points, leading a comeback from an 11-point third-quarter deficit.
+
+
+The Trail Blazers, who lost for the fourth consecutive time, were in it until the very end, but Jusuf Nurkic, who had 20 points and 19 rebounds, missed one of two free throws with 47 seconds left and Jamaal Murray sank two free throws with 30 seconds left to put Denver ahead 84-80.
+
+
+Daman Lillard, who led the Trail Blazers with 25 points, missed a 15-footer and Paul Millsap grabbed the rebound.
+
+
+The Trail Blazers, who hold the inside track for securing the third seed in the Western Conference playoffs, blew an 11-point third-quarter lead.
+
+Jokic posted his 16th career triple-double when he fed Devin Harris for a 3-pointer that put the Nuggets ahead 73-71 with eight minutes left, their first lead of the second half.
+
+
+They didn't trail again.
+
+
+Nuggets coach Michael Malone was concerned about Portland's offensive rebounding going into the showdown, which came exactly one year after Russell Westbrook's buzzer-beating 3-pointer gave Oklahoma City a 106-105 win at Denver that eliminated the Nuggets from last year's playoff party.
+
+
+"They're one of the better 3-point shooting teams in the league and one of the better offensive rebounding teams in the league," Malone said about two hours before tip-off. "And that's what scares me: when the shot goes up, can we have a physical, hit-first mentality and not allow them to dominate the glass? And that's been an issue for us as of late."
+
+
+It was an issue again Monday night as Portland scored 25 second-chance points but it was the Nuggets who came up with the big plays down the stretch.
+
+Gary Harris, the Nuggets' second-leading scorer, played for the first time since spraining his right knee on March 15 and he promptly swished a jump shot during Denver's 28-23 first quarter. He finished with 12 points, including two big free throws with 20 seconds left.
+
+
+LISTEN TO KGW'S 3-ON-3 BLAZERS PODCAST
+
+
+Listen to the 3-on-3 Blazers Podcast each week with KGW's Orlando Sanchez, Jared Cowley and Nate Hanson. Subscribe on iTunes, SoundCloud and Stitcher.
+
+
+TIP-INS
+
+
+Trail Blazers: F Ed Davis returned to action after missing four games with a sprained right ankle, and coach Terry Stotts said the boost he provided was bigger than his 5.4-point and 7.4-rebound averages. "What he offers on the court is unique, as far as his rebounding, his screen setting, his finishing around the paint, all those things," Stotts said. "His presence in the locker room, his presence on the bench. Just the intangibles. He's been a very integral part of what we've done this year."
+
+
+Nuggets: Malone said he decided to bring Gary Harris off the bench rather than start him because he didn't want to mess with the chemistry the Nuggets had developed while going 7-4 in his absence. "I'm not going to mess with our starting lineup right now. We have a great rhythm going," Malone said. ... Will Barton had averaged 18.5 points, 5.3 rebounds and 3.7 assists while starting in Harris' place the previous 11 games.
+
+
+JOKIC HONORED: Malone said Jokic's Western Conference player of the week award is really a team honor.
+
+
+"If Nikola is putting up those numbers on a losing team, he wouldn't get recognized. So, I think it speaks to Nikola's brilliance on the court, but more importantly it speaks to the fact that everybody thinks we're out of the playoffs, we find ways to win games, we win five in a row, against some really tough competition and that's why you get him recognized," Malone said.
+
+
+Jokic averaged 23 points, 10.3 rebounds, 9 assists, 2.33 steals and a block while helping Denver go 3-0 during the week. He also won the award back in November and is the first Nuggets player to earn multiple player of the week honors since Carmelo Anthony did it in 2009-10.
+
+UP NEXT
+
+
+Trail Blazers: Play Utah at home Wednesday night in their regular season finale.
+
+
+Nuggets: At Minnesota on Wednesday night in their regular season finale.

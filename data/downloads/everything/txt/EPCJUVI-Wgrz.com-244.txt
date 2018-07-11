@@ -1,0 +1,114 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 80 degrees
+
+EL PASO — A video showing an El Paso police officer pointing his gun at a group of children has gone viral, with more than 2.7 million views on Facebook.
+
+
+The incident, which occurred Thursday and resulted in the officer being placed on desk duty, is being investigated, city officials said Saturday after the video surfaced and was reported by the media.
+
+El Paso Deputy City Manager Dionne L. Mack and El Paso Police Department spokesman Sgt. Enrique Carrillo said at a news conference Saturday that an adult and a minor were arrested for interfering with the duties of a police officer. No injuries were reported.
+
+
+"We have assigned additional resources to ensure the investigation can be completed expediently," Mack said. She did not provide a timeline for when the investigation would be completed.
+
+
+More: Four Arizona officers are on leave after video shows man being punched
+
+
+More: Kindergarten teacher again accused of slapping 5-year-old student
+
+
+The video, which was posted at about 7 p.m. Friday on Facebook by a person with the handle "Aj-King Stoner," begins in the middle of an altercation between a police officer and a boy who appears to be a teenager. 
+
+
+The El Paso Times has chosen not to share the video because of the graphic content.
+
+
+The video is laden with curse words, mostly from children yelling at police officers. It shows an unidentified officer with his hand on the head of a boy who is sitting on the sidewalk by the Seville Recreation Center in a neighborhood north of Ascarate Park.
+
+
+At least six young boys can be seen in the video yelling at the officer. The officer then pulls out his handgun, points it at the boys and yells “Back up! Back up (expletive).”
+
+
+The boys curse back at the officer. The officer puts his weapon back into its holster after a few seconds.
+
+
+The names of the officer, who has been with the department for four years, and the two people arrested have not been released.
+
+The incident began when officers responded to a report of criminal trespassing at about 5:50 p.m. Thursday, Carrillo said.
+
+
+“The officers arrived and were handling that when they encountered the suspect involved in the criminal trespass and from there the events you witnessed in this video unfolded and that is where we are at,” Carrillo said.
+
+
+No further details were released on what happened before the recording started or after the video ended.
+
+
+Mack said her office was notified about the incident Saturday morning after the video had gone viral. She added that, to her knowledge, no complaints had been filed against any of the officers involved in the altercation.
+
+
+After holstering his gun, the officer in the video points to someone off camera and says, "You again?" 
+
+
+He calls for more officers to respond to the scene. “Get over here,” the officer is seen saying into his radio.
+
+
+The children curse at the officer and his partner throughout the five-minute video, which has been shared more than 47,000 times and has received more than 25,000 comments. 
+
+
+About 30 seconds into the video, another officer runs into the scene. Both officers then pull the boy, who was being held down by the first officer, to the ground.
+
+
+While the boy is being handcuffed, the officer who earlier pointed the gun at the children, extends a nightstick. He yells at the crowd, which has grown, to get back.
+
+
+The boy recording the video says, “It is all good. We are going to put a report on these two fools. It’s all good.”
+
+
+He is then grabbed by the police officer but hands his phone to someone else and is handcuffed and placed in the back of a squad car with the boy who had already been handcuffed.
+
+
+A woman can be heard yelling curse words at the officers. An officer then approaches the woman, who runs away from the officer. He tells her "I know where you live." The woman tells the officer she doesn't care using an expletive and says, "I'll move."
+
+The officer later begins arguing with a young boy and tells the boy “do something.” The officer, who is several feet taller than the boy, stands over the boy and continues to stare at him.
+
+
+The boy is then grabbed by the officer and put up against the police vehicle.
+
+
+The woman who is recording yells, “Just because he is my son, he is going to take him in. What a (expletive).”
+
+
+The video does not show if the boy was arrested.
+
+
+The crowd continues to scream curse words as more officers arrive at the scene.
+
+
+The video ends with an officer coming up to the woman recording the video and asking for her contact information.
+
+
+Officials declined to provide details about the department’s policies on officers pulling out their handguns or batons during incidents. The policy was not released Saturday.
+
+
+The Internal Affairs investigation will look at whether the officer violated any department policies, Mack said.
+
+
+"The whole investigation process with IA (Internal Affairs) will determine whether the officer followed protocol, look at all of the related incidents that surrounded that, take an opportunity to (do) interviews," Mack said. "And go through that entire process, so all the facts and data are gathered before any conclusions are drawn."
+
+
+Follow Aaron Martinez on Twitter: @AMartinez31

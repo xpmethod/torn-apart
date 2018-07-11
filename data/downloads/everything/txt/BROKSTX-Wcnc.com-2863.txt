@@ -1,0 +1,77 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WCNC.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WCNC.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Charlotte Weather Summary: 93 degrees
+
+CHESTERFIELD COUNTY, S.C. – The Chesterfield County mother accused of disposing of her 11-month-old daughter’s body in a diaper box outside their home remains in jail under suicide watch, authorities said Thursday. 
+
+
+Chesterfield County Sheriff Jay Brooks said that 19-year-old Breanna Lewis is on suicide watch in the Chesterfield County Detention Center after she was arrested Tuesday on charges of disposing of her daughter Harlee’s body inside a plastic bag and diaper box behind the family’s home. Brooks said two deputies found the child’s body after searching the property for several hours, estimating that she died between 6:30 a.m. and noon on May 29. 
+
+Brooks said he doesn't know how baby Harlee died, whether it was an accident Lewis tried to cover up, or if she did something to hurt the child before her death. 
+
+
+RELATED: SC mom charged with improper dispoal of human remains after death of 11-month-old
+
+
+
+
+
+When police arrived at the scene, Lewis allegedly told deputies a white man in an SUV arrived at the scene and abducted her baby girl. Brooks claims her story quickly unraveled when pressed by detectives. 
+
+
+
+
+
+Brooks: "She made a couple of statements that sometimes the child was hard to handle and it frustrated her to the point that she called it 'blacking out.' I don't think she fainted, her mind just shut down and I think there were times that child pushed her to that limit."
+
+Knowing the chances of a stranger abducting the child were “close to zero,” Brooks and his deputies began to wonder if something else happened to baby Harlee. 
+
+
+“We talked for just a second, and somebody said, ‘what if?’ And that ‘what if’ is what changed the direction of that investigation,” Brooks said. “We kept some people working on the AMBER Alert, but we start thinking what if something else happened to that child.”
+
+
+After obtaining a search warrant for the home and property, two deputies eventually found the child’s remains inside a bag stuffed into a diaper box along the edge of the woods about an hour later. Brooks said the diaper box’s appearance is what tipped off a deputy to look closer. 
+
+
+“They noticed it because it had not been rained on, it had not faded. It was still bright blue, bright red, bright white. They eased up on the diaper box, and with their pen, they opened the top and looked inside,” said Brooks. “And inside that box was a 1-year-old little girl in a plastic bag.
+
+“The hardest part of this is how do you put a dead child in a garbage bag and just throw it away?”
+
+
+When detectives showed Lewis a photo of the box and the child’s remains inside, Brooks alleged she claimed to not recognize her. An autopsy on Harlee’s remains was scheduled for Wednesday morning, but Brooks said due to South Carolina law, the results will not be made public, however, if there is a crime or any charges are filed, details may become available in warrants and affidavits. 
+
+
+The sheriff said Lewis needed over an hour with paramedics before she was able to calm down and they filed an Amber Alert for Harlee. He said after telling the same story to deputies for 15 minutes, she began to say she made up the kidnapping part of her story. Brooks said there were no active or closed cases from Social Services on Lewis, and that she had no criminal history.
+
+
+Brooks, often overcome with emotion during the press conference, said because a child was found dead, the case is different and referenced other notable cases. 
+
+
+“This case has touched the heart of the county,” Brooks explained. “It has obviously touched the heart of the region. It touches that string, like the Erica Parsons case and others like it, it makes you feel that sickening in your stomach you felt in those cases. There’s some cases that just make you want to cry.” 
+
+
+Brooks said the child’s father committed suicide last September in North Carolina, but his family had been attempting to gain custody of Harlee for some time, but there is no current evidence that suggests anyone else was present besides Breanna Lewis and the baby at the time of her death. He said a search of the family’s home turned up no additional clues, but he was concerned about a lack of proper food for a 1-year-old baby. Brooks announced no alcohol or illegal drugs were found in the home. 
+
+
+“There’s a very good possibility that this child died of some type of natural causes,” said Brooks. “This child could have laid there and absolutely suffocated herself, and that happens. That may be child endangerment, maybe child abuse, and maybe negligence, but that’s not murder. Murder has to have intent.” 
+
+Lewis is currently facing three charges in connection with the child’s death and is being held under a $71,000 bond. The cause of Harlee’s death has yet to be determined, but Brooks did say that the coroner told him there were no readily visible signs of trauma on the child’s body. While he didn’t rule out any additional charges, Brooks said it’s vital for investigators to do their job thoroughly. 
+
+
+“Nothing will stop us from knowing that we know everything that happened,” he said. “We’ve got to find out exactly what happened and charge appropriately.”
+
+
+A candlelight vigil will be held for Baby Harlee at 6 p.m. Wednesday, June 6, at the courthouse in Chesterfield. 

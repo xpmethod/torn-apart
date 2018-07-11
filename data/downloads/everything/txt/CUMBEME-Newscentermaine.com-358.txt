@@ -1,0 +1,36 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 75 degrees
+
+3 Closing Alerts
+
+Learn More
+
+STANDISH (NEWS CENTER Maine) -- Four months after police chased down a stolen U-Haul truck, they did it all over again.
+
+
+As before, the latest chase also ended with the arrest of 41-year-old William Wyman from Portland.
+
+
+A Cumberland County Sheriff's deputy said he took off after Wyman upon spotting the U-Haul racing eastbound along Route 35 in Standish at about 10 p.m. on Sunday. As their speeds increased, the deputy said he broke off the chase over safety concerns.
+
+Wyman soon crossed paths with another deputy in Windham. The second deputy said he watched as Wyman drove through a red light at the intersection of Routes 35 and 302.
+
+
+Following in the direction of his travel, both deputies soon caught up to Wyman where his U-Haul had crashed near the intersection of Tandberg Trail and Knox Street. After determining his injuries were minor, the deputies arrested Wyman on charges of motor vehicle theft, criminal speed, driving to endanger, failing to stop for a police officer, operating after suspension and additional traffic violations.
+
+
+The events mirrored a previous encounter between police and Wyman last Halloween. He was similarly accused of trying to outrace police in a stolen U-Haul and arrested after a crash.
