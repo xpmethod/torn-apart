@@ -1,4 +1,4 @@
-const imgurImages = [
+[
   {"STCDFTX": {"thumb": "https://i.imgur.com/HEuHZkM.png",
   "large": "https://i.imgur.com/wvToXEV.png"}},
   {"STWRTGA": {"thumb": "https://i.imgur.com/SobhsQ3.png",

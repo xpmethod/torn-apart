@@ -1,4 +1,4 @@
-const blacksites = {
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -402,4 +402,4 @@ const blacksites = {
       }
     }
   ]
-};
+}
