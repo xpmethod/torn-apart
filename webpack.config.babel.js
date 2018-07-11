@@ -5,10 +5,10 @@ const context = join(__dirname, "src");
 export default {
   context,
   entry: {
-    reflections: "./reflections.js"
+    i18n: "./i18n.js"
   },
   output: {
-    filename: "[name].bundle.js",
+    filename: "[name].js",
     path: join(__dirname, "docs", "assets", "js"),
     libraryTarget: "umd",
     library: "tornApart",
