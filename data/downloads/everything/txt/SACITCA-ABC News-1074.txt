@@ -1,0 +1,71 @@
+Coming up in the next {{countdown}} {{countdownlbl}}
+
+Coming up next:
+
+{{nextVideo.title}}
+
+{{nextVideo.description}}
+
+Skip to this video now 
+
+Related
+
+Now Playing:
+
+{{currentVideo.title}}
+
+
+
+
+
+
+
+Play Video 
+
+This transcript has been automatically generated and may not be 100% accurate.
+
+Netflix fires Danny Masterson amid sexual assault allegations
+
+Three women claim "The Ranch" star raped them in the early 2000s but Masterson was never charged with a crime and has denied all the allegations. 
+
+Now Playing: Netflix fires Danny Masterson amid sexual assault allegations
+
+Now Playing: Jeremy Piven 'unequivocally' denies 'appalling' groping allegations
+
+Now Playing: What is a monsoon?
+
+Now Playing: D.L. Hughley on black community's relationship with police, uptick in hate crimes
+
+Now Playing: Couple considers divorce to pay for daughter's health care
+
+Now Playing: Woman allegedly left 2 babies locked in car during scorching heat wave
+
+Now Playing: The legal history of Roe v. Wade
+
+Now Playing: Woman arrested for allegedly attacking 92-year-old man with a brick on July 4
+
+Now Playing: Boys rescued from Thai cave improving as Trump talks tough to NATO
+
+Now Playing: Cars smashed by giant chess pieces thrown from an apartment rooftop
+
+Now Playing: 'It was a stupid idea': Train hoppers call 911 to be rescued
+
+Now Playing: Mom has 10th child at same hospital, delivered by same doctor
+
+Now Playing: A gas explosion causes an evacuation
+
+Now Playing: 'You must be Ben': Man meets biological father for the first time
+
+Now Playing: Man discovers biological father was living just 20 minutes away
+
+Now Playing: Instagram star bitten while swimming with sharks
+
+Now Playing: Woman found dead in condo's trash compactor
+
+Now Playing: Gas explosion rocks Wisconsin town
+
+Now Playing: Tensions high for Trump at NATO summit 
+
+Now Playing: Air Force's $10,000 toilet seat covers now 3-D printed for much less
+
+Now Playing: {{itm.title}}

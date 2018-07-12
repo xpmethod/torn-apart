@@ -1,0 +1,45 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 74 degrees
+
+3 Closing Alerts
+
+Learn More
+
+AUGUSTA (NEWS CENTER Maine) - Maine's legislature sided with Maine County Sheriffs Monday by overriding a veto to provide funding to jails.
+
+
+Two bills affecting jails were among more than 40 bills vetoed by Governor LePage the week of July 4th.
+
+
+Cumberland County Sheriff Kevin Joyce, who is also the president of the Maine Sheriffs' Association, said he took the vetoes and the letter that accompanied them "personally."
+
+In his veto letter, the Governor wrote that the jails have been "financially mismanaged for years." He said jail administrators "assume the state will bail them out by providing additional state funding to fix a county problem."
+
+
+"I am appalled...I take personal offense on that, because we scrub as many numbers as we possibly can," said Sheriff Joyce. Currently, Maine jails are funded partially by state money, and partially by your property taxes.
+
+
+"I've saved as many erasers and rulers and paper as I can," Joyce said. "Really now we are down to people, and I can't cut any more people then I've got."
+
+
+Sheriff Joyce said without the funding from the two vetoed bills, he wouldn't be able to run the Cumberland County Jail properly.
+
+
+More than half of Maine's 16 County Sheriffs were at the State House Monday to lobby for the money. "We don't like coming here and groveling for money," Joyce said. "The first day that I don't have to come [to Augusta] and ask for money will be a good day."
+
+
+The legislature sided with the sheriffs, overriding the Governor's veto and passing the bills for funding.

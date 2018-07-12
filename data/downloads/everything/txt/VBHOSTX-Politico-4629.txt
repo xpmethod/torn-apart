@@ -1,0 +1,140 @@
+The Friday Cover is POLITICO Magazine's email of the week's best, delivered to your inbox every Friday morning.
+
+By signing up you agree to receive email newsletters or alerts from POLITICO. You can unsubscribe at any time.
+
+
+                Jason Grow for POLITICO Magazine
+
+
+                        What Works
+
+
+                        Inventor Dean Kamen thinks so, and the Pentagon is backing him up.
+
+
+            By COLIN WOODARD
+
+December 18, 2017
+
+MANCHESTER—Long waiting lists are a drag, but when they’re for an organ transplant, they can also be lethal. Over 120,000 Americans are waiting for a donated organ, and the list gets longer all the time. Twenty-two of them die each day, and many of those lucky enough to make it perish from routine illnesses because their immune systems have been hobbled by drugs to prevent the rejection of the transplanted organ. 
+
+But inside a massive repurposed 19th-century mill complex in New Hampshire’s largest city, a world famous inventor has teamed up with some of the country’s leading scientists and biomedical engineering firms to wipe out that list once and for all. 
+
+
+Story Continued Below
+
+They’re going to make the organs. 
+
+And not one by one, but on an industrial scale, potentially producing tens of thousands of kidneys, hearts, livers and lungs annually, each one grown from the recipients’ own cells. Three-dimensional printers and bioreactors might churn out skin and cartilage to help heal wounded soldiers the way the looms in the red brick buildings of the Manchester Millyard once produced cloth to dress the Union Army. Tracheas, blood vessels, ears and bones would grow in high-tech robotic assembly lines. Lives would be saved, chronic conditions cured. And long-suffering Manchester—founded in the 1800s by New England’s elite as an American manufacturing utopia—could find itself the center of one of the 21st century’s most vital new industries.
+
+“The huge win is creating an industry that can supply the demand for organs, many of them made from your original equipment manufacturer—your own DNA,” says inventor Dean Kamen, acting director of the effort, whose engineering powerhouse DEKA (where Kamen invented the Segway transporter) is located in a renovated mill next door. “If you can bring that to scale you’d be solving for the whole country a need in medical care, reducing costs, increasing quality, getting rid of the chronic cost of taking care of people by giving them a cure.”
+
+“We’d be wiping out huge issues that are bankrupting the country from a health care point of view,” he adds. “But locally we’d also create an economy that will probably exceed what it was in the 1840s and 1860s when this millyard was the cutting edge of technology and the largest industrial complex in the United States.”
+
+
+
+                            Michael Skelton, the president of the Manchester Chamber of Commerce. | Jason Grow for POLITICO Magazine
+
+Kamen is aiming for Manchester to become the Silicon Valley of regenerative medicine, the place where miraculous breakthroughs in the laboratory can come to be manufactured. “This is a transformational opportunity for Manchester,” says Mike Skelton, president and CEO of the local chamber of commerce. “We have this opportunity to reposition ourselves as a world leader in manufacturing once again.”
+
+
+Story Continued Below
+
+Kamen acknowledges the world of mass-produced organs is still years away, but with nearly $300 million in public and private investments, including $80 million from the Pentagon, and the world class coalition of partners Kamen has assembled to execute the project, his vision might very well come to pass, changing the city, state and world in the process.
+
+***
+
+Twenty years ago, the world gawked at a photograph of a hairless mouse with what looked to be a human ear growing under its skin.
+
+ Two Harvard surgeons and an MIT engineer had been experimenting with getting cells to grow on a man-made, biodegradable scaffold the size and shape of a 3-year old’s ear, an early step in a quest to find a better solution for pediatric plastic surgeons, who found ears one of the hardest things to reconstruct. The image, distributed out of context on the Internet, stoked public fear of genetic engineering, “a metaphor for both the good and bad things about the human condition,” as one of its creators, Charles Vacanti, later put it. But in reality, the mouse hadn’t been modified, nor had it grown the ear; rather scientists had placed it surgically under its skin to test if it would integrate with its circulatory system and grow. It did, a baby step forward in the quest to build our own replacement parts.
+
+ Two decades later, you still can’t get a new ear grown for you, much less a heart or liver, despite some breathtaking advancements in laboratories. Basic researchers have produced skin, veins, trachea and urethras—the relatively easy structural tissues and organs those in the field call “sheets and tubes”—but the processes are painstaking and expensive. One of the leaders in the field, Anthony Atala, in 1999 led a team that hand-crafted replacement bladders for seven children, growing them from their own cells on scaffolds. A decade ago, based at Wake Forest Baptist Medical Center in Winston-Salem, he pioneered the development of 3D printers capable of printing customized organ scaffolds made of keratin, collagen or biodegradable polymers, then ones that could print skin cells directly onto a patient; and then ones that could print cells and the vessel passages that keep them alive directly onto scaffolds that could then be implanted in the body. Growing these tissues or organs can take anywhere from days to weeks depending on their size and complexity. 
+
+
+
+                            Dr. Anthony Atala displays a sample of protein keratins extracted from human hair that Elizabeth Howse is preparing for use in constructing scaffolds for tissue engineering at Wake Forest University, ten years ago. | Robert Willett for Getty
+
+But getting these groundbreaking innovations off the lab bench and into commercial production has proved a daunting task. The engineering challenges are enormous, and most basic scientists have no experience in creating mass assembly systems, much less ones whose production can earn Food and Drug Administration approval for use in living people. Dozens of private companies have been at work trying to develop products for clinical use, but progress has been painfully slow.
+
+“We were making esophagus, but the manufacturing processes were really the views of a scientist thinking about how manufacturing should be done,” recalls Tom Bollenbach, who directed research and development at Biostage, a Massachusetts-based company that’s involved in animal trials for trachea, esophagus, and bronchial implants grown from a patient’s cells. (He’s now working with Kamen.) “The industry is still basically making things largely by hand, one by one, with people handling the equipment that feeds the tissue making decisions in real time… There’s very little process control.”
+
+Kamen likens the problem to that of a grandmother who can make the world’s greatest chicken soup. “OK, Grandma. How are you going to run a canning operation?” he asks. “She wants to go to scale, what does she do? She hires 10,000 other grandmas! They have a bigger kitchen They all stir by hand in bowls. And then the FDA comes in there and says ‘How do you know your production is consistent?’!”
+
+
+
+                            The Manchester Millyard, where inventor Dean Kamen has brought together nearly $300 of government and research money in an effort to grow human organs. | Jason Grow for POLITICO Magazine
+
+If she were making soup, Grandma could outsource production to Campbell’s Soup, but a genius like Anthony Atala can’t. “Atala could win the Nobel prize for figuring out how to grow more cool stuff in a petri dish than anyone I know, but he’s not going to figure out how to make 400,000 of the things he’s making,” Kamen says, grinning with contagious enthusiasm. “But interestingly, he can’t go to Campbell’s because there is no Campbell’s!”
+
+But a chance meeting with another famous entrepreneur set Kamen on a path that would lead him to try to create, from scratch, the manufacturing equipment, procedures and the know-how to move regenerative medicine from a science experiment to mass production.
+
+***
+
+Kamen is no stranger to biomedical engineering. By the time he was 30, the college dropout had made millions by devising, in his parents’ Long Island basement, the world’s first automatic drug infusion pump—a wearable device that freed diabetics and other patients from arduous hospital treatments. 
+
+He moved the operation to Manchester in 1981, purchasing first one and then another and another of the forlorn riverfront mill buildings. He sold his first company for $30 million, started a second, built a mad scientist’s lair atop the area’s tallest hill— a hexagonal house with a machine shop, indoor pool, secret passageways and helipad—and churned out inventions. There was a dialysis machine the size of a suitcase, rather than a refrigerator; an intravascular stent that’s currently keeping Dick Cheney alive; the iBot gyroscopic electric wheelchair that lets its user stand or climb stairs; a thought-controlled robotic prosthetic arm; and the well-known Segway human transporter, the two-wheeled personal scooter beloved by city tour guides everywhere. He founded a global robotics competition for high school students in the hopes of cultivating a new generation of inventors, and in his spare time teamed up with the Coca-Cola Co. to deploy in the impoverished villages of Africa a portable water purification system-cum-electrical generator that runs on cow manure and might prevent millions of deaths.
+
+But in the spring of 2015, he also had a television show—“Dean of Invention” on the Discovery Channel—and that’s how Martine Rothblatt recognized him at an event in California held by SpaceX, the private aerospace company that is vying with NASA.
+
+
+
+                            Left: Tourists on Segway scooters, Kamen's signature invention, in Prague. Right: An intravascular stent like the one invented by Kamen. | Petr David Josek for AP (left)
+
+Rothblatt founded Sirius XM but sold it when her 5-year-old came down with a life-threatening lung condition for which there was no cure. She founded United Therapeutics, and managed to produce a medicine that helped save her daughter’s life. Rothblatt, who changed genders, founded a religion, built UT into a $6 billion a year firm, and became the highest-paid female CEO in the country. Now, the firm was working to grow people custom replacement lungs using their own cells and the bronchial tree of a pig. The process, which requires that the living pig cells be stripped from the delicate bronchial passages and the human cells placed and regrown in their place over a month, worked in a painstaking sort of way. But monitoring it and keeping cell-laden fluids pumping at the right pace, pressure and time were proving incredibly difficult.
+
+But as she chatted with Kamen, he mentioned in passing that he had invented the progenitor of a dosing pump her firm used. “A light bulb then went off in my head that he would be uniquely qualified to make the pumping devices,” she recalls. “He immediately rose to the challenge.”
+
+A few weeks later, Kamen visited UT’s North Carolina lab. “It was incredible, 22nd century stuff, but their lab looked like they stole their equipment from Madame Curie!” Kamen recalls. “They had Erlenmeyer flasks and all this stuff I remember from high school, and it looked like they’d connected it by doing weekend runs to Home Depot to buy plumbing. We said, ‘Martine, let’s take some engineering technology and figure out what kinds of equipment we need to build for you so you can do this at scale.’” She agreed, and weeks later they were off and running, automating the process via the marriage of engineering and biology.
+
+Then, out of the blue, one of Kamen’s colleagues saw a request for proposal from the Department of Defense to establish a state-of-the-art institute tasked with creating an advanced innovation ecosystem for the manufacture of human tissues and organs to help wounded soldiers and civilian patients alike. “We looked at this and we saw that the equipment they were going to need to help soldiers were pretty much the same things we would need to build for Martine,” Kamen says. “So we figured, let’s scale this thing up and build all the tools and processes for all the tissues and organs.” 
+
+***
+
+Winning the $80 million grant—part of the federal Manufacturing USA program— was a long shot, given that Kamen would be competing against Atala at Wake Forest Baptist and R&amp;D goliaths like Georgia Tech. He knew New Hampshire wouldn’t be able to allocate funding, and Manchester wasn’t home to a major research university. But his clout allowed him to assemble an impressive set of partners, including Rockwell Automation (the world’s largest industrial automation company), Millyard-based software powerhouse Autodesk, Dartmouth College and Harvard University.
+
+“It didn’t take him long to convince us because his credibility is so high and he’s done a lot on the life sciences industry, which is one of our target industries as a company,” says Rockwell Chair Blake Moret, whose firm committed to $10 million in cash and equipment. “To apply technology across multiple disciplines to help people live longer, healthier lives—there’s going to be nothing but more interest in that as the population ages and the technology becomes more capable.” 
+
+
+
+                            Left: The University of New Hampshire at Manchester, where instructors train technicians to manufacture the organs. Right: Kamen at work in the laboratory. | Jason Grow for POLITICO Magazine
+
+The University of New Hampshire–Manchester—which Kamen had lured to the Millyard several years earlier—pledged to train the army of technicians to man the institute, which would be be located just three blocks down the street. “A real area where higher education can make a difference is to figure out how to more efficiently partner with industry in the economic development of their area,” says UNH-M Dean Mike Decelle, who expects his biotech program to double to 400 students over the next five years.
+
+On December 21, 2016, the announcement came that they’d won, beating out more than 50 competitors. “The Manchester Millyard,” the New Hampshire Union Leader’s publisher of the Manchester Union-Leader observed, and “all of New Hampshire got quite a Christmas present.”
+
+One year later, a three-story, 65,000-foot former mill building next to Kamen’s headquarters houses the Advanced Regenerative Manufacturing Institute, where over 100 engineers, researchers and programmers are already at work building machines and devices and testing the processes that will allow its dozens of member firms to perfect and mass produce their respective products, from skin to, one day, hearts. Kamen has persuaded venture capital firms to help fund the startups that have joined the coalition and recruited a veteran FDA official to consult with the agency on regulatory approval. When Kamen held his official opening ceremony for the building in June , the state’s governor, past governor and four current and former U.S. senators were in the room to show their support. 
+
+
+
+                            Technicians at the Manchester site work on the various stages of organ manufacturing. | Jason Grow for POLITICO Magazine
+
+“We have a long way to go, but what’s so exciting about this group is that we have enough funding behind us and we are going to be able to hone the lessons we learn together,” says Michael Golway, president and CEO of Advanced Solutions, a Kentucky-based industrial robotics firm that’s developed a six-axis human tissue printer capable of printing not just cells and structures, but also living micro-vessels and has moved a team into the ARMI building. “I think in the next five years we are going to have some awesome results and some nice functional tissues to really start helping people on a bigger scale.”
+
+
+Colin Woodard, a Politico Magazine contributing editor, is a Polk-award winning journalist, the author of five books including American Character: A History of the Epic Struggle Between Individual Liberty and the Common Good and was a finalist for the 2016 Pulitzer Prize in Explanatory Reporting for his work at Maine’s Portland Press Herald.
+
+Washington and the World 
+
+
+                    
+                        By Evelyn Farkas
+                
+
+Politics
+
+
+                    
+                        By James Higdon
+                
+
+On The Bench
+
+
+                    
+                        By John F. Harris and Matthew Nussbaum
+                
+
+
+                                
+
+ © 2018 POLITICO LLC

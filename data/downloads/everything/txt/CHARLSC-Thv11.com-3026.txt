@@ -1,0 +1,84 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KTHV.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KTHV.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Little Rock Weather Summary: 95 degrees
+
+15 Weather Alerts
+
+Learn More
+
+Charleston, SC (WLTX) — A missing South Carolina 4-year-old girl who'd been missing for a day has been found safe, and her abductor is now in custody. 
+
+
+Riverside, Alabama Mayor Rusty Jessup confirmed to News19 Heidi Renae Todd of Charleston was found late Wednesday afternoon in his city, which is just off Interstate 20 about 40 miles from Birmingham.
+
+Hours later, her kidnapper, 37-year-old Thomas Lawton Evans, was caught in Mississippi. 
+
+
+"We give the glory and our thanks that all prayers have been answered, and that Heidi Todd is safe in the hands of the FBI," said Charleston Mayor John Tecklenburg said at a news conference Wednesday night where he also said that the girl had been located. 
+
+
+Jessup says she was found after there was a report of a suspicious car in the woods behind Riverside's City Hall. That city's mayor says the fire chief checked it out, and found her kidnapper, Evans, asleep in the vehicle. Riverside Police Chief  Rick Oliver was called to the scene, and there was then a heated exchange between Evans and the other men. 
+
+
+RAW: Video Shows SC Girl was Safe After Rescue in Alabama 
+
+At that point, the suspect gave the little girl to the police chief, telling them he had to get his ID from the car. Evans then jumped into the vehicle and sped off, Jessup said.
+
+
+Jessup says the girl was 'scared' but is otherwise doing fine, and was using a coloring book that they'd gotten her. 
+
+
+"What could have been a great tragedy has turned into a great joy," Tecklenburg said. "She is a precious little girl."
+
+
+The FBI took custody of the little girl, and is working to get her back to South Carolina. Solicitor Scarlett Wilson, the chief prosecutor in Charleston, say a manhunt is happening to find Evans, and he'll face multiple charges, including kidnapping. 
+
+
+It caps a turbulent 24 hours of uncertainty for the girl's family. 
+
+
+Investigators believe the man brutally beat Heidi's mother Tuesday afternoon at their home on Sweetleaf Lane on Johns Island.
+
+
+The girl's mother had told police an "unwanted" male guest came to the home Tuesday and physically assaulted her. The suspect then left the house.
+
+The mom remains in the hospital in fair condition. 
+
+
+"She really got beat up badly and she needs our moral support," Tecklenburg said. 
+
+
+Police had released a sketch of a person of interest, but they no longer believe the person in that poster is the suspect.  
+
+
+"The individual was not invited into the residence," said Interim Charleston Police Chief Jerome Taylor earlier. "At this time, we are trying to unravel ... the motive."
+
+
+Two of the woman's other children were at home at the time, but were not harmed. The woman's other two kids were at school. Police say they were alerted to the problem when the school said the mom didn't come to pick up the kids, and administrators called law enforcement. 
+
+
+A neighbor discovered the mother inside the home.
+
+
+The father was on a Coast Guard training mission at the time of the incident. He's now at the hospital with the mother.
+
+
+A $20,000 reward had been offered in the case: half of the money came from the FBI, while the other was a private donor who wanted to remain anonymous.
+
+
+Police say an Amber Alert was not issued yet because the case didn't meet the criteria. 
+
+

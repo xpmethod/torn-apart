@@ -1,0 +1,89 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 86 degrees
+
+Michael Avenatti, a Newport Beach, California, attorney representing porn actress Stormy Daniels in her legal battle with President Trump, says he is representing five children who are being held in Phoenix after being separated from their mothers by immigration officials. 
+
+
+Avenatti was in Phoenix Thursday to meet with the children, and he spoke with reporters shortly after visiting a 6-year-old boy from Honduras who had been at a Southwest Key facility near 27th and Campbell avenues for about 10 days. 
+
+Avenatti brought 6-year-old Samir a letter from his mother, Levis, who was being held in a detention facility in Laredo, Texas. Mother and son were separated June 2 shortly after they crossed into the U.S. from a river near Laredo, and they haven't spoken since, Avenatti said.
+
+
+Meet Samir, Levis’s six yr old boy (pic taken after we read his mother’s letter to him).  For the first hour, he kept saying “not true” when we would tell him his mami loved him and she sent us to him.  He asked us to take this to his mami - he said it showed a princess like her. pic.twitter.com/4968nMIF74
+
+“At first as you might imagine he was very shy and standoffish,” Avenatti said. “He didn’t believe us for a significant period of time. He kept saying, 'No it’s not true.' ”
+
+After he finally convinced Samir the letter was, in fact, from his mother, Samir colored a picture and asked that Avenatti give it to his mom. Avenatti said he would. 
+
+
+More: Stormy Daniels brings diverse crowd, Trump-inspired act to Memphis
+
+
+More: 'It's a game of hide-and-seek': A look at how Border Patrol apprehends illegal immigrants
+
+
+He said the Southwest Key facility “is well maintained; I thought the staff was very cooperative,” and that they have counselors working with the kids, but that Samir has never been to the U.S. before and is shocked. 
+
+
+“It was sad. It was terrible. I mean, this is an excruciating process.”
+
+
+Avenatti said it took a long time to track down Samir but did not elaborate on how he did it. 
+
+
+He said he is working with more than 60 families, including five children in Arizona, who he said he is visiting throughout Thursday. He also said he is working with three whistleblowers, including two with ICE.
+
+“There are 128 children presently inside gates with the vast majority of them being separated from their parents,” he said, gesturing at the facility behind him. “It’s inexcusable that these children have been transported around the nation, shipped like cargo.”
+
+
+“This is a disgrace. It has no place in the world, let alone in the United States of America.”
+
+
+More: Trump executive order sparks questions, confusion as fate of immigrant children in custody unclear
+
+
+More: Immigrant children: Here's what we still don't know after Trump's executive order
+
+
+A crowdjustice campaign that bears Avenatti's name is collecting pledges and asking the public to help the legal battle to end forced separation of children from their migrant parents.  
+
+
+Funds will be used to pay for release bonds to assist mothers who are attempting to gain release from detention centers and out-of-pocket expenses for Avenatti's law firm's work reuniting families and changing the policy, according to the campaign.  
+
+
+"All mothers are mothers first. Regardless of their political persuasion.  And all children are simply children. Please help us right this wrong," it reads. 
+
+
+His visit comes one day after President Trump signed an executive order that pledged to stop family separation of immigrant families at the U.S.-Mexico border and asked Congress to find a long-term legislative solution.
+
+
+Avenatti said he took issue with the executive order because it doesn't have any directive on reunification efforts for those who have already been impacted.
+
+Trump, facing pressure from Republicans, Democrats, religious groups and others, reversed his tune, but insisted the "zero tolerance" policy to prosecute all undocumented immigrants will continue. 
+
+
+Two immigration proposals are up for votes in the U.S. House of Representatives today that would overhaul the immigration system. One is a hard-line proposal favored by conservatives, which would basically make the controversial family separation policy a law. The other is a compromise bill put forward by House Speaker Paul Ryan that would seek to end the separations. 
+
+Looking forward to visiting detained children tmrw in Phoenix who were shipped there from Texas after being taken from their detained mothers (my clients). This will be their first "contact" with their mothers in weeks. I will be delivering letters and messages of love and hope.
+
+Over the past weeks, images and audio of crying children have caused public outrage and sparked protests across the country against the Trump administration's practices. 
+
+
+A nationwide protest, scheduled for June 30 and backed with the hashtag #FamiliesBelongTogether, is expected to occur in Washington D.C. and in sister cities across the country.   
+
+
+Follow Kelsey Mo and Kaila White on Twitter: @kmo75947 and @kailawhite

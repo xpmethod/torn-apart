@@ -1,0 +1,56 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Seattle Weather Summary: 77 degrees
+
+Washington Congresswoman Suzan DelBene, D-1st District, traveled to Texas this weekend with a group of House Democrats to visit an immigrant detention facility.
+
+
+"What I saw at the detention center was nothing short of heartbreaking," DelBene said in a statement.
+
+
+The lawmakers visited the border town of McAllen, considered the epicenter of the Trump administration’s "zero tolerance" enforcement policy that led to a surge in family separations.  
+
+The group also visited a detention center in Brownsville where they had a chance to tour the facility and ask questions.
+
+
+"I spoke to a group of mothers who had their children taken away, have had no contact with them since, and have no clue where they are now," DelBene said. "ICE officials said there was a process for parents to talk to their children, but based on my conversations with parents, that does not appear to be the case."
+
+
+DelBene said she still has "serious concerns" about whether the Department of Homeland Security has a reliable system for tracking separated children to make sure they get reunited with their parents.
+
+Related: Washington AG: ‘We’re going to put a stop’ to family separations
+
+
+While the president signed an executive order on Wednesday to keep detained families together, specifics are still unknown, and the order doesn’t detail a plan to reunify the families currently separated. 
+
+
+The Associated Press reported Thursday 500 children have been reunited, according to a Trump administration official.
+
+
+However, it’s still unknown when and how the remaining children will be reunited. It was estimated 2,300 families were separated since May.
+
+
+Neither the Department of Homeland Security nor Health and Human Services has released details of an exact process or timeline.  
+
+
+Related: Separated at the border, a migrant mother and her son finally reunite
+
+The Northwest Immigrant Rights Project estimates 45 parents are still being held in Washington state; most of the parents were transferred from a federal detention center in SeaTac to the Northwest Detention Center.
+
+Executive Director Jorge Barón says his organization plans to move forward with a lawsuit as early as Monday on behalf of the parents.
+
+
+WATCH: Full interview with Jorge Baron

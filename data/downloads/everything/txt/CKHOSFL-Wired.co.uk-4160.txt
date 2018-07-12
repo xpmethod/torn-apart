@@ -1,0 +1,122 @@
+
+Welcome to WIRED UK. This site uses cookies to improve your experience and deliver personalised advertising. You can opt out at any time or find out more by reading our cookie policy.
+
+
+In the last two years, UK festivals have started to offer people the chance to check out what's really in their drugs. Now, advances in this emerging field could save even more lives
+
+
+                                            By
+                                            Anna Codrea-Rado
+                                        
+
+At Kendal Calling in July 2017, blue ecstasy tablets in the shape of the Anonymous mask with a potentially lethal dose of an adulterant made their way into the festival. It did not contain any MDMA, the active compound in ecstasy tablets, but instead 100mg of pentylone, a substance that makes sleeping very difficult, or in some cases impossible, for up to 36 hours. 
+
+
+The pill’s composition was determined by on-site drug checking service The Loop, which sent out an alert on Twitter that was retweeted by BBC Cumbria and Cumbria’s police force. “Someone who didn't even know we were at the festival saw the tweet we put out warning about the pill, and they came to our tent and handed it in because they bought a similar pill on site,” says Henry Fisher, senior chemist at The Loop and policy director at drug policy think tank Volteface. “It contained a high dose of pentylone and if that person would have taken it, they would have ended up having a very unpleasant time – or a lot worse.” 
+
+
+The Loop is the harm reduction charity behind the UK’s recent adoption of on-site drug checking at music festivals. 2016 was a breakthrough year for the organisation, landing spots at Kendal Calling and Secret Garden Party to pilot their pop-up drug checking lab. And now it wants to expand. In a report by Fisher and Fiona Measham, director of The Loop, the organisation calls for the opening of five regional drug-checking facilities around the UK. 
+
+
+“Face-to-face drug safety testing is particularly well placed to reduce drug related harm, as more detailed and specific information can be supplied to the service user, as well as to onsite emergency services,” the report reads. “When located in city centres, these services can be promoted directly to people who use drugs in the night-time economy.”
+
+
+
+                        				            By
+                        				            Ian Leslie
+                        				        
+
+At a time when drug-related deaths due to cocaine and ecstasy are at record levels in the UK, organisations such as The Loop are turning to new harm reduction initiatives – and technology – to save lives. The Loop’s vision is for the five drug-checking facilities to utilise the latest kit, including forensic-grade instruments that can give more people accurate and fast information about what’s in their drugs. But it’s a complicated vision and one that is likely to be hampered by outdated regulations and policies. Cost is also a huge factor, with The Loop reliant on crowdfunding to raise the necessary funds.
+
+In 2016, The Loop introduced drug checking to the British general public in the form of pop-up tents at two UK music festivals. Festival-goers were able to anonymously hand over small samples of their drugs to be analysed by trained staff. "Knowing what's in your drug in terms of purity and composition, if it is given with information around dosing, can allow people to make smarter decisions about how they use.” says Adam Winstock, founder of the Global Drug Survey. The main test the team can currently carry out uses infrared spectroscopy. It works by shining different wavelengths of infrared light onto a sample and measuring the amount of radiation absorbed at each wavelength. This is then cross-referenced against a library of known compounds to determine the sample’s composition. "For the most part it will come back and say with 93 per cent confidence or with 80 per cent confidence that the match is MDMA or Ketamine,” says Guy Jones, senior chemist at The Loop. 
+
+
+One advantage of the technique is that it’s quick to use – and it also doesn’t require any specialist training. “We can run, analyse and record all of the data for a sample in under two minutes,” Jones says. “Which is absolutely crucial when we're at an event like Boomtown Fair where we literally are being presented with a sample every minute.” 
+
+
+The technology is a well-established chemical analysis technique that’s been used in the food and pharmaceutical industries as well as forensic chemistry for years. But it does have its limitation when used for on-site drug checking. One drawback being that the instruments cope well with powders, but not with pills. "Unlike the lab based instruments, [infrared] cannot separate the various contents of street drugs, so they tend to detect the single largest component,” explains Trevor Shine from Tictac, a provider of drug identification and drug information to the criminal justice and healthcare sectors. 
+
+
+
+                        				            By
+                        				            Matt Reynolds
+                        				        
+
+Fisher is aware of the limits of the current set up. “Some drugs come in form of plant matter, or on blotter paper and our techniques are currently very limited in terms of what we can do with those samples,” he says. “We’d like to be able to analyse everything we get given so we can tell people more about them." 
+
+
+Depending on the outcome of the infrared test, The Loop has worked on other tests that could carry out further analysis. In addition to being able to measure the strength of pills, it can also run the Marquis reagent test, an instant and inexpensive colour-changing test that can be purchased online for home use. It works by adding a few of drops of the reagent liquid onto the powder or crushed pill and the colour change indicates whether a particular drug is present or not. 
+
+
+While this test works better on pills and does not rely on a reference library, it’s a very basic test that can only tell you whether some of the substance is in the sample, but not how much. "Presumptive tests are just that, presumptive.“ Shine says. "They are based on a colour match which can in some cases be difficult to distinguish and in other cases can be caused by a different substance and gives a false positive."
+
+
+Currently The Loop gets around these limitations by letting the people who use its service know that it can’t always give them a complete picture. Staff interpret the results on the data they can obtain and use that to provide nonjudgmental advice. “It's not about getting perfect reading because a huge amount of the harm reduction is not necessarily done by the test result, but by the fact someone has come in and is talking a qualified harm reduction worker,” Jones says.  
+
+
+For the most part, punters are happy with this – the last two years of drug checking at festivals has been seen a major step forward in the UK’s harm reduction policies. In 2017, the Society for Public Health called for the expansion beyond festivals, as did a recent report by West Midlands Police and Crime Commissioner. 
+
+
+
+                        				            By
+                        				            Kathryn Nave
+                        				        
+
+But progress is still in its early stages. Only a tiny fraction of UK festivals have allowed drug checking on site, and Leeds Festival was forced to cancel its initial plans last year after a disagreement with the local council. Last year, Simon Bray, the head of the National Police Council, said there were no plans for a national roll out of drug checking at festivals. "Before any type of drug testing could be endorsed locally it is vital that forces have a strong understanding of the implications on policing. Police could not support initiatives that do not comply with the law or that have unintended negative consequences," he said in a statement.
+
+
+There are also still questions around the effectiveness of drug testing, not least because quantitative evidence is hard to come by. The little research there is does suggest that the majority of people who check their pills and find them to contain substances they did not expect, opt not to take them. Fisher says that measuring The Loop’s success is one of the biggest challenges as it relies mainly on qualitative evidence. 
+
+
+Winstock from the Global Drugs Survey says he is wary of portraying drug testing as a silver bullet for drug-related harm. “In of itself, knowing what’s in your drug doesn’t necessarily change behaviour,” he explains. “Knowing what percentage of ABV is in your vodka doesn’t stop teenagers getting mindlessly pissed and ending up in hospital.” He stresses that drug checking is an important harm reduction technique, but one which cannot completely remove the biggest modifiable risk: human behaviour. “The question is can better information about what’s in your drug help change behaviour to reduce risk?”
+
+The answer to that could lie in better technology. The most accurate results come from lab-grade equipment. The Loop currently has its sights set on obtaining a piece of equipment known as direct analysis in real time-mass spectrometry (DART-MS). It’s a chromatography instrument that’s also portable and can run analysis in real-time. It works by separating out different compounds and identifying each one. 
+
+
+
+                        				            By
+                        				            James Temperton
+                        				        
+
+"The accuracy of [chromatography] is amazing,” Jones says. “It takes away some of the interpretation that we need to do in a really high-pressure environment, allowing us to make sure that we're giving the absolute best results back to people to help them stay as safe as possible.” In a review of all the drug checking technologies currently available, researchers from the British Columbia Centre on Substance Use described this equipment as able to “identify the broadest spectrum of unique compounds”. 
+
+
+If The Loop were to secure this kind of kit, it would bring its services more closely in line with the handful of European countries including the Netherlands, Spain and Austria offering similar services. These countries are also sharing the data they are obtaining through these services in order to monitor emerging patterns across the continent which helps identify new substances and informs policy making and harm reduction initiatives. 
+
+
+The first European country to offer a drug checking facility was the Netherlands, which received government backing in 1992. The Dutch initiative is available in fixed locations at about 30 centres throughout the country. The service is one of the most reliable and accurate because it uses a centralised, professional drug identification lab to run its tests. 
+
+
+However this means that users of the service need to wait five working days to get their results back. Tibor Brunt, research associate at Trimbos Institute in the Netherlands, says that because the service has now been in operation for two decades, it’s become part of Dutch nightlife to factor in the time needed to get a sample checked ahead of time. “Most people that come into the facility know that the results won’t be available the same day,” he explains, “but they take this into account and buy their drugs before they plan to take them.” 
+
+
+In the UK, Winstock says one of the biggest challenges is finding a way to get recreational drug users to plan ahead. “How do you make safer drug use not sound like boring drug use?” he says. “There’s a fundamental hedonism and recklessness inherent to drug use and the idea of planning drug use sounds intrinsically boring.”
+
+
+At the moment Austria is leading the portable club drug checking services, with its CheckIt! initiative, a lab-in-a-van that goes around club nights in Vienna. The service uses portable chromatography apparatus, so is able to provide accurate, real-time analysis.  
+
+
+The Loop is currently looking at the services offered in the Netherlands and Austria as it builds its own drug safety checking system in the UK. “A lot of the equipment we would like to use in the future is large and delicate,” Fisher says.  “We need something that essentially has been completely redesigned so it doesn't have tubes and wires that are sticking out everywhere and is more resilient to the stresses you might get in a festival environment.” 
+
+
+Until the funding comes through, though, exactly what that lab will look like is still undetermined. The team haven’t settled on exactly what their dream lab will look like, but they know it needs to happen soon. “We now know enough that there’s no reason for more people to die before we actually start doing something about it,” Fisher says.
+
+
+                                                				            By
+                                                				            Matt Burgess
+                                                				        
+
+
+                                                				            By
+                                                				            Eleanor Peake
+                                                				        
+
+
+                                                				            By
+                                                				            Rowland Manthorpe
+                                                				        
+
+
+                                                				            By
+                                                				            Abigail Beall
+                                                				        

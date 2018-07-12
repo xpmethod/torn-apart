@@ -1,0 +1,37 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KHOU.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KHOU.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Houston Weather Summary: 96 degrees
+
+GIDDINGS, Texas -- Two juveniles who escaped the Giddings State School Saturday were captured Sunday around 7 p.m. in Montgomery County, the Texas Juvenile Justice Department said.
+
+
+Shortly before 7 pm on Sunday evening, the two youth who escaped from the Giddings State School were apprehended in Montgomery County.
+
+The TJJD said the two 16-year-olds escaped the juvenile justice correctional facility around 9 p.m. on Saturday.
+
+
+According to the TJJD, the teens were apprehended by DPS officials in New Caney, Texas, after someone observed the two at a baseball park, recognized them from pictures, and called law enforcement.
+
+The Giddings Police Department said the teens had also been seen around Veterans Park around 10:50 p.m. on Saturday. One of the teens was wearing black shorts and a blue hoodie, while the other was wearing black shorts and a gray polo shirt.
+
+
+Officials could not immediately elaborate on either of the juveniles' crimes.
+
+
+The Department of Public Safety, Lee County Sheriff's Department, Giddings Police Department, and law enforcement officers from the Texas Juvenile Justice Department's Office of Inspector General coordinated efforts to apprehend the teens, the TJJD said.
+
+
+The GPD said helicopters were unable to assist Saturday night due to weather, but were available on Sunday.

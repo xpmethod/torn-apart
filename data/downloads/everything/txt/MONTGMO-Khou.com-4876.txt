@@ -1,0 +1,35 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KHOU.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KHOU.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Houston Weather Summary: 90 degrees
+
+CONROE, Texas - Police have arrested a suspect accused of shooting at an officer during a traffic stop on Tuesday.
+
+
+The Conroe Police Department said Raymond Cole Lynch, 27, is in Montgomery County jail. He was arrested without further violence.  
+
+
+The combined efforts of the Texas Rangers, US Marshals, Hunstiville Police Department, the suspect's family and many more led to the arrest of Lynch. 
+
+According to the Conroe Police Department, on March 27 an officer was conducting a traffic stop around 4:15 a.m. on Interstate 45 near Gladstell Road. As the officer approached the black Lexus, Lynch leaned out of his car and opened fire on the officer.
+
+
+READ: Conroe police identify suspect who exchanged gunfire with officer during traffic stop
+
+
+Police said the officer was not hit and returned fire as Lynch sped off. Lynch's vehicle was found burned in a wooded area near Crater Hill Road just north of FM 3083.
+
+
+It is not known if Lynch was wounded in the exchange. 

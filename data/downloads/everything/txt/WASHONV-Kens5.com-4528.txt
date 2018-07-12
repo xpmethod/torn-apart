@@ -1,0 +1,100 @@
+
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KENS.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KENS.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+San Antonio Weather Summary: 93 degrees
+
+The main idea is to keep them from dying.
+
+
+Hamilton County jail is first in Ohio to launch a program with its health-care provider that manages inmates who experience opioid withdrawal with the medication buprenorphine.
+
+
+Sheriff Jim Neal and NaphCare announced the new plan Wednesday. NaphCare is an independent health-care provider to about 30,000 patients in 27 jails nationwide. It's using the medication buprenorphine to help people get through opioid withdrawal safely.
+
+The jail in Cincinnati is the 10th for which NaphCare provides the buprenorphine-aided withdrawal program, said CEO Brad McLane.
+
+
+Symptoms from heroin, fentanyl and prescription-painkiller withdrawal can include severe diarrhea and vomiting, which could lead to dehydration, electrolyte imbalance and, ultimately, death.
+
+
+"It's an indirect path, (but) people are at risk of dying," McLane said. Buprenorphine helps quell the symptoms and provide a safer withdrawal.
+
+
+NaphCare introduced its program through a pilot a little more than a year ago at the Washington County jail in Hillsboro, Oregon, McLane said.
+
+
+Since then, the health-care provider for correctional institutions has established the program in: Kings County and Santa Ana jails in California; Hllisborough County jail in Tampa, Florida; Middlesex County jail in New Jersey; Washoe County jail in Reno, Nevada; Pierce County and Skagit County jails in Washington; and the South Correctional Entity misdemeanor jail in DesMoines, Washington.
+
+
+About a week ago, NaphCare workers introduced buprenorphine for withdrawal in the Hamilton County jail, providing it in an under-the-tongue dissolving film to specific patients who were in withdrawal. The patients must be closely watched, said McLane, to ensure the medication is taken properly.
+
+
+"You need to have a nurse or corrections officer watch the patient, or there's a risk that they will cheek it and divert it."
+
+
+That's because buprenorphine is also an opioid. If used as directed by medical practitioners, it does not cause euphoria, and it helps quell cravings. But it can be used improperly to get the effects other opioids.
+
+The use of the medication is also compassionate, McLane said. "There's no need for people to suffer through (withdrawal) symptoms. It's unnecessary."
+
+
+He hopes to get similar programs established throughout NaphCare's jails, and already has done so at nine other jails.
+
+
+Hamilton County is the only jail in Ohio that's getting the treatment so far, and NaphCare had to go through the Ohio Medical and Pharmacy boards to do so, McLane said. The current program is being done with the current jail contract. No extra funding was necessary, he said.
+
+
+The use of the medication for withdrawal isn't new in other medical-care settings.
+
+
+"Buprenorphine has been used to treat opioid withdrawal for more than 20 years, using the gradual taper," said Dr. Adam Bisaga, an addiction research scientist who is a professor of psychiatry at Columbia University Medical Center.
+
+
+McLane said NaphCare's providing some inmates in the Middlesex County jail with the medication as a maintenance addiction treatment, McLane said, but it takes certification of medical staff to provide it – and prescribers have limits on how many patients they can care for with buprenorphine.
+
+
+The FDA approval of the drug is actually for treating opioid addiction, not for withdrawal, Bisaga said.
+
+
+But Hamilton County jail inmates won't get buprenorphine as a medication-assisted treatment, at least not anytime soon.
+
+
+"We're interested," McLane said, "but it's challenging to do that in the jail setting."
+
+
+McLane said current regulations do not allow for the buprenorphine treatment inside Ohio jails.
+
+
+Dr. Shawn Ryan, founder of BrightView Clinics, which offer outpatient medication assisted treatment, said the new jail program is an important development in the treatment of people with addiction.
+
+
+"This is the first step," Ryan said. "We are already making sure that we have a better linkage to care after the patient does get out of jail." His clinics will offer some of that care.
+
+
+Medical providers of buprenorphine must be certified to prescribe the drug, and the jail system would likely need more staffing to give it to the opioid-addicted population and manage it. There also would be special approvals needed to get such a program up and running, McLane explained. 
+
+So buprenorphine patients at Hamilton County jail will be tapered from the drug. The intent, said McLane, to guide them into community-based addiction treatment upon their release.
+
+
+NaphCare is currently providing the opioid-addiction medication injectable naltrexone – commonly known by its brand name, Vivitrol – to some people who've been sentenced to Talbert House addiction treatment services.
+
+
+Bisaga said connecting released inmates to evidence-based treatment programs is essential, and that buprenorphine withdrawal should only be undertaken if there's a plan in place for giving inmates naltrexone, or keeping them on buprenorphine.
+
+
+Other addiction researchers agreed.
+
+
+"There is a significant risk for overdose upon release from incarceration, and initiating and maintaining an individual on a medication such as buprenorphine can significantly decrease the risk for a fatal overdose," said Lindsey Vuolo, associate director of health law and policy at the Center on Addiction.
