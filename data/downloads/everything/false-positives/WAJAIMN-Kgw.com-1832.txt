@@ -1,0 +1,35 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 86 degrees
+
+McMINNVILLE, Ore. – A Yamhill County Jail inmate faces drug charges after she was found with small plastic bags of heroin and methamphetamine in her system, the sheriff’s office said.
+
+
+Rashel Ann Sutliff, 32, is charged with unlawful delivery of heroin, unlawful possession of heroin, unlawful possession of methamphetamine, and three counts of supplying contraband.
+
+The investigation into Sutliff began on June 22 when jail authorities learned that at least one inmate had used heroin inside the jail. Investigators believed a female inmate supplied the drugs, and later determined Sutliff was the suspect.
+
+
+Deputies took Sutliff to the Washington County Jail to use the facility’s body scanner. It found a foreign substance in Sutliff’s lower abdomen.
+
+
+Sutliff was taken to a hospital, where a bag of 12 grams of meth and a bag of two grams of heroin were removed from her body, deputies said.
+
+
+Sutliff was in custody since June 20 for failing to appear in court on separate charges.
+
+
+The sheriff’s office says the Yamhill County Jail will soon have its own body scanner.

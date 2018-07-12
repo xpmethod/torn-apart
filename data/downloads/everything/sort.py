@@ -1,3 +1,5 @@
+# This goes through the directory "txt" and searches the files in it for false positives/ truly relevant articles, then sorts into respective folders.
+
 import string
 import os
 import re
@@ -17,7 +19,7 @@ def findKeywords(str):  #here we test to see what keywords the text in question 
     iCount = 0
     for keyword in secondaryKeywords: #testing to see whether secondary keywords are in a file, and incrementing the iCount counter for each one that is.
         if re.search(keyword, str) is not None:
-            print(keyword)
+        #    print(keyword)
             iCount = iCount + 1
         
 
@@ -36,13 +38,15 @@ for file in os.listdir(directory): #for each file, test for keywords, and move i
     filepath = 'txt/' + filename
     file = open(filepath, encoding = "utf8")
     raw = file.read()
-    destination = 'contains-keywords/' + filename  
+ 
     if (findKeywords(raw) is True):
+        destination = 'contains-keywords/' + filename 
         copyfile(filepath, destination)
         iPositives = iPositives+1 #increment this number to keep track of how many files we have detected and moved
     else:
         iNegatives = iNegatives+1 #increment this number to keep track of how many false positives we identified
-        destination = 'false-positive/' + filename
+        destination = 'false-positives/' + filename
+        copyfile(filepath, destination)
     file.close()
 
-print("Total moved = " + str(iPositives) + "; Total false positives = " + str(iNegatives))
+print("Total real articles = " + str(iPositives) + "; Total false positives = " + str(iNegatives))

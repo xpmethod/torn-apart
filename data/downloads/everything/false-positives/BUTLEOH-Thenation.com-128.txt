@@ -1,0 +1,278 @@
+By using this website, you consent to our use of cookies. For more information, visit our Privacy PolicyX
+
+
+
+ (AP Photo)
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+It’s often noted that the victims of the opiate epidemic receive a degree of compassion not usually extended to drug users, but apparently that approach doesn’t extend to pregnant women. Consider the case of Kasey Dischman of Butler County, Pennsylvania. Dischman has been in prison since June, when she overdosed on heroin seven months into her pregnancy, delivered prematurely, and was charged with felony aggravated assault of an unborn child. Dischman went straight from the hospital to jail. Her bail was set at an astronomical $500,000. (Remember, bail is supposed to make sure you show up in court, not keep you locked up until trial because you’re poor.) Dischman was charged under a Pennsylvania law that makes harming a fetus a crime separate from causing injury to a pregnant woman—one of a wave of such laws passed in recent decades whose ostensible purpose is to protect pregnant women from violence. But the Pennsylvania law specifically exempts pregnant women, who cannot be charged with harming their fetuses. Dischman’s lawyer, assistant public defender Joseph Smith, filed a writ of habeas corpus and won.
+				
+				Ad Policy
+									
+			function load_article_ads(){
+				if( jQuery("#ad-halfpage-266351-0").is(":empty") ){call_ad_new('halfpage','tn_article','ad-halfpage-266351-0','rectangle_1',{"tn_author":"'katha-p'","tn_articleid":266351,"tn_ptype":"article","tn_keyword":"'opioid-epi', 'pregnancy'","tn_subject":"'drug-war-a', 'health-and', 'reproducti'","tn_slp":""});}					
+			}	
+	
+			jQuery('#expand-reduce-266351').click(function(){
+				if( isMobile.any() ){
+					call_ad_new('halfpage','tn_article','ad-halfpage-266351-0','rectangle_1',{"tn_author":"'katha-p'","tn_articleid":266351,"tn_ptype":"article","tn_keyword":"'opioid-epi', 'pregnancy'","tn_subject":"'drug-war-a', 'health-and', 'reproducti'","tn_slp":""});	
+				}				
+			});	
+		 
+		
+
+
+
+End of story? “Ordinarily, winning a habeas petition is a get-out-of-jail card,” Tara Murtha of the Women’s Law Project points out. But Kasey Dischman is still in prison. Laura Pitchford, assistant district attorney for Butler County, is appealing the ruling, and has added misdemeanor charges to keep Dischman in prison, even though the charges don’t justify anything like her current high bail. So if you thought that Pennsylvania’s law could not be used to police pregnant women’s behavior just because it explicitly exempts pregnant women, think again.
+
+
+
+Dischman may not be the world’s most sympathetic defendant: According to a local news report, her baby will suffer “lasting injuries” from the circumstances of her birth. But Dischman’s prosecution, while doubtless emotionally satisfying to many in rural, conservative Butler County, has major implications that should concern us all. In the first four months of 2017, Butler County had more deaths from overdoses than from all other causes combined. In Pennsylvania overall, the number of pregnant women hospitalized for substance abuse has more than doubled from 2000 to 2015; in 2015, 4,600 pregnant women were hospitalized because of a drug problem. According to a news report, the prosecutor seems to believe that punishing pregnant women like Dischman is necessary in light of the state’s opiate epidemic. (Pitchford did not return my several phone calls.) But if the prospect of prison—or losing custody of your kids or contracting HIV or dying—doesn’t consistently deter drug addicts in general, why would it work for pregnant ones? This is a public-health crisis, not a law- enforcement one. The last thing anyone should want to do is deter pregnant women from seeking medical care or drug treatment. But criminalizing their drug use will cause addicted women to stay away from the very people who can help them, lest they end up under arrest. That doesn’t help anyone.
+
+
+
+Dischman’s prosecution matters to abortion rights as well. If pregnant women who abuse drugs can be criminally charged for endangering a fetus, what about those who take drugs to terminate a pregnancy without a doctor’s supervision? Plenty of women buy abortion pills off the Internet, and as abortion clinics close and restrictions make access more cumbersome and expensive, that number is likely to grow. Seven states already have statutes criminalizing self-induced abortions, and another 18 have laws on the books that can be used to prosecute women who terminate their own pregnancies. When prosecutors go after women who abuse drugs, they open the door to using the same laws against women who self-manage their abortions. And abortion aside, there is no end to the things a woman can do that could harm her fetus, from living with a batterer to smoking cigarettes to changing the kitty litter. A woman could be criminally charged for having a miscarriage, as has happened in countries where abortion is forbidden, or for delivering a baby with health problems.
+									Most Popular
+
+1
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+
+2
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+
+3
+My Best Friend Lost His Life to the Gig Economy
+
+
+4
+The Social Shaming of Racists Is Working
+
+
+5
+Why Trump’s Denaturalization Task Force Matters
+	
+		Related Article		
+		  
+								
+						
+							
+						
+											
+					
+								What’s Killing America’s Black Infants?
+							Zoë Carpenter					
+		
+	
+		
+ 
+ 
+ 
+These are not arcane concerns. The group National Advocates for Pregnant Women has documented hundreds of cases in which women have been charged with crimes in connection with their pregnancy. Most of these are low-income women who abused drugs or alcohol. But at least one woman, Bei Bei Shuai of Indiana, was charged with a crime when her newborn died from the poison she had taken in a suicide attempt; another was charged with second-degree manslaughter after she caused a car crash that resulted in the premature birth and death of her child. In a letter to the Butler County district attorney’s office, NAPW rightly calls the arrest of pregnant women and new mothers “dangerous and counterproductive”:
+
+
+As every leading medical organization to address this issue has concluded, including the American Medical Association, the American College of Obstetricians and Gynecologists, the American College of Nurse-Midwives, the American Academy of Pediatrics, and the March of Dimes, issues related to alcohol and drug use during pregnancy are health issues best addressed through education and community-based treatment, not through the criminal justice system.
+
+Drug dependency is a medical condition—not a crime. Pregnant women do not experience drug dependencies because they want to harm their fetuses or because they don’t care about their children.
+
+NAPW adds that “There is also a general lack of available substance use disorder treatment in Pennsylvania, especially in Butler County and especially for pregnant women.” (In fact, according to the Pennsylvania Department of Drug and Alcohol Programs, there are no drug-treatment programs specifically for pregnant women or women with children in Butler County.) NAPW’s letter is co-signed by 10 experts and includes supporting statements from a long roster of professional associations concerned with maternal health, children’s health, and addiction.
+
+“We all get it, the facts in this case are horrible,” Joseph Smith, the assistant public defender, told me by phone. “It’s tragic all around—for the baby, for Kasey, and for her older child. Drug use during pregnancy should not happen. But there is a limit to the criminal law, and the law says the commonwealth cannot prosecute pregnant women for their conduct during pregnancy. That’s what immunity means.”
+	
+
+
+
+
+
+
+	
+		
+		 Katha PollittTwitterKatha Pollitt is a columnist for The Nation.
+		
+	
+
+					
+					
+						To submit a correction for our consideration, click here.					
+					For Reprints and Permissions, click here.
+				
+						
+				
+					  
+					Comments (4)					
+								
+			
+			
+				
+
+	
+		
+			Leave a Comment		
+		
+					
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+		
+		
+		
+				
+			
+			
+				Logged in as 
+				
+								 
+				Log out?
+			
+			
+			
+				Comment
+				
+			
+			
+			
+				
+				
+				
+			
+			
+		
+	
+	
+	
+	
+	
+		
+	
+
+
+
+				
+				
+				
+	
+	
+			
+		// The content published date
+		tp.push(["setContentCreated", "2017-12-01T06:00:04+00:00"]);
+						// The content author
+				tp.push(["setContentAuthor", "Katha Pollitt" ]);
+						// The content section
+		tp.push(["setContentSection", "Article"]);
+		// The content tags
+		tp.push(["setTags", ["Drug War and Drug Policy","Health and Disease","Reproductive Rights"] ]);					
+		// Add custom variables as any key-value pair. The first parameter is the key; second is the value						
+	
+	
+
+
+   		   
+		   
+				(function () {
+					var referer = "";
+					try {
+						if (referer = document.referrer, "undefined" == typeof referer)
+							throw"undefined"
+					} catch (exception) {
+						referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL)
+					}
+					referer = referer.substr(0, 700);
+					var rcel = document.createElement("script");
+					rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+					rcel.type = 'text/javascript';
+					rcel.src = "https://trends.revcontent.com/serve.js.php?w=51170&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer;
+					rcel.async = true;
+					var rcds = document.getElementById("rcjsload_286cf7_266351");
+					rcds.appendChild(rcel);
+				})();
+		   
+		   	
+		
+				
+				
+		
+			Ad Policy
+			
+		
+	
+		
+	
+	
+
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+My Best Friend Lost His Life to the Gig Economy
+
+The Social Shaming of Racists Is Working
+
+Why Trump’s Denaturalization Task Force Matters
+
+Zoë Carpenter
+
+These are not arcane concerns. The group National Advocates for Pregnant Women has documented hundreds of cases in which women have been charged with crimes in connection with their pregnancy. Most of these are low-income women who abused drugs or alcohol. But at least one woman, Bei Bei Shuai of Indiana, was charged with a crime when her newborn died from the poison she had taken in a suicide attempt; another was charged with second-degree manslaughter after she caused a car crash that resulted in the premature birth and death of her child. In a letter to the Butler County district attorney’s office, NAPW rightly calls the arrest of pregnant women and new mothers “dangerous and counterproductive”:
+
+
+
+As every leading medical organization to address this issue has concluded, including the American Medical Association, the American College of Obstetricians and Gynecologists, the American College of Nurse-Midwives, the American Academy of Pediatrics, and the March of Dimes, issues related to alcohol and drug use during pregnancy are health issues best addressed through education and community-based treatment, not through the criminal justice system.
+
+
+
+Drug dependency is a medical condition—not a crime. Pregnant women do not experience drug dependencies because they want to harm their fetuses or because they don’t care about their children.
+
+NAPW adds that “There is also a general lack of available substance use disorder treatment in Pennsylvania, especially in Butler County and especially for pregnant women.” (In fact, according to the Pennsylvania Department of Drug and Alcohol Programs, there are no drug-treatment programs specifically for pregnant women or women with children in Butler County.) NAPW’s letter is co-signed by 10 experts and includes supporting statements from a long roster of professional associations concerned with maternal health, children’s health, and addiction.
+
+
+
+“We all get it, the facts in this case are horrible,” Joseph Smith, the assistant public defender, told me by phone. “It’s tragic all around—for the baby, for Kasey, and for her older child. Drug use during pregnancy should not happen. But there is a limit to the criminal law, and the law says the commonwealth cannot prosecute pregnant women for their conduct during pregnancy. That’s what immunity means.”
+	
+
+ Katha PollittTwitterKatha Pollitt is a columnist for The Nation.
+
+
+
+						To submit a correction for our consideration, click here.					
+
+For Reprints and Permissions, click here.
+
+			
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+
+
+				Logged in as 
+				
+								 
+				Log out?
+			
+
+
+				Comment
+				
+			
+
+
+				
+				
+				
+			
+
+
+					
+						Sign up for our free daily newsletter, along with occasional offers for programs that support our journalism. You can read our Privacy Policy here. 
+					
+					
+
+Copyright (c) 2018 The Nation Company LLC

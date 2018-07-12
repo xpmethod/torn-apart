@@ -1,0 +1,74 @@
+
+
+
+
+
+EurekAlert! provides embargoed and breaking science news you can't afford to miss.
+
+
+EurekAlert! offers a one-stop science news distribution service you can trust.
+
+
+EurekAlert! is a service of the American Association for the Advancement of Science.
+
+New tools will fight skin condition, personalize diagnosis and management, and identify leads for drug treatment
+
+Case Western Reserve University
+
+An experienced interdisciplinary team of psoriasis and computational researchers from Case Western Reserve University School of Medicine (CWRU SOM) and University Hospitals Cleveland Medical Center (UHCMC) has received a $6.5M, 5-year grant from the National Institute of Arthritis, Musculoskeletal and Skin Diseases (NIAMS).  
+
+The grant supports a Center of Research Translation in Psoriasis (CORT) at CWRU and UHCMC.
+
+"The CORT brings together the strengths of the Department of Dermatology and the Murdough Family Center for Psoriasis in psoriasis care and research with the innovative approaches of our Institute for Computational Biology, and Department of Population &amp; Quantitative Health Sciences (PQHS)," said Kevin Cooper, MD who serves as NIH Contact Principal Investigator and Administrative Director of the Center. 
+
+The CORT will integrate cutting-edge technology and bioinformatics with basic and clinical science in order to advance translational discovery and application in psoriasis. The goal is to better identify and treat those psoriasis patients that are more susceptible to developing comorbidities (simultaneous medical conditions) associated with psoriasis, such as cardiovascular disease, diabetes, depression, and psoriatic arthritis. Currently it is difficult for physicians to determine which patients will develop these comorbidities.
+
+The researchers will cull data collected from blood and skin samples of UHCMC psoriasis patients and preclinical models, looking for new patterns and relationships developed using a systems biology approach. The investigative team will combine these data with psoriasis-patient information from CLEARPATH, an Ohio-based database that integrates electronic medical records (EMR) from multiple hospital systems. 
+
+"Armed with this large pool of data and new ways to work with it, we can make better connections between groups of patients with similar forms of psoriasis versus an individual's unique biology and therapy options," said Mark Cameron, PhD from the department of PQHS, who leads the computational biology team.  
+
+This approach will use tailored computational processes to zero in on drug candidates or repurposed drugs matching the patient profiles from a large database of tens of thousands of drugs--and test the drugs in genetically engineered psoriasis mouse models. The hope is that drugs that are successful in treating the mice will advance to humans.
+
+"The CWRU/UHCMC CORT is a focal point for new and innovative mouse models that mimic psoriasis in humans--including, crucially, comorbidities of human psoriasis patients," said the project's preclinical lead investigator, Nicole Ward, PhD, from the Department of Dermatology. 
+
+"We're getting better and better at managing psoriasis patients' skin disease," said Cooper. "But we still don't have a complete grasp of the comorbidities. Through this form of personalized medicine, we think we can make great strides in determining which psoriasis patients are likely to suffer from the various co-occurring ailments, ultimately fashioning treatments for them." 
+
+###
+
+In addition to Cooper, Cameron, and Ward, the research team comprises Mahmoud Ghannoum, PhD, and Thomas S. McCormick, PhD, Department of Dermatology, and Rong Xu, PhD, Department of Population and Quantitative Health Sciences. 
+
+Psoriasis affects approximately 7.5 million people in the United States, costing $135 billion annually.
+
+For more information about Case Western Reserve University School of Medicine, please visit: case.edu/medicine
+
+
+
+
+              
+
+Disclaimer: AAAS and EurekAlert! are not responsible for the accuracy of news releases posted to EurekAlert! by contributing institutions or for the use of any information through the EurekAlert system.
+
+Media Contact
+
+Ansley Gogol
+ansley.gogol@case.edu
+216-368-4452
+
+ @cwru
+
+
+
+
+
+http://www.case.edu 
+
+Case Western Reserve University
+
+
+
+
+
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)

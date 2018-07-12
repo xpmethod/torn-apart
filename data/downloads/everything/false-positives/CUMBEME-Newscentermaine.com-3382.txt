@@ -1,0 +1,83 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WCSH.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 74 degrees
+
+3 Closing Alerts
+
+Learn More
+
+CAPE ELIZABETH (NEWS CENTER Maine) – The opioid crisis touches every person in our state, either directly or indirectly.
+
+
+While jail or death are two of the outcomes we most frequently hear about for someone struggling with substance use disorder, there are still people who are succeeding in their recovery.
+
+How they break the cycle of addiction, incarceration, rehabilitation, and relapse is unique to each individual.
+
+
+Cumberland County Sheriff Kevin Joyce says a combination of medication, stable housing, and a job can be three key components to preventing someone from re-offending. A strong support system of family and friends can also keep a person from falling back into drug use, according to recovery counselors.
+
+
+Matt McConnell has been sober for three years. The 34-year-old master carpenter struggled with addiction to alcohol and pills while living in Scarborough. He says his drug use led to multiple criminal convictions, including burglary and theft.
+
+
+”Sometimes in my mind, I’m like, I only have 90 days, but I couldn’t make it through a day without using or an hour, so it is a big deal.”
+
+
+But McConnell has battled addiction multiple times. In 2011, he moved to California, and after three months became addicted to heroin.
+
+
+”‘I’ll never use a needle – that won’t be me.’ It came true for me,” said McConnell. “When I look back on some of that stuff with a clear mind, there’s no way in hell I would ever go back to that. No way,” said McConnell.
+
+
+He moved back to Maine, looking to reset.
+
+
+“Things were going great and like all of us say, ‘I’m just going to try it one more time.’ That one time I decided to try it, it almost killed me. My roommates found me overdosed, I was taken by ambulance to Maine Medical Center,” said McConnell.
+
+
+He had aspirated and spent four days in a coma and 13 days in the ICU.
+
+
+”My brother came in from Illinois, he came basically for my funeral. We didn’t know which way it was going to go,” said McConnell.
+
+
+Now McConnell is working for Wright-Ryan Construction, through the company MaineWorks,
+
+which hires people coming out of the corrections system or out of addiction treatment. MaineWorks connects them with employers looking for primarily construction workers and provides the men and women with hard hats, eye protection, safety vests, gloves, and steel-toed boots, as well as snacks and water.
+
+
+“Non-supported people have a 60 percent chance of getting re-arrested in the first year out [of jail],” said Margo Walsh, founder and owner of MaineWorks.
+
+
+McConnell said his prior convictions have been roadblocks to gaining employment before his job through MaineWorks.
+
+
+”They want explanations and a lot of times you don’t get a callback and you know the reason why. For a lot of us, it’s like, we don’t want to put yes because it’s like how many do you want me to list? Are you a felon? A lot of times, we don’t know how to answer that one, should I say no and hope they don’t find out that I am? Should I just be honest and say I am?” said McConnell. ”Getting back to work is a huge thing because when we put the substance down, it’s like now what?”
+
+
+He says this job prevents his mind from wandering and gives him a reason not to fall back into drug use.
+
+
+“There’s that drive, that determination to excel at what you’re doing,” said McConnell. “You’ll find a lot of us are a lot harder working than some of the other guys you’ll see on the job sites because we want to prove that we’re worth it. That we’ve made mistakes, but watch this.”
+
+
+McConnell hopes to pursue a career in health and fitness.
+
+
+
+
+
+Coming up on Tuesday and Wednesday, learn more about MaineWorks, and hear from other people succeeding in their recoveries.

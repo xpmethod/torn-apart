@@ -1,0 +1,414 @@
+
+
+    
+    
+
+    
+    
+
+
+ 
+    var PREBID_TIMEOUT = 1000;
+
+    var adUnits = [{
+        code: 'div-gpt-ad-1501742355206-0',
+        sizes: [[300, 250]],
+	  	bids: [
+        { bidder: "pulsepoint", params: {cf: "300X250", cp: 561174, ct: 595356 } },
+        { bidder: "criteo", params: {zoneId: "766789" } },
+        { bidder: "appnexus", params: {placementId: "11712463" } },
+        { bidder: "aol", params: {network: "4485.1", placement: "5317147", server: "adserver-eu.adtech.advertising.com"  } }
+	  	]    
+    }];
+    
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+    //set custom config object
+    pbjs.setPriceGranularity("low");
+    pbjs.setBidderSequence('random');
+
+  
+
+
+
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.pubads().disableInitialLoad();
+    });
+
+    pbjs.que.push(function() {
+        pbjs.addAdUnits(adUnits);
+        pbjs.requestBids({
+            bidsBackHandler: function(bidResponses) {
+                var targetingParams = pbjs.getAdserverTargeting();
+                var container = document.getElementById('container');
+                container.innerHTML = JSON.stringify(targetingParams);
+            }
+        });
+    });
+
+    function sendAdserverRequest() {
+        if (pbjs.adserverRequestSent) return;
+        pbjs.adserverRequestSent = true;
+        googletag.cmd.push(function() {
+            pbjs.que.push(function() {
+                pbjs.setTargetingForGPTAsync();
+                googletag.pubads().refresh();
+            });
+        });
+    }
+
+    setTimeout(function() {
+        sendAdserverRequest();
+    }, PREBID_TIMEOUT);
+
+  
+
+
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+  
+
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/29287219/WST-MPU', [300, 250], 'div-gpt-ad-1501742355206-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://worldsoccertalk.com/2018/05/21/telemundo-sending-reporters-across-u-s-world-cup-russia/"
+    },
+    "headline": "Telemundo sending reporters from across U.S. to World Cup in Russia",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://worldsoccertalk.com/wp-content/uploads/2018/05/telemundo-world-cup-reporting.png",
+        "width": 600,
+        "height": 296
+    },
+    "datePublished": "2018-05-21T01:30:39-0400",
+    "dateModified": "2018-05-21T13:43:21-0400",
+    "author": {
+        "@type": "Person",
+        "name": "Alex Muller"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "World Soccer Talk",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://worldsoccertalk.com/wp-content/uploads/2017/03/wst_logo_light_bkg.png",
+            "width": 280,
+            "height": 49
+        }
+    },
+    "description": "Telemundo Station Group today announced it’s dispatching a team of local station journalists from stations in "
+}
+
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+ 
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("http://worldsoccertalk.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'c349441e-1384-40dd-8fa5-462bcabf2878';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['httpPermissionRequest'] = { };
+oneSignal_options['httpPermissionRequest']['enable'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['subdomainName'] = "worldsoccer";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['siteName'] = 'https://worldsoccertalk.com';
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Telemundo Station Group today announced it’s dispatching a team of local station journalists from stations in Los Angeles, Miami, Houston, Chicago, Dallas-Fort Worth, McAllen and its news bureaus in Washington, D.C. and Miami to the 2018 FIFA World Cup Russia. 
+
+The station group’s team consists of 12 sports and news anchors, photographers and producers. This is the largest group of Telemundo station journalists to ever report from an international, live sporting event. Telemundo’s local journalists will round out Telemundo Deportes’ coverage of the 2018 FIFA World Cup by delivering local audiences the most relevant and compelling coverage about all 32 competing teams across the stations’ on-air, digital and mobile platforms. The stations’ mobile apps will also help soccer enthusiasts watch livestreams of the games and receive their World Cup news and sports updates wherever they go. 
+
+“In less than three weeks, viewers everywhere will be able to watch Telemundo and our stations present the most comprehensive coverage of our first-ever World Cup. Thanks to the innovations we have made to our station’s digital and mobile products, we’re excited to bring the World Cup excitement to soccer fans everywhere through our multi-platform coverage,” said Manuel Martinez, President, Telemundo Station Group. “Whether you’re at home watching the games on your TV or a livestream of the matches on our station apps during your commute, our stations will help fans everywhere feel like they’re in Russia living every World Cup moment.” 
+
+SEE MORE: Telemundo World Cup TV schedule
+
+With special local shows and segments like “Acceso Rusia” (Russia Access), “Hoy En Rusia” (Today in Russia), “Recorriendo Rusia” (Traveling Through Russia) and complimented with distinctive local digital content like interactive games, score cards and the ability to watch live games from Telemundo owned station apps, the Telemundo stations will capture every heart-pumping soccer match for local Latino audiences everywhere.
+
+“Working closely with our partners at the Telemundo Station Group, Telemundo Deportes will provide the most complete and authentic coverage of the World Cup in Spanish language exclusively,” said Ray Warren, President, Telemundo Deportes. “We hope our viewers will join us for the entire journey from June 14th through the Final game on July 15th.”
+
+The station group’s on-air team includes WSNS sports anchor Rodrigo Arana, WSCV news anchor Adriana Delgado, KXTX sports anchor Erik Mora, KVEA sports anchor Alejandro Navarro and KTMD sports anchor Ubaldo Martinez. Beginning June 13, news anchor Adriana Delgado will deliver feature stories focusing on the World Cup and the competing teams to local audiences everywhere. Sports anchors Rodrigo Arana and Alejandro Navarro will deliver live reports from Russia, including up-to-date team scores for Telemundo stations’ early, afternoon and evening newscasts. Sports anchors Erik Mora and Ubaldo Martinez will travel all throughout Russia to capture and personalize every World Cup minute for the stations’ local audiences as the teams face one another to claim the coveted trophy. The station group’s Washington, D.C. and Miami bureau photographers and producers will support the station group’s unprecedented international live event coverage.
+
+As the exclusive Spanish-language home of the 2018 FIFA World Cup, Telemundo will provide extensive multimedia coverage including more than 1,500 hours of 2018 World Cup coverage across all platforms for Telemundo Network, Telemundo stations and cable network Universo. Telemundo and its local stations as well as sister cable network Universo will broadcast all 64 games live: 56 games will air on Telemundo and eight will air on Universo. The 2018 FIFA World Cup Russia will take place from June 14 to July 15, 2018.
+
+ 
+
+• World Cup TV schedule
+
+• World Cup shirts for all 32 teams
+
+• FAQ on World Cup TV coverage in USA
+
+• Schedule of soccer friendlies in USA this summer
+
+ 
+
+
+
+
+
+Does WST have a International Friendlies TV SCHEDULE page?
+
+For international friendlies, we do not at this time. Instead, what we’ve been doing is putting the international friendlies in the respective TV schedule pages. So, for example, we have all of the Mexico national team friendlies (and World Cup games) listed on the Liga MX TV schedule page at http://worldsoccertalk.com/liga-mx-tv-schedule/
+
+Who will broadcast in Spanish and English, Mexico vs. Scotland and Denmark vs. Mexico.
+
+Bookmark the http://worldsoccertalk.com/liga-mx-tv-schedule/ page, which is continually updated as soon as we get updates.
+
+Looks like Telemundo is going all out which is great. I don’t understand the hate Telemundo is getting from a lot of Latinos (mostly Mexicans) for showing the World Cup and not Univision. Last year they did a very good job covering the Confederations Cup. Stuff like sending reporters from across the country to Russia, hiring various footballers from all the Latin American countries in the World Cup to work as analysts, having their commentators actually being in Russia, having hours of studio coverage and a lot of other little stuff they’re doing is very appreciative. The problem for a lot of people is that in most providers don’t have Telemundo in HD, although many local Telemundo stations are in HD like here in Los Angeles. 
+
+Univision sounding very butthurt is airing ads and plugs during and between Liga MX matches telling everyone how Telemundo will only have commercials during halftime (something every network does) and trying to brainwash everyone by telling them no one will have better World Cup coverage than Univision might also be the reason many people are thinking Telemundo’s coverage will be bad. I really liked how Telemundo had ads on the sidelines during the Liga MX playoffs matches in Monterrey and Toluca (including the final) saying the World Cup will be exclusive to Telemundo in the US. I’m pretty sure the Univision Deportes executives weren’t too happy about that.
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• Championship TV schedule
+
+
+
+
+• Champions League TV schedule
+
+
+
+
+• Copa Libertadores TV schedule
+
+
+
+
+• Eredivisie TV schedule
+
+
+
+
+• Europa League TV schedule
+
+
+
+
+• FA Cup TV schedule
+
+
+
+
+• La Liga TV schedule
+
+
+
+
+• League Cup TV Schedule
+
+
+
+
+• Liga MX TV schedule
+
+
+
+
+• Ligue Un TV schedule
+
+
+
+
+• MLS TV schedule
+
+
+
+
+• Premier League TV schedule
+
+
+
+
+• Primeira Liga TV schedule
+
+
+
+
+• Russian Premier League TV schedule
+
+
+
+
+• Scottish Premiership TV schedule
+
+
+
+
+• Serie A TV schedule
+
+
+
+
+• Superliga Argentina TV schedule
+
+
+
+
+• Women's soccer TV schedule
+
+
+
+
+• World Cup TV schedule
+
+
+
+• Bundesliga TV schedule
+• Championship TV schedule
+• Champions League TV schedule
+• Confederations Cup TV Schedule
+• Copa Libertadores TV schedule
+• Eredivisie TV schedule
+• Europa League TV schedule
+• FA Cup TV schedule
+• Gold Cup TV Schedule
+• International Champions Cup TV Schedule
+• La Liga TV schedule
+• League Cup TV Schedule
+• Liga MX TV schedule
+• Ligue Un TV schedule
+• MLS TV schedule
+• NASL TV schedule
+• Premier League TV schedule
+• Primeira Liga TV schedule
+• Russian Premier League TV schedule
+• Scottish Premiership TV schedule
+• Serie A TV schedule
+• Superliga Argentina TV schedule
+• Women’s soccer TV schedule
+• World Cup TV Schedule
+
+• beIN SPORTS Connect
+• FOX Soccer 2GO
+• FOX Sports GO
+• fuboTV
+• NBC Sports App
+• PlayStation Vue
+• Sling TV
+• NBC Sports App
+• Sling TV
+• Telemundo Deportes en Vivo
+• Comparison guide
+
+• fuboTV promo code
+• Sling TV promo code
+
+• beIN SPORTS
+• ESPN
+• FOX Sports
+• NBC Sports
+• Telemundo
+• Turner Sports
+• Univision Deportes
+• Soccer TV ratings
+• DirecTV vs. DISH comparison
+
+• About us
+• Our team
+• Contact us
+• Press coverage
+• Advertise
+
+
+We sometimes promote 3rd party products via affiliate marketing links. We use and believe in these products.

@@ -1,0 +1,44 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Dallas Weather Summary: 96 degrees
+
+2 Weather Alerts
+
+Learn More
+
+ROCKPORT, Arkansas – A Fort Worth woman has been arrested for allegedly shooting an Arkansas state trooper during a traffic stop on Easter Sunday, according to Arkansas State Police.
+
+
+Arkansas State Trooper Kyle Sheldon was the officer who was shot near exit 98 off of Interstate 30 in central Arkansas. His injuries are not believed to be life-threatening. 
+
+The suspect was identified as 49-year-old Elsbeth Tresa Kittinger from Fort Worth.
+
+
+The shooting was reported at 8:42 p.m. Malvern police were answering a call nearby and returned gunfire as police allege Kittinger drove away in an older model Dodge truck. She fled about five miles to Doyle Jones Road, where she was met with gunfire again and taken into custody with a gunshot wound.
+
+
+She has been released into custody at the Garland County (Ark.) Detention Center after receiving treatment at Baptist Health Medical Center-Hot Spring County. 
+
+
+Sheldon provided the story of how he became a State Trooper as part of the Arkansas State Police's #WhyIWearTheBadgeWednesdays. You can read the full post below. Sheldon said that he grew up in a criminal family.
+
+
+"I recall many times seeing the police at my house, and many times I was the one that called them," Sheldon said. "When I saw the lights and the uniforms pull in the yard I knew from that point on that I was safe. I told myself that I would be the one who broke the cycle."
+
+
+He was adopted at the age of 15 and worked with the Department of Corrections, Malvern Police Department and attended Henderson State University.
+
+

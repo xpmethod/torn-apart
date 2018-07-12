@@ -1,0 +1,256 @@
+  
+
+Some of the links in this blog post may not resolve until the committee’s post-meeting mailing is published (expected within a few days of November 27, 2017). If you encounter such a link, please check back in a few days.
+
+A couple of weeks ago I attended a meeting of the ISO C++ Standards Committee (also known as WG21) in Albuquerque, New Mexico. This was the third committee meeting in 2017; you can find my reports on previous meetings here (February 2017, Kona) and here (July 2017, Toronto). These reports, particularly the Toronto one, provide useful context for this post.
+
+With the final C++17 International Standard (IS) having been voted for publication, this meeting was focused on C++20, and the various Technical Specifications (TS) we have in flight, most notably Modules.
+
+The final C++17 International Standard (IS) has been sent off for publication in September. The final document is based on the Draft International Standard (DIS), with only minor editorial changes (nothing normative) to address comments on the DIS ballot; it is now in ISO’s hands, and official publication is imminent.
+
+In terms of implementation status, the latest versions of GCC and Clang both have complete support for C++17, modulo bugs. MSVC is said to be on track to be C++17 feature-complete by March 2018; if that ends up being the case, C++17 will be quickest standard version to date to be supported by these three major compilers.
+
+This is the second meeting that the C++20 Working Draft has been open for changes. (To use a development analogy, think of the current Working Draft as “trunk”; it was opened for changes as soon as C++17 “branched” earlier this year). Here, I list the changes that have been voted into the Working Draft at this meeting. For a list of changes voted in at the previous meeting, see my Toronto report.
+
+In addition to the C++ International Standard, the committee publishes Technical Specifications (TS) which can be thought of “feature branches” (to continue the development analogy from above), where provisional specifications for new language or library features are published and the C++ community is invited to try them out and provide feedback before final standardization.
+
+At the last meeting, we published three TSes: Coroutines, Ranges, and Networking. The next steps for these features is to wait for a while (usually at least a year) to give users and implementers a chance to try them out and provide feedback. Once we’re confident the features are ripe for final standardization, they will be merged into a future version of the International Standard (possibly C++20).
+
+The Modules TS made significant progress at the last meeting: its Proposed Draft (PDTS) was published and circulated for balloting, a process where national standards bodies evaluate, vote on, and submit comments on a proposed document. The ballot passed, but numerous technical comments were submitted that the committee intends to address before final publication. 
+
+A lot of time at this meeting was spent working through those comments. Significant progress was made, but not enough to vote out the final published TS at the end of the meeting. The Core Working Group (CWG) intends to hold a teleconference in the coming months to continue reviewing comment resolutions. If they get through them all, a publication vote may happen shortly thereafter (also by teleconference); otherwise, the work will be finished, and the publication vote held, at the next meeting in Jacksonville.
+
+I summarize some of the technical discussion about Modules that took place at this meeting below.
+
+The state of Modules implementation is also progressing: in addition to Clang and MSVC, Facebook has been contributing to a GCC implementation.
+
+The Parallelism TS v2 is feature-complete, with one final feature, a template library for parallel for loops voted in at this meeting. A vote to send it out for its PDTS ballot is expected at the next meeting.
+
+The Concurrency TS v2 (no working draft yet) continues to be under active development. Three new features targeting it have received design approval at this meeting: std::cell, a facility for deferred reclamation; apply() for synchronized_value; and atomic_ref. An initial working draft that consolidates the various features slated for the TS into a single document is expected at the next meeting.
+
+Executors, slated for a separate TS, are making progress: the Concurrency Study Group approved the design of the unified executors proposal, thereby breaking the lockdown that has been holding the feature up for a number of years.
+
+Stackful coroutines continue to be a unique beast of their own. I’ve previously reported them to be slated for the Concurrency TS v2; I’m not sure whether that’s still the case. They change the semantics of code in ways that impacts the core language, and thus need to be reviewed by the Evolution Working Group; one potential concern is that the proposal may not be implementable on all platforms (iOS came up as a concrete example during informal discussion). For the time being, the proposal is still being looked at by the Concurrency Working Group, where there continues to be strong interest in standardizing them in some form, but the details remain to be nailed down; I believe the latest development is that an older API proposal may end up being preferred over the latest call/cc one.
+
+There are some planned future Technical Specifications that don’t have an official project or working draft yet:
+
+The static introspection / “reflexpr” proposal (see its summary, design, and specification for details), headed for a Reflection TS, has been approved by the Evolution and Library Evolution Working Groups, and is awaiting wording review. The Reflection Study Group (recently renamed to “Compile-Time Programming Study Group”) approved an extension to it, concerning reflection over functions, at this meeting.
+
+There are more reflection features to come beyond what will be in the static introspection TS. One proposal that has been drawing a lot of attention is metaclasses, an updated version of which was reviewed at this meeting (details below).
+
+I’m not aware of much new progress on the planned Graphics TS (containing 2D graphics primitives inspired by cairo) since the last meeting. The latest draft spec can be found here, and is still on the Library Evolution Working Group’s plate.
+
+Nothing particularly new to report here either; the Numerics Study Group did not meet this week. The high-level plan for the TS remains as outlined previously. There are concrete proposals for several of the listed topics, but not working draft for the TS yet.
+
+As I related in my previous report, Concepts was merged into C++20, minus abbreviated function templates (AFTs) and related features which remain controversial.
+
+I also mentioned that there will likely be future proposals to get back AFTs in some modified form, that address the main objection to them (that knowing whether a function is a template or not requires knowing whether the identifiers in its signature name types or concepts). Two such proposals were submitted in advance of this meeting; interestingly, both of them proposed a very similar design: an adjective syntax where in an AFT, a concept name would act as an adjective tacked onto the thing it’s constraining – most commonly, for a type concept, typename or auto. So instead of void sort(Sortable&amp; s);, you’d have void sort(Sortable&amp; auto s);, and that makes it clear that a template is being defined.
+
+These proposals were not discussed at this meeting, because some of the authors of the original Concepts design could not make it to the meeting. I expect a lively discussion in Jacksonville.
+
+Now that Concepts are in the language, the question of whether new library proposals should make use of them naturally arose. The Library Evolution Working Group’s initial guidance is “not yet”. The reason is that most libraries require some foundational concepts to build their more specific concepts on top of, and we don’t want different library proposals to duplicate each other / reinvent the wheel in that respect. Rather, we should start by adding a well-designed set of foundational concepts, and libraries can then start building on top of those. The Ranges TS is considered a leading candidate for providing that initial set of foundational concepts.
+
+I last talked about overloading operator dot a year ago, when I mentioned that there are two proposals for this: the original one, and an alternative approach that achieves a similar effect via inheritance-like semantics.
+
+There hasn’t been much activity on those proposals since then. I think that’s for two reasons. First, the relevant people have been occupied with Concepts. Second, as the reflection proposals develop, people are increasingly starting to see them as a more general mechanism to satisfy operator dot’s use cases. The downside, of course, is that reflection will take longer to arrive in C++, while one of the above two proposals could plausibly have been in C++20.
+
+I’ll now write in a bit more detail about the technical discussions that took place in the Evolution Working Group, the subgroup that I sat in for the duration of the week.
+
+All proposals discussed in EWG at this meeting were targeting C++20 (except for Modules, where we discussed some changes targeting the Modules TS). I’ve categorized them into the usual “accepted”, “further work encouraged”, and “rejected” categories:
+
+Accepted proposals:
+
+There were also a few that, after being accepted by EWG, were reviewed by CWG and merged into the C++20 working draft the same week, and thus I already mentioned them in the C++20 section above:
+
+
+
+
+
+
+Proposals for which further work is encouraged:
+
+There was also a proposal for recursive lambdas that wasn’t discussed because its author realized it needed some more work first.
+
+Rejected proposals:
+
+  EWG didn’t have much of an appetite for #1 (possibly because it had just rejected another terse-lambda proposal), and argued that #2 could be achieved using reflection.
+
+Discussion papers
+
+There were also a few papers submitted to EWG that weren’t proposals per se, just discussion papers. 
+
+These included a paper arguing that Concepts does not significantly improve upon C++17, and a response paper arguing that it in fact does. The main issue was whether Concepts delivers on its promise of making template error messages better; EWG’s consensus was that they do when compared to unconstrainted templates, but perhaps not as much as one would hope when compared to C++17 techniques for constraining templates, like enable_if. There may be room for implementations (to date there is just the one in GCC) to do a better job here. (Of course, Concepts are also preferable over enable_if in other ways, such as being much easier to read.)
+
+There was also a paper describing the experiences of the author teaching Concepts online. One of the takeaways here is that students don’t tend to find the variety of concept declaration syntaxes confusing; they tend to mix them freely, and they tend to like the abbreviated function template (AFT) syntax.
+
+I mentioned above that a significant focus of the meeting was to address the national body comments on the Modules PDTS, and hopefully get to a publication vote on the final Modules TS.
+
+EWG looked at Modules on two occasions: first to deal with PDTS comments that had language design implications, and second to look at new proposals concerning Modules. The latter were all categorized as “post-TS”: they would not target the Modules TS, but rather “Modules v2”, the next iteration of Modules (for which the ship vehicle has not yet been decided).
+
+The first task, dealing with PDTS comments in EWG, was a short affair. Any comment that proposed a non-trivial design change, or even remotely had the potential to delay the publication of the Modules TS, was summarily rejected (with the intention that the concern could be addressed in Modules v2 instead). It was clear that the committee leadership was intent on shipping the Modules TS by the end of the meeting, and would not let it get derailed for any reason.
+
+“That’s a good thing, right?” you ask. After all, the sooner we ship the Modules TS, the sooner people can start trying it out and providing feedback, and thus the sooner we can get a refined proposal into the official standard, right? I think the reality is a bit more nuanced than that. As always, it’s a tradeoff: if we ship too soon, we can risk shipping a TS that’s not sufficiently polished for people to reasonably implement and use it; then we don’t get much feedback and we effectively waste a TS cycle. In this case, I personally feel like EWG could have erred a bit more on the side of shipping a slightly more polished TS, even if that meant delaying the publication by a meeting (it ended up being delayed by at least a couple of months anyways). That said, I can also sympathize with the viewpoint that Modules has been in the making for a very long time and we need to ship something already.
+
+Anyways, for this reason, most PDTS comments that were routed to EWG were rejected. (Again, I should emphasize that this means “rejected for the TS“, not “rejected forever”.) The only non-rejection response that EWG gave was to comment US 041, where EWG confirmed that the intent was that argument-dependent lookup could find some non-exported entities in some situations.
+
+Of course, there were other PDTS comments that weren’t routed to EWG because they weren’t design issues; these were routed to CWG, and CWG spent much of the week looking at them. At one point towards the end of the week, CWG did consult EWG about a design issue that came up. The question concerned whether a translation unit that imports a module sees a class type declared in that module as complete or incomplete in various situations. Some of the possibilities that have to be considered here are whether the module exports the class’s forward declaration, its definition, or both; whether the module interface unit contains a definition of the class (exported or not) at all; and whether the class appears in the signature of an exported entity (such as a function) without itself being exported.
+
+There are various use cases that need to be considered when deciding the behaviour here. For example, a module may want to export functions that return or take as parameters pointers or references to a type that’s “opaque” to the module’s consumer, i.e. the module’s consumer can’t create an instance of such a class or access its fields; that’s a use case for exporting a type as incomplete. At the same time, the module author may want to avoid splitting her module into separate interface and implementation units at all, and thus wants to define the type in the interface unit while still exporting it as incomplete.
+
+The issue that CWG got held up on was that the rules as currently specified seemed to imply that in a consumer translation unit, an imported type could be complete and incomplete at the same time, depending on how it was named (e.g. directly vs. via decltype(f()) where it was the return type of a function f). Some implementers indicated that this would be a significant challenge to implement, as it would require a more sophisticated implementation model for types (where completeness was a property of “views of types” rather than of types themselves) that no existing language feature currently requires.
+
+Several alternatives were proposed which avoided these implementation challenges. While EWG was favourable to some of them, there was also opposition to making what some saw as a design change to the Modules TS at this late stage, so it was decided that the TS would go ahead with the current design, possibly annotated as “we know there’s a potential problem here”, and it would be fixed up in v2.
+
+I find the implications of this choice a bit unfortunate. It sounded like the implementers that described this model as being a significant challenge to implement, are not planning to implement it (after all, it’s going to be fixed in v2; why redesign your compiler’s type system if ultimately you won’t need it). Other implementers may or may not implement this model. Either way, we’ll either have implementation divergence, or all implementations will agree on a de facto model that’s different from what the spec says. This is one of those cases where I feel like waiting to polish the spec a bit more, so that it’s not shipped in a known-to-be-broken state, may have been advised.
+
+I mentioned in my previous report that I thought the various Modules implementers didn’t talk to each other enough about their respective implementation strategies. I still feel like that’s very much the case. I feel like discussing each other’s implementation approaches in more depth would have unearthed this issue, and allowed it to be dealt with, sooner.
+
+Now moving on to the proposals targeting Modules v2 that EWG reviewed:
+
+The Library Evolution Working Group, as usual, reviewed a decent amount of proposed new library features. While I can’t give a complete listing of the proposals discussed and their outcomes (having been in EWG all week), I’ll mention a few highlights of accepted proposals:
+
+Targeting C++20:
+
+std::span (formerly called array_view) is also targeting C++20, but has not quite gotten final approval from LEWG yet.
+
+Targeting the Library Fundamentals TS v3:
+
+Targeting the Ranges TS:
+
+There was an evening session to discuss the future of text handling in C++. There was general agreement that it’s desirable to have a text handling library that has notions of code units, code points, and grapheme clusters; for many everyday text processing algorithms (like toupper), operating at the level of grapheme clusters makes the most sense. Regarding error handling, different people have different needs (safety vs. performance), and a policy-based approach to control error handling may be advisable. Some of the challenges include standard library implementations having to ship a database of Unicode character classifications, or hook into the OS’s database. The notion of whether we should have a separate character type to represent UTF-8 encoded text, or just use char for that purpose, remains contentious.
+
+SG 7, the Compile-Time Programming (previously Reflection) Study Group met for an evening session.
+
+An updated version of a proposed extension to the static reflection proposal to allow reflecting over functions was briefly reviewed and sent onwards for review in EWG and LEWG at future meetings.
+
+The rest of the evening was spent discussing an updated version of the metaclasses proposal. To recap, a metaclass defines a compile-time transformation on a class, and can be applied to a class to produce a transformed class (possibly among other things, like helper classes / functions). The discussion focused on one particular dimension of the design space here: how the transformation should be defined. Three options were given:
+
+SG 7 liked the third approach the best, noting that it not only dispenses with the need for the $ syntax (which couldn’t have been the final syntax anyways, it would have needed to be something uglier), but makes the proposal more general (opening up more avenues for how and where you can invoke/apply the metaclass), and more in line with the preference the group previously expressed to have reflection facilities operate on a homogeneous value representation of the program’s entities.
+
+Discussion of other dimensions of the design space, such as what the invocation syntax for metaclasses should look like (i.e. how you apply them to a class) was deferred to future meetings.
+
+SG 12, the Undefined Behaviour Study Group, recently had its scope expanded to also cover documenting vulnerabilities in the C++ language, and ways to avoid them.
+
+This latter task is a joint effort between SG 12 and WG 23, a sister committee of the C++ Standards Committee that deals with vulnerabilities in programming languages in general. WG 23 produces a language-agnostic document that catalogues vulnerabilities without being specific to a language, and then language-specific annexes for a number of programming languages. For the last couple of meetings, WG 23 has been collaborating with our SG 12 to produce a C++ annex; the two groups met for that purpose for two days during this meeting. The C++ annex is at a pretty early stage, but over time it has the potential to grow to be a comprehensive document outlining many interesting types of vulnerabilities that C++ programmers can run into, and how to avoid them.
+
+SG 12 also had a meeting of its own, where it looked at a proposal to make certain low-level code patterns that are widely used but technically have undefined behaviour, have defined behaviour instead. This proposal was reviewed favourably.
+
+On Friday evening, there was a session to discuss the stability and velocity of C++.
+
+One of the focuses of the session was reviewing the committee’s policy on deprecating and removing old features that are known to be broken or that have been superseded by better alternatives. Several language features (e.g. dynamic exception specifications) and library facilities (e.g. std::auto_ptr) have been deprecated and removed in this way.
+
+One of the library facilities that were removed in C++17 was the deprecated “binders” (std::bind1st and std::bind2nd). These have been superseded by the C++11 std::bind, but, unlike say auto_ptr, they aren’t problematic or dangerous in any way. It was argued that the committee should not deprecate features like that, because it causes unnecessary code churn and maintenance cost for codebases whose lifetime and update cycle is very long (on the order of decades); embedded software such as an elevator control system was brought up as a specific example.
+
+While some sympathized with this viewpoint, the general consensus was that, to be able to evolve at the speed it needs to to satisfy the needs of the majority of its users, C++ does need to be able to shed old “cruft” like this over time. Implementations often do a good job of maintaining conformance modes with older standard versions (and even “escape hatches” to allow old features that have been removed to be used together with new features that have since been added), thus allowing users to continue using removed features for quite a while in practice. (Putting bind1st and bind2nd specifically back into C++20 was polled, but didn’t have consensus.)
+
+The other focus of the session was the more general tension between the two pressures of stability and velocity that C++ faces as it evolves. It was argued that there is a sense in which the two are at odds with each other, and the committee needs to take a clearer stance on which is the more important goal. Two examples of cases where backwards compatibility constraints have been a drag on the language that were brought up were the keywords used for coroutines (co_await, co_yield, etc. – wouldn’t it have been nice to just be able to claim await and yield instead?), and the const-correctness issue with std::function which still remains to be fixed. A poll on which of stability or velocity is more important for the future direction of C++ revealed a wide array of positions, with somewhat of a preference for velocity.
+
+This was a productive meeting, whose highlights included the Modules TS making good progress towards its publication; C++20 continuing to take shape as the draft standard gained the consistent comparisons feature among many other smaller ones; and range views/adaptors being standardized for the Ranges TS.
+
+The next meeting of the Committee will be in Jacksonville, Florida, the week of March 12th, 2018. It, too, should be an exciting meeting, as design discussion of Concepts resumes (with the future of AFTs possibly being settled), and the Modules TS is hopefully finalized (if that doesn’t already happen between meetings).  Stay tuned for my report!
+
+Others have written reports about this meeting as well. Some that I’ve come across include Herb Sutter’s and Bryce Lelbach’s. I encourage you to check them out!
+
+I think “Make std::memory_order a scoped enumeration” is linking to the wrong proposal.
+
+Fixed, thanks!
+
+You say here that “
+
+ currently zero-initializes”; this doesn’t match my reading of the standard or the observable behavior of GCC (in that link, it just calls 
+
+, but if you change the line to 
+
+, it zero-initializes.
+
+Am I misreading what you meant, or was that a typo? And if it was, what did you mean there?
+
+Thanks for pointing that out; that was a mistake on my part. The actual comment that was made concerned std::vector&lt;char&gt;, not new char[N]. You’re right that for new char[N] you can already control whether or not initialization happens.
+
+I corrected this in the post.
+
+Thanks for the epic post! 🙂
+
+Sad to see both forwarding and the reasonable lambda syntax going up in flames. Not to mention the whole overload set thing. All of these kinds of proposal collapsing makes it seem like the committee just doesn’t want to fix the problem.
+
+I’m also terrified of the idea of putting zero-sized subobjects in the way the current proposal says to do so. Specifically, as an “optimization” rather than a guarantee. It’s like somebody forgot that part of standard layout’s guarantees was that EBO was *required* in some circumstances. We should have something similar for zero-sized members: a way to ensure that, under certain circumstances, implementations must make them zero sized.
+
+As always, thanks for the trip report Botond!
+
+As for perfect forwarding: this may be a rather naive idea, but wouldn’t it be possible to add a language extension which allows std::forward to do automatically deduce the type whenever it is called without a template parameter? It is my understanding that std::forward cannot be called without a template parameter today, so this wouldn’t break any backward compatibility. It would essentially be some kind of automatic type deduction, allowed for std::forward only.
+
+Good question. Basically, if there were special rules that applied to std::forward, it would no longer be function, but rather an operator. The idea of placing operators in namespace std came up in the past, but there was implementer opposition to it. That leaves using a keyword, which was considered but people couldn’t agree on one (as I mentioned, fwdexpr was the best candidate, but it didn’t have enough support).
+
+So, because they couldn’t agree on a keyword, we have to keep using the thing everyone agrees is problematic, slow, and too verbose?
+
+It seems odd how the committee can adopt huge changes like the spaceship operator, but it’s the little problems that just never get fixed. All because some people in a room can’t agree on what to name it.
+
+Is there some chance of the committee becoming more focused on solving problems and less concerned about how a solution is spelled? This seems to be one of the problems Stroustrup outlined in his “Grill the Committee” talk back at C++Con2017, that the committee spends a lot of time arguing about trivial things rather than actually solving problems.
+
+Sometimes it works. The committee hemed and hawed over the generation of operators proposals long enough that someone came up with `operator`, which is infinitely better than all of those proposals. But more often than not, it seems like it doesn’t.
+
+It’s one thing for a good proposal to die because they couldn’t come up with a satisfactory answer for technical issue X. That leaves open the possibility that someone could find a wholly different solution. But the forwarding issue has no different solution: either you use a template, an existing operator, or a keyword. There’s no “different solution” out there waiting to be discovered.
+
+One thing to keep in mind is that opinions on a hypothetical modification to a proposal do not carry as much weight as opinions on a proposal itself. When discussing a hypothetical modification, there is a lot of uncertainty because it’s not written down and the details are left to the imagination; people also haven’t had time to consider / dwell on it.
+
+In this case, the proposal was for a unary &gt;&gt; operator; the keyword alternative was just briefly brought up and discussed on the spot.
+
+If you believe strongly in a keyword-based solution to this problem, I would encourage you to write a proposal for it, fleshing out all the details and making a case for it. That may get a better reception than the on-the-fly suggestion to use a keyword did.
+
+Your trip reports are absolutely great. Will have great historic value as well.
+
+To be more specific, your sections about accepted, need-work and rejected are a godsend. And while we are at it, Happy Christmas!
+
+Thanks! Glad to hear they are useful. Merry Christmas to you too!
+
+Fill in your details below or click an icon to log in:
+
+
+			
+			You are commenting using your WordPress.com account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+
+			
+			You are commenting using your Google+ account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+
+			
+			You are commenting using your Twitter account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+
+			
+			You are commenting using your Facebook account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+Connecting to %s
+
+ Notify me of new comments via email.
+
+ 
+
+
+
+
+
+
+
+

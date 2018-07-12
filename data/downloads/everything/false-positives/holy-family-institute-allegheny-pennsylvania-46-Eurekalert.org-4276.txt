@@ -1,0 +1,65 @@
+
+
+
+
+
+EurekAlert! provides embargoed and breaking science news you can't afford to miss.
+
+
+EurekAlert! offers a one-stop science news distribution service you can trust.
+
+
+EurekAlert! is a service of the American Association for the Advancement of Science.
+
+Collaborative effort sets the record straight on the use of CD32 as a biomarker to measure HIV reservoirs
+
+The Wistar Institute
+
+PHILADELPHIA - (April 18, 2018) - An international team focused on HIV cure research spearheaded by The Wistar Institute in collaboration with the University of Pennsylvania and Vall d'Hebron Research Institute (VHIR) in Barcelona, Spain, established that the CD32 molecule is not a preferential biomarker to identify HIV silent reservoirs within the immune system of patients undergoing antiretroviral therapy (ART), as proposed by a recent landmark study. Instead, they report that CD32 identifies cells that are actively infected in spite of ART. These results, which have impactful implications for research on HIV eradication, were published in Science Translational Medicine.
+
+ART suppresses the replication of HIV in the host immune cell population and stops the progression of HIV-related disease. However, patients continue to have low but persistent amounts of virus in their blood - either in resting or activated cells. The major obstacle to achieving an HIV cure is the ability of the virus to remain latent by hiding in resting CD4 T cells in a silent status, in which the virus does not actively replicate or express its proteins. 
+
+In order to understand the mechanisms of viral latency and target the HIV reservoir, researchers need to isolate latently infected CD4 T cells in vivo.
+
+"Identifying specific biomarkers of latently infected cells is considered as the 'holy grail' in the HIV eradication field," said lead corresponding author Luis J. Montaner, D.V.M., D.Phil., director of the HIV-1 Immunopathogenesis Unit at The Wistar Institute Vaccine &amp; Immunotherapy Center. "A recent report published in Nature by Descours et al. prompted great interest, as it claimed to have identified CD32 as one such marker that is selectively expressed on the majority of persistently infected CD4 T cells. In an effort to reproduce and broaden these results, we found CD32 was telling us something quite different from what was reported. By the end, our collective data challenge the notion that CD32 identifies HIV latently infected T cells."
+
+The team thoroughly analyzed blood and immune tissues from HIV-negative donors, HIV-positive individuals treated with ART, and HIV-positive viremic individuals, collected at several institutions around the world. They also observed similar findings in an animal model of HIV infection.
+
+Results showed that CD32 expression is rather a marker for activated, HIV infected CD4 T cells, since it was co-expressed with other molecules that characterize immune activation. Furthermore, CD32 did not enrich for HIV DNA, which is one of the main traits of latently infected CD4 T cells, whereas the majority of HIV DNA resided in CD32-negative cells. Instead, results pointed to a direct link between CD32 expression and active HIV infection, as suggested by the concomitant presence of HIV RNA that indicates active transcription of the viral genome.
+
+"Our work sheds light on the nature of CD32 as a molecule associated with transcriptionally active HIV and proves that targeting CD32-positive cells is unlikely to hit the HIV latent reservoir," said Mohamed Abdel-Mohsen, Ph.D., assistant professor in The Wistar Institute Vaccine &amp; Immunotherapy Center and first author of the study. "Although CD32 may provide a helpful tool to study HIV transcription, we need to go back to the drawing board and keep searching for reliable and specific HIV latency biomarkers for the development of effective strategies towards HIV eradication and cure."
+
+###
+
+This work was supported by National Institutes of Health (NIH) grant for the BEAT-HIV Delaney Collaboratory UM1 AI 126620; NIH grants R01 AI065279, U01 AI065279, R21 AI129636, R21 NS106970, and R21 AI118411; grants from W.W. Smith Charitable Trust, Spanish Secretariat of Science and Innovation and FEDER, GeSIDA and Spanish AIDS network Red Temática Cooperativa de Investigación en SIDA, Spanish Health Institute Carlos III, Penn Center for AIDS Research, Spanish "Ministerio de Economía y Competitividad, Instituto de Salud Carlos III", "Pla estratègic de recerca i innovació en salut" (PERIS), from the Catalan government, Collaboratory for AIDS Research on Eradication, UCSD CFAR, Department of Veterans Affairs, and James B. Pendleton Charitable Trust. Additional funding was provided by The Philadelphia Foundation (Robert I. Jacobs Fund), Kean Family Professorship, Henry S. Miller, Jr. and J. Kenneth Nimblett, AIDS funds from the Commonwealth of Pennsylvania and from the Commonwealth Universal Research Enhancement Program, Pennsylvania Department of Health, and the Penn Center for AIDS Research.
+
+Leticia Kuri-Cervantes from University of Pennsylvania and Judith Grau-Exposito from Hospital Universitari Vall d'Hebrón, Institut de Recerca (VHIR), Barcelona, Spain, are co-first authors in this study. Maria J. Buzon from Hospital Universitari Vall d'Hebrón, Institut de Recerca (VHIR), Barcelona, Spain and Michael R. Betts from University of Pennsylvania are co-corresponding authors. Co-authors from Wistar include Costin Tomescu, Surya Vadrevu, Leila B. Giron. Other co-authors include Kenneth Lynn, Ian Frank, and Pablo Tebas from University of Pennsylvania; Carla Serra-Peinado, Meritxell Genescà, and Josep Castellví from Hospital Universitari Vall d'Hebrón, Institut de Recerca (VHIR), Barcelona, Spain; Adam M. Spivak, Racheal A. Nell, and Vicente Planelles from University of Utah School of Medicine; Guoxin Wu, Sai Vemula, Kara Cox, Daria Hazuda, and Bonnie Howell from Merck &amp; Co., Inc.; Perla M. Del Rio Estrada, Mauricio González-Navarro, and Gustavo Reyes-Terán from Instituto Nacional de Enfermedades Respiratorias, Mexico City, Mexico; Karam Mounzer and Jay Kostman from Jonathan Lax Center, Philadelphia FIGHT; Yanmin Wan and Qingsheng Li from University of Nebraska-Lincoln; Colin T. King and Mirko Paiardini from Emory University; Douglas Richman from University of California San Diego; Javier Martinez-Picado from IrsiCaixa AIDS Research Institute, Badalona, Spain. 
+
+The Wistar Institute is an international leader in biomedical research with special expertise in cancer research and vaccine development. Founded in 1892 as the first independent nonprofit biomedical research institute in the United States, Wistar has held the prestigious Cancer Center designation from the National Cancer Institute since 1972. The Institute works actively to ensure that research advances move from the laboratory to the clinic as quickly as possible. wistar.org.
+
+Disclaimer: AAAS and EurekAlert! are not responsible for the accuracy of news releases posted to EurekAlert! by contributing institutions or for the use of any information through the EurekAlert system.
+
+Media Contact
+
+Darien Sutton
+dsutton@wistar.org
+215-898-3988
+
+ @TheWistar
+
+
+
+
+
+http://www.wistar.org 
+
+The Wistar Institute
+
+
+
+
+
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)

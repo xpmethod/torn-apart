@@ -1,0 +1,157 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Seattle Weather Summary: 78 degrees
+
+The mother of two teens whose arrests were captured in a viral video said that an El Paso police officer choked her son and forced him to the ground before the video started recording.
+
+
+She said it was the officer's actions that ignited the conflict captured Thursday, in which he drew his weapon on children. That video, which was posted Friday evening on Facebook, had been viewed more than 4.6 million times Sunday evening.
+
+Elizabeth Flores, 33, said she now feels that she and her family are targets of police intimidation.
+
+
+Flores said that after the incident last week, she was told by police that the officer and another who was at the scene were responding to a call about either someone being beaten or an illegal entry into a home. She said the confrontation erupted when the police officer choked her 15-year-old son, Jacob Saucedo, and forced him to the ground.
+
+
+The incident happened in front of the Seville Recreation Center, 6700 Sambrano Ave., in South-Central El Paso.
+
+
+Flores said that she and other neighbors go to the recreation center to use its Wi-Fi.
+
+More: Viral video shows El Paso police officer pulling gun on children in Lower Valley
+
+
+More: Unarmed man beaten by Arizona police: 'I want Mesa to be held accountable'
+
+
+She said she was at the center Thursday when she heard a girl begin to shout, " 'They’re choking Jacob. They’re choking Jacob.' "
+
+
+Flores said she ran outside, leaped a rock and wrought-iron wall, and asked the officer what was going on. However, she said, he pushed her away, then took out his baton and forced her and the children gathered around the officer and her son to move. She said a girl tripped and injured her ankle. Flores said her arm was injured when she leaped the wall.
+
+
+Flores said she understands the officer was responding to a call and was trying to do his job, but, “I don’t know why he got so aggressive as soon as he got here.”
+
+
+“I don’t know if the cop had a bad day,” she said, or whether he doesn’t like her family.
+
+On Saturday, city officials said the officer involved has been placed on desk duty and is being investigated. However, Flores said that as of Sunday evening, she had not been interviewed by police. She also said that her requests Thursday to speak to a police supervisor were ignored. She said she planned to call investigators, but her cellphone isn’t working.
+
+
+Flores’ son Julian Saucedo, 17, video recorded the incident in which the El Paso police officer drew his weapon on the children as they cursed at him and questioned his actions as the officer was holding Jacob Saucedo on the ground.
+
+
+During the recording, the officer turned his attention to Julian Saucedo, arresting him after Julian handed off his phone to his mother, who kept recording the confrontation. The officer then went after Flores, chasing her as she ran and telling her he knew where she lived.
+
+
+“He was trying to get the phone, because he said it was evidence," she said, "that now it’s his evidence, that he needs the phone.
+
+
+“I go, 'This is my property. This is my phone.' ”
+
+
+She said she ran because she felt the officer was going to try to arrest her over the video or erase it.
+
+
+Flores said she felt the officer’s statement about knowing where she lives was a threat and said she believes police are trying to intimidate her.
+
+
+More: Four Arizona police officers are on leave after video shows man being punched in the face
+
+
+More: Family of Florida man shot by cop awarded $4 by jury, deputy found not liable
+
+
+She and a neighbor, who asked not to be identified out of fear of police reprisal, said Sunday that police have been driving by their homes since the incident.
+
+
+They said that on Saturday night, a police car parked in the alley that leads to Flores’ home and shined a light on the house.
+
+
+They both said police regularly drive through the area, but they believe the patrols have increased since the incident Thursday.
+
+
+El Paso Deputy City Manager Dionne L. Mack and El Paso Police Department spokesman Sgt. Enrique Carrillo said at a news conference Saturday that an adult and a minor were arrested Thursday for interfering with the duties of a police officer.
+
+More: Black man choked, slammed to the ground at Waffle House after taking his sister to prom
+
+
+More: 'Starbucks coffee is anti-black' say chanting protesters at Philadelphia Starbucks where 2 black men were arrested
+
+
+On Sunday, Flores said her sons Julian Saucedo and Jacob Saucedo were the two shown arrested in the video. She said Jacob Saucedo was released Sunday from the El Paso County Juvenile Detention Center, adding that she was trying to raise $100 to reach the $300 bond needed to get Julian Saucedo out of jail. A check of detention records Sunday night showed that he still was in jail.
+
+
+Flores said the officer didn’t read her children their rights and didn’t ask her permission to interview them.
+
+
+“He only picked on my kids," she said. "That’s the weird part. Why would he only pick on my kids, when the other kids were yelling?”
+
+
+Flores also said people who are criticizing the cursing in the video should put themselves in her place.
+
+
+“First, I’m seeing my son get choked," she said. "Then I’m seeing my (other) son get arrested for the video.”
+
+
+She said there are good and bad police, but “there are some that abuse the moment” because they are the ones who fill out the reports.
+
+
+She said people might understand her reaction if they had seen what happened before the recording began. If they had, they’d be agitated, too, she said.
+
+
+She said Jacob Saucedo was backed up against the wall in front of the recreation center, with no way to sit down and the officer standing inches from him. She said the officer choked her son, then forced him to the ground.
+
+
+More: Alton Sterling shooting: Baton Rouge officer fired as graphic body camera footage released
+
+
+More: Police killings of black men in the U.S. and what happened to the officers
+
+
+She said her son could have hit his head on the wall.  
+
+
+“I just think they needed to be here to see what happened,” Flores said.
+
+
+She said another, younger son began to cry during the confrontation and asked the officer why he was yelling at his mother. She said the officer went up to the child and shouted, “What are you gonna do? What are you gonna do?”
+
+She added that the children present wouldn’t have started cursing if something hadn’t been wrong with the police officer’s conduct, noting that he was the only officer targeted by the children’s words.
+
+
+She said an officer with him and officers who arrived at the scene as backup treated those gathered with respect and calmed the situation down.
+
+
+Warning: Explicit language: Click here to see the video of the confrontation
+
+
+The single mom said she is doing the best she can to raise her five sons. She said her only daughter is in Amarillo studying to become a nurse.
+
+
+“We don’t come with instructions,” she said.
+
+
+She said Julian Saucedo wants to be a doctor. She said he’s smart and knows his rights and that’s why he protested when the officer attempted to seize his phone.
+
+
+Flores said that in the past she has called the police to speak with her sons. She said one ran away to be with his girlfriend and others break curfew so they can spend time with their girlfriends as well, but she said they aren’t criminals. She added that police went to her house recently when her front window was broken.
+
+
+On Sunday, the front window still hadn’t been replaced.
+
+
+Follow Samuel Gaytan on Twitter @samuelgaytan.
