@@ -46,18 +46,19 @@ export default function(map) {
     .attr("id", d => d["DETLOC"] + "-dot")
     .attr("r", radius * 1.5);
 
-  map.on("zoomend", d3Update(map));
-  d3Update(map);
+  map.on("zoomend", d3Update);
+  d3Update();
+
+  function d3Update(){
+    [select("#ice-g").selectAll("circle"),
+      select("#dc-g").selectAll("circle")].forEach(feature => {
+      feature.attr("transform", d => {
+        const LL = new L.LatLng(d.lat, d.lon);
+        // const pp = map.latLngToLayerPoint(LL);
+        return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
+      });
+    });
+  }
 }
 
-function d3Update(map){
-  [select("#ice-g").selectAll("circle"),
-    select("#dc-g").selectAll("circle")].forEach(feature => {
-    feature.attr("transform", d => {
-      const LL = new L.LatLng(d.lat, d.lon);
-      // const pp = map.latLngToLayerPoint(LL);
-      return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
-    });
-  });
-}
 
