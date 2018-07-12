@@ -3,7 +3,7 @@ import en from "./i18n/en.json";
 import es from "./i18n/es.json";
 import fr from "./i18n/fr.json";
 import updateTexts from "./update-texts";
-import moveLegend from "./utils";
+import { moveLegend } from "./utils";
 
 // load in the i18n files.
 $.i18n().load({

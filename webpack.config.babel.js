@@ -7,7 +7,9 @@ export default {
   context,
   entry: {
     i18n: "./i18n.js",
-    textures: "./textures.js"
+    textures: "./textures.js",
+    visualizations: "./visualizations.js",
+    index: "./index.js"
   },
   output: {
     filename: "[name].bundle.js",
@@ -21,6 +23,7 @@ export default {
   //   }
   // },
   externals: {
-    jquery: "jQuery"
+    jquery: "jQuery",
+    leaflet: "L"
   },
 };

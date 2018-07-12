@@ -1,39 +1,14 @@
 /* global s, blacksites, facOperators imgurImages, zeroIceFacs, iceFacs, detCtrs, bufferGeoJSON, pointsOfEntryGeoJSON */
 
 // More globals
-var timer;
-var map;
-var defaultRadius;
-if (L.Browser.mobile) {
-  defaultRadius = 4;
-} else {
-  defaultRadius = $( window ).width() / 250;
-}
-var green = "#66c2a5";
-var orange = "#fc8d62";
-var purple = "#8da0cb";
-var rem = parseInt($("html").css("font-size").replace("px", ""));
-
 $( document ).ready(() => {
   initPages();
-  initI18n();
   formatRedacted();  
   formatFootnotes();
 });
 
 function initPages(){
-  if($("#mapdiv").length) initIndex();
   if($("#visualizations-mapdiv").length) initVisualizations();
-  if($("#textures-full-text-1").length) initTextures();
-}
-
-function initIndex(){
-  $("#indexModal").modal("show");
-  map = initMap("mapdiv");
-  $("#legend").click(function(){ $(this).hide(); });
-  buildPointsLegend();
-  const pointsLayer = buildPointsLayer();
-  pointsLayer.addTo(map);
 }
 
 function initVisualizations(){
@@ -53,168 +28,6 @@ function initVisualizations(){
   });
 }
 
-function initTextures(){
-  const textures = {};
-  d3.queue()
-    .defer(callback => {
-      buildTexturesMessages(callback, textures, "en");
-    })
-    .defer(callback => {
-      buildTexturesMessages(callback, textures, "es");
-    })
-    .defer(callback => {
-      buildTexturesMessages(callback, textures, "fr");
-    })
-    .awaitAll(e => {
-      if (e) throw e;
-      $.i18n().load(textures);      
-      update_texts();
-    });
-}
-
-function initMap(mapid){
-  map = L.map(mapid, { 
-    center: [0,0], 
-    zoom: 5, 
-    zoomSnap: 0.25
-  });
-  map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-  L.tileLayer.provider("Esri.WorldImagery").addTo(map);
-  if (L.Browser.mobile) {
-    map.removeControl(map.zoomControl);
-  }
-  moveLegend();
-  return map;
-}
-
-function buildD3Points() {
-  const svg = d3.select(map.getPanes().overlayPane).append("svg")
-    .style("z-index", 210)
-    .style("pointer-events", "none")
-    .attr("width", $( window ).width())
-    .attr("height", $( window ).height())
-    .attr("id", "d3-dots-svg");
-  const iceG = svg.append("g").attr("id", "ice-g").classed("leaflet-zoom-hide", true);
-  const dcG = svg.append("g").attr("id", "dc-g").classed("leaflet-zoom-hide", true);
-  iceG.selectAll("circle")
-    .data(iceFacs.filter(d => d.lat !== "NA"))
-    .enter().append("circle")
-    .style("stroke", "black")
-    .attr("class", d => {
-      const code = d["Facility.Operator"];
-      let group = "GOVT";
-      ["AHTNA (GUARD)", "M&TC", "ICA", "LASALLE CORRECTIONS", "AGS", "AKAL", "CEC", "MVM"].forEach(operator => {
-        if(operator === code){ 
-          group = "OPRIV"; 
-        }
-      });
-      ["CCA", "GEO", "ORR"].forEach(operator => { if(operator === code) group = operator; });
-      return group;
-    })
-    .classed("orange-dot", true)
-    .classed("ice-dot", true)
-    .attr("data-operator", d => d["Facility.Operator"])
-    .attr("id", d => d["DETLOC"] + "-dot")
-    .attr("r", defaultRadius * 2);
-  dcG.selectAll("circle")
-    .data(detCtrs)
-    .enter().append("circle")
-    .style("stroke", "black")
-    .classed("purple-dot", true)
-    .classed("dc-dot", true)
-    .attr("data-operator", d => d["Owner"])
-    .attr("id", d => d["DETLOC"] + "-dot")
-    .attr("r", defaultRadius * 1.5);
-
-  map.on("zoomend", d3Update);
-  d3Update();
-}
-
-function d3Update(){
-  [d3.select("#ice-g").selectAll("circle"),
-    d3.select("#dc-g").selectAll("circle")].forEach(feature => {
-    feature.attr("transform", d => {
-      const LL = new L.LatLng(d.lat, d.lon);
-      // const pp = map.latLngToLayerPoint(LL);
-      return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
-    });
-  });
-}
-
-function buildPointsLayer() {
-  const indexLayer = L.layerGroup();
-  const zeroIceFacsLayer = L.layerGroup();
-  const iceFacsLayer = L.layerGroup();
-  const detCtrsLayer = L.layerGroup();
-  
-  // iterate over the list object
-  zeroIceFacs.forEach(place => {
-    if(!isNaN(place.lat)){
-      zeroIceFacsLayer.addLayer(buildCircle(place, defaultRadius, orange, false, 0.8));
-    }
-  });
-
-  iceFacs.forEach(place => {
-    const detloc = place["DETLOC"];
-    const radius = defaultRadius * 2;
-    const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
-    const svgData = buildSpark(data);
-    let imgSrc = "/torn-apart/assets/imgs/onepixel.png";
-    if (detloc !== "Redacted") {
-      imgSrc = imgurImages.filter((img) => img.hasOwnProperty(detloc))[0][detloc].thumb;
-    }
-    const popup = `<div class="row">
-      <div class="col-xs pl-3" style="height: 128; width: 128">
-        <img height="128" width="128" class="popup-image" 
-        src="${imgSrc}">
-      </div>
-      <div class="col-xs spark-div">
-        <svg width="150" height="128">${svgData}</svg>
-      </div>
-    </div>
-    <h5>${place["Name"]}</h5>
-    ${titleize(place["City"])}, ${place["State"]}
-    `;
-    if(!isNaN(place.lat)){
-      const circle = buildCircle(place, radius, orange);
-      iceFacsLayer.addLayer(circle.bindPopup(popup));
-    }
-  });
-  detCtrs.forEach(place => {
-    const popup = `<div class="media">
-    <img height="150" width="150" class="popup-image mr-3" 
-    src="${place.imgur}">
-    <div class="media-body">
-    <h5>${place["Name"]}</h5>
-    <p><strong>${place["State"]}</strong></p>
-    <!--<p>${place["Owner"]}</p>-->
-    </div>
-    `;
-    if(!isNaN(place.lat)){
-      const circle = buildCircle(place, defaultRadius * 1.5, purple);
-      detCtrsLayer.addLayer(circle.bindPopup(popup));
-    }
-  });
-  indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
-  buildD3Points();
-  update_texts();
-  return indexLayer;
-}
-
-function buildCircle(place, radius = 4, color = orange, interactive = true, opacity = 0){
-  const circleStyle = {
-    interactive, 
-    weight: 1,
-    radius: radius,
-    color: "#000",
-    fillColor: color,
-    fillOpacity: opacity,
-    opacity: opacity
-  };
-  const lat = +place.lat;
-  const lng = +place.lon;
-  return L.circleMarker([lat, lng], circleStyle);
-}
 
 function buildBufferLayer(){
   const layer = L.layerGroup();
@@ -268,156 +81,7 @@ function buildTheEye() {
 
 }
 
-function showViz(viz, map, layers){
-  switch (viz) {
-  case "the-trap":
-    $("#drawing-dialog").hide();
-    map.dragging.enable();
-    map.flyToBounds([[34.1638, -97.1375], [25.8439, -118.608244]]);
-    $("#banned-legend").hide();
-    $("#d3-banned-svg").hide();
-    $("#charts-div").hide();
-    $("#the-eye-div").hide();
-    $(".leaflet-control-zoom").show();
-    $("#orr-div").hide();
-    $("#orr-legend").hide();
-    $("#legend").hide();
-    layers[0].addTo(map);
-    map.removeLayer(layers[1]);
-    buildTrapLegend();
-    $("#d3-dots-svg").hide();
-    break;
-  case "the-eye":
-    $("#banned-legend").hide();
-    $("#drawing-dialog").hide();
-    $("#d3-banned-svg").hide();
-    $("#d3-dots-svg").hide();
-    map.dragging.enable();
-    $("#charts-div").hide();
-    $(".leaflet-control-zoom").hide();
-    $("#orr-div").hide();
-    $("#orr-legend").hide();
-    $("#legend").hide();
-    map.removeLayer(layers[1]);
-    map.removeLayer(layers[0]);
-    buildTheEye();
-    break;
-  case "charts":
-    $("#drawing-dialog").hide();
-    $("#banned-legend").hide();
-    $("#d3-banned-svg").hide();
-    $("#d3-dots-svg").show();
-    map.dragging.enable();
-    $("#legend").hide();
-    $("#the-eye-div").hide();
-    $("#orr-div").hide();
-    $("#orr-legend").hide();
-    $(".leaflet-control-zoom").hide();
-    layers[1].addTo(map);
-    map.removeLayer(layers[0]);
-    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    buildCharts();
-    $("#charts-div").show();
-    break;
-  case "clinks":
-    $("#drawing-dialog").hide();
-    $("#banned-legend").hide();
-    $("#d3-banned-svg").hide();
-    $("#d3-dots-svg").show();
-    map.dragging.enable();
-    $("#charts-div").hide();
-    $("#the-eye-div").hide();
-    $("#orr-div").hide();
-    $("#orr-legend").hide();
-    $(".leaflet-control-zoom").show();
-    $("#legend").hide();
-    layers[1].addTo(map);
-    map.removeLayer(layers[0]);
-    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    buildPointsLegend();
-    break;
-  case "orr":
-    $("#drawing-dialog").hide();
-    $("#banned-legend").hide();
-    $("#d3-banned-svg").hide();
-    $("#d3-dots-svg").hide();
-    $("#legend").hide();
-    $("#charts-div").hide();
-    $("#the-eye-div").hide();
-    $("#orr-div").show();
-    $("#orr-legend").show();
-    $(".leaflet-control-zoom").hide();
-    map.removeLayer(layers[1]);
-    map.removeLayer(layers[0]);
-    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    map.dragging.disable();
-    buildORR();
-    break;
-  case "banned":
-    $("#drawing-dialog").show();
-    $("#d3-dots-svg").hide();
-    $("#legend").hide();
-    $("#charts-div").hide();
-    $("#the-eye-div").hide();
-    $("#orr-div").hide();
-    $("#orr-legend").hide();
-    $(".leaflet-control-zoom").hide();
-    map.removeLayer(layers[1]);
-    map.removeLayer(layers[0]);
-    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    map.dragging.disable();
-    $("#d3-banned-svg").show();
-    buildBanned();
-  }
-  update_texts();
-}
 
-
-function titleize(string) {
-  return s.titleize(s.swapCase(string));
-}
-
-function buildSpark(data) {
-  const max = d3.max(data.map(d => d[1]));
-  const svg = d3.select("#hidden-svg").append("svg").attr("width", 150).attr("height", 128),
-    width = +svg.attr("width") - 50,
-    height = +svg.attr("height") - 30,
-    g = svg.append("g").attr("transform", "translate(35,10)");
-  const x = d3.scaleLinear()
-    .rangeRound([0, width]);
-  const y = d3.scaleLinear()
-    .rangeRound([height, 0]);
-  const line = d3.line()
-    .x(function(d) { return x(d[0]); })
-    .y(function(d) { return y(d[1]); });
-  x.domain([2014, 2018]);
-  y.domain([0, max]);
-
-  g.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", green)
-    .attr("stroke-linejoin", "round")
-    .attr("stroke-linecap", "round")
-    .attr("stroke-width", 1.5)
-    .attr("d", line);
-
-  g.append("g")
-    .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).tickValues([2014, 2018]).tickFormat(d3.format(".0f")));
-
-  g.append("g")
-    .call(d3.axisLeft(y).ticks(d3.min([max, 5])).tickFormat(d3.format(".0f")))
-    .append("text")
-    .attr("fill", "#000")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 6)
-    .attr("dy", "0.71em")
-    .attr("text-anchor", "end")
-    .text("Avg. Daily Pop."); 
-
-  return svg.node().innerHTML;
-}
 
 function buildTrapLegend(){
   $("#legend").html("<div class='px-3 py-2'><svg class='float-left' height='40' width='50'><rect width='50' height='40' class='orange-polygon' /></svg><span data-i18n='ta-trap-legend' class='markdownify'></span></div>");
@@ -426,55 +90,6 @@ function buildTrapLegend(){
   $("#legend").show();
 }
 
-function buildPointsLegend(){
-  $("#legend").html(() => {
-    return `<div class="row px-3 pt-2">
-      <div class="col-sm-4">
-        <div class="media">
-          <svg  height="${defaultRadius * 5}" width="${defaultRadius * 5}">
-            <circle r="${defaultRadius * 1.5}" 
-              cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
-              fill="${purple}" fill-opacity="0.8"
-              stroke="black" stroke-width="1" stroke-opacity="0.8" />
-          </svg>
-          <div data-i18n="ta-private-juvenile-detention-facilities" class="media-body">
-            Private juvenile detention facilities
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="media">
-          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
-            <circle r="${defaultRadius * 2}" 
-              cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
-              fill="${orange}" fill-opacity="0.8"
-              stroke="black" stroke-width="1" stroke-opacity="0.8" />
-          </svg>
-          <div data-i18n="ta-ice-facilities-since-2014" class="media-body">
-            ICE facilities in use since 2014
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="media">
-          <svg height="${defaultRadius * 5}" width="${defaultRadius * 5}">
-            <circle r="${defaultRadius}" 
-              cx="${defaultRadius * 2.5}" cy="${defaultRadius * 2.5}" 
-              fill="${orange}" fill-opacity="0.8"
-              stroke="black" stroke-width="1" stroke-opacity="0.8" />
-          </svg>
-          <div data-i18n="ta-ice-facilities-not-in-use" class="media-body">
-            ICE facilities not in use
-          </div>
-        </div>
-      </div>
-    </div>
-    <p class="mx-3 mb-2" data-i18n="ta-clinks-legend-supp-text"></p>`;
-  });
-  update_texts();
-  moveLegend();
-  $("#legend").show();
-}
 
 function buildCharts() {
   d3.csv("/torn-apart/assets/data/iceFacs.csv", (error, data) => {
@@ -511,7 +126,7 @@ function buildCharts() {
       if(row.lat === "NA"){
         name = "<i class='fa fa-user-secret'></i>&nbsp;";
       }
-      name = name + titleize(row["Name"].replace(/\([^)]*\)/, ""));
+      name = name + titleUp(row["Name"].replace(/\([^)]*\)/, ""));
       const operator = facOperators.filter(o => o.code === row["Facility.Operator"])[0];
       if(operator && operator.name){
         if(operator.url){
@@ -769,16 +384,6 @@ function formatFootnotes(){
   $(".footnotes ol li p").html((i, html) => html.replace("↩", "<i class='fa fa-undo'></i>"));
 }
 
-function buildTexturesMessages(callback, textures, lang){
-  textures[lang] = {};
-  $.ajax({ url: `assets/markdown/textures_${lang}.md` })
-    .done( data => { 
-      data.split("#IMGTAG#").forEach((chunk, i) => {
-        textures[lang][`ta-textures-full-text-${i + 1}`] = chunk;
-      });
-      callback(null);
-    });
-}
 
 function projectPoint(x, y) {
   var point = map.latLngToLayerPoint(new L.LatLng(y, x));
