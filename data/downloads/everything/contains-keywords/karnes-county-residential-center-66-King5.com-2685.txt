@@ -1,0 +1,117 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Seattle Weather Summary: 78 degrees
+
+BROWNSVILLE, Texas — Shackled with chains around her waist and  her wrists, Jennifer Johana Fuentes-Maradiaga was led out of a courtroom  just before noon Thursday as 34 others also charged with illegally entering the United States awaited sentencing and inevitable deportation.
+
+
+The 18-year-old who was likely wearing  the clothes she had on when she was taken into federal custody a few days earlier, was bound for the same fate as the others.  But she hoped not until she and her 14-year-old brother, who crossed the Rio Grande with her, were reunited.
+
+That was the only case that came before Magistrate Judge Ignacio Torteya III involving the reunification of an adult with a child on the first day after President Donald Trump amended his policy of separating children from adults who come into the country without authorization.
+
+
+Rudy X. Rodriguez, the assistant public defender who represents just about all the immigration defendants at the federal courthouse in Brownsville, could not say for sure when the two siblings would  be reunited, much less what will become of them once they leave federal custody.
+
+“I don’t know,” he  said outside the courtroom after the legal proceedings . “Above my pay grade.”
+
+
+The remark was not intended to sound callous or indifferent. Rodriguez entered the courtroom earlier that  morning with 43 clients he had only recently met. One of them spoke only a tribal language from Honduras and could not be adequately represented. Five others were sentenced to 10 to 20 days in federal custody because they had illegally entered the country several times before.
+
+
+Fuentes-Maradiaga and the others were sentenced to time served, which was the few days since they’d been picked up. Rodriguez said Thursday was a light day for him. Since Trump’s zero-tolerance policy has been in effect, meaning that every illegal immigration case must go before a judge, he’s represented upward of 70 or 80 clients each day.
+
+Before that, 10 or so cases a day was the norm, he said.
+
+
+Asked about specific cases, especially those involving parents whose children were taken from them, he declined to answer.
+
+
+“These are some of the best human beings I’ve ever met,” said Rodriguez, whose been on the job for 18 years. “They help each other. These are good people. They just want to work.”
+
+
+The process inside the courtroom was thorough but repetitive. Each defendant was outfitted with earphones that translated Torteya’s instructions from English to Spanish. Then each was asked to stand as the judge explained the legal proceeding and asked if those instructions were understood. After each had pleaded guilty, he asked each if they were sure or had been pressured into their responses.
+
+
+Each said the plea was voluntary.
+
+
+It was unknown which of the detention facilities along the Texas border where Fuentes-Maradiaga’s brother was being housed. The judge asked her for her brother’s birthday, suggesting that might help locate the boy.
+
+
+A few miles away at a shuttered and renovated Walmart, a detention center housed about 1,000 children, according to a former employee who’d been laid off in April but hoped to be rehired in the event that staffing is ramped up because of the zero tolerance policy. He gave only his first name, Joe, and his age, 24.
+
+
+He had been a youth care specialist, and the description of his job sounded similar to a camp counselor. Most of the youngsters were around 10 or older when he worked there, he said. They weren’t kept behind chain-linked fences and had access to toys, books and television. Meals were prepared onsite and were eaten by children and staff alike, he said.
+
+Family separation is something that happens constantly, said Diana Abrego, who works at Clinica De Immigracion De San Jose, an organization in Del Rio — about halfway between Brownsville and El Paso — which offers help with legal services such as applying for citizenship and completing legal forms.
+
+“You’ll see those situations happening off and on. (Separation of families) has always been a continuous thing, but it’s just got a little more intense,” she said. “There’s a lot of people that get deported and one half stays here and the other in Mexico. You see that a lot in the border towns.”
+
+
+Abrego said children who are detained are not being kept in Del Rio, but are sent mostly to facilities in the Rio Grande Valley. The only detention center in the city is for adults.
+
+
+Because of Trump’s new executive order Abrego said the big question is what happens to all those children who have already been separated from their families, when some of those families have already been deported?
+
+
+Between Corpus Christi and San Antonio, the Karnes County Residential Center was housing about 600 immigrants, most of whom are women and children. That number is only expected to increase.  
+
+
+Curtis Doeddler, a supervising attorney with the Refugee and Immigrant Center for Education and Legal Services, or RAICES, said those immigrants are women and children from countries in Central America including, Guatemala, Honduras and El Salvador.
+
+
+“That facility is almost at full capacity with 600 people for about the last month or so and that’s a pretty heavy load for that facility there,” Doeddler said. “All women there have up to three children with them. Certainly there are more children there than there are women.”
+
+
+Immigrants held at the facility are typically there for only 20 days, the legal limit, while they await asylum hearings, he said.
+
+
+The Karnes facility is meant to house women and children who enter the border illegally and encounter Border Patrol agents and express “a credible fear” of their country of origin and seek asylum.
+
+
+“Most of these women are fleeing serious crimes and harm, either by spouses, the government or the police,” Doeddler said.
+
+After they have “a credible fear” interview at the border they get sent to Karnes County and they talk to an asylum officer and get the chance to speak to an attorney.
+
+
+Then they go through the asylum process and are released until the date of the hearing, which could take months or years, Doeddler said.
+
+
+An immigration judge can decide to grant asylum or reject the case.
+
+
+“The majority of these people do get deported,” Doeddler said. “The process to get asylum is a very difficult process and most people get temporary protection, but very few people get asylum, especially in the last month.”
+
+
+More: Confusion reigns in wake of Trump child separation order
+
+
+More: Melania Trump wears an 'I don't care' jacket to visit immigrant children in Texas
+
+
+More: President Trump hits Mexico for 'taking our money and sending us drugs'
+
+
+More: Migrant children describe abuse, being forcibly medicated at youth shelters
+
+
+More: Undocumented Immigrant children brought from US-Mexico border 2,000 miles to NYC
+
+
+More: Trump administration's 'zero tolerance' border prosecutions led to time served, $10 fees
+
+
+Contributing: Michelle Gaitan, San Angelo Standard-Times.

@@ -1,0 +1,557 @@
+By using this website, you consent to our use of cookies. For more information, visit our Privacy PolicyX
+
+
+
+This file photo shows a sign at the entrance to the South Texas Family Residential Center in Dilley, Texas, June 30, 2015. (AP Photo / Eric Gay)
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+President Donald Trump has signed an executive order that ends family separations at the border by indefinitely detaining parents and children together. Such a policy is illegal. It violates a 20-year-old court settlement called the Flores Agreement, which limits how long and under what conditions children can be kept in immigration-detention facilities. Choosing to ignore Flores allows Trump to put children in the same cages as their parents, indefinitely, for those accused of the misdemeanor of unauthorized border crossing. It will create a Guantánamo in the Southwest United States.
+				
+				Ad Policy
+									
+			function load_article_ads(){
+				if( jQuery("#ad-halfpage-284701-0").is(":empty") ){call_ad_new('halfpage','tn_article','ad-halfpage-284701-0','rectangle_1',{"tn_author":"'david-d'","tn_articleid":284701,"tn_ptype":"article","tn_keyword":"'immigratio', 'immigratio', 'private-pr', 'undocument'","tn_subject":"'immigratio', 'jails-and-', 'racism-and'","tn_slp":""});}					
+			}	
+	
+			jQuery('#expand-reduce-284701').click(function(){
+				if( isMobile.any() ){
+					call_ad_new('halfpage','tn_article','ad-halfpage-284701-0','rectangle_1',{"tn_author":"'david-d'","tn_articleid":284701,"tn_ptype":"article","tn_keyword":"'immigratio', 'immigratio', 'private-pr', 'undocument'","tn_subject":"'immigratio', 'jails-and-', 'racism-and'","tn_slp":""});	
+				}				
+			});	
+		 
+		
+
+
+
+It would also directly benefit the two largest private-prison companies in America, Geo Group and CoreCivic, who run massive family-detention facilities in southern Texas that previously could only hold children with their families for up to 20 days. Authorizing Trump hotels with open-ended stays would be great for business.
+
+
+
+Attempts to deter a 2014 migrant influx led to the construction of two giant family-detention centers for women and children in Texas, one for each major private-prison company: the South Texas Family Residential Center in Dilley, which is run by CCA, and the Karnes Residential Center, run by Geo Group. A federal case-management system for family detention went to Geo Care, a subsidiary of Geo Group, until it was shuttered last year. Geo Group also ran an electronic monitoring system for families sent off to await court appearances or asylum hearings.
+
+
+
+According to a 2015 Grassroots Leadership report, CCA, Geo Group, and their counterparts operate 62 percent of all immigration-detention centers. Their business model was bolstered by a congressional quota mandating that ICE maintain 34,000 detention beds every day, whether filled or not.
+
+
+
+This was a smart diversification strategy for private-prison companies that, during the Obama administration, witnessed declines in violent crime and bipartisan agreements on alternatives to harsh over-sentencing. The stalemate on immigration and the arms race to prove toughness on border security represented a growth opportunity.
+
+
+
+But the family-detention centers proved disastrous. Incredibly, Texas unsuccessfully attempted to get Dilley and Karnes labeled as childcare centers—with the Obama administration’s help—so they could house children. But the facilities were nicknamed “baby jails” and compared to Japanese internment camps. Dilley was cited for dozens of violations of state regulations, including recurrent child illnesses. At Karnes, Geo Group was accused of locking mothers in dark rooms as punishment for protesting conditions.
+									Most Popular
+
+1
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+
+2
+The Social Shaming of Racists Is Working
+
+
+3
+My Best Friend Lost His Life to the Gig Economy
+
+
+4
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+
+5
+Why Trump’s Denaturalization Task Force Matters
+
+The Trump administration’s policy just takes this effort to deter migration to its logical extreme. As parents go to (mostly privately run) jails for illegal crossing, children move to temporary holding centers until the Office of Refugee Resettlement can place them in foster care or some other stopgap solution. Private companies maintain these facilities too.		
+			Current Issue
+
+								
+									
+									
+												
+						View our current issue	
+						
+						
+					
+								
+				
+		
+			
+			var magazine_text_284701            = '';
+			var magazine_button_text_284701     = '';
+			var magazine_button_url_284701      = '';
+			var magazine_button_bg_color_284701 = '';
+			
+			var is_user_logged_in = getCookie('SESSname');				if( is_user_logged_in != null ){
+					
+						
+						magazine_text_284701 = ' If you like this article, please give today to help fund The Nation’s work.';	
+												magazine_button_text_284701 = '';	
+												magazine_button_url_284701 = 'https://www.thenation.com/email-signup-module-donate/';
+												magazine_button_bg_color_284701 = '#ffcf0d';
+								
+					
+				}else{
+					
+						
+						magazine_text_284701 = 'Subscribe today and Save up to $129.';	
+												magazine_button_text_284701 = '';				
+												magazine_button_url_284701 = 'https://ssl.palmcoastd.com/06601/apps/NEW_US?ikey=I**GAB';
+												magazine_button_bg_color_284701 = '#dd3333';
+								
+					
+				}
+			
+						
+			if( magazine_text_284701 !='' ){				
+				jQuery("#magazine_text_284701").html(magazine_text_284701);				
+			}
+			
+			if( magazine_button_text_284701 !='' ){				
+				jQuery("#magazine_button_284701").html(magazine_button_text_284701);				
+			}
+			
+			if( magazine_button_url_284701 !='' ){				
+				jQuery("#magazine_button_284701 a").attr("href",magazine_button_url_284701);				
+			}
+			
+			if( magazine_button_bg_color_284701 !='' ){			
+				jQuery("#magazine_button_284701 a input").css("background",magazine_button_bg_color_284701);				
+			}
+			
+		
+			
+		
+
+Yahoo News identified several of them. Comprehensive Health Services Inc. received $65 million in contracts for emergency shelter operations, and Dynamic Service Solutions got $8.7 million more. Dynamic Educational Systems is providing some of the educational services, with a contract worth up to $5.6 million. Nonprofit organization Southwest Key is running the notorious “Casa Padre” facility, housed in a former Walmart near Brownsville, Texas, as well as 26 facilities nationwide. They’re on track to earn $458 million this fiscal year.
+
+Defense contractors have descended on the tent cities being set up in Tornillo, Texas, and elsewhere. MVM, a Virginia-based defense contractor, has put up recruiting notices seeking personnel to set up the Tornillo shelters; MVM claims they’re only transporting migrants to facilities and since took down the links. Weapons manufacturer General Dynamics assists the Office of Refugee Resettlement in processing immigrant-children cases, and has issued new job postings. “Tender age” migrant facilities offer another chance to profit.
+
+Practically all these companies have disclaimed responsibility for the crisis, but they’re clearly implicated in it. So is Microsoft, which has a cloud-computing contract with ICE. So is American Airlines, which has federal travel contracts with the government but has asked to stop having its flights transport separated children. Other airlines have similar contracts, and workers are vowing to boycott the flights.
+
+ICE spends roughly $159 per day per person on detention, paying some middleman to manage, feed, educate, and, in a particularly gruesome development, medicate the children into listlessness. There are far cheaper alternatives, but sinking all that money into a carceral framework makes it difficult to tear it down. Even cities that want to eject private prisons for immigrants are subject to legal pushback from the deep-pocketed contractors.		
+			
+			
+			
+		
+		
+			
+			var inline_cta_text_284701            = '';
+			var inline_cta_button_text_284701     = '';
+			var inline_cta_url_284701             = '';
+			var inline_cta_bg_color_284701        = '';
+			var inline_cta_font_color_284701      = '';
+			var cta_1_check_284701  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_text_284701 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_284701 = '#000000';
+													
+						inline_cta_button_text_284701 = '';
+												
+						inline_cta_url_284701 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_284701 = '#ffcf0d';
+											
+				}else{
+					
+											
+						inline_cta_text_284701 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_284701 = '#000000';
+													
+						inline_cta_button_text_284701 = '';
+												
+						inline_cta_url_284701 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_284701 = '#ffcf0d';
+										}
+				
+							
+			if( inline_cta_text_284701 !='' ){
+				jQuery("#inline_cta_284701").html(inline_cta_text_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_button_text_284701 !='' ){
+				jQuery("#inline_cta_btn_284701").html(inline_cta_button_text_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_url_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a").attr("href",inline_cta_url_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_bg_color_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a input").css("background",inline_cta_bg_color_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_font_color_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a input").css("color",inline_cta_font_color_284701);
+				cta_1_check_284701 = true;
+			}
+
+			if( cta_1_check_284701 ){
+				jQuery("#inline_cta_1_module_284701").addClass("inline-cta-module");
+			}	
+			
+		
+	
+
+Meanwhile, companies overwhelmed by the expanding caseload, fueled by Trump, have reverted to reducing labor to maintain costs, as a whistle-blower who worked in a Southwest Key facility admitted.
+
+Before ramping this up, the administration sought out more privately run immigration jails across the country, increasing detention capacity to 48,000 per day—-surely to the delight of Geo Group and CoreCivic. The executive order would extend this and make the detention indefinite, bringing the facilities at Karnes and Dilley back into play. And scenes of children sleeping on foil blankets would be replaced by scenes of private-prison companies putting immigrants into solitary, and torturing, even killing those in their custody through neglect.
+
+This is an example of how we’ve transformed border policy into a cash cow for private contractors. America cannot capture, detain, transport, and deport people without enlisting a network of outside companies to carry out these tasks. It’s a darkly ironic consequence of decades of anti-government rhetoric. Conservatives complain that government cannot do anything right and must be drowned in the bathtub. Then they devise a zero-tolerance border policy that requires one of the largest and most fearsome government presences in recent memory. But they don’t have the staff to execute it, so they farm it out.
+
+An added benefit here is that subcontractors don’t need to abide by as many transparency rules or Freedom of Information Act requests, so they can hide what really goes on inside the facilities and stage-manage what information to disclose. If somehow misconduct or abuse is discovered, the government has a layer of plausible deniability: It will just claim it was the private contractor’s fault.
+
+The horrific sounds and images led to Trump’s alleged backing down on his family-separation policy, but he just substituted one private contractor for another. That’s who we get to do our dirty work in America, whether it’s raids and murder in Iraq or warehousing immigrants. The only bill that would not only end separation of families but collapse the entire apparatus of caging human beings escaping violence and horror would contain 14 words: “All immigration-related activities must be performed by government employees and cannot be subcontracted out.” ICE should be abolished, but you abolish the contracts and the whole rickety structure will fall on itself.
+	
+
+
+
+
+
+
+	
+		
+		 David DayenDavid Dayen is the author of Chain of Title: How Three Ordinary Americans Uncovered Wall Street’s Great Foreclosure Fraud, which won the Studs and Ida Terkel Prize.
+		
+	
+
+					
+					
+						To submit a correction for our consideration, click here.					
+					For Reprints and Permissions, click here.
+				
+						
+				
+					  
+					Comments (0)					
+								
+			
+			
+				
+
+	
+		
+			Leave a Comment		
+		
+					
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+		
+		
+		
+				
+			
+			
+				Logged in as 
+				
+								 
+				Log out?
+			
+			
+			
+				Comment
+				
+			
+			
+			
+				
+				
+				
+			
+			
+		
+	
+	
+	
+	
+	
+		
+	
+
+
+
+				
+				
+				
+	
+	
+			
+		// The content published date
+		tp.push(["setContentCreated", "2018-06-20T16:10:16+00:00"]);
+						// The content author
+				tp.push(["setContentAuthor", "David Dayen" ]);
+						// The content section
+		tp.push(["setContentSection", "Article"]);
+		// The content tags
+		tp.push(["setTags", ["Immigration Policy","Jails and Prisons","Racism and Discrimination"] ]);					
+		// Add custom variables as any key-value pair. The first parameter is the key; second is the value						
+	
+	
+
+
+   		   
+		   
+				(function () {
+					var referer = "";
+					try {
+						if (referer = document.referrer, "undefined" == typeof referer)
+							throw"undefined"
+					} catch (exception) {
+						referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL)
+					}
+					referer = referer.substr(0, 700);
+					var rcel = document.createElement("script");
+					rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+					rcel.type = 'text/javascript';
+					rcel.src = "https://trends.revcontent.com/serve.js.php?w=51170&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer;
+					rcel.async = true;
+					var rcds = document.getElementById("rcjsload_286cf7_284701");
+					rcds.appendChild(rcel);
+				})();
+		   
+		   	
+		
+				
+				
+		
+			Ad Policy
+			
+		
+	
+		
+	
+	
+
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+The Social Shaming of Racists Is Working
+
+My Best Friend Lost His Life to the Gig Economy
+
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+Why Trump’s Denaturalization Task Force Matters
+
+The Trump administration’s policy just takes this effort to deter migration to its logical extreme. As parents go to (mostly privately run) jails for illegal crossing, children move to temporary holding centers until the Office of Refugee Resettlement can place them in foster care or some other stopgap solution. Private companies maintain these facilities too.		
+			Current Issue
+
+								
+									
+									
+												
+						View our current issue	
+						
+						
+					
+								
+				
+		
+			
+			var magazine_text_284701            = '';
+			var magazine_button_text_284701     = '';
+			var magazine_button_url_284701      = '';
+			var magazine_button_bg_color_284701 = '';
+			
+			var is_user_logged_in = getCookie('SESSname');				if( is_user_logged_in != null ){
+					
+						
+						magazine_text_284701 = ' If you like this article, please give today to help fund The Nation’s work.';	
+												magazine_button_text_284701 = '';	
+												magazine_button_url_284701 = 'https://www.thenation.com/email-signup-module-donate/';
+												magazine_button_bg_color_284701 = '#ffcf0d';
+								
+					
+				}else{
+					
+						
+						magazine_text_284701 = 'Subscribe today and Save up to $129.';	
+												magazine_button_text_284701 = '';				
+												magazine_button_url_284701 = 'https://ssl.palmcoastd.com/06601/apps/NEW_US?ikey=I**GAB';
+												magazine_button_bg_color_284701 = '#dd3333';
+								
+					
+				}
+			
+						
+			if( magazine_text_284701 !='' ){				
+				jQuery("#magazine_text_284701").html(magazine_text_284701);				
+			}
+			
+			if( magazine_button_text_284701 !='' ){				
+				jQuery("#magazine_button_284701").html(magazine_button_text_284701);				
+			}
+			
+			if( magazine_button_url_284701 !='' ){				
+				jQuery("#magazine_button_284701 a").attr("href",magazine_button_url_284701);				
+			}
+			
+			if( magazine_button_bg_color_284701 !='' ){			
+				jQuery("#magazine_button_284701 a input").css("background",magazine_button_bg_color_284701);				
+			}
+			
+		
+			
+		
+
+
+
+Yahoo News identified several of them. Comprehensive Health Services Inc. received $65 million in contracts for emergency shelter operations, and Dynamic Service Solutions got $8.7 million more. Dynamic Educational Systems is providing some of the educational services, with a contract worth up to $5.6 million. Nonprofit organization Southwest Key is running the notorious “Casa Padre” facility, housed in a former Walmart near Brownsville, Texas, as well as 26 facilities nationwide. They’re on track to earn $458 million this fiscal year.
+
+
+
+Defense contractors have descended on the tent cities being set up in Tornillo, Texas, and elsewhere. MVM, a Virginia-based defense contractor, has put up recruiting notices seeking personnel to set up the Tornillo shelters; MVM claims they’re only transporting migrants to facilities and since took down the links. Weapons manufacturer General Dynamics assists the Office of Refugee Resettlement in processing immigrant-children cases, and has issued new job postings. “Tender age” migrant facilities offer another chance to profit.
+
+
+
+Practically all these companies have disclaimed responsibility for the crisis, but they’re clearly implicated in it. So is Microsoft, which has a cloud-computing contract with ICE. So is American Airlines, which has federal travel contracts with the government but has asked to stop having its flights transport separated children. Other airlines have similar contracts, and workers are vowing to boycott the flights.
+
+
+
+ICE spends roughly $159 per day per person on detention, paying some middleman to manage, feed, educate, and, in a particularly gruesome development, medicate the children into listlessness. There are far cheaper alternatives, but sinking all that money into a carceral framework makes it difficult to tear it down. Even cities that want to eject private prisons for immigrants are subject to legal pushback from the deep-pocketed contractors.		
+			
+			
+			
+		
+		
+			
+			var inline_cta_text_284701            = '';
+			var inline_cta_button_text_284701     = '';
+			var inline_cta_url_284701             = '';
+			var inline_cta_bg_color_284701        = '';
+			var inline_cta_font_color_284701      = '';
+			var cta_1_check_284701  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_text_284701 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_284701 = '#000000';
+													
+						inline_cta_button_text_284701 = '';
+												
+						inline_cta_url_284701 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_284701 = '#ffcf0d';
+											
+				}else{
+					
+											
+						inline_cta_text_284701 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_284701 = '#000000';
+													
+						inline_cta_button_text_284701 = '';
+												
+						inline_cta_url_284701 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_284701 = '#ffcf0d';
+										}
+				
+							
+			if( inline_cta_text_284701 !='' ){
+				jQuery("#inline_cta_284701").html(inline_cta_text_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_button_text_284701 !='' ){
+				jQuery("#inline_cta_btn_284701").html(inline_cta_button_text_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_url_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a").attr("href",inline_cta_url_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_bg_color_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a input").css("background",inline_cta_bg_color_284701);
+				cta_1_check_284701 = true;
+			}
+			
+			if( inline_cta_font_color_284701 !='' ){
+				jQuery("#inline_cta_btn_284701 a input").css("color",inline_cta_font_color_284701);
+				cta_1_check_284701 = true;
+			}
+
+			if( cta_1_check_284701 ){
+				jQuery("#inline_cta_1_module_284701").addClass("inline-cta-module");
+			}	
+			
+		
+	
+
+
+
+Meanwhile, companies overwhelmed by the expanding caseload, fueled by Trump, have reverted to reducing labor to maintain costs, as a whistle-blower who worked in a Southwest Key facility admitted.
+
+
+
+Before ramping this up, the administration sought out more privately run immigration jails across the country, increasing detention capacity to 48,000 per day—-surely to the delight of Geo Group and CoreCivic. The executive order would extend this and make the detention indefinite, bringing the facilities at Karnes and Dilley back into play. And scenes of children sleeping on foil blankets would be replaced by scenes of private-prison companies putting immigrants into solitary, and torturing, even killing those in their custody through neglect.
+
+
+
+This is an example of how we’ve transformed border policy into a cash cow for private contractors. America cannot capture, detain, transport, and deport people without enlisting a network of outside companies to carry out these tasks. It’s a darkly ironic consequence of decades of anti-government rhetoric. Conservatives complain that government cannot do anything right and must be drowned in the bathtub. Then they devise a zero-tolerance border policy that requires one of the largest and most fearsome government presences in recent memory. But they don’t have the staff to execute it, so they farm it out.
+
+
+
+An added benefit here is that subcontractors don’t need to abide by as many transparency rules or Freedom of Information Act requests, so they can hide what really goes on inside the facilities and stage-manage what information to disclose. If somehow misconduct or abuse is discovered, the government has a layer of plausible deniability: It will just claim it was the private contractor’s fault.
+
+
+
+The horrific sounds and images led to Trump’s alleged backing down on his family-separation policy, but he just substituted one private contractor for another. That’s who we get to do our dirty work in America, whether it’s raids and murder in Iraq or warehousing immigrants. The only bill that would not only end separation of families but collapse the entire apparatus of caging human beings escaping violence and horror would contain 14 words: “All immigration-related activities must be performed by government employees and cannot be subcontracted out.” ICE should be abolished, but you abolish the contracts and the whole rickety structure will fall on itself.
+	
+
+ David DayenDavid Dayen is the author of Chain of Title: How Three Ordinary Americans Uncovered Wall Street’s Great Foreclosure Fraud, which won the Studs and Ida Terkel Prize.
+
+
+
+						To submit a correction for our consideration, click here.					
+
+For Reprints and Permissions, click here.
+
+			
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+
+
+				Logged in as 
+				
+								 
+				Log out?
+			
+
+
+				Comment
+				
+			
+
+
+				
+				
+				
+			
+
+
+					
+						Sign up for our free daily newsletter, along with occasional offers for programs that support our journalism. You can read our Privacy Policy here. 
+					
+					
+
+Copyright (c) 2018 The Nation Company LLC

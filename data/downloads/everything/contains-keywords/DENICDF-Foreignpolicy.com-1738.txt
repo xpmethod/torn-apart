@@ -1,0 +1,116 @@
+
+                                                
+                            The Cable:
+                        
+                                                
+                            Security Brief: Unclear U.S. Demands on North Korea; Iran Deal Fall Out                        
+                        
+                            Security Brief: Unclear U.S. Demands on N...                        
+                    
+
+By Elias Groll, with Bethany Allen-Ebrahimian
+
+Don’t shoot the messenger. President Donald Trump and North Korean leader Kim Jong Un are set to meet on June 12 in Singapore for a highly anticipated summit meeting, but White House officials are struggling to get on the same page in their messaging ahead of the summit. 
+
+Secretary of State Mike Pompeo and National Security Advisor John Bolton made the rounds on Sunday talk shows to pledge that the United States does not seek to overthrow Kim and that the United States will help boost the North Korean economy if he agrees to give up his nuclear weapons. 
+
+“What President Trump wants is to see the North Korean regime get rid of its nuclear weapons program in completely and in totality and in exchange for that, we are prepared to ensure that the North Korean people get the opportunity that they so richly deserve,” Pompeo said on CBS. 
+
+But at another point in his CBS interview, Pompeo appeared to outline a far more modest goal for the summit — that “America is no longer held at risk” by North Korean nuclear weapons and that Pyongyang eliminate its chemical and biological weapons program. 
+
+In an appearance on Fox News, Pompeo again appeared to focus on preventing North Korean nukes reaching American targets, “America’s interest here is preventing the risk that North Korea will launch a nuclear weapon into L.A. or Denver or to the very place we are sitting here this morning,” Pompeo said. “That’s our objective.”
+
+Pompeo’s rhetorical stumbles over the weekend are notable in part because of an astounding admission he made on Friday. Asked how he would define what the United States means by its goal of “denuclearization” in North Korea, Pompeo conceded: “I’m not sure how to define it fully.” 
+
+He then immediately back-tracked and offered a convoluted answer: “It’s pretty clear what that means. It would be an activity that undertook to ensure that we didn’t end up in the same place that we’d ended up before, or multiple passes at trying to solve this conundrum for the world, how to ensure that North Korea doesn’t possess the capacity to threaten not only the United States but the world with nuclear weapons.”
+
+Pompeo met last week with Kim and returned from North Korea with three imprisoned Americans, whom President Donald Trump met on the tarmac of Andrews Air Force base for the first photo op of his North Korean diplomatic initiative. 
+
+What about Iran? Speaking of astounding admissions, White House communications officials offered up another whopper over the weekend. In emailed talking points on President Trump’s decision to withdraw from the Iran nuclear deal, White House officials posed the question, “Is the U.S. now safer?” The reply: “The real answer is, we don’t know.” 
+
+“Since we don’t know where the [Iranians] are now, we won’t know where they are for sure in the near future,” the talking points, which were obtained by FP, elaborated. 
+
+Welcome to this Monday-morning edition of Security Brief. As always, please send your tips, comments and questions to elias.groll@foreignpolicy.com.  
+
+China has won the drone wars. Chinese companies are outselling their U.S. counterparts in the Middle East market for unmanned aerial vehicles, FP’s Sharon Weinberger reports from Amman, Jordan. The Rainbow CH-4 can now be found in Jordan, Iraq, Algeria, Nigeria, Myanmar, Ethiopia, and elsewhere. “The MQ-1 Predator and its successor, the more lethal MQ-9 Reaper, were for more than a decade synonymous with armed drones. But that now is changing, not because Beijing has built a better drone but because it has been willing to sell them to countries where the United States wouldn’t.”
+
+Israel strikes. Israeli forces struck Iranian targets inside Syria on Thursday in what is being described as its most extensive attack on Syria in decades. Defense Minister Avigdor Lieberman claimed the attack eliminated “almost all of the Iranian infrastructure in Syria,” according to Haaretz. 
+
+“I hope we finished this chapter and everyone got the message,” Lieberman said. “If it rains on us, it will pour on them.”
+
+Israeli military officials told Haaretz that their fighter jets struck anti-aircraft missile systems supplied by Iran and deployed to Syria. The strikes eliminated five anti-aircraft missile systems of the SA-22, SA-2, SA-5 and SA-17 varieties. 
+
+The Israeli military released video of a cruise missile striking what appears to be an SA-22 system. 
+
+The withdrawal. President Donald Trump’s decision to withdraw from the Iran nuclear deal was accompanied by promises to reimpose tough sanctions on Tehran, but the White House appears to be holstering some of its toughest sanctions weapons for now. “The Trump administration has decided to withhold its power to compel the U.N. Security Council to reinstate wide-ranging U.N. sanctions on Iran, including a series of measures that would ban Tehran from testing its ballistic missiles, according to senior U.S. officials,” FP’s Colum Lynch, Robbie Gramer, and Dan De Luce report. 
+
+“The move underscores the Trump administration’s preference for going it alone and imposing instead a range of old and new U.S. sanctions aimed at inflicting maximum economic pain on Iran and its business partners. It could also mean that while President Donald Trump pulled out of the Iran deal, he has stopped short of blowing it up altogether.”
+
+Nuke expert out the door. Richard Johnson, one of the State Department’s top experts on nuclear proliferation resigned last week after President Donald Trump announced he would scrap American participation in the Iran nuclear deal, FP’s Colum Lynch reports. His departure leaves a growing void in the State Department’s stable of experts on Iran’s nuclear program and highlights a broader problem of high-level departures from government.
+
+A dose of reality. President Donald Trump killed the Iran nuclear deal with the hope that he will be able to apply renewed pressure on Iran’s oil sales. Reality may not cooperate with that plan, as Iranian crude sales are likely to shift to Asia, FP’s Keith Johnson reports.  
+
+Advice for spies. There may be fewer more attractive tactics these days for intelligence agencies looking to get into information operations than hacking and leaking their opponents’ emails. And that is posing a wrenching set of ethical questions for journalists, reporter Scott Shane writes in a searching essay on how journalists should respond. “The old rules say that if news organizations obtain material they deem both authentic and newsworthy, they should run it,” Shane writes. “By counting on American reporters to follow their usual rules, the Kremlin hacked American journalism.”
+
+Here come Iran’s hackers. President Trump’s decision to withdraw from the Iran nuclear deal has left cybersecurity experts predicting that Tehran will likely retaliate by launching cyberattacks against the United States. Researchers at the security firm Crowdstrike provided some evidence to the New York Times that this is already beginning to happen and that they had seen a “notable” shift in Iranian hacking activity. In the day following Trump’s announcement last week, “Iranian hackers were sending emails containing malware to diplomats who work in the foreign affairs offices of United States allies and employees at telecommunications companies, trying to infiltrate their computer systems,” the Times reported. 
+
+PGP flaw. Security researchers have discovered a major vulnerability in the PGP email encryption system that allows an attacker to decrypt past and present emails, Forbes reports.
+
+Wave your false flag! Russian hackers posing as Islamic State operatives sent death threats to American military spouses in 2015, the AP reports. The wild false flag attack played into intense media coverage of the threat posed by the Islamic State but appears to have been one prong of the disinformation campaign being run by Russian hackers at the time, which culminated in its more broadly publicized efforts to meddle in the 2016 election. 
+
+AI ethics. Google’s announcement of a major breakthrough in its AI research — the ability to autonomously make phone calls scheduling appointments — has been greeted by ethical controversy, the Verge reports. The company now says it will disclose to human beings whether they are speaking to a computer. 
+
+Guns and butter. On Thursday morning, the House Armed Services Committee approved a massive Pentagon spending increase for fiscal year 2019. The House nearly unanimously passed the $716 billion spending package that provides a pay bump to troops, a variety of modernization initiatives, and high-end equipment purchases. The measure next heads to a full vote of the House. 
+
+The low-yield nukes are coming. Democrats on the House Armed Services Committee tried and failed to kill funding for the Trump administration’s proposal to build low-yield nuclear weapons. The committee voted along mostly party lines to eliminate a series of Democratic amendments that would have restricted funding for weapons envisioned in the Trump administration’s Nuclear Posture Review, Defense News reports.  
+
+Plutonium production. U.S. nuclear weapons officials announced that they will split production of plutonium pits between a facility in South Carolina and Los Alamos in New Mexico. The announcement comes in response to the Trump administration’s plans to increase pit production capacity as part of its nuclear posture review. The decision to shift production away from New Mexico will ease the strain on a facility that has been cited for safety problems in pit production. 
+
+Gremlins! If the future of drone warfare lies in autonomous, swarming drones, Dynetics appears to be on the cutting-edge of the U.S. military’s efforts to adopt the technology. The company is working on a DARPA-funded contract to field the technology, and a new video provides additional details on how Dynetics believes the technology will be used, including an aerial recapture system that envisions drones being hauled in off the back of a C-130.  
+
+A B-1 gunship? Boeing has filed for an interesting patent that envisions turning the aging bomber into a gun-ship. The idea would store a huge gun in the plane’s bomb-bay which could be retracted for supersonic flight and then deployed in possible support of ground troops. The Drive reports that the proposal may be part of an effort by Boeing to save the bomber, which is set to be retired and replaced by the B-21.  
+
+Mattis in the wilderness. The ascendancy of National Security Advisor John Bolton and Mike Pompeo’s move from the CIA to the State Department has left Defense Secretary Jim Mattis relatively isolated in the Trump administration. Mattis opposed the withdrawal from the nuclear deal, the New York Times reports, but with few allies in the cabinet, the former Marine general did not make a vocal case for staying in the agreement.  
+
+Bolton’s purge rolls on. National Security Advisor John Bolton is considering downsizing the national security council by eliminating its top cybersecurity official, Politico reports. Mira Ricardel, Bolton’s deputy, is reportedly considering taking on the duties of the position, a move that previous NSC cyber hands worry would vastly diminish the amount of attention to a key issue.  
+
+Dems for Haspel. Senate Democrats are slowly lining up behind the nomination of Gina Haspel, the deputy director of the CIA, to lead the agency. Sen. Joe Donnelly of Indiana announced over the weekend he would support Haspel’s nomination, joining Sen. Joe Manchin of West Virginia among the members of the Democratic caucus supporting her nomination. With Donnelly’s announcement, Haspel appears to currently have the support of 50 senators. 
+
+Haspel’s nomination hearing last week featured sharp questioning over her role in the CIA’s detention and interrogation program. The veteran CIA officer pledged not to restart the program but defended its merits and refused to say whether she thought it was immoral. 
+
+A livestreamed waterboarding. To promote Haspel’s nomination, a former Green Beret and MMA fighter, Tim Kennedy, livestreamed himself being waterboarded in a 41-minute video. Kennedy insisted during the session that “waterboarding is not torture.”  
+
+Aid for ZTE. U.S. trade restrictions recently barred U.S. companies from exporting sensitive parts to ZTE, effectively shutting down the Chinese telecommunications giant. Now it looks like Trump has turned those restrictions into a bargaining chip as he aims to pressure China to offer trade concessions while cooperating in North Korea talks.“Too many jobs in China lost,” Trump tweeted on Sunday. “Commerce Department has been instructed to get it done!”
+
+A glimpse at Xi’s priorities. A new book featuring the remarks of Chinese President Xi Jinping provides a revealing look at how he plans to boost China’s role on the global stage through the development of technology. “An important reason that Western countries were able to hold sway over the world in modern times was that they held the advanced technology,” Xi says in one address. “We must adopt an asymmetrical strategy of catching up and overtaking, bringing our own advantages to bear.”
+
+Sea trials. China’s first domestically built aircraft carrier is heading out for sea trials, the Diplomat reports. “The Shandong’s sea trials mark a major milestone in China’s blue water navy ambitions and its quest to built a maritime force capable of operating globally,” Franz-Stefan Gady writes. 
+
+J-20 meets the sea. China’s fifth generation air superiority fighter jet, the J-20, reached a major milestone last week with its first flight tests over open water, the Diplomat reports. 
+
+China trolls Northrop. China’s defense contractors are taking a cue from their American counterparts with a glitzy new marketing video that takes a not so subtle poke at Northrop Grumman, the Drive reports.  
+
+The Niger report. A Pentagon report examining the death of four Special Forces troops in Niger last year concluded that a lack of training and poor planning contributed to the failure of a mission that sparked an intense debate over the military’s role in Africa.  
+
+The report “found that the 11-member team had not undergone crucial training as a unit before it deployed to Niger because of ‘personnel turnover’ and had not rehearsed its mission before leaving its base,” the New York Times reports. “It said the two junior officers had ‘mischaracterized’ the mission in a required planning document filed before the team, which included Green Berets, departed.
+
+More to this story. After Pentagon officials provided a classified briefing to lawmakers, Sen. Tim Kaine (D-Va.) appeared to accuse the military of withholding facts about the operation. “I believe that the troops who were sadly killed in Niger in October of 2017 were engaged in a mission that they were not authorized by law to participate in and that they were not trained to participate in. And that is a significant reason that they tragically lost their lives,” Kaine told CNN. “We are going to figure out a way that the story will be told and that people will be held accountable.” 
+
+Niger fallout. The Pentagon’s examination of the Niger debacle concluded that it took an hour and a half for the first U.S. aircraft to arrive on the scene after the ambush began. In response, the Pentagon is promising improvements in air cover for the region. “We have increased the firepower, we’ve increased the ISR [intelligence, surveillance, and reconnaissance] capacity and we’ve increased various response times,” Africa Command chief Waldhauser told reporters last week.
+
+ISIS returns to Paris. Over the weekend, a French citizen originally hailing from Chechnya killed one and injured four in a knife attack in Paris. Khamzat Asimov, the attacker, had been on a national security watch list. Asimov was killed on the scene by police.
+
+Raptor intercept. F-22 fighter jets intercepted two Russian Tu-95 bombers off the coast of Alaska on Friday after the entered the U.S. air identification zone, CNN reports.  
+
+Russia’s combat robot sees action. The Russian military continues to make progress on its drone ground combat vehicles, with Russian military officials claiming that they deployed the Uran-9 armed robot to Syria, C4ISRnet reports. If confirmed, it would be the latest cutting-edge military technology to be tested by Russia on the Syrian battlefield.  
+
+But will they be delivered? The first F-35 fighter jet slated for delivery to Turkey’s armed forces made its maiden flight at a testing facility last week, but it’s unclear if the jets — 100 of which are on order from Ankara — will be delivered to Turkey. Ankara’s purchase of advanced anti-air missiles from Russia has opened a rift between the United States and its NATO ally. Now, some U.S. lawmakers are proposing to kill military sales to Turkey over the missile issue and a detained American Christian pastor, which has Turkey threatening to end all procurement deals with NATO. 
+
+
+		Elias Groll is a staff writer at Foreign Policy covering cyberspace, its conflicts, and controversies. @eliasgroll	
+
+Trending Now Sponsored Links by Taboola
+
+More from Foreign Policy
+
+Trending

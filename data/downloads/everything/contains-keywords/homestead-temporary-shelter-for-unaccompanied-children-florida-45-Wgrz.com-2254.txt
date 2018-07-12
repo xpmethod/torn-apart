@@ -1,0 +1,73 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 79 degrees
+
+Some 70 migrant children forcibly taken from their parents at the U.S.-Mexico border are in good hands in Homestead, Florida, Democratic leaders concluded Saturday after touring the shelter where the children are detained with over 1,000 unaccompanied migrant youths.
+
+
+“The facilities are nice," said U.S. Sen. Bill Nelson, D-Fla., on emerging from the military-style compound  where he had been refused entry earlier this week. “The question is the reunification of the 2,300 children across the country separated from their parents. How long will they be detained?” 
+
+Migrating families were separated as federal officials implemented the Trump administration's "zero-tolerance" policy without coordination or planning, the senator said. 
+
+
+Although children under existing immigration law can’t be held for more than 20 days, the administration is calling facilities like Homestead a shelter, not detention. 
+
+
+A Department of Health and Human Services employee has been dedicated to helping the kids communicate with their parents.
+
+
+"I was told that only a handful of the 70 who are here haven’t spoken with their parents yet," Nelson said. 
+
+
+Parents and kids only get to speak twice a week for 10 minutes. 
+
+
+"I will tell you that after coming out of this facility, it is inexplicable to me why Sen. Nelson and I were not allowed to see it when we asked on Tuesday," said Rep. Debbie Wasserman Schultz, D-Fla.
+
+
+The congresswomancalled the two-week notice requirement for legislators to conduct their oversight at the facilities “ridiculous.”
+
+
+Nelson vowed his first order of business back in Washington will be changing the requirement so members of Congress or state and local leaders can more easily see how the children are doing.
+
+
+Although not allowed to speak with the kids, the group — including Reps. Frederica Wilson, Ted Deutch and José Javier Rodríguez, among others — said hello to them and learned almost all come from Guatemala, Honduras and El Salvador. Wilson's staff gave them balloons.
+
+Their living conditions are clean but regimented and  barracks-like, and they get three, ethnically appropriate meals and  two snacks a day, the group reported.
+
+
+“They only — and this is most disturbing — have Health and Human Services personnel here Monday through Friday to unify the children, because Department of Homeland Security doesn’t let personnel work on weekends,” Wasserman Schultz said. 
+
+
+Getting the two departments on the same page working for reunification will be on both agendas, they said.
+
+
+More: Mexican asylum seekers fill shelters along the California border
+
+
+More: Courts, families, government collide in zero tolerance debacle
+
+
+The big issue for both sides of the aisle after reunification is how parents and children will be kept together during the criminal proceedings of the Trump administration’s zero-tolerance policy. 
+
+
+A Republican proposal would lift the humanitarian 20-day limit for holding children so they can stay with their parents longer.
+
+
+Earlier this week, Trump called on the Defense Department to house up to 20,000 unaccompanied migrant youths in Texas and Arkansas military barracks  and to provide over 20 attorneys to help process the backlog of illegal immigration cases.
+
+
+Follow Patricia Borns on Twitter: @PatriciaBorns
