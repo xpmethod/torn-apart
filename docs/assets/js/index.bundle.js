@@ -684,6 +684,162 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "../node_modules/d3-dispatch/index.js":
+/*!********************************************!*\
+  !*** ../node_modules/d3-dispatch/index.js ***!
+  \********************************************/
+/*! exports provided: dispatch */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_dispatch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/dispatch */ \"../node_modules/d3-dispatch/src/dispatch.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"dispatch\", function() { return _src_dispatch__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-dispatch/index.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-dispatch/src/dispatch.js":
+/*!***************************************************!*\
+  !*** ../node_modules/d3-dispatch/src/dispatch.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar noop = {value: function() {}};\n\nfunction dispatch() {\n  for (var i = 0, n = arguments.length, _ = {}, t; i < n; ++i) {\n    if (!(t = arguments[i] + \"\") || (t in _)) throw new Error(\"illegal type: \" + t);\n    _[t] = [];\n  }\n  return new Dispatch(_);\n}\n\nfunction Dispatch(_) {\n  this._ = _;\n}\n\nfunction parseTypenames(typenames, types) {\n  return typenames.trim().split(/^|\\s+/).map(function(t) {\n    var name = \"\", i = t.indexOf(\".\");\n    if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);\n    if (t && !types.hasOwnProperty(t)) throw new Error(\"unknown type: \" + t);\n    return {type: t, name: name};\n  });\n}\n\nDispatch.prototype = dispatch.prototype = {\n  constructor: Dispatch,\n  on: function(typename, callback) {\n    var _ = this._,\n        T = parseTypenames(typename + \"\", _),\n        t,\n        i = -1,\n        n = T.length;\n\n    // If no callback was specified, return the callback of the given type and name.\n    if (arguments.length < 2) {\n      while (++i < n) if ((t = (typename = T[i]).type) && (t = get(_[t], typename.name))) return t;\n      return;\n    }\n\n    // If a type was specified, set the callback for the given type and name.\n    // Otherwise, if a null callback was specified, remove callbacks of the given name.\n    if (callback != null && typeof callback !== \"function\") throw new Error(\"invalid callback: \" + callback);\n    while (++i < n) {\n      if (t = (typename = T[i]).type) _[t] = set(_[t], typename.name, callback);\n      else if (callback == null) for (t in _) _[t] = set(_[t], typename.name, null);\n    }\n\n    return this;\n  },\n  copy: function() {\n    var copy = {}, _ = this._;\n    for (var t in _) copy[t] = _[t].slice();\n    return new Dispatch(copy);\n  },\n  call: function(type, that) {\n    if ((n = arguments.length - 2) > 0) for (var args = new Array(n), i = 0, n, t; i < n; ++i) args[i] = arguments[i + 2];\n    if (!this._.hasOwnProperty(type)) throw new Error(\"unknown type: \" + type);\n    for (t = this._[type], i = 0, n = t.length; i < n; ++i) t[i].value.apply(that, args);\n  },\n  apply: function(type, that, args) {\n    if (!this._.hasOwnProperty(type)) throw new Error(\"unknown type: \" + type);\n    for (var t = this._[type], i = 0, n = t.length; i < n; ++i) t[i].value.apply(that, args);\n  }\n};\n\nfunction get(type, name) {\n  for (var i = 0, n = type.length, c; i < n; ++i) {\n    if ((c = type[i]).name === name) {\n      return c.value;\n    }\n  }\n}\n\nfunction set(type, name, callback) {\n  for (var i = 0, n = type.length; i < n; ++i) {\n    if (type[i].name === name) {\n      type[i] = noop, type = type.slice(0, i).concat(type.slice(i + 1));\n      break;\n    }\n  }\n  if (callback != null) type.push({name: name, value: callback});\n  return type;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (dispatch);\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-dispatch/src/dispatch.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/index.js":
+/*!*****************************************!*\
+  !*** ../node_modules/d3-force/index.js ***!
+  \*****************************************/
+/*! exports provided: forceCenter, forceCollide, forceLink, forceManyBody, forceRadial, forceSimulation, forceX, forceY */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_center__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/center */ \"../node_modules/d3-force/src/center.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceCenter\", function() { return _src_center__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n/* harmony import */ var _src_collide__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/collide */ \"../node_modules/d3-force/src/collide.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceCollide\", function() { return _src_collide__WEBPACK_IMPORTED_MODULE_1__[\"default\"]; });\n\n/* harmony import */ var _src_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/link */ \"../node_modules/d3-force/src/link.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceLink\", function() { return _src_link__WEBPACK_IMPORTED_MODULE_2__[\"default\"]; });\n\n/* harmony import */ var _src_manyBody__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/manyBody */ \"../node_modules/d3-force/src/manyBody.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceManyBody\", function() { return _src_manyBody__WEBPACK_IMPORTED_MODULE_3__[\"default\"]; });\n\n/* harmony import */ var _src_radial__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/radial */ \"../node_modules/d3-force/src/radial.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceRadial\", function() { return _src_radial__WEBPACK_IMPORTED_MODULE_4__[\"default\"]; });\n\n/* harmony import */ var _src_simulation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/simulation */ \"../node_modules/d3-force/src/simulation.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceSimulation\", function() { return _src_simulation__WEBPACK_IMPORTED_MODULE_5__[\"default\"]; });\n\n/* harmony import */ var _src_x__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/x */ \"../node_modules/d3-force/src/x.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceX\", function() { return _src_x__WEBPACK_IMPORTED_MODULE_6__[\"default\"]; });\n\n/* harmony import */ var _src_y__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/y */ \"../node_modules/d3-force/src/y.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"forceY\", function() { return _src_y__WEBPACK_IMPORTED_MODULE_7__[\"default\"]; });\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/index.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/center.js":
+/*!**********************************************!*\
+  !*** ../node_modules/d3-force/src/center.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(x, y) {\n  var nodes;\n\n  if (x == null) x = 0;\n  if (y == null) y = 0;\n\n  function force() {\n    var i,\n        n = nodes.length,\n        node,\n        sx = 0,\n        sy = 0;\n\n    for (i = 0; i < n; ++i) {\n      node = nodes[i], sx += node.x, sy += node.y;\n    }\n\n    for (sx = sx / n - x, sy = sy / n - y, i = 0; i < n; ++i) {\n      node = nodes[i], node.x -= sx, node.y -= sy;\n    }\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n  };\n\n  force.x = function(_) {\n    return arguments.length ? (x = +_, force) : x;\n  };\n\n  force.y = function(_) {\n    return arguments.length ? (y = +_, force) : y;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/center.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/collide.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-force/src/collide.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n/* harmony import */ var _jiggle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jiggle */ \"../node_modules/d3-force/src/jiggle.js\");\n/* harmony import */ var d3_quadtree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-quadtree */ \"../node_modules/d3-quadtree/index.js\");\n\n\n\n\nfunction x(d) {\n  return d.x + d.vx;\n}\n\nfunction y(d) {\n  return d.y + d.vy;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(radius) {\n  var nodes,\n      radii,\n      strength = 1,\n      iterations = 1;\n\n  if (typeof radius !== \"function\") radius = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(radius == null ? 1 : +radius);\n\n  function force() {\n    var i, n = nodes.length,\n        tree,\n        node,\n        xi,\n        yi,\n        ri,\n        ri2;\n\n    for (var k = 0; k < iterations; ++k) {\n      tree = Object(d3_quadtree__WEBPACK_IMPORTED_MODULE_2__[\"quadtree\"])(nodes, x, y).visitAfter(prepare);\n      for (i = 0; i < n; ++i) {\n        node = nodes[i];\n        ri = radii[node.index], ri2 = ri * ri;\n        xi = node.x + node.vx;\n        yi = node.y + node.vy;\n        tree.visit(apply);\n      }\n    }\n\n    function apply(quad, x0, y0, x1, y1) {\n      var data = quad.data, rj = quad.r, r = ri + rj;\n      if (data) {\n        if (data.index > node.index) {\n          var x = xi - data.x - data.vx,\n              y = yi - data.y - data.vy,\n              l = x * x + y * y;\n          if (l < r * r) {\n            if (x === 0) x = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += x * x;\n            if (y === 0) y = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += y * y;\n            l = (r - (l = Math.sqrt(l))) / l * strength;\n            node.vx += (x *= l) * (r = (rj *= rj) / (ri2 + rj));\n            node.vy += (y *= l) * r;\n            data.vx -= x * (r = 1 - r);\n            data.vy -= y * r;\n          }\n        }\n        return;\n      }\n      return x0 > xi + r || x1 < xi - r || y0 > yi + r || y1 < yi - r;\n    }\n  }\n\n  function prepare(quad) {\n    if (quad.data) return quad.r = radii[quad.data.index];\n    for (var i = quad.r = 0; i < 4; ++i) {\n      if (quad[i] && quad[i].r > quad.r) {\n        quad.r = quad[i].r;\n      }\n    }\n  }\n\n  function initialize() {\n    if (!nodes) return;\n    var i, n = nodes.length, node;\n    radii = new Array(n);\n    for (i = 0; i < n; ++i) node = nodes[i], radii[node.index] = +radius(node, i, nodes);\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n    initialize();\n  };\n\n  force.iterations = function(_) {\n    return arguments.length ? (iterations = +_, force) : iterations;\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = +_, force) : strength;\n  };\n\n  force.radius = function(_) {\n    return arguments.length ? (radius = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : radius;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/collide.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/constant.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-force/src/constant.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(x) {\n  return function() {\n    return x;\n  };\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/constant.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/jiggle.js":
+/*!**********************************************!*\
+  !*** ../node_modules/d3-force/src/jiggle.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  return (Math.random() - 0.5) * 1e-6;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/jiggle.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/link.js":
+/*!********************************************!*\
+  !*** ../node_modules/d3-force/src/link.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n/* harmony import */ var _jiggle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jiggle */ \"../node_modules/d3-force/src/jiggle.js\");\n/* harmony import */ var d3_collection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-collection */ \"../node_modules/d3-collection/index.js\");\n\n\n\n\nfunction index(d) {\n  return d.index;\n}\n\nfunction find(nodeById, nodeId) {\n  var node = nodeById.get(nodeId);\n  if (!node) throw new Error(\"missing: \" + nodeId);\n  return node;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(links) {\n  var id = index,\n      strength = defaultStrength,\n      strengths,\n      distance = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(30),\n      distances,\n      nodes,\n      count,\n      bias,\n      iterations = 1;\n\n  if (links == null) links = [];\n\n  function defaultStrength(link) {\n    return 1 / Math.min(count[link.source.index], count[link.target.index]);\n  }\n\n  function force(alpha) {\n    for (var k = 0, n = links.length; k < iterations; ++k) {\n      for (var i = 0, link, source, target, x, y, l, b; i < n; ++i) {\n        link = links[i], source = link.source, target = link.target;\n        x = target.x + target.vx - source.x - source.vx || Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n        y = target.y + target.vy - source.y - source.vy || Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n        l = Math.sqrt(x * x + y * y);\n        l = (l - distances[i]) / l * alpha * strengths[i];\n        x *= l, y *= l;\n        target.vx -= x * (b = bias[i]);\n        target.vy -= y * b;\n        source.vx += x * (b = 1 - b);\n        source.vy += y * b;\n      }\n    }\n  }\n\n  function initialize() {\n    if (!nodes) return;\n\n    var i,\n        n = nodes.length,\n        m = links.length,\n        nodeById = Object(d3_collection__WEBPACK_IMPORTED_MODULE_2__[\"map\"])(nodes, id),\n        link;\n\n    for (i = 0, count = new Array(n); i < m; ++i) {\n      link = links[i], link.index = i;\n      if (typeof link.source !== \"object\") link.source = find(nodeById, link.source);\n      if (typeof link.target !== \"object\") link.target = find(nodeById, link.target);\n      count[link.source.index] = (count[link.source.index] || 0) + 1;\n      count[link.target.index] = (count[link.target.index] || 0) + 1;\n    }\n\n    for (i = 0, bias = new Array(m); i < m; ++i) {\n      link = links[i], bias[i] = count[link.source.index] / (count[link.source.index] + count[link.target.index]);\n    }\n\n    strengths = new Array(m), initializeStrength();\n    distances = new Array(m), initializeDistance();\n  }\n\n  function initializeStrength() {\n    if (!nodes) return;\n\n    for (var i = 0, n = links.length; i < n; ++i) {\n      strengths[i] = +strength(links[i], i, links);\n    }\n  }\n\n  function initializeDistance() {\n    if (!nodes) return;\n\n    for (var i = 0, n = links.length; i < n; ++i) {\n      distances[i] = +distance(links[i], i, links);\n    }\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n    initialize();\n  };\n\n  force.links = function(_) {\n    return arguments.length ? (links = _, initialize(), force) : links;\n  };\n\n  force.id = function(_) {\n    return arguments.length ? (id = _, force) : id;\n  };\n\n  force.iterations = function(_) {\n    return arguments.length ? (iterations = +_, force) : iterations;\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initializeStrength(), force) : strength;\n  };\n\n  force.distance = function(_) {\n    return arguments.length ? (distance = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initializeDistance(), force) : distance;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/link.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/manyBody.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-force/src/manyBody.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n/* harmony import */ var _jiggle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jiggle */ \"../node_modules/d3-force/src/jiggle.js\");\n/* harmony import */ var d3_quadtree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-quadtree */ \"../node_modules/d3-quadtree/index.js\");\n/* harmony import */ var _simulation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./simulation */ \"../node_modules/d3-force/src/simulation.js\");\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  var nodes,\n      node,\n      alpha,\n      strength = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(-30),\n      strengths,\n      distanceMin2 = 1,\n      distanceMax2 = Infinity,\n      theta2 = 0.81;\n\n  function force(_) {\n    var i, n = nodes.length, tree = Object(d3_quadtree__WEBPACK_IMPORTED_MODULE_2__[\"quadtree\"])(nodes, _simulation__WEBPACK_IMPORTED_MODULE_3__[\"x\"], _simulation__WEBPACK_IMPORTED_MODULE_3__[\"y\"]).visitAfter(accumulate);\n    for (alpha = _, i = 0; i < n; ++i) node = nodes[i], tree.visit(apply);\n  }\n\n  function initialize() {\n    if (!nodes) return;\n    var i, n = nodes.length, node;\n    strengths = new Array(n);\n    for (i = 0; i < n; ++i) node = nodes[i], strengths[node.index] = +strength(node, i, nodes);\n  }\n\n  function accumulate(quad) {\n    var strength = 0, q, c, weight = 0, x, y, i;\n\n    // For internal nodes, accumulate forces from child quadrants.\n    if (quad.length) {\n      for (x = y = i = 0; i < 4; ++i) {\n        if ((q = quad[i]) && (c = Math.abs(q.value))) {\n          strength += q.value, weight += c, x += c * q.x, y += c * q.y;\n        }\n      }\n      quad.x = x / weight;\n      quad.y = y / weight;\n    }\n\n    // For leaf nodes, accumulate forces from coincident quadrants.\n    else {\n      q = quad;\n      q.x = q.data.x;\n      q.y = q.data.y;\n      do strength += strengths[q.data.index];\n      while (q = q.next);\n    }\n\n    quad.value = strength;\n  }\n\n  function apply(quad, x1, _, x2) {\n    if (!quad.value) return true;\n\n    var x = quad.x - node.x,\n        y = quad.y - node.y,\n        w = x2 - x1,\n        l = x * x + y * y;\n\n    // Apply the Barnes-Hut approximation if possible.\n    // Limit forces for very close nodes; randomize direction if coincident.\n    if (w * w / theta2 < l) {\n      if (l < distanceMax2) {\n        if (x === 0) x = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += x * x;\n        if (y === 0) y = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += y * y;\n        if (l < distanceMin2) l = Math.sqrt(distanceMin2 * l);\n        node.vx += x * quad.value * alpha / l;\n        node.vy += y * quad.value * alpha / l;\n      }\n      return true;\n    }\n\n    // Otherwise, process points directly.\n    else if (quad.length || l >= distanceMax2) return;\n\n    // Limit forces for very close nodes; randomize direction if coincident.\n    if (quad.data !== node || quad.next) {\n      if (x === 0) x = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += x * x;\n      if (y === 0) y = Object(_jiggle__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), l += y * y;\n      if (l < distanceMin2) l = Math.sqrt(distanceMin2 * l);\n    }\n\n    do if (quad.data !== node) {\n      w = strengths[quad.data.index] * alpha / l;\n      node.vx += x * w;\n      node.vy += y * w;\n    } while (quad = quad.next);\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n    initialize();\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : strength;\n  };\n\n  force.distanceMin = function(_) {\n    return arguments.length ? (distanceMin2 = _ * _, force) : Math.sqrt(distanceMin2);\n  };\n\n  force.distanceMax = function(_) {\n    return arguments.length ? (distanceMax2 = _ * _, force) : Math.sqrt(distanceMax2);\n  };\n\n  force.theta = function(_) {\n    return arguments.length ? (theta2 = _ * _, force) : Math.sqrt(theta2);\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/manyBody.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/radial.js":
+/*!**********************************************!*\
+  !*** ../node_modules/d3-force/src/radial.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(radius, x, y) {\n  var nodes,\n      strength = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(0.1),\n      strengths,\n      radiuses;\n\n  if (typeof radius !== \"function\") radius = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+radius);\n  if (x == null) x = 0;\n  if (y == null) y = 0;\n\n  function force(alpha) {\n    for (var i = 0, n = nodes.length; i < n; ++i) {\n      var node = nodes[i],\n          dx = node.x - x || 1e-6,\n          dy = node.y - y || 1e-6,\n          r = Math.sqrt(dx * dx + dy * dy),\n          k = (radiuses[i] - r) * strengths[i] * alpha / r;\n      node.vx += dx * k;\n      node.vy += dy * k;\n    }\n  }\n\n  function initialize() {\n    if (!nodes) return;\n    var i, n = nodes.length;\n    strengths = new Array(n);\n    radiuses = new Array(n);\n    for (i = 0; i < n; ++i) {\n      radiuses[i] = +radius(nodes[i], i, nodes);\n      strengths[i] = isNaN(radiuses[i]) ? 0 : +strength(nodes[i], i, nodes);\n    }\n  }\n\n  force.initialize = function(_) {\n    nodes = _, initialize();\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : strength;\n  };\n\n  force.radius = function(_) {\n    return arguments.length ? (radius = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : radius;\n  };\n\n  force.x = function(_) {\n    return arguments.length ? (x = +_, force) : x;\n  };\n\n  force.y = function(_) {\n    return arguments.length ? (y = +_, force) : y;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/radial.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/simulation.js":
+/*!**************************************************!*\
+  !*** ../node_modules/d3-force/src/simulation.js ***!
+  \**************************************************/
+/*! exports provided: x, y, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"x\", function() { return x; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"y\", function() { return y; });\n/* harmony import */ var d3_dispatch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3-dispatch */ \"../node_modules/d3-dispatch/index.js\");\n/* harmony import */ var d3_collection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-collection */ \"../node_modules/d3-collection/index.js\");\n/* harmony import */ var d3_timer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-timer */ \"../node_modules/d3-timer/index.js\");\n\n\n\n\nfunction x(d) {\n  return d.x;\n}\n\nfunction y(d) {\n  return d.y;\n}\n\nvar initialRadius = 10,\n    initialAngle = Math.PI * (3 - Math.sqrt(5));\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(nodes) {\n  var simulation,\n      alpha = 1,\n      alphaMin = 0.001,\n      alphaDecay = 1 - Math.pow(alphaMin, 1 / 300),\n      alphaTarget = 0,\n      velocityDecay = 0.6,\n      forces = Object(d3_collection__WEBPACK_IMPORTED_MODULE_1__[\"map\"])(),\n      stepper = Object(d3_timer__WEBPACK_IMPORTED_MODULE_2__[\"timer\"])(step),\n      event = Object(d3_dispatch__WEBPACK_IMPORTED_MODULE_0__[\"dispatch\"])(\"tick\", \"end\");\n\n  if (nodes == null) nodes = [];\n\n  function step() {\n    tick();\n    event.call(\"tick\", simulation);\n    if (alpha < alphaMin) {\n      stepper.stop();\n      event.call(\"end\", simulation);\n    }\n  }\n\n  function tick() {\n    var i, n = nodes.length, node;\n\n    alpha += (alphaTarget - alpha) * alphaDecay;\n\n    forces.each(function(force) {\n      force(alpha);\n    });\n\n    for (i = 0; i < n; ++i) {\n      node = nodes[i];\n      if (node.fx == null) node.x += node.vx *= velocityDecay;\n      else node.x = node.fx, node.vx = 0;\n      if (node.fy == null) node.y += node.vy *= velocityDecay;\n      else node.y = node.fy, node.vy = 0;\n    }\n  }\n\n  function initializeNodes() {\n    for (var i = 0, n = nodes.length, node; i < n; ++i) {\n      node = nodes[i], node.index = i;\n      if (isNaN(node.x) || isNaN(node.y)) {\n        var radius = initialRadius * Math.sqrt(i), angle = i * initialAngle;\n        node.x = radius * Math.cos(angle);\n        node.y = radius * Math.sin(angle);\n      }\n      if (isNaN(node.vx) || isNaN(node.vy)) {\n        node.vx = node.vy = 0;\n      }\n    }\n  }\n\n  function initializeForce(force) {\n    if (force.initialize) force.initialize(nodes);\n    return force;\n  }\n\n  initializeNodes();\n\n  return simulation = {\n    tick: tick,\n\n    restart: function() {\n      return stepper.restart(step), simulation;\n    },\n\n    stop: function() {\n      return stepper.stop(), simulation;\n    },\n\n    nodes: function(_) {\n      return arguments.length ? (nodes = _, initializeNodes(), forces.each(initializeForce), simulation) : nodes;\n    },\n\n    alpha: function(_) {\n      return arguments.length ? (alpha = +_, simulation) : alpha;\n    },\n\n    alphaMin: function(_) {\n      return arguments.length ? (alphaMin = +_, simulation) : alphaMin;\n    },\n\n    alphaDecay: function(_) {\n      return arguments.length ? (alphaDecay = +_, simulation) : +alphaDecay;\n    },\n\n    alphaTarget: function(_) {\n      return arguments.length ? (alphaTarget = +_, simulation) : alphaTarget;\n    },\n\n    velocityDecay: function(_) {\n      return arguments.length ? (velocityDecay = 1 - _, simulation) : 1 - velocityDecay;\n    },\n\n    force: function(name, _) {\n      return arguments.length > 1 ? ((_ == null ? forces.remove(name) : forces.set(name, initializeForce(_))), simulation) : forces.get(name);\n    },\n\n    find: function(x, y, radius) {\n      var i = 0,\n          n = nodes.length,\n          dx,\n          dy,\n          d2,\n          node,\n          closest;\n\n      if (radius == null) radius = Infinity;\n      else radius *= radius;\n\n      for (i = 0; i < n; ++i) {\n        node = nodes[i];\n        dx = x - node.x;\n        dy = y - node.y;\n        d2 = dx * dx + dy * dy;\n        if (d2 < radius) closest = node, radius = d2;\n      }\n\n      return closest;\n    },\n\n    on: function(name, _) {\n      return arguments.length > 1 ? (event.on(name, _), simulation) : event.on(name);\n    }\n  };\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/simulation.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/x.js":
+/*!*****************************************!*\
+  !*** ../node_modules/d3-force/src/x.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(x) {\n  var strength = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(0.1),\n      nodes,\n      strengths,\n      xz;\n\n  if (typeof x !== \"function\") x = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(x == null ? 0 : +x);\n\n  function force(alpha) {\n    for (var i = 0, n = nodes.length, node; i < n; ++i) {\n      node = nodes[i], node.vx += (xz[i] - node.x) * strengths[i] * alpha;\n    }\n  }\n\n  function initialize() {\n    if (!nodes) return;\n    var i, n = nodes.length;\n    strengths = new Array(n);\n    xz = new Array(n);\n    for (i = 0; i < n; ++i) {\n      strengths[i] = isNaN(xz[i] = +x(nodes[i], i, nodes)) ? 0 : +strength(nodes[i], i, nodes);\n    }\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n    initialize();\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : strength;\n  };\n\n  force.x = function(_) {\n    return arguments.length ? (x = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : x;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/x.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-force/src/y.js":
+/*!*****************************************!*\
+  !*** ../node_modules/d3-force/src/y.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constant */ \"../node_modules/d3-force/src/constant.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(y) {\n  var strength = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(0.1),\n      nodes,\n      strengths,\n      yz;\n\n  if (typeof y !== \"function\") y = Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(y == null ? 0 : +y);\n\n  function force(alpha) {\n    for (var i = 0, n = nodes.length, node; i < n; ++i) {\n      node = nodes[i], node.vy += (yz[i] - node.y) * strengths[i] * alpha;\n    }\n  }\n\n  function initialize() {\n    if (!nodes) return;\n    var i, n = nodes.length;\n    strengths = new Array(n);\n    yz = new Array(n);\n    for (i = 0; i < n; ++i) {\n      strengths[i] = isNaN(yz[i] = +y(nodes[i], i, nodes)) ? 0 : +strength(nodes[i], i, nodes);\n    }\n  }\n\n  force.initialize = function(_) {\n    nodes = _;\n    initialize();\n  };\n\n  force.strength = function(_) {\n    return arguments.length ? (strength = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : strength;\n  };\n\n  force.y = function(_) {\n    return arguments.length ? (y = typeof _ === \"function\" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(+_), initialize(), force) : y;\n  };\n\n  return force;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-force/src/y.js?");
+
+/***/ }),
+
 /***/ "../node_modules/d3-format/index.js":
 /*!******************************************!*\
   !*** ../node_modules/d3-format/index.js ***!
@@ -1173,6 +1329,282 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\nvar pi = Math.PI,\n    tau = 2 * pi,\n    epsilon = 1e-6,\n    tauEpsilon = tau - epsilon;\n\nfunction Path() {\n  this._x0 = this._y0 = // start of current subpath\n  this._x1 = this._y1 = null; // end of current subpath\n  this._ = \"\";\n}\n\nfunction path() {\n  return new Path;\n}\n\nPath.prototype = path.prototype = {\n  constructor: Path,\n  moveTo: function(x, y) {\n    this._ += \"M\" + (this._x0 = this._x1 = +x) + \",\" + (this._y0 = this._y1 = +y);\n  },\n  closePath: function() {\n    if (this._x1 !== null) {\n      this._x1 = this._x0, this._y1 = this._y0;\n      this._ += \"Z\";\n    }\n  },\n  lineTo: function(x, y) {\n    this._ += \"L\" + (this._x1 = +x) + \",\" + (this._y1 = +y);\n  },\n  quadraticCurveTo: function(x1, y1, x, y) {\n    this._ += \"Q\" + (+x1) + \",\" + (+y1) + \",\" + (this._x1 = +x) + \",\" + (this._y1 = +y);\n  },\n  bezierCurveTo: function(x1, y1, x2, y2, x, y) {\n    this._ += \"C\" + (+x1) + \",\" + (+y1) + \",\" + (+x2) + \",\" + (+y2) + \",\" + (this._x1 = +x) + \",\" + (this._y1 = +y);\n  },\n  arcTo: function(x1, y1, x2, y2, r) {\n    x1 = +x1, y1 = +y1, x2 = +x2, y2 = +y2, r = +r;\n    var x0 = this._x1,\n        y0 = this._y1,\n        x21 = x2 - x1,\n        y21 = y2 - y1,\n        x01 = x0 - x1,\n        y01 = y0 - y1,\n        l01_2 = x01 * x01 + y01 * y01;\n\n    // Is the radius negative? Error.\n    if (r < 0) throw new Error(\"negative radius: \" + r);\n\n    // Is this path empty? Move to (x1,y1).\n    if (this._x1 === null) {\n      this._ += \"M\" + (this._x1 = x1) + \",\" + (this._y1 = y1);\n    }\n\n    // Or, is (x1,y1) coincident with (x0,y0)? Do nothing.\n    else if (!(l01_2 > epsilon)) {}\n\n    // Or, are (x0,y0), (x1,y1) and (x2,y2) collinear?\n    // Equivalently, is (x1,y1) coincident with (x2,y2)?\n    // Or, is the radius zero? Line to (x1,y1).\n    else if (!(Math.abs(y01 * x21 - y21 * x01) > epsilon) || !r) {\n      this._ += \"L\" + (this._x1 = x1) + \",\" + (this._y1 = y1);\n    }\n\n    // Otherwise, draw an arc!\n    else {\n      var x20 = x2 - x0,\n          y20 = y2 - y0,\n          l21_2 = x21 * x21 + y21 * y21,\n          l20_2 = x20 * x20 + y20 * y20,\n          l21 = Math.sqrt(l21_2),\n          l01 = Math.sqrt(l01_2),\n          l = r * Math.tan((pi - Math.acos((l21_2 + l01_2 - l20_2) / (2 * l21 * l01))) / 2),\n          t01 = l / l01,\n          t21 = l / l21;\n\n      // If the start tangent is not coincident with (x0,y0), line to.\n      if (Math.abs(t01 - 1) > epsilon) {\n        this._ += \"L\" + (x1 + t01 * x01) + \",\" + (y1 + t01 * y01);\n      }\n\n      this._ += \"A\" + r + \",\" + r + \",0,0,\" + (+(y01 * x20 > x01 * y20)) + \",\" + (this._x1 = x1 + t21 * x21) + \",\" + (this._y1 = y1 + t21 * y21);\n    }\n  },\n  arc: function(x, y, r, a0, a1, ccw) {\n    x = +x, y = +y, r = +r;\n    var dx = r * Math.cos(a0),\n        dy = r * Math.sin(a0),\n        x0 = x + dx,\n        y0 = y + dy,\n        cw = 1 ^ ccw,\n        da = ccw ? a0 - a1 : a1 - a0;\n\n    // Is the radius negative? Error.\n    if (r < 0) throw new Error(\"negative radius: \" + r);\n\n    // Is this path empty? Move to (x0,y0).\n    if (this._x1 === null) {\n      this._ += \"M\" + x0 + \",\" + y0;\n    }\n\n    // Or, is (x0,y0) not coincident with the previous point? Line to (x0,y0).\n    else if (Math.abs(this._x1 - x0) > epsilon || Math.abs(this._y1 - y0) > epsilon) {\n      this._ += \"L\" + x0 + \",\" + y0;\n    }\n\n    // Is this arc empty? We’re done.\n    if (!r) return;\n\n    // Does the angle go the wrong way? Flip the direction.\n    if (da < 0) da = da % tau + tau;\n\n    // Is this a complete circle? Draw two arcs to complete the circle.\n    if (da > tauEpsilon) {\n      this._ += \"A\" + r + \",\" + r + \",0,1,\" + cw + \",\" + (x - dx) + \",\" + (y - dy) + \"A\" + r + \",\" + r + \",0,1,\" + cw + \",\" + (this._x1 = x0) + \",\" + (this._y1 = y0);\n    }\n\n    // Is this arc non-empty? Draw an arc!\n    else if (da > epsilon) {\n      this._ += \"A\" + r + \",\" + r + \",0,\" + (+(da >= pi)) + \",\" + cw + \",\" + (this._x1 = x + r * Math.cos(a1)) + \",\" + (this._y1 = y + r * Math.sin(a1));\n    }\n  },\n  rect: function(x, y, w, h) {\n    this._ += \"M\" + (this._x0 = this._x1 = +x) + \",\" + (this._y0 = this._y1 = +y) + \"h\" + (+w) + \"v\" + (+h) + \"h\" + (-w) + \"Z\";\n  },\n  toString: function() {\n    return this._;\n  }\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (path);\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-path/src/path.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/index.js":
+/*!********************************************!*\
+  !*** ../node_modules/d3-quadtree/index.js ***!
+  \********************************************/
+/*! exports provided: quadtree */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_quadtree__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/quadtree */ \"../node_modules/d3-quadtree/src/quadtree.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"quadtree\", function() { return _src_quadtree__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/index.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/add.js":
+/*!**********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/add.js ***!
+  \**********************************************/
+/*! exports provided: default, addAll */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"addAll\", function() { return addAll; });\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(d) {\n  var x = +this._x.call(null, d),\n      y = +this._y.call(null, d);\n  return add(this.cover(x, y), x, y, d);\n});\n\nfunction add(tree, x, y, d) {\n  if (isNaN(x) || isNaN(y)) return tree; // ignore invalid points\n\n  var parent,\n      node = tree._root,\n      leaf = {data: d},\n      x0 = tree._x0,\n      y0 = tree._y0,\n      x1 = tree._x1,\n      y1 = tree._y1,\n      xm,\n      ym,\n      xp,\n      yp,\n      right,\n      bottom,\n      i,\n      j;\n\n  // If the tree is empty, initialize the root as a leaf.\n  if (!node) return tree._root = leaf, tree;\n\n  // Find the existing leaf for the new point, or add it.\n  while (node.length) {\n    if (right = x >= (xm = (x0 + x1) / 2)) x0 = xm; else x1 = xm;\n    if (bottom = y >= (ym = (y0 + y1) / 2)) y0 = ym; else y1 = ym;\n    if (parent = node, !(node = node[i = bottom << 1 | right])) return parent[i] = leaf, tree;\n  }\n\n  // Is the new point is exactly coincident with the existing point?\n  xp = +tree._x.call(null, node.data);\n  yp = +tree._y.call(null, node.data);\n  if (x === xp && y === yp) return leaf.next = node, parent ? parent[i] = leaf : tree._root = leaf, tree;\n\n  // Otherwise, split the leaf node until the old and new point are separated.\n  do {\n    parent = parent ? parent[i] = new Array(4) : tree._root = new Array(4);\n    if (right = x >= (xm = (x0 + x1) / 2)) x0 = xm; else x1 = xm;\n    if (bottom = y >= (ym = (y0 + y1) / 2)) y0 = ym; else y1 = ym;\n  } while ((i = bottom << 1 | right) === (j = (yp >= ym) << 1 | (xp >= xm)));\n  return parent[j] = node, parent[i] = leaf, tree;\n}\n\nfunction addAll(data) {\n  var d, i, n = data.length,\n      x,\n      y,\n      xz = new Array(n),\n      yz = new Array(n),\n      x0 = Infinity,\n      y0 = Infinity,\n      x1 = -Infinity,\n      y1 = -Infinity;\n\n  // Compute the points and their extent.\n  for (i = 0; i < n; ++i) {\n    if (isNaN(x = +this._x.call(null, d = data[i])) || isNaN(y = +this._y.call(null, d))) continue;\n    xz[i] = x;\n    yz[i] = y;\n    if (x < x0) x0 = x;\n    if (x > x1) x1 = x;\n    if (y < y0) y0 = y;\n    if (y > y1) y1 = y;\n  }\n\n  // If there were no (valid) points, inherit the existing extent.\n  if (x1 < x0) x0 = this._x0, x1 = this._x1;\n  if (y1 < y0) y0 = this._y0, y1 = this._y1;\n\n  // Expand the tree to cover the new points.\n  this.cover(x0, y0).cover(x1, y1);\n\n  // Add the new points.\n  for (i = 0; i < n; ++i) {\n    add(this, xz[i], yz[i], data[i]);\n  }\n\n  return this;\n}\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/add.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/cover.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/cover.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(x, y) {\n  if (isNaN(x = +x) || isNaN(y = +y)) return this; // ignore invalid points\n\n  var x0 = this._x0,\n      y0 = this._y0,\n      x1 = this._x1,\n      y1 = this._y1;\n\n  // If the quadtree has no extent, initialize them.\n  // Integer extent are necessary so that if we later double the extent,\n  // the existing quadrant boundaries don’t change due to floating point error!\n  if (isNaN(x0)) {\n    x1 = (x0 = Math.floor(x)) + 1;\n    y1 = (y0 = Math.floor(y)) + 1;\n  }\n\n  // Otherwise, double repeatedly to cover.\n  else if (x0 > x || x > x1 || y0 > y || y > y1) {\n    var z = x1 - x0,\n        node = this._root,\n        parent,\n        i;\n\n    switch (i = (y < (y0 + y1) / 2) << 1 | (x < (x0 + x1) / 2)) {\n      case 0: {\n        do parent = new Array(4), parent[i] = node, node = parent;\n        while (z *= 2, x1 = x0 + z, y1 = y0 + z, x > x1 || y > y1);\n        break;\n      }\n      case 1: {\n        do parent = new Array(4), parent[i] = node, node = parent;\n        while (z *= 2, x0 = x1 - z, y1 = y0 + z, x0 > x || y > y1);\n        break;\n      }\n      case 2: {\n        do parent = new Array(4), parent[i] = node, node = parent;\n        while (z *= 2, x1 = x0 + z, y0 = y1 - z, x > x1 || y0 > y);\n        break;\n      }\n      case 3: {\n        do parent = new Array(4), parent[i] = node, node = parent;\n        while (z *= 2, x0 = x1 - z, y0 = y1 - z, x0 > x || y0 > y);\n        break;\n      }\n    }\n\n    if (this._root && this._root.length) this._root = node;\n  }\n\n  // If the quadtree covers the point already, just return.\n  else return this;\n\n  this._x0 = x0;\n  this._y0 = y0;\n  this._x1 = x1;\n  this._y1 = y1;\n  return this;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/cover.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/data.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/data.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  var data = [];\n  this.visit(function(node) {\n    if (!node.length) do data.push(node.data); while (node = node.next)\n  });\n  return data;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/data.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/extent.js":
+/*!*************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/extent.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(_) {\n  return arguments.length\n      ? this.cover(+_[0][0], +_[0][1]).cover(+_[1][0], +_[1][1])\n      : isNaN(this._x0) ? undefined : [[this._x0, this._y0], [this._x1, this._y1]];\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/extent.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/find.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/find.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _quad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./quad */ \"../node_modules/d3-quadtree/src/quad.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(x, y, radius) {\n  var data,\n      x0 = this._x0,\n      y0 = this._y0,\n      x1,\n      y1,\n      x2,\n      y2,\n      x3 = this._x1,\n      y3 = this._y1,\n      quads = [],\n      node = this._root,\n      q,\n      i;\n\n  if (node) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node, x0, y0, x3, y3));\n  if (radius == null) radius = Infinity;\n  else {\n    x0 = x - radius, y0 = y - radius;\n    x3 = x + radius, y3 = y + radius;\n    radius *= radius;\n  }\n\n  while (q = quads.pop()) {\n\n    // Stop searching if this quadrant can’t contain a closer node.\n    if (!(node = q.node)\n        || (x1 = q.x0) > x3\n        || (y1 = q.y0) > y3\n        || (x2 = q.x1) < x0\n        || (y2 = q.y1) < y0) continue;\n\n    // Bisect the current quadrant.\n    if (node.length) {\n      var xm = (x1 + x2) / 2,\n          ym = (y1 + y2) / 2;\n\n      quads.push(\n        new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node[3], xm, ym, x2, y2),\n        new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node[2], x1, ym, xm, y2),\n        new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node[1], xm, y1, x2, ym),\n        new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node[0], x1, y1, xm, ym)\n      );\n\n      // Visit the closest quadrant first.\n      if (i = (y >= ym) << 1 | (x >= xm)) {\n        q = quads[quads.length - 1];\n        quads[quads.length - 1] = quads[quads.length - 1 - i];\n        quads[quads.length - 1 - i] = q;\n      }\n    }\n\n    // Visit this point. (Visiting coincident points isn’t necessary!)\n    else {\n      var dx = x - +this._x.call(null, node.data),\n          dy = y - +this._y.call(null, node.data),\n          d2 = dx * dx + dy * dy;\n      if (d2 < radius) {\n        var d = Math.sqrt(radius = d2);\n        x0 = x - d, y0 = y - d;\n        x3 = x + d, y3 = y + d;\n        data = node.data;\n      }\n    }\n  }\n\n  return data;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/find.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/quad.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/quad.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(node, x0, y0, x1, y1) {\n  this.node = node;\n  this.x0 = x0;\n  this.y0 = y0;\n  this.x1 = x1;\n  this.y1 = y1;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/quad.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/quadtree.js":
+/*!***************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/quadtree.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return quadtree; });\n/* harmony import */ var _add__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add */ \"../node_modules/d3-quadtree/src/add.js\");\n/* harmony import */ var _cover__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cover */ \"../node_modules/d3-quadtree/src/cover.js\");\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data */ \"../node_modules/d3-quadtree/src/data.js\");\n/* harmony import */ var _extent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./extent */ \"../node_modules/d3-quadtree/src/extent.js\");\n/* harmony import */ var _find__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./find */ \"../node_modules/d3-quadtree/src/find.js\");\n/* harmony import */ var _remove__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./remove */ \"../node_modules/d3-quadtree/src/remove.js\");\n/* harmony import */ var _root__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./root */ \"../node_modules/d3-quadtree/src/root.js\");\n/* harmony import */ var _size__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./size */ \"../node_modules/d3-quadtree/src/size.js\");\n/* harmony import */ var _visit__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./visit */ \"../node_modules/d3-quadtree/src/visit.js\");\n/* harmony import */ var _visitAfter__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./visitAfter */ \"../node_modules/d3-quadtree/src/visitAfter.js\");\n/* harmony import */ var _x__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./x */ \"../node_modules/d3-quadtree/src/x.js\");\n/* harmony import */ var _y__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./y */ \"../node_modules/d3-quadtree/src/y.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction quadtree(nodes, x, y) {\n  var tree = new Quadtree(x == null ? _x__WEBPACK_IMPORTED_MODULE_10__[\"defaultX\"] : x, y == null ? _y__WEBPACK_IMPORTED_MODULE_11__[\"defaultY\"] : y, NaN, NaN, NaN, NaN);\n  return nodes == null ? tree : tree.addAll(nodes);\n}\n\nfunction Quadtree(x, y, x0, y0, x1, y1) {\n  this._x = x;\n  this._y = y;\n  this._x0 = x0;\n  this._y0 = y0;\n  this._x1 = x1;\n  this._y1 = y1;\n  this._root = undefined;\n}\n\nfunction leaf_copy(leaf) {\n  var copy = {data: leaf.data}, next = copy;\n  while (leaf = leaf.next) next = next.next = {data: leaf.data};\n  return copy;\n}\n\nvar treeProto = quadtree.prototype = Quadtree.prototype;\n\ntreeProto.copy = function() {\n  var copy = new Quadtree(this._x, this._y, this._x0, this._y0, this._x1, this._y1),\n      node = this._root,\n      nodes,\n      child;\n\n  if (!node) return copy;\n\n  if (!node.length) return copy._root = leaf_copy(node), copy;\n\n  nodes = [{source: node, target: copy._root = new Array(4)}];\n  while (node = nodes.pop()) {\n    for (var i = 0; i < 4; ++i) {\n      if (child = node.source[i]) {\n        if (child.length) nodes.push({source: child, target: node.target[i] = new Array(4)});\n        else node.target[i] = leaf_copy(child);\n      }\n    }\n  }\n\n  return copy;\n};\n\ntreeProto.add = _add__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\ntreeProto.addAll = _add__WEBPACK_IMPORTED_MODULE_0__[\"addAll\"];\ntreeProto.cover = _cover__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\ntreeProto.data = _data__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\ntreeProto.extent = _extent__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\ntreeProto.find = _find__WEBPACK_IMPORTED_MODULE_4__[\"default\"];\ntreeProto.remove = _remove__WEBPACK_IMPORTED_MODULE_5__[\"default\"];\ntreeProto.removeAll = _remove__WEBPACK_IMPORTED_MODULE_5__[\"removeAll\"];\ntreeProto.root = _root__WEBPACK_IMPORTED_MODULE_6__[\"default\"];\ntreeProto.size = _size__WEBPACK_IMPORTED_MODULE_7__[\"default\"];\ntreeProto.visit = _visit__WEBPACK_IMPORTED_MODULE_8__[\"default\"];\ntreeProto.visitAfter = _visitAfter__WEBPACK_IMPORTED_MODULE_9__[\"default\"];\ntreeProto.x = _x__WEBPACK_IMPORTED_MODULE_10__[\"default\"];\ntreeProto.y = _y__WEBPACK_IMPORTED_MODULE_11__[\"default\"];\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/quadtree.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/remove.js":
+/*!*************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/remove.js ***!
+  \*************************************************/
+/*! exports provided: default, removeAll */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"removeAll\", function() { return removeAll; });\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(d) {\n  if (isNaN(x = +this._x.call(null, d)) || isNaN(y = +this._y.call(null, d))) return this; // ignore invalid points\n\n  var parent,\n      node = this._root,\n      retainer,\n      previous,\n      next,\n      x0 = this._x0,\n      y0 = this._y0,\n      x1 = this._x1,\n      y1 = this._y1,\n      x,\n      y,\n      xm,\n      ym,\n      right,\n      bottom,\n      i,\n      j;\n\n  // If the tree is empty, initialize the root as a leaf.\n  if (!node) return this;\n\n  // Find the leaf node for the point.\n  // While descending, also retain the deepest parent with a non-removed sibling.\n  if (node.length) while (true) {\n    if (right = x >= (xm = (x0 + x1) / 2)) x0 = xm; else x1 = xm;\n    if (bottom = y >= (ym = (y0 + y1) / 2)) y0 = ym; else y1 = ym;\n    if (!(parent = node, node = node[i = bottom << 1 | right])) return this;\n    if (!node.length) break;\n    if (parent[(i + 1) & 3] || parent[(i + 2) & 3] || parent[(i + 3) & 3]) retainer = parent, j = i;\n  }\n\n  // Find the point to remove.\n  while (node.data !== d) if (!(previous = node, node = node.next)) return this;\n  if (next = node.next) delete node.next;\n\n  // If there are multiple coincident points, remove just the point.\n  if (previous) return (next ? previous.next = next : delete previous.next), this;\n\n  // If this is the root point, remove it.\n  if (!parent) return this._root = next, this;\n\n  // Remove this leaf.\n  next ? parent[i] = next : delete parent[i];\n\n  // If the parent now contains exactly one leaf, collapse superfluous parents.\n  if ((node = parent[0] || parent[1] || parent[2] || parent[3])\n      && node === (parent[3] || parent[2] || parent[1] || parent[0])\n      && !node.length) {\n    if (retainer) retainer[j] = node;\n    else this._root = node;\n  }\n\n  return this;\n});\n\nfunction removeAll(data) {\n  for (var i = 0, n = data.length; i < n; ++i) this.remove(data[i]);\n  return this;\n}\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/remove.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/root.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/root.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  return this._root;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/root.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/size.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/size.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  var size = 0;\n  this.visit(function(node) {\n    if (!node.length) do ++size; while (node = node.next)\n  });\n  return size;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/size.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/visit.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/visit.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _quad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./quad */ \"../node_modules/d3-quadtree/src/quad.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(callback) {\n  var quads = [], q, node = this._root, child, x0, y0, x1, y1;\n  if (node) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](node, this._x0, this._y0, this._x1, this._y1));\n  while (q = quads.pop()) {\n    if (!callback(node = q.node, x0 = q.x0, y0 = q.y0, x1 = q.x1, y1 = q.y1) && node.length) {\n      var xm = (x0 + x1) / 2, ym = (y0 + y1) / 2;\n      if (child = node[3]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, xm, ym, x1, y1));\n      if (child = node[2]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, x0, ym, xm, y1));\n      if (child = node[1]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, xm, y0, x1, ym));\n      if (child = node[0]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, x0, y0, xm, ym));\n    }\n  }\n  return this;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/visit.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/visitAfter.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/d3-quadtree/src/visitAfter.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _quad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./quad */ \"../node_modules/d3-quadtree/src/quad.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(callback) {\n  var quads = [], next = [], q;\n  if (this._root) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](this._root, this._x0, this._y0, this._x1, this._y1));\n  while (q = quads.pop()) {\n    var node = q.node;\n    if (node.length) {\n      var child, x0 = q.x0, y0 = q.y0, x1 = q.x1, y1 = q.y1, xm = (x0 + x1) / 2, ym = (y0 + y1) / 2;\n      if (child = node[0]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, x0, y0, xm, ym));\n      if (child = node[1]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, xm, y0, x1, ym));\n      if (child = node[2]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, x0, ym, xm, y1));\n      if (child = node[3]) quads.push(new _quad__WEBPACK_IMPORTED_MODULE_0__[\"default\"](child, xm, ym, x1, y1));\n    }\n    next.push(q);\n  }\n  while (q = next.pop()) {\n    callback(q.node, q.x0, q.y0, q.x1, q.y1);\n  }\n  return this;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/visitAfter.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/x.js":
+/*!********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/x.js ***!
+  \********************************************/
+/*! exports provided: defaultX, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"defaultX\", function() { return defaultX; });\nfunction defaultX(d) {\n  return d[0];\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(_) {\n  return arguments.length ? (this._x = _, this) : this._x;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/x.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-quadtree/src/y.js":
+/*!********************************************!*\
+  !*** ../node_modules/d3-quadtree/src/y.js ***!
+  \********************************************/
+/*! exports provided: defaultY, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"defaultY\", function() { return defaultY; });\nfunction defaultY(d) {\n  return d[1];\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(_) {\n  return arguments.length ? (this._y = _, this) : this._y;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-quadtree/src/y.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/index.js":
+/*!******************************************!*\
+  !*** ../node_modules/d3-random/index.js ***!
+  \******************************************/
+/*! exports provided: randomUniform, randomNormal, randomLogNormal, randomBates, randomIrwinHall, randomExponential */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_uniform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/uniform */ \"../node_modules/d3-random/src/uniform.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomUniform\", function() { return _src_uniform__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n/* harmony import */ var _src_normal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/normal */ \"../node_modules/d3-random/src/normal.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomNormal\", function() { return _src_normal__WEBPACK_IMPORTED_MODULE_1__[\"default\"]; });\n\n/* harmony import */ var _src_logNormal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/logNormal */ \"../node_modules/d3-random/src/logNormal.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomLogNormal\", function() { return _src_logNormal__WEBPACK_IMPORTED_MODULE_2__[\"default\"]; });\n\n/* harmony import */ var _src_bates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/bates */ \"../node_modules/d3-random/src/bates.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomBates\", function() { return _src_bates__WEBPACK_IMPORTED_MODULE_3__[\"default\"]; });\n\n/* harmony import */ var _src_irwinHall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/irwinHall */ \"../node_modules/d3-random/src/irwinHall.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomIrwinHall\", function() { return _src_irwinHall__WEBPACK_IMPORTED_MODULE_4__[\"default\"]; });\n\n/* harmony import */ var _src_exponential__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/exponential */ \"../node_modules/d3-random/src/exponential.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"randomExponential\", function() { return _src_exponential__WEBPACK_IMPORTED_MODULE_5__[\"default\"]; });\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/index.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/bates.js":
+/*!**********************************************!*\
+  !*** ../node_modules/d3-random/src/bates.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n/* harmony import */ var _irwinHall__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./irwinHall */ \"../node_modules/d3-random/src/irwinHall.js\");\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomBates(source) {\n  function randomBates(n) {\n    var randomIrwinHall = _irwinHall__WEBPACK_IMPORTED_MODULE_1__[\"default\"].source(source)(n);\n    return function() {\n      return randomIrwinHall() / n;\n    };\n  }\n\n  randomBates.source = sourceRandomBates;\n\n  return randomBates;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/bates.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/defaultSource.js":
+/*!******************************************************!*\
+  !*** ../node_modules/d3-random/src/defaultSource.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  return Math.random();\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/defaultSource.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/exponential.js":
+/*!****************************************************!*\
+  !*** ../node_modules/d3-random/src/exponential.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomExponential(source) {\n  function randomExponential(lambda) {\n    return function() {\n      return -Math.log(1 - source()) / lambda;\n    };\n  }\n\n  randomExponential.source = sourceRandomExponential;\n\n  return randomExponential;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/exponential.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/irwinHall.js":
+/*!**************************************************!*\
+  !*** ../node_modules/d3-random/src/irwinHall.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomIrwinHall(source) {\n  function randomIrwinHall(n) {\n    return function() {\n      for (var sum = 0, i = 0; i < n; ++i) sum += source();\n      return sum;\n    };\n  }\n\n  randomIrwinHall.source = sourceRandomIrwinHall;\n\n  return randomIrwinHall;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/irwinHall.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/logNormal.js":
+/*!**************************************************!*\
+  !*** ../node_modules/d3-random/src/logNormal.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n/* harmony import */ var _normal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./normal */ \"../node_modules/d3-random/src/normal.js\");\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomLogNormal(source) {\n  function randomLogNormal() {\n    var randomNormal = _normal__WEBPACK_IMPORTED_MODULE_1__[\"default\"].source(source).apply(this, arguments);\n    return function() {\n      return Math.exp(randomNormal());\n    };\n  }\n\n  randomLogNormal.source = sourceRandomLogNormal;\n\n  return randomLogNormal;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/logNormal.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/normal.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-random/src/normal.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomNormal(source) {\n  function randomNormal(mu, sigma) {\n    var x, r;\n    mu = mu == null ? 0 : +mu;\n    sigma = sigma == null ? 1 : +sigma;\n    return function() {\n      var y;\n\n      // If available, use the second previously-generated uniform random.\n      if (x != null) y = x, x = null;\n\n      // Otherwise, generate a new x and y.\n      else do {\n        x = source() * 2 - 1;\n        y = source() * 2 - 1;\n        r = x * x + y * y;\n      } while (!r || r > 1);\n\n      return mu + sigma * y * Math.sqrt(-2 * Math.log(r) / r);\n    };\n  }\n\n  randomNormal.source = sourceRandomNormal;\n\n  return randomNormal;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/normal.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-random/src/uniform.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-random/src/uniform.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _defaultSource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultSource */ \"../node_modules/d3-random/src/defaultSource.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function sourceRandomUniform(source) {\n  function randomUniform(min, max) {\n    min = min == null ? 0 : +min;\n    max = max == null ? 1 : +max;\n    if (arguments.length === 1) max = min, min = 0;\n    else max -= min;\n    return function() {\n      return source() * max + min;\n    };\n  }\n\n  randomUniform.source = sourceRandomUniform;\n\n  return randomUniform;\n})(_defaultSource__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-random/src/uniform.js?");
 
 /***/ }),
 
@@ -2889,6 +3321,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"years\", function() { return years; });\n/* harmony import */ var _interval__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./interval */ \"../node_modules/d3-time/src/interval.js\");\n\n\nvar year = Object(_interval__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(function(date) {\n  date.setMonth(0, 1);\n  date.setHours(0, 0, 0, 0);\n}, function(date, step) {\n  date.setFullYear(date.getFullYear() + step);\n}, function(start, end) {\n  return end.getFullYear() - start.getFullYear();\n}, function(date) {\n  return date.getFullYear();\n});\n\n// An optimized implementation for this simple case.\nyear.every = function(k) {\n  return !isFinite(k = Math.floor(k)) || !(k > 0) ? null : Object(_interval__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(function(date) {\n    date.setFullYear(Math.floor(date.getFullYear() / k) * k);\n    date.setMonth(0, 1);\n    date.setHours(0, 0, 0, 0);\n  }, function(date, step) {\n    date.setFullYear(date.getFullYear() + step * k);\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (year);\nvar years = year.range;\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-time/src/year.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-timer/index.js":
+/*!*****************************************!*\
+  !*** ../node_modules/d3-timer/index.js ***!
+  \*****************************************/
+/*! exports provided: now, timer, timerFlush, timeout, interval */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_timer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/timer */ \"../node_modules/d3-timer/src/timer.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"now\", function() { return _src_timer__WEBPACK_IMPORTED_MODULE_0__[\"now\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"timer\", function() { return _src_timer__WEBPACK_IMPORTED_MODULE_0__[\"timer\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"timerFlush\", function() { return _src_timer__WEBPACK_IMPORTED_MODULE_0__[\"timerFlush\"]; });\n\n/* harmony import */ var _src_timeout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/timeout */ \"../node_modules/d3-timer/src/timeout.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"timeout\", function() { return _src_timeout__WEBPACK_IMPORTED_MODULE_1__[\"default\"]; });\n\n/* harmony import */ var _src_interval__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/interval */ \"../node_modules/d3-timer/src/interval.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"interval\", function() { return _src_interval__WEBPACK_IMPORTED_MODULE_2__[\"default\"]; });\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-timer/index.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-timer/src/interval.js":
+/*!************************************************!*\
+  !*** ../node_modules/d3-timer/src/interval.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _timer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./timer */ \"../node_modules/d3-timer/src/timer.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(callback, delay, time) {\n  var t = new _timer__WEBPACK_IMPORTED_MODULE_0__[\"Timer\"], total = delay;\n  if (delay == null) return t.restart(callback, delay, time), t;\n  delay = +delay, time = time == null ? Object(_timer__WEBPACK_IMPORTED_MODULE_0__[\"now\"])() : +time;\n  t.restart(function tick(elapsed) {\n    elapsed += total;\n    t.restart(tick, total += delay, time);\n    callback(elapsed);\n  }, delay, time);\n  return t;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-timer/src/interval.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-timer/src/timeout.js":
+/*!***********************************************!*\
+  !*** ../node_modules/d3-timer/src/timeout.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _timer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./timer */ \"../node_modules/d3-timer/src/timer.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(callback, delay, time) {\n  var t = new _timer__WEBPACK_IMPORTED_MODULE_0__[\"Timer\"];\n  delay = delay == null ? 0 : +delay;\n  t.restart(function(elapsed) {\n    t.stop();\n    callback(elapsed + delay);\n  }, delay, time);\n  return t;\n});\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-timer/src/timeout.js?");
+
+/***/ }),
+
+/***/ "../node_modules/d3-timer/src/timer.js":
+/*!*********************************************!*\
+  !*** ../node_modules/d3-timer/src/timer.js ***!
+  \*********************************************/
+/*! exports provided: now, Timer, timer, timerFlush */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"now\", function() { return now; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Timer\", function() { return Timer; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"timer\", function() { return timer; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"timerFlush\", function() { return timerFlush; });\nvar frame = 0, // is an animation frame pending?\n    timeout = 0, // is a timeout pending?\n    interval = 0, // are any timers active?\n    pokeDelay = 1000, // how frequently we check for clock skew\n    taskHead,\n    taskTail,\n    clockLast = 0,\n    clockNow = 0,\n    clockSkew = 0,\n    clock = typeof performance === \"object\" && performance.now ? performance : Date,\n    setFrame = typeof window === \"object\" && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(f) { setTimeout(f, 17); };\n\nfunction now() {\n  return clockNow || (setFrame(clearNow), clockNow = clock.now() + clockSkew);\n}\n\nfunction clearNow() {\n  clockNow = 0;\n}\n\nfunction Timer() {\n  this._call =\n  this._time =\n  this._next = null;\n}\n\nTimer.prototype = timer.prototype = {\n  constructor: Timer,\n  restart: function(callback, delay, time) {\n    if (typeof callback !== \"function\") throw new TypeError(\"callback is not a function\");\n    time = (time == null ? now() : +time) + (delay == null ? 0 : +delay);\n    if (!this._next && taskTail !== this) {\n      if (taskTail) taskTail._next = this;\n      else taskHead = this;\n      taskTail = this;\n    }\n    this._call = callback;\n    this._time = time;\n    sleep();\n  },\n  stop: function() {\n    if (this._call) {\n      this._call = null;\n      this._time = Infinity;\n      sleep();\n    }\n  }\n};\n\nfunction timer(callback, delay, time) {\n  var t = new Timer;\n  t.restart(callback, delay, time);\n  return t;\n}\n\nfunction timerFlush() {\n  now(); // Get the current time, if not already set.\n  ++frame; // Pretend we’ve set an alarm, if we haven’t already.\n  var t = taskHead, e;\n  while (t) {\n    if ((e = clockNow - t._time) >= 0) t._call.call(null, e);\n    t = t._next;\n  }\n  --frame;\n}\n\nfunction wake() {\n  clockNow = (clockLast = clock.now()) + clockSkew;\n  frame = timeout = 0;\n  try {\n    timerFlush();\n  } finally {\n    frame = 0;\n    nap();\n    clockNow = 0;\n  }\n}\n\nfunction poke() {\n  var now = clock.now(), delay = now - clockLast;\n  if (delay > pokeDelay) clockSkew -= delay, clockLast = now;\n}\n\nfunction nap() {\n  var t0, t1 = taskHead, t2, time = Infinity;\n  while (t1) {\n    if (t1._call) {\n      if (time > t1._time) time = t1._time;\n      t0 = t1, t1 = t1._next;\n    } else {\n      t2 = t1._next, t1._next = null;\n      t1 = t0 ? t0._next = t2 : taskHead = t2;\n    }\n  }\n  taskTail = t0;\n  sleep(time);\n}\n\nfunction sleep(time) {\n  if (frame) return; // Soonest alarm already set, or will be.\n  if (timeout) timeout = clearTimeout(timeout);\n  var delay = time - clockNow; // Strictly less than if we recomputed clockNow.\n  if (delay > 24) {\n    if (time < Infinity) timeout = setTimeout(wake, time - clock.now() - clockSkew);\n    if (interval) interval = clearInterval(interval);\n  } else {\n    if (!interval) clockLast = clock.now(), interval = setInterval(poke, pokeDelay);\n    frame = 1, setFrame(wake);\n  }\n}\n\n\n//# sourceURL=webpack://tornApart/../node_modules/d3-timer/src/timer.js?");
 
 /***/ }),
 
@@ -4656,6 +5136,41 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var leaf
 
 /***/ }),
 
+/***/ "./orr-data.js":
+/*!*********************!*\
+  !*** ./orr-data.js ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! leaflet */ \"leaflet\");\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(leaflet__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _orr_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./orr.json */ \"./orr.json\");\nvar _orr_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./orr.json */ \"./orr.json\", 1);\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n  return _orr_json__WEBPACK_IMPORTED_MODULE_1__.features.map(site => {\n    const adps = site.properties.adp.map(adp => { return {r: adp}; });\n    return {\n      dco: site.properties.dco,\n      LatLng: new leaflet__WEBPACK_IMPORTED_MODULE_0___default.a.LatLng(site.geometry.coordinates[1], site.geometry.coordinates[0]),\n      blacksites: adps\n    };\n  });\n});\n\n\n//# sourceURL=webpack://tornApart/./orr-data.js?");
+
+/***/ }),
+
+/***/ "./orr.js":
+/*!****************!*\
+  !*** ./orr.js ***!
+  \****************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"jquery\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-selection */ \"../node_modules/d3-selection/index.js\");\n/* harmony import */ var d3_array__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-array */ \"../node_modules/d3-array/index.js\");\n/* harmony import */ var d3_random__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! d3-random */ \"../node_modules/d3-random/index.js\");\n/* harmony import */ var d3_force__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! d3-force */ \"../node_modules/d3-force/index.js\");\n/* harmony import */ var _orr_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./orr-data */ \"./orr-data.js\");\n\n\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(map) {\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"#orr-legend\").show().click(function(){ jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).hide(); });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"#orr-div\").show();\n  map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n  map.dragging.disable();\n  const svg = Object(d3_selection__WEBPACK_IMPORTED_MODULE_1__[\"select\"])(\"#orr-div\").append(\"svg\")\n      .attr(\"width\", jquery__WEBPACK_IMPORTED_MODULE_0___default()( window ).width())\n      .attr(\"height\",jquery__WEBPACK_IMPORTED_MODULE_0___default()( window ).height()),\n    g = svg.append(\"g\");//.classed(\"leaflet-zoom-hide\", true).classed(\"chartLayer\", true);\n\n  const data = Object(_orr_data__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n  data.map( datum => {\n    const dg = g.append(\"g\").attr(\"id\", datum.dco).classed(\"nodes\", true);\n    const x = map.latLngToLayerPoint(datum.LatLng).x;\n    const y = map.latLngToLayerPoint(datum.LatLng).y;\n    const simulation = Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceSimulation\"])()\n      .force(\"collide\", Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceCollide\"])(d => Object(d3_array__WEBPACK_IMPORTED_MODULE_2__[\"max\"])([6, Math.pow(d.r, 0.62)])).iterations(16))\n      .force(\"charge\", Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceManyBody\"])())\n      .force(\"center\", Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceCenter\"])(x, y))\n      .force(\"y\", Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceY\"])(0))\n      .force(\"x\", Object(d3_force__WEBPACK_IMPORTED_MODULE_4__[\"forceX\"])(0));\n\n    const node = dg.selectAll(\"circle\")\n      .data(datum.blacksites).enter().append(\"circle\")\n      .attr(\"r\", d => Object(d3_array__WEBPACK_IMPORTED_MODULE_2__[\"max\"])([6, Math.pow(d.r, 0.6)]))\n      .attr(\"stroke\", \"rgba(255,255,255,0.25)\")\n      .attr(\"stroke-width\", 3)\n      .on(\"tap\", fleeMouse)\n      .on(\"touch\", fleeMouse)\n      .on(\"mouseover\", fleeMouse);\n\n    const ticked = function() {\n      node.attr(\"cx\", d => d.x).attr(\"cy\", d => d.y);\n    };\n\n    simulation\n      .nodes(datum.blacksites)\n      .on(\"tick\", ticked);\n  });\n});\n\nfunction fleeMouse(){\n  Object(d3_selection__WEBPACK_IMPORTED_MODULE_1__[\"select\"])(this).attr(\"transform\", `translate(${Object(d3_random__WEBPACK_IMPORTED_MODULE_3__[\"randomNormal\"])(0, 25)()},${Object(d3_random__WEBPACK_IMPORTED_MODULE_3__[\"randomNormal\"])(0, 25)()})`); \n}\n\n\n\n//# sourceURL=webpack://tornApart/./orr.js?");
+
+/***/ }),
+
+/***/ "./orr.json":
+/*!******************!*\
+  !*** ./orr.json ***!
+  \******************/
+/*! exports provided: type, features, default */
+/***/ (function(module) {
+
+eval("module.exports = {\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.005437,40.728432]},\"properties\":{\"dco\":\"VRK\",\"detloc\":\"VRK\",\"adp\":[146,110,126,55,23,19,32,8,7],\"count\":\"13\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-95.312044,29.95204]},\"properties\":{\"dco\":\"HOU\",\"detloc\":\"HOUHOLD\",\"count\":\"21\",\"adp\":[33,90,66,62,58,8,22,23,25,8,101,90]}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-97.71681,26.2002]},\"properties\":{\"dco\":\"HLG\",\"adp\":[197,130,106,130,83,46,46,36,28,26,33,37,22,23,4],\"detloc\":\"HLGHOLD\",\"count\":\"21\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-78.877725,42.887987]},\"properties\":{\"dco\":\"BUF\",\"adp\":[7],\"detloc\":\"BUFHOLD\",\"count\":\"1\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-75.165295,39.960012]},\"properties\":{\"dco\":\"PHI\",\"adp\":[53],\"detloc\":\"PHIHOLD\",\"count\":\"5\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-122.676087,45.515284]},\"properties\":{\"dco\":\"POO\",\"adp\":[5,10],\"detloc\":\"POOHOLD\",\"count\":\"4\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-98.391956,29.522121]},\"properties\":{\"dco\":\"SNA\",\"adp\":[106,71,44,31,18,55,134,53,134,34],\"detloc\":\"SNAHOLD\",\"count\":\"13\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-77.229338,38.880675]},\"properties\":{\"dco\":\"WAS\",\"adp\":[83,28,6],\"detloc\":\"WASHOLD\",\"count\":\"6\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-122.401714,37.796455]},\"properties\":{\"dco\":\"SFR\",\"adp\":[21,10],\"detloc\":\"SFRHOLD\",\"count\":\"7\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-96.87117,32.82514]},\"properties\":{\"dco\":\"DAL\",\"detloc\":\"DALHOLD\",\"adp\":[14],\"count\":\"6\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-80.153735,25.925868]},\"properties\":{\"dco\":\"MIA\",\"adp\":[104,64,366],\"detloc\":\"MIAHOLD\",\"count\":\"17\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-118.296675,33.750491]},\"properties\":{\"dco\":\"LOS\",\"detloc\":\"LOSHOLD\",\"adp\":[64,52,33,14,8],\"count\":\"7\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-83.009676,42.343346]},\"properties\":{\"dco\":\"DET\",\"adp\":[96,14],\"detloc\":\"DETHOLD\",\"count\":\"6\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-122.292496,47.492384]},\"properties\":{\"dco\":\"SEA\",\"adp\":[27,8,6,9,30,2],\"detloc\":\"SEAHOLD\",\"count\":\"9\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-112.073702,33.470625]},\"properties\":{\"dco\":\"PHO\",\"adp\":[211,144,105,111,86,77,56,22,9,7,14,44,40,3],\"detloc\":\"PHOHOLD\",\"count\":\"22\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-87.631811,41.896627]},\"properties\":{\"dco\":\"CHI\",\"adp\":[155,43,25,29,13,13,10,1,21,11,6],\"detloc\":\"CHIHOLD\",\"count\":\"16\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.369373,31.793411]},\"properties\":{\"dco\":\"EPC\",\"adp\":[70,66],\"detloc\":\"EPC\",\"count\":\"3\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-71.211469,42.48526]},\"properties\":{\"dco\":\"BOS\",\"adp\":[21,2],\"detloc\":\"BOSHOLD\",\"count\":\"2\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-117.162631,32.992938]},\"properties\":{\"dco\":\"SND\",\"adp\":[64],\"detloc\":\"SNDHOLD\",\"count\":\"2\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-76.683357,39.256226]},\"properties\":{\"dco\":\"BAL\",\"adp\":[18,5],\"detloc\":\"BALHOLD\",\"count\":\"4\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-75.714329,39.671492]},\"properties\":{\"dco\":\"NEW\",\"detloc\":\"NEWHOLD\",\"adp\":[14],\"count\":\"2\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.003227,40.714936]},\"properties\":{\"dco\":\"NYC\",\"detloc\":\"NYCHOLD\",\"count\":\"5\",\"adp\":[15,6,7,6]}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.369373,31.793411]},\"properties\":{\"dco\":\"ELP\",\"detloc\":\"ELPHOLD\",\"count\":\"4\",\"adp\":[41,42]}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-79.99479,40.435595]},\"properties\":{\"dco\":\"PIT\",\"adp\":[15],\"detloc\":\"ALLEGPA\",\"count\":\"1\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-94.389464,35.018129]},\"properties\":{\"dco\":\"HAR\",\"detloc\":\"HARHOLD\",\"adp\":[3],\"count\":\"1\"}}]};\n\n//# sourceURL=webpack://tornApart/./orr.json?");
+
+/***/ }),
+
 /***/ "./points-of-entry.geo.json":
 /*!**********************************!*\
   !*** ./points-of-entry.geo.json ***!
@@ -4675,7 +5190,7 @@ eval("module.exports = {\"type\":\"FeatureCollection\",\"features\":[{\"type\":\
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"jquery\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _update_texts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./update-texts */ \"./update-texts.js\");\n/* harmony import */ var _clinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clinks */ \"./clinks.js\");\n/* harmony import */ var _trap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./trap */ \"./trap.js\");\n/* harmony import */ var _the_eye__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./the-eye */ \"./the-eye.js\");\n\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (viz, map){\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".viz-hide\").hide();\n  switch (viz) {\n  case \"the-trap\":\n    Object(_trap__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(map);\n    break;\n  case \"the-eye\":\n    Object(_the_eye__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(map);\n    break;\n  /*\n  case \"charts\":\n    $(\"#d3-banned-svg\").hide();\n    $(\"#d3-dots-svg\").show();\n    map.dragging.enable();\n    layers[1].addTo(map);\n    map.removeLayer(layers[0]);\n    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n    buildCharts();\n    $(\"#charts-div\").show();\n    break;\n   */\n  case \"clinks\":\n    Object(_clinks__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(map);\n    break;\n    /*\n  case \"orr\":\n    $(\"#d3-banned-svg\").hide();\n    $(\"#d3-dots-svg\").hide();\n    $(\"#orr-div\").show();\n    $(\"#orr-legend\").show();\n    map.removeLayer(layers[1]);\n    map.removeLayer(layers[0]);\n    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n    map.dragging.disable();\n    buildORR();\n    break;\n  case \"banned\":\n    $(\"#drawing-dialog\").show();\n    $(\"#d3-dots-svg\").hide();\n    map.removeLayer(layers[1]);\n    map.removeLayer(layers[0]);\n    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n    map.dragging.disable();\n    $(\"#d3-banned-svg\").show();\n    buildBanned();\n   */\n  }\n  Object(_update_texts__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\n\n\n//# sourceURL=webpack://tornApart/./show-viz.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"jquery\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _update_texts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./update-texts */ \"./update-texts.js\");\n/* harmony import */ var _clinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clinks */ \"./clinks.js\");\n/* harmony import */ var _trap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./trap */ \"./trap.js\");\n/* harmony import */ var _the_eye__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./the-eye */ \"./the-eye.js\");\n/* harmony import */ var _orr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./orr */ \"./orr.js\");\n\n\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (viz, map){\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".viz-hide\").hide();\n  switch (viz) {\n  case \"the-trap\":\n    Object(_trap__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(map);\n    break;\n  case \"the-eye\":\n    Object(_the_eye__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(map);\n    break;\n  /*\n  case \"charts\":\n    $(\"#d3-banned-svg\").hide();\n    $(\"#d3-dots-svg\").show();\n    map.dragging.enable();\n    layers[1].addTo(map);\n    map.removeLayer(layers[0]);\n    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n    buildCharts();\n    $(\"#charts-div\").show();\n    break;\n   */\n  case \"clinks\":\n    Object(_clinks__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(map);\n    break;\n  case \"orr\":\n    Object(_orr__WEBPACK_IMPORTED_MODULE_5__[\"default\"])(map);\n    break;\n    /*\n  case \"banned\":\n    $(\"#drawing-dialog\").show();\n    $(\"#d3-dots-svg\").hide();\n    map.removeLayer(layers[1]);\n    map.removeLayer(layers[0]);\n    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);\n    map.dragging.disable();\n    $(\"#d3-banned-svg\").show();\n    buildBanned();\n   */\n  }\n  Object(_update_texts__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\n\n\n//# sourceURL=webpack://tornApart/./show-viz.js?");
 
 /***/ }),
 
