@@ -4,12 +4,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "prebuild": "rimraf dist docs/assets/js/",
+    "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "build:umd": "webpack",
     "lint": "eslint src",
-    "start": "node app",
     "validate": "npm-run-all --parallel lint build"
   },
   "dependencies": {
@@ -30,6 +29,7 @@
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
     "exports-loader": "^0.7.0",
     "ghooks": "^2.0.4",
     "npm-run-all": "^4.1.3",

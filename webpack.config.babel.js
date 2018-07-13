@@ -1,6 +1,8 @@
-import { join } from "path";
+import { resolve } from "path";
+import CleanWebpackPlugin from "clean-webpack-plugin";
 
-const context = join(__dirname, "src");
+const context = resolve(__dirname, "src");
+const out = resolve(__dirname, "docs", "assets", "js");
 
 export default {
   mode: "development",
@@ -13,7 +15,7 @@ export default {
   },
   output: {
     filename: "[name].bundle.js",
-    path: join(__dirname, "docs", "assets", "js"),
+    path: out,
     libraryTarget: "umd",
     library: "tornApart",
   },
@@ -26,4 +28,7 @@ export default {
     jquery: "jQuery",
     leaflet: "L"
   },
+  plugins: [
+    new CleanWebpackPlugin([out]),
+  ],
 };
