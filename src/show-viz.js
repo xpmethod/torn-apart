@@ -2,6 +2,7 @@ import $ from "jquery";
 import updateTexts from "./update-texts";
 import clinks from "./clinks";
 import trap from "./trap";
+import theEye from "./the-eye";
 
 export default function (viz, map){
   $(".viz-hide").hide();
@@ -9,15 +10,10 @@ export default function (viz, map){
   case "the-trap":
     trap(map);
     break;
-  /*
   case "the-eye":
-    $("#d3-banned-svg").hide();
-    $("#d3-dots-svg").hide();
-    map.dragging.enable();
-    map.removeLayer(layers[1]);
-    map.removeLayer(layers[0]);
-    buildTheEye();
+    theEye(map);
     break;
+  /*
   case "charts":
     $("#d3-banned-svg").hide();
     $("#d3-dots-svg").show();
