@@ -21,8 +21,9 @@
 <script src="{{ site.baseurl }}/assets/js/i18n.bundle.js"></script>
 {% if page.mapid == "mapdiv" %}
   <script src="{{ site.baseurl }}/assets/js/index.bundle.js"></script>
-{% endif %}
-{% if page.url contains "/textures" %}
+{% elsif page.mapid == "visualizations-mapdiv" %}
+  <script src="{{ site.baseurl }}/assets/js/visualizations.bundle.js"></script>
+{% elsif page.url contains "/textures" %}
   <script src="{{ site.baseurl }}/assets/js/textures.bundle.js"></script>
 {% endif %}
 {% if page.active %}
