@@ -5,10 +5,8 @@
 //
 // which provides the config object, so the apiKey can be gotten via:
 //
-// config().newsApiKey
+// config.newsApiKey
 
-export default function() {
-  return {
-    newsApiKey: "SOME STRING FROM newsapi.org"
-  };
+export default {
+  newsApiKey: "SOME STRING FROM newsapi.org"
 };

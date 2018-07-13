@@ -8,7 +8,7 @@ import path from "path";
 
 export default function(){
   // fire up the newsapi
-  const newsapi = new NewsAPI(config().newsApiKey);
+  const newsapi = new NewsAPI(config.newsApiKey);
   // load in the news sources synchronously so we don't have to wait below.
   const sourcesByState = JSON.parse(readFileSync(path.join("data","news-sources-by-state.json")));
   // Read in the news-sniffing csv
