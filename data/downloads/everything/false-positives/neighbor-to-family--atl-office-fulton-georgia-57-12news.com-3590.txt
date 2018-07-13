@@ -1,0 +1,122 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KPNX.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KPNX.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Phoenix Weather Summary: 98 degrees
+
+Rain and dust threaten the Phoenix area again from the southeast
+
+Learn More
+
+4 Weather Alerts
+
+Learn More
+
+ATLANTA -- A body found late Tuesday night in the Chattahoochee River is that of a CDC scientist who went missing more than a month ago, officials said on Thursday.
+
+
+Timothy Cunningham, a 35-year-old worker at the Centers for Disease Control and Prevention, disappeared on Feb. 12 after leaving work early at the CDC office in Chamblee.
+
+On Tuesday night, fishermen contacted authorities after discovering a body in the Chattahoochee River near Donald L. Hollowell, about 400 yards upstream from the bridge, and on the Atlanta side of the river. Officials said it was just east of the Atlanta Public Safety Annex.
+
+
+“The river’s not that far from his home, and we do know that he was a jogger and he was wearing his favorite jogging shoes at the time that he was found," said Atlanta Police Major Michael O’Connor.
+
+
+►  Officials release conflicting details about missing CDC scientist
+
+
+► Missing CDC scientist's father: There were concerning messages before disappearance
+
+The body was decomposing but rescuers could not tell how long it had been in the river.
+
+On Thursday afternoon, Atlanta police confirmed the body had been positively identified as Cunningham, and said it appeared he had drowned. There were no signs of foul play. 
+
+
+“We have no indication at this point that there is any foul play, and so far nobody had indicated to us that there was any situation in the doctor’s life that might have resulted in foul play being a contributing factor," O'Connor said.
+
+
+►RELATED: CDC releases statement on death of missing scientist Tim Cunningham
+
+
+The 35-year-old had reportedly worked as a commander in the U.S. Public Health Service and had responded to the Ebola virus and the Zika virus outbreaks.  He held two degrees from Harvard, and was a graduate of Morehouse College. He was once named to the Atlanta Business Chronicle's "40 under 40" list.
+
+
+Cunningham's parents, who live in Waldorf, Md., said their son kept in constant contact with his family, and talked with his sister nearly every day. She last heard from him around 7 a.m. on the day he vanished. 
+
+
+
+
+After Cunningham didn't answer calls or text, family members became concerned and had someone check his home. It was empty, but two windows were open, which family members said was unusual. 
+
+
+Cunningham's parents drove overnight from Maryland to Atlanta. Inside Cunningham's home, the parents said they found his phone, wallet, keys, and car undisturbed. His dog was also at the house.
+
+
+►RELATED: VERIFY: Here's why the missing CDC scientist is not a flu vaccine whistle blower
+
+
+Police and the CDC released conflicting information about Cunningham in the days after his disappearance. 
+
+
+In a news conference on Feb. 27, Atlanta police said that Cunningham had been passed over for a promotion the week before he disappeared and that he'd had a discussion about that on the morning he was last seen.
+
+
+"That meeting was to explain a promotion that he did not receive to branch manager. He had been informed the previous Monday that he was not getting the promotion but the explanation occurred on the morning of the twelfth," the officer said.
+
+
+
+
+
+However, nearly two weeks later, the CDC said that information was untrue.
+
+
+In a statement on March 12, the agency said:
+
+
+"In fact, he received an early promotion/exceptional proficiency promotion to Commander effective July 1, 2017, in recognition of his exemplary performance in the U.S. Public Health Service (USPHS)."
+
+
+The agency also closed with a message to Cunningham directly.
+
+
+"If Tim reads this message, we hope you come home soon," the statement read. "If anyone reading this has information about the whereabouts of Commander Cunningham, please come forward."
+
+
+►RELATED: Missing CDC scientist told neighbor to erase phone number before disappearance
+
+
+11Alive reached out to Atlanta Police about the CDC's statements and the agency said they stood behind the information they released.
+
+
+"Our information came directly from the CDC.  Any further questions about Dr. Cunningham’s employment, or this statement issued by the CDC today, would need to be answered by the CDC," the statement read.
+
+On Thursday, Cunningham's family released the following statement to 11Alive:
+
+
+"We appreciate all the time, attention and professionalism you have contributed as we searched for our beloved son and brother, Timothy Cunningham. 
+
+
+We sincerely thank all of you for the support and kindness you have shown our family during this difficult time. 
+
+
+We are processing this incomprehensible loss and request time and space to grieve. 
+
+
+Thank you, 
+
+
+Tia, Terrell, Tiara and Anterio"
+
+

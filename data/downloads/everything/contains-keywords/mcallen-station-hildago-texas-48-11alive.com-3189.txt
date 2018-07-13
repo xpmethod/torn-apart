@@ -1,0 +1,70 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Atlanta Weather Summary: 93 degrees
+
+McALLEN, Texas – Celebrities and everyday Americans turned immigration activists have launched a 24-day hunger strike aimed at pressuring the Trump administration to end its "zero tolerance" immigration policy. 
+
+
+Organized in part by the Robert F. Kennedy Human Rights organization, the protest began at noon Saturday in front of a symbolic loaf of bread a few blocks from the federal courthouse in McAllen, the busiest station for detaining migrants trying to enter the United States from Mexico. 
+
+The McAllen station has been at the epicenter of protest — and drawn worldwide condemnation — due to it being the largest detention center for migrant children separated from their parents.
+
+
+“What’s going on today is just wrong,” said Benito Lopez, a hunger strike participant and member of the Brown Berets, a group founded in the 1960s to help protect the rights of migrant farm workers. 
+
+
+The hunger strike will last 24 days to mark the estimated 2,400 children forcibly separated from their parents while crossing the border. Participants will each fast for 24 hours before passing off to someone else. Organizers asked that anyone participating donate money or food to border organizations like La Union del Pueblo Entero. 
+
+Hunger strike participants say they were heartened that worldwide outage prompted President Donald Trump on Wednesday to end his policy of forcibly separating families. But they said that’s not enough, because thousands of kids have already been stripped from their parents' arms and detained separately.
+
+The Trump administration has not yet explained how it plans to reunite those children with their parents, some of whom have been deported to their homes in Honduras or Guatemala. 
+
+
+"We will not rest until the very last one of these children is reunited with their families," said Efrén Olivares of the Texas Civil Rights Project. 
+
+
+Among those participating in the hunger strike: 
+
+More: Texas border chaos: Courts, families, government collide in zero tolerance debacle
+
+
+More: Trump berates Democrats as he begs for their votes on immigration bill
+
+
+More: Trump administration's 'zero tolerance' border prosecutions led to time served, $10 fees
+
+
+Kennedy, who left federal court Friday morning aghast at the treatment of detained migrants charged with a misdemeanor, said most Americans value community, compassion and tolerance. 
+
+
+"Today, we have a president who has a different idea of what it means to be an American," Kennedy said. 
+
+
+Trump says his zero tolerance policy is needed to protect the U.S. from criminals and other enemies crossing the southern border. 
+
+
+In McAllen and elsewhere along the border, the focus now has shifted away from the separation of families and toward the administration’s apparent policy of turning away asylum-seekers. 
+
+
+Under international law, the United States is supposed to accept and give a hearing to anyone who claims asylum after reaching U.S. soil. But Border Patrol agents have been walking onto bridges across the Rio Grande River and telling at least some asylum seekers that they cannot be accommodated. 
+
+This has prompted some asylum seekers to cross illegally elsewhere, where they are detained by the Border Patrol and housed in warehouse-like detention centers before being prosecuted for illegal entry. 
+
+
+"It’s Kafka-esque," Kennedy said. "We have to put a stop to it."
+
+
+Follow Trevor Hughes on Twitter: @TrevorHughes  

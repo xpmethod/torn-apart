@@ -1,0 +1,242 @@
+Returns as of 7/11/2018
+
+Founded in 1993 by brothers Tom and David Gardner, The Motley Fool helps millions of people attain financial freedom through our website, podcasts, books, newspaper column, radio show, and premium investing services.
+
+Returns as of 7/11/2018
+
+In this MarketFoolery podcast, host Chris Hill and Motley Fool Asset Management's Bill Barker talk about a pair of downbeat stories in the world of technology today. First, they dig into why Oracle's (NYSE:ORCL) earnings beat didn't stop investors from punishing its stock: Short answer, as is common, is that the market was focused on the future and the outlook missed analysts' expectations.
+
+But the more widely discussed news was about the death of a pedestrian who was hit by one of Uber's self-driving test vehicles. The whole test program is on hold while the accident is being investigated, of course, and this first death of its kind will have ripples across the space. But the Fools don't necessarily see it as changing the path toward self-driving cars. 
+
+A full transcript follows the video.
+
+
+
+
+
+
+
+This video was recorded on March 20, 2018.
+
+Chris Hill: It's Tuesday, March 20th. Welcome to MarketFoolery. I'm Chris Hill. Joining me in studio, from Motley Fool Asset Management, Bill Barker. Thanks for being here!
+
+
+Bill Barker: Thanks for having me!
+
+Hill: We have some pretty big news in the world of autonomous driving that we will get to. We have to revisit, because the last time you were in the studio, one of the things we talked about was you loading me up, not unlike a pack mule, with lots of Motley Fool Asset Management swag to take down to Austin, Texas, and boy was that a big hit. We'll get to that. 
+
+But we have to start with Oracle. Third quarter profits for Oracle came in higher than expected, I would say significantly higher than expected. But the forecast for Oracle's current quarter was lower than expected, and shares of Oracle are down about 9% this morning. How much lower than expected are we talking about here? This seems like a pretty big dip, considering the numbers they just put up in Q3.
+
+Barker: Yeah, the numbers in Q3 weren't bad. But it's just not compounding. The company has really not grown in the past five or six years. Doing about $37 million a year in revenue, same number it had back in 2012.
+
+
+Hill: Wait. $37 billion. Did you say $37 million?
+
+Barker: I may have. If so, I'm thankful that you've corrected me. [laughs] 
+
+Hill: I was like, I sure hope they're doing more than $37 million in revenue.
+
+Barker: [laughs] Anyway. They're not growing a lot. The business is moving toward the cloud, and it's moving faster toward the cloud in the case of Oracle's competitors than Oracle itself is pulling off right now. That's what the concern is about, even though I think the software-as-a-service revenues are up 33% over the year. That's just given what they're guiding to. They're decreasing growth coming from that part of the business.
+
+
+Hill: We've seen this story play out with other tech giants before where, for example, there was a point in time when Google, obviously, was making money hand-over-fist in search, and then the money they were making off of mobile search was lower, and as more people were doing mobile searches, they had to make the transition. We've seen this with IBM. We've seen this with plenty of tech companies, and the story goes something like this, "We have a goose that's laying golden eggs, but then, times change, and we have to transition and find another goose." When you look at Oracle's stock down 9-10% this morning and you see the transitions they're trying to make, do you look at this as a buying opportunity? Or do you want to see a couple more quarters of growth in things like software-as-a-service before you think this is actually a cheap enough stock?
+
+Barker: Well, it's not an expensive stock, but it's probably fairly priced, given the inability to show top line growth over the last half-decade, now. What they're able to do is, as things transition, they're able to maintain that level of sales. The profitability is not getting any better, and they're buying back shares. They have knocked off about a quarter, nearly, of their shares over that time period. Earnings per share are up $2.25, up from $1.70 five years ago. But, that's not the kind of growth that I think other software investors are looking at. Microsoft has a bigger cloud presence, and they're growing faster than Oracle, so it's fairly easy to compare those two and say that investors are rightfully more enthusiastic in terms of the multiple they're willing to pay for Microsoft than they are for Oracle. Even though it is bigger, it's growing faster in that area.
+
+Hill: By the way, I'll mention for anyone who tuned in today hoping we were going to talk in depth about Facebook, we're not going to do that, despite the fact that now Facebook is down about 14% over the last two days. I'm positive we're going to cover this on Motley Fool Money this weekend.
+
+Barker: I was assuming you were going to say it was because I was on, and therefore any discussion in-depth was out of the question.
+
+Hill: I'll let longtime listeners draw their own conclusions on that one.
+
+Barker: Well, that's just what my fear was. After the introduction, where you were just effusive about Harry's, couldn't have been more excited to talk about the free Harry's products--
+
+Hill: I love me some Harry's.
+
+Barker: --and then you introduced me, and I was just kind of an afterthought. Understandably. I'm no Harry's.
+
+Hill: [laughs] Again, longtime listeners understand, this is the drop in enthusiasm in my voice. Let's move on to Uber, which has suspended its self-driving car initiative that it had been testing after an autonomous Uber car -- which by the way, had an emergency backup driver behind the wheel -- this vehicle struck and killed a woman on the street in Tempe, Arizona. Uber had been testing this initiative in Tempe, in Pittsburgh, in San Francisco, in Toronto. All of those have been suspended.
+
+I think, obviously, the spotlight is on Uber, and rightly so. But I think this is one of those stories that affects absolutely every company that is looking to get into the autonomous driving space.
+
+Barker: Yeah, and it'll be a big story for today. There's a fatality. But over time, people will grow accustomed to what the potential rewards are for getting the technology right. There are about 100 fatalities a day on the road in the U.S. This is the first autonomous vehicle death, and I'm sure it won't be the last. I'm sure, ultimately, there will be thousands, because you're talking about a country where we are used to and accept some 30,000-35,000 deaths a year through the mistakes of human drivers. 
+
+And that's actually a much better number than it used to be. We have gotten better, car makers have gotten better, drivers have gotten better about not drinking and driving, and things are safer. And yet, still, 35,000 deaths a year. And I think we all know the dangers when we drive. This seems to be scary because there's no driver. As you said, there was a driver behind the wheel, on top of the autonomous system. So, could this have been an accident that would have occurred if the driver had been fully engaged? I don't know. I guess they're going to investigate that and report back. I'm sure the autonomous vehicle community is hoping that this was an accident that's not completely the responsibility of the system, but just an accident which happens because of pedestrian mistake. I don't know. That's what will come out eventually.
+
+Hill: I'm glad you mentioned the annual stats because that's important context to have. And yet -- I'll just speak for myself. I think this is an unfair expectation on my part, but I don't think I'm alone in this, that fairly or unfairly, and it's probably unfairly, my expectation is that, if we're going to have autonomous vehicles, my expectation is that they'd be perfect. And I realize that's not a reasonable one, but it's far more an emotional one than an intellectual one.
+
+So, we can look at a future 10 years from now, 20 years from now where the number of deaths on an annual basis from autonomous vehicles is in the low hundreds, as opposed to in the tens of thousands that we currently have. And yet, it still sort of feels like, "Oh, I don't know ... " Maybe it's because we're in the early part of this process, and not 20-50 years in the future, when of course we'll to look back -- in the same way now that we look back on driving in the 1950s and the 1960s and we think, it's insane that there weren't seatbelts and we didn't have seats for kids, and drinking and driving was just like, "Yeah, sure, of course we're drinking and driving."
+
+Barker: I think, it would be nice if this was the kind of technology that could come out and be perfect from the beginning. But it's not going to be. Air travel, it would be great if there were zero fatalities from that, but there never have been. The stats get better and better over time, and that's what one should expect. If you can step back from the tragedy of a single death, there will be additional tragedies. Hopefully there will be significantly fewer than the number of tragedies we are used to accepting from the current system, which is already much better than it used to be. Things get better and better. This will be part, one would hope, of improvement, but it'll never be perfect.
+
+Hill: Are you surprised at that list of cities where this is being tested? It's Tempe, Pittsburgh, San Francisco and Toronto. Really, what I'm surprised by is Pittsburgh, San Francisco and Toronto. I just assumed that, "We're going to test this not in a closed course, we're going to test autonomous vehicles in cities. Let's start with smaller cities where the weather isn't really an issue." So, the fact that it's being tested in places like Pittsburgh and Toronto, in terms of winter weather, San Francisco, which is an insane place to drive no matter what the weather is ... I don't know, I'm just surprised by that.
+
+Barker: Hopefully they're not testing the treacherous weather conditions as part of this at the moment. Maybe they are. But, you'd certainly want to be doing that on a closed course, because that's just one more variable. You don't need to test multiple variables at the same time this early in the process. You can be testing in Pittsburgh and just not test it on days when the weather, even if it's just raining, you can pull that day as a day of testing. You're not testing with no driver behind the wheel, I think, I don't know. I haven't been up to date on all the different--
+
+Hill: That's ultimately the goal, though.
+
+Barker: That's ultimately the goal, but you don't test that part until you have a lot of data, and I don't know that municipalities are going to be approving such tests for a while.
+
+Hill: It does makes sense to me to test in Pittsburgh at some point, not just because of different conditions in Pittsburgh in terms of weather, but also because it's a good test for the AI in terms of the names of the roads, because Pittsburgh is one of those rare cities where, I'm driving straight on Barker Avenue, I turn right, and somehow I'm still on Barker Avenue. I don't know who was in charge of naming streets in Pittsburgh, but that phenomenon exists and it's a little crazy to me.
+
+Barker: I was in a focus group once, agreed to show up for a focus group because it was like $100 an hour.
+
+Hill: Isn't that why we all show up to focus groups? [laughs] 
+
+Barker: And, I don't know, there was free coffee or something. It was from U.S. Air, back in the day. And one of the things they did is, it was for the rewards program, and they had a couple of brochures to highlight why you should join their rewards program. And it had a list of the exciting cities that you could go to with all the miles that you would accrue from their promotional sales. It was sort of, London and Rio de Janeiro and San Francisco and Pittsburgh. So, when we were going around the room and asked for our opinions about this, I said, "Nothing against Pittsburgh, I hear it's a great city, it just kind of stands out in this list to me. And I understand that you're U.S. Air, and Pittsburgh is one of your big hubs."
+
+Hill: That's a hub, yeah.
+
+Barker: It was at the time. But, still, I don't know if that's what I would go with if you're trying to entice people. Again, nothing against Pittsburgh. I'm from the great Commonwealth of Pennsylvania. But, that's what I think of when I think of Pittsburgh in a list of cities.
+
+Hill: Pittsburgh is a great city, although, you're right, it's never a situation where the International Olympic Committee comes out and says, "We have our finalists for the 2028 Olympic Summer Games. It's London, Rio--"
+
+Barker: "And Pittsburgh."
+
+Hill: "--and Pittsburgh." [laughs] 
+
+Barker: Maybe it should be. As I say, I haven't been there enough. Maybe I should have used my miles at some point to visit the great city of Pittsburgh. You've been there. You love Pittsburgh.
+
+Hill: I haven't been there recently. No, it's a very fun city. But, one of the things that's interesting to me about Pittsburgh, and there are certainly other cities like this -- and this, to me, is one more reason to go to Pittsburgh -- is, you can be in downtown Pittsburgh, in the middle of downtown Pittsburgh, and assuming there's not significant traffic, you can drive 20 minutes in any direction and you are in the country, you are in pure farmland. But, just in terms of being in a fun, medium-sized city, Pittsburgh is great.
+
+Barker: Do they have any Wawa's there?
+
+Hill: I mean, isn't that the law?
+
+Barker: It's probably Sheetz country.
+
+Hill: Oh, yeah, I just assumed -- wait, what, it doesn't spread past Harrisburg?
+
+Barker: It's more of a Southeastern Pennsylvania thing, sort of Delaware County.
+
+Hill: You're a tennis guy. Indian Wells was in the tennis news over the weekend because Roger Federer was playing the finals. Remind me the guy who beat him?
+
+Barker: Del Potro.
+
+Hill: Del Potro. But, we were talking, not only have you been to Indian Wells, you've spoken there.
+
+Barker: Well, we were talking about this in relation to Oracle, because Larry Ellison is the big sponsor for the Indian Wells tournament. And yes, it is true, back in 2001, I believe, I spoke because The Motley Fool, at the time, I was writing and producing content for the website, we had a partnership with Newsweek, which is a little publication that not many people remember.
+
+Hill: For younger people listening, Newsweek used to be a weekly magazine that would get delivered to your house, and it would have the news of the week.
+
+Barker: And it was one of the main, most respected providers of news and opinion and editorial content and even breaking news. So, The Motley Fool had, I think three times, we produced content for the publication. As a result of that, I went out and spoke on a panel out there back in the early days of the beginnings of the .com bubble bursting.
+
+Hill: And you called it, right? You got up in front of those people and said, "People, hold on, because it's about to get ugly out there."
+
+Barker: [laughs] I can't remember what I said. Motley Fool had already gone through one round of layoffs at that point, so we were well aware of the problems in the industry. We were not well aware, yet, of how much trouble was going to befall Newsweek. Newsweek stopped printing for a while, and it came back recently.
+
+Hill: It did, yes. I was trying to figure out if they still actually produce the magazine. It appears that they do, but for a while they had stopped that.
+
+Barker: They had stopped, and they were just combined with The Daily Beast or something.
+
+Hill: I think so. It's one of those news media stories that, I know in my heart that if somehow Tronc were involved in Newsweek, I would have a much firmer grasp on Newsweek's ownership structure. 
+
+Before we wrap up, I have to mention what a big hit the Motley Fool Asset Management swag was last week. We had a fantastic listener meet up in Austin, Texas. I would say we had just north of two dozen listeners appearing, which was great. We got a chance to visit with people. And MFAM swag went like hotcakes. People were loving it. So, thank you for that.
+
+Barker: I heard it was bordering on three dozen.
+
+Hill: Sources close to Bill Barker said it was bordering on three dozen?
+
+Barker: Maybe I'm rounding up from what I heard.
+
+Hill: Okay. 
+
+Barker: It was packed. 
+
+Hill: It was packed.
+
+Barker: What kind of information did you get out of this one, when people talked to you?
+
+Hill: A lot of negative comments about you personally. While there was appreciation for the swag, there was a lot of, "Love the swag, is there a way to get less of Barker on the show?"
+
+Barker: Consistent with the emails you receive and the online comments and the Twitter and everything else?
+
+Hill: Pretty much. No, no, actually, there was much praise for you, which was baffling to me.
+
+Barker: Yeah. Did you correct them?
+
+Hill: You know, I tried, but at some point that becomes rude.
+
+Barker: "I get Barker on when there's nobody else available." You didn't want to reveal that there are just days when nobody else is available.
+
+Hill: Right. It's like, we could have no show, or we could do this.
+
+Barker: Did you discuss the possibilities, the pros and cons, of no show? [laughs] 
+
+Hill: How would you feel if we cut back to three days a week instead of four? I'll tell you one thing. Next week, I'm going to be on spring break, Mac Greer is going to be on spring break, so I'm going to be taping some stuff to run next week, so I'll be talking a little bit more in depth about the meet up that we had in Austin. It was really great. I will say, one takeaway I had was, it never fails to be interesting, exciting and inspiring to me, talking to people who are at various stages in their life in investing. Some people are very experienced, and they're very excited to talk about different styles of investing. And some people are just starting out. There were some younger people who were there who were just getting into either studying or just beginning their careers in finance. It's really great. It's really great, any time you have that. Particularly at a place like Guero's, which has great food and some of those nice beverages that include alcohol.
+
+Barker: What of the swag would you say went over biggest?
+
+Hill: All of it. All of it went quickly. Of the swag that got tweeted out, in terms of photos, there was at least one person who tweeted out a photo of the Motley Fool Funds-branded lip balm. And there were a couple of questions for me, like, "Hey, do they sell this stuff?" And I just said, "I don't know, but go to foolfunds.com and find out."
+
+Barker: We really mostly just sell mutual funds. [laughs] It's not really a lip balm business that we're in.
+
+Hill: Shouldn't the margins on lip balm be great? Not unlike the margins on $27 candles at Bath &amp; Body Works?
+
+Barker: The margins for us are zero on lip balm, because we don't sell that.
+
+Hill: I know you don't.
+
+Barker: We don't sell that, or t-shirts, or hats, or whatever else you may have had. Pins.
+
+Hill: What about this. Anyone who is a shareholder of an individual stock or mutual fund knows, you get the annual report, you get some sort of annual report. What if, included in the Motley Fool Funds annual report, you also send out some lip balm? Or some of those Post-It note things? Those were a big hit.
+
+Barker: I don't know. "I don't know" is the answer. I think in general, we would like to move toward more of the looking more like everybody else in some ways, than, "Here's some lip balm to confuse you with your annual report."
+
+Hill: What do you do with an annual report that shows up in the mail?
+
+Barker: What would you do if lip balm were included in your annual report from Chevron or whoever?
+
+Hill: If it was Chevron, which I don't own shares of, I would find it suspect.
+
+Barker: But if it were a mutual fund? You have an S&amp;P 500 mutual fund somewhere in there, somewhere in the retirement account, right? If they threw some lip balm at you?
+
+Hill: Let put it this way. There was a point in time, for a good stretch of time, that when you were a Starbucks shareholder and you got the annual report, you really looked forward to it, not just because it was pretty but because it included some form of gift card from Starbucks. Like, "Here's $5 on a gift card," or $3, or whatever it was. It was just that little extra thing.
+
+Barker: Yeah.
+
+Hill: And at some point, they stopped doing it.
+
+Barker: Maybe a gift card for $3 worth of our mutual fund.
+
+Hill: Hey, man, that idea? Take it, run with it, run it by your boss, Denise Coursey, and see what she says. I'm just saying, people, instead of just taking the annual report and tossing in the garbage or putting it in the recycling, they'll be like, "Hey, look, lip balm!"
+
+Barker: Where are you going for this big vacation of yours?
+
+Hill: I'm going to the great Commonwealth of Pennsylvania.
+
+Barker: Nice.
+
+Hill: Undisclosed location, but hopefully there's going to be a Wawa on the way, and I will be the only one in the vehicle who will be excited about it.
+
+Barker: That's a vacation right there.
+
+Hill: It is. I actually had a doctor's appointment recently in downtown D.C., and it was right next to the Wawa down there.
+
+Barker: Could you get in?
+
+Hill: Barely. It was hopping in there.
+
+Barker: It was packed.
+
+Hill: It was packed, yeah. They're doing a hopping business. They need to open more.
+
+Barker: They do.
+
+Hill: Come to Alexandria, for crying out loud, Wawa. What are you doing? Alright, we've long since passed the point of being useful.
+
+Barker: Yeah. Sorry.
+
+Hill: Bill Barker, Motley Fool Asset Management. You can go to foolfunds.com. Maybe they sell lip balm. Maybe they include it in their annual reports. I don't know. I'm just speculating. Go to foolfunds.com and find out.
+
+Barker: Our lip balm, it's no Harry's. It's not Harry's.
+
+Hill: That's true. Thanks for being here!
+
+Barker: Thank you!
+
+Hill: As always, people on the program may have interests in the stocks they talk about, and The Motley Fool may have formal recommendations for or against, so don't buy or sell stocks based solely on what you hear. That's going to do it for this edition of MarketFoolery. The show is mixed by Dan Boyd. I'm Chris Hill. Thanks for listening! We'll see you tomorrow. 
+
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool's board of directors. Teresa Kersten is an employee of LinkedIn and is a member of The Motley Fool's board of directors. LinkedIn is owned by Microsoft. Bill Barker owns shares of Alphabet (C shares). Chris Hill owns shares of Starbucks. The Motley Fool owns shares of and recommends Alphabet (A shares), Alphabet (C shares), Facebook, Starbucks, and Twitter. The Motley Fool owns shares of Oracle. The Motley Fool is short shares of IBM and has the following options: short June 2018 $52 calls on Oracle and long January 2020 $30 calls on Oracle. The Motley Fool has a disclosure policy.
+
+Full-time host of the Motley Fool Money radio show, MarketFoolery podcast, and other things. Part-time connoisseur of movies, basketball &amp; fine bourbon.

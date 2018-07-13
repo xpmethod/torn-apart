@@ -1,0 +1,32 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 80 degrees
+
+LAKEWOOD, NY -- Three individuals from Erie, Pennsylvania were arrested Tuesday after allegedly stealing $2,404 worth of Hover Boards and other merchandise from the Lakewood Walmart.
+
+
+Sheena Beebe, 29, Terrell Gavin, 25, and Da'Shara Carson, 24, all of Erie, PA, have been charged with 3rd grand larceny, 4th degree grand larceny, criminal possession of stolen property in the 4th degree, and false impersonation.
+
+Lakewood-Busti Police were called to assist Walmart employees around 6:30 p.m. Tuesday, after the three subjects allegedly stole from the store.
+
+
+Police located them nearby the Walmart, where they were found to have the Hover Boards and other merchandise on them.
+
+
+Police are looking into whether these suspects are connected to Hover Board theft on Christmas Eve.
+
+
+They were arraigned to the Town of Busti Court, where they were remanded to the Chautauqua County Jail.

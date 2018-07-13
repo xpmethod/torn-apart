@@ -6,7 +6,7 @@ var parse = require('csv-parse');
 var shell = require('shelljs'); // I seem to need this in order to construct intermediate directories if they don't already exist in the final step where I write to the directory structure. fs-extras and the standard mkdir can do the final directory, but not intermediate ones, or so it seems. Or maybe I implemented them wrong.
 var fs = require('fs');
 
-//reads in iceFacs.csv (must be in same folder), and puts into a nested array.This is so we can associate facility names with their identifiers.
+//reads in csv (must be in data folder), and puts into a nested array.This is so we can associate facility names with their identifiers.
 fs.readFile('../data/facilities-for-news-sniffing.csv', function(err, data) {
 	if (err) {
 		return console.log(err);
@@ -17,7 +17,7 @@ fs.readFile('../data/facilities-for-news-sniffing.csv', function(err, data) {
 	
 	var i;
 	var DETLOC = "";
-	for (i=200;i<output.length; i++) //change this to first 200 detention centres to avoid rate-limiting
+	for (i=1;i<output.length; i++) //change this to first 200 detention centres to avoid rate-limiting
 	{
 		
 		DETLOC = output[i][0];

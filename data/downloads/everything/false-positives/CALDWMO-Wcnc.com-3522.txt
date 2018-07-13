@@ -1,0 +1,29 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WCNC.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WCNC.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Charlotte Weather Summary: 93 degrees
+
+LENOIR, N.C. -- A middle school teacher was arrested Tuesday and is facing three felony charges of taking indecent liberties with a child.
+
+
+According to the Lenoir Police Department, an investigation began for "physical assault by a teacher" at William Lenoir Middle School on November 9.
+
+
+After a multi-week investigation, the case was heard by the Grand Jury of Caldwell County Monday. Following the verdict, 29-year-old Justin Biggs was arrested and charged. He was placed in the Caldwell County Detention Center under a $150,000 secure bond for this agency's charges.
+
+"Due to the sensitive nature of this investigation, ages of victims, case integrity, and respect for the victims and families involved; this department will release no victim information of any kind," the Lenoir Police Department said.
+
+
+Anyone with information relating to this incident is asked to contact Crime Stoppers at 828-758-8300 or Lenoir Police Department at 828-757-2100.

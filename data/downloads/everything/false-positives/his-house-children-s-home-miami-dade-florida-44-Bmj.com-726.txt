@@ -1,0 +1,49 @@
+
+
+
+Article Text
+
+Background Dust and surfaces are important sources of lead and pesticide exposure in young children. The purpose of this pilot study was to investigate if third-hand smoke (THS) pollutants accumulate on the hands of children who live in environments where tobacco is used and if hand nicotine levels are associated with second-hand smoke (SHS), as measured by salivary cotinine.
+
+Methods Participants were parents and children (n=25; age mean (SD)=5.4 (5.3) years) presenting to the emergency department with a potentially SHS-related illness. A convenience sample of participants were recruited at baseline from an ongoing two-group, randomised controlled trial of a SHS reduction and tobacco cessation intervention. Parents were current smokers; thus, all children were at risk of SHS and THS exposure to varying extents. Primary outcome measures, which were assessed in child participants only, were hand nicotine and salivary cotinine. Parents reported sociodemographics and smoking patterns; children’s medical records were abstracted for chief complaint, medical history and discharge diagnosis.
+
+Results All children had detectable hand nicotine (range=18.3–690.9 ng/wipe). All but one had detectable cotinine (range=1.2–28.8 ng/mL). Multiple linear regression results showed a significant positive association between hand nicotine and cotinine (p=0.009; semipartial r2=0.24), independent of child age.
+
+Discussion The higher-than-expected nicotine levels and significant association with cotinine indicate that THS may play a role in the overall exposure of young children to tobacco smoke toxicants and that hand wipes could be a useful marker of overall tobacco smoke pollution and a proxy for exposure.
+
+Trial registration number ClinicalTrials.gov Identifier: NCT02531594
+
+http://dx.doi.org/10.1136/tobaccocontrol-2016-053602
+
+Contributors EMMG conceived the study, overall study aims and study design and wrote the first draft of the paper.
+
+
+GEM guided the sample and data collection protocol and developed the specific study aims.
+
+
+GEM and ALM conducted the statistical analysis.
+
+
+All authors made critical comments and revised drafts of the paper. All authors read and approved the final manuscript.
+
+Funding Funding was provided by the National Institutes of Health (R01HD083354) and the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR001425.
+
+Disclaimer The National Institutes of Health had no role in the design and conduct of the study; the collection, management, analysis or interpretation of the data; the preparation, review or approval of the manuscript or the decision to submit the manuscript for publication.
+
+Competing interests None declared.
+
+Patient consent Our institutional review board (IRB) has approved the study, and we have IRB-approved participant consent and child assent forms that have been signed by participants.
+
+Ethics approval Cincinnati Children’s Hospital Medical Center IRB.
+
+Provenance and peer review Not commissioned; externally peer reviewed.
+
+If you wish to reuse any or all of this article please use the link below which will take you to the Copyright Clearance Center’s RightsLink service. You will be able to get a quick price and instant permission to reuse the content in many different ways.
+
+Subscribe
+
+Subscribe
+
+Online: ISSN 1468-3318Print: ISSN 0964-4563
+        Copyright © 2018 by the BMJ Publishing Group Ltd. All rights reserved.
+        京ICP备15042040号-3

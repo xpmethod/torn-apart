@@ -1,0 +1,92 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Dallas Weather Summary: 96 degrees
+
+2 Weather Alerts
+
+Learn More
+
+ELIZABETH, N.J. — Democratic members of Congress from New Jersey and New York on Sunday met with immigration detainees separated from children at the southwest border who are now being held at a New Jersey immigration facility. 
+
+
+During a news conference afterward, the representatives said they met with five men at the Elizabeth Contract Detention Facility, four of whom were brought to New Jersey from the U.S.-Mexico border. Some of the men, they said, became emotional when they spoke of their children being taken from them. Some said they don’t know where the youngsters are being kept, the representatives said. 
+
+“What I saw in there is inhumane. I see the politics of this administration and it turns my stomach, because I know what this country stands for,” said Rep. Albio Sires, D-N.J. “And that’s not what we are in America.”
+
+
+June 17: Father's Day used to highlight fight against Trump policy that separates migrant families
+
+
+June 17: Father's Day detention: Immigrant's family pleads for release
+
+
+Nearly 500 people showed up for a rally organized as part of the visit on Father's Day to protest a Trump administration policy that separates children from parents at the border. By 10:50 a.m., after waiting more than an hour to enter, lawmakers were allowed inside while demonstrators waited outdoors. 
+
+
+“For all the fathers in detention, you are not forgotten” those rallying outside chanted. 
+
+
+New Jersey lawmakers joining Sires in the visit were Reps. Bill Pascrell and Frank Pallone. From New York, Rep. Jerrold Nadler, ranking member of the House Judiciary Committee, was joined by Reps. Carolyn Maloney, Hakeem Jeffries and Adriano Espaillat.
+
+
+After being made to wait over an hour. After having to deal with local PD. After banging on the door and making it clear that we WILL NOT MOVE until we're allowed in, ICE is finally granting us access to see individuals who have been separated from their families. pic.twitter.com/coXJNdxsLP
+
+They are the latest lawmakers who have made surprise visits to immigration detention facilities since the Trump administration announced a new “zero tolerance” immigration policy that calls for the criminal prosecution of undocumented immigrants who have entered the country through the border. 
+
+Those stopped are detained and if they entered with a child they are then separated from them. The separation of parents and children has drawn public outrage, prompting demonstrations throughout the nation condemning the practice. 
+
+
+June 15: 'Abhorrent': Texas officials, advocates decry placing immigrant children in tent cities
+
+
+June 10: 'Why are you taking him?': Trauma lingers from 'zero tolerance' immigration policy that separates parents, kids
+
+
+The United Nations Human Rights Office earlier this month called on the administration to immediately halt the practice of separating families and to stop criminalizing what “should be at most be an administrative offense.”
+
+
+“Children should never be detained for reasons related to their own or their parents’ migration status,’’ the office wrote in a statement. “Detention is never in the best interests of the child and always constitutes a child rights violation.”
+
+
+The Elizabeth Contract Detention Facility is managed by CoreCivic, based in Tennessee. Located in an industrial area of the city, the building can hold about 300 immigrant detainees.
+
+
+Sally Pillay, program director of First Friends of New Jersey and New York, which sends volunteers to visit immigration detainees, said in the last year she said they have seen more detainees from the southwest border moved to New Jersey facilities.
+
+
+We are here today to tell Trump and Jeff Sessions that America welcomes its tired, its poor, its huddled masses -- it doesn't put them in jails and tent cities. What we saw inside is despicable! It is a sin! pic.twitter.com/XI1E7JhRtQ
+
+There are four sites that hold immigration detainees in New Jersey. Besides Elizabeth, immigration detainees also are held at the county jails in Bergen, Essex and Hudson. 
+
+
+“We see a lot in Essex and Elizabeth, and a significant amount of Cubans who have crossed the border coming in, and now they are placed in Elizabeth," said Pillay.
+
+
+Several immigrant advocate organizations attended the rally, including Make the Road New Jersey, the New Jersey Alliance for Immigrant Justice, ACLU of New Jersey,       New York Civil Liberties Union, Make the Road New York and the New York Immigration Coalition, and New Sanctuary Coalition.
+
+Follow Monsy Alvarado on Twitter: @MonsyAlvarado
+
+
+June 6: New 'zero tolerance' policy on border creates overflow court hearings in South Texas
+
+
+June 4: Senator blocked from entering detention center housing migrants' kids
+
+
+May 28: #WhereAreTheChildren social media campaign calls on feds to find missing migrant children
+
+
+May 16: Homeland Security chief defends policy that separates families entering U.S. illegally

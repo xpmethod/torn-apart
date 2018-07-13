@@ -1,0 +1,124 @@
+From Poverty to Power
+
+
+							How active citizens and effective states can change the world						
+
+This guest post comes from Isabel Vogel (independent consultant, left) and Mel Punton (Itad)
+
+Billions of pounds of development assistance is being channelled into research and science, with the assumption that this will help tackle global problems. But in many countries, decision makers don’t turn to evidence as their first port of call when developing policies that affect people’s lives. This problem has sometimes been framed as a lack of demand for evidence: decision makers don’t fully recognise the value that evidence can bring, and lack the skills to source, appraise and apply evidence effectively. But is this right?
+
+In 2013, UK’s Department for International Development set up a programme to strengthen decision makers’ capacities to use evidence (discussed by David Rinnert and Liz Brower previously on this blog). Building Capacity to Use Research Evidence (BCURE) was a £15.7 million investment by the UK to build skills, incentives and systems for evidence use in government across more than 12 countries in Africa and Asia, and has recently come to an end.
+
+So what did we learn about capacity building for evidence use?
+
+Led by a team from Itad, the BCURE evaluation conducted almost 600 interviews over three years in Bangladesh, Kenya, Pakistan, Sierra Leone, South Africa and Zimbabwe to track what difference capacity building makes to evidence use. Although BCURE only ran for a short time, some important lessons jump out for future capacity builders (there are many more in the final evaluation report):
+
+
+
+Figure 1. Summary of lessons from the evaluation
+
+There is a huge amount of literature suggesting that evidence use is inherently, unavoidably political. Policymakers don’t use evidence to inform decisions in a rational, linear way: research is just one part of the mix of considerations within the politicised, messy, institutional back-and-forth that we call the ‘policy process’.
+
+So while there is a problem when civil servants don’t understand statistics or how to weigh up which sources are reliable, fixing these skills won’t help if there is no political space to bring evidence into decision making, and no incentives for senior decision makers to care about evidence, especially if it challenges politicians’ pet policies. We need to think and work politically when trying to promote evidence use.
+
+On the surface the BCURE projects did this – they were all a good fit with government agendas around evidence-informed policy making, with some level of demand from senior leaders, and were tailored to align with ministry requirements through needs assessments.
+
+But the interventions were often technocratic and would have benefited from more in-depth political economy
+
+Good luck with that
+
+analysis. BCURE had greater success where projects looked beyond superficial expressions of ‘need’, and located an entry point in a sector or government institution where there was existing interest in evidence, clear political (and financial) incentives for reform, and a mandate for promoting evidence use.
+
+Sometimes this involved taking advantage of a window of opportunity for reform – for example decentralization in the health sector in Kenya, or a new Coordination and Reform unit in Bangladesh. It often required building on existing institutional credibility and relationships to gain a foot in the door; and nurturing relationships with individual champions who could act as internal sponsors for the programme, often because their own prestige was enhanced by being involved in the project.
+
+Ultimately, we found that building capacities for evidence use was really about introducing institutional reforms – taking a wider systems view of how evidence is used, incentivised and reinforced throughout the government and parliamentary system by all the players –including by civil society to challenge ineffective policy decisions.
+
+This seems obvious, but is worth repeating as so many capacity development programmes are built on this flawed assumption (see Lisa Denney’s post lamenting that $15bn in international aid is spent every year on training, with disappointing results).
+
+All of the BCURE projects involved some kind of training on the importance of evidence, and how to access, appraise and apply research in their jobs. This was most successful when training linked up with other activities, which together pushed change at different levels of the system. For example, a training course might build trainees’ confidence and skills, which were then embedded through follow-up mentoring support, and through tools (such as policy development guidelines) that facilitated staff to do their jobs more easily.
+
+An important factor was the extent to which applying evidence skills led to recognition from senior managers and career progression for trainees, or helped to mobilise donor resources for departments, which created incentives to further embed evidence use.
+
+Ultimately, whether or not training led to behavior change tended to depend on people’s immediate unit and the broader political environment being conducive to evidence-informed ways of working, as much as on the training design and implementation.
+
+Finally – an obvious but crucial point – training needs to target people who have the scope to actually use the learning as part of their day to day work. BCURE showed that this is sometimes surprisingly difficult to achieve, e.g. where a training course is seen as a bonus to be allocated by managers, or linked to someone’s civil service grade rather than their actual job.
+
+And if you want training to lead to organizational change through a ‘critical mass’ effect (an implicit but unrealised assumption across BCURE), you need to actively promote and resource it, e.g. through an explicit ‘training of trainers’ strategy, clustering trainees together within units to develop social connections to help each other act as a ‘focal points’, and seeing how evidence use can trigger performance incentives.
+
+BCURE was most successful where projects ‘accompanied’ government partners in a flexible, collaborative way that promoted ownership, and strengthened civil servants’ capacities through ‘learning-by-doing’.
+
+Accompaniment is not easy – it was often possible only where BCURE’s government partners already had a strong mandate and incentives to promote evidence use, or where BCURE had built up trust through previous activities that led to an invitation to closely accompany policy processes.
+
+Accompanied reform processes in BCURE faced numerous blockages that had to be navigated, including corruption scandals, frequent staff rotations, competing interests, and changes in government priorities. For programmes to work in this way, there needs to be sufficient flexibility in the contracting model, to allow partners to respond nimbly to challenges and opportunities.
+
+If it’s all about politics, should we bother building capacity for evidence use at all?
+
+No-one is denying that skills and systems shortages are very real constraints to evidence use. And despite challenges, many of our respondents repeatedly told us that they need to be able to use evidence more effectively to develop credible policy solutions that can win political support and be steered through to implementation in order to actually deliver change. So there certainly is a need for capacity development, and not just in governments – BCURE strengthened national civil society actors as well as civil servants.
+
+But BCURE brought home that using evidence is not just about technical skills – support needs to be politically informed, focus on changing incentives not just delivering training, and seek to accompany institutional reforms through collaboration over the long term, if we want to make a difference.
+
+Of course, this is all easier in principle than it is in practice. DFID is taking the learning from the BCURE programme forward in the design of its forthcoming programme, Strengthening the Use of Evidence for Development Impact (SEDI) – so watch this space.
+
+
+			This is a conversational blog written and maintained by Duncan Green, strategic adviser for Oxfam GB and author of ‘From Poverty to Power’. This personal reflection is not intended as a comprehensive statement of Oxfam's agreed policies.		
+
+An interesting piece. I think strengthening relationships between those who produce and use the data is also crucial. In just about everywhere I have spoken to policy makers and government statisticians there are misunderstandings on both sides. Statisticians often see policy makers as being in search of policy-based evidence to justify whatever they want to do… and policy makers can see statisticians as overly precise and cautious and oblivious to the pressure of politics. Getting the two sides together and running role plays in which the policy makers play the statisticians and vice versa can be quite useful as a way to create greater empathy on what its like on the other side of the fence. It can also lead to some very entertaining discussions and hopefully create a few new friendships along the way.
+
+Agreed, an interesting piece. Near the end, the authors write this: “BCURE strengthened national civil society actors as well as civil servants.” I’d be interested in learning more about the civil society strengthening.
+
+Also, did this initiative involve supporting and strengthening the “supply side” (as much as I dislike that term) of research – more specifically funding research by and capacity-building for in-country academics, NGOs, policy institutes that provide data that the government research consumers are hopefully appreciating and utilizing?
+
+Finally, in a related vein, did this initiative include any advocacy support and capacity-building for those outside institutions or even governmental think tanks and reformers? This political component of informing policy decisions would seem to be at least as important as technical capacity-building for utilizing research.
+
+all good points but in a world of universal SDGs shouldn’t we also apply this discussion to all countries? Is the US president evidence driven? Is that what drives some Australian government politicians to advocate for ‘clean’ coal?
+
+Your email address will not be published. Required fields are marked *
+
+
+Comment 
+
+
+Name * 
+
+Email * 
+
+Website 
+
+Save my name, email, and website in this browser for the next time I comment.
+
+ 
+
+
+
+
+
+
+
+Please send me email updates 
+
+
+
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+This is a conversational blog written and maintained by Duncan Green, strategic adviser for Oxfam GB, author of ‘How Change Happens’ and Professor in Practice at the London School of Economics. This personal reflection is not intended as a comprehensive statement of the agreed policies of either Oxfam or the LSE.
+
+
+
+    
+    
+    	
+    
+    
+    
+    
+        
+    
+    
+
+
+© Copyright 2018
+
+
+			Proudly powered by WordPress			 | 
+			Theme: Head Blog		

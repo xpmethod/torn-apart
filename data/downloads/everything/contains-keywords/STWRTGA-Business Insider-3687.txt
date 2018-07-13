@@ -1,0 +1,48 @@
+if (typeof performance.mark !== "undefined") performance.mark('first image displayed');A detainee sits with a soccer ball at Otay Mesa immigration detention center in San Diego, California, U.S. May 18, 2018.
+                                            Reuters
+                                    
+
+
+ Over the past several months, the Trump administration has separated  more than 2,300 children from their parents at the US-Mexico border. Attorney General Jeff Sessions has instructed the Department of Homeland Security (DHS) to institute a "zero-tolerance" policy, meaning the agency is prosecuting every undocumented migrant crossing the border. 
+
+
+ When border officials capture an undocumented family trying to enter the US, the agents arrest the migrants and take them to a CBP holding facility for processing. If they want to seek asylum, adults are then sent to ICE detention centers, while kids are transferred to shelters. Here, the children wait to see if they will be deported or reunited with relatives in the US — if the government or a nonprofit can find them. 
+
+
+ Due to mounting political pressure, Trump signed  an executive order he claims will end the family separation (while keeping the "zero-tolerance" regulations). The fate of children already in custody is unclear, however, and the order still faces legal challenges. 
+
+
+ As of November 2017, ICE operates  1,478 adult detention centers— a number that doesn't include the CBP facilities, which are all 100 miles within the southern border. 
+
+
+ ICE has published a limited map of these facilities, which also doesn't include the hundreds of county jails, Bureau of Prisons facilities, Office of Refugee Resettlement centers, hotels, and hospitals the agency contracts with. (To see the complete list with addresses, head over to  the Immigrant Legal Resource Center's site.) 
+
+
+ We created a map that shows the number of ICE detention facilities in every US state (plus Washington, DC and Puerto Rico) as of November 2017: 
+
+
+
+                                            Shayanne Gal
+                                    
+As you can see above, every state has at least two facilities where ICE detains immigrants. Border states like Texas and California have the largest numbers of detention centers. Small states like Delaware, Hawaii, and Rhode Island have the fewest. ICE operates 15 facilities in Alaska, the largest state by land area. 
+
+
+ Many of these facilities are hiding in plain sight near major urban centers. In Brooklyn, New York, there's one next door to an IKEA. At a hotel in San Diego, ICE has booked thousands of people since March 2014. The facility with the largest number of detained immigrants (1,917 people as of late 2017) was the Stewart Detention Center, a private prison in Lumpkin, Georgia. 
+
+
+ In November 2017, ICE reported that its total average daily population for fiscal year 2018 was 39,322 people, marking the second year in a row that figure has reached a record high.                                                                                                                                             
+                                
+
+        
+
+
+        
+
+
+ As the National Immigrant Justice Center  notes, on an average day in November 2017, ICE held most people — 71% of the total — in prisons operated by private companies. Since 2012, every authorized ICE facility has passed every government inspection, even those where multiple people have died, with  some deaths later reported a result of medical neglect. 
+
+
+ ICE categorized the majority of incarcerated immigrants — 51% on average — as "non-criminal" and as posing "no threat." Twenty-three percent were designated as the lowest "Level 1" threat, which typically includes people with nonviolent criminal convictions. Just 15% were classified at the highest threat level. 
+
+
+

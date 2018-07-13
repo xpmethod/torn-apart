@@ -1,0 +1,1892 @@
+Americans have long rejected a national ID, but many U.S. state governments are quietly developing national ID systems in a variety of forms. One is the uniform identity card system envisioned by the REAL ID Act. That federal law, passed in 2005, seeks to subject state drivers’ licensing to federal data collection and information-sharing standards that will facilitate identification and tracking.
+
+State promotion of the E-Verify background check system, which is intended to control the employment of illegal immigrants, is another path to a national ID. Successful implementation of E-Verify will require a national ID, and some states are already sharing driver data with the U.S. Department of Homeland Security so that it can be used in federally administered worker background checks.
+
+Less well known are several other programs poised to produce the same results as a national ID without the requirement of an identity card or other formalities. These developments position states and the federal government to make once-ordinary behavior like driving on city streets and strolling the sidewalks of American towns into recordkeeping events for an overly attentive state. They compose what might be called the new national ID.
+
+This paper summarizes the stances of each of the 50 states on various ID systems, including REAL ID, E-Verify, facial recognition, and license-plate scanning. Together, those technologies—along with other initiatives orchestrated at the federal level—are the leading edge of a national identification and tracking infrastructure.
+
+Officials and citizens in every American state should review their states’ identification, data collection, and data retention policies. The privacy and liberty of all Americans are threatened by such increasingly widespread surveillance systems.
+
+Continue to full version 
+
+The past few years have seen growing awareness and concern about
+U.S. government surveillance of the American people. Unfolding
+revelations about the National Security Agency’s collection of data
+about Americans via access to their basic communications channels
+have awakened many people to the increasingly real risk that the
+government might get — or already have — outsized
+ability to identify and track the populace. With that comes
+outsized power to influence and control.
+
+Federal surveillance of private communications infrastructure is
+only one avenue along which government can monitor the private
+lives of citizens. Another is direct identification and tracking,
+such as would be possible under a national identity system. Since
+2005, the federal REAL ID Act has encouraged states to combine
+their driver-licensing programs into a unified national ID system
+run by the U.S. Department of Homeland Security (DHS). Some states
+also require their businesses and government agencies to use
+E-Verify, also run by DHS, to examine the immigration bona fides of
+all newly hired workers. Full implementation of the E-Verify
+program would ultimately require a national ID system, and it
+continues to weave together databases of identifying information
+about all Americans. The threat of formal national ID systems is
+relatively well known, raising the question of whether the United
+States should have such a system.
+
+Less well known are the many other government programs that
+would result in the comprehensive tracking of Americans without the
+use of an identity card or other formalities. State and local
+governments are deploying technologies such as facial recognition
+and license plate tracking that can observe and record the
+locations and movements of distinctly identified people, collecting
+and storing information about their comings and goings. Such
+programs position governments to make once-ordinary behavior like
+driving on city streets and strolling the sidewalks of American
+towns into recordkeeping events for an overly attentive state.
+Systems that gather identifying information about people, along
+with metadata revealing their movements and activities, together
+comprise what might be called the new national ID. These programs
+are on a trajectory to produce surveillance and tracking that is
+just as consequential and worrisome as the federal government’s
+surveillance and formal national ID programs.
+
+A national identity system works against the interests of free
+people and a free society in several ways. One is by undercutting
+individuals’ privacy. A widely used identification system makes the
+collection of identity information easier and less expensive, so
+that governmental and corporate bodies collect more records of
+people’s actions and movements. Whether directly or by inference,
+that recordkeeping exposes more to data holders about people’s
+relationships, business activities, political leanings, social
+life, sexuality, and more. A national ID system undercuts the
+important background privacy protection of practical obscurity: the
+difficulty of learning about people when records are not created or
+when data are difficult to access or interpret.
+
+Privacy is not just a feeling of seclusion or information
+control. It is also a protection for personal power. National ID
+systems help shift power from individuals to institutions. While
+providing some genuine benefits and protections, extensive
+databases of information also render people more susceptible to the
+influence or control of data holders. By learning where people have
+been, what they buy, with whom they associate, what their assets
+are, and where they can be found, for example, data holders acquire
+greater power. Businesses have greater ability to influence people
+using targeted and tailored marketing, for example. More important
+and worrisome, comprehensive databases of personally identifiable
+information give governmental authorities greater ability to
+exercise dominion over people and their property. People’s
+activities are easier for the government to monitor. Their
+commercial dealings are clearer to authorities. Their
+transgressions are easier for government agents to discover. People
+and their assets are easier to find and commandeer. These abilities
+give government greater power to control.
+
+One might be inclined to think that U.S. state programs cannot
+create a national ID system. They can. A national ID system has
+three elements:
+
+The first element of a national ID is that it is used for
+identification. This concept is simple, but there are some more
+complex subtleties. An identification card or system shows that a
+physical person now under observation is the same as someone who
+has been identified previously. A national identifier such
+as the Social Security number is not a full-fledged identification
+system. The Social Security number correlates names to numbers
+without making a biometric tie between the number and a physical
+person. In contrast, the new national ID systems either identify
+people or things very closely associated with people. They
+distinctly identify individuals directly from their license plates,
+which easily correlate with records about people in other
+databases, or through the contours of their faces. From the
+observation of people at certain times and places, strong
+inferences can be made about their lives and livelihoods, their
+predilections and politics.
+
+As to the second element, national uniformity, the question is
+not whether one government runs the system, but whether the system
+runs nationally. Different jurisdictions across the country may
+procure facial recognition systems from different companies. If the
+systems use the same algorithms to distinctly identify people, they
+are nationally interoperable.
+
+The third hallmark of a national ID is that its possession or
+use is either practically or legally required. An identity card
+that everyone must carry is obviously a national ID card. A card or
+system that is one of many options for proving identity or other
+information is not a national ID if people can decline to use it
+and still easily access goods, services, or infrastructure. This
+option is the case with credit cards, other payment cards, checks,
+and cash — among which there are many choices. If law or
+regulation makes it very difficult to avoid carrying a card or
+using the system, the card or system is in the national ID
+category.
+
+The new national ID programs intersect subtly with this prong of
+the national ID definition. In the new national ID, nobody
+necessarily presses a card into anyone’s hands. Nobody creates a
+system of incentives that encourage people to adopt the system.
+Rather, the system adopts the people. Camera networks in DMV
+offices and on the streets of towns and cities capture identifying
+information and collect it in databases for later use. Simply going
+about one’s daily business subjects the individual to participation
+in the identity system. The only way a person can avoid it is by
+obscuring one’s face and license plate, which is at least
+impractical and often illegal.
+
+Recognizing the threat to liberty, Americans have consistently
+rejected national identity systems that take the form of a card
+people might have to carry and produce in response to demands for
+“papers, please.” Soviet-style papers and passbooks may be things
+of the past, but the cameras and other sensors springing up in
+cities and towns all over the country may be the vanguard of the
+far more intrusive new national ID.
+
+Americans should ask what their state and local governments are
+doing with high-tech tracking, as well as whether safety and
+security claims used to justify tracking technology outweigh the
+privacy, liberty, and dollar costs of these systems. Some states
+have taken steps to control collection, retention, and sharing of
+the data about innocent Americans they collect while operating
+high-tech safety and security systems. These policies should be
+strengthened in the states where they exist and adopted in the
+states where they do not.
+
+The pages that follow examine briefly the stances of each of the
+50 states toward the well-recognized national ID systems and the
+technologies that make up the new national ID. It is only a
+snapshot, and many policies are currently under debate and rapidly
+changing.
+
+All states collect data about their residents so they can
+license drivers. State databases contain photographs and vital
+information about drivers, such as age, birthdate, Social Security
+number, physical descriptors, home address, and so on. Far too many
+states are beginning to comply with the federal REAL ID Act, which
+will require them to share this information across a nationwide
+network.1 In effect,
+adopting REAL ID will create a unified, nationwide database of
+drivers’ information.
+
+To facilitate this sharing, REAL ID-compliant states are
+expected to adopt uniform standards for collection and storage of
+driver information and display of driver data on the license in a
+standard machine readable zone. That oblique language in the REAL
+ID law refers to the barcodes now seen on many licenses. But in the
+future, it could be any technology, including radio frequency
+identification. Until recently, several states consistently
+rejected the adoption of REAL ID standards, thwarting proponents’
+goals in the near term.2
+But every state is now complying in some degree with the DHS’s REAL
+ID mandates.
+
+A parallel development is E-Verify, the national employment
+verification system. E-Verify’s design and goals are simple. It is
+meant to allow employers to run the name and Social Security number
+of new hires through a system run jointly by the Social Security
+Administration and DHS, receiving confirmation or nonconfirmation
+of the employee’s work eligibility. Essentially, E-Verify is meant
+to let an employer know if the employee is in the United States
+legally and if said employee is able to work legally, with the goal
+of turning off the “jobs magnet” and ending the employment of
+unauthorized workers in the country.
+
+E-Verify does not deliver the easy immigration-control results
+it promises.3 The
+program is inaccurate, frequently returning false results on
+American citizens/permanent residents and unauthorized workers
+alike. The system requires the former to prove their legal status,
+while the latter are erroneously judged to be
+work-authorized.4
+E-Verify is a threat to basic liberties, as it may trap ordinary
+Americans in a Kafkaesque predicament where their employment and
+livelihood are denied unless they prove to federal bureaucrats that
+they are who they say they are — without the benefit of the
+state-issued driver’s license or ID that nearly everyone relies
+on.5
+
+E-Verify and REAL ID originated separately, but they will not
+remain separate programs. An addition to the E-Verify program
+called RIDE (Records and Information from Department of Motor
+Vehicles for E-Verify) shares driver data with the E-Verify system
+to check the authenticity of drivers’ licenses issued by states
+that opt in.6 With the
+continued push for REAL ID by DHS and for E-Verify in conservative
+political circles, it is not difficult to imagine E-Verify and REAL
+ID becoming fully integrated so that government offices and
+businesses alike can be required by law to check the validity of
+every American’s state-issued, DHS-approved REAL ID. The day would
+not be far off when a national ID is required for picking up
+prescriptions, purchasing guns and ammunition, paying by credit
+card, booking air travel, and reserving hotel stays, to name just a
+few types of transactions the federal government might
+regulate.
+
+E-Verify and REAL ID both make use of photographs to identify
+people. The REAL ID law called only for a digital photograph and
+mandatory facial image capture, but many departments of motor
+vehicles (DMVs) are adopting facial recognition software in tandem
+with their moves to comply with REAL ID. Facial recognition
+software analyzes the features of a person’s face from a
+photograph, turning the facial image into a unique signature. As
+the technology develops, government agents will be able to run a
+photograph taken from a security camera, cell phone camera, or
+other source against a national database to see if there is a match
+with a base photograph already in the system (such as a standard
+DMV photo).7 In a large
+jurisdiction like California or Texas, the DMV and law enforcement
+would have access to millions of photographs; with REAL ID
+information-sharing in place nationwide, even a small-town sheriff
+in rural Georgia or Vermont could have access to a database of
+hundreds of millions of Americans’ images. And, of course, facial
+recognition systems could automatically scan all faces seen in a
+public area to look for wanted persons, incidentally gathering and
+keeping information about innocent persons in the area, too. Such
+facial recognition systems are like “papers, please” without the
+“please.”
+
+Similarly, an increasing number of jurisdictions are making use
+of license plate readers (LPRs).8 These devices —
+typically mounted on police cars or integrated into traffic cameras
+— recognize and read license plates on passing cars, allowing
+law enforcement to observe the movements of all cars. Automobile
+license plate records are in government hands, of course, and cars
+are often driven by one or two people exclusively. Especially in
+cities with a web of cameras, license plate readers can
+unblinkingly pinpoint drivers’ movements minute by minute, hour by
+hour, and day by day. Even in towns that have one license plate
+reader on the road into town and the road going out, the technology
+can record which nights a given resident comes home from work on
+time and which nights he or she doesn’t.
+
+Finally, several states have signed memoranda of understanding
+(MOUs) with the Federal Bureau of Investigation (FBI) to provide
+facial scans from state repositories so that states can participate
+in the so-called Next Generation Identification (NGI) initiative.
+The NGI’s ostensible goal is to expand the capabilities of the
+Integrated Automated Fingerprint Identification System (IAFIS), the
+Bureau’s national fingerprint check system, by integrating
+additional biometrics such as facial imaging, palm prints, and iris
+scans.9
+
+States already provide fingerprint information to the FBI, and
+states that sign MOUs will provide the additional biometrics if
+— and when — they become capable. The IAFIS serves a
+purpose as part of legitimate law-enforcement activities, and the
+NGI is designed ostensibly to expand those capabilities; however,
+the nature of these technologies and the expanding new frontiers of
+biometrics raise serious questions about potential threats to the
+liberties of law-abiding Americans. This is because many of these
+technologies enable automated tracking of individuals and because
+they can be used to do so without any suspicion on the part of the
+individuals being tracked.
+
+Together, these systems — REAL ID, E-Verify, RIDE, facial
+recognition, license plate readers, and the nascent NGI — are
+the leading edge of identification and tracking infrastructure that
+would significantly expand government power over citizens and
+residents. Assembled one piece at a time by states separately
+complying with federal dictates or seeking minor security gains,
+the endpoint of these efforts is a single system for tracking and
+control: the new national ID.
+
+Officials and citizens in every American state should review
+their states’ policies with care. Figure 1 summarizes each state’s
+status at the time of this paper’s publication with respect to
+formal national ID systems and the new national ID. The ID symbol
+in each column indicates that the state supports that part of the
+new national ID project. The X indicates it does not.
+
+State policies with respect to REAL ID are subject to rapid
+change because of recent, aggressive DHS efforts to goad the states
+into implementation. Since passage of the statutory compliance
+deadline in 2008 without a single state participating in the
+national ID program, DHS has instituted a long series of improvised
+deadlines. Through the Transportation Security Administration
+(TSA), DHS threatens travelers from noncompliant states with
+refusal of their IDs when they arrive at airports. This threat puts
+compliance pressure on DHS’s target states, but it also pressures
+the agency itself, as members of Congress approach the department
+and its leadership with questions and criticism.
+
+DHS’s brinkmanship typically results in some forward movement
+among some target states, while others hold out. The agency then
+succumbs to political pressure and creates a new deadline 12 to 18
+months in the future. The process appears likely to repeat itself
+indefinitely. Enforcement of REAL ID that turns away people en
+masse at airports will almost certainly never occur.
+
+The state of Nebraska is doing everything on the new national ID
+checklist. Maine was doing none of them until it recently
+capitulated to DHS pressure for REAL ID compliance. Oregon has
+nation-leading protections for the data it collects. Below, each
+state’s national ID and privacy practices are briefly summarized
+and discussed.
+
+Figure 1: State-by-State Participation in REAL
+ID, E-Verify, and RIDE; Use of Facial Recognition and License Plate
+Readers; States That Have Signed NGI MOUs
+
+Alabama has a rather poor reputation on privacy issues and data
+protection, historically. The state has a complicated, and even
+tragic, history with the surveillance of civil rights activists and
+opponents of segregation during the 20th century. While Jim Crow is
+formally dead and buried, the state could do more to steel itself
+against tracking systems that could be used wrongfully in an
+uncertain future.
+
+Since 2014, Alabama’s Criminal Justice Information Center
+(ACJIC) has owned and operated at least seven mobile license plate
+readers. Local police forces also make use of LPR technology,
+including the Jefferson County Sheriff’s Office and the Auburn
+Police Department. The involvement of the ACJIC, an adjunct of the
+state police that provides data to and networks with local law
+enforcement, allows for the sharing of captured information between
+multiple agencies, thereby creating multiple risks to Alabamans’
+privacy.10
+
+In addition to being compliant with the federal REAL ID Act and
+all that entails for driver’s license standards and information
+collection, Alabama’s law-enforcement agencies have begun a
+little-noticed test program of facial recognition software.11 Calhoun and Madison Counties
+have both implemented test facial recognition systems in their
+county jails. Analyzing 40,000 data points on an inmate’s face and
+using 3D snapshots, the technology matches the target’s image
+against a preexisting image in a database.
+
+The technology is used by corrections officers in the booking
+and release processes to protect “officer safety” and to ensure
+that the incoming or outgoing inmates are who they are supposed to
+be. While some might not be as concerned about the liberties of
+criminals, Calhoun County Sheriff Larry Amerson’s long-term goals
+should give everyone pause. The sheriff calls for making his county
+a hub through which all counties will link and share their own
+facial recognition databases — thus creating a statewide
+network. Nor does he wish to limit the program to jails and
+corrections: in the long term, the sheriff wishes to make the
+system mobile and use it as part of traffic stops and other police
+actions.12
+
+Combined with the state’s full-throated embrace of both REAL ID
+and E-Verify, as well as its notoriously difficult
+records-disclosure provisions, facial recognition presents an
+expanding threat to Alabamans’ liberties. Conversely, the state has
+robust statutory protections against surveillance and information
+collection in places where there is an expectation of privacy (at
+home, in a public restroom, in a locker room, and so on).13 Surveillance is permissible
+in public areas, however, and could involve facial recognition in
+the future.
+
+The “Last Frontier” has developed a reputation for tough,
+pioneer, live-and-let-live libertarianism, and rightly so. Alaska
+has some of the strongest privacy protections in the nation, and it
+is one of only 10 states to include an explicit guarantee of
+privacy in its current state constitution. Article 1, Section 22,
+of the Alaska constitution bluntly states, “The right of the people
+to privacy is recognized and shall not be infringed. The
+legislature shall implement this action.”14
+
+Cases before the Alaska Supreme Court have expanded upon the
+right to privacy. Its 1972 decision in Breese v. Smith
+found that “at the core of this concept [of liberty] is the notion
+of total personal immunity from governmental control: the right ‘to
+be let alone.’”15
+Roberts v. State (1969) noted that the state
+constitution’s protections on privacy were greater than those of
+the federal Constitution, and that the court was not “bound in
+expounding” privacy by the decisions of the “United States Supreme
+Court, past or future, which expound identical or closely similar
+provisions of the United States Constitution.”16 Ravin v. State
+(1975) held that the privacy section protected the right of
+individuals to possess a small amount of marijuana for personal
+consumption in their abode.17
+
+Statute law contains further protections. There are protections
+against license plate capture, for example, as well as against
+maintaining DNA in the state’s DNA database if charges against the
+data subject are dropped, dismissed, or expunged.18 Although the state does not
+have a statutory prohibition on facial recognition software,
+fingerprint and iris scans, or other biometric databases,
+successive sessions of the state legislature since 2010 have seen
+the introduction of bills to that effect.19 These efforts have yet to pay
+off; currently, the state DMV uses a facial recognition system as
+part of its licensing regimen.20 With the passage of
+legislation in May 2017 to make Alaska compliant with DHS’s current
+requirements under the REAL ID Act, the privacy of Alaska drivers
+is receding.21
+
+Like Alaska, Arizona’s state constitution contains a privacy
+provision. Article 2, Section 8, reads, “No person shall be
+disturbed in his private affairs, or his home invaded, without
+authority of law.”22
+However, Arizona’s record on privacy is far weaker than Alaska’s.
+Arizona has been REAL ID compliant since March 2016, offering as a
+default voluntarily compliant licenses and IDs; Arizona is also a
+participant in the RIDE program. Arizonans who wish for
+noncompliant licenses and IDs must specifically request
+them.23Arizona also has
+in place 2007’s Legal Workers Act, which mandates
+statewide use of E-Verify on new hires by all employers in the
+state.24 Despite several
+challenges to the constitutionality of the law, it has been upheld
+by the federal courts.25
+
+With regard to other elements of the new national ID, Arizona
+does not currently make use of a facial-recognition system, either
+by the state DMV or the various state police agencies. State police
+do use a license-plate-capture system (separate from the federal
+Drug Enforcement Agency’s system that operates along the
+border),26 and the state
+code includes a so-called stop-and-identify provision. Under
+Arizona law, police can detain individuals and demand that they
+provide their names. Refusal can lead to arrest.27
+
+Arkansas has a mixed record when it comes to privacy and the new
+national ID systems, like several other states in the South.
+Although the state has developed through case law some protections
+on activity in the privacy of one’s home28 and the right to protect
+some of one’s information from both private entities and
+government, it has also refused to allow the removal of DNA from
+the state DNA database following an exoneration, for
+example.29
+
+Statute law is mixed, as well. For example, the state
+bans30 private entities
+from operating license-plate-capture technology, while allowing
+state law enforcement to use the technology.31 An ongoing civil suit from
+two large producers and operators of the technology asserts a
+violation of the companies’ First Amendment rights by the state;
+the state, in turn, asserts that it is protecting the privacy of
+citizens — while operating a system of its own.32
+
+Arkansas is compliant with the DHS’s current REAL ID
+requirements. The Arkansas DMV maintains a facial recognition
+database for licensing purposes. But this database is not just for
+licensing: it is also accessed by the Arkansas Crime Information
+Center (an arm of the state police).33 A routine traffic stop could
+see a driver’s license plate scan and the driver’s face run through
+a database for something as minor as speeding.
+
+As by far the most populous state in the union, California is
+often a test-bed for ideas that will, in time, spread to other
+states. California is often at the forefront of policy debates. And
+when it comes to privacy and identification, the Golden State is a
+leader, in ways both good and bad.
+
+Article 1, Section 1, of the California constitution — its
+Declaration of Rights — has guaranteed, since a 1972
+revision, an inalienable right to “pursuing and obtaining safety,
+happiness, and privacy.”34 The state Supreme Court has
+used the privacy clause to strike down restrictions on abortion,
+undercover police stings in schools, and discriminatory zoning
+laws, and also to protect financial information during the course
+of civil suits.35 As in
+Alaska, the state courts have found an explicit guarantee of
+privacy under the state constitution greater than that in the
+federal Constitution.36
+
+California’s contemporary privacy record is mixed. The state has
+recently moved to become compliant with REAL ID (it will spend at
+least $220 million and hire 715 bureaucrats to do so)37 but a 2011 state law
+prohibits municipalities from implementing Arizona-style E-Verify
+mandates.38 California
+does not use a facial recognition system for law enforcement, and
+the state does not have a stop-and-identify law, which would
+require a stopped person to state his or her name and address and
+to explain his or her current activities. These are all strong
+positives.
+
+The state does, however, make heavy use of license-plate-capture
+technology. California was one of the earliest adopters of the
+technology, with some Southern California jurisdictions operating
+first-generation systems in the early 2000s.39 The three largest police
+forces in Los Angeles County — the Los Angeles Police
+Department, the Long Beach Police Department, and the county
+sheriff’s office — have more than 400 capture devices either
+in use or in the midst of the procurement process, creating a huge
+node on the new national ID system in the state’s most populous
+county.
+
+Colorado has a somewhat strong libertarian image, albeit one
+with more than a few blemishes. In addition to being at the
+forefront of the marijuana legalization movement, the state has
+largely rejected a broad E-Verify mandate. Colorado does mandate
+the use of the federal verification program or its state-run,
+Colorado-equivalent (the Department Program) for state contractors,
+a policy largely in line with the federal government’s requirements
+for federal contractors. Private employers are free to use or not
+use the systems, but they are not mandated either way.
+
+Colorado’s DMV and police do not use facial recognition
+technology, although there has been some discussion of doing so by
+the DMV.40 Several
+jurisdictions in the state — including Denver, Boulder, and
+Colorado Springs — make use of license-plate-capture systems,
+and several counties and municipalities have applied to DHS for
+program grants.41 A
+slight silver lining is that Denver’s police store captured
+information for only 21 days, so long as it is not deemed pertinent
+to an ongoing investigation.
+
+Colorado also uses a stop-and-identify law, and its record on
+other privacy and ID issues is spotty, at best. The state has been
+considered compliant with DHS REAL ID requirements since 2012. Its
+first gold-star licenses — marked as such to indicate that
+identity documents are compliant — were issued in
+2011.42 Colorado has
+more work to do when it comes to protecting residents’ privacy from
+the new (and old) national ID systems.
+
+Connecticut has a less-than-stellar record because of its
+compliance with federal programs that trample privacy. Connecticut
+was one of the early adopters of the federal REAL ID program, and
+it remains one of the only states in New England to be considered
+fully compliant by DHS. In hand with REAL ID, the state uses facial
+recognition software as part of its licensing process, thus
+maintaining a database of driver images that can be accessed by
+police with a warrant.
+
+Additionally, the Nutmeg State uses license-plate-capture
+systems in several jurisdictions. The state police make use of the
+technology as well. A Connecticut U.S. Citizenship and Immigration
+Services (ACLU) Freedom of Information request found that, from
+2009 to 2012, 10 towns alone in the central part of the state
+captured more than six million scans of plates.43 Unlike state police, who must
+dump nonpertinent plate scans after 90 days, local jurisdictions
+operate under no such limits. In a small town like Newington
+(population approximately 30,000), the police can hold onto their
+612,000 plate captures indefinitely.44 That threatens the liberties
+of the town’s inhabitants, all state residents, and Connecticut’s
+visitors.
+
+Like Connecticut, Delaware scores rather low when it comes to
+the protection of citizens’ privacy and high when it comes to
+creating new, pervasive forms of identification. The First State
+has been an enthusiastic adopter of the federal REAL ID Act and all
+the new standards that the law entails. With a driving population
+as small as Delaware’s, that state stands a good chance of shortly
+having the largest percentage of drivers with REAL ID licenses
+— and all their associated information stored by the state
+DMV. This process includes the use of facial recognition software
+and other biometric markers.45 All these methods come in
+handy when a citizen is pulled over as part of a routine traffic
+stop or is stopped by police under the state’s stop-and-identify
+law.46
+
+Delaware’s status as one of the smallest states and as a state
+with a relatively high population density has the effect of
+concentrating problems. The Delaware turnpike (the state’s major
+and unavoidable thoroughfare) alone has 162 publicly acknowledged
+cameras along its 13.68 miles, or roughly 12 cameras per mile. This
+placement goes hand in hand with the state police force’s heavy use
+of license plate capture. If you’re in Delaware and driving,
+chances are good that law enforcement can easily figure out who you
+are and where you are.
+
+Like Alaska, Arizona, and California, Florida’s constitution
+contains explicit guarantees of privacy. Article 1, Section 12,
+prohibits unlawful searches and seizures and “the unreasonable
+interception of private communications,” unless conducted in line
+with the provisions of the Fourth Amendment to the federal
+Constitution and rulings of the federal Supreme Court.47 Section 23 provides that
+“every natural person has the right to be let alone and free from
+governmental intrusion into the person’s private life except as
+otherwise provided herein.”48
+
+The sentiments are noble, but Florida’s loyalty to them is
+mixed. On REAL ID, the state is fully compliant, with the federal
+law’s requirements literally written into the state code.49 State agencies operating
+under the direct auspices of the governor (the majority of the
+state’s executive branch) are required to make use of E-Verify, as
+are government contractors; other public agencies not under the
+governor’s direct authority are strongly encouraged to do
+so.50 Additionally,
+Florida is one of the first states to have signed on to the federal
+government’s E-Verify RIDE program, which shares state data with
+the federal government so that employers can view driver’s license
+and ID photos during the verification process.51
+
+The Florida DMV uses facial recognition software as part of the
+driver-licensing process. Law-enforcement agencies ranging from the
+state police and the Department of Corrections to the Miami-Dade
+County Sheriff and rural police forces also use the
+software.52 A traffic
+stop by a state trooper in rural Florida or a stop of a pedestrian
+under the state’s stop-and-identify law might end up with a
+citizen’s image run through the database. The extent of Florida’s
+embrace of the technology is unsurprising, given the state’s role
+as a charter member of the Facial Identification Scientific Working
+Group (FISWG), an arm of the FBI’s oddly named Biometric Center of
+Excellence (BCE).53 In
+2014, the last year for which clear numbers are readily available,
+the BCE received at least $44 million in funding from the FBI’s
+nearly $9 billion budget.54
+
+License plate capture runs rampant in Florida, too.
+Jurisdictions large and small use the technology to collect license
+plate numbers, locations, and times without reference to any
+criminal suspicions. Boca Raton’s three cameras (two mobile and one
+fixed) alone recorded more than a million plate captures from
+August 2010 to August 2013.55
+
+Private companies in Florida operate similar systems, often for
+tracking down drivers who have failed to pay their car loans or
+payments.56 The ability
+of private parties to observe and record information is not as
+concerning as the same activity carried out by public entities, but
+the public policy that requires display of license plates could be
+revisited in light of technology to track them.57 Floridians need to be wary,
+though, of privately collected data being turned over or sold to
+government for use in law enforcement and less legitimate coercive
+activities.
+
+Like its neighbor to the south, the Peach State has a
+complicated relationship with its citizens’ right to privacy and
+freedom from overly intrusive ID technology. Georgia has a
+stop-and-identify law on the books, and it is a REAL ID-compliant
+state, with facial recognition added in. Facial recognition is not
+just limited to the DMV; certain state law-enforcement agencies
+also use the technology. The state Department of Corrections was an
+early and enthusiastic adopter, implementing a system for inmate
+intake and release as early as 2004.58 State law allows state and
+local police to access the DMV’s databases as part of an ongoing
+investigation, handing law enforcement a ready-made
+database.59
+
+On E-Verify and license plate capture, Georgia also falls short
+of the high standard for privacy practices set by some other
+states. Georgia is one of the few states to mandate that all
+employers, both public and private, use federal employment
+verification for all new hires, ensuring that many — and,
+eventually, all — Georgians are verified for work
+authorization by the federal government.60 On the issue of license plate
+capture, the state police and large metropolitan forces (including
+Atlanta’s, the largest in the state) have used capture technology
+for several years.61 A
+recent case before the state Supreme Court upheld the
+constitutionality of using information from a capture as probable
+cause for a traffic stop and the arrest of a passenger for a crime
+unrelated to driving.62
+
+Hawaii is one of a handful of states to explicitly enshrine a
+right to privacy in its constitution. Article 1, Section 6, of the
+Hawaii constitution states: “The right of the people to privacy is
+recognized and shall not be infringed without the showing of a
+compelling state interest. The legislature shall take affirmative
+steps to implement this right.” Section 7 additionally enshrines
+the language of the federal Fourth Amendment’s protections against
+search and seizure, but it does not link the content of those
+protections to either the federal Constitution or the federal
+Supreme Court (unlike Florida’s similar clause).63
+
+Hawaii, however, has a terrible record on citizens’ privacy and
+ID rights. After first rejecting compliance with REAL ID, the state
+backpedaled and implemented the federal standards, meeting the
+DHS’s material compliance checklist in 2013. Hand in hand with REAL
+ID, the state has fully embraced law enforcement’s use of facial
+recognition technology.
+
+Worse, the state has signed an MOU with the FBI, agreeing to
+assist the Bureau’s effort to build the NGI biometrics database by
+sharing Hawaii’s facial recognition database.64 The MOU states that full
+implementation of the program will “permit photo submissions
+independent of arrests” and “permit bulk submission of photos being
+maintained at state and federal repositories.” The FBI has also
+stated that it wants to use its facial recognition system to
+“identify unknown persons of interest from images” and “identify
+subjects in public datasets.”65
+
+In short, the FBI wants to build a national ID database, and
+Hawaii is doing its part. The Electronic Frontier Foundation has
+filed a freedom of information suit in federal court in San
+Francisco, California, to get more information on just what the FBI
+and willing states are up to with this initiative.66 Hawaii’s participation in
+NGI, along with the state’s use of other anti-privacy, next
+generation ID tools such as license plate capture,67 should give citizens of the
+Aloha State pause.
+
+Like several other states in the Mountain West, Idaho has a
+robust tradition of civil libertarianism and opposition to
+intrusive programs. Idaho checks a number of boxes, though, when it
+comes to threats to privacy from identification systems. The state
+originally rejected compliance with REAL ID (statutorily banning
+compliance in 2007) and neither the state DMV nor law enforcement
+makes use of facial recognition software.68 But in March 2016,
+legislation to comply with REAL ID was passed and signed by Gov. C.
+L. “Butch” Otter.69 A
+handful of jurisdictions in the state make use of license plate
+capture, although it is not widespread statewide.70
+
+A 2009 executive order from Governor Otter mandates that the
+state government ensure that new hires are work-authorized and
+requires similar verification for employees of state
+contractors.71 The state
+— along with Florida, Iowa, Mississippi, Nebraska, North
+Dakota, and Wisconsin — has also joined the federal E-Verify
+RIDE program.72
+
+Illinois has a mixed track record on privacy and ID issues. The
+state constitution contains a guarantee of remedy under the law for
+violations of privacy, as well as a guard against unreasonable
+search and seizure.73
+Illinois was noncompliant with the federal REAL ID Act until
+recently adopting legislation to create a two-tiered, federally
+compliant ID system.74
+
+On E-Verify, Illinois has taken arguably the strongest stance
+against the verification program. A 2007 law, the Right to Privacy
+in the Workplace Act, prohibited the use of E-Verify in the state
+unless and until the federal government increased the speed,
+security, and accuracy of the slow-moving, cumbersome
+system.75 Unfortunately,
+that provision was struck down by a federal court in 2009. But
+other protections in the 2007 law survive, ensuring that the
+E-Verify program remains strictly voluntary in the state. Employers
+who choose to use E-Verify must make clear to employees all of
+their legal rights to privacy, nondiscrimination, and
+appeal.76
+
+Illinois does make use of facial recognition software as part of
+its licensing process. The state was one of the first adopters of
+the technology back in 1997.77 Several police forces,
+including the Chicago Police Department — the largest
+municipal force in the state — use the technology as
+well.78 The state’s
+branch of the American Civil Liberties Union (ACLU) cites the risk
+to civil liberties in Chicago, in particular, from facial
+recognition technology: the city government operates at least
+24,000 cameras (as of 2013), all of which could be eventually tied
+into a networked system.79 Combined with the state’s
+already widespread use of license plate capture by fixed cameras
+and police, as well as the state’s stop-and-identify laws, the
+threat to liberties from an integrated network of cameras and
+systems is strong.80
+
+While Illinois has a mixed record on privacy and ID issues,
+neighboring Indiana has one of the poorest records of any state.
+The state was an enthusiastic adopter of REAL ID, embracing the
+program shortly after the standards were rolled out in 2008. It was
+so enthusiastic, in fact, that the American Association of Motor
+Vehicle Administrators (AAMVA) — a DMV managers’ pro-REAL ID
+pressure group — gave the state an award for
+implementation.81
+Indiana has embraced the E-Verify program, mandating its use for
+all new public-sector hires and government contractors, and
+offering a tax break for private employers who enroll.82
+
+Indiana implemented a facial recognition system in conjunction
+with its REAL ID rollout in 2009. In addition to literally
+requiring that people not smile in their drivers’ license
+photo,83 the technology
+is being used by law-enforcement agencies and other agencies of the
+state government — including, it seems, the state gaming
+commission.84 That the
+government body charged with regulating Indiana’s casinos can
+access the database raises troubling questions about who else in
+the state can access the database and about what authority and
+justification are required.
+
+Indiana’s law-enforcement agencies also use
+license-plate-capture technology in numerous jurisdictions. Worse,
+individual jurisdictions set their own policies on capture and
+retention, with municipalities such as South Bend keeping capture
+data and images for up to 18 months, with the possibility of an
+extension.85 State
+police, too, use the technology, performing more than 400,000
+captures in 2013 alone.86 A 2013 bill in the state
+Senate to place strict limits on how captures are obtained and how
+they are retained was unfortunately killed in committee.87 The one thing Indiana does
+not do to make itself a new national ID state is provide state
+residents’ DMV data to the E-Verify program through the RIDE
+program.
+
+Iowa’s new national ID record is largely negative. The
+legislature and executive branch have rejected mandatory E-Verify
+legislation and executive orders, but the state has embraced REAL
+ID wholeheartedly.88
+Despite rejecting mandatory E-Verify so far, Iowa is one of a few
+states to embrace the federal government’s RIDE program, making the
+personal information of license holders available to the federal
+government’s employment verification systems.
+
+Iowa has also embraced the use of facial recognition technology.
+The state Department of Transportation uses the technology as part
+of the licensing process, and police have begun to use the database
+of images to make arrests.89 Mandatory image capture for
+sex offenders has been considered as well.90 It is hard to oppose the
+technology’s use on sex offenders and longtime fugitives, but it
+might be soon coming to all Iowans: the state Department of Public
+Safety, which oversees policing and security in Iowa, is interested
+in developing the capability to implement widespread use of
+recognition systems for law-enforcement purposes.91
+
+Kansas has a mixed record on national ID and privacy issues. The
+state legislature rejected a statewide E-Verify mandate in
+2012.92 On the other
+hand, Kansas is fully compliant with the DHS’s current REAL ID Act
+requirements — indeed, the state was nearly fully compliant
+when the original compliance benchmarks were first rolled
+out.93 The state uses
+facial recognition, and the data are maintained by the state DMV,
+ostensibly to prevent the issuance of multiple licenses to one
+individual.94
+
+Individual jurisdictions in Kansas use license-plate-capture
+technology, with local police forces apparently setting their own
+standards for how long the data are held and who can access it. A
+2012 Freedom of Information request from Kansas’s branch of the
+ACLU to the local police department of the small town of Hutchinson
+shed some light on these policies.95 Hutchinson’s response to the
+request stated that the department kept all data until space was
+needed on its servers, that any officer could access the data, and
+that it could be shared with other forces and agencies as part of
+an investigation. The response stated that the Hutchinson Police
+Department has neither training materials for the system nor any
+training program at all. If Hutchinson’s example is anything to go
+by, all Kansans should be concerned.
+
+Kentucky had one of the better records on privacy and ID with
+respect to participation in federal programs, but it recently moved
+toward complying with REAL ID.96 The state does not require
+use of E-Verify by public or private employers.
+
+However, the state has maintained (since 2005) a facial
+recognition database that uses driver’s license pictures.97 Access to the data is
+limited, according to one report; only 34 DMV and law-enforcement
+officials can access the database.98 The effectiveness of
+Kentucky’s system has been questioned. The Electronic Frontier
+Foundation has asserted that Kentucky’s system is largely useless
+without “sterile” conditions, requiring a suspect’s picture to be
+at the same angle as a DMV-taken picture to return an effective
+result.99 If true,
+Kentuckians should ask why they are paying for the system.
+
+Louisiana has a mixed record on anti-privacy and ID programs. On
+E-Verify, the state’s approach is largely governed by two 2011
+laws: HB342 and HB646.100 The bills amended state law
+to mandate E-Verify use for government contractors (but not public
+employees) and to require private employers to check their new
+hires’ IDs. The statute recommends — but does not mandate
+— the use of the federal system. Louisiana does not allow
+automatic license plate readers; on June 19, 2015, then-governor
+Bobby Jindal (R) vetoed a bill that would have allowed widespread
+use of automatic license plate readers by law enforcement.101
+
+On facial recognition systems, Louisiana is one of 13 states
+declining to use the technology for licensing or law-enforcement
+purposes. However, Louisiana is compliant with REAL ID thanks to
+2016 legislation signed by Gov. John Bel Edwards (D).102
+
+Worsening matters for Louisianans, the summer of 2016 saw a
+massive data breach of the state’s driver information databases.
+Coinciding roughly with the state’s adoption of REAL ID, more than
+290,000 residents of Louisiana were apparently affected by the
+breach. The stolen information was typical of that which is held by
+motor vehicle bureaus: name, license number, state of issuance,
+address, phone number, email address, and driving records.
+Louisiana’s adoption of REAL ID will make such occurrences more
+consequential in the future.103
+
+In total, Louisiana is quite good on plate capture and facial
+recognition technology. One can hope that it will continue to be so
+in the future. On REAL ID and E-Verify, it has plenty of room to
+improve.
+
+The Pine Tree State’s former strong record on ID privacy took a
+step backward early last year with the passage of REAL ID
+compliance legislation. Maine’s legislature passed noncompliance
+resolutions for REAL ID as early as 2007, and the state remained
+noncompliant for a long time in the face of federal efforts to
+force adoption of the national ID law.104 In April 2017, the state
+legislature finally capitulated, passing legislation to enter Maine
+into the national ID system.105 On the other big federal
+identification program, E-Verify, Maine does not impose a mandate
+on public or private workers.106 Maine employers are free to
+choose whether they want to use the system.
+
+Maine has arguably taken one of the strongest
+anti-facial-recognition-software stances in the country. The state
+does not use the technology; according to Secretary of State
+Matthew Dunlap, the state government prohibits its use by any state
+agency.107 Only one
+county in the state has purchased software for its police force,
+and the press coverage of Cumberland County’s decision to spend
+$35,000 on an error-ridden, privacy-trampling system has been
+hostile to say the least.108
+
+Maine has taken similarly strong stands on the issue of
+license-plate-capture technology. A 2009 law places hard limits on
+what law enforcement and the state Department of Transportation can
+and can’t do with plate capture data.109 Plate captures can be only
+for legitimate law-enforcement purposes, the data must be kept
+confidential, and that information may not be stored for longer
+than 21 days if not part of an active investigation.110 Maine’s law is a model for
+other states.
+
+The Old Bay State has a mixed record on federal programs and a
+poor one on the new national ID programs. Maryland does not mandate
+the use of E-Verify for public and private employees or for
+government contractors. However, it is REAL ID compliant, issuing
+gold-star licenses to all citizens and legal residents, though it
+does give non-REAL ID licenses to unauthorized aliens who can prove
+residency in Maryland.111 Maryland is also a
+participant in the RIDE program.112
+
+Maryland allows license plate reader technology to be used by
+law enforcement. However, the use of the technology is subject to a
+2014 law that limits its usage and places restrictions on access,
+data use, and data retention.113 While not perfect, the law
+is a step in the right direction.
+
+However, the state put in place a facial recognition system in
+March of 2011. This system was originally run by the state
+Department of Public Safety and Correctional Services, which
+oversees the state police and prison system. More than 2.1 million
+photos of offenders and convicts were uploaded. But the database
+does not stop there. In December 2011, Maryland joined Hawaii and
+signed an MOU with the FBI, integrating the state’s smaller
+database with the Bureau’s larger database of more than 12 million
+photos.114
+
+Some may not have many qualms about sharing perpetrator photos
+with the chief federal law-enforcement agency. In the spring of
+2013, though, Maryland added nearly 6 million driver photos from
+the state’s Motor Vehicle Administration to the state (and, via the
+MOU, to the federal) photo database. Maryland has erected a
+formidable surveillance system. It’s not just criminals and
+convicts anymore who have to fear: it’s millions of law-abiding
+Marylanders, too.
+
+Massachusetts’s experiences with privacy and ID (and facial
+recognition, in particular) offer a fine example of the danger and
+the absurdity of the new national ID. That the state does not
+mandate or encourage the use of E-Verify is helpful, but that fact
+does not detract from a problematic facial recognition
+system.115
+
+The state Registry of Motor Vehicles (RMV) maintains facial
+recognition software and a database of license photos, which state
+police can access if they make a request.116 Recent technological
+advances have given county sheriffs’ departments the ability to
+access the databases remotely, turning patrol cars into arms of a
+vast, networked database.117
+
+The experiences of one Massachusetts resident highlight the
+dangers and absurdities of these programs. In 2011, John H. Gass, a
+law-abiding resident of Natick, received a notification from the
+RMV informing him that his license had been revoked. It turned out
+that the state’s facial recognition software had flagged his
+license picture as a duplicate of an existing picture; apparently,
+Gass bore a resemblance to one of Massachusetts’s other 4.6 million
+drivers. The innocent man was forced to go through a lengthy
+process of appeals with the RMV, which required that he prove to
+that department that he was who he said he was.118
+
+Gass’s experience is a hint of what may be to come under
+centralized governmental ID systems. Americans may increasingly
+find themselves having to prove their identity to the government
+using government documents and government-issued IDs that the
+government asserts are fake or false. It creates an absurd cycle,
+where the burden of proof is placed on the defendant (the ordinary
+citizen) as opposed to the accuser (the government). Gass’s
+experience should be a wake-up call to Massachusetts and America as
+a whole.119
+Massachusetts signed up for REAL ID compliance in July of
+2016.120
+
+Michigan has a mixed record on protecting the privacy and ID
+rights of its citizens. On REAL ID, DHS considers the Wolverine
+State technically noncompliant, but it has begun issuing federally
+compliant IDs, and several benchmarks have been met.121 On E-Verify, the state has
+no mandate for public or most private workers, with the only
+mandate being imposed upon government contractors who work with the
+state Department of Transportation.122
+
+Michigan has not put in place facial recognition software as
+part of its licensing process. However, the state police force does
+use the technology, including mug shots, correctional facility
+photos, and photographs taken as part of active
+investigations.123 As
+one of four states to sign an MOU with the FBI as part of the
+Bureau’s NGI program, Michigan’s system is connected to the federal
+test system. Michiganders may take solace in knowing that the
+program is currently confined to mugshots and pictures of
+criminals, but they should worry about the day when the state turns
+over its vast database of driver’s license photos.
+
+Minnesota recently moved from having a somewhat good record on
+privacy protection and ID issues to a decidedly mixed one. The
+state was long noncompliant with the REAL ID Act, even defiant of
+it with a ban against participation enshrined into state law in
+2009.124 However,
+Minnesota finally succumbed to DHS threats and adopted compliance
+legislation in May 2017.125
+
+Use of the federal E-Verify system is only required for
+government contractors executing contracts of more than
+$50,000.126 In 2009,
+former governor Tim Pawlenty (R) implemented an executive order for
+all new public employees to be verified; in 2011 Pawlenty’s
+successor, Gov. Mark Dayton (D), vetoed an attempt by legislators
+to reimpose the mandate and allowed the order to lapse.127
+
+Minnesota’s law enforcement and DMV use facial recognition
+software. The former uses the technology in correctional facilities
+and to run mugshots through a database of known felons, while the
+latter uses it to protect against multiple-license fraud.128 Minnesota law circumscribes
+how facial images can be used.129
+
+That law hasn’t stopped some officers and officials from abusing
+the system. Illicit and illegal searches of the system appear to be
+rampant in Minnesota. More than 8,400 verified illicit lookups of
+information were conducted according to an audit by state
+officials, revealing photographs, addresses, and driving records,
+typically of women who are former police officers, TV news
+personalities, and ex-partners of public employees.130 Potentially 19,000 more were
+conducted by a single employee of the state’s Department of Natural
+Resources. Eighteen federal lawsuits against towns and the state
+have been launched over the rampant abuse, and more may be in the
+pipeline.131
+
+On the issue of plate capture, 2014 legislation included
+language from an earlier bill that aimed to restrict the practice.
+The final bill, as passed, effectively creates a 120-day limit for
+use of the data by the appropriate law-enforcement agency. If the
+captured images and data are not being used, they are reclassified
+as private data (as opposed to confidential data), which is more
+carefully protected under the law.132 Again, this is a small
+protection, but it is a protection nonetheless.
+
+Like neighboring Alabama, Mississippi has a poor record on ID
+privacy. The state is compliant with REAL ID and, to make matters
+worse, is DHS’s lead state in a consortium studying how to better
+integrate state and federal information databases.133 Mississippi mandates that
+all employers use the E-Verify system, and the state is also a
+member of the RIDE program, allowing for checks of employees’
+driver’s licenses as part of E-Verify’s verification process.
+
+On the facial recognition front, Mississippi has one of the
+longest-running programs in place, first implemented in
+2003.134 In addition to
+integrating the state police’s collection of images with those of
+the state’s 82 county forces and numerous municipal forces,
+Mississippi allows law enforcement to access the state’s driver’s
+license photo database under certain circumstances. Additionally,
+police forces in the state use license- plate-capture technology,
+especially in large municipalities such as Jackson.135
+
+Missouri has recently faltered from its generally good record on
+privacy issues. The state was noncompliant with REAL ID (with a
+strict legislative ban on compliance in place),136 but recently adopted
+legislation to come into compliance with the DHS’s current
+requirements under the national ID law.137 Missouri also has an
+E-Verify mandate in place for public employees and government
+contractors working on contracts of more than $5,000; however,
+there is no private-sector mandate.138
+
+On the issue of facial recognition software, Missouri signed a
+contract with a vendor to implement a driver’s license facial
+recognition system in 2011. In 2013, however, work on the system
+stopped.139 Opposition
+to implementing the intrusive system surfaced in both the state
+House and state Senate, and the fiscal year 2014 appropriations
+bill for the state Department of Transportation included a clause
+that killed funding for any photo verification system.140 By doing so, Missouri’s
+legislature struck a blow for liberty.
+
+Like several other states, Montana enshrines the right to
+privacy in its constitution. Article 2, Section 10, of the Montana
+constitution notes that “[t]he right of individual privacy is
+essential to the well-being of a free society and shall not be
+infringed without the showing of a compelling state
+interest.”141 How, then,
+does the Big Sky Country stack up when it comes to privacy?
+
+Montana has done well to resist REAL ID in the past but recently
+moved to grudgingly comply with the national ID law. Recent
+legislation gives Montanans the option of paying a fee for a
+special license that complies with federal requirements.142 The state has no E-Verify
+mandate in place for either public or private employers. On the two
+state-federal collaborative programs, then, Montana until recently
+did very well.
+
+At the state level, Montana uses facial recognition technology
+as part of its licensing process, ostensibly to prevent fraud and
+multiple issuances.143
+Police are unable to access the database of photos.144 Police forces in the state
+do not currently use license plate readers, though, and there is a
+budding legislative movement against allowing the technology to be
+used.145
+
+Nebraska has a poor record on privacy and ID issues. In fact, it
+is the one state that does everything on the new national ID list.
+The state is fully compliant with the current requirements of the
+federal REAL ID Act, adopting most of the law’s provisions via
+2009’s LB 261.146
+Nebraska also has an E-Verify mandate in place for public-sector
+employees and government contractors, and the state Department of
+Revenue grants tax breaks to certain categories of private
+employers if they use the federal program.147 Businesses are given
+financial incentives to embrace E-Verify, as opposed to putting in
+place a hard mandate. Some local municipalities (most notably, the
+town of Fremont) have put in place their own private sector
+E-Verify mandates, despite ongoing legal challenges.148 Additionally, Nebraska is
+one of the few states to participate in RIDE.149
+
+As part of its embrace of REAL ID, Nebraska integrated facial
+recognition into its licensing process in 2009.150 State statutes prevent the
+dissemination of driver’s license photos to any but local, state,
+or federal law enforcement undertaking an investigation,151 with most requests for
+access routed through the Nebraska Criminal Justice Information
+System.152 Nebraska has,
+however, entered into an MOU with the FBI for the Bureau’s NGI
+program, providing easy access to the database for federal
+investigators.153
+Combined with Nebraska’s various police agencies’ heavy and
+increasing use of license-plate-capture technology, Nebraskans are
+unwitting participants in the new national ID system.154
+
+What happens in Vegas stays in Vegas — on video. That
+statement applies also to Nevada’s new national ID programs. The
+state deserves credit, though, for avoiding federal mandates in the
+past.
+
+On REAL ID, the Silver State is currently compliant with DHS’s
+requirements, having reversed its earlier opposition to the
+national ID program. The state legislature passed an
+anti-compliance resolution as early as 2007.155 But in 2009, then-governor
+Jim Gibbons (R), a REAL ID proponent, issued an executive order to
+the state DMV ordering compliance. A successful lawsuit brought by
+the state ACLU, the Clark County Republican Party, gun rights
+groups, and libertarian groups killed the governor’s backdoor
+implementation.156
+Proponents, however, tried again, and the legislature brought the
+state into compliance. In 2015, Nevada began issuing REAL
+ID-compliant licenses.
+
+E-Verify, too, has met opposition in Nevada — an
+unsurprising fact in a state with a large population of native-born
+Hispanic Americans, who are more likely than others to encounter
+mix-ups in the system and discrimination from employers. The state
+has so far declined to put in place public- or private-sector
+mandates, despite the urgings and efforts of some elected
+officials.157
+
+Nevada does, however, have in place a facial recognition system
+as part of the state’s licensing process. The system is internal to
+the DMV and is typically accessed only by “sworn employees”
+investigating potential cases of license fraud.158 Importantly, police do not
+have free access; they must submit photos to the DMV to have them
+run through the system.159 It’s a small protection, but
+a protection nonetheless.
+
+Unfortunately, the state does use license plate reader
+technology, as well. The Nevada Highway Patrol (NHP) uses the
+technology in conjunction with the federal Drug Enforcement Agency
+(the state force having no tracking devices of its own). The reader
+units themselves belong to the Drug Enforcement Agency, with the
+NHP passing plate captures along to the federal agency — in
+effect, acting as deputies for federal law enforcement.160 Local jurisdictions such as
+Boulder City, Reno, and Henderson use their own, independent
+readers for local law enforcement, as well.161
+
+If any state in the Union is associated with the ideas of
+liberty and government noninterference in the lives of citizens, it
+is New Hampshire, home of “Live Free or Die” and a flinty
+libertarian tradition. Unsurprisingly, New Hampshire does well on
+protecting the liberties and privacy of its citizens from the new
+national ID, though it has recently weakened. Efforts by members of
+the state legislature to introduce E-Verify mandates have been
+rejected in several sessions of the legislature, with a recent
+example — HB267 — being ruled “inexpedient to
+legislate” on during the 2015 session.162
+
+Additionally, state law makes the use of facial recognition
+scanners by the DMV and law enforcement exceedingly difficult, if
+not impossible. Section 260:10-b of the state code prevents the
+state from collecting — in conjunction with licensing or
+motor vehicle registration — most forms of biometric data,
+including facial scans and retina scans.163 Other provisions create
+strict standards and regulations for law enforcement’s use and
+maintenance of any of the biometric data that are collected as part
+of legitimate criminal investigations.164
+
+Finally, New Hampshire does not allow the use of
+license-plate-capture technology. The law is clear: Section
+261:75-b of the state code bluntly states, “The use of automated
+number plate scanning devices is prohibited except as provided in
+RSA 236:130.”165 The
+sole exceptions are when the scanning is permitted on a
+case-by-case basis as part of an active investigation (blocking
+random, roving scans) or for operating automated toll systems,
+among other mundane administrative tasks of the state Department of
+Transportation.166 Even
+then, hard blocks are in place about how the data can be used,
+along with explicit prohibitions on transmission of data or its use
+for roving or illicit surveillance.
+
+However, there is one black mark on New Hampshire’s record: REAL
+ID. New Hampshire was an early state to reject REAL ID, passing a
+ban on implementation of the federal standards in June
+2007.167 That ban was
+overturned in May 2016 with the passage of HB 1616, a bill to bring
+New Hampshire — the birthplace of the REAL ID rebellion
+— into compliance with the federal ID law. Effective January
+1, 2017, New Hampshire began issuing REAL ID licenses.168
+
+New Jersey’s record on privacy and ID rights is mixed, at best.
+For a long time, the Garden State was noncompliant with REAL ID,
+but that noncompliance was something of a fluke: the state was
+moving ahead with compliance until a court order suspended the
+effort. Since then, it has become clear that state officials will
+bring the state into line with the federal ID standards.169 Efforts to implement
+mandatory E-Verify in New Jersey for all employers have failed in
+successive sessions of the legislature, with the same bill being
+introduced in 2010 and in 2014.170
+
+The state has, however, implemented facial recognition software
+for licensing and for law enforcement. A vast review of every New
+Jersey facial image (creatively titled Operation Facial Scrub) was
+conducted between 2011 and 2013, with more than 19 million photos
+in the state Motor Vehicle Commission’s database scanned to look
+for duplicates.171 All
+new pictures in the database will be “scrubbed” against existing
+photos as they are added. As Massachusetts’s problems with false
+matches have shown, innocent New Jerseyans will risk falling afoul
+of these automated scrubs.
+
+Finally, New Jersey — famous (or infamous) for its Parkway
+and Turnpike — is no stranger to the use of license plate
+readers by state police and municipal police forces. The state’s
+regulations relating to the use of the readers are extremely loose.
+A 2010 directive issued by the state attorney general limits scans
+to license plates on vehicles that are in public view, which is
+defined as “vehicles on a public road or street, or that are on
+private property but whose license plate(s) are visible from a
+public road, street, or a place to which members of the public have
+access, such as the parking lot of a shopping mall or other
+business establishment.”172 In short, any car in New
+Jersey that is not parked in a closed private garage is fair game
+for a roving license plate reader.173
+
+New Mexico once rejected compliance with REAL ID; the state’s
+practice of issuing standard, undifferentiated driver’s licenses to
+unauthorized migrant residents ensured that it could not comply
+with the terms of the national ID law.174 In late 2016, however, New
+Mexico adopted a two-tiered licensing system, offering both
+compliant and noncompliant licenses.
+
+The Enchantment State imposes no E-Verify mandates on either
+public or private employees.175 Given the large Hispanic
+American population and the rather vocal opposition of local
+activists, officials, and the Catholic Archdiocese of Santa Fe to
+anti-immigrant ordinances, the state’s reluctance to push E-Verify
+is unsurprising.
+
+New Mexico does, however, have a robust facial recognition
+system in operation at the state DMV. The state uses the technology
+for law-enforcement purposes, too. To make matters worse, New
+Mexico is one of several states to sign an MOU with the FBI about
+the Bureau’s NGI program.176 Although the pictures and
+images that are — so far — being uploaded are mugshots,
+correctional facility images, and so on, it’s not a huge leap to
+imagine New Mexico’s driver’s license images joining the federal
+government’s ever-expanding database for facial recognition in the
+future.
+
+Like California, the sheer size of New York’s population and its
+influence on matters of public policy give the state weight beyond
+that of most others. How does New York fare when it comes to
+protecting the privacy and ID rights of its citizens? New York’s
+record, like California’s, is complicated.
+
+Like many, the Empire State was noncompliant with REAL ID until
+recently. It is now issuing gold-star licenses to make the state’s
+driver-licensing regime acceptable to the federal
+government.177 New York
+does not enforce an E-Verify mandate, either. The state does,
+however, use a robust facial recognition system as part of its
+licensing process. “Robust” may be understatement; the state DMV
+maintains a database of more than 20 million images against which
+every new picture is scanned. Ostensibly to fight fraud, state
+officials have touted 13,000 investigations and 2,500
+arrests.178
+
+As in New Jersey and Massachusetts, the technology raises the
+specter of false positives and the risk of citizens being forced to
+prove to the state that they are who they say they are without
+using their driver’s licenses. As the New York Police Department
+(NYPD) (the largest municipal police force in the United States)
+and other forces begin to use facial recognition software as a
+policing tool, the likelihood of errors creating legal challenges
+and rights violations for innocent citizens grows.179
+
+Unsurprisingly, too, the NYPD and other police forces have been
+eager adopters of license-plate-capture technology. In Manhattan,
+for example, it is impossible to enter or leave the borough by car
+without having one’s license plate scanned; all of the bridges and
+tunnels into and out of the island are covered.180 Mobile readers in the city
+and fixed-location cameras (both public and private) have given the
+NYPD a database of more than 16 million plate captures (as of
+2013), which can be stored for up to five years and run through the
+city’s multimillion dollar, dashboard-equipped Domain Awareness
+System.181 Other cities
+and towns are getting on board, too, with the state earmarking
+roughly half a million dollars in grants to local forces for the
+purposes of getting their own systems.182 Leviathan grows in New
+York.
+
+North Carolina has a poor record when it comes to protecting the
+privacy and ID rights of its residents. State officials brought the
+state’s licensing regime into compliance last year, and several of
+the DHS benchmarks for REAL ID compliance have been
+implemented.183 If that
+isn’t bad enough, the state also imposes an E-Verify mandate on all
+public and private employers.184 The 2012 legislative
+session’s HB36 apes federal proposals for mandatory E-Verify, with
+staged implementation based on the size of the employer coming
+fully into effect for all businesses in July 2013. An earlier bill,
+SB1523 in 2007, implemented a mandatory requirement for all public
+employees and government contractors.185
+
+Unsurprisingly, North Carolina’s DMV and law enforcement use
+facial recognition technology and license plate capture. The state
+was one of the earlier adopters of facial recognition technology
+(as early as 2004). Having signed an MOU with the FBI, it shares
+its vast driver and criminal databases with the federal
+government.186 License
+plate captures are also poorly protected; a 2013 bill to regulate
+law enforcement’s use of the technology and provide some clarity to
+the state’s murky laws and regulations governing it died in the
+state Senate.187
+
+North Dakota once rejected compliance with REAL ID, but recently
+made the national ID an “opt-in” program for its residents.188 The state has not
+implemented E-Verify mandates for public- and private-sector
+employers.189 North
+Dakota does, however, participate in the RIDE program, tying the
+state’s DMV database to the (for employers) voluntary E-Verify
+process.190
+
+The state uses facial recognition technology at its DMV and has
+done so since 2010.191
+Police appear to have limited access to the database, as part of
+the DMV’s fraud prevention. License plate readers do not appear to
+be used in the state, although some assert that the Bismarck Police
+Department does — clandestinely — operate the
+technology; the Bismarck Police Department denies this
+charge.192
+
+Ohio has a mixed record on the issue of privacy and ID rights,
+with some spectacular highs and lows. Ohio is the only state (so
+far) to embrace REAL ID, reject it, and then embrace it again.
+Deemed compliant by DHS in December 2012, the Buckeye State rolled
+back compliance, citing concerns over privacy and data
+protection.193 It then
+reversed course again and brought Ohio’s licenses into compliance
+once again in 2015.194
+Ohio has not imposed an E-Verify mandate, with a 2012 bill to do so
+dying in the legislature.195
+
+Ohio runs a facial recognition system at its DMV (an offshoot of
+REAL ID compliance); according to one report, the state has the
+loosest standards in the nation for access to the database.196 More than 30,000 state and
+local police officers and court employees can access the Ohio
+database, which was established by and is still run by the state
+attorney general’s office (in contrast to other states, where the
+databases are under the purview of the motor vehicle bureau). By
+comparison, only 34 people in neighboring Kentucky can access that
+state’s database, and all those who do must receive training on the
+system. In Ohio, there is little in the way of formal training and
+little in the way of checks on access. Indeed, information is
+shared not only with Ohio officers and government employees, but
+also with their federal counterparts and counterparts in other
+states.197
+
+Little has been done to tighten Ohio’s standards and practices
+for access and use of its facial recognition database. The
+potential for abuse is ripe, and Ohioans should be deeply concerned
+about the easy access to their personal biometric information.
+Ohio’s lax treatment and security should also concern all
+Americans. As goes Ohio, so could go the whole country.
+
+Oklahoma recently caved in an important way on protecting
+citizens’ privacy and ID rights. The state and successive
+gubernatorial administrations had been staunch opponents of the
+federal REAL ID Act, banning compliance through 2007’s Oklahoma SB
+464. But in early 2017, the Oklahoma legislature passed, and Gov.
+Mary Fallin (R) signed, legislation to bring the state into
+compliance with federal mandates.198 Oklahoma also has an
+E-Verify mandate in the form of 2007’s Oklahoma Taxpayer and
+Citizen’s Protection Act (HB 1804).199 The mandate applies only to
+public-sector workers and government contractors, however; it does
+not include a private-sector component.
+
+The state does not use a facial recognition system as part of
+its licensing process. However, it does capture other biometric
+information as part of the process (namely, fingerprinting) and
+does use high-quality photography. Oklahoma’s use of biometrics has
+received some outside attention from Tea Party members and
+religious groups because of a lawsuit brought by state resident
+Kaye Beach. Beach’s suit objects to the biometric requirements of
+the state’s licensing regime on the grounds of privacy and
+religious freedom, calling the technology the “mark of the
+Beast.”200
+
+Finally, since 2012, Oklahoma City Police — the largest
+municipal police force in the state — have used license plate
+readers, retaining the resulting data for up to 90 days.201 The ACLU has found that
+three other jurisdictions — Tulsa, Norman, and Lawton —
+use the technology, meaning that the state’s four largest
+municipalities (and four-largest population centers) capture
+license plates with little oversight.202
+
+Like the other states in the Pacific Northwest, Oregon has had a
+good record on protecting privacy and ID rights — with a few
+notable and recent hiccups. Oregon has rejected mandates for
+E-Verify for both public- and private-sector employers.203 The state was firmly
+noncompliant with REAL ID, having banned compliance by statute in
+2009, but legislation passed in July 2017 puts the state on a path
+to implementation of the national ID law.204
+
+Oregon does use facial recognition software at its DMV. Although
+Oregon’s facial recognition technology, collection of other
+biometrics, and collection of personal information seem as ominous
+as comparable actions in other states, the Beaver State has one
+thing that most other states don’t: ironclad privacy protections in
+the state code. Section 801.063 bars unwarranted and warrantless
+disclosure of DMV information to outside parties, and it explicitly
+bans participation in federal or multistate data sharing schemes
+unless and until the other jurisdictions meet Oregon’s high
+standards for privacy protection.205
+
+Oregon does a good job of protecting biometric data, and a
+movement is beginning to protect other forms of data. Spurred by
+the National Security Agency spying scandal and the revelation that
+Portland’s police department is capturing more than 100,000 license
+plate images a day, legislators have considered important
+controls.206
+
+Pennsylvania’s record on privacy and ID rights is poor.
+Promisingly, the Keystone State rejected compliance with the
+federal REAL ID Act through legislation in May 2012.207 But in the spring of 2017,
+it capitulated to the federal government and passed legislation to
+implement REAL ID, which will cost the state $27 million in the
+first year and between $17 million and $20 million per year
+thereafter.208
+Pennsylvania adopted a public-sector and government contractor
+E-Verify mandate almost simultaneously with its July 2012 rejection
+of REAL ID. That mandate imposes heavy fines and gives the state
+the ability to suspend business licenses for repeat failures to use
+the E-Verify system.209
+
+Pennsylvania has, unfortunately, a facial recognition system
+that it uses at its DMV, despite rejecting REAL ID. To make matters
+worse, the state has fully integrated its driver database with
+state law enforcement’s Justice Network.210 The Justice Network’s facial
+recognition system has access to every Pennsylvania driver’s image,
+allowing 500 local, state, and federal law-enforcement agencies to
+access driver images. The pre-Justice Network database was
+accessible only to state police and the state attorney general’s
+office. Although not as bad as Ohio’s vast and easy access,
+Pennsylvania has drastically expanded both the scope and level of
+access to the biometric data of its 8.8 million drivers.
+
+The smallest state has some worrisome policies when it comes to
+the protection of citizens’ privacy and ID rights. Not all are bad.
+In 2011, Gov. Lincoln Chafee (I) overturned an E-Verify mandate
+imposed by his predecessor in 2007.211
+
+Although noncompliant for many years, the state embraced several
+of the benchmarks of REAL ID and went beyond it with an advanced
+facial recognition system and the collection of other biometric
+information.212 Governor
+Gina Raimondo (D) recently determined to bring the state into
+compliance with REAL ID.213
+
+Law enforcement can freely tap into the facial recognition
+database. There are no checks on license plate capture, the other
+scourge of privacy and free travel. There have been moves to make
+it more pervasive; two bills during the 2013 session of the Rhode
+Island legislature would have expanded the scope of usage by
+police.214 They expired
+before the session ended.
+
+Rhode Island’s code allows for untrammeled storage of digital
+data and for the digitization of analog information. This storage
+includes facial information, other biometrics, Social Security
+numbers, tax numbers, and most other forms of personal
+identifiers.215
+
+South Carolina is part of that small group of states that
+enshrines a right to privacy in its state constitution. Article 1,
+Section 10, of South Carolina’s constitution is largely a
+restatement of the federal Fourth Amendment, guaranteeing South
+Carolinians protections against unreasonable invasions of privacy
+and promising that no searches or seizures of items or information
+will be conducted without a warrant issued based upon probable
+cause.216
+
+The Palmetto State was one of the earliest states to adopt an
+E-Verify mandate. In June 2008, the South Carolina Illegal
+Immigration Reform Act was signed into law, with the mandate coming
+into effect on July 1, 2009.217 When it kicked in, the state
+imposed a mandate on public and private employers with more than
+100 employees, going so far as to issue employment licenses to
+private employers and requiring verification of new hires as a
+condition for maintaining the license. The mandate kicked in for
+smaller private employers a year later. From that date on, all
+employers in South Carolina and all new employees were effectively
+required to turn over their private information and identification
+to the government for the privilege of running a business or
+earning a salary. It hardly comports with the state constitution’s
+high-minded language.
+
+South Carolina was stoutly resistant to REAL ID for a long time.
+However, the state still implemented several of the federal act’s
+benchmarks and was integrating a new facial recognition system into
+its DMV’s licensing process. Finally, in April 2017 South Carolina
+adopted legislation to bring the state into compliance with the
+national ID law.218
+
+To make matters worse, South Carolina has signed an MOU with the
+FBI to join the NGI.219
+Although the memorandum is not yet public, similar agreements with
+other states and the Bureau’s sample memorandum would point to
+South Carolina’s agreement being largely similar to others; the
+state’s criminal photo database and its license database will be
+integrated into the FBI’s own system. Millions of law-abiding South
+Carolinians will have their pictures available for the FBI’s
+perusal.
+
+Law-enforcement officials in South Carolina can and do use
+license plate reader technology. The state police supervisory
+agency, the South Carolina Law Enforcement Division, operates an
+integrated plate reader system that allows participating local
+enforcement to “compare scanned numbers against stolen license
+plate information.” This system, dubbed NCICEXT, draws from the
+integrated federal National Crime Information Center.220
+
+South Dakota’s record is mixed. The state is compliant with
+DHS’s REAL ID benchmarks. The state legislature embraced the
+federal law’s onerous requirements in 2009, after having passed a
+strongly worded anti-REAL ID resolution only a year earlier. DHS
+deemed the state compliant in 2012. Conversely, South Dakota does
+not impose an E-Verify mandate on employers, and voluntary uptake
+of the federal verification system has been relatively low
+(hovering around 1.5 percent of registered businesses in the state
+in 2011).221
+
+At the same time South Dakota embraced REAL ID, it embraced
+facial recognition. The state’s adoption of the technology was
+quiet — so quiet that most members of the state legislature
+were not even aware of the state DMV’s $600,000 purchase and
+installation of the necessary hardware and software.222 Nor were they aware that
+access to the database can be granted to state law enforcement
+without a warrant. All officers need, according to the program’s
+manager, is to be involved in an active investigation and make a
+request to the manager’s office.223 The lack of legislative
+oversight and judicial process is troubling, to say the least.
+
+Finally, South Dakota does have license plate readers —
+but only in small Aberdeen. Installed on two of the town’s eight
+police cars, it was paid for by a $38,000 DHS grant. The money gave
+the town the dubious distinction of being the only one to use it in
+the Mount Rushmore State.224
+
+The Volunteer State’s record is poor on privacy and ID issues.
+Tennessee is compliant with REAL ID, according to DHS’s current
+standards, despite some early opposition in the
+legislature.225 Driver
+information — including facial scans, biometric data, and
+other physical markers — is considered protected information
+under state law, with penalties for disclosure or illicit access to
+systems containing the information.226 However, the state allows
+for disclosures of the information to police and other
+law-enforcement officials conducting “any civil, criminal,
+administrative, or arbitral proceeding in any federal, state, or
+local court or agency or before any self-regulatory body, including
+the service of process, investigation in anticipation of
+litigation, and the execution or enforcement of judgments and
+orders, or pursuant to an order of a federal, state or local
+court.”227 Information
+is also allowed to be disclosed to insurers, researchers,
+marketers, and other private individuals or groups, provided they
+can prove a need and promise not to disclose information without
+the subject’s consent.228 In short, the protections
+are loose.
+
+Additionally, Tennessee was an eager adopter of an E-Verify
+mandate, with Gov. Bill Haslam (R) signing the Lawful Employment
+Act in 2011.229 The law
+largely mirrors South Carolina’s staged implementation of a
+mandate, ordering private businesses of decreasing size to use the
+system by certain dates. Only employers with fewer than five
+employees are exempt. Tennessee’s law broadly resembles proposals
+floated by certain federal politicians for national mandatory
+E-Verify, such as in the 2013 Senate omnibus immigration
+bill.230
+
+Finally, Tennessee’s police forces have been eager adopters of
+license plate readers. The Tennessee Highway Patrol operates at
+least 48 mounted devices statewide, all paid for in part by a grant
+from the federal government.231 Large municipalities such as
+Clarksville, Jackson, and Nashville all have local police forces
+that operate plate readers; Murfreesboro and Knoxville do
+not.232 Of course, since
+the Highway Patrol operates statewide, all Tennesseans face the
+risk of having their locations and movements tracked by the
+state.
+
+Texas’s sheer size in both geography and population means that
+the state (like California and New York) plays an outsized role in
+national debates. All in all, when it comes to privacy, the Lone
+Star State’s record is mixed, with some strengths and
+weaknesses.
+
+In December 2014, then-governor Rick Perry (R) issued Executive
+Order RP-80, which requires all state agencies and contractors
+engaged in projects with state agencies to use E-Verify.233 In 2015, SB 374 put the
+E-Verify requirement into statute and expanded it to include public
+higher-education institutions.234
+
+Texas began complying with DHS’s requirements under the REAL ID
+Act in 2016, and even before that the state had adopted many of
+DHS’s compliance benchmarks.235 Those benchmarks include
+biometrics collection and, at the DMV, a facial recognition system.
+Most prominently, as part of issuing new licenses or renewing old
+ones, the state now demands that Texans get fingerprinted, and
+their license photos join millions of others that are in the
+state’s facial image database.236 Both the fingerprint and
+facial-imaging database can be accessed by police to stop fraud,
+terrorism, or illegal immigration or for a host of other
+reasons.237 Although
+searches are supposed to be targeted, 250 Department of Public
+Safety officials (including some members of law enforcement) can
+access the system at will; others must request a search.238
+
+Finally, Texas has little in the way of curbs on the use of
+license plate readers. Indeed, jurisdictions in the state have been
+eager adopters of the technology.239 Jurisdictions ranging from
+Austin and the sprawl of Dallas-Fort Worth to Highland and
+Grapevine have purchased systems, often using funds from the
+federal government with little state oversight or direction. The
+lack of oversight cannot be stressed enough: Grapevine (population
+48,447 in 2012) uses multiple cameras and, according to the
+Grapevine Police Department, imposes no time limits on data
+retention — nor does it control access to the database,
+allowing any officer in the database.240 In a town of fewer than
+50,000 people, police had nearly two million plate captures in
+their database as of August 2012, and the system performed nearly
+16,000 captures a day.241 The numbers raise serious
+concerns about the scope of these systems and programs as they go
+state- and nationwide.
+
+Utah’s record is similarly mixed on privacy and ID issues. The
+Beehive State is REAL ID compliant, despite having a ban on
+compliance on the statute books.242 Utah’s own, state-based
+licensing standards are as strict as those set out by the REAL ID
+Act, and DHS considers Utah licenses to meet federal standards. It
+is, essentially, a pantomime, with Utah enacting REAL ID by another
+name.243 On E-Verify, at
+least, the state is direct in its adoption of the federal program:
+all public-sector entities and all private-sector entities with
+greater than 15 employees must use the verification system.244
+
+Part of Utah’s REAL-ID-but-not-REAL-ID dance is the use of
+biometric and facial recognition software. Access is limited to a
+dozen state Department of Public Safety employees and three
+licensing bureau officials, while other law-enforcement officers
+must provide requests.245 Although the technology’s
+use is largely limited to multiple-license fraud investigations,
+some commentators have noted its potential for expansion and
+becoming mobile. More widespread use will be debated, but at least
+one commentator, writing in the Utah Bar Association’s journal,
+believes that usage would require a warrant under state
+law.246
+
+Finally, Utah has limited the use of license plate readers. Use
+prior to 2012 was largely unrestrained by state statute. That
+changed with 2013’s successful SB196, which created hard time
+limits for how long plate captures could be stored (9 months for
+law enforcement and 30 days for authorized private entities). It
+also lays out when the readers can and cannot be used, prevents
+disclosure, and classifies plate and location information as
+private information under state law.247 Although Utah needs to work
+on its REAL ID and E-Verify problems, the state’s plate capture law
+could serve as a useful model for other states.
+
+Unlike neighboring, libertarian-leaning New Hampshire, Vermont
+has a decidedly mixed record when it comes to the protection of
+privacy and ID rights. Although Vermont has rejected an E-Verify
+mandate for public and private employers, the Green Mountain State
+was an early adopter of the federal national ID law. The state
+began issuing compliant IDs on January 1, 2014.
+
+Even prior to the adoption of REAL ID, Vermont’s issuance of
+(optional) enhanced driver’s licenses (valid for cross-border
+travel with Canada and Mexico) necessitated the establishment of a
+facial recognition system.248 The state claims the use of
+the technology is to fight fraud and multiple license issuance. The
+state DMV does strictly control access to the image database. No
+law-enforcement agency has direct access to the system, and only
+select employees have access within the DMV. Law enforcement is
+required to make requests to the DMV if officials need facial
+images as part of an investigation.249
+
+In a similar vein, Vermont has restricted the use of and access
+to license plate readers. Although police in the state can use the
+devices if necessary, the legislature put in place requirements for
+use. Officers must be trained in the use of the technology, and
+they can access system data only if they are conducting an active
+investigation. A request must be made to a superior for access, and
+periodic reviews must be carried out to ensure that proper
+procedures are being followed.250
+
+The Old Dominion had one of the better records on privacy and ID
+rights until it recently abandoned resistance to REAL ID. Virginia
+has a partial E-Verify mandate. It applies only to new
+public-sector hires; it does not apply to private-sector employers
+or government contractors. The 2009 state legislative session’s HB
+1587 blocked participation in REAL ID so long as participation
+threatens to “compromise the economic privacy or biometric data of
+any resident of the Commonwealth.”251 But early last year the
+Virginia Department of Motor Vehicles began “scrambling” to
+implement the national ID mandate.252
+
+Virginia does not use facial recognition technology as part of
+its licensing process, making it one of the few states not to use
+the technology.253 In
+addition, the state’s licenses are currently issued in greyscale,
+negating one of the biometric markers (skin tone) commonly used by
+facial recognition systems. However, licensing authorities have
+considered implementing the technology in the future, and the
+state’s infamous no-smiling policy is designed to ease a potential
+implementation.254
+
+Virginia’s biggest ID problem does not involve driver’s
+licenses, but rather license plates. Police forces across the state
+use license plate readers; formerly, there was little to no check
+on access or limits on the length of time data may be stored. A
+2012 opinion by then-attorney general Ken Cuccinelli declared that
+keeping a capture for more than 24 hours if it was not tied to an
+active investigation was most likely illegal.255 This prompted some police
+forces to begin dumping data; others, mostly in the Washington,
+D.C., suburbs of Northern Virginia, have continued to retain the
+data.256 A March 2015
+bill in the Virginia legislature to impose further limits on the
+use of the technology passed both chambers, only to be amended by
+Gov. Terry McAullife (D). Unfortunately, that was not the end of
+the fight. After a subsequent showdown with the legislature over
+the scope of the limits on readers, the governor — on the
+losing end of a fight to widen the use of the technology —
+vetoed the legislation. Rather than reaching a compromise that
+would have protected Virginians’ liberties, he let the perfect be
+the enemy of the good and stopped the entire bill.257
+
+Washington was, until recently, one of the leaders on privacy
+and ID issues. The state was firmly noncompliant with REAL ID
+(having banned compliance in 2007’s SB 5087), and it does not
+impose an E-Verify mandate on its citizens and employers.258 But last year, Governor Jay
+Inslee (D) signed legislation to bring Washington into compliance
+with the national ID program.259
+
+The state’s DMV does operate a facial recognition system that is
+used for licensing but, unlike many states, Washington statutorily
+lays out what the system can be used for and who can use it.
+Strictly speaking, only select DMV personnel can access the system
+— according to Washington’s code — and law enforcement
+cannot. The only time law enforcement is allowed access is when
+assisting the DMV in an investigation into license fraud.
+Otherwise, there is no access allowed.260
+
+Washington’s sole blemish on an otherwise spotless record is the
+state’s handling of license plate readers. The devices are not
+restricted under state law. Vehicle registration information (like
+driver’s license information) is considered private, protected
+information under state law — but no such protection exists
+for license plate or GPS data.261 Although the systems are not
+used by municipalities in the state, they are used by state police
+forces, most prominently in Seattle. Washington should follow its
+own example on facial recognition restrictions and apply the same
+level of scrutiny to license plate readers.
+
+West Virginia is no Washington. Although West Virginia does not
+have in place an E-Verify mandate, the state has adopted REAL ID
+standards and is compliant with current DHS standards under the
+federal law and all their liberty-trampling requirements.262 Worse, West Virginia was one
+of the first adopters of then-primitive facial recognition software
+back in 2002. The question of the use of and access to the present
+system is murky, at best, with nothing in the state’s laws
+regulating the system.263
+
+Additionally, while not currently engaged in an MOU with the FBI
+on the Bureau’s NGI program, the state is home to the Biometric
+Center of Excellence, the federal agency’s central testing center
+for biometric data.264
+All these programs, combined with the use of license plate readers
+by state police and local forces large and small, underscore a
+worrisome truth: Mountaineers may always be free, but their state’s
+practices threaten residents’ privacy.
+
+Wisconsin’s record is mixed. The state adopted REAL ID standards
+readily, issuing its first licenses satisfactorily for DHS in early
+2013. At the same time, the state has — so far —
+declined to put in place an E-Verify mandate, but it has decided to
+participate in the attached RIDE program.265
+
+Along with REAL ID standards and stricter driver’s license
+policies, the state implemented a facial recognition system in
+2005. As early as May 2006, state officials were touting how useful
+the technology was in cracking down on fraud and how the DMV could
+run daily thousands of pictures of innocent citizens through a
+database of more than 6 million images.266 State law does prohibit free
+law-enforcement access to the database; all requests must be for
+active investigations, and all must pass through an official at the
+DMV.267 It’s all for the
+greater good, Wisconsinites are told — and they should
+consider themselves lucky, according to one state senator, since
+they’re still allowed to smile in their scanned pictures.268
+
+Wyoming has a strong libertarian tradition, but the state’s
+record is mixed on privacy and ID. Wyoming is one of the states
+that is fully compliant with the federal REAL ID Act, probably the
+greatest blemish on the state’s otherwise good record. It has been
+considered compliant since December 2012. Wyoming does not,
+however, impose an E-Verify mandate, preferring to leave the issue
+of use of the verification system up to the choice of public and
+private employers. The state does, however, participate in the
+E-Verify RIDE program.269
+
+Despite the state’s embrace of REAL ID, Wyoming is the only
+compliant state to not have or use a facial recognition system.
+According to a report from Gannett News Service, one Wyoming DMV
+official contacted for information on the state’s policies was
+unaware that such technology even exists.270 That anecdote raises other
+concerns, but Wyoming’s legislators have an opportunity to
+capitalize on the situation and put a ban in place before the
+state’s driving bureaucrats realize the technology exists.
+
+Finally, according to Freedom of Information Act results
+obtained by Wyoming’s branch of the ACLU, no police force or state
+government entity in the state currently operates license plate
+readers.271 The police
+force in Casper purchased one camera in June 2009, but found the
+camera and system so inefficient that the whole package was
+returned to the vendor in early 2010.272
+
+This work by Cato Institute is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+Receive periodic updates on Cato research, events, and publications.
+
+See our full list of email newsletters
+
+Cato Institute
+1000 Massachusetts Ave, NW
+Washington, DC 20001-5403
+
+Contact Us
+
+Media Contact
