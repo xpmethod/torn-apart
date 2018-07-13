@@ -9,7 +9,7 @@
   { "code": "COUNTY (CORRECTIONS)", "name": "County Corrections"},
   { "code": "LASALLE CORRECTIONS", "name": "LaSalle Corrections", "url": "http://lasallecorrections.com/"},
   { "code": "AGS", "name": "Akima Global Services", "url": "http://www.akimaglobal.com/"},
-  { "code": "ASSET (GUARD)", "name": "Asset (Guard)", },
+  { "code": "ASSET (GUARD)", "name": "Asset (Guard)"},
   { "code": "CITY", "name": "City Gov’t"},
   { "code": "COUNTY", "name": "County Gov’t" },
   { "code": "ORR", "name": "Office of Refugee Resettlement"},
