@@ -21,7 +21,7 @@ export default function(){
       facilities.map( facility => {
         // skip the facility if it doesn't have a state attached to it.
         if (facility["State"]){
-          const stateName = states().filter(state => state.abbreviation === facility["State"])[0].name;
+          const stateName = states.filter(state => state.abbreviation === facility["State"])[0].name;
           // grab the sources for the home state of the facility.
           const sources = sourcesByState[stateName];
           const reportDir = path.join("data", "news-sniffer-reports", facility["DETLOC"]);
