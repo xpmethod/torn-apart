@@ -4,6 +4,7 @@ import { defaultRadius } from "./utils";
 import { select } from "d3-selection";
 import iceFacs from "./ice-facilities.json";
 import detCtrs from "./detention-centers.json";
+import zeroIceFacs from "./unused-ice-facilities.json";
 
 export default function(map) {
   const radius = defaultRadius();
@@ -16,6 +17,8 @@ export default function(map) {
     .attr("id", "d3-dots-svg");
   const iceG = svg.append("g").attr("id", "ice-g").classed("leaflet-zoom-hide", true);
   const dcG = svg.append("g").attr("id", "dc-g").classed("leaflet-zoom-hide", true);
+  const zeroG = svg.append("g").attr("id", "zero-g").classed("leaflet-zoom-hide", true);
+  $("#zero-g").show();
   iceG.selectAll("circle")
     .data(iceFacs.filter(d => d.lat !== "NA"))
     .enter().append("circle")
@@ -45,12 +48,20 @@ export default function(map) {
     .attr("data-operator", d => d["Owner"])
     .attr("id", d => d["DETLOC"] + "-dot")
     .attr("r", radius * 1.5);
+  zeroG.selectAll("circle")
+    .data(zeroIceFacs.filter(d => !isNaN(d.lat)))
+    .enter().append("circle")
+    .style("stroke", "black")
+    .classed("orange-dot", true)
+    .classed("zerofac-dot", true)
+    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("r", radius);
 
   map.on("zoomend", d3Update);
   d3Update();
 
   function d3Update(){
-    [select("#ice-g").selectAll("circle"),
+    [select("#ice-g").selectAll("circle"), select("#zero-g").selectAll("circle"),
       select("#dc-g").selectAll("circle")].forEach(feature => {
       feature.attr("transform", d => {
         const LL = new L.LatLng(d.lat, d.lon);

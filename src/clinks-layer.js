@@ -3,7 +3,6 @@ import { titleUp, defaultRadius } from "./utils";
 import { purple, orange } from "./constants";
 import circleMarker from "./circle-marker";
 import sparkLine from "./spark-line";
-import zeroIceFacs from "./unused-ice-facilities.json";
 import iceFacs from "./ice-facilities.json";
 import imgurImages from "./imgur-images.json";
 import detCtrs from "./detention-centers.json";
@@ -11,15 +10,8 @@ import detCtrs from "./detention-centers.json";
 export default function() {
   const radius = defaultRadius();
   const indexLayer = L.layerGroup();
-  const zeroIceFacsLayer = L.layerGroup();
   const iceFacsLayer = L.layerGroup();
   const detCtrsLayer = L.layerGroup();
-  
-  zeroIceFacs.map(place => {
-    if(!isNaN(place.lat)){
-      zeroIceFacsLayer.addLayer(circleMarker(place, radius, orange, false, 0.8));
-    }
-  });
 
   iceFacs.map(place => {
     const detloc = place["DETLOC"];
@@ -61,7 +53,7 @@ export default function() {
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
   });
-  indexLayer.addLayer(zeroIceFacsLayer).addLayer(iceFacsLayer).addLayer(detCtrsLayer);
+  indexLayer.addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   return indexLayer;
 }
 
