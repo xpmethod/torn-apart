@@ -21,3 +21,26 @@ export function titleUp(string) {
   return s.titleize(s.swapCase(string));
 }
 
+export function mapZoomEnable(map) {
+  map.dragging.enable();
+  map.touchZoom.enable();
+  map.doubleClickZoom.enable();
+  map.scrollWheelZoom.enable();
+  map.boxZoom.enable();
+  map.keyboard.enable();
+  if (map.tap) map.tap.enable();
+  $(map).css("cursor", "grab");  
+  $(".leaflet-control-zoom").show();
+}
+
+export function mapZoomDisable(map) {
+  map.dragging.disable();
+  map.touchZoom.disable();
+  map.doubleClickZoom.disable();
+  map.scrollWheelZoom.disable();
+  map.boxZoom.disable();
+  map.keyboard.disable();
+  if (map.tap) map.tap.disable();
+  $(map).css("cursor", "default");  
+}
+

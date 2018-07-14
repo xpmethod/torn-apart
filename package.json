@@ -9,7 +9,8 @@
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "build:umd": "webpack",
     "lint": "eslint src",
-    "validate": "npm-run-all --parallel lint build"
+    "validate": "npm-run-all --parallel lint build",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "@turf/helpers": "^6.1.4",

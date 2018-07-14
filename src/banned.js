@@ -12,13 +12,13 @@ export default function(map){
   $("#drawing-dialog").show();
   map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
   map.dragging.disable();
-  $("#d3-banned-svg").show();
+  $(map.getPanes().overlayPane).append("<svg id='d3-banned-svg'></svg>");
   const loop = 10000;
   const loopFactor = 0.1;
   $("#drawing-dialog").show();
   $("#banned-legend").click(function(){ $(this).hide(); }).css("margin-bottom", $(".leaflet-control-attribution").height() + rem);
   const banTotal = 208832081;
-  $(map.getPanes().overlayPane).append("<svg id='d3-banned-svg'></svg>");
+  $("#d3-banned-svg").show();
   setTimeout(() => {$("#banned-legend").show(loop * loopFactor);}, loop);
   return loopBanned(banTotal, loop, loopFactor, map);
 }

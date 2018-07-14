@@ -6,8 +6,10 @@ import trap from "./trap";
 import theEye from "./the-eye";
 import orr from "./orr";
 import banned from "./banned";
+import { mapZoomDisable } from "./utils";
 
 export default function (viz, map){
+  mapZoomDisable(map);
   $(".viz-hide").hide();
   switch (viz) {
   case "the-trap":

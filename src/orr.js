@@ -6,6 +6,7 @@ import { forceSimulation, forceCollide, forceManyBody, forceCenter, forceY, forc
 import orrData from "./orr-data";
 
 export default function(map) {
+  $(map).css("cursor", "grab");  
   $("#orr-legend").show().click(function(){ $(this).hide(); });
   $("#orr-div").show();
   map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
