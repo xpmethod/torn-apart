@@ -2,9 +2,17 @@ import nltk
 from nltk import ngrams
 from nltk.collocations import *
 import string
+import os
 
-f = open('temp.txt', encoding = "utf8") #this is a test file for now. Replace with file of your choice. Plan is to concatenate all files for a county or state, and then do this for each and compare. (see what words are the most interesting. Maybe not immigrant)
-sText = f.read()
+sText = ""
+directory = os.fsencode("contains-keywords/bystate/AL")
+for f in os.listdir(directory):
+    
+    file = open(f, encoding = "utf8") #this is a test file for now. Replace with file of your choice. Plan is to concatenate all files for a county or state, and then do this for each and compare. (see what words are the most interesting. Maybe not immigrant)
+    sText = sText + file.read()
+    f.close()
+print(sText)
+asda
 
 i = 2 # how many times a word must appear in corpus before it bothers examining it.
 iNumberReturned = 10 #only this many collocations will be returned (from most to least frequent)
