@@ -12,6 +12,7 @@
     "validate": "npm-run-all --parallel lint build"
   },
   "dependencies": {
+    "@turf/helpers": "^6.1.4",
     "csv-parse": "^2.5.0",
     "d3": "^5.5.0",
     "jquery": "^3.3.1",

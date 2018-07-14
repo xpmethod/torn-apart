@@ -5,6 +5,7 @@ import charts from "./charts";
 import trap from "./trap";
 import theEye from "./the-eye";
 import orr from "./orr";
+import banned from "./banned";
 
 export default function (viz, map){
   $(".viz-hide").hide();
@@ -24,17 +25,9 @@ export default function (viz, map){
   case "orr":
     orr(map);
     break;
-    /*
   case "banned":
-    $("#drawing-dialog").show();
-    $("#d3-dots-svg").hide();
-    map.removeLayer(layers[1]);
-    map.removeLayer(layers[0]);
-    map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-    map.dragging.disable();
-    $("#d3-banned-svg").show();
-    buildBanned();
-   */
+    banned(map);
+    break;
   }
   updateTexts();
 }
