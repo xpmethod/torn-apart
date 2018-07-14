@@ -1,0 +1,54 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KING.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Seattle Weather Summary: 77 degrees
+
+Washington Gov. Jay Inslee on Wednesday announced additional emergency funding to support civil legal aid services for immigrant families.
+
+
+The decision comes amid the uproar over the U.S. Department of Justice's new "zero tolerance" immigration crackdown, in which children have been separated from their parents. In addition to a $1 million grant that was approved by the Legislature earlier this year, Inslee has authorized $230,000 in emergency funding to bolster the Northwest Immigrant Rights Group.
+
+"These families and their children need help right now," Inslee said at a news conference. He said there were at least nine children in the state who currently are affected by the policy, but he would not provide details.
+
+
+"Everyone is entitled to fair and equitable due process, to be treated with dignity and respect," he said. "These funds will be used to defend the rights of immigrants and to help children and parents navigate this complex maze in order to reunite their families."
+
+
+RELATED: Where your lawmaker stands on family separations at the border
+
+RELATED: Verify: Fact from fiction regarding families being separated at border
+
+
+Earlier this week, Inslee and state Attorney General Bob Ferguson sent a letter to U.S. Attorney General Jeff Sessions and Homeland Security Secretary Kirstjen Nielsen decrying the federal government's policy, writing it "is inflicting intentional, gratuitous, and permanent trauma on young children who have done nothing wrong and on parents who often have valid claims for refugee or asylum status."
+
+
+In the letter, Inslee and Ferguson also sought answers to several questions, including where the children of a group of women being held at the Federal Detention Center at SeaTac are and whether the parents have been given information about their legal rights, or access to attorneys. More than 200 border detainees are being held at the facility. Inslee said he has not yet received a response from the federal government.
+
+
+Inslee called President Donald Trump a bully who used children "as a weapon" and noted that the president reversed his insistence this week that only Congress could take action against the policy. Trump on Wednesday signed an executive order ending family separation at the border, while maintaining the policy that criminally prosecutes all adults caught crossing the border illegally. The order keeps families together while they are in custody, expedites their cases, and asks the Department of Defense to help house them.
+
+More than 2,300 minors were separated from their families at the border from May 5 through June 9, according to the Department of Homeland Security.
+
+
+"The damage has been done," Inslee said.
+
+
+Joining Inslee at the news conference was Jorge Baron, executive director of the Northwest Immigrant Rights Group, who said that the funding will be used to hire additional legal staff to represent individuals and families facing deportation proceedings.
+
+
+He said the goal is to reunite families and get immigrant victims of violence and sexual assault "the protection that they are entitled to under law."
+
+
+WATCH: Border Patrol releases video of immigrant detention facility in McAllen

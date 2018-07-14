@@ -11,7 +11,6 @@ iNumberReturned = 10 #only this many collocations will be returned (from most to
 iWindow = 10 # looks at iWindow-grams, e.g. if this is 6, looks at collocations that occur within six words of each other.
 bigram_measures = nltk.collocations.BigramAssocMeasures()
 
-#REMOVE PUNCTUATION
 sPunct_free_text = ' '.join(word.strip(string.punctuation) for word in sText.split())
 print("removed punctuation")
 

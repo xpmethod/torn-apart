@@ -38,6 +38,7 @@ fs.readFile('../data/news-crawl-output.csv', function(err, data) {
 
 		//actual newsapi search
                 // use ".map" to loop over all entries in "domains", and execute a function (the newsapi call) on each enty
+				//seems to need http and www to be stripped now though, weirdly
 		twocolumn_output.map( (row, i, array) => {
                                newsapi.v2.everything({
                                    q: '"ICE" OR "refugee" OR "refugees" OR "immigration" OR "asylum" OR "detention center" OR "border crisis" OR "undocumented immigrant" OR "illegal immigrant"', 
