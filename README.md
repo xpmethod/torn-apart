@@ -63,6 +63,7 @@ details.
 * `ruby/` All of the Ruby scripts. Using them may require rerunning `bundle
 install` and installing Nokogiri.
 * `src/` All of the JavaScript.
+  * `src/i18n/` The internationalization json files.
 * `.eslintrc.yml` A yaml version of the [ESLint](http://eslint.org) configuration.
 * `README.md` This file!
 * `TA-S-logo.ai` An Adobe Illustrator file of our logo, as it were.
