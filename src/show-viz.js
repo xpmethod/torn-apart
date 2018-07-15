@@ -16,23 +16,31 @@ export default function (viz, map){
   switch (viz) {
   case "the-trap":
     trap(map);
+    updateTexts();
     break;
   case "the-eye":
     theEye(map);
+    updateTexts();
     break;
   case "charts":
+    if($("#d3-dots-svg").length < 1){
+      clinks(map);
+      $("#legend").hide();
+    }
     charts(map);
+    updateTexts();
     break;
   case "clinks":
     clinks(map);
+    updateTexts();
     break;
   case "orr":
     orr(map);
+    updateTexts();
     break;
   case "banned":
     banned(map);
     break;
   }
-  updateTexts();
 }
 
