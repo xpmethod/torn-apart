@@ -7,7 +7,7 @@ api = ENV["GOOGLE_MAPS_API"]
 # zoom = 19 # slightly bigger than single-apt-building view
 zoom = 18 # slightly bigger than single-apt-building view
 
-ice_centers = CSV.read("data/detCtrs-get-pix.csv", { headers: true })
+ice_centers = CSV.read("../data/detCtrs-get-pix.csv", { headers: true })
 # ice_centers = CSV.read("docs/assets/data/ice-facs_geocoded.csv", { headers: true })
 
 # detention_centers.each do |center|
@@ -25,7 +25,7 @@ File.open("detctr.csv", "w") do |output|
       # puts "Getting image for #{lat}, #{lon} (#{center["Name"]})"
       response = HTTParty.get("https://maps.googleapis.com/maps/api/staticmap?center=#{latlng}&zoom=#{zoom}&size=640x640&maptype=satellite&key=#{api}")
       # puts "Saving image as sat-#{id}.png"
-      File.open("localdata/#{filename}", "wb") do |f|
+      File.open("../localdata/#{filename}", "wb") do |f|
         f.write response.body
       end
       imgur_url = upload_image filename
