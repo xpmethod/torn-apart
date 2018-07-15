@@ -6,9 +6,11 @@ import trap from "./trap";
 import theEye from "./the-eye";
 import orr from "./orr";
 import banned from "./banned";
+import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
 export default function (viz, map){
+  clearIntervals();
   mapZoomDisable(map);
   $(".viz-hide").hide();
   switch (viz) {

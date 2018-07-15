@@ -6,7 +6,7 @@ import lower48 from "./lower-48.geo.json";
 
 export default function(map, total, loop = 10000, loopFactor = 0.1){
   const fadeDuration = loop * loopFactor;
-  const svg = select("#d3-banned-svg");
+  const svg = select("#d3-banned-svg").classed("viz-hide", true);
   svg.selectAll("g").remove();
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const collection = featureCollection(total.steps.map(state => lower48.features.filter( feature => feature.properties.code === `US-${state.code}`)[0]));
