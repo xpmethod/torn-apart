@@ -1,0 +1,296 @@
+[
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "population": 4874747,
+    "neighbors": ["FL", "GA", "MS", "TN"]
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "population": 3004279,
+    "neighbors": ["LA", "MS", "MO", "OK", "TN", "TX"]
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "population": 7016270,
+    "neighbors": ["CA", "CO", "NV", "NM", "UT"]
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "population": 39536653,
+    "neighbors": ["AZ", "NV", "OR"]
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "population": 5607154,
+    "neighbors": ["AZ", "KS", "NE", "NM", "OK", "UT", "WY"]
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "population": 3588184,
+    "neighbors": ["MA", "NY", "RI"]
+  },
+  {
+    "code": "DC",
+    "name": "District of Columbia",
+    "population": 693972,
+    "neighbors": ["MD", "VA"]
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "population": 961939,
+    "neighbors": ["MD", "NJ", "PA"]
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "population": 20984400,
+    "neighbors": ["AL", "GA"]
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "population": 10429379,
+    "neighbors": ["AL", "FL", "NC", "SC", "TN"]
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "population": 3145711,
+    "neighbors": ["IL", "MN", "MO", "NE", "SD", "WI"]
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "population": 1716943,
+    "neighbors": ["MT", "NV", "OR", "UT", "WA", "WY"]
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "population": 12802023,
+    "neighbors": ["IN", "IA", "MI", "KY", "MO", "WI"]
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "population": 6666818,
+    "neighbors": ["IL", "KY", "MI", "OH"]
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "population": 2913123,
+    "neighbors": ["CO", "MO", "NE", "OK"]
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "population": 4454189,
+    "neighbors": ["IL", "IN", "MO", "OH", "TN", "VA", "WV"]
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "population": 4684333,
+    "neighbors": ["AR", "MS", "TX"]
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "population": 6859819,
+    "neighbors": ["CT", "NH", "NY", "RI", "VT"]
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "population": 6052177,
+    "neighbors": ["DE", "PA", "VA", "WV", "DC"]
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "population": 1335907,
+    "neighbors": ["NH"]
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "population": 9962311,
+    "neighbors": ["IL", "IN", "OH", "WI"]
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "population": 5576606,
+    "neighbors": ["IA", "ND", "SD", "WI"]
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "population": 6113532,
+    "neighbors": ["AR", "IL", "IA", "KS", "KY", "NE", "OK", "TN"]
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "population": 2984100,
+    "neighbors": ["AL", "AR", "LA", "TN"]
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "population": 1050493,
+    "neighbors": ["ID", "ND", "SD", "WY"]
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "population": 10273419,
+    "neighbors": ["GA", "SC", "TN", "VA"]
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "population": 755393,
+    "neighbors": ["MN", "MT", "SD"]
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "population": 1920076,
+    "neighbors": ["CO", "IA", "KS", "MO", "SD", "WY"]
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "population": 1342795,
+    "neighbors": ["MA", "VT"]
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "population": 9005644,
+    "neighbors": ["DE", "NY", "PA"]
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "population": 2088070,
+    "neighbors": ["AZ", "CO", "OK", "TX", "UT"]
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "population": 2998038,
+    "neighbors": ["AZ", "CA", "ID", "OR", "UT"]
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "population": 19849399,
+    "neighbors": ["CT", "MA", "NJ", "PA", "VT"]
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "population": 11658609,
+    "neighbors": ["IN", "KY", "MI", "PA", "WV"]
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "population": 3930864,
+    "neighbors": ["AR", "CO", "KS", "MO", "NM", "TX"]
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "population": 4142776,
+    "neighbors": ["CA", "ID", "NV", "WA"]
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "population": 12805537,
+    "neighbors": ["DE", "MD", "NJ", "NY", "OH", "WV"]
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "population": 1059639,
+    "neighbors": ["CT", "MA"]
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "population": 5024369,
+    "neighbors": ["GA", "NC"]
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "population": 869666,
+    "neighbors": ["IA", "MN", "MT", "NE", "ND", "WY"]
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "population": 6715984,
+    "neighbors": ["AL", "AR", "GA", "KY", "MS", "MO", "NC", "VA"]
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "population": 28304596,
+    "neighbors": ["AR", "LA", "NM", "OK"]
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "population": 3101833,
+    "neighbors": ["AZ", "CO", "ID", "NV", "NM", "WY"]
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "population": 8470020,
+    "neighbors": ["KY", "MD", "NC", "TN", "WV", "DC"]
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "population": 623657,
+    "neighbors": ["MA", "NH", "NY"]
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "population": 7405743,
+    "neighbors": ["ID", "OR"]
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "population": 5795483,
+    "neighbors": ["IL", "IA", "MI", "MN"]
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "population": 1815857,
+    "neighbors": ["KY", "MD", "OH", "PA", "VA"]
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "population": 579315,
+    "neighbors": ["CO", "ID", "MT", "NE", "SD", "UT"]
+  }
+]
