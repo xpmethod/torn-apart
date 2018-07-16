@@ -1,13 +1,13 @@
-//Parses the iceFacs csv (assuming it is in the same folder), saves to nested array, then searches all of newsapi for each facility, associating the results with the strCounty.)
+//Parses the news-crawl-output list and then searches each domain for some keywords relating to the border crisis. Saves results to files named for the counties of each domain (appending when there is already an existing file).
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('YOUR API KEY HERE');
+
+const newsapi = new NewsAPI('YOUR KEY HERE');
 
 var parse = require('csv-parse');
 var shell = require('shelljs'); // I seem to need this in order to construct intermediate directories if they don't already exist in the final step where I write to the directory structure. fs-extras and the standard mkdir can do the final directory, but not intermediate ones, or so it seems. Or maybe I implemented them wrong.
 var fs = require('fs');
 
-
-//reads in iceFacs.csv (must be in same folder), and puts into a nested array.This is so we can associate facility names with their identifiers.
+// Read in the news list and get the associated domains
 fs.readFile('../data/news-crawl-output.csv', function(err, data) {
 	if (err) {
 		return console.log(err);
@@ -15,42 +15,54 @@ fs.readFile('../data/news-crawl-output.csv', function(err, data) {
   
 	var input = data;//i.e. the content of csv file is set to "input"
 	parse(input, {comment: '#'}, function(err, output){ //this parses "input" , i.e. the filestream into a nested array
-	
-	var i;
-	var strDomain;
-	for (i=1;i<10; i++) //change this to first 200 counties to avoid rate-limiting output.length
-	{
-		
-		strDomain = output[i][1];
-		domains = [ strDomain ];
 
-		console.log(strDomain);
-		
+        var twocolumn_output = [];  
+
+        // output has four columns: county, link, name, state
+        // We want to extract the first two columns, county and the domain
+        // The first row just has the names of the columns, so skip that
+
+        //for (i=1; i<output.length; i++) //change this to first 3 counties to avoid rate-limiting output.length
+        for (i=1; i<390; i++) //change this to first 10 counties to avoid rate-limiting output.length
+	{
+		twocolumn_output.push(output[i]);
+	}
+
+
+        twocolumn_output.map( (row, i, array) => {
+        	console.log(row[0]);
+        	console.log(row[1]);}
+	);
+
+
+
 		//actual newsapi search
-		domains.map( domain => {
+                // use ".map" to loop over all entries in "domains", and execute a function (the newsapi call) on each enty
+				//seems to need http and www to be stripped now though, weirdly
+		twocolumn_output.map( (row, i, array) => {
                                newsapi.v2.everything({
-                                   q: "'ICE' OR 'refugee' OR 'refugees' OR 'immigration' OR 'asylum' OR 'detention center' OR 'border crisis' OR 'undocumented immigrant' OR 'illegal immigrant'", 
+                                   q: '"ICE" OR "refugee" OR "refugees" OR "immigration" OR "asylum" OR "detention center" OR "border crisis" OR "undocumented immigrant" OR "illegal immigrant"', 
                                    language: 'en',
                                    pageSize: 100, 
-								   domains: strDomain
-								   
+				   domains: String(row[1])				   
 				}).then(response => {
-			
-		console.log(domain);
+		console.log("Response is" + JSON.stringify(response));
+		//console.log(row);
+                //console.log("Domain is " + row[1]);
 										
-		var folderString = "../data/news-sniffer-reports/keywords-only" + domain; 
+		var folderString = "../data/news-sniffer-reports/keywords-only/"; 
 		
 		shell.mkdir('-p', folderString); //creates folders if they don't already exist. It does not overwrite existing folders.
-		var fileString = folderString + ".json";
+		var fileString = folderString + row[0] + ".json";
 		
-											fs.writeFile(fileString, JSON.stringify(response), function() {
+                fs.appendFile(fileString, JSON.stringify(response), function() { //has to be appendFile instead of writeFile because each county can appear multiple times in our domain list csv
                                             console.log("wrote a file: " + fileString);
                                         });
                                    });    //end then
                             });    //end map
 
 
-	};    // end for loop
+
         });   // end parse
 
 });  // end fs.readfile
