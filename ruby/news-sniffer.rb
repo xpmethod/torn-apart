@@ -9,7 +9,7 @@ class NewsSniffer
 
   def initialize 
     @api_key = get_api_key
-    @ice_facs = CSV.read("docs/assets/data/iceFacs.csv", { headers: true })
+    @ice_facs = CSV.read("../data/iceFacs.csv", { headers: true })
     @states = states
   end
 
@@ -22,7 +22,7 @@ class NewsSniffer
   end
 
   def detloc_report(detloc, states)
-    dir = "data/news-sniffer-reports/#{detloc}" 
+    dir = "../data/news-sniffer-reports/#{detloc}" 
     Dir.mkdir dir unless File.exists? dir
     name = @ice_facs.select{|f| f["DETLOC"] == detloc}.first["Name"].downcase
     states.each do |state|
@@ -61,7 +61,7 @@ class NewsSniffer
   end
 
   def sources_by_state
-    news_sources = CSV.read("data/news-crawl-output.csv", {headers: true })
+    news_sources = CSV.read("../data/news-crawl-output.csv", {headers: true })
     sources = {}
     states = news_sources.map{ |source| source["state"] }.uniq
     states.map do |state|
@@ -72,7 +72,7 @@ class NewsSniffer
     sources
   end
 
-  def print_sources_by_state(file = "data/news-sources-by-state.json")
+  def print_sources_by_state(file = "../data/news-sources-by-state.json")
     File.open(file, "w") do |f|
       f.puts sources_by_state.to_json
     end

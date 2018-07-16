@@ -1,7 +1,6 @@
 import { shuffle } from "d3-array";
 import $ from "jquery";
 import bannedBuild from "./banned-build";
-import updateTexts from "./update-texts";
 import states from "./us-population.json";
 import { rem } from "./constants";
 
