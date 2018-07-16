@@ -22,9 +22,3 @@ rules:
   semi:
     - error
     - always
-globals: 
-  "L": true
-  "markdownit": true
-  "markdownitFootnote": true
-  "turf": true
-  "d3": true

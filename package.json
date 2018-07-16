@@ -1,16 +1,71 @@
 {
-  "name": "application-name",
+  "name": "torn-apart",
+  "sideEffects": false,
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "prebuild": "rimraf dist",
+    "build": "npm-run-all --parallel build:*",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build:umd": "webpack -p",
+    "lint": "eslint src",
+    "validate": "npm-run-all --parallel lint build",
+    "watch": "webpack --watch"
   },
   "dependencies": {
+    "@turf/helpers": "^6.1.4",
     "csv-parse": "^2.5.0",
-    "newsapi": "^2.2.2"
+    "d3": "^5.5.0",
+    "jquery": "^3.3.1",
+    "leaflet": "^1.3.1",
+    "markdown-it": "^8.4.1",
+    "markdown-it-footnote": "^3.0.1",
+    "newsapi": "^2.2.2",
+    "underscore.string": "^3.3.4"
+  },
+  "description": "Please see [our site](http://xpmethod.plaintext.in/torn-apart/) for a thorough discussion of what our project and its goals are. This README is here more just to satisfy people curious as to how this was all technically done.",
+  "directories": {
+    "doc": "docs"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "csv-loader": "^3.0.2",
+    "exports-loader": "^0.7.0",
+    "ghooks": "^2.0.4",
+    "npm-run-all": "^4.1.3",
+    "papaparse": "^4.5.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpmethod/torn-apart.git"
+  },
+  "keywords": [
+    "immigration",
+    "immigration-visualizer",
+    "digital-humanities",
+    "mapping"
+  ],
+  "author": "Moacir P. de Sá Pereira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xpmethod/torn-apart/issues"
+  },
+  "homepage": "https://github.com/xpmethod/torn-apart#readme",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run build"
+    }
   }
 }
