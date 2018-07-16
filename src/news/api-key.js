@@ -1,12 +1,14 @@
 import config from "../environment";
 // import readline from "readline";
-import { stdout, stdin } from "process";
+import { stdout } from "process";
+import queryDomains from "./query-domains";
 
 export default function(emitter){
   if (config.newsApiKey) {
     stdout.write(`\nIt looks like you have a Google News API key registered with this app.
       \nThat key is: ${config.newsApiKey}\n`); 
-    emitter.emit("getApiKey", config.newsApiKey);
+    emitter;
+    // emitter.emit("getApiKey", config.newsApiKey);
   // This worked all of once...
   // } else {
   //   const rl = readline.createInterface(stdin, stdout);
@@ -15,4 +17,5 @@ export default function(emitter){
   //     emitter.emit("getApiKey", answer);
   //   });
   }
+  queryDomains(config.newsApiKey);
 }
