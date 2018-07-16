@@ -1,4 +1,5 @@
 import NewsAPI from "newsapi";
+import { stdout } from "process";
 import { createWriteStream, readFileSync } from "fs";
 import { resolve, join } from "path";
 import _ from "lodash";
@@ -11,8 +12,10 @@ export default function(apiKey){
   const newsapi = new NewsAPI(apiKey);
   const ss = JSON.parse(readFileSync(resolve("data","news-sources-by-state.json")));
   const sources = _.shuffle(_.flatMap(ss)); // until I solve chaining…
+  // const domainChunks = [["wsj.com", "bingo.com"], ["bongo.com", "nytimes.com"]];
   const domainChunks = _.chunk(sources, 15);
-  _.each(domainChunks, chunk => {
+  _.each(domainChunks, (chunk, i) => {
+    stdout.write(`testing chunk ${i}`);
     newsapi.v2.everything({
       q: "Trump",
       pageSize: 100,
@@ -27,7 +30,5 @@ export default function(apiKey){
       });
     });
   });
-  indexed.end();
-  notIndexed.end();
 }
 
