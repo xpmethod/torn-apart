@@ -1,0 +1,89 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Atlanta Weather Summary: 91 degrees
+
+ATLANTA -- Mayor Keisha Lance Bottoms took a jab at one of the candidates who may be Georgia's next governor while discussing her executive order prohibiting any new ICE detainees from being housed at Atlanta's jail.
+
+
+"I don’t take advice from people who hold shotguns at children," said Bottoms, referring to Brian Kemp's controversial TV ad in which he pointed the weapon in the direction of a teenager supposedly interested in dating one of his daughters.
+
+Bottoms held a Thursday news conference where she talked about the executive order, which she signed in response to national reports of children being separated from their parents, who were attempting to illegally enter the U.S. in Texas.
+
+
+Both Kemp and Lt. Gov. Casey Cagle, who are locked in a bitter GOP runoff less than five weeks away, are both strongly in favor of strict immigration laws.
+
+"It's no surprise that Mayor Bottoms is taking aim at Kemp, who is a politically incorrect conservative who will make sure that our immigration laws are enforced in Georgia," said a Kemp campaign spokesperson. "Cagle is just another career politician who huffs and puffs and folds under pressure. Kemp will fight to keep our families safe from gangs and criminal aliens while Cagle works to make more friends with Democrats in the Atlanta mayor's office."
+
+"I've led to outlaw and defund sanctuary cities," Cagle said, during Bottoms' press conference. "And we will enforce our laws. It is my hope that all our elected officials -- local, state and federal -- will join me in upholding the rule of law.
+
+
+"Georgia’s sanctuary city prohibition is very clear. In order to ensure that we protect our families from criminal illegal aliens our cities must comply with the strong laws we have on the books."
+
+
+Cagle filed a complaint with the Immigration Enforcement Review Board against the city of Decatur for failing to comply with Georgia's law against sanctuary cities.
+
+
+On Wednesday, President Trump signed an executive order ending the process of separating children from families after they are detained crossing the U.S. border illegally.
+
+Full coverage from 11Alive -- At The Border
+
+
+Latest headlines 
+
+
+First Lady Melania Trump Visits Migrant Children At Texas Detention Center
+
+
+Hundreds gather to pray for immigrant families, call for 'zero tolerance' to end
+
+
+The news in recent days has been dominated by searing images of children held in cages at border facilities, as well as audio recordings of young children crying for their parents — images that have sparked fury, question of morality and concern from Republicans about a negative impact on their races in November's midterm elections.
+
+
+
+
+
+READ | Atlanta mayor, 'horrified' at crisis, won't accept any new ICE detainees
+
+
+READ | In reversal, Trump signs order stopping family separation
+
+
+ 
+
+
+MORE
+
+
+House struggles to unite behind bills to stem border crisis
+
+
+What is (and isn't) in Trump's executive order on family separation
+
+
+Family separation crisis: How we got here
+
+
+The Bible doesn't support your immigration policies, Baptist minister tells Sessions, Sanders
+
+
+Sign up for The Speed Feed newsletter below to get the latest headlines in your inbox each weekday!
+
+
+Email*
+
+
+Subscribe

@@ -1,5 +1,5 @@
 .env
-environment.mjs
+environment.js
 localdata/
 cache/
 data/downloads/everything/html/

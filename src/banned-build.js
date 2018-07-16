@@ -7,7 +7,6 @@ export default function(map, scratchStates){
   const lastState = total.steps.pop();
   total.runningTotal = total.runningTotal - lastState.population;
   bannedDraw(map, total);
-  console.log("the html", $("#banned-legend").html());
   $("#banned-legend p em").html(`${Math.floor(100 * total.runningTotal / muslimBanTotal)}%`);
 
 }

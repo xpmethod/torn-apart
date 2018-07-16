@@ -1,0 +1,825 @@
+By using this website, you consent to our use of cookies. For more information, visit our Privacy PolicyX
+
+
+
+Immigration and Customs Enforcement officers detain a suspect in Los Angeles, February 2017. (Reuters / Charles Reed)
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+
+
+
+
+
+You will receive occasional promotional offers for programs that support The Nation’s journalism. You can read our Privacy Policy here.
+
+An abduction is the forcible removal of an individual against their will. Abductions can happen, stealthily, in the night. An abduction could be what Ngot Tuong encountered at the Northwest Detention Center in Tacoma, Washington, the night of October 16. Tuong had been released directly into ICE custody after serving 20 years in the Washington Department of Corrections. Given a few days notice that he would be transferred to another facility to proceed with his deportation to Cambodia, Tuong packed his bags hastily and spent the night in a crowded holding cell. He was ready to be shipped off at a moment’s notice.
+				
+				Ad Policy
+									
+			function load_article_ads(){
+				if( jQuery("#ad-halfpage-265196-0").is(":empty") ){call_ad_new('halfpage','tn_article','ad-halfpage-265196-0','rectangle_1',{"tn_author":"'j.m.-w'","tn_articleid":265196,"tn_ptype":"article","tn_keyword":"'criminal-r', 'deportatio', 'immigratio'","tn_subject":"'criminal-j', 'democrats', 'immigratio', 'republican'","tn_slp":""});}					
+			}	
+	
+			jQuery('#expand-reduce-265196').click(function(){
+				if( isMobile.any() ){
+					call_ad_new('halfpage','tn_article','ad-halfpage-265196-0','rectangle_1',{"tn_author":"'j.m.-w'","tn_articleid":265196,"tn_ptype":"article","tn_keyword":"'criminal-r', 'deportatio', 'immigratio'","tn_subject":"'criminal-j', 'democrats', 'immigratio', 'republican'","tn_slp":""});	
+				}				
+			});	
+		 
+		
+
+
+
+At other times, an abduction can begin as something out of the ordinary, a break in routine. Like a surprise letter from Immigration and Customs Enforcement (ICE) with an earlier check-in date expected, at a new location. ICE check-ins are routine meetings between someone who has signed an order of deportation—a legal document stating that the United States can deport them—with his or her deportation officer. Signing an order of deportation does not automatically mean one is deported; there are many possible mitigating circumstances, like political instability in one’s country of origin. A person can go to ICE check-ins for years. In Long Beach, Nak Kim Chhouen had been checking in for 14 years when he received a letter telling him to check in early. Across the country in Pensacola, Florida, so too did Chhon Ivy. Two Cambodian-American men in two distant cities, both out of prison for more than a decade, both fearful that this early check-in heralded their impending deportation. Both men had meals with their families the night before; both told their loved ones they are the ones who keep them alive. The next day, Chhon in Pensacola walked out of his check-in, heaving a huge sigh of relief, till the next time. Nak from Long Beach was not so fortunate. He texted his cousin, Posda Tho, who had accompanied him to the check-in, that he would not be returning. That day, he was transferred to the Theo Lacy detention center in Orange County, California.		
+			
+				The author would like to thank Ngot Tuong, Chen Kong, Posda Tho, Chhon Ivy, Sina Sam and Andres Pacificar for their contributions to the piece.			
+		
+
+
+
+
+The author would like to thank Ngot Tuong, Chen Kong, Posda Tho, Chhon Ivy, Sina Sam and Andres Pacificar for their contributions to the piece.
+
+At other times, an abduction can look like an ICE officer appearing at your house in the morning, just when you are getting ready to go to work—an unexpected intrusion. Everything happens too fast and you can’t say goodbye to your 3-year-old child, your wife, and the rest of your family. Your sister, a counselor at the public high school, is walking her 7-year-old daughter to the bus, sending her off to school in the morning. She finds out about your, her brother’s abduction, through a frenzied phone call from your wife. She holds back her tears and tries not to break down in front of her child.
+
+
+
+Three of these four men will likely meet in Jena, Louisiana, this week, at the LaSalle detention center owned by the private corrections company GEO Group. There they will join more than 100 Cambodian Americans, both men and women, who await interviews with the visiting Cambodian consulate. The majority of these individuals have been apprehended as part of ICE’s expanding Criminal Alien Program. The program relies on a legal category of “aggravated felons,” created within immigration law in 1988, and encompassing poeple with criminal histories that may not constitute felonies under criminal law. The 1996 Illegal Immigration Reform and Immigration Responsibility Act and the Anti-Terrorism and Effective Death Penalty Act further limited the judicial discretion of immigration judges when it comes to deciding whether documented immigrants and refugees with criminal histories should be deported. Ironically, this set of draconian immigration laws was passed in response to the 1995 Oklahoma City bombing, where 168 lives were taken by domestic terrorists, most notably Timothy McVeigh. People of color, specifically immigrants and refugees, became the targets of repression in response to white terror.
+									Most Popular
+
+1
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+
+2
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+
+3
+My Best Friend Lost His Life to the Gig Economy
+
+
+4
+The Social Shaming of Racists Is Working
+
+
+5
+Why Trump’s Denaturalization Task Force Matters
+
+The 1988 immigration law paved the way for the unfettered deportation of documented immigrants and refugees in prisons and jails. Obama further drove a wedge between the deserving and undeserving immigrants, expanding the numbers for whom deportation would be a cruel addition to their prison sentence, ignoring the fact that individuals may have repented or changed since the time of their offense. In 2014, then President Obama promised to deport “Felons, not families. Criminals, not children. Gang members, not a mom who’s working hard to provide for her kids.” This targeting of immigrants and refugees with criminal records would proceed with more vigor under the current administration. Trump’s most recent propaganda tool is the Victims of Immigration Crime Enforcement (VOICES) program, which includes a hotline designed “to acknowledge and serve the needs of crime victims and their families who have been affected by crimes committed by individuals with a nexus to immigration.”
+
+In response, Southeast Asian immigrant-rights advocates initiated a social-media campaign, calling for a fix to the 1996 laws that permitted a widespread deportation of individuals who grew up in the United States, as well as a call for felons to be recognized as members of their families. The hashtags #Fix96, #FelonsAreFamily and #Right2Return were popularized to resist the dehumanization of people with criminal records. The label of a “criminal” had some consequences for Ngot Tuong, as he made his way from the Pacific Northwest to LaSalle Detention Center in Louisiana.
+
+“You shouldn’t have committed a crime,” Tuong recalls the corrections officer in Louisiana saying when he and others filed a grievance about inhumane conditions in the holding cell. Alongside 20 other people, Tuong was locked in a holding cell with leaking sewage for two days while awaiting processing. He says that they were served two small sandwiches for breakfast and lunch and given no bedding for sleep and no hygiene products. One of the toilets was clogged and the ground was filthy.		
+			Current Issue
+
+								
+									
+									
+												
+						View our current issue	
+						
+						
+					
+								
+				
+		
+			
+			var magazine_text_265196            = '';
+			var magazine_button_text_265196     = '';
+			var magazine_button_url_265196      = '';
+			var magazine_button_bg_color_265196 = '';
+			
+			var is_user_logged_in = getCookie('SESSname');				if( is_user_logged_in != null ){
+					
+						
+						magazine_text_265196 = ' If you like this article, please give today to help fund The Nation’s work.';	
+												magazine_button_text_265196 = '';	
+												magazine_button_url_265196 = 'https://www.thenation.com/email-signup-module-donate/';
+												magazine_button_bg_color_265196 = '#ffcf0d';
+								
+					
+				}else{
+					
+						
+						magazine_text_265196 = 'Subscribe today and Save up to $129.';	
+												magazine_button_text_265196 = '';				
+												magazine_button_url_265196 = 'https://ssl.palmcoastd.com/06601/apps/NEW_US?ikey=I**GAB';
+												magazine_button_bg_color_265196 = '#dd3333';
+								
+					
+				}
+			
+						
+			if( magazine_text_265196 !='' ){				
+				jQuery("#magazine_text_265196").html(magazine_text_265196);				
+			}
+			
+			if( magazine_button_text_265196 !='' ){				
+				jQuery("#magazine_button_265196").html(magazine_button_text_265196);				
+			}
+			
+			if( magazine_button_url_265196 !='' ){				
+				jQuery("#magazine_button_265196 a").attr("href",magazine_button_url_265196);				
+			}
+			
+			if( magazine_button_bg_color_265196 !='' ){			
+				jQuery("#magazine_button_265196 a input").css("background",magazine_button_bg_color_265196);				
+			}
+			
+		
+			
+		
+
+“We did our time,” insists Tuong, “and we are punished again simply because we aren’t US citizens. But we all have legal residence. It says ‘Legal Permanent Resident’ on my card. I don’t know what ‘permanent’ means to the US government, but it shouldn’t mean I only stay here until they decide to deport me. It looks like I have to be hauled in when they need more people to meet their quota.” (Like Obama, the Trump administration has maintained a nightly quota to fill 34,000 beds in its contracts with privately operated immigration detention centers, spending close to $150 per detainee per night.)
+
+A foreman at a construction site in Pensacola, Florida, Chhon Ivy who was released 12 years ago after serving two years for a drug-trafficking charge, laments that for immigrants like him there’s no such thing as time served. “Don’t judge us for our past, the past is dead. Can they see the present now? How someone is changing for the better?”
+
+But there’s even more to this story, Chen Kong suggests. Chen, who is Cambodian American, offers restorative-justice trauma counseling at the Oakland Unified School Districts. Her brother was recently detained for interviews with the Consulate. She says, “ICE tells the story of picking up criminals. Let’s tell the story of healing that’s needed. We have inherited trauma, from our parents’ surviving the killing fields, and then being resettled in poverty in the US. We need to tell the story of the 1.5 generation.”
+
+The Secret War in Southeast Asia
+The memories of Cambodia are faint and distant for 44-year-old Tuong. He had arrived in the United States from the refugee camp with his parents and younger sister when he was 5 years old.		
+			
+			
+			
+		
+		
+			
+			var inline_cta_text_265196            = '';
+			var inline_cta_button_text_265196     = '';
+			var inline_cta_url_265196             = '';
+			var inline_cta_bg_color_265196        = '';
+			var inline_cta_font_color_265196      = '';
+			var cta_1_check_265196  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_text_265196 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_265196 = '#000000';
+													
+						inline_cta_button_text_265196 = '';
+												
+						inline_cta_url_265196 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_265196 = '#ffcf0d';
+											
+				}else{
+					
+											
+						inline_cta_text_265196 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_265196 = '#000000';
+													
+						inline_cta_button_text_265196 = '';
+												
+						inline_cta_url_265196 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_265196 = '#ffcf0d';
+										}
+				
+							
+			if( inline_cta_text_265196 !='' ){
+				jQuery("#inline_cta_265196").html(inline_cta_text_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_button_text_265196 !='' ){
+				jQuery("#inline_cta_btn_265196").html(inline_cta_button_text_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_url_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a").attr("href",inline_cta_url_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_bg_color_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a input").css("background",inline_cta_bg_color_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_font_color_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a input").css("color",inline_cta_font_color_265196);
+				cta_1_check_265196 = true;
+			}
+
+			if( cta_1_check_265196 ){
+				jQuery("#inline_cta_1_module_265196").addClass("inline-cta-module");
+			}	
+			
+		
+	
+
+“I remember just little bits and pieces of Cambodia and the refugee camp. My cousin and I wanted to steal bananas from the plantation [nearby]. We crossed this river on a fallen log. We were so scared, and all of a sudden, the wind was whipping hard. Old people [had] told us stories about ghosts and whipping winds. I’m scared, he’s scared, and we are holding on to one another.”
+
+Tuong continues, “We look out into this field, hiding under the bushes, and we see this huge creature landing in front of us. It was like a giant dragonfly just 100 yards in front of us.				
+				
+			
+				
+	
+		/*
+		 * Article Inline Ads Calling
+		 */
+		var art_inline_ad_265196 = true; 
+		function inline_ad( articlePostId ){
+			if( art_inline_ad_265196 ){
+				art_inline_ad_265196 = false;
+				var targetingArray              = new Array();
+				targetingArray['tn_author']     = ['j.m.-w'];
+				targetingArray['tn_articleid']  = [265196];
+				targetingArray['tn_ptype']      = ['article'];
+				targetingArray['tn_keyword']    = ['criminal-r', 'deportatio', 'immigratio'];
+				targetingArray['tn_subject']    = ['criminal-j', 'democrats', 'immigratio', 'republican'];
+				targetingArray['tn_slp']        = []; 
+				call_ad_new('halfpage250','tn_article','inline_ad_300x250_'+articlePostId+'','rectangle_4',targetingArray);						
+			}			
+		} 		
+	
+	
+
+“Green men jump out, and their faces were white. They were holding guns and we were scared to death. We kept quiet and stayed under the bushes. We saw them loading people on there. Back into the dragonfly, and then the wind calmed down.”
+
+“That was the first time I ever seen white people,” Tuong chuckles.
+
+Five-year-old Tuong and his cousin had every reason to hide from the “dragonfly” and its fearsome whipping winds. The men in green with white faces were likely part of the legacy of Operation Menu and Operation Freedom Deal, covert operations conducted by the US military in Laos and Cambodia, to presumably cut off supplies to the North Vietnamese army. The bombings were not approved by the US Congress, and neither were they acknowledged by the general US public. Nearly 3 million tons of bombs were dropped on Cambodia, a country the same size as Washington state. It was the largest carpet bombing the US military had ever conducted at the time, exceeding the bombs dropped on Japan in World War II by more than 1 million tons. Thirty percent of the population was displaced, and a civil war subsequently emerged out of the instability and debris.
+
+The secret invasion of Cambodia and its destabilization opened the way for the emergence of the Khmer Rouge, known for the killing fields where more than a million Cambodians were massacred and buried in mass graves. Families fleeing the Khmer Rouge found their way into refugee camps, hoping to be sponsored by US churches and philanthropic organizations to be resettled on the mainland.
+
+Like Tuong, Chen’s journey to the United States began at the refugee camps. She explains, “The first generation are our parents, the second are the younger people in our community who are born in the US and can assimilate. The 1.5 is people like me and my brother, who were born in refugee camps escaping the war.”
+
+“There is an unspoken story of the 1.5 generation. We are children of Khmer refugees and we inherited their trauma and PTSD. We resettled in the US and, of course, we were living in poverty. Just add that layer too.”
+
+“Do you eat dogs? Are you a chink? You should be happy where you are at!” Chen adds, “This is what I grew up hearing. As a female I felt unsafe and didn’t feel a sense of belonging growing up.”		
+		
+			
+			
+		
+		
+		
+			
+			var inline_cta_2_text_265196            = '';
+			var inline_cta_2_button_text_265196     = '';
+			var inline_cta_2_url_265196             = '';
+			var inline_cta_2_bg_color_265196        = '';
+			var inline_cta_2_font_color_265196      = '';
+			var cta_2_check_265196  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_2_text_265196 = 'Give a gift subscription today!Know someone who would like The Nation?';
+													inline_cta_2_font_color_265196 = '#ffffff';
+													
+						inline_cta_2_button_text_265196 = '';
+												
+						inline_cta_2_url_265196 = 'https://ssl.drgnetwork.com/ecom/NAT/app/live/subscriptions?org=NAT&publ=NA&key_code=68F1CGS&type=S';
+												
+						inline_cta_2_bg_color_265196 = '#cc0e0e';
+											
+				}else{
+					
+											
+						inline_cta_2_text_265196 = 'Subscribe to The Nation  for $2 a month.Get unlimited digital access to the best independent news and analysis.';
+													inline_cta_2_font_color_265196 = '#ffffff';
+													
+						inline_cta_2_button_text_265196 = '';
+												
+						inline_cta_2_url_265196 = 'https://ssl.drgnetwork.com/ecom/NAT/app/live/subscriptions?org=NAT&publ=NA&key_code=G8F1CTA&type=S';
+												
+						inline_cta_2_bg_color_265196 = '#cc0e0e';
+										}
+				
+							
+			if( inline_cta_2_text_265196 !='' ){
+				jQuery("#inline_cta_2_265196").html(inline_cta_2_text_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_button_text_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196").html(inline_cta_2_button_text_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_url_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a").attr("href",inline_cta_2_url_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_bg_color_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a input").css("background",inline_cta_2_bg_color_265196);
+				cta_2_check_265196 = true;
+			}	
+			
+			if( inline_cta_2_font_color_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a input").css("color",inline_cta_2_font_color_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( cta_2_check_265196 ){
+				jQuery("#inline_cta_2_module_265196").addClass("inline-cta-module");
+			}
+			
+		
+		
+	
+
+Tuong echoes this sentiment. Barely 10 years after seeing gun-toting white men in green suits while hiding in a field in Cambodia, 16-year-old Tuong armed himself with guns too. Living in low-income housing in the Salishan neighborhood of Tacoma, Tuong recalls, “We were a bunch of guys in the neighborhood who wanted to feel safe after being beaten up so many times. We wanted to get each other’s backs. We weren’t intentionally trying to create a criminal organization.”
+
+“Some guys in school wanted to get us after school. They thought it was gonna be easy. We rounded up all the guys and went and got guns. My friend pulled the shotgun and popped it. The look on their faces… They were scared. ‘Maybe I’m not going home tonight,’ was what it said. They backed up and left us alone.”
+
+Referring to Angelina Jolie’s recent film about the killing fields, Chen adds, “They keep retelling the story of the genocide. But that’s the past. It’s too late. That story should have been told 20 years ago. Now there’s another story we need to fast-forward to. Our current issues now, where Cambodian Americans are getting deported and it’s impacting a lot of families. It’s bleeding in the law system and families are being torn apart.”
+
+From their respective cities, Chen’s brother and Nak Kim Chheuon will take a flight contracted by ICE. It could be a Boeing 737, or a Gulfstream aircraft. If it is anything like Ngot Tuong’s journey, they would be on an airplane called Swift Air, crammed with Cambodian and Latinx people, all handcuffed. If their journey is anything like Tuong’s, they would be confused and disoriented from flights to nowhere, flying from Washington to Arizona, spend a few nights, and then on to Texas, back to Arizona, then to Georgia, and then to Texas again before arriving at their destination in Louisiana. These back-and-forth flights are likely chalking up the expenses for which the Homeland Security’s Office of Inspector General criticized the agency.
+
+In Jena, Louisiana these men will undergo interviews with the Cambodian consulate under the supervision and presence of ICE officers. The procedure goes as follows: ICE will conduct the roundup of Cambodian Americans around the country; the Cambodian consulate will conduct interviews to verify that these individuals are deportable—in that they will not burden Cambodia with mental or medical issues; then they will issue travel documents for the deportations to proceed. In the meantime, over 100 Cambodian Americans will wait in their cells at the LaSalle Detention Center, for an interview that will change the course of their lives and tear them apart from the only families they have known.
+
+In April of this year, the Cambodian government recognized the cruelty of deporting Cambodian Americans with criminal records, away from their loved ones and families. In response, the Trump administration threatened the small nation with visa sanctions. The Cambodian government subsequently agreed to conduct interviews and issue travel documents.
+
+“I have done terrible things that not only affected by community but also devastated my family. Now I want to get to know my son, my mother, my sisters. Twenty years is a long time to be away from a family member. I want to rebuild a relationship with my son, siblings and parents, to help me reconcile the thing that I did, so that way I can live the rest of my life trying to get to know them again, to love them, and even like them. But now I may never have the chance,” says Tuong.
+	
+
+
+
+
+
+
+	
+		
+		 J.M. Wong
+J.M. Wong is an organizer based in Seattle, Washington. They care about issues related to gender, labor, race, and incarceration.
+		
+	
+
+					
+					
+						To submit a correction for our consideration, click here.					
+					For Reprints and Permissions, click here.
+				
+						
+				
+					  
+					Comments (0)					
+								
+			
+			
+				
+
+	
+		
+			Leave a Comment		
+		
+					
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+		
+		
+		
+				
+			
+			
+				Logged in as 
+				
+								 
+				Log out?
+			
+			
+			
+				Comment
+				
+			
+			
+			
+				
+				
+				
+			
+			
+		
+	
+	
+	
+	
+	
+		
+	
+
+
+
+				
+				
+				
+	
+	
+			
+		// The content published date
+		tp.push(["setContentCreated", "2017-11-21T07:00:21+00:00"]);
+						// The content author
+				tp.push(["setContentAuthor", "J.M. Wong" ]);
+						// The content section
+		tp.push(["setContentSection", "Article"]);
+		// The content tags
+		tp.push(["setTags", ["Criminal Justice","Democrats","Immigration Policy","Republicans"] ]);					
+		// Add custom variables as any key-value pair. The first parameter is the key; second is the value						
+	
+	
+
+
+   		   
+		   
+				(function () {
+					var referer = "";
+					try {
+						if (referer = document.referrer, "undefined" == typeof referer)
+							throw"undefined"
+					} catch (exception) {
+						referer = document.location.href, ("" == referer || "undefined" == typeof referer) && (referer = document.URL)
+					}
+					referer = referer.substr(0, 700);
+					var rcel = document.createElement("script");
+					rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+					rcel.type = 'text/javascript';
+					rcel.src = "https://trends.revcontent.com/serve.js.php?w=51170&t=" + rcel.id + "&c=" + (new Date()).getTime() + "&width=" + (window.outerWidth || document.documentElement.clientWidth) + "&referer=" + referer;
+					rcel.async = true;
+					var rcds = document.getElementById("rcjsload_286cf7_265196");
+					rcds.appendChild(rcel);
+				})();
+		   
+		   	
+		
+				
+				
+		
+			Ad Policy
+			
+		
+	
+		
+	
+	
+
+On Draymond Green’s ‘Friends of the IDF’ Trip to Israel
+
+Brett Kavanaugh Once Argued That a Sitting President Should Be Above the Law
+
+My Best Friend Lost His Life to the Gig Economy
+
+The Social Shaming of Racists Is Working
+
+Why Trump’s Denaturalization Task Force Matters
+
+The 1988 immigration law paved the way for the unfettered deportation of documented immigrants and refugees in prisons and jails. Obama further drove a wedge between the deserving and undeserving immigrants, expanding the numbers for whom deportation would be a cruel addition to their prison sentence, ignoring the fact that individuals may have repented or changed since the time of their offense. In 2014, then President Obama promised to deport “Felons, not families. Criminals, not children. Gang members, not a mom who’s working hard to provide for her kids.” This targeting of immigrants and refugees with criminal records would proceed with more vigor under the current administration. Trump’s most recent propaganda tool is the Victims of Immigration Crime Enforcement (VOICES) program, which includes a hotline designed “to acknowledge and serve the needs of crime victims and their families who have been affected by crimes committed by individuals with a nexus to immigration.”
+
+
+
+In response, Southeast Asian immigrant-rights advocates initiated a social-media campaign, calling for a fix to the 1996 laws that permitted a widespread deportation of individuals who grew up in the United States, as well as a call for felons to be recognized as members of their families. The hashtags #Fix96, #FelonsAreFamily and #Right2Return were popularized to resist the dehumanization of people with criminal records. The label of a “criminal” had some consequences for Ngot Tuong, as he made his way from the Pacific Northwest to LaSalle Detention Center in Louisiana.
+
+
+
+“You shouldn’t have committed a crime,” Tuong recalls the corrections officer in Louisiana saying when he and others filed a grievance about inhumane conditions in the holding cell. Alongside 20 other people, Tuong was locked in a holding cell with leaking sewage for two days while awaiting processing. He says that they were served two small sandwiches for breakfast and lunch and given no bedding for sleep and no hygiene products. One of the toilets was clogged and the ground was filthy.		
+			Current Issue
+
+								
+									
+									
+												
+						View our current issue	
+						
+						
+					
+								
+				
+		
+			
+			var magazine_text_265196            = '';
+			var magazine_button_text_265196     = '';
+			var magazine_button_url_265196      = '';
+			var magazine_button_bg_color_265196 = '';
+			
+			var is_user_logged_in = getCookie('SESSname');				if( is_user_logged_in != null ){
+					
+						
+						magazine_text_265196 = ' If you like this article, please give today to help fund The Nation’s work.';	
+												magazine_button_text_265196 = '';	
+												magazine_button_url_265196 = 'https://www.thenation.com/email-signup-module-donate/';
+												magazine_button_bg_color_265196 = '#ffcf0d';
+								
+					
+				}else{
+					
+						
+						magazine_text_265196 = 'Subscribe today and Save up to $129.';	
+												magazine_button_text_265196 = '';				
+												magazine_button_url_265196 = 'https://ssl.palmcoastd.com/06601/apps/NEW_US?ikey=I**GAB';
+												magazine_button_bg_color_265196 = '#dd3333';
+								
+					
+				}
+			
+						
+			if( magazine_text_265196 !='' ){				
+				jQuery("#magazine_text_265196").html(magazine_text_265196);				
+			}
+			
+			if( magazine_button_text_265196 !='' ){				
+				jQuery("#magazine_button_265196").html(magazine_button_text_265196);				
+			}
+			
+			if( magazine_button_url_265196 !='' ){				
+				jQuery("#magazine_button_265196 a").attr("href",magazine_button_url_265196);				
+			}
+			
+			if( magazine_button_bg_color_265196 !='' ){			
+				jQuery("#magazine_button_265196 a input").css("background",magazine_button_bg_color_265196);				
+			}
+			
+		
+			
+		
+
+
+
+“We did our time,” insists Tuong, “and we are punished again simply because we aren’t US citizens. But we all have legal residence. It says ‘Legal Permanent Resident’ on my card. I don’t know what ‘permanent’ means to the US government, but it shouldn’t mean I only stay here until they decide to deport me. It looks like I have to be hauled in when they need more people to meet their quota.” (Like Obama, the Trump administration has maintained a nightly quota to fill 34,000 beds in its contracts with privately operated immigration detention centers, spending close to $150 per detainee per night.)
+
+
+
+A foreman at a construction site in Pensacola, Florida, Chhon Ivy who was released 12 years ago after serving two years for a drug-trafficking charge, laments that for immigrants like him there’s no such thing as time served. “Don’t judge us for our past, the past is dead. Can they see the present now? How someone is changing for the better?”
+
+
+
+But there’s even more to this story, Chen Kong suggests. Chen, who is Cambodian American, offers restorative-justice trauma counseling at the Oakland Unified School Districts. Her brother was recently detained for interviews with the Consulate. She says, “ICE tells the story of picking up criminals. Let’s tell the story of healing that’s needed. We have inherited trauma, from our parents’ surviving the killing fields, and then being resettled in poverty in the US. We need to tell the story of the 1.5 generation.”
+
+
+
+The memories of Cambodia are faint and distant for 44-year-old Tuong. He had arrived in the United States from the refugee camp with his parents and younger sister when he was 5 years old.		
+			
+			
+			
+		
+		
+			
+			var inline_cta_text_265196            = '';
+			var inline_cta_button_text_265196     = '';
+			var inline_cta_url_265196             = '';
+			var inline_cta_bg_color_265196        = '';
+			var inline_cta_font_color_265196      = '';
+			var cta_1_check_265196  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_text_265196 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_265196 = '#000000';
+													
+						inline_cta_button_text_265196 = '';
+												
+						inline_cta_url_265196 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_265196 = '#ffcf0d';
+											
+				}else{
+					
+											
+						inline_cta_text_265196 = 'Support Progressive JournalismIf you like this article, please give today to help fund The Nation’s work.';
+													inline_cta_font_color_265196 = '#000000';
+													
+						inline_cta_button_text_265196 = '';
+												
+						inline_cta_url_265196 = 'https://www.thenation.com/inline-module-donate/';
+												
+						inline_cta_bg_color_265196 = '#ffcf0d';
+										}
+				
+							
+			if( inline_cta_text_265196 !='' ){
+				jQuery("#inline_cta_265196").html(inline_cta_text_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_button_text_265196 !='' ){
+				jQuery("#inline_cta_btn_265196").html(inline_cta_button_text_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_url_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a").attr("href",inline_cta_url_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_bg_color_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a input").css("background",inline_cta_bg_color_265196);
+				cta_1_check_265196 = true;
+			}
+			
+			if( inline_cta_font_color_265196 !='' ){
+				jQuery("#inline_cta_btn_265196 a input").css("color",inline_cta_font_color_265196);
+				cta_1_check_265196 = true;
+			}
+
+			if( cta_1_check_265196 ){
+				jQuery("#inline_cta_1_module_265196").addClass("inline-cta-module");
+			}	
+			
+		
+	
+
+
+
+“I remember just little bits and pieces of Cambodia and the refugee camp. My cousin and I wanted to steal bananas from the plantation [nearby]. We crossed this river on a fallen log. We were so scared, and all of a sudden, the wind was whipping hard. Old people [had] told us stories about ghosts and whipping winds. I’m scared, he’s scared, and we are holding on to one another.”
+
+
+
+Tuong continues, “We look out into this field, hiding under the bushes, and we see this huge creature landing in front of us. It was like a giant dragonfly just 100 yards in front of us.				
+				
+			
+				
+	
+		/*
+		 * Article Inline Ads Calling
+		 */
+		var art_inline_ad_265196 = true; 
+		function inline_ad( articlePostId ){
+			if( art_inline_ad_265196 ){
+				art_inline_ad_265196 = false;
+				var targetingArray              = new Array();
+				targetingArray['tn_author']     = ['j.m.-w'];
+				targetingArray['tn_articleid']  = [265196];
+				targetingArray['tn_ptype']      = ['article'];
+				targetingArray['tn_keyword']    = ['criminal-r', 'deportatio', 'immigratio'];
+				targetingArray['tn_subject']    = ['criminal-j', 'democrats', 'immigratio', 'republican'];
+				targetingArray['tn_slp']        = []; 
+				call_ad_new('halfpage250','tn_article','inline_ad_300x250_'+articlePostId+'','rectangle_4',targetingArray);						
+			}			
+		} 		
+	
+	
+
+
+
+“Green men jump out, and their faces were white. They were holding guns and we were scared to death. We kept quiet and stayed under the bushes. We saw them loading people on there. Back into the dragonfly, and then the wind calmed down.”
+
+
+
+“That was the first time I ever seen white people,” Tuong chuckles.
+
+
+
+Five-year-old Tuong and his cousin had every reason to hide from the “dragonfly” and its fearsome whipping winds. The men in green with white faces were likely part of the legacy of Operation Menu and Operation Freedom Deal, covert operations conducted by the US military in Laos and Cambodia, to presumably cut off supplies to the North Vietnamese army. The bombings were not approved by the US Congress, and neither were they acknowledged by the general US public. Nearly 3 million tons of bombs were dropped on Cambodia, a country the same size as Washington state. It was the largest carpet bombing the US military had ever conducted at the time, exceeding the bombs dropped on Japan in World War II by more than 1 million tons. Thirty percent of the population was displaced, and a civil war subsequently emerged out of the instability and debris.
+
+
+
+The secret invasion of Cambodia and its destabilization opened the way for the emergence of the Khmer Rouge, known for the killing fields where more than a million Cambodians were massacred and buried in mass graves. Families fleeing the Khmer Rouge found their way into refugee camps, hoping to be sponsored by US churches and philanthropic organizations to be resettled on the mainland.
+
+
+
+Like Tuong, Chen’s journey to the United States began at the refugee camps. She explains, “The first generation are our parents, the second are the younger people in our community who are born in the US and can assimilate. The 1.5 is people like me and my brother, who were born in refugee camps escaping the war.”
+
+
+
+“There is an unspoken story of the 1.5 generation. We are children of Khmer refugees and we inherited their trauma and PTSD. We resettled in the US and, of course, we were living in poverty. Just add that layer too.”
+
+
+
+“Do you eat dogs? Are you a chink? You should be happy where you are at!” Chen adds, “This is what I grew up hearing. As a female I felt unsafe and didn’t feel a sense of belonging growing up.”		
+		
+			
+			
+		
+		
+		
+			
+			var inline_cta_2_text_265196            = '';
+			var inline_cta_2_button_text_265196     = '';
+			var inline_cta_2_url_265196             = '';
+			var inline_cta_2_bg_color_265196        = '';
+			var inline_cta_2_font_color_265196      = '';
+			var cta_2_check_265196  = false;  
+			var is_user_logged_in = getCookie('SESSname');				
+				if( is_user_logged_in != null ){
+					
+											
+						inline_cta_2_text_265196 = 'Give a gift subscription today!Know someone who would like The Nation?';
+													inline_cta_2_font_color_265196 = '#ffffff';
+													
+						inline_cta_2_button_text_265196 = '';
+												
+						inline_cta_2_url_265196 = 'https://ssl.drgnetwork.com/ecom/NAT/app/live/subscriptions?org=NAT&publ=NA&key_code=68F1CGS&type=S';
+												
+						inline_cta_2_bg_color_265196 = '#cc0e0e';
+											
+				}else{
+					
+											
+						inline_cta_2_text_265196 = 'Subscribe to The Nation  for $2 a month.Get unlimited digital access to the best independent news and analysis.';
+													inline_cta_2_font_color_265196 = '#ffffff';
+													
+						inline_cta_2_button_text_265196 = '';
+												
+						inline_cta_2_url_265196 = 'https://ssl.drgnetwork.com/ecom/NAT/app/live/subscriptions?org=NAT&publ=NA&key_code=G8F1CTA&type=S';
+												
+						inline_cta_2_bg_color_265196 = '#cc0e0e';
+										}
+				
+							
+			if( inline_cta_2_text_265196 !='' ){
+				jQuery("#inline_cta_2_265196").html(inline_cta_2_text_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_button_text_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196").html(inline_cta_2_button_text_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_url_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a").attr("href",inline_cta_2_url_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( inline_cta_2_bg_color_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a input").css("background",inline_cta_2_bg_color_265196);
+				cta_2_check_265196 = true;
+			}	
+			
+			if( inline_cta_2_font_color_265196 !='' ){
+				jQuery("#inline_cta_2_btn_265196 a input").css("color",inline_cta_2_font_color_265196);
+				cta_2_check_265196 = true;
+			}
+			
+			if( cta_2_check_265196 ){
+				jQuery("#inline_cta_2_module_265196").addClass("inline-cta-module");
+			}
+			
+		
+		
+	
+
+
+
+Tuong echoes this sentiment. Barely 10 years after seeing gun-toting white men in green suits while hiding in a field in Cambodia, 16-year-old Tuong armed himself with guns too. Living in low-income housing in the Salishan neighborhood of Tacoma, Tuong recalls, “We were a bunch of guys in the neighborhood who wanted to feel safe after being beaten up so many times. We wanted to get each other’s backs. We weren’t intentionally trying to create a criminal organization.”
+
+
+
+“Some guys in school wanted to get us after school. They thought it was gonna be easy. We rounded up all the guys and went and got guns. My friend pulled the shotgun and popped it. The look on their faces… They were scared. ‘Maybe I’m not going home tonight,’ was what it said. They backed up and left us alone.”
+
+
+
+Referring to Angelina Jolie’s recent film about the killing fields, Chen adds, “They keep retelling the story of the genocide. But that’s the past. It’s too late. That story should have been told 20 years ago. Now there’s another story we need to fast-forward to. Our current issues now, where Cambodian Americans are getting deported and it’s impacting a lot of families. It’s bleeding in the law system and families are being torn apart.”
+
+
+
+From their respective cities, Chen’s brother and Nak Kim Chheuon will take a flight contracted by ICE. It could be a Boeing 737, or a Gulfstream aircraft. If it is anything like Ngot Tuong’s journey, they would be on an airplane called Swift Air, crammed with Cambodian and Latinx people, all handcuffed. If their journey is anything like Tuong’s, they would be confused and disoriented from flights to nowhere, flying from Washington to Arizona, spend a few nights, and then on to Texas, back to Arizona, then to Georgia, and then to Texas again before arriving at their destination in Louisiana. These back-and-forth flights are likely chalking up the expenses for which the Homeland Security’s Office of Inspector General criticized the agency.
+
+
+
+In Jena, Louisiana these men will undergo interviews with the Cambodian consulate under the supervision and presence of ICE officers. The procedure goes as follows: ICE will conduct the roundup of Cambodian Americans around the country; the Cambodian consulate will conduct interviews to verify that these individuals are deportable—in that they will not burden Cambodia with mental or medical issues; then they will issue travel documents for the deportations to proceed. In the meantime, over 100 Cambodian Americans will wait in their cells at the LaSalle Detention Center, for an interview that will change the course of their lives and tear them apart from the only families they have known.
+
+
+
+In April of this year, the Cambodian government recognized the cruelty of deporting Cambodian Americans with criminal records, away from their loved ones and families. In response, the Trump administration threatened the small nation with visa sanctions. The Cambodian government subsequently agreed to conduct interviews and issue travel documents.
+
+
+
+“I have done terrible things that not only affected by community but also devastated my family. Now I want to get to know my son, my mother, my sisters. Twenty years is a long time to be away from a family member. I want to rebuild a relationship with my son, siblings and parents, to help me reconcile the thing that I did, so that way I can live the rest of my life trying to get to know them again, to love them, and even like them. But now I may never have the chance,” says Tuong.
+	
+
+ J.M. Wong
+
+
+
+						To submit a correction for our consideration, click here.					
+
+For Reprints and Permissions, click here.
+
+			
+			In order to comment, you must be logged in as a paid subscriber.Click here to log in or subscribe.		
+
+
+				Logged in as 
+				
+								 
+				Log out?
+			
+
+
+				Comment
+				
+			
+
+
+				
+				
+				
+			
+
+
+					
+						Sign up for our free daily newsletter, along with occasional offers for programs that support our journalism. You can read our Privacy Policy here. 
+					
+					
+
+Copyright (c) 2018 The Nation Company LLC
