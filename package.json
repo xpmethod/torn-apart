@@ -6,9 +6,11 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
-    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build:main": "babel -q --copy-files --out-dir dist --ignore *.test.js src",
     "build:umd": "webpack -p",
     "lint": "eslint src",
+    "prenews": "npm run build:main",
+    "news": "node dist/news",
     "validate": "npm-run-all --parallel lint build",
     "watch": "webpack --watch"
   },
@@ -65,7 +67,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run build"
+      "pre-commit": "npm run validate"
     }
   }
 }
