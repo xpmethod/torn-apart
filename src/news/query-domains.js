@@ -13,22 +13,24 @@ export default function(apiKey){
   const ss = JSON.parse(readFileSync(resolve("data","news-sources-by-state.json")));
   const sources = _.shuffle(_.flatMap(ss)); // until I solve chaining…
   // const domainChunks = [["wsj.com", "bingo.com"], ["bongo.com", "nytimes.com"]];
-  const domainChunks = _.chunk(sources, 15);
+  const domainChunks = _.chunk(sources, 20);
   _.each(domainChunks, (chunk, i) => {
-    stdout.write(`testing chunk ${i}`);
-    newsapi.v2.everything({
-      q: "Trump",
-      pageSize: 100,
-      domains: chunk.join(",")
-    }).then( response => {
-      chunk.map( domain => {
-        if(response.articles.filter(article => article.url.match(domain.replace(/^www\./, ""))).length > 0){
-          indexed.write(domain + "\n");
-        } else {
-          notIndexed.write(domain + "\n");
-        }
+    setTimeout(() => {
+      stdout.write(`testing chunk ${i}\n`);
+      newsapi.v2.everything({
+        q: "Trump",
+        pageSize: 100,
+        domains: chunk.join(",")
+      }).then( response => {
+        chunk.map( domain => {
+          if(response.articles.filter(article => article.url.match(domain.replace(/^www\./, ""))).length > 0){
+            indexed.write(domain + "\n");
+          } else {
+            notIndexed.write(domain + "\n");
+          }
+        });
       });
-    });
+    }, 5000);
   });
 }
 
