@@ -2,8 +2,8 @@ import $ from "jquery";
 import { select } from "d3-selection";
 import { format } from "d3-format";
 import L from "leaflet";
-import { orange } from "./constants";
-import { defaultRadius } from "./utils";
+import { orange } from "../constants";
+import { defaultRadius } from "../utils";
 
 export default function(mandays, map){
   const radius = defaultRadius();

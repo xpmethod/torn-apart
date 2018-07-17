@@ -7,12 +7,12 @@ import { pie, arc } from "d3-shape";
 import { scaleBand, scaleLinear } from "d3-scale";
 import { axisBottom, axisLeft } from "d3-axis";
 import { format } from "d3-format";
-import initChart from "./charts-init";
-import buildSpreadsheet from "./charts-spreadsheet";
-import { rem, orange } from "./constants";
-import { titleUp } from "./utils";
-import facOperators from "./private-operators.json";
-import Data from "../data/iceFacs.csv";
+import initChart from "./init";
+import buildSpreadsheet from "./spreadsheet";
+import { rem, orange } from "../constants";
+import { titleUp } from "../utils";
+import facOperators from "../private-operators.json";
+import Data from "../../data/iceFacs.csv";
 
 export default function(map) {
   selection.prototype.moveToFront = function() {  
