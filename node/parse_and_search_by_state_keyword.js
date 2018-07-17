@@ -1,7 +1,7 @@
-//Parses the news-crawl-output list and then searches each domain for some keywords relating to the border crisis. Saves results to files named for the counties of each domain (appending when there is already an existing file).
+//Parses the iceFacs csv (assuming it is in the same folder), saves to nested array, then searches all of newsapi for each facility, associating the results with the strCounty.)
 const NewsAPI = require('newsapi');
 
-const newsapi = new NewsAPI('YOUR KEY HERE');
+const newsapi = new NewsAPI('YOUR API KEY HERE');
 
 var parse = require('csv-parse');
 var shell = require('shelljs'); // I seem to need this in order to construct intermediate directories if they don't already exist in the final step where I write to the directory structure. fs-extras and the standard mkdir can do the final directory, but not intermediate ones, or so it seems. Or maybe I implemented them wrong.
@@ -30,15 +30,14 @@ fs.readFile('../data/news-crawl-output.csv', function(err, data) {
 
 
         twocolumn_output.map( (row, i, array) => {
-        	console.log(row[0]);
-        	console.log(row[1]);}
+        	//console.log(row[0]);
+        	//console.log(row[1]);}
 	);
 
 
 
 		//actual newsapi search
                 // use ".map" to loop over all entries in "domains", and execute a function (the newsapi call) on each enty
-				//seems to need http and www to be stripped now though, weirdly
 		twocolumn_output.map( (row, i, array) => {
                                newsapi.v2.everything({
                                    q: '"ICE" OR "refugee" OR "refugees" OR "immigration" OR "asylum" OR "detention center" OR "border crisis" OR "undocumented immigrant" OR "illegal immigrant"', 
@@ -46,7 +45,7 @@ fs.readFile('../data/news-crawl-output.csv', function(err, data) {
                                    pageSize: 100, 
 				   domains: String(row[1])				   
 				}).then(response => {
-		console.log("Response is" + JSON.stringify(response));
+		//console.log("Response is" + JSON.stringify(response));
 		//console.log(row);
                 //console.log("Domain is " + row[1]);
 										
@@ -56,7 +55,7 @@ fs.readFile('../data/news-crawl-output.csv', function(err, data) {
 		var fileString = folderString + row[0] + ".json";
 		
                 fs.appendFile(fileString, JSON.stringify(response), function() { //has to be appendFile instead of writeFile because each county can appear multiple times in our domain list csv
-                                            console.log("wrote a file: " + fileString);
+                                            //console.log("wrote a file: " + fileString);
                                         });
                                    });    //end then
                             });    //end map
