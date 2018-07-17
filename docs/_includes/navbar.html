@@ -21,12 +21,40 @@
       <li class="nav-item">
         <a  data-i18n="ta-credits" id="nav-credits" class="nav-link" href="{{ site.baseurl }}/credits.html">Credits</a>
       </li>
+      <div class="dropdown-divider"></div>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#clinks">Clinks</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#the-trap">The Trap</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#the-eye">The Eye</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#charts">Charts</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#orr">ORR</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-banned" id="banned-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#banned">Banned</a>
+      </li>
+      <li class="nav-item viz-item">
+        <a data-i18n="ta-lines" id="lines-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#lines">Lines</a>
+      </li>
     </ul>
   </div>
   <a class="ml-auto en-button locale-button active nav-item nav-link" href="#" data-locale="en">EN</a> |
   <a class="es-button locale-button nav-item nav-link" href="#" data-locale="es">ES</a> | 
   <a class="fr-button locale-button nav-item nav-link" href="#" data-locale="fr">FR</a>
+{% if page.mapid == "visualizations-mapdiv" %}
+  <button class="navbar-toggler navbar-toggler-orange" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+{% else %}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+{% endif %}
 </nav>
