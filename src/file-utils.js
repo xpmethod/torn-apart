@@ -14,6 +14,11 @@ export function fileWriteCSV(filePath, data){
   });
 }
 
+export function fileLinesToArray(filePath) {
+  // This will punt on large files.
+  return readFileSync(filePath).toString().split("\n");
+}
+
 
   
 
