@@ -1,7 +1,7 @@
 import $ from "jquery";
-import clinksLegend from "./clinks-legend";
-import clinksLayer from "./clinks-layer";
-import clinksD3 from "./clinks-d3";
+import clinksLegend from "./clinks/legend";
+import clinksLayer from "./clinks/layer";
+import clinksD3 from "./clinks/d3";
 import { mapZoomEnable } from "./utils";
 
 export default function(map){

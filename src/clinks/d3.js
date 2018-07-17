@@ -5,11 +5,11 @@ import L from "leaflet";
 // .attr, .classed, etc. methods.
 import { select } from "d3-selection";
 // This is a constant that sits as a utility function.
-import { defaultRadius } from "./utils";
+import { defaultRadius } from "../utils";
 // Load the data. This can be csv data, too--see src/charts-display.js
-import iceFacs from "./ice-facilities.json";
-import detCtrs from "./detention-centers.json";
-import zeroIceFacs from "./unused-ice-facilities.json";
+import iceFacs from "../ice-facilities.json";
+import detCtrs from "../detention-centers.json";
+import zeroIceFacs from "../unused-ice-facilities.json";
 
 // map is sent to this function, and it is the variable created when running
 // the command const map = L.map("mapdiv")
@@ -48,7 +48,7 @@ export default function(map) {
     .classed("zerofac-dot", true)
     // Give each dot a useful id value that is unique to it, as DETLOCs are
     // unique.
-    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("id", d => d.DETLOC + "-dot")
     .attr("r", radius);
   // repeat for iceFacs data...
   iceG.selectAll("circle")
@@ -70,14 +70,14 @@ export default function(map) {
         }
       });
       // Or if Facility.operator is one of these, make that the class here.
-      ["CCA", "GEO", "ORR"].map(operator => { if(operator === code) group = operator; });
+      ["CCA", "GEO", "ORR"].map(operator => { if(operator === code) { group = operator; } });
       return group;
     })
     .classed("orange-dot", true)
     .classed("ice-dot", true)
     // add an additional html data attribute listing the specific operator.
     .attr("data-operator", d => d["Facility.Operator"])
-    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("id", d => d.DETLOC + "-dot")
     // Make the radius of the dot bigger.
     .attr("r", radius * 2);
   // repeat for detention centers...
@@ -87,8 +87,8 @@ export default function(map) {
     .style("stroke", "black")
     .classed("purple-dot", true)
     .classed("dc-dot", true)
-    .attr("data-operator", d => d["Owner"])
-    .attr("id", d => d["DETLOC"] + "-dot")
+    .attr("data-operator", d => d.Owner)
+    .attr("id", d => d.DETLOC + "-dot")
     .attr("r", radius * 1.5);
   // Add an event listener that fires the d3Update function whenver the zoom
   // changes on the map so that it can reproject the dots.
