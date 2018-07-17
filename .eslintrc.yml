@@ -5,7 +5,7 @@ env:
   # jquery: true
 extends: 
   - "eslint:recommended"
-  - "kentcdodds/possible-errors"
+  # - "kentcdodds/possible-errors"
   # - "kentcdodds/es6/possible-errors"
 parserOptions:
   sourceType: module
