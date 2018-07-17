@@ -3,7 +3,7 @@ import { select } from "d3-selection";
 import { max } from "d3-array";
 import { randomNormal } from "d3-random";
 import { forceSimulation, forceCollide, forceManyBody, forceCenter, forceY, forceX } from "d3-force";
-import orrData from "./orr-data";
+import orrData from "./orr/data";
 
 export default function(map) {
   $(map).css("cursor", "grab");  
