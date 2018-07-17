@@ -1,3 +1,4 @@
+import $ from "jquery";
 import L from "leaflet";
 import { moveLegend } from "./utils";
 

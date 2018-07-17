@@ -12,10 +12,13 @@
     "prenews": "npm run build:main",
     "news": "node dist/news",
     "validate": "npm-run-all --parallel lint build",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "prewcs": "npm run build:main",
+    "wcs": "node dist/wcs"
   },
   "dependencies": {
     "@turf/helpers": "^6.1.4",
+    "csv": "^3.1.0",
     "csv-parse": "^2.5.0",
     "d3": "^5.5.0",
     "jquery": "^3.3.1",
@@ -32,10 +35,13 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
+    "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "clean-webpack-plugin": "^0.1.19",
     "csv-loader": "^3.0.2",
+    "eslint": "^5.1.0",
+    "eslint-config-kentcdodds": "^14.0.0",
     "exports-loader": "^0.7.0",
     "ghooks": "^2.0.4",
     "lodash": "^4.17.10",

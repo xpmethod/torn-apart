@@ -1,3 +1,4 @@
+import $ from "jquery";
 import bannedDraw from "./banned-draw";
 import composeTotal from "./banned-compose-total";
 import { muslimBanTotal } from "./constants";

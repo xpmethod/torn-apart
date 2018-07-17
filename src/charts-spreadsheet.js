@@ -1,3 +1,4 @@
+import $ from "jquery";
 import { select } from "d3-selection";
 import { format } from "d3-format";
 import L from "leaflet";
