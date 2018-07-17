@@ -32,10 +32,13 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
+    "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "clean-webpack-plugin": "^0.1.19",
     "csv-loader": "^3.0.2",
+    "eslint": "^5.1.0",
+    "eslint-config-kentcdodds": "^14.0.0",
     "exports-loader": "^0.7.0",
     "ghooks": "^2.0.4",
     "lodash": "^4.17.10",
