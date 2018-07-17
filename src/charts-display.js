@@ -1,3 +1,4 @@
+import $ from "jquery";
 import { select, selectAll, selection } from "d3-selection";
 // import { transition } from "d3-transition";
 import "d3-transition";
