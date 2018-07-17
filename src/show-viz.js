@@ -1,11 +1,12 @@
 import $ from "jquery";
 import updateTexts from "./update-texts";
-import clinks from "./clinks";
-import charts from "./charts";
-import trap from "./trap";
-import theEye from "./the-eye";
-import orr from "./orr";
 import banned from "./banned";
+import charts from "./charts";
+import clinks from "./clinks";
+import lines from "./lines";
+import orr from "./orr";
+import theEye from "./the-eye";
+import trap from "./trap";
 import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
@@ -36,6 +37,10 @@ export default function (viz, map){
     break;
   case "orr":
     orr(map);
+    updateTexts();
+    break;
+  case "lines":
+    lines(map);
     updateTexts();
     break;
   case "banned":
