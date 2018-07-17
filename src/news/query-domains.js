@@ -13,7 +13,7 @@ export default function(apiKey){
   const ss = JSON.parse(readFileSync(resolve("data","news-sources-by-state.json")));
   const sources = _.shuffle(_.flatMap(ss)); // until I solve chaining…
   // const domainChunks = [["wsj.com", "bingo.com"], ["bongo.com", "nytimes.com"]];
-  const domainChunks = _.chunk(sources, 15);
+  const domainChunks = _.chunk(sources, 20);
   _.each(domainChunks, (chunk, i) => {
     stdout.write(`testing chunk ${i}`);
     newsapi.v2.everything({
