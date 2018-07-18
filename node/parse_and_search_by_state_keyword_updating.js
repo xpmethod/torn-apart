@@ -1,7 +1,7 @@
 //Parses the iceFacs csv (assuming it is in the same folder), saves to nested array, then searches all of newsapi for each facility, associating the results with the strCounty.)
 const NewsAPI = require("newsapi");
 
-const newsapi = new NewsAPI("ba69330e8028431b8409c31ccab1913b");
+const newsapi = new NewsAPI("YOUR API KEY HERE");
 
 var parse = require("csv-parse");
 var shell = require("shelljs"); // I seem to need this in order to construct intermediate directories if they don't already exist in the final step where I write to the directory structure. fs-extras and the standard mkdir can do the final directory, but not intermediate ones, or so it seems. Or maybe I implemented them wrong.
