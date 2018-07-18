@@ -1,11 +1,11 @@
 import L from "leaflet";
-import { titleUp, defaultRadius } from "./utils";
-import { purple, orange } from "./constants";
-import circleMarker from "./circle-marker";
-import sparkLine from "./spark-line";
-import iceFacs from "./ice-facilities.json";
-import imgurImages from "./imgur-images.json";
-import detCtrs from "./detention-centers.json";
+import { titleUp, defaultRadius } from "../utils";
+import { purple, orange } from "../constants";
+import circleMarker from "../circle-marker";
+import sparkLine from "../spark-line";
+import iceFacs from "../ice-facilities.json";
+import imgurImages from "../imgur-images.json";
+import detCtrs from "../detention-centers.json";
 
 export default function() {
   const radius = defaultRadius();

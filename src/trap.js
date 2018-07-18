@@ -1,6 +1,6 @@
 import $ from "jquery";
-import trapLegend from "./trap-legend";
-import trapLayer from "./trap-layer";
+import trapLegend from "./trap/legend";
+import trapLayer from "./trap/layer";
 import { mapZoomEnable } from "./utils";
 
 export default function(map){

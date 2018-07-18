@@ -1,5 +1,5 @@
 import $ from "jquery";
-import chartsDisplay from "./charts-display";
+import chartsDisplay from "./charts/display";
 import { mapZoomEnable } from "./utils";
 
 export default function(map){

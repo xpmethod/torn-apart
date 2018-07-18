@@ -1,6 +1,7 @@
-import { moveLegend, defaultRadius } from "./utils";
-import { purple, orange } from "./constants";
-import updateTexts from "./update-texts";
+import $ from "jquery";
+import { moveLegend, defaultRadius } from "../utils";
+import { purple, orange } from "../constants";
+import updateTexts from "../update-texts";
 
 export default function(){
   const radius = defaultRadius();
