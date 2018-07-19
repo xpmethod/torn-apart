@@ -1,6 +1,5 @@
 ---
 title: Textures
-permalink: textures.html
 ---
 
 
