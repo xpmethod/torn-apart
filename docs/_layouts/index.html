@@ -12,7 +12,8 @@
       {% unless page.mapid == "mapdiv" %}
         <a id="index-button" class="nav-link nav-item" href="{{ site.baseurl }}/index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
       {% endunless %}
-      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#clinks">Visualizations</a>
+      {% assign default_viz = site.data.vizNavbars[page.volume][0] %}
+      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ default_viz }}">Visualizations</a>
       <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/textures.html">Textures</a>
       <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/reflections.html">Reflections</a>
       <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
