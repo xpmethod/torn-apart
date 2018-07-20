@@ -1,5 +1,10 @@
+<!-- There are ultimately three visualizations here stacked on top of each other. -->
+<!-- Time series, Mandays, and Operators. -->
+
 <div id="time-series-div" class="w-100">
   <h3 data-i18n="ta-5-yrs-of-detention"></h3>
+  <!-- This ul sets the tab list for the top vis. -->
+  <!-- Notice the relationships between aria-controls/data-toggle/etc and tabcontent. -->
   <ul id="time-series-nav" class="nav nav-pills" role="tablist">
     <li class="nav-item">
       <a href="#time-series-places-number" id="places-number-tab" class="nav-link active" data-toggle="tab" role="tab" aria-controls="time-series-places-number" aria-selected="true" data-i18n="ta-facilities">Facilities</a></li>
@@ -8,6 +13,7 @@
     <li class="nav-item">
       <a href="#time-series-bookins" id="bookins-tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="time-series-bookins" aria-selected="true" data-i18n="ta-bookins">Bookins</a></li>
   </ul>
+  <!-- Here begins the tab content. -->
   <div class="tab-content">
 
     <div id="time-series-places-number" class="tab-pane active" role="tabpanel" aria-labelledby="places-number-tab">
@@ -18,6 +24,7 @@
           <p class="markdownify" data-i18n="ta-time-series-text"></p>
         </div>
         <div id="total-places-svg-div" class="col-md-6">
+          <!-- Pre-create svg for each separate d3 viz. -->
           <svg id="total-places-svg"></svg>
         </div>
       </div>
