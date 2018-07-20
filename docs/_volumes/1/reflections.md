@@ -2,6 +2,7 @@
 title: Reflections
 layout: page
 volume: 1
+redirect_from: reflections.html
 ---
 
 # Reflections

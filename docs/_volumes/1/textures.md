@@ -2,6 +2,7 @@
 title: Textures
 layout: page
 volume: 1
+redirect_from: textures.html
 ---
 
 
