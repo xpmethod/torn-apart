@@ -3,6 +3,7 @@ import updateTexts from "./update-texts";
 import banned from "./banned";
 import charts from "./charts";
 import clinks from "./clinks";
+import districts from "./districts";
 import lines from "./lines";
 import orr from "./orr";
 import theEye from "./the-eye";
@@ -41,6 +42,10 @@ export default function (viz, map){
     break;
   case "lines":
     lines(map);
+    updateTexts();
+    break;
+  case "districts":
+    districts(map);
     updateTexts();
     break;
   case "banned":
