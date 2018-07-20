@@ -1,5 +1,7 @@
 import { resolve } from "path";
 import CleanWebpackPlugin from "clean-webpack-plugin";
+// import CompressionPlugin from "compression-webpack-plugin";
+
 
 const context = resolve(__dirname, "src");
 const out = resolve(__dirname, "docs", "assets", "js");
@@ -33,6 +35,10 @@ export default {
   },
   plugins: [
     new CleanWebpackPlugin([out]),
+    // new CompressionPlugin({
+    //   cache: true,
+    //   test: /\.js/,
+    // }),
   ],
   module: {
     rules: [
