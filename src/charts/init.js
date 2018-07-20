@@ -1,5 +1,8 @@
 import { select } from "d3-selection";
 
+// This function adds some properties to the dataObjects that are later used
+// when building the visualizations.
+
 export default function(chart, svgWidth, svgHeight){
   let svgW;
   if(chart.svgWidth){
