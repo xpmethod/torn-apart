@@ -11,7 +11,7 @@ $.when(
   [[en, "en"], [es, "es"], [fr, "fr"]].map((data) => {
     textures[data[1]] = {};
     data[0][0].split("#IMGTAG#").map( (chunk, i) => {
-      textures[data[1]][`ta-textures-full-text-${i + 1}`] = chunk;
+      textures[data[1]][`ta-v1-textures-full-text-${i + 1}`] = chunk;
     });
   });
   $.i18n().load(textures);      

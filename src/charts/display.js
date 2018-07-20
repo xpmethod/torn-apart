@@ -33,9 +33,9 @@ export default function(map) {
   const fadedblack = "rgba(51, 51, 51, 0.9)";
 
   // Init the charts.
-  const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-number-of-facilities", showFY: true };
-  const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-avg-daily-pop", showFY: true };
-  const bookins = { data: [], margins, id: "#bookins-svg", ymax: 900000, i18n: "ta-bookins", showFY: true };
+  const tp = { data: [], margins, id: "#total-places-svg", ymax: 400, i18n: "ta-v1-number-of-facilities", showFY: true };
+  const adp = { data: [], margins, id: "#adp-svg", ymax: 50000, i18n: "ta-v1-avg-daily-pop", showFY: true };
+  const bookins = { data: [], margins, id: "#bookins-svg", ymax: 900000, i18n: "ta-v1-bookins", showFY: true };
   const operators = { data: [{group: "OPRIV", taName: "Other Private", facilityCount: 0, adpCount: 0}, {group: "GOVT", name: "Government", facilityCount: 0, adpCount: 0}], 
     margins: { top: 0, bottom: 0, left: 0, right: 0},
     id: "#operators-svg", number: "facilityCount", svgWidth: thirdWidth };
@@ -93,7 +93,7 @@ export default function(map) {
       .attr("text-anchor", "end").attr("data-i18n", chart.i18n);
     if(chart.showFY){
       chart.svg.append("text").attr("transform", `translate(${svgWidth - chart.margins.right},${svgHeight - 4})`)
-        .attr("text-anchor", "end").attr("data-i18n", "ta-fiscal-year-begins");
+        .attr("text-anchor", "end").attr("data-i18n", "ta-v1-fiscal-year-begins");
     }
   });
 
