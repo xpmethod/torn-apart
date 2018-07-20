@@ -22,11 +22,11 @@ export default {
     libraryTarget: "umd",
     library: "tornApart",
   },
-  optimization: {
-    splitChunks: {
-      chunks: "all"
-    }
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: "all"
+  //   }
+  // },
   externals: {
     jquery: "jQuery",
     leaflet: "L"

@@ -19,32 +19,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.4/jquery.i18n.language.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.string/3.3.4/underscore.string.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/i18n.bundle.js"></script>
-<script src="{{ site.baseurl }}/assets/js/vendors~i18n~indexV1~texturesV1~texturesV2~visualizationsV1~visualizationsV2.bundle.js"></script>
-<script src="{{ site.baseurl }}/assets/js/vendors~i18n~indexV1~indexV2~visualizationsV1~visualizationsV2.bundle.js"></script>
 {% assign bundle_version = "V" | append: page.volume %}
-{% if page.mapid %}
-  <script src="{{ site.baseurl }}/assets/js/vendors~indexV1~indexV2~visualizationsV1~visualizationsV2.bundle.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendors~indexV1~visualizationsV1~visualizationsV2.bundle.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendors~indexV2~visualizationsV1~visualizationsV2.bundle.js"></script>
-  {% if bundle_version == "V2" %}
-  <script src="{{ site.baseurl }}/assets/js/indexV2~visualizationsV2.bundle.js"></script>
-  {% else %}
-  <script src="{{ site.baseurl }}/assets/js/indexV1~visualizationsV1.bundle.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendors~indexV1~visualizationsV1.bundle.js"></script>
-  {% endif %}
-{% endif %}
 {% if page.mapid == "mapdiv" %}
   <script src="{{ site.baseurl }}/assets/js/index{{ bundle_version }}.bundle.js"></script>
 {% elsif page.mapid == "visualizations-mapdiv" %}
   <script src="{{ site.baseurl }}/assets/js/visualizations{{ bundle_version}}.bundle.js"></script>
-  {% if bundle_version == "V2" %}
-    <script src="{{ site.baseurl }}/assets/js/vendors~visualizationsV2.bundle.js"></script>
-  {% else %}
-    <script src="{{ site.baseurl }}/assets/js/vendors~visualizationsV1.bundle.js"></script>
-  {% endif %}
 {% elsif page.url contains "/textures" %}
   <script src="{{ site.baseurl }}/assets/js/textures{{ bundle_version }}.bundle.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendors~i18n~indexV1~texturesV1~texturesV2~visualizationsV1~visualizationsV2.bundle.js"></script>
 {% endif %}
 {% if page.active %}
   <script>
