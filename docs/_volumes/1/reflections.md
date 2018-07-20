@@ -1,5 +1,7 @@
 ---
 title: Reflections
+layout: page
+volume: 1
 ---
 
 # Reflections
