@@ -12,12 +12,17 @@
       {% unless page.mapid == "mapdiv" %}
         <a id="index-button" class="nav-link nav-item" href="{{ site.baseurl }}/index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
       {% endunless %}
-      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/visualizations.html#clinks">Visualizations</a>
-      <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="{{ site.baseurl }}/textures.html">Textures</a>
-      <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="{{ site.baseurl }}/reflections.html">Reflections</a>
+      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#clinks">Visualizations</a>
+      <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/textures.html">Textures</a>
+      <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/reflections.html">Reflections</a>
       <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
       <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
       <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
+      {% if page.volume == 1 %}
+      <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
+      {% else %}
+      <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
+      {% endif %}
       <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">
         <span class="locale-toggle-text locale-toggle-en">EN</span> | 
         <span class="locale-toggle-text locale-toggle-es">ES</span> | 
@@ -29,7 +34,7 @@
       <nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start">
         {% assign tabs = site.data.vizNavbars[page.volume] %}
         {% for tab in tabs %}
-        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/visualizations.html#{{ tab }}"></a>
+        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
         {% endfor %}
       </nav>
     {% endif %}
@@ -51,10 +56,12 @@
 </div>
 <div class="full-map" id="{{page.mapid}}">
 </div>
-{% if page.permalink == "visualizations.html" %}
+{% if page.url contains "visualizations" %}
   <div id="the-eye-div" class="viz-hide"></div>
   <div class="px-3 py-2 card viz-hide" id="charts-div">
-    {% include charts.html %}
+    
+    {% assign chartsPage = "v" | append: page.volume | append: "/charts.html" %}
+    {% include {{ chartsPage }} %}
   </div>
 {% endif %}
 <div class="mx-3 card click-to-hide legend viz-hide" id="legend"></div>

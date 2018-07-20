@@ -1,0 +1,88 @@
+<div id="time-series-div" class="w-100">
+  <h3 data-i18n="ta-5-yrs-of-detention"></h3>
+  <ul id="time-series-nav" class="nav nav-pills" role="tablist">
+    <li class="nav-item">
+      <a href="#time-series-places-number" id="places-number-tab" class="nav-link active" data-toggle="tab" role="tab" aria-controls="time-series-places-number" aria-selected="true" data-i18n="ta-facilities">Facilities</a></li>
+    <li class="nav-item">
+      <a href="#time-series-adp" id="adp-tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="time-series-adp" aria-selected="true" data-i18n="ta-adp">ADP</a></li>
+    <li class="nav-item">
+      <a href="#time-series-bookins" id="bookins-tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="time-series-bookins" aria-selected="true" data-i18n="ta-bookins">Bookins</a></li>
+  </ul>
+  <div class="tab-content">
+
+    <div id="time-series-places-number" class="tab-pane active" role="tabpanel" aria-labelledby="places-number-tab">
+      <div class="row">
+        <div id="time-series-text" class="col-md-6">
+          <p class="big-number" id="total-places-no">--</p>
+          <h5 class="big-number-desc" data-i18n="ta-ice-facilities-in-use"></h5>
+          <p class="markdownify" data-i18n="ta-time-series-text"></p>
+        </div>
+        <div id="total-places-svg-div" class="col-md-6">
+          <svg id="total-places-svg"></svg>
+        </div>
+      </div>
+    </div>
+
+    <div id="time-series-adp" class="tab-pane" role="tabpanel" aria-labelledby="adp-tab">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="big-number" id="adp-no">--</p>
+          <h5 class="big-number-desc" data-i18n="ta-current-avg-daily-pop">Current average daily population</h5>
+          <p data-i18n="ta-adp-text"></p>
+        </div>
+        <div id="adp-svg-div" class="col-md-6">
+          <svg id="adp-svg"></svg>
+        </div>
+      </div>
+    </div>
+
+    <div id="time-series-bookins" class="tab-pane" role="tabpanel" aria-labelledby="bookins-tab">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="big-number" id="bookins-no">--</p>
+          <h5 class="big-number-desc" data-i18n="ta-bookins-october-and-november"></h5>
+          <p class="markdownify" data-i18n="ta-bookins-text"></p>
+        </div>
+        <div id="bookins-svg-div" class="col-md-6">
+          <svg id="bookins-svg"></svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div> <!-- time series div -->
+
+<div id="mandays-div" class="w-100">
+  <h3 data-i18n="ta-2017-mandays-and-overpop"></h3>
+  <div class="row">
+    <div class="col-md-3">
+      <p><strong data-i18n="ta-mandays"></strong>: <span data-i18n="ta-mandays-definition"></span></p>
+      <p><strong data-i18n="ta-usage"></strong>: <span data-i18n="ta-usage-definition"></span></p>
+    </div>
+    <div id="mandays-table-div" class="col-md-9"></div>
+  </div>
+</div>
+
+<div id="operators-div" class="w-100">
+  <h3 data-i18n="ta-facility-operators"></h3>
+  <div class="row">
+    <div id="operators-adp-pie-div" class="col-md-4">
+      <svg id="operators-adp-svg"></svg>
+      <h5 data-i18n="ta-18-adp-by-operator"></h5>
+    </div>
+    <div id="operators-pie-div" class="col-md-4">
+      <svg id="operators-svg"></svg>
+      <h5 data-i18n="ta-facility-by-operator"></h5>
+    </div>
+    <div id="operators-legend-div" class="col-md-4">
+      <h4 data-i18n="ta-legend" class="ml-3"></h4>
+      <ul class="legend-ul">
+        <li><span data-i18n="ta-government" style="color:#66c2a5;"></span></li>
+        <li><span data-i18n="ta-geo" style="color:#fc8d62;"></span>&nbsp;<a href="http://geogroup.com/"><i class="fa fa-globe"></i></a></li>
+        <li><span data-i18n="ta-cca" style="color:#8da0cb;"></span>&nbsp;<a href="http://correctionscorp.com/"><i class="fa fa-globe"></i></a></li>
+        <li><span data-i18n="ta-other-private" style="color:#e78ac3;"></span></li>
+        <li><span data-i18n="ta-orr" style="color:#333333;"></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
