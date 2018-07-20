@@ -4,6 +4,7 @@ import banned from "./banned";
 import charts from "./charts";
 import clinks from "./clinks";
 import districts from "./districts";
+import denaturalizations from "./denaturalizations";
 import lines from "./lines";
 import orr from "./orr";
 import theEye from "./the-eye";
@@ -46,6 +47,10 @@ export default function (viz, map){
     break;
   case "districts":
     districts(map);
+    updateTexts();
+    break;
+  case "denaturalizations":
+    denaturalizations(map);
     updateTexts();
     break;
   case "banned":
