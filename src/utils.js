@@ -1,9 +1,6 @@
 import $ from "jquery";
 import L from "leaflet";
-import s from "underscore.string";
-// import { titleize } from "underscore";
-// import _titleize from "underscore/titleize";
-// import _swapCase from "underscore/swapCase";
+import _ from "lodash";
 
 export function moveLegend() {
   $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
@@ -18,7 +15,7 @@ export function defaultRadius() {
 }
 
 export function titleUp(string) {
-  return s.titleize(s.swapCase(string));
+  return _.words(string).map( word => _.capitalize(word)).join(" ");
 }
 
 export function mapZoomEnable(map) {
