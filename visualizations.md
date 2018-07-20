@@ -156,6 +156,7 @@ import drawPieChart from "./shame/draw-pie-chart";
 export default function(){
   $("#v2-div").show();
   $("#shame-viz").show();
+  drawPieChart();
 }
 ```
 
