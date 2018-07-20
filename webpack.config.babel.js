@@ -9,9 +9,12 @@ export default {
   context,
   entry: {
     i18n: "./i18n.js",
-    textures: "./textures.js",
-    visualizations: "./visualizations.js",
-    index: "./index.js"
+    texturesV1: "./textures-v1.js",
+    visualizationsV1: "./visualizations-v1.js",
+    indexV1: "./index-v1.js",
+    texturesV2: "./textures-v2.js",
+    visualizationsV2: "./visualizations-v2.js",
+    indexV2: "./index-v2.js"
   },
   output: {
     filename: "[name].bundle.js",

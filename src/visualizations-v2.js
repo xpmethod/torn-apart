@@ -13,7 +13,7 @@ $(".navbar-toggler").click(() => $("#charts-div").hide());
 // make the legend click-hideable.
 $("#legend").click(function(){ $(this).hide(); });
 // highlight the proper visualization
-$("[href='/torn-apart/volume/1/visualizations.html#" + theViz + "']").addClass("active");
+$("[href='/torn-apart/volume/2/visualizations.html#" + theViz + "']").addClass("active");
 $(".viz-button").click(function() {
   clearTimeout(timer);
   $(".viz-button").removeClass("active");
