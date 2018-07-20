@@ -11,13 +11,13 @@ import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
 export default function (viz, map){
-  clearIntervals();
-  mapZoomDisable(map);
-  $(".viz-hide").hide();
+  clearIntervals(); // kill all timed functions like banned viz.
+  mapZoomDisable(map); // disable zoom by default.
+  $(".viz-hide").hide(); // hide all the vizualizations.
   switch (viz) {
   case "the-trap":
     trap(map);
-    updateTexts();
+    updateTexts(); // i18n function to markdownify and insert translations.
     break;
   case "the-eye":
     theEye(map);
