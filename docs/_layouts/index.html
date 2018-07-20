@@ -58,12 +58,12 @@
 <div class="full-map" id="{{page.mapid}}">
 </div>
 {% if page.url contains "visualizations" %}
-  <div id="the-eye-div" class="viz-hide"></div>
-  <div class="px-3 py-2 card viz-hide" id="charts-div">
-    
-    {% assign chartsPage = "v" | append: page.volume | append: "/charts.html" %}
-    {% include {{ chartsPage }} %}
-  </div>
+  {% if page.volume == 1 %}
+    <div id="the-eye-div" class="viz-hide"></div>
+    <div class="px-3 py-2 card viz-hide" id="charts-div">
+      {% include charts.html %}
+    </div>
+  {% endif %}
 {% endif %}
 <div class="mx-3 card click-to-hide legend viz-hide" id="legend"></div>
 <div id="hidden-svg" class="d-none"></div>
