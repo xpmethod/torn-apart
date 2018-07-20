@@ -6,7 +6,7 @@ volume: 1
 
 
 # Textures 
-{: data-i18n="ta-v1-textures"}
+{: data-i18n="ta-textures"}
 
 <!-- To change body text, edit booth:
 	assets/markdown/textures_en.md and
