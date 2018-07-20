@@ -4,13 +4,13 @@ import { max } from "d3-array";
 import { randomNormal } from "d3-random";
 import { forceSimulation, forceCollide, forceManyBody, forceCenter, forceY, forceX } from "d3-force";
 import orrData from "./orr/data";
+import { lower48Bounds } from "./constants";
 
 export default function(map) {
   $(map).css("cursor", "grab");  
   $("#orr-legend").show().click(function(){ $(this).hide(); });
   $("#orr-div").show();
-  map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
-  map.dragging.disable();
+  map.flyToBounds(lower48Bounds);
   const svg = select("#orr-div").append("svg")
       .attr("width", $( window ).width())
       .attr("height",$( window ).height()),

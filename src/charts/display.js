@@ -11,7 +11,7 @@ import initChart from "./init";
 import buildSpreadsheet from "./spreadsheet";
 import { rem, orange } from "../constants";
 import { titleUp } from "../utils";
-import facOperators from "../private-operators.json";
+import facOperators from "./private-operators.json";
 import Data from "../../data/iceFacs.csv";
 
 export default function(map) {

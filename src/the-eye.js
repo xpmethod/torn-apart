@@ -2,8 +2,8 @@ import $ from "jquery";
 import L from "leaflet";
 import { shuffle } from "d3-array";
 import { rem } from "./constants";
-import imgurImages from "./imgur-images.json";
-import iceFacs from "./ice-facilities.json";
+import imgurImages from "./the-eye/imgur-images.json";
+import iceFacs from "./clinks/ice-facilities.json";
 
 
 export default function(map) {
