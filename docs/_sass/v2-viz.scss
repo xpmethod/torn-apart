@@ -1,0 +1,73 @@
+#v2-div {
+  position: absolute;
+  overflow-y: auto; 
+  top: 9rem;
+  left: 1rem;
+  max-height: calc(100vh - 3rem - 8rem - 3rem);
+  width: calc(100vw - 2rem);
+  display: none;
+  z-index: 1020;
+
+  background-color: rgba(255, 255, 255, 0.93);
+
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $green;
+  }
+
+  h2 {
+    text-align: right;
+  }
+
+  svg {
+    width: 100%;
+  }
+
+  .big-number {
+    margin: 0;
+    color: $green;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .big-number-desc {
+    text-align: center;
+  }
+
+  .bar {
+    fill: rgba(102, 194, 165, 0.9);
+  }
+
+  text {
+    font-size: 10px;
+  }
+
+  .legend-ul li {
+    font-weight: bold;
+  }
+
+  h5 {
+    margin: 0 .5rem;
+    color: #000000;
+    font-size: 1.0rem;
+  }
+
+  @media (min-width: 576px){
+    .legend-ul li {
+      font-size: 1.0rem;
+    }
+  }
+}
+
+@media (min-width: 576px){
+  #v2-div {
+    font-size: 0.8rem;
+  }
+
+  #v2-div {
+    top: 7.25rem;
+    left: .5rem;
+    max-height: calc(100vh - 7.5rem - 1.75rem);
+  }
+}

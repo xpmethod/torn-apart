@@ -34,8 +34,13 @@
     {% if page.url contains "visualizations" %}
       <nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start">
         {% assign tabs = site.data.vizNavbars[page.volume] %}
+        {% if page.volume == 1 %}
+          {% assign button-class = "orange-button" %}
+        {% else %}
+          {% assign button-class = "purple-button" %}
+        {% endif %}
         {% for tab in tabs %}
-        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
+        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link {{ button-class }} viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
         {% endfor %}
       </nav>
     {% endif %}
@@ -62,6 +67,10 @@
     <div id="the-eye-div" class="viz-hide"></div>
     <div class="px-3 py-2 card viz-hide" id="charts-div">
       {% include charts.html %}
+    </div>
+  {% elsif page.volume == 2 %}
+    <div class="px-3 py-2 card viz-hide" id="v2-div">
+      {% include v2-viz.html %}
     </div>
   {% endif %}
 {% endif %}

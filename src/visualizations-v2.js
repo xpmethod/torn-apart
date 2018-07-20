@@ -1,6 +1,6 @@
 import $ from "jquery";
 import initMap from "./map-init";
-import showViz from "./show-viz";
+import showViz from "./show-viz-v2";
 
 const map = initMap("visualizations-mapdiv");
 const theViz = window.location.href.replace(/^.*#/, "");
