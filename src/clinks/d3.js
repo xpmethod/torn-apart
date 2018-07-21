@@ -7,9 +7,9 @@ import { select } from "d3-selection";
 // This is a constant that sits as a utility function.
 import { defaultRadius } from "../utils";
 // Load the data. This can be csv data, too--see src/charts-display.js
-import iceFacs from "../ice-facilities.json";
-import detCtrs from "../detention-centers.json";
-import zeroIceFacs from "../unused-ice-facilities.json";
+import iceFacs from "./ice-facilities.json";
+import detCtrs from "./detention-centers.json";
+import zeroIceFacs from "./unused-ice-facilities.json";
 import leafletD3Svg from "../leaflet-d3-svg";
 
 // map is sent to this function, and it is the variable created when running

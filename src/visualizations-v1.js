@@ -1,6 +1,6 @@
 import $ from "jquery";
 import initMap from "./map-init";
-import showViz from "./show-viz";
+import showViz from "./show-viz-v1";
 
 const map = initMap("visualizations-mapdiv");
 const theViz = window.location.href.replace(/^.*#/, "");
@@ -13,7 +13,7 @@ $(".navbar-toggler").click(() => $("#charts-div").hide());
 // make the legend click-hideable.
 $("#legend").click(function(){ $(this).hide(); });
 // highlight the proper visualization
-$("[href='/torn-apart/visualizations.html#" + theViz + "']").addClass("active");
+$("[href='/torn-apart/volume/1/visualizations.html#" + theViz + "']").addClass("active");
 $(".viz-button").click(function() {
   clearTimeout(timer);
   $(".viz-button").removeClass("active");

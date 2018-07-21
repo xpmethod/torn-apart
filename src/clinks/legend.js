@@ -15,7 +15,7 @@ export default function(){
               fill="${purple}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div data-i18n="ta-private-juvenile-detention-facilities" class="media-body">
+          <div data-i18n="ta-v1-private-juvenile-detention-facilities" class="media-body">
             Private juvenile detention facilities
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function(){
               fill="${orange}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div data-i18n="ta-ice-facilities-since-2014" class="media-body">
+          <div data-i18n="ta-v1-ice-facilities-since-2014" class="media-body">
             ICE facilities in use since 2014
           </div>
         </div>
@@ -41,13 +41,13 @@ export default function(){
               fill="${orange}" fill-opacity="0.8"
               stroke="black" stroke-width="1" stroke-opacity="0.8" />
           </svg>
-          <div data-i18n="ta-ice-facilities-not-in-use" class="media-body">
+          <div data-i18n="ta-v1-ice-facilities-not-in-use" class="media-body">
             ICE facilities not in use
           </div>
         </div>
       </div>
     </div>
-    <p class="mx-3 mb-2" data-i18n="ta-clinks-legend-supp-text"></p>`;
+    <p class="mx-3 mb-2" data-i18n="ta-v1-clinks-legend-supp-text"></p>`;
   });
   updateTexts();
   moveLegend();

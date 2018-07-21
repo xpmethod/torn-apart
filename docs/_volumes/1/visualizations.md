@@ -1,8 +1,9 @@
 ---
 layout: index
+volume: 1
 mapid: visualizations-mapdiv
 title: Visualizations
-permalink: visualizations.html
 active: visualizations-button
+redirect_from: visualizations.html
 ---
 

@@ -1,11 +1,12 @@
 import { shuffle } from "d3-array";
 import $ from "jquery";
 import bannedBuild from "./banned/build";
-import states from "./us-population.json";
-import { rem } from "./constants";
+import states from "./banned/us-population.json";
+import { lower48Bounds, rem } from "./constants";
+
 
 export default function(map){
-  map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+  map.flyToBounds(lower48Bounds);
   $(map.getPanes().overlayPane).append("<svg id='d3-banned-svg'></svg>");
   const loop = 10000;
   $("#banned-legend").click(function(){ $(this).hide(); }).css("margin-bottom", $(".leaflet-control-attribution").height() + rem).show();

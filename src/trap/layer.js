@@ -1,8 +1,8 @@
 import L from "leaflet";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
-import buffer from "../buffer.geo.json";
-import pointsOfEntry from "../points-of-entry.geo.json";
+import buffer from "./buffer.geo.json";
+import pointsOfEntry from "./points-of-entry.geo.json";
 
 export default function(map){
   const layer = L.layerGroup();

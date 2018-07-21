@@ -1,16 +1,21 @@
+{% if page.volume %}
+  {% assign volume = page.volume %}
+{% else %}
+  {% assign volume = site.current_volume %}
+{% endif %}
 <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
   <a data-i18n="ta-sitename" class="navbar-brand" href="{{ site.baseurl }}/">Torn Apart</a>
 
   <div class="collapse navbar-collapse" id="navbarList">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/visualizations.html#clinks">Visualizations</a>
+        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#clinks">Visualizations</a>
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link" href="{{ site.baseurl }}/textures.html">Textures</a>
+        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/textures.html">Textures</a>
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link" href="{{ site.baseurl }}/reflections.html">Reflections</a>
+        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/reflections.html">Reflections</a>
       </li>
       <li class="nav-item">
         <a  data-i18n="ta-allies" id="nav-allies" class="nav-link" href="{{ site.baseurl }}/allies.html">Allies</a>
@@ -21,29 +26,23 @@
       <li class="nav-item">
         <a  data-i18n="ta-credits" id="nav-credits" class="nav-link" href="{{ site.baseurl }}/credits.html">Credits</a>
       </li>
+      {% if volume == 2 %}
+      <li class="nav-item">
+        <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
+      </li>
+      {% else %}
+      <li class="nav-item">
+        <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
+      </li>
+      {% endif %}
 {% if page.mapid == "visualizations-mapdiv" %}
       <div class="dropdown-divider"></div>
+        {% assign tabs = site.data.vizNavbars[volume] %}
+        {% for tab in tabs %}
       <li class="nav-item viz-item">
-        <a data-i18n="ta-clinks" id="clinks-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#clinks">Clinks</a>
+        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations#{{ tab }}">Clinks</a>
       </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-the-trap" id="the-trap-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#the-trap">The Trap</a>
-      </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-the-eye" id="the-eye-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#the-eye">The Eye</a>
-      </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-charts" id="charts-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#charts">Charts</a>
-      </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-orr" id="orr-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#orr">ORR</a>
-      </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-banned" id="banned-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#banned">Banned</a>
-      </li>
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-lines" id="lines-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/visualizations.html#lines">Lines</a>
-      </li>
+      {% endfor %}
 {% endif %}
     </ul>
   </div>

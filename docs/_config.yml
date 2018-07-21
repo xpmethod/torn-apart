@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Torn Apart is a curation and visualization of publicly available data concerning ICE, CBP facilities, and usages. Also lists of allied and pro-immigrant facilities.
 baseurl: "/torn-apart" # the subpath of your site, e.g. /blog
 url: "http://xpmethod.plaintext.in" # the base hostname & protocol for your site, e.g. http://example.com
+current_volume: 2
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -29,10 +30,14 @@ kramdown:
   parse_block_html: true
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 collections:
   reflections:
     output: true
+  volumes:
+    output: true
+    permalink: /volume/:path
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

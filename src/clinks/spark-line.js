@@ -4,7 +4,7 @@ import { select } from "d3-selection";
 import { scaleLinear } from "d3-scale";
 import { line } from "d3-shape";
 import { format } from "d3-format";
-import { green } from "./constants";
+import { green } from "../constants";
 
 export default function(data) {
   const theMax = max(data.map(d => d[1]));

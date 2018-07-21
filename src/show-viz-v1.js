@@ -3,7 +3,6 @@ import updateTexts from "./update-texts";
 import banned from "./banned";
 import charts from "./charts";
 import clinks from "./clinks";
-import lines from "./lines";
 import orr from "./orr";
 import theEye from "./the-eye";
 import trap from "./trap";
@@ -11,13 +10,13 @@ import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
 export default function (viz, map){
-  clearIntervals();
-  mapZoomDisable(map);
-  $(".viz-hide").hide();
+  clearIntervals(); // kill all timed functions like banned viz.
+  mapZoomDisable(map); // disable zoom by default.
+  $(".viz-hide").hide(); // hide all the vizualizations.
   switch (viz) {
   case "the-trap":
     trap(map);
-    updateTexts();
+    updateTexts(); // i18n function to markdownify and insert translations.
     break;
   case "the-eye":
     theEye(map);
@@ -37,10 +36,6 @@ export default function (viz, map){
     break;
   case "orr":
     orr(map);
-    updateTexts();
-    break;
-  case "lines":
-    lines(map);
     updateTexts();
     break;
   case "banned":
