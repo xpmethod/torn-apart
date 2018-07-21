@@ -1,7 +1,9 @@
-import { green } from "../constants";
+import { purple, green } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
-import { select} from "d3-selection";
+import { event, select } from "d3-selection";
 import { forceSimulation, forceCollide, forceX, forceY, forceManyBody} from "d3-force";
+import $ from "jquery";
+import { format } from "d3-format";
 
 
 export default function(){	
@@ -9,8 +11,11 @@ export default function(){
   var dataEntries = Data;
   var width = 600; //these are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
   var height = 300;
-  var forceStrength = 0.03;
+  var forceStrength = 0.02;
   var center = {x: width / 2, y: height / 2};
+  const toolTip = select("body").append("div")
+    .classed("tooltip", true)
+    .style("opacity", 0);
 
   //force directed layout code. Supposedly stops things colliding. Need to fiddle with radius calculation.  A lot of it is based on this: https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46
   forceSimulation(dataEntries) 
@@ -38,7 +43,39 @@ export default function(){
     .append("circle")
     .style("fill", green) //you could tie the colour to a data element but I don't know which one would be good for this.
     .attr("r", function(d) { return (Math.sqrt(d.current_total_value_of_award)/300+1); })
-    .attr("transform", "translate(" + [width / 2, height / 2] + ")");
+    .attr("transform", "translate(" + [width / 2, height / 2] + ")")
+    .on("mouseover", function(d){
+      select(this)
+        .attr("fill", green)
+        .attr("filter", "url(#filter-glow)");
+      toolTip
+        .html(`<strong>${d.recipient_name}</strong><br /> \$ 
+          ${format(",")(d.current_total_value_of_award)}`)
+        .style("left", function(){
+          const toolTipWidth = $(".tooltip").width();
+          if(toolTipWidth > event.pageX){
+            return event.pageX + "px";
+          } else {
+            return (event.pageX - toolTipWidth) + "px";
+          }
+        })
+        .style("top", function(){
+          const toolTipHeight = $(".tooltip").height();
+          if(($(window).height() - event.pageY) < toolTipHeight){
+            return (event.pageY - toolTipHeight) + "px";
+          } else {
+            return event.pageY + "px";
+          }
+        })
+        .transition().delay(750).duration(500)
+        .style("opacity", 1);
+    })
+    .on("mouseout", function(){
+      select(this)
+        .attr("fill", "black")
+        .attr("filter", "");
+      toolTip.style("opacity", 0);
+    });
 }
 	
 	
