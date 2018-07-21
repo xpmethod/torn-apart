@@ -124,7 +124,6 @@ Nashville,360,710
 Las Vegas,310,560
 Fresno,310,490
 Norfolk,70,230
-Unknown,360,710
 San Jose,320,470
 Richmond,50,250
 San Francisco,320,460
@@ -195,19 +194,19 @@ Rochester,190,380
 Toronto,170,370
 Portland,190,230
 Cape Vincent,0,290
-Wellesley Island,0,280
-Alexandria Bay,0,280
-Thousand Island Bridge,0,280
+Wellesley Island,230,280
+Alexandria Bay,230,280
+Thousand Island Bridge,230,280
 Bar Harbor,180,220
 Pinnacle Road,200,250
 Burlington,210,260
 Buckport,180,220
-Ogdensburg,0,280
+Ogdensburg,230,280
 Bangor International Airport,180,230
 St. Albans,200,260
 Halifax International Airport,150,190
 Chateaugay,20,270
-Massena,0,270
+Massena,230,270
 St. Paul,120,320
 Churubusco,20,260
 Cannon Corners,230,260
@@ -308,17 +307,17 @@ Vancouver,270,350
 Winnipeg,200,330
 Calgary,210,330
 Shannon,0,0
-Edmonton,0,0
-Dutch Harbor,0,0
-Prince Rupert,0,0
+Edmonton,230,310
+Dutch Harbor,40,80
+Prince Rupert,NaN,NaN
 Ketchikan,0,0
-Seaport,0,0
-Juneau,0,0
-Dalton Cache,0,0
-Skagway,0,0
-Anchorage,0,0
-Alcan,0,0
-Poker Creek,0,0
-Seaport,0,0
-Eagle,0,0
-Fairbanks,0,0
+Seaport,120,140
+Juneau,120,150
+Dalton Cache,110,170
+Skagway,120,170
+Anchorage,60,190
+Alcan,90,200
+Poker Creek,120,210
+Seaport,320,420
+Eagle,130,230
+Fairbanks,120,240

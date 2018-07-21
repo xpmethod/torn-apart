@@ -2130,23 +2130,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -95.617544,37.0455793 ]
-    },
-    "properties": {
-    "y2012":879,
-    "y2013":824,
-    "y2014":281,
-    "y2015":150,
-    "y2016":176,
-    "y2017":190,
-    "y2018":8,
-    "name":"Unknown"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -121.8863286,37.3382082 ]
     },
     "properties": {
