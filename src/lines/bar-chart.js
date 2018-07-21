@@ -1,4 +1,4 @@
-import { select } from "d3-selection";
+import { select, selectAll } from "d3-selection";
 import { scaleLog } from "d3-scale";
 import _ from "lodash";
 import L from "leaflet";
@@ -14,17 +14,22 @@ export default function (map) {
     .data(Data)
     .enter().append("g")
     .attr("id", d => _.camelCase(d.name))
-    .append("circle")
-    // .attr("class", "bar")
-    .attr("y", d => d.lat)
-    .attr("x", d => d.lon)
-    .attr("r", 5);
-  g.selectAll("g")
-    .append("rect")
-    .attr("id", d => `${_.camelCase(d.name)}-rect`) 
-    // .attr("height", 10)
-    .attr("height", d => y(d[2017]))
-    .attr("width", 5);
+    .each(function(d){
+      select(this).append("circle")
+        .attr("y", d.lat)
+        .attr("x", d.lon)
+        .attr("r", 5);
+      select(this).append("g")
+        .attr("id", `${_.camelCase(d.name)}-bar-g`) 
+        .classed("lines-bar-g", true)
+        .each(function(d){
+          select(this).append("rect")
+            .attr("id", `${_.camelCase(d.name)}-rect`) 
+            .attr("height", y(d[2017] + 0.1)) // can't have 0 as a value in log.
+            .attr("width", 16);
+        });
+    });
+  // g.selectAll("g")
 
   d3Update();
 
@@ -35,7 +40,7 @@ export default function (map) {
       const LL = new L.LatLng(d.lat, d.lon);
       return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
     });
-    select("#lines-g").selectAll("g").selectAll("rect").attr("transform", d => {
+    selectAll(".lines-bar-g").selectAll("rect").attr("transform", d => {
       const LL = new L.LatLng(d.lat, d.lon);
       return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
     });

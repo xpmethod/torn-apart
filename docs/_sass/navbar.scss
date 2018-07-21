@@ -31,8 +31,7 @@
   background-color: $orange;
 }
 
-.nav-item.viz-item {
-  background-color: $orange;
+.nav-item.viz-button {
   padding: 0 1rem;
 }
 
@@ -71,8 +70,12 @@
   }
 }
 
-#visualizations-nav.nav a.nav-link, #visualizations-teeny-nav.nav a.nav-link {
+#visualizations-nav.nav a.orange-button {
   background-color: $orange;
+}
+
+#visualizations-nav.nav a.purple-button {
+  background-color: $purple;
 }
 
 #visualizations-teeny-nav.nav a.nav-link {

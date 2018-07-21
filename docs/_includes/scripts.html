@@ -19,12 +19,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.4/jquery.i18n.language.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.string/3.3.4/underscore.string.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/i18n.bundle.js"></script>
+{% assign bundle_version = "V" | append: page.volume %}
 {% if page.mapid == "mapdiv" %}
-  <script src="{{ site.baseurl }}/assets/js/index.bundle.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/index{{ bundle_version }}.bundle.js"></script>
 {% elsif page.mapid == "visualizations-mapdiv" %}
-  <script src="{{ site.baseurl }}/assets/js/visualizations.bundle.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/visualizations{{ bundle_version}}.bundle.js"></script>
 {% elsif page.url contains "/textures" %}
-  <script src="{{ site.baseurl }}/assets/js/textures.bundle.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/textures{{ bundle_version }}.bundle.js"></script>
 {% endif %}
 {% if page.active %}
   <script>

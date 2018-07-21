@@ -2,7 +2,7 @@ import L from "leaflet";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { featureCollection } from "@turf/helpers";
-import lower48 from "../lower-48.geo.json";
+import lower48 from "./lower-48.geo.json";
 
 export default function(map, total, loop = 10000, loopFactor = 0.1){
   const fadeDuration = loop * loopFactor;

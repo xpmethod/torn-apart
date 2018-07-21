@@ -39,6 +39,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^1.1.11",
     "csv-loader": "^3.0.2",
     "eslint": "^5.1.0",
     "eslint-config-kentcdodds": "^14.0.0",

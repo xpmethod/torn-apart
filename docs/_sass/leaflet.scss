@@ -169,7 +169,7 @@
   fill: $orange;
 }
 
-.orange-polygon {
+.orange-polygon, .purple-polygon {
   pointer-events: none;
   fill: $orange;
   fill-opacity: 0.5;
@@ -180,6 +180,10 @@
   stroke-linejoin: round;
 }
 
+.purple-polygon {
+  fill: $purple;
+  stroke: $purple;
+}
 
 @media (min-width: 576px){
   #legend, #banned-legend, #orr-legend {

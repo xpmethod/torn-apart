@@ -14,7 +14,7 @@ export default function(mandays, map){
     .selectAll("th")
     .data(titles).enter()
     .append("th")
-    .attr("data-i18n", d => `ta-${d}-header`);
+    .attr("data-i18n", d => `ta-v1-${d}-header`);
   const rows = table.append("tbody").selectAll("tr")
     .data(mandays.data.filter(d => d.mandays > 0).sort((b, a) => a.mandays - b.mandays)).enter().append("tr");
   rows.selectAll("td")
