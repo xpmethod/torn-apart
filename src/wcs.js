@@ -10,14 +10,15 @@ import rhumbDestination from "@turf/rhumb-destination";
 import booleanPointInPolygon from "@turf/boolean-point-in-polygon";
 import Data from "../data/wcs/lines.geo.json";
 import lower48 from "./wcs/usa-outline-one-shape.geo.json";
+import Alaska from "./wcs/alaska.geo.json";
 
 const usa = polygon(lower48.features[0].geometry.coordinates);
+const alaska = polygon(Alaska.features[0].geometry.coordinates);
 
 const factor = 10;
 
 const points = [];
 featureEach(Data, (feature) => {
-  stdout.write(`\nChecking ${feature.properties.name}: `);
   let hits = [];
   for(let d = -180; d <= 180; d = d + factor){
     const pt = point(feature.geometry.coordinates);
@@ -27,13 +28,38 @@ featureEach(Data, (feature) => {
     }
   }
   if (hits.length === 0) {
-    stdout.write("No hits.");
-    points.push({
-      name: feature.properties.name,
-      minAngle: 0,
-      maxAngle: 0
-    });
-  } else {
+    // stdout.write(`\nNo initial hit for ${feature.properties.name}: `);
+    // try again at 750 km.
+    for(let d = -180; d <= 180; d = d + factor){
+      const pt = point(feature.geometry.coordinates);
+      const destination = rhumbDestination(pt, 750, d);
+      if(booleanPointInPolygon(destination, usa)){
+        hits.push(bearingToX(d)/factor);
+      }
+    }
+    if (hits.length === 0) {
+      // stdout.write(" now trying alaska ");
+      // try alaska.
+      for(let d = -180; d <= 180; d = d + factor){
+        const pt = point(feature.geometry.coordinates);
+        const destination = rhumbDestination(pt, 750, d);
+        if(booleanPointInPolygon(destination, alaska)){
+          hits.push(bearingToX(d)/factor);
+        }
+      }
+      if (hits.length === 0) {
+        // stdout.write("punting");
+        //punt
+        points.push({
+          name: feature.properties.name,
+          minAngle: 0,
+          maxAngle: 0
+        });
+      }
+    }
+  }
+  // now.
+  if(hits.length > 0){
     hits = _.uniq(hits.sort((a, b) => a - b));
     if(hits[0] === 0 && hits[hits.length - 1] === 35){
       // friends.
@@ -71,15 +97,28 @@ featureEach(Data, (feature) => {
       }
     });
     let sortedHits = _.uniq(strings[index].sort((a, b) => a - b));
-    // stdout.write(JSON.stringify(hits));
-    // stdout.write("\n");
-    // stdout.write(JSON.stringify(sortedHits));
-    // stdout.write("\n");
+    // ["Alexandria Bay", "Wellesley Island", "Thousand Island Bridge", "Ogdensburg", "Massena", "Montreal Canada"].forEach(target => {
+    //   if(target === feature.properties.name){
+    //     stdout.write(target);
+    //     stdout.write(JSON.stringify(hits));
+    //     stdout.write("\n");
+    //     stdout.write(JSON.stringify(sortedHits));
+    //     stdout.write("\n");
+    //   }
+    // });
     if(sortedHits[0] === 0 && sortedHits[sortedHits.length - 1] > 35){
       sortedHits = sortedHits.splice(sortedHits[sortedHits.length - 1] - 35, sortedHits.length);
     }
-    // stdout.write(JSON.stringify(sortedHits));
-    // stdout.write("\n");
+    ["Alexandria Bay", "Wellesley Island", "Thousand Island Bridge", "Ogdensburg", "Massena", "Montreal Canada"].forEach(target => {
+      if(target === feature.properties.name){
+        // stdout.write(JSON.stringify(sortedHits));
+        // stdout.write("\n");
+        sortedHits = sortedHits.filter(hit => hit > 4);
+        stdout.write(target);
+        stdout.write(JSON.stringify(sortedHits));
+        stdout.write("\n");
+      }
+    });
     let minAngle = sortedHits[0] * factor;
     let maxAngle = sortedHits[sortedHits.length -1] * factor;
 
