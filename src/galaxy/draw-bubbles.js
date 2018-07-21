@@ -1,4 +1,4 @@
-import { purple } from "../constants";
+import { green } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
 import { select} from "d3-selection";
 import { forceSimulation, forceCollide, forceX, forceY, forceManyBody} from "d3-force";
@@ -36,7 +36,7 @@ export default function(){
     .data(dataEntries)
     .enter()
     .append("circle")
-    .style("fill", purple) //you could tie the colour to a data element but I don't know which one would be good for this.
+    .style("fill", green) //you could tie the colour to a data element but I don't know which one would be good for this.
     .attr("r", function(d) { return (Math.sqrt(d.current_total_value_of_award)/300+1); })
     .attr("transform", "translate(" + [width / 2, height / 2] + ")");
 }
