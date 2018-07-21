@@ -47,7 +47,7 @@ export default function (map) {
       const LL = new L.LatLng(d.lat, d.lon);
       d.newX = map.latLngToLayerPoint(LL).x;
       d.newY = map.latLngToLayerPoint(LL).y;
-      return `translate(${d.newX},${d.newY})`;
+      return `rotate(90, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY})`;
     });
   }
 }
