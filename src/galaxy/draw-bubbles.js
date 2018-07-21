@@ -1,4 +1,4 @@
-import { purple, green } from "../constants";
+import { green } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
 import { event, select } from "d3-selection";
 import { forceSimulation, forceCollide, forceX, forceY, forceManyBody} from "d3-force";
@@ -6,7 +6,7 @@ import $ from "jquery";
 import { format } from "d3-format";
 
 
-export default function(){	
+export default function(){  
   var  svg = select("svg");
   var dataEntries = Data;
   var width = 600; //these are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
@@ -24,13 +24,13 @@ export default function(){
     .force("y", forceY().strength(forceStrength).y(center.y))
     .force("collision", forceCollide().radius(function(d) {
       return (Math.sqrt(d.current_total_value_of_award)/300+1);
-    }))	
+    })) 
     .on("tick", ticked); 
-	
+  
   function charge(d) { //this is making sure the forcestrength is proportional to radius of each bubble
     return -forceStrength * Math.pow((Math.sqrt(d.current_total_value_of_award)/300+1), 2.0);
   }
-	
+  
   function ticked() { 
     node.attr("cx", function(d) { return d.x; }) 
       .attr("cy", function(d) { return d.y; }); 
@@ -49,7 +49,7 @@ export default function(){
         .attr("fill", green)
         .attr("filter", "url(#filter-glow)");
       toolTip
-        .html(`<strong>${d.recipient_name}</strong><br /> \$ 
+        .html(`<strong>${d.recipient_name}</strong><br />
           ${format(",")(d.current_total_value_of_award)}`)
         .style("left", function(){
           const toolTipWidth = $(".tooltip").width();
@@ -77,6 +77,3 @@ export default function(){
       toolTip.style("opacity", 0);
     });
 }
-	
-	
-
