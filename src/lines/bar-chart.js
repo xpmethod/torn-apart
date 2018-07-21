@@ -1,33 +1,51 @@
-import { select, selectAll } from "d3-selection";
+import { select } from "d3-selection";
 import _ from "lodash";
 import L from "leaflet";
 import { scaleLog } from "d3-scale";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
+import linesConstants from "./constants";
 
 export default function (map) {
   const svg = leafletD3Svg(map, "d3-lines-svg");
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
-  const y = scaleLog().rangeRound([50, 0]);
-  y.domain([1, 57296]); // the largest value.
-  g.selectAll("g")
+  const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
+  y.domain([0.1, linesConstants.yMax]); // the largest value.
+  const bar = g.selectAll("g")
     .data(Data)
     .enter().append("g")
     .attr("id", d => _.camelCase(d.name))
-    .each(function(d){
-      select(this).append("circle")
-        .attr("y", d.lat)
-        .attr("x", d.lon)
-        .attr("r", 5);
-      // select(this).append("g")
-      //   .attr("id", `${_.camelCase(d.name)}-bar-g`) 
-      //   .classed("lines-bar-g", true)
-      //   .each(function(d){
-      select(this).append("rect")
-        .attr("id", `${_.camelCase(d.name)}-rect`) 
-        .attr("height", y(d.y2017 + 0.1)) // can't have 0 as a value in log.
-        .attr("width", 16);
-    });
+    .each(d => d.currValue = d.y2017 + 0.1);
+  bar.append("circle")
+    // .attr("y", d => d.lat)
+    // .attr("x", d => d.lon)
+    .attr("r", 5);
+  // select(this).append("g")
+  //   .attr("id", `${_.camelCase(d.name)}-bar-g`) 
+  //   .classed("lines-bar-g", true)
+  //   .each(function(d){
+  bar.append("rect")
+    .attr("id", d => `${_.camelCase(d.name)}-rect`) 
+    .attr("data-current-value", d => d.currValue)
+    .attr("height", d => {
+      d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
+      return d.newHeight;
+    })
+    .attr("width", linesConstants.barWidth)
+    .attr("transform", d => `translate(-${linesConstants.barWidth/2},-${d.newHeight})`);
+  // bar.append("line")
+  //   .attr("stroke", "white")
+  //   .attr("stroke-width", 2)
+  //   .attr("x1", 0)
+  //   .attr("y1", 0)
+  //   .attr("x2", linesConstants.barWidth)
+  //   .attr("y2", 0)
+  //   .attr("transform", d => `translate(-${linesConstants.barWidth/2},${d.newHeight - y(10)})`);
+
+  // bar.append("text")
+  //   .style("fill", "white")
+  //   .attr("dy", d => y(d.currValue + 10))
+  //   .text("10");
   // });
   // g.selectAll("g")
 
@@ -46,16 +64,17 @@ export default function (map) {
       .style("top", topLeft[1] + "px");
 
     g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
-    select("#lines-g").selectAll("g").selectAll("circle").attr("transform", d => {
+    select("#lines-g").selectAll("g").attr("transform", function(d) {
+      // const height = select(this).select("rect").attr("height");
       const LL = new L.LatLng(d.lat, d.lon);
-      return `translate(${map.latLngToLayerPoint(LL).x},${map.latLngToLayerPoint(LL).y})`;
+      d.newX = map.latLngToLayerPoint(LL).x;
+      d.newY = map.latLngToLayerPoint(LL).y;
+      return `translate(${d.newX},${d.newY})`;
     });
-    // selectAll(".lines-bar-g")
-    select("#lines-g").selectAll("g").selectAll("rect").attr("transform", function(d) {
-      const height = select(this).attr("height");
-      const LL = new L.LatLng(d.lat, d.lon);
-      return `translate(${map.latLngToLayerPoint(LL).x - 8},${map.latLngToLayerPoint(LL).y - height })`;
-    });
+    // select("#lines-g").selectAll("g").selectAll("line")
+    //   .attr("transform", function(d) {
+    //     return `translate(${d.newX},${d.newY})`;
+    //   });
   }
 }
 
