@@ -35,7 +35,10 @@ export default function (map) {
   feMerge.append("feMergeNode").attr("in","SourceGraphic");  
   const toolTip = select("body").append("div")
     .classed("tooltip", true)
-    .style("opacity", 0);
+    .style("opacity", 0)
+    .on("mouseout", function(){
+      select(this).style("opacity", 0);
+    });
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
   const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
   y.domain([0.1, linesConstants.yMax]); // the largest value.
@@ -50,8 +53,7 @@ export default function (map) {
   //   .attr("r", 3);
   bar.append("path")
     .style("pointer-events", "painted")
-    .attr("stroke", "black")
-    .attr("stroke-width", 0)
+    .attr("fill", d => d.color)
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
@@ -85,7 +87,7 @@ export default function (map) {
     })
     .on("mouseout", function(){
       select(this)
-        .attr("fill", "black")
+        .attr("fill", d => d.color)//"black")
         .attr("filter", "");
       toolTip.style("opacity", 0);
     });

@@ -10,6 +10,9 @@ export default function(map){
 
   $("#d3-lines-svg").show();
   // map.flyToBounds([[13.476, -170], [64.83, 150]]);
+  map.on("click", () => {
+    $(".tooltip").css("opacity", 0);
+  });
 
 }
 
