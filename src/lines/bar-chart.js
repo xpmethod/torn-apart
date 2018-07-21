@@ -19,7 +19,7 @@ export default function (map) {
   bar.append("circle")
     // .attr("y", d => d.lat)
     // .attr("x", d => d.lon)
-    .attr("r", 5);
+    .attr("r", 3);
   // select(this).append("g")
   //   .attr("id", `${_.camelCase(d.name)}-bar-g`) 
   //   .classed("lines-bar-g", true)
@@ -32,15 +32,41 @@ export default function (map) {
       return d.newHeight;
     })
     .attr("width", linesConstants.barWidth)
+    .attr("opacity", 0)
     .attr("transform", d => `translate(-${linesConstants.barWidth/2},-${d.newHeight})`);
-  // bar.append("line")
-  //   .attr("stroke", "white")
-  //   .attr("stroke-width", 2)
-  //   .attr("x1", 0)
-  //   .attr("y1", 0)
-  //   .attr("x2", linesConstants.barWidth)
-  //   .attr("y2", 0)
-  //   .attr("transform", d => `translate(-${linesConstants.barWidth/2},${d.newHeight - y(10)})`);
+  bar.append("path")
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+    .attr("d", d => {
+      return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
+    });
+  bar.append("line")
+    .classed("line-10", true)
+    .attr("stroke", "white")
+    .attr("stroke-width", 1)
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", linesConstants.barWidth)
+    .attr("y2", 0)
+    .attr("transform", `translate(0,-${y(10)})`);
+  bar.append("line")
+    .classed("line-100", true)
+    .attr("stroke", "white")
+    .attr("stroke-width", 1)
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", linesConstants.barWidth)
+    .attr("y2", 0)
+    .attr("transform", `translate(0,-${y(100)})`);
+  bar.append("line")
+    .classed("line-1000", true)
+    .attr("stroke", "white")
+    .attr("stroke-width", 1)
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", linesConstants.barWidth)
+    .attr("y2", 0)
+    .attr("transform", `translate(0,-${y(1000)})`);
 
   // bar.append("text")
   //   .style("fill", "white")
