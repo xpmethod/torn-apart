@@ -9,6 +9,7 @@ export default function(value){
   y.domain([0.1, linesConstants.yMax]); // the largest value.
   select("#lines-g").selectAll("g").selectAll("path")
     .attr("d", d  => {
+      d.currYear = value;
       d.currValue = d[`y${value}`] + 0.1;
       d.newHeight = y(d.currValue);
       return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
