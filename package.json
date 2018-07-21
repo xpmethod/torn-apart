@@ -17,7 +17,10 @@
     "wcs": "node dist/wcs"
   },
   "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.0.1",
     "@turf/helpers": "^6.1.4",
+    "@turf/meta": "^6.0.2",
+    "@turf/rhumb-destination": "^6.0.3",
     "csv": "^3.1.0",
     "csv-parse": "^2.5.0",
     "d3": "^5.5.0",
