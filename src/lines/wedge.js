@@ -1,7 +1,11 @@
-import { select } from "d3-selection";
+import $ from "jquery";
+import { event, select } from "d3-selection";
+import { format } from "d3-format";
+import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
 import { scaleLog } from "d3-scale";
+import { purple } from "../constants";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
 import linesConstants from "./constants";
@@ -21,6 +25,17 @@ import linesCalcAngles from "./calculate-angles";
 
 export default function (map) {
   const svg = leafletD3Svg(map, "d3-lines-svg");
+  const defs = svg.append("defs");
+  const filter = defs.append("filter").attr("id","filter-glow");
+  filter.append("feGaussianBlur")
+    .attr("stdDeviation","3.5")
+    .attr("result","coloredBlur");
+  const feMerge = filter.append("feMerge");
+  feMerge.append("feMergeNode").attr("in","coloredBlur");
+  feMerge.append("feMergeNode").attr("in","SourceGraphic");  
+  const toolTip = select("body").append("div")
+    .classed("tooltip", true)
+    .style("opacity", 0);
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
   const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
   y.domain([0.1, linesConstants.yMax]); // the largest value.
@@ -29,16 +44,50 @@ export default function (map) {
     .enter().append("g")
     .attr("id", d => _.camelCase(d.name))
     .each(linesCalcAngles)
+    .each(d => d.currYear = 2017)
     .each(d => d.currValue = d.y2017 + 0.1);
   // bar.append("circle")
   //   .attr("r", 3);
   bar.append("path")
+    .style("pointer-events", "painted")
     .attr("stroke", "black")
     .attr("stroke-width", 0)
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
       return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
+    })
+    .on("mouseover", function(d){
+      select(this)
+        .attr("fill", purple)
+        .attr("filter", "url(#filter-glow)");
+      toolTip
+        .html(`<strong>${d.name}</strong><br />
+          ${format(",")(Math.floor(d.currValue))} people removed in ${d.currYear}.`)
+        .style("left", function(){
+          const toolTipWidth = $(".tooltip").width();
+          if(toolTipWidth > event.pageX){
+            return event.pageX + "px";
+          } else {
+            return (event.pageX - toolTipWidth) + "px";
+          }
+        })
+        .style("top", function(){
+          const toolTipHeight = $(".tooltip").height();
+          if(($(window).height() - event.pageY) < toolTipHeight){
+            return (event.pageY - toolTipHeight) + "px";
+          } else {
+            return event.pageY + "px";
+          }
+        })
+        .transition().delay(750).duration(500)
+        .style("opacity", 1);
+    })
+    .on("mouseout", function(){
+      select(this)
+        .attr("fill", "black")
+        .attr("filter", "");
+      toolTip.style("opacity", 0);
     });
   linesScale(bar, y);
 
