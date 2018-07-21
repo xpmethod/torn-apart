@@ -6,6 +6,18 @@ import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
 import linesConstants from "./constants";
 import linesScale from "./scale";
+import linesCalcAngles from "./calculate-angles";
+
+// const unknowns = {
+//   y2012: 879,
+//   y2013: 824,
+//   y2014: 281,
+//   y2015: 150,
+//   y2016: 176,
+//   y2017: 190,
+//   y2018: 8,
+//   name: "Unknown"
+//   };
 
 export default function (map) {
   const svg = leafletD3Svg(map, "d3-lines-svg");
@@ -16,9 +28,10 @@ export default function (map) {
     .data(Data)
     .enter().append("g")
     .attr("id", d => _.camelCase(d.name))
+    .each(linesCalcAngles)
     .each(d => d.currValue = d.y2017 + 0.1);
-  bar.append("circle")
-    .attr("r", 3);
+  // bar.append("circle")
+  //   .attr("r", 3);
   bar.append("path")
     .attr("stroke", "black")
     .attr("stroke-width", 0)
@@ -43,12 +56,11 @@ export default function (map) {
       .style("left", topLeft[0] + "px")
       .style("top", topLeft[1] + "px");
     g.attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
-    select("#lines-g").selectAll("g").attr("transform", function(d) {
+    select("#lines-g").selectAll("g").attr("transform", d => {
       const LL = new L.LatLng(d.lat, d.lon);
       d.newX = map.latLngToLayerPoint(LL).x;
       d.newY = map.latLngToLayerPoint(LL).y;
-      return `rotate(90, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY})`;
+      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY})`;
     });
   }
 }
-
