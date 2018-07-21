@@ -1,12 +1,12 @@
 import $ from "jquery";
-import linesBarChart from "./lines/bar-chart";
+import linesWedge from "./lines/wedge";
 import linesLegend from "./lines/legend";
 import { mapZoomEnable } from "./utils";
 
 export default function(map){
   mapZoomEnable(map);
   linesLegend();
-  linesBarChart(map);
+  linesWedge(map);
 
   $("#d3-lines-svg").show();
   // map.flyToBounds([[13.476, -170], [64.83, 150]]);
