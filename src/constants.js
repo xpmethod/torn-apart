@@ -1,7 +1,8 @@
 import $ from "jquery";
+import _ from "lodash";
 
 // The default size of one rem.
-export const rem = parseInt($("html").css("font-size").replace("px", ""));
+export const rem = _.parseInt($("html").css("font-size").replace("px", ""));
 
 // Colors used on the site.
 export const green = "#66c2a5";
