@@ -78,6 +78,7 @@ export default function (map) {
   map.on("zoomend", d3Update);
 
   function d3Update(){
+    const toothLength = 30;
     const tL = new L.LatLng(70, -170);
     const bR = new L.LatLng(10, 150);
     const bottomRight = [map.latLngToLayerPoint(bR).x, map.latLngToLayerPoint(bR).y];
@@ -91,7 +92,7 @@ export default function (map) {
       const LL = new L.LatLng(d.lat, d.lon);
       d.newX = map.latLngToLayerPoint(LL).x;
       d.newY = map.latLngToLayerPoint(LL).y;
-      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY})`;
+      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY + toothLength})`;
     });
   }
 }
