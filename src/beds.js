@@ -1,6 +1,8 @@
+import $ from "jquery";
 import { mapZoomEnable } from "./utils";
 
 export default function(map){
   mapZoomEnable(map);
-  alert("Hi, I’m the denaturalizations viz.");
+  $("#v2-div").show();
+  $("#beds-viz").show();
 }

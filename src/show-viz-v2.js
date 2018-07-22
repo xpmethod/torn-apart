@@ -2,7 +2,7 @@ import $ from "jquery";
 import updateTexts from "./update-texts";
 import contracts from "./contracts";
 import districts from "./districts";
-import denaturalizations from "./denaturalizations";
+import beds from "./beds";
 import explorer from "./explorer";
 import galaxy from "./galaxy";
 import lines from "./lines";
@@ -39,8 +39,8 @@ export default function (viz, map){
     districts(map);
     updateTexts();
     break;
-  case "denaturalizations":
-    denaturalizations(map);
+  case "beds":
+    beds(map);
     updateTexts();
     break;
   }
