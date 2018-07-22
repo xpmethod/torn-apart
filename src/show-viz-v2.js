@@ -14,6 +14,7 @@ export default function (viz, map){
   clearIntervals(); // kill all timed functions like banned viz.
   mapZoomDisable(map); // disable zoom by default.
   $(".viz-hide").hide(); // hide all the vizualizations.
+  $("#tooltip").hide(); // hide the tooltip.
   switch (viz) {
   case "shame":
     shame(map);
