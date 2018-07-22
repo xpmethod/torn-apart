@@ -49,20 +49,19 @@ export default function (map) {
         ${format(",")(Math.floor(d.currValue))} 
         people removed in ${d.currYear}.`;
       d.mouseOver = () => {
-        select(this)
+        select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", d.color)
           .attr("filter", "url(#filter-glow)");
       };
       d.mouseOut = () => {
-        select(this)
+        select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", "black")
           .attr("filter", "");
       };
     });
-  // bar.append("circle")
-  //   .attr("r", 3);
   bar.append("path")
     .style("pointer-events", "painted")
+    .attr("id", d => `${_.camelCase(d.name)}-path`)
     .attr("fill", "black")
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
