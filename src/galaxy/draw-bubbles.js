@@ -1,79 +1,67 @@
+import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import { green } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
-import { event, select } from "d3-selection";
-import { forceSimulation, forceCollide, forceX, forceY, forceManyBody} from "d3-force";
-import $ from "jquery";
+import { select } from "d3-selection";
+import { forceSimulation, forceCollide, forceCenter} from "d3-force";
 import { format } from "d3-format";
 
 
 export default function(){	
   var  svg = select("svg");
   var dataEntries = Data;
-  var width = 600; //these are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
-  var height = 300;
-  var forceStrength = 0.05;
-  var center = {x: width / 2, y: height / 2};
-  const toolTip = select("body").append("div")
-    .classed("tooltip", true)
-    .style("opacity", 0);
+  const width = 900; //600/300  are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
+  const height = 500;
+  const forceStrength = 0.05;
+  //const toolTip = select("body").append("div")
+  //  .classed("tooltip", true)
+  //  .style("opacity", 0);
 
   //force directed layout code. Supposedly stops things colliding. Need to fiddle with radius calculation.  A lot of it is based on this: https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46
+  
   forceSimulation(dataEntries) 
-    .force("charge", forceManyBody().strength(charge)) 
-    .force("x", forceX().strength(forceStrength).x(center.x))
-    .force("y", forceY().strength(forceStrength).y(center.y))
+    .force("center", forceCenter(width / 2, height / 2))
     .force("collision", forceCollide().radius(function(d) {
       return (Math.sqrt(d.current_total_value_of_award)/400+1) + 2;
     }))	
     .on("tick", ticked); 
-
-  function charge(d) { //this is making sure the forcestrength is proportional to radius of each bubble
-    return -forceStrength * Math.pow((Math.sqrt(d.current_total_value_of_award)/400+1), 2.0);
-  }
+ // function charge(d) { //this is making sure the forcestrength is proportional to size of each bubble
+  //  var radiusFormula = Math.sqrt(d.current_total_value_of_award);
+    // console.log(radiusFormula);
+  
+  //  return -(forceStrength * Math.pow(radiusFormula), 2.0);
+ // }
 
   function ticked() { 
-    node.attr("cx", function(d) { return d.x; }) 
-      .attr("cy", function(d) { return d.y; }); 
+    node .attr("cx", function(d) { return d.x; }) 
+      .attr("cy", function(d) { return d.y; }) 
+      .style("visibility", "visible"); //this is an attempt to deal with the problem of everything showing up on the far left first. (Make it invisible until the simulation has started).
   }
 
   //creates a circle from every item in the data, with radius set so that the total area of the circle approximately scales based on the value of award. I'm not doing anything with other column in the sheet right now, but we can animate based on year, and colour based on something. 
+  
   var node = svg.selectAll("circle")
     .data(dataEntries)
     .enter()
     .append("circle")
     .style("fill", green) //you could tie the colour to a data element but I don't know which one would be good for this.
+    .style("visibility", "hidden")
     .attr("r", function(d) { return (Math.sqrt(d.current_total_value_of_award)/400+1); })
-    .attr("transform", "translate(" + [width / 2, height / 2] + ")")
-    .on("mouseover", function(d){
-      select(this)
-        .attr("fill", green)
-        .attr("filter", "url(#filter-glow)");
-      toolTip
-        .html(`<strong>${d.recipient_name}</strong><br />
-          ${format(",")(d.current_total_value_of_award)}`)
-        .style("left", function(){
-          const toolTipWidth = $(".tooltip").width();
-          if(toolTipWidth > event.pageX){
-            return event.pageX + "px";
-          } else {
-            return (event.pageX - toolTipWidth) + "px";
-          }
-        })
-        .style("top", function(){
-          const toolTipHeight = $(".tooltip").height();
-          if(($(window).height() - event.pageY) < toolTipHeight){
-            return (event.pageY - toolTipHeight) + "px";
-          } else {
-            return event.pageY + "px";
-          }
-        })
-        .transition().delay(750).duration(500)
-        .style("opacity", 1);
+  //  .attr("transform", "translate(" + [width / 2, height / 2] + ")")
+    .each(d => {
+      d.tooltip = `<strong>${d.recipient_name}</strong><br />
+          &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
+      d.mouseOver = () => {
+        select(this)
+          .attr("fill", green)
+          .attr("filter", "url(#filter-glow)");
+        d.mouseOut = () => {
+          select(this)
+            .attr("fill", "black")
+            .attr("filter", "");
+        };
+      };
     })
-    .on("mouseout", function(){
-      select(this)
-        .attr("fill", "black")
-        .attr("filter", "");
-      toolTip.style("opacity", 0);
-    });
+    .on("mouseover", handleMouseOver)
+    .on("mouseout", handleMouseOut);
+
 }
