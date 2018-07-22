@@ -12,5 +12,9 @@ export default function(){
   linesSlider();
   moveLegend();
   $("#legend").show();
+  $("#lines-slider").click((e) => {
+    e.stopPropagation();
+    $(".tooltip").css("opacity", 0);
+  });
 }
 

@@ -1,4 +1,8 @@
+
 import { green } from "../constants";
+
+// Why is there a galaxyVizData.csv also in src? I've moved it into src/galaxy
+// for now, but you all should only have one copy of the csv lying around!
 import Data from "../../data/galaxyVizData.csv";
 import { event, select } from "d3-selection";
 import { forceSimulation, forceCollide, forceX, forceY, forceManyBody} from "d3-force";
