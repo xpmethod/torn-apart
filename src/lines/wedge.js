@@ -1,6 +1,5 @@
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import { select } from "d3-selection";
-import { format } from "d3-format";
 import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
@@ -45,9 +44,11 @@ export default function (map) {
       d.currYear = 2017;
       d.currValue = d.y2017 + 0.1;
       d.color = purple;
-      d.tooltip = `<strong>${d.name}</strong><br />
-        ${format(",")(Math.floor(d.currValue))} 
-        people removed in ${d.currYear}.`;
+      if(d.currValue < 2 && d.currValue > 0.2){ 
+        d.tooltip = linesConstants.tooltipSingular(d);
+      } else { 
+        d.tooltip = linesConstants.tooltipPlural(d);
+      }
       d.mouseOver = () => {
         select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", d.color)
