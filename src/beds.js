@@ -1,8 +1,8 @@
 import $ from "jquery";
-import { mapZoomEnable } from "./utils";
+import bedsTreeMap from "./beds/tree-map";
 
-export default function(map){
-  mapZoomEnable(map);
+export default function(){
   $("#v2-div").show();
+  bedsTreeMap();
   $("#beds-viz").show();
 }
