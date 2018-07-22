@@ -6,7 +6,7 @@ import $ from "jquery";
 import { format } from "d3-format";
 
 
-export default function(){  
+export default function(){	
   var  svg = select("svg");
   var dataEntries = Data;
   var width = 600; //these are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
@@ -26,11 +26,11 @@ export default function(){
       return (Math.sqrt(d.current_total_value_of_award)/400+1) + 2;
     }))	
     .on("tick", ticked); 
-  
+
   function charge(d) { //this is making sure the forcestrength is proportional to radius of each bubble
     return -forceStrength * Math.pow((Math.sqrt(d.current_total_value_of_award)/400+1), 2.0);
   }
-  
+
   function ticked() { 
     node.attr("cx", function(d) { return d.x; }) 
       .attr("cy", function(d) { return d.y; }); 
