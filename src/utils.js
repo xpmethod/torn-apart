@@ -1,6 +1,7 @@
 import $ from "jquery";
 import L from "leaflet";
 import _ from "lodash";
+import { rem } from "./constants";
 
 export function moveLegend() {
   $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
@@ -16,6 +17,24 @@ export function defaultRadius() {
 
 export function titleUp(string) {
   return _.words(string).map( word => _.capitalize(word)).join(" ");
+}
+
+export function resizeDivFromTop(div) {
+  const navHeight = () => {
+    const height = $("#all-navs").height() + $("#all-navs").position().top;
+    if(height === 0){
+      return $("nav.navbar").outerHeight();
+    } else {
+      return height;
+    }
+  };
+  const targetTop = navHeight() + 0.75 * rem;
+  if(targetTop !== $(div).position().top){
+    const diff = targetTop - $(div).position().top;
+    $(div).css("top", targetTop + "px");
+    $(div).css("max-height", `${$(div).height() - diff}px`);
+
+  }
 }
 
 export function mapZoomEnable(map) {
