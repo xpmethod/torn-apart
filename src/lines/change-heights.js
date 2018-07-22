@@ -12,6 +12,11 @@ export default function(value){
       d.currYear = value;
       d.currValue = d[`y${value}`] + 0.1;
       d.newHeight = y(d.currValue);
+      if(d.currValue < 2 && d.currValue > 0.2){ 
+        d.tooltip = linesConstants.tooltipSingular(d);
+      } else { 
+        d.tooltip = linesConstants.tooltipPlural(d);
+      }
       return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
     })
     .attr("opacity", d => d.currValue);

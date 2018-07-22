@@ -1,6 +1,5 @@
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import { select } from "d3-selection";
-import { format } from "d3-format";
 import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
@@ -45,24 +44,25 @@ export default function (map) {
       d.currYear = 2017;
       d.currValue = d.y2017 + 0.1;
       d.color = purple;
-      d.tooltip = `<strong>${d.name}</strong><br />
-        ${format(",")(Math.floor(d.currValue))} 
-        people removed in ${d.currYear}.`;
+      if(d.currValue < 2 && d.currValue > 0.2){ 
+        d.tooltip = linesConstants.tooltipSingular(d);
+      } else { 
+        d.tooltip = linesConstants.tooltipPlural(d);
+      }
       d.mouseOver = () => {
-        select(this)
+        select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", d.color)
           .attr("filter", "url(#filter-glow)");
       };
       d.mouseOut = () => {
-        select(this)
+        select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", "black")
           .attr("filter", "");
       };
     });
-  // bar.append("circle")
-  //   .attr("r", 3);
   bar.append("path")
     .style("pointer-events", "painted")
+    .attr("id", d => `${_.camelCase(d.name)}-path`)
     .attr("fill", "black")
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
@@ -78,6 +78,7 @@ export default function (map) {
   map.on("zoomend", d3Update);
 
   function d3Update(){
+    const toothLength = 30;
     const tL = new L.LatLng(70, -170);
     const bR = new L.LatLng(10, 150);
     const bottomRight = [map.latLngToLayerPoint(bR).x, map.latLngToLayerPoint(bR).y];
@@ -91,7 +92,7 @@ export default function (map) {
       const LL = new L.LatLng(d.lat, d.lon);
       d.newX = map.latLngToLayerPoint(LL).x;
       d.newY = map.latLngToLayerPoint(LL).y;
-      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY})`;
+      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY + toothLength})`;
     });
   }
 }
