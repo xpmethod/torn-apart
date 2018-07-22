@@ -11,7 +11,7 @@ export default function(){
   var dataEntries = Data;
   var width = 600; //these are chosen kind of at random because larger numbers make the whole thing zoom off to the bottom right for no good reason.
   var height = 300;
-  var forceStrength = 0.02;
+  var forceStrength = 0.05;
   var center = {x: width / 2, y: height / 2};
   const toolTip = select("body").append("div")
     .classed("tooltip", true)
@@ -23,12 +23,12 @@ export default function(){
     .force("x", forceX().strength(forceStrength).x(center.x))
     .force("y", forceY().strength(forceStrength).y(center.y))
     .force("collision", forceCollide().radius(function(d) {
-      return (Math.sqrt(d.current_total_value_of_award)/300+1);
-    })) 
+      return (Math.sqrt(d.current_total_value_of_award)/400+1) + 2;
+    }))	
     .on("tick", ticked); 
   
   function charge(d) { //this is making sure the forcestrength is proportional to radius of each bubble
-    return -forceStrength * Math.pow((Math.sqrt(d.current_total_value_of_award)/300+1), 2.0);
+    return -forceStrength * Math.pow((Math.sqrt(d.current_total_value_of_award)/400+1), 2.0);
   }
   
   function ticked() { 
@@ -42,7 +42,7 @@ export default function(){
     .enter()
     .append("circle")
     .style("fill", green) //you could tie the colour to a data element but I don't know which one would be good for this.
-    .attr("r", function(d) { return (Math.sqrt(d.current_total_value_of_award)/300+1); })
+    .attr("r", function(d) { return (Math.sqrt(d.current_total_value_of_award)/400+1); })
     .attr("transform", "translate(" + [width / 2, height / 2] + ")")
     .on("mouseover", function(d){
       select(this)
