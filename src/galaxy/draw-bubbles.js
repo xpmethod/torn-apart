@@ -7,10 +7,10 @@ import { format } from "d3-format";
 
 
 export default function(){	
- // var  svg = select("svg");
+  // var  svg = select("svg");
   var dataEntries = Data;
   const width = 1400; //these are chosen kind of at random for what looks good on my screen. Need to be made responsive and done with css sometime soon
-	const height = 800;
+  const height = 800;
 
   var xCenter = {2014: width/6, 2015: width/6*2, 2016: width/6*3, 2017: width/6*4, 2018: width/6*5}; //this dictionary allows us to grab an x-coordinate to have a node pushed towards, on the basis of its financial year (from a column I added to the data, since each financial year was handled by different worksheets in the original spreadsheet).
 
@@ -34,12 +34,20 @@ export default function(){
 
   var text = select("svg")
     .selectAll("text")
-    .data(labels)
-    .enter()
+    .data(labels);
+    
+  text.enter()
     .append("text")
     .text(function(d){
-      return d
-    });
+      return "FY " + d;
+    })
+    .attr("x", function(d){
+      return xCenter[d] -50;
+    })
+    .attr("y", 20)
+    .attr("class", "label")
+    ;
+
 
 
   var node = select("svg")
