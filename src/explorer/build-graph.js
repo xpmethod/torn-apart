@@ -1,9 +1,10 @@
 import { writeFile, readFile } from "fs";
 import { stdout } from "process";
+import path from "path";
 import parse from "csv-parse";
 import _ from "lodash";
 
-readFile("data/explorer/explorer.csv", (err, data) => {
+readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
   if(err) throw err;
   parse(data, {columns: true}, (err, awards) => {
     if(err) throw err;
@@ -60,10 +61,11 @@ readFile("data/explorer/explorer.csv", (err, data) => {
 
     graph.links = graph.links.filter(link => link.target !== undefined);
 
-    writeFile("data/explorer/graph.json", JSON.stringify(graph, null, 2), (err) => {
-      if(err) throw err;
-      stdout.write("WE DID THE THING 🚀\n");
-    }); // close writeFile callback.
+    writeFile(path.join("data", "explorer", "graph.json"), 
+      JSON.stringify(graph, null, 2), (err) => {
+        if(err) throw err;
+        stdout.write("WE DID THE THING 🚀\n");
+      }); // close writeFile callback.
     
   }); // close parse;
 
