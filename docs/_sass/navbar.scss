@@ -27,7 +27,11 @@
   font-size: 1rem;
 }
 
-.navbar-toggler-orange {
+.navbar-toggler-vol-2 {
+  background-color: $purple;
+}
+
+.navbar-toggler-vol-1 {
   background-color: $orange;
 }
 
@@ -84,12 +88,21 @@
   padding: .5rem;
 }
 
+.viz-nav-vol-1 {
+  background-color: $orange;
+}
+
+.viz-nav-vol-2 {
+  background-color: $purple;
+}
+
+
 // Localization links:
 
 .navbar {
   color: $faintwhite;
-
-  a.nav-item {
+  
+  a {
     color: $faintwhite; 
   }
 

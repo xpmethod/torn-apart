@@ -15,7 +15,7 @@
   overflow-y: auto; 
   top: 9rem;
   left: 1rem;
-  max-height: calc(100vh - 3rem - 8rem - 3rem);
+  height: calc(100vh - 3rem - 8rem - 3rem);
   width: calc(100vw - 2rem);
   display: none;
   z-index: 1020;
@@ -84,7 +84,8 @@
   #v2-div {
     top: 7.25rem;
     left: .5rem;
-    max-height: calc(100vh - 7.5rem - 1.75rem);
+    width: calc(100vw - 1rem);
+    height: calc(100vh - 7.5rem - 1.75rem);
   }
 }
 
