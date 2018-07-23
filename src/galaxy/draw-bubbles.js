@@ -33,6 +33,14 @@ export default function(){
   const svg = select("#galaxy-svg")
     .attr("width", width)
     .attr("height", height);
+  const defs = svg.append("defs");
+  const filter = defs.append("filter").attr("id","filter-glow");
+  filter.append("feGaussianBlur")
+    .attr("stdDeviation","3.5")
+    .attr("result","coloredBlur");
+  const feMerge = filter.append("feMerge");
+  feMerge.append("feMergeNode").attr("in","coloredBlur");
+  feMerge.append("feMergeNode").attr("in","SourceGraphic");  
   var text = svg
     .selectAll("text")
     .data(labels);
@@ -61,17 +69,19 @@ export default function(){
       return d.y;
     })
     .each(d => {
+      d.id = `${d.financial_year}-${d.award_id_piid}`;
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
 		&#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
       d.mouseOver = () => {
-        select(this) //I don't think these lines are working and I don't know why. No filter glow. 
+        select(`#circle-${d.id}`) // Trying to pull from ID but still failing
           .attr("filter", "url(#filter-glow)");
       };
       d.mouseOut = () => {
-        select(this)
+        select(`#circle-${d.id}`)
           .attr("filter", "");
       };
     })
+    .attr("id", d => `circle-${d.financial_year}-${d.award_id_piid}`)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
 }
