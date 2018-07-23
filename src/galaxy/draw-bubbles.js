@@ -46,10 +46,7 @@ export default function(){
       return xCenter[d] -50;
     })
     .attr("y", 20)
-    .attr("class", "label")
-  ;
-
-
+    .attr("class", "label");
 
   var node = svg.selectAll("circle")
     .data(Data);
@@ -77,6 +74,4 @@ export default function(){
     })
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
-	
-
 }
