@@ -59,8 +59,8 @@ export default function(){
     .style("fill", function(d) { return (uniqueness_colour[d.uniqueness]);
     }
     )
-    .attr("id", function(d){
-      return (d.award_id_piid)
+    .attr("id", function(d, i){
+      return "_" + (d.award_id_piid) + i;
     })
     .attr("r", function(d) { return (Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)); })
     .merge(node)
@@ -73,12 +73,12 @@ export default function(){
     .each(d => {
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
 		&#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
-      d.mouseOver = () => {
-        select(`#${d.award_id_piid}`) // Trying to pull from ID but still failing
+      d.mouseOver = (i) => {
+        select(`#_${d.award_id_piid + i}`) // Trying to pull from ID but still failing
           .attr("filter", "url(#filter-glow)");
       };
-      d.mouseOut = () => {
-        select(`#${d.award_id_piid}`)
+      d.mouseOut = (i) => {
+        select(`#_${d.award_id_piid + i}`)
           .attr("filter", "");
       };
     })
