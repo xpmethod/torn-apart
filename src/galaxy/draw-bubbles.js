@@ -45,8 +45,7 @@ export default function(){
       return xCenter[d] -50;
     })
     .attr("y", 20)
-    .attr("class", "label")
-    ;
+    .attr("class", "label");
 
 
 
@@ -60,6 +59,9 @@ export default function(){
     .style("fill", function(d) { return (uniqueness_colour[d.uniqueness]);
     }
     )
+    .attr("id", function(d){
+      return (d.award_id_piid)
+    })
     .attr("r", function(d) { return (Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)); })
     .merge(node)
     .attr("cx", function(d) {
@@ -72,11 +74,11 @@ export default function(){
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
 		&#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
       d.mouseOver = () => {
-        select(this) //I don't think these lines are working and I don't know why. No filter glow. 
+        select(`#${d.award_id_piid}`) // Trying to pull from ID but still failing
           .attr("filter", "url(#filter-glow)");
       };
       d.mouseOut = () => {
-        select(this)
+        select(`#${d.award_id_piid}`)
           .attr("filter", "");
       };
     })
