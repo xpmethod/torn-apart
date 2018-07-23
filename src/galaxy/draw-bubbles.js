@@ -6,7 +6,7 @@ import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 import { format } from "d3-format";
 
-export default function(){	
+export default function(){  
   const width = $(window).width() - 4 * rem;
   const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
 
@@ -24,7 +24,7 @@ export default function(){
     }))
 
     .stop();//stop the simulation here. This means it doesn't do all its initial stuff in the public eye.
-	
+  
 
   for (var i = 0; i < 10; ++i) simulation.tick(); //this is now making the simulation run a few times without drawing anything, so you don't get all the wibbly wobbly.The higher you make this number, the more clustered the result will be but the longer it will take to load
 
@@ -71,7 +71,7 @@ export default function(){
     .each(d => {
       d.id = `${d.financial_year}-${d.award_id_piid}`;
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
-		&#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
+    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
       d.mouseOver = () => {
         select(`#circle-${d.id}`) // Trying to pull from ID but still failing
           .attr("filter", "url(#filter-glow)");
