@@ -10,6 +10,7 @@ import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
 export default function (viz, map){
+  $("#navbarList").collapse("hide");
   clearIntervals(); // kill all timed functions like banned viz.
   mapZoomDisable(map); // disable zoom by default.
   $(".viz-hide").hide(); // hide all the vizualizations.

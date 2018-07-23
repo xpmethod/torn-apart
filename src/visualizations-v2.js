@@ -9,6 +9,7 @@ let timer;
 
 showViz(theViz, map);
 // jQuery behaviors:
+$(".navbar-toggler").click(() => $("#v2-div").hide());
 $("#legend").click(function(){ $(this).hide(); });
 // highlight the proper visualization
 $("[href='/torn-apart/volume/2/visualizations.html#" + theViz + "']").addClass("active");

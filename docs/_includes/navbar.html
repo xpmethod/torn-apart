@@ -42,7 +42,7 @@
         {% assign tabs = site.data.vizNavbars[volume] %}
         {% for tab in tabs %}
         <li class="nav-item viz-item-{{ volume }}">
-          <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations#{{ tab }}">Clinks</a>
+          <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#{{ tab }}">Clinks</a>
         </li>
       {% endfor %}
     </ul>
