@@ -1,22 +1,20 @@
+import $ from "jquery";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
-import { green, purple } from "../constants";
+import { rem, green, purple } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 import { format } from "d3-format";
 
-
 export default function(){	
-  // var  svg = select("svg");
-  var dataEntries = Data;
-  const width = 1400; //these are chosen kind of at random for what looks good on my screen. Need to be made responsive and done with css sometime soon
-  const height = 800;
+  const width = $(window).width() - 4 * rem;
+  const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
 
   var xCenter = {2014: width/6, 2015: width/6*2, 2016: width/6*3, 2017: width/6*4, 2018: width/6*5}; //this dictionary allows us to grab an x-coordinate to have a node pushed towards, on the basis of its financial year (from a column I added to the data, since each financial year was handled by different worksheets in the original spreadsheet).
 
   var uniqueness_colour = {"multi-year": green, "unique": purple}; //a dictionary here is overkill, but just in case you want to change it to a more nuanced set of colours, e.g. for the 'year' column instead.
 
-  var simulation =  forceSimulation(dataEntries) 
+  var simulation = forceSimulation(Data) 
     .force("x", forceX().strength(0.5).x(function(d) {
       return xCenter[d.financial_year];
     }))
@@ -32,7 +30,10 @@ export default function(){
 
   var labels = [2014, 2015, 2016, 2017, 2018];
 
-  var text = select("svg")
+  const svg = select("#galaxy-svg")
+    .attr("width", width)
+    .attr("height", height);
+  var text = svg
     .selectAll("text")
     .data(labels);
     
@@ -46,22 +47,16 @@ export default function(){
     })
     .attr("y", 20)
     .attr("class", "label")
-    ;
+  ;
 
 
 
-  var node = select("svg")
-    .selectAll("circle")
-    .data(dataEntries);
-  //.style("fill", green) 
-		
-  node.enter()
-    .append("circle")
-    .style("fill", function(d) { return (uniqueness_colour[d.uniqueness]);
-    }
-    )
+  var node = svg.selectAll("circle")
+    .data(Data);
+  node.enter().append("circle")
+    .style("fill", d => uniqueness_colour[d.uniqueness])
     .attr("r", function(d) { return (Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)); })
-    .merge(node)
+    // .merge(node)
     .attr("cx", function(d) {
       return d.x;
     })
