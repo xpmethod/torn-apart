@@ -15,10 +15,10 @@ export default function(){
   var uniqueness_colour = {"multi-year": green, "unique": purple}; //a dictionary here is overkill, but just in case you want to change it to a more nuanced set of colours, e.g. for the 'year' column instead.
 
   var simulation = forceSimulation(Data) 
-    .force("x", forceX().strength(0.5).x(function(d) {
+    .force("x", forceX().strength(1).x(function(d) {
       return xCenter[d.financial_year];
     }))
-    .force("y", forceY(height/2))
+    .force("y", forceY(height/1.8))
     .force("collision", forceCollide().radius(function(d) {
       return (Math.ceil(Math.sqrt(d.current_total_value_of_award)/600+8)); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+5)
     }))
@@ -26,7 +26,7 @@ export default function(){
     .stop();//stop the simulation here. This means it doesn't do all its initial stuff in the public eye.
   
 
-  for (var i = 0; i < 10; ++i) simulation.tick(); //this is now making the simulation run a few times without drawing anything, so you don't get all the wibbly wobbly.The higher you make this number, the more clustered the result will be but the longer it will take to load
+  for (var i = 0; i < 15; ++i) simulation.tick(); //this is now making the simulation run a few times without drawing anything, so you don't get all the wibbly wobbly.The higher you make this number, the more clustered the result will be but the longer it will take to load
 
   var labels = [2014, 2015, 2016, 2017, 2018];
 
