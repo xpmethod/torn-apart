@@ -75,7 +75,7 @@ export default function(){
     })
     .attr("id", d => `circle-${d.financial_year}-${d.award_id_piid}`)
     .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut)  
+    .on("mouseout", handleMouseOut);  
     
 
   var text = svg
