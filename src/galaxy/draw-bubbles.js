@@ -10,10 +10,10 @@ export default function(){
   const width = $(window).width() - 4 * rem;
   const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
   const scaling = width*0.000567; //this scales the dots radius appropriately for different widths of svg
-  console.log(String(width));
+  // console.log(String(width));
   const scaled_width = width*0.8; //this is the scaling factor for determining the centres of each cluster
 
-  var xCenter = {2014: scaled_width*14/155+width/15, 2015: scaled_width*(14+22)/155+width/15, 2016: scaled_width*(14+22+31)/155+width/15, 2017: scaled_width*(14+22+31+42)/155+width/15, 2018: scaled_width*(14+22+30+42+47)/155+width/15}; //this dictionary allows us to grab an x-coordinate to have a node pushed towards, on the basis of its financial year (from a column I added to the data, since each financial year was handled by different worksheets in the original spreadsheet). The values for the centres of each cluster are determined by approximating the cluster as a circle, assuming similar distribution of dots in each, and figuring out from the number of nodes per FY the proportional differences in radius between each, then kind of handwaving the rest and fiddling with the final term until it looks okay. At the very minimum, we should probably replace the hardcoded number of nodes for each FY with the number as grabbed from the data dynamically.
+  var xCenter = {2014: scaled_width*4/155+width/15, 2015: scaled_width*(12+22)/155+width/15, 2016: scaled_width*(14+22+31)/155+width/15, 2017: scaled_width*(12+22+31+42)/155+width/15, 2018: scaled_width*(12+22+30+42+47)/155+width/15}; //this dictionary allows us to grab an x-coordinate to have a node pushed towards, on the basis of its financial year (from a column I added to the data, since each financial year was handled by different worksheets in the original spreadsheet). The values for the centres of each cluster are determined by approximating the cluster as a circle, assuming similar distribution of dots in each, and figuring out from the number of nodes per FY the proportional differences in radius between each, then kind of handwaving the rest and fiddling with the final term until it looks okay. At the very minimum, we should probably replace the hardcoded number of nodes for each FY with the number as grabbed from the data dynamically.
 
   var uniqueness_colour = {"multi-year": green, "unique": purple}; //a dictionary here is overkill, but just in case you want to change it to a more nuanced set of colours, e.g. for the 'year' column instead.
   
@@ -21,9 +21,9 @@ export default function(){
     .force("x", forceX().strength(0.8).x(function(d) {
       return xCenter[d.financial_year];
     }))
-    .force("y", forceY(height/1.9).strength(0.3))
+    .force("y", forceY(height/1.8).strength(0.3))
     .force("collision", forceCollide().radius(function(d) {
-      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+10))); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+8). The ceil is to make sure we don't end up with anything under 1 pixel radius.
+      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+11))); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+8). The ceil is to make sure we don't end up with anything under 1 pixel radius.
     }))
 
     .stop();//stop the simulation here. This means it doesn't do all its initial stuff in the public eye.
@@ -53,7 +53,7 @@ export default function(){
   node.enter().append("circle")
     .style("fill", d => uniqueness_colour[d.uniqueness])
     .attr("r", function(d) {return scaling*(Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)); 
-	})
+    })
     .attr("cx", function(d) {
       return d.x;
     })
@@ -75,19 +75,20 @@ export default function(){
     })
     .attr("id", d => `circle-${d.financial_year}-${d.award_id_piid}`)
     .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut);
+    .on("mouseout", handleMouseOut)  
+    
 
-    var text = svg
+  var text = svg
     .selectAll("text")
     .data(labels);
 
-    text.enter()
+  text.enter()
     .append("text")
     .text(function(d){
       return "FY " + d;
     })
     .attr("x", function(d){
-      return xCenter[d] -50; //this -50 needs to be replaced with something proportional to the text size
+      return xCenter[d] -30; //this -50 needs to be replaced with something proportional to the text size
     })
     .attr("y", 20)
     .attr("class", "label");
