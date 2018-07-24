@@ -11,7 +11,6 @@ export default function(){
   const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
   const scaling = width*0.000567; //this scales the dots radius appropriately 
   // for different widths of svg
-  // console.log(String(width));
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
 
@@ -25,7 +24,7 @@ export default function(){
   // handwaving the rest and fiddling with the final term until it looks okay.
   // At the very minimum, we should probably replace the hardcoded number of
   // nodes for each FY with the number as grabbed from the data dynamically.
-  var xCenter = { 
+  const xCenter = { 
     2014: scaled_width*4/155+width/15, 
     2015: scaled_width*(12+22)/155+width/15, 
     2016: scaled_width*(14+22+31)/155+width/15, 
@@ -35,15 +34,18 @@ export default function(){
   
   // a dictionary here is overkill, but just in case you want to change it to a
   // more nuanced set of colours, e.g. for the 'year' column instead.
-  var uniqueness_colour = {"multi-year": green, "unique": purple}; 
+  const uniqueness_colour = {"multi-year": green, "unique": purple}; 
   
   var simulation = forceSimulation(Data) 
-    .force("x", forceX().strength(0.8).x(function(d) {
-      return xCenter[d.financial_year];
-    }))
+    .force("x", forceX().strength(0.8).x( d => xCenter[d.financial_year]))
     .force("y", forceY(height/1.8).strength(0.3))
-    .force("collision", forceCollide().radius(function(d) {
-      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+11))); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+8). The ceil is to make sure we don't end up with anything under 1 pixel radius.
+    .force("collision", forceCollide().radius( d => {
+      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+11))); 
+      // if you want more space around the larger dots (i.e. padding as
+      // proportional to radius), increase the number you divide by (currently
+      // 600). If you want more padding around all dots evenly, increase the
+      // additional constant (+8). The ceil is to make sure we don't end up
+      // with anything under 1 pixel radius.
     }))
     .stop();
   // stop the simulation here. This means it doesn't do all its initial stuff
@@ -52,8 +54,10 @@ export default function(){
   //this is now making the simulation run a few times without drawing anything,
   //so you don't get all the wibbly wobbly.The higher you make this number, the
   //more clustered the result will be but the longer it will take to load
-  //(currently 15)
-  for (var i = 0; i < 15; ++i) simulation.tick(); 
+  const ticks = 15;
+  for (let i = 0; i < ticks; i = i + 1){
+    simulation.tick(); 
+  }
 
   var labels = [2014, 2015, 2016, 2017, 2018];
 
@@ -69,21 +73,13 @@ export default function(){
   feMerge.append("feMergeNode").attr("in","coloredBlur");
   feMerge.append("feMergeNode").attr("in","SourceGraphic");  
 
-    
-
-
-  var node = svg.selectAll("circle")
-    .data(Data);
-  node.enter().append("circle")
+  svg.selectAll("circle")
+    .data(Data).enter()
+    .append("circle")
     .style("fill", d => uniqueness_colour[d.uniqueness])
-    .attr("r", function(d) {return scaling*(Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)); 
-    })
-    .attr("cx", function(d) {
-      return d.x;
-    })
-    .attr("cy", function(d) {
-      return d.y;
-    })
+    .attr("r", d => scaling*(Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)))
+    .attr("cx", d => d.x)
+    .attr("cy", d => d.y)
     .each(d => {
       d.id = `${d.financial_year}-${d.award_id_piid}`;
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
@@ -97,24 +93,17 @@ export default function(){
           .attr("filter", "");
       };
     })
-    .attr("id", d => `circle-${d.financial_year}-${d.award_id_piid}`)
+    .attr("id", d => `circle-${d.id}`)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);  
     
 
-  var text = svg
-    .selectAll("text")
-    .data(labels);
-
-  text.enter()
+  svg.selectAll("text")
+    .data(labels).enter()
     .append("text")
-    .text(function(d){
-      return "FY " + d;
-    })
-    .attr("x", function(d){
-      //this -50 needs to be replaced with something proportional to the text size
-      return xCenter[d] - 30; 
-    })
+    .text( d => `FY ${d}`)
+    .attr("x", d => xCenter[d] - 30)
+  //this -50 needs to be replaced with something proportional to the text size
     .attr("y", 20)
     .attr("class", "label");
 }
