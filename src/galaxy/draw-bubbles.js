@@ -9,7 +9,7 @@ import { format } from "d3-format";
 export default function(){  
   const width = $(window).width() - 4 * rem;
   const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
-  const scaling = width*0.000767; //this scales the dots radius appropriately for different widths of svg
+  const scaling = width*0.000567; //this scales the dots radius appropriately for different widths of svg
   console.log(String(width));
   const scaled_width = width*0.8; //this is the scaling factor for determining the centres of each cluster
 
@@ -18,12 +18,12 @@ export default function(){
   var uniqueness_colour = {"multi-year": green, "unique": purple}; //a dictionary here is overkill, but just in case you want to change it to a more nuanced set of colours, e.g. for the 'year' column instead.
   
   var simulation = forceSimulation(Data) 
-    .force("x", forceX().strength(1).x(function(d) {
+    .force("x", forceX().strength(0.8).x(function(d) {
       return xCenter[d.financial_year];
     }))
-    .force("y", forceY(height/1.8))
+    .force("y", forceY(height/1.9).strength(0.3))
     .force("collision", forceCollide().radius(function(d) {
-      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+8))); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+8). The ceil is to make sure we don't end up with anything under 1 pixel radius.
+      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+10))); // if you want more space around the larger dots (i.e. padding as proportional to radius), increase the number you divide by (currently 600). If you want more padding around all dots evenly, increase the additional constant (+8). The ceil is to make sure we don't end up with anything under 1 pixel radius.
     }))
 
     .stop();//stop the simulation here. This means it doesn't do all its initial stuff in the public eye.
@@ -44,20 +44,9 @@ export default function(){
   const feMerge = filter.append("feMerge");
   feMerge.append("feMergeNode").attr("in","coloredBlur");
   feMerge.append("feMergeNode").attr("in","SourceGraphic");  
-  var text = svg
-    .selectAll("text")
-    .data(labels);
+
     
-  text.enter()
-    .append("text")
-    .text(function(d){
-      return "FY " + d;
-    })
-    .attr("x", function(d){
-      return xCenter[d] -50; //this -50 needs to be replaced with something proportional to the text size
-    })
-    .attr("y", 20)
-    .attr("class", "label");
+
 
   var node = svg.selectAll("circle")
     .data(Data);
@@ -74,7 +63,7 @@ export default function(){
     .each(d => {
       d.id = `${d.financial_year}-${d.award_id_piid}`;
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
-    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; //rounded to nearest whole number, because the period before the cents was hard to see and made the numbers look bigger than they really are, plus it was doing .4 and .3 instead of .40, .30, etc.
+    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; // rounded for style
       d.mouseOver = () => {
         select(`#circle-${d.id}`) 
           .attr("filter", "url(#filter-glow)");
@@ -87,4 +76,19 @@ export default function(){
     .attr("id", d => `circle-${d.financial_year}-${d.award_id_piid}`)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
+
+    var text = svg
+    .selectAll("text")
+    .data(labels);
+
+    text.enter()
+    .append("text")
+    .text(function(d){
+      return "FY " + d;
+    })
+    .attr("x", function(d){
+      return xCenter[d] -50; //this -50 needs to be replaced with something proportional to the text size
+    })
+    .attr("y", 20)
+    .attr("class", "label");
 }
