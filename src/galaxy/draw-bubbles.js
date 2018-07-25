@@ -2,6 +2,7 @@ import $ from "jquery";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import { rem, green, purple } from "../constants";
 import Data from "../../data/galaxyVizData.csv";
+import addGlowFilter from "../add-glow-filter";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 import { format } from "d3-format";
@@ -61,17 +62,9 @@ export default function(){
 
   var labels = [2014, 2015, 2016, 2017, 2018];
 
-  const svg = select("#galaxy-svg")
+  const svg = addGlowFilter(select("#galaxy-svg"))
     .attr("width", width)
     .attr("height", height);
-  const defs = svg.append("defs");
-  const filter = defs.append("filter").attr("id","filter-glow");
-  filter.append("feGaussianBlur")
-    .attr("stdDeviation","3.5")
-    .attr("result","coloredBlur");
-  const feMerge = filter.append("feMerge");
-  feMerge.append("feMergeNode").attr("in","coloredBlur");
-  feMerge.append("feMergeNode").attr("in","SourceGraphic");  
 
   const g = svg.append("g").attr("id", "galaxy-g");
   g.selectAll("circle")
@@ -87,7 +80,7 @@ export default function(){
     &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; // rounded for style
       d.mouseOver = () => {
         select(`#circle-${d.id}`) 
-          .attr("filter", "url(#filter-glow)");
+          .attr("filter", "url(#filter-glow-galaxy)");
       };
       d.mouseOut = () => {
         select(`#circle-${d.id}`)
