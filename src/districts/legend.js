@@ -1,16 +1,48 @@
 import $ from "jquery";
 import { moveLegend } from "../utils";
-// import { moveLegend, defaultRadius } from "../utils";
-// import { purple } from "../constants";
 import updateTexts from "../update-texts";
 
 export default function(){
-  $("#legend").html(`<div class="px-3 py-2">
+  $("#legend").show().html(`<div class="px-3 py-2">
+    <div class="d-flex justify-content-between">
+      <div class="legend-svg-div">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.2"/>
+        </svg>
+        $11–$20
+      </div>
+      <div class="">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.4" />
+        </svg>
+        $21–$30
+      </div>
+      <div class="">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.6" />
+        </svg>
+        $31–$40
+      </div>
+      <div class="">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.8" />
+        </svg>
+        $41–$50
+      </div>
+      <div class="">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="1" />
+        </svg>
+        $51–$60
+      </div>
+    </div>
     <span data-i18n="ta-v2-districts-legend" class="markdownify"></span>
     <div id="lines-slider"></div>
   </div>`);
   updateTexts();
   moveLegend();
-  $("#legend").show();
+  const divWidth = Math.floor($(".legend-svg-div").width());
+  $(".legend-svg").attr("width", divWidth);
+  $(".legend-polygon").attr("width", divWidth);
 }
 
