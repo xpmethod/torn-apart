@@ -73,7 +73,8 @@ export default function(){
   feMerge.append("feMergeNode").attr("in","coloredBlur");
   feMerge.append("feMergeNode").attr("in","SourceGraphic");  
 
-  svg.selectAll("circle")
+  const g = svg.append("g").attr("id", "galaxy-g");
+  g.selectAll("circle")
     .data(Data).enter()
     .append("circle")
     .style("fill", d => uniqueness_colour[d.uniqueness])
@@ -106,4 +107,6 @@ export default function(){
   //this -50 needs to be replaced with something proportional to the text size
     .attr("y", 20)
     .attr("class", "label");
+
 }
+
