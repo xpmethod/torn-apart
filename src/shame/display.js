@@ -5,6 +5,7 @@ import $ from "jquery";
 import initChart from "../charts/init";
 import buildPieChart from "../charts/pie-chart";
 import buildLexicalFog from "./lexical-fog";
+import * as colorscale from"d3-scale-chromatic";
 
 export default function() {
 
@@ -16,6 +17,7 @@ export default function() {
     });
   };
 
+  
   // Set some constants.
   //const margins = {top: 10, bottom: 32, left: 32, right: rem};
   // Each chart will be 200px high. This seemed right for mobile
@@ -31,7 +33,7 @@ export default function() {
   // properties, like an id, an array that will hold the data, etc.
   
   const lexicalFog = {data: [ ], margins: { top: 0, bottom: 0, left: 0, right: 0},
-  id: "#lexical-fog-svg", svgWidth: svgWidth 
+    id: "#lexical-fog-svg", svgWidth: svgWidth 
   };
   
   const gender = { data: [
@@ -44,14 +46,14 @@ export default function() {
   };
   
   const ethnicity = {data: [
-    {group: "AN", taName: "Alaskan Native", ecount: 12, color: "gray"},
-    {group: "SAAIA", taName: "Subcontinent Asian Asian Indian American", ecount: 36, color:  "lime"},
-    {group: "AP", taName: "Asian Pacific", ecount: 31, color: orange},
-    {group: "BA", taName: "Black American", ecount: 61, color: green},
-    {group: "HA", taName: "Hispanic American", ecount: 57, color: purple},
-    {group: "NA", taName: "Native American", ecount: 21, color: "#e78ac3"}  ,
-    {group: "OA", taName: "Other American", ecount: 19, color: "blue"}
-    
+    {group: "BA", taName: "Black American", ecount: 61, color: colorscale.schemeSet2[0]},
+    {group: "HA", taName: "Hispanic American", ecount: 57, color: colorscale.schemeSet2[2]},
+	{group: "SAAIA", taName: "Subcontinent Asian Asian Indian American", ecount: 36, color:  colorscale.schemeSet2[1]},
+	{group: "AP", taName: "Asian Pacific", ecount: 31, color: colorscale.schemeSet2[3]},
+    {group: "NA", taName: "Native American", ecount: 21, color: colorscale.schemeSet2[4]} , 
+	{group: "OA", taName: "Other Minority", ecount: 19, color: colorscale.schemeSet2[5]
+	},
+    {group: "AN", taName: "Alaskan Native", ecount: 12, color: colorscale.schemeSet2[6]}
   ],  margins: { top: 0, bottom: 0, left: 0, right: 0}, 
   id: "#ethnicity-svg", number: "ecount", svgWidth: thirdWidth 
   };
@@ -68,7 +70,7 @@ export default function() {
   [gender, ethnicity, intersectionality, lexicalFog].forEach(chart => initChart(chart, svgWidth, svgHeight));
   
   //build the word cloud
-	buildLexicalFog(lexicalFog);
+  buildLexicalFog(lexicalFog);
 
   // now build a pie chart for the three pie charts
   [gender, ethnicity, intersectionality].forEach(chart => buildPieChart(chart)); 
