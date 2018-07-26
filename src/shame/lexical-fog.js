@@ -2,7 +2,6 @@
 
 
 //import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
-import { green, purple, orange } from "../constants";
 import Data from "../../data/tempWordCloudData.csv";
 import { select } from "d3-selection";
 import * as cloud from "d3-cloud";
@@ -13,18 +12,18 @@ import * as colorscale from "d3-scale-chromatic";
 
 export default function(chart){  
 
-  var colour = colorscale.schemeSet2; //obvs we colour according to something non-random eventually. But we do need distinct colours to make sure we can see where one org name ends and the next starts.
+  var colour = colorscale.schemeSet2; 
 
   const width = chart.width;
   const height = chart.height; 
   
 
-  cloud().size([width-width*0.2, height-height*0.2])
+  cloud().size([width, height-height*0.2])
     .words(Data)
     .text(function(d) { return d.name; }) 
     .rotate(0)
-    .fontSize(function(d) {return Math.ceil(Math.pow(d.total_value, 0.25)); })
-    .padding(3)
+    .fontSize(function(d) {return (Math.ceil(Math.pow(d.total_value, 0.26))/4 +6); })
+    .padding(1)
     .font("Impact")
     .on("end", draw)
     .start();
@@ -43,8 +42,8 @@ export default function(chart){
       .enter().append("text")
       .attr("text-anchor", "middle")
       .style("font-family", "Impact")
-      .style("font-size", function(d) { return Math.ceil(Math.pow(d.total_value, 0.25)) + "px"; })
-      .style("fill", function() {return colour[Math.floor(Math.random() * 5)];}) 
+      .style("font-size", function(d) { return (Math.ceil(Math.pow(d.total_value, 0.26))/4 +4) + "px"; })
+      .style("fill", function(d) {return colour[5-d.years];}) 
       .attr("transform", function(d) {
         return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
       })
