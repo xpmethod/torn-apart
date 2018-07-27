@@ -1,7 +1,8 @@
 import graph from "../../data/explorer/graph.json";
-import { select } from "d3-selection";
+import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force";
-import d3 from "d3";
+import { drag } from "d3-drag";
+import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink, black } from "../constants";
 
 
@@ -9,18 +10,18 @@ export default function(){
   var height = 768;
   var width = 1366;  
 
-  var zoom = d3.zoom()
+  var theZoom = zoom()
     .scaleExtent([0.1, 8])
     .on("zoom", zoomed);  
 
-  var svg = select("#explorer-viz"). append("svg")
+  const svg = select("#explorer-svg")
     .attr("width", width)
     .attr("height", height)
-    .call(zoom)
+    .call(theZoom)
     .append("g")
     .attr("id", "topG");  
 
-  zoom.scaleTo(select("svg"),0.35);  
+  theZoom.scaleTo(select("svg"),0.35);  
 
   window.onwheel = function(){return false;};  
 
@@ -33,14 +34,14 @@ export default function(){
 
   var link = svg.append("g")
     .attr("class", "links")
-    .call(d3.zoomTransform)
+    .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
     .enter().append("line");  
 
   var node = svg.append("g")
     .attr("class", "nodes")
-    .call(d3.zoomTransform)
+    .call(zoomTransform)
     .selectAll("rect")
     .data(graph.nodes)
     .enter().append("rect")
@@ -59,17 +60,16 @@ export default function(){
       if(d.category === "product") height = 120;
       if(d.category === "company") height = 60;
       return height; 
-    }); 
-
-  var color = "" 
-    .style("fill", function(d) {color = black;
+    }) 
+    .style("fill", function(d) { let color = black;
       if(d.category === "suboffice") color = green;
       if(d.category === "product category") color = purple;
       if(d.category === "product") color = orange;
       if(d.category === "company") color = pink;
       return color;
     })
-    .on("mousedown", function() { d3.event.stopPropagation(); })        .call(d3.drag()
+    .on("mousedown", function() { event.stopPropagation(); })        
+    .call(drag()
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));  
@@ -115,18 +115,18 @@ export default function(){
   //adds sticky dragging  
 
   function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    if (!event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
   }  
 
   function dragged(d) {
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
+    d.fx = event.x;
+    d.fy = event.y;
   }  
 
   function dragended(d) {
-    if (!d3.event.active) simulation.alphaTarget(0);
+    if (!event.active) simulation.alphaTarget(0);
     d.fx = d.x;
     d.fy = d.y;
   }  
@@ -134,6 +134,6 @@ export default function(){
   function zoomed()
   {
     var topG = select("#topG");
-    topG.attr("transform", "translate(" + d3.event.transform.x+","+d3.event.transform.y + ")scale(" + d3.event.transform.k + ")");
+    topG.attr("transform", "translate(" + event.transform.x+","+event.transform.y + ")scale(" + event.transform.k + ")");
   }
 }
