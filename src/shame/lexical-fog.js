@@ -1,5 +1,6 @@
 //Currently using a very small subset of the data. And it isn't cleaned correctly. I just removed duplicate names, whereas in actual fact, we should add together the award amounts for each company that appears multiple times.
 
+// simple test
 
 //import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import Data from "../../data/tempWordCloudData.csv";
