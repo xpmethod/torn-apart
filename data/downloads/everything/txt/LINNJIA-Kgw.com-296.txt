@@ -1,0 +1,153 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 84 degrees
+
+PORTLAND, Ore. – Authorities in Oregon, Washington and Minnesota all received reports of child welfare concerns involving the Hart family prior to the family’s fatal crash on the California coast, records and interviews show.
+
+
+Married couple Jennifer and Sarah Hart were found dead, along with three of their adopted children, after Jennifer drove the family’s SUV off a cliff in California on March 26. The couple’s three other children are missing and presumed dead.
+
+Investigators believe the crash was intentional.
+
+
+What we know: Hart family crash
+
+
+Over the past decade, the family has lived in Alexandria, Minnesota; West Linn, Oregon; and Woodland, Washington. Friends say the family was loving but records show several allegations of abuse or neglect.
+
+
+Below is a timeline of what was reported, where and when.
+
+
+MINNESOTA
+
+
+2008: A police report obtained by the Oregonian details how one Hart daughter told officials she had been bruised by her mother with a belt. The girl's mothers told police their daughter fell down the stairs.
+
+Nov, 15, 2010: One of the Hart’s daughters Abigail, then 6 years old, told her teacher that she had “owies” on her tummy and back, according to a complaint filed in Minnesota. The teacher said she saw bruises on her stomach and back. Abigail then told her teacher, “mom hit me.”
+
+
+A more detailed police report obtained by the Oregonian showed Abigail said her mother Jennifer hit her, withheld food as a punishment and pushed her head under cold water in a bathtub. 
+
+
+During an interview with detectives, Sarah Hart said she spanked her daughter when she let her anger get out of control, according to the complaint.
+
+
+Jennifer Hart told investigators she knew that Sarah spanked her daughter.
+
+
+Sarah Hart pleaded guilty to domestic assault and was sentenced to 90 days in jail but wasn’t required to serve time due to terms of her probation.
+
+
+Read Minnesota complaint
+
+
+According to an Oregonian report, after the court case was resolved, the mothers pulled all six of their children from public school in Minnesota and began homeschooling them. The family continued to homeschool after moving to Oregon and then Washington. 
+
+OREGON
+
+
+July 19, 2013: West Linn police generated a report based on a child welfare concern that came in to the department involving the Hart family. West Linn police said they forwarded their report to the Oregon Department of Human Services. That document has not yet been made public and the details of the complaint are unknown.
+
+
+OR neighbor's abuse claims:
+
+
+According to an Associated Press report, a neighbor said she reported the Harts because they deprived their kids of food as a punishment. From the AP:
+
+
+In a statement provided to The Associated Press, Alexandra Argyropoulos, a former friend of the Harts, said she "witnessed what I felt to be controlling emotional abuse and cruel punishment" toward the six children.
+
+
+Argyropoulos said she was told after she made the report that Oregon officials had interviewed the children but it was apparent that each child had been coached by their mothers on what to say. She said she was told there was nothing more the Oregon Department of Human Services could do because there was not enough evidence to make a case.
+
+
+"My heart is completely broken. The current system failed to protect these children from their abusers," Argyropoulos said.
+
+
+WASHINGTON STATE
+
+
+November 18, 2017: The father of the Hart’s neighbor, Dana DeKalb, called 911 to report his concerns about the Hart children.
+
+
+Steve Frkovich, who lives in Tacoma, Wash., said a 12-year-old girl crawled out a window of the Hart home and went to his daughter’s house. When Sarah and Jennifer Hart came looking for the girl, she begged the DeKalbs not to tell anyone she was there.
+
+
+Dana DeKalb later told authorities it was an isolated incident, and there were no other issues with the family that she knew about, according to 911 records. DeKalb said she had told her mother about the November incident, who told her husband, Frkovich, who thought it was necessary to call police.
+
+
+March 23, 2018: The Washington State Department of Social and Health Services said Child Protective Services opened an investigation into the Hart family after the children were identified as potential victims of neglect and abuse.
+
+Neighbors told KGW they contacted CPS on March 23 and reported the children weren’t being fed. 
+
+
+Washington Child Protective Services was unaware of any other child welfare concerns involving the Hart family either in Washington state or elsewhere. 
+
+
+A few hours after the CPS visit, neighbors reported the family left the home.
+
+
+WA neighbors’ abuse claims:
+
+
+In an interview with KGW, neighbors Dana and Bruce DeKalb said one of the children, Devonte Hart, made a daily habit of sneaking next door and asking for tortillas, cured meats, and non-perishable food items. He sometimes visited the neighbors multiple times a day. The DeKalbs said Devonte claimed his mothers didn’t feed him and "they would withhold food from him as a punishment."
+
+
+The DeKalbs said they were alarmed by how thin and small the kids were, and the fact that one daughter was missing her two front teeth and believed to be 12 years old.
+
+
+"They were all small," Bruce DeKalb said. "One girl who was 12 looked like she was 7. Both of her teeth were missing, front teeth, and we questioned [the mothers], 'What's up with the teeth thing' and they said, 'She didn't want them replaced.' We thought that was a little weird." 
+
+
+The DeKalbs also said one of the daughters showed up at their doorstep in the middle of the night, covered in blackberries because she had walked through blackberry bushes trying to escape her home.
+
+
+"She said that she wanted us to take her to Seattle and that they [the parents] weren't treating her right, and don't make her go back," Bruce DeKalb said. "You know, kids can do stuff sometimes when they're at a certain age, they run away from home and stuff like that. By that time, [the family was] all out looking for her with flashlights so we tried to get some story as to what was going on and, of course, they told us what we wanted to hear, I guess. Life went on for another eight months and here we are today." 
+
+March 23, 26, and 27, 2018: CPS officials tried to contact the Hart family on three separate occasions.
+
+March 24, 2018: Investigators with the California Highway Patrol believe the Hart family left Newport, Oregon and traveled south on Highway 101 until they reached State Route 1 in Legget, California. They remained on State Route 1 until they reached Fort Bragg.
+
+
+March 25, 2018: Jennifer Hart was seen inside a Fort Bragg Safeway store purchasing food on the morning of March 25.
+
+
+The family remained in the Fort Bragg area until later that evening, when they headed south on State Route 1.
+
+
+March 26, 2018: The family’s SUV was found at the bottom of a cliff in Mendocino County. The vehicle stopped at a turnout on the highway and then accelerated and drove off the cliff, according to the SUV's on-board computer.
+
+
+Jennifer and Sarah Hart were found dead inside the vehicle. Jennifer was in the driver's seat and Sarah was found in the back of the SUV. Three children, Abigail, Jeremiah and Markis Hart, were found dead outside the vehicle. Three other children, Hannah, Sierra and Devonte Hart, are missing and presumed dead.
+
+
+Editor's note: The Mendocino County Sheriff's Office initially said Sierra Hart was 12 years old. On April 7, they corrected her age, saying she is actually 15 years old.
+
+
+Related links:
+
+
+Child welfare probe opened before family found dead
+
+
+Hart family SUV accelerated off cliff, CHP confirms
+
+
+Boy in famous photo missing after crash
+
+
+Officials search home of family found dead

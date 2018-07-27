@@ -1,0 +1,79 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KREM.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KREM.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Spokane Weather Summary: 83 degrees
+
+3 Weather Alerts
+
+Learn More
+
+Migrant children suffered physical abuse, including forced injections of psychotropic drugs, at private youth shelters contracted by the U.S. government to house undocumented minors, according to a lawsuit filed in federal court by a human rights organization. 
+
+
+The lawsuit alleges that the Department of Health and Human Services' Office of Refugee Resettlement "routinely" places migrant children on psychotropic drugs without parental consent and without telling the kids about the medication "in utter disregard of state laws." 
+
+The lawsuit against Attorney General Jeff Sessions was filed April 16 in U.S. District Court in California by the Center for Human Rights and Constitutional Law after Sessions announced the administration's "zero tolerance" policy on undocumented immigrants. But many of the allegations in the filing date back to unaccompanied minors who crossed the southern border during the Obama administration, long before immigration officials began systematically separating migrant families.
+
+
+Children said they were given as many as 18 pills a day and often were not told what the medication was for. Included among the drugs administered to the children were antidepressant, anti-anxiety, antipsychotic medications such as Clonazepam, Divalproex, Duloxetine, Lithium and Geodon. 
+
+
+More: Confusion reigns in wake of Trump child separation order
+
+
+More: Trump administration's 'zero tolerance' border prosecutions led to time served, $10 fees
+
+
+If the children refused the medications they would be punished or physically forced to take them, according to the lawsuit.
+
+
+Julio, a boy who was held at the Shiloh Treatment Center in Texas, which specializes in treating kids with behavioral or emotional problems, said he saw staff members hold another child down, pry his mouth open and force pills into his mouth. Julio said he was told that the only way to be released from the facility was to take the medication. Julio also said he was handcuffed, locked in a cell and pepper sprayed by staff members at Shiloh.
+
+"Sometimes they give me forced injections," a girl named Rosa was quoted as saying in the lawsuit. "One or two staff members hold my arms and the nurse gives me an injection." 
+
+
+The Center for Human Rights and Constitutional Law said without proper oversight, there was a risk that the medications could be used as "chemical straight-jackets." 
+
+
+"In adults, psychotropic drugs can have serious and sometimes irreversible side effects, including psychosis, seizures, irreversible movement disorders, suicidal ideation, weight gain, and organ damage," the lawsuit says. "Comparatively little is known about the effects of psychotropic drugs on children and adolescents."
+
+
+"You don’t have to be a rocket scientist here; it looks like they’re trying to control agitation and aggressive behavior with antipsychotic drugs," forensic psychiatrist Mark. J. Mills told the Center for Investigative Reporting. "You don’t need to administer these kinds of drugs unless someone is plucking out their eyeball or some such. The facility should not use these drugs to control behavior. That’s not what antipsychotics should be used for. That’s like the old Soviet Union used to do."
+
+
+According to a report published on the Center for Investigative Reporting's website Reveal, the government has paid Shiloh more than $25 million since 2013 to house migrant children. The report said a 16-year-old girl died at the facility in 2001 after being restrained and two other children died while being restrained at facilities tied to Shiloh's founder, the most recent in 2010. 
+
+
+In 2014, Rep. Sheila Jackson Lee, D-Texas, called for HHS to end its contract with Shiloh and for the Texas state government to shut it down after a report appeared in the Houston Chronicle documenting the alleged abuses at the facility. 
+
+
+The Center for Investigative Reporting found 71 companies contracted by the government to house migrant children, including the more than 2,000 children taken from their parents in recent weeks under the administration's "zero tolerance" policy.
+
+The center's investigation found that half of the $3.4 billion in taxpayer funds paid to house those kids over the past four years "went to homes with serious allegations of mistreating children." 
+
+
+Children kept at the Shenandoah Valley Juvenile Center in Virginia described being shackled for days on end, having their clothes and bedding taken away, and being strapped to chairs with bags placed over their heads. 
+
+
+"They are going to suffocate me," one child thought when forced to wear one of the bags. 
+
+
+More: Melania Trump wears an 'I don't care' jacket to visit immigrant children in Texas
+
+
+More: Border district to drop charges against immigrants separated from children, email says
+
+
+More: Anatomy of an executive order: What President Trump’s order on family separation does

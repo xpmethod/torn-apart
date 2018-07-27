@@ -1,0 +1,55 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KPNX.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KPNX.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Phoenix Weather Summary: 98 degrees
+
+5 Weather Alerts
+
+Learn More
+
+The public is getting its first look at what the conditions are like inside an old warehouse in South Texas where the U.S. Border Patrol holds families arrested at the border with Mexico. 
+
+
+While journalists were allowed to briefly tour the McAllen, Texas facility on Sunday, officials did not allow them to take pictures, shoot any video or interview any of the more than 1,100 people who were waiting inside. 
+
+On Monday, the U.S. Customs and Border Protection Office of Public Affairs released one minute and 33 seconds worth of video from inside the facility.
+
+
+The video shows men, women, and children waiting in a series of cages created by chain link fencing, along with mattresses on the floor and large foil sheets serving as blankets.  
+
+
+The Border Patrol said close to 200 people inside the facility were minors unaccompanied by a parent. 
+
+
+Another 500 were "family units," parents and children. Many adults who crossed the border without legal permission could be charged with illegal entry and placed in jail, away from their children.
+
+Nearly 2,000 children have been taken from their parents since Attorney General Jeff Sessions announced the "zero tolerance" policy, which directs Homeland Security officials to refer all cases of illegal entry into the United States for prosecution. Church groups and human rights advocates have sharply criticized the policy, calling it inhumane.
+
+
+ProPublica also obtained audio from inside a U.S. Customs and Border Protection facility, in which you can hear the cries of several Central American children who had been separated from their parents at the border. 
+
+
+
+
+
+According to ProPublica, the audio was recorded last week inside a detention facility. 
+
+
+CBS News reporter David Begnaud described it as being "eerily quiet" inside the facility. 
+
+
+Agents running the holding facility — generally known as "Ursula" for the name of the street it's on — said everyone detained is given adequate food, access to showers and laundered clothes, and medical care. People are supposed to move through the facility quickly. Under U.S. law, children are required to be turned over within three days to shelters funded by the Department of Health and Human Services.
+
+The Associated Press contributed to this report 

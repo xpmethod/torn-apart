@@ -1,0 +1,18 @@
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Doug Smith",
+      "title": "Reaching inside the jails to break the cycle of homeless arrests",
+      "description": "A door opened, and three men walked out of captivity into a sun-drenched waiting area. It’s a scene repeated hundreds of times a day at Los Angeles County Men’s Central Jail. But instead of being greeted by family members and friends, these men were met by Vi…",
+      "url": "http://www.latimes.com/local/lanow/la-me-ln-jail-homeless-outreach-20171128-story.html",
+      "urlToImage": "http://www.trbimg.com/img-5a1ccba7/turbine/la-me-ln-jail-homeless-outreach-20171128",
+      "publishedAt": "2017-11-28T11:00:00Z"
+    }
+  ],
+  "status": "ok"
+}

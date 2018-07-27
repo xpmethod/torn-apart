@@ -1,0 +1,164 @@
+
+
+UNC Health Care (NC) announces that it has achieved HIMSS Stage 7 for inpatient, ambulatory, and analytics, of which neighboring Duke Health was the first trifecta winner. 
+
+The announcement includes a little dig at Duke, noting that UNC is “the only health system in the US to achieve Stage 7 status on all three HIMSS Analytics domains … and also honored as ‘Most Wired Advanced.” UNC is one of the 17 health systems (of which Duke isn’t one) to be so recognized in that latter contest. 
+
+ 
+
+UNC also announces UNC Urgent Care 24/7, which offers $49 video visits via MDLive’s service. 
+
+
+
+From Private Privatized: “Re: Share Lab. The joint venture between HCA and Sharecare is shutting down and had layoffs last week.” Unverified. I didn’t get a response from Sharecare to my inquiries. The JV was formed in January 2015 to “create innovative digital patient engagement solutions.” Sharecare was founded in 2010 by TV huckster Dr. Oz and WebMD founder Jeff Arnold. Share Lab was working on enterprise scheduling and provider search. UPDATE: A Sharecare spokesperson confirms that the project is being placed on hold. More in the next HIStalk news post. 
+
+
+
+From Languishing Liz: “Re: MHS Genesis. DoD doctors prefer it over AHLTA,  according to this article’s headline. The story is ridiculous.” The health IT “news” site’s 17-paragraph story – illustrated with gratuitous clipart and crafted by a 2016 creative writing graduate – simply re-words a story from the Pensacola News Journal that was in turn syndicated by something called Military Update by Tom Philpott. Tom didn’t exactly knock himself out on research for this article, having interviewed a single, DoD-chosen doctor (yes, ONE, which is why I passed on the story) to conclude that MHS Genesis is experiencing “gains in user support.” Everyone involved in passing off this lazy fluff as news (including those who tweeted it out) should be ashamed. In addition, you would certainly hope that doctors like Cerner better than the bottom-ranked AHLTA (vs. the VA’s #1 rated VistA) given its many billion dollar price tag, a characteristic it shares with both AHLTA and VistA. 
+
+
+
+Welcome to new HIStalk Platinum Sponsor Pivot Point Consulting. The Brentwood, TN-based firm is a healthcare IT consulting leader that offers strategic advisory services, EHR and ERP implementation, training and activation, project management and PMO, optimization, technology services, managed services, and permanent placement. Clients range from large, multi-hospital networks to academic institutions, pediatric hospitals, and local community clinics. The company has earned industry and workplace quality recognition, including being the highest-rated vendor in KLAS Implementation Services Select Category (July 2017 report), #1 in KLAS for Epic Consulting in the Select Category in 2016, and #9 in Modern Healthcare’s Best Places to Work in 2016. Thanks to Pivot Point Consulting for supporting HIStalk. 
+
+None scheduled soon. Previous webinars are on our YouTube channel. Contact Lorre for information.
+
+
+
+Livongo Health acquires 80-employee, Chicago-based Retrofit, which provides online programs for weight management and disease prevention. The company has raised $16 million, but its most recent funding round was in December 2013. It pivoted from a direct-to-consumer model to emphasize corporate programs in early 2015, although it still offers the consumer service starting at $248 per month (no wonder it needed to pivot at those prices). A 2016 company-sponsored study found that around half of participants had a clinically significant weight loss after 12 months, although that excludes the 40 percent of participants who dropped out.
+
+
+
+Nokia is close to unloading the assets of France-based consumer connected health hardware vendor Withings, which it acquired for $190 million less than two years ago. The French government is pressing Nokia to find a buyer in France, reports say, which could box out Google, which has reportedly expressed interest. 
+
+Signify Research questions why it took GE so long to decide to unload its struggling health IT business, postulating that the company was unwilling to exit the population health management market. It notes that Project Northstar – which is developing an ambulatory PHM solution – is part of the package that is being dealt off to Veritas Capital, but Caradigm will remain with GE despite a puzzling fit that could make it next on the block if GE investors continue to press the company hard. I interviewed GE Healthcare VP/GM Jon Zimmerman about Project Northstar when it was announced in May 2016. 
+
+Amazon abandons its plan to become a drug distributor to hospitals, saying it’s too hard to convince hospitals to reconsider buying through their group purchasing organizations from traditional middlemen like Cardinal Health and McKesson. Drug distributor and chain drugstore shares rose on the news. 
+
+
+
+Greenway Health, spurred by $520,000 in state in local incentives, has added 104 jobs at its Tampa headquarters as it closed offices in Lake Mary, FL, Birmingham, AL, and Atlanta. 
+
+
+
+I’m not sure the “affordable” thing fits. 
+
+Puerto Rico Primary Care Association Network selects Health Gorilla as its clinical information exchange platform. The announcement notes that half of doctors in Puerto Rico don’t use an EHR and thus the platform has to manage faxes. 
+
+
+
+Michael Farrell (Cerner) is named SVP/GM of the hospital business of virtual visit provider MDLive. 
+
+
+
+Janet Moga (Genentech) joins Carevive Systems as VP of research operations. 
+
+
+
+Prime Healthcare hires Will Conaway (Dignity Health) as CIO. 
+
+
+
+Optum promotes industry long-timer Vito Augusta to VP. 
+
+ 
+
+
+
+A small KLAS study of medical staff credentialing services and software vendors finds that Verge Health, ASM’s MD-Staff, and HealthStream’s Morrissey (presumably not the English singer who recorded “We Hate It When Our Friends Become Successful”) lead the tiny pack. It’s written in a confusing manner, especially in intermingling product and company names, so my already slight interest was reduced quickly. Three of the six reviewed vendors declined to participate. On the plus side, KLAS provided the number of responses it received for each vendor, which ranged from six to 19. 
+
+A Black Book satisfaction survey of 19,000 ambulatory EHR users names AdvancedMD, Modernizing Medicine, NextGen, Epic, and Allscripts as vendor performance leaders. It also notes that smaller practices are the most dissatisfied with EHRs, but are also less likely to use advanced EHR tools. Nearly one-third of practices in the 12-and-over practitioner category say they’ll replace their EHR by 2021, hoping most for cloud-based systems that offer analytics, telehealth, and speech recognition.   
+
+The GAO previously placed the VA on its High Risk List of programs that are vulnerable to fraud, waste, abuse, and mismanagement. The VA announces the five mostly vague improvements it will make, one of them being implementing Cerner to improve interoperability with the DoD and community health partners. 
+
+
+
+Interim VA CIO Scott Blackburn, who was heavily involved in its plan to implement Cerner, resigns for unspecified reasons. 
+
+
+
+A JAMA op-ed piece looks smartly at the myth vs. reality of mentoring millennials. 
+
+
+
+A small study published in JAMA Internal Medicine finds that people with poorly controlled blood pressure who were sent medication reminders via the Medisafe smartphone app showed minimal improvement in medication adherence and zero improvement in systolic blood pressure. Even worse, study participants were chosen from a volunteers who were not only motivated, but technologically capable to use the app, which might not be generalizable to patients as a whole. Participants were also required to take their blood pressure “periodically” over the 12-week study using a study-provided home device, which in itself may have improved medication adherence. The listed study limitations don’t include what I would think is a considerable one: the short-term variability of medication effect on patients already known to have poorly controlled BP. 
+
+
+
+Michigan State University — reacting to the sexual assault conviction of its medical school professor Larry Nassar, DO — says in a board of trustees meeting that its MSU HealthTeam physician practice now documents in its EHR that a chaperone is present during sensitive examinations. The group has also updated its treatment consent form to notify patients that chaperones are permitted for adult patients and required for minors. That bit of news was overshadowed by an 18-year-old victim of Nassar’s, who claimed in a statement presented at the same meeting that MSU Interim President John Engler pressed her to settle her civil lawsuit without her attorney present. She also said Engler told her that the sexual misconduct arrest of Nassar’s former boss — resigned medical school dean William Strampel, DO — was “only just a slap on the butt” and that MSU’s osteopathic doctors are being unfairly lumped in with one bad one. She didn’t get to finish her statement to the board – Engler stopped her, saying her “time was up,” an unfortunate choice of on-the-record words given the existence of the celebrity #TimesUp movement against sexual harassment and assault.
+
+
+
+Struggling Sonoma West Medical Center (CA) — which was making $1.25 million per month by performing mail-in toxicology tests for Florida-based rehab testing lab – says it needs to “increase revenue through extra lines of work” after insurer Anthem got wise to the scam and sued the ambulance-chaser lawyer who owns the rehab testing lab. The hospital was billing at hospital rates that were up to 10 times what a toxicology lab would have charged and Anthem wants its money back. Googling also turns up that the rehab testing lab’s owner bought Chestatee Regional Hospital (GA) for $15 million, ran the same billing scheme through that hospital, and is now shutting the rural hospital down. He also owns Jenkins County Medical Center (GA) and sends bills through it. 
+
+
+
+The Vanderbilt Children’s Hospital (TN) contracted window-washer who earned national attention in 2014 for dressing up as Spiderman to cheer up the children inside may have had a darker motivation – he’s been sentenced to 100 years in prison for molesting two children and posting photos of the attacks on the Internet, with prosecutors saying  his Spiderman garb was an attempt to “access other vulnerable children” at the same time the acts occurred.  
+
+
+
+Blog Posts
+
+Mr. H, Lorre, Jenn, Dr. Jayne.Get HIStalk updates. Send news or rumors.Contact us.  
+
+
+
+Snarky response to UnitedHealth Group financial results.
+
+Why is it that  UHG’s success is correlated in any way to affordability or non affordability?  Affordable what?  Affordable to who?
+
+The political undertones around here continue to bubble up in snarkisms like this one.
+
+Too bad, all good things come to an eventual end.
+
+Providers prefer MHS Genesis to AHLTA, the absolute worst EMR ever. 
+
+And yet, AHLTA is still more interoperable… because AHLTA is connected to the read-only Joint Legacy Viewer (JLV) and Genesis is not. Live for a year and connected to nothing &amp; no one. It’s either “can’t” or “won’t” and neither is an acceptable answer.
+
+This comment by Vaporware is not factual.
+
+Which part is not factual? If I’m wrong, I’d be happy to stand corrected.
+
+Well, for one – JLV does display Genesis data.  But, I will not come back here and play Tit For Tat.  And AHLTA does not connect to JLV – JLV connects via DMIX to CDR (but that does not matter in this context).
+
+
+
+
+
+
+
+
+Anonymous online form
+E-mail
+Rumor line: 801.HIT.NEWS
+
+
+
+
+
+Contact Form
+
+Report News or Rumors
+
+Mr. HIStalk Founder, owner, HIStalk writer
+
+Lorre General, webinar, and sponsor contact
+
+JennHIStalk Practice Writer
+
+Dr. Jayne Curbside Consult, EPtalk
+
+Staff and contributor bios are here.
+
+HIStalk has been bringing the healthcare IT industry together since 2003 with reader-contributed material such as interviews, guest articles, news and rumor reports, and Advisory Panel participation. We gratefully solicit your involvement in our efforts to educate and inform. Please see how you can become involved.
+
+HIStalk reaches a huge daily audience of provider and vendor executives, technologists, clinicians, consultants, journalists, investment professionals, professors, government officials, and other influencers. Of those, 99 percent say HIStalk influences the industry, 92 percent say it helps them do their job better, and 83 percent say it influences how they perceive companies and products. Interesting in helping both our work and yours? Contact us for an information packet.
+
+Subscribe (RSS)
+
+
+
+
+
+Start Date: 
+
+End Date: 

@@ -1,0 +1,2450 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html dir="ltr" lang="en-US" class="no-js ie8 oldie"> <![endif]-->
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta name="app-env" content="prod">
+<meta name="app-platform" content="desktop">
+<meta name="app-revision" content="V20180709">
+<meta name="bugsnag-api-key" content="57098e87943fb0b8bcf51a8ffc9ca41a">
+
+    <meta name='feature:Comments' content='{"name":"Comments","status":true}'>
+    <meta name='feature:Ads' content='{"name":"Ads","status":true}'>
+    <meta name='feature:PageFair' content='{"name":"PageFair","status":false}'>
+    <meta name='feature:WelcomeScreen' content='{"name":"WelcomeScreen","status":true}'>
+    <meta name='feature:Meter' content='{"name":"Meter","status":true}'>
+    <meta name='feature:lazy load' content='{"name":"lazy load","status":true}'>
+    <meta name='feature:Array Cache' content='{"name":"Array Cache","status":true}'>
+    <meta name='feature:Report Failures' content='{"name":"Report Failures","status":false}'>
+    <meta name='feature:Ensighten' content='{"name":"Ensighten","status":false}'>
+    <meta name='feature:Show Minified Assets' content='{"name":"Show Minified Assets","status":true}'>
+    <meta name='feature:AOL-One' content='{"name":"AOL-One","status":false}'>
+    <meta name='feature:Zone 3' content='{"name":"Zone 3","status":true}'>
+    <meta name='feature:user-platform-auth' content='{"name":"user-platform-auth","status":false}'>
+    <meta name='feature:Imgix' content='{"name":"Imgix","status":true}'>
+    <meta name='feature:User Platform Digital Access' content='{"name":"User Platform Digital Access","status":true}'>
+    <meta name='feature:user-platform-account-registration' content='{"name":"user-platform-account-registration","status":true}'>
+    <meta name='feature:Hat' content='{"name":"Hat","status":false}'>
+    <meta name='feature:Ad Refresh' content='{"name":"Ad Refresh","status":false}'>
+    <meta name='feature:Homepage The Stream' content='{"name":"Homepage The Stream","status":true}'>
+    <meta name='feature:Snowplow' content='{"name":"Snowplow","status":true}'>
+    <meta name='feature:Bit.ly Short Url' content='{"name":"Bit.ly Short Url","status":false}'>
+    <meta name='feature:No Short Url' content='{"name":"No Short Url","status":false}'>
+    <meta name='feature:Recommendations' content='{"name":"Recommendations","status":true}'>
+    <meta name='feature:ElectionsHat' content='{"name":"ElectionsHat","status":false}'>
+    <meta name='feature:Elections Article myVote Module' content='{"name":"Elections Article myVote Module","status":false}'>
+    <meta name='feature:ClickTrackingOverlay' content='{"name":"ClickTrackingOverlay","status":false}'>
+    <meta name='feature:User State Speed Increase' content='{"name":"User State Speed Increase","status":true}'>
+    <meta name='feature:Nativo' content='{"name":"Nativo","status":true}'>
+    <meta name='feature:Elections Polls Close Counter' content='{"name":"Elections Polls Close Counter","status":true}'>
+    <meta name='feature:Elections Live Updates' content='{"name":"Elections Live Updates","status":true}'>
+    <meta name='feature:Elections myVote Module' content='{"name":"Elections myVote Module","status":true}'>
+    <meta name='feature:Elections Article Banner' content='{"name":"Elections Article Banner","status":true}'>
+    <meta name='feature:Elections Politics Banner' content='{"name":"Elections Politics Banner","status":false}'>
+    <meta name='feature:Elections Results Dashboard' content='{"name":"Elections Results Dashboard","status":false}'>
+    <meta name='feature:Elections Presidential Race Map' content='{"name":"Elections Presidential Race Map","status":false}'>
+    <meta name='feature:Elections Results Dashboard - All Templates' content='{"name":"Elections Results Dashboard - All Templates","status":false}'>
+    <meta name='feature:Right Rail Video Auto Play Module' content='{"name":"Right Rail Video Auto Play Module","status":false}'>
+    <meta name='feature:Optimizely' content='{"name":"Optimizely","status":true}'>
+    <meta name='feature:Post' content='{"name":"Post","status":false}'>
+    <meta name='feature:Gravity' content='{"name":"Gravity","status":false}'>
+    <meta name='feature:Resonate' content='{"name":"Resonate","status":true}'>
+    <meta name='feature:Keywee' content='{"name":"Keywee","status":true}'>
+    <meta name='feature:Grazers' content='{"name":"Grazers","status":true}'>
+    <meta name='feature:Criteo' content='{"name":"Criteo","status":false}'>
+    <meta name='feature:Auto-Advance' content='{"name":"Auto-Advance","status":true}'>
+    <meta name='feature:Strib150Masthead' content='{"name":"Strib150Masthead","status":false}'>
+    <meta name='feature:segmentation-testing' content='{"name":"segmentation-testing","status":false}'>
+    <meta name='feature:Rubicon Fastlane' content='{"name":"Rubicon Fastlane","status":false}'>
+    <meta name='feature:Index' content='{"name":"Index","status":true}'>
+    <meta name='feature:OpenX' content='{"name":"OpenX","status":false}'>
+    <meta name='feature:Amazon' content='{"name":"Amazon","status":true}'>
+    <meta name='feature:Disable Sports Zone 3' content='{"name":"Disable Sports Zone 3","status":true}'>
+    <meta name='feature:Use Personalization API' content='{"name":"Use Personalization API","status":true}'>
+    <meta name='feature:emma lightbox' content='{"name":"emma lightbox","status":true}'>
+    <meta name='feature:Gtm' content='{"name":"Gtm","status":true}'>
+    <meta name='feature:Server-Side Meter' content='{"name":"Server-Side Meter","status":false}'>
+    <meta name='feature:grazers-zedo-video' content='{"name":"grazers-zedo-video","status":true}'>
+    <meta name='feature:Biddr360' content='{"name":"Biddr360","status":false}'>
+    <meta name='feature:Bounce-X' content='{"name":"Bounce-X","status":true}'>
+    <meta name='feature:Obituaries Always Remembering Pages' content='{"name":"Obituaries Always Remembering Pages","status":true}'>
+    <meta name='feature:Obituaries Always Remembering Draft Preview' content='{"name":"Obituaries Always Remembering Draft Preview","status":true}'>
+    <meta name='feature:Enhanced Obituaries' content='{"name":"Enhanced Obituaries","status":true}'>
+    <meta name='feature:Rubicon' content='{"name":"Rubicon","status":true}'>
+    <meta name='feature:Header Bidding' content='{"name":"Header Bidding","status":true}'>
+    <meta name='feature:Prebid' content='{"name":"Prebid","status":true}'>
+    <meta name='feature:Obituaries Always Remembering Send Test Email' content='{"name":"Obituaries Always Remembering Send Test Email","status":false}'>
+    <meta name='feature:Toggle No Group Test' content='{"name":"Toggle No Group Test","status":false}'>
+    <meta name='feature:Obituaries Viafoura JS V2 Upgrade' content='{"name":"Obituaries Viafoura JS V2 Upgrade","status":true}'>
+    <meta name='feature:Ads Toggle' content='{"name":"Ads Toggle","status":true}'>
+    <meta name='feature:Obituaries Always Remembering Links' content='{"name":"Obituaries Always Remembering Links","status":true}'>
+    <meta name='feature:Example Active' content='{"name":"Example Active","status":true}'>
+    <meta name='feature:Example Inactive' content='{"name":"Example Inactive","status":false}'>
+    <meta name='feature:Analytics' content='{"name":"Analytics","status":true}'>
+    <meta name='feature:CommentCount' content='{"name":"CommentCount","status":true}'>
+    <meta name='feature:Cron Status Pages' content='{"name":"Cron Status Pages","status":true}'>
+    <meta name='feature:Data Layer' content='{"name":"Data Layer","status":true}'>
+    <meta name='feature:CmsApiCache' content='{"name":"CmsApiCache","status":true}'>
+    <meta name='feature:Delay Asset Modified Cache Keys' content='{"name":"Delay Asset Modified Cache Keys","status":true}'>
+    <meta name='feature:Design Standard Signup Modal' content='{"name":"Design Standard Signup Modal","status":false}'>
+    <meta name='feature:Elections Disable Polls Close Counter' content='{"name":"Elections Disable Polls Close Counter","status":false}'>
+    <meta name='feature:Elections Disable Results Dashboard' content='{"name":"Elections Disable Results Dashboard","status":false}'>
+    <meta name='feature:Elections Disable Presidential Race Map' content='{"name":"Elections Disable Presidential Race Map","status":false}'>
+    <meta name='feature:Elections Presidential Race Map - All Templates' content='{"name":"Elections Presidential Race Map - All Templates","status":false}'>
+    <meta name='feature:Product Refresh Cookie' content='{"name":"Product Refresh Cookie","status":false}'>
+    <meta name='feature:Product Refresh Cookie Javascript' content='{"name":"Product Refresh Cookie Javascript","status":true}'>
+    <meta name='feature:Product Refresh Cookie Failure' content='{"name":"Product Refresh Cookie Failure","status":false}'>
+    <meta name='feature:Set Session Cookie' content='{"name":"Set Session Cookie","status":true}'>
+    <meta name='feature:TSN Sports' content='{"name":"TSN Sports","status":true}'>
+    <meta name='feature:Outbrain' content='{"name":"Outbrain","status":false}'>
+    <meta name='feature:Taboola' content='{"name":"Taboola","status":true}'>
+    <meta name='feature:Prediction.IO' content='{"name":"Prediction.IO","status":true}'>
+    <meta name='feature:TipsNavigation' content='{"name":"TipsNavigation","status":false}'>
+    <meta name='feature:RobotsNoIndex' content='{"name":"RobotsNoIndex","status":false}'>
+    <meta name='feature:Disable Homepage Featured Media' content='{"name":"Disable Homepage Featured Media","status":false}'>
+    <meta name='feature:Disable Homepage Featured Media Auto-play' content='{"name":"Disable Homepage Featured Media Auto-play","status":false}'>
+
+<link rel="stylesheet" href="http://www.startribune.com/vendor/css/startribune.css?d=1531162320">
+<script type="text/javascript" src="http://www.startribune.com/vendor/js/shims.js?d=1531162336"></script>
+<script type="text/javascript" src="http://www.startribune.com/vendor/js/bugsnag.js?d=1531162333"></script>
+<script type="text/javascript" src="http://www.startribune.com/vendor/js/startribune.js?d=1531162343"></script>
+              <script type="text/javascript" src="http://assets.startribune.com/static/vendor/jquery/dist/jquery.min.js?d=1531162243"></script>
+    
+    
+    
+    <script type="text/javascript">
+                window.disableAllClicks = false;
+
+        window.segmentation = window.segmentation || {};
+                    window.segmentation.grazers = true;
+            </script>
+
+    
+        <script type="text/javascript">
+
+            // Variables for optimizely
+            window.opt_target = {
+                contentType: 'story',
+                sectionPath: '/local/',
+                minorSection: '/local/',
+                majorSection: '/local/',
+                recommendations: 'enabled'
+            };
+        </script>
+                <script src="//cdn.optimizely.com/js/3104270409.js"></script>
+
+                        <script type="text/javascript">
+            var attempts = 1;
+            var tagDetected = false;
+            var detectTag = setInterval(function () {
+                if (typeof window.stblkck !== 'undefined') {
+                    if (window.stblkck) {
+                        document.cookie = "tagDetected=true; domain=.startribune.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+                        tagDetected = true;
+                        clearInterval(detectTag);
+                        clearTimeout(checkComplete);
+                    }
+                }
+                attempts++;
+                if (attempts >= 15) {
+                    clearInterval(detectTag);
+                }
+            }, 1000);
+            var checkComplete = setTimeout(function () {
+                clearInterval(detectTag);
+                if (!tagDetected) {
+                    document.cookie = "tagDetected=false; domain=.startribune.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+                }
+            }, 15000);
+        </script>
+    
+
+    <script type="text/javascript">
+        function isWelcomeShowing() {
+            var welcomeModuleElement = jQuery('#WelcomeModule');
+            if (welcomeModuleElement.length > 0 && welcomeModuleElement.css('display') === 'block') {
+                return true;
+            }
+            return false;
+        }
+
+        function isPhone() {
+            return /Android|webOS|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        var twigJsDomain = 'www.startribune.com';
+        var assetDomain = 'assets.startribune.com';
+        if (assetDomain != '' && typeof assetDomain == 'string') {
+          twigJsDomain = assetDomain;
+        }
+        twigJsDomain = location.protocol + '//' + twigJsDomain;
+
+        function localStorageAvailable() {
+            try {
+                localStorage.setItem('availability_test', true);
+                localStorage.removeItem('availability_test');
+            } catch (e) {
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+                    <script type="text/javascript">
+            var overlayRes = "";
+
+            function overlayInterstitial(string, leftPosition, creativeWidth, creativeHeight, topPosition, leftPositionButton, Buttonwidth, ButtonHeight) {
+                if (leftPosition == "centeredpx") {  // set left position if centered
+                    var dcw = 0;
+                    if (!window.innerWidth)  //IE
+                        if (!(document.documentElement.clientWidth == 0))dcw = document.documentElement.clientWidth;  //strict mode
+                        else dcw = document.body.clientWidth;  //quirks mode
+                    else dcw = window.innerWidth;  //w3c
+                    leftPosition = (dcw - creativeWidth) / 2 + "px";
+                    leftPositionButton = Number(creativeWidth) + Number((dcw - creativeWidth) / 2) - Number(Buttonwidth);
+                    leftPositionButton = leftPositionButton + "px";
+                }
+                if (topPosition == "centeredpx") {  // set top position if centered
+                    var dch = 0;
+                    if (!window.innerWidth)  //IE
+                        if (!(document.documentElement.clientWidth == 0)) dch = document.documentElement.clientHeight;  //strict mode
+                        else dch = document.body.clientHeight;  //quirks mode
+                    else dch = window.innerHeight;  //w3c
+                    topPosition = (dch - creativeHeight) / 2 + "px";
+                }
+
+                var topPosNum = parseFloat(topPosition.replace('px', ''));
+                var buttonTop = (topPosNum - ButtonHeight);
+                if (buttonTop < 0) {
+                    buttonTop = 0;
+                }
+
+                var res = string.replace(/\**BTOP/g, buttonTop + 'px');
+                res = res.replace(/\**TOP/g, topPosition);
+                res = res.replace(/\**BLEFT/g, leftPositionButton);
+                res = res.replace(/\**LEFT/g, leftPosition);
+                res += '<\/div>';
+
+                window.overlayRes = res;
+
+                $(document).ready(function () {
+                    if (!isPhone() && !isWelcomeShowing()) {
+                        jQuery( '<div>' ).attr( 'id', 'interstitial-overlay' ).html( window.overlayRes ).appendTo( jQuery( 'body' ) );
+                    }
+                });
+            }
+
+            function dclk_hide_overlay() {
+                jQuery( '#interstitial-overlay').empty().css( 'display', 'none' );
+            }
+        </script>
+    
+    <title>Meet the Minnesota lawyer taking on the senior-care industry - StarTribune.com</title>
+    <meta name="google-site-verification" content="bLXTXkzm4dJ8hcJy1LXawtxXxGP3JhInARj69uCiMiM" />
+                
+    <link rel="apple-touch-icon" href="http://www.startribune.com/img/touch-icon-iphone-retina.png?d=1531162243">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="http://www.startribune.com/img/touch-icon-ipad.png?d=1531162243">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="http://www.startribune.com/img/touch-icon-iphone-retina.png?d=1531162243">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="http://www.startribune.com/img/touch-icon-ipad-retina.png?d=1531162243">
+
+                        <link rel="canonical" href="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" />
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" />
+            
+              <meta itemprop="name" content="Meet the Minnesota lawyer taking on the senior-care industry" /><!-- g+ -->
+    <meta name="description" content="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation’s most feared elder abuse litigators." />
+    <meta itemprop="description" content="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation’s most feared elder abuse litigators." /><!-- g+ -->
+            <meta name="news_keywords" content="Mark Kosieradzki, Elder abuse, senior care, nursing homes, Minnesota, assisted living, sexual assault, rape, Minnesota Department of Health, senior homes, assault, theft, robbery" />
+                    <meta name="article:tag" content="Mark Kosieradzki" />
+                    <meta name="article:tag" content=" Elder abuse" />
+                    <meta name="article:tag" content=" senior care" />
+                    <meta name="article:tag" content=" nursing homes" />
+                    <meta name="article:tag" content=" Minnesota" />
+                    <meta name="article:tag" content=" assisted living" />
+                    <meta name="article:tag" content=" sexual assault" />
+                    <meta name="article:tag" content=" rape" />
+                    <meta name="article:tag" content=" Minnesota Department of Health" />
+                    <meta name="article:tag" content=" senior homes" />
+                    <meta name="article:tag" content=" assault" />
+                    <meta name="article:tag" content=" theft" />
+                    <meta name="article:tag" content=" robbery" />
+                                    <meta itemprop="image" content="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg?h=630&amp;w=1200&amp;fit=crop&amp;bg=999&amp;crop=faces"><!-- g+ -->
+            
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <meta property="og:site_name" content="Star Tribune" />
+
+                    <meta property="og:type" content="article" />
+        <meta property="og:title" content="Meet the Minnesota lawyer taking on the senior-care industry" /><!-- fb, linkedin, pinterest -->
+        <meta property="og:description" content="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation’s most feared elder abuse litigators." /><!-- fb, linkedin, pinterest -->
+                    <meta property="og:url" content="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" />
+                                            <meta property="og:image" content="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg?h=630&amp;w=1200&amp;fit=crop&amp;bg=999&amp;crop=faces" /><!-- fb, linkedin, pinterest -->
+                <meta property="og:image:url" content="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg?h=630&amp;w=1200&amp;fit=crop&amp;bg=999&amp;crop=faces" /><!-- fb, linkedin, pinterest -->
+                <meta property="og:image:width" content="1200" /><!-- fb, linkedin, pinterest -->
+                <meta property="og:image:height" content="630" /><!-- fb, linkedin, pinterest -->
+                        
+        <meta name="twitter:site" content="@StarTribune" />
+        <meta name="twitter:card" content="summary_large_image">
+
+            <meta name="twitter:title" content="Meet the Minnesota lawyer taking on the senior-care industry" /><!-- twitter -->
+    <meta name="twitter:description" content="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation’s most feared elder abuse litigators." /><!-- twitter -->
+                <meta name="twitter:url" content="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" /><!-- twitter -->
+                            <meta name="twitter:image" content="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg?h=630&amp;w=1200&amp;fit=crop&amp;bg=999&amp;crop=faces"><!-- twitter -->
+            <meta name="twitter:image:src" content="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg?h=630&amp;w=1200&amp;fit=crop&amp;bg=999&amp;crop=faces"><!-- twitter -->
+            
+                  <meta property="fb:pages" content="42739463017" />
+          <meta property="fb:pages" content="57441959950" />
+          <meta property="fb:pages" content="37038662909" />
+          <meta property="fb:pages" content="140536902040" />
+          <meta property="fb:pages" content="227191347864" />
+          <meta property="fb:pages" content="54374033570" />
+          <meta property="fb:pages" content="49573759647" />
+        
+        
+            <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","url":"http:\/\/www.startribune.com\/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry\/450626193\/","author":{"@type":"Person","name":"Chris Serres"},"headline":"Meet the Minnesota lawyer taking on the senior-care industry","datePublished":"2017-11-14T21:26:23.277Z","dateModified":"2017-11-15T01:36:00.000Z","mainEntityOfPage":"http:\/\/www.startribune.com\/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry\/450626193\/","image":{"@type":"ImageObject","url":"http:\/\/stmedia.stimg.co\/elder_day4sidebar_coverb.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces","width":1200,"height":630},"publisher":{"@type":"Organization","name":"Star Tribune","logo":{"@type":"ImageObject","url":"http:\/\/di.stimg.co\/st-share-logo-star.png"}}}</script>
+        <script type="text/javascript">
+    if( typeof window.console === 'undefined' ) {
+      var noOp = function() {};    // no-op function
+      console = {
+        log: noOp,
+        warn: noOp,
+        info: noOp,
+        error: noOp,
+        debug: noOp
+      };
+    }
+
+    reloadTimerActive = true;
+    var FeatureAPI_JS_TipsNavigation = false;
+      </script>
+            <link rel="stylesheet" href="http://assets.startribune.com/static/css/screen.css?d=1531162329" />
+      <link rel="shortcut icon" href="https://www.startribune.com/favicon.ico" type="image/x-icon" />
+  <link rel="mask-icon" href="http://www.startribune.com/vector-icon.svg?d=1531162243" color="#5bbad5">
+    <script type="text/javascript" src="http://assets.startribune.com/static/min/header.min.js?d=1531162324"></script>
+  <script type="text/javascript" src="http://www.startribune.com/analytics-assets/sitecatalyst/AppMeasurement.js?d=1531162243"></script>
+  
+  <script type="text/javascript" src="http://www.startribune.com/analytics-assets/visit-day-count.js?d=1531162243"></script>
+  <script type="text/javascript" src="http://www.startribune.com/analytics-assets/30-day-visits.js?d=1531162243"></script>
+  <script type="text/javascript" src="http://www.startribune.com/analytics-assets/detect-private-browsing.js?d=1531162243"></script>
+
+  
+  
+
+  <script type="text/javascript">
+      //
+      // If user is already logged in to member center but not here, get their info from SAML
+      //
+      if( jQuery.cookie( 'st_usr_plat' ) && !jQuery.cookie( 'st_usr_name' ) && !jQuery.cookie( 'login_attempt_strib' ) ) {
+          jQuery.cookie( 'login_attempt_strib', true );
+          window.location.href = '/login?path=' + encodeURIComponent( document.location );
+      }
+      var isHome = false;
+  </script>
+
+              <script type="text/javascript" data-placement="1"
+                               data-environment="3">
+    var rSkunkConfig = {"enforcement":true,"countViews":{"guests":true,"loggedIn":true,"subscribers":true},"unmetered":{"sectionPaths":["\/bios","\/contactus","\/help","\/offers","\/lifestyle\/kids-health","\/video","\/employees\/benefits","\/obituaries","\/jobs\/topworkplaces"],"contentIds":["482552141","476040393","476040393","401897905","425373843","415781003","150460817983","415693713","436316953","450623913","450625343","450625693","450626083","450626583","437687453","437687753","437688303","437689683","457733433","457733503","457733463","457733493","436740613","447378683","445108753","443065933","443995433","444238433","423913703","25373843","458348643","465767963","465254943","464643883","461549583","458022893","457739213","467925683","462160283","461536853","459432053","458940033","453678863","452142423","450626813","450626193","450626083","450625443","450624983","449833993","447193403","446218753","443287373","442502253","441039553","434692633","433894613","432007273","427690133","425990133","421479323","420760943","420536403","419496503","419098944","415888474","415824304","415816963","415401364","412715643","411587345","388264102","378131721","334111481","268952601","257505631","218991591","227829611","231193891","115289839","296766441","296743831","217991401","137705393","11603211","241138711","11601086","238868691","216063751","137104018",""],"referrers":{"regex":"","exclude":false},"userAgent":"strib-mobile-app-webview"},"storageKey":"rskunk_platypus","baseURL":"https:\/\/users.startribune.com","embedURL":"https:\/\/users.startribune.com\/embed\/mainapp.build.js?c=1f3e8771a8728689ef83b877c7a92d86fd23f957","embedAssets":["https:\/\/users.startribune.com\/embed\/third-party\/growl.css","https:\/\/users.startribune.com\/embed\/third-party\/colorbox.css"],"placementName":"www.startribune.com","loginRedirect":"https:\/\/www.startribune.com\/login?passive=true&path=","logoutRedirect":"https:\/\/www.startribune.com\/logout?path=","dataExpiration":{"type":"thirtyDays","month":1,"day":1,"hour":0,"min":0,"sec":0},"topTier":{"id":"pda-pricing-test-nodisclaimer","count":34},"tiers":[{"id":"pda-pricing-test-nodisclaimer","count":34,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-pricing-test-nodisclaimer\/start"},{"id":"pda_shortdis_subinfo","count":33,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda_shortdis_subinfo\/start"},{"id":"pda_longdis_subinfo","count":32,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda_longdis_subinfo\/start"},{"id":"PDA991499opt","count":31,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/PDA991499opt\/start"},{"id":"pda-15nopaypal","count":30,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-15nopaypal\/start"},{"id":"pdalimit","count":29,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pdalimit\/start"},{"id":"pda-30dayfree","count":28,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-30dayfree\/start"},{"id":"pda-20-per-mo","count":27,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-20-per-mo\/start"},{"id":"pda-15-per-mo","count":26,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-15-per-mo\/start"},{"id":"pda-10-per-mo","count":25,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-10-per-mo\/start"},{"id":"pda-direct","count":20,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda-direct\/start"},{"id":"pda","count":15,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/pda\/start"},{"id":"limit-signup-optimizely","count":13,"action":"ignore","mute":true,"action_config":{"template":"{% extends \"grid\" %}\r\n \r\n{% block heading_text %}You\u2019ve read your free articles for this 30 day period. Sign up now for local coverage you won\u2019t find anywhere else, special sections and your favorite columnists. StarTribune puts Minnesota and the world right at your fingertips. {% endblock %}\r\n \r\n{% block last %}\r\n{{ parent() }}\r\n{# limit Krux pixel from https:\/\/www.squishlist.com\/strib\/customshop\/328\/ #}\r\n<img class=\"tracking-pixel\" src='http:\/\/beacon.krxd.net\/event.gif?event_id=JoaezWux&event_type=rtg' width=0 height=0 \/>\r\n<script>\r\n\/\/Load jQuery library using plain JavaScript\r\n(function(){\r\n  var newscript = document.createElement('script');\r\n     newscript.type = 'text\/javascript';\r\n     newscript.async = true;\r\n     newscript.src = 'https:\/\/code.jquery.com\/jquery-3.1.0.min.js';\r\n  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);\r\nvar newscript2 = document.createElement('script');\r\n     newscript2.type = 'text\/javascript';\r\n     newscript2.async = true;\r\n     newscript2.src = 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/js-cookie\/2.1.3\/js.cookie.min.js';\r\n  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript2);\r\n})();\r\n\/********TEST CODE for METER SNOW PLOW ANALYTiCS*******************\/\r\nvar meter = {};\r\n$(document).ready(function(){\r\n    \/\/ console.log(\"this loads well\");\r\n    $('.js-optimizely-click-goal').click(function(){\r\n        \/\/ console.log(this);\r\n  meter['type'] = $(\"input[name='offer']\").val();\r\n  if(meter['type'] = 131){meter['type'] = \"Premium Digital Access\";}\r\n  else if(meter['type'] = 130){meter['type'] = \"Sunday Print + Digital\";}\r\n  else if(meter['type'] = 129){meter['type'] = \"7-Day Print + Digital\";}\r\n  else if(meter['type'] = 128){meter['type'] = \"Sunday Print\";}\r\n  meter['date'] = new Date().toLocaleString();\r\n  \/\/ console.log(meter['type']);\r\n  \/\/ console.log(meter['date']);\r\n  var json_meter_cookie = JSON.stringify(meter);\r\n  Cookies.set('meter_sign_up', json_meter_cookie); \r\n \r\n  });\r\n});\r\n\/************************************************************************\/\r\n  \/\/ FACEBOOK TRACKING PIXEL #1\r\n    !function(f,b,e,v,n,t,s)\r\n    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\r\n    n.callMethod.apply(n,arguments):n.queue.push(arguments)};\r\n    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\r\n    n.queue=[];t=b.createElement(e);t.async=!0;\r\n    t.src=v;s=b.getElementsByTagName(e)[0];\r\n    s.parentNode.insertBefore(t,s)}(window,document,'script',\r\n    'https:\/\/connect.facebook.net\/en_US\/fbevents.js');\r\n    fbq('init', '590074241155998'); \r\n    fbq('track', 'ViewContent');\r\n \r\n<\/script>\r\n{% endblock %}"},"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/limit-signup-optimizely\/start"},{"id":"limit-signup","count":12,"action":"ignore","mute":true,"action_config":{"template":"{% extends \"grid\" %}\r\n\r\n{% block heading_text %}You\u2019ve read your 10 free articles for this 30 day period. Sign up now for local coverage you won\u2019t find anywhere else, special sections and your favorite columnists. StarTribune puts Minnesota and the world right at your fingertips. {% endblock %}\r\n\r\n{% block last %}\r\n{{ parent() }}\r\n{# limit Krux pixel from https:\/\/www.squishlist.com\/strib\/customshop\/328\/ #}\r\n<img class=\"tracking-pixel\" src='http:\/\/beacon.krxd.net\/event.gif?event_id=JoaezWux&event_type=rtg' width=0 height=0 \/>\r\n<script>\r\n\/\/Load jQuery library using plain JavaScript\r\n(function(){\r\n  var newscript = document.createElement('script');\r\n     newscript.type = 'text\/javascript';\r\n     newscript.async = true;\r\n     newscript.src = 'https:\/\/code.jquery.com\/jquery-3.1.0.min.js';\r\n  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);\r\nvar newscript2 = document.createElement('script');\r\n     newscript2.type = 'text\/javascript';\r\n     newscript2.async = true;\r\n     newscript2.src = 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/js-cookie\/2.1.3\/js.cookie.min.js';\r\n  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript2);\r\n})();\r\n\/********TEST CODE for METER SNOW PLOW ANALYTiCS*******************\/\r\nvar meter = {};\r\n$(document).ready(function(){\r\n    \/\/ console.log(\"this loads well\");\r\n    $('.js-optimizely-click-goal').click(function(){\r\n        \/\/ console.log(this);\r\n  meter['type'] = $(\"input[name='offer']\").val();\r\n  if(meter['type'] = 131){meter['type'] = \"Premium Digital Access\";}\r\n  else if(meter['type'] = 130){meter['type'] = \"Sunday Print + Digital\";}\r\n  else if(meter['type'] = 129){meter['type'] = \"7-Day Print + Digital\";}\r\n  else if(meter['type'] = 128){meter['type'] = \"Sunday Print\";}\r\n  meter['date'] = new Date().toLocaleString();\r\n  \/\/ console.log(meter['type']);\r\n  \/\/ console.log(meter['date']);\r\n  var json_meter_cookie = JSON.stringify(meter);\r\n  Cookies.set('meter_sign_up', json_meter_cookie); \r\n\r\n  });\r\n});\r\n\/************************************************************************\/\r\n  \/\/ FACEBOOK TRACKING PIXEL #1\r\n    !function(f,b,e,v,n,t,s)\r\n    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\r\n    n.callMethod.apply(n,arguments):n.queue.push(arguments)};\r\n    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\r\n    n.queue=[];t=b.createElement(e);t.async=!0;\r\n    t.src=v;s=b.getElementsByTagName(e)[0];\r\n    s.parentNode.insertBefore(t,s)}(window,document,'script',\r\n    'https:\/\/connect.facebook.net\/en_US\/fbevents.js');\r\n    fbq('init', '590074241155998'); \r\n    fbq('track', 'ViewContent');\r\n\r\n<\/script>\r\n{% endblock %}"},"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/limit-signup\/start"},{"id":"limit","count":8,"action":"inject","mute":false,"action_config":{"template":"<style type=\"text\/css\">\r\n.o-overlay,\r\n.o-overlay * {\r\n  display: block;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.o-overlay {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  font-size:14px;\r\n  background: rgba(0, 0, 0, 0.8);\r\n  z-index: 999999;\r\n  opacity:1;\r\n  transition:all .01s;\r\n}\r\n.o-overlay h1 {\r\n    font-family:popular-bold, 'Popular';\r\n  font-size:28px;\r\n}\r\n\r\n.o-modal {\r\n  width: 100%;\r\n  max-height: 100vh;\r\n  overflow: auto;\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 0;\r\n  -webkit-transform: translateY(-50%);\r\n          transform: translateY(-50%);\r\n}\r\n.o-modal-middle {\r\n  padding:5px 5px;\r\n  position:relative;\r\n  background:#F6E463;\r\n  text-align:center;\r\n  border-top:1px solid rgb(246, 228, 99);\r\n  -webkit-box-shadow:0px 0px 0px rgba(0,0,0,0);\r\n  box-shadow:0px 0px 0px rgba(0,0,0,0);\r\n}\r\n.o-modal-inner {\r\n  background: #ffffff;\r\n  margin: 0 auto;\r\n  width: 100%;\r\n  max-width: 600px;\r\n  position: relative;\r\n}\r\n\r\n.o-button {\r\n  display: inline-block;\r\n  font: bold 18px\/1 Whitney, sans-serif;\r\n  margin: 0;\r\n  padding: 0;\r\n  border: none;\r\n  text-decoration: none;\r\n  color: #fff;\r\n  background: #00824A;\r\n  padding: 15px 20px;\r\n  border-radius: 4px;\r\n  border: 2px solid rgba(0, 0, 0, 0.1);\r\n  -webkit-transition: all .1s;\r\n  transition: all .1s;\r\n  cursor: pointer;\r\n  text-shadow: 0 1px rgba(0, 0, 0, 0.2);\r\n}\r\n.o-button:hover {\r\n  text-decoration: none;\r\n  color: #fff;\r\n  border-color: transparent;\r\n  background: #00824A;\r\n  opacity:0.9;\r\n}\r\n.o-cta {\r\n\tfont:bold 38px\/1 Whitney, sans-serif;\r\n\tcolor:#00824A;\r\n\tpadding:5px 0px;\r\n\tdisplay:block;\r\n\ttext-align:center;\r\n\toverflow:hidden;\r\n\tcursor:default\r\n}\r\n.o-block {\r\n  text-align: center;\r\n  font-family:'Whitney',sans-serif;\r\n}\r\n.o-block img {\r\n  width: 150px;\r\n  height: auto;\r\n  display: block;\r\n  margin: 0 auto 10px;\r\n}\r\n.o-block .text-left {\r\n  text-align:left;\r\n}\r\n.o-block.pad {\r\n  padding: 10px;\r\n}\r\n.o-block.pad-top {\r\n  padding-top: 30px;\r\n}\r\n.o-block.pad-right {\r\n  padding-right: 30px;\r\n}\r\n.o-block.pad-bottom {\r\n  padding-bottom: 30px;\r\n}\r\n.o-block.pad-left {\r\n  padding-left: 30px;\r\n}\r\n.o-block.shadow-out {\r\n  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0);\r\n}\r\n.o-block.shadow-in {\r\n  box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0);\r\n}\r\n\r\n.o-small {\r\n  color: #010101;\r\n  font: italic normal 13px\/1 Whitney, sans-serif;\r\n  margin: 10px 0;\r\n}\r\n.o-small:first-child {\r\n  margin-top: 0;\r\n}\r\n.o-small:last-child {\r\n  margin-bottom: 0;\r\n}\r\n.o-small.left {\r\n  text-align: left;\r\n}\r\n\r\n.o-small a {\r\n  display: inline-block;\r\n  color: inherit;\r\n  text-decoration: underline;\r\n}\r\n.o-small a:hover {\r\n  color: black;\r\n  text-decoration: underline;\r\n}\r\n\r\n.o-bg-green {\r\n  background:#86cff2;\r\n  color:#ffffff;\r\n}\r\n\r\n.o-info {\r\n    display:inline-block;\r\n    position:absolute;\r\n    bottom:20px;\r\n    right:20px;\r\n    overflow:visible;\r\n    z-index:1;\r\n}\r\n.o-info:hover {\r\n    padding-left:2em;\r\n    padding-top:2em;\r\n}\r\n.o-info:hover div {\r\n    display:block;\r\n}\r\n.o-info button {\r\n    width:1.5em;\r\n    height:1.5em;\r\n    border-radius:100%;\r\n    font-weight:bold;\r\n    line-height:1.5em;\r\n    padding:0;\r\n    margin:0;\r\n    border:0;\r\n    text-align:center;\r\n    font-size:1em;\r\n  \tbackground:#F6E463;\r\n}\r\n.o-info div {\r\n    background:#F5F5F5;\r\n    position:absolute;\r\n    right:1.5em;\r\n    bottom:1.5em;\r\n    box-shadow:0 0 10px rgba(0,0,0,.5);\r\n    padding:20px;\r\n    font-size:12px;\r\n    line-height:1.3;\r\n    display:none;\r\n    width:300px;\r\n    border-radius:7px 7px 0 7px\r\n}\r\n.o-info div a {\r\n    text-decoration:underline;\r\n    color:#005776;\r\n}\r\n      }\r\n<\/style>\r\n\r\n<script>\r\n\t$('body, html').css('overflow', 'hidden');\r\n<\/script>\r\n\r\n<div id=\"fly-in\" class=\"o-overlay\">\r\n    <div class=\"o-modal\">\r\n      <div class=\"o-modal-inner\">\r\n        <img src=\"http:\/\/stmedia.startribune.com\/images\/Spring+Meter+Creative+bee.png\">\r\n          <div class=\"o-modal-middle\"> <label class=\"o-cta\">Premium Digital Access <br> starting at 99\u00a2<\/label> <\/div>\r\n          \t<div class=\"o-block pad shadow-out\">\r\n                <a href=\"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/PDA991499opt\/start?offer=331\" class=\"o-button\">SUBSCRIBE<\/a>\r\n                <span class=\"o-small\">Already a subscriber? <a href=\"https:\/\/www.startribune.com\/login\">Log in<\/a>.<\/span>\r\n                <div class=\"o-info\">\r\n                    <div>All Star Tribune readers without a Digital Access subscription are given a limited number of complimentary articles every 30 days. Once the article limit is reached we ask readers to purchase a subscription including Digital Access to continue reading. Digital Access is included in all multi-day paper home delivery, Sunday + Digital, and Premium Digital Access subscriptions.  After the 1 month Premium Digital Access introductory period you will be charged at a rate of $14.99 per month. You can see all subscription options or login to an existing subscription <a href=\"http:\/\/www.startribune.com\/signup\">here<\/a>\r\n                    <\/div>\r\n                    <button>?<\/button>\r\n                <\/div>\r\n            <\/div>\r\n        <\/div>\r\n    <\/div>\r\n<\/div>\r\n"},"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/limit\/start"},{"id":"nag","count":7,"action":"lightbox","mute":true,"action_config":{"height":"","width":"630px","redirect_on_close":"","template":"{% extends \"shell\" %}\r\n\r\n{% block substyles %}\r\n<style type=\"text\/css\">\r\n    .nag {\r\n        padding:0;\r\n    }\r\n    .nag-inner {\r\n        padding:0 20px 50px;\r\n    }\r\n    .nag img {\r\n        width:auto;\r\n        margin:0 auto;\r\n    }\r\n    .nag h1 {\r\n        margin-top:-20px;\r\n        text-transform:uppercase;\r\n        color:#61bf1a;\r\n        text-align:center;\r\n        font:normal 26px\/1 'Popular bold', serif;\r\n    }\r\n    .nag h2 {\r\n        font:bold 28px\/1 'Benton Sans', sans-serif;\r\n        font-style:italic;\r\n        text-align:center;\r\n    }\r\n    .nag-status {\r\n        text-align:left;\r\n        background:#f5f5f5 url(\"{{ static_url('img-icon-warning.png') }}\") 12px 10px no-repeat;\r\n        padding:12px 35px 10px;\r\n        margin-bottom:65px;\r\n    }\r\n    .nag-status p {\r\n        display:inline-block;\r\n        margin-bottom:0;\r\n        font:normal 14px\/1 'Benton Sans', sans-serif;\r\n        font-style:italic;\r\n    }\r\n    .nag-status p:first-child {\r\n        color:#ff8200;\r\n        font-weight:bold;\r\n    }\r\n    .nag-status p:last-child {\r\n        color:#ccc;\r\n        float:right;\r\n    }\r\n    .nag-status .btn-link {\r\n        color:#61bf1a;\r\n    }\r\n    .nag-divider {\r\n        border-top:1px solid #e7e7e7;\r\n        text-align:center;\r\n        width:100%;\r\n        max-width:500px;\r\n        margin:40px auto 20px;\r\n    }\r\n    .nag-logo {\r\n        display:inline-block;\r\n        background:#fff;\r\n        padding:10px;\r\n        margin-top:-24px;\r\n    }\r\n    .nag-btn {\r\n        display:block;\r\n        font-size:24px;\r\n        padding:20px;\r\n        border-radius:5px;\r\n        margin:20px auto 0;\r\n    }\r\n    .log-in {\r\n        margin:-40px auto 30px;\r\n        max-width:400px;\r\n    }\r\n<\/style>\r\n{% endblock %}\r\n\r\n{% block page %}\r\n{#\r\n\r\n{{ limit - count - 1 }}\r\n\r\n{{ form.flow_form_open({nextAction: 'firstSlide'}, null, null, '_top') }}\r\n    {{ form.btn('Save Now') }}\r\n{{ form.flow_form_close() }}\r\n\r\n<div class=\"log-in hide\">\r\n    {{ form.get_general_error_messages(['authenticate']) }}\r\n    {{ form.flow_form_open({nextAction: 'login'}, ['authenticate'], 'login-form', '_top') }}\r\n        <div id=\"login-forms-errors\"><\/div>\r\n        {{ form.login }}\r\n    {{ form.flow_form_close() }}\r\n<\/div>\r\n\r\n<button class=\"btn-link js-end-flow btn-inline-baseline\"{% if tripper %} data-return-to=\"{{ tripper }}\"{% endif %}>Keep reading <\/button>\r\n\u2022 <button class=\"btn-link log-in-toggle\">Log in<\/button>\r\n\r\n<img src=\"{{ static_url('img-logo-startribune.png') }}\"\/>\r\n\r\n#}\r\n<div class=\"mtr nag\">\r\n    <div class=\"nag-status\">\r\n        <p>You have {{ limit - count - 1 }} articles left<\/p>\r\n        <p>\r\n            <button class=\"btn-link js-end-flow btn-inline-baseline\"{% if tripper %} data-return-to=\"{{ tripper }}\"{% endif %}>Keep reading<\/button>\r\n            \u00a0\u00a0\u2022\u00a0\u00a0\r\n            <button class=\"btn-link log-in-toggle\">Log in<\/button>\r\n        <\/p>\r\n    <\/div>\r\n    <div class=\"nag-inner\">\r\n        <div class=\"log-in hide\">\r\n            {{ form.get_general_error_messages(['authenticate']) }}\r\n            {{ form.flow_form_open({nextAction: 'login'}, ['authenticate'], 'login-form', '_top') }}\r\n                <div id=\"login-forms-errors\"><\/div>\r\n                {{ form.login }}\r\n            {{ form.flow_form_close() }}\r\n        <\/div>\r\n        <img src=\"{{ static_url('img-txt-savemoretoday.gif') }}\" alt=\"Save More Today\">\r\n        <h1>Over 70% off!<\/h1>\r\n        <div class=\"nag-divider\">\r\n            <div class=\"nag-logo\">\r\n                <img src=\"{{ static_url('img-logo-st-sm-grey.gif') }}\" alt=\"Star Tribune\">\r\n            <\/div>\r\n        <\/div>\r\n        <h2>99\u00a2 for first 4 weeks<\/h2>\r\n        {{ form.flow_form_open({nextAction: 'firstSlide'}, null, null, '_top') }}\r\n            {{ form.button('Save Now', 'btn nag-btn') }}\r\n        {{ form.flow_form_close() }}\r\n    <\/div>\r\n<\/div>\r\n{% endblock %}\r\n\r\n{% block last %}\r\n{{ parent() }}\r\n<script type=\"text\/javascript\">\r\n    $('.log-in-toggle').click(function(){\r\n        $('.log-in').toggle();\r\n        $('#login_email_address').focus();\r\n        mtr_utils.resize();\r\n    });\r\n    $(document).ready(function(){\r\n        setInterval(function(){\r\n            mtr_utils.resize();\r\n        }, 5000);\r\n    });\r\n<\/script>\r\n{% endblock %}"},"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/nag\/start"},{"id":"x","count":4,"action":"ignore","mute":true,"action_config":false,"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/x\/start"},{"id":"multi-start","count":3,"action":"fly_in","mute":true,"action_config":{"location":"bottom_left","slide_direction":"bottom","group_id":"","display_delay":"0","collapse_delay":"10","template":"<style type=\"text\/css\">\r\n.fly-in-group,\r\n.fly-in-group *,\r\n.fly-in-group *:before,\r\n.fly-in-group *:after {\r\n    box-sizing:border-box;\r\n    -moz-box-sizing:border-box;\r\n    -webkit-box-sizing:border-box;\r\n    box-sizing:border-box;\r\n    -webkit-text-size-adjust:none;\r\n    margin:0;\r\n    padding:0;\r\n}\r\n.fly-in-group {\r\n    position:relative;\r\n    width:300px;\r\n    background:#484848;\r\n    box-shadow:0 0 10px rgba(0,0,0,.3);\r\n}\r\n.fly-in-header {\r\n    width:300px;\r\n    height:70px;\r\n}\r\n.fly-in-collapse {\r\n    background:#333333 url(\"https:\/\/users.startribune.com\/static\/flow_group\/14\/slide\/1531\/1624710778\/img-nag-savemoretoday.gif\") center center no-repeat;\r\n    width:300px;\r\n    height:70px;\r\n    cursor:pointer;\r\n}\r\n.fly-in-close {\r\n    position:absolute;\r\n    top:0;\r\n    right:0;\r\n    height:20px;\r\n    width:20px;\r\n    display:block;\r\n    color:#FFF;\r\n    font-size:20px;\r\n    line-height:1;\r\n    text-decoration:none;\r\n    cursor:pointer;\r\n    text-align:center;\r\n}\r\n.fly-in-close:hover {\r\n    color:#E0E0E0;\r\n}\r\n.fly-in-body {\r\n    text-align:center;\r\n}\r\n.fly-in-body p {\r\n    color:white;\r\n    font:bold 14px\/1 'Benton Sans', sans-serif;\r\n    text-transform:uppercase;\r\n    margin:30px 0 7px 0;\r\n    text-align:center;\r\n    font-style:italic;\r\n}\r\n.fly-in-body h2 {\r\n    color:#fff;\r\n    font:bold 25px\/1 'Benton Sans', sans-serif;\r\n    text-align:center;\r\n    font-style:italic;\r\n}\r\n.fly-in-body h2 span {\r\n    color: #A4A4A4;\r\n    text-decoration:line-through;\r\n}\r\n.fly-in-start-btn {\r\n  color:white;\r\n  background:#61bf1a;\r\n  font-family:\"Benton Sans\",Helvetica,Arial,sans-serif;\r\n  font-weight:bold;\r\n  line-height:1;\r\n  text-decoration:none;\r\n  text-transform:uppercase;\r\n  border:none;\r\n  -webkit-appearance:none;\r\n  cursor:pointer;\r\n  padding:15px 0 12px;\r\n  display:block;\r\n  margin:10px auto 30px;\r\n  width:130px;\r\n  border-radius:5px;\r\n  font-size:16px;\r\n}\r\n.fly-in-footer {\r\n    background:#333 url(\"https:\/\/users.startribune.com\/static\/flow_group\/14\/slide\/1533\/2757847127\/img-logo-st-sm-darkgrey.png\") center center no-repeat;\r\n    height:35px;\r\n}\r\n<\/style>\r\n<div id=\"fly-in\" class=\"fly-in-group\">\r\n    <div class=\"fly-in-header\">\r\n        <div class=\"fly-in-collapse\"><\/div>\r\n        <a class=\"fly-in-close\">\u00d7<\/a>\r\n    <\/div>\r\n    <div class=\"fly-in-body\">\r\n        <p>From just<\/p>\r\n        <h2><span>$3.79<\/span> 99\u00a2 a week<\/h2>\r\n        <a href=\"{{ start }}\" class=\"fly-in-start-btn\">Save now<\/a>\r\n        <div class=\"fly-in-footer\"><\/div>\r\n    <\/div>\r\n<\/div>"},"start":"https:\/\/users.startribune.com\/placement\/1\/environment\/3\/multi-start\/start"}]};
+</script>
+
+
+        <script type="text/javascript">
+        var meteredElement = {
+            "contentID": "450626193",
+            "meteredContent": true,
+            "sectionPath": "/local",
+            "user_state": "guest",
+            "products": null
+        };
+        function rskunkCookieMonster(k) {
+            return(r=RegExp('(^|; )'+encodeURIComponent(k)+'=([^;]*)').exec(document.cookie))?r[2]:null;
+        }
+        if(null !== rskunkCookieMonster('st_usr_name')) meteredElement.user_state = "logged_in";
+        if(null !== rskunkCookieMonster('st_usr_products')) meteredElement.products = JSON.parse(unescape(rskunkCookieMonster('st_usr_products')));
+
+        if( typeof optimizelyMeterOverrides == 'object' ) {
+            jQuery.extend( true, rSkunkConfig, optimizelyMeterOverrides );
+        }
+
+        rsInit = function( rs ) {
+            var exemptReferrers = (typeof window.opt_meter_exempt_referrers != 'undefined') ? window.opt_meter_exempt_referrers : [];
+                        rs.calculate( rSkunkConfig, meteredElement, function() {
+                if ( exemptReferrers.indexOf('newsletters') > -1 && window.location.search.match('ref=nl') !== null) {
+                    return;
+                }
+
+                for (ref in exemptReferrers) {
+                    if (document.referrer.match(ref) !== null) {
+                        return;
+                    }
+                }
+
+                rs.enforce(function(count) {
+                                    });
+
+            });
+        }
+    </script>
+
+
+<script type="text/javascript" src="https://users.startribune.com/embed/mainapp.build.js?c=1f3e8771a8728689ef83b877c7a92d86fd23f957"></script>
+    <link rel="stylesheet" href="https://users.startribune.com/embed/third-party/growl.css">
+    <link rel="stylesheet" href="https://users.startribune.com/embed/third-party/colorbox.css">
+                
+          <script type="text/javascript" src="http://assets.startribune.com/static/js/st.welcome.js?d=1531162243"></script>
+    
+    
+            <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-KWTSNPP');</script>
+      <!-- End Google Tag Manager -->
+    
+  
+    <script src="http://assets.startribune.com/static/js/ads/article.js?d=1531162243"></script>
+                      
+  
+                        <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                                        article: 'auto'
+                                    });
+                !function (e, f, u) {
+                    e.async = 1;
+                    e.src = u;
+                    f.parentNode.insertBefore(e, f);
+                }(document.createElement('script'),
+                    document.getElementsByTagName('script')[0],
+                    'http://cdn.taboola.com/libtrc/startribune/loader.js');
+            </script>
+            <script>
+                window._newsroom = window._newsroom || [];
+                !function (e, f, u) {
+                    e.async = 1;
+                    e.src = u;
+                    f.parentNode.insertBefore(e, f);
+                }(document.createElement('script'),
+                    document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/startribune/newsroom.js');
+            </script>
+            
+
+
+  <script type="text/javascript" src="http://static.startribune.com/assets/news/elders/script.js?d=2018071014"></script>
+
+  <noscript>
+    <style>
+      #project-body{visibility:visible;}
+    </style>
+  </noscript>
+        <link rel="stylesheet" href="http://assets.startribune.com/static/vendor/swiper/dist/idangerous.swiper.css?d=1531162243">
+    <link rel="stylesheet" href="http://assets.startribune.com/static/vendor/magnific-popup/dist/magnific-popup.css?d=1531162243">
+
+  <link rel="stylesheet" href="http://assets.startribune.com/static/css/vendor/news/article-project-nav.css?d=1531162324">
+  <link rel="stylesheet" href="http://assets.startribune.com/static/css/vendor/news/project-globals.css?d=1531162330">
+    <link rel="stylesheet" href="http://static.startribune.com/assets/news/elders/style.css?d=2018071014">
+
+      <script type="text/javascript">
+        var st_page_obj = {"story_id":"450626193","title":"Meet the Minnesota lawyer taking on the senior-care industry","primary_section_path":"\/local"};
+    </script>
+
+    <script type="text/javascript">
+        var omnitureVersion = '/JS-2.9.0/';
+    </script>
+</head>
+<body class=" storyid450626193 page-article">
+
+            <div id="WelcomeModule" class="welcome-overlay" style="display:none;">
+            <div class="welcome-bucket" data-linkname="Welcome-Display" data-linktype="Welcome-Display" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-0-module">
+    <div class="welcome-content">
+        <a href="http://www.startribune.com/snapshots//305465991/?photo=487690571" data-linkname="welcome-photo-main" data-linktype="PhotoWelcome" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-0-photo" class="welcome-photo"><img src="http://stmedia.stimg.co/Gallery007.JPG?w=970" alt="Snapshots" title="Photo" id="welcome-photo-img"></a>
+        <div class="welcome-info" id="welcome-info">
+                        <a data-linkname="CloseWelcome" data-linktype="Continue-to-Site" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-0-close" id="welcome-close" class="continue-link">Continue to site</a>
+            <a href="http://shop.startribune.com/category/photography/snapshots/?utm_source=startribune&amp;utm_medium=display&amp;utm_content=snapshots&amp;utm_campaign=welcome_screen" data-linkname="Welcome-Snapshots" data-linktype="SnapshotsWelcome" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-0-snapshots" class="welcome-snapshots">Snapshots</a>
+            <ul class="welcome-logo-link">
+              <li><a href="http://www.startribune.com/" class="welcome-logo" data-linkname="Logo" data-linktype="Welcome-logo" data-modulename="welcomelogo" data-moduletype="zone1-0-WelcomeLog" data-position="zone1-0-logo">Star Tribune</a></li>
+            </ul>
+            <p class="photo-caption">A solo hiker crossed a 440 foot boardwalk across a beaver dam spanning Saw Mill Creek along the Superior Hiking Trail.</p>
+            <p class="photo-credit">Photo: Brian Peterson / Star Tribune</p>
+            <ul class="welcome-links">
+                <li>
+                    
+                    <a href="https://shop.startribune.com/category/photos/snapshots/?utm_source=startribune&amp;utm_medium=display&amp;utm_content=buy_print&amp;utm_campaign=welcome_screen" target=_blank data-linkname="Welcome-BuyPrint" data-linktype="Welcome-BuyPrint" data-modulename="WelcomeScreen" data-moduletype="zone1-buyPrint" data-position="zone1-5-buyPrint" class="welcome-buy">Buy Print</a>
+                    <p class="link-text">BUY</p>
+                </li>
+                <li>
+                    <ul class="social">
+                        <li>
+                            <a data-st-share-url="http://strib.mn/2zoKkBs" class="qs-link st-share-link welcome-social-twitter" data-st-share-service="twitter" data-st-share-image="http://stmedia.stimg.co/Gallery007.JPG?w=970"  data-st-share-title="Snapshots" data-linkname="Welcome-Twitter" data-linktype="share-twitter" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-2-share">Twitter</a>
+                        </li>
+                        <li>
+                            <a data-st-share-url="http://strib.mn/2zoKkBs" class="qs-link st-share-link welcome-social-facebook" data-st-share-service="facebook" data-st-share-title="Snapshots" data-linkname="Welcome-Facebook" data-linktype="share-facebook" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-1-share">Facebook</a>
+                        </li>
+                        <li>
+                            <a data-st-share-url="http://strib.mn/2zoKkBs" class="qs-link st-share-link welcome-social-linkedin" data-st-share-service="linkedin" data-st-share-title="Snapshots" data-linkname="Welcome-LinkedIn" data-linktype="share-LinkedIn" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-3-share">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a data-st-share-url="http://strib.mn/2zoKkBs" class="qs-link st-share-link welcome-social-pinterest" data-st-share-service="pinterest"  data-st-share-image="http://stmedia.stimg.co/Gallery007.JPG?w=970" data-st-share-title="Snapshots" data-linkname="Welcome-Pinterest" data-linktype="share-pinterest" data-modulename="WelcomeScreen" data-moduletype="zone1-Welcome" data-position="zone1-4-share">Pinterest</a>
+                        </li>
+                    </ul>
+                    <p class="link-text">SHARE</p>
+                </li>
+                <li>
+                    <a href="/snapshots/315402621/" target=_blank data-linkname="Welcome-AboutPrint" data-linktype="Welcome-About" data-modulename="WelcomeScreen" data-moduletype="zone1-aboutPrint" data-position="zone1-5-aboutPrint" class="welcome-about">About</a>
+                    <p class="link-text">ABOUT</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="welcome-sticky-ad" id="div-gpt-ad-leaderboard-1">
+
+</div>
+<script>
+
+    function AddWelcomeAd() {
+        var windowW = $(window).width(),
+            windowH = $(window).height(),
+            adHtml = '&lt;IFRAME SRC=&quot;https://ad.doubleclick.net/ddm/adi/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224563622;sz=320x50;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot; WIDTH=320 HEIGHT=50 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR=&#039;#000000&#039;&gt;&lt;SCRIPT language=&#039;JavaScript1.1&#039; SRC=&quot;https://ad.doubleclick.net/ddm/adj/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224563622;abr=!ie;sz=320x50;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot;&gt;&lt;/SCRIPT&gt;&lt;/IFRAME&gt;';
+
+        if (windowW > 1000) {
+            adHtml = '&lt;IFRAME SRC=&quot;https://ad.doubleclick.net/ddm/adi/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224798760;sz=970x90;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot; WIDTH=970 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR=&#039;#000000&#039;&gt;&lt;SCRIPT language=&#039;JavaScript1.1&#039; SRC=&quot;https://ad.doubleclick.net/ddm/adj/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224798760;abr=!ie;sz=970x90;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot;&gt;&lt;/SCRIPT&gt;&lt;/IFRAME&gt;';
+        }
+        else if (windowW > 760) {
+            adHtml = '&lt;IFRAME SRC=&quot;https://ad.doubleclick.net/ddm/adi/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224798769;sz=728x90;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot; WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR=&#039;#000000&#039;&gt;&lt;SCRIPT language=&#039;JavaScript1.1&#039; SRC=&quot;https://ad.doubleclick.net/ddm/adj/N3175.132427STARTRIBUNEMEDIACOMP/B21391955.224798769;abr=!ie;sz=728x90;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&quot;&gt;&lt;/SCRIPT&gt;&lt;/IFRAME&gt;';
+        }
+
+        if (adHtml != undefined && adHtml != null && adHtml.length > 0) {
+            document.getElementById('div-gpt-ad-leaderboard-1').innerHTML = $('<textarea />').html(adHtml).text();
+        }
+    }
+
+
+
+var welcomePhoto = {
+    init: function() {
+        var $photo = $('.welcome-photo img');
+        var    $info = $('.welcome-info'),
+            adPadding=95,
+            adHeight = 200,
+            prevAdHeight = 0,
+            infoWidth = 395,
+            infoHeight = $info.height(),
+            oldWindowHeight = 0,
+            oldWindowWidth = 0;
+
+        function setPhotoMaxHeight(windowHeight) {
+            var maxHeight = windowHeight - adHeight - adPadding;
+            $photo.css('max-height', maxHeight + 'px');
+            if (maxHeight <= $photo.height()) {
+                var topMargin = 0
+            } else {
+                var topMargin = (maxHeight - $photo.height()) / 2;
+            }
+
+            $photo.css('margin-top', topMargin + 'px');
+        }
+        function setPhotoMaxWidth(windowWidth) {
+            var maxWidth = windowWidth - infoWidth;
+            if (maxWidth > 970) {
+                maxWidth = 970;
+            }
+            $photo.css('max-width', maxWidth + 'px');
+        }
+        function resizeImage() {
+            var windowHeight = $(window).height(),
+                windowWidth = $(window).width();
+            if(oldWindowHeight != windowHeight || oldWindowWidth != windowWidth || prevAdHeight != adHeight) {
+                setPhotoMaxWidth(windowWidth);
+                setPhotoMaxHeight(windowHeight);
+                alignInfo();
+                oldWindowWidth = windowWidth;
+                oldWindowHeight = windowHeight;
+                prevAdHeight = adHeight;
+            }
+        }
+
+        function alignInfo(){
+            $info.css('margin-top', ((infoHeight / 2) * -1) + 'px');
+        }
+
+        setInterval(function () {
+            if(document.getElementById("WelcomeModule").style.display == 'block'){
+                adHeightTemp = $('#div-gpt-ad-leaderboard-1').height();
+                if(adHeightTemp != 200){
+                    adHeight= adHeightTemp;
+                    $('#div-gpt-ad-leaderboard-1').attr('style', '');
+                } else {
+                    $('#div-gpt-ad-leaderboard-1').attr('style', 'border:none;');
+                }
+                resizeImage();
+            }
+        }, 300);
+    }
+}
+$(document).ready(function(){
+    //populateWelcome(); // for testing
+    //welcomePhoto.init();
+    // console.log(1);
+});
+</script>
+<!-- close welcome-bucket -->
+        </div>
+
+        <script type="text/javascript">
+            function ourDomain() {
+                var parts = location.hostname.split('.');
+                var subdomain = parts.shift();
+                var upperleveldomain = parts.join('.');
+
+                return (upperleveldomain == 'startribune.com');
+            }
+
+            function are_cookies_enabled() {
+                if ( typeof $ === 'undefined' || !$.hasOwnProperty('cookie') ) {
+                    return false;
+                }
+                var date = new Date();
+                date.setTime(date.getTime()+(60*1000));
+                var expires = "; expires="+date.toUTCString();
+                document.cookie= "testcookie = ytubrute" + expires; //iPad does not create the cookie without a value.
+                var cookieEnabled = (document.cookie.indexOf("testcookie") != -1) ? true : false;
+
+                return (cookieEnabled);
+            }
+
+            if (ourDomain() && are_cookies_enabled() && !isPhone() && typeof populateWelcome !== 'undefined') {
+                var welcomeCookieVal = document.cookie.indexOf("st_welcome");
+                if(welcomeCookieVal == undefined ||  welcomeCookieVal == null || welcomeCookieVal < 0){
+                    setTimeout(populateWelcome, 10);
+                }
+            }
+
+        </script>
+    
+
+        <div id="zone-none-outofpage">
+      <script type="text/javascript">
+        if (!window.disableOOP) {
+          try {
+            googletag.cmd.push(function() { googletag.display( 'zone-none-outofpage' ); });
+          } catch(e) {
+            if( !(e instanceof TypeError) && !(e instanceof ReferenceError) && typeof Bugsnag !== 'undefined' ) {
+              Bugsnag.notify(e);
+            }
+          }
+        }
+      </script>
+    </div>
+    
+            
+<!-- Start Omniture Tag -->
+<script type="text/javascript">
+    //For omniture impressions. We don't want to access s until the very end.
+    var impression_data = [];
+
+    function analyticsClickTracking($this, linkname, linktype, modulename, moduletype, positions, custom) {
+        // IE8 throws error on console.log
+        // console.log("Click event triggered");
+        linkname = typeof linkname !== 'undefined' ? linkname : null;
+        if ($this !== false && linkname == null) {
+            linkname = $this.data('linkname');
+        }
+        //If linkname doesn't exist, don't bother with the rest
+        if (typeof linkname !== 'undefined' && linkname !== null && linkname !== '') {
+            linktype = typeof linktype !== 'undefined' ? linktype : null;
+            if ($this !== false && linktype == null) {
+                linktype = $this.data('linktype');
+            }
+            var events = [
+                'event3'
+            ];
+
+            custom = typeof custom !== 'undefined' ? custom : {};
+            custom.events = typeof custom.events !== 'undefined' ? custom.events : '';
+            var customEvents = custom.events !== '' ? custom.events : null;
+            if ($this !== false && customEvents == null) {
+                 customEvents = $this.data('customevents');
+            }
+            if (customEvents !== null && customEvents !== '' && typeof customEvents  !== 'undefined') {
+                customEvents = customEvents.split(',');
+                for (var i = 0; i < customEvents.length; i++) {
+                    switch (customEvents[i]) {
+                        case 'search-featured-click':
+                            events.push('event56');
+                            break;
+                        case 'search-click':
+                            events.push('event55');
+
+                            break;
+                        case 'share-click':
+                            events.push('event10');
+                            var share = "+1";
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+
+
+            var modulename = typeof modulename !== 'undefined' ? modulename : null;
+            if ($this !== false && modulename == null) {
+                modulename = $this.data('modulename');
+            }
+            var moduletype = typeof moduletype !== 'undefined' ? moduletype.split('-') : null;
+            if ($this !== false && moduletype == null && typeof $this.data('moduletype') !== 'undefined') {
+                moduletype = $this.data('moduletype').split('-');
+            } else if (moduletype == null) {
+                moduletype = '-'.split('-');
+            }
+            var zonetype = moduletype.shift();
+            moduletype = moduletype.join('-');
+            var positions = typeof positions !== 'undefined' ? positions.split('-') : null;
+            if ($this !== false && positions == null && typeof $this.data('position') !== 'undefined') {
+                positions = $this.data('position').split('-');
+            } else if (positions == null) {
+                positions = '0-0'.split('-');
+            }
+            var modulePosition = positions.shift();
+            var linkPosition = positions.shift();
+            if (isNaN(Number(linkPosition))) {
+                modulePosition += '-' + linkPosition;
+                linkPosition = positions.shift();
+            }
+            if (positions.length) {
+                linkPosition += '-' + positions.join('-');
+            }
+            var key = zonetype + '-' + moduletype + '-' + modulename;
+            var contentType = '';
+            if ( $this !== false && $this.data('contenttype') ) {
+                contentType = $this.data('contenttype');
+            }
+            var vars = {
+                'key':key,
+                'linkname':linkname,
+                'linktype':linktype,
+                'modulename':modulename,
+                'moduletype':moduletype,
+                'zonetype':zonetype,
+                'contentType':contentType,
+                'modulePosition':modulePosition,
+                'linkPosition':linkPosition,
+                'events':events,
+            };
+            if (typeof share !== 'undefined') {
+                vars['share'] = share;
+            }
+            trackClick( vars );
+        }
+    }
+</script>
+<!-- End Omniture Tag -->
+
+
+<!-- Start Chartbeat Tag -->
+<script type="text/javascript">
+    var _sf_async_config = {
+      uid: 19787,
+      domain: 'startribune.com',
+      playerdomain: window.location.hostname,
+      useCanonical: true,
+      flickerControl: false,
+      autoDetect: false
+    };
+    if ( typeof isHome !== 'undefined' &&
+        isHome &&
+        window.location.href.indexOf( 'refresh=true' ) > -1 &&
+        window.location.pathname === '/'
+    ) {
+        _sf_async_config.useCanonical = false;
+        _sf_async_config.path = window.location.pathname + '?refresh=true';
+    }
+    var _sf_startpt = ( new Date() ).getTime();
+
+    var svi = readCookie('s_vi');
+    if (svi.indexOf('[CS]') === 0) {
+        _sf_async_config.type = svi.slice(7, svi.length - 4);
+    }
+</script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+<!-- End Chartbeat Tag -->
+
+
+<!-- Start Quantcast Tag -->
+<script type="text/javascript">
+    _qoptions={
+    qacct:"p-0fEc9CMkDiJ2g"
+    };
+</script>
+<script type="text/javascript" src="https://edge.quantserve.com/quant.js"></script>
+<noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-0fEc9CMkDiJ2g.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast Tag -->
+
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "8428425" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=8428425&cv=2.0&cj=1" alt=""/>
+    </noscript>
+    <!-- End comScore Tag -->
+
+
+
+    <script src="//dc8xl0ndzn2cb.cloudfront.net/js/startribunecom/v0/keywee.min.js" type="text/javascript" async></script>
+    
+    <div class="l-container">
+
+      <div class="global-nav-mod js-global-nav-mod">
+            <nav class="nav">
+  <ul>
+    <li class="nav-block nav-logo">
+      <a href="http://www.startribune.com">&nbsp;</a>
+    </li>
+    <li class="nav-block">
+      
+<a href="#/" class="nav-title project-title">
+	Left to suffer
+	<div class="nav-indicator">
+	    	    	    	    	    	    	    	    	    	    	  	   	    	   	    	   	    	   	    	      Part 4 of 5
+	    	   	    	  		    <div class="day arrow-down"></div>
+	</div>
+</a>
+
+<ul class="project-nav">     
+          <li>
+      <span class="project-link day-1">
+          <a href="http://www.startribune.com/450623913"
+
+             >          <span class="part-num">
+                          Part 1
+                        :&nbsp;</span>Abused, ignored across Minnesota
+        </a>              </span>
+    </li>
+          <li>
+      <span class="project-link day-2">
+          <a href="http://www.startribune.com/450625343"
+
+             >          <span class="part-num">
+                          Part 2
+                        :&nbsp;</span>Families wait years for answers
+        </a>                   <span class="coming-soon">
+            <span class="part-num">
+                              Part 2
+                            &nbsp;</span>Families wait years for answers
+          </span>
+              </span>
+    </li>
+          <li>
+      <span class="project-link day-3">
+          <a href="http://www.startribune.com/450625693"
+
+             >          <span class="part-num">
+                          Part 3
+                        :&nbsp;</span>When roommates are the abusers
+        </a>                   <span class="coming-soon">
+            <span class="part-num">
+                              Part 3
+                            &nbsp;</span>When roommates are the abusers
+          </span>
+              </span>
+    </li>
+          <li>
+      <span class="project-link day-4">
+          <a href="http://www.startribune.com/450626083"
+
+              class="selected">          <span class="part-num">
+                          Part 4
+                        :&nbsp;</span>Speak up, and risk eviction
+        </a>                   <span class="coming-soon">
+            <span class="part-num">
+                              Part 4
+                            &nbsp;</span>Speak up, and risk eviction
+          </span>
+              </span>
+    </li>
+          <li>
+      <span class="project-link day-5">
+          <a href="http://www.startribune.com/450626583"
+
+             >          <span class="part-num">
+                          Part 5
+                        :&nbsp;</span>A model to protect seniors
+        </a>                   <span class="coming-soon">
+            <span class="part-num">
+                              Part 5
+                            &nbsp;</span>A model to protect seniors
+          </span>
+              </span>
+    </li>
+  
+
+       
+      
+        <li class="share__facebook clickQS mobile">
+          <a class="st-share-link" data-st-share-count-selector=".share-count-facebook" data-st-share-service="facebook" data-st-share-url="http://strib.mn/2yAcI1y" target="_blank" data-linkname="Share on Facebook" data-linktype="share-facebook" data-modulename="" data-moduletype="-" data-position="--share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span class="share-txt">share</span>
+              <span class="share-count share-count-facebook"></span>
+            </div>
+          </a>
+                  </li>
+        <li class="share__twitter clickQS mobile">
+          <a class="st-share-link" data-st-share-count-selector=".share-count-twitter" data-st-share-image="" data-st-share-title="Meet the Minnesota lawyer taking on the senior-care industry" data-st-share-service="twitter" data-st-share-url="http://strib.mn/2yAcI1y" data-st-count-url="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" target="_blank" data-linkname="Share on Twitter" data-linktype="share-twitter" data-modulename="" data-moduletype="-" data-position="-1-share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span class="share-txt">tweet</span>
+              <span class="share-count share-count-twitter"></span>
+            </div>
+          </a>
+                  </li>
+                <li class="share__comments clickQS mobile">
+          <a href="#comments" data-linkname="Comment on this story" data-linktype="share-comment" data-modulename="" data-moduletype="-" data-position="-2-share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span class="share-txt">comment</span><span class="share-count"></span>
+            </div>
+          </a>
+                  </li>
+        
+      
+      </ul>
+    </li>
+    <li class="nav-block share">
+      <a href="#/" class="icn-share">&nbsp;</a>
+      <div class="nav-indicator">
+          <div class="arrow-down"></div>
+        </div>
+      <ul>
+        <li class="share__facebook clickQS">
+          <a class="st-share-link" data-st-share-count-selector=".share-count-facebook" data-st-share-service="facebook" data-st-share-url="http://strib.mn/2yAcI1y" target="_blank" data-linkname="Share on Facebook" data-linktype="share-facebook" data-modulename="" data-moduletype="-" data-position="-3-share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span class="share-txt">share</span>
+              <span class="share-count share-count-facebook"></span>
+            </div>
+          </a>
+                  </li>
+        <li class="share__twitter clickQS">
+          <a class="st-share-link" data-st-share-count-selector=".share-count-twitter" data-st-share-image="" data-st-share-title="Meet the Minnesota lawyer taking on the senior-care industry" data-st-share-service="twitter" data-st-share-url="http://strib.mn/2yAcI1y" data-st-count-url="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/" target="_blank" data-linkname="Share on Twitter" data-linktype="share-twitter" data-modulename="" data-moduletype="-" data-position="-4-share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span class="share-txt">tweet</span>
+              <span class="share-count share-count-twitter"></span>
+            </div>
+          </a>
+                  </li>
+        <li class="share__email clickQS">
+          <a href="https://www.startribune.com/email/share/content/?section=%2Flocal&amp;story_id=450626193&amp;headline=Meet+the+Minnesota+lawyer+taking+on+the+senior-care+industry" id="js-email-share-btn" data-id="450626193" data-linkname="Email" data-linktype="share-email" data-modulename="" data-moduletype="-" data-position="-5-share">
+            <div class="share-icon"></div>
+            <div class="share-label">
+              <span>email</span>
+            </div>
+          </a>
+        </li>
+        <li class="share-more-group">
+          <div class="copy-link">
+            <span class="share-more-label">Copy shortlink:</span>
+            <input style="height:30px;" class="share-more-link-input" type="text" value="http://strib.mn/2yAcI1y"/>
+          </div>
+        </li>
+      </ul>
+    </li>
+          <li class="nav-block comment clickQS">
+        <a class="icn-comment" href="#comments" data-linkname="Comment on this story" data-linktype="share-comment" data-modulename="" data-moduletype="-" data-position="-5-share"></a>
+      </li>
+      </ul>
+</nav>
+
+<script>
+$("ul.project-nav").mouseover(function(){$(".nav-title,.arrow-down").addClass("selected")}),$("ul.project-nav").mouseout(function(){$(".nav-title,.arrow-down").removeClass("selected")}),$("li.nav-block.share").mouseover(function(){$(".nav-block.share .arrow-down").addClass("selected")}),$("li.nav-block.share").mouseout(function(){$(".nav-block.share .arrow-down").removeClass("selected")}),$(".share ul").mouseover(function(){$(".navblock-share").addClass("selected")}),$(".share ul").mouseout(function(){$(".icn-share").removeClass("selected")}),$(".share-more-link-input").mouseenter(function(){$(".nav-block.share").addClass("open")}),$(".share-more-link-input").mouseleave(function(){$(".nav-block.share").removeClass("open")}),$("a.nav-title,.project-nav a").click(function(){$("a.nav-title,.project-nav").toggleClass("open");});
+</script>      </div>
+
+                        
+    
+                
+    
+    
+                        <div class="hero-override">
+                <img class="article-media__feature" src="http://stmedia.stimg.co/elder_day4sidebar_coverb.jpg" itemprop="image" alt="itemprop">
+                <div class="l-article-container">
+                    <div class="l-article-topper wide">
+                        <h1 class="article-headline" itemprop="headline">Meet the Minnesota lawyer taking on the senior-care industry</h1>
+                        <div class="article-subhead" itemprop="description"> Plymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation's most feared elder abuse litigators.&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <script src="http://assets.startribune.com/assets/js/libs/imgix.min.js?d=1486502374" type="text/javascript"></script>             <script>
+            imgix.onready(function() {
+            imgix.fluid({
+            updateOnResizeDown: true,
+            pixelStep: 5,
+            autoInsertCSSBestPractices: true
+            });
+            });
+            </script>
+            
+    <div class="l-article-container " itemscope itemtype="http://schema.org/Article">
+                    <div class="l-article article p402_premium article">
+                                            <div class="l-article-body">
+                                                                                                                     
+                                                                                                    <aside class="article-share">
+                                <div class="share__textsize">
+                <a id="js-textsize-btn"
+                   data-linkname="Text size"
+                   data-linktype="text-resize"
+                   data-modulename="Article"
+                   data-moduletype="zone1-content"
+                   data-position="0-1-share">
+                    <div class="share-icon"></div>
+                    <div class="share-label">
+                        <span>Text size</span>
+                    </div>
+                </a>
+            </div>
+            
+                        <div class="share__comments clickQS">
+                <a href="#comments"
+                   data-linkname="Comment on this story"
+                   data-linktype="share-comment"
+                   data-modulename="Article"
+                   data-moduletype="zone1-content"
+                   data-position="0-1-share">
+                    <div class="share-icon"></div>
+                    <div class="share-label">
+                        <span class="share-txt">comment</span><span class="share-count"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="share__facebook clickQS">
+            <a class="st-share-link" data-st-share-count-selector=".share-count-facebook"
+               data-st-share-service="facebook"
+               data-st-share-url="http://strib.mn/2yAcI1y" target="_blank"
+               data-linkname="Share on Facebook"
+               data-linktype="share-facebook"
+               data-modulename="Article"
+               data-moduletype="zone1-content"
+               data-position="0-1-share"
+               data-customevents="share-click">
+                <div class="share-icon"></div>
+                <div class="share-label">
+                    <span class="share-txt">share</span><span class="share-count-facebook"></span>
+                </div>
+            </a>
+        </div>
+    
+            <div class="share__twitter clickQS">
+            <a class="st-share-link" data-st-share-count-selector=".share-count-twitter"
+               data-st-share-image=""
+               data-st-share-title="Meet the Minnesota lawyer taking on the senior-care industry"
+               data-st-share-service="twitter" data-st-share-url="http://strib.mn/2yAcI1y"
+               data-st-count-url="http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/"
+               target="_blank"
+               data-linkname="Share on Twitter"
+               data-linktype="share-twitter"
+               data-modulename="Article"
+               data-moduletype="zone1-content"
+               data-position="0-1-share"
+               data-customevents="share-click">
+                <div class="share-icon"></div>
+                <div class="share-label">
+                    <span class="share-txt">tweet</span><span class="share-count-twitter"></span>
+                </div>
+            </a>
+        </div>
+    
+            <div class="share__email clickQS">
+            <a class="st-share-link" data-st-share-service="email" data-st-share-url="https://www.startribune.com/email/share/content/?section=%2Flocal&amp;story_id=450626193&amp;headline=Meet+the+Minnesota+lawyer+taking+on+the+senior-care+industry"
+               data-id="450626193"
+               data-linkname="Email"
+               data-linktype="share-email"
+               data-modulename="Article"
+               data-moduletype="zone1-content"
+               data-position="0-1-share"
+               data-customevents="share-click">
+                <div class="share-icon"></div>
+                <div class="share-label">
+                    <span>email</span>
+                </div>
+            </a>
+        </div>
+    
+            <div class="share__print clickQS">
+            <a id="js-print-btn"
+               data-linkname="Print"
+               data-linktype="share-print"
+               data-modulename="Article"
+               data-moduletype="zone1-content"
+               data-position="0-1-share"
+               data-customevents="share-click">
+                <div class="share-icon"></div>
+                <div class="share-label">
+                    <span>Print</span>
+                </div>
+            </a>
+        </div>
+    
+            <div class="share-more">
+            <div class="share-label">more</div>
+            <div class="share-more-popover">
+                <div class="share-more-group">
+                    <span class="share-more-label">Share on:</span>
+                    <a class="st-share-link linkedin-pw-placeholder" data-st-share-service="linkedin"
+                       data-st-share-url="http://strib.mn/2yAcI1y"
+                       data-st-share-title="Meet the Minnesota lawyer taking on the senior-care industry"
+                       data-st-share-summary="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation's most feared elder abuse litigators."
+                       data-st-share-source="Star Tribune" target="_blank"
+                       data-linkname="Share on LinkedIn"
+                       data-linktype="share-linkedin"
+                       data-modulename="Article"
+                       data-moduletype="zone1-content"
+                       data-position="0-1-share"
+                       data-customevents="share-click">
+                        <span class="share-more-icon share__linkedin">Share on LinkedIn</span>
+                    </a>
+                    <a class="st-share-link googleplus-pw-placeholder" data-st-share-service="googleplus"
+                       data-st-share-url="http://strib.mn/2yAcI1y" target="_blank"
+                       data-linkname="Share on Google+"
+                       data-linktype="share-linkedin"
+                       data-modulename="Article"
+                       data-moduletype="zone1-content"
+                       data-position="0-1-share"
+                       data-customevents="share-click">
+                        <span class="share-more-icon share__googleplus">Share on Google+</span>
+                    </a>
+                    <a class="st-share-link pinterest-pw-placeholder" data-st-share-service="pinterest"
+                       data-st-share-image=""
+                       data-st-share-description="lymouth attorney Mark Kosieradzki has a long history of multimillion-dollar legal victories, earning a reputation as one of the nation&#039;s most feared elder abuse litigators."
+                       data-st-share-url="http://strib.mn/2yAcI1y" target="_blank"
+                       data-linkname="Share on Pinterest"
+                       data-linktype="share-pinterest"
+                       data-modulename="Article"
+                       data-moduletype="zone1-content"
+                       data-position="0-1-share"
+                       data-customevents="share-click">
+                        <span class="share-more-icon share__pinterest">Share on Pinterest</span>
+                    </a>
+                </div>
+                <div class="share-more-group">
+                    <span class="share-more-label">Copy shortlink:</span>
+                    <input class="share-more-link-input" id="MoreShortlink" type="text"
+                           value="http://strib.mn/2yAcI1y" />
+                </div>
+                <div class="share-more-group">
+                    <span class="share-more-label">Purchase:</span>
+                                        <a href="http://reprints.ygsgroup.com/m/startribune/" target="_blank"
+                       class="share-more-tool tool__orderreprint"
+                       data-linkname="Order Reprint"
+                       data-linktype="share-reprint"
+                       data-modulename="Article"
+                       data-moduletype="zone1-content"
+                       data-position="0-1-share">
+                        Order Reprint
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+</aside>
+                                            
+                      <h1>When regulators fail, a lawyer steps in</h1>
+  <p class="intro">intro text - goes here. This is how much you need for a full line.</p>
+  <div class="article-byline-mod">
+    <div class="article-byline">
+    <strong>Story by
+<a href="http://www.startribune.com/chris-serres/10645926/" title="Chris Serres" data-linkname="Chris Serres" data-linktype="author" data-modulename="Article" data-moduletype="zone1-content" data-position="0-1-author" rel="author">Chris Serres</a> • Photos by <a href="http://www.startribune.com/david-joles/10645151/" title="David Joles" data-linkname="Chris Serres" data-linktype="author" data-modulename="Article" data-moduletype="zone1-content" data-position="0-1-author" rel="author">David Joles</a></strong> • Star Tribune
+    </div>
+    <div class="article-dateline">
+    November 12, 2017
+    </div>
+  </div>
+                          <div class="article-body resizeFont" itemprop="articleBody">
+                                                    <div class="article-byline-mod hero-override">
+            <div class="article-byline">
+                            <strong>By
+                                                                                    <a href="http://www.startribune.com/chris-serres/10645926/" title="Chris Serres"
+                                   data-linkname="Chris Serres" data-linktype="author"
+                                   data-modulename="Article"
+                                   data-moduletype="zone1-content"
+                                   data-position="0-1-author"
+                                   rel="author">Chris Serres</a></strong>                                        Star Tribune
+                    </div>
+        <div class="article-dateline">
+        November 14, 2017 &mdash; 7:36pm
+    </div>
+</div>                                                                        
+                                                	
+                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                	
+                    		                        		                        			                        		                    		                                                                        
+                                                                                        <p><div data-strib-tag="text">    <p></p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <div class="related-caption topCaption">
+<b>RELENTLESS </b><br>Known for winning multimillion-dollar payouts in cases of elder abuse, Mark Kosieradzki says simply, “We exact the fines that the state doesn’t.” </div>
+</div></p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p><span class="dropCap">M</span>ark Kosieradzki had just finished a grueling, 8-mile ascent up a granite peak overlooking Lake Superior when his smartphone started beeping furiously. Moments later, the attorney was pumping his fist and yelling into the morning air.</p>
+
+                                                                                                                                                        <div id="z421a0674-d7b9-42de-9706-7a672cd20778" style='display:none' class="grazers"></div>
+<script>
+    $(document).ready(function() {
+
+        if(typeof isUserGrazer === "function") {
+            if (isUserGrazer() && window.segmentation.grazers) {
+                !function (a, n, e, t, r) {
+                    tagsync = e;
+                    var c = window[a];
+                    if (tagsync) {
+                        var d = document.createElement("script");
+                        d.src = "http://1871.tm.zedo.com/v1/de0b1340-9167-4a0d-8f46-f1a0d7761ce3/atm.js", d.async = !0;
+                        var i = document.getElementById(n);
+                        if (null == i || "undefined" == i)
+                            return;
+                        i.parentNode.appendChild(d, i), d.onload = d.onreadystatechange = function () {
+                            var a = new zTagManager(n);
+                            a.initTagManager(n, c, this.aync, t, r)
+                        }
+                    } else document.write("<script src='http://1871.tm.zedo.com/v1/de0b1340-9167-4a0d-8f46-f1a0d7761ce3/tm.js?data=" + a + "'><" + "/script>")
+                }("datalayer", "z421a0674-d7b9-42de-9706-7a672cd20778", true, 1, 1);
+            }
+        }
+    });
+</script>                                                                                                                          
+                                                                                                                                    
+                        
+                                                                                        <p>“We got punitives!” he shouted. “We won!”</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>A Minnesota judge had just granted Kosieradzki’s petition to pursue punitive damages against an assisted-living facility over the death of a 74-year-old resident with dementia. Left unattended, the woman had wandered away from the home one afternoon. Months later, her skeletal remains were discovered along a highway near Duluth.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>The judge’s ruling that morning would lead to another in a long history of multimillion-dollar legal victories for the Plymouth-based attorney, who has earned a reputation as one of the nation’s most feared elder abuse litigators.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Many in the industry say he is more feared than state regulators.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>“When facilities know that regulatory sanctions are not going to result in high fines, a lawsuit becomes the last means to hold someone accountable,” said Lori Smetanka, executive director of the Washington-based National Consumer Voice for Quality Long-Term Care. “In many ways, the system needs people like Mark because regulators do not always catch the very serious problems … in these facilities.”</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Kosieradzki, 64, puts it more bluntly:</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>“The state could put us out of business tomorrow if it did its job,” he said. “We exact the fines that the state doesn’t.”</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Representatives of the senior care industry say the huge payouts to trial attorneys like Kosieradzki do little more than drive up the cost of care. They are pressing the federal government to reverse an Obama-era rule that made it easier for consumers to sue long-term care facilities.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Patti Cullen, president and chief executive of Care Providers of Minnesota, a trade group, said many of the lawsuits are brought by family members seeking to exploit minor mistakes in care and turn them into major windfalls.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p><div data-strib-tag="quote"><div class="pullquote">
+	<blockquote>“The state could put us out of business tomorrow if it did its job.”</blockquote>
+			<span class="author-credit">Mark Kosieradzki, attorney</span>
+	</div></div></p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>“The lawsuits don’t really help the people living in these facilities,” she said. “The money that’s spent on litigation is money that’s not spent on patient care or activities.”</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Kosieradzki argued that the courts stand as one of the last remaining checks against a senior care industry that collects billions of dollars from taxpayers with minimal government oversight.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>And, he said, the impact of a lawsuit goes far beyond hefty payments to clients and lawyers. Unsafe bed rails, for example, once caused hundreds of nursing home deaths and injuries every year because elderly residents could get their necks caught in them and suffocate. After a flurry of high-profile lawsuits, the industry and federal regulators redesigned the devices entirely.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>In Minnesota, state-imposed fines for serious violations — those with the potential to cause serious injury or death — can be as little as $500. Facilities that fail to report abuse or neglect often avoid fines entirely, records show, even though failing to report is a crime.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>When the Minnesota Department of Health imposes fines, it sometimes fails to collect them. State records show tens of thousands of dollars in unpaid fines by senior facilities dating back to 2012.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>An Iowa native and son of Polish immigrants, Kosieradzki won his first big legal victory in 1984 representing a pregnant American Indian woman who was denied medical attention after being jailed. The woman, arrested for drunken driving, went into labor in a Sherburne County jail, and the baby died.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>A jury awarded his client $1.3 million — at the time the largest payout ever awarded in Minnesota. The state subsequently adopted regulations requiring jails to call a doctor when an inmate is pregnant.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>In the early 2000s, Kosieradzki said he grew appalled by inadequate public oversight of the senior care industry. Even when families had photos showing maltreatment and elderly victims were ready to testify, he said, state regulators didn’t impose penalties.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>Kosieradzki doesn’t flinch at putting nursing home executives on the witness stand, often pairing testimony with graphic images. In one case involving an elderly woman who starved to death in a nursing home, he got the facility’s chief financial officer to admit that its daily food budget, $3.75 per person, was equivalent to the price of three cans of dog food.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>“I guarantee that members of the jury will remember that can of dog food and think about their own mothers and fathers,” he said.</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <p>“I get grief from lawyers all over the state for these big claims,” he acknowledged. “But more often than not, people at the top don’t even hear about problems until they have to write these big checks.”</p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                        
+                                                                                        <div class="article-author-contact">
+<div class="article-author-hcard">
+<div class="article-author-hcard__email">
+<a target="_blank" data-linkname="chris.serres@startribune.com" data-linktype="email" data-modulename="Article" data-moduletype="zone1-content" data-position="0-1-author" href="mailto:chris.serres@startribune.com?subject=ELDER">Chris.Serres@startribune.com</a>   <a class="article-author-hcard__phone" data-linkname="612-673-4308" data-linktype="phone" data-modulename="Article" data-moduletype="zone1-content" data-position="0-1-author" href="tel:612-673-4308">612-673-4308</a>
+</div>
+<div class="article-author-hcard__email">
+<a target="_blank" data-linkname="david.joles@startribune.com" data-linktype="email" data-modulename="Article" data-moduletype="zone1-content" data-position="0-2-author" href="mailto:david.joles@startribune.com?subject=ELDER">David.Joles@startribune.com</a>   <a class="article-author-hcard__phone" data-linkname="612-673-7904" data-linktype="phone" data-modulename="Article" data-moduletype="zone1-content" data-position="0-1-author" href="tel:612-673-7904">612-673-7904</a>
+</div>
+</div>
+</div></p>
+
+                                                                                                                                                                                              
+                                                                                                                                    
+                                                </div>
+                    
+
+                    
+                                                                                    <section class="comments-section" id="comments">
+    <script type="text/javascript">
+        if (typeof commentQueryStrings === 'undefined') {
+            var commentQueryStrings = {};
+        }
+    </script>
+    
+    <script type="text/javascript">
+        commentQueryStrings[window.location.pathname] = JSON.parse('{"pageName":"pageName=Meet%20the%20Minnesota%20lawyer%20taking%20on%20the%20senior-care%20industry","channel":"channel=local","server":"server=startribune.com","prop1":"c1=http:\/\/www.startribune.com\/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry\/450626193\/","prop2":"c2=V20180709","prop3":"c3=comments","prop5":"c5=","prop7":"c7=Local","prop12":"c12=","prop15":"c15=","prop16":"c16=","prop25":"c25=450626193","prop64":"c64=","prop71":"c71=websites"}');
+    </script>
+
+    <div class="comments">
+        <a href="#" class="js-comments-show comments-count-link">
+            <div class="comments-count"></div>
+            <span class="comments-show js-comments-show-txt"
+                  data-analytics-url="http://metrics.startribune.com/b/ss/nmminneapolis/1/JS-2.9.0/85973"
+                  data-analytics-querystring="pageName=Meet%20the%20Minnesota%20lawyer%20taking%20on%20the%20senior-care%20industry&channel=local&server=startribune.com&c1=http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/&c2=V20180709&c3=comments&c5=&c7=Local&c12=&c15=&c16=&c25=450626193&c64=&c71=websites">View Comments</span>
+        </a>
+    </div>
+
+    <script src='https://cdn.livefyre.com/Livefyre.js'></script>
+    <script type="text/javascript">
+        var networkConfig = {"network": "startribune.fyre.co"}
+        var convConfig = {"siteId":"356396","articleId":"450626193","el":"livefyre","collectionMeta":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6Ik1lZXQgdGhlIE1pbm5lc290YSBsYXd5ZXIgdGFraW5nIG9uIHRoZSBzZW5pb3ItY2FyZSBpbmR1c3RyeSIsInVybCI6Imh0dHA6XC9cL3d3dy5zdGFydHJpYnVuZS5jb21cL2xvY2FsXC80NTA2MjYxOTMuaHRtbCIsInRhZ3MiOiJcL2xvY2FsIiwiY2hlY2tzdW0iOiI3YjhiZTY0MzZlYTc5NzZjOTc2ZWM0NTlhYjE0YzQ0ZSIsImFydGljbGVJZCI6IjQ1MDYyNjE5MyJ9.dBT7Xt8HZkAQB979hrlvupEEkl7iwm89I7O9JVBFbLk","datetimeFormat":{"minutesUntilAbsoluteTime":1,"absoluteFormat":"MMM. d, yy<br>h:mm a"}};
+        var commentLoginText = "Log in/register to comment";
+        var commentEmailOnly = 0;
+        var commentPage = {};
+        commentPage.userToken = null;
+        commentPage.userAuth = false;
+        commentPage.registerUsername = false;
+
+        commentPage.onCommentCountUpdated = function (number) {
+            commentCount.checkLivefyreLoaded(number);
+        };
+
+        var checkUserToken = function (cb) {
+            if (jQuery.cookie('st_usr_livefyre_token')) {
+                commentPage.userAuth = true;
+                commentPage.userToken = jQuery.cookie('st_usr_livefyre_token');
+            }
+            if (jQuery.cookie('register_st_user_name')) {
+                if (jQuery.cookie('st_usr_livefyre_token')) {
+                    jQuery.removeCookie('register_st_user_name');
+                } else {
+                    commentPage.registerUsername = true;
+                }
+            }
+            cb();
+        };
+
+        Livefyre.require(['fyre.conv#3', 'auth'], function(Conv, auth) {
+            var tokenCallback = function () {
+                if (commentPage.userToken) {
+                    auth.authenticate({livefyre: commentPage.userToken});
+                }
+
+                networkConfig["strings"] = {
+                    signIn: (commentPage.registerUsername ? "Please create a username for your account." : commentLoginText),
+                    postButton: "Post your comment",
+                    postReplyButton: "Post your comment",
+                    flagButton: "Report as inappropriate"
+                };
+
+                new Conv( networkConfig, [convConfig], function(commentsWidget){
+
+                    commentsWidget.on('commentCountUpdated', commentPage.onCommentCountUpdated);
+
+                    commentsWidget.on('initialRenderComplete', function () {
+                        jQuery('.fyre-comment a').contents().unwrap();
+                        commentCount.checkLivefyreLoaded(false, false);
+                    });
+                    commentsWidget.on('commentPosted', function (data) {
+                        userInteraction(['event9'], {'eVar94': '+1'}, 'Comment Posted');
+                    });
+                });
+
+                auth.delegate({
+                    login: function(cb) {
+                        if (commentPage.registerUsername) {
+                            window.location.href = 'https://users.startribune.com/';
+                        } else if (commentPage.userToken) {
+                            cb(null, {livefyre: commentPage.userToken});
+                        } else {
+                            window.location.href = 'https://' + document.domain + '/login?commentRedirect=true&path=' + encodeURIComponent( document.URL );
+                        }
+                    },
+                    viewProfile: function(user) {
+                        window.location.href = 'https://users.startribune.com/';
+                    }
+                });
+            };
+            if( $.cookie( 'check_livefyre_token_status' ) == true ) {
+                jQuery.ajax({
+                    method: 'POST',
+                    url: 'https://www.startribune.com/login/livefyre/token/',
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    cache: false
+                }).always(function (data) {
+                    checkUserToken(tokenCallback);
+                });
+            } else {
+                checkUserToken(tokenCallback);
+            }
+        });
+
+    </script>
+    <div id='livefyre-cont'>
+        <div id='livefyre'>
+            <div class="comment-standards-mod">
+                <a href="#" class="comment-standards-btn js-show-comment-standards">Read our comment standards</a>
+                <div class="comment-standards-txt">
+                    <p>StarTribune.com welcomes and encourages readers to comment and engage in substantive, mutually
+                        respectful exchanges over news topics. Commenters must follow our <a
+                                href="http://www.startribune.com/terms/">Terms of Use</a>.</p>
+                    <ol>
+                        <li>Keep it civil and stay on topic.</li>
+                        <li>No profanity, vulgarity, racial slurs or personal attacks.</li>
+                        <li>Comments with web links are not permitted.</li>
+                        <li>Comments that violate the above will be removed. Repeat violators may lose their commenting
+                            privileges on StarTribune.com.
+                        </li>
+                    </ol>
+                    <p>Comments will be reviewed before being published.</p>
+                </div>
+                <!--eo comment-standards-txt-->
+            </div>
+            <!--eo comments-standards-mod-->
+            <!--LiveFyre gets injected here-->
+        </div>
+        <div id="powered_by_livefyre_new"><a href="http://livefyre.com/" target="_blank">Powered by Livefyre</a></div>
+        <img class="comments-image-tracking" style="height: 0px;" alt=""
+             src="http://apps.startribune.com/circulars/images/blank.gif"/>
+        <script type="text/javascript">
+        <!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//-->
+        </script>
+        <noscript>
+                        <img src="http://metrics.startribune.com/b/ss/nmminneapolis/1/JS-2.9.0--NS/43842?pageName=Meet%20the%20Minnesota%20lawyer%20taking%20on%20the%20senior-care%20industry&channel=local&server=startribune.com&c1=http://www.startribune.com/meet-the-minnesota-lawyer-taking-on-the-senior-care-industry/450626193/&c2=V20180709&c3=comments&c5=noscript&c7=Local&c12=&c15=&c16=&c25=450626193&c64=&c71=websites"
+                 height="1" width="1" border="0" alt=""/>
+            }
+        </noscript>
+        <!--/DO NOT REMOVE/-->
+    </div>
+</section>
+                    
+                                    </div><!-- l-article-body -->
+            
+                                                </div>
+
+        
+            </div><!-- l-article-container -->
+
+              
+    
+            <img class="trackerImage" src="http://apps.startribune.com/most_popular/?cmd=inc&amp;type=view&amp;section=%2Flocal&amp;story_id=450626193">
+    
+  </div>      </div>
+
+      <div class="l-footer-container">
+        <nav class="l-footer-inner" role="navigation">
+        <div class="footer-top-mod">
+            <a class="footer-branding-mod" href="http://www.startribune.com/"
+               data-linkname="StarTribune"
+               data-linktype="logo navigation"
+               data-modulename="Social Navigation Bottom"
+               data-moduletype="footer-page-nav"
+               data-position="1-1">
+                <h4 class="footer-st-branding">StarTribune</h4>
+            </a>
+            <div class="footer-social-mod">
+                <ul class="footer-social-links">
+                    <li>
+                        <span class="footer-social-links-label">Follow Us On:</span>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/startribune/" class="footer-social-facebook" target="_blank"
+                           data-linkname="Facebook"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-2">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/StarTribune/" class="footer-social-twitter" target="_blank"
+                           data-linkname="Twitter"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-3">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+startribune/" class="footer-social-gplus" target="_blank"
+                           data-linkname="Google+"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-4">
+                            Google+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://pinterest.com/startribune/" class="footer-social-pinterest" target="_blank"
+                           data-linkname="Pinterest"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-5">
+                            Pinterest
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com/startribune/" class="footer-social-instagram" target="_blank"
+                           data-linkname="Instagram"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-6">
+                            Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://startribune.tumblr.com/" class="footer-social-tumblr" target="_blank"
+                           data-linkname="Tumblr"
+                           data-linktype="social navigation"
+                           data-modulename="Social Navigation Bottom"
+                           data-moduletype="footer-page-nav"
+                           data-position="1-7">
+                            Tumblr
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-navigation-mod">
+                                        <div class="footer-navigation-col col-1">
+                                            <h4 class="footer-group-h">Company</h4>
+                                                    <ul class="footer-navigation-links">
+                                                                    <li>
+                                        <a href="http://www.startribune.com/about/"
+                                           data-linkname="About the Star Tribune"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-1">
+                                            About the Star Tribune
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/contactus/"
+                                           data-linkname="Contact us"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-2">
+                                            Contact us
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/workforus/"
+                                           data-linkname="Work For Us"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-3">
+                                            Work For Us
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/newspapersineducation/"
+                                           data-linkname="News in Education"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-4">
+                                            News in Education
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.citypages.com/"
+                                           data-linkname="City Pages"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-5">
+                                            City Pages
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/sports/preps/"
+                                           data-linkname="High school sports hubs"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-6">
+                                            High school sports hubs
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/NewsApps/"
+                                           data-linkname="Mobile and tablet apps"
+                                           data-linktype="company navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-7">
+                                            Mobile and tablet apps
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                            </div>
+                            <div class="footer-navigation-col col-2">
+                                            <h4 class="footer-group-h">Advertise with us</h4>
+                                                    <ul class="footer-navigation-links">
+                                                                    <li>
+                                        <a href="http://www.startribune.com/businessconsultant/"
+                                           data-linkname="Talk with a business consultant"
+                                           data-linktype="advertise navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-8">
+                                            Talk with a business consultant
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/mediakit/"
+                                           data-linkname="Media kit"
+                                           data-linktype="advertise navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-9">
+                                            Media kit
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/classified/"
+                                           data-linkname="Classifieds"
+                                           data-linktype="advertise navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-10">
+                                            Classifieds
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                            </div>
+                            <div class="footer-navigation-col col-3">
+                                            <h4 class="footer-group-h">Buy</h4>
+                                                    <ul class="footer-navigation-links">
+                                                                    <li>
+                                        <a href="http://www.startribune.com/store/"
+                                           data-linkname="Star Tribune Store"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-11">
+                                            Star Tribune Store
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/photoreprints/"
+                                           data-linkname="Photo Reprints"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-12">
+                                            Photo Reprints
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/archives/"
+                                           data-linkname="Archived articles"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-13">
+                                            Archived articles
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/fullpagearchives/"
+                                           data-linkname="Full Page Archive: 150+ years"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-14">
+                                            Full Page Archive: 150+ years
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/backcopies/"
+                                           data-linkname="Back Copies"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-15">
+                                            Back Copies
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/commercialreprints/"
+                                           data-linkname="Commercial reprints"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-16">
+                                            Commercial reprints
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/licensing/"
+                                           data-linkname="Licensing"
+                                           data-linktype="ecommerce navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-17">
+                                            Licensing
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                            </div>
+                            <div class="footer-navigation-col col-4">
+                                            <h4 class="footer-group-h">Customer support</h4>
+                                                    <ul class="footer-navigation-links">
+                                                                    <li>
+                                        <a href="http://www.startribune.com/feedback/"
+                                           data-linkname="Help and Feedback"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-18">
+                                            Help and Feedback
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/membercenter/"
+                                           data-linkname="Manage your account"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-19">
+                                            Manage your account
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/subscriptionservices/"
+                                           data-linkname="Newspaper subscription"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-20">
+                                            Newspaper subscription
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/digitalaccess/"
+                                           data-linkname="Digital access"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-21">
+                                            Digital access
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/eedition/"
+                                           data-linkname="eEdition"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-22">
+                                            eEdition
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/subscriptionservices/"
+                                           data-linkname="Vacation hold/billing"
+                                           data-linktype="support navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-23">
+                                            Vacation hold/billing
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                            </div>
+                            <div class="footer-navigation-col col-5">
+                                            <h4 class="footer-group-h">Website</h4>
+                                                    <ul class="footer-navigation-links">
+                                                                    <li>
+                                        <a href="http://www.startribune.com/termsofuse/"
+                                           data-linkname="Terms of use"
+                                           data-linktype="website navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-24">
+                                            Terms of use
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/privacypolicy/"
+                                           data-linkname="Privacy policy"
+                                           data-linktype="website navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-25">
+                                            Privacy policy
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/siteindex/"
+                                           data-linkname="Site index"
+                                           data-linktype="website navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-26">
+                                            Site index
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.startribune.com/rssfeeds/"
+                                           data-linkname="RSS"
+                                           data-linktype="website navigation"
+                                           data-modulename="Page Navigation Bottom"
+                                           data-moduletype="footer-page-nav"
+                                           data-position="2-27">
+                                            RSS
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                            </div>
+                    </div>
+    </nav>
+</div>
+
+<div class="l-footer-container footer-copyright-mod">
+    <div class="l-footer-inner">
+        <p class="footer-copyright">&copy; 2018 StarTribune. All rights reserved.</p>
+    </div>
+</div>
+  
+  
+    <script type="text/javascript" src="http://assets.startribune.com/static/min/footer.min.js?d=1531162329"></script>
+  
+  <!-- our JS modules -->
+  <!-- <script type="text/javascript" src="http://assets.startribune.com/static/js/ad.js"></script> -->
+
+  <!-- per-page JS modules -->
+      <script src="http://assets.startribune.com/static/vendor/pym.js/pym.min.js?d=1531162243"></script>
+        <script type="text/javascript" src="http://assets.startribune.com/static/min/article.min.js?d=1531162326"></script>
+    
+    <script>
+        $(function() {
+            ST_sharetools.init('.l-article-body');
+        });
+    </script>
+
+            <script type="text/javascript">
+            if( typeof( $.cookie( 'session_cookie_set' ) ) === 'undefined' ) {
+                jQuery.get( location.origin + '/login/session' );
+            }
+        </script>
+    
+            <script type="text/javascript">
+            var st_reload = 1200000;
+        </script>
+    
+        
+  <!-- housing page JS modules // this placement resolves script conflicts -->
+  
+  
+<!-- Start Omniture Tag -->
+    <script type="text/javascript" src="http://www.startribune.com/analytics-assets/sitecatalyst/StarTribunePageConfiguration.js?d=1531162243"></script>
+
+<script>
+
+    // Optimizely Adobe Analytics SiteCatalyst Integration code
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push('activateSiteCatalyst');
+</script>
+<script type="text/javascript">
+    //Pageload Tracking
+                                        s.server = 'startribune.com';
+                                                            s.prop1 = 'D=g';
+                                                            s.prop2 = 'V20180709';
+                                
+            s.events = 'event31';
+                                                s.channel = 'local';
+                                                            s.eVar61 = '+1';
+                                                            s.prop22 = '1';
+                                                            s.prop23 = '';
+                                                            s.prop56 = '';
+                                                            s.prop7 = 'Local';
+                                                            s.prop3 = 'story';
+                                                            s.prop4 = 'Star Tribune';
+                                                            s.prop11 = 'MWC';
+                                                            s.prop24 = 'article';
+                                                            s.prop25 = '450626193';
+                                                            s.prop35 = 'Chris Serres Star Tribune';
+                                                            s.prop45 = '3 PM';
+                                                            s.prop65 = 'November 14, 2017';
+                                                            s.prop74 = '25';
+                                                            s.prop75 = '5115';
+                                                            s.pageName = 'Meet the Minnesota lawyer taking on the senior-care industry';
+                                                            s.prop21 = 'Tokenized Article';
+                        
+        var storyExists = 'true';
+    var sidewaysEligible = 'true';
+
+    if(storyExists === 'true' && sidewaysEligible === 'true' && typeof referrerCheck !== 'undefined' && referrerCheck()) {
+        s.prop56 = "PerfectMarket";
+    }
+
+    if (typeof isUserGrazer === 'function') {
+        if(storyExists === 'true' && isUserGrazer() && window.segmentation.grazers) {
+            s.prop56 = 'Grazer';
+        }
+    }
+
+    
+    
+    //
+    // Special check for override templates to track whether they have ads
+    //
+
+    (function($, s) {
+
+        var adCount = 0;
+
+        //
+        // If we aren't on sideways, don't count those ads
+        // (Sideways ads are built client-side; the scaffolding always exists.)
+        //
+
+        if( typeof s.prop56 === 'undefined' || s.prop56 === '' ) {
+            var adDivs = $('.dfp-ad-container').not( '.sideways-ad' );
+        } else {
+            var adDivs = $('.dfp-ad-container');
+        }
+
+        for( var i = 0, j = adDivs.length; i < j; i++ ) {
+
+            //
+            // CSS is hiding ad, skip it
+            //
+
+            if( $(adDivs[i]).is(':hidden' ) ) {
+                continue;
+            }
+
+            //
+            // Don't count ads in the navigation bar
+            //
+
+            var adDivIdParts = adDivs[i].id.split('-');
+            var adNameParts = adDivIdParts.slice(4, adDivIdParts.length);
+            var adName = adNameParts.join('-');
+            if( $.inArray( adName, [ 'navtab', 'nav-flag' ] ) !== -1 ) {
+                continue;
+            }
+
+            //
+            // Whatever is left is a valid ad
+            //
+
+            adCount++;
+        }
+
+        s.prop54 = ( adCount > 0 ) ? 'Override Template Ads' : 'Override Template No Ads';
+
+    })(jQuery, s);
+
+    
+
+	if(isWelcomeShowing()){
+		s.prop21 = "Welcome Screen";
+	}
+
+    var s_code=s.t();if(s_code)document.write(s_code);
+
+    //Click Tracking
+    function userInteraction(events, vars, linkName) {
+        try {
+            s.linkTrackEvents = events.join(',');
+            s.events = s.linkTrackEvents;
+            s.linkTrackVars = 'events';
+            if (typeof vars === 'object') {
+                for (var key in vars) {
+                    if (vars.hasOwnProperty(key)) {
+                        s[key] = vars[key];
+                        s.linkTrackVars += ',' + key;
+                    }
+                }
+            }
+            s.tl(this, 'o', 'user interaction: ' + linkName);
+        } catch (e) {}
+    }
+
+    function trackClick( clickData ) {
+        var vars = {
+            'eVar44':'startribune.com',
+            'eVar45':clickData.modulename,
+            'eVar46':'D=pageName',
+            'eVar47':clickData.linkPosition,
+            'eVar48':clickData.linkname,
+            'eVar50':clickData.zonetype,
+            'eVar56':'local',
+            'eVar57':clickData.contentType,
+            'eVar58':clickData.linktype,
+            'eVar73':clickData.moduletype,
+            'eVar74':'story',
+            'eVar75':clickData.modulePosition
+        };
+
+        if (clickData.share) {
+            vars['eVar95'] = clickData.share;
+        }
+
+        userInteraction(clickData.events, vars, clickData.linkname );
+    }
+    $(document).ready(function() {
+        $(document).on('click', 'a, input[type=submit]', function() {
+            analyticsClickTracking( $(this) );
+
+            return true;
+        });
+
+        //to fix Adobe bug that grabs our custom vars (lnk_o) on the lnk_e tracking calls
+        $(document).on('click', '.article-share a', function() {
+            setTimeout(function() {
+                s.clearVars();
+            },1000)
+        });
+
+        if ( $('.fly-in').length > 0 ) {
+            // Add a data attribute to the meter fly-in so it will be detected by click tracking
+            $('.fly-in-start-btn').attr('data-linkname', 'fly-in');
+        }
+    });
+</script>
+<!-- End Omniture Tag -->
+
+
+<!-- Begin Chartbeat Tag -->
+<script type="text/javascript">
+    var _sf_async_config = _sf_async_config || {};
+    _sf_async_config.sections = s.channel;
+    _sf_async_config.authors = s.prop35;
+    _sf_async_config.virtualReferrer = getUserReferrer();
+    if ( typeof isHome !== 'undefined' &&
+        isHome &&
+        window.location.href.indexOf( 'refresh=true' ) > -1 &&
+        window.location.pathname === '/'
+    ) {
+        _sf_async_config.title = s.pageName;
+        _sf_async_config.sections = s.prop3;
+    }
+    var chartBeatAwesomeUser;
+    var segment = getAudienceSegmentType();
+
+    if ( segment == 'Intender' ) {
+        chartBeatAwesomeUser = 'lgdin';
+    }
+    else if ( segment == 'Test Driver' ) {
+        chartBeatAwesomeUser = 'anon';
+    }
+    else if ( segment == 'Subscriber' ) {
+        chartBeatAwesomeUser = 'paid';
+    }
+    var _cbq=window._cbq||[];
+    _cbq.push(['_acct',chartBeatAwesomeUser]);
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+                (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+                "js/chartbeat_video.js");
+            document.body.appendChild(e);
+        }
+        jQuery(function(){loadChartbeat();});
+    })();
+</script>
+<!-- End Chartbeat Tag -->
+
+
+
+                        
+    <!-- BEGIN:  Snowplow analytics -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var triedTimes = 1;
+            var tooManyTimes = 4;
+            var intervalId;
+            var delay = 500; // milliseconds
+
+            function displayNow() {
+                if ($.cookie("s_vi")) {
+                    return true;
+                }
+                return false;
+            }
+
+            var displaySnowplow = function() {
+                ;
+                (function (p, l, o, w, i, n, g) {
+                    if (!p[i]) {
+                        p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                        p.GlobalSnowplowNamespace.push(i);
+                        p[i] = function () {
+                            (p[i].q = p[i].q || []).push(arguments)
+                        };
+                        p[i].q = p[i].q || [];
+
+                        n = l.createElement(o);
+                        g = l.getElementsByTagName(o)[0];
+                        n.async = 1;
+                        n.src = w;
+                        g.parentNode.insertBefore(n, g);
+                    }
+                }(window, document, "script", "http://assets.startribune.com/static/js/snowplow/sp.js?d=1531162243", "snowplow"));
+                var firstPageType = "";
+                if (!$.cookie('snowp_first_page_type')) {
+                    firstPageType = "story";
+                    $.cookie('snowp_first_page_type', firstPageType, {expires: 30, path: '/'}   );
+                } else {
+                    firstPageType = $.cookie('snowp_first_page_type');
+                    $.cookie('snowp_first_page_type', firstPageType, {expires: 30, path: '/'}   );
+                }
+                // Data Layer Object
+                var objDL = {
+                    getSegment: function () {
+                        // Return current Segment based on global variables
+                        if (getUserSubscriptionId() != "No DTI ID") {
+                            return 400;     // "Subscriber";
+                        } else if (this.getVisitDayCountNumberDaysUserVisitedPast30() == 1 &&    this.isFirstViewArticle()) {
+                            // First visit day count in past 30 days, enter on story/blog   page, non-subscriber
+                            return 100;     // "Grazer";
+                        } else if (this.getVisitDayCountNumberDaysUserVisitedPast30() < 5 ) {
+                            // Visit day count = 2 - 4, OR Visit day count = 1 AND enter non-   story/non-blog page
+                            return 200;     //"Test Driver";
+                        } else if (this.getVisitDayCountNumberDaysUserVisitedPast30() > 4) {
+                            //Visit day count = 5+
+                            return 300;     // "Intender";
+                        }
+                        return 0;       // Should not happen
+                    },
+                    isFirstViewArticle: function () {
+                        // Is/was the first page viewed an article (that is, page type ==   "story")?
+                        return (firstPageType == 'story');
+                    },
+                    getFirstPageType: function () {
+                        return firstPageType;
+                    },
+                    getAdobeId: function () {
+                        return $.cookie("s_vi") || 'No Adobe ID';
+                    },
+                    getContentArticleId: function () {
+                        return this.dataSet.contentArticleID;
+                    },
+                    getContentPageType: function () {
+                        return this.dataSet.contentPageType;
+                    },
+                    getContentAuthor: function () {
+                        return this.dataSet.contentAuthor;
+                    },
+                    getContentPubDate: function () {
+                        return this.dataSet.contentPubDate;
+                    },
+                    getContentSection: function () {
+                        return this.dataSet.contentSection;
+                    },
+                    getContentSubsection: function () {
+                        return this.dataSet.contentSubsection;
+                    },
+                    getCurrentUserSegment: function () {
+                        return this.getSegment();
+                    },
+                    getDtiId: function () {
+                        return getUserSubscriptionId();
+                    },
+                    getEmailAddress: function () {
+                        return this.dataSet.emailAddress;
+                    },
+                    getLoggedInStatus: function () {
+                        return this.dataSet.loggedInStatus;
+                    },
+                    getReferringDomain: function () {
+                        return document.referrer;
+                    },
+                    getSubscriptionType: function () {
+                        return $.cookie("st_usr_products");
+                    },
+                    getUserSubscriptionPurchases: function () {
+                        return $.cookie("meter_sign_up");
+                    },
+                    getUsername: function () {
+                        return this.dataSet.username;
+                    },
+                    getPagesViewed: function () {
+                        return this.userBehavior['pageviewed'];
+                    },
+                    getpageViewCount: function () {
+                        return this.userBehavior['pagecount'];
+                    },
+                    getVisitDayCountNumberDaysUserVisitedPast30: function () {
+                        return parseInt(window.visitDays30) || 0;
+                    },
+                    getLoginAccountId: function () {
+                        return $.cookie("st_usr_saml_id") || 'No Login Account ID';
+                    },
+                    dataSet: {
+                        contentPubDate: "November 14, 2017",
+                        contentSection: "local",
+                        contentSubsection: "Local",
+                        contentAuthor: "Chris Serres Star Tribune",
+                        contentPageType: "story",
+                        contentArticleID: "450626193",
+                        username: "",
+                        dti_Id: "",
+                        emailAddress: "",
+                        loggedInStatus: "",
+                        referringDomain: "",
+                        pageName: "Meet the Minnesota lawyer taking on the senior-care industry"
+                    }
+                };
+                objDL.dataSet.firstPageType = $.cookie('snowp_first_page_type');
+                var snowplowData = {
+                    collectorURL: 'd1epsz32winqbo.cloudfront.net',
+                    dataSet: {}
+                };
+                snowplowData.dataSet.adobeId = objDL.getAdobeId();
+                snowplowData.dataSet.contentArticleId = objDL.getContentArticleId();
+                snowplowData.dataSet.contentArticleType = objDL.getContentPageType();
+                snowplowData.dataSet.contentAuthor = objDL.getContentAuthor();
+                snowplowData.dataSet.contentPubDate = objDL.getContentPubDate();
+                snowplowData.dataSet.contentSection = objDL.getContentSection();
+                snowplowData.dataSet.contentSubsection = objDL.getContentSubsection();
+                snowplowData.dataSet.currentUserSegment = objDL.getCurrentUserSegment();
+                snowplowData.dataSet.dtiId = objDL.getDtiId();
+                snowplowData.dataSet.emailAddress = objDL.getEmailAddress();
+                snowplowData.dataSet.loggedInStatus = objDL.getLoggedInStatus();
+                snowplowData.dataSet.referringDomain = objDL.getReferringDomain();
+                snowplowData.dataSet.subscriptionType = objDL.getSubscriptionType();
+                snowplowData.dataSet.username = objDL.getUsername();
+                snowplowData.dataSet.visitDayCountNumberDaysUserVisitedPast30 = objDL.  getVisitDayCountNumberDaysUserVisitedPast30();
+                snowplowData.dataSet.loginAccountId = objDL.getLoginAccountId();
+
+                window.snowplow('newTracker', 'co', snowplowData.collectorURL, { //     Initialize Snowplow tracker
+                    appId: 'startribune_web',
+                    platform: 'web',
+                    contexts: {
+                        webPage: true
+                    }
+                });
+                window.snowplow('enableActivityTracking', 5, 5); // Track time spent
+                window.snowplow('trackPageView', document.title, [ // Auto-set page title;  add page context
+                    {
+                        schema: "iglu:com.startribune/trackPageView/jsonschema/1-0-15",
+                        data: snowplowData.dataSet
+                    }
+                ]);
+
+                if (localStorageAvailable()) {
+                    var minutesSinceFetch = null;
+
+                    if (localStorage.getItem('visitorAndContentDataLastFetched')                    ) {
+                        var timeStampValue = localStorage.getItem(' visitorAndContentDataLastFetched');
+                        var lastDate = new Date(timeStampValue);
+                        var currentDate = new Date();
+                        minutesSinceFetch = Math.floor(Math.abs(lastDate - currentDate) /   60000);
+                    }
+                    if(minutesSinceFetch == null || minutesSinceFetch > 60)
+                    {
+                        $.get('http://www.startribune.com/api/personalize', function (data) {
+                            var jsonData = JSON.stringify(data);
+                            localStorage.setItem('visitorAndContentData', jsonData);
+                        });
+                        localStorage.setItem('visitorAndContentDataLastFetched', new Date());
+                    }
+                }
+            };
+
+            if (displayNow()) {
+                displaySnowplow();
+            }
+            else {
+                intervalId = setInterval(repeatThisFunction, delay);
+            }
+
+            function repeatThisFunction() {
+                triedTimes++;
+                if (triedTimes >= tooManyTimes || displayNow()) {
+                    clearInterval(intervalId);
+                    displaySnowplow();
+                }
+            }
+        });
+    </script>
+<!-- END: Snowplow analytics -->
+
+    <script type="text/javascript">
+        var src = 'https://ds.reson8.com/insights.gif' +
+            '?rand=' + new Date().getTime() +
+            '&t=0&pixt=resonate&advkey=0013000000O4v2fAAB&opptykey=STRI0117A&evkey=159130&evtype=custom&resnc1=esp&resnc2=open' +
+            '&resnc3=' + readCookie('st_usr_saml_id') +
+            '&resnc4=' + s.prop1 +
+            '&resnc6=' + s.prop9 +
+            '&resnc7=' + s.prop10 +
+            '&resnc8=' + s.prop33 +
+            '&resnc9=' + s.prop39;
+
+        var img = document.createElement('img');
+        img.id = 'resonate';
+        img.src = src;
+        img.width = 1;
+        img.height = 1;
+        img.border = 0;
+        document.body.appendChild(img);
+    </script>
+
+
+    
+    <script>
+        var section = {name:'Local',path:'\x2Flocal',subdomain:'www',linkdomain:'startribune.com'};
+    </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWTSNPP"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+	<script type="text/javascript">
+var reloadTimerLong = null;
+if(typeof reloadTimerActive === 'undefined') {
+  var reloadTimerActive = true;
+}
+reloadTimerLong = window.setTimeout(function() { if(reloadTimerActive) { window.location.reload(false); } } , 3600000 );
+</script>
+
+	 	  <script type="text/javascript">
+	          window._taboola = window._taboola || [];
+        _taboola.push({flush: true});
+      </script>
+      
+            <script id="e2ma-embed">window.e2ma=window.e2ma||{};e2ma.accountId='1788361';</script><script src="//dk98ddgl0znzm.cloudfront.net/e2ma.js" async="async"></script>
+    
+<div id="react-js-append-modal"></div>
+
+<script type="text/javascript">
+    StarTribune.user.refreshProducts();
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f550207221","applicationID":"60731094","transactionName":"M1JaYBQAVhVYW0cPWwoYeVcSCFcIFltcCEABWUw=","queueTime":0,"applicationTime":468,"atts":"HxVZFlwaRRs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+
+  <script>
+       </script>

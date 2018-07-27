@@ -1,0 +1,72 @@
+
+
+
+
+
+EurekAlert! provides embargoed and breaking science news you can't afford to miss.
+
+
+EurekAlert! offers a one-stop science news distribution service you can trust.
+
+
+EurekAlert! is a service of the American Association for the Advancement of Science.
+
+Minimally invasive, cost-effective alternative to endoscopy identifies precursor to cancer of the esophagus
+
+Case Western Reserve University
+
+Investigators at Case Western Reserve University School of Medicine and University Hospitals Cleveland Medical Center have developed a simple, swallowable test for early detection of Barrett's esophagus that offers promise for preventing deaths from esophageal adenocarcinoma. 
+
+Barrett's esophagus (BE) is the precursor lesion of esophageal adenocarcinoma (EAC), a highly lethal cancer with more than 80 percent mortality at five years. Lethal EAC can be prevented when patients are diagnosed at the precursor stage of Barrett's esophagus, and early foci of near cancerous changes (dysplasias) are ablated. However, detection of BE has traditionally necessitated endoscopy, an expensive and invasive test that requires sedation and is thus unsuitable as a method for wide BE screening. In a significant step forward, the team has developed an easy, five minute outpatient test that is more than 90 percent sensitive for detecting individuals with BE. Patients simply swallow a vitamin pill sized balloon that swabs the esophagus, and that, after retrieval through the mouth, is tested for DNA abnormalities that the investigators discovered are diagnostic of BE. A study describing the development of the test and the results from its clinical trial in patients has been published in today's issue of Science Translational Medicine.
+
+The swallowable balloon device was developed by Case Western Reserve School of Medicine faculty and University Hospitals physicians Amitabh Chak, MD (Professor of Medicine and head of the NIH-Case Barrett's Esophagus Translational Research Network "BETRNet" program), Joseph Willis, MD (Professor of Pathology and Pathology Vice-Chair for Clinical Affairs), and Sanford Markowitz, MD, PhD (Ingalls Professor of Cancer Genetics and head of the NIH-Case GI Cancers "SPORE" Program of Research Excellence). Helen Moinova, PhD, study first author and instructor at Case Western Reserve School of Medicine, led a parallel effort within the Markowitz laboratory to identify DNA changes diagnostic of Barrett's. Using genome-wide sequencing approaches, Dr. Moinova identified two genes, VIM and CCNA1, that each get chemically modified by DNA methylation in BE. Dr. Moinova's DNA methylation test was more than 90 percent accurate in detecting BE or in recognizing an esophagus as normal in a set of more than 300 esophagus endoscopy samples collected by Dr. Chak's multicenter BETRNet team. Under sponsorship from the SPORE and BETRNet programs, Dr. Chak then led a clinical trial in which 86 individuals were tested using the swallowable esophageal balloon device. Dr. Moinova's DNA assay of these balloon samples was again more than 90 percent accurate, with 90.3 percent sensitivity for detecting individuals with BE and 91.7 percent specificity for correctly identifying individuals who were normal.
+
+"Our goal is early detection," said Dr. Chak. "Symptoms of Barrett's esophagus, such as heartburn, can also be commonly seen in individuals who have acid reflux disease without BE. These symptoms can easily be treated by over the counter medications so people often don't get tested for BE, particularly by an invasive test such as endoscopy. As a result, when individuals develop EAC, 95 percent of the time the presence of the prior Barrett's esophagus was undetected and unknown. We wanted an easier, less costly test that could provide a practical way for screening and early detection of individuals with BE, who can then be followed closely to prevent development of EAC." 
+
+In the clinical trial, patients tolerated the balloon test well, with 82 percent reporting little to no anxiety, pain, or choking, 93 percent stating they would repeat the procedure again, and 95 percent stating they would recommend the test to others. The balloon device that patients swallowed is a pill-sized capsule attached to a thin silicone catheter. After delivery to the stomach, the small balloon was inflated by injecting air through the catheter. The inflated balloon was maneuvered to swab the lower esophagus near the stomach, the region where BE begins, and obtain a sample of the lining cells. Surface texturing on the balloon increased the effectiveness of the sampling. The balloon was then deflated through the catheter and inverted back into the capsule, thus protecting the esophagus sample from dilution or contamination. After retrieval of the capsule through the mouth, DNA was extracted from the balloon surface for the DNA methylation test. 
+
+In an earlier study, the team had previously identified that VIM DNA methylation is common in BE.  The genomic technology employed in the new study discovered CCNA1 DNA methylation is equally common in BE. "Having two accurate biomarkers increases confidence in our ability to correctly diagnose Barrett's esophagus," said Dr. Moinova. "Taken together, our findings show that non-endoscopic balloon sampling paired with molecular tests for the methylated VIM and CCNA1 biomarkers is effective in addressing the need for simple, non-invasive, safe, and accurate Barrett's esophagus screening."
+
+Dr. Willis is currently leading an NIH supported effort to implement the VIM and CCNA1 DNA tests as a standardized clinical test that will be provided by the University Hospital's pathology department. Dr. Markowitz noted that, "We are fortunate to be the only academic medical center in the country to which the NIH has awarded both a GI Cancers SPORE and a BETRNet program. The $18 million in support from these NIH awards has allowed us to build a premier team for developing new approaches for early detection, prevention and treatment of GI cancers. However, credit for this advance most importantly belongs to each of the patients who so generously participated in the clinical trial of this exciting new technology."
+
+###
+
+The research team also included additional investigators from University Hospitals Cleveland Medical Center, the Cleveland Clinic, Mayo Clinic, The Johns Hopkins Medical Institutions, the University of North Carolina, Washington University at Saint Louis School of Medicine, and Kent State University.
+
+In addition to support from the NIH, the work also received support from the American Cancer Society, the Case-Coulter Partnership for Translational Research and the Ohio Third Frontier Technology and Validation Start-Up Fund. Case Western Reserve University has filed patents on the esophageal balloon device and the VIM and CCNA1 DNA tests.
+
+For more information about Case Western Reserve University School of Medicine, please visit: case.edu/medicine. 
+
+About University Hospitals / Cleveland, Ohio
+
+
+
+Founded in 1866, University Hospitals serves the needs of patients through an integrated network of 18 hospitals, more than 40 outpatient health centers and 200 physician offices in 15 counties throughout northern Ohio. The system's flagship academic medical center, University Hospitals Cleveland Medical Center, located on a 35-acre campus in Cleveland's University Circle, is affiliated with Case Western Reserve University School of Medicine. The main campus also includes University Hospitals Rainbow Babies &amp; Children's Hospital, ranked among the top children's hospitals in the nation; University Hospitals MacDonald Women's Hospital, Ohio's only hospital for women; and University Hospitals Seidman Cancer Center, part of the NCI-designated Case Comprehensive Cancer Center. UH is home to some of the most prestigious clinical and research programs in the nation, including cancer, pediatrics, women's health, orthopedics, radiology, neuroscience, cardiology and cardiovascular surgery, digestive health, transplantation and urology. UH Cleveland Medical Center is perennially among the highest performers in national ranking surveys, including "America's Best Hospitals" from U.S. News &amp; World Report. UH is also home to Harrington Discovery Institute at University Hospitals - part of The Harrington Project for Discovery &amp; Development. UH is one of the largest employers in Northeast Ohio with 27,000 employees. Follow UH on Facebook @UniversityHospitals and Twitter @UHhospitals.  For more information, go to UHhospitals.org.
+
+
+Disclaimer: AAAS and EurekAlert! are not responsible for the accuracy of news releases posted to EurekAlert! by contributing institutions or for the use of any information through the EurekAlert system.
+
+Media Contact
+
+Ansley Gogol
+ansley.gogol@case.edu
+216-368-4452
+
+ @cwru
+
+
+
+
+
+http://www.case.edu 
+
+Case Western Reserve University
+
+
+
+
+
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)
+
+Copyright © 2018 by the American Association for the Advancement of Science (AAAS)

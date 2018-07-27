@@ -1,0 +1,42 @@
+{
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Tcpalm.com"
+      },
+      "author": "The Associated Press, Joshua Replogle and Ben Fox, The Associated Press",
+      "title": "Sen. Bill Nelson, Rep. Debbie Wasserman Schultz barred from Florida child migrant facility",
+      "description": "Sen. Bill Nelson and Rep. Debbie Wasserman Schultz were not permitted entry into the contractor-run shelter in Homestead on Tuesday.",
+      "url": "https://www.tcpalm.com/story/news/local/florida/2018/06/19/florida-lawmakers-barred-child-migrant-facility-homestead/716253002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/a761b0955998d1de9424df64006eda515a1c0229/c=0-352-5753-3602&r=x1683&c=3200x1680/local/-/media/2018/06/19/Naples/Naples/636650181131065124-AP18170622324311.jpg",
+      "publishedAt": "2018-06-19T23:23:18Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tcpalm.com"
+      },
+      "author": "The Associated Press, Joshua Replogle and Ben Fox, The Associated Press",
+      "title": "Sen. Bill Nelson, Rep. Debbie Wasserman Schultz barred from Florida child migrant facility",
+      "description": "Sen. Bill Nelson and Rep. Debbie Wasserman Schultz were not permitted entry into the contractor-run shelter in Homestead, Florida, on Tuesday.",
+      "url": "https://www.tcpalm.com/story/news/local/florida/2018/06/19/florida-lawmakers-barred-child-migrant-facility-homestead/716253002?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/a761b0955998d1de9424df64006eda515a1c0229/c=0-352-5753-3602&r=x1683&c=3200x1680/local/-/media/2018/06/19/Naples/Naples/636650181131065124-AP18170622324311.jpg",
+      "publishedAt": "2018-06-20T00:33:19Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-press.com"
+      },
+      "author": "Fort Myers News-Press, Patricia Borns, Fort Myers News-Press",
+      "title": "Relief, anger follow lawmakers' visit to migrant children's shelter in South Florida",
+      "description": "The best news: most kids are in touch with their parents. The worst: no plan or time table for reuniting them.",
+      "url": "https://www.news-press.com/story/news/2018/06/23/relief-anger-follow-u-s-sen-nelsons-visit-homestead-migrant-childrens-shelter/723697002?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/4c53964d6e4c2141a8f0faa6b209a83a727d3670/c=0-373-4032-2651&r=x1683&c=3200x1680/local/-/media/2018/06/22/FortMyers/FortMyers/636652783198602850-CWXErdUXQKqILxe8dalZjg.jpg",
+      "publishedAt": "2018-06-24T03:02:38Z"
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,118 @@
+Apple Pay has been available to use in stores and select apps and websites ever since its first appearance in iOS 8.1. Now that iOS 11 is out, there are currently ten different iPhone models that support Apple Pay functionality without the use of an Apple Watch, and the list of partnered stores that accept Apple Pay has only grown. Here's our always-up-to-date list to keep you in the know.
+
+
+Firstly, since iPhone 6 and later iPhone models have NFC-technology built in, pretty much any shop that has a functioning contactless reader (and employees who know how it works) will accept Apple Pay, just like they will Google Wallet and NFC-chipped cards. Just look for the Apple Pay icon or the universal contactless smart card reader sign on card readers and point-of-sale (POS) terminals in stores.
+
+Don't Miss: How to Send &amp; Receive Apple Pay Cash via Messages in iOS 11
+
+If you want to see exactly which businesses accept Apple Pay right now, here's a full list for physical locations, as well as places that do not accept Apple Pay or have been known to disable it entirely. There are also a bunch of iOS apps that will accept Apple Pay, so scroll down for that list, too. And if you need help setting up and using it, check out the bottom of this guide for some quick walkthroughs.
+
+
+Here's the official list of Apple Pay partners accepting contactless payments in stores. While it does not include every shop, restaurant, or service, you can most definitely be sure that it'll work in these places, as employees have most likely been thoroughly trained to prepare for the questions shoppers will have.
+
+
+Anyone with a "(confirmed)" next to their name are retailers who aren't on Apple's official list, but who have officially stated they accept Apple Pay.
+
+
+Don't Miss: How to Make Person-to-Person Payments via iMessage wth Apple Pay Cash
+
+Again, these are stores that say Apple Pay is a go for payments, but the list is much bigger since most stores with contactless payment readers will work. Hell, even vending machines with the tech will work. So, if you see the Apple Pay icon or the universal contactless smart card reader sign, give it a shot. The worst thing that can happen is that it won't work.
+
+
+Apple Pay VP Jennifer Bailey said at a conference in Jan. 2018 that Apple Pay is now accepted in 50% of all retail stores right now, which is amazing considering it started out with just 3% of stores when Apple Pay first rolled out in 2014. So, you've got a 50/50 shot that Apple Pay will work if you try it.
+
+
+Plus, more payment terminals such as Square Reader, PrestoPrime EMV, and Ziosk are offering support for Apple Pay in newer systems that any big business or mom-and-pop shop can use.
+
+There's a quick trick you can use in Apple Maps to see what places around you accept Apple Pay. Simply open up the Maps app, then search for "Apple Pay." It will show you all of the businesses around you that likely accept it, and you can view more information for each one to see either the Apple Pay logo and/or "Accepts Apple Pay" under Useful to Know. You can also search and select a specific business and look at the Useful to Know section to see.
+
+The following are businesses that have promised to get Apple Pay compatibility up and running at some point, so be on the lookout. It's possible that some of these have abandoned plans or have actually already begun taking Apple Pay and we just haven't confirmed it yet.
+
+
+While most stores with the universal contactless smart card reader sign will accept Apple Pay and other NFC-based payments, there are few stores that either haven't added support specifically for Apple Pay yet, have no intention of doing so, or haven't been confirmed to support Apple Pay yet (if you know, let us know in the comments!).
+
+
+Don't Miss: How to Accept or Reject Money from Friends &amp; Family with Apple Pay Cash
+
+Some stores below had previously partnered with MCX (which was later purchased by Chase) and its now-defunct CurrentC project. Others have partnered with options such as PayPal, Chase Pay, and Buy It Mobility or have come up with their own contactless payment system.
+
+
+Not all of these merchants below will refuse Apple Pay, but they have not officially accepted it as far as we can tell. Some stores, like CVS, have confirmed disabling NFC card readers to prevent Apple Pay use (though, some renegade stores will still accept it). Ones with asterisks (*) below may now accept Apple Pay but it has not been confirmed yet.
+
+
+If you don't like shopping in stores, the below iOS apps have accepted Apple Pay at some point in time and/or currently do right now. While there is no longer a huge list maintained by Apple, we'll try to keep this update as we find new ones that add Apple Pay support on iOS, but keep in mind that Apple Pay has been live since Oct. 2014, so there's probably a lot more apps that use it than just listed below.
+
+
+There currently is no official list of apps that have promised to accept Apply Pay payments for purchases made in their apps, but here's what we've heard through the grapevine.
+
+
+Apple also notes on their website that the following charities and nonprofits accept Apple Pay donations, so if you're in the giving spirit, give one of these a try.
+
+
+If you need help setting up Apple Pay for Wallet on your iPhone, it's as easy as opening up the Wallet app, tapping the "+" sign, scanning your card, and following the rest of the prompts. Right now, there are over 2,300 participating banks and credit unions in the United States, so it's not even worth trying to mention any of them. If it's a bank, chances are high that you can add your account to Apple Pay.
+
+
+Don't Miss: Get Rid of Persistent Wallet Suggestions on Your iPhone's Lock Screen
+
+Using Apple Pay on your iPhone to make purchases is easy as it gets. In stores, just hold your registered fingerprint on the Touch ID surface, then move the iPhone close to the payment terminal to submit the payment using your preferred card. If you'd rather use a different card, double-click the Home button, select your card, then hold it near the payment terminal with your finger on Touch ID.
+
+If you have an iPhone X, the process is a little different. You need to double-click the Side button, choose a different payment card if you don't want to use the default one, let Face ID scan your face, then hold the iPhone near the payment terminal.
+
+
+More Info: How to Use Apple Pay with Face ID on the New iPhone X
+
+Did we miss any big brands out there accepting Apple Pay right now? Let us know and we'll continue to update this list.
+
+
+Don't Miss: 12 Cool New Features Coming in iOS 12 for iPhone
+
+I work at Home Depot and apple pay does work at my store
+
+Its really to soon to say, but from the list I would have to say Apple Pay = Epic Fail.
+
+Kum and Go accepts Apple Pay. At least in Iowa they do...
+
+I paid for groceries with Apple Pay at Harris Teeter yesterday. YMMV.
+
+everyone able to use apple pay should go to each store in the list "Stores That Won't Accept Apple Pay Right Now (Or Ever)" and when they refuse to accept our apple pay leave the shopping cart full of purchases they missed out on selling to let the retailer know how much in sales they are actually missing out on for not accepting apple pay
+
+I tried to use Apple Pay at Kum &amp; Go this morning and it failed to work?!? I've used Apple Pay previously at this store twice! Was this a one time anamoly or has Kum &amp; Go shut Apple Pay down? I used the same card etc and it failed.
+
+I've used it at Arco and Texaco gas stations inside the store, always works. Same with my local Home Depot. I don't often remember to use it (it's automatic to pull out a card), but everywhere I've tried it, it has worked.
+
+Those merchants who refuse to accept Apple Pay;
+
+
+You are gladly taking my credit cards day and night without safeguarding my identity but you have problem when I want to use the same credit card in secure way.
+
+
+I have problem with you and criminals who stealing our card information and I will only shop where my safety can be assured.
+
+Places I've recently been able to use Apple Pay:Walgreens (of course)Home Depot (in Vicksburg, MS)Firehouse Subs (in Flowood, MS)
+
+Missed Retail: Sprouts Farmer's Market, Reasors Markets Oklahoma
+
+
+Missed App: Gyft which allows you to buy Gift cards using Apple Pay which can then be used to buy at merchants who don't support it if you have no alternative. javascript:// Post
+
+
+Another App: Seat Geek (Ticketing)
+
+
+CircleK has NFC readers but turned off.
+
+I used apple pay at CVS Pharmacy (accepted for non-prescription goods), but it is not on the list
+
+My local Shoprite works with apple pay. It doesn't advertise it on the pad but I tried it one day and have been using it ever since.
+
+Hello! As we probably know by now, Apple Pay has now landed in the UK. Can we also list down merchants there who accept it?
+
+Works @ Rite Aid for me all the time.
+
+Yep, they allow it now. Thanks for mentioning. Updated the guide!
+
+QuikTrip has begun rolling out NFC readers at a few locations and should be finished by the end of this month.
+
+Just to confirm that Chili's accepts Apple Pay, as well as Wawa gas stations. Some of the Wendy's in my city are accepting Apple Pay and some don't (haven't turned it on).
+
+ShopRite and Acme Markets both accept apple pay in NJ. I dont know if this varies by state.

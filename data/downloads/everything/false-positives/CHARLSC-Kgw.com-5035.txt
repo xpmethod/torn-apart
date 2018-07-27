@@ -1,0 +1,50 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 88 degrees
+
+COLUMBIA, S.C. — The sister of the man convicted of murdering nine people at a historically black South Carolina church was arrested Wednesday on charges of carrying weapons and drugs on school property, police said. 
+
+
+Morgan Roof, 18, was charged with simple possession of marijuana and two counts of carrying weapons on school grounds, according to the Richland County (S.C.) Sheriff's Department.
+
+An administrator at A.C. Flora High School in Columbia contacted a school resource officer about Roof having marijuana, pepper spray and a knife at school, deputies said. She also made a Snapchat post about National Walkout Day — when students across the country walked out of class to protest gun violence — that alarmed students, officers said.
+
+
+April 2017: Dylann Roof pleads guilty to state murder charges in church rampage
+
+
+January 2017: Charleston shooter death sentence goes against national trend
+
+
+January 2017: Federal jury sentences Dylann Roof to death
+
+
+She wrote that she hoped the walkout was a trap and that students would be shot, according to officers.
+
+Roof is the sister of white supremacist and mass murderer Dylann Roof. Dylann Roof was sentenced to death last year for killing parishioners at a Bible study inside Emanuel African Methodist Episcopal Church in Charleston in 2015. In addition to his death sentence, Dylann Roof pleaded guilty in April 2017 to state charges and was sentenced to life in prison. 
+
+
+Dylann Roof was 21 when he walked into a Bible study group at the Charleston church on June 17, 2015, staying for almost an hour before opening fire. Survivors told police that Roof, who is white, shouted racist epithets during the massacre. Roof told at least one survivor that he was letting her live so she could tell others what happened.
+
+
+Morgan Roof was arrested for violating school policy. Roof was taken to the Richland County Detention Center. Bond was set at $5,000, and she was screened for a public defender. She is not allowed to return to school.
+
+AC Flora eFormation - A Letter From Principal Childs - https://t.co/oZifzHEgmT
+
+School principal Susan Childs posted a letter to parents on the school's Twitter page explaining what occurred while students walked out to remember the 17 killed in the Parkland, Fla., Valentine's Day school shooting.
+
+
+Contributing: John Bacon, USA TODAY; The Associated Press. Follow WLTX-TV on Twitter: @WLTX

@@ -1,0 +1,1557 @@
+
+
+
+
+
+    function arc_editor(el) {
+    	$(el).redactor({
+			minHeight: 200,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['imagemanager'],
+			buttons: ['bold', 'italic', 'lists', 'link', 'image'],
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		            $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+    	/*
+	$(el).ckeditor(function() {}, {
+//			removePlugins: 'elementspath,scayt,menubutton,contextmenu',
+			removePlugins: 'liststyle,tabletools,contextmenu',
+			//plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,htmldataprocessor,iframe,image,indent,justify,keystrokes,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,vimeo,youtube',
+			//toolbar: [['Bold', 'Italic', 'BulletedList', 'Link', 'Image', 'Youtube', 'Vimeo' ]],
+			plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,htmldataprocessor,iframe,image,indent,justify,keystrokes,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList', 'Link', 'Image']],
+			resize_dir: 'vertical',
+			resize_enabled: false,
+			//disableObjectResizing: true,
+			forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			linkShowAdvancedTab: false,
+			linkShowTargetTab: false,
+			language: 'en',
+			customConfig : '',
+			toolbarCanCollapse: false  });
+		*/
+    }
+
+	function arc_editor_feature(el) {
+    	$(el).redactor({
+			minHeight: 300,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['source', 'imagemanager'],
+			buttons: ['html', 'format', 'bold', 'italic', 'underline', 'lists', 'link', 'image'],
+			formatting: ['p'],
+			formattingAdd: {
+				"figcaption": {
+					title: 'Caption',
+					args: ['p', 'class', 'figcaption', 'toggle']
+				},
+				"subheading": {
+					title: 'Subheading',
+					args: ['h3', 'class', 'subheading', 'toggle']
+				},
+				"pullquote-left": {
+					title: 'Quote Left',
+					args: ['blockquote', 'class', 'pullquote-left', 'toggle']
+				},
+				"pullquote-centered": {
+					title: 'Quote Centered',
+					args: ['blockquote', 'class', 'pullquote-center', 'toggle']
+				},
+				"pullquote-right": {
+					title: 'Quote Right',
+					args: ['blockquote', 'class', 'pullquote-right', 'toggle']
+				},
+			},
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		            $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+		/*
+		$(el).ckeditor(function() {}, {
+//			removePlugins: 'elementspath,scayt,menubutton,contextmenu',
+			removePlugins: 'liststyle,tabletools,contextmenu',
+			//plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,htmldataprocessor,iframe,image,indent,justify,keystrokes,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,vimeo,youtube',
+			//toolbar: [['Bold', 'Italic', 'BulletedList', 'Link', 'Image', 'Youtube', 'Vimeo' ]],
+			plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,htmldataprocessor,iframe,image,indent,justify,keystrokes,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList' , 'Link', 'Image','FontSize','TextColor']],
+			resize_dir: 'vertical',
+			resize_enabled: true,
+			//disableObjectResizing: true,
+			forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			toolbarCanCollapse: false  });
+		*/
+    }
+
+    function arc_remove_editor(el) {
+    	$(el).redactor('core.destroy');
+    	/*
+		$(el).ckeditor(function(){
+			this.destroy();
+		});
+		*/
+    }
+
+    function arc_editor_423(el, extra_params) {
+    	if (extra_params === undefined)
+    	{    		
+    		extra_params = false;
+    	}
+    	$('#' + el).redactor({
+			minHeight: 200,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['imagemanager'],
+			buttons: ['bold', 'italic', 'lists', 'link', 'image'],
+			imageUploadFields: extra_params,
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		            $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+    	/*
+       CKEDITOR.replace(el , {
+			allowedContent: 'p br b i ol ul li strong em center; a[*](*); img[*]; iframe[*]',
+			removePlugins: 'liststyle,tabletools,contextmenu',
+            plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,iframe,image,indent,justify,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect,wysiwygarea',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList', 'Link', 'Image']],
+			resize_dir: 'vertical',
+			resize_enabled: true,
+			//forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			linkShowAdvancedTab: false,
+			linkShowTargetTab: false,
+			language: 'en',
+			customConfig : '',
+			toolbarCanCollapse: false
+        });
+        */
+    }
+
+    function arc_editor_basic(el)
+    {
+    	$('#' + el).redactor({
+			minHeight: 200,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			buttons: ['bold', 'italic', 'lists', 'link']
+		});
+	}
+
+	function arc_editor_423_admin(el, extra_params) {
+		if (extra_params === undefined)
+    	{
+    		extra_params = false;
+    	}
+		$('#' + el).redactor({
+			minHeight: 300,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['codemirror', 'imagemanager', 'removeformat', 'alignment'],
+			codemirror: {
+				lineNumbers: true,
+				lineWrapping: true,
+				mode: 'xml',
+				indentUnit: 4
+			},
+			buttons: ['html', 'format', 'bold', 'italic', 'underline', 'lists', 'link', 'image'],
+			formatting: ['p'],
+			formattingAdd: {
+				"figcaption": {
+					title: 'Caption',
+					args: ['p', 'class', 'figcaption', 'toggle']
+				},
+				"subheading": {
+					title: 'Subheading',
+					args: ['h3', 'class', 'subheading', 'toggle']
+				},
+				"pullquote-left": {
+					title: 'Quote Left',
+					args: ['blockquote', 'class', 'pullquote-left', 'toggle']
+				},
+				"pullquote-centered": {
+					title: 'Quote Centered',
+					args: ['blockquote', 'class', 'pullquote-center', 'toggle']
+				},
+				"pullquote-right": {
+					title: 'Quote Right',
+					args: ['blockquote', 'class', 'pullquote-right', 'toggle']
+				},
+			},
+			imageUploadFields: extra_params,
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		             $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+		/*
+       CKEDITOR.replace(el , {
+			allowedContent: 'p br b i ol ul li strong em center; a[*]{*}(*); img[*]; iframe[*]',
+			removePlugins: 'liststyle,tabletools,contextmenu',
+            plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,iframe,image,indent,justify,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect,wysiwygarea',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList', 'Link', 'Image', 'Source']],
+			resize_dir: 'vertical',
+			resize_enabled: true,
+			//forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			linkShowAdvancedTab: false,
+			linkShowTargetTab: false,
+			language: 'en',
+			customConfig : '',
+			toolbarCanCollapse: false
+        });
+        */
+    }
+
+    function arc_editor_feature_423(el, extra_params) 
+    {
+    	if (extra_params === undefined)
+    	{    		
+    		extra_params = false;
+    	}
+    	$('#' + el).redactor({
+			minHeight: 300,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['source', 'imagemanager'],
+			buttons: ['html', 'format', 'bold', 'italic', 'underline', 'lists', 'link', 'image'],
+			formatting: ['p'],
+			formattingAdd: {
+				"figcaption": {
+					title: 'Caption',
+					args: ['p', 'class', 'figcaption', 'toggle']
+				},
+				"subheading": {
+					title: 'Subheading',
+					args: ['h3', 'class', 'subheading', 'toggle']
+				},
+				"pullquote-left": {
+					title: 'Quote Left',
+					args: ['blockquote', 'class', 'pullquote-left', 'toggle']
+				},
+				"pullquote-centered": {
+					title: 'Quote Centered',
+					args: ['blockquote', 'class', 'pullquote-center', 'toggle']
+				},
+				"pullquote-right": {
+					title: 'Quote Right',
+					args: ['blockquote', 'class', 'pullquote-right', 'toggle']
+				},
+			},
+			imageUploadFields: extra_params,
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		             $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+    	/*
+        CKEDITOR.replace(el , {
+            allowedContent: 'p br b i ol ul li strong em center; a[*]{*}(*); img[*]; span[*]{*}(*); iframe[*]',
+            removePlugins: 'liststyle,tabletools,contextmenu',
+            plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,iframe,image,indent,justify,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect,wysiwygarea',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList' , 'Link', 'Image','FontSize','TextColor']],
+			resize_dir: 'vertical',
+			resize_enabled: true,
+			//disableObjectResizing: true,
+			//forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			linkShowAdvancedTab: false,
+			linkShowTargetTab: false,
+			language: 'en',
+			customConfig : '',
+			toolbarCanCollapse: false
+        });
+        */
+    }
+
+	function arc_editor_feature_423_admin(el, extra_params) 
+	{
+		if (extra_params === undefined)
+    	{    		
+    		extra_params = false;
+    	}
+		$('#' + el).redactor({
+			minHeight: 300,
+			pasteBlockTags: ['ul', 'ol', 'li', 'p'],
+			pasteInlineTags: ['strong', 'br', 'b', 'em', 'i'],
+			imageUpload: '/redactor/upload',
+			plugins: ['codemirror', 'imagemanager', 'removeformat', 'alignment'],
+			codemirror: {
+				lineNumbers: true,
+				lineWrapping: true,
+				mode: 'xml',
+				indentUnit: 4
+			},
+			buttons: ['html', 'format', 'bold', 'italic', 'underline', 'lists', 'link', 'image'],
+			formatting: ['p'],
+			formattingAdd: {
+				"figcaption": {
+					title: 'Caption',
+					args: ['p', 'class', 'figcaption', 'toggle']
+				},
+				"subheading": {
+					title: 'Subheading',
+					args: ['h3', 'class', 'subheading', 'toggle']
+				},
+				"pullquote-left": {
+					title: 'Quote Left',
+					args: ['blockquote', 'class', 'pullquote-left', 'toggle']
+				},
+				"pullquote-centered": {
+					title: 'Quote Centered',
+					args: ['blockquote', 'class', 'pullquote-center', 'toggle']
+				},
+				"pullquote-right": {
+					title: 'Quote Right',
+					args: ['blockquote', 'class', 'pullquote-right', 'toggle']
+				},
+			},
+			imageUploadFields: extra_params,
+			callbacks:
+			{
+		        imageUpload: function(image, json)
+		        {
+		            $(image).replaceWith('');
+		        },
+		        imageUploadError: function(json, xhr)
+		        {
+		            alert(json.message);
+		        }
+		    }
+		});
+		/*
+        CKEDITOR.replace(el , {
+			allowedContent: 'p br b i ol ul li strong em center; a[*]{*}(*); img[*]; span[*]{*}(*); iframe[*]',
+			removePlugins: 'liststyle,tabletools,contextmenu',
+            plugins:'a11yhelp,basicstyles,bidi,blockquote,button,clipboard,colorbutton,colordialog,dialogadvtab,div,enterkey,entities,filebrowser,find,flash,font,format,forms,horizontalrule,iframe,image,indent,justify,link,list,maximize,newpage,pagebreak,pastefromword,pastetext,popup,preview,print,removeformat,resize,save,smiley,showblocks,showborders,sourcearea,stylescombo,table,specialchar,tab,templates,toolbar,undo,wysiwygarea,wsc,archinect,wysiwygarea',
+			toolbar: [['Bold', 'Italic', 'BulletedList','NumberedList' , 'Link', 'Image','FontSize','TextColor', 'Source']],
+			resize_dir: 'vertical',
+			resize_enabled: true,
+			//disableObjectResizing: true,
+			//forcePasteAsPlainText: true,
+			disableNativeSpellChecker: false,
+			scayt_autoStartup: false,
+			skin: 'v2',
+			height: 300,
+			linkShowAdvancedTab: false,
+			linkShowTargetTab: false,
+			language: 'en',
+			customConfig : '',
+			toolbarCanCollapse: false
+        });
+        */
+    }
+
+    function arc_remove_editor_423 (el) {
+    	$(el).redactor('core.destroy');
+    	/*
+        if(CKEDITOR.instances[el]) {
+            CKEDITOR.instances[el].destroy();
+        }
+        */
+    }
+
+		
+	$(document).ready(function(){
+		$('.AnchorScroller').click(function() {
+		   var elementClicked = $(this).attr("href");
+		   var destination = $(elementClicked).offset().top;
+		   $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-0}, 300 );
+		   return false;
+		});
+	});
+	
+		
+
+$(document).ready(function () {
+
+  	$('.StickyBannerContainer').hide();
+
+	var ColContentBottom = $('.ColContent').position().top+$('.ColContent').outerHeight(true);
+	var ColSidebarBottom = $('.ColSidebar').position().top+$('.ColSidebar').outerHeight(true);
+
+	if (ColContentBottom > ColSidebarBottom) {
+		$('.StickyBannerContainer').show()
+	};
+
+  var top = $('#StickyBanner').offset().top - parseFloat($('#StickyBanner').css('marginTop').replace(/auto/, 0));
+  $(window).scroll(function (event) {
+	// what the y position of the scroll is
+	var y = $(this).scrollTop();
+
+	// whether that's below the form
+	if (y >= top) {
+	  // if so, ad the fixed class
+	  $('#StickyBanner').addClass('fixed');
+	} else {
+	  // otherwise remove it
+	  $('#StickyBanner').removeClass('fixed');
+	}
+  });
+
+});
+
+	
+var action_referer = null;
+function arc_comment_head_actions(suffix) 
+{
+	suffix = (typeof suffix == "undefined")? '': suffix;
+	$('#arc_new_comment').hide();
+
+    	$.ajax(
+    	{
+            type: 'GET',
+            url: '/post_comment'+suffix+'/' + (new Date().getTime()) + arc_pathname(document.location.pathname),
+            success: function(data, status, xhr)
+            {
+                $('#arc_new_comment').html(data);
+                $('#arc_new_comment').slideDown();
+				if(suffix != '_ios')
+					arc_editor_423('body_html');						
+			}
+		});
+
+	$(document).on('click', 'a.arc_edit_comment', function(e)
+	{
+		e.preventDefault();
+		arc_remove_editor_423( 'body_html' );
+        $('#arc_new_comment').remove();
+		var id =arc_pathname( $(this).attr('href'), true);
+
+		$.ajax(
+		{
+			type: 'GET',
+			url: '/edit_comment'+suffix+'/' + (new Date().getTime()) + '/' + id + arc_pathname(document.location.pathname),
+			success: function(data, status, xhr)
+			{
+				if(data > '') 
+				{
+					$('#arc_comment_'+id).replaceWith(data);
+					arc_editor_423( $('.editor').attr('id') );
+					$('a.arc_edit_comment').hide();
+				}
+			}
+		});
+		return false;
+	});
+/*
+				$('a.arc_flag_comment').click(function(e){
+
+					e.preventDefault();
+
+					var id = arc_pathname($(this).attr('href'), true);
+
+					var button = this;
+
+					$.ajax({
+						type: 'POST',
+						url: '/flag_comment',
+						data: {id: id, arc_token: window.arc_token},
+						success: function(data, status, xhr){
+
+							if( data > '' ) {
+
+								$(button).replaceWith( 'Flagged' );
+							}
+						}
+					});
+					return false;
+				});
+	*/			
+	$(document).on('click', "a.arc_reply_comment", function()
+	{
+		var id = arc_pathname($(this).attr('href'), true);
+		var reply_container = $(".arc_reply_comment_box").parents(".ReplyComments");
+		$(".arc_reply_comment_box").remove();
+		if ($(reply_container).find(".Line").length == 0)
+			$(reply_container).remove();
+		
+		var container = $(this).parents(".Line");
+		if (!$(container).find(".ReplyComments").length)
+			$(container).append('');										
+						
+		$(container).find(".ReplyComments").append('');
+		var referrer = $(this);
+		$(".ReplyHelp").remove();
+		$("a.arc_reply_comment").show();
+		$(".BottomReply").show();
+		$(container).find(".BottomReply").hide();
+		$.ajax(
+		{
+            type: 'POST',
+            data: {'reply_id': id},
+            url: '/post_comment'+suffix+'/' + (new Date().getTime()) + arc_pathname(document.location.pathname),
+            success: function(data, status, xhr)
+            {
+               	$('.arc_reply_comment_box').html(data);
+               	$('.arc_reply_comment_box').show();
+				//arc_editor_423($(".arc_reply_comment_box .editor").attr('id'));		
+				$("html, body").animate(
+				{
+			        scrollTop: $('.arc_reply_comment_box').offset().top-200 
+			   	}, 500);								   
+			   	$("#reply_body_html").autogrow();
+			   	$("#reply_body_html").focus();
+			   	$("#reply_body_html").keyup(function(e)
+			   	{
+				   	if (e.keyCode == 13)
+				   	{
+				   		if ($.trim($(this).val()) != '')	
+				   			$('.arc_reply_comment_box #comment_reply_form').submit();
+				   	}
+			   	});
+			   	$(referrer).hide();
+			   	if (!$(referrer).hasClass('BottomReply'))
+			   	$('reply below ↓').insertAfter($(referrer));
+			}
+		});
+		return false;
+	});
+				
+	$(document).on('click', "#cancel_reply_button", function()
+	{
+		$(".arc_reply_comment_box").remove();
+	});
+	
+	$(document).on('click', ".CommentAction", function()
+	{
+		var status = $(this).attr('rel');
+		var modal_data = [];
+		if (status == 'ignore')
+			modal_data = co['ignore'];
+		else if(status == 'block')
+			modal_data = co['block'];
+		else if(status == 'unblock')
+			modal_data = co['unblock'];	
+		else if(status == 'flag')
+			modal_data = co['flag'];
+		else if(status == 'ban')
+			modal_data = co['ban'];
+		else if (status == '30')
+			modal_data = co['feature'];
+		else if (status == '15')
+		{
+			var prev = $(this).attr("prev");
+   			if (prev == 'hidden')
+   				modal_data = co['show'];
+   			else
+   				modal_data = co['unfeature'];
+		}
+		else if (status == '25')
+			modal_data = co['hide'];
+					
+		$("#comment_moderation .ModalTitle h1").html(modal_data.title);
+		$("#comment_moderation .description").html(modal_data.description);
+		$("#comment_moderation #submit_button").val(modal_data.submit);
+		$("#comment_moderation").modal();
+		action_referer = $(this);
+		return false;	
+	});
+				
+	$(document).on('click', ".arc_view_hidden_comment", function()
+	{					
+		var id = $(this).attr('href');
+		$(".arc_comment_" + id).show();
+		$(".arc_comment_" + id).prev('.HiddenLine').remove();
+		return false;	
+	});
+				
+	$(document).on('submit', 'form.arc_ajax_comment', function(e)
+	{
+		e.preventDefault();
+			var form = $(this);
+		/*
+		if( typeof( arc_remove_editor_423 ) == 'function' ) {
+			arc_remove_editor_423($('form.arc_ajax_comment .editor').attr('id'));
+		}
+		*/
+		$("form.arc_ajax_comment .CommentForm").hide();
+		//arc_filterform(form);
+
+		$('').attr(
+		{
+			    type: 'hidden',
+			    name: 'arc_token',
+			    value: window.arc_token
+		}).appendTo(form);
+
+		$.ajax(
+		{
+			type: 'POST',
+			url: $(form).attr('action'),
+			data: $(form).serialize(),
+			success: function(data, status, xhr){
+				$('body').append("" + data + "");
+				data = $("#temp_append").clone();
+				$("#temp_append").remove();
+				if (!$(data).find(".arc_ajax_comment").length)
+				{
+					var parent_node = $(".arc_reply_comment_box").parents(".Line");
+					$(parent_node).find(".BottomReply").remove();
+					if ($(parent_node).find(".ReplyComments").length > 0)
+					{
+						$(parent_node).find(".ReplyComments").append($(data).html());									
+					}
+					else
+					{
+						$(parent_node).append('' + $(data).html() + '');
+					}
+					$(".arc_reply_comment_box").remove();
+					$(".ReplyHelp").remove();
+					$("a.arc_reply_comment").show();
+				}
+				else
+				{
+					$(form).replaceWith($(data).html());
+					$("form.arc_ajax_comment .CommentForm").slideDown();
+					/*if( typeof( arc_editor_423 ) == 'function' ) {
+						arc_editor_423($('form.arc_ajax_comment .editor').attr('id'));
+					}*/
+				}							
+			}
+		});	
+		return false;
+	});
+				
+	$(".comment_user_1>.Top>.Right>.CommentModerate li .HidingAction,.comment_user_1>.Top>.Right>.CommentModerate li .BlockingAction,.comment_user_1>.Top>.Right>.CommentModerate li a[rel=ignore], .comment_user_1>.Top>.Right>.CommentModerate li .arc_flag_comment").remove();
+}		
+
+$(document).ready(function()
+{
+	$('.TooltipUser').tipsy({gravity: 'w', html: true, offset: 10, delayOut: 500});	
+	
+	$(document).on('click', "#comment_moderation #cancel_button", function()
+	{
+		$.modal.close();
+	});
+	$(document).on('click', "#comment_moderation #submit_button", function()
+	{
+		if (action_referer != null)
+		{
+			if ($(action_referer).hasClass('arc_flag_comment'))
+				flag_comment(action_referer);
+			else if ($(action_referer).hasClass('arc_ban_user'))
+				ban_user(action_referer);
+			else
+				update_comment_status(action_referer);
+		}
+		action_referer = null;
+		$.modal.close();
+	});
+	
+	var comment_modal = $("#comment_modal").clone();
+	$("#comment_modal").remove();
+	$('body').append($(comment_modal).html());
+});
+
+function update_comment_status(point)
+{	
+	$(point).hide();
+	$("").insertAfter($(point));
+	var data = {"id": $(point).attr('href'), "status": $(point).attr('rel')};
+	$.ajax({
+       type: 'POST',
+       data: data,
+       url: '/update_comment_status',
+       success: function(result, status, xhr)
+       {
+       	$(point).show();
+       	$("#temp-loader").remove();
+       	result = $.parseJSON(result);
+       	if (result.status == 'success')
+       	{
+       		if (data.status == 'ignore'){
+	       		$(".comment_user_" + data.id).slideUp();
+	       		var username = $(".comment_user_" + data.id + " .UserName").clone();
+	       		$(username[0]).find(".UserInfo").remove();
+	       		$('' + $(username[0]).text() + ' is ignored by you Edit Ignore Settings').insertBefore(".comment_user_" + data.id);
+	       	}
+	       	else if (data.status == 'block')
+	       	{
+	       		var touch = ".comment_user_" + result.data.user_id;
+	       		$(touch).addClass("BlockedComment").removeClass("FeaturedComment HiddenComment");
+	       		$(touch + ">.Top>.Right>.CommentModerate>ul>li>.BlockingAction").html(co.unblock.text).attr("rel", "unblock").attr("original-title", co.unblock.title);
+	       		$(touch + ">.Top>.Right>.CommentModerate>ul>li>.FeaturingAction").html(co.feature.text).attr("rel", 30).attr("original-title", co.feature.title);
+	       		$(touch + ">.Top>.Right>.CommentModerate>ul>li>.HidingAction").html(co.hide.text).attr("rel", 25).attr("original-title", co.hide.title);
+	       		$("#featured_comments_section .comment_user_" + result.data.user_id).remove();	
+	       	}
+				else if (data.status == 'unblock')
+	       	{
+	       		var touch = ".comment_user_" + result.data.user_id;
+	       		$(touch).removeClass("BlockedComment");
+	       		$(touch + ">.Top>.Right>.CommentModerate>ul>li>.BlockingAction").html(co.block.text).attr("rel", "block").attr("original-title", co.block.title);	
+	       	}
+	       	else if(data.status == '30')
+	       	{
+	       		window.location.reload();
+	       		/*
+	       		$("#arc_comment_" + data.id).addClass("FeaturedComment").removeClass("BlockedComment HiddenComment");       		
+	       		$(point).html(co.unfeature.text).attr("rel", 15).attr("original-title", co.unfeature.title);
+	       		$("#arc_comment_" + data.id + ">.Top>.Right>.CommentModerate>ul>li>.BlockingAction").html(co.block.text).attr("rel", "block").attr("original-title", co.block.title);
+	       		$("#arc_comment_" + data.id + ">.Top>.Right>.CommentModerate>ul>li>.HidingAction").html(co.hide.text).attr("rel", 25).attr("original-title", co.hide.title);
+	       		$("#arc_comment_" + data.id + ">.Top").prepend('Featured Comment');
+	       		if (!$("#featured_comments_section").length){
+	       			var selector = $(".All-Comments-Header").length > 0 ? ".All-Comments-Header": "#comments_section";
+	       			selector = $(".CommentBanner").length ? ".CommentBanner": selector;
+	       			$('Back to Top &nbsp;↑1 Featured Comment').insertBefore(selector);
+	       		}else{
+						var featured_comment_counter = parseInt($("#featured_comment_counter").html());
+						featured_comment_counter++;
+						$("#featured_comment_counter").parent('h2').html('' + featured_comment_counter + ' Featured Comments');	       		
+	       		}
+	       		$("#featured_comments_section").append('' + $("#arc_comment_" + data.id).clone().html() + '');
+	       		$("#featured_comments_section #arc_featured_comment_" + data.id + " .Right").remove();
+	       		$("#featured_comments_section #arc_featured_comment_" + data.id + " .ReplyComments").remove();
+	       		$("#featured_comments_section #arc_featured_comment_" + data.id + " .arc_reply_comment").remove();
+	       		$("#featured_comments_section #arc_featured_comment_" + data.id + " .FeaturedCommentMarker").remove();
+	       		*/
+	       	}
+	       	else if(data.status == '15')
+	       	{
+	       		var prev = $(point).attr("prev");
+	       		if (prev == 'hidden')
+	       		{
+	       			$("#arc_comment_" + data.id).prev('.HiddenLine').remove();
+	       			$("#arc_comment_" + data.id).removeClass("HiddenComment");
+	       			$(point).html(co.hide.text).attr("rel", 25).attr("original-title", co.hide.title);	
+	       		}
+	       		else
+	       		{
+	       			window.location.reload();
+	       			/*
+	       			$("#arc_comment_" + data.id).removeClass("FeaturedComment");
+	       			$("#arc_comment_" + data.id + ">.Top>.FeaturedCommentMarker").remove();
+	       			var featured_comment_counter = parseInt($("#featured_comment_counter").html());
+						featured_comment_counter--;
+						if (featured_comment_counter == 0){
+							$(".FeaturedComments").remove();
+							$("#featured_comments_section").remove();	
+						}else{
+							$("#featured_comment_counter").parent('h2').html('' + featured_comment_counter + ' Featured Comment' + (featured_comment_counter > 1 ? 's': ''));	
+						}						
+	       			$(point).html(co.feature.text).attr("rel", 30).attr("original-title", co.feature.title);
+	       			$("#featured_comments_section").find("#arc_featured_comment_" + data.id).remove();
+	       			*/
+	       		}
+	       	}
+	       	else if(data.status == '25')
+	       	{
+	       		$("#featured_comments_section #arc_featured_comment_" + data.id).remove();
+	       		var user_html = $("#arc_comment_" + data.id + ">.Top>.user-title").clone();
+	       		$(user_html).find(".UserInfo").remove();
+	       		$(user_html).find(".UserName").css("display", "inline");       		
+	       		$("" + $.trim($(user_html).text()) +"'s comment has been hidden. View comment").insertBefore("#arc_comment_" + data.id);
+	       		$("#arc_comment_" + data.id).hide().removeClass("FeaturedComment BlockedComment");
+	       		$(point).html(co.show.text).attr("rel", 15).attr("original-title", co.show.title).attr("prev", 'hidden');
+	       		$("#arc_comment_" + data.id + ">.Top>.Right>.CommentModerate>ul>li>.BlockingAction").html(co.block.text).attr("rel", "block").attr("original-title", co.block.title);
+	       		$("#arc_comment_" + data.id + ">.Top>.Right>.CommentModerate>ul>li>.FeaturingAction").html(co.feature.text).attr("rel", 30).attr("original-title", co.feature.title);
+     			}
+	       	else
+	       	{
+	         	window.location.reload();
+	        }	
+       	}
+       	else if(result.status == 'error')
+       	{
+       		alert(result.message);
+       	}       	
+		}
+	});	
+}
+
+function flag_comment(point)
+{
+	var id = arc_pathname($(point).attr('href'), true);
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/flag_comment',
+		data: {id: id, arc_token: window.arc_token},
+		success: function(data, status, xhr)
+		{
+			if(data > '') 
+			{
+				$(point).replaceWith('Flagged');
+			}
+		}
+	});	
+}
+
+function ban_user(point)
+{
+	var id = arc_pathname($(point).attr('href'), true);
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ban_close',
+		data: {user_id: id, ban_close: 1, arc_token: window.arc_token},
+		success: function(data, status, xhr)
+		{
+			window.location.reload();
+		}
+	});	
+}
+
+(function($) 
+{
+    $.fn.autogrow = function() 
+    {
+        return this.each(function() 
+        {
+            var textarea = this;
+            $.fn.autogrow.resize(textarea);
+            $(textarea).focus(function() 
+            {
+                textarea.interval = setInterval(function() 
+                {
+                    $.fn.autogrow.resize(textarea);
+                }, 500);
+            }).blur(function() 
+            {
+                clearInterval(textarea.interval);
+            });
+        });
+    };
+    $.fn.autogrow.resize = function(textarea) 
+    {    
+        var lineHeight = parseInt($(textarea).css('line-height'), 10);       
+        var lineCount = Math.ceil(textarea.value.length / (textarea.cols + 20));
+        var height = lineHeight * (lineCount + 1);
+        $(textarea).css('height', height);
+    };
+})(jQuery);
+
+
+	
+		function arc_page_post_session()
+		{
+			arc_comment_head_actions();
+		}
+
+		$(document).ready(function()
+		{
+			$(".Thumb img").css({opacity: 1});
+
+			$(".Thumb img").hover(function()
+			{
+				$(this).fadeTo("fast", 0.6);
+			},function()
+			{
+				$(this).fadeTo("fast", 1);
+			});
+
+			$(".Entry").fitVids();
+
+			arc_external('#Entry1', 150044436);
+
+			$('.Feature p span').filter(function()
+			{
+				return $(this).css('font-size') == '14px';
+			}).addClass('Pullquote Left');
+
+			$('.Feature p span').filter(function()
+			{
+				return $(this).css('font-size') == '16px';
+			}).addClass('Pullquote Center');
+
+			$('.Feature p span').filter(function()
+			{
+				return $(this).css('font-size') == '18px';
+			}).addClass('Pullquote Right');
+		});
+
+		
+
+        $().ready(function() 
+        {
+                $('.ImageHorizontal').each(function() 
+                {
+                        if($(this).find('img').get(0).width 
+
+ -->
+
+	$(document).ready(function(){
+		$(document).on('click', '.StatsTrigger', function(e){
+			if(e.isDefaultPrevented())
+				return false;
+
+			e.preventDefault();
+
+			if ($(this).attr('full_modal_url') == undefined)
+			{
+				var full_modal_url = '/user_stats/post/' + $(this).attr('rel') + arc_pathname(document.location.pathname);
+				$(this).attr('href', full_modal_url);
+				$(this).attr('full_modal_url', 1);
+			}
+			$(this).modal();
+			return false;
+		});
+		
+		$('.TooltipUserstat').livequery(function(){
+			$(this).tipsy({gravity: 's'});
+		});
+	});
+			
+							
+				  var _qevents = _qevents || [];
+
+				  (function() {
+				   var elem = document.createElement('script');
+
+				   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+				   elem.async = true;
+				   elem.type = "text/javascript";
+				   var scpt = document.getElementsByTagName('script')[0];
+				   scpt.parentNode.insertBefore(elem, scpt);
+				  })();
+				
+			
+
+	if (($.client.os == 'Mac') && ($.client.browser == 'Firefox')) {
+
+		var link = $('');
+		link.attr({ type: 'text/css', rel: 'stylesheet', href: '/css/archinect.firefox.mac.css?1', });
+		$('head').append( link );
+
+	};
+
+	if (($.client.os == 'Mac') && ($.client.browser == 'Chrome')) {
+
+		var link = $('');
+		link.attr({ type: 'text/css', rel: 'stylesheet', href: '/css/archinect.chrome.mac.css?1', });
+		$('head').append( link );
+
+	};
+
+	if (($.client.os == 'Windows') && ($.client.browser == 'Chrome')) {
+
+		var link = $('');
+		link.attr({ type: 'text/css', rel: 'stylesheet', href: '/css/archinect.chrome.win.css?1', });
+		$('head').append( link );
+
+	};
+
+	if ($.client.os == 'iPhone/iPod') {
+
+		var link = $('');
+		link.attr({ type: 'text/css', rel: 'stylesheet', href: '/css/archinect.iphone.css?1', });
+		$('head').append( link );
+
+	};
+
+
+
+			
+	$(document).ready(function()
+	{		
+		function detectOverlapping() 
+		{
+			var windowheight = $(window).height();
+			var menuheight = $('.MainMenu').height();
+			var remainingspace = windowheight - menuheight;
+			if (remainingspace   
+
+  
+
+Very Vary Veri is a student run journal coming from Harvard's GSD that publishes archival material found at the Loeb Library alongside newly commissioned pieces; their latest, Issue 3, explores the theme of Exile. 
+
+For this iteration of Screen/Print, we are sharing an included essay by Kathleen James-Chakraborty, an art history professor at University College Dublin. In it, James-Chakraborty reflects on America's early generation of refugee architects—Walter Gropius, Marcel Breuer, Ludwig Mies van der Rohe, Erich Mendelsohn, to name a few—who came to the U.S. and forever shaped its built environment. 
+
+
+
+
+It is estimated that about one-fifth of architects and engineers in the U.S. today are foreign-born. Looking at the construction industry, another extremely vital part of building buildings, 28% of the workforce is comprised of adoptive citizens. Yet, when discussing current issues of immigration, the idea of the architect as immigrant is often missing. As Ali Karimi reminds in this issue's Editor's Note, "over-designed refugee shelters, pavilions, or housing projects turn the migrant or refugee from a subject of humanitarian disaster to an unwitting client and consumer of architectural services. Yet the relationship of the architect to the exile was not always so opportunistic; throughout much of the 20th century the architect and the exile were often one and the same." 
+
+Throughout the United States' architectural history, many of its greatest influencers have been those born outside the country's lines. Whether from Germany or Finland or beyond, the 20th century saw a slew of architectural talent arrive on our shores, sometimes by choice and sometimes not. Either way, they made the best of their circumstances and continued their architectural pursuits. In the following essay, Kathleen James-Chakraborty takes a look at these key figures and the ways in which they, and their architectural legacies, were welcomed. 
+
+
+
+Exiled and Immigration
+
+By Kathleen James-Chakraborty
+
+Few American professions have been as
+welcoming of immigrants, including those
+forced into exile, as architecture. From
+Benjamin Latrobe and Paul Cret through
+Rudolph Schindler and Eliel Saarinen to
+Denise Scott Brown and Toshiko Mori, an
+impressive array of American architectural
+talent has not been homegrown. Of the
+ fifty-three winners of the Gold Medal of
+the American Institute of Architects who
+practiced in the United States, seventeen
+were born abroad. The new arrivals with the
+greatest impact upon 20th century American
+architecture came as refugees rather than
+voluntarily. Walter Gropius, Marcel Breuer,
+Ludwig Mies van der Rohe, Lilly Reich, and
+Erich Mendelsohn all arrived between 1937
+and 1941; only Reich returned to Germany. The choices that these key figures in the
+invention of an industrial aesthetic made were
+highly personal, but gender, age, and religion
+also determined the opportunities that greeted
+them, as did the choice of city in which to settle.
+Having the right champions mattered far more
+than the commitment to integration being
+demanded of many contemporary migrants to
+Europe. It also outweighed the extent of one’s
+network. Philip Johnson and the Museum of Modern Art proved the most effective
+sponsors, but the museum’s favors were doled
+out unevenly and did not always spur public
+acceptance. Mies and Breuer were far more
+successful in their adopted homeland than
+Gropius or Mendelsohn, not entirely because
+they were at this point in their careers more
+talented architects, but also because they and
+their supporters were able to integrate them
+into stories that told those Americans who
+cared what they wanted to hear.
+
+Professional education in architecture
+began in the United States only in the middle of the 19th century, long after it became available
+in France and Germany. Moreover, even in
+England, where the system of apprenticeship
+predominated into the 20th century, there was a laying on of hands that was difficult to
+develop on the far side of the Atlantic. And
+yet, especially after the onset of the Industrial
+Revolution, there was an enormous need for
+buildings as the new nation expanded rapidly. This encouraged talented men with the
+requisite skills to immigrate; many, beginning
+with Latrobe, found a great deal of prestigious
+work. Once architecture schools began to be established, the experience of European
+pedagogues was highly valued, but even before
+this European-born and educated architects
+were particularly likely to succeed when they
+were already familiar with new styles that
+potential patrons had seen for themselves in
+Europe or read about in journals and books.
+Richard Upjohn and John Notman, who came
+from Britain, and Adolf Kluss and Leopold
+Eidlitz, born and trained in German-speaking
+central Europe, were key figures in importing
+the Gothic Revival to a country that had no
+Gothic heritage of its own.
+
+By the beginning of the 20th century,
+however, American architecture was
+experimental enough to attract new talent
+who wanted to move away from what they
+increasingly saw as the confines of Europe’s
+architectural heritage rather than simply export
+it to new shores. Rudolf Schindler and his
+friend Richard Neutra, arrived respectively in 1914 and 1923, drawn above all by their
+admiration for Frank Lloyd Wright. Eliel
+Saarinen also arrived in 1923. He rightly
+sensed that Finland, which had just achieved
+independence, was unlikely to present him
+with commissions on the scale that he could
+expect to receive in a land of skyscrapers like the
+Chicago Tribune Tower, which many thought
+he should had the chance to design.
+
+Hitler’s ascent to power in 1933 did not
+immediately push a cast of architects toward
+American shores. The first important artistic
+refugees to come as a result were Joseph and Anni Albers, who arrived already that year to
+teach at Black Mountain College. Johnson,
+who would provide key assistance to many of
+the arrivals, helped them find their positions.
+Gropius followed in 1937. Harvard had
+considered Mies as well for the job of leading
+its architecture department, but hired the
+founding director of the Bauhaus instead,
+who had been living in London since 1934.
+Gropius in turn assisted a number of others in
+coming to the United States. Among them was
+Marcel Breuer, with whom he practiced until
+1941. Mies accepted a position at the Armour
+Institute of Technology (later the Illinois
+Institute of Technology or IIT) in Chicago.
+He moved to the United States permanently
+in 1938. In 1939 Reich came to visit him there. She returned to Germany just after the
+outbreak of the war. Mendelsohn, the first of
+the five to leave Germany, fleeing already in
+March 1933, was the last to settle in the United
+States. In 1941 he left Jerusalem, where he had
+settled after first living in London, frightened
+by the advance of Rommel’s army.
+
+
+
+
+It is not clear why Reich did not stay, but
+certainly the personal as well as professional
+relationship this talented furniture and
+exhibition designer had with Mies must have
+been unraveling. That they were not married
+may also have been a factor. Mies’s wife was
+still alive, and he never  led for a divorced,
+although they had long lived apart. Such
+particulars mattered. Otti Berger, a weaver who
+had studied at the Bauhaus, was unable to join
+her fiancé, the architect Ludwig Hilberseimer,
+whom Mies brought with him to IIT, because
+they had not been husband and wife; she
+perished at Auschwitz in 1944. Spared by the
+war, Reich died in Berlin in 1947 at the age of
+sixty-two before she had had a chance to make a
+significant contribution to postwar design.
+
+If enthusiasm for integration or the extent
+of one’s network determined success, then
+Mendelsohn and Gropius would surely have
+achieved more in the United States than Mies
+or Breuer. Mendelsohn first traveled to the
+United States in 1924, where he met, among
+others, Lewis Mumford and Frank Lloyd
+Wright, who would remain lifelong friends.
+His book, Amerika: Bilderbuch eines Architekten
+(America: Picturebook of an Architect), published
+two years later, made him Germany’s expert on
+the subject of modern American architecture. Upon his arrival, the Museum of Modern Art
+immediately accorded him an exhibition, which
+then toured the country, while Ely Jacques
+Kahn kindly gave him space in his New York office. Mendelsohn quickly set on a camping
+tour with his wife to learn more about his new
+country. His files are full of photographs of pre-industrial American architecture, with which
+he sought to familiarize himself.
+
+None of this translated easily, however,
+into making a major mark upon modern American architecture. Mendelsohn’s
+American accomplishments included four
+synagogues that helped define the future of this
+building type at a time when American Jews
+were assuming unprecedented responsibility
+for the leadership of international Judaism.
+His Maimonides Hospital in San Francisco
+garnered much favorable press. And the
+Russell House remains one of that city’s most
+imposing modern villas. Yet none of these
+buildings display the panache of his best
+German buildings, such as the Schocken stores
+in Stuttgart and Chemnitz, much less the
+Einstein Tower.
+
+
+
+
+What went wrong? Some of what befell
+Mendelsohn was simply bad timing. The
+New York opening of his exhibition was
+overshadowed by the news of Pearl Harbor.
+He died in 1953 at the relatively young age of
+sixty-six. But there were other factors at work
+as well. Anti-Semitism was on the wane, but it
+remained a factor. Breuer, although eventually
+baptized, had been born Jewish, but neither
+his name nor his biography emphasized his
+religion. Mendelsohn, an ardent Zionist, had
+lived in the British Mandate of Palestine, and throughout his career worked almost
+exclusively for Jewish clients proud of his
+capacity to represent the success of their
+community. Although Mendelsohn’s
+synagogues helped make this building type a
+showcase of modern suburban architecture,
+their location on the outskirts of four different
+Midwestern cities, as well as their sacred
+purpose, limited their ability to symbolize the
+future of a secular democracy that had recently
+ascended to the status of a world power.
+
+Mendelsohn’s own earlier success also
+proved an obstacle. One of the first people to
+greet the German architect when he arrived in New York in 1924 was Norman Bel Geddes.
+His popularization of streamlining owed more
+than a little to Mendelsohn’s dynamic drawings
+and buildings in Germany. Mendelsohn’s
+most celebrated buildings in consequence no
+longer seemed new. No one was more aware
+of this than the architect himself, who sought
+to join what appeared to be the cutting edge
+of the contemporary American architectural
+scene. In 1945 he moved to San Francisco and
+began teaching at Berkeley even before his
+friend William Wurster was appointed dean
+of architecture in 1950. Mendelsohn’s Russell
+House in San Francisco’s Pacific Heights of
+1951 testifies to his desire to fit in. Although the
+corner window facing out towards the Golden
+Gate reprises one of the signature motifs of his
+German department stores, the wood cladding and the Thomas Church garden nonetheless
+make this a quintessential Bay Area house, very
+much in the spirit, for instance, of the Wesley
+Havens House in Berkeley, completed a decade
+earlier. This approach put Mendelsohn on a
+collision course with other German émigré
+architects, particularly Breuer but also Gropius,
+who were committed to maintaining the legacy
+of the Bauhaus, even as they adopted it to
+postwar purposes.
+
+Gropius, nonetheless, also immediately sought to assimilate into a country he had first visited in 1928, fifteen years after he had published a sheaf of photographs of grain silos and daylight factories, many of them American structures, in the Werkbund Jahrbuch. His preferred photograph of himself, widely published at the time, showed him in front of an enormous drawing of his entry in the 1922 Chicago Tribune Tower competition. His house in Lincoln, Massachusetts, designed in collaboration with Breuer and completed in 1938, although it clearly shocked the neighbors, was intended to be respectful of the local tradition of white clapboard farmhouses, even as it retained the neatly clipped geometry of the director’s house he had built for himself a dozen years earlier in Dessau.
+
+His base at Harvard gave Gropius a powerful position from which he wielded enormous influence over the next generation of American architects. He chaired the architecture department from 1938 until his retirement in 1952. He transformed the curriculum, with effects that rippled through most American and many other architecture schools for decades to come. He also attracted an enormously talented pool of students, whom he provided with the tools that enabled many of them to launch distinguished careers with unusual speed. Among the most notable were Edward Larrabee Barnes, John Johansen, Philip Johnson, I. M. Pei, Paul Rudolph, Benjamin Thompson, and Anne Tyng.
+
+
+
+
+Not everything went smoothly, however.
+For instance the exhibition in 1938 at the
+Museum of Modern Art of work made at the Bauhaus during the years in which Gropius
+was director he was not greeted with anywhere
+near the acclaim for which he might have
+wished, although the catalogue remained the
+key publication on the school for decades to
+come. Surrealism, not an industrial aesthetic,
+appeared to be the new game in town at the
+time, and in architecture, Frank Lloyd Wright’s
+influence was at its peak, encouraging a respect
+for specifically American settings quite at
+odds with the cool abstraction displayed in
+many of the works in a show that glossed quite
+quickly over the school’s early experiments with
+Expressionism.
+
+Moreover, although Gropius’s final
+architectural practice, The Architects
+Collaborative (TAC), received an array
+of prestigious commissions following its
+establishment in 1946, none received the
+warm reception accorded the best work of the
+day. TAC included two women (Gropius had
+opted for coeducation when men were in short
+supply during the war), Jean Fletcher and Sarah
+Harkness, among its founding partners. His new collaborators, all born in the 1910s,
+were young enough to have been his children. The firm’s first major commission, for graduate
+student housing at Harvard, completed in
+1950, was overshadowed by the success of
+Alvar Aalto’s Baker Hall at the neighboring
+Massachusetts Institute of Technology. In comparison to Aalto’s sinuous and richly
+textured forms, TAC’s graduate center, despite
+the inclusion of a mural by Miro and a sculpture
+by Richard Lippold, appeared slightly banal.
+Gropius’s participation in the design of the
+much-maligned Pan American (now MetLife)
+building completed just north of New York’s
+Grand Central Terminal in 1963 marked the
+death knell of his reputation as an important
+contemporary architect.
+
+Gropius continued, however, to be a key figure in American and especially in German
+architectural culture. He was active, sometimes
+behind the scenes, sometimes not, in events
+as varied as the creation of the Hansaviertel in
+Berlin and the establishment of the Bauhaus Archiv in first Darmstadt and then Berlin.
+Living until 1969, he had time to work on
+shaping his legacy and to enjoy having it
+acknowledged on both sides of the Atlantic.
+
+Meanwhile Breuer, his erstwhile
+collaborator, achieved real respect as a architect
+of buildings that mattered to a postwar world.
+Following the breakup of his partnership with
+Gropius and the end of wartime restrictions
+on construction that had encouraged him to
+remain at Harvard, Breuer moved in 1946 to
+New York. Far more than Boston, which had
+ceded leadership of the national architectural
+scene in the late 19th century, New York proved
+fertile ground for launching what became an
+international architectural practice. Breuer
+was celebrated from the beginning for his
+relatively modest houses, which displayed an
+astute sense of how to infuse woodsy modern
+dwellings of the kind proving popular on the
+West Coast with the highly tactile abstraction
+he had mastered as a student at the Bauhaus.
+He also soon became one of the first architects
+practicing in the United States to absorb the
+lessons of Le Corbusier’s postwar experiments
+in concrete.
+
+Breuer also had the advantage of relative
+youth. Born in 1902, Breuer was nearly a full
+generation younger than Reich, Mendelsohn,
+Gropius, and Mies, all children of the 1880s.
+Although he had made a name for himself
+already with furniture design in the 1920s,
+he was not faced with the challenge of going
+beyond recycling the work that had already
+made him famous. His early postwar houses,
+beginning with the first Geller House in Long
+Island, completed in 1947, and including
+the two dwellings he built for himself in the
+Connecticut suburb of New Canaan, matched
+the spirit of the times in their relatively small
+scale and informal layout. Breuer’s talent for
+texture, which extended as far as employing fieldstone for parts of their bases, gave these
+dwellings a vigor that seemed anchored in the
+quintessentially American work of Henry
+Hobson Richardson and Wright, even as
+the Bauhaus clearly provided a precedent for the cantilevered overhang of the second
+New Canaan house in particular. On the
+East Coast, which had witnessed little of the
+experimentation in domestic architecture that
+had taken place in California the interwar years,
+they appeared especially fresh and new.
+
+Being in New York also mattered because
+it meant that the work was easily accessible
+to important shapers of opinion in the field.
+At a time when coast to coast airplane travel
+remained an exotic experience (Mendelsohn
+was one of the first architects to become a
+frequent flyer), Breuer’s early independent
+work was easily accessible to magazine editors
+and museum curators, who did not have to
+depend on photographs and plans to sense
+his skill in framing unusually open spaces
+in varied textures. In 1948 Breuer worked
+closely with Johnson in organizing an event
+at the Museum of Modern Art intended as a
+rebuttal to Mumford’s championing of Bay
+Area Regionalism (the term is something of
+a misnomer, since similar work was erected
+around the country and indeed in other parts
+of the world). The following year Johnson
+commissioned him to build an exhibition
+house in the museum’s garden that garnered an
+enormous amount of favorable publicity.
+
+
+
+
+
+By the middle of the 1950s Breuer was
+able to ratchet up the scale of his work in
+commissions that also demonstrated the
+geographic and typological reach of his
+expanding practice. In Paris, he collaborated
+with Bernard Zehrfuss and Pier Luigi Nervi on
+the design of the headquarters for UNESCO,
+completed in 1958. Meanwhile his St. John’s
+Abbey Church in Collegeville, Minnesota,
+part of a larger monastic and college complex
+erected for this chapter of the Benedictine
+order, completed in 1961, was already under
+construction. One of the most monumental
+modern churches ever erected in the United
+States, it attracted international attention. The highly sculpted concrete of these and
+many other Breuer buildings demonstrated his
+familiarity with the work of Le Corbusier, even
+if it depended even more on the engineering talents of Nervi. Breuer retained a strong sense
+of his own identity however, in the Whitney
+Museum on New York’s Madison Avenue. His
+most celebrated late work, it was completed in 1966, fifteen years before his death in
+1981. Here he crafted one of the few Brutalist
+structures to gain an immediately public
+following, as was demonstrated in the repeated
+battles to resist disfiguring proposed additions.
+
+Mies, however, was by far the most
+successful German émigré in the history of
+American architecture, entirely eclipsing even
+Breuer (who was in fact a native of Hungary)
+among those architects who fled the Third
+Reich. Mies was not an obvious candidate at
+the outset for this honor, and indeed he got
+off to a slow start. Unlike Mendelsohn and
+Gropius, he had not visited the United States
+before the mid1930s, and he found it difficult to master English. The Armour Institute of
+Technology was also much less prestigious
+than Berkeley, let alone Harvard. Furthermore,
+Mendelsohn, Gropius, and Breuer had all built significant structures in England in
+the 1930s. This substantial body of work had
+featured prominently in English magazines
+and was thus known to many Americans.
+Furthermore Mendelsohn had built extensively
+in Mandate Palestine, although commissions
+like the Hadassah Hospital on Mount Scopus
+were more familiar to Jewish philanthropists
+than American architects and critics. Mies,
+by contrast, had built almost nothing in
+Germany since 1933. Moreover, of the two most
+significant buildings of his German career one,
+the Barcelona Pavilion, was disassembled soon
+after it was built while the other, the Tugendhat
+House, was after 1945, located “behind the Iron Curtain,” to use the classic Cold War phrase
+coined by Winston Churchill.
+
+Nonetheless, by the early 1950s this gruff man, already at an age when most people
+would consider retiring, had emerged as the
+architect practicing in the United States whom
+other architects held in the highest esteem, a
+position he would solidify following Wright’s
+departure from the scene in 1959 and retain
+until his own demise a decade later. The first
+choice Mies made would not initially have
+seemed fortuitous. Harvard was much more
+prestigious than Armour, but the latter proved
+to have two major advantages. Although
+Mies’s manner of teaching would never be as
+influential as the curriculum Gropius instituted
+at Harvard, being based in Chicago at an
+institution about to build a new campus and able to continue its construction even during
+the war both positioned him exceptionally
+well. Chicago was a city with a large German
+population, and the architecture school at
+the University of Illinois had originally been
+founded upon German rather than French
+lines. In part in consequence, already at the
+end of the nineteenth century its innovative
+architecture was widely known in Berlin, where
+Mendelsohn’s Mossehaus of 1923, designed in collaboration with Richard Neutra and
+Paul Rudolf Henning, was an addition to a
+Chicago-like building of 1901 by Cremer
+and Wolffenstein. In Chicago, whether or not Wright greeted him warmly, Mies
+could be positioned as the heir to these early
+experiments in an internationally influential
+American modernism. Furthermore, he did
+not have to look hard to find work. Building
+at IIT gave him the chance to commence long
+before he had befriended powerful developers
+or corporate clients.
+
+Mies’s real breakthrough came in 1947 when Johnson resumed his position at the Museum of Modern Art’s Department of Architecture and Design. He had relinquished it first to attempt to found an American fascist movement, next to study architecture at Harvard, and finally to serve in the Army during the war. Back in the driver’s seat he organized a major retrospective on his friend’s work and wrote the catalogue that accompanied it. Johnson focused on the formal qualities of the new buildings at IIT, the pair of apartment towers under construction on Chicago’s Lake Shore Drive, and the house under construction for Edith Farnsworth in Plano. Their exposed steel frames, whether structural, as at IIT and in Plano, or ornamental, as in Lake Shore Drive, was fresh and exciting, having not been a feature of Mies’s work before he arrived in America. Moreover, whether or not the architect intended it, this could be—and was—understood as building upon the legacy of the expression of the skeletal steel frame in tall buildings erected in Chicago in the 1880s. Such a fusion of respect for the American roots of modern architecture with the specifically European avant-garde ambitions expressed in Mies’s unbuilt schemes of the 1920s had a strong appeal to those Cold War intellectuals anxious to demonstrate American leadership in a cultural arena. Even Farnsworth’s suit over the high cost of her house, and the support she garnered from Elizabeth Gordon, the editor of House Beautiful, remained a tempest in a teapot, as Mies’s star ascended rapidly on both sides of the Atlantic.
+
+
+
+
+Unlike Gropius or Mendelsohn, Mies
+was not following his arrival in America as a
+shrewd networker. With Johnson and others
+behind him, he did not need to be. The most
+significant commission of his American career,
+the Seagram Building in New York, simply fell
+into his lap, when the client’s daughter Phyllis
+Lambert approached the Museum of Modern
+Art in 1953 for advice. Johnson was certainly
+right in telling Lambert and her father Samuel
+Bronfman that Mies would make something
+of this opportunity in a way that even Breuer,
+much less Gropius, who was among the
+others they considered, could not. Sensitively
+slotted into a prominent site on Park Avenue,
+the elegant distillation of decades of Mies’s
+thinking about skyscraper design quickly
+became an American classic.
+
+In America Mies proved able to seize
+opportunities much grander than any that had
+been available to him in Germany. He used
+them to design buildings that, although they
+arose out of his own specific concerns with the
+interplay of construction and abstraction, were
+capable as well to substantiate new narratives
+about American artistic authority. He himself
+did little actively to shape this process through
+writings or other publicity. Once Johnson
+had launched him, the work was powerful
+enough to ensure that others did this for him.
+While Gropius following his retirement from
+Harvard assiduously answered every letter sent him with questions about the Bauhaus, Mies
+was busy making buildings that mattered.
+
+The United States sheltered a generation
+of refugee architects, not because it was
+the right thing to do but because it needed
+them. Even Frank Lloyd Wright, the most
+original American architect of that or any
+other time, could not fuse European prestige
+to responses to a decidedly American context
+in a way that was likely to command the same
+degree of international respect accorded the
+postwar work of Breuer and Mies in particular. The challenge going forward, however, is also to discover how to make best use of the
+Mendelsohns, those who have talent and
+determination but belong to more marginal
+social groups, and even of the Gropiuses,
+who receive the warmest welcome within the
+relatively narrow confines of the Academy. Not
+every migrant, no matter what their profession,
+will have the flexibility to begin anew in
+changed circumstances, but all who succeed
+will do so in part because those who are already
+there recognized and nurtured their talents.
+
+
+
+Screen/Print is an experiment in translation across media, featuring a close-up digital look at printed architectural writing. Divorcing content from the physical page, the series lends a new perspective to nuanced architectural thought.
+
+Do you run an architectural publication? If you’d like to submit a piece of writing to Screen/Print, please send us a message.
+
+Mackenzie Goldberg
+
+I am pursuing a career in Urban Planning and Design. 
+
+I love this topical focus on the importance of immigrants in US architecture, and think this is a fantastic way to suggest the importance of immigrants into US culture and economy. And while I realize it can be difficult to be entirely inclusive, I'd like to point out the focus on white European male architects. 
+
+I find it hard to believe that the only adoptive citizen architects who have influenced the US are all white, male and European. It's also important to note the influence of women, immigrant populations and the influence of the slave trade. The creation of American &amp; vernacular architecture happened through the influence of these imported populations, as well - the big names aren't the only ones who have changed our world of architecture. 
+
+If we are looking to educate against the stereotypes that create anti-immigrant rhetoric, than we have to make sure we aren't limiting ourselves to those same stereotypes in ignoring the impact of those who don't make it into our biased history books. 
+
+
+
+As the author, I completely agree.  I was asked to write about German emigre architects since this is my field of scholarly expertise.  But elsewhere, in Architecture since 1400 and in Modernism as Memory, I have done more of what you rightly request here.
+
+Are you sure you want to block this user and hide all related comments throughout the site?

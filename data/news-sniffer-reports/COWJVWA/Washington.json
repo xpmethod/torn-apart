@@ -1,0 +1,30 @@
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Seattletimes.com"
+      },
+      "author": "The Associated Press",
+      "title": "13-year-old boy arrested in fatal shooting of friend in Cowlitz County",
+      "description": "Authorities say the boy who was arrested called 911 on the day of the shooting and said he had shot his friend while playing with a gun.",
+      "url": "https://www.seattletimes.com/seattle-news/crime/13-year-old-boy-arrested-in-fatal-shooting-of-friend-in-cowlitz-county/",
+      "urlToImage": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png",
+      "publishedAt": "2017-11-21T02:05:35Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Seattletimes.com"
+      },
+      "author": "Seattle Times editorial board",
+      "title": "Fund alternatives to keep truants and runaways out of jail",
+      "description": "State officials have been working to reduce how often counties jail children for noncriminal offenses, such as running away or skipping school. The work is not over.",
+      "url": "https://www.seattletimes.com/opinion/editorials/fund-alternatives-to-keep-truants-and-runaways-out-of-jail/",
+      "urlToImage": "https://static.seattletimes.com/wp-content/uploads/2017/12/b1716076-eb63-11e7-8ef8-199cfaf0d6f4-474x711.jpg",
+      "publishedAt": "2017-12-28T22:05:16Z"
+    }
+  ],
+  "status": "ok"
+}

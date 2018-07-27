@@ -1,0 +1,96 @@
+Azure Cosmos DB represents an evolution of database services on the Microsoft Azure cloud. While Azure SQL Database,...
+
+Enjoy this article as well as all of our content, including E-Guides, news, tips and more.
+
+You forgot to provide an Email Address.
+
+This email address doesn’t appear to be valid.
+
+This email address is already registered. Please login.
+
+You have exceeded the maximum character limit.
+
+Please provide a Corporate E-mail Address.
+
+Please check the box if you want to proceed.
+
+Please check the box if you want to proceed.
+
+By submitting my Email address I confirm that I have read and accepted the Terms of Use and Declaration of Consent.
+
+the relational cloud cousin of SQL Server, handles traditional processing functions, Cosmos DB is a NoSQL-derived multimodel database that provides global scalability, high performance and service-level agreements suitable for a variety of distributed workloads.
+
+Opened up for general availability in May 2017, the Microsoft Cosmos DB technology is designed for applications that require extreme horizontal scalability and guaranteed processing throughput. The cloud database platform is able to deliver those things partly by leveraging Microsoft data centers in Azure regions around the world.
+
+Data can be stored in the regions where end users who need to access it are located, thus speeding up the access process. Additionally, Cosmos DB includes multihoming APIs that are location-aware, which enables the software to direct read requests from users to the closest data center, thereby further reducing latency.
+
+One of the best things about Azure Cosmos DB is that it's extremely flexible with regard to the data models and programming interfaces that can be used with the database. Native support is included for document, graph, key-value and wide-column data models, among others. A SQL API supports the management and querying of data in JSON documents, and APIs are also available for various NoSQL databases, including MongoDB, Cassandra, graph databases based on the Apache TinkerPop framework and Microsoft's Azure Table storage technology.
+
+Microsoft Cosmos DB isn't entirely new: It grew out of a Microsoft development initiative called Project Florence that began in 2010, and it was first commercialized in 2015 with the release of a NoSQL database called Azure DocumentDB. As that name indicates, DocumentDB was a document database only. Cosmos DB expands on it by adding multimodel support, global distribution capabilities and relational-like guarantees for latency, throughput, consistency and availability.                
+
+According to Microsoft, Cosmos DB can be used for "any Web, mobile, gaming and IoT applications that need to handle massive amounts of reads and writes on a global scale with low response times." However, Cosmos DB's best use cases might be those that leverage event-driven Azure functions, which enable application code to be executed in a serverless environment.
+
+One of the examples that Microsoft gives as to how Cosmos DB might be used in that way involves an automaker linking connected cars to a back-end Cosmos database. If new cars are connected to a back-end cloud service via a mobile communications link -- something that companies like General Motors and Toyota are currently doing -- the supporting database would need to be capable of servicing customers across all regions without incurring excess latency. It would also need to scale to accommodate not only the cars that are currently on the road, but also the ones that will be sold in the future.
+
+The Microsoft Cosmos DB platform is ideally suited to that type of application. And because it's integrated with the Azure Functions technology, the database can act as a component of a larger workflow, in addition to being a data repository.
+
+In Microsoft's example, a problem that causes a vehicle's check engine light to be illuminated might trigger the vehicle to transmit sensor data to Cosmos DB. The database might then kick off a workflow that sends the sensor data to the automaker's warranty department, and sends an alert to the car owner. Such a workflow could even conceivably query a local dealership's parts inventory to ensure that the dealership is equipped to handle any required repairs and, if necessary, order parts from the manufacturer.
+
+Cosmos DB seems to fit well into Microsoft's overall business strategy. In recent years, Microsoft has focused most of its attention on its cloud platforms, primarily Azure and Office 365. As such, the company's business strategy might best be described as "make the world Azure." This philosophy generates recurring revenues for Microsoft, as opposed to perpetual software licensing, which involves a one-time fee -- plus annual maintenance fees, typically.
+
+Of course, offering cloud database services isn't new for Microsoft. In addition to Azure SQL Database, versions of the MySQL and PostgreSQL open source databases are available on Azure, and Microsoft is working to add a MariaDB implementation. It also offers a SQL Server Stretch Database technology that enables users to extend on-premises SQL Server databases to the cloud.
+
+Microsoft's Cosmos DB is different, though, due to its multimodel nature and its suitability for use in applications that require massive scalability and top-notch performance. And, to see what the technology is all about, you can try it out for free, without even having an Azure subscription.
+
+Brien Posey asks:
+
+Please check the box if you want to proceed.
+
+Please check the box if you want to proceed.
+
+Online flash-sale retailer Zulily uses BigQuery and Tableau to help power its predictive analytics, which, in turn, boosts its ...
+
+At the Real Business Intelligence conference, Airbnb and Univision execs presented some of the BI strategies their organizations ...
+
+Explore the data discovery software market, including the products and vendors helping enterprises glean insights using data ...
+
+Cloud evaluation requires planning and cost analysis. With available technology and managed service providers, IT can reduce ...
+
+HPE has complemented its recent high-end hyper-converged system with another HCI system to fit the space-constrained environments...
+
+Changing business needs and the move toward Agile workflows affect how data center managers make decisions about daily operations...
+
+The Redis key-value store finds use in a system to match would-be romantic partners on dating site eHarmony, which employs a ...
+
+Selecting a service for big data in the cloud can be challenging. Expert David Loshin explains how usage patterns could lead ...
+
+GDPR influence is touching a Hadoop big data world that was immune to many privacy considerations until now. This podcast ...
+
+Serverless architectures help teams deploy to production faster but also introduce an entirely new cost structure. Use this ...
+
+AWS CloudFormation enables businesses to automate much of their cloud infrastructure. Read this expert advice to ramp up with the...
+
+AWS offers a wide variety of cloud tools but, in some cases, still lacks the core IT management and ops features that enterprises...
+
+Oracle's Autonomous Database automates basic tasks of database administrators. That may put some DBA jobs at risk, but many will ...
+
+Mapping IoT activity and other IT data to Oracle ERP is the task Las Vegas set for FixStream's AIOps platform in an effort to ...
+
+Oracle Database 18c is really another version of 12c Release 2 with a different name. It doesn't contain major new features, but ...
+
+Challenges await companies as they move content and microservices app-enabled processes to the cloud. Chief among them are data ...
+
+OpenText's makeover of EIM platform reflects reality that few companies are fully cloud or fully on premises anymore; SaaS, ...
+
+The SaaS company recently launched Commerce Manager to integrate enriched content with e commerce systems, and it earlier ...
+
+Microsoft resolved three public disclosures and updated its Spectre and Meltdown advisory this July Patch Tuesday. In total, ...
+
+With help from the combined use of the SPF, DKIM and DMARC technologies, Exchange administrators can curb email spoofing to ...
+
+Microsoft provides a mix of server management tools that administrators can choose from to control the machines that run the ...
+
+All Rights Reserved, 
+			Copyright 2005 - 2018, TechTarget
+			
+			

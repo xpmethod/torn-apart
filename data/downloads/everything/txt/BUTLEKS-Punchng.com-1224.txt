@@ -1,0 +1,41 @@
+A female corrections officer in Ohio, United States, Nakisha Newell, will face criminal charges for allegedly having sex with a male inmate as well as bringing illegal imports into the county jail, authorities said.
+
+Newell who had been on the job just 18 months has been charged with two counts of felony sexual battery and two counts of conveyance, a misdemeanour.
+
+More charges are likely, Butler County Sheriff, Richard Jones, told the Dayton Daily News.
+
+
+Newell, 28, was fired immediately after officials got a tip she brought in a cellphone and electronic cigarettes into the jail, according to the New York Post.
+
+Maj. Mike Craft of the Butler County Sheriff’s Office told the Dayton Daily News that a sharp-eyed corrections sergeant had “educated hunch” about Newell’s activities, and an investigation into possible criminal activity began.
+
+“He had seen some things that he didn’t think were right. He did a great job bringing the information to us,” Craft said.
+
+During questioning about the contraband, Newell confessed to having sex with a male inmate, Craft said.
+
+Craft said Newell will not be housed through the Butler County Jail, but was taken to another county.
+
+Officials said the investigation is ongoing, and it is uncertain if the inmate will be charged.
+
+“Being a corrections officer is a noble but tough job,” Jones said in the prepared statement. “These men and women work hard and always have to be on their guard.
+
+“My employees take pride in their work and strive to ensure this facility maintains a great reputation. She has tarnished that and I do not want people like that working for me.”
+
+
+(NAN/Fox News)
+
+
+var publisherID = "100036";
+var placementID = "1019";
+var callbackURL = "https://www.therubiqube.com/sample_callback.php";
+var width = "300px";
+var height = "250px";
+document.write("");
+
+
+
+
+
+
+
+(function(w,d,s,u,n,e,c){w.PXLObject = n; w[n] = w[n] || function(){(w[n].q =w[n].q || []).push(arguments);};w[n].l = 1 * new Date();e = d.createElement(s); e.async = 1; e.src = u;c = d.getElementsByTagName(s)[0]; c.parentNode.insertBefore(e,c);})(window, document, "script", "//api.dmcdn.net/pxl/client.js","pxl");

@@ -1,0 +1,72 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 79 degrees
+
+DESERT HOT SPRINGS, Calif. — A man is facing a charge of vehicular manslaughter after police say he crashed into Tour de Palm Springs cyclists, killing one and seriously injuring another.
+
+
+Ronnie R. Huerta Jr., 21, of Desert Hot Springs, was arrested shortly before 1 p.m. Saturday and is being detained at the Riverside County Jail in Indio, according to jail records.
+
+Witnesses told investigators the car that struck the two cyclists -- a 2006 Ford 500 -- was moving at least 100 mph along the Tour de Palm Springs route, near Indio Hills. The collision was reported shortly before 9:30 a.m. 
+
+
+Cyclist killed, 2 others injured in Tour de Palm Springs
+
+Cyclist Mark Kristofferson, 49, of Lake Stevens, Washington, was pronounced dead at the scene, according to the Riverside County Coroner's Office.
+
+
+The second cyclist, Alyson Lee Akers, 50, of Huntington Beach, was airlifted to Desert Regional Medical Center in Palm Springs with major injuries and a laceration to her head, the California Highway Patrol said. Huerta was treated at Desert Regional for moderate injuries.
+
+
+Numerous Tour de Palm Springs cyclists were traveling eastbound on Dillon Road as the Ford came from behind and veered into the westbound lane and then went off the roadway onto the dirt shoulder where the driver lost control, CHP Sgt. Isaiah Kee said.
+
+
+The sedan then veered back across the roadway into the eastbound lane and struck Kristofferson and Akers before hitting a berm and rolling.
+
+
+Several of the other cyclists told investigators the car was traveling at more than 100 mph, Kee added.
+
+
+Dillon Road is mostly straight but has a lot of hills. The posted speed limit is 50 mph.
+
+
+Kee said the car's speed may have prevented the driver from seeing the cyclists early enough to slow down and avoid hitting them.
+
+
+“There were so many participants that it was easy to see that there were bicyclists coming … not like you’re traveling down the road and all of a sudden encounter a few bicyclists,” he added.
+
+
+Michael Stearns, a spokesman for the Tour de Palm Springs, said later Saturday that the group was still collecting information and didn’t have enough details to comment on the crash.
+
+The crash occurred as cyclists were in the “tail end” of the 100-mile route of the event passed through the area, Kee said.
+
+
+Beginning at 6:30 a.m., cyclists headed north out of downtown Palm Springs and gradually made their way to North Palm Springs. From there, they turned east on Dillon and were supposed to make their way to Indio and then Thermal before returning west through other Coachella Valley cities.
+
+
+Whether the car's driver was under the influence of drugs or alcohol is under investigation.
+
+
+This is at least the second time a fatality occurred during the Tour de Palm Springs. In 2014, an Alta Loma woman was killed when she was hit by a pickup in Thermal.
+
+
+Authorities said Lavonne Koester, 55, who was at mile 67 of the 100-mile route, rode into the path of a Dodge truck and was thrown from her bike. She was pronounced dead at John F. Kennedy Memorial Hospital in Indio.
+
+
+CHP investigators said Koester ran a stop sign and the pickup’s driver was not at fault.
+
+
+Contributing: Desert Sun reporter Colin Atagi

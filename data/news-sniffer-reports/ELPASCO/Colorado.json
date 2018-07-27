@@ -1,0 +1,126 @@
+{
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Kieran Nicholson",
+      "title": "El Paso County sheriff’s deputy busted on drug charges, booked at his workplace",
+      "description": "A sheriff's deputy in El Paso County was arrested Tuesday on suspicion of drug charges.",
+      "url": "https://www.denverpost.com/2018/06/12/el-paso-county-sheriffs-deputy-busted-on-drug-charges-booked-at-his-workplace/",
+      "urlToImage": "https://www.denverpost.com/wp-content/themes/denverpost/static/images/denverpost.jpg",
+      "publishedAt": "2018-06-13T03:11:31Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Elizabeth Hernandez",
+      "title": "Illegal El Paso County marijuana grow bust nets more than 110 pounds seized, 2 arrested",
+      "description": "More than 110 pounds of marijuana was seized and two people were arrested following an El Paso County illegal marijuana grow bust on Wednesday involving multiple law enforcement departments.",
+      "url": "https://www.denverpost.com/2018/04/05/el-paso-county-marijuana-seizure/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2018/04/marijuana-grow-stage-stop.jpg?w=640&h=480",
+      "publishedAt": "2018-04-05T18:41:06Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Kirk Mitchell",
+      "title": "Fountain man shot father several times, killing him",
+      "description": "Fountain police arrested a 27-year-old man late Monday night for investigation of first degree murder in the Monday night shooting death of his father, authorities say.",
+      "url": "https://www.denverpost.com/2018/03/20/fountain-man-kills-father/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2017/04/police-tape.jpg?w=1024&h=576",
+      "publishedAt": "2018-03-20T12:35:12Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Tom McGhee",
+      "title": "Colorado Springs police arrest suspect after he pops out of car trunk",
+      "description": "Colorado Springs police arrested a man who had fled a traffic stop after finding him in the trunk of his vehicle on Saturday",
+      "url": "http://www.denverpost.com/2017/09/17/colorado-springs-police-arrest-suspect-after-he-pops-out-car-trunk/",
+      "urlToImage": "http://www.denverpost.com/wp-content/uploads/2016/07/colorado-springs-police-listing.jpg?w=600&h=285",
+      "publishedAt": "2017-09-17T15:46:15Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Tom McGhee",
+      "title": "Colorado Springs police arrest suspect after he pops out of car trunk",
+      "description": "Colorado Springs police arrested a man who had fled a traffic stop after finding him in the trunk of his vehicle on Saturday",
+      "url": "http://www.denverpost.com/2017/09/17/colorado-springs-police-arrest-suspect-after-he-pops-out-car-trunk/",
+      "urlToImage": "http://www.denverpost.com/wp-content/uploads/2016/07/colorado-springs-police-listing.jpg?w=600&h=285",
+      "publishedAt": "2017-09-17T15:46:15Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Tom McGhee",
+      "title": "Colorado Springs police arrest suspect after he pops out of car trunk",
+      "description": "Colorado Springs police arrested a man who had fled a traffic stop after finding him in the trunk of his vehicle on Saturday",
+      "url": "http://www.denverpost.com/2017/09/17/colorado-springs-police-arrest-suspect-after-he-pops-out-car-trunk/",
+      "urlToImage": "http://www.denverpost.com/wp-content/uploads/2016/07/colorado-springs-police-listing.jpg?w=600&h=285",
+      "publishedAt": "2017-09-17T15:46:15Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Christopher N. Osher",
+      "title": "Colorado police agencies, armed with $21M in marijuana tax revenue, try to steer mentally ill, drug addicted away from jail",
+      "description": "In a new approach, police in 10 communities will divvy up $21.5 million in aid from Colorado to try cleaning up high-crime areas by steering those struggling with drug addiction and mental health disorders toward treatment and housing instead of incarcerating…",
+      "url": "https://www.denverpost.com/2018/01/11/colorado-police-marijuana-tax-revenue/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2017/01/police_mental_health__6ao0691x.jpg?w=1024&h=683",
+      "publishedAt": "2018-01-11T22:37:06Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Tom McGhee",
+      "title": "Jefferson County is locking up veterans in special jail unit to break the cycle of incarceration",
+      "description": "A new veterans-only housing unit at the Jefferson County Detention Facility could help some vets avoid returning to the jail.",
+      "url": "http://www.denverpost.com/2017/11/13/jefferson-county-locking-up-veterans-special-jail-unit-break-incarceration-cycle/",
+      "urlToImage": "http://www.denverpost.com/wp-content/uploads/2016/06/jefferson_county_detention_facility.jpg?w=1024&h=683",
+      "publishedAt": "2017-11-13T13:30:06Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Kirk Mitchell",
+      "title": "The white supremacist gang linked to Colorado prison chief’s assassination five years ago continues killing",
+      "description": "Five years after a parolee killed Colorado’s prisons chief Tom Clements and Commerce City father of three Nathan Leon, the white supremacist gang that some officials have linked to the deaths continues to grow more powerful and deadly behind bars.",
+      "url": "https://www.denverpost.com/2018/03/17/white-supremacist-gang-211-crew-tom-clements-murder/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2018/03/poolmemorialservice_dsc4810-001.jpg?w=1024&h=681",
+      "publishedAt": "2018-03-17T16:00:23Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Denverpost.com"
+      },
+      "author": "Kirk Mitchell",
+      "title": "He sexually molested her 6-year-old son and fled the country. So this Fort Collins mom tracked him down — planning to kill him, if necessary",
+      "description": "Angry that a man who admitted molesting her son had been allowed to flee to Mexico, a Fort Collins mother decided to hunt him down herself, with plans to kill him if necessary. Her amateur sleuthing would require stealth and determination, but not violence. H…",
+      "url": "https://www.denverpost.com/2018/04/28/fort-collins-woman-tracks-child-molester-mexico/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2018/04/lydia_lerma_hunts_man_in_mexico_man_who_molested_her_son__2hr9636.jpg?w=1024&h=683",
+      "publishedAt": "2018-04-28T13:00:47Z"
+    }
+  ],
+  "status": "ok"
+}

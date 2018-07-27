@@ -1,0 +1,102 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WFAA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Dallas Weather Summary: 96 degrees
+
+2 Weather Alerts
+
+Learn More
+
+Wesley Mathews, adoptive father of Sherin Mathews, has been transferred from a Richardson jail to Dallas County Jail Wednesday morning.
+
+
+Wesley has been placed under protective custody and suicide watch, a common practice with high profile cases.
+
+
+The 3-year-old Richardson girl went missing Oct. 7 after Wesley originally told police he put her outside their home at 3 a.m. for not drinking her milk. According to affidavits, he told Sherin to stand near a large tree in the backyard.
+
+When we went back outside 15 minutes later, his daughter was gone.
+
+
+Mathews went back inside the home, did some laundry and thought she would turn up on her own.
+
+
+"While he was waiting he did a little laundry and hoped that the light would come around and he could do a better check," Richardson Police Sgt. Kevin Perlich said.
+
+
+Mathews notified authorities about his daughter's disappearance five hours he wasn't able to find her.
+
+
+Mathews told police that coyotes had been spotted in the alley where he left his daughter. The house in the 900 block of Sunningdale also backs up to railroad tracks.
+
+
+He has since changed his story and told police she "choked on milk in the garage."
+
+
+An Amber Alert was issued for Sherin but was discontinued Oct. 9.
+
+
+Detectives in Richardson filed at least 30 search warrants related to the investigation.
+
+
+Search warrants obtained by WFAA reveal FBI detectives seized a variety of electronics, including five cellphones, three laptops, a tablet and a digital camera from the family home.  
+
+
+In total, FBI agents listed 47 items seized from the home, including trash bags, a pink blanket and pink T-shirt.
+
+
+In another search warrant for the family's 2013 Acura MDX, detectives collected a floor mat, DNA swabs and a USB drive. That vehicle is at the center of the investigation as Richardson Police have said the vehicle was not at home between 4 and 5 a.m. on the morning Wesley Mathews says his daughter disappeared.
+
+
+Search warrants were also conducted on two other vehicles owned by Wesley and Sini. Both indicate multiple swabs were taken from the vehicles, but detectives say the focus of their investigation remains the whereabouts of the Acura SUV.
+
+After missing for two weeks, countless search efforts by police and community members, a small child's body was found in a drain culvert Sunday afternoon on Oct. 22. The culvert is less than a mile away from the Mathews' home.
+
+
+Police were not able to immediately identify the body. The Dallas County medical examiner confirmed two days later that the body found was that of Sherin Mathews. Officials were able to confirm her identity with dental records provided by Sini Mathews, the child's adoptive mother. A cause of death is still pending.
+
+
+Police say Sini was asleep during the incident and is not currently facing charges. Sini was working with attorney Kent Starr but he confirmed Tuesday, Oct. 24 he has withdrawn as her civil attorney. Sini is now represented by attorney Mitch Nolte.
+
+
+On Wednesday evening, they released the following statement:
+
+
+The Mathews have another biological 4-year-old daughter who was removed from their custody the day Wesley was first arrested. A CPS hearing for the child was postponed until Nov. 13. She will stay in state custody for three more weeks.
+
+
+Mathews was initially arrested on Saturday, Oct. 7 and charged with abandoning or endangering a child. The next day, he was arraigned on the endangerment charge and a judge set his bond at $250,000. He made bond Oct. 9 and was placed on an electronic ankle monitoring device and surrendered his passport.
+
+
+An arrest warrant obtained by WFAA Tuesday, Oct. 23 details the conflicting story that led to the re-arrest of Wesley.
+
+
+The warrant states that Wesley told police his 3-year-old daughter choked on milk in the early morning hours of Oct. 7 and "believed she had died."
+
+He alleged that he had been trying to get her to drink her milk in the garage around 3 a.m. He said he "physically assisted" Sherin in drinking her milk when she wouldn't listen to him, according to the warrant.
+
+
+"She was coughing and her breathing slowed," the warrant reads. "Eventually, Wesley Mathews no longer felt a pulse on the child and believed she had died."
+
+
+He then admitted to police that he removed the body from the home, the warrant reads.
+
+
+"When they came in, they provided us with some information that was contrary to what we had previously been told regarding her [Sherin Mathews'] disappearance," said Kevin Perlich, Richardson PD spokesperson.
+
+
+Police re-arrested him the day he voluntarily went to the station on Oct. 23, for felony injury to a child after providing investigators at the Richardson Police Department with the conflicting story. His bond has been set at $1 million.
+
+

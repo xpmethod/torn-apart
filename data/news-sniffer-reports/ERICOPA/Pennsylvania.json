@@ -1,0 +1,18 @@
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Philly.com"
+      },
+      "author": "Chris Goldstein",
+      "title": "Millennials bear the brunt of Pa. marijuana arrests - Philly",
+      "description": "Philadelphia is evolving into a safe haven for cannabis consumers even as arrests increase across Pennsylvania. Newly-elected District Attorney Larry Krasner announced Thursday that he would drop any marijuana possession cases brought to the court by police.",
+      "url": "http://www.philly.com/philly/business/cannabis/millennials-bear-the-brunt-of-pa-marijuana-arrests-20180216.html",
+      "urlToImage": "http://media.philly.com/images/dixon-382211-f-wp-content-uploads-2018-02-1031902_bf0ad87f7c40030-e1518802317815-1200x799.jpg",
+      "publishedAt": "2018-02-16T17:59:20Z"
+    }
+  ],
+  "status": "ok"
+}

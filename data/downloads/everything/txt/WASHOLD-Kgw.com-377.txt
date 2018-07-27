@@ -1,0 +1,41 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/KGW.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Portland Weather Summary: 84 degrees
+
+KENNEWICK, Wash. (AP) - Officials are investigating after a mower tractor ran over a body in a field in Benton County, Washington.
+
+
+    
+
+
+The Benton County Sheriff's Office received a call at about 9 a.m. Monday from a man who was mowing rye-grass off Richmond Road. He said he believed he ran over a body in the field.
+
+    
+
+
+Deputies responded and found the remains of a human body just off the gravel roadway.
+
+
+    
+
+
+Officials say due to the damage the body suffered from the large mower blades on the tractor, the body could not be immediately identified.
+
+
+    
+
+
+Detectives are investigating the death to determine the person's identity and cause of death.

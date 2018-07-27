@@ -1,0 +1,214 @@
+Sign up for the For The Win daily email newsletter for the top stories every day.
+
+
+			Thanks for signing up.
+			You'll be waking up a little more awesome tomorrow.		
+
+
+			Something went wrong.		
+
+
+
+	By Alysha Tsuji 
+		September 26, 2017 9:21 pm
+
+	
+	
+					
+				
+					Follow					@alyshatsuji				
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			
+		
+	
+
+
+		By: Alysha Tsuji		| September 26, 2017 9:21 pm		
+							
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+										
+	
+		Follow @alyshatsuji	
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+					
+	
+
+Mavericks owner Mark Cuban let J.J. Barea use the team plane to get supplies to Puerto Rico and to bring his mother and grandmother back to the states this week, according to ESPN‘s Tim MacMahon.
+
+Puerto Rico was hit by Hurricane Maria and is now facing a “monumental recovery effort,” per USA TODAY. MacMahon noted that Barea is the only active NBA player who’s a Puerto Rico native.
+
+Mark Cuban loaned the team plane to J.J. Barea to fly supplies to Puerto Rico. Barea will return tonight with his mother and grandmother.
+
+— Tim MacMahon (@espn_macmahon) September 26, 2017
+
+
+
+Here’s more from Cuban and head coach Rick Carlisle, per ESPN:
+
+“I was really proud of J.J. and how quickly he got involved and how hard he worked to make all of this happen,” Cuban told ESPN in a text message.
+
+“That’s a situation that he’s got to take care of,” coach Rick Carlisle said. “Mark gave him our team plane. They loaded up a bunch of stuff, supplies, etc., to take over to Puerto Rico, and they’re going to turn around and come back. He’s going to take his mom and grandmother back with him, and my understanding is his dad is going to stay over there and slug it out with all of the recovery efforts.”
+
+Barea and his wife Viviana Ortiz set up a donation page that has raised more than $100,000 as of Tuesday, Sept. 26. In the comments section of the donation page, Ortiz explains how the money will be used:
+
+“We are going to manage everything personally with J.J. Barea Foundation and our contacts in Puerto Rico. The Foundation was established by J.J. Barea when he started to play in the NBA. Since its inception, the foundation has been helping communities in Puerto Rico develop facilities for youth sports. However, with this tragedy the Foundation is determined to contribute to the rebuilding of Puerto Rico. From helping with shelters (food, water, necessities etc.) to rebuilding communities. JJ his family and the Foundation are determined to help Puerto Rico and its strong people get back on their feet. We are going to find out the most urgent needs and we go from there.”
+
+Ortiz, who’s a Puerto Rican actress and model, posted photos of the plane on Instagram and thanked the Dallas community for their support.
+
+ PUERTO RICO 🇵🇷 SE LEVANTA!!! #huracanmaria #estamosllenos #todossomospuertorico
+
+A post shared by  Viviana Ortiz Pastrana (@vivianaortizpr) on Sep 25, 2017 at 6:26pm PDT
+
+ Contentos @jjbarea11 y yo con todo el apoyo que hemos recibido de parte de toda la comunidad en Dallas!!!!! Mañana partimos a las 4:00am en este avión a nuestra isla Puerto Rico para llevar artículos de primera necesidad y otros! Es increíble ver como nos ayudamos unos a otros en momentos como este! MI PUERTO RICO SE LEVANTA 🇵🇷!!!!! #huracanmaria #dallasmavericks
+
+A post shared by  Viviana Ortiz Pastrana (@vivianaortizpr) on Sep 25, 2017 at 5:25pm PDT
+
+Dallas Mavericks, J.J. Barea, Mark Cuban, Puerto Rico, NBA
+
+
+		Alysha Tsuji is a writer at FTW. She's based in Los Angeles and enjoys writing about all sorts of sports. 	
+
+
+			
+				Phil Hellmuth apologizes for foul-mouthed rant during World Series of Poker hand			
+		
+
+
+			
+				10 fantasy football sleepers we're irrationally excited about in 2018			
+		
+
+
+			
+				How Kelly Slater took surfing out of the ocean and onto dry land			
+		
+
+
+												July 10, 2018 2:50 pm 
+						·
+						
+							Charles Curtis													
+					
+
+Good way to stay loose. 
+
+
+												July 10, 2018 2:15 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Let’s take a look.  
+
+
+												July 10, 2018 2:12 pm 
+						·
+						
+							Nick Schwartz													
+					
+
+Donte DiVincenzo might want to get a second job for the summer. 
+
+
+												July 10, 2018 1:31 pm 
+						·
+						
+							Michelle R. Martinelli													
+					
+
+Gigantic wrecks, stunning saves and rogue tires everywhere. 
+
+
+												July 10, 2018 1:14 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+“I feel that the time has come.” 
+
+
+												July 10, 2018 12:53 pm 
+						·
+						
+							Nick Schwartz													
+					
+
+LeBron is preparing for his first season as a Laker. 
+
+
+												July 10, 2018 12:46 pm 
+						·
+						
+							Andrew Joseph													
+					
+
+Happy Gilmore comes to life.  
+
+
+												July 10, 2018 12:13 pm 
+						·
+						
+							Nick Schwartz													
+					
+
+Becca is down to her Final Four on The Bachelorette. 
+
+
+												July 10, 2018 11:27 am 
+						·
+						
+							Steven Ruiz													
+					
+
+“Daddy’s always happy,” says a clearly dejected Hayward.  
+
+
+												July 10, 2018 10:59 am 
+						·
+						
+							Charles Curtis													
+					
+
+“The Challenge” legend breaks down the upcoming season of the reality series. 
+
+
+					Thanks for signing up.
+					You'll be waking up a little more awesome tomorrow.
+				
+
+
+					Something went wrong.
+				
+
+A look inside Ben Simmons and Kendall Jenner's $25K per month LA rental
+
+Milwaukee Bucks rookie has less than four dollars in his bank account
+
+LeBron James is back in the gym and preparing for his first season in LA
+
+
+		
+			
+		
+	
+
+
+			Powered by WordPress.com VIP		
+
+
+		
+			Show More Information		
+		
+	
+
+J.J. Barea and his wife Viviana Ortiz set up a donation page too. 

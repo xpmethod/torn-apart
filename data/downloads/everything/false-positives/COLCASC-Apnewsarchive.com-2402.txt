@@ -1,0 +1,22 @@
+COLUMBIA, Mo. (AP) — New research from the University of Missouri found that video game motion sensors can be useful in physical therapy.
+
+A team from the University of Missouri's health professions school, engineering college, health care center, motion analysis center and orthopaedic institute found that the Xbox Kinect 2.0 motion sensor can be used as a suitable replacement for medical motion labs, the Columbia Missourian reported .
+
+
+Motion sensors help physicians with analyzing patient movement, tracking rehabilitation and assessing future injury risk. But motion labs often cost more than $100,000 and are time-consuming, according to the research team's news release.
+
+Aaron Gray, a sports medicine physician with the university's health care center, said replacing the labs with an Xbox Kinect can make motion analysis testing inexpensive and portable.
+
+Gray said the study focused on knee angles during landing and jumping movements. He hopes that the research will allow others to study more movements.
+
+The research team is currently assessing tests conducted on 180 students at local middle and high schools. During the testing, the team found that each exam using the Kinect was completed in less than three minutes.
+
+Gray said the team will need to consider other sensors on the market after Microsoft recently announced that the Kinect is being discontinued.
+
+Trent Guess, an associate professor of physical therapy and orthopedic surgery, suggested virtual reality technology.
+
+"This new generation of virtual reality depth sensors may have advantages over the Kinect and we hope to be among the first users to properly validate and use these new technologies for health care," Guess said.
+
+___
+
+Information from: Columbia Missourian, http://www.columbiamissourian.com

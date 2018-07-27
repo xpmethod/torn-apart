@@ -1,0 +1,42 @@
+{
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Natalie Musumeci",
+      "title": "Janoris Jenkins’ brother named ‘person of interest’ in dead body case",
+      "description": "The older brother of Giants cornerback Janoris Jenkins has been identified as a “person of interest” in connection to the death of a music producer whose body was found at the football player’s home, according to a new report. Ontario County district attorney…",
+      "url": "https://nypost.com/2018/06/27/janoris-jenkins-brother-named-person-of-interest-in-dead-body-case/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2018/06/180627-person-interest-janoris-jenkins-feature.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2018-06-27T17:21:03Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Natalie Musumeci",
+      "title": "Producer died after brawl with Janoris Jenkins’ brother: report",
+      "description": "The hip-hop music producer whose body was found at the New Jersey home of Giants cornerback Janoris Jenkins died after a brawl with the football star’s older ex-con brother, according to a new report. William Jenkins Jr., 34, and Roosevelt Rene, 25, got into …",
+      "url": "https://nypost.com/2018/06/28/producer-died-after-brawl-with-janoris-jenkins-brother-report/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2018/06/roosevelt-rene-william-jenkins.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2018-06-28T19:29:47Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Associated Press",
+      "title": "Ottawa Senators assistant GM charged with harassment",
+      "description": "BUFFALO — Ottawa Senators assistant general manager Randy Lee is accused of inappropriately touching and making lewd comments toward a hotel shuttle driver while in Buffalo for the NHL’s scouting combine. Lee was charged with second-degree harassment on Frida…",
+      "url": "https://nypost.com/2018/06/01/ottawa-senators-assistant-gm-charged-with-harassment/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2018/06/ottawa-asst-gm.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2018-06-01T21:07:54Z"
+    }
+  ],
+  "status": "ok"
+}

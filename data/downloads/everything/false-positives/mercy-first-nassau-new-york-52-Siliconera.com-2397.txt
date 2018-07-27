@@ -1,0 +1,30 @@
+By Jenni . July 9, 2018 . 11:30am
+
+
+
+ 
+
+Blizzard has revealed the totals for sales of the Pink Mercy Overwatch skin, which was sold to raise money for the Breast Cancer Research Foundation (BCRF). The $14.99 skin, which was sold between May 8-21, 2018, made over $12.7 million for BCRF. As noted by the company in their official update, “This is the largest donation by a corporate partner within one year in BCRF’s 25-year history, and it’s all because of you.”
+
+ 
+
+In addition to the amount raised through skin sales, Blizzard revealed how much money was raised through the other BCRF charity promotions. Over $130,000 came in from the VICKISIGH Pink Mercy limited edition t-shirts and donations made during the 14 Overwatch stars’ Twitch streams. 
+
+ 
+
+Overwatch is available for the PlayStation 4, Xbox One and PC.
+
+
+
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '808330639336103');
+  fbq('track', 'PageView');
+
+

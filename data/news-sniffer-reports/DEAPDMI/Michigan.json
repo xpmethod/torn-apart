@@ -1,0 +1,30 @@
+{
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Lansingstatejournal.com"
+      },
+      "author": "Lansing (Mich.) State Journal, Matt Mencarini, Lansing (Mich.) State Journal",
+      "title": "Inside the investigation and prosecution of Larry Nassar",
+      "description": "Before the world knew Larry Nassar's name and his crimes, Andrea Munford and Angela Povilaitis were building their case one voice at a time.",
+      "url": "https://www.lansingstatejournal.com/story/news/local/2018/04/05/larry-nassar-inside-prosecution-investigation/472506002?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/28b9fc7fb79ff8c5b4d8b4eb8f51c79c19f6b4fc/c=136-0-2970-1601&r=x1683&c=3200x1680/local/-/media/2018/04/04/MIGroup/Lansing/636584508844695112-MDS-8599-copy.jpg",
+      "publishedAt": "2018-04-05T14:43:28Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lansingstatejournal.com"
+      },
+      "author": "Lansing State Journal, Matt Mencarini, Lansing State Journal",
+      "title": "Inside the investigation and prosecution of Larry Nassar",
+      "description": "Before the world knew Larry Nassar's name and his crimes, Andrea Munford and Angela Povilaitis were building their case one voice at a time.",
+      "url": "https://www.lansingstatejournal.com/story/news/local/2018/04/05/larry-nassar-inside-prosecution-investigation/472506002/?utm_source=google&utm_medium=amp&utm_campaign=speakabl",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/28b9fc7fb79ff8c5b4d8b4eb8f51c79c19f6b4fc/c=136-0-2970-1601&r=x1683&c=3200x1680/local/-/media/2018/04/04/MIGroup/Lansing/636584508844695112-MDS-8599-copy.jpg",
+      "publishedAt": "2018-04-05T13:25:16Z"
+    }
+  ],
+  "status": "ok"
+}

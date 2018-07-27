@@ -1,0 +1,85 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WXIA.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Atlanta Weather Summary: 93 degrees
+
+ATLANTA -- One woman was arrested Sunday night after an anti-ICE protest turned violent in downtown Atlanta.
+
+
+Police said a group of protestors began putting tents on city property during a protest over the Trump administration's immigration policies. Police said the demonstrators were asked to remove the tents, but refused.
+
+A group of officers then moved in to remove them, and that's when, according to police, several protestors became violent, fighting and throwing items at the officers, including frozen water bottles.
+
+
+24-year-old Tori Tremayne was charged with disorderly conduct. 
+
+
+According to the organizers' Facebook page, the demonstration was to begin at the Atlanta city detention center. It then moved to the Atlanta ICE detention facility, where protestors set off smoke bombs and shot firecrackers at the building.
+
+
+On Saturday, thousands protested in downtown as part of a nationwide series of rallies against President Trump's zero-tolerance immigration stance.
+
+
+On Saturday, thousands protested in downtown as part of a nationwide series of rallies against President Trump's zero-tolerance immigration stance.
+
+Throughout the U.S., the rallies drew hundreds of thousands of people into the streets. 
+
+
+READ | Hundreds turn out for immigration protests in downtown Atlanta
+
+
+RELATED | Police clear out anti-ICE protest campsite outside Atlanta City Jail
+
+
+In April, Attorney General Jeff Sessions announced a "zero tolerance" immigration policy, directing federal prosecutors to criminally prosecute all adults crossing the border illegally. Because children cannot be placed in adult facilities, the policy led to the separation of families.
+
+
+This weekend's marches came after the president signed an executive order ending the forced separation of families at the southern border, but many said that's not enough, since there is no clear path to reuniting families that have already been separated.
+
+
+
+
+AT THE BORDER -- FULL COVERAGE ON 11ALIVE
+
+
+MORE RECENT HEADLINES
+
+
+Hundreds of migrants deported without children, analysis says
+
+Here's why the rise of detaining immigrant children was years in the making
+
+
+As thousands prepare to rally, here's where things stand on immigration
+
+
+What you need to know before Saturday's immigration protests
+
+
+People will march in all 50 states to protest Trump's 'zero tolerance' immigration policy
+
+
+
+
+Sign up for The Speed Feed newsletter below to get the latest headlines in your inbox each weekday!
+
+
+Email*
+
+
+
+
+
+Subscribe

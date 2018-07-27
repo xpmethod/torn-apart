@@ -1,0 +1,61 @@
+There are several options available to submit your application through Grants.gov to NIH and 
+        Department of Health and Human Services partners. You must use one of these submission 
+        options to access the application forms for this opportunity.
+
+Part 1. Overview Information
+  Part 2. Full Text of the Announcement
+  Section I. Funding Opportunity Description
+  Section II. Award Information
+  Section III. Eligibility Information
+  Section IV. Application and Submission
+  Information
+  Section V. Application Review Information
+  Section VI. Award Administration Information
+  Section VII. Agency Contacts
+  Section VIII. Other Information
+
+The NIH Director's Pioneer Award supports individual scientists of exceptional creativity who propose highly innovative approaches to addressing major challenges in the biomedical or behavioral sciences towards the goal of enhancing human health. The NIH recognizes a unique and compelling need to promote diversity in the biomedical and behavioral research workforce and expects its efforts to lead to the recruitment of the most talented researchers from all groups. Thus, this Funding Opportunity Announcement encourages applications from talented researchers from diverse backgrounds underrepresented in biomedical/behavioral research, including underrepresented racial and ethnic groups, persons with disabilities, and women. Applications proposing research on any topic within the broad mission of NIH are welcome.
+          
+          Emphases are on the qualities of the investigator and the innovativeness and potential impact of the proposed research. Preliminary data and detailed experimental plans are not requested. To be considered pioneering, the proposed research must reflect substantially different ideas from those being pursued in the investigator’s current research program or elsewhere. The Pioneer Award is not intended to expand a current research program into the area of the proposed project. While the research direction may rely on the applicant’s prior work and expertise as its foundation, it cannot be an obvious extension or scale-up of a current research enterprise which may be competitive as a new or renewal R01 application. Rather, the proposed project must reflect a fundamental new insight into the potential solution of a problem, which may develop from exceptionally innovative approaches and/or radically unconventional hypotheses. Applications for projects that are extensions of ongoing research should not be submitted.
+           
+          Pioneer awardees are required to commit the major portion (more than 6 person-months or at least 51%) to activities supported by the Pioneer Award research project in the first three years of the project period. Effort expended toward teaching, administrative, or clinical duties should not be included in this calculation. Awardees will be allowed to reduce effort to at least 4 person-months (33%) and at least 3 person-months (25%) in the fourth and fifth years, respectively, to help them transition to other sources of support, since Pioneer Awards cannot be renewed. Applicants with current research commitments equal to 6 person-months or more must  adjust their effort on existing grants during the award  to devote the required minimum effort to the Pioneer Award project. Applicants who will not be able to meet this requirement should not submit applications.
+           
+          The NIH Director's Pioneer Award is part of the High-Risk, High-Reward Research program funded through the NIH Common Fund, which supports cross-cutting programs that are expected to have exceptionally high impact. All Common Fund initiatives invite investigators to develop bold, innovative, and often risky approaches to address problems that may seem intractable or to seize new opportunities that offer the potential for rapid progress.
+
+Applicant organizations must complete and maintain the following registrations as described in the SF 424 (R&amp;R) Application Guide to be eligible to apply for or receive an award. All registrations must be completed prior to the application being submitted. Registration can take 6 weeks or more, so applicants should begin the registration process as soon as possible. The NIH Policy on Late Submission of Grant Applications states that failure to complete registrations in advance of a due date is not a valid reason for a late submission.
+
+Program Directors/Principal Investigators (PD(s)/PI(s))
+
+All PD(s)/PI(s) must have an eRA Commons account.  PD(s)/PI(s) should work with their organizational officials to either create a new account or to affiliate their existing account with the applicant organization in eRA Commons. If the PD/PI is also the organizational Signing Official, they must have two distinct eRA Commons accounts, one for each role. Obtaining an eRA Commons account can take up to 2 weeks.
+      
+
+
+Only single PD/PI applications are allowed. Applications with multiple PD(s)/PI(s) will not be accepted.
+      
+
+
+Study Timeline 
+
+If the application is under consideration for funding, NIH will request "just-in-time" information from the applicant as described in the NIH Grants Policy Statement.
+          A formal notification in the form of a Notice of Award (NoA) will be provided to the applicant organization for successful applications. The NoA signed by the grants management officer is the authorizing document and will be sent via email to the grantee’s business official.
+
+
+          Awardees must comply with any funding restrictions described in Section IV.5. Funding Restrictions. Selection of an application for award is not an authorization to begin performance. Any costs incurred before receipt of the NoA are at the recipient's risk. These costs may be reimbursed only to the extent considered allowable pre-award costs.
+
+
+          Any application awarded in response to this FOA will be subject to terms and conditions found on the Award Conditions and Information for NIH Grants website.  This includes any recent legislation and policy applicable to awards that is highlighted on this website. 
+
+All NIH grant and cooperative agreement awards include the NIH Grants Policy Statement as part of the NoA. For these terms of award, see the NIH Grants Policy Statement Part II: Terms and Conditions of NIH Grant Awards, Subpart A: General  and Part II: Terms and Conditions of NIH Grant Awards, Subpart B: Terms and Conditions for Specific Types of Grants, Grantees, and Activities. More information is provided at Award Conditions and Information for NIH Grants.
+          Recipients of federal financial assistance (FFA) from HHS must administer their programs in compliance with federal civil rights law. This means that recipients of HHS funds must ensure equal access to their programs without regard to a person’s race, color, national origin, disability, age and, in some circumstances, sex and religion. This includes ensuring your programs are accessible to persons with limited English proficiency.  HHS recognizes that research projects are often limited in scope for many reasons that are nondiscriminatory, such as the principal investigator’s scientific interest, funding limitations, recruitment requirements, and other considerations. Thus, criteria in research protocols that target or exclude certain populations are warranted where nondiscriminatory justifications establish that such criteria are appropriate with respect to the health or safety of the subjects, the scientific study design, or the purpose of the research.
+
+
+          In accordance with the statutory provisions contained in Section 872 of the Duncan Hunter National Defense Authorization Act of Fiscal Year 2009 (Public Law 110-417), NIH awards will be subject to the Federal Awardee Performance and Integrity Information System (FAPIIS) requirements.  FAPIIS requires Federal award making officials to review and consider information about an applicant in the designated integrity and performance system (currently FAPIIS) prior to making an award.  An applicant, at its option, may review information in the designated integrity and performance systems accessible through FAPIIS and comment on any information about itself that a Federal agency previously entered and is currently in FAPIIS.  The Federal awarding agency will consider any comments by the applicant, in addition to other information in FAPIIS, in making a judgement about the applicant’s integrity, business ethics, and record of performance under Federal awards when completing the review of risk posed by applicants as described in 45 CFR Part 75.205 “Federal awarding agency review of risk posed by applicants.”  This provision will apply to all NIH grants and cooperative agreements except fellowships.
+
+
+          For additional guidance regarding how the provisions apply to NIH grant programs, please contact the Scientific/Research Contact that is identified in Section VII under Agency Contacts of this FOA. HHS provides general guidance to recipients of FFA on meeting their legal obligation to take reasonable steps to provide meaningful access to their programs by persons with limited English proficiency. Please see http://www.hhs.gov/ocr/civilrights/resources/laws/revisedlep.html. The HHS Office for Civil Rights also provides guidance on complying with civil rights laws enforced by HHS. Please see http://www.hhs.gov/ocr/civilrights/understanding/section1557/index.html; and http://www.hhs.gov/ocr/civilrights/understanding/index.html. Recipients of FFA also have specific legal obligations for serving qualified individuals with disabilities. Please see http://www.hhs.gov/ocr/civilrights/understanding/disability/index.html. Please contact the HHS Office for Civil Rights for more information about obligations and prohibitions under federal civil rights laws at http://www.hhs.gov/ocr/office/about/rgn-hqaddresses.html or call 1-800-368-1019 or TDD 1-800-537-7697. Also note it is an HHS Departmental goal to ensure access to quality, culturally competent care, including long-term services and supports, for vulnerable populations. For further guidance on providing culturally and linguistically appropriate services, recipients should review the National Standards for Culturally and Linguistically Appropriate Services in Health and Health Care at http://minorityhealth.hhs.gov/omh/browse.aspx?lvl=2&amp;lvlid=53. 
+
+
+    
+
+
+Note: For help accessing PDF, RTF, MS Word, Excel, PowerPoint, Audio or Video files, see Help Downloading Files.

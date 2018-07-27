@@ -1,0 +1,18 @@
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Trib.com"
+      },
+      "author": "Elise Schmelzer elise.schmelzer@trib.com",
+      "title": "Dozens of Wyoming inmates housed in county jails due to lack of space, staffing",
+      "description": "Dozens of inmates within the Wyoming Department of Corrections live in county jails because the state’s prison system does not have the space or staff to house them.",
+      "url": "http://trib.com/news/state-and-regional/govt-and-politics/dozens-of-wyoming-inmates-housed-in-county-jails-due-to/article_641664b2-7b33-59be-8d94-b34a112c90fd.html",
+      "urlToImage": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/9/3d/93db1098-9f98-5a89-a291-0f36956bf895/5a93406c288dd.image.jpg?crop=620%2C349%2C0%2C37&resize=620%2C349&order=crop%2Cresize",
+      "publishedAt": "2018-02-26T12:30:00Z"
+    }
+  ],
+  "status": "ok"
+}

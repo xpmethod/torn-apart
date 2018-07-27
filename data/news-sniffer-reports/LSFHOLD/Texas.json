@@ -1,0 +1,18 @@
+{
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Themonitor.com"
+      },
+      "author": "MITCHELL FERMAN | STAFF WRITER Follow @mitchellferman !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');",
+      "title": "Democratic Senate hopeful stumps across Rio Grande Valley",
+      "description": "MISSION — The senate candidate climbed onto the back of a John Deere Gator utility vehicle, crossed his legs and soon saw the start of federal construction he had no idea existed.",
+      "url": "http://www.themonitor.com/news/local/article_4417e4a8-f362-11e7-9998-efbeeec75730.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/themonitor.com/content/tncms/assets/v3/editorial/9/17/917c4810-f362-11e7-a466-c33dd49b4d40/5a51a0d920820.image.jpg?resize=868%2C630",
+      "publishedAt": "2018-01-07T04:21:00Z"
+    }
+  ],
+  "status": "ok"
+}

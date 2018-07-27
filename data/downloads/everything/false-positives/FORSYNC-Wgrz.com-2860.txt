@@ -1,0 +1,153 @@
+;        
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WGRZ.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+     
+
+
+
+Buffalo Weather Summary: 79 degrees
+
+EAST LANSING, Mich. – The former dean of Michigan State University's College of Osteopathic Medicine, who oversaw disgraced former doctor Larry Nassar's clinic, faces charges that accuse him of groping a student and storing pornographic images on his computer, according to court records.
+
+The charges are apparently the first related to a Michigan Attorney General's investigation of sexual misconduct at Michigan State University that was announced in January.
+
+
+The warrants were issued for William Derkey Strampel, 70, on Tuesday on charges of felony misconduct in office, fourth-degree criminal sexual conduct and two additional misdemeanors, according to documents presented in district court in East Lansing, Mich, on Tuesday.
+
+
+The affidavit presented in court involves charges related to four female medical students. It alleges that Strampel groped two of the victims, made inappropriate sexual comments to numerous students and that investigators found pornographic images on his computer, among other details. 
+
+
+Strampel's arraignment is expected Tuesday afternoon, where Judge Richard Ball will set a bond amount once Strampel is formally charged. He was arrested Monday and is currently housed at Ingham County, Mich., Jail. 
+
+The misconduct in office charge carries a maximum sentence of up to five years in prison. The sexual assault charge is a high court misdemeanor, which means it carries a two-year maximum sentence. The willful neglect of duty charges carry a one-year maximum each.
+
+
+March 8: Larry Nassar: The making of a monster who abused gymnasts for decades
+
+
+Feb. 9: Larry Nassar victim says Michigan State violated her privacy by investigating anonymous claims
+
+
+John Dakmak, Strampel's attorney, said Tuesday that he's still working to figure out "what's going on" and declined to comment further.
+
+
+The Attorney General's investigation, which is being led by special prosecutor William Forsyth, was announced amid two sentencing hearings for Nassar. Forsyth's first request for documents revealed Strampel, who was Nassar's boss, was an early focus.
+
+During a news conference Tuesday, Forsyth said his investigation received a credible tip about Strampel so it obtained a search warrant before the university could provide documents. 
+
+
+The willful neglect of duty charges relate to Strampel's actions during and after Nassar's 2014 Title IX investigation, according to the affidavit.
+
+
+The felony charge relates to a series of sexually inappropriate comments made to at least four female students as early as 2006, according to an affidavit filed by Michigan State Police Detective Lt. Ryan Pennellin in support of the charges.
+
+
+Allegations from three of the four victims involve misconduct during meetings with Strampel to discuss low test scores. One alleged inappropriate behavior by Strampel on at least four occasions over four years.  
+
+
+Additional details from the affidavit include:
+
+
+• In either 2006 or 2007, Strampel had a conversation with a woman, identified only as Victim 4, at a local flu clinic and turned the conversation to drinking. He then said how "it was good when women were drunk, because then it was easy to have sex with them."
+
+
+• A forensic examination of Strampel's work computer found about 50 photographs of "bare vaginas, nude and semi-nude women, sex toys, and pornography," according to the affidavit. Police said many of the photos appeared to be "selfies" of female Michigan State University students and that it appeared someone had tried to delete the photos. He solicited nude photos from at least one female student, the affidavit said.
+
+
+Feb. 9: Michigan State announces it will fire medical dean as part of fallout from Larry Nassar scandal
+
+
+Feb. 5: Larry Nassar, again sentenced to decades in prison, gets 40 to 125 years in final criminal case
+
+
+"Also uncovered on Strampel's work computer were pornographic videos and a video of Dr. Larry Nassar performing 'treatment' on a young female patient," the affidavit said.
+
+
+• In 2011, a woman identified as Victim 2 fell asleep in class and he summoned her to his office. He told her not to sit down but to turn around twice so he could observe her body, she told police, before going on a rant degrading her body. 
+
+The woman told police Strampel told her she needed to dress sexier if she wanted to advance in her profession. 
+
+
+Here, just read it. This is the affidavit’s conclusion: pic.twitter.com/PRHTV0Ki5c
+
+Years later, she met with Strampel again to address complaints about her surgical residency. He again told her to turn around twice. He later told her that she needed to learn her place in life and said, "what do I have to do to teach you to be submissive and subordinate to men?" according to the affidavit.
+
+
+• Also in 2014, he met with a female student identified as Victim 3 who had failed an exam. She later told police that he scanned her body up and down several times when she walked into his office. 
+
+
+Jan. 26: Larry Nassar: 2014 police report sheds light on how he avoided criminal charges
+
+
+Jan. 25: Rachael Denhollander's courage led army of Larry Nassar accusers
+
+
+She asked permission to retake the exam and Strampel told her she could if she signed a contract saying she'd drop out if she failed. 
+
+
+She fell one point short of a passing grade when she retook the test, and when she met with Strampel he suggested she become a centerfold model as a backup career. He told her she could take the test a third time, but she would be required to do anything for him, and said if he called her on the weekend or to "weed the garden" she would have to do it. 
+
+She later told police she understood this to mean that she was being asked to do anything he wanted sexually in exchange for the favor.
+
+
+Ingham County Jail officials confirmed Monday night that Strampel was in custody there, but as he had not been arraigned, they had no record of charges.
+
+
+Strampel served as dean of the College of Osteopathic Medicine from 2002 until December, when he stepped down for medical reasons. He remains on the faculty, though he is on medical leave.
+
+
+In February, John Engler, interim president at Michigan State University, took steps toward firing Strampel by starting the process to revoke his tenure.
+
+
+Strampel had been Nassar's boss for several years, including in 2014, when Nassar was the subject of a criminal investigation and a university Title IX investigation stemming from Amanda Thomashow's report that Nassar sexually assaulted her during a medical appointment.
+
+Jan. 24: Larry Nassar sentenced to 40 to 175 years in prison in sexual assault cases
+
+
+Jan. 16: 'How dare you': Women address Larry Nassar at his sentencing hearing
+
+
+Strampel received regular updates on the progress of the Title IX investigation and communicated directly with Nassar during it, documents show.
+
+
+A month before the investigation ended, Nassar emailed Strampel and said he was going to return to clinical duties, according to emails the Lansing State Journal obtained through a public records requests. Strampel wrote back, "be sure you have someone in the room with you at all times until the report is finished."
+
+
+This approval is the basis for one of the willful neglect of duty charges.
+
+
+That investigation found that Thomashow, then a recent Michigan State University graduate, probably misinterpreted what Nassar did as sexual assault because she didn't understand the "nuanced difference" between that and osteopathic medical procedures. Thomashow has asked the U.S. Department of Education to reopen that Title IX investigation.
+
+
+After the investigation, Nassar and Strampel met and agreed on three protocols required for Nassar to return to clinical duties, but those protocols didn't include a mechanism to ensure compliance. Strampel later told university police he never intended to follow up on the protocols because they were common sense for all physicians and because Nassar had been exonerated, according to a police report the Lansing State Journal obtained through a public records request.
+
+Strampel's handling of the protocols after the investigation is the basis for the second willful neglect of duty charge.
+
+
+The criminal investigation by the university police department continued 16 months after the Title IX review concluded. During that time, the university allowed Nassar to see patients. Ingham County, Mich., prosecutors denied a warrant request for a misdemeanor sexual assault charge in that investigation.
+
+
+At least 20 women and girls have said Nassar abused them after the close of the Title IX investigation, records show. 
+
+In 2017, Nassar pleaded guilty to three child pornography charges prosecuted by the U.S. Attorney for the Western District of Michigan and 10 sexual assault charges that were prosecuted by the Attorney General's Office. The Michigan State University Police Department led the investigations. Nassar is serving a 60-year sentence in a federal prison in Arizona.
+
+
+He also was sentenced in January to 40 to 175 years in prison on state charges in Ingham County and in February to 40 to 125 years in prison on state charges in Eaton County, Mich. 
+
+
+Many of the sexual assault charges related to abuses at MSU, and several for abuses that occurred after the close of the Title IX investigation.
+
+
+Follow Matt Mencarini and Christopher Haxel on Twitter: @MattMencarini and @ChrisHaxel
+
+
+   Affidavit in support of complaint against William Strampel by LansingStateJournal on Scribd

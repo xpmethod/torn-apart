@@ -1,0 +1,128 @@
+Thanks for contacting us. We've received your submission.
+
+
+						Tech
+					
+
+By Associated Press
+
+
+		
+		
+		
+		
+	
+
+
+									January 31, 2018 | 1:22pm
+											| Updated February 1, 2018 | 11:04am
+												
+
+CLEVELAND — The centuries-old process of releasing defendants on bail, long the province of judicial discretion, is getting a major assist — courtesy of artificial intelligence.
+
+In late August, Hercules Shepherd Jr. walked up to the stand in a Cleveland courtroom, dressed in an orange jumpsuit. Two nights earlier, an officer had arrested him at a traffic stop with a small bag of cocaine, and he was about to be arraigned.
+
+Judge Jimmy Jackson Jr. looked at Shepherd, then down at a computer-generated score on the front of the 18-year-old’s case file. Two out of six for the likelihood of committing another crime. One out of six for the likelihood of skipping court. The scores marked Shepherd as a prime candidate for pretrial release with low bail.
+
+“We ask the court to take that all into consideration,” said Shepherd’s public defender, David Magee.
+
+Not long ago, Jackson would have decided Shepherd’s near-term future based on a reading of court files and his own intuition. But in Cleveland and a growing number of other local and state courts, judges are now guided by computer algorithms before ruling whether criminal defendants can return to everyday life, or remain locked up awaiting trial.
+
+Experts say the use of these risk assessments may be the biggest shift in courtroom decision-making since American judges began accepting social science and other expert evidence more than a century ago. Christopher Griffin, a research director at Harvard Law School’s Access to Justice Lab, calls the new digital tools “the next step in that revolution.”
+
+Critics, however, worry that such algorithms might end up supplanting judges’ own judgment, and possibly even perpetuate biases in ostensibly neutral form.
+
+AI gets a lot of attention for the jobs it eradicates. That’s not happening to judges, at least not yet. But as in many other white-collar careers that require advanced degrees or other specialized education, AI is reshaping, if not eliminating, some of judges’ most basic tasks — many of which can still have enormous consequences for the people involved.
+
+Cash bail, which is designed to ensure that people charged of crimes turn up for trial, has been part of the US court system since its beginning. But forcing defendants to pony up large sums has drawn fire in recent years for keeping poorer defendants in jail while letting the wealthier go free. Studies have also shown it widens racial disparities in pretrial incarceration.
+
+A bipartisan bail reform movement looking for alternatives to cash bail has found it in statistics and computer science: AI algorithms that can scour through large sets of courthouse data to search for associations and predict how individual defendants might behave.
+
+States such as Arizona, Kentucky and Alaska have adopted these tools, which aim to identify people most likely to flee or commit another crime. Defendants who receive low scores are recommended for release under court supervision.
+
+A year ago, New Jersey took an even bigger leap into algorithmic assessments by overhauling its entire state court system for pretrial proceedings. The state’s judges now rely on what’s called the Public Safety Assessment score, developed by the Houston-based Laura and John Arnold Foundation.
+
+That tool is part of a larger package of bail reforms that took effect in January 2017, effectively wiping out the bail-bond industry, emptying many jail cells and modernizing the computer systems that handle court cases. “We’re trying to go paperless, fully automated,” said Judge Ernest Caposela, who helped usher in the changes at the busy Passaic County Courthouse in Paterson, New Jersey.
+
+New Jersey’s assessments begin as soon as a suspect is fingerprinted by police. That information flows to an entirely new office division, called “Pretrial Services,” where cubicle workers oversee how defendants are processed through the computerized system.
+
+The first hearing happens quickly, and from the jailhouse — defendants appear by video conference as their risk score is presented to the judge. If released, they get text alerts to remind them of court appearances. Caposela compares the automation to “the same way you buy something from Amazon. Once you’re in the system, they’ve got everything they need on you.”
+
+All of that gives more time for judges to carefully deliberate based on the best information available, Caposela said, while also keeping people out of jail when they’re not a safety threat.
+
+Among other things, the algorithm aims to reduce biased rulings that could be influenced by a defendant’s race, gender or clothing — or maybe just how cranky a judge might be feeling after missing breakfast. The nine risk factors used to evaluate a defendant include age and past criminal convictions. But they exclude race, gender, employment history and where a person lives. They also exclude a history of arrests, which can stack up against people more likely to encounter police — even if they’re not found to have done anything wrong.
+
+The Arnold Foundation takes pains to distinguish the Public Safety Assessment from other efforts to automate judicial decisions — in particular, a proprietary commercial system called Compas that’s been used to help determine prison sentences for convicted criminals. An investigative report by ProPublica found that Compas was falsely flagging black defendants as likely future criminals at almost twice the rate for white defendants.
+
+Other experts have questioned those findings, and the US Supreme Court last year declined to take up a case of an incarcerated Wisconsin man who argued that the use of gender as a factor in the Compas assessment violated his rights.
+
+Arnold notes that its algorithm is straightforward and open to inspection by anyone — although the underlying data it relies on is not. “There’s no mystery as to how a risk score is arrived at for a given defendant,” said Matt Alsdorf, who directed the foundation’s risk-assessment efforts until late last year.
+
+Advocates of the new approach are quick to note that the people in robes are still in charge.
+
+“This is not something where you put in a ticket, push a button and it tells you what bail to give somebody,” said Judge Ronald Adrine, who presides over the Cleveland Municipal Court. Instead, he says, the algorithmic score is just one among several factors for judges to consider.
+
+But other experts worry the algorithms will make judging more automatic and rote over time — and that, instead of eliminating bias, could perpetuate it under the mask of data-driven objectivity. Research has shown that when people receive specific advisory guidelines, they tend to follow them in lieu of their own judgment, said Bernard Harcourt, a law and political science professor at Columbia.
+
+“Those forms of expertise have a real gravitational pull on decision-makers,” he said. “It’s naive to think people are simply going to not rely on them.”
+
+And if that happens, judges — like all people — may find it easy to drop their critical thinking skills when presented with what seems like an easy answer, said Kristian Hammond, a Northwestern University computer scientist who has co-founded his own AI company.
+
+The solution is to “refuse to build boxes that give you answers,” he says. What judges really need are “boxes that give you answers and explanations and ask you if there’s anything you want to change.”
+
+Before his arrest on Aug. 29, Hercules Shepherd had no criminal record.
+
+Coaches were interested in recruiting the star high school basketball player for their college teams. Recruitment would mean a big scholarship that could help Shepherd realize his dreams of becoming an engineer. But by sitting in jail, Shepherd was missing two days of classes. If he missed two more, he could get kicked out of school.
+
+Jackson looked up. “Doing OK today, Mr. Shepherd?” he asked. Shepherd nodded.
+
+“If he sits in jail for another month, and gets expelled from school, it has wider ramifications,” Magee said.
+
+“Duly noted. Mr. Shepherd? I’m giving you personal bond,” Jackson said. “Your opportunity to turn that around starts right now. Do so, and you’ve got the whole world right in front of you.” (Jackson subsequently lost an election in November and is no longer a judge; his winning opponent, however, also supports use of the pretrial algorithm.)
+
+Smiling, Shepherd walked out of the courtroom. That night, he was led out of the Cuyahoga County Jail; the next day, he was in class. Shepherd says he wouldn’t have been able to afford bail. Shepherd’s mother is in prison, and his aging father is on Social Security.
+
+His public defender said that Shepherd’s low score helped him. If he isn’t arrested again within a year, his record will be wiped clean.
+
+
+			Read Next
+		
+
+
+			
+				Brain scans can reveal who your true friends are			
+		
+
+
+			Read Next
+		
+
+
+			
+				Brain scans can reveal who your true friends are			
+		
+
+Share Selection
+
+131,249
+
+63,137
+
+56,447
+
+Post Digital Network
+
+
+			© 2018 NYP Holdings, Inc. All Rights Reserved | Terms of Use | Privacy | Your Ad Choices | Sitemap
+		
+
+
+							News Corp. is a network of leading companies in the world of diversified media, news, and information services.						
+
+Get our top stories delivered to your inbox
+
+
+																	By clicking above you agree to our Terms of Use and Privacy Policy.
+															
+
+Don't miss out on our other great newsletters
