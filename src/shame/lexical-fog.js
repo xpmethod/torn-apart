@@ -2,12 +2,12 @@
 
 // simple test
 
-//import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
+import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import Data from "../../data/tempWordCloudData.csv";
 import { select } from "d3-selection";
 import * as cloud from "d3-cloud";
 import * as colorscale from "d3-scale-chromatic";
-
+import { format } from "d3-format";
 
 //still needs a lot of formatting work, colouring from something in the data, and adding tooltips or something so you can get info about each org/contract. Maybe html links from each org name to the org"s "contact us" page or direct to email links? So you can write and complain easily. 
 //still TODO - need to style the tooltips and bring them to the top
@@ -25,6 +25,7 @@ export default function(chart){
     // appear outside of the SVG area
     .attr("transform", "translate("+ width/2 + "," + height/2 + ")");  
 
+  //Create a tooltip - Greg: perhaps this can be where we create the single text box
   var tip = svg.append("g")
     .attr("id","cloud_tooltip")
     .attr("position","absolute");
@@ -39,6 +40,7 @@ export default function(chart){
     .on("end", draw)
     .start();
 
+  //Draw the words of the word cloud
   function draw(words) {
     svg.selectAll("text")
       .data(words)
@@ -51,27 +53,28 @@ export default function(chart){
         return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
       })
       .text(function(d) { return d.name; })
-      .on("mouseover", handleMouseOver)
-      .on("mouseout", handleMouseOut);
+      .on("mouseover", handleMouseOver) //call the mouse-over handler
+      .on("mouseout", handleMouseOut); //call the mouse-out handler
   }
   
   //Hovering handlers
-  function handleMouseOver(d){ 
-    //Lighten text
+  function handleMouseOver(d){
+    //Lighten the text of the wordcloud
     select(this).style("opacity",0.7);
-		
     //Show tooltip
     var base = d.y - d.size; //Calculate position of text
 
+    //Position and populate the text of the tooltip
     tip.append("text")
       .attr("id","cloud_tooltip_text")
-      .attr("x",d.x)
-      .attr("y",base)
+      .attr("x",d.x) //position x - this could be static
+      .attr("y",base) //position y
       .attr("text-anchor", "middle")
       .style("font-size","1.25rem")
       .style("fill", colour[5-d.years])
-      .text("$" + d.total_value);
+      .text("$" + format(",")(Math.round(d.total_value))); //Format the text as $
 
+    //Create and position the bounding box behind the text
     tip.append("rect")
       .attr("id","cloud_tooltip_rect")
       .attr("width",select("#cloud_tooltip_text").node().getBBox().width)
@@ -84,21 +87,9 @@ export default function(chart){
   function handleMouseOut() {
     select(this)
       .style("opacity",1);
-
+      
     //Remove tooltip
-    select("#cloud_tooltip_text").remove(); 
-    select("#cloud_tooltip_rect").remove();
+    select("#cloud_tooltip_text").remove(); //get rid of tooltip text
+    select("#cloud_tooltip_rect").remove(); //get rid of the tooltip rect
   }
-	
-  // Number.prototype.formatMoney = function(c, d, t){
-  //   var n = this, 
-  //     c = isNaN(c = Math.abs(c)) ? 2 : c, 
-  //     d = d === undefined ? "." : d, 
-  //     t = t === undefined ? "," : t, 
-  //     s = n < 0 ? "-" : "", 
-  //     i = String(parseInt(n = Math.abs(Number(n) || 0).toFixed(c))), 
-  //     j = (j = i.length) > 3 ? j % 3 : 0;
-	
-  //   return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
-  // };
 }
