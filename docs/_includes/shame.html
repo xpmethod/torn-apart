@@ -9,58 +9,42 @@
 </div>
 </div>
 
-<!––Second area: pie chart, which has three svgs->
+<!––Second area: pie chart, which has three pie chart svgs and a text one->
 <div id="pie-chart-div">
+
   <h3 data-i18n="ta-v2-equal-opportunities"></h3> 
+  
+  <p data-i18n = "ta-v2-piechart-description"> </p>
+  <!--First the legend, which is above them all-->
+  <div id = "legend-div" height = "50px">
+  <h4 data-i18n="ta-v1-legend" class="ml-3"></h4>
+	<svg height = "30px" id = "gender-text-svg"></svg>
+  </div>
+  
+
   <div class = "row">
   
-  <div id= "ethnicity-div" class = "col-md-2">
+  <div id= "ethnicity-div" class = "col-md-4">
   <svg id="ethnicity-svg">
   </svg>
     <h5 data-i18n="ta-v2-ethnicity-pie-chart"></h5>
   </div>
-      <div id = "ethnicity-legend" class= "col-md-2">
-	  <h4 data-i18n="ta-v1-legend" class="ml-3"></h4>
-      <ul class="legend-ul">
-	    <li><span data-i18n="ta-v2-Alaskan-Native" style="color:#e5c494;"></span></li>
-	   <li><span data-i18n="ta-v2-Asian-Pacific" style="color:#e78ac3;"></span>
-        <li><span data-i18n="ta-v2-Black-American" style="color:#66c2a5;"></span></li>
-        <li><span data-i18n="ta-v2-Hispanic-American" style="color:#8da0cb;"></span></li>
-        <li><span data-i18n="ta-v2-Native-American" style="color:#a6d854;"></span></li>
-		 <li><span data-i18n="ta-v2-Subcontinent-Asian/Asian-Indian-American" style="color:#fc8d62;"></span></li>
-		<li><span data-i18n="ta-v2-Other-Minority" style="color:#ffd92f;"></span></li>
-      </ul>
-  </div>
   
-  <div id ="gender-div" class = "col-md-2">
+  <div id ="gender-div" class = "col-md-4">
   <svg id="gender-svg"></svg>
   <h5 data-i18n="ta-v2-gender-pie-chart"></h5>
   </div>
-    <div id = "gender-legend" class= "col-md-2">
-	<svg id = "gender-text-svg"></svg>
-	<h4 data-i18n="ta-v1-legend" class="ml-3"></h4>
-      <ul class="legend-ul">
-        <li><span data-i18n="ta-v2-female" style="color:#8da0cb;"></span></li>
-        <li><span data-i18n="ta-v2-non-female" style="color:#66c2a5;"></span></li>
-      </ul>
-  </div>
-  
-  
-    <div id= "intersectionality-div" class = "col-md-2">
+   
+    <div id= "intersectionality-div" class = "col-md-4">
   <svg id="intersectionality-svg"></svg>
     <h5 data-i18n="ta-v2-intersectionality-pie-chart"></h5>
   </div>
-      <div id = "intersectionality-legend" class= "col-md-2">
-	  <h4 data-i18n="ta-v1-legend" class="ml-3"></h4>
-      <ul class="legend-ul">
-        <li><span data-i18n="ta-v2-intersectional" style="color:#8da0cb;"></span></li>
-        <li><span data-i18n="ta-v2-non-intersectional" style="color:#66c2a5;"></span></li>
-      </ul>
-  </div>
   
+  </div>
   
 
-  </div>
+
+
 </div>
 	
 

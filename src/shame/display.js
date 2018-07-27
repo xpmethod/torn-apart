@@ -59,7 +59,7 @@ export default function() {
 
   const intersectionality = { data: [
     {group: "INT", taName: "intersectional", iCount: 77, color: purple}, 
-    {group: "NON-INT", name: "non-intersectional", iCount: 344, color: green}
+    {group: "NON-INT", taName: "non-intersectional", iCount: 344, color: green}
   ], 
   margins: { top: 0, bottom: 0, left: 0, right: 0},
   id: "#intersectionality-svg", number: "iCount", svgWidth: thirdWidth 
