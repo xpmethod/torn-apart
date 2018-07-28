@@ -27,22 +27,13 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
       states.push(award.recipient_state); current_values.push(award.current_total_value);
       potential_values.push(award.potential_total_value); awarding_offices.push(award.awarding_office_name);
       sub_offices.push(award.awarding_office_cat); products.push(award.naics_description);
-      product_categories.push(award.naics_cat); award_details.push(award.award_description)
+      product_categories.push(award.naics_cat); award_details.push(award.award_description);
       
     }); // close each
-    const award_ids_uniq = _.uniq(award_ids);
     const companies_uniq = _.uniq(companies);
     const parents_uniq = _.uniq(parents);
-    const cities_uniq = _.uniq(cities);
-    const states_uniq = _.uniq(states);
-    const current_values_uniq = _.uniq(current_values);
-    const potential_values_uniq = _.uniq(potential_values);
-    const awarding_offices_uniq = _.uniq(awarding_offices)
-    const sub_offices_uniq = _.uniq(sub_offices);
     const products_uniq = _.uniq(products);
     const product_categories_uniq = _.uniq(product_categories);
-    const  award_details_uniq = _.uniq(award_details);
-    
 
     const graph = { nodes: [], links: [] };
 
