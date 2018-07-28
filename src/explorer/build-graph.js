@@ -56,10 +56,26 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
     }); // close _each on our array of objects.   
 
     _.each(products_uniq, (product) => {
-      graph.nodes.push({ name: product, category: "product"});
+      graph.nodes.push({ name: product, 
+        category: "product", 
+        child_of: _.find(awards, award => award.naics_description === product).naics_cat 
+      });
     }); // close the each on products_uniq
 
     graph.links = graph.links.filter(link => link.target !== undefined);
+
+    _.each(companies_uniq, company => {
+      _.each(graph.links.filter( link => link.source === company ), link => {
+        const value = _.reduce(awards.filter(award => award.recipient_name === link.source && award.naics_description === link.target),
+          (sum, award) => {
+            return sum + _.toInteger(award.current_total_value_of_award);
+          }, 0);
+        link.value = value;
+      });
+      _.find(graph.nodes, node => node.name === company)
+        .total_value = _.reduce(graph.links.filter( link => link.source === company ), 
+          (sum, link) => link.value + sum, 0);
+    });
 
     writeFile(path.join("data", "explorer", "graph.json"), 
       JSON.stringify(graph, null, 2), (err) => {
