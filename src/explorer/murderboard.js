@@ -12,7 +12,7 @@ export default function(){
 
   var theZoom = zoom()
     .scaleExtent([0.1, 8])
-    .on("zoom", zoomed);  
+    .on("zoom", zoomed); 
 
   const svg = select("#explorer-svg")
     .attr("width", width)
@@ -28,9 +28,8 @@ export default function(){
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-1500))
+    .force("charge", forceManyBody().strength(-7000))
     .force("center", forceCenter(width / 1, height / 1));  
- 
 
   var link = svg.append("g")
     .attr("class", "links")
@@ -47,18 +46,18 @@ export default function(){
     .enter().append("rect")
     .attr("width", function(d) {width = 30;
       //makes width of node a function of category
-      if(d.category === "suboffice") width = 480;
       if(d.category === "product category") width = 180;
       if(d.category === "product") width = 120;
-      if(d.category === "company") width = 60;
+      if(d.category === "company") width = 40;
+      if(d.category === "parent") width = 60;
       return width; 
     }) 
     .attr("height", function(d) {height = 30;
       //makes height of node a function of category
-      if(d.category === "suboffice") height = 480;
       if(d.category === "product category") height = 180;
       if(d.category === "product") height = 120;
-      if(d.category === "company") height = 60;
+      if(d.category === "company") height = 40;
+      if(d.category === "parent") height = 60;
       return height; 
     }) 
     .style("fill", function(d) { let color = black;
@@ -74,6 +73,9 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));  
 
+  node.append("title")
+    .text(function(d) { return d.name; });  
+
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);  
@@ -86,10 +88,10 @@ export default function(){
     .enter().append("g");  
 
   text.append("text")
-    .attr("x", 14)
-    .attr("y", ".31em")
+    .attr("x", 60)
+    .attr("y", "1em")
     .style("font-family", "sans-serif")
-    .style("font-size", "2em")
+    .style("font-size", "2.5em")
     .text(function(d) { return d.name; });  
 
   function ticked() {
@@ -97,9 +99,13 @@ export default function(){
       .attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
       .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });      node
+      .attr("y2", function(d) { return d.target.y; });      
+
+    node
       .attr("x", function(d) { return d.x; })
-      .attr("y", function(d) { return d.y; });      text
+      .attr("y", function(d) { return d.y; });      
+
+    text
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   } 
 
@@ -127,4 +133,5 @@ export default function(){
     var topG = select("#topG");
     topG.attr("transform", "translate(" + event.transform.x+","+event.transform.y + ")scale(" + event.transform.k + ")");
   }
+
 }
