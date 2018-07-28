@@ -8,38 +8,50 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
   if(err) throw err;
   parse(data, {columns: true}, (err, awards) => {
     if(err) throw err;
+    const award_ids = [];
     const companies = [];
+    const parents = [];
+    const cities = [];
+    const states = [];
+    const current_values = [];
+    const potential_values = [];
+    const awarding_offices = [];
+    const sub_offices = [];
     const products = [];
     const product_categories = [];
-    const sub_offices = [];
+    const award_details = [];
+    
     _.each(awards, (award) => {
-      companies.push(award.recipient_name);
-      products.push(award.naics_description);
-      product_categories.push(award.naics_cat);
-      sub_offices.push(award.awarding_office_cat);
+      award_ids.push(award.award_id); companies.push(award.recipient_name);
+      parents.push(award.parent_name); cities.push(award.recipient_city);
+      states.push(award.recipient_state); current_values.push(award.current_total_value);
+      potential_values.push(award.potential_total_value); awarding_offices.push(award.awarding_office_name);
+      sub_offices.push(award.awarding_office_cat); products.push(award.naics_description);
+      product_categories.push(award.naics_cat); award_details.push(award.award_description);
+      
     }); // close each
     const companies_uniq = _.uniq(companies);
+    const parents_uniq = _.uniq(parents);
     const products_uniq = _.uniq(products);
     const product_categories_uniq = _.uniq(product_categories);
-    const sub_offices_uniq = _.uniq(sub_offices);
 
     const graph = { nodes: [], links: [] };
 
     _.each([
-      { source_array: sub_offices_uniq,
-        category: "suboffice",
-        source_column: "awarding_office_cat",
-        target_column: "naics_cat" 
-      },
       { source_array: product_categories_uniq,
         category: "product category",
         source_column: "naics_cat",
         target_column: "naics_description" 
       },
-      { source_array: companies_uniq,
-        category: "company",
-        source_column: "recipient_name",
-        target_column: "naics_description"
+      { source_array: products_uniq,
+        category: "product",
+        source_column: "naics_description", 
+        target_column: "recipient_name"
+      },
+      { source_array: parents_uniq,
+        category: "parent",
+        source_column: "parent_name",
+        target_column: "recipient_name"
       }
     ], (sources) => {
       _.each(sources.source_array, (source) => {
@@ -55,27 +67,11 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
       }); // close each on sources.source_array
     }); // close _each on our array of objects.   
 
-    _.each(products_uniq, (product) => {
-      graph.nodes.push({ name: product, 
-        category: "product", 
-        child_of: _.find(awards, award => award.naics_description === product).naics_cat 
-      });
+    _.each(companies_uniq, (company) => {
+      graph.nodes.push({ name: company, category: "company"});
     }); // close the each on products_uniq
 
     graph.links = graph.links.filter(link => link.target !== undefined);
-
-    _.each(companies_uniq, company => {
-      _.each(graph.links.filter( link => link.source === company ), link => {
-        const value = _.reduce(awards.filter(award => award.recipient_name === link.source && award.naics_description === link.target),
-          (sum, award) => {
-            return sum + _.toInteger(award.current_total_value_of_award);
-          }, 0);
-        link.value = value;
-      });
-      _.find(graph.nodes, node => node.name === company)
-        .total_value = _.reduce(graph.links.filter( link => link.source === company ), 
-          (sum, link) => link.value + sum, 0);
-    });
 
     writeFile(path.join("data", "explorer", "graph.json"), 
       JSON.stringify(graph, null, 2), (err) => {
