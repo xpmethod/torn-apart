@@ -4,7 +4,6 @@ import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force"
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink, black } from "../constants";
-import { handleMouseOver, handleMouseOut} from "../tooltip";
 
 
 export default function(){  
