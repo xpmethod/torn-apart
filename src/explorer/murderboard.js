@@ -4,6 +4,7 @@ import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force"
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink, black } from "../constants";
+import { handleMouseOver, handleMouseOut} from "../tooltip";
 
 
 export default function(){  
@@ -74,9 +75,6 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));  
 
-  node.append("title")
-    .text(function(d) { return d.name; });  
-
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);  
@@ -94,7 +92,6 @@ export default function(){
     .style("font-family", "sans-serif")
     .style("font-size", "2em")
     .text(function(d) { return d.name; });  
-  
 
   function ticked() {
     link
