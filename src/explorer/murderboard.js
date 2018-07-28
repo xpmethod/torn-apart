@@ -82,12 +82,7 @@ export default function(){
     .on("tick", ticked);  
 
   simulation.force("link")
-    .links(graph.links);  
-
-  //change speed of viz cooling for animated murderboard effect
-  simulation.alpha (.8);
-  simulation.alphaTarget(0);
-  simulation.alphaDecay([0]);   
+    .links(graph.links);   
 
   var text = svg.append("g").attr("class", "labels").selectAll("g")
     .data(graph.nodes)
