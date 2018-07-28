@@ -62,10 +62,10 @@ export default function(){
       return height; 
     }) 
     .style("fill", function(d) { let color = black;
-      if(d.category === "suboffice") color = green;
-      if(d.category === "product category") color = purple;
-      if(d.category === "product") color = orange;
-      if(d.category === "company") color = pink;
+      if(d.category === "product category") color = green;
+      if(d.category === "product") color = purple;
+      if(d.category === "company") color = orange;
+      if(d.category === "parent") color = pink;
       return color;
     })
     .on("mousedown", function() { event.stopPropagation(); })        
