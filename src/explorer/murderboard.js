@@ -20,23 +20,31 @@ export default function(){
     .call(theZoom)
     .append("g")
     .attr("id", "topG");  
-
-  theZoom.scaleTo(select("svg"),0.35);  
+  //sets unitial zoom level
+  theZoom.scaleTo(select("svg"),-10);  
 
   window.onwheel = function(){return false;};  
 
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-7000))
-    .force("center", forceCenter(width / 1, height / 1));  
+    .force("charge", forceManyBody().strength(-5500))
+    .force("center", forceCenter(-2000, height / 2));  
 
   var link = svg.append("g")
     .attr("class", "links")
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line");  
+    .enter().append("line")
+  //change edge color based on property
+    .style("stroke", function(d) { let color = green;
+      if(d.source === "product category") color = green;
+      if(d.source === "product") color = purple;
+      if(d.source === "company") color = orange; 
+      if(d.source === "parent") color = pink;
+      return color;   
+    });
 
   var node = svg.append("g")
     .attr("class", "nodes")
@@ -73,9 +81,6 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));  
 
-  node.append("title")
-    .text(function(d) { return d.name; });  
-
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);  
@@ -86,12 +91,12 @@ export default function(){
   var text = svg.append("g").attr("class", "labels").selectAll("g")
     .data(graph.nodes)
     .enter().append("g");  
-
+  //appends labels  to nodes
   text.append("text")
-    .attr("x", 60)
+    .attr("x", 80)
     .attr("y", "1em")
     .style("font-family", "sans-serif")
-    .style("font-size", "2.5em")
+    .style("font-size", "2em")
     .text(function(d) { return d.name; });  
 
   function ticked() {
