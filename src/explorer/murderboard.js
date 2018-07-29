@@ -7,8 +7,8 @@ import { green, purple, orange, pink, black } from "../constants";
 
 
 export default function(){  
-  var height = 768;
-  var width = 1366;  
+  var height = 384;
+  var width = 100;  
 
   var theZoom = zoom()
     .scaleExtent([0.1, 8])
@@ -28,8 +28,8 @@ export default function(){
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-5500))
-    .force("center", forceCenter(-2000, height / 2))
+    .force("charge", forceManyBody().strength(-20000))
+    .force("center", forceCenter(-4000, height / 2))
     .alphaDecay(0.049);  
 
   var link = svg.append("g")
@@ -97,7 +97,7 @@ export default function(){
     .attr("x", 80)
     .attr("y", "1em")
     .style("font-family", "sans-serif")
-    .style("font-size", "2em")
+    .style("font-size", "4em")
     .text(function(d) { return d.name; });  
 
   function ticked() {
