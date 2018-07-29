@@ -29,7 +29,8 @@ export default function(){
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(-5500))
-    .force("center", forceCenter(-2000, height / 2));  
+    .force("center", forceCenter(-2000, height / 2))
+    .alphaDecay(0.049);  
 
   var link = svg.append("g")
     .attr("class", "links")
