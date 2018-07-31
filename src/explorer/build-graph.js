@@ -31,7 +31,6 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
       
     }); // close each
     const companies_uniq = _.uniq(companies);
-    const parents_uniq = _.uniq(parents);
     const products_uniq = _.uniq(products);
     const product_categories_uniq = _.uniq(product_categories);
 
@@ -43,15 +42,11 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
         source_column: "naics_cat",
         target_column: "naics_description" 
       },
-      { source_array: products_uniq,
-        category: "product",
-        source_column: "naics_description", 
-        target_column: "recipient_name"
-      },
-      { source_array: parents_uniq,
-        category: "parent",
-        source_column: "parent_name",
-        target_column: "recipient_name"
+      
+      { source_array: companies_uniq,
+        category: "company",
+        source_column: "recipient_name",
+        target_column: "naics_description"
       }
     ], (sources) => {
       _.each(sources.source_array, (source) => {
@@ -67,8 +62,8 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
       }); // close each on sources.source_array
     }); // close _each on our array of objects.   
 
-    _.each(companies_uniq, (company) => {
-      graph.nodes.push({ name: company, category: "company"});
+    _.each(products_uniq, (product) => {
+      graph.nodes.push({ name: product, category: "product"});
     }); // close the each on products_uniq
 
     graph.links = graph.links.filter(link => link.target !== undefined);

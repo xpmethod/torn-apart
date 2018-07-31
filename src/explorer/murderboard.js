@@ -1,4 +1,4 @@
-import graph from "../../data/explorer/graph.json";
+import murderboard from "../../data/explorer/murderboard.json";
 import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force";
 import { drag } from "d3-drag";
@@ -7,11 +7,11 @@ import { green, purple, orange, pink, black } from "../constants";
 
 
 export default function(){  
-  var height = 384;
-  var width = 100;  
+  var height = 768;
+  var width = 1366;  
 
   var theZoom = zoom()
-    .scaleExtent([0.1, 8])
+    .scaleExtent([.1, Infinity])
     .on("zoom", zoomed); 
 
   const svg = select("#explorer-svg")
@@ -28,52 +28,47 @@ export default function(){
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-20000))
-    .force("center", forceCenter(-4000, height / 2))
-    .alphaDecay(0.049);  
+    .force("charge", forceManyBody().strength(-1999))
+    .force("center", forceCenter(width / 2, height / 2));  
 
   var link = svg.append("g")
     .attr("class", "links")
     .call(zoomTransform)
     .selectAll("line")
-    .data(graph.links)
+    .data(murderboard.links)
     .enter().append("line")
   //change edge color based on property
-    .style("stroke", function(d) { let color = green;
+    .style("stroke", function(d) { let color = pink;
       if(d.source === "product category") color = green;
       if(d.source === "product") color = purple;
       if(d.source === "company") color = orange; 
-      if(d.source === "parent") color = pink;
-      return color;   
+      return color; 
     });
 
   var node = svg.append("g")
     .attr("class", "nodes")
     .call(zoomTransform)
     .selectAll("rect")
-    .data(graph.nodes)
+    .data(murderboard.nodes)
     .enter().append("rect")
-    .attr("width", function(d) {width = 30;
+    .attr("width", function(d) {width = 0;
       //makes width of node a function of category
       if(d.category === "product category") width = 180;
       if(d.category === "product") width = 120;
-      if(d.category === "company") width = 40;
-      if(d.category === "parent") width = 60;
+      if(d.category === "company") width = 60;
       return width; 
     }) 
-    .attr("height", function(d) {height = 30;
+    .attr("height", function(d) {height = 0;
       //makes height of node a function of category
       if(d.category === "product category") height = 180;
       if(d.category === "product") height = 120;
-      if(d.category === "company") height = 40;
-      if(d.category === "parent") height = 60;
+      if(d.category === "company") height = 60;
       return height; 
     }) 
     .style("fill", function(d) { let color = black;
       if(d.category === "product category") color = green;
       if(d.category === "product") color = purple;
       if(d.category === "company") color = orange;
-      if(d.category === "parent") color = pink;
       return color;
     })
     .on("mousedown", function() { event.stopPropagation(); })        
@@ -82,24 +77,17 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));  
 
+  node.append("title")
+    .text(function(d) {return d.name;});
+
   simulation
-    .nodes(graph.nodes)
+    .nodes(murderboard.nodes)
     .on("tick", ticked);  
 
   simulation.force("link")
-    .links(graph.links);   
+    .links(murderboard.links);  
 
-  var text = svg.append("g").attr("class", "labels").selectAll("g")
-    .data(graph.nodes)
-    .enter().append("g");  
-  //appends labels  to nodes
-  text.append("text")
-    .attr("x", 80)
-    .attr("y", "1em")
-    .style("font-family", "sans-serif")
-    .style("font-size", "4em")
-    .text(function(d) { return d.name; });  
-
+ 
   function ticked() {
     link
       .attr("x1", function(d) { return d.source.x; })
@@ -110,9 +98,6 @@ export default function(){
     node
       .attr("x", function(d) { return d.x; })
       .attr("y", function(d) { return d.y; });      
-
-    text
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   } 
 
   //adds sticky dragging  
