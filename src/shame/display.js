@@ -4,7 +4,6 @@ import $ from "jquery";
 import initChart from "../charts/init";
 import buildPieChart from "./pie-chart";
 import buildLexicalFog from "./lexical-fog";
-import * as colorscale from"d3-scale-chromatic";
 
 export default function() {
 

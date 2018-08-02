@@ -26,7 +26,7 @@ export default function(words) {
     })
     .each(d => {
       d.id = `${slug(d.name)}`;
-      d.tooltip = `<strong>${format("$,.2f")(d.total_value)}`;
+      d.tooltip = `<strong>${format("$,.0f")(Math.ceil(d.total_value))}`; //we don't also want categories here?
       d.mouseOver = () => {
         select(`#text-${d.id}`);
       };
