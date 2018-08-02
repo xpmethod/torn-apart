@@ -1,5 +1,4 @@
 import L from "leaflet";
-import _ from "lodash";
 import slug from "slug";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
