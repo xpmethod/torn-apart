@@ -47,25 +47,7 @@ export default function(){
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line")
-    .each( d => {
-      switch (d.source) {
-      case "product category":
-        d.color = green;
-        break;
-      case "product":
-        d.color = purple;
-        break;
-      case "company":
-        d.color = orange;
-        break;
-      case "parent company":
-        d.color = pink; 
-        break;
-      } 
-    })
-  //change edge color based on property
-    .style("stroke", d => d.color);
+    .enter().append("line");
 
   var node = svg.append("g")
     .attr("class", "nodes")
