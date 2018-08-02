@@ -18,7 +18,7 @@ language: en
 dcType: article
 ---
 
-# Mapping Maybe
+# Representation Matters
 
 {: .author-credit }
 by [Moacir P. de Sá Pereira](http://moacir.com/)
@@ -52,9 +52,14 @@ British Army, a diagram will be more useful to carry this affective weight,
 prompting the design of the “batwings,” diagrams that treated the year as a
 cycle and drew a line around the calendar to show trends in mortality.
 
+<h2>Diagrams <small>representing the relative Mortality from <span class="purple">ZYMOTIC
+DISEASES</span>, from <span class="green">WOUNDS</span>, and from <span
+class="orange">ALL OTHER CAUSES</span> in the HOSPITALS of the ARMY in the
+EAST</small></h2>
+
 <div id="batwing-div"></div>
 
-
+More stuff.
 
 [^cohen]: I. Bernard Cohen, “Florence Nightingale,” _Scientific American_ 250 (1984), 131. Most of my retelling of the Nightingale story is based on Cohen’s account.
 
