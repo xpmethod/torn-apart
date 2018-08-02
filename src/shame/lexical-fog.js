@@ -64,6 +64,7 @@ export default function(chart){
           select(`#text-${d.id}`);
         };
       })
+      .attr("id", d => `text-${d.id}`)
       .on("mouseover", handleMouseOver) //call the mouse-over handler
       .on("mouseout", handleMouseOut); //call the mouse-out handler
   }
