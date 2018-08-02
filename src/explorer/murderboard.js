@@ -1,14 +1,15 @@
+import $ from "jquery";
 import graph from "../../data/explorer/graph.json";
 import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
-import { green, purple, orange, pink, black } from "../constants";
+import { rem, green, purple, orange, pink, black } from "../constants";
 
 
 export default function(){  
-  var height = 768;
-  var width = 1366;  
+  const width = $("#explorer-div").width();
+  const height = $("#v2-div").height() - $("#explorer-headers").height() - rem;
 
   var theZoom = zoom()
     .scaleExtent([.1, Infinity])
@@ -55,21 +56,21 @@ export default function(){
     .selectAll("rect")
     .data(graph.nodes)
     .enter().append("rect")
-    .attr("width", function(d) {width = 40;
+    .attr("width", function(d) { let sqWidth = 40;
       //makes width of node a function of category
-      if(d.category === "product category") width = 240;
-      if(d.category === "product") width = 160;
-      if(d.category === "company") width = 80;
-      if(d.category === "parent company") width = 40;
-      return width; 
+      if(d.category === "product category") sqWidth = 240;
+      if(d.category === "product") sqWidth = 160;
+      if(d.category === "company") sqWidth = 80;
+      if(d.category === "parent company") sqWidth = 40;
+      return sqWidth; 
     }) 
-    .attr("height", function(d) {height = 40;
-      //makes height of node a function of category
-      if(d.category === "product category") height = 240;
-      if(d.category === "product") height = 160;
-      if(d.category === "company") height = 80;
-      if(d.category === "parent company") height = 40;
-      return height; 
+    .attr("height", function(d) { let sqHeight = 40;
+      //makes sqHeight of node a function of category
+      if(d.category === "product category") sqHeight = 240;
+      if(d.category === "product") sqHeight = 160;
+      if(d.category === "company") sqHeight = 80;
+      if(d.category === "parent company") sqHeight = 40;
+      return sqHeight; 
     }) 
     .style("fill", function(d) { let color = black;
       if(d.category === "product category") color = green;

@@ -8,7 +8,7 @@ export default function(){
   // explorerBlocks();
   $(document).ready(() => {
     // explorerTree();
-    explorerMurderboard();
     $("#explorer-viz").show();
+    explorerMurderboard();
   });
 }
