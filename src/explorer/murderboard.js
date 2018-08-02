@@ -11,8 +11,8 @@ export default function(){
   const width = $("#explorer-div").width();
   const height = $("#v2-div").height() - $("#explorer-headers").height() - rem;
 
-  var theZoom = zoom()
-    .scaleExtent([.1, Infinity])
+  const theZoom = zoom()
+    .scaleExtent([0.1, Infinity])
     .on("zoom", zoomed); 
 
   const svg = select("#explorer-svg")
@@ -21,34 +21,50 @@ export default function(){
     .call(theZoom)
     .append("g")
     .attr("id", "topG");  
-  //sets unitial zoom level
+  //sets initial zoom level
   theZoom.scaleTo(select("svg"),-10);  
 
   window.onwheel = function(){return false;};  
 
-  var simulation = forceSimulation()
-    .force("link", forceLink().id(function(d) { return d.name; }))
+  const forces = {
+    charge: -4500,
+    x: -500,
+    y: -10000,
+    alphaDecay: 0.01
+  };
+  const simulation = forceSimulation()
+    .force("link", forceLink().id( d => d.name ))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-4500))
+    .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 4, height / 4)) 
-    .force("x", forceX(-500))
-    .force("y", forceY(-10000))
-    .alphaDecay(0.01);  
+    .force("x", forceX(forces.x))
+    .force("y", forceY(forces.y))
+    .alphaDecay(forces.alphaDecay); 
 
-  var link = svg.append("g")
+  const link = svg.append("g")
     .attr("class", "links")
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
+    .each( d => {
+      switch (d.source) {
+      case "product category":
+        d.color = green;
+        break;
+      case "product":
+        d.color = purple;
+        break;
+      case "company":
+        d.color = orange;
+        break;
+      case "parent company":
+        d.color = pink; 
+        break;
+      } 
+    })
   //change edge color based on property
-    .style("stroke", function(d) { let color = pink;
-      if(d.source === "product category") color = green;
-      if(d.source === "product") color = purple;
-      if(d.source === "company") color = orange;
-      if(d.source === "parent company") color = pink; 
-      return color; 
-    });
+    .style("stroke", d => d.color);
 
   var node = svg.append("g")
     .attr("class", "nodes")
@@ -56,29 +72,29 @@ export default function(){
     .selectAll("rect")
     .data(graph.nodes)
     .enter().append("rect")
-    .attr("width", function(d) { let sqWidth = 40;
-      //makes width of node a function of category
-      if(d.category === "product category") sqWidth = 240;
-      if(d.category === "product") sqWidth = 160;
-      if(d.category === "company") sqWidth = 80;
-      if(d.category === "parent company") sqWidth = 40;
-      return sqWidth; 
-    }) 
-    .attr("height", function(d) { let sqHeight = 40;
-      //makes sqHeight of node a function of category
-      if(d.category === "product category") sqHeight = 240;
-      if(d.category === "product") sqHeight = 160;
-      if(d.category === "company") sqHeight = 80;
-      if(d.category === "parent company") sqHeight = 40;
-      return sqHeight; 
-    }) 
-    .style("fill", function(d) { let color = black;
-      if(d.category === "product category") color = green;
-      if(d.category === "product") color = purple;
-      if(d.category === "company") color = orange;
-      if(d.category === "parent company") color = pink;
-      return color;
+    .each( d => {
+      switch (d.category) {
+      case "product category":
+        d.color = green;
+        d.side = 240;
+        break;
+      case "product":
+        d.color = purple;
+        d.side = 160;
+        break;
+      case "company":
+        d.color = orange;
+        d.side = 80;
+        break;
+      case "parent company":
+        d.color = pink;
+        d.side = 40; 
+        break;
+      } 
     })
+    .attr("width", d => d.side)
+    .attr("height", d => d.side)
+    .style("fill", d => d.color)
     .on("mousedown", function() { event.stopPropagation(); })        
     .call(drag()
       .on("start", dragstarted)
@@ -86,7 +102,7 @@ export default function(){
       .on("end", dragended));  
 
   node.append("title")
-    .text(function(d) {return d.name;});
+    .text( d => d.name );
 
   simulation
     .nodes(graph.nodes)
@@ -98,14 +114,14 @@ export default function(){
  
   function ticked() {
     link
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });      
+      .attr("x1", d => d.source.x )
+      .attr("y1", d => d.source.y )
+      .attr("x2", d => d.target.x )
+      .attr("y2", d => d.target.y );      
 
     node
-      .attr("x", function(d) { return d.x; })
-      .attr("y", function(d) { return d.y; });      
+      .attr("x", d => d.x )
+      .attr("y", d => d.y );      
   } 
 
   //adds sticky dragging  
@@ -130,7 +146,7 @@ export default function(){
   function zoomed()
   {
     var topG = select("#topG");
-    topG.attr("transform", "translate(" + event.transform.x+","+event.transform.y + ")scale(" + event.transform.k + ")");
+    topG.attr("transform", `translate(${+event.transform.x},${+event.transform.y}) scale(${event.transform.k})`);
   }
 
 }
