@@ -16,7 +16,8 @@ export default {
     indexV1: "./index-v1.js",
     texturesV2: "./textures-v2.js",
     visualizationsV2: "./visualizations-v2.js",
-    indexV2: "./index-v2.js"
+    indexV2: "./index-v2.js",
+    reflections: "./reflections.js"
   },
   output: {
     filename: "[name].bundle.js",
