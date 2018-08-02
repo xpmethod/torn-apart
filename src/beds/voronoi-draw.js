@@ -1,5 +1,6 @@
 import L from "leaflet";
 import _ from "lodash";
+import slug from "slug";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
@@ -15,7 +16,7 @@ export default function(map){
   const feature = g.selectAll("path").data(aorVoronoi.features)
     .enter().append("path")
     .each( d => {
-      d.id = `${_.camelCase(d.properties.name)}-voronoi`;
+      d.id = `${slug(d.properties.name)}-voronoi`;
       d.tooltip = d.properties.name;
       d.mouseOver = () => {
         select(`#${ d.id }`)
