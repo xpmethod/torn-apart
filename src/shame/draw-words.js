@@ -26,12 +26,13 @@ export default function(words) {
     })
     .each(d => {
       d.id = `${slug(d.name)}`;
-      d.tooltip = `<strong>${format("$,.0f")(Math.ceil(d.total_value))}`; //we don't also want categories here?
+      d.tooltip = `${d.name}:
+      <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? 'years' : 'year'}`;
       d.mouseOver = () => {
-        select(`#text-${d.id}`);
+        select(`#text-${d.id}`).style("opacity",0.7);
       };
       d.mouseOut = () => {
-        select(`#text-${d.id}`);
+        select(`#text-${d.id}`).style("opacity",1);
       };
     })
     .attr("id", d => `text-${d.id}`)
