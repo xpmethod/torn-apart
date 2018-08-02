@@ -95,7 +95,11 @@ export default function(){
     .attr("width", d => d.side)
     .attr("height", d => d.side)
     .style("fill", d => d.color)
-    .on("mousedown", function() { event.stopPropagation(); })        
+    .on("click", (d) => { 
+      select("#explorer-sidebar")
+        .html(`<h2>${d.name}`);
+    })
+    .on("mousedown", () => event.stopPropagation )        
     .call(drag()
       .on("start", dragstarted)
       .on("drag", dragged)
