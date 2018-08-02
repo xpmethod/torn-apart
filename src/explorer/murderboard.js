@@ -5,6 +5,7 @@ import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY 
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { rem, green, purple, orange, pink } from "../constants";
+import explorerMurderboardSidebar from "./murderboard-sidebar";
 
 
 export default function(){  
@@ -95,10 +96,7 @@ export default function(){
     .attr("width", d => d.side)
     .attr("height", d => d.side)
     .style("fill", d => d.color)
-    .on("click", (d) => { 
-      select("#explorer-sidebar")
-        .html(`<h2>${d.name}`);
-    })
+    .on("click", explorerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )        
     .call(drag()
       .on("start", dragstarted)
