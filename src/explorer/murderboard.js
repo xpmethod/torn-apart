@@ -1,6 +1,6 @@
-import murderboard from "../../data/explorer/murderboard.json";
+import graph from "../../data/explorer/graph.json";
 import { select, event } from "d3-selection";
-import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force";
+import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink, black } from "../constants";
@@ -28,20 +28,24 @@ export default function(){
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-1999))
-    .force("center", forceCenter(width / 2, height / 2));  
+    .force("charge", forceManyBody().strength(-4500))
+    .force("center", forceCenter(width / 4, height / 4)) 
+    .force("x", forceX(-500))
+    .force("y", forceY(-10000))
+    .alphaDecay(0.01);  
 
   var link = svg.append("g")
     .attr("class", "links")
     .call(zoomTransform)
     .selectAll("line")
-    .data(murderboard.links)
+    .data(graph.links)
     .enter().append("line")
   //change edge color based on property
     .style("stroke", function(d) { let color = pink;
       if(d.source === "product category") color = green;
       if(d.source === "product") color = purple;
-      if(d.source === "company") color = orange; 
+      if(d.source === "company") color = orange;
+      if(d.source === "parent company") color = pink; 
       return color; 
     });
 
@@ -49,26 +53,29 @@ export default function(){
     .attr("class", "nodes")
     .call(zoomTransform)
     .selectAll("rect")
-    .data(murderboard.nodes)
+    .data(graph.nodes)
     .enter().append("rect")
-    .attr("width", function(d) {width = 0;
+    .attr("width", function(d) {width = 40;
       //makes width of node a function of category
-      if(d.category === "product category") width = 180;
-      if(d.category === "product") width = 120;
-      if(d.category === "company") width = 60;
+      if(d.category === "product category") width = 240;
+      if(d.category === "product") width = 160;
+      if(d.category === "company") width = 80;
+      if(d.category === "parent company") width = 40;
       return width; 
     }) 
-    .attr("height", function(d) {height = 0;
+    .attr("height", function(d) {height = 40;
       //makes height of node a function of category
-      if(d.category === "product category") height = 180;
-      if(d.category === "product") height = 120;
-      if(d.category === "company") height = 60;
+      if(d.category === "product category") height = 240;
+      if(d.category === "product") height = 160;
+      if(d.category === "company") height = 80;
+      if(d.category === "parent company") height = 40;
       return height; 
     }) 
     .style("fill", function(d) { let color = black;
       if(d.category === "product category") color = green;
       if(d.category === "product") color = purple;
       if(d.category === "company") color = orange;
+      if(d.category === "parent company") color = pink;
       return color;
     })
     .on("mousedown", function() { event.stopPropagation(); })        
@@ -81,11 +88,11 @@ export default function(){
     .text(function(d) {return d.name;});
 
   simulation
-    .nodes(murderboard.nodes)
+    .nodes(graph.nodes)
     .on("tick", ticked);  
 
   simulation.force("link")
-    .links(murderboard.links);  
+    .links(graph.links);  
 
  
   function ticked() {
@@ -126,3 +133,4 @@ export default function(){
   }
 
 }
+
