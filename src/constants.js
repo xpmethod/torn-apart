@@ -1,13 +1,19 @@
 import $ from "jquery";
 import _ from "lodash";
+import { schemeSet2 } from "d3-scale-chromatic";
 
 // The default size of one rem.
 export const rem = _.parseInt($("html").css("font-size").replace("px", ""));
 
 // Colors used on the site.
-export const green = "#66c2a5";
-export const orange = "#fc8d62";
-export const purple = "#8da0cb";
+export const green = schemeSet2[0];
+export const orange = schemeSet2[1];
+export const purple = schemeSet2[2];
+export const pink = schemeSet2[3];
+export const lime = schemeSet2[4];
+export const beige = schemeSet2[5];
+export const tan = schemeSet2[6];
+export const lavender = schemeSet2[7];
 
 // Constant used in banned viz.
 export const muslimBanTotal = 208832081;

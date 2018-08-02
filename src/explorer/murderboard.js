@@ -4,7 +4,7 @@ import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
-import { rem, green, purple, orange, pink, black } from "../constants";
+import { rem, green, purple, orange, pink } from "../constants";
 
 
 export default function(){  
