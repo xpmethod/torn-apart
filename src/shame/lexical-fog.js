@@ -15,20 +15,23 @@ import { format } from "d3-format";
 
 export default function(chart){
 
+
+if (select("#lexical-fog-svg").selectAll("text").empty())
+{
   const width = chart.width;
   const height = chart.height;
 
   var colour = colorscale.schemeSet2;
   var svg = select("#lexical-fog-svg")
     .attr("class", "wordcloud")
-    .append("g")
+    .append("g").attr("id", "lexical-fog-g")
     // without the transform, words would get cutoff to the left and top, they would
     // appear outside of the SVG area
     .attr("transform", "translate("+ width/2 + "," + height/2 + ")");
 
+	//console.log($("#lexical-fog-g").length);
 
-
-  cloud().size([width, height-height*0.2])
+ cloud().size([width, height-height*0.2])
     .words(Data)
     .text(function(d) { return d.name; })
     .rotate(0)
@@ -40,6 +43,7 @@ export default function(chart){
 
   //place to bind on mouseover to words
   //Draw the words of the word cloud
+
   function draw(words) {
     svg.selectAll("text")
       .data(words)
@@ -67,7 +71,10 @@ export default function(chart){
       .attr("id", d => `text-${d.id}`)
       .on("mouseover", handleMouseOver) //call the mouse-over handler
       .on("mouseout", handleMouseOut); //call the mouse-out handler
-  }
+	  
+	  	
+	}
+ // }
 
 // Below is Alex Ahmed's code, which she wrote before she knew we were using Moacir's tooltips
   // //Hovering handlers
@@ -109,4 +116,5 @@ export default function(chart){
   // var tip = svg.append("g")
   //   .attr("id","cloud_tooltip")
   //   .attr("position","absolute");
+}
 }
