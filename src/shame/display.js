@@ -1,4 +1,4 @@
-import { green, purple } from "../constants";
+import { green, orange, purple, pink, lime, beige, tan } from "../constants";
 import { selection} from "d3-selection";
 import $ from "jquery";
 import initChart from "../charts/init";
@@ -45,14 +45,14 @@ export default function() {
   };
   
   const ethnicity = {data: [
-    {group: "BA", taName: "Black-American", ecount: 61, color: colorscale.schemeSet2[0]},
-    {group: "HA", taName: "Hispanic-American", ecount: 57, color: colorscale.schemeSet2[2]},
-    {group: "SAAIA", taName: "Subcontinent-Asian/Asian-Indian-American", ecount: 36, color:  colorscale.schemeSet2[1]},
-    {group: "AP", taName: "Asian-Pacific", ecount: 31, color: colorscale.schemeSet2[3]},
-    {group: "NA", taName: "Native-American", ecount: 21, color: colorscale.schemeSet2[4]} , 
-    {group: "OA", taName: "Other-Minority", ecount: 19, color: colorscale.schemeSet2[5]
+    {group: "BA", taName: "Black-American", ecount: 61, color: green},
+    {group: "HA", taName: "Hispanic-American", ecount: 57, color: orange},
+    {group: "SAAIA", taName: "Subcontinent-Asian/Asian-Indian-American", ecount: 36, color: purple},
+    {group: "AP", taName: "Asian-Pacific", ecount: 31, color: pink},
+    {group: "NA", taName: "Native-American", ecount: 21, color: lime} , 
+    {group: "OA", taName: "Other-Minority", ecount: 19, color: beige
     },
-    {group: "AN", taName: "Alaskan-Native", ecount: 12, color: colorscale.schemeSet2[6]}
+    {group: "AN", taName: "Alaskan-Native", ecount: 12, color: tan}
   ],  margins: { top: 0, bottom: 0, left: 0, right: 0}, 
   id: "#ethnicity-svg", number: "ecount", svgWidth: thirdWidth 
   };
