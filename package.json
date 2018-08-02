@@ -31,6 +31,7 @@
     "markdown-it": "^8.4.1",
     "markdown-it-footnote": "^3.0.1",
     "newsapi": "^2.2.2",
+    "slug": "^0.9.1",
     "underscore.string": "^3.3.4",
     "venn.js": "^0.2.20"
   },

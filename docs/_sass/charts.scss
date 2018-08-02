@@ -1,3 +1,17 @@
+#explorer-div {
+  .links line {
+  stroke: #aaa;
+  stroke-width: 3px;
+  }
+
+  .nodes rect {
+    pointer-events: all;
+    stroke: black;
+    stroke-width: 3px;
+  }
+}
+
+
 #charts-div {
   position: absolute;
   overflow-y: auto; 
