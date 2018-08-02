@@ -1,15 +1,16 @@
 import $ from "jquery";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import { rem, green, purple } from "../constants";
-import Data from "../../data/galaxyVizData.csv";
+import Data from "../../data/rainVizData.csv";
 import addGlowFilter from "../add-glow-filter";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
+import { fillV2DivHeight } from "../utils";
 import { format } from "d3-format";
 
 export default function(){  
   const width = $(window).width() - 4 * rem;
-  const height = $("#v2-div").position().top + $("#v2-div").height() - $("#galaxy-svg").position().top;
+  const height = fillV2DivHeight("#rain-header");
   const scaling = width*0.000567; //this scales the dots radius appropriately 
   // for different widths of svg
   const scaled_width = width*0.8; //this is the scaling factor for 
@@ -62,11 +63,11 @@ export default function(){
 
   var labels = [2014, 2015, 2016, 2017, 2018];
 
-  const svg = addGlowFilter(select("#galaxy-svg"))
+  const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
     .attr("height", height);
 
-  const g = svg.append("g").attr("id", "galaxy-g");
+  const g = svg.append("g").attr("id", "rain-g");
   g.selectAll("circle")
     .data(Data).enter()
     .append("circle")
@@ -80,7 +81,7 @@ export default function(){
     &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; // rounded for style
       d.mouseOver = () => {
         select(`#circle-${d.id}`) 
-          .attr("filter", "url(#filter-glow-galaxy)");
+          .attr("filter", "url(#filter-glow-rain)");
       };
       d.mouseOut = () => {
         select(`#circle-${d.id}`)

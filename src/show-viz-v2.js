@@ -4,7 +4,7 @@ import contracts from "./contracts";
 import districts from "./districts";
 import beds from "./beds";
 import explorer from "./explorer";
-import galaxy from "./galaxy";
+import rain from "./rain";
 import lines from "./lines";
 import shame from "./shame";
 import clearIntervals from "./clear-intervals";
@@ -21,8 +21,8 @@ export default function (viz, map){
     shame(map);
     updateTexts();
     break;
-  case "galaxy":
-    galaxy(map);
+  case "rain":
+    rain(map);
     updateTexts();
     break;
   case "explorer":
