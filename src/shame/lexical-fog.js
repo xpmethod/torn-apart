@@ -3,6 +3,7 @@
 // simple test
 
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
+import slug from "slug";
 import Data from "../../data/tempWordCloudData.csv";
 import { select } from "d3-selection";
 import * as cloud from "d3-cloud";
@@ -54,7 +55,7 @@ export default function(chart){
         return d.name;
       })
       .each(d => {
-        d.id = `${d.name}`;
+        d.id = `${slug(d.name)}`;
         d.tooltip = `<strong>${format("$,.2f")(d.total_value)}`;
         d.mouseOver = () => {
           select(`#text-${d.id}`);
