@@ -1,6 +1,7 @@
 import $ from "jquery";
 import initMap from "./map-init";
 import showViz from "./show-viz-v1";
+import { resizeDivFromTop } from "./utils";
 
 const map = initMap("visualizations-mapdiv");
 const theViz = window.location.href.replace(/^.*#/, "");
@@ -19,6 +20,10 @@ $(".viz-button").click(function() {
   $(".viz-button").removeClass("active");
   $( this ).addClass("active");
   showViz($( this ).attr("href").replace(/^.*#/, ""), map);
+});
+
+$(document).ready(() => {
+  resizeDivFromTop("#charts-div");
 });
 
 

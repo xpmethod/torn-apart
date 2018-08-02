@@ -23,6 +23,11 @@
     margin: .25rem .5rem .5rem 0;
   }
 
+  svg.legend-svg {
+    display: block;
+    margin: 0;
+  }
+
 }
 
 .legend {
@@ -167,6 +172,15 @@
 
 .orange-dot {
   fill: $orange;
+}
+
+.districts-polygon {
+  fill: $purple;
+  stroke: $purple;
+  stroke-width: 2;
+  stroke-opacity: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .orange-polygon, .purple-polygon {

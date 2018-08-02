@@ -4,54 +4,51 @@
 <body>
 <h1 class="sr-only">Torn Apart / Separados</h1>
 <div id="above-map">
-  <div id="phone-navs" class="d-md-none">
-    {% include navbar.html %}
-  </div>
-  <div class="d-none d-md-block">
-    <nav id="index-nav" class="nav">
-      {% unless page.mapid == "mapdiv" %}
-        <a id="index-button" class="nav-link nav-item" href="{{ site.baseurl }}/index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
-      {% endunless %}
-      {% assign default_viz = site.data.vizNavbars[page.volume][0] %}
-      <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ default_viz }}">Visualizations</a>
-      <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/textures.html">Textures</a>
-      <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/reflections.html">Reflections</a>
-      <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
-      <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
-      <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
-      {% if page.volume == 1 %}
-      <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
-      {% else %}
-      <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
-      {% endif %}
-      <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">
-        <span class="locale-toggle-text locale-toggle-en">EN</span> | 
-        <span class="locale-toggle-text locale-toggle-es">ES</span> | 
-        <span class="locale-toggle-text locale-toggle-fr">FR</span>
-      </a>
-    </nav>
-  </div>
-    {% if page.url contains "visualizations" %}
-      <nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start">
-        {% assign tabs = site.data.vizNavbars[page.volume] %}
+  <div id="all-navs">
+    <div id="phone-navs" class="d-md-none">
+      {% include navbar.html %}
+    </div>
+    <div class="d-none d-md-block">
+      <nav id="index-nav" class="nav">
+        {% unless page.mapid == "mapdiv" %}
+          <a id="index-button" class="nav-link nav-item" href="{{ site.baseurl }}/index.html"><strong data-i18n="ta-sitename">Torn Apart</strong></a>
+        {% endunless %}
+        {% assign default_viz = site.data.vizNavbars[page.volume][0] %}
+        <a data-i18n="ta-visualizations" id="visualizations-button" class="nav-link nav-item volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ default_viz }}">Visualizations</a>
+        <a data-i18n="ta-textures" id="textures-button" class="nav-link nav-item volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ page.volume }}/textures.html">Textures</a>
+        <a data-i18n="ta-reflections" id="reflections-button" class="nav-link nav-item volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ page.volume }}/reflections.html">Reflections</a>
+        <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
+        <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
+        <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
         {% if page.volume == 1 %}
-          {% assign button-class = "orange-button" %}
+        <a id="volume-2-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
         {% else %}
-          {% assign button-class = "purple-button" %}
+        <a id="volume-1-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
         {% endif %}
-        {% for tab in tabs %}
-        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link {{ button-class }} viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
-        {% endfor %}
+        <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">
+          <span class="locale-toggle-text locale-toggle-en">EN</span> | 
+          <span class="locale-toggle-text locale-toggle-es">ES</span> | 
+          <span class="locale-toggle-text locale-toggle-fr">FR</span>
+        </a>
       </nav>
-    {% endif %}
+    </div>
+      {% if page.url contains "visualizations" %}
+        <nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start">
+          {% assign tabs = site.data.vizNavbars[page.volume] %}
+          {% if page.volume == 1 %}
+            {% assign button-class = "orange-button" %}
+          {% else %}
+            {% assign button-class = "purple-button" %}
+          {% endif %}
+          {% for tab in tabs %}
+          <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link {{ button-class }} viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+      </div>
     </div>
   </div>
-  <div class="d-flex align-items-center justify-content-center full-container">
-    <div id="drawing-dialog" class="viz-hide legend click-to-hide card mx-3 px-3 py-2">
-      <i class="m-3 fa-spin fas fa-drafting-compass"></i><br>
-      <span data-i18n="ta-v1-drafting-borders">Drafting borders…</span>
-    </div>
-  </div>
+{% if page.url contains "visualizations" %}
   <div class="d-flex align-items-end justify-content-end full-container">
     <div id="banned-legend" class="viz-hide markdownify legend click-to-hide card mx-3 px-3 py-2" data-i18n="ta-v1-banned-legend"></div>
   </div>
@@ -59,9 +56,9 @@
   <div class="d-flex align-items-center justify-content-center full-container">
     <div id="orr-legend" class="viz-hide markdownify legend click-to-hide card mx-3 px-3 py-2" data-i18n="ta-v1-orr-legend"></div>
   </div>
-</div>
-<div class="full-map" id="{{page.mapid}}">
-</div>
+{% endif %}
+</div> <!-- close above-map -->
+<div class="full-map" id="{{page.mapid}}"></div>
 {% if page.url contains "visualizations" %}
   {% if page.volume == 1 %}
     <div id="the-eye-div" class="viz-hide"></div>
@@ -96,6 +93,7 @@
     </div>
   </div>
 </div>
+<div id="tooltip" class="tooltip" style="opacity: 0"></div>
   {% include scripts.html %}
 </body>
 </html>

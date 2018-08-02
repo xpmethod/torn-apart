@@ -6,16 +6,16 @@
 <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
   <a data-i18n="ta-sitename" class="navbar-brand" href="{{ site.baseurl }}/">Torn Apart</a>
 
-  <div class="collapse navbar-collapse" id="navbarList">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse" id="navbarList" style="z-index: 4000">
+    <ul class="nav">
       <li class="nav-item">
-        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#clinks">Visualizations</a>
+        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#clinks">Visualizations</a>
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/textures.html">Textures</a>
+        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/textures.html">Textures</a>
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/reflections.html">Reflections</a>
+        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/reflections.html">Reflections</a>
       </li>
       <li class="nav-item">
         <a  data-i18n="ta-allies" id="nav-allies" class="nav-link" href="{{ site.baseurl }}/allies.html">Allies</a>
@@ -28,29 +28,31 @@
       </li>
       {% if volume == 2 %}
       <li class="nav-item">
-        <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
+        <a id="volume-1-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
       </li>
       {% else %}
       <li class="nav-item">
-        <a id="volume-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
+        <a id="volume-2-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
       </li>
       {% endif %}
+    </ul>
 {% if page.mapid == "visualizations-mapdiv" %}
       <div class="dropdown-divider"></div>
+    <ul class="nav mb-2 viz-nav-vol-{{volume}}">
         {% assign tabs = site.data.vizNavbars[volume] %}
         {% for tab in tabs %}
-      <li class="nav-item viz-item">
-        <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations#{{ tab }}">Clinks</a>
-      </li>
+        <li class="nav-item viz-item-{{ volume }}">
+          <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#{{ tab }}">Clinks</a>
+        </li>
       {% endfor %}
-{% endif %}
     </ul>
+{% endif %}
   </div>
   <a class="ml-auto en-button locale-button active nav-item nav-link" href="#" data-locale="en">EN</a> |
   <a class="es-button locale-button nav-item nav-link" href="#" data-locale="es">ES</a> | 
   <a class="fr-button locale-button nav-item nav-link" href="#" data-locale="fr">FR</a>
 {% if page.mapid == "visualizations-mapdiv" %}
-  <button class="navbar-toggler navbar-toggler-orange" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-vol-{{volume}}" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 {% else %}
