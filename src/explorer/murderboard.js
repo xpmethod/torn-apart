@@ -1,6 +1,6 @@
 import graph from "../../data/explorer/graph.json";
 import { select, event } from "d3-selection";
-import { forceSimulation, forceCenter, forceManyBody, forceLink} from "d3-force";
+import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink, black } from "../constants";
@@ -11,8 +11,8 @@ export default function(){
   var width = 1366;  
 
   var theZoom = zoom()
-    .scaleExtent([0.1, 8])
-    .on("zoom", zoomed);  
+    .scaleExtent([.1, Infinity])
+    .on("zoom", zoomed); 
 
   const svg = select("#explorer-svg")
     .attr("width", width)
@@ -20,24 +20,34 @@ export default function(){
     .call(theZoom)
     .append("g")
     .attr("id", "topG");  
-
-  theZoom.scaleTo(select("svg"),0.35);  
+  //sets unitial zoom level
+  theZoom.scaleTo(select("svg"),-10);  
 
   window.onwheel = function(){return false;};  
 
   var simulation = forceSimulation()
     .force("link", forceLink().id(function(d) { return d.name; }))
     // changes spacing of viz via node repulsion
-    .force("charge", forceManyBody().strength(-1500))
-    .force("center", forceCenter(width / 1, height / 1));  
- 
+    .force("charge", forceManyBody().strength(-4500))
+    .force("center", forceCenter(width / 4, height / 4)) 
+    .force("x", forceX(-500))
+    .force("y", forceY(-10000))
+    .alphaDecay(0.01);  
 
   var link = svg.append("g")
     .attr("class", "links")
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line");  
+    .enter().append("line")
+  //change edge color based on property
+    .style("stroke", function(d) { let color = pink;
+      if(d.source === "product category") color = green;
+      if(d.source === "product") color = purple;
+      if(d.source === "company") color = orange;
+      if(d.source === "parent company") color = pink; 
+      return color; 
+    });
 
   var node = svg.append("g")
     .attr("class", "nodes")
@@ -45,27 +55,27 @@ export default function(){
     .selectAll("rect")
     .data(graph.nodes)
     .enter().append("rect")
-    .attr("width", function(d) {width = 30;
+    .attr("width", function(d) {width = 40;
       //makes width of node a function of category
-      if(d.category === "suboffice") width = 480;
-      if(d.category === "product category") width = 180;
-      if(d.category === "product") width = 120;
-      if(d.category === "company") width = 60;
+      if(d.category === "product category") width = 240;
+      if(d.category === "product") width = 160;
+      if(d.category === "company") width = 80;
+      if(d.category === "parent company") width = 40;
       return width; 
     }) 
-    .attr("height", function(d) {height = 30;
+    .attr("height", function(d) {height = 40;
       //makes height of node a function of category
-      if(d.category === "suboffice") height = 480;
-      if(d.category === "product category") height = 180;
-      if(d.category === "product") height = 120;
-      if(d.category === "company") height = 60;
+      if(d.category === "product category") height = 240;
+      if(d.category === "product") height = 160;
+      if(d.category === "company") height = 80;
+      if(d.category === "parent company") height = 40;
       return height; 
     }) 
     .style("fill", function(d) { let color = black;
-      if(d.category === "suboffice") color = green;
-      if(d.category === "product category") color = purple;
-      if(d.category === "product") color = orange;
-      if(d.category === "company") color = pink;
+      if(d.category === "product category") color = green;
+      if(d.category === "product") color = purple;
+      if(d.category === "company") color = orange;
+      if(d.category === "parent company") color = pink;
       return color;
     })
     .on("mousedown", function() { event.stopPropagation(); })        
@@ -75,7 +85,7 @@ export default function(){
       .on("end", dragended));  
 
   node.append("title")
-    .text(function(d) { return d.name; });  
+    .text(function(d) {return d.name;});
 
   simulation
     .nodes(graph.nodes)
@@ -84,32 +94,17 @@ export default function(){
   simulation.force("link")
     .links(graph.links);  
 
-  //change speed of viz cooling for animated murderboard effect
-  simulation.alpha (.8);
-  simulation.alphaTarget(0);
-  simulation.alphaDecay([0]);   
-
-  var text = svg.append("g").attr("class", "labels").selectAll("g")
-    .data(graph.nodes)
-    .enter().append("g");  
-
-  text.append("text")
-    .attr("x", 14)
-    .attr("y", ".31em")
-    .style("font-family", "sans-serif")
-    .style("font-size", "2em")
-    .text(function(d) { return d.name; });  
-  
-
+ 
   function ticked() {
     link
       .attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
       .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });      node
+      .attr("y2", function(d) { return d.target.y; });      
+
+    node
       .attr("x", function(d) { return d.x; })
-      .attr("y", function(d) { return d.y; });      text
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+      .attr("y", function(d) { return d.y; });      
   } 
 
   //adds sticky dragging  
@@ -136,4 +131,6 @@ export default function(){
     var topG = select("#topG");
     topG.attr("transform", "translate(" + event.transform.x+","+event.transform.y + ")scale(" + event.transform.k + ")");
   }
+
 }
+

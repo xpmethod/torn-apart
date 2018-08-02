@@ -7,6 +7,21 @@
   background-color: $green !important;
 }
 
+.volume-1-nav-link {
+  text-decoration: underline $orange double ;
+}
+
+.volume-2-nav-link {
+  text-decoration: underline $purple double ;
+}
+
+#volume-1-button.nav-link.nav-item {
+  background-color: $orange;
+}
+
+#volume-2-button.nav-link.nav-item {
+  background-color: $purple;
+}
 
 #index-nav.nav, #visualizations-nav.nav, #time-series-nav.nav { 
   margin-top: .5rem;

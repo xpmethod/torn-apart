@@ -4,6 +4,7 @@ import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
 import { scaleLog } from "d3-scale";
+import addGlowFilter from "../add-glow-filter";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
 import { purple } from "../constants";
@@ -23,15 +24,7 @@ import linesCalcAngles from "./calculate-angles";
 //   };
 
 export default function (map) {
-  const svg = leafletD3Svg(map, "d3-lines-svg");
-  const defs = svg.append("defs");
-  const filter = defs.append("filter").attr("id","filter-glow");
-  filter.append("feGaussianBlur")
-    .attr("stdDeviation","3.5")
-    .attr("result","coloredBlur");
-  const feMerge = filter.append("feMerge");
-  feMerge.append("feMergeNode").attr("in","coloredBlur");
-  feMerge.append("feMergeNode").attr("in","SourceGraphic");  
+  const svg = addGlowFilter(leafletD3Svg(map, "d3-lines-svg"));
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
   const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
   y.domain([0.1, linesConstants.yMax]); // the largest value.
@@ -52,7 +45,7 @@ export default function (map) {
       d.mouseOver = () => {
         select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", d.color)
-          .attr("filter", "url(#filter-glow)");
+          .attr("filter", "url(#filter-glow-lines)");
       };
       d.mouseOut = () => {
         select(`#${_.camelCase(d.name)}-path`)
