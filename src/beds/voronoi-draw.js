@@ -1,43 +1,30 @@
 import L from "leaflet";
-import _ from "lodash";
-import { format } from "d3-format";
+import slug from "slug";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
-import congressionalDistricts from "./congressional-districts.geo.json";
+import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
-import { states } from "../constants";
-import { getOrdinal } from "../utils";
 
 export default function(map){
-  const svg = addGlowFilter(leafletD3Svg(map, "d3-districts-svg"));
+  const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
-  const feature = g.selectAll("path").data(congressionalDistricts.features)
+  const feature = g.selectAll("path").data(aorVoronoi.features)
     .enter().append("path")
-    .each(d => {
-      if(+d.properties.STATEFP < 57 && +d.properties.STATEFP !== 11){
-        const state = _.find(states, { stateFP: d.properties.STATEFP }).name;
-        d.id = state + "-" + d.properties.CD115FP + "-" + Math.floor(Math.random() * 10);
-        if(d.properties.CD115FP === "00"){
-          d.districtName = "At-large";
-        } else {
-          const districtNumber = _.toInteger(d.properties.CD115FP);
-          d.districtName = getOrdinal(districtNumber);
-        }
-        d.tooltip = `${ state } - ${ d.districtName} District <br />
-         $${ format(",")(Math.floor(Math.random() * 1000)) } per resident`;
-        d.mouseOver = () => {
-          select(`#${ d.id }`)
-            .attr("filter", "url(#filter-glow-districts)");
-        };
-        d.mouseOut = () => {
-          select(`#${ d.id }`)
-            .attr("filter", "");
-        };
-      }
+    .each( d => {
+      d.id = `${slug(d.properties.name)}-voronoi`;
+      d.tooltip = d.properties.name;
+      d.mouseOver = () => {
+        select(`#${ d.id }`)
+          .attr("filter", "url(#filter-glow-beds)");
+      };
+      d.mouseOut = () => {
+        select(`#${ d.id }`)
+          .attr("filter", "");
+      };
     })
     .style("pointer-events", "painted")
     .attr("id", d => d.id)
@@ -50,13 +37,11 @@ export default function(map){
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
 
-
-  
   reset();
   map.on("zoomend", reset);
 
   function reset() {
-    const bounds = path.bounds(congressionalDistricts),
+    const bounds = path.bounds(aorVoronoi),
       topLeft = bounds[0],
       bottomRight = bounds[1];
     svg.attr("width", bottomRight[0] - topLeft[0])

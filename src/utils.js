@@ -60,3 +60,8 @@ export function mapZoomDisable(map) {
   $(map).css("cursor", "default");  
 }
 
+export function getOrdinal(n) {
+  const suffix = ["th", "st", "nd", "rd"],
+    variance = n % 100;
+  return n+(suffix[(variance - 20) % 10]||suffix[variance]||suffix[0]);
+}
