@@ -21,9 +21,9 @@ export default function(){
       .transition().delay(0).duration(250)
       .style("stroke-width", 5)
       .style("opacity", "1");
-	  
-	//first we remove legend text belonging to anything that was already selected
-	  select("#text-container")	
+
+    //first we remove legend text belonging to anything that was already selected
+    select("#text-container")	
       .remove("text");
 	
     //I create a new <text></text> element inside the #gender-text-svg svg. It is empty.
@@ -47,10 +47,10 @@ export default function(){
       .style("font-size", "1rem")
       .style("font-weight", "bold")
       .attr("fill", function() { return labelColor; })
-	  .attr("data-i18n", function () {var textlabel = "ta-v2-" + segmentLabel; return textlabel; })
+      .attr("data-i18n", function () {var textlabel = "ta-v2-" + segmentLabel; return textlabel; })
       .text(); 
 
-	  updateTexts();
+    updateTexts();
 
 
     //And if you de-click something, then:
