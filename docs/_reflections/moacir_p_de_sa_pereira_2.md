@@ -59,7 +59,32 @@ EAST</small></h2>
 
 <div id="batwing-div"></div>
 
-More stuff.
+Despite the fact that for some reason the years go from right to left
+(reproduced from Nightingale’s original) and that the visualizations begin on
+April 1, or what is 9 o’clock on the calendar wheels, these diagrams
+demonstrate *very* clearly that the bulk of soldiers were dying of infection,
+or “zymotic diseases.” Wounds and other causes are barely a blip in the chart.
+Yet Nightingale engages in a bit of sleight of hand to make the salient
+political point here.  During the time period covered in these diagrams,
+14,476 soldiers died from zymotic diseases, as opposed to 3,486 of wounds and
+other causes. In other words, about four times as many soldiers died of
+zymotic diseases.
+
+Does the purple batwing look four times larger than the other two batwings
+combined? 
+
+With an *n* of one (my mom), the answer is clearly no. Nightingale is not
+wrong to suggest that too many soldiers are dying of infectious disease. But
+this chart makes it look like soldiers are *only* dying of infectious disease,
+with a negligible number dying from causes more proximate to war. To achieve
+this effect, Nightingale mobilizes two “tricks” of the visualization trade,
+using two dimensions to represent a one-dimensional variable, and then using a
+rate to 
+
+<div id="stackedbar-div"></div>
+
+<div id="rose-div"></div>
+
 
 [^cohen]: I. Bernard Cohen, “Florence Nightingale,” _Scientific American_ 250 (1984), 131. Most of my retelling of the Nightingale story is based on Cohen’s account.
 
