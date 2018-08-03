@@ -78,6 +78,7 @@ export default function(){
     .attr("transform", "rotate(-90)")
     .attr("y", 6)
     .attr("dy", "0.71em")
+    .attr("fill", "black")
     .attr("text-anchor", "end")
     .text("Mortality rate per mille per annum");
 
