@@ -30,7 +30,7 @@ export default function(wingData, height){
     wingData.g.append("path")
       .datum(wingData.data)
       .attr("fill", colors[i])
-      .attr("opacity", 0.5)
+      .attr("opacity", 0.8)
       .attr("d", line);
   });
 
@@ -43,7 +43,7 @@ export default function(wingData, height){
     .attr("transform", (d, i) => `rotate(${-90 + i * 360/12})`);
 
   xAxis.append("line")
-    .attr("x2", y(300));
+    .attr("x2", d => timeFormat("%b %Y")(d).match("Jan") ? null : y(300));
 
   xAxis.append("text")
     .attr("x", y(300) + 6)
