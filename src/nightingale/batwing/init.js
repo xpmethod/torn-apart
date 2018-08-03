@@ -1,3 +1,4 @@
+import _ from "lodash";
 import $ from "jquery";
 import { select } from "d3-selection";
 import { scaleTime } from "d3-scale";
@@ -6,13 +7,14 @@ import batwingDraw from "./draw";
 
 export default function(){
 
+  const localData = _.cloneDeep(Data);
   const height = $(window).height() / 1.75;
   const width = $("#batwing-div").width();
   const svg = select("#batwing-div").append("svg")
     .attr("height", height)
     .attr("width", width);
   const firstWing = {
-    data: Data.splice(0,12),
+    data: localData.splice(0,12),
     title: "April 1854 – March 1855",
     g: svg.append("g")
       .attr("transform", `translate(${3 * width/4},${0.375 * height})rotate(${-90})`)
@@ -22,7 +24,7 @@ export default function(){
       .range([0, 2 * Math.PI]),
   };
   const secondWing = {
-    data: Data,
+    data: localData,
     title: "April 1855 – March 1856",
     g: svg.append("g")
       .attr("transform", `translate(${width/4},${0.375 * height})rotate(${-90})`)
