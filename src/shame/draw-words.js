@@ -26,8 +26,14 @@ export default function(words) {
     })
     .each(d => {
       d.id = `${slug(d.name)}`;
-      d.tooltip = `${d.name}:
-      <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? 'years' : 'year'}`;
+      
+      if (d.name === "CoreCivic") {
+        d.tooltip = `${d.name} (formerly known as Corrections Corporation of America):
+        <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? "years" : "year"}`;
+      } else {
+        d.tooltip = `${d.name}:
+        <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? "years" : "year"}`;
+      }
       d.mouseOver = () => {
         select(`#text-${d.id}`).style("opacity",0.7);
       };
