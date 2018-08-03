@@ -1,27 +1,15 @@
 import _ from "lodash";
-// import { select } from "d3-selection";
 import { axisLeft } from "d3-axis";
 import { lineRadial } from "d3-shape";
 import { scaleLinear } from "d3-scale";
-import { timeParse } from "d3-time-format";
-import { purple, green, orange } from "../constants";
+import { timeFormat, timeParse } from "d3-time-format";
+import { purple, green, orange } from "../../constants";
 
-export default function(wingData, width){
+export default function(wingData, height){
 
   const y = scaleLinear()
     .domain([0, 1025])
-    .range([0, width / 2]);
-
-  _.each([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], angle => {
-    wingData.g.append("line")
-      .attr("x1", 0)
-      .attr("y1", 0)
-      .attr("x2", 0)
-      .attr("y2", -y(300))
-      .attr("transform", `rotate(${angle * 360/12})`)
-      .attr("stroke", "black");
-  });
-
+    .range([0, height / 1.7]);
 
   wingData.g.append("text")
     .attr("transform", `rotate(${90})`)
@@ -46,19 +34,39 @@ export default function(wingData, width){
       .attr("d", line);
   });
 
-  _.each(["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar"], (month, i) => {
-    wingData.g.append("text")
-      .attr("dy", -y(350))
-      // .attr("text-size", 10)
-      .attr("text-anchor", "middle")
-      .attr("transform", `rotate(${i * 360/12})`)
-      .text(month);
-  });
+  const xAxis = wingData.g.append("g")
+    .classed("a", true)
+    .classed("axis", true)
+    .selectAll("g")
+    .data(wingData.x.ticks())
+    .enter().append("g")
+    .attr("transform", (d, i) => `rotate(${-90 + i * 360/12})`);
 
+  xAxis.append("line")
+    .attr("x2", y(300));
+
+  xAxis.append("text")
+    .attr("x", y(300) + 6)
+    .attr("dy", ".35em")
+    .style("text-anchor", (d, i) => i < 3 || i > 9 ? "end" : null)
+    .attr("transform", (d, i) => i < 3 || i > 9 ? `rotate(180 ${y(300) + 6},0)` : null)
+    .text((d, i) => {
+      let text = timeFormat("%b %Y")(d);
+      if(text.match("Jan") || i === 12){
+        text = "";
+      }
+      return text;
+    });
+    
   const yAxis = axisLeft(y);
   wingData.g.append("g")
     .classed("y-axis", true)
     .attr("transform", `rotate(${90})`)
     .call(yAxis);
 
+  _.each([1, 2, 3], tick => {
+    wingData.g.append("circle")
+      .classed("tick", true)
+      .attr("r", y(tick * 100));
+  });
 }
