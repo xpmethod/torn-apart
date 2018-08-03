@@ -33,6 +33,7 @@ export function resizeDivFromTop(div) {
     const diff = targetTop - $(div).position().top;
     $(div).css("top", targetTop + "px");
     $(div).css("max-height", `${$(div).height() - diff}px`);
+    $(div).css("min-height", `${$(div).height() - diff}px`);
 
   }
 }
@@ -64,4 +65,8 @@ export function getOrdinal(n) {
   const suffix = ["th", "st", "nd", "rd"],
     variance = n % 100;
   return n+(suffix[(variance - 20) % 10]||suffix[variance]||suffix[0]);
+}
+
+export function fillV2DivHeight(elementAbove){
+  return $("#v2-div").height() - $(elementAbove).height() - rem;
 }

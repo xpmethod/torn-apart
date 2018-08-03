@@ -9,7 +9,11 @@
   <div class="collapse navbar-collapse" id="navbarList" style="z-index: 4000">
     <ul class="nav">
       <li class="nav-item">
+      {% if volume == 2 %}
+        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#districts">Visualizations</a>
+      {% else %}
         <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#clinks">Visualizations</a>
+      {% endif %}
       </li>
       <li class="nav-item">
         <a data-i18n="ta-textures"  id="nav-textures" class="nav-link volume-{{volume}}-nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/textures.html">Textures</a>

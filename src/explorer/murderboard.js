@@ -4,14 +4,14 @@ import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
-import { rem, green, purple, orange, pink } from "../constants";
+import { green, purple, orange, pink } from "../constants";
+import { fillV2DivHeight } from "../utils";
 import explorerMurderboardSidebar from "./murderboard-sidebar";
 
 
 export default function(){  
   const width = $("#explorer-div").width();
-  const height = $("#v2-div").height() - $("#explorer-headers").height() - rem;
-
+  const height = fillV2DivHeight("#explorer-headers");
   const theZoom = zoom()
     .scaleExtent([0.1, Infinity])
     .on("zoom", zoomed); 
