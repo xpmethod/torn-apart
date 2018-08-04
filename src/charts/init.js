@@ -10,8 +10,16 @@ export default function(chart, svgWidth, svgHeight){
   } else {
     svgW = svgWidth;
   }
-  chart.height = svgHeight - chart.margins.top - chart.margins.bottom;
+  
+  let svgH;
+  if(chart.svgHeight){
+    svgH = chart.svgHeight;
+  } else {
+    svgH = svgHeight;
+  }
+  
+  chart.height = svgH - chart.margins.top - chart.margins.bottom;
   chart.width = svgW - chart.margins.left - chart.margins.right;
-  chart.svg = select(chart.id).attr("height", svgHeight);
+  chart.svg = select(chart.id).attr("height", svgH);
   chart.g = chart.svg.append("g").attr("transform", `translate(${chart.margins.left},${chart.margins.top})`);
 }
