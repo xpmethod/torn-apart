@@ -52,12 +52,22 @@ British Army, a diagram will be more useful to carry this affective weight,
 prompting the design of the “batwings,” diagrams that treated the year as a
 cycle and drew a line around the calendar to show trends in mortality.
 
+<div id="batwing-div">
 <h2>Diagrams <small>representing the relative Mortality from <span class="purple">ZYMOTIC
 DISEASES</span>, from <span class="green">WOUNDS</span>, and from <span
 class="orange">ALL OTHER CAUSES</span> in the HOSPITALS of the ARMY in the
 EAST</small></h2>
-
-<div id="batwing-div"></div>
+<div class="row">
+<div id="batwing-2-div" class="col-md-6">
+<h3>April 1855 – March 1856</h3>
+<svg id="batwing-2-svg"></svg>
+</div>
+<div id="batwing-1-div" class="col-md-6">
+<h3>April 1854 – March 1855</h3>
+<svg id="batwing-1-svg"></svg>
+</div>
+</div>
+</div>
 
 Despite the fact that for some reason the years go from right to left
 (reproduced from Nightingale’s original) and that the visualizations begin on
@@ -98,16 +108,76 @@ visualization, which does not visually distort the data, it remains the case
 that Nightingale wanted to use the data, in its visual forms, to not just tell
 a story, but, rather, *make an argument*.
 
-<div id="rose-div"></div>
+<div id="rose-div">
+<div class="row">
+<div id="rose-2-div" class="col-md-6">
+<h3>April 1855 – March 1856</h3>
+<svg id="rose-2-svg"></svg>
+</div>
+<div id="rose-1-div" class="col-md-6">
+<h3>April 1854 – March 1855</h3>
+<svg id="rose-1-svg"></svg>
+</div>
+</div>
 
-Nightingale comes back a few years later and “corrects” the batwing diagrams
-with the diagrams above, now known as a polar area chart or Nightingale rose.
+Nightingale returns in 1859 and “corrects” the batwing diagrams
+with the diagrams above, now known as polar area charts or Nightingale roses.
 This is more “correct” in that the one-dimensional variable of mortality rate
 is reproduced as the single variable of area, meaning that the wedges are
 appropriately proportionate to each other. However, unlike with the stacked
 bar chart, here area is measured from the center, meaning part of many of the
 purple wedges is covered up by orange and green. So while, still, zymotic
 disease remains a runaway killer, now it’s, oddly, underrepresented.
+
+Other than reminding the reader of Nightingale’s pioneering use of data
+visualizations, discussing mortality among British soldiers during the Crimean
+War also highlights how Nightingale had several choice available when deciding
+how to present the visualizations. It is a fiction to assume that one
+rendering is more “correct” than the other; rather, the question is what
+distortions are within the realm of the reasonable in terms of making the
+narrative point one wants to. As Mark Monmonier explains in opening _How to
+Lie with Maps_, maps are only readable and coherent because they have
+distortions. If maps were “true,” they would be unusable.
+
+## Volume 1
+
+The first volume of _Torn Apart / Separados_ challenged us with several
+questions in terms of visualization, some of which were then discussed in
+several of the first reflections. There was a temptation, for example, to size
+the various dots in proportion with certain data associated with them, such as
+average daily population of detention facilities used by ICE. 
+
+But that would have distracted somewhat from the other, competing desires. If
+the goal is to show that ICE is everywhere, then scaling the markers based on
+average daily population will make some facilities jump out and others
+disappear into view. The story becomes different and more focused. In “Clinks”
+and “Charts,” by making all the in-use facilities look the same on first
+blush, the banal repeatability of ICE as it infects our national body seems
+more thorough.
+
+On the other hand, in “Banned,” we rely on cartographic distortion to
+overstate a case. This visualization draws a map of contiguous United States
+whose combined population is close to but less than the approximate number
+people banned from entry into the United States at the moment, blocked by the
+upheld “Muslim Ban.” Yet as sparsely populated mountain or plains state after
+state is added to the growing black shape, it soon seems like nearly all of
+America would be banned. We trick the eye, then, into thinking that American
+population is evenly distributed across the United States. But it isn’t.
+
+This is, unfortunately, a common design choice in choropleth maps, and it
+resembles the “error” in Nightingale’s batwing, as well. I, at least, would
+not make such a map under normal circumstances.
+
+But these are not normal circumstances. In this way, “Banned” is a response to
+the famous map of the 2016 Presidential Election hanging in the West Wing, [as
+tweeted by Trey
+Yingst](https://twitter.com/TreyYingst/status/862669407868391424):
+
+![Spotted: A map to be hung somewhere in the West
+Wing](https://i.imgur.com/xR1nLrd.png)
+
+So just as fewer people voted for the red candidate than the blue, “Banned”
+exaggerates the size of the US that would be banned from entry.
 
 
 
