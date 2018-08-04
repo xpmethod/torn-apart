@@ -5,21 +5,15 @@ import { scaleLinear } from "d3-scale";
 import { timeFormat, timeParse } from "d3-time-format";
 import { purple, green, orange } from "../../constants";
 
-export default function(wingData, height){
+export default function(wingData){
 
+  const width = wingData.svg.attr("width");
+  const height = wingData.svg.attr("height");
+  const g = wingData.svg.append("g")
+    .attr("transform", `translate(${width/2},${0.33 * height})rotate(${-90})`);
   const y = scaleLinear()
     .domain([0, 1025])
-    .range([0, height / 1.7]);
-
-  wingData.g.append("text")
-    .attr("transform", `rotate(${90})`)
-    .attr("text-anchor", "middle")
-    .attr("dy", -y(500))
-    .style("fill", green)
-    .style("font-size", "1.5rem")
-    .style("font-weight", "bold")
-    .text(wingData.title);
-
+    .range([0, 0.66 * height ]);
   const colors = [purple, green, orange];
   const lines = ["zymotic", "wounds", "other"].map( data => {
     return lineRadial()
@@ -27,14 +21,14 @@ export default function(wingData, height){
       .radius(d => y(d["dpml_" + data]));
   });
   _.each(lines, (line, i) => {
-    wingData.g.append("path")
+    g.append("path")
       .datum(wingData.data)
       .attr("fill", colors[i])
       .attr("opacity", 0.8)
       .attr("d", line);
   });
 
-  const xAxis = wingData.g.append("g")
+  const xAxis = g.append("g")
     .classed("a", true)
     .classed("axis", true)
     .selectAll("g")
@@ -59,13 +53,13 @@ export default function(wingData, height){
     });
     
   const yAxis = axisLeft(y);
-  wingData.g.append("g")
+  g.append("g")
     .classed("y-axis", true)
     .attr("transform", `rotate(${90})`)
     .call(yAxis);
 
   _.each([1, 2, 3], tick => {
-    wingData.g.append("circle")
+    g.append("circle")
       .classed("tick", true)
       .attr("r", y(tick * 100));
   });

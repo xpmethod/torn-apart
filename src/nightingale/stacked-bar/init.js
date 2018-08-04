@@ -10,8 +10,8 @@ import Data from "../army_of_east.csv";
 
 export default function(){
 
-  const height = $(window).height() / 3;
   const width = $("#stackedbar-div").width();
+  const height = 0.66 * width;
   const svg = select("#stackedbar-div").append("svg")
     .attr("height", height)
     .attr("width", width);
