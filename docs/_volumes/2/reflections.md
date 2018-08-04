@@ -14,9 +14,13 @@ Hence, in addition to reflections from our own project group, we have reached ou
 
 <br>
 
-**[¡Aburridos!]({{site.baseurl}}/reflections/daryl_meador.html)**.  
+**[insert title here]({{site.baseurl}}/reflections/daryl_meador.html)**.  
 by [Daryl Meador](http://twitter.com/darylmeador).   
 PhD student, Cinema Studies, Tisch School of the Arts, New York University.
+
+**[Needles Without a North]({{site.baseurl}}/reflections/daryl_meador.html)**.  
+by [Alex Gil](http://www.elotroalex.com). Interview with Myrna Fuentes.   
+Digital Scholarship Librarian and Affiliate Faculty of the Department of English and Comparative Literature, Columbia University.
 
 
 
