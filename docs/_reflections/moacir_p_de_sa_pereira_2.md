@@ -179,23 +179,22 @@ Wing](https://i.imgur.com/xR1nLrd.png)
 So just as fewer people voted for the red candidate than the blue, “Banned”
 exaggerates the size of the US that would be banned from entry.
 
+## Volume 2
+
+The second volume, however, also presents challenges in terms of
+representation. “Lines,” for example, shows how pervasive the American
+deportation engine is. Yet the number of deportations at a specific port of
+entry can be single digits or it can be over 1,000. Simply drawing lines
+devalues the fact that each individual deportation is its own story that’s the
+most important in the world to the deportee and their family and loved ones.
+But somehow the difference between one and 1,000 also needs to be indicated.
+The solution is to use a logarithmic scale. Now, 1,000 is a line that’s four
+times longer than the line for a single deportation, and every soul gets a
+wedge cutting across the face of the United States as it continues to expel.
+
 
 
 [^cohen]: I. Bernard Cohen, “Florence Nightingale,” _Scientific American_ 250 (1984), 131. Most of my retelling of the Nightingale story is based on Cohen’s account.
-
-[^agamben1]: Giorgio Agamben, _Homo Sacer: Sovereign Power and Bare Life_, trans. Daniel Heller-Roazen (Stanford: Stanford University Press, 1998), 131.
-
-[^agamben2]: Agamben, 166, 168–169.
-
-[^agamben3]: Agamben, 181.
-
-[^drucker1]: Johanna Drucker, _Graphesis: Visual Forms of Knowledge Production_ (Cambridge, MA: MIT Press, 2014), 136.
-
-[^drucker2]: Drucker, 3.
-
-[^arendt]: Hannah Arendt, _The Origins of Totalitarianism_ (San Diego: Harcourt, Inc., 1985), 293–294.
-
-[^haraway]: Donna Haraway, “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,” in _Simians, Cyborgs, and Women: the Reinvention of Nature_ (New York: Routledge, 1991), 188, 189.
 
 [^nightingale]: Florence Nightingale, _Mortality of the British Army, at Home, at Home and Abroad, and During the Russian War, as Compared with the Mortality of the Civil Population in England_ (London: Harrison and Sons, 1858), 1.
 
