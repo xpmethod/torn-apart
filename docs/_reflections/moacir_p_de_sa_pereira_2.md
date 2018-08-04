@@ -77,13 +77,38 @@ With an *n* of one (my mom), the answer is clearly no. Nightingale is not
 wrong to suggest that too many soldiers are dying of infectious disease. But
 this chart makes it look like soldiers are *only* dying of infectious disease,
 with a negligible number dying from causes more proximate to war. To achieve
-this effect, Nightingale mobilizes two “tricks” of the visualization trade,
-using two dimensions to represent a one-dimensional variable, and then using a
-rate to 
-
+this effect, Nightingale mobilizes an ancient “trick” of the visualization trade,
+using two dimensions to represent a one-dimensional variable.
 <div id="stackedbar-div"></div>
 
+When the “batwings” are converted to a more familiar visualization, that of
+the stacked bar chart, it’s still clear that soldiers are dying mostly of
+zymotic diseases. However, the role of the other two causes of death is not as
+obliterated as in the batwings. The reason is clear: the *area* of the purple
+rectangles is proportionate to how much larger the mortality rate is to that
+of the other two causes. Though I rely on a second dimension to give the bars
+width, every variable enjoys the same, constant width, meaning the areas
+remain proportional. We can assume each bar is one unit wide and *n* units
+tall, meaning the only important value is the height, as the width cancels out
+in multiplying area.
+
+It’s important to put “trick” in scare quotes, because though Nightingale
+would improve on the batwings to create the polar area chart or “rose”
+visualization, which does not visually distort the data, it remains the case
+that Nightingale wanted to use the data, in its visual forms, to not just tell
+a story, but, rather, *make an argument*.
+
 <div id="rose-div"></div>
+
+Nightingale comes back a few years later and “corrects” the batwing diagrams
+with the diagrams above, now known as a polar area chart or Nightingale rose.
+This is more “correct” in that the one-dimensional variable of mortality rate
+is reproduced as the single variable of area, meaning that the wedges are
+appropriately proportionate to each other. However, unlike with the stacked
+bar chart, here area is measured from the center, meaning part of many of the
+purple wedges is covered up by orange and green. So while, still, zymotic
+disease remains a runaway killer, now it’s, oddly, underrepresented.
+
 
 
 [^cohen]: I. Bernard Cohen, “Florence Nightingale,” _Scientific American_ 250 (1984), 131. Most of my retelling of the Nightingale story is based on Cohen’s account.
