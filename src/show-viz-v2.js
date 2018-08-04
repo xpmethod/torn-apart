@@ -1,6 +1,5 @@
 import $ from "jquery";
 import updateTexts from "./update-texts";
-import contracts from "./contracts";
 import districts from "./districts";
 import beds from "./beds";
 import explorer from "./explorer";
@@ -27,10 +26,6 @@ export default function (viz, map){
     break;
   case "explorer":
     explorer(map);
-    updateTexts();
-    break;
-  case "contracts":
-    contracts(map);
     updateTexts();
     break;
   case "lines":
