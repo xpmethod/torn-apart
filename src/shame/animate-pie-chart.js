@@ -26,8 +26,8 @@ export default function(){
     select("#text-container")	
       .remove("text");
 	
-    //I create a new <text></text> element inside the #gender-text-svg svg. It is empty.
-    var textContainer = select("#gender-text-svg");
+    //I create a new <text></text> element inside the #legend-text-svg svg. It is empty.
+    var textContainer = select("#legend-text-svg");
     const textsvg = textContainer
       .selectAll("text")
       .data(labelData)	//I don't know why I need this line when I have no data I'm binding this to, but without it (or with .data() no <text></text> shows up)
@@ -63,7 +63,7 @@ export default function(){
     select("#text-container")	
       .remove("text");
  
-    //this sets the state to 'unclicked' so if you take this out it will never let you select anything else, dummy.
+    //this sets the state to 'unclicked' again.
     selectAll(".clicked")
       .classed("clicked", false);
 

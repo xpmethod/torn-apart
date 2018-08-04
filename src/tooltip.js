@@ -21,7 +21,7 @@ export function handleMouseOver(d){
         return event.pageY + "px";
       }
     })
-    .transition().delay(750).duration(500)
+  // .transition().delay(0).duration(0)
     .style("opacity", 1);
 }
 
