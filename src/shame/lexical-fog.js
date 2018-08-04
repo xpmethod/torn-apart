@@ -11,9 +11,9 @@ export default function(chart){
   if (select("#lexical-fog-svg").selectAll("text").empty())
   {
     const width = chart.width;
-   // const height = chart.height;
-   const height = fillV2DivHeight("#shame-header");
-
+    // const height = chart.height;
+    const height = fillV2DivHeight("#wall-of-shame-header");
+	console.log($("#v2-div").height());
    
     select("#lexical-fog-svg")
       .attr("class", "wordcloud")
