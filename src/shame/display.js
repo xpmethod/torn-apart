@@ -1,5 +1,4 @@
 import { green, orange, purple, pink, lime, beige, tan } from "../constants";
-import { selection} from "d3-selection";
 import $ from "jquery";
 import initChart from "../charts/init";
 import buildPieChart from "./pie-chart";
@@ -10,11 +9,11 @@ export default function() {
 
   // this method is supposed to allow me to move d3 layers to the front. Not
   // sure it's working.
- // selection.prototype.moveToFront = function() {  
- //   return this.each(function(){
- //     this.parentNode.appendChild(this);
- //   });
- // };
+  // selection.prototype.moveToFront = function() {  
+  //   return this.each(function(){
+  //     this.parentNode.appendChild(this);
+  //   });
+  // };
 
   
   // Set some constants.
@@ -28,7 +27,7 @@ export default function() {
   const svgWidth = $("#pie-chart-div").width();
   // Or what if we want something to be a third of the container wide?
   const thirdWidth = Math.floor(svgWidth / 3.5);
- //radius is thirdWidth/2 - defined in pie-chart.js
+  //radius is thirdWidth/2 - defined in pie-chart.js
 
  
   // Create the "dataObjects."
