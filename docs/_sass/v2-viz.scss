@@ -12,7 +12,7 @@
 
 #v2-div {
   position: absolute;
-  overflow-y: auto; 
+  overflow-y: auto;
   top: 9rem;
   left: 1rem;
   height: calc(100vh - 3rem - 8rem - 3rem);
@@ -52,7 +52,7 @@
   }
 
   text {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   text.label {
@@ -110,7 +110,7 @@
       border-radius: 4px;
       font-size: 12px;
     }
- 
+
     /* Creates a small triangle extender for the tooltip */
     .d3-tip:after {
       box-sizing: border-box;
@@ -123,18 +123,12 @@
       position: absolute;
       text-align: center;
     }
- 
+
     /* Style northward tooltips specifically */
     .d3-tip.n:after {
       margin: -2px 0 0 0;
       top: 100%;
       left: 0;
     }
-    
-// Roopsi style 
 
-
-
-
-
-
+// Roopsi style

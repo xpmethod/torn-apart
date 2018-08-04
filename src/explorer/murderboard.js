@@ -10,6 +10,7 @@ import explorerMurderboardSidebar from "./murderboard-sidebar";
 
 
 export default function(){
+
   const width = $("#explorer-div").width();
   const height = fillV2DivHeight("#explorer-headers");
   const theZoom = zoom()
@@ -37,7 +38,7 @@ export default function(){
     .force("link", forceLink().id( d => d.name ))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
-    .force("center", forceCenter(width / 4, height / 4))
+    .force("center", forceCenter(width / 0.2, height / 0.2))
     .force("x", forceX(forces.x))
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
