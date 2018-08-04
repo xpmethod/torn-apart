@@ -4,6 +4,7 @@ import $ from "jquery";
 import initChart from "../charts/init";
 import buildPieChart from "./pie-chart";
 import buildLexicalFog from "./lexical-fog";
+import {fillV2DivHeight } from "../utils";
 
 export default function() {
 
@@ -18,20 +19,22 @@ export default function() {
   
   // Set some constants.
   //const margins = {top: 10, bottom: 32, left: 32, right: rem};
-  // Each chart will be 200px high. This seemed right for mobile
-  const svgHeight = 200;
+
+  const svgHeight = fillV2DivHeight("#legend-div");
+
   // The width is calculated on the fly by measuring how wide this div is.
   // it only catches this width because it is already showing the div.
   const svgWidth = $("#pie-chart-div").width();
   // Or what if we want something to be a third of the container wide?
-  const thirdWidth = Math.floor(svgWidth * 2 / 3);
+  const thirdWidth = Math.floor(svgWidth / 3.5);
+ 
 
   // Create the "dataObjects."
   // These create a new object for each visualization with certain expected
   // properties, like an id, an array that will hold the data, etc.
   
   const lexicalFog = {data: [ ], margins: { top: 0, bottom: 0, left: 0, right: 0},
-    id: "#lexical-fog-svg", svgWidth: svgWidth 
+    id: "#lexical-fog-svg", svgWidth: svgWidth
   };
   
   const gender = { data: [
@@ -40,7 +43,7 @@ export default function() {
     {group: "NON-FEM", taName: "non-female", count: 940, color: green}
   ], 
   margins: { top: 0, bottom: 0, left: 0, right: 0},
-  id: "#gender-svg", number: "count", svgWidth: thirdWidth 
+  id: "#gender-svg", number: "count", svgWidth: thirdWidth
   };
   
   const ethnicity = {data: [
@@ -72,6 +75,8 @@ export default function() {
 
   // now build a pie chart for the three pie charts
   [gender, ethnicity, intersectionality].forEach(chart => buildPieChart(chart)); 
+  
+
 
 
 }

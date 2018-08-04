@@ -1,12 +1,16 @@
 import $ from "jquery";
 import { pie, arc } from "d3-shape";
 import animatePieChart from "./animate-pie-chart";
+import {fillV2DivHeight } from "../utils";
 
 export default function(chart){
   // Set the radius for the pie charts.
-  const radius = Math.min(chart.width, chart.height)/2;
+  console.log(chart.width);
+  console.log(fillV2DivHeight("#legend-div"));
+  const radius = Math.min(chart.width, fillV2DivHeight("#legend-div"))/2;
   // g is set in ./charts/init. It is a <g> SVG group.
-  chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${$(chart.id).width() / 2},${chart.height / 2})`);
+  console.log("radius: " , radius);
+  chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${$(chart.id).width() / 2},${fillV2DivHeight("#legend-div") / 2})`);
   // Create d3's pie thing.
   const thePie = pie()
     .sort(null)
