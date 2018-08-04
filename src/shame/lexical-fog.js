@@ -1,4 +1,4 @@
-import Data from "../../data/tempWordCloudData.csv";
+import Data from "./wordCloudData.csv";
 import { select } from "d3-selection";
 import * as cloud from "d3-cloud";
 import draw from "./draw-words";
