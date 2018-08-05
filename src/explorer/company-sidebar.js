@@ -4,5 +4,6 @@
 export default function(d){
   //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
   //console.log(parentCompany);
-  return `<h2>you clicked on a company named ${d.name}! parent: ${d.awards[0].category}</h2>`;
+  //console.log(d);
+  return `<p><h4>Subsidiary||Parent:<br> <br>${d.name}</h4> ${d.awards[0].recipient_city} <br> test: `;
 }

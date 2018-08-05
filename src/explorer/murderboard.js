@@ -35,7 +35,7 @@ export default function(){
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.name ))
+    .force("link", forceLink().id( d => d.id ))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 0.2, height / 0.2))
@@ -87,7 +87,7 @@ export default function(){
       .on("end", dragended));
 
   node.append("title")
-    .text( d => d.name );
+    .text( d => d.id );
 
   simulation
     .nodes(graph.nodes)

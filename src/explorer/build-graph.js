@@ -77,12 +77,20 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
     }); // close the each on products_uniq
 
     graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
-    graph.nodes = _.uniqBy(graph.nodes, "id");
+    graph.nodes = _(graph.nodes).uniqBy("id").filter(node => node.name !== node.childOf);
 
     _(graph.nodes.filter(node => node.category === "parent company"))
       .each(parentCompany => {
         parentCompany.awards = awards.filter(award => award.parent_name === parentCompany.name);
         parentCompany.total_value = parentCompany.awards.reduce( (sum, award) => {
+          return sum + _.toInteger(award.current_total_value);
+        }, 0);
+      });
+
+    _(graph.nodes.filter(node => node.category === "company"))
+      .each(company => {
+        company.awards = awards.filter(award => award.recipient_name === company.name);
+        company.total_value = company.awards.reduce( (sum, award) => {
           return sum + _.toInteger(award.current_total_value);
         }, 0);
       });
