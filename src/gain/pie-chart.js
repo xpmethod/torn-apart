@@ -4,7 +4,7 @@ import animatePieChart from "./animate-pie-chart";
 
 export default function(chart){
   // Set the radius for the pie charts.
-  const radius = Math.min(chart.width, chart.height)/2;
+  const radius = chart.width/2;
   // g is set in ./charts/init. It is a <g> SVG group.
   chart.g.attr("id", `${chart.number}-g`).attr("transform", `translate(${$(chart.id).width() / 2},${chart.height / 2})`);
   // Create d3's pie thing.

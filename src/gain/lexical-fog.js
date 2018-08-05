@@ -1,19 +1,14 @@
-
-import Data from "../../data/tempWordCloudData.csv";
+import Data from "./wordCloudData.csv";
 import { select } from "d3-selection";
 import * as cloud from "d3-cloud";
 import draw from "./draw-words";
-
+import { fillV2DivHeight } from "../utils";
 
 export default function(chart){
 
-
-  if (select("#lexical-fog-svg").selectAll("text").empty())
-  {
+  if (select("#lexical-fog-svg").selectAll("text").empty()){
     const width = chart.width;
-    const height = chart.height;
-
-   
+    const height = fillV2DivHeight("#wall-of-gain-header");
     select("#lexical-fog-svg")
       .attr("class", "wordcloud")
       .append("g")
@@ -74,4 +69,5 @@ export default function(chart){
   //   .attr("id","cloud_tooltip")
   //   .attr("position","absolute");
   }
+
 }

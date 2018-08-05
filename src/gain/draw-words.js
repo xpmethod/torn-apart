@@ -1,5 +1,5 @@
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
-import slug from "slug";
+import slugify from "slugify";
 import { select } from "d3-selection";
 import {green, orange, purple, pink} from "../constants";
 import { format } from "d3-format";
@@ -25,17 +25,24 @@ export default function(words) {
       return d.name;
     })
     .each(d => {
-      d.id = `${slug(d.name)}`;
-      d.tooltip = `<strong>${format("$,.0f")(Math.ceil(d.total_value))}`; //we don't also want categories here?
+      d.id = `${slugify(d.name)}`;
+      
+      if (d.name === "CCA") {
+        d.tooltip = `${d.name} (CoreCivic, formerly known as Corrections Corporation of America):
+        <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? "years" : "year"}`;
+      } else {
+        d.tooltip = `${d.name}:
+        <strong>${format("$,.0f")(Math.ceil(d.total_value))}</strong> for <strong>${d.product}</strong> over <strong>${d.years}</strong> ${d.years > 1 ? "years" : "year"}`;
+      }
       d.mouseOver = () => {
-        select(`#text-${d.id}`);
+        select(`#text-${d.id}`).style("opacity",0.7);
       };
       d.mouseOut = () => {
-        select(`#text-${d.id}`);
+        select(`#text-${d.id}`).style("opacity",1);
       };
     })
     .attr("id", d => `text-${d.id}`)
     .on("mouseover", handleMouseOver) //call the mouse-over handler
     .on("mouseout", handleMouseOut); //call the mouse-out handler
-
+	
 }
