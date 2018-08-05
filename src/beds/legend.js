@@ -1,42 +1,43 @@
 import $ from "jquery";
 import { moveLegend } from "../utils";
 import updateTexts from "../update-texts";
+import { purple } from "../constants";
 
 export default function(){
   $("#legend").show().html(`<div class="px-3 py-2">
     <div class="d-flex justify-content-between">
       <div class="legend-svg-div">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.2"/>
+          <rect height="20" width="20" style="fill:purple" class="legend-polygon districts-polygon" opacity="0.4"/>
         </svg>
-        $11–$20
+        $70–$99
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.4" />
+          <rect height="20" width="20" style="fill:purple" class="legend-polygon districts-polygon" opacity="0.5" />
         </svg>
-        $21–$30
+        $100–$120
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.6" />
+          <rect height="20" width="20" style="fill:purple" class="legend-polygon districts-polygon" opacity="0.7" />
         </svg>
-        $31–$40
+        $121–$139
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.8" />
+          <rect height="20" width="20" style="fill:purple" class="legend-polygon districts-polygon" opacity="0.9" />
         </svg>
-        $41–$50
+        $140–$160
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="1" />
+          <rect height="20" width="20" style="fill:purple" class="legend-polygon districts-polygon" opacity="1" />
         </svg>
-        $51–$60
+        $160–$180
       </div>
     </div>
-    <span data-i18n="ta-v2-beds-legend" class="markdownify"></span>
+    <span data-i18n="ta-v2-beds-legend" style="fill:purple" class="markdownify"></span>
     <div id="lines-slider"></div>
   </div>`);
   updateTexts();
@@ -45,5 +46,3 @@ export default function(){
   $(".legend-svg").attr("width", divWidth);
   $(".legend-polygon").attr("width", divWidth);
 }
-
-
