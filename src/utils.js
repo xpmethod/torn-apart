@@ -1,6 +1,7 @@
 import $ from "jquery";
 import L from "leaflet";
 import _ from "lodash";
+import slugify from "slugify";
 import { rem } from "./constants";
 
 export function moveLegend() {
@@ -59,6 +60,16 @@ export function mapZoomDisable(map) {
   map.keyboard.disable();
   if (map.tap) map.tap.disable();
   $(map).css("cursor", "default");  
+}
+
+export function slug(string) {
+  return slugify(
+    _.chain(string)
+      .toLower()
+      .words()
+      .value()
+      .join("-")
+  );
 }
 
 export function getOrdinal(n) {
