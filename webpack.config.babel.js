@@ -11,6 +11,7 @@ export default {
   context,
   entry: {
     i18n: "./i18n.js",
+    allies: "./allies.js",
     texturesV1: "./textures-v1.js",
     visualizationsV1: "./visualizations-v1.js",
     indexV1: "./index-v1.js",
