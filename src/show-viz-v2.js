@@ -1,12 +1,11 @@
 import $ from "jquery";
 import updateTexts from "./update-texts";
-import contracts from "./contracts";
 import districts from "./districts";
 import beds from "./beds";
 import explorer from "./explorer";
 import rain from "./rain";
 import lines from "./lines";
-import shame from "./shame";
+import gain from "./gain";
 import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
@@ -17,8 +16,8 @@ export default function (viz, map){
   $(".viz-hide").hide(); // hide all the vizualizations.
   $("#tooltip").css("opacity", 0); // hide the tooltip.
   switch (viz) {
-  case "shame":
-    shame(map);
+  case "gain":
+    gain(map);
     updateTexts();
     break;
   case "rain":
@@ -27,10 +26,6 @@ export default function (viz, map){
     break;
   case "explorer":
     explorer(map);
-    updateTexts();
-    break;
-  case "contracts":
-    contracts(map);
     updateTexts();
     break;
   case "lines":

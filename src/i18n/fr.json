@@ -13,12 +13,15 @@
   "ta-charts": "Les graphiques",
   "ta-orr": "ORR",
   "ta-districts": "Districts",
-  "ta-shame": "Shame",
+  "ta-gain": "Gain",
   "ta-contracts": "Contracts",
   "ta-explorer": "Explorer",
   "ta-rain": "Galaxy",
   "ta-lines": "Lines",
   "ta-beds": "Beds",
+  "ta-international": "Internationaux",
+  "ta-united-states": "Etats Unis",
+  "ta-mexico": "Méxique",
   "ta-v1-adp": "ADP",
   "ta-v1-facilities": "Les installations",
   "ta-v1-bookins": "Taux",
@@ -60,7 +63,7 @@
   "ta-v1-owned-or-operated-by": "Détenu ou exploité par :",
   "ta-v1-banned-legend": "The population of this ephemeral, blackened country of closed borders is about _N%_ of that of the excluded majority Muslim population banned from entering the US by [Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).",
   "ta-v1-drafting-borders": "Drafting borders…",
-  "ta-v2-shame-title": "I am the shame viz.",
+  "ta-v2-gain-title": "I am the gain viz.",
   "ta-v2-contracts-title": "I am the contracts viz.",
   "ta-v2-explorer-title": "I am the explorer viz.",
   "ta-v2-rain-title": "I am the rain viz.",
@@ -69,7 +72,7 @@
   "ta-v2-person-removed": "person removed in",
   "ta-v2-districts-legend": "Districts legend",
   "ta-v2-beds-legend": "Beds legend", 
-   "ta-v2-name-and-shame": "Wall of shame",
+   "ta-v2-name-and-gain": "Wall of gain",
 	"ta-v2-equal-opportunities": "Equal opportunity oppression",
 	"ta-v2-gender-pie-chart": "Gender",
 	"ta-v2-female": "Woman-owned business",
@@ -84,8 +87,11 @@
 	"ta-v2-intersectionality-pie-chart": "Intersectionality",
 	"ta-v2-intersectional": "Business owned by a woman of color",
 	"ta-v2-non-intersectional": "Business owned by a person from other marginalized category",
-	"ta-v2-piechart-description": "These pie charts show the percentages of award recipients who self-identify as belonging to various marginalized categories. In the case of the Ethnicity and the Intersectionality pie chart, the total pie represents all people who identified as part of any of the marginalized categories, not all award recipients in general. For the gender chart, the total pie represents all award recipients. The category labels here in most cases are those used in the award documents."
-
-
+	"ta-v2-piechart-description": "These pie charts show the percentages of award recipients who self-identify as belonging to various marginalized categories. In the case of the Ethnicity and the Intersectionality pie chart, the total pie represents all people who identified as part of any of the marginalized categories, not all award recipients in general. For the gender chart, the total pie represents all award recipients. The category labels here in most cases are those used in the award documents.",
+  "ta-allies-legend-entry": "Allied organizations",
+  "ta-allies-button": "Show allies directory",
+  "ta-allies-supp-text": "Supplemental text related to allies",
+  "ta-allies-curated-list": "The list below was curated by our research team and is by no means exhaustive.",
+  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory"
 }
 

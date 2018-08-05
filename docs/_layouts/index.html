@@ -77,7 +77,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header d-flex">
-        <h2 class="mr-auto">{{ page.modalTitle }}</h2>
+        <h2 id="modal-title" class="mr-auto">{{ page.modalTitle }}</h2>
         <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">
           <span class="locale-toggle-text locale-toggle-en">EN</span> | 
           <span class="locale-toggle-text locale-toggle-es">ES</span> | 
@@ -87,7 +87,7 @@
           &times;
         </button>
       </div>
-      <div class="modal-body">
+      <div id="modal-content" class="modal-body">
          {{ content }}
       </div>
     </div>
