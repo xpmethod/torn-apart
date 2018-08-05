@@ -32,7 +32,7 @@ Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fern�
 * [Roopika Risam](http://roopikarisam.com/) is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018). She is a member of xpMethod.
 
 ### Contributors
-[Nicole M. Guidotti-Hernández](https://twitter.com/DrNMGH), [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra), [Gaiutra Bahadur](https://twitter.com/gbahadur)
+[Gaiutra Bahadur](https://twitter.com/gbahadur), [Maria Sachiko Cecire](https://twitter.com/mscecire), [Cole D Crawford](https://twitter.com/runcolerun),  [Nicole M. Guidotti-Hernández](https://twitter.com/DrNMGH), [Anna Kijas](https://twitter.com/anna_kijas), [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra), [Erik Simpson](https://twitter.com/ErikTheSimpson), [Bharat Jayram Venkat](https://twitter.com/bhar_venkat)
 
 <br>
 
@@ -55,7 +55,7 @@ Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fern�
 
 ### Contributors
 
-Alex Ahmed, Hannah Alper-Abrams, Gabriela Baeza, Gaiutra Bahadur, Christina Bell, Christina Boyles, Isis Campos, Emily Esten, Noreen Farooqui, Alex Galarza, Lorena Gauthereau, Erin Glass, Tassie Gniadi, Elizabeth Grumbach, Juliet Louise Hardesty, Tonya Haynes, Kathi Inman Berens, Patrick Juola, Purdom Lindblad, Brandon Locke, Kathryn McDonald, Kristen Mapes, Vinicius Marquet, Jodi Mikesell, Chelsea Miya, Gregory Palermo, Dimitris Papadopoulos, Andrew Petersen, Brian Rosenblum, Danica Savonick, Angelika Strohmayer, Zachariah Stern, Megan Senseney, Lisa Tagliaferri, Paola Verhaert, Carolina Villarroel, Jacqueline Wernimont, Vika Zafrin, Annette Zapata
+[Alex Ahmed](https://twitter.com/WomensFormula), [Hannah Alpert-Abrams](https://twitter.com/hralperta), [Gabriela Baeza Ventura](https://twitter.com/gbaezaventura), [Gaiutra Bahadur](https://twitter.com/gbahadur), [Christina Bell](https://twitter.com/librarybell), [Christina Boyles](https://twitter.com/clboyles), [Isis Campos](https://twitter.com/IsisReneeCampos), [Emily Esten](https://twitter.com/sheishistoric), [Noreen Farooqui](https://twitter.com/NoreenFarooqui), [Alex Galarza](https://twitter.com/galarzaalex), [Lorena Gauthereau](https://twitter.com/LGauth19), [Erin Glass](https://twitter.com/erinroseglass), [Tassie Gniadi](https://twitter.com/tassietheg), [Elizabeth Grumbach], Juliet Louise Hardesty, Tonya Haynes, Kathi Inman Berens, Patrick Juola, Purdom Lindblad, Brandon Locke, Kathryn McDonald, Kristen Mapes, Vinicius Marquet, Jodi Mikesell, Chelsea Miya, Gregory Palermo, Dimitris Papadopoulos, Andrew Petersen, Rubria Rocha, Brian Rosenblum, Danica Savonick, Megan Senseney, Juan Steyn,  Zachariah Stern, Angelika Strohmayer, Lisa Tagliaferri, Paola Verhaert, Carolina Villarroel, Jacqueline Wernimont, Vika Zafrin, Annette Zapata 
 
 
 
