@@ -24,6 +24,6 @@ export default function(ally){
       @${ally.twitter.match(/\w*$/)[0]}${externalLinkHTML}</a>`);
 
   }
-  return `<div class="ally-entry"><h4>${name}</h4>
+  return `<div class="mb-2 ally-entry"><h4>${name}</h4>
     ${lines.join("<br />")}</div>`;
 }

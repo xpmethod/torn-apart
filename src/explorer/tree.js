@@ -47,7 +47,7 @@ export default function(){
   };
 
   // check Retail. It should have "Tools" and "Books"
-  console.log(theData);
+  // console.log(theData);
 
   const root = hierarchy(theData)
     .eachBefore(d =>  d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name)
