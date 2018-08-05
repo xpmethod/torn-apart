@@ -12,7 +12,7 @@
   box-shadow: 0 0 0 0.2rem rgba(58, 146, 118, .5);
 }
 
-.btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:not(:disabled):not(.disabled).active {
   background-color: $midgreen;
   border-color: $darkgreen;
 }
@@ -28,3 +28,17 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
+.btn-secondary {
+  background-color: $purple;
+  border-color: $purple;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+  background-color: $midpurple;
+  border-color: $darkpurple;
+}
+
+.btn-secondary:hover {
+  background-color: $darkpurple;
+  border-color: $darkpurple;
+}
