@@ -4,7 +4,8 @@
 export default function(d){
   //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
   //console.log(parentCompany);
-  return `<h4><br><b>${d.name}</h4></font>
-   <font size="2"><br>
-   `;
+  return `<p><h4><b>Parent Company:</b>
+  <br><br>${d.name}
+  <br><br><b>Total value of awards:</b>
+  <br>$${d.total_value}</h4>`;
 }
