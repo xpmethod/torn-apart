@@ -5,7 +5,7 @@ import beds from "./beds";
 import explorer from "./explorer";
 import rain from "./rain";
 import lines from "./lines";
-import shame from "./shame";
+import gain from "./gain";
 import clearIntervals from "./clear-intervals";
 import { mapZoomDisable } from "./utils";
 
@@ -16,8 +16,8 @@ export default function (viz, map){
   $(".viz-hide").hide(); // hide all the vizualizations.
   $("#tooltip").css("opacity", 0); // hide the tooltip.
   switch (viz) {
-  case "shame":
-    shame(map);
+  case "gain":
+    gain(map);
     updateTexts();
     break;
   case "rain":
