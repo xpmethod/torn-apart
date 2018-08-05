@@ -9,23 +9,24 @@ import { fillV2DivHeight } from "../utils";
 import explorerMurderboardSidebar from "./murderboard-sidebar";
 
 
-export default function(){  
+export default function(){
+
   const width = $("#explorer-div").width();
   const height = fillV2DivHeight("#explorer-headers");
   const theZoom = zoom()
     .scaleExtent([0.1, Infinity])
-    .on("zoom", zoomed); 
+    .on("zoom", zoomed);
 
   const svg = select("#explorer-svg")
     .attr("width", width)
     .attr("height", height)
     .call(theZoom)
     .append("g")
-    .attr("id", "topG");  
+    .attr("id", "topG");
   //sets initial zoom level
-  theZoom.scaleTo(select("svg"),-10);  
+  theZoom.scaleTo(select("svg"),-10);
 
-  window.onwheel = function(){return false;};  
+  window.onwheel = function(){return false;};
 
   const forces = {
     charge: -4500,
@@ -37,10 +38,10 @@ export default function(){
     .force("link", forceLink().id( d => d.name ))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
-    .force("center", forceCenter(width / 4, height / 4)) 
+    .force("center", forceCenter(width / 0.2, height / 0.2))
     .force("x", forceX(forces.x))
     .force("y", forceY(forces.y))
-    .alphaDecay(forces.alphaDecay); 
+    .alphaDecay(forces.alphaDecay);
 
   const link = svg.append("g")
     .attr("class", "links")
@@ -71,61 +72,61 @@ export default function(){
         break;
       case "parent company":
         d.color = pink;
-        d.side = 40; 
+        d.side = 40;
         break;
-      } 
+      }
     })
     .attr("width", d => d.side)
     .attr("height", d => d.side)
     .style("fill", d => d.color)
     .on("click", explorerMurderboardSidebar)
-    .on("mousedown", () => event.stopPropagation )        
+    .on("mousedown", () => event.stopPropagation )
     .call(drag()
       .on("start", dragstarted)
       .on("drag", dragged)
-      .on("end", dragended));  
+      .on("end", dragended));
 
   node.append("title")
     .text( d => d.name );
 
   simulation
     .nodes(graph.nodes)
-    .on("tick", ticked);  
+    .on("tick", ticked);
 
   simulation.force("link")
-    .links(graph.links);  
+    .links(graph.links);
 
- 
+
   function ticked() {
     link
       .attr("x1", d => d.source.x )
       .attr("y1", d => d.source.y )
       .attr("x2", d => d.target.x )
-      .attr("y2", d => d.target.y );      
+      .attr("y2", d => d.target.y );
 
     node
       .attr("x", d => d.x )
-      .attr("y", d => d.y );      
-  } 
+      .attr("y", d => d.y );
+  }
 
-  //adds sticky dragging  
+  //adds sticky dragging
 
   function dragstarted(d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
-  }  
+  }
 
   function dragged(d) {
     d.fx = event.x;
     d.fy = event.y;
-  }  
+  }
 
   function dragended(d) {
     if (!event.active) simulation.alphaTarget(0);
     d.fx = d.x;
     d.fy = d.y;
-  }  
+  }
 
   function zoomed()
   {
@@ -134,4 +135,3 @@ export default function(){
   }
 
 }
-
