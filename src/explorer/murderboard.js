@@ -60,19 +60,19 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.side = 240;
+        d.side = 290;
         break;
       case "product":
         d.color = purple;
-        d.side = 160;
+        d.side = 210;
         break;
       case "company":
         d.color = orange;
-        d.side = 80;
+        d.side = 130;
         break;
       case "parent company":
         d.color = pink;
-        d.side = 40;
+        d.side = 90;
         break;
       }
     })
