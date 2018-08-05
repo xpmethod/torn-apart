@@ -4,10 +4,9 @@
 export default function(d){
   //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
   //console.log(parentCompany);
-  return `<p><h5>Product Category</h5> <br>
-   Type: ${d.name}
-   <p><h5>Full Product List</h5> <br>
-   <font size="1">Apparel & Leather <br>
+  return `<h4><br>${d.name}</h4>
+   <font size="2"><b>Full Product List</b></font> <br>
+   <font size="1em">Apparel & Leather <br>
    Carceral Services<br>
    Consulting<br>
    Financial<br>
