@@ -35,7 +35,7 @@ export default function(){
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.name ))
+    .force("link", forceLink().id( d => d.id ))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 0.2, height / 0.2))
@@ -60,19 +60,19 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.side = 240;
+        d.side = 290;
         break;
       case "product":
         d.color = purple;
-        d.side = 160;
+        d.side = 210;
         break;
       case "company":
         d.color = orange;
-        d.side = 80;
+        d.side = 130;
         break;
       case "parent company":
         d.color = pink;
-        d.side = 40;
+        d.side = 90;
         break;
       }
     })
@@ -87,7 +87,7 @@ export default function(){
       .on("end", dragended));
 
   node.append("title")
-    .text( d => d.name );
+    .text( d => d.id );
 
   simulation
     .nodes(graph.nodes)

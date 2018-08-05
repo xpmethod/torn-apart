@@ -87,6 +87,14 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
         }, 0);
       });
 
+    _(graph.nodes.filter(node => node.category === "company"))
+      .each(company => {
+        company.awards = awards.filter(award => award.recipient_name === company.name);
+        company.total_value = company.awards.reduce( (sum, award) => {
+          return sum + _.toInteger(award.current_total_value);
+        }, 0);
+      });
+
     //  _.each(companies_uniq, company => {
     //    _.each(graph.links.filter( link => link.source === company ), link => {
     //      const value = _.reduce(awards.filter(award => award.recipient_name === link.source && award.naics_description === link.target),
