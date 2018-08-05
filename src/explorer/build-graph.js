@@ -77,7 +77,7 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
     }); // close the each on products_uniq
 
     graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
-    graph.nodes = _.uniqBy(graph.nodes, "id");
+    graph.nodes = _(graph.nodes).uniqBy("id").filter(node => node.name !== node.childOf);
 
     _(graph.nodes.filter(node => node.category === "parent company"))
       .each(parentCompany => {

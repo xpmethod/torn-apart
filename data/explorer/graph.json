@@ -42404,12 +42404,6 @@
       "category": "company"
     },
     {
-      "id": "Global Precision Systems||Global Precision Systems",
-      "name": "Global Precision Systems",
-      "childOf": "Global Precision Systems",
-      "category": "company"
-    },
-    {
       "id": "KCorp Support Services||K'oyitl'ots'ina",
       "name": "KCorp Support Services",
       "childOf": "K'oyitl'ots'ina",
@@ -42419,18 +42413,6 @@
       "id": "Akima Global Services||Nana Regional",
       "name": "Akima Global Services",
       "childOf": "Nana Regional",
-      "category": "company"
-    },
-    {
-      "id": "Trailboss Enterprises||Trailboss Enterprises",
-      "name": "Trailboss Enterprises",
-      "childOf": "Trailboss Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Altec Industries||Altec Industries",
-      "name": "Altec Industries",
-      "childOf": "Altec Industries",
       "category": "company"
     },
     {
@@ -42446,21 +42428,9 @@
       "category": "company"
     },
     {
-      "id": "One Stop Environmental||One Stop Environmental",
-      "name": "One Stop Environmental",
-      "childOf": "One Stop Environmental",
-      "category": "company"
-    },
-    {
       "id": "FPMI Solutions||Paladin Capital",
       "name": "FPMI Solutions",
       "childOf": "Paladin Capital",
-      "category": "company"
-    },
-    {
-      "id": "Talton Communications||Talton Communications",
-      "name": "Talton Communications",
-      "childOf": "Talton Communications",
       "category": "company"
     },
     {
@@ -42476,177 +42446,9 @@
       "category": "company"
     },
     {
-      "id": "APL Access & Security||APL Access & Security",
-      "name": "APL Access & Security",
-      "childOf": "APL Access & Security",
-      "category": "company"
-    },
-    {
-      "id": "Arcos De Oro||Arcos De Oro",
-      "name": "Arcos De Oro",
-      "childOf": "Arcos De Oro",
-      "category": "company"
-    },
-    {
-      "id": "Asset Security Tracking Recovery||Asset Security Tracking Recovery",
-      "name": "Asset Security Tracking Recovery",
-      "childOf": "Asset Security Tracking Recovery",
-      "category": "company"
-    },
-    {
-      "id": "At Your Service Heating & Cooling||At Your Service Heating & Cooling",
-      "name": "At Your Service Heating & Cooling",
-      "childOf": "At Your Service Heating & Cooling",
-      "category": "company"
-    },
-    {
-      "id": "BAE Systems Aerospace & Defense||BAE Systems Aerospace & Defense",
-      "name": "BAE Systems Aerospace & Defense",
-      "childOf": "BAE Systems Aerospace & Defense",
-      "category": "company"
-    },
-    {
-      "id": "Bse Performance||Bse Performance",
-      "name": "Bse Performance",
-      "childOf": "Bse Performance",
-      "category": "company"
-    },
-    {
-      "id": "City of Mesa||City of Mesa",
-      "name": "City of Mesa",
-      "childOf": "City of Mesa",
-      "category": "company"
-    },
-    {
-      "id": "County of Pinal||County of Pinal",
-      "name": "County of Pinal",
-      "childOf": "County of Pinal",
-      "category": "company"
-    },
-    {
-      "id": "GPS Intelligence||GPS Intelligence",
-      "name": "GPS Intelligence",
-      "childOf": "GPS Intelligence",
-      "category": "company"
-    },
-    {
-      "id": "J P Industries||J P Industries",
-      "name": "J P Industries",
-      "childOf": "J P Industries",
-      "category": "company"
-    },
-    {
-      "id": "Justicetrax||Justicetrax",
-      "name": "Justicetrax",
-      "childOf": "Justicetrax",
-      "category": "company"
-    },
-    {
-      "id": "Millennium Health & Fitness||Millennium Health & Fitness",
-      "name": "Millennium Health & Fitness",
-      "childOf": "Millennium Health & Fitness",
-      "category": "company"
-    },
-    {
-      "id": "Ml Click Marketing||Ml Click Marketing",
-      "name": "Ml Click Marketing",
-      "childOf": "Ml Click Marketing",
-      "category": "company"
-    },
-    {
-      "id": "National Law Enforcement Telecommunications Systems||National Law Enforcement Telecommunications Systems",
-      "name": "National Law Enforcement Telecommunications Systems",
-      "childOf": "National Law Enforcement Telecommunications Systems",
-      "category": "company"
-    },
-    {
-      "id": "Packet Forensics||Packet Forensics",
-      "name": "Packet Forensics",
-      "childOf": "Packet Forensics",
-      "category": "company"
-    },
-    {
-      "id": "Paul Palmer||Paul Palmer",
-      "name": "Paul Palmer",
-      "childOf": "Paul Palmer",
-      "category": "company"
-    },
-    {
-      "id": "Presenta Plaque||Presenta Plaque",
-      "name": "Presenta Plaque",
-      "childOf": "Presenta Plaque",
-      "category": "company"
-    },
-    {
-      "id": "Uniforms Manufacturing||Uniforms Manufacturing",
-      "name": "Uniforms Manufacturing",
-      "childOf": "Uniforms Manufacturing",
-      "category": "company"
-    },
-    {
       "id": "360 Total Concept Consulting||361 Total Concept Consulting",
       "name": "360 Total Concept Consulting",
       "childOf": "361 Total Concept Consulting",
-      "category": "company"
-    },
-    {
-      "id": "Aardvark||Aardvark",
-      "name": "Aardvark",
-      "childOf": "Aardvark",
-      "category": "company"
-    },
-    {
-      "id": "Ace Parking Management||Ace Parking Management",
-      "name": "Ace Parking Management",
-      "childOf": "Ace Parking Management",
-      "category": "company"
-    },
-    {
-      "id": "Adaptive Digital Systems||Adaptive Digital Systems",
-      "name": "Adaptive Digital Systems",
-      "childOf": "Adaptive Digital Systems",
-      "category": "company"
-    },
-    {
-      "id": "Aero Mobility||Aero Mobility",
-      "name": "Aero Mobility",
-      "childOf": "Aero Mobility",
-      "category": "company"
-    },
-    {
-      "id": "AF&S Products & Services||AF&S Products & Services",
-      "name": "AF&S Products & Services",
-      "childOf": "AF&S Products & Services",
-      "category": "company"
-    },
-    {
-      "id": "Allied Modular Building Systems||Allied Modular Building Systems",
-      "name": "Allied Modular Building Systems",
-      "childOf": "Allied Modular Building Systems",
-      "category": "company"
-    },
-    {
-      "id": "Amron International Diving Supply||Amron International Diving Supply",
-      "name": "Amron International Diving Supply",
-      "childOf": "Amron International Diving Supply",
-      "category": "company"
-    },
-    {
-      "id": "Anacapa Micro Products||Anacapa Micro Products",
-      "name": "Anacapa Micro Products",
-      "childOf": "Anacapa Micro Products",
-      "category": "company"
-    },
-    {
-      "id": "Angeles Shooting Ranges||Angeles Shooting Ranges",
-      "name": "Angeles Shooting Ranges",
-      "childOf": "Angeles Shooting Ranges",
-      "category": "company"
-    },
-    {
-      "id": "Annams Systems||Annams Systems",
-      "name": "Annams Systems",
-      "childOf": "Annams Systems",
       "category": "company"
     },
     {
@@ -42656,255 +42458,9 @@
       "category": "company"
     },
     {
-      "id": "Astrophysics||Astrophysics",
-      "name": "Astrophysics",
-      "childOf": "Astrophysics",
-      "category": "company"
-    },
-    {
-      "id": "Atkinson-Baker||Atkinson-Baker",
-      "name": "Atkinson-Baker",
-      "childOf": "Atkinson-Baker",
-      "category": "company"
-    },
-    {
-      "id": "Black Gold||Black Gold",
-      "name": "Black Gold",
-      "childOf": "Black Gold",
-      "category": "company"
-    },
-    {
-      "id": "Blackstone Technology||Blackstone Technology",
-      "name": "Blackstone Technology",
-      "childOf": "Blackstone Technology",
-      "category": "company"
-    },
-    {
-      "id": "Blue Tech||Blue Tech",
-      "name": "Blue Tech",
-      "childOf": "Blue Tech",
-      "category": "company"
-    },
-    {
-      "id": "Boss Innovation & Marketing||Boss Innovation & Marketing",
-      "name": "Boss Innovation & Marketing",
-      "childOf": "Boss Innovation & Marketing",
-      "category": "company"
-    },
-    {
-      "id": "Branded Global Partners||Branded Global Partners",
-      "name": "Branded Global Partners",
-      "childOf": "Branded Global Partners",
-      "category": "company"
-    },
-    {
-      "id": "California Highway Patrolman's Club||California Highway Patrolman's Club",
-      "name": "California Highway Patrolman's Club",
-      "childOf": "California Highway Patrolman's Club",
-      "category": "company"
-    },
-    {
-      "id": "Capitol Digital Document Solutions||Capitol Digital Document Solutions",
-      "name": "Capitol Digital Document Solutions",
-      "childOf": "Capitol Digital Document Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Chainalysis||Chainalysis",
-      "name": "Chainalysis",
-      "childOf": "Chainalysis",
-      "category": "company"
-    },
-    {
-      "id": "City of Colma||City of Colma",
-      "name": "City of Colma",
-      "childOf": "City of Colma",
-      "category": "company"
-    },
-    {
-      "id": "City of Long Beach||City of Long Beach",
-      "name": "City of Long Beach",
-      "childOf": "City of Long Beach",
-      "category": "company"
-    },
-    {
-      "id": "Cleatech||Cleatech",
-      "name": "Cleatech",
-      "childOf": "Cleatech",
-      "category": "company"
-    },
-    {
       "id": "Hariom||Comfort Suites",
       "name": "Hariom",
       "childOf": "Comfort Suites",
-      "category": "company"
-    },
-    {
-      "id": "Component Sourcing||Component Sourcing",
-      "name": "Component Sourcing",
-      "childOf": "Component Sourcing",
-      "category": "company"
-    },
-    {
-      "id": "Coronado Distribution Company||Coronado Distribution Company",
-      "name": "Coronado Distribution Company",
-      "childOf": "Coronado Distribution Company",
-      "category": "company"
-    },
-    {
-      "id": "County of Kern||County of Kern",
-      "name": "County of Kern",
-      "childOf": "County of Kern",
-      "category": "company"
-    },
-    {
-      "id": "County of Orange||County of Orange",
-      "name": "County of Orange",
-      "childOf": "County of Orange",
-      "category": "company"
-    },
-    {
-      "id": "County of San Diego||County of San Diego",
-      "name": "County of San Diego",
-      "childOf": "County of San Diego",
-      "category": "company"
-    },
-    {
-      "id": "County of Santa Clara||County of Santa Clara",
-      "name": "County of Santa Clara",
-      "childOf": "County of Santa Clara",
-      "category": "company"
-    },
-    {
-      "id": "Crime Point||Crime Point",
-      "name": "Crime Point",
-      "childOf": "Crime Point",
-      "category": "company"
-    },
-    {
-      "id": "EMS Safety Services||EMS Safety Services",
-      "name": "EMS Safety Services",
-      "childOf": "EMS Safety Services",
-      "category": "company"
-    },
-    {
-      "id": "Enterprise Technology Solutions||Enterprise Technology Solutions",
-      "name": "Enterprise Technology Solutions",
-      "childOf": "Enterprise Technology Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Express Alliance Courier||Express Alliance Courier",
-      "name": "Express Alliance Courier",
-      "childOf": "Express Alliance Courier",
-      "category": "company"
-    },
-    {
-      "id": "Exxact||Exxact",
-      "name": "Exxact",
-      "childOf": "Exxact",
-      "category": "company"
-    },
-    {
-      "id": "Ferbak||Ferbak",
-      "name": "Ferbak",
-      "childOf": "Ferbak",
-      "category": "company"
-    },
-    {
-      "id": "Fleet Management Solutions||Fleet Management Solutions",
-      "name": "Fleet Management Solutions",
-      "childOf": "Fleet Management Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Folsom Shooting Club||Folsom Shooting Club",
-      "name": "Folsom Shooting Club",
-      "childOf": "Folsom Shooting Club",
-      "category": "company"
-    },
-    {
-      "id": "Franklin Young International||Franklin Young International",
-      "name": "Franklin Young International",
-      "childOf": "Franklin Young International",
-      "category": "company"
-    },
-    {
-      "id": "Future Fibre Technologies (US)||Future Fibre Technologies (US)",
-      "name": "Future Fibre Technologies (US)",
-      "childOf": "Future Fibre Technologies (US)",
-      "category": "company"
-    },
-    {
-      "id": "Global Data Center||Global Data Center",
-      "name": "Global Data Center",
-      "childOf": "Global Data Center",
-      "category": "company"
-    },
-    {
-      "id": "Good Source Solutions||Good Source Solutions",
-      "name": "Good Source Solutions",
-      "childOf": "Good Source Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Govplace||Govplace",
-      "name": "Govplace",
-      "childOf": "Govplace",
-      "category": "company"
-    },
-    {
-      "id": "Guidance Software||Guidance Software",
-      "name": "Guidance Software",
-      "childOf": "Guidance Software",
-      "category": "company"
-    },
-    {
-      "id": "Halo Group||Halo Group",
-      "name": "Halo Group",
-      "childOf": "Halo Group",
-      "category": "company"
-    },
-    {
-      "id": "Hanaps Enterprises||Hanaps Enterprises",
-      "name": "Hanaps Enterprises",
-      "childOf": "Hanaps Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Imperial County||Imperial County",
-      "name": "Imperial County",
-      "childOf": "Imperial County",
-      "category": "company"
-    },
-    {
-      "id": "Imperial Valley Rifle & Pistol Association||Imperial Valley Rifle & Pistol Association",
-      "name": "Imperial Valley Rifle & Pistol Association",
-      "childOf": "Imperial Valley Rifle & Pistol Association",
-      "category": "company"
-    },
-    {
-      "id": "International Television||International Television",
-      "name": "International Television",
-      "childOf": "International Television",
-      "category": "company"
-    },
-    {
-      "id": "Kusar Court Reporters & Legal Services||Kusar Court Reporters & Legal Services",
-      "name": "Kusar Court Reporters & Legal Services",
-      "childOf": "Kusar Court Reporters & Legal Services",
-      "category": "company"
-    },
-    {
-      "id": "LC Industries||LC Industries",
-      "name": "LC Industries",
-      "childOf": "LC Industries",
-      "category": "company"
-    },
-    {
-      "id": "MCP Computer Products||MCP Computer Products",
-      "name": "MCP Computer Products",
-      "childOf": "MCP Computer Products",
       "category": "company"
     },
     {
@@ -42914,39 +42470,9 @@
       "category": "company"
     },
     {
-      "id": "Montrose Air Quality Services||Montrose Air Quality Services",
-      "name": "Montrose Air Quality Services",
-      "childOf": "Montrose Air Quality Services",
-      "category": "company"
-    },
-    {
-      "id": "MotionDSP||MotionDSP",
-      "name": "MotionDSP",
-      "childOf": "MotionDSP",
-      "category": "company"
-    },
-    {
-      "id": "N. California Regional Public Safety Training Authority||N. California Regional Public Safety Training Authority",
-      "name": "N. California Regional Public Safety Training Authority",
-      "childOf": "N. California Regional Public Safety Training Authority",
-      "category": "company"
-    },
-    {
       "id": "Nc4 Public Sector||NC4",
       "name": "Nc4 Public Sector",
       "childOf": "NC4",
-      "category": "company"
-    },
-    {
-      "id": "New Life Chinese Laundry||New Life Chinese Laundry",
-      "name": "New Life Chinese Laundry",
-      "childOf": "New Life Chinese Laundry",
-      "category": "company"
-    },
-    {
-      "id": "New Tech Solutions||New Tech Solutions",
-      "name": "New Tech Solutions",
-      "childOf": "New Tech Solutions",
       "category": "company"
     },
     {
@@ -42956,117 +42482,9 @@
       "category": "company"
     },
     {
-      "id": "Pacific Lighting Management||Pacific Lighting Management",
-      "name": "Pacific Lighting Management",
-      "childOf": "Pacific Lighting Management",
-      "category": "company"
-    },
-    {
       "id": "Palantir USG||Palantir Technologies",
       "name": "Palantir USG",
       "childOf": "Palantir Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Palantir Technologies||Palantir Technologies",
-      "name": "Palantir Technologies",
-      "childOf": "Palantir Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Pat V. Mack||Pat V. Mack",
-      "name": "Pat V. Mack",
-      "childOf": "Pat V. Mack",
-      "category": "company"
-    },
-    {
-      "id": "Prado Family Shooting Range||Prado Family Shooting Range",
-      "name": "Prado Family Shooting Range",
-      "childOf": "Prado Family Shooting Range",
-      "category": "company"
-    },
-    {
-      "id": "Purple Communications||Purple Communications",
-      "name": "Purple Communications",
-      "childOf": "Purple Communications",
-      "category": "company"
-    },
-    {
-      "id": "Qualification Targets||Qualification Targets",
-      "name": "Qualification Targets",
-      "childOf": "Qualification Targets",
-      "category": "company"
-    },
-    {
-      "id": "Safari Books Online||Safari Books Online",
-      "name": "Safari Books Online",
-      "childOf": "Safari Books Online",
-      "category": "company"
-    },
-    {
-      "id": "Safe Restraints||Safe Restraints",
-      "name": "Safe Restraints",
-      "childOf": "Safe Restraints",
-      "category": "company"
-    },
-    {
-      "id": "San Diego Association of Governments||San Diego Association of Governments",
-      "name": "San Diego Association of Governments",
-      "childOf": "San Diego Association of Governments",
-      "category": "company"
-    },
-    {
-      "id": "San Diego Power||San Diego Power",
-      "name": "San Diego Power",
-      "childOf": "San Diego Power",
-      "category": "company"
-    },
-    {
-      "id": "Science Applications International||Science Applications International",
-      "name": "Science Applications International",
-      "childOf": "Science Applications International",
-      "category": "company"
-    },
-    {
-      "id": "Shore Solutions||Shore Solutions",
-      "name": "Shore Solutions",
-      "childOf": "Shore Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Simon Wiesenthal Center||Simon Wiesenthal Center",
-      "name": "Simon Wiesenthal Center",
-      "childOf": "Simon Wiesenthal Center",
-      "category": "company"
-    },
-    {
-      "id": "Spectrum Security Services||Spectrum Security Services",
-      "name": "Spectrum Security Services",
-      "childOf": "Spectrum Security Services",
-      "category": "company"
-    },
-    {
-      "id": "Spectrum Services||Spectrum Services",
-      "name": "Spectrum Services",
-      "childOf": "Spectrum Services",
-      "category": "company"
-    },
-    {
-      "id": "Sperry West||Sperry West",
-      "name": "Sperry West",
-      "childOf": "Sperry West",
-      "category": "company"
-    },
-    {
-      "id": "Stamps.com||Stamps.com",
-      "name": "Stamps.com",
-      "childOf": "Stamps.com",
-      "category": "company"
-    },
-    {
-      "id": "Susteen||Susteen",
-      "name": "Susteen",
-      "childOf": "Susteen",
       "category": "company"
     },
     {
@@ -43076,99 +42494,9 @@
       "category": "company"
     },
     {
-      "id": "Technical Communities||Technical Communities",
-      "name": "Technical Communities",
-      "childOf": "Technical Communities",
-      "category": "company"
-    },
-    {
-      "id": "Tecolote Research||Tecolote Research",
-      "name": "Tecolote Research",
-      "childOf": "Tecolote Research",
-      "category": "company"
-    },
-    {
-      "id": "Tenergy Corporation||Tenergy Corporation",
-      "name": "Tenergy Corporation",
-      "childOf": "Tenergy Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Testequity||Testequity",
-      "name": "Testequity",
-      "childOf": "Testequity",
-      "category": "company"
-    },
-    {
-      "id": "Tinfoil Security||Tinfoil Security",
-      "name": "Tinfoil Security",
-      "childOf": "Tinfoil Security",
-      "category": "company"
-    },
-    {
-      "id": "Trofholz Technologies||Trofholz Technologies",
-      "name": "Trofholz Technologies",
-      "childOf": "Trofholz Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Universal Music||Universal Music",
-      "name": "Universal Music",
-      "childOf": "Universal Music",
-      "category": "company"
-    },
-    {
-      "id": "Visionary Integration Professionals||Visionary Integration Professionals",
-      "name": "Visionary Integration Professionals",
-      "childOf": "Visionary Integration Professionals",
-      "category": "company"
-    },
-    {
-      "id": "Xrad Tele-Services||Xrad Tele-Services",
-      "name": "Xrad Tele-Services",
-      "childOf": "Xrad Tele-Services",
-      "category": "company"
-    },
-    {
-      "id": "7655762 Canada||7655762 Canada",
-      "name": "7655762 Canada",
-      "childOf": "7655762 Canada",
-      "category": "company"
-    },
-    {
-      "id": "Carey & Company||Carey & Company",
-      "name": "Carey & Company",
-      "childOf": "Carey & Company",
-      "category": "company"
-    },
-    {
-      "id": "Centurion Group||Centurion Group",
-      "name": "Centurion Group",
-      "childOf": "Centurion Group",
-      "category": "company"
-    },
-    {
       "id": "Level 3 Communications||CenturyLink",
       "name": "Level 3 Communications",
       "childOf": "CenturyLink",
-      "category": "company"
-    },
-    {
-      "id": "Contract Furnishings||Contract Furnishings",
-      "name": "Contract Furnishings",
-      "childOf": "Contract Furnishings",
-      "category": "company"
-    },
-    {
-      "id": "Denver Health & Hospitals Authority||Denver Health & Hospitals Authority",
-      "name": "Denver Health & Hospitals Authority",
-      "childOf": "Denver Health & Hospitals Authority",
-      "category": "company"
-    },
-    {
-      "id": "FS Partners||FS Partners",
-      "name": "FS Partners",
-      "childOf": "FS Partners",
       "category": "company"
     },
     {
@@ -43190,33 +42518,9 @@
       "category": "company"
     },
     {
-      "id": "Highlands Ranch Law Enforcement Training Foundation||Highlands Ranch Law Enforcement Training Foundation",
-      "name": "Highlands Ranch Law Enforcement Training Foundation",
-      "childOf": "Highlands Ranch Law Enforcement Training Foundation",
-      "category": "company"
-    },
-    {
-      "id": "Keysight Technologies||Keysight Technologies",
-      "name": "Keysight Technologies",
-      "childOf": "Keysight Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Sandoval Custom Creations||Sandoval Custom Creations",
-      "name": "Sandoval Custom Creations",
-      "childOf": "Sandoval Custom Creations",
-      "category": "company"
-    },
-    {
       "id": "V3Gate||Veterans Tech LLC",
       "name": "V3Gate",
       "childOf": "Veterans Tech LLC",
-      "category": "company"
-    },
-    {
-      "id": "Vound Colorado||Vound Colorado",
-      "name": "Vound Colorado",
-      "childOf": "Vound Colorado",
       "category": "company"
     },
     {
@@ -43232,75 +42536,9 @@
       "category": "company"
     },
     {
-      "id": "Hartford Parking Authority||Hartford Parking Authority",
-      "name": "Hartford Parking Authority",
-      "childOf": "Hartford Parking Authority",
-      "category": "company"
-    },
-    {
-      "id": "SAI Systems International||SAI Systems International",
-      "name": "SAI Systems International",
-      "childOf": "SAI Systems International",
-      "category": "company"
-    },
-    {
       "id": "Department of Emergency Services and Public Protection||State of Connecticut",
       "name": "Department of Emergency Services and Public Protection",
       "childOf": "State of Connecticut",
-      "category": "company"
-    },
-    {
-      "id": "Time Warner Cable Enterprises||Time Warner Cable Enterprises",
-      "name": "Time Warner Cable Enterprises",
-      "childOf": "Time Warner Cable Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Acuity||Acuity",
-      "name": "Acuity",
-      "childOf": "Acuity",
-      "category": "company"
-    },
-    {
-      "id": "Akira Technologies||Akira Technologies",
-      "name": "Akira Technologies",
-      "childOf": "Akira Technologies",
-      "category": "company"
-    },
-    {
-      "id": "American Immigration Lawyers Association||American Immigration Lawyers Association",
-      "name": "American Immigration Lawyers Association",
-      "childOf": "American Immigration Lawyers Association",
-      "category": "company"
-    },
-    {
-      "id": "DKW Communications||DKW Communications",
-      "name": "DKW Communications",
-      "childOf": "DKW Communications",
-      "category": "company"
-    },
-    {
-      "id": "Elevation||Elevation",
-      "name": "Elevation",
-      "childOf": "Elevation",
-      "category": "company"
-    },
-    {
-      "id": "Ernst & Young||Ernst & Young",
-      "name": "Ernst & Young",
-      "childOf": "Ernst & Young",
-      "category": "company"
-    },
-    {
-      "id": "Federal Express||Federal Express",
-      "name": "Federal Express",
-      "childOf": "Federal Express",
-      "category": "company"
-    },
-    {
-      "id": "Federal Management Systems||Federal Management Systems",
-      "name": "Federal Management Systems",
-      "childOf": "Federal Management Systems",
       "category": "company"
     },
     {
@@ -43316,75 +42554,9 @@
       "category": "company"
     },
     {
-      "id": "Graduate School||Graduate School",
-      "name": "Graduate School",
-      "childOf": "Graduate School",
-      "category": "company"
-    },
-    {
-      "id": "Hamilton Enterprises||Hamilton Enterprises",
-      "name": "Hamilton Enterprises",
-      "childOf": "Hamilton Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Jesuit Refugee Service USA||Jesuit Refugee Service USA",
-      "name": "Jesuit Refugee Service USA",
-      "childOf": "Jesuit Refugee Service USA",
-      "category": "company"
-    },
-    {
-      "id": "McKinsey & Company||McKinsey & Company",
-      "name": "McKinsey & Company",
-      "childOf": "McKinsey & Company",
-      "category": "company"
-    },
-    {
       "id": "Mckinsey & Company||McKinsey & Company",
       "name": "Mckinsey & Company",
       "childOf": "McKinsey & Company",
-      "category": "company"
-    },
-    {
-      "id": "Neal R. Gross & Company||Neal R. Gross & Company",
-      "name": "Neal R. Gross & Company",
-      "childOf": "Neal R. Gross & Company",
-      "category": "company"
-    },
-    {
-      "id": "Parker Tide||Parker Tide",
-      "name": "Parker Tide",
-      "childOf": "Parker Tide",
-      "category": "company"
-    },
-    {
-      "id": "PG Public Services||PG Public Services",
-      "name": "PG Public Services",
-      "childOf": "PG Public Services",
-      "category": "company"
-    },
-    {
-      "id": "Portals Hotel Site||Portals Hotel Site",
-      "name": "Portals Hotel Site",
-      "childOf": "Portals Hotel Site",
-      "category": "company"
-    },
-    {
-      "id": "RHG Group||RHG Group",
-      "name": "RHG Group",
-      "childOf": "RHG Group",
-      "category": "company"
-    },
-    {
-      "id": "Sayres & Associates||Sayres & Associates",
-      "name": "Sayres & Associates",
-      "childOf": "Sayres & Associates",
-      "category": "company"
-    },
-    {
-      "id": "Simple Technology Solutions||Simple Technology Solutions",
-      "name": "Simple Technology Solutions",
-      "childOf": "Simple Technology Solutions",
       "category": "company"
     },
     {
@@ -43400,147 +42572,9 @@
       "category": "company"
     },
     {
-      "id": "Tsymmetry||Tsymmetry",
-      "name": "Tsymmetry",
-      "childOf": "Tsymmetry",
-      "category": "company"
-    },
-    {
-      "id": "United Parcel Service||United Parcel Service",
-      "name": "United Parcel Service",
-      "childOf": "United Parcel Service",
-      "category": "company"
-    },
-    {
-      "id": "Urban Adventures at Gallery Place||Urban Adventures at Gallery Place",
-      "name": "Urban Adventures at Gallery Place",
-      "childOf": "Urban Adventures at Gallery Place",
-      "category": "company"
-    },
-    {
-      "id": "Xerox||Xerox",
-      "name": "Xerox",
-      "childOf": "Xerox",
-      "category": "company"
-    },
-    {
-      "id": "Online Consulting||Online Consulting",
-      "name": "Online Consulting",
-      "childOf": "Online Consulting",
-      "category": "company"
-    },
-    {
-      "id": "Sumuri||Sumuri",
-      "name": "Sumuri",
-      "childOf": "Sumuri",
-      "category": "company"
-    },
-    {
-      "id": "A. Harold And Associates||A. Harold And Associates",
-      "name": "A. Harold And Associates",
-      "childOf": "A. Harold And Associates",
-      "category": "company"
-    },
-    {
-      "id": "Acams||Acams",
-      "name": "Acams",
-      "childOf": "Acams",
-      "category": "company"
-    },
-    {
-      "id": "Aircraft Transport Services||Aircraft Transport Services",
-      "name": "Aircraft Transport Services",
-      "childOf": "Aircraft Transport Services",
-      "category": "company"
-    },
-    {
-      "id": "American Purchasing Services||American Purchasing Services",
-      "name": "American Purchasing Services",
-      "childOf": "American Purchasing Services",
-      "category": "company"
-    },
-    {
-      "id": "B.V. Oil Company||B.V. Oil Company",
-      "name": "B.V. Oil Company",
-      "childOf": "B.V. Oil Company",
-      "category": "company"
-    },
-    {
-      "id": "Best-Tec Asbestos Abatement||Best-Tec Asbestos Abatement",
-      "name": "Best-Tec Asbestos Abatement",
-      "childOf": "Best-Tec Asbestos Abatement",
-      "category": "company"
-    },
-    {
-      "id": "C & C International Computers & Consultants||C & C International Computers & Consultants",
-      "name": "C & C International Computers & Consultants",
-      "childOf": "C & C International Computers & Consultants",
-      "category": "company"
-    },
-    {
-      "id": "CIH Support||CIH Support",
-      "name": "CIH Support",
-      "childOf": "CIH Support",
-      "category": "company"
-    },
-    {
-      "id": "City of Orlando||City of Orlando",
-      "name": "City of Orlando",
-      "childOf": "City of Orlando",
-      "category": "company"
-    },
-    {
-      "id": "Commercial Moving Solutions||Commercial Moving Solutions",
-      "name": "Commercial Moving Solutions",
-      "childOf": "Commercial Moving Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Comprehensive Health Services||Comprehensive Health Services",
-      "name": "Comprehensive Health Services",
-      "childOf": "Comprehensive Health Services",
-      "category": "company"
-    },
-    {
-      "id": "County of Hillsborough||County of Hillsborough",
-      "name": "County of Hillsborough",
-      "childOf": "County of Hillsborough",
-      "category": "company"
-    },
-    {
-      "id": "Crowne Plaza Tampa Westshore||Crowne Plaza Tampa Westshore",
-      "name": "Crowne Plaza Tampa Westshore",
-      "childOf": "Crowne Plaza Tampa Westshore",
-      "category": "company"
-    },
-    {
-      "id": "Dollar Thrifty Automotive Group||Dollar Thrifty Automotive Group",
-      "name": "Dollar Thrifty Automotive Group",
-      "childOf": "Dollar Thrifty Automotive Group",
-      "category": "company"
-    },
-    {
-      "id": "DTC Communications||DTC Communications",
-      "name": "DTC Communications",
-      "childOf": "DTC Communications",
-      "category": "company"
-    },
-    {
-      "id": "Federal Contracts||Federal Contracts",
-      "name": "Federal Contracts",
-      "childOf": "Federal Contracts",
-      "category": "company"
-    },
-    {
       "id": "G4S Secure Solutions (USA)||G4S",
       "name": "G4S Secure Solutions (USA)",
       "childOf": "G4S",
-      "category": "company"
-    },
-    {
-      "id": "GEO Group||GEO Group",
-      "name": "GEO Group",
-      "childOf": "GEO Group",
       "category": "company"
     },
     {
@@ -43556,207 +42590,9 @@
       "category": "company"
     },
     {
-      "id": "GEO-Med||GEO-Med",
-      "name": "GEO-Med",
-      "childOf": "GEO-Med",
-      "category": "company"
-    },
-    {
-      "id": "Global Reach Petroleum||Global Reach Petroleum",
-      "name": "Global Reach Petroleum",
-      "childOf": "Global Reach Petroleum",
-      "category": "company"
-    },
-    {
-      "id": "Harris||Harris",
-      "name": "Harris",
-      "childOf": "Harris",
-      "category": "company"
-    },
-    {
-      "id": "International Satellite Services||International Satellite Services",
-      "name": "International Satellite Services",
-      "childOf": "International Satellite Services",
-      "category": "company"
-    },
-    {
-      "id": "Jasper Sawyer||Jasper Sawyer",
-      "name": "Jasper Sawyer",
-      "childOf": "Jasper Sawyer",
-      "category": "company"
-    },
-    {
-      "id": "Knight's Armament Company||Knight's Armament Company",
-      "name": "Knight's Armament Company",
-      "childOf": "Knight's Armament Company",
-      "category": "company"
-    },
-    {
-      "id": "Loyal Source Government Services||Loyal Source Government Services",
-      "name": "Loyal Source Government Services",
-      "childOf": "Loyal Source Government Services",
-      "category": "company"
-    },
-    {
-      "id": "LRP Publications||LRP Publications",
-      "name": "LRP Publications",
-      "childOf": "LRP Publications",
-      "category": "company"
-    },
-    {
-      "id": "Mountain RF Sensors||Mountain RF Sensors",
-      "name": "Mountain RF Sensors",
-      "childOf": "Mountain RF Sensors",
-      "category": "company"
-    },
-    {
-      "id": "Nord Atlantic Trading||Nord Atlantic Trading",
-      "name": "Nord Atlantic Trading",
-      "childOf": "Nord Atlantic Trading",
-      "category": "company"
-    },
-    {
-      "id": "NPEE||NPEE",
-      "name": "NPEE",
-      "childOf": "NPEE",
-      "category": "company"
-    },
-    {
-      "id": "Patriot Solutions||Patriot Solutions",
-      "name": "Patriot Solutions",
-      "childOf": "Patriot Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Point Blank Enterprises||Point Blank Enterprises",
-      "name": "Point Blank Enterprises",
-      "childOf": "Point Blank Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Presidential Aviation||Presidential Aviation",
-      "name": "Presidential Aviation",
-      "childOf": "Presidential Aviation",
-      "category": "company"
-    },
-    {
-      "id": "Progressive Environmental Services||Progressive Environmental Services",
-      "name": "Progressive Environmental Services",
-      "childOf": "Progressive Environmental Services",
-      "category": "company"
-    },
-    {
-      "id": "Protective Products Enterprises||Protective Products Enterprises",
-      "name": "Protective Products Enterprises",
-      "childOf": "Protective Products Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Red Carrot||Red Carrot",
-      "name": "Red Carrot",
-      "childOf": "Red Carrot",
-      "category": "company"
-    },
-    {
-      "id": "Ruag Ammotec USA||Ruag Ammotec USA",
-      "name": "Ruag Ammotec USA",
-      "childOf": "Ruag Ammotec USA",
-      "category": "company"
-    },
-    {
-      "id": "Sampson Partners||Sampson Partners",
-      "name": "Sampson Partners",
-      "childOf": "Sampson Partners",
-      "category": "company"
-    },
-    {
       "id": "Satcom Direct Communications||Satcom Direct",
       "name": "Satcom Direct Communications",
       "childOf": "Satcom Direct",
-      "category": "company"
-    },
-    {
-      "id": "SCIF Solutions||SCIF Solutions",
-      "name": "SCIF Solutions",
-      "childOf": "SCIF Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Sixt Rent A Car||Sixt Rent A Car",
-      "name": "Sixt Rent A Car",
-      "childOf": "Sixt Rent A Car",
-      "category": "company"
-    },
-    {
-      "id": "Square One Armoring Services||Square One Armoring Services",
-      "name": "Square One Armoring Services",
-      "childOf": "Square One Armoring Services",
-      "category": "company"
-    },
-    {
-      "id": "Technology - Management & Innovative Solutions||Technology - Management & Innovative Solutions",
-      "name": "Technology - Management & Innovative Solutions",
-      "childOf": "Technology - Management & Innovative Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Telco Solutions||Telco Solutions",
-      "name": "Telco Solutions",
-      "childOf": "Telco Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Trinity Services||Trinity Services",
-      "name": "Trinity Services",
-      "childOf": "Trinity Services",
-      "category": "company"
-    },
-    {
-      "id": "Trusted Translations||Trusted Translations",
-      "name": "Trusted Translations",
-      "childOf": "Trusted Translations",
-      "category": "company"
-    },
-    {
-      "id": "Vastec||Vastec",
-      "name": "Vastec",
-      "childOf": "Vastec",
-      "category": "company"
-    },
-    {
-      "id": "Visionworx||Visionworx",
-      "name": "Visionworx",
-      "childOf": "Visionworx",
-      "category": "company"
-    },
-    {
-      "id": "Winnow Management||Winnow Management",
-      "name": "Winnow Management",
-      "childOf": "Winnow Management",
-      "category": "company"
-    },
-    {
-      "id": "Advanced Technology Group||Advanced Technology Group",
-      "name": "Advanced Technology Group",
-      "childOf": "Advanced Technology Group",
-      "category": "company"
-    },
-    {
-      "id": "Air Management Solutions||Air Management Solutions",
-      "name": "Air Management Solutions",
-      "childOf": "Air Management Solutions",
-      "category": "company"
-    },
-    {
-      "id": "All Points Logistics||All Points Logistics",
-      "name": "All Points Logistics",
-      "childOf": "All Points Logistics",
-      "category": "company"
-    },
-    {
-      "id": "Alta Language Services||Alta Language Services",
-      "name": "Alta Language Services",
-      "childOf": "Alta Language Services",
       "category": "company"
     },
     {
@@ -43766,81 +42602,9 @@
       "category": "company"
     },
     {
-      "id": "Buddy's Snack Bar||Buddy's Snack Bar",
-      "name": "Buddy's Snack Bar",
-      "childOf": "Buddy's Snack Bar",
-      "category": "company"
-    },
-    {
-      "id": "Comcast||Comcast",
-      "name": "Comcast",
-      "childOf": "Comcast",
-      "category": "company"
-    },
-    {
-      "id": "Global Systems of America||Global Systems of America",
-      "name": "Global Systems of America",
-      "childOf": "Global Systems of America",
-      "category": "company"
-    },
-    {
       "id": "Glock||GLOCK Privatstiftung",
       "name": "Glock",
       "childOf": "GLOCK Privatstiftung",
-      "category": "company"
-    },
-    {
-      "id": "Hill & Mac Gunworks||Hill & Mac Gunworks",
-      "name": "Hill & Mac Gunworks",
-      "childOf": "Hill & Mac Gunworks",
-      "category": "company"
-    },
-    {
-      "id": "Imagann Cleaning Service||Imagann Cleaning Service",
-      "name": "Imagann Cleaning Service",
-      "childOf": "Imagann Cleaning Service",
-      "category": "company"
-    },
-    {
-      "id": "Interceptor Public Safety Products||Interceptor Public Safety Products",
-      "name": "Interceptor Public Safety Products",
-      "childOf": "Interceptor Public Safety Products",
-      "category": "company"
-    },
-    {
-      "id": "Justice Packaging||Justice Packaging",
-      "name": "Justice Packaging",
-      "childOf": "Justice Packaging",
-      "category": "company"
-    },
-    {
-      "id": "Lurk Enterprise Solutions||Lurk Enterprise Solutions",
-      "name": "Lurk Enterprise Solutions",
-      "childOf": "Lurk Enterprise Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Resurgens Risk Management||Resurgens Risk Management",
-      "name": "Resurgens Risk Management",
-      "childOf": "Resurgens Risk Management",
-      "category": "company"
-    },
-    {
-      "id": "Southside Garage & Used Auto Parts||Southside Garage & Used Auto Parts",
-      "name": "Southside Garage & Used Auto Parts",
-      "childOf": "Southside Garage & Used Auto Parts",
-      "category": "company"
-    },
-    {
-      "id": "Venture Netcomm||Venture Netcomm",
-      "name": "Venture Netcomm",
-      "childOf": "Venture Netcomm",
-      "category": "company"
-    },
-    {
-      "id": "Alert Holdings Group||Alert Holdings Group",
-      "name": "Alert Holdings Group",
-      "childOf": "Alert Holdings Group",
       "category": "company"
     },
     {
@@ -43856,51 +42620,9 @@
       "category": "company"
     },
     {
-      "id": "Young Scale||Young Scale",
-      "name": "Young Scale",
-      "childOf": "Young Scale",
-      "category": "company"
-    },
-    {
-      "id": "County of Bonner||County of Bonner",
-      "name": "County of Bonner",
-      "childOf": "County of Bonner",
-      "category": "company"
-    },
-    {
-      "id": "County of Latah||County of Latah",
-      "name": "County of Latah",
-      "childOf": "County of Latah",
-      "category": "company"
-    },
-    {
-      "id": "County of Twin Falls||County of Twin Falls",
-      "name": "County of Twin Falls",
-      "childOf": "County of Twin Falls",
-      "category": "company"
-    },
-    {
-      "id": "Seikosoft||Seikosoft",
-      "name": "Seikosoft",
-      "childOf": "Seikosoft",
-      "category": "company"
-    },
-    {
       "id": "United Tactical Systems||Advanced Tactical Ordnance Systems",
       "name": "United Tactical Systems",
       "childOf": "Advanced Tactical Ordnance Systems",
-      "category": "company"
-    },
-    {
-      "id": "Anthony Ibeagha||Anthony Ibeagha",
-      "name": "Anthony Ibeagha",
-      "childOf": "Anthony Ibeagha",
-      "category": "company"
-    },
-    {
-      "id": "B & K Technology Solutions||B & K Technology Solutions",
-      "name": "B & K Technology Solutions",
-      "childOf": "B & K Technology Solutions",
       "category": "company"
     },
     {
@@ -43916,153 +42638,9 @@
       "category": "company"
     },
     {
-      "id": "Continental Transportation Solutions||Continental Transportation Solutions",
-      "name": "Continental Transportation Solutions",
-      "childOf": "Continental Transportation Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Convergint Technologies||Convergint Technologies",
-      "name": "Convergint Technologies",
-      "childOf": "Convergint Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Cummins-Allison||Cummins-Allison",
-      "name": "Cummins-Allison",
-      "childOf": "Cummins-Allison",
-      "category": "company"
-    },
-    {
-      "id": "Daigger Scientific||Daigger Scientific",
-      "name": "Daigger Scientific",
-      "childOf": "Daigger Scientific",
-      "category": "company"
-    },
-    {
-      "id": "Document Imaging Dimensions||Document Imaging Dimensions",
-      "name": "Document Imaging Dimensions",
-      "childOf": "Document Imaging Dimensions",
-      "category": "company"
-    },
-    {
-      "id": "J & S Power Solutions||J & S Power Solutions",
-      "name": "J & S Power Solutions",
-      "childOf": "J & S Power Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Jeanne M. Vonhof||Jeanne M. Vonhof",
-      "name": "Jeanne M. Vonhof",
-      "childOf": "Jeanne M. Vonhof",
-      "category": "company"
-    },
-    {
-      "id": "Nathaniel Howell||Nathaniel Howell",
-      "name": "Nathaniel Howell",
-      "childOf": "Nathaniel Howell",
-      "category": "company"
-    },
-    {
-      "id": "National Commission on Correctional Health Care||National Commission on Correctional Health Care",
-      "name": "National Commission on Correctional Health Care",
-      "childOf": "National Commission on Correctional Health Care",
-      "category": "company"
-    },
-    {
-      "id": "Nova Solutions||Nova Solutions",
-      "name": "Nova Solutions",
-      "childOf": "Nova Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Olin||Olin",
-      "name": "Olin",
-      "childOf": "Olin",
-      "category": "company"
-    },
-    {
-      "id": "R.A Mechanical & Sons||R.A Mechanical & Sons",
-      "name": "R.A Mechanical & Sons",
-      "childOf": "R.A Mechanical & Sons",
-      "category": "company"
-    },
-    {
-      "id": "Scaletta Moloney Armoring||Scaletta Moloney Armoring",
-      "name": "Scaletta Moloney Armoring",
-      "childOf": "Scaletta Moloney Armoring",
-      "category": "company"
-    },
-    {
-      "id": "Veteran Technology Partners||Veteran Technology Partners",
-      "name": "Veteran Technology Partners",
-      "childOf": "Veteran Technology Partners",
-      "category": "company"
-    },
-    {
-      "id": "Village Of Oak Lawn||Village Of Oak Lawn",
-      "name": "Village Of Oak Lawn",
-      "childOf": "Village Of Oak Lawn",
-      "category": "company"
-    },
-    {
-      "id": "W.W Grainger||W.W Grainger",
-      "name": "W.W Grainger",
-      "childOf": "W.W Grainger",
-      "category": "company"
-    },
-    {
-      "id": "Wicklander Zulawski and Associates||Wicklander Zulawski and Associates",
-      "name": "Wicklander Zulawski and Associates",
-      "childOf": "Wicklander Zulawski and Associates",
-      "category": "company"
-    },
-    {
-      "id": "Engel Ballistic Research||Engel Ballistic Research",
-      "name": "Engel Ballistic Research",
-      "childOf": "Engel Ballistic Research",
-      "category": "company"
-    },
-    {
-      "id": "Envisage Technologies||Envisage Technologies",
-      "name": "Envisage Technologies",
-      "childOf": "Envisage Technologies",
-      "category": "company"
-    },
-    {
       "id": "Marquis Consulting Services||Gemalto",
       "name": "Marquis Consulting Services",
       "childOf": "Gemalto",
-      "category": "company"
-    },
-    {
-      "id": "KPaul Properties||KPaul Properties",
-      "name": "KPaul Properties",
-      "childOf": "KPaul Properties",
-      "category": "company"
-    },
-    {
-      "id": "Language Training Center||Language Training Center",
-      "name": "Language Training Center",
-      "childOf": "Language Training Center",
-      "category": "company"
-    },
-    {
-      "id": "Vohne Liche Kennels||Vohne Liche Kennels",
-      "name": "Vohne Liche Kennels",
-      "childOf": "Vohne Liche Kennels",
-      "category": "company"
-    },
-    {
-      "id": "Word Systems||Word Systems",
-      "name": "Word Systems",
-      "childOf": "Word Systems",
-      "category": "company"
-    },
-    {
-      "id": "Envision||Envision",
-      "name": "Envision",
-      "childOf": "Envision",
       "category": "company"
     },
     {
@@ -44072,57 +42650,9 @@
       "category": "company"
     },
     {
-      "id": "Firelake Construction||Firelake Construction",
-      "name": "Firelake Construction",
-      "childOf": "Firelake Construction",
-      "category": "company"
-    },
-    {
-      "id": "Kalos||Kalos",
-      "name": "Kalos",
-      "childOf": "Kalos",
-      "category": "company"
-    },
-    {
-      "id": "Landoll||Landoll",
-      "name": "Landoll",
-      "childOf": "Landoll",
-      "category": "company"
-    },
-    {
       "id": "Range 54||Range 55",
       "name": "Range 54",
       "childOf": "Range 55",
-      "category": "company"
-    },
-    {
-      "id": "Step Two Investments||Step Two Investments",
-      "name": "Step Two Investments",
-      "childOf": "Step Two Investments",
-      "category": "company"
-    },
-    {
-      "id": "Benefit Planning||Benefit Planning",
-      "name": "Benefit Planning",
-      "childOf": "Benefit Planning",
-      "category": "company"
-    },
-    {
-      "id": "Conduit Language Specialists||Conduit Language Specialists",
-      "name": "Conduit Language Specialists",
-      "childOf": "Conduit Language Specialists",
-      "category": "company"
-    },
-    {
-      "id": "Galls||Galls",
-      "name": "Galls",
-      "childOf": "Galls",
-      "category": "company"
-    },
-    {
-      "id": "Lexmark International||Lexmark International",
-      "name": "Lexmark International",
-      "childOf": "Lexmark International",
       "category": "company"
     },
     {
@@ -44138,33 +42668,9 @@
       "category": "company"
     },
     {
-      "id": "Lighthouse for the Blind in New Orleans||Lighthouse for the Blind in New Orleans",
-      "name": "Lighthouse for the Blind in New Orleans",
-      "childOf": "Lighthouse for the Blind in New Orleans",
-      "category": "company"
-    },
-    {
       "id": "Macro||Macro Oil",
       "name": "Macro",
       "childOf": "Macro Oil",
-      "category": "company"
-    },
-    {
-      "id": "Premium Parking Service||Premium Parking Service",
-      "name": "Premium Parking Service",
-      "childOf": "Premium Parking Service",
-      "category": "company"
-    },
-    {
-      "id": "Watch Systems||Watch Systems",
-      "name": "Watch Systems",
-      "childOf": "Watch Systems",
-      "category": "company"
-    },
-    {
-      "id": "Act Services||Act Services",
-      "name": "Act Services",
-      "childOf": "Act Services",
       "category": "company"
     },
     {
@@ -44174,51 +42680,9 @@
       "category": "company"
     },
     {
-      "id": "American Alarm & Communications||American Alarm & Communications",
-      "name": "American Alarm & Communications",
-      "childOf": "American Alarm & Communications",
-      "category": "company"
-    },
-    {
-      "id": "American Firearms School||American Firearms School",
-      "name": "American Firearms School",
-      "childOf": "American Firearms School",
-      "category": "company"
-    },
-    {
-      "id": "Gemini Industries||Gemini Industries",
-      "name": "Gemini Industries",
-      "childOf": "Gemini Industries",
-      "category": "company"
-    },
-    {
-      "id": "Heuresis||Heuresis",
-      "name": "Heuresis",
-      "childOf": "Heuresis",
-      "category": "company"
-    },
-    {
-      "id": "Industrial Video & Control||Industrial Video & Control",
-      "name": "Industrial Video & Control",
-      "childOf": "Industrial Video & Control",
-      "category": "company"
-    },
-    {
       "id": "L-3 Communications||L3 Technologies",
       "name": "L-3 Communications",
       "childOf": "L3 Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Lionbridge Global Solutions||Lionbridge Global Solutions",
-      "name": "Lionbridge Global Solutions",
-      "childOf": "Lionbridge Global Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Northeastern University||Northeastern University",
-      "name": "Northeastern University",
-      "childOf": "Northeastern University",
       "category": "company"
     },
     {
@@ -44228,51 +42692,9 @@
       "category": "company"
     },
     {
-      "id": "Rigaku Analytical Devices||Rigaku Analytical Devices",
-      "name": "Rigaku Analytical Devices",
-      "childOf": "Rigaku Analytical Devices",
-      "category": "company"
-    },
-    {
-      "id": "RStudio||RStudio",
-      "name": "RStudio",
-      "childOf": "RStudio",
-      "category": "company"
-    },
-    {
-      "id": "Security Engineered Machinery||Security Engineered Machinery",
-      "name": "Security Engineered Machinery",
-      "childOf": "Security Engineered Machinery",
-      "category": "company"
-    },
-    {
-      "id": "Strong Group||Strong Group",
-      "name": "Strong Group",
-      "childOf": "Strong Group",
-      "category": "company"
-    },
-    {
       "id": "Ahura Scientific||Thermo Fisher Scientific",
       "name": "Ahura Scientific",
       "childOf": "Thermo Fisher Scientific",
-      "category": "company"
-    },
-    {
-      "id": "USA Couriers||USA Couriers",
-      "name": "USA Couriers",
-      "childOf": "USA Couriers",
-      "category": "company"
-    },
-    {
-      "id": "V.H. Blackinton & Co.||V.H. Blackinton & Co.",
-      "name": "V.H. Blackinton & Co.",
-      "childOf": "V.H. Blackinton & Co.",
-      "category": "company"
-    },
-    {
-      "id": "Volicon||Volicon",
-      "name": "Volicon",
-      "childOf": "Volicon",
       "category": "company"
     },
     {
@@ -44282,63 +42704,9 @@
       "category": "company"
     },
     {
-      "id": "Advanced Technologies & Laboratories||Advanced Technologies & Laboratories",
-      "name": "Advanced Technologies & Laboratories",
-      "childOf": "Advanced Technologies & Laboratories",
-      "category": "company"
-    },
-    {
-      "id": "Allworld Language Consultants||Allworld Language Consultants",
-      "name": "Allworld Language Consultants",
-      "childOf": "Allworld Language Consultants",
-      "category": "company"
-    },
-    {
-      "id": "Anusha Seneviratne||Anusha Seneviratne",
-      "name": "Anusha Seneviratne",
-      "childOf": "Anusha Seneviratne",
-      "category": "company"
-    },
-    {
-      "id": "Axiscore||Axiscore",
-      "name": "Axiscore",
-      "childOf": "Axiscore",
-      "category": "company"
-    },
-    {
-      "id": "Bennet Communications||Bennet Communications",
-      "name": "Bennet Communications",
-      "childOf": "Bennet Communications",
-      "category": "company"
-    },
-    {
-      "id": "Bishop & Associates||Bishop & Associates",
-      "name": "Bishop & Associates",
-      "childOf": "Bishop & Associates",
-      "category": "company"
-    },
-    {
       "id": "Booz Allen Hamilton Engineering||Booz Allen Hamilton Holding",
       "name": "Booz Allen Hamilton Engineering",
       "childOf": "Booz Allen Hamilton Holding",
-      "category": "company"
-    },
-    {
-      "id": "Capital Compressor||Capital Compressor",
-      "name": "Capital Compressor",
-      "childOf": "Capital Compressor",
-      "category": "company"
-    },
-    {
-      "id": "Capital Shredder||Capital Shredder",
-      "name": "Capital Shredder",
-      "childOf": "Capital Shredder",
-      "category": "company"
-    },
-    {
-      "id": "Cartridge Technologies||Cartridge Technologies",
-      "name": "Cartridge Technologies",
-      "childOf": "Cartridge Technologies",
       "category": "company"
     },
     {
@@ -44348,93 +42716,9 @@
       "category": "company"
     },
     {
-      "id": "Costcontrol USA||Costcontrol USA",
-      "name": "Costcontrol USA",
-      "childOf": "Costcontrol USA",
-      "category": "company"
-    },
-    {
-      "id": "Dakota Consulting||Dakota Consulting",
-      "name": "Dakota Consulting",
-      "childOf": "Dakota Consulting",
-      "category": "company"
-    },
-    {
-      "id": "Deaf Access Solutions||Deaf Access Solutions",
-      "name": "Deaf Access Solutions",
-      "childOf": "Deaf Access Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Designsmith||Designsmith",
-      "name": "Designsmith",
-      "childOf": "Designsmith",
-      "category": "company"
-    },
-    {
-      "id": "Deva & Associates||Deva & Associates",
-      "name": "Deva & Associates",
-      "childOf": "Deva & Associates",
-      "category": "company"
-    },
-    {
       "id": "Danya International||DLH Holdings",
       "name": "Danya International",
       "childOf": "DLH Holdings",
-      "category": "company"
-    },
-    {
-      "id": "Enterprise Resource Planned Systems International||Enterprise Resource Planned Systems International",
-      "name": "Enterprise Resource Planned Systems International",
-      "childOf": "Enterprise Resource Planned Systems International",
-      "category": "company"
-    },
-    {
-      "id": "Escal Institute of Advanced Technologies||Escal Institute of Advanced Technologies",
-      "name": "Escal Institute of Advanced Technologies",
-      "childOf": "Escal Institute of Advanced Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Executive Information Systems||Executive Information Systems",
-      "name": "Executive Information Systems",
-      "childOf": "Executive Information Systems",
-      "category": "company"
-    },
-    {
-      "id": "FCN||FCN",
-      "name": "FCN",
-      "childOf": "FCN",
-      "category": "company"
-    },
-    {
-      "id": "Federal Resources Supply||Federal Resources Supply",
-      "name": "Federal Resources Supply",
-      "childOf": "Federal Resources Supply",
-      "category": "company"
-    },
-    {
-      "id": "Go To Group||Go To Group",
-      "name": "Go To Group",
-      "childOf": "Go To Group",
-      "category": "company"
-    },
-    {
-      "id": "HR Anew||HR Anew",
-      "name": "HR Anew",
-      "childOf": "HR Anew",
-      "category": "company"
-    },
-    {
-      "id": "Human Resources Institute||Human Resources Institute",
-      "name": "Human Resources Institute",
-      "childOf": "Human Resources Institute",
-      "category": "company"
-    },
-    {
-      "id": "Incident Communication Solutions||Incident Communication Solutions",
-      "name": "Incident Communication Solutions",
-      "childOf": "Incident Communication Solutions",
       "category": "company"
     },
     {
@@ -44444,39 +42728,9 @@
       "category": "company"
     },
     {
-      "id": "Insight Technology Solutions||Insight Technology Solutions",
-      "name": "Insight Technology Solutions",
-      "childOf": "Insight Technology Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Integral Consulting Services||Integral Consulting Services",
-      "name": "Integral Consulting Services",
-      "childOf": "Integral Consulting Services",
-      "category": "company"
-    },
-    {
-      "id": "Interactive Communications Solutions Group||Interactive Communications Solutions Group",
-      "name": "Interactive Communications Solutions Group",
-      "childOf": "Interactive Communications Solutions Group",
-      "category": "company"
-    },
-    {
-      "id": "IBM||IBM",
-      "name": "IBM",
-      "childOf": "IBM",
-      "category": "company"
-    },
-    {
       "id": "Sytel Incorporated||Jacobs Engineering",
       "name": "Sytel Incorporated",
       "childOf": "Jacobs Engineering",
-      "category": "company"
-    },
-    {
-      "id": "Johns Hopkins University||Johns Hopkins University",
-      "name": "Johns Hopkins University",
-      "childOf": "Johns Hopkins University",
       "category": "company"
     },
     {
@@ -44486,141 +42740,9 @@
       "category": "company"
     },
     {
-      "id": "Lindholm & Associates||Lindholm & Associates",
-      "name": "Lindholm & Associates",
-      "childOf": "Lindholm & Associates",
-      "category": "company"
-    },
-    {
-      "id": "Managed Care Advisors||Managed Care Advisors",
-      "name": "Managed Care Advisors",
-      "childOf": "Managed Care Advisors",
-      "category": "company"
-    },
-    {
-      "id": "Maxim Healthcare Services||Maxim Healthcare Services",
-      "name": "Maxim Healthcare Services",
-      "childOf": "Maxim Healthcare Services",
-      "category": "company"
-    },
-    {
-      "id": "Metro Office Solutions||Metro Office Solutions",
-      "name": "Metro Office Solutions",
-      "childOf": "Metro Office Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Michael C. MacQueen||Michael C. MacQueen",
-      "name": "Michael C. MacQueen",
-      "childOf": "Michael C. MacQueen",
-      "category": "company"
-    },
-    {
-      "id": "MIL-COMM Group International||MIL-COMM Group International",
-      "name": "MIL-COMM Group International",
-      "childOf": "MIL-COMM Group International",
-      "category": "company"
-    },
-    {
-      "id": "Motorola||Motorola",
-      "name": "Motorola",
-      "childOf": "Motorola",
-      "category": "company"
-    },
-    {
-      "id": "N2Grate Government Technology Solutions||N2Grate Government Technology Solutions",
-      "name": "N2Grate Government Technology Solutions",
-      "childOf": "N2Grate Government Technology Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Nakamoto Group||Nakamoto Group",
-      "name": "Nakamoto Group",
-      "childOf": "Nakamoto Group",
-      "category": "company"
-    },
-    {
-      "id": "Neo Technologies||Neo Technologies",
-      "name": "Neo Technologies",
-      "childOf": "Neo Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Office Depot||Office Depot",
-      "name": "Office Depot",
-      "childOf": "Office Depot",
-      "category": "company"
-    },
-    {
-      "id": "Optivor Technologies||Optivor Technologies",
-      "name": "Optivor Technologies",
-      "childOf": "Optivor Technologies",
-      "category": "company"
-    },
-    {
-      "id": "PCS Enterprises||PCS Enterprises",
-      "name": "PCS Enterprises",
-      "childOf": "PCS Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "PN Automation||PN Automation",
-      "name": "PN Automation",
-      "childOf": "PN Automation",
-      "category": "company"
-    },
-    {
-      "id": "Price Modern||Price Modern",
-      "name": "Price Modern",
-      "childOf": "Price Modern",
-      "category": "company"
-    },
-    {
-      "id": "Recovery Point Systems||Recovery Point Systems",
-      "name": "Recovery Point Systems",
-      "childOf": "Recovery Point Systems",
-      "category": "company"
-    },
-    {
-      "id": "Savantage Financial Services||Savantage Financial Services",
-      "name": "Savantage Financial Services",
-      "childOf": "Savantage Financial Services",
-      "category": "company"
-    },
-    {
       "id": "Maryland Dept. of Public Safety & Correctional Services||State of Maryland",
       "name": "Maryland Dept. of Public Safety & Correctional Services",
       "childOf": "State of Maryland",
-      "category": "company"
-    },
-    {
-      "id": "T-Rex Consulting Corporation||T-Rex Consulting Corporation",
-      "name": "T-Rex Consulting Corporation",
-      "childOf": "T-Rex Consulting Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Techops Specialty Vehicles||Techops Specialty Vehicles",
-      "name": "Techops Specialty Vehicles",
-      "childOf": "Techops Specialty Vehicles",
-      "category": "company"
-    },
-    {
-      "id": "U.S. Business Interiors||U.S. Business Interiors",
-      "name": "U.S. Business Interiors",
-      "childOf": "U.S. Business Interiors",
-      "category": "company"
-    },
-    {
-      "id": "U.S. Federal Solutions||U.S. Federal Solutions",
-      "name": "U.S. Federal Solutions",
-      "childOf": "U.S. Federal Solutions",
-      "category": "company"
-    },
-    {
-      "id": "UMBC Training Centers||UMBC Training Centers",
-      "name": "UMBC Training Centers",
-      "childOf": "UMBC Training Centers",
       "category": "company"
     },
     {
@@ -44630,45 +42752,9 @@
       "category": "company"
     },
     {
-      "id": "Wexler Technical Solutions||Wexler Technical Solutions",
-      "name": "Wexler Technical Solutions",
-      "childOf": "Wexler Technical Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Whispering Pines Enterprises||Whispering Pines Enterprises",
-      "name": "Whispering Pines Enterprises",
-      "childOf": "Whispering Pines Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Whitaker Brothers Business Machines||Whitaker Brothers Business Machines",
-      "name": "Whitaker Brothers Business Machines",
-      "childOf": "Whitaker Brothers Business Machines",
-      "category": "company"
-    },
-    {
       "id": "Foster & Levesque||Perfect Fit",
       "name": "Foster & Levesque",
       "childOf": "Perfect Fit",
-      "category": "company"
-    },
-    {
-      "id": "Bromberg & Associates||Bromberg & Associates",
-      "name": "Bromberg & Associates",
-      "childOf": "Bromberg & Associates",
-      "category": "company"
-    },
-    {
-      "id": "Central Lake Armor Express||Central Lake Armor Express",
-      "name": "Central Lake Armor Express",
-      "childOf": "Central Lake Armor Express",
-      "category": "company"
-    },
-    {
-      "id": "Close Quarters Tactical||Close Quarters Tactical",
-      "name": "Close Quarters Tactical",
-      "childOf": "Close Quarters Tactical",
       "category": "company"
     },
     {
@@ -44678,57 +42764,9 @@
       "category": "company"
     },
     {
-      "id": "Herman Miller||Herman Miller",
-      "name": "Herman Miller",
-      "childOf": "Herman Miller",
-      "category": "company"
-    },
-    {
-      "id": "Huron Valley Guns||Huron Valley Guns",
-      "name": "Huron Valley Guns",
-      "childOf": "Huron Valley Guns",
-      "category": "company"
-    },
-    {
-      "id": "New Tech Central||New Tech Central",
-      "name": "New Tech Central",
-      "childOf": "New Tech Central",
-      "category": "company"
-    },
-    {
-      "id": "Optech||Optech",
-      "name": "Optech",
-      "childOf": "Optech",
-      "category": "company"
-    },
-    {
       "id": "Michigan Department of State Police||State of Michigan",
       "name": "Michigan Department of State Police",
       "childOf": "State of Michigan",
-      "category": "company"
-    },
-    {
-      "id": "American Toner & Ink||American Toner & Ink",
-      "name": "American Toner & Ink",
-      "childOf": "American Toner & Ink",
-      "category": "company"
-    },
-    {
-      "id": "Central States Wire Products||Central States Wire Products",
-      "name": "Central States Wire Products",
-      "childOf": "Central States Wire Products",
-      "category": "company"
-    },
-    {
-      "id": "Federal Cartridge||Federal Cartridge",
-      "name": "Federal Cartridge",
-      "childOf": "Federal Cartridge",
-      "category": "company"
-    },
-    {
-      "id": "Fox River Graphics||Fox River Graphics",
-      "name": "Fox River Graphics",
-      "childOf": "Fox River Graphics",
       "category": "company"
     },
     {
@@ -44738,141 +42776,9 @@
       "category": "company"
     },
     {
-      "id": "Response Marketing||Response Marketing",
-      "name": "Response Marketing",
-      "childOf": "Response Marketing",
-      "category": "company"
-    },
-    {
-      "id": "Rimage||Rimage",
-      "name": "Rimage",
-      "childOf": "Rimage",
-      "category": "company"
-    },
-    {
-      "id": "South Metro Public Safety Training Facility||South Metro Public Safety Training Facility",
-      "name": "South Metro Public Safety Training Facility",
-      "childOf": "South Metro Public Safety Training Facility",
-      "category": "company"
-    },
-    {
-      "id": "U.S. Bancorp||U.S. Bancorp",
-      "name": "U.S. Bancorp",
-      "childOf": "U.S. Bancorp",
-      "category": "company"
-    },
-    {
-      "id": "Vista Outdoor Sales||Vista Outdoor Sales",
-      "name": "Vista Outdoor Sales",
-      "childOf": "Vista Outdoor Sales",
-      "category": "company"
-    },
-    {
-      "id": "Weber Computer Supply||Weber Computer Supply",
-      "name": "Weber Computer Supply",
-      "childOf": "Weber Computer Supply",
-      "category": "company"
-    },
-    {
-      "id": "Wecsys||Wecsys",
-      "name": "Wecsys",
-      "childOf": "Wecsys",
-      "category": "company"
-    },
-    {
-      "id": "West Publishing||West Publishing",
-      "name": "West Publishing",
-      "childOf": "West Publishing",
-      "category": "company"
-    },
-    {
-      "id": "ABM Federal Sales||ABM Federal Sales",
-      "name": "ABM Federal Sales",
-      "childOf": "ABM Federal Sales",
-      "category": "company"
-    },
-    {
-      "id": "Conference Technologies||Conference Technologies",
-      "name": "Conference Technologies",
-      "childOf": "Conference Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Crossroads Courier||Crossroads Courier",
-      "name": "Crossroads Courier",
-      "childOf": "Crossroads Courier",
-      "category": "company"
-    },
-    {
-      "id": "Stat Courier Service||Stat Courier Service",
-      "name": "Stat Courier Service",
-      "childOf": "Stat Courier Service",
-      "category": "company"
-    },
-    {
-      "id": "T.Q.M.||T.Q.M.",
-      "name": "T.Q.M.",
-      "childOf": "T.Q.M.",
-      "category": "company"
-    },
-    {
-      "id": "Rite-Kem||Rite-Kem",
-      "name": "Rite-Kem",
-      "childOf": "Rite-Kem",
-      "category": "company"
-    },
-    {
-      "id": "A2Z Supply||A2Z Supply",
-      "name": "A2Z Supply",
-      "childOf": "A2Z Supply",
-      "category": "company"
-    },
-    {
-      "id": "County of Musselshell||County of Musselshell",
-      "name": "County of Musselshell",
-      "childOf": "County of Musselshell",
-      "category": "company"
-    },
-    {
-      "id": "Bob Barker Company||Bob Barker Company",
-      "name": "Bob Barker Company",
-      "childOf": "Bob Barker Company",
-      "category": "company"
-    },
-    {
       "id": "Remington Arms||Cerberus Capital Management",
       "name": "Remington Arms",
       "childOf": "Cerberus Capital Management",
-      "category": "company"
-    },
-    {
-      "id": "Chief Supply||Chief Supply",
-      "name": "Chief Supply",
-      "childOf": "Chief Supply",
-      "category": "company"
-    },
-    {
-      "id": "Demus Enterprise||Demus Enterprise",
-      "name": "Demus Enterprise",
-      "childOf": "Demus Enterprise",
-      "category": "company"
-    },
-    {
-      "id": "H Squared||H Squared",
-      "name": "H Squared",
-      "childOf": "H Squared",
-      "category": "company"
-    },
-    {
-      "id": "KDH Defense Systems||KDH Defense Systems",
-      "name": "KDH Defense Systems",
-      "childOf": "KDH Defense Systems",
-      "category": "company"
-    },
-    {
-      "id": "Klemes Family Holdings||Klemes Family Holdings",
-      "name": "Klemes Family Holdings",
-      "childOf": "Klemes Family Holdings",
       "category": "company"
     },
     {
@@ -44882,105 +42788,9 @@
       "category": "company"
     },
     {
-      "id": "Marcon International||Marcon International",
-      "name": "Marcon International",
-      "childOf": "Marcon International",
-      "category": "company"
-    },
-    {
-      "id": "Mystaire||Mystaire",
-      "name": "Mystaire",
-      "childOf": "Mystaire",
-      "category": "company"
-    },
-    {
-      "id": "Net Direct Systems||Net Direct Systems",
-      "name": "Net Direct Systems",
-      "childOf": "Net Direct Systems",
-      "category": "company"
-    },
-    {
-      "id": "NterOne||NterOne",
-      "name": "NterOne",
-      "childOf": "NterOne",
-      "category": "company"
-    },
-    {
-      "id": "Proxdose Radiation Sensors||Proxdose Radiation Sensors",
-      "name": "Proxdose Radiation Sensors",
-      "childOf": "Proxdose Radiation Sensors",
-      "category": "company"
-    },
-    {
-      "id": "Sonitrol Security Services||Sonitrol Security Services",
-      "name": "Sonitrol Security Services",
-      "childOf": "Sonitrol Security Services",
-      "category": "company"
-    },
-    {
       "id": "Executive Office of the State of North Carolina||State of North Carolina",
       "name": "Executive Office of the State of North Carolina",
       "childOf": "State of North Carolina",
-      "category": "company"
-    },
-    {
-      "id": "Tailored Training Programs||Tailored Training Programs",
-      "name": "Tailored Training Programs",
-      "childOf": "Tailored Training Programs",
-      "category": "company"
-    },
-    {
-      "id": "Outlook-Nebraska||Outlook-Nebraska",
-      "name": "Outlook-Nebraska",
-      "childOf": "Outlook-Nebraska",
-      "category": "company"
-    },
-    {
-      "id": "Pen-Link||Pen-Link",
-      "name": "Pen-Link",
-      "childOf": "Pen-Link",
-      "category": "company"
-    },
-    {
-      "id": "L3 Technologies||L3 Technologies",
-      "name": "L3 Technologies",
-      "childOf": "L3 Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Red River Computer||Red River Computer",
-      "name": "Red River Computer",
-      "childOf": "Red River Computer",
-      "category": "company"
-    },
-    {
-      "id": "SIG Sauer||SIG Sauer",
-      "name": "SIG Sauer",
-      "childOf": "SIG Sauer",
-      "category": "company"
-    },
-    {
-      "id": "24/7 Enterprises||24/7 Enterprises",
-      "name": "24/7 Enterprises",
-      "childOf": "24/7 Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Acorn Office Products||Acorn Office Products",
-      "name": "Acorn Office Products",
-      "childOf": "Acorn Office Products",
-      "category": "company"
-    },
-    {
-      "id": "CBT Supply||CBT Supply",
-      "name": "CBT Supply",
-      "childOf": "CBT Supply",
-      "category": "company"
-    },
-    {
-      "id": "Cellebrite USA||Cellebrite USA",
-      "name": "Cellebrite USA",
-      "childOf": "Cellebrite USA",
       "category": "company"
     },
     {
@@ -44990,39 +42800,15 @@
       "category": "company"
     },
     {
-      "id": "City of Vineland||City of Vineland",
-      "name": "City of Vineland",
-      "childOf": "City of Vineland",
-      "category": "company"
-    },
-    {
       "id": "Autoclear||Control Screening",
       "name": "Autoclear",
       "childOf": "Control Screening",
       "category": "company"
     },
     {
-      "id": "Data Pages||Data Pages",
-      "name": "Data Pages",
-      "childOf": "Data Pages",
-      "category": "company"
-    },
-    {
       "id": "Electronic Risks Consultants||Electronic Consulting Services",
       "name": "Electronic Risks Consultants",
       "childOf": "Electronic Consulting Services",
-      "category": "company"
-    },
-    {
-      "id": "J Oliva Trucking||J Oliva Trucking",
-      "name": "J Oliva Trucking",
-      "childOf": "J Oliva Trucking",
-      "category": "company"
-    },
-    {
-      "id": "John Wiley And Sons||John Wiley And Sons",
-      "name": "John Wiley And Sons",
-      "childOf": "John Wiley And Sons",
       "category": "company"
     },
     {
@@ -45038,57 +42824,15 @@
       "category": "company"
     },
     {
-      "id": "LiveU||LiveU",
-      "name": "LiveU",
-      "childOf": "LiveU",
-      "category": "company"
-    },
-    {
-      "id": "Penn Tool||Penn Tool",
-      "name": "Penn Tool",
-      "childOf": "Penn Tool",
-      "category": "company"
-    },
-    {
-      "id": "SAF Eng Associates||SAF Eng Associates",
-      "name": "SAF Eng Associates",
-      "childOf": "SAF Eng Associates",
-      "category": "company"
-    },
-    {
-      "id": "Security Solutions Group||Security Solutions Group",
-      "name": "Security Solutions Group",
-      "childOf": "Security Solutions Group",
-      "category": "company"
-    },
-    {
-      "id": "Service Works||Service Works",
-      "name": "Service Works",
-      "childOf": "Service Works",
-      "category": "company"
-    },
-    {
       "id": "Sharp Electronics||Sharp",
       "name": "Sharp Electronics",
       "childOf": "Sharp",
       "category": "company"
     },
     {
-      "id": "Specialty Vehicle Solutions||Specialty Vehicle Solutions",
-      "name": "Specialty Vehicle Solutions",
-      "childOf": "Specialty Vehicle Solutions",
-      "category": "company"
-    },
-    {
       "id": "Emtec Federal||Spectrum Systems",
       "name": "Emtec Federal",
       "childOf": "Spectrum Systems",
-      "category": "company"
-    },
-    {
-      "id": "Supreme Security Systems||Supreme Security Systems",
-      "name": "Supreme Security Systems",
-      "childOf": "Supreme Security Systems",
       "category": "company"
     },
     {
@@ -45104,44 +42848,8 @@
       "category": "company"
     },
     {
-      "id": "CSI Aviation Services||CSI Aviation Services",
-      "name": "CSI Aviation Services",
-      "childOf": "CSI Aviation Services",
-      "category": "company"
-    },
-    {
-      "id": "SCI||SCI",
-      "name": "SCI",
-      "childOf": "SCI",
-      "category": "company"
-    },
-    {
-      "id": "Westwind Team||Westwind Team",
-      "name": "Westwind Team",
-      "childOf": "Westwind Team",
-      "category": "company"
-    },
-    {
-      "id": "Wildflower International||Wildflower International",
-      "name": "Wildflower International",
-      "childOf": "Wildflower International",
-      "category": "company"
-    },
-    {
-      "id": "Amped Software||Amped Software",
-      "name": "Amped Software",
-      "childOf": "Amped Software",
-      "category": "company"
-    },
-    {
       "id": "Callyo 2009||Callyo 2010",
       "name": "Callyo 2009",
-      "childOf": "Callyo 2010",
-      "category": "company"
-    },
-    {
-      "id": "Callyo 2010||Callyo 2010",
-      "name": "Callyo 2010",
       "childOf": "Callyo 2010",
       "category": "company"
     },
@@ -45188,96 +42896,6 @@
       "category": "company"
     },
     {
-      "id": "ABM Industries||ABM Industries",
-      "name": "ABM Industries",
-      "childOf": "ABM Industries",
-      "category": "company"
-    },
-    {
-      "id": "Adorama||Adorama",
-      "name": "Adorama",
-      "childOf": "Adorama",
-      "category": "company"
-    },
-    {
-      "id": "Advanced Educational Products||Advanced Educational Products",
-      "name": "Advanced Educational Products",
-      "childOf": "Advanced Educational Products",
-      "category": "company"
-    },
-    {
-      "id": "Association for the Blind & Visually Impaired||Association for the Blind & Visually Impaired",
-      "name": "Association for the Blind & Visually Impaired",
-      "childOf": "Association for the Blind & Visually Impaired",
-      "category": "company"
-    },
-    {
-      "id": "Blueline Tactical & Police Supply||Blueline Tactical & Police Supply",
-      "name": "Blueline Tactical & Police Supply",
-      "childOf": "Blueline Tactical & Police Supply",
-      "category": "company"
-    },
-    {
-      "id": "BNC Enterprises||BNC Enterprises",
-      "name": "BNC Enterprises",
-      "childOf": "BNC Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "C & M Truck & Tire Repair||C & M Truck & Tire Repair",
-      "name": "C & M Truck & Tire Repair",
-      "childOf": "C & M Truck & Tire Repair",
-      "category": "company"
-    },
-    {
-      "id": "Caprice Electronics||Caprice Electronics",
-      "name": "Caprice Electronics",
-      "childOf": "Caprice Electronics",
-      "category": "company"
-    },
-    {
-      "id": "Central Association for the Blind||Central Association for the Blind",
-      "name": "Central Association for the Blind",
-      "childOf": "Central Association for the Blind",
-      "category": "company"
-    },
-    {
-      "id": "City of New York||City of New York",
-      "name": "City of New York",
-      "childOf": "City of New York",
-      "category": "company"
-    },
-    {
-      "id": "Classic Air Charter||Classic Air Charter",
-      "name": "Classic Air Charter",
-      "childOf": "Classic Air Charter",
-      "category": "company"
-    },
-    {
-      "id": "Compass House||Compass House",
-      "name": "Compass House",
-      "childOf": "Compass House",
-      "category": "company"
-    },
-    {
-      "id": "Copier Fax Business Technologies||Copier Fax Business Technologies",
-      "name": "Copier Fax Business Technologies",
-      "childOf": "Copier Fax Business Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Corporate Source||Corporate Source",
-      "name": "Corporate Source",
-      "childOf": "Corporate Source",
-      "category": "company"
-    },
-    {
-      "id": "Deluxe Delivery Systems||Deluxe Delivery Systems",
-      "name": "Deluxe Delivery Systems",
-      "childOf": "Deluxe Delivery Systems",
-      "category": "company"
-    },
-    {
       "id": "Gaylord Bros.||DEMCO",
       "name": "Gaylord Bros.",
       "childOf": "DEMCO",
@@ -45290,123 +42908,9 @@
       "category": "company"
     },
     {
-      "id": "Fedcap Rehabilitation Services||Fedcap Rehabilitation Services",
-      "name": "Fedcap Rehabilitation Services",
-      "childOf": "Fedcap Rehabilitation Services",
-      "category": "company"
-    },
-    {
-      "id": "Fire Safety Systems||Fire Safety Systems",
-      "name": "Fire Safety Systems",
-      "childOf": "Fire Safety Systems",
-      "category": "company"
-    },
-    {
-      "id": "Haynes||Haynes",
-      "name": "Haynes",
-      "childOf": "Haynes",
-      "category": "company"
-    },
-    {
-      "id": "Helgen Industries||Helgen Industries",
-      "name": "Helgen Industries",
-      "childOf": "Helgen Industries",
-      "category": "company"
-    },
-    {
-      "id": "Hergo Ergonomic Support Systems||Hergo Ergonomic Support Systems",
-      "name": "Hergo Ergonomic Support Systems",
-      "childOf": "Hergo Ergonomic Support Systems",
-      "category": "company"
-    },
-    {
-      "id": "Hudson River Park Trust||Hudson River Park Trust",
-      "name": "Hudson River Park Trust",
-      "childOf": "Hudson River Park Trust",
-      "category": "company"
-    },
-    {
-      "id": "ISS Action||ISS Action",
-      "name": "ISS Action",
-      "childOf": "ISS Action",
-      "category": "company"
-    },
-    {
-      "id": "ITIN Scale||ITIN Scale",
-      "name": "ITIN Scale",
-      "childOf": "ITIN Scale",
-      "category": "company"
-    },
-    {
-      "id": "Legal Interpreting Services||Legal Interpreting Services",
-      "name": "Legal Interpreting Services",
-      "childOf": "Legal Interpreting Services",
-      "category": "company"
-    },
-    {
-      "id": "M. L. Benjamin Enterprises||M. L. Benjamin Enterprises",
-      "name": "M. L. Benjamin Enterprises",
-      "childOf": "M. L. Benjamin Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Metropolitan Interpreters & Translators||Metropolitan Interpreters & Translators",
-      "name": "Metropolitan Interpreters & Translators",
-      "childOf": "Metropolitan Interpreters & Translators",
-      "category": "company"
-    },
-    {
-      "id": "Netcom Learning||Netcom Learning",
-      "name": "Netcom Learning",
-      "childOf": "Netcom Learning",
-      "category": "company"
-    },
-    {
-      "id": "New Dimension Awards||New Dimension Awards",
-      "name": "New Dimension Awards",
-      "childOf": "New Dimension Awards",
-      "category": "company"
-    },
-    {
-      "id": "Pacific Link International||Pacific Link International",
-      "name": "Pacific Link International",
-      "childOf": "Pacific Link International",
-      "category": "company"
-    },
-    {
-      "id": "Paul Radvany||Paul Radvany",
-      "name": "Paul Radvany",
-      "childOf": "Paul Radvany",
-      "category": "company"
-    },
-    {
-      "id": "People's Accident Information Service||People's Accident Information Service",
-      "name": "People's Accident Information Service",
-      "childOf": "People's Accident Information Service",
-      "category": "company"
-    },
-    {
       "id": "Premier & Companies||Premier Supplies USA",
       "name": "Premier & Companies",
       "childOf": "Premier Supplies USA",
-      "category": "company"
-    },
-    {
-      "id": "Sirina Protection Systems||Sirina Protection Systems",
-      "name": "Sirina Protection Systems",
-      "childOf": "Sirina Protection Systems",
-      "category": "company"
-    },
-    {
-      "id": "Sirona Dental||Sirona Dental",
-      "name": "Sirona Dental",
-      "childOf": "Sirona Dental",
-      "category": "company"
-    },
-    {
-      "id": "Star Poly Bag||Star Poly Bag",
-      "name": "Star Poly Bag",
-      "childOf": "Star Poly Bag",
       "category": "company"
     },
     {
@@ -45416,93 +42920,9 @@
       "category": "company"
     },
     {
-      "id": "Tonawanda Sportsmen's Club||Tonawanda Sportsmen's Club",
-      "name": "Tonawanda Sportsmen's Club",
-      "childOf": "Tonawanda Sportsmen's Club",
-      "category": "company"
-    },
-    {
-      "id": "Town of Islip||Town of Islip",
-      "name": "Town of Islip",
-      "childOf": "Town of Islip",
-      "category": "company"
-    },
-    {
-      "id": "Vicon Industries||Vicon Industries",
-      "name": "Vicon Industries",
-      "childOf": "Vicon Industries",
-      "category": "company"
-    },
-    {
-      "id": "Wolcott Guns||Wolcott Guns",
-      "name": "Wolcott Guns",
-      "childOf": "Wolcott Guns",
-      "category": "company"
-    },
-    {
-      "id": "Athens Technical Specialists||Athens Technical Specialists",
-      "name": "Athens Technical Specialists",
-      "childOf": "Athens Technical Specialists",
-      "category": "company"
-    },
-    {
-      "id": "Azimuth||Azimuth",
-      "name": "Azimuth",
-      "childOf": "Azimuth",
-      "category": "company"
-    },
-    {
-      "id": "B5 Systems||B5 Systems",
-      "name": "B5 Systems",
-      "childOf": "B5 Systems",
-      "category": "company"
-    },
-    {
-      "id": "Farber Specialty Vehicles||Farber Specialty Vehicles",
-      "name": "Farber Specialty Vehicles",
-      "childOf": "Farber Specialty Vehicles",
-      "category": "company"
-    },
-    {
-      "id": "Government Acquisitions||Government Acquisitions",
-      "name": "Government Acquisitions",
-      "childOf": "Government Acquisitions",
-      "category": "company"
-    },
-    {
-      "id": "Luxfer Magtech||Luxfer Magtech",
-      "name": "Luxfer Magtech",
-      "childOf": "Luxfer Magtech",
-      "category": "company"
-    },
-    {
-      "id": "Midwest Rescue Products||Midwest Rescue Products",
-      "name": "Midwest Rescue Products",
-      "childOf": "Midwest Rescue Products",
-      "category": "company"
-    },
-    {
-      "id": "Midwest Security Services||Midwest Security Services",
-      "name": "Midwest Security Services",
-      "childOf": "Midwest Security Services",
-      "category": "company"
-    },
-    {
       "id": "Reed Elsevier||RELX",
       "name": "Reed Elsevier",
       "childOf": "RELX",
-      "category": "company"
-    },
-    {
-      "id": "Solutions Through Innovative Technologies||Solutions Through Innovative Technologies",
-      "name": "Solutions Through Innovative Technologies",
-      "childOf": "Solutions Through Innovative Technologies",
-      "category": "company"
-    },
-    {
-      "id": "Spartan Chemical||Spartan Chemical",
-      "name": "Spartan Chemical",
-      "childOf": "Spartan Chemical",
       "category": "company"
     },
     {
@@ -45512,177 +42932,15 @@
       "category": "company"
     },
     {
-      "id": "BahFed||BahFed",
-      "name": "BahFed",
-      "childOf": "BahFed",
-      "category": "company"
-    },
-    {
-      "id": "CBT Nuggets||CBT Nuggets",
-      "name": "CBT Nuggets",
-      "childOf": "CBT Nuggets",
-      "category": "company"
-    },
-    {
-      "id": "County of Lane||County of Lane",
-      "name": "County of Lane",
-      "childOf": "County of Lane",
-      "category": "company"
-    },
-    {
-      "id": "Feeney Wireless||Feeney Wireless",
-      "name": "Feeney Wireless",
-      "childOf": "Feeney Wireless",
-      "category": "company"
-    },
-    {
-      "id": "KRP Data Systems||KRP Data Systems",
-      "name": "KRP Data Systems",
-      "childOf": "KRP Data Systems",
-      "category": "company"
-    },
-    {
-      "id": "Nosler||Nosler",
-      "name": "Nosler",
-      "childOf": "Nosler",
-      "category": "company"
-    },
-    {
-      "id": "US Tactical Supply||US Tactical Supply",
-      "name": "US Tactical Supply",
-      "childOf": "US Tactical Supply",
-      "category": "company"
-    },
-    {
-      "id": "Adapt Pharma||Adapt Pharma",
-      "name": "Adapt Pharma",
-      "childOf": "Adapt Pharma",
-      "category": "company"
-    },
-    {
-      "id": "American Expediting Company||American Expediting Company",
-      "name": "American Expediting Company",
-      "childOf": "American Expediting Company",
-      "category": "company"
-    },
-    {
-      "id": "Arc of Cumberland And Perry Counties||Arc of Cumberland And Perry Counties",
-      "name": "Arc of Cumberland And Perry Counties",
-      "childOf": "Arc of Cumberland And Perry Counties",
-      "category": "company"
-    },
-    {
-      "id": "Associated Services||Associated Services",
-      "name": "Associated Services",
-      "childOf": "Associated Services",
-      "category": "company"
-    },
-    {
-      "id": "Automation Aids||Automation Aids",
-      "name": "Automation Aids",
-      "childOf": "Automation Aids",
-      "category": "company"
-    },
-    {
-      "id": "Bovard||Bovard",
-      "name": "Bovard",
-      "childOf": "Bovard",
-      "category": "company"
-    },
-    {
-      "id": "Combined Systems||Combined Systems",
-      "name": "Combined Systems",
-      "childOf": "Combined Systems",
-      "category": "company"
-    },
-    {
-      "id": "Datum Filing Systems||Datum Filing Systems",
-      "name": "Datum Filing Systems",
-      "childOf": "Datum Filing Systems",
-      "category": "company"
-    },
-    {
-      "id": "DenTrust Dental International||DenTrust Dental International",
-      "name": "DenTrust Dental International",
-      "childOf": "DenTrust Dental International",
-      "category": "company"
-    },
-    {
-      "id": "Federal Hearings and Appeals Services||Federal Hearings and Appeals Services",
-      "name": "Federal Hearings and Appeals Services",
-      "childOf": "Federal Hearings and Appeals Services",
-      "category": "company"
-    },
-    {
-      "id": "Goodco Mechanical||Goodco Mechanical",
-      "name": "Goodco Mechanical",
-      "childOf": "Goodco Mechanical",
-      "category": "company"
-    },
-    {
-      "id": "Hullihens Lawn Care||Hullihens Lawn Care",
-      "name": "Hullihens Lawn Care",
-      "childOf": "Hullihens Lawn Care",
-      "category": "company"
-    },
-    {
-      "id": "Independent Hardware||Independent Hardware",
-      "name": "Independent Hardware",
-      "childOf": "Independent Hardware",
-      "category": "company"
-    },
-    {
-      "id": "International Cartridge Corporation||International Cartridge Corporation",
-      "name": "International Cartridge Corporation",
-      "childOf": "International Cartridge Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Layton Landscaping||Layton Landscaping",
-      "name": "Layton Landscaping",
-      "childOf": "Layton Landscaping",
-      "category": "company"
-    },
-    {
-      "id": "Marinus Analytics||Marinus Analytics",
-      "name": "Marinus Analytics",
-      "childOf": "Marinus Analytics",
-      "category": "company"
-    },
-    {
-      "id": "McManis Associates||McManis Associates",
-      "name": "McManis Associates",
-      "childOf": "McManis Associates",
-      "category": "company"
-    },
-    {
-      "id": "Optimo Information Technology||Optimo Information Technology",
-      "name": "Optimo Information Technology",
-      "childOf": "Optimo Information Technology",
-      "category": "company"
-    },
-    {
       "id": "PMA-13||People Signs",
       "name": "PMA-13",
       "childOf": "People Signs",
       "category": "company"
     },
     {
-      "id": "R.P. Aiken & Sons||R.P. Aiken & Sons",
-      "name": "R.P. Aiken & Sons",
-      "childOf": "R.P. Aiken & Sons",
-      "category": "company"
-    },
-    {
       "id": "Ricoh USA||Ricoh",
       "name": "Ricoh USA",
       "childOf": "Ricoh",
-      "category": "company"
-    },
-    {
-      "id": "Rosamilia Builders||Rosamilia Builders",
-      "name": "Rosamilia Builders",
-      "childOf": "Rosamilia Builders",
       "category": "company"
     },
     {
@@ -45698,39 +42956,9 @@
       "category": "company"
     },
     {
-      "id": "Aerostar Airport Holdings||Aerostar Airport Holdings",
-      "name": "Aerostar Airport Holdings",
-      "childOf": "Aerostar Airport Holdings",
-      "category": "company"
-    },
-    {
-      "id": "Caribbean School||Caribbean School",
-      "name": "Caribbean School",
-      "childOf": "Caribbean School",
-      "category": "company"
-    },
-    {
       "id": "Unlimited Storage||Commercial Centers Management",
       "name": "Unlimited Storage",
       "childOf": "Commercial Centers Management",
-      "category": "company"
-    },
-    {
-      "id": "Palmas Academy||Palmas Academy",
-      "name": "Palmas Academy",
-      "childOf": "Palmas Academy",
-      "category": "company"
-    },
-    {
-      "id": "Technical Maintenance & Services||Technical Maintenance & Services",
-      "name": "Technical Maintenance & Services",
-      "childOf": "Technical Maintenance & Services",
-      "category": "company"
-    },
-    {
-      "id": "Brown Point Facility Management Solutions||Brown Point Facility Management Solutions",
-      "name": "Brown Point Facility Management Solutions",
-      "childOf": "Brown Point Facility Management Solutions",
       "category": "company"
     },
     {
@@ -45740,75 +42968,9 @@
       "category": "company"
     },
     {
-      "id": "Bottom Line Military Sales||Bottom Line Military Sales",
-      "name": "Bottom Line Military Sales",
-      "childOf": "Bottom Line Military Sales",
-      "category": "company"
-    },
-    {
-      "id": "C2G||C2G",
-      "name": "C2G",
-      "childOf": "C2G",
-      "category": "company"
-    },
-    {
-      "id": "Federal Facilitators||Federal Facilitators",
-      "name": "Federal Facilitators",
-      "childOf": "Federal Facilitators",
-      "category": "company"
-    },
-    {
-      "id": "FN America||FN America",
-      "name": "FN America",
-      "childOf": "FN America",
-      "category": "company"
-    },
-    {
       "id": "Government Training Institute||Terteling Holding",
       "name": "Government Training Institute",
       "childOf": "Terteling Holding",
-      "category": "company"
-    },
-    {
-      "id": "Varnermiller||Varnermiller",
-      "name": "Varnermiller",
-      "childOf": "Varnermiller",
-      "category": "company"
-    },
-    {
-      "id": "ASE Direct||ASE Direct",
-      "name": "ASE Direct",
-      "childOf": "ASE Direct",
-      "category": "company"
-    },
-    {
-      "id": "Corrections Corporation of America||Corrections Corporation of America",
-      "name": "Corrections Corporation of America",
-      "childOf": "Corrections Corporation of America",
-      "category": "company"
-    },
-    {
-      "id": "Data Facts||Data Facts",
-      "name": "Data Facts",
-      "childOf": "Data Facts",
-      "category": "company"
-    },
-    {
-      "id": "Metro Office Products||Metro Office Products",
-      "name": "Metro Office Products",
-      "childOf": "Metro Office Products",
-      "category": "company"
-    },
-    {
-      "id": "Mosaik Solutions||Mosaik Solutions",
-      "name": "Mosaik Solutions",
-      "childOf": "Mosaik Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Research Electronics International||Research Electronics International",
-      "name": "Research Electronics International",
-      "childOf": "Research Electronics International",
       "category": "company"
     },
     {
@@ -45818,63 +42980,9 @@
       "category": "company"
     },
     {
-      "id": "Tomahawk Defense||Tomahawk Defense",
-      "name": "Tomahawk Defense",
-      "childOf": "Tomahawk Defense",
-      "category": "company"
-    },
-    {
-      "id": "Unistar-Sparco Computers||Unistar-Sparco Computers",
-      "name": "Unistar-Sparco Computers",
-      "childOf": "Unistar-Sparco Computers",
-      "category": "company"
-    },
-    {
       "id": "VF Imagewear||V. F. Corporation",
       "name": "VF Imagewear",
       "childOf": "V. F. Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Victory Supply||Victory Supply",
-      "name": "Victory Supply",
-      "childOf": "Victory Supply",
-      "category": "company"
-    },
-    {
-      "id": "24/7 Delivery Service||24/7 Delivery Service",
-      "name": "24/7 Delivery Service",
-      "childOf": "24/7 Delivery Service",
-      "category": "company"
-    },
-    {
-      "id": "Adams Evidence Grade Technology||Adams Evidence Grade Technology",
-      "name": "Adams Evidence Grade Technology",
-      "childOf": "Adams Evidence Grade Technology",
-      "category": "company"
-    },
-    {
-      "id": "Advanced Marketing & Sales Associates||Advanced Marketing & Sales Associates",
-      "name": "Advanced Marketing & Sales Associates",
-      "childOf": "Advanced Marketing & Sales Associates",
-      "category": "company"
-    },
-    {
-      "id": "Ana-Lab Corporation||Ana-Lab Corporation",
-      "name": "Ana-Lab Corporation",
-      "childOf": "Ana-Lab Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Asset Protection & Security Services||Asset Protection & Security Services",
-      "name": "Asset Protection & Security Services",
-      "childOf": "Asset Protection & Security Services",
-      "category": "company"
-    },
-    {
-      "id": "Atlantic Petroleum & Mineral Resources||Atlantic Petroleum & Mineral Resources",
-      "name": "Atlantic Petroleum & Mineral Resources",
-      "childOf": "Atlantic Petroleum & Mineral Resources",
       "category": "company"
     },
     {
@@ -45884,57 +42992,9 @@
       "category": "company"
     },
     {
-      "id": "Ben Fitzgerald Real Estate Services||Ben Fitzgerald Real Estate Services",
-      "name": "Ben Fitzgerald Real Estate Services",
-      "childOf": "Ben Fitzgerald Real Estate Services",
-      "category": "company"
-    },
-    {
-      "id": "Benchmark Filing & Shelving Systems||Benchmark Filing & Shelving Systems",
-      "name": "Benchmark Filing & Shelving Systems",
-      "childOf": "Benchmark Filing & Shelving Systems",
-      "category": "company"
-    },
-    {
-      "id": "Blue Fish Worx||Blue Fish Worx",
-      "name": "Blue Fish Worx",
-      "childOf": "Blue Fish Worx",
-      "category": "company"
-    },
-    {
-      "id": "C.F.I. Delivery||C.F.I. Delivery",
-      "name": "C.F.I. Delivery",
-      "childOf": "C.F.I. Delivery",
-      "category": "company"
-    },
-    {
-      "id": "Central Transportation Systems||Central Transportation Systems",
-      "name": "Central Transportation Systems",
-      "childOf": "Central Transportation Systems",
-      "category": "company"
-    },
-    {
       "id": "Chenega Facilities Management||Chenega",
       "name": "Chenega Facilities Management",
       "childOf": "Chenega",
-      "category": "company"
-    },
-    {
-      "id": "Complete Book & Media Supply||Complete Book & Media Supply",
-      "name": "Complete Book & Media Supply",
-      "childOf": "Complete Book & Media Supply",
-      "category": "company"
-    },
-    {
-      "id": "Cowboy Streetlight Concealments||Cowboy Streetlight Concealments",
-      "name": "Cowboy Streetlight Concealments",
-      "childOf": "Cowboy Streetlight Concealments",
-      "category": "company"
-    },
-    {
-      "id": "Creative Corrections||Creative Corrections",
-      "name": "Creative Corrections",
-      "childOf": "Creative Corrections",
       "category": "company"
     },
     {
@@ -45956,153 +43016,15 @@
       "category": "company"
     },
     {
-      "id": "Dialtoneservices||Dialtoneservices",
-      "name": "Dialtoneservices",
-      "childOf": "Dialtoneservices",
-      "category": "company"
-    },
-    {
-      "id": "Eclipse Business Group||Eclipse Business Group",
-      "name": "Eclipse Business Group",
-      "childOf": "Eclipse Business Group",
-      "category": "company"
-    },
-    {
       "id": "Freeman Expositions||Freeman Decorating Services",
       "name": "Freeman Expositions",
       "childOf": "Freeman Decorating Services",
       "category": "company"
     },
     {
-      "id": "Garrett Electronics||Garrett Electronics",
-      "name": "Garrett Electronics",
-      "childOf": "Garrett Electronics",
-      "category": "company"
-    },
-    {
-      "id": "Go & Zalez||Go & Zalez",
-      "name": "Go & Zalez",
-      "childOf": "Go & Zalez",
-      "category": "company"
-    },
-    {
-      "id": "Heartsafe America||Heartsafe America",
-      "name": "Heartsafe America",
-      "childOf": "Heartsafe America",
-      "category": "company"
-    },
-    {
       "id": "JCT||ICS Jail Supplies",
       "name": "JCT",
       "childOf": "ICS Jail Supplies",
-      "category": "company"
-    },
-    {
-      "id": "Infocus Health||Infocus Health",
-      "name": "Infocus Health",
-      "childOf": "Infocus Health",
-      "category": "company"
-    },
-    {
-      "id": "Ingenesis||Ingenesis",
-      "name": "Ingenesis",
-      "childOf": "Ingenesis",
-      "category": "company"
-    },
-    {
-      "id": "Installation Morale Welfare Recreation Fund||Installation Morale Welfare Recreation Fund",
-      "name": "Installation Morale Welfare Recreation Fund",
-      "childOf": "Installation Morale Welfare Recreation Fund",
-      "category": "company"
-    },
-    {
-      "id": "Interconnect Communication Specialists||Interconnect Communication Specialists",
-      "name": "Interconnect Communication Specialists",
-      "childOf": "Interconnect Communication Specialists",
-      "category": "company"
-    },
-    {
-      "id": "IPI GrammTech||IPI GrammTech",
-      "name": "IPI GrammTech",
-      "childOf": "IPI GrammTech",
-      "category": "company"
-    },
-    {
-      "id": "JDG Associates||JDG Associates",
-      "name": "JDG Associates",
-      "childOf": "JDG Associates",
-      "category": "company"
-    },
-    {
-      "id": "Marentco||Marentco",
-      "name": "Marentco",
-      "childOf": "Marentco",
-      "category": "company"
-    },
-    {
-      "id": "Mavagi Enterprises||Mavagi Enterprises",
-      "name": "Mavagi Enterprises",
-      "childOf": "Mavagi Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Migrant Clinicians Network||Migrant Clinicians Network",
-      "name": "Migrant Clinicians Network",
-      "childOf": "Migrant Clinicians Network",
-      "category": "company"
-    },
-    {
-      "id": "Modular Concepts||Modular Concepts",
-      "name": "Modular Concepts",
-      "childOf": "Modular Concepts",
-      "category": "company"
-    },
-    {
-      "id": "Native Energy & Technology||Native Energy & Technology",
-      "name": "Native Energy & Technology",
-      "childOf": "Native Energy & Technology",
-      "category": "company"
-    },
-    {
-      "id": "Osirus||Osirus",
-      "name": "Osirus",
-      "childOf": "Osirus",
-      "category": "company"
-    },
-    {
-      "id": "Pacer Service Center||Pacer Service Center",
-      "name": "Pacer Service Center",
-      "childOf": "Pacer Service Center",
-      "category": "company"
-    },
-    {
-      "id": "Progend||Progend",
-      "name": "Progend",
-      "childOf": "Progend",
-      "category": "company"
-    },
-    {
-      "id": "Richard T. Tift||Richard T. Tift",
-      "name": "Richard T. Tift",
-      "childOf": "Richard T. Tift",
-      "category": "company"
-    },
-    {
-      "id": "Rita's Tape Media||Rita's Tape Media",
-      "name": "Rita's Tape Media",
-      "childOf": "Rita's Tape Media",
-      "category": "company"
-    },
-    {
-      "id": "Sentry Air Systems||Sentry Air Systems",
-      "name": "Sentry Air Systems",
-      "childOf": "Sentry Air Systems",
-      "category": "company"
-    },
-    {
-      "id": "Southwest Solutions||Southwest Solutions",
-      "name": "Southwest Solutions",
-      "childOf": "Southwest Solutions",
       "category": "company"
     },
     {
@@ -46118,69 +43040,15 @@
       "category": "company"
     },
     {
-      "id": "Todd Radford||Todd Radford",
-      "name": "Todd Radford",
-      "childOf": "Todd Radford",
-      "category": "company"
-    },
-    {
-      "id": "U.S. Legal Support||U.S. Legal Support",
-      "name": "U.S. Legal Support",
-      "childOf": "U.S. Legal Support",
-      "category": "company"
-    },
-    {
       "id": "Unifirst||Uniforms Manufacturing",
       "name": "Unifirst",
       "childOf": "Uniforms Manufacturing",
       "category": "company"
     },
     {
-      "id": "Varidesk||Varidesk",
-      "name": "Varidesk",
-      "childOf": "Varidesk",
-      "category": "company"
-    },
-    {
-      "id": "Weidenbenner Marketing Associates||Weidenbenner Marketing Associates",
-      "name": "Weidenbenner Marketing Associates",
-      "childOf": "Weidenbenner Marketing Associates",
-      "category": "company"
-    },
-    {
-      "id": "WMK San Antonio||WMK San Antonio",
-      "name": "WMK San Antonio",
-      "childOf": "WMK San Antonio",
-      "category": "company"
-    },
-    {
-      "id": "World Wide Enterprises||World Wide Enterprises",
-      "name": "World Wide Enterprises",
-      "childOf": "World Wide Enterprises",
-      "category": "company"
-    },
-    {
-      "id": "Matt Burns||Matt Burns",
-      "name": "Matt Burns",
-      "childOf": "Matt Burns",
-      "category": "company"
-    },
-    {
       "id": "Franklin Covey Client Sales||Franklin Covey",
       "name": "Franklin Covey Client Sales",
       "childOf": "Franklin Covey",
-      "category": "company"
-    },
-    {
-      "id": "Management & Training||Management & Training",
-      "name": "Management & Training",
-      "childOf": "Management & Training",
-      "category": "company"
-    },
-    {
-      "id": "Smartystreets||Smartystreets",
-      "name": "Smartystreets",
-      "childOf": "Smartystreets",
       "category": "company"
     },
     {
@@ -46196,69 +43064,15 @@
       "category": "company"
     },
     {
-      "id": "360 IT Integrated Solutions||360 IT Integrated Solutions",
-      "name": "360 IT Integrated Solutions",
-      "childOf": "360 IT Integrated Solutions",
-      "category": "company"
-    },
-    {
       "id": "Defense Point Security||Accenture",
       "name": "Defense Point Security",
       "childOf": "Accenture",
       "category": "company"
     },
     {
-      "id": "Actionable Intelligence Technologies||Actionable Intelligence Technologies",
-      "name": "Actionable Intelligence Technologies",
-      "childOf": "Actionable Intelligence Technologies",
-      "category": "company"
-    },
-    {
-      "id": "ALON||ALON",
-      "name": "ALON",
-      "childOf": "ALON",
-      "category": "company"
-    },
-    {
-      "id": "American Correctional Association||American Correctional Association",
-      "name": "American Correctional Association",
-      "childOf": "American Correctional Association",
-      "category": "company"
-    },
-    {
-      "id": "Arc Aspicio||Arc Aspicio",
-      "name": "Arc Aspicio",
-      "childOf": "Arc Aspicio",
-      "category": "company"
-    },
-    {
-      "id": "Ardent Management Consulting||Ardent Management Consulting",
-      "name": "Ardent Management Consulting",
-      "childOf": "Ardent Management Consulting",
-      "category": "company"
-    },
-    {
       "id": "Immixtechnology||Arrow Electronics",
       "name": "Immixtechnology",
       "childOf": "Arrow Electronics",
-      "category": "company"
-    },
-    {
-      "id": "ARS Aleut Construction||ARS Aleut Construction",
-      "name": "ARS Aleut Construction",
-      "childOf": "ARS Aleut Construction",
-      "category": "company"
-    },
-    {
-      "id": "Association of Government Accountants||Association of Government Accountants",
-      "name": "Association of Government Accountants",
-      "childOf": "Association of Government Accountants",
-      "category": "company"
-    },
-    {
-      "id": "Atlantic Diving Supply||Atlantic Diving Supply",
-      "name": "Atlantic Diving Supply",
-      "childOf": "Atlantic Diving Supply",
       "category": "company"
     },
     {
@@ -46274,18 +43088,6 @@
       "category": "company"
     },
     {
-      "id": "CACI-ISS||CACI-ISS",
-      "name": "CACI-ISS",
-      "childOf": "CACI-ISS",
-      "category": "company"
-    },
-    {
-      "id": "Cambridge International Systems||Cambridge International Systems",
-      "name": "Cambridge International Systems",
-      "childOf": "Cambridge International Systems",
-      "category": "company"
-    },
-    {
       "id": "Canon U.S.A.||Canon",
       "name": "Canon U.S.A.",
       "childOf": "Canon",
@@ -46298,39 +43100,9 @@
       "category": "company"
     },
     {
-      "id": "Carahsoft Technology||Carahsoft Technology",
-      "name": "Carahsoft Technology",
-      "childOf": "Carahsoft Technology",
-      "category": "company"
-    },
-    {
       "id": "Bulletin News||Cision US",
       "name": "Bulletin News",
       "childOf": "Cision US",
-      "category": "company"
-    },
-    {
-      "id": "Citizant||Citizant",
-      "name": "Citizant",
-      "childOf": "Citizant",
-      "category": "company"
-    },
-    {
-      "id": "Cogent Solutions||Cogent Solutions",
-      "name": "Cogent Solutions",
-      "childOf": "Cogent Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Compu Dynamics||Compu Dynamics",
-      "name": "Compu Dynamics",
-      "childOf": "Compu Dynamics",
-      "category": "company"
-    },
-    {
-      "id": "Corp Ten International||Corp Ten International",
-      "name": "Corp Ten International",
-      "childOf": "Corp Ten International",
       "category": "company"
     },
     {
@@ -46340,33 +43112,15 @@
       "category": "company"
     },
     {
-      "id": "CSRA||CSRA",
-      "name": "CSRA",
-      "childOf": "CSRA",
-      "category": "company"
-    },
-    {
       "id": "Cubic Global Defense||Cubic",
       "name": "Cubic Global Defense",
       "childOf": "Cubic",
       "category": "company"
     },
     {
-      "id": "Customer Value Partners||Customer Value Partners",
-      "name": "Customer Value Partners",
-      "childOf": "Customer Value Partners",
-      "category": "company"
-    },
-    {
       "id": "Project Performance Company||Data Systems Analysts",
       "name": "Project Performance Company",
       "childOf": "Data Systems Analysts",
-      "category": "company"
-    },
-    {
-      "id": "Delany, Siegel, Zorn & Associates||Delany, Siegel, Zorn & Associates",
-      "name": "Delany, Siegel, Zorn & Associates",
-      "childOf": "Delany, Siegel, Zorn & Associates",
       "category": "company"
     },
     {
@@ -46382,27 +43136,9 @@
       "category": "company"
     },
     {
-      "id": "Dev Technology Group||Dev Technology Group",
-      "name": "Dev Technology Group",
-      "childOf": "Dev Technology Group",
-      "category": "company"
-    },
-    {
       "id": "DLT Solutions||DLT Mergerco",
       "name": "DLT Solutions",
       "childOf": "DLT Mergerco",
-      "category": "company"
-    },
-    {
-      "id": "Dun & Bradstreet||Dun & Bradstreet",
-      "name": "Dun & Bradstreet",
-      "childOf": "Dun & Bradstreet",
-      "category": "company"
-    },
-    {
-      "id": "Economic Systems||Economic Systems",
-      "name": "Economic Systems",
-      "childOf": "Economic Systems",
       "category": "company"
     },
     {
@@ -46418,18 +43154,6 @@
       "category": "company"
     },
     {
-      "id": "Elite Shooting Sports||Elite Shooting Sports",
-      "name": "Elite Shooting Sports",
-      "childOf": "Elite Shooting Sports",
-      "category": "company"
-    },
-    {
-      "id": "Emergent||Emergent",
-      "name": "Emergent",
-      "childOf": "Emergent",
-      "category": "company"
-    },
-    {
       "id": "Kadix Systems||Engility",
       "name": "Kadix Systems",
       "childOf": "Engility",
@@ -46442,51 +43166,9 @@
       "category": "company"
     },
     {
-      "id": "ESCGov||ESCGov",
-      "name": "ESCGov",
-      "childOf": "ESCGov",
-      "category": "company"
-    },
-    {
-      "id": "EWA Government Systems||EWA Government Systems",
-      "name": "EWA Government Systems",
-      "childOf": "EWA Government Systems",
-      "category": "company"
-    },
-    {
-      "id": "Fax Plus||Fax Plus",
-      "name": "Fax Plus",
-      "childOf": "Fax Plus",
-      "category": "company"
-    },
-    {
-      "id": "Federal Lock and Safe||Federal Lock and Safe",
-      "name": "Federal Lock and Safe",
-      "childOf": "Federal Lock and Safe",
-      "category": "company"
-    },
-    {
-      "id": "FedResults||FedResults",
-      "name": "FedResults",
-      "childOf": "FedResults",
-      "category": "company"
-    },
-    {
-      "id": "Forbes||Forbes",
-      "name": "Forbes",
-      "childOf": "Forbes",
-      "category": "company"
-    },
-    {
       "id": "Foster & Freeman USA||Foster & Freeman",
       "name": "Foster & Freeman USA",
       "childOf": "Foster & Freeman",
-      "category": "company"
-    },
-    {
-      "id": "Four Points Technology||Four Points Technology",
-      "name": "Four Points Technology",
-      "childOf": "Four Points Technology",
       "category": "company"
     },
     {
@@ -46514,81 +43196,9 @@
       "category": "company"
     },
     {
-      "id": "Giant Oak||Giant Oak",
-      "name": "Giant Oak",
-      "childOf": "Giant Oak",
-      "category": "company"
-    },
-    {
-      "id": "Global Resource Solutions||Global Resource Solutions",
-      "name": "Global Resource Solutions",
-      "childOf": "Global Resource Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Global Tech||Global Tech",
-      "name": "Global Tech",
-      "childOf": "Global Tech",
-      "category": "company"
-    },
-    {
-      "id": "Global Traveler||Global Traveler",
-      "name": "Global Traveler",
-      "childOf": "Global Traveler",
-      "category": "company"
-    },
-    {
-      "id": "Golden Key Group||Golden Key Group",
-      "name": "Golden Key Group",
-      "childOf": "Golden Key Group",
-      "category": "company"
-    },
-    {
-      "id": "Government Scientific Source||Government Scientific Source",
-      "name": "Government Scientific Source",
-      "childOf": "Government Scientific Source",
-      "category": "company"
-    },
-    {
-      "id": "Govsmart||Govsmart",
-      "name": "Govsmart",
-      "childOf": "Govsmart",
-      "category": "company"
-    },
-    {
       "id": "Grant Thornton||Grant Thornton International",
       "name": "Grant Thornton",
       "childOf": "Grant Thornton International",
-      "category": "company"
-    },
-    {
-      "id": "Griffeye||Griffeye",
-      "name": "Griffeye",
-      "childOf": "Griffeye",
-      "category": "company"
-    },
-    {
-      "id": "Heckler & Koch Defense||Heckler & Koch Defense",
-      "name": "Heckler & Koch Defense",
-      "childOf": "Heckler & Koch Defense",
-      "category": "company"
-    },
-    {
-      "id": "Inserso||Inserso",
-      "name": "Inserso",
-      "childOf": "Inserso",
-      "category": "company"
-    },
-    {
-      "id": "Integrated Finance & Accounting Solutions||Integrated Finance & Accounting Solutions",
-      "name": "Integrated Finance & Accounting Solutions",
-      "childOf": "Integrated Finance & Accounting Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Integration Technologies Group||Integration Technologies Group",
-      "name": "Integration Technologies Group",
-      "childOf": "Integration Technologies Group",
       "category": "company"
     },
     {
@@ -46598,21 +43208,9 @@
       "category": "company"
     },
     {
-      "id": "International Association of Chiefs of Police||International Association of Chiefs of Police",
-      "name": "International Association of Chiefs of Police",
-      "childOf": "International Association of Chiefs of Police",
-      "category": "company"
-    },
-    {
       "id": "Blue Canopy Group||Jacobs Engineering",
       "name": "Blue Canopy Group",
       "childOf": "Jacobs Engineering",
-      "category": "company"
-    },
-    {
-      "id": "Java Productions||Java Productions",
-      "name": "Java Productions",
-      "childOf": "Java Productions",
       "category": "company"
     },
     {
@@ -46628,75 +43226,9 @@
       "category": "company"
     },
     {
-      "id": "JTF Business Systems||JTF Business Systems",
-      "name": "JTF Business Systems",
-      "childOf": "JTF Business Systems",
-      "category": "company"
-    },
-    {
-      "id": "Kapsuun Group||Kapsuun Group",
-      "name": "Kapsuun Group",
-      "childOf": "Kapsuun Group",
-      "category": "company"
-    },
-    {
-      "id": "Kearney & Company||Kearney & Company",
-      "name": "Kearney & Company",
-      "childOf": "Kearney & Company",
-      "category": "company"
-    },
-    {
-      "id": "Knight Point Systems||Knight Point Systems",
-      "name": "Knight Point Systems",
-      "childOf": "Knight Point Systems",
-      "category": "company"
-    },
-    {
-      "id": "Knowledgebank||Knowledgebank",
-      "name": "Knowledgebank",
-      "childOf": "Knowledgebank",
-      "category": "company"
-    },
-    {
       "id": "Konica Minolta Business Solutions U.S.A.||Konica Minolta Holdings",
       "name": "Konica Minolta Business Solutions U.S.A.",
       "childOf": "Konica Minolta Holdings",
-      "category": "company"
-    },
-    {
-      "id": "Lighted Signs Direct||Lighted Signs Direct",
-      "name": "Lighted Signs Direct",
-      "childOf": "Lighted Signs Direct",
-      "category": "company"
-    },
-    {
-      "id": "Logistics Applications||Logistics Applications",
-      "name": "Logistics Applications",
-      "childOf": "Logistics Applications",
-      "category": "company"
-    },
-    {
-      "id": "LT Business Solutions||LT Business Solutions",
-      "name": "LT Business Solutions",
-      "childOf": "LT Business Solutions",
-      "category": "company"
-    },
-    {
-      "id": "MA Federal||MA Federal",
-      "name": "MA Federal",
-      "childOf": "MA Federal",
-      "category": "company"
-    },
-    {
-      "id": "Magnet Forensics USA||Magnet Forensics USA",
-      "name": "Magnet Forensics USA",
-      "childOf": "Magnet Forensics USA",
-      "category": "company"
-    },
-    {
-      "id": "Management Concepts||Management Concepts",
-      "name": "Management Concepts",
-      "childOf": "Management Concepts",
       "category": "company"
     },
     {
@@ -46706,171 +43238,15 @@
       "category": "company"
     },
     {
-      "id": "Metrotec||Metrotec",
-      "name": "Metrotec",
-      "childOf": "Metrotec",
-      "category": "company"
-    },
-    {
-      "id": "Miracle Systems||Miracle Systems",
-      "name": "Miracle Systems",
-      "childOf": "Miracle Systems",
-      "category": "company"
-    },
-    {
-      "id": "Mitre||Mitre",
-      "name": "Mitre",
-      "childOf": "Mitre",
-      "category": "company"
-    },
-    {
-      "id": "mLINQS||mLINQS",
-      "name": "mLINQS",
-      "childOf": "mLINQS",
-      "category": "company"
-    },
-    {
-      "id": "Model Concept Communications||Model Concept Communications",
-      "name": "Model Concept Communications",
-      "childOf": "Model Concept Communications",
-      "category": "company"
-    },
-    {
-      "id": "MVM||MVM",
-      "name": "MVM",
-      "childOf": "MVM",
-      "category": "company"
-    },
-    {
-      "id": "Mythics||Mythics",
-      "name": "Mythics",
-      "childOf": "Mythics",
-      "category": "company"
-    },
-    {
-      "id": "NAL Research||NAL Research",
-      "name": "NAL Research",
-      "childOf": "NAL Research",
-      "category": "company"
-    },
-    {
-      "id": "National Sheriffs' Association||National Sheriffs' Association",
-      "name": "National Sheriffs' Association",
-      "childOf": "National Sheriffs' Association",
-      "category": "company"
-    },
-    {
-      "id": "Neil S. Hibler, Ph.D.||Neil S. Hibler, Ph.D.",
-      "name": "Neil S. Hibler, Ph.D.",
-      "childOf": "Neil S. Hibler, Ph.D.",
-      "category": "company"
-    },
-    {
-      "id": "Nelson Enterprise Technology Services||Nelson Enterprise Technology Services",
-      "name": "Nelson Enterprise Technology Services",
-      "childOf": "Nelson Enterprise Technology Services",
-      "category": "company"
-    },
-    {
-      "id": "Neostek||Neostek",
-      "name": "Neostek",
-      "childOf": "Neostek",
-      "category": "company"
-    },
-    {
-      "id": "Norfolk Safe Company||Norfolk Safe Company",
-      "name": "Norfolk Safe Company",
-      "childOf": "Norfolk Safe Company",
-      "category": "company"
-    },
-    {
-      "id": "Northrop Grumman Systems||Northrop Grumman Systems",
-      "name": "Northrop Grumman Systems",
-      "childOf": "Northrop Grumman Systems",
-      "category": "company"
-    },
-    {
-      "id": "Office Group||Office Group",
-      "name": "Office Group",
-      "childOf": "Office Group",
-      "category": "company"
-    },
-    {
-      "id": "Omniplex World Services||Omniplex World Services",
-      "name": "Omniplex World Services",
-      "childOf": "Omniplex World Services",
-      "category": "company"
-    },
-    {
-      "id": "Panamerica Computers||Panamerica Computers",
-      "name": "Panamerica Computers",
-      "childOf": "Panamerica Computers",
-      "category": "company"
-    },
-    {
-      "id": "Patriot Comm||Patriot Comm",
-      "name": "Patriot Comm",
-      "childOf": "Patriot Comm",
-      "category": "company"
-    },
-    {
-      "id": "Peraton||Peraton",
-      "name": "Peraton",
-      "childOf": "Peraton",
-      "category": "company"
-    },
-    {
       "id": "Aimpoint||PGS Group",
       "name": "Aimpoint",
       "childOf": "PGS Group",
       "category": "company"
     },
     {
-      "id": "Phacil||Phacil",
-      "name": "Phacil",
-      "childOf": "Phacil",
-      "category": "company"
-    },
-    {
-      "id": "Potomacwave Consulting||Potomacwave Consulting",
-      "name": "Potomacwave Consulting",
-      "childOf": "Potomacwave Consulting",
-      "category": "company"
-    },
-    {
       "id": "PricewaterhouseCoopers Public Sector||PriceWaterhouseCoopers",
       "name": "PricewaterhouseCoopers Public Sector",
       "childOf": "PriceWaterhouseCoopers",
-      "category": "company"
-    },
-    {
-      "id": "Procentrix||Procentrix",
-      "name": "Procentrix",
-      "childOf": "Procentrix",
-      "category": "company"
-    },
-    {
-      "id": "Pyramid Systems||Pyramid Systems",
-      "name": "Pyramid Systems",
-      "childOf": "Pyramid Systems",
-      "category": "company"
-    },
-    {
-      "id": "Qbase-Mcneil Integrated Solutions||Qbase-Mcneil Integrated Solutions",
-      "name": "Qbase-Mcneil Integrated Solutions",
-      "childOf": "Qbase-Mcneil Integrated Solutions",
-      "category": "company"
-    },
-    {
-      "id": "River City Range||River City Range",
-      "name": "River City Range",
-      "childOf": "River City Range",
-      "category": "company"
-    },
-    {
-      "id": "Rudman Wink Associates||Rudman Wink Associates",
-      "name": "Rudman Wink Associates",
-      "childOf": "Rudman Wink Associates",
       "category": "company"
     },
     {
@@ -46892,57 +43268,15 @@
       "category": "company"
     },
     {
-      "id": "Sevatec||Sevatec",
-      "name": "Sevatec",
-      "childOf": "Sevatec",
-      "category": "company"
-    },
-    {
       "id": "Greenzone Solutions||Shah Group",
       "name": "Greenzone Solutions",
       "childOf": "Shah Group",
       "category": "company"
     },
     {
-      "id": "Shine Enterprises||Shine Enterprises",
-      "name": "Shine Enterprises",
-      "childOf": "Shine Enterprises",
-      "category": "company"
-    },
-    {
       "id": "Avaya Federal Solutions||Sierra Holdings",
       "name": "Avaya Federal Solutions",
       "childOf": "Sierra Holdings",
-      "category": "company"
-    },
-    {
-      "id": "Singhal & Co.||Singhal & Co.",
-      "name": "Singhal & Co.",
-      "childOf": "Singhal & Co.",
-      "category": "company"
-    },
-    {
-      "id": "SMD||SMD",
-      "name": "SMD",
-      "childOf": "SMD",
-      "category": "company"
-    },
-    {
-      "id": "Snap||Snap",
-      "name": "Snap",
-      "childOf": "Snap",
-      "category": "company"
-    },
-    {
-      "id": "Southern Police Equipment||Southern Police Equipment",
-      "name": "Southern Police Equipment",
-      "childOf": "Southern Police Equipment",
-      "category": "company"
-    },
-    {
-      "id": "Sprint Communications||Sprint Communications",
-      "name": "Sprint Communications",
-      "childOf": "Sprint Communications",
       "category": "company"
     },
     {
@@ -46958,99 +43292,15 @@
       "category": "company"
     },
     {
-      "id": "STG International||STG International",
-      "name": "STG International",
-      "childOf": "STG International",
-      "category": "company"
-    },
-    {
-      "id": "Strategic Enterprise Solutions||Strategic Enterprise Solutions",
-      "name": "Strategic Enterprise Solutions",
-      "childOf": "Strategic Enterprise Solutions",
-      "category": "company"
-    },
-    {
-      "id": "Swish Data Corporation||Swish Data Corporation",
-      "name": "Swish Data Corporation",
-      "childOf": "Swish Data Corporation",
-      "category": "company"
-    },
-    {
-      "id": "Tactical & Survival Specialties||Tactical & Survival Specialties",
-      "name": "Tactical & Survival Specialties",
-      "childOf": "Tactical & Survival Specialties",
-      "category": "company"
-    },
-    {
-      "id": "Tenica & Associates||Tenica & Associates",
-      "name": "Tenica & Associates",
-      "childOf": "Tenica & Associates",
-      "category": "company"
-    },
-    {
-      "id": "Thomson Reuters Special Services||Thomson Reuters Special Services",
-      "name": "Thomson Reuters Special Services",
-      "childOf": "Thomson Reuters Special Services",
-      "category": "company"
-    },
-    {
-      "id": "Thundercat Technology||Thundercat Technology",
-      "name": "Thundercat Technology",
-      "childOf": "Thundercat Technology",
-      "category": "company"
-    },
-    {
-      "id": "Tidewater Distributors||Tidewater Distributors",
-      "name": "Tidewater Distributors",
-      "childOf": "Tidewater Distributors",
-      "category": "company"
-    },
-    {
-      "id": "Training Connection||Training Connection",
-      "name": "Training Connection",
-      "childOf": "Training Connection",
-      "category": "company"
-    },
-    {
-      "id": "Tri-Cor Industries||Tri-Cor Industries",
-      "name": "Tri-Cor Industries",
-      "childOf": "Tri-Cor Industries",
-      "category": "company"
-    },
-    {
-      "id": "Tri-Mech Solutions||Tri-Mech Solutions",
-      "name": "Tri-Mech Solutions",
-      "childOf": "Tri-Mech Solutions",
-      "category": "company"
-    },
-    {
       "id": "GTSI||Unicom Government",
       "name": "GTSI",
       "childOf": "Unicom Government",
       "category": "company"
     },
     {
-      "id": "US Anodizing||US Anodizing",
-      "name": "US Anodizing",
-      "childOf": "US Anodizing",
-      "category": "company"
-    },
-    {
-      "id": "Valytics||Valytics",
-      "name": "Valytics",
-      "childOf": "Valytics",
-      "category": "company"
-    },
-    {
       "id": "Kroll Government Services||Veritas Capital Fund",
       "name": "Kroll Government Services",
       "childOf": "Veritas Capital Fund",
-      "category": "company"
-    },
-    {
-      "id": "Virginia Tech||Virginia Tech",
-      "name": "Virginia Tech",
-      "childOf": "Virginia Tech",
       "category": "company"
     },
     {
@@ -47066,81 +43316,9 @@
       "category": "company"
     },
     {
-      "id": "XL Associates||XL Associates",
-      "name": "XL Associates",
-      "childOf": "XL Associates",
-      "category": "company"
-    },
-    {
-      "id": "Zenetex||Zenetex",
-      "name": "Zenetex",
-      "childOf": "Zenetex",
-      "category": "company"
-    },
-    {
-      "id": "Zephyr Aviation||Zephyr Aviation",
-      "name": "Zephyr Aviation",
-      "childOf": "Zephyr Aviation",
-      "category": "company"
-    },
-    {
-      "id": "Vermont State Colleges||Vermont State Colleges",
-      "name": "Vermont State Colleges",
-      "childOf": "Vermont State Colleges",
-      "category": "company"
-    },
-    {
-      "id": "Amazon.com||Amazon.com",
-      "name": "Amazon.com",
-      "childOf": "Amazon.com",
-      "category": "company"
-    },
-    {
-      "id": "B.E. Meyers & Co.||B.E. Meyers & Co.",
-      "name": "B.E. Meyers & Co.",
-      "childOf": "B.E. Meyers & Co.",
-      "category": "company"
-    },
-    {
-      "id": "Cascade Networks||Cascade Networks",
-      "name": "Cascade Networks",
-      "childOf": "Cascade Networks",
-      "category": "company"
-    },
-    {
-      "id": "County of Clark||County of Clark",
-      "name": "County of Clark",
-      "childOf": "County of Clark",
-      "category": "company"
-    },
-    {
       "id": "Risklens||CXOWare",
       "name": "Risklens",
       "childOf": "CXOWare",
-      "category": "company"
-    },
-    {
-      "id": "FileOnQ||FileOnQ",
-      "name": "FileOnQ",
-      "childOf": "FileOnQ",
-      "category": "company"
-    },
-    {
-      "id": "JDL Digital Systems||JDL Digital Systems",
-      "name": "JDL Digital Systems",
-      "childOf": "JDL Digital Systems",
-      "category": "company"
-    },
-    {
-      "id": "Kel-Tech Plastics||Kel-Tech Plastics",
-      "name": "Kel-Tech Plastics",
-      "childOf": "Kel-Tech Plastics",
-      "category": "company"
-    },
-    {
-      "id": "Microsoft||Microsoft",
-      "name": "Microsoft",
-      "childOf": "Microsoft",
       "category": "company"
     },
     {
@@ -47150,99 +43328,15 @@
       "category": "company"
     },
     {
-      "id": "Seattle Police Athletic Association||Seattle Police Athletic Association",
-      "name": "Seattle Police Athletic Association",
-      "childOf": "Seattle Police Athletic Association",
-      "category": "company"
-    },
-    {
-      "id": "Truckvault||Truckvault",
-      "name": "Truckvault",
-      "childOf": "Truckvault",
-      "category": "company"
-    },
-    {
-      "id": "Zones||Zones",
-      "name": "Zones",
-      "childOf": "Zones",
-      "category": "company"
-    },
-    {
-      "id": "Ansi-Asq National Accreditation Board||Ansi-Asq National Accreditation Board",
-      "name": "Ansi-Asq National Accreditation Board",
-      "childOf": "Ansi-Asq National Accreditation Board",
-      "category": "company"
-    },
-    {
-      "id": "Digital Intelligence||Digital Intelligence",
-      "name": "Digital Intelligence",
-      "childOf": "Digital Intelligence",
-      "category": "company"
-    },
-    {
-      "id": "Hale Outdoor Products||Hale Outdoor Products",
-      "name": "Hale Outdoor Products",
-      "childOf": "Hale Outdoor Products",
-      "category": "company"
-    },
-    {
-      "id": "Johnson Controls||Johnson Controls",
-      "name": "Johnson Controls",
-      "childOf": "Johnson Controls",
-      "category": "company"
-    },
-    {
       "id": "Spacesaver Storage Systems||Krueger International",
       "name": "Spacesaver Storage Systems",
       "childOf": "Krueger International",
       "category": "company"
     },
     {
-      "id": "Medalcraft Mint||Medalcraft Mint",
-      "name": "Medalcraft Mint",
-      "childOf": "Medalcraft Mint",
-      "category": "company"
-    },
-    {
-      "id": "National Business Furniture||National Business Furniture",
-      "name": "National Business Furniture",
-      "childOf": "National Business Furniture",
-      "category": "company"
-    },
-    {
-      "id": "Clearavenue||Clearavenue",
-      "name": "Clearavenue",
-      "childOf": "Clearavenue",
-      "category": "company"
-    },
-    {
-      "id": "Evacusled||Evacusled",
-      "name": "Evacusled",
-      "childOf": "Evacusled",
-      "category": "company"
-    },
-    {
-      "id": "Kwizcom Corporation||Kwizcom Corporation",
-      "name": "Kwizcom Corporation",
-      "childOf": "Kwizcom Corporation",
-      "category": "company"
-    },
-    {
       "id": "Safer Society Group Sweden||Netclean Technologies Sweden",
       "name": "Safer Society Group Sweden",
       "childOf": "Netclean Technologies Sweden",
-      "category": "company"
-    },
-    {
-      "id": "Setcan||Setcan",
-      "name": "Setcan",
-      "childOf": "Setcan",
-      "category": "company"
-    },
-    {
-      "id": "Websedge||Websedge",
-      "name": "Websedge",
-      "childOf": "Websedge",
       "category": "company"
     },
     {
