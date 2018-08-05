@@ -8,7 +8,7 @@ export default function(chart){
 
   if (select("#lexical-fog-svg").selectAll("text").empty()){
     const width = chart.width;
-    const height = fillV2DivHeight("#wall-of-shame-header");
+    const height = fillV2DivHeight("#wall-of-gain-header");
     select("#lexical-fog-svg")
       .attr("class", "wordcloud")
       .append("g")

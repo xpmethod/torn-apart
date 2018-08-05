@@ -162,8 +162,12 @@
   box-shadow: 0px 0px 50px 5px #000000 !important;
 }
 
-.orange-dot, .purple-dot {
+.orange-dot, .green-dot, .purple-dot {
   fill-opacity: 0.8;
+}
+
+.green-dot {
+  fill: $green;
 }
 
 .purple-dot {

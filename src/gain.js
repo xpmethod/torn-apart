@@ -1,8 +1,8 @@
 import $ from "jquery";
-import display from "./shame/display";
+import display from "./gain/display";
 
 export default function(){
   $("#v2-div").show();
-  $("#shame-viz").show();
+  $("#gain-viz").show();
   display();
 }

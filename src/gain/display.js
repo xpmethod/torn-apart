@@ -19,7 +19,7 @@ export default function() {
   // Set some constants.
   //const margins = {top: 10, bottom: 32, left: 32, right: rem};
 
-  const svgHeight = fillV2DivHeight("#wall-of-shame-header");
+  const svgHeight = fillV2DivHeight("#wall-of-gain-header");
  
 
   // The width is calculated on the fly by measuring how wide this div is.
