@@ -23,13 +23,13 @@ lat,lon,name,city,state,country,address,phone,email,twitter,website,
 31.771382,-106.477943,Las Americas Immigrant Advocacy Center,El Paso,Texas,United States,"1500 E. Yandell Dr., El Paso, TX 79902",(915) 544-5126,administrator@las-americas.org,https://twitter.com/lasamericasiac,http://las-americas.org/,
 26.186819,-98.135613,La Unión del Pueblo Entero (LUPE),San Juan,Texas,United States,"1601 U.S. 83 Business, San Juan, TX 78589",(956) 787-2233,lupe@lupenet.org,https://twitter.com/LUPE_rgv,https://lupenet.org/,
 41.785719,-87.598532,The Young Center for Immigrant Children's Rights,Chicago,Illinois,United States,"6020 S University Ave, Chicago, IL 60637",(773) 702-9560,,https://twitter.com/TheYoungCenter,https://www.theyoungcenter.org/contact,
-31.44,-111.02,Kino Border Initiative,Nogales,Arizona,"United States, Mexico","P.O. Box 159, Nogales, AZ 85628",(520) 287-2370,,https://twitter.com/KinoBorder,https://www.kinoborderinitiative.org/,
+31.44,-111.02,Kino Border Initiative,Nogales,Arizona,International,"P.O. Box 159, Nogales, AZ 85628",(520) 287-2370,,https://twitter.com/KinoBorder,https://www.kinoborderinitiative.org/,
 40.704617,-74.011233,Human Rights First,New York,New York,United States,"75 Broad St, 31st Floor, New York, NY 10004",(202) 370-3323,,https://twitter.com/humanrights1st,https://www.humanrightsfirst.org/,
 31.795634,-106.461737,Border Network for Human Rights,El Paso,Texas,United States,"2115 N Piedras St, El Paso, TX 79930",(575) 520-8851,,https://twitter.com/bnhr,http://bnhr.org/,
 40.75098,-73.984311,Women's Refugee Commission,New York,New York,United States,"15 West 37th Street, 9th Floor, New York, NY 10018",(212) 551-3115,,https://twitter.com/wrcommission,https://www.womensrefugeecommission.org/,
 32.175151,-110.928077,Colibri Center for Human Rights,Tucson,Arizona,United States,"Pima County Office of the Medical Examiner, 2825 E. District Street, Tucson, AZ 85714",(520) 724-8644,,https://twitter.com/colibricenter,http://www.colibricenter.org/,
 29.743453,-95.369604,Houston Immigration Legal Services Collaborative,Houston,Texas,United States,"1028, 2502 La Branch St, Houston, TX 77004",(832) 554-6295,,https://twitter.com/@HTXimmigration/,https://www.houstonimmigration.org/,
-31.720408,-106.339947,Hope Border Institute,"Las Cruces, El Paso, Cd. Juárez","New Mexico, Texas, Chihuahua",United States & Mexico,"499 St. Matthews St., El Paso, TX 79907",(915)8428400,,https://twitter.com/HopeBorder,https://www.hopeborder.org/,
+31.720408,-106.339947,Hope Border Institute,"Las Cruces, El Paso, Cd. Juárez","New Mexico, Texas, Chihuahua",International,"499 St. Matthews St., El Paso, TX 79907",(915)8428400,,https://twitter.com/HopeBorder,https://www.hopeborder.org/,
 47.602722,-122.333233,Northwest Immigrant Rights Project,Seattle,Washington,United States,"615 2nd Ave, Suite 400, Seattle, WA 98104",(206) 587-4009,,https://twitter.com/nwirp,https://www.nwirp.org/,
 27.226207,-98.143649,South Texas Human Rights Center,Falfurrias,Texas,United States,"117 E. Miller St., Falfurrias, TX 78355",(361) 325-2555,,https://twitter.com/STXHumanRights,https://southtexashumanrights.org/,
 31.77835906,-106.4672411,"Diocesan Migrant & Refugee Services, Inc.",El Paso,Texas,United States,"2400 E Yandell Dr, El Paso, TX 79903",,,https://twitter.com/elpasodmrs,http://www.dmrs-ep.org/,
@@ -94,7 +94,7 @@ lat,lon,name,city,state,country,address,phone,email,twitter,website,
 25.6902295,-100.3017518,Ejército de Salvacion A.C.,Monterrey,Nuevo León,México,"Carvajal y de la Cueva No. 1716, Col. Primero de Mayo, Monterrey, Nuevo León C.P. 64580",(818) 375 0379,ejercitodesalvacion.monterrey@hotmail.com,,https://www.facebook.com/cuerpomty/,
 25.6655066,-100.2140266,Casa San Nicolas Tolentino (Casanicolas),Guadalupe,Nuevo León,México,"Emiliano Zapata No. 4417, Esq. Serafín Peña, Guadalupe, Nuevo León C.P. 67180",52(81)2169-8232,casanicolasnl@gmail.com,,https://www.casanicolas.org/ ,
 32.5366925,-117.0358461,Enclave Caracol,Tijuana,Baja California,México,Calle Primera 8220 (En frente del Museo de Cera),(664) 379-1818,,@enclavecaracol,https://www.facebook.com/enclavecaracol/,
-,,Casa INDI,Monterrey,Nuevo Leon,México,"Av. Bernardo Reyes #2404 Col. Industrial, Monterrey N.L.",,contacto@casaindi.com.mx ,https://twitter.com/casaindi?lang=en,http://casaindi.org/,
+,,Casa INDI,Monterrey,Nuevo Leon,México,"Av. Bernardo Reyes #2404 Col. Industrial, Monterrey N.L.",,contacto@casaindi.com.mx ,https://twitter.com/casaindi,http://casaindi.org/,
 ,,Espacio migrante,Tijuana,Baja California,México,,(664) 607-3458,espaciomigrante@gmail.com,,http://espaciomigranteac.org,
 ,,Grupo Beta,Ciudades Fronterizas,Estados Fronterizos,México,,,,,https://www.gob.mx/inm/acciones-y-programas/grupos-beta-de-proteccion-a-migrantes,
 31.3282891,-110.9576099,Grupo Beta Nogales,Nogales,Sonora,México,"Cale Reforma 465, Col. El Rosario, C. P. 84020, Nogales, Sonora",(631) 312 6180,,,https://www.gob.mx/inm/acciones-y-programas/grupos-beta-de-proteccion-a-migrantes,
@@ -133,12 +133,12 @@ lat,lon,name,city,state,country,address,phone,email,twitter,website,
 32.684959,-97.32208,RAICES,Fort Worth,Texas,United States,"4200 South Freeway, Suite 702, Fort Worth, TX 76115",(817) 717-9377,jennifer.deharo@raicestexas.org,https://twitter.com/RAICESTEXAS,https://www.raicestexas.org/,
 29.524067,-98.388032,RAICES North,San Antonio,Texas,United States,"5121 Crestway Drive, #105, San Antonio, TX 78239",(210) 226-7722,mayra.jimenez@raicestexas.org,https://twitter.com/RAICESTEXAS,https://www.raicestexas.org/,
 29.445785,-98.522885,RAICES Community Education Center,San Antonio,Texas,United States,"802 Kentucky Ave, San Antonio, TX 78201",,jenny.hixon@raicestexas.org,,,
-,,Pueblo Sin Fronteras,,,"Central America, Mexico, United States",,,,https://twitter.com/pueblosf,http://www.pueblosinfronteras.org/,
+,,Pueblo Sin Fronteras,,,International,,,,https://twitter.com/pueblosf,http://www.pueblosinfronteras.org/,
 38.888493,-77.180496,Together Rising,Falls Church,Virginia,United States,"800 West Broad Street #6409, Falls Church, VA 22040",,contact@togetherrising.org,https://twitter.com/togetherrising,https://togetherrising.org/,
 34.059441,-118.208839,Al Otro Lado,Los Angeles,Tijuana,México,"1200 N State St #1008, Los Angeles, CA 90033",,,https://twitter.com/alotrolado_org,https://alotrolado.org/,
 40.70861,-74.014804,Asylum Seeker Advocacy Project,New York,New York,United States,"40 Rector Street, 9th Floor, New York, NY 10006",,,https://twitter.com/asylumadvocacy,https://asylumadvocacy.org/,
 26.199648,-97.677966,Young Center for Immigrants Children Rights,Harlingen,Texas,United States,"806 Morgan Blvd Suite K, Harlingen, TX 78550",(956) 230-1850,,https://twitter.com/TheYoungCenter,https://www.theyoungcenter.org/,
-31.760908,-106.479999,Detained Migrant Solidarity Committee,El Paso,Texas,"United States, Mexico","816 Magoffin Ave. El Paso, TX 79901",(915) 229-6086,,https://twitter.com/dmscelpaso,https://dmscelpaso.wixsite.com/dmscelpaso/blog/author/Rev.-Robert-Mosher,
+31.760908,-106.479999,Detained Migrant Solidarity Committee,El Paso,Texas,International,"816 Magoffin Ave. El Paso, TX 79901",(915) 229-6086,,https://twitter.com/dmscelpaso,https://dmscelpaso.wixsite.com/dmscelpaso/blog/author/Rev.-Robert-Mosher,
 45.502418,-122.656443,Innovation Law Lab,Portland,Oregon,United States,"P.O. Box 40103, Portland, Oregon 97240",,,https://twitter.com/iawlab?lang=en,https://innovationlawlab.org/,
 29.7076758,-95.2792499,Justice for Our Neighbors,Houston,Texas,United States,"2220 Broadway, Houston, TX 77012",(713) 454-6470,,https://twitter.com/jfon_tx,http://jfonhouston.org/,
 30.2705902,-97.742339,The Austin Bar Association Civil Right and Immigration Section,Austin,Texas,United States,"816 Congress Ave., Ste. 700, Austin, TX 78701",(512) 472-0279,,http://www.twitter.com/theaustinbar,http://www.austinbar.org/for-attorneys/sections/civil-rights-immigration-section/,
@@ -177,23 +177,7 @@ lat,lon,name,city,state,country,address,phone,email,twitter,website,
 37.781166,-122.415844,Immigrant Women Too,San Francisco,California,United States,"200 McAllister Street, San Francisco, CA 94102",,krongbrianna@uchastings.edu,,http://www.immigrantwomentoo.org/,
 35.678787,-105.94116,Santa Fe Dreamers Project ,Santa Fe,New Mexico,United States,"PO Box 8009, Santa Fe, NM 87504",(505) 490-2789,info@santafedreamersproject.org,,http://www.santafedreamersproject.org/what-we-do/,
 30.255033,-97.719288,Grassroots Leadership,Austin,Texas,United States,"2301 East Cesar Chavez St., Austin, TX 78702",(512) 499-8111,cmunoz@grassrootsleadership.org,@Grassroots_News,https://grassrootsleadership.org/,
-20.990433,-101.148915,"
-
-Dream in México
-
-",León,Guanajuato,México,,"(213)928
-2917 / 477
-775 0485","
-
-info@dreaminmexico.org
-
-","
-
-@dreaminmexico
-
-","dreaminmexico.org
-
-",
+20.990433,-101.148915,Dream in México,León,Guanajuato,México,,(213) 928 2917 / 477 775 0485,info@dreaminmexico.org,@dreaminmexico,dreaminmexico.org,
 19.285931,-98.387903,New Comienzos,Ciudad de México,Ciudad de México,México,,55-77-33-14-36,info@newcomienzos.org,@NewComienzos,https://www.newcomienzos.org/,
 19.430952,-99.143573,Otros Dreamers en Acción,Ciudad de México,Ciudad de México,México,"José María Marroquí 83, Ciudad de Mexic, Mexico 06000",,odamx2016@gmail.com,@OtrosDreams_ODA,https://www.facebook.com/OtrosDreams/,
 ,,New Mexico Immigrant Law Center,Albuquerque,New Mexico,United States,"PO Box 7040, Albuquerque, NM 87194",(505) 247-1023,info@nmilc.org,@NMILC,http://nmilc.org/,

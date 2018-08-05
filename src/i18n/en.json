@@ -22,6 +22,9 @@
   "ta-lines": "Lines",
   "ta-beds": "Beds",
   "ta-banned": "Banned",
+  "ta-international": "International",
+  "ta-united-states": "United States",
+  "ta-mexico": "Mexico",
   "ta-v1-adp": "ADP",
   "ta-v1-facilities": "Facilities",
   "ta-v1-bookins": "Bookins",
@@ -87,6 +90,11 @@
 	"ta-v2-intersectionality-pie-chart": "Intersectionality",
 	"ta-v2-intersectional": "Business owned by a woman of color",
 	"ta-v2-non-intersectional": "Business owned by a person from other marginalized category",
-	"ta-v2-piechart-description": "These pie charts show the percentages of award recipients who self-identify as belonging to various marginalized categories. In the case of the Ethnicity and the Intersectionality pie chart, the total pie represents all people who identified as part of any of the marginalized categories, not all award recipients in general. For the gender chart, the total pie represents all award recipients. The category labels here in most cases are those used in the award documents."
+	"ta-v2-piechart-description": "These pie charts show the percentages of award recipients who self-identify as belonging to various marginalized categories. In the case of the Ethnicity and the Intersectionality pie chart, the total pie represents all people who identified as part of any of the marginalized categories, not all award recipients in general. For the gender chart, the total pie represents all award recipients. The category labels here in most cases are those used in the award documents.",
+  "ta-allies-legend-entry": "Allied organizations",
+  "ta-allies-button": "Show allies directory",
+  "ta-allies-supp-text": "Supplemental text related to allies",
+  "ta-allies-curated-list": "The list below was curated by our research team and is by no means exhaustive.",
+  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory"
 }
 
