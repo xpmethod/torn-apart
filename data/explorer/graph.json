@@ -42490,6 +42490,7 @@
       "id": "Bowhead Support Group||Bowhead",
       "name": "Bowhead Support Group",
       "childOf": "Bowhead",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -42510,11 +42511,15 @@
         }
       ],
       "total_value": 16415527
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "KCorp Support Services||K'oyitl'ots'ina",
       "name": "KCorp Support Services",
       "childOf": "K'oyitl'ots'ina",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50019,11 +50024,759 @@
         }
       ],
       "total_value": 18778
+=======
+      "category": "company"
+    },
+    {
+      "id": "Akima Global Services||Nana Regional",
+      "name": "Akima Global Services",
+      "childOf": "Nana Regional",
+      "category": "company"
+    },
+    {
+      "id": "Cold Box Express||CBX Holding",
+      "name": "Cold Box Express",
+      "childOf": "CBX Holding",
+      "category": "company"
+    },
+    {
+      "id": "Montgomery Marketing||MMI Outdoor",
+      "name": "Montgomery Marketing",
+      "childOf": "MMI Outdoor",
+      "category": "company"
+    },
+    {
+      "id": "FPMI Solutions||Paladin Capital",
+      "name": "FPMI Solutions",
+      "childOf": "Paladin Capital",
+      "category": "company"
+    },
+    {
+      "id": "University of Alabama at Birmingham||University of Alabama System",
+      "name": "University of Alabama at Birmingham",
+      "childOf": "University of Alabama System",
+      "category": "company"
+    },
+    {
+      "id": "Crime Information Center Arkansas||State of Arkansas",
+      "name": "Crime Information Center Arkansas",
+      "childOf": "State of Arkansas",
+      "category": "company"
+    },
+    {
+      "id": "360 Total Concept Consulting||361 Total Concept Consulting",
+      "name": "360 Total Concept Consulting",
+      "childOf": "361 Total Concept Consulting",
+      "category": "company"
+    },
+    {
+      "id": "Aramark Uniform & Career Apparel||Aramark Holdings",
+      "name": "Aramark Uniform & Career Apparel",
+      "childOf": "Aramark Holdings",
+      "category": "company"
+    },
+    {
+      "id": "Hariom||Comfort Suites",
+      "name": "Hariom",
+      "childOf": "Comfort Suites",
+      "category": "company"
+    },
+    {
+      "id": "Linkedin||Microsoft",
+      "name": "Linkedin",
+      "childOf": "Microsoft",
+      "category": "company"
+    },
+    {
+      "id": "Nc4 Public Sector||NC4",
+      "name": "Nc4 Public Sector",
+      "childOf": "NC4",
+      "category": "company"
+    },
+    {
+      "id": "Integrated Parcel Network||Pacific Courier",
+      "name": "Integrated Parcel Network",
+      "childOf": "Pacific Courier",
+      "category": "company"
+    },
+    {
+      "id": "Palantir USG||Palantir Technologies",
+      "name": "Palantir USG",
+      "childOf": "Palantir Technologies",
+      "category": "company"
+    },
+    {
+      "id": "FRONTEO Government Services||TechLaw Solutions",
+      "name": "FRONTEO Government Services",
+      "childOf": "TechLaw Solutions",
+      "category": "company"
+    },
+    {
+      "id": "Level 3 Communications||CenturyLink",
+      "name": "Level 3 Communications",
+      "childOf": "CenturyLink",
+      "category": "company"
+    },
+    {
+      "id": "V3 Gate Team||FS Vets",
+      "name": "V3 Gate Team",
+      "childOf": "FS Vets",
+      "category": "company"
+    },
+    {
+      "id": "B.I.||GEO Group",
+      "name": "B.I.",
+      "childOf": "GEO Group",
+      "category": "company"
+    },
+    {
+      "id": "HDR Environmental||HDR",
+      "name": "HDR Environmental",
+      "childOf": "HDR",
+      "category": "company"
+    },
+    {
+      "id": "V3Gate||Veterans Tech LLC",
+      "name": "V3Gate",
+      "childOf": "Veterans Tech LLC",
+      "category": "company"
+    },
+    {
+      "id": "Colt Defense||Colt Defense Holding",
+      "name": "Colt Defense",
+      "childOf": "Colt Defense Holding",
+      "category": "company"
+    },
+    {
+      "id": "General Dynamics Ordnance And Tactical Systems||General Dynamics",
+      "name": "General Dynamics Ordnance And Tactical Systems",
+      "childOf": "General Dynamics",
+      "category": "company"
+    },
+    {
+      "id": "Department of Emergency Services and Public Protection||State of Connecticut",
+      "name": "Department of Emergency Services and Public Protection",
+      "childOf": "State of Connecticut",
+      "category": "company"
+    },
+    {
+      "id": "Colonial Parking||Forge",
+      "name": "Colonial Parking",
+      "childOf": "Forge",
+      "category": "company"
+    },
+    {
+      "id": "Federal Prison Industries||Government of the United States",
+      "name": "Federal Prison Industries",
+      "childOf": "Government of the United States",
+      "category": "company"
+    },
+    {
+      "id": "Mckinsey & Company||McKinsey & Company",
+      "name": "Mckinsey & Company",
+      "childOf": "McKinsey & Company",
+      "category": "company"
+    },
+    {
+      "id": "Interpark||Teachers Insurance and Annuity Association of America",
+      "name": "Interpark",
+      "childOf": "Teachers Insurance and Annuity Association of America",
+      "category": "company"
+    },
+    {
+      "id": "CQ-Roll Call||The Economist",
+      "name": "CQ-Roll Call",
+      "childOf": "The Economist",
+      "category": "company"
+    },
+    {
+      "id": "G4S Secure Solutions (USA)||G4S",
+      "name": "G4S Secure Solutions (USA)",
+      "childOf": "G4S",
+      "category": "company"
+    },
+    {
+      "id": "Cornell Companies||GEO Group",
+      "name": "Cornell Companies",
+      "childOf": "GEO Group",
+      "category": "company"
+    },
+    {
+      "id": "GEO Care||GEO Group",
+      "name": "GEO Care",
+      "childOf": "GEO Group",
+      "category": "company"
+    },
+    {
+      "id": "Satcom Direct Communications||Satcom Direct",
+      "name": "Satcom Direct Communications",
+      "childOf": "Satcom Direct",
+      "category": "company"
+    },
+    {
+      "id": "AT&T Mobility||AT&T",
+      "name": "AT&T Mobility",
+      "childOf": "AT&T",
+      "category": "company"
+    },
+    {
+      "id": "Glock||GLOCK Privatstiftung",
+      "name": "Glock",
+      "childOf": "GLOCK Privatstiftung",
+      "category": "company"
+    },
+    {
+      "id": "Hawaiian Telcom Services||Hawaiian Telcom Holding",
+      "name": "Hawaiian Telcom Services",
+      "childOf": "Hawaiian Telcom Holding",
+      "category": "company"
+    },
+    {
+      "id": "Hyatt||Hyatt Hotels",
+      "name": "Hyatt",
+      "childOf": "Hyatt Hotels",
+      "category": "company"
+    },
+    {
+      "id": "United Tactical Systems||Advanced Tactical Ordnance Systems",
+      "name": "United Tactical Systems",
+      "childOf": "Advanced Tactical Ordnance Systems",
+      "category": "company"
+    },
+    {
+      "id": "Life Fitness||Brunswick Corporation",
+      "name": "Life Fitness",
+      "childOf": "Brunswick Corporation",
+      "category": "company"
+    },
+    {
+      "id": "CDW Government||CDW",
+      "name": "CDW Government",
+      "childOf": "CDW",
+      "category": "company"
+    },
+    {
+      "id": "Marquis Consulting Services||Gemalto",
+      "name": "Marquis Consulting Services",
+      "childOf": "Gemalto",
+      "category": "company"
+    },
+    {
+      "id": "Envision Xpress||Envision",
+      "name": "Envision Xpress",
+      "childOf": "Envision",
+      "category": "company"
+    },
+    {
+      "id": "Range 54||Range 55",
+      "name": "Range 54",
+      "childOf": "Range 55",
+      "category": "company"
+    },
+    {
+      "id": "Spot||Globalstar",
+      "name": "Spot",
+      "childOf": "Globalstar",
+      "category": "company"
+    },
+    {
+      "id": "Springfield||Inn on Bourbon",
+      "name": "Springfield",
+      "childOf": "Inn on Bourbon",
+      "category": "company"
+    },
+    {
+      "id": "Macro||Macro Oil",
+      "name": "Macro",
+      "childOf": "Macro Oil",
+      "category": "company"
+    },
+    {
+      "id": "Affordable Interior Systems||AIS Group Holdings",
+      "name": "Affordable Interior Systems",
+      "childOf": "AIS Group Holdings",
+      "category": "company"
+    },
+    {
+      "id": "L-3 Communications||L3 Technologies",
+      "name": "L-3 Communications",
+      "childOf": "L3 Technologies",
+      "category": "company"
+    },
+    {
+      "id": "Hardigg Industries||Pelican Products",
+      "name": "Hardigg Industries",
+      "childOf": "Pelican Products",
+      "category": "company"
+    },
+    {
+      "id": "Ahura Scientific||Thermo Fisher Scientific",
+      "name": "Ahura Scientific",
+      "childOf": "Thermo Fisher Scientific",
+      "category": "company"
+    },
+    {
+      "id": "TCS Interpreting||Abacus-N-Bytes",
+      "name": "TCS Interpreting",
+      "childOf": "Abacus-N-Bytes",
+      "category": "company"
+    },
+    {
+      "id": "Booz Allen Hamilton Engineering||Booz Allen Hamilton Holding",
+      "name": "Booz Allen Hamilton Engineering",
+      "childOf": "Booz Allen Hamilton Holding",
+      "category": "company"
+    },
+    {
+      "id": "Brede-Washington||Casey & Hayes",
+      "name": "Brede-Washington",
+      "childOf": "Casey & Hayes",
+      "category": "company"
+    },
+    {
+      "id": "Danya International||DLH Holdings",
+      "name": "Danya International",
+      "childOf": "DLH Holdings",
+      "category": "company"
+    },
+    {
+      "id": "Mantech MSM Security Service||Innoviss",
+      "name": "Mantech MSM Security Service",
+      "childOf": "Innoviss",
+      "category": "company"
+    },
+    {
+      "id": "Sytel Incorporated||Jacobs Engineering",
+      "name": "Sytel Incorporated",
+      "childOf": "Jacobs Engineering",
+      "category": "company"
+    },
+    {
+      "id": "Advanced Defense Technologies||Josef Yakir Investments & Assets",
+      "name": "Advanced Defense Technologies",
+      "childOf": "Josef Yakir Investments & Assets",
+      "category": "company"
+    },
+    {
+      "id": "Maryland Dept. of Public Safety & Correctional Services||State of Maryland",
+      "name": "Maryland Dept. of Public Safety & Correctional Services",
+      "childOf": "State of Maryland",
+      "category": "company"
+    },
+    {
+      "id": "University of Maryland||University System of Maryland",
+      "name": "University of Maryland",
+      "childOf": "University System of Maryland",
+      "category": "company"
+    },
+    {
+      "id": "Foster & Levesque||Perfect Fit",
+      "name": "Foster & Levesque",
+      "childOf": "Perfect Fit",
+      "category": "company"
+    },
+    {
+      "id": "Haworth||Haworth International",
+      "name": "Haworth",
+      "childOf": "Haworth International",
+      "category": "company"
+    },
+    {
+      "id": "Michigan Department of State Police||State of Michigan",
+      "name": "Michigan Department of State Police",
+      "childOf": "State of Michigan",
+      "category": "company"
+    },
+    {
+      "id": "Personnel Decisions Research Institutes||Gartner",
+      "name": "Personnel Decisions Research Institutes",
+      "childOf": "Gartner",
+      "category": "company"
+    },
+    {
+      "id": "Remington Arms||Cerberus Capital Management",
+      "name": "Remington Arms",
+      "childOf": "Cerberus Capital Management",
+      "category": "company"
+    },
+    {
+      "id": "Laboratory Corporation of America||Laboratory Corporation of America Holdings",
+      "name": "Laboratory Corporation of America",
+      "childOf": "Laboratory Corporation of America Holdings",
+      "category": "company"
+    },
+    {
+      "id": "Executive Office of the State of North Carolina||State of North Carolina",
+      "name": "Executive Office of the State of North Carolina",
+      "childOf": "State of North Carolina",
+      "category": "company"
+    },
+    {
+      "id": "Cellebrite||Cellebrite USA",
+      "name": "Cellebrite",
+      "childOf": "Cellebrite USA",
+      "category": "company"
+    },
+    {
+      "id": "Autoclear||Control Screening",
+      "name": "Autoclear",
+      "childOf": "Control Screening",
+      "category": "company"
+    },
+    {
+      "id": "Electronic Risks Consultants||Electronic Consulting Services",
+      "name": "Electronic Risks Consultants",
+      "childOf": "Electronic Consulting Services",
+      "category": "company"
+    },
+    {
+      "id": "Kyocera Document Solutions America||Kyocera",
+      "name": "Kyocera Document Solutions America",
+      "childOf": "Kyocera",
+      "category": "company"
+    },
+    {
+      "id": "Kyocera Mita America||Kyocera",
+      "name": "Kyocera Mita America",
+      "childOf": "Kyocera",
+      "category": "company"
+    },
+    {
+      "id": "Sharp Electronics||Sharp",
+      "name": "Sharp Electronics",
+      "childOf": "Sharp",
+      "category": "company"
+    },
+    {
+      "id": "Emtec Federal||Spectrum Systems",
+      "name": "Emtec Federal",
+      "childOf": "Spectrum Systems",
+      "category": "company"
+    },
+    {
+      "id": "Cellco Partnership DBA Verizon Wireless||Verizon",
+      "name": "Cellco Partnership DBA Verizon Wireless",
+      "childOf": "Verizon",
+      "category": "company"
+    },
+    {
+      "id": "Cordova Support Services||ADC",
+      "name": "Cordova Support Services",
+      "childOf": "ADC",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2009||Callyo 2010",
+      "name": "Callyo 2009",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2011||Callyo 2010",
+      "name": "Callyo 2011",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2012||Callyo 2010",
+      "name": "Callyo 2012",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2013||Callyo 2010",
+      "name": "Callyo 2013",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2014||Callyo 2010",
+      "name": "Callyo 2014",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Callyo 2015||Callyo 2010",
+      "name": "Callyo 2015",
+      "childOf": "Callyo 2010",
+      "category": "company"
+    },
+    {
+      "id": "Green 320||Green 321",
+      "name": "Green 320",
+      "childOf": "Green 321",
+      "category": "company"
+    },
+    {
+      "id": "Tririga||IBM",
+      "name": "Tririga",
+      "childOf": "IBM",
+      "category": "company"
+    },
+    {
+      "id": "Gaylord Bros.||DEMCO",
+      "name": "Gaylord Bros.",
+      "childOf": "DEMCO",
+      "category": "company"
+    },
+    {
+      "id": "Family First 5||Family First 6",
+      "name": "Family First 5",
+      "childOf": "Family First 6",
+      "category": "company"
+    },
+    {
+      "id": "Premier & Companies||Premier Supplies USA",
+      "name": "Premier & Companies",
+      "childOf": "Premier Supplies USA",
+      "category": "company"
+    },
+    {
+      "id": "New York State Department of Motor Vehicles||State of New York",
+      "name": "New York State Department of Motor Vehicles",
+      "childOf": "State of New York",
+      "category": "company"
+    },
+    {
+      "id": "Reed Elsevier||RELX",
+      "name": "Reed Elsevier",
+      "childOf": "RELX",
+      "category": "company"
+    },
+    {
+      "id": "Shred-It USA||Stericycle",
+      "name": "Shred-It USA",
+      "childOf": "Stericycle",
+      "category": "company"
+    },
+    {
+      "id": "PMA-13||People Signs",
+      "name": "PMA-13",
+      "childOf": "People Signs",
+      "category": "company"
+    },
+    {
+      "id": "Ricoh USA||Ricoh",
+      "name": "Ricoh USA",
+      "childOf": "Ricoh",
+      "category": "company"
+    },
+    {
+      "id": "Fisher Scientific||Thermo Fischer Scientific",
+      "name": "Fisher Scientific",
+      "childOf": "Thermo Fischer Scientific",
+      "category": "company"
+    },
+    {
+      "id": "Witmer Associates||Witmer Public Safety",
+      "name": "Witmer Associates",
+      "childOf": "Witmer Public Safety",
+      "category": "company"
+    },
+    {
+      "id": "Unlimited Storage||Commercial Centers Management",
+      "name": "Unlimited Storage",
+      "childOf": "Commercial Centers Management",
+      "category": "company"
+    },
+    {
+      "id": "Tucson Hotels||Atrium Hotels",
+      "name": "Tucson Hotels",
+      "childOf": "Atrium Hotels",
+      "category": "company"
+    },
+    {
+      "id": "Government Training Institute||Terteling Holding",
+      "name": "Government Training Institute",
+      "childOf": "Terteling Holding",
+      "category": "company"
+    },
+    {
+      "id": "Central Parking||Standard Parking",
+      "name": "Central Parking",
+      "childOf": "Standard Parking",
+      "category": "company"
+    },
+    {
+      "id": "VF Imagewear||V. F. Corporation",
+      "name": "VF Imagewear",
+      "childOf": "V. F. Corporation",
+      "category": "company"
+    },
+    {
+      "id": "S.J. Bashen||Bashen",
+      "name": "S.J. Bashen",
+      "childOf": "Bashen",
+      "category": "company"
+    },
+    {
+      "id": "Chenega Facilities Management||Chenega",
+      "name": "Chenega Facilities Management",
+      "childOf": "Chenega",
+      "category": "company"
+    },
+    {
+      "id": "Allclear ID||Debix One",
+      "name": "Allclear ID",
+      "childOf": "Debix One",
+      "category": "company"
+    },
+    {
+      "id": "Dell Marketing||Denali Holding",
+      "name": "Dell Marketing",
+      "childOf": "Denali Holding",
+      "category": "company"
+    },
+    {
+      "id": "Dell Federal Systems||Denali Holding",
+      "name": "Dell Federal Systems",
+      "childOf": "Denali Holding",
+      "category": "company"
+    },
+    {
+      "id": "Freeman Expositions||Freeman Decorating Services",
+      "name": "Freeman Expositions",
+      "childOf": "Freeman Decorating Services",
+      "category": "company"
+    },
+    {
+      "id": "JCT||ICS Jail Supplies",
+      "name": "JCT",
+      "childOf": "ICS Jail Supplies",
+      "category": "company"
+    },
+    {
+      "id": "Texas Workforce Commission||State of Texas",
+      "name": "Texas Workforce Commission",
+      "childOf": "State of Texas",
+      "category": "company"
+    },
+    {
+      "id": "Texas Commission on Environmental Quality||State of Texas",
+      "name": "Texas Commission on Environmental Quality",
+      "childOf": "State of Texas",
+      "category": "company"
+    },
+    {
+      "id": "Unifirst||Uniforms Manufacturing",
+      "name": "Unifirst",
+      "childOf": "Uniforms Manufacturing",
+      "category": "company"
+    },
+    {
+      "id": "Franklin Covey Client Sales||Franklin Covey",
+      "name": "Franklin Covey Client Sales",
+      "childOf": "Franklin Covey",
+      "category": "company"
+    },
+    {
+      "id": "Accessdata||Software Forensics",
+      "name": "Accessdata",
+      "childOf": "Software Forensics",
+      "category": "company"
+    },
+    {
+      "id": "Utah Communications Authority||Utah Communication Agency Network",
+      "name": "Utah Communications Authority",
+      "childOf": "Utah Communication Agency Network",
+      "category": "company"
+    },
+    {
+      "id": "Defense Point Security||Accenture",
+      "name": "Defense Point Security",
+      "childOf": "Accenture",
+      "category": "company"
+    },
+    {
+      "id": "Immixtechnology||Arrow Electronics",
+      "name": "Immixtechnology",
+      "childOf": "Arrow Electronics",
+      "category": "company"
+    },
+    {
+      "id": "Booz Allen Hamilton||Booz Allen Hamilton Holding",
+      "name": "Booz Allen Hamilton",
+      "childOf": "Booz Allen Hamilton Holding",
+      "category": "company"
+    },
+    {
+      "id": "Bowhead Communication Services||Bowhead",
+      "name": "Bowhead Communication Services",
+      "childOf": "Bowhead",
+      "category": "company"
+    },
+    {
+      "id": "Canon U.S.A.||Canon",
+      "name": "Canon U.S.A.",
+      "childOf": "Canon",
+      "category": "company"
+    },
+    {
+      "id": "Cap Gemini Government Solutions||Cap Gemini",
+      "name": "Cap Gemini Government Solutions",
+      "childOf": "Cap Gemini",
+      "category": "company"
+    },
+    {
+      "id": "Bulletin News||Cision US",
+      "name": "Bulletin News",
+      "childOf": "Cision US",
+      "category": "company"
+    },
+    {
+      "id": "Coxcom||Cox Enterprises",
+      "name": "Coxcom",
+      "childOf": "Cox Enterprises",
+      "category": "company"
+    },
+    {
+      "id": "Cubic Global Defense||Cubic",
+      "name": "Cubic Global Defense",
+      "childOf": "Cubic",
+      "category": "company"
+    },
+    {
+      "id": "Project Performance Company||Data Systems Analysts",
+      "name": "Project Performance Company",
+      "childOf": "Data Systems Analysts",
+      "category": "company"
+    },
+    {
+      "id": "Deloitte & Touche||Deloitte",
+      "name": "Deloitte & Touche",
+      "childOf": "Deloitte",
+      "category": "company"
+    },
+    {
+      "id": "Deloitte Consulting||Deloitte",
+      "name": "Deloitte Consulting",
+      "childOf": "Deloitte",
+      "category": "company"
+    },
+    {
+      "id": "DLT Solutions||DLT Mergerco",
+      "name": "DLT Solutions",
+      "childOf": "DLT Mergerco",
+      "category": "company"
+    },
+    {
+      "id": "Inforeliance||ECS Federal",
+      "name": "Inforeliance",
+      "childOf": "ECS Federal",
+      "category": "company"
+    },
+    {
+      "id": "ECS Federal||Electronic Consulting Services",
+      "name": "ECS Federal",
+      "childOf": "Electronic Consulting Services",
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Kadix Systems||Engility",
       "name": "Kadix Systems",
       "childOf": "Engility",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50076,11 +50829,15 @@
         }
       ],
       "total_value": 16336511
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "HP Enterprise Services||Enterprise Services",
       "name": "HP Enterprise Services",
       "childOf": "Enterprise Services",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50101,11 +50858,15 @@
         }
       ],
       "total_value": 42559158
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Foster & Freeman USA||Foster & Freeman",
       "name": "Foster & Freeman USA",
       "childOf": "Foster & Freeman",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50126,11 +50887,15 @@
         }
       ],
       "total_value": 121111
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Corporate Executive Board Company||Gartner",
       "name": "Corporate Executive Board Company",
       "childOf": "Gartner",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50151,11 +50916,15 @@
         }
       ],
       "total_value": 85484
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Systems Research & Applicatications||General Dynamics",
       "name": "Systems Research & Applicatications",
       "childOf": "General Dynamics",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50272,11 +51041,15 @@
         }
       ],
       "total_value": 36699741
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Computer Sciences||General Dynamics",
       "name": "Computer Sciences",
       "childOf": "General Dynamics",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -50297,11 +51070,15 @@
         }
       ],
       "total_value": 14185656
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "CSRA||General Dynamics",
       "name": "CSRA",
       "childOf": "General Dynamics",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51219,6 +51996,63 @@
         }
       ],
       "total_value": 6052631
+=======
+      "category": "company"
+    },
+    {
+      "id": "Grant Thornton||Grant Thornton International",
+      "name": "Grant Thornton",
+      "childOf": "Grant Thornton International",
+      "category": "company"
+    },
+    {
+      "id": "Prizum||IntegrityOne Partners",
+      "name": "Prizum",
+      "childOf": "IntegrityOne Partners",
+      "category": "company"
+    },
+    {
+      "id": "Blue Canopy Group||Jacobs Engineering",
+      "name": "Blue Canopy Group",
+      "childOf": "Jacobs Engineering",
+      "category": "company"
+    },
+    {
+      "id": "Johnson Controls Security Solutions||Johnson Controls",
+      "name": "Johnson Controls Security Solutions",
+      "childOf": "Johnson Controls",
+      "category": "company"
+    },
+    {
+      "id": "Tyco Integrated Security||Johnson Controls",
+      "name": "Tyco Integrated Security",
+      "childOf": "Johnson Controls",
+      "category": "company"
+    },
+    {
+      "id": "Konica Minolta Business Solutions U.S.A.||Konica Minolta Holdings",
+      "name": "Konica Minolta Business Solutions U.S.A.",
+      "childOf": "Konica Minolta Holdings",
+      "category": "company"
+    },
+    {
+      "id": "Solv||Mangi Environmental",
+      "name": "Solv",
+      "childOf": "Mangi Environmental",
+      "category": "company"
+    },
+    {
+      "id": "Aimpoint||PGS Group",
+      "name": "Aimpoint",
+      "childOf": "PGS Group",
+      "category": "company"
+    },
+    {
+      "id": "PricewaterhouseCoopers Public Sector||PriceWaterhouseCoopers",
+      "name": "PricewaterhouseCoopers Public Sector",
+      "childOf": "PriceWaterhouseCoopers",
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Leidos||SAIC",
@@ -51306,6 +52140,7 @@
       "id": "Serco Services||Serco",
       "name": "Serco Services",
       "childOf": "Serco",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51326,11 +52161,15 @@
         }
       ],
       "total_value": 317217
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Greenzone Solutions||Shah Group",
       "name": "Greenzone Solutions",
       "childOf": "Shah Group",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51351,11 +52190,15 @@
         }
       ],
       "total_value": 1805548
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Avaya Federal Solutions||Sierra Holdings",
       "name": "Avaya Federal Solutions",
       "childOf": "Sierra Holdings",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51504,6 +52347,9 @@
         }
       ],
       "total_value": 905793
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Systems Research & Applicatications||SRA International",
@@ -51630,6 +52476,7 @@
       "id": "St. Net-Apptis Firstsource Joint Venture||St. Net Apptis Firstsource Joint Venture",
       "name": "St. Net-Apptis Firstsource Joint Venture",
       "childOf": "St. Net Apptis Firstsource Joint Venture",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51746,11 +52593,15 @@
         }
       ],
       "total_value": 337019
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "GTSI||Unicom Government",
       "name": "GTSI",
       "childOf": "Unicom Government",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51819,11 +52670,15 @@
         }
       ],
       "total_value": 1915939
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Kroll Government Services||Veritas Capital Fund",
       "name": "Kroll Government Services",
       "childOf": "Veritas Capital Fund",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51860,6 +52715,9 @@
         }
       ],
       "total_value": 8652537
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Widepoint Integrated Solutions||Widepoint",
@@ -51890,6 +52748,7 @@
       "id": "Bizflow||Wise",
       "name": "Bizflow",
       "childOf": "Wise",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51910,11 +52769,15 @@
         }
       ],
       "total_value": 175365
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Risklens||CXOWare",
       "name": "Risklens",
       "childOf": "CXOWare",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51935,11 +52798,15 @@
         }
       ],
       "total_value": 22000
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Concur Technologies||SAP America",
       "name": "Concur Technologies",
       "childOf": "SAP America",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51960,11 +52827,15 @@
         }
       ],
       "total_value": 3278737
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Spacesaver Storage Systems||Krueger International",
       "name": "Spacesaver Storage Systems",
       "childOf": "Krueger International",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -51985,11 +52856,15 @@
         }
       ],
       "total_value": 98312
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "id": "Safer Society Group Sweden||Netclean Technologies Sweden",
       "name": "Safer Society Group Sweden",
       "childOf": "Netclean Technologies Sweden",
+<<<<<<< HEAD
       "category": "company",
       "awards": [
         {
@@ -52026,6 +52901,9 @@
         }
       ],
       "total_value": 67500
+=======
+      "category": "company"
+>>>>>>> ebf5d8d5d5df987af0fb87ac9e0318a5841b92e2
     },
     {
       "name": "Administrative Management",
