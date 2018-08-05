@@ -4,5 +4,27 @@
 export default function(d){
   //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
   //console.log(parentCompany);
-  return `<h2>you clicked on a company named ${d.name}!</h2>`;
+  return `<p><h5>Product Category</h5> <br>
+   Type: ${d.name}
+   <p><h5>Full Product List</h5> <br>
+   <font size="1">Apparel & Leather <br>
+   Carceral Services<br>
+   Consulting<br>
+   Financial<br>
+   Food<br>
+   Health & Personal Care<br>
+   Hotels<br>
+   IT<br>
+   Legal<br>
+   Munitions<br>
+   Office Supplies<br>
+   Printing & Publishing<br>
+   Research & Professional Development<br>
+   Retail<br>
+   Sports & Rec<br>
+   Telecom<br>
+   Temps<br>
+   Trade & Manufacturing<br>
+   Transportation</font>
+   `;
 }
