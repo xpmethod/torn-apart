@@ -4,7 +4,7 @@ import path from "path";
 import parse from "csv-parse";
 import _ from "lodash";
 
-readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
+readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
   if(err) throw err;
   parse(data, {columns: true}, (err, awards) => {
     if(err) throw err;
@@ -108,7 +108,7 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
           });
       });
 
-    writeFile(path.join("data", "explorer", "graph.json"),
+    writeFile(path.join("data", "freezer", "graph.json"),
       JSON.stringify(graph, null, 2), (err) => {
         if(err) throw err;
         stdout.write("WE DID THE THING 🚀\n");

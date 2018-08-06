@@ -4,8 +4,8 @@ import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY 
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
-import explorerMurderboardSidebar from "./murderboard-sidebar";
-import Data from "../../data/explorer/graph.json";
+import freezerMurderboardSidebar from "./murderboard-sidebar";
+import Data from "../../data/freezer/graph.json";
 
 
 export default function(){
@@ -15,7 +15,7 @@ export default function(){
     .scaleExtent([.1, .3])
     .on("zoom", zoomed);
 
-  const svg = select("#explorer-svg")
+  const svg = select("#freezer-svg")
     .call(theZoom)
     .append("g")
     .attr("id", "topG");
@@ -77,7 +77,7 @@ export default function(){
     .attr("width", d => d.side)
     .attr("height", d => d.side)
     .style("fill", d => d.color)
-    .on("click", explorerMurderboardSidebar)
+    .on("click", freezerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
       .on("start", dragstarted)

@@ -21,5 +21,5 @@ export default function(d){
     html = parentCompanySidebar(d);
     break;
   }
-  select("#explorer-sidebar").html(html);
+  select("#freezer-sidebar").html(html);
 }

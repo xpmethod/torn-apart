@@ -9,12 +9,12 @@ import { format } from "d3-format";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
 import { slug } from "../utils";
 import treeSidebar from "./tree-sidebar";
-import Data from "../../data/explorer/graph.json";
+import Data from "../../data/freezer/graph.json";
 
 export default function(){
   const data = _.cloneDeep(Data);
   treeSidebar(data);
-  const svg = select("#explorer-svg");
+  const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "treemap-g");
   // const fader = (color => interpolateRgb(color, "#fff")(0.2));
   const color = scaleOrdinal(schemeSet2);//.map(fader));

@@ -1,5 +1,5 @@
 //import _ from "lodash";
-//import graph from "../../data/explorer/graph.json";
+//import graph from "../../data/freezer/graph.json";
 
 export default function(d){
 //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
