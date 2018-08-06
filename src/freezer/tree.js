@@ -9,6 +9,7 @@ import { format } from "d3-format";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
 import { slug } from "../utils";
 import treeSidebar from "./tree-sidebar";
+import treeSidebarShowCard from "./tree-sidebar-show-card";
 import Data from "../../data/freezer/graph.json";
 
 export default function(){
@@ -73,6 +74,7 @@ export default function(){
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
     // .attr("fill", d => color(d.parent.data.id));
+    .on("click", treeSidebarShowCard)
     .attr("fill", d => color(d.parent.parent.data.id));
 
   cell.append("title")
