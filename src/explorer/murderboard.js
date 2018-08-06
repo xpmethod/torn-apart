@@ -12,7 +12,7 @@ export default function(){
 
   const graph = _.cloneDeep(Data);
   const theZoom = zoom()
-    .scaleExtent([0.1, Infinity])
+    .scaleExtent([.1, .3])
     .on("zoom", zoomed);
 
   const svg = select("#explorer-svg")
