@@ -19,12 +19,16 @@ export default function(){
     $("#murderboard-button").removeClass("active");
     $("#treemap-g").show();
     $("#topG").hide();
+    $("#tree-sidebar").show();
+    $("#explorer-sidebar").hide();
   });
   $("#murderboard-button").click(() => {
     $("#murderboard-button").addClass("active");
     $("#treemap-button").removeClass("active");
     $("#topG").show();
     $("#treemap-g").hide();
+    $("#tree-sidebar").hide();
+    $("#explorer-sidebar").show();
   });
 
 
