@@ -2,7 +2,7 @@
 import _ from "lodash";
 import { sum } from "d3-array";
 import { select } from "d3-selection";
-import { interpolateRgb } from "d3-interpolate";
+// import { interpolateRgb } from "d3-interpolate";
 import { schemeSet2 } from "d3-scale-chromatic";
 import { scaleOrdinal } from "d3-scale";
 import { format } from "d3-format";
@@ -12,19 +12,15 @@ import Data from "../../data/explorer/graph.json";
 
 export default function(){
   const data = _.cloneDeep(Data);
-  // const width = $(window).width() - 4 * rem;
-  // const height = 350;
-  // const height = $("#v2-div").position().top + $("#v2-div").height() - $("#explorer-svg").position().top;
   const svg = select("#explorer-svg");
-  // .attr("width", width)
-  // .attr("height", height);
   const g = svg.append("g").attr("id", "treemap-g");
-  const fader = (color => interpolateRgb(color, "#fff")(0.2));
-  const color = scaleOrdinal(schemeSet2.map(fader));
+  // const fader = (color => interpolateRgb(color, "#fff")(0.2));
+  const color = scaleOrdinal(schemeSet2);//.map(fader));
   const theFormat = format(",d");
 
   const theTree = treemap()
     .tile(treemapResquarify)
+    // .size([500, 500])
     .size([svg.attr("width"), svg.attr("height")])
     .round(true)
     .paddingInner(1);
@@ -46,9 +42,6 @@ export default function(){
       })
   };
 
-  // check Retail. It should have "Tools" and "Books"
-  // console.log(theData);
-
   const root = hierarchy(theData)
     .eachBefore(d =>  d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name)
     .sum(d => d.contract_value)
@@ -65,8 +58,8 @@ export default function(){
     .attr("id", d => d.data.id)
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
-    .attr("fill", d => color(d.parent.data.id));
-  // .attr("fill", d => { console.log(d); return color(d.parent.data.id);});
+    // .attr("fill", d => color(d.parent.data.id));
+    .attr("fill", d => color(d.parent.parent.data.id));
 
   cell.append("title")
     .text(d => `${ d.data.id.replace("contracts.", "").replace(".", " ") }\n

@@ -1,30 +1,28 @@
-import $ from "jquery";
-import graph from "../../data/explorer/graph.json";
+import _ from "lodash";
 import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
-import { fillV2DivHeight } from "../utils";
 import explorerMurderboardSidebar from "./murderboard-sidebar";
+import Data from "../../data/explorer/graph.json";
 
 
 export default function(){
 
-  const width = $("#explorer-div").width();
-  const height = fillV2DivHeight("#explorer-headers");
+  const graph = _.cloneDeep(Data);
   const theZoom = zoom()
     .scaleExtent([0.1, Infinity])
     .on("zoom", zoomed);
 
   const svg = select("#explorer-svg")
-    .attr("width", width)
-    .attr("height", height)
     .call(theZoom)
     .append("g")
     .attr("id", "topG");
   //sets initial zoom level
   theZoom.scaleTo(select("svg"),-10);
+  const width = svg.attr("width");
+  const height = svg.attr("height");
 
   window.onwheel = function(){return false;};
 
