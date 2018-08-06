@@ -7,33 +7,33 @@ export default function(){
     <div class="d-flex justify-content-between">
       <div class="legend-svg-div">
         <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.2"/>
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.4"/>
         </svg>
-        $11–$20
-      </div>
-      <div class="">
-        <svg class="legend-svg" height="20" width="20">
-          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.4" />
-        </svg>
-        $21–$30
+        $70–$99
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
           <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.6" />
         </svg>
-        $31–$40
+        $100–$120
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
           <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="0.8" />
         </svg>
-        $41–$50
+        $121–$139
       </div>
       <div class="">
         <svg class="legend-svg" height="20" width="20">
           <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="1" />
         </svg>
-        $51–$60
+        $140–$160
+      </div>
+      <div class="">
+        <svg class="legend-svg" height="20" width="20">
+          <rect height="20" width="20" class="legend-polygon districts-polygon" opacity="1.2" />
+        </svg>
+        $160–$180
       </div>
     </div>
     <span data-i18n="ta-v2-beds-legend" class="markdownify"></span>
@@ -45,5 +45,3 @@ export default function(){
   $(".legend-svg").attr("width", divWidth);
   $(".legend-polygon").attr("width", divWidth);
 }
-
-
