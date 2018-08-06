@@ -1,4 +1,5 @@
 import L from "leaflet";
+import { scaleThreshold } from "d3-scale";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
@@ -12,6 +13,9 @@ export default function(map){
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
+  const scale = scaleThreshold()
+    .domain([75, 105, 130, 150])
+    .range([0, 0.4, 0.6, 0.8, 1]);
   const feature = g.selectAll("path").data(aorVoronoi.features)
     .enter().append("path")
     .each( d => {
@@ -30,10 +34,7 @@ export default function(map){
     .attr("id", d => d.id)
     .classed("viz-hide", true)
     .classed("districts-polygon", true)
-    .attr("opacity", () => {
-      const bins = [0.2, 0.4, 0.6, 0.8, 1];
-      return bins[Math.floor(Math.random() * Math.floor(5))];
-    })
+    .attr("opacity", d => scale(d.properties.cost2019))
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
 
