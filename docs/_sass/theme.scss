@@ -30,6 +30,10 @@ code {
   color: $green;
 }
 
+.overflow-scroll {
+  overflow-y: auto;
+}
+
 @import "buttons";
 @import "page";
 @import "navbar";
