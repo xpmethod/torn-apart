@@ -27,16 +27,16 @@ export default function(){
   window.onwheel = function(){return false;};
 
   const forces = {
-    charge: -4500,
-    x: -500,
-    y: -10000,
+    charge: -6000,
+    x: 100,
+    y: 100,
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
     .force("link", forceLink().id( d => d.id ))
     // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
-    .force("center", forceCenter(width / 0.2, height / 0.2))
+    .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
@@ -58,19 +58,19 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.side = 290;
+        d.side = 200;
         break;
       case "product":
         d.color = purple;
-        d.side = 210;
+        d.side = 160;
         break;
       case "company":
         d.color = orange;
-        d.side = 130;
+        d.side = 120;
         break;
       case "parent company":
         d.color = pink;
-        d.side = 90;
+        d.side = 80;
         break;
       }
     })
