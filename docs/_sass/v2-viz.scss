@@ -69,6 +69,13 @@
     font-size: 1.0rem;
   }
 
+  .table .thead-dark th {
+    background-color: $green;
+    border: none;
+    vertical-align: center;
+
+  }
+
   @media (min-width: 576px){
     .legend-ul li {
       font-size: 1.0rem;
