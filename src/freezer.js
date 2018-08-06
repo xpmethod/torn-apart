@@ -1,17 +1,17 @@
 import $ from "jquery";
 import { fillV2DivHeight } from "./utils";
-import explorerTree from "./explorer/tree";
-import explorerMurderboard from "./explorer/murderboard";
+import freezerTree from "./freezer/tree";
+import freezerMurderboard from "./freezer/murderboard";
 
 export default function(){
   $("#v2-div").show();
   $(document).ready(() => {
-    $("#explorer-viz").show();
-    $("#explorer-svg")
-      .attr("width", $("#explorer-div").width())
-      .attr("height", fillV2DivHeight("#explorer-headers"));
-    explorerMurderboard();
-    explorerTree();
+    $("#freezer-viz").show();
+    $("#freezer-svg")
+      .attr("width", $("#freezer-div").width())
+      .attr("height", fillV2DivHeight("#freezer-headers"));
+    freezerMurderboard();
+    freezerTree();
     $("#treemap-g").hide();
   });
   $("#treemap-button").click(() => {
@@ -20,7 +20,7 @@ export default function(){
     $("#treemap-g").show();
     $("#topG").hide();
     $("#tree-sidebar").show();
-    $("#explorer-sidebar").hide();
+    $("#freezer-sidebar").hide();
   });
   $("#murderboard-button").click(() => {
     $("#murderboard-button").addClass("active");
@@ -28,7 +28,7 @@ export default function(){
     $("#topG").show();
     $("#treemap-g").hide();
     $("#tree-sidebar").hide();
-    $("#explorer-sidebar").show();
+    $("#freezer-sidebar").show();
   });
 
 
