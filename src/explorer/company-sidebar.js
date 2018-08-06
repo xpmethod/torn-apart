@@ -1,9 +1,11 @@
-//import _ from "lodash";
-//import graph from "../../data/explorer/graph.json";
+
 
 export default function(d){
-  //const parentCompany = _.find(graph.links, link => link.target.name === d.name);
-  //console.log(parentCompany);
-  //console.log(d);
-  return `<p><h4>Subsidiary||Parent:<br> <br>${d.name}</h4> ${d.awards[0].recipient_city} <br> test: `;
+
+  return `<p><h4><b>Subsidiary Contractor:</b>
+  <br><br>${d.name}
+  <br><br><b>Parent Contractor:</b> <br>${d.awards[0].parent_name}
+  <br><br><b>ICE Awarding Office:</b> <br>${d.awards[0].awarding_office_name}
+  <br><br><b>Total value of awards:</b>
+  <br>$${d.total_value}</h4>`;
 }
