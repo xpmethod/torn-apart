@@ -46,7 +46,11 @@ export default function(){
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line");
+    .enter().append("line")
+    // the math isn't right here for stroke-width but I don't think I'm doing
+    // this right and I'm concerned about the 0 contract_values in the data
+    // removing edges because x*0 = 0. 
+    .attr("stroke-width", function(d) { return (d.target.contract_value * 2); });
 
   var node = svg.append("g")
     .attr("class", "nodes")
