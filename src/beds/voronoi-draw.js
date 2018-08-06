@@ -1,11 +1,12 @@
 import L from "leaflet";
+import slug from "slug";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
 import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
-import { slug } from "../utils";
+import { purple } from "../constants";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
@@ -30,9 +31,13 @@ export default function(map){
     .attr("id", d => d.id)
     .classed("viz-hide", true)
     .classed("districts-polygon", true)
+    .style ("stroke", "black")
+    .style("stroke-width", 2.2)
+    .style ("fill", "purple")
     .attr("opacity", () => {
-      const bins = [0.2, 0.4, 0.6, 0.8, 1];
+      const bins = [0.4, 0.5, 0.7, 0.9, 1];
       return bins[Math.floor(Math.random() * Math.floor(5))];
+
     })
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
