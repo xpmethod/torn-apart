@@ -35,13 +35,13 @@ export default function(){
       .map(node => { return { name: node.name};})
       .each(productCat => {
         productCat.children = _(data.nodes)
-          .filter(node => node.child_of === productCat.name)
-          .map(node => { return { name: node.name }; })
+          .filter(node => node.childOf === productCat.name)
+          .map(node => { return { name: node.name, graphID: node.id }; })
           .each(node => {
             node.children = _(data.links)
-              .filter(link => link.target === node.name && link.value > 0)
+              .filter(link => link.target === node.graphID && link.contract_value > 0)
               .value()
-              .map(link => { return { name: link.source, contract_value: link.value };});
+              .map(link => { return { name: link.source, contract_value: link.contract_value };});
           });
       })
   };
