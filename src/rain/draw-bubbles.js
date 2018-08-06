@@ -1,6 +1,7 @@
 import $ from "jquery";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
+// import { easeElastic } from "d3-ease";
 import { format } from "d3-format";
 import { scalePow } from "d3-scale";
 import { extent } from "d3-array";
@@ -95,6 +96,9 @@ export default function(){
       };
     })
     .attr("id", d => `circle-${d.id}`)
+    .classed("rain-drop", true)
+    // .attr("opacity", 0)
+    // .attr("transform", d => `translate(0, ${-1 * d.y})`)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);  
     
@@ -107,6 +111,15 @@ export default function(){
   //this -50 needs to be replaced with something proportional to the text size
     .attr("y", 20)
     .attr("class", "label");
+
+  // Alas…
+  // g.selectAll("circle.rain-drop")
+  //   .transition()
+  //   .delay(4000)
+  //   .duration(2000)
+  //   .ease(easeElastic)
+  //   .attr("opacity", 1)
+  //   .attr("transform", "translate(0,0)");
 
 }
 
