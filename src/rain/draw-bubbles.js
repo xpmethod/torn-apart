@@ -1,18 +1,25 @@
 import $ from "jquery";
-import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
-import { rem, green, purple } from "../constants";
-import Data from "../../data/rainVizData.csv";
-import addGlowFilter from "../add-glow-filter";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
-import { fillV2DivHeight } from "../utils";
+// import { easeElastic } from "d3-ease";
 import { format } from "d3-format";
+import { scalePow } from "d3-scale";
+import { extent } from "d3-array";
+import addGlowFilter from "../add-glow-filter";
+import { fillV2DivHeight } from "../utils";
+import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
+import { green, purple } from "../constants";
+import Data from "../../data/rainVizData.csv";
 
 export default function(){  
-  const width = $(window).width() - 4 * rem;
+  const width = $("#rain-viz").width();
   const height = fillV2DivHeight("#rain-header");
-  const scaling = width*0.000567; //this scales the dots radius appropriately 
-  // for different widths of svg
+  const maxBubbleSize = width / 30;
+  const domain = extent(Data, d => d.current_total_value_of_award);
+  const r = scalePow()
+    .domain(domain)
+    .range([1, maxBubbleSize])
+    .exponent(0.5);
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
 
@@ -42,7 +49,7 @@ export default function(){
     .force("x", forceX().strength(0.8).x( d => xCenter[d.financial_year]))
     .force("y", forceY(height/1.8).strength(0.3))
     .force("collision", forceCollide().radius( d => {
-      return (Math.ceil(scaling*(Math.sqrt(d.current_total_value_of_award)/600+11))); 
+      return Math.max(8, 1.5 * r(d.current_total_value_of_award));
       // if you want more space around the larger dots (i.e. padding as
       // proportional to radius), increase the number you divide by (currently
       // 600). If you want more padding around all dots evenly, increase the
@@ -72,7 +79,7 @@ export default function(){
     .data(Data).enter()
     .append("circle")
     .style("fill", d => uniqueness_colour[d.uniqueness])
-    .attr("r", d => scaling*(Math.ceil(Math.sqrt(d.current_total_value_of_award)/700+2)))
+    .attr("r", d => r(d.current_total_value_of_award))
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
     .each(d => {
@@ -89,6 +96,9 @@ export default function(){
       };
     })
     .attr("id", d => `circle-${d.id}`)
+    .classed("rain-drop", true)
+    // .attr("opacity", 0)
+    // .attr("transform", d => `translate(0, ${-1 * d.y})`)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);  
     
@@ -101,6 +111,15 @@ export default function(){
   //this -50 needs to be replaced with something proportional to the text size
     .attr("y", 20)
     .attr("class", "label");
+
+  // Alas…
+  // g.selectAll("circle.rain-drop")
+  //   .transition()
+  //   .delay(4000)
+  //   .duration(2000)
+  //   .ease(easeElastic)
+  //   .attr("opacity", 1)
+  //   .attr("transform", "translate(0,0)");
 
 }
 

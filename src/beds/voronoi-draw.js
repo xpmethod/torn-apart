@@ -1,21 +1,25 @@
 import L from "leaflet";
-import slugify from "slugify";
+import { scaleThreshold } from "d3-scale";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
 import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
+import { slug } from "../utils";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
+  const scale = scaleThreshold()
+    .domain([75, 105, 130, 150])
+    .range([0, 0.4, 0.6, 0.8, 1]);
   const feature = g.selectAll("path").data(aorVoronoi.features)
     .enter().append("path")
     .each( d => {
-      d.id = `${slugify(d.properties.name)}-voronoi`;
+      d.id = `${slug(d.properties.name)}-voronoi`;
       d.tooltip = d.properties.name;
       d.mouseOver = () => {
         select(`#${ d.id }`)
@@ -30,10 +34,7 @@ export default function(map){
     .attr("id", d => d.id)
     .classed("viz-hide", true)
     .classed("districts-polygon", true)
-    .attr("opacity", () => {
-      const bins = [0.2, 0.4, 0.6, 0.8, 1];
-      return bins[Math.floor(Math.random() * Math.floor(5))];
-    })
+    .attr("opacity", d => scale(d.properties.cost2019))
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
 
