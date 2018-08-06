@@ -1,11 +1,11 @@
 import L from "leaflet";
-import slugify from "slugify";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
 import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
+import { slug } from "../utils";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
@@ -15,7 +15,7 @@ export default function(map){
   const feature = g.selectAll("path").data(aorVoronoi.features)
     .enter().append("path")
     .each( d => {
-      d.id = `${slugify(d.properties.name)}-voronoi`;
+      d.id = `${slug(d.properties.name)}-voronoi`;
       d.tooltip = d.properties.name;
       d.mouseOver = () => {
         select(`#${ d.id }`)

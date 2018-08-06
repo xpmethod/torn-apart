@@ -13,8 +13,8 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
     const product_categories = [];
     const parent_companies = [];
     _.each(awards, (award) => {
-      companies.push(award.recipient_name);
-      products.push(award.naics_description);
+      companies.push(award.company_combo);
+      products.push(award.product_combo);
       product_categories.push(award.naics_cat);
       parent_companies.push(award.parent_name);
     }); // close each
@@ -28,44 +28,56 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
     _.each([
       { source_array: parent_companies_uniq,
         category: "parent company",
+        // combo_col: "company_combo",
         source_column: "parent_name",
-        target_column: "recipient_name"
+        target_column: "company_combo"
       },
       { source_array: product_categories_uniq,
         category: "product category",
+        // combo_col: "product_combo",
         source_column: "naics_cat",
-        target_column: "naics_description"
+        target_column: "product_combo"
       },
       { source_array: companies_uniq,
+        // combo_col: "company_combo",
         category: "company",
-        source_column: "recipient_name",
-        target_column: "naics_description"
+        source_column: "company_combo",
+        target_column: "product_combo",
+        combo: true
       }
     ], (sources) => {
       _.each(sources.source_array, (source) => {
-        graph.nodes.push({ name: source, category: sources.category});
+        const name = () => sources.combo ? source.split("||")[0] : source;
+        const childOf = () => sources.combo ? source.split("||")[1] : null;
+        graph.nodes.push({ id: source, name: name(), childOf: childOf(), category: sources.category });
         const targets_all = awards.map((award) => {
           if(award[sources.source_column] === source){
             return award[sources.target_column];
           } // close if
         }); // close awards.map
         _.each(_.uniq(targets_all), (target) => {
-          if( source !== target ){
-            graph.links.push({ source: source, target: target });
+          if(target){
+            if( source !== target && source !== target.replace(/\|.*$/, "")){
+              const localSource = () => sources.combo && source.split("||")[0] === source.split("||")[1] ? source.split("||")[1] : source;
+              graph.links.push({ source: localSource(), target });
+            }
           }
         }); // close each on targets_all
       }); // close each on sources.source_array
     }); // close _each on our array of objects.
 
     _.each(products_uniq, (product) => {
-      graph.nodes.push({ name: product,
-        category: "product",
-        child_of: _.find(awards, award => award.naics_description === product).naics_cat
+      const name = product.split("||")[0];
+      const childOf = product.split("||")[1];
+      graph.nodes.push({ name,
+        childOf,
+        id: product,
+        category: "product"
       });
     }); // close the each on products_uniq
 
     graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
-    graph.nodes = _.uniqBy(graph.nodes, "name");
+    graph.nodes = _(graph.nodes).uniqBy("id").filter(node => node.name !== node.childOf);
 
     _(graph.nodes.filter(node => node.category === "parent company"))
       .each(parentCompany => {

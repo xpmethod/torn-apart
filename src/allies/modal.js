@@ -11,7 +11,7 @@ export default function() {
     html.push(`<h2 data-i18n="ta-${_.chain(country).toLower().deburr().value()}"></h2>`);
     html.push("<ul>");
     _(Data).filter({ country })
-      .each(ally => html.push(allyDirectoryEntry(ally)));
+      .each(ally => html.push(`<li>${allyDirectoryEntry(ally)}</li>`));
     html.push("</ul>");
     $("#modal-content").html(html.join("\n"));
   });
