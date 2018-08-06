@@ -1,5 +1,6 @@
 import $ from "jquery";
 import { fillV2DivHeight } from "./utils";
+import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
 import freezerMurderboard from "./freezer/murderboard";
 
@@ -13,6 +14,7 @@ export default function(){
     freezerMurderboard();
     freezerTree();
     $("#treemap-g").hide();
+    updateTexts();
   });
   $("#treemap-button").click(() => {
     $("#treemap-button").addClass("active");

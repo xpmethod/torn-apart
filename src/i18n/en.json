@@ -97,6 +97,14 @@
   "ta-allies-button": "Show allies directory",
   "ta-allies-supp-text": "Supplemental text related to allies",
   "ta-allies-curated-list": "The list below was curated by our research team and is by no means exhaustive.",
-  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory"
+  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory",
+  "ta-v2-dba": "D/B/A",
+  "ta-v2-location": "Location",
+  "ta-v2-category": "Category",
+  "ta-v2-product-service": "Product / Service",
+  "ta-v2-current-value": "Current Value",
+  "ta-v2-potential-value": "Potential Value",
+  "ta-description": "Description",
+  "ta-value-to-date": "Total Value to Date"
 }
 
