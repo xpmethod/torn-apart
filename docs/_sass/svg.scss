@@ -8,18 +8,18 @@
   stroke-dasharray: 1, 4;
 }
 
-.link, .dotted-link {
-  stroke: #aaa;
+line.link {
+  stroke: #999;
+  opacity: 0.9;
 }
 
-.dotted-link {
-  stroke-dasharray: 1, 4;
+line.dotted-link {
+  stroke: #ccc;
+  opacity: 0.9;
 }
 
 .node {
   pointer-events: all;
-  stroke: black;
-  stroke-width: 3px;
 }
 
 .bar {

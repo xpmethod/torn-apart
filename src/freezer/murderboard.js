@@ -6,18 +6,21 @@ import { zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
-import { scalePow } from "d3-scale";
+import { scaleLog } from "d3-scale";
+import { extent } from "d3-array";
 
 
 export default function(){
 
-  var lw = scalePow() //sets a scale for line width
-    .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
-    .range([1, 10])
-    .exponent(0.1);
-
   const graph = _.cloneDeep(Data);
   
+  const lw = scaleLog() //sets a scale for line width
+    .domain(extent(Data.links
+      .filter(links => links.contract_value > 0)
+      .map(links => links.contract_value))
+    )
+    .range([25, 100]);
+
   //zoom handler
   const theZoom = zoom()
     .scaleExtent([0.1, 0.3])
@@ -35,8 +38,8 @@ export default function(){
 
   const forces = {
     charge: -6000,
-    x: 100,
-    y: 100,
+    x: 200,
+    y: 200,
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
@@ -49,11 +52,11 @@ export default function(){
     .alphaDecay(forces.alphaDecay);
 
   var link = g.append("g")
-    .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-    .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
+    .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
+    .style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
     
   //could get d.source and then search nodes for the id that matches and get its corresponding color.
  
@@ -61,14 +64,14 @@ export default function(){
 
   var node = g.append("g")
     .selectAll("rect")
-    .attr("class", "nodes")
     .data(graph.nodes)
     .enter().append("rect")
+    .classed("node", true)
     .each( d => {
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.side = 200;
+        d.side = 240;
         break;
       case "product":
         d.color = purple;
@@ -76,17 +79,18 @@ export default function(){
         break;
       case "company":
         d.color = orange;
-        d.side = 120;
+        d.side = 80;
         break;
       case "parent company":
         d.color = pink;
-        d.side = 80;
+        d.side = 160;
         break;
       }
     })
     .attr("width", d => d.side)
     .attr("height", d => d.side)
     .style("fill", d => d.color)
+    .attr("transform", d => `translate(${-d.side / 2},${-d.side / 2})`)
     .on("click", freezerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
@@ -94,21 +98,17 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));
    
-  link.style("stroke", function(d) { 
-
-    var color = "grey";
-
-    for(var j = 0; j< graph.nodes.length; j = j+1){
-      var targetName = d.target;
-      if (graph.nodes[j].id === targetName)
-      {
-        color = graph.nodes[j].color;
-      }
-    }
- 
-    return color; 
-
-  });
+  // link.style("stroke", function(d) { 
+  //   var color = "grey";
+  //   for(var j = 0; j< graph.nodes.length; j = j+1){
+  //     var targetName = d.target;
+  //     if (graph.nodes[j].id === targetName)
+  //     {
+  //       color = graph.nodes[j].color;
+  //     }
+  //   }
+  //   return color; 
+  // });
 
  
 
