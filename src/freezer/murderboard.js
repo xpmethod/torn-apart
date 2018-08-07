@@ -2,7 +2,7 @@ import _ from "lodash";
 import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
-import { zoomTransform, zoom } from "d3-zoom";
+import { zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
@@ -19,13 +19,13 @@ export default function(){
   const graph = _.cloneDeep(Data);
   
   //zoom handler
-	const theZoom = zoom()
-		.on("zoom", zoomed);
+  const theZoom = zoom()
+    .on("zoom", zoomed);
 
   const svg = select("#freezer-svg");
-			
-	const g = svg.append("g");
-	
+   
+  const g = svg.append("g");
+ 
   const width = svg.attr("width");
   const height = svg.attr("height");
 
@@ -46,55 +46,76 @@ export default function(){
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
 
-	 var link = g.append("g")
+  var link = g.append("g")
     .attr("class", "links")
-	.selectAll("line")
+    .selectAll("line")
     .data(graph.links)
     .enter().append("line")
     .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
     
+	//could get d.source and then search nodes for the id that matches and get its corresponding color.
+	
+
 
   var node = g.append("g")
-			.selectAll("rect")
-			.attr("class", "nodes")
-			.data(graph.nodes)
-			.enter().append("rect")
-			.each( d => {
-				switch (d.category) {
-					case "product category":
-						d.color = green;
-						d.side = 200;
-						break;
-					case "product":
-						d.color = purple;
-					d.side = 160;
-						break;
-					case "company":
-						d.color = orange;
-						d.side = 120;
-						break;
-					case "parent company":
-						d.color = pink;
-						d.side = 80;
-					break;
-					}
-				})
-			.attr("width", d => d.side)
-			.attr("height", d => d.side)
-			.style("fill", d => d.color)
-			.on("click", freezerMurderboardSidebar)
-			.on("mousedown", () => event.stopPropagation )
-			.call(drag()
-				.on("start", dragstarted)
-				.on("drag", dragged)
-				.on("end", dragended));
+    .selectAll("rect")
+    .attr("class", "nodes")
+    .data(graph.nodes)
+    .enter().append("rect")
+    .each( d => {
+      switch (d.category) {
+      case "product category":
+        d.color = green;
+        d.side = 200;
+        break;
+      case "product":
+        d.color = purple;
+        d.side = 160;
+        break;
+      case "company":
+        d.color = orange;
+        d.side = 120;
+        break;
+      case "parent company":
+        d.color = pink;
+        d.side = 80;
+        break;
+      }
+    })
+    .attr("width", d => d.side)
+    .attr("height", d => d.side)
+    .style("fill", d => d.color)
+    .on("click", freezerMurderboardSidebar)
+    .on("mousedown", () => event.stopPropagation )
+    .call(drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
+	  
+link.style("stroke", function(d) { 
+
+var color = "grey";
+
+for(var j = 0; j< graph.nodes.length; j = j+1){
+	var targetName = d.target;
+	if (graph.nodes[j].id == targetName)
+		{
+			color = graph.nodes[j].color;
+		};
+	}
+	
+return color; 
+
+})
+
+	
 
   node.append("title")
     .text( d => d.id );
-	
-	theZoom(svg);
-	theZoom.scaleTo(svg, 0.1);
-	
+ 
+  theZoom(svg);
+  theZoom.scaleTo(svg, 0.1);
+ 
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);
