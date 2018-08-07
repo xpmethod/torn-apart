@@ -70,6 +70,7 @@ export function slug(string) {
       .words()
       .value()
       .join("-")
+      .replace("'", "")
   );
 }
 
