@@ -23,8 +23,8 @@ _loading text… cargando el texto…_
 {: .figure-portrait}
 ![Figure 1. Rise in ICE contracts]({{site.baseurl}}/assets/imgs/v2/textures-fig1.jpg)
 
-{: .figure-portrait}
-![Figure 2. Rise in ICE contracts, updated]({{site.baseurl}}/assets/imgs/v2/textures-fig2.png)
+<!-- {: .figure-portrait}
+![Figure 2. Rise in ICE contracts, updated]({{site.baseurl}}/assets/imgs/v2/textures-fig2.png) -->
 
 <div id="textures-full-text-2" class="markdownify" data-i18n="ta-v2-textures-full-text-2">
 _loading text… cargando el texto…_
