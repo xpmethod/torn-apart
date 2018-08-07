@@ -7,27 +7,25 @@ import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import { scalePow } from "d3-scale";
-import { extent } from "d3-array";
 
 
 export default function(){
 
-var lw = scalePow() //sets a scale for line width
+  var lw = scalePow() //sets a scale for line width
     .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
     .range([1, 10])
     .exponent(0.1);
 
   const graph = _.cloneDeep(Data);
-  const theZoom = zoom()
-    .scaleExtent([.1, .3])
-    .on("zoom", zoomed);
+  
+  //zoom handler
+	const theZoom = zoom()
+		.on("zoom", zoomed);
 
-  const svg = select("#freezer-svg")
-    .call(theZoom)
-    .append("g")
-    .attr("id", "topG");
-  //sets initial zoom level
-  theZoom.scaleTo(select("svg"),-10);
+  const svg = select("#freezer-svg");
+			
+	const g = svg.append("g");
+	
   const width = svg.attr("width");
   const height = svg.attr("height");
 
@@ -48,56 +46,55 @@ var lw = scalePow() //sets a scale for line width
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
 
-  const link = svg.append("g")
+	 var link = g.append("g")
     .attr("class", "links")
-    .call(zoomTransform)
-    .selectAll("line")
+	.selectAll("line")
     .data(graph.links)
     .enter().append("line")
-	.style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
-    
-   
+    .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
     
 
-  var node = svg.append("g")
-    .attr("class", "nodes")
-    .call(zoomTransform)
-    .selectAll("rect")
-    .data(graph.nodes)
-    .enter().append("rect")
-    .each( d => {
-      switch (d.category) {
-      case "product category":
-        d.color = green;
-        d.side = 200;
-        break;
-      case "product":
-        d.color = purple;
-        d.side = 160;
-        break;
-      case "company":
-        d.color = orange;
-        d.side = 120;
-        break;
-      case "parent company":
-        d.color = pink;
-        d.side = 80;
-        break;
-      }
-    })
-    .attr("width", d => d.side)
-    .attr("height", d => d.side)
-    .style("fill", d => d.color)
-    .on("click", freezerMurderboardSidebar)
-    .on("mousedown", () => event.stopPropagation )
-    .call(drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended));
+  var node = g.append("g")
+			.selectAll("rect")
+			.attr("class", "nodes")
+			.data(graph.nodes)
+			.enter().append("rect")
+			.each( d => {
+				switch (d.category) {
+					case "product category":
+						d.color = green;
+						d.side = 200;
+						break;
+					case "product":
+						d.color = purple;
+					d.side = 160;
+						break;
+					case "company":
+						d.color = orange;
+						d.side = 120;
+						break;
+					case "parent company":
+						d.color = pink;
+						d.side = 80;
+					break;
+					}
+				})
+			.attr("width", d => d.side)
+			.attr("height", d => d.side)
+			.style("fill", d => d.color)
+			.on("click", freezerMurderboardSidebar)
+			.on("mousedown", () => event.stopPropagation )
+			.call(drag()
+				.on("start", dragstarted)
+				.on("drag", dragged)
+				.on("end", dragended));
 
   node.append("title")
     .text( d => d.id );
-
+	
+	theZoom(svg);
+	theZoom.scaleTo(svg, 0.1);
+	
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);
@@ -119,7 +116,6 @@ var lw = scalePow() //sets a scale for line width
   }
 
   //adds sticky dragging
-
   function dragstarted(d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
@@ -137,10 +133,10 @@ var lw = scalePow() //sets a scale for line width
     d.fy = d.y;
   }
 
+  //zoom function
   function zoomed()
   {
-    var topG = select("#topG");
-    topG.attr("transform", `translate(${+event.transform.x},${+event.transform.y}) scale(${event.transform.k})`);
+    g.attr("transform", event.transform);
   }
 
 }
