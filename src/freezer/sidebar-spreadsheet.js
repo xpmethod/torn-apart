@@ -17,7 +17,7 @@ export default function(awards){
     html.push(`<td><small>$${bigMoneyFormat(award.potential_total_value)}</small></td>`);
     html.push("</tr><tr>");
     html.push("<td>&nbsp;</td>");
-    html.push(`<td colspan="5" class="award-description"><small><span data-i18n='ta-description'></span>: ${award.award_description}</small></td>`);
+    html.push(`<td colspan="5" class="award-description"><small><span data-i18n="ta-description"></span>: ${award.award_description}</small></td>`);
     html.push("</tr>");
   });
   html.push("</tbody></table></div>");
