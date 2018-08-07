@@ -20,6 +20,7 @@ export default function(){
   
   //zoom handler
   const theZoom = zoom()
+    .scaleExtent([0.1, 0.3])
     .on("zoom", zoomed);
 
   const svg = select("#freezer-svg");
@@ -53,8 +54,8 @@ export default function(){
     .enter().append("line")
     .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
     
-	//could get d.source and then search nodes for the id that matches and get its corresponding color.
-	
+  //could get d.source and then search nodes for the id that matches and get its corresponding color.
+ 
 
 
   var node = g.append("g")
@@ -91,24 +92,24 @@ export default function(){
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
-	  
-link.style("stroke", function(d) { 
+   
+  link.style("stroke", function(d) { 
 
-var color = "grey";
+    var color = "grey";
 
-for(var j = 0; j< graph.nodes.length; j = j+1){
-	var targetName = d.target;
-	if (graph.nodes[j].id == targetName)
-		{
-			color = graph.nodes[j].color;
-		};
-	}
-	
-return color; 
+    for(var j = 0; j< graph.nodes.length; j = j+1){
+      var targetName = d.target;
+      if (graph.nodes[j].id === targetName)
+      {
+        color = graph.nodes[j].color;
+      }
+    }
+ 
+    return color; 
 
-})
+  });
 
-	
+ 
 
   node.append("title")
     .text( d => d.id );
