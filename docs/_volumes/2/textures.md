@@ -24,7 +24,7 @@ layout: page
 <!-- {: .figure-portrait}
 ![Figure 2. Rise in ICE contracts, updated]({{site.baseurl}}/assets/imgs/v2/textures-fig2.png) -->
 
-<div id="textures-full-text-2" class="markdownify" data-i18n="ta-v2-textures-full-text-2">
+<div class="markdownify" data-i18n="ta-v2-textures-full-text-2">
 </div>
 
 
