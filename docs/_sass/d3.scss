@@ -1,0 +1,10 @@
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .domain, .tick {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 1, 4;
+}
+
