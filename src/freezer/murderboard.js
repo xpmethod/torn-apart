@@ -6,9 +6,16 @@ import { zoomTransform, zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
+import { scalePow } from "d3-scale";
+import { extent } from "d3-array";
 
 
 export default function(){
+
+var lw = scalePow() //sets a scale for line width
+    .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
+    .range([1, 10])
+    .exponent(0.1);
 
   const graph = _.cloneDeep(Data);
   const theZoom = zoom()
@@ -46,12 +53,11 @@ export default function(){
     .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line");
-    // the math below isn't right here for stroke-width but I don't think I'm doing
-    // this right and I'm concerned about the 0 contract_values in the data
-    // removing edges entirely because x*0 = 0. All I managed to do was make the background
-    // grey.
-    //.attr("style", function(d) { return ("stroke-width:" + (d.contract_value * .01));});
+    .enter().append("line")
+	.style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
+    
+   
+    
 
   var node = svg.append("g")
     .attr("class", "nodes")
