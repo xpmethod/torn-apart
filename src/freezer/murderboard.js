@@ -47,6 +47,11 @@ export default function(){
     .selectAll("line")
     .data(graph.links)
     .enter().append("line");
+    // the math below isn't right here for stroke-width but I don't think I'm doing
+    // this right and I'm concerned about the 0 contract_values in the data
+    // removing edges entirely because x*0 = 0. All I managed to do was make the background
+    // grey.
+    //.attr("style", function(d) { return ("stroke-width:" + (d.contract_value * .01));});
 
   var node = svg.append("g")
     .attr("class", "nodes")
