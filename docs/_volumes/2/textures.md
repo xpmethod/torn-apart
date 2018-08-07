@@ -1,8 +1,7 @@
 ---
 title: Textures
-layout: page
 volume: 2
-redirect_from: textures.html
+layout: page
 ---
 
 
@@ -17,8 +16,20 @@ redirect_from: textures.html
   the <div>s below.
 -->
 
-<div id="textures-full-text-1" class="markdownify" data-i18n="ta-v1-textures-full-text-1">
+<div id="textures-full-text-1" class="markdownify" data-i18n="ta-v2-textures-full-text-1">
 _loading text… cargando el texto…_
 </div>
+
+{: .figure-portrait}
+![Figure 1. Rise in ICE contracts]({{site.baseurl}}/assets/imgs/v2/textures-fig1.jpg)
+
+{: .figure-portrait}
+![Figure 2. Rise in ICE contracts, updated]({{site.baseurl}}/assets/imgs/v2/textures-fig2.png)
+
+<div id="textures-full-text-2" class="markdownify" data-i18n="ta-v2-textures-full-text-2">
+_loading text… cargando el texto…_
+</div>
+
+
 
 
