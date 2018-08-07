@@ -14,12 +14,10 @@ export function playCarousel(){
 
 export function nextCarousel(){
   $(".carousel").carousel("next");
-  $(".carousel-button").removeClass("active");
-  $(".carousel-button-pause").addClass("active");
+  pauseCarousel();
 }
 
 export function previousCarousel(){
   $(".carousel").carousel("prev");
-  $(".carousel-button").removeClass("active");
-  $(".carousel-button-pause").addClass("active");
+  pauseCarousel();
 }

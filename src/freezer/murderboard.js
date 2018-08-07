@@ -25,7 +25,8 @@ export default function(){
 
   const svg = select("#freezer-svg");
    
-  const g = svg.append("g");
+  const g = svg.append("g")
+    .attr("id", "topG");
  
   const width = svg.attr("width");
   const height = svg.attr("height");
