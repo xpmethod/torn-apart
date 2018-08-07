@@ -2,25 +2,31 @@ import _ from "lodash";
 import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
-import { zoomTransform, zoom } from "d3-zoom";
+import { zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
+import { scalePow } from "d3-scale";
 
 
 export default function(){
 
+  var lw = scalePow() //sets a scale for line width
+    .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
+    .range([1, 10])
+    .exponent(0.1);
+
   const graph = _.cloneDeep(Data);
+  
+  //zoom handler
   const theZoom = zoom()
-    .scaleExtent([.1, .3])
+    .scaleExtent([0.1, 0.3])
     .on("zoom", zoomed);
 
-  const svg = select("#freezer-svg")
-    .call(theZoom)
-    .append("g")
-    .attr("id", "topG");
-  //sets initial zoom level
-  theZoom.scaleTo(select("svg"),-10);
+  const svg = select("#freezer-svg");
+   
+  const g = svg.append("g");
+ 
   const width = svg.attr("width");
   const height = svg.attr("height");
 
@@ -41,22 +47,20 @@ export default function(){
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
 
-  const link = svg.append("g")
+  var link = g.append("g")
     .attr("class", "links")
-    .call(zoomTransform)
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line");
-    // the math below isn't right here for stroke-width but I don't think I'm doing
-    // this right and I'm concerned about the 0 contract_values in the data
-    // removing edges entirely because x*0 = 0. All I managed to do was make the background
-    // grey.
-    //.attr("style", function(d) { return ("stroke-width:" + (d.contract_value * .01));});
+    .enter().append("line")
+    .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
+    
+  //could get d.source and then search nodes for the id that matches and get its corresponding color.
+ 
 
-  var node = svg.append("g")
-    .attr("class", "nodes")
-    .call(zoomTransform)
+
+  var node = g.append("g")
     .selectAll("rect")
+    .attr("class", "nodes")
     .data(graph.nodes)
     .enter().append("rect")
     .each( d => {
@@ -88,10 +92,31 @@ export default function(){
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
+   
+  link.style("stroke", function(d) { 
+
+    var color = "grey";
+
+    for(var j = 0; j< graph.nodes.length; j = j+1){
+      var targetName = d.target;
+      if (graph.nodes[j].id === targetName)
+      {
+        color = graph.nodes[j].color;
+      }
+    }
+ 
+    return color; 
+
+  });
+
+ 
 
   node.append("title")
     .text( d => d.id );
-
+ 
+  theZoom(svg);
+  theZoom.scaleTo(svg, 0.1);
+ 
   simulation
     .nodes(graph.nodes)
     .on("tick", ticked);
@@ -113,7 +138,6 @@ export default function(){
   }
 
   //adds sticky dragging
-
   function dragstarted(d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
@@ -131,10 +155,10 @@ export default function(){
     d.fy = d.y;
   }
 
+  //zoom function
   function zoomed()
   {
-    var topG = select("#topG");
-    topG.attr("transform", `translate(${+event.transform.x},${+event.transform.y}) scale(${event.transform.k})`);
+    g.attr("transform", event.transform);
   }
 
 }
