@@ -66,7 +66,6 @@ export default function(){
   const cell = g.selectAll("g")
     .data(root.leaves())
     .enter().append("g")
-    .attr("class", d => slug(d.parent.parent.data.name))
     .attr("transform", d => `translate(${ d.x0 },${ d.y0 })`);
 
   cell.append("rect")
@@ -76,7 +75,7 @@ export default function(){
       d.color = fillColor(d.parent.parent.data.id);
       d.highlightColor = highlightColor(d.parent.parent.data.id);
     })
-    .attr("class", d => d.data.parentSlug)
+    .attr("class", d => `parent-${slug(d.data.parentSlug)}`)
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
     .on("click", treeSelectCell)
