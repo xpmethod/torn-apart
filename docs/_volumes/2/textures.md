@@ -1,5 +1,6 @@
 ---
 title: Textures
+volume: 2
 layout: page
 ---
 
@@ -15,4 +16,5 @@ layout: page
   the <div>s below.
 -->
 
+<div class="markdownify" data-i18n="ta-v2-textures-full-text-1"></div>
 
