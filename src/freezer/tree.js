@@ -2,22 +2,25 @@
 import _ from "lodash";
 import { sum } from "d3-array";
 import { select } from "d3-selection";
-// import { interpolateRgb } from "d3-interpolate";
+import { interpolateRgb } from "d3-interpolate";
 import { schemeSet2 } from "d3-scale-chromatic";
 import { scaleOrdinal } from "d3-scale";
 import { format } from "d3-format";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
 import { slug } from "../utils";
 import treeSidebar from "./tree-sidebar";
+import treeSelectCell from "./tree-select-cell";
 import Data from "../../data/freezer/graph.json";
 
 export default function(){
+  const colorFade = 0.5;
   const data = _.cloneDeep(Data);
   treeSidebar(data);
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "treemap-g");
-  // const fader = (color => interpolateRgb(color, "#fff")(0.2));
-  const color = scaleOrdinal(schemeSet2);//.map(fader));
+  const fader = (color => interpolateRgb(color, "#fff")(colorFade));
+  const fillColor = scaleOrdinal(schemeSet2.map(fader));
+  const highlightColor = scaleOrdinal(schemeSet2);
   const theFormat = format(",d");
 
   const theTree = treemap()
@@ -69,11 +72,15 @@ export default function(){
   cell.append("rect")
     // .each(d => console.log(d))
     .attr("id", d => slug(d.data.graphid))
+    .each(d => { 
+      d.color = fillColor(d.parent.parent.data.id);
+      d.highlightColor = highlightColor(d.parent.parent.data.id);
+    })
     .attr("class", d => d.data.parentSlug)
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
-    // .attr("fill", d => color(d.parent.data.id));
-    .attr("fill", d => color(d.parent.parent.data.id));
+    .on("click", treeSelectCell)
+    .attr("fill", d => d.color);
 
   cell.append("title")
     .text(d => `${ d.data.id.replace("contracts.", "").replace(".", " ") }\n

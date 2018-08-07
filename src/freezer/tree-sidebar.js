@@ -1,6 +1,7 @@
 import $ from "jquery";
 import _ from "lodash";
 import { select } from "d3-selection";
+import { slug } from "../utils";
 import treeSidebarEntry from "./tree-sidebar-entry";
 import treeSidebarPlayButtons from "./tree-sidebar-play-buttons";
 
@@ -22,6 +23,7 @@ export default function (data){
     .selectAll("div")
     .data(_.shuffle(data.nodes.filter( node => node.category === "parent company")))
     .enter().append("div")
+    .attr("id", d => `treemap-card-${slug(d.name)}`)
     .classed("carousel-item", true)
     .html(treeSidebarEntry);
 
