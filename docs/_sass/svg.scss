@@ -1,0 +1,36 @@
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .domain, .tick {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 1, 4;
+}
+
+.link, .dotted-link {
+  stroke: #aaa;
+}
+
+.dotted-link {
+  stroke-dasharray: 1, 4;
+}
+
+.node {
+  pointer-events: all;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+.bar {
+  fill: rgba(102, 194, 165, 0.9); // presumably this is green.
+}
+
+text {
+  font-size: 10px;
+}
+
+text.label {
+  font-size: 1rem;
+}
+
