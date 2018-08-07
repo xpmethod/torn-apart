@@ -2,29 +2,27 @@
 import _ from "lodash";
 import { sum } from "d3-array";
 import { select } from "d3-selection";
-import { interpolateRgb } from "d3-interpolate";
+// import { interpolateRgb } from "d3-interpolate";
 import { schemeSet2 } from "d3-scale-chromatic";
 import { scaleOrdinal } from "d3-scale";
 import { format } from "d3-format";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
-import Data from "../../data/explorer/graph.json";
-// import { rem } from "../constants";
+import { slug } from "../utils";
+import treeSidebar from "./tree-sidebar";
+import Data from "../../data/freezer/graph.json";
 
 export default function(){
   const data = _.cloneDeep(Data);
-  // const width = $(window).width() - 4 * rem;
-  // const height = 350;
-  // const height = $("#v2-div").position().top + $("#v2-div").height() - $("#explorer-svg").position().top;
-  const svg = select("#explorer-svg");
-  // .attr("width", width)
-  // .attr("height", height);
+  treeSidebar(data);
+  const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "treemap-g");
-  const fader = (color => interpolateRgb(color, "#fff")(0.2));
-  const color = scaleOrdinal(schemeSet2.map(fader));
+  // const fader = (color => interpolateRgb(color, "#fff")(0.2));
+  const color = scaleOrdinal(schemeSet2);//.map(fader));
   const theFormat = format(",d");
 
   const theTree = treemap()
     .tile(treemapResquarify)
+    // .size([500, 500])
     .size([svg.attr("width"), svg.attr("height")])
     .round(true)
     .paddingInner(1);
@@ -35,19 +33,25 @@ export default function(){
       .map(node => { return { name: node.name};})
       .each(productCat => {
         productCat.children = _(data.nodes)
-          .filter(node => node.child_of === productCat.name)
-          .map(node => { return { name: node.name }; })
+          .filter(node => node.childOf === productCat.name)
+          .map(node => { return { name: node.name, graphID: node.id }; })
           .each(node => {
             node.children = _(data.links)
-              .filter(link => link.target === node.name && link.value > 0)
+              .filter(link => link.target === node.graphID && link.contract_value > 0)
               .value()
-              .map(link => { return { name: link.source, contract_value: link.value };});
+              .map(link => { 
+                const node = _.find(data.nodes, { id: link.source });
+                const parent = () => node.childOf ? node.childOf : node.id;
+                return { 
+                  name: node.name,
+                  parentSlug: slug(parent()),
+                  graphID: link.source, 
+                  contract_value: link.contract_value 
+                };
+              });
           });
       })
   };
-
-  // check Retail. It should have "Tools" and "Books"
-  // console.log(theData);
 
   const root = hierarchy(theData)
     .eachBefore(d =>  d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name)
@@ -59,14 +63,17 @@ export default function(){
   const cell = g.selectAll("g")
     .data(root.leaves())
     .enter().append("g")
+    .attr("class", d => slug(d.parent.parent.data.name))
     .attr("transform", d => `translate(${ d.x0 },${ d.y0 })`);
 
   cell.append("rect")
-    .attr("id", d => d.data.id)
+    // .each(d => console.log(d))
+    .attr("id", d => slug(d.data.graphid))
+    .attr("class", d => d.data.parentSlug)
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
-    .attr("fill", d => color(d.parent.data.id));
-  // .attr("fill", d => { console.log(d); return color(d.parent.data.id);});
+    // .attr("fill", d => color(d.parent.data.id));
+    .attr("fill", d => color(d.parent.parent.data.id));
 
   cell.append("title")
     .text(d => `${ d.data.id.replace("contracts.", "").replace(".", " ") }\n

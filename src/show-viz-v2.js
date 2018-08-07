@@ -2,7 +2,7 @@ import $ from "jquery";
 import updateTexts from "./update-texts";
 import districts from "./districts";
 import beds from "./beds";
-import explorer from "./explorer";
+import freezer from "./freezer";
 import rain from "./rain";
 import lines from "./lines";
 import gain from "./gain";
@@ -24,8 +24,8 @@ export default function (viz, map){
     rain(map);
     updateTexts();
     break;
-  case "explorer":
-    explorer(map);
+  case "freezer":
+    freezer(map);
     updateTexts();
     break;
   case "lines":
