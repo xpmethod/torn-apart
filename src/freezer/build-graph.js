@@ -4,7 +4,7 @@ import path from "path";
 import parse from "csv-parse";
 import _ from "lodash";
 
-readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
+readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
   if(err) throw err;
   parse(data, {columns: true}, (err, awards) => {
     if(err) throw err;
@@ -87,23 +87,28 @@ readFile(path.join("data", "explorer", "explorer.csv"), (err, data) => {
         }, 0);
       });
 
-    //  _.each(companies_uniq, company => {
-    //    _.each(graph.links.filter( link => link.source === company ), link => {
-    //      const value = _.reduce(awards.filter(award => award.recipient_name === link.source && award.naics_description === link.target),
-    //          (sum, award) => {
-    //            return sum + _.toInteger(award.current_total_value_of_award);
-    //          }, 0);
-    //      link.value = value;
-    //      });
-    //    _.find(graph.nodes, node => node.name === company)
-    //        .total_value = _.reduce(graph.links.filter( link => link.source === company ),
-    //          (sum, link) => link.value + sum, 0);
-    // _.find(graph.nodes, node => node.name === company)
-    // .award_id = _.find(awards, award => award.recipient_name === company).award_id;
+    _(graph.nodes.filter(node => node.category === "company"))
+      .each(company => {
+        company.awards = awards.filter(award => award.recipient_name === company.name);
+        company.total_value = company.awards.reduce( (sum, award) => {
+          return sum + _.toInteger(award.current_total_value);
+        }, 0);
+      });
 
-    //  });
+    _(graph.nodes)
+      .filter(node => node.category.match(/company/))
+      .each(companyNode => {
+        _(graph.links)
+          .filter(link => link.source === companyNode.id)
+          .each(companyLink => {
+            companyLink.contract_value = _.reduce(awards.filter(award => award.recipient_name === companyNode.name && award.product_combo === companyLink.target),
+              (sum, award) => {
+                return sum + _.toInteger(award.current_total_value);
+              }, 0);
+          });
+      });
 
-    writeFile(path.join("data", "explorer", "graph.json"),
+    writeFile(path.join("data", "freezer", "graph.json"),
       JSON.stringify(graph, null, 2), (err) => {
         if(err) throw err;
         stdout.write("WE DID THE THING 🚀\n");

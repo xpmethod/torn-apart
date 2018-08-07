@@ -3,6 +3,7 @@ import L from "leaflet";
 import _ from "lodash";
 import slugify from "slugify";
 import { rem } from "./constants";
+import { format } from "d3-format";
 
 export function moveLegend() {
   $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
@@ -69,6 +70,7 @@ export function slug(string) {
       .words()
       .value()
       .join("-")
+      .replace("'", "")
   );
 }
 
@@ -81,3 +83,8 @@ export function getOrdinal(n) {
 export function fillV2DivHeight(elementAbove){
   return $("#v2-div").height() - $(elementAbove).height() - rem;
 }
+
+export function bigMoneyFormat(number){
+  return format(".2s")(_.toInteger(number));
+}
+
