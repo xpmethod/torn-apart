@@ -6,37 +6,40 @@ import { zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
-import { scalePow } from "d3-scale";
+import IceCube from "./ice-cube";
+import { scaleLog } from "d3-scale";
+import { extent } from "d3-array";
+import { color } from "d3-color";
 
 
 export default function(){
 
-  var lw = scalePow() //sets a scale for line width
-    .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
-    .range([1, 10])
-    .exponent(0.1);
-
   const graph = _.cloneDeep(Data);
-  
+  const iceCube = IceCube();
+  const smallCube = 1.25;
+  const largeCube = 2.5;
+  const svg = select("#freezer-svg");
+  const g = svg.append("g").attr("id", "topG");
+  const width = svg.attr("width");
+  const height = svg.attr("height");
+  const lw = scaleLog() //sets a scale for line width
+    .domain(extent(Data.links
+      .filter(links => links.contract_value > 0)
+      .map(links => links.contract_value))
+    )
+    .range([25, 100]);
+
   //zoom handler
   const theZoom = zoom()
     .scaleExtent([0.1, 0.3])
     .on("zoom", zoomed);
 
-  const svg = select("#freezer-svg");
-   
-  const g = svg.append("g")
-    .attr("id", "topG");
- 
-  const width = svg.attr("width");
-  const height = svg.attr("height");
-
   window.onwheel = function(){return false;};
 
   const forces = {
     charge: -6000,
-    x: 100,
-    y: 100,
+    x: 200,
+    y: 200,
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
@@ -49,70 +52,85 @@ export default function(){
     .alphaDecay(forces.alphaDecay);
 
   var link = g.append("g")
-    .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-    .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
+    .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
+    .attr("opacity", 0.9)
+    .style("stroke-linecap", "round")
+    .style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
     
   //could get d.source and then search nodes for the id that matches and get its corresponding color.
- 
 
-
-  var node = g.append("g")
-    .selectAll("rect")
-    .attr("class", "nodes")
+  const nodes = g.append("g")
+    .selectAll("g")
     .data(graph.nodes)
-    .enter().append("rect")
+    .enter().append("g")
+    .classed("node-g", true)
     .each( d => {
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.side = 200;
+        d.scale = largeCube;
+        d.side = 240;
         break;
       case "product":
         d.color = purple;
+        d.scale = smallCube;
         d.side = 160;
         break;
       case "company":
         d.color = orange;
-        d.side = 120;
+        d.scale = smallCube;
+        d.side = 80;
         break;
       case "parent company":
         d.color = pink;
-        d.side = 80;
+        d.scale = largeCube;
+        d.side = 160;
         break;
       }
     })
-    .attr("width", d => d.side)
-    .attr("height", d => d.side)
-    .style("fill", d => d.color)
     .on("click", freezerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
+
+  nodes.append("g")
+    .attr("transform", d => `scale(${d.scale})translate(-44,-44)`)
+    .attr("data-source", "Ice cube icon by Ken Murray from the Noun Project: https://thenounproject.com/term/ice-cube/614208/")
+    .each(function(){
+      // this is so. so. so. ugly.
+      select(this)
+        .append("path")
+        .style("fill", d => d.color) // background or fill of the cube
+        .attr("opacity", 0.85)
+        .attr("d", iceCube[0]);
+      select(this)
+        .append("path")
+        .style("fill", d => color(d.color).darker(0.5))
+        .attr("d", iceCube[1]);
+      select(this)
+        .append("path")
+        .style("fill", d => color(d.color).darker(0.5))
+        .attr("d", iceCube[2]);
+    });
    
-  link.style("stroke", function(d) { 
+  // link.style("stroke", function(d) { 
+  //   var color = "grey";
+  //   for(var j = 0; j< graph.nodes.length; j = j+1){
+  //     var targetName = d.target;
+  //     if (graph.nodes[j].id === targetName)
+  //     {
+  //       color = graph.nodes[j].color;
+  //     }
+  //   }
+  //   return color; 
+  // });
 
-    var color = "grey";
-
-    for(var j = 0; j< graph.nodes.length; j = j+1){
-      var targetName = d.target;
-      if (graph.nodes[j].id === targetName)
-      {
-        color = graph.nodes[j].color;
-      }
-    }
- 
-    return color; 
-
-  });
-
- 
-
-  node.append("title")
+  nodes.append("title")
     .text( d => d.id );
  
   theZoom(svg);
@@ -133,9 +151,7 @@ export default function(){
       .attr("x2", d => d.target.x )
       .attr("y2", d => d.target.y );
 
-    node
-      .attr("x", d => d.x )
-      .attr("y", d => d.y );
+    nodes.attr("transform", d => `translate(${d.x},${d.y})`);
   }
 
   //adds sticky dragging

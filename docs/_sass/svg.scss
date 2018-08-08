@@ -1,3 +1,4 @@
+
 .axis text {
   font: 10px sans-serif;
 }
@@ -8,18 +9,16 @@
   stroke-dasharray: 1, 4;
 }
 
-.link, .dotted-link {
-  stroke: #aaa;
+line.link {
+  stroke: #999;
 }
 
-.dotted-link {
-  stroke-dasharray: 1, 4;
+line.dotted-link {
+  stroke: #ccc;
 }
 
 .node {
   pointer-events: all;
-  stroke: black;
-  stroke-width: 3px;
 }
 
 .bar {
