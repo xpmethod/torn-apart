@@ -4,6 +4,7 @@ import { select } from "d3-selection";
 import { slug } from "../utils";
 import treeSidebarEntry from "./tree-sidebar-entry";
 import treeSidebarPlayButtons from "./tree-sidebar-play-buttons";
+import treeSelectCell from "./tree-select-cell";
 
 export default function (data){
 
@@ -27,5 +28,13 @@ export default function (data){
     .classed("carousel-item", true)
     .html(treeSidebarEntry);
 
-  $("#tree-sidebar-carousel .carousel-inner .carousel-item:first").addClass("active");
+  const firstCompany = $("#tree-sidebar-carousel .carousel-inner .carousel-item:first");
+  firstCompany.addClass("active");
+  treeSelectCell(firstCompany.attr("id").replace("treemap-card-", "parent-"));
+
+  $(".carousel").on("slid.bs.carousel", () => {
+    treeSelectCell($(".carousel-item.active")
+      .attr("id")
+      .replace("treemap-card-", "parent-"));
+  });
 }

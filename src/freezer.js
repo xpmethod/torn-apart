@@ -19,6 +19,7 @@ export default function(){
     $("#treemap-g").hide();
     updateTexts();
   });
+
   $("#treemap-button").click(() => {
     $("#treemap-button").addClass("active");
     $("#murderboard-button").removeClass("active");

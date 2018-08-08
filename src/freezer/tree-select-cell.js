@@ -6,8 +6,14 @@ export default function(d){
     .attr("filter", null)
     .attr("fill", d => d.color)
     .classed("clicked", false);
-  selectAll(`.${select(this).attr("class")}`)
-    .attr("fill", d => d.highlightColor)
-    .attr("filter", "url(#filter-glow-freezer)");
-  treeSidebarShowCard(d);
+  if(typeof(d) === "string"){
+    selectAll(`.${d}`)
+      .attr("fill", d => d.highlightColor)
+      .attr("filter", "url(#filter-glow-freezer)");
+  } else {
+    selectAll(`.${select(this).attr("class")}`)
+      .attr("fill", d => d.highlightColor)
+      .attr("filter", "url(#filter-glow-freezer)");
+    treeSidebarShowCard(d);
+  }
 }
