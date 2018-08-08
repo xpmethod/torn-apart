@@ -29,7 +29,7 @@ export default function(){
     )
     .range([25, 100]);
 
-  //zoom handler
+  // zoom handler
   const theZoom = zoom()
     .scaleExtent([0.1, 0.3])
     .on("zoom", zoomed);
