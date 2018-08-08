@@ -12,7 +12,8 @@ $.i18n().load({
       "Manan Ahmed",
       "Alex Gil",
       "Moacir P. de Sá Pereira",
-      "Paola Verhaert"
+      "Paola Verhaert",
+      "Sylvia Fernández"
     ],
     "locale": "en"
   },
