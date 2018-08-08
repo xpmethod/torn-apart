@@ -3,8 +3,11 @@ import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 // import { easeElastic } from "d3-ease";
 import { format } from "d3-format";
-import { scalePow } from "d3-scale";
-import { extent } from "d3-array";
+// import { extent } from "d3-array";
+// import { scalePow } from "d3-scale";
+import { scaleThreshold } from "d3-scale";
+import { ckmeans } from "simple-statistics";
+import rainLegend from "./legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
@@ -14,12 +17,19 @@ import Data from "../../data/rainVizData.csv";
 export default function(){  
   const width = $("#rain-viz").width();
   const height = fillV2DivHeight("#rain-header");
-  const maxBubbleSize = width / 30;
-  const domain = extent(Data, d => d.current_total_value_of_award);
-  const r = scalePow()
-    .domain(domain)
-    .range([1, maxBubbleSize])
-    .exponent(0.5);
+  // const maxBubbleSize = width / 30;
+  // const domain = extent(Data, d => d.current_total_value_of_award);
+  const bins = ckmeans(Data.map(d => d.current_total_value_of_award), 5);
+  bins.shift();
+  // console.log(bins);
+  const r = scaleThreshold()
+    .domain(bins.map(bin => bin[0]))
+    .range([1, 10, 20, 30, 40]);
+  // const r = scalePow()
+  //   .exponent(0.5)
+  //   .domain(domain)
+  //   .range([1, maxBubbleSize]);
+
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
 
@@ -68,7 +78,7 @@ export default function(){
     simulation.tick(); 
   }
 
-  var labels = [2014, 2015, 2016, 2017, 2018];
+  // var labels = [2014, 2015, 2016, 2017, 2018];
 
   const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
@@ -103,14 +113,14 @@ export default function(){
     .on("mouseout", handleMouseOut);  
     
 
-  svg.selectAll("text")
-    .data(labels).enter()
-    .append("text")
-    .text( d => `FY ${d}`)
-    .attr("x", d => xCenter[d] - 30)
-  //this -50 needs to be replaced with something proportional to the text size
-    .attr("y", 20)
-    .attr("class", "label");
+  // svg.selectAll("text")
+  //   .data(labels).enter()
+  //   .append("text")
+  //   .text( d => `FY ${d}`)
+  //   .attr("x", d => xCenter[d] - 30)
+  // //this -50 needs to be replaced with something proportional to the text size
+  //   .attr("y", 20)
+  //   .attr("class", "label");
 
   // Alas…
   // g.selectAll("circle.rain-drop")
@@ -120,6 +130,13 @@ export default function(){
   //   .ease(easeElastic)
   //   .attr("opacity", 1)
   //   .attr("transform", "translate(0,0)");
+
+  const legend = rainLegend(r);
+  svg.append("g")
+    .classed("rain-legend legend", true)
+    .call(legend)
+    .attr("transform", `translate(30, ${svg.attr("height") - 
+      $("g.rain-legend")[0].getBBox().height + 20})`);
 
 }
 

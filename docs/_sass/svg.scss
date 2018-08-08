@@ -1,0 +1,34 @@
+.axis text, .legend text {
+  font: 10px sans-serif;
+}
+
+.axis line, .domain, .tick {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 1, 4;
+}
+
+line.link {
+  stroke: #999;
+}
+
+line.dotted-link {
+  stroke: #ccc;
+}
+
+.node {
+  pointer-events: all;
+}
+
+.bar {
+  fill: rgba(102, 194, 165, 0.9); // presumably this is green.
+}
+
+text {
+  font-size: 10px;
+}
+
+// text.label {
+//   font-size: 1rem;
+// }
+
