@@ -12,16 +12,16 @@
 
 #v2-div {
   position: absolute;
-  overflow-y: auto;
   top: 9rem;
   left: 1rem;
   height: calc(100vh - 3rem - 8rem - 3rem);
+  min-height: calc(100vh - 3rem - 8rem - 3rem);
+  max-height: calc(100vh - 3rem - 8rem - 3rem);
   width: calc(100vw - 2rem);
   display: none;
   z-index: 1020;
 
   background-color: rgba(255, 255, 255, 0.93);
-
 
   h1, h2, h3, h4, h5, h6 {
     color: $green;
@@ -32,7 +32,12 @@
   }
 
   svg {
-    width: 100%;
+    width: 100%; // keep for wall of gain
+  }
+
+  .spreadsheet {
+    overflow-y: auto;
+    max-height: calc(100vh / 3);
   }
 
   .big-number {
@@ -45,18 +50,6 @@
 
   .big-number-desc {
     text-align: center;
-  }
-
-  .bar {
-    fill: rgba(102, 194, 165, 0.9);
-  }
-
-  text {
-    font-size: 20px;
-  }
-
-  text.label {
-    font-size: 1rem;
   }
 
   .legend-ul li {
@@ -73,7 +66,6 @@
     background-color: $green;
     border: none;
     vertical-align: center;
-
   }
 
   @media (min-width: 576px){
@@ -93,49 +85,38 @@
     left: .5rem;
     width: calc(100vw - 1rem);
     height: calc(100vh - 7.5rem - 1.75rem);
+    min-height: calc(100vh - 7.5rem - 1.75rem);
+    max-height: calc(100vh - 7.5rem - 1.75rem);
   }
 }
 
 // Alex style
 
-.links line {
-  stroke: #aaa;
-  stroke-width: 5px;
-}
-
-.nodes rect {
-  pointer-events: all;
-  stroke: black;
-  stroke-width: 3px;
-}
-
 .d3-tip {
-      line-height: 1;
-      padding: 6px;
-      background: rgba(0, 0, 0, 0.8);
-      color: #fff;
-      border-radius: 4px;
-      font-size: 12px;
-    }
+  line-height: 1;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+}
 
-    /* Creates a small triangle extender for the tooltip */
-    .d3-tip:after {
-      box-sizing: border-box;
-      display: inline;
-      font-size: 10px;
-      width: 100%;
-      line-height: 1;
-      color: rgba(0, 0, 0, 0.8);
-      content: "\25BC";
-      position: absolute;
-      text-align: center;
-    }
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
 
-    /* Style northward tooltips specifically */
-    .d3-tip.n:after {
-      margin: -2px 0 0 0;
-      top: 100%;
-      left: 0;
-    }
-
-// Roopsi style
+/* Style northward tooltips specifically */
+.d3-tip.n:after {
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0;
+}

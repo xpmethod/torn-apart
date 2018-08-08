@@ -30,13 +30,22 @@ code {
   color: $green;
 }
 
-.overflow-scroll {
-  overflow-y: auto;
+.green {
+  color: $green;
+}
+
+.purple {
+  color: $purple;
+}
+
+.orange {
+  color: $orange;
 }
 
 @import "buttons";
 @import "page";
 @import "navbar";
 @import "leaflet";
+@import "svg";
 @import "charts";
 @import "v2-viz";
