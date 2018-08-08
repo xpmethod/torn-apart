@@ -16,8 +16,8 @@ export default function(){
 
   const graph = _.cloneDeep(Data);
   const postIt = PostIt();
-  const smallCube = 1.25;
-  const largeCube = 2.5;
+  const largeNote = 1;
+  const smallNote = largeNote / 2;
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
@@ -70,22 +70,22 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = green;
-        d.scale = largeCube;
+        d.scale = largeNote;
         d.side = 240;
         break;
       case "product":
         d.color = purple;
-        d.scale = smallCube;
+        d.scale = smallNote;
         d.side = 160;
         break;
       case "company":
         d.color = orange;
-        d.scale = smallCube;
+        d.scale = smallNote;
         d.side = 80;
         break;
       case "parent company":
         d.color = pink;
-        d.scale = largeCube;
+        d.scale = largeNote;
         d.side = 160;
         break;
       }
@@ -98,24 +98,21 @@ export default function(){
       .on("end", dragended));
 
   nodes.append("g")
-    .attr("transform", d => `scale(${d.scale})translate(-44,-44)`)
-    .attr("data-source", "Ice cube icon by Ken Murray from the Noun Project: https://thenounproject.com/term/ice-cube/614208/")
-    .each(function(){
-      select(this)
-        .append("path")
-        .attr("opacity", 0.8)
-        .style("fill", "#000000") // Color of the shadow
-        // You can use this line instead to color the shadow
-        // as a tint of the main postit. This requires uncommenting
-        // the color import at the top, however.
-        // .style("fill", d => color(d.color).darker(1.5))
-        .attr("filter", "url(#filter-shadow-blur-freezer)")
-        .attr("d", postIt[0]);
-      select(this)
-        .append("path")
-        .style("fill", d => d.color)
-        .attr("d", postIt[1]);
-    });
+    .attr("transform", d => `scale(${d.scale})translate(-115,-110)`)
+    .append("path")
+    .attr("opacity", 0.7)
+    .style("fill", "#000000") // Color of the shadow
+  // You can use this line instead to color the shadow
+  // as a tint of the main postit. This requires uncommenting
+  // the color import at the top, however.
+  // .style("fill", d => color(d.color).darker(1.5))
+    .attr("filter", "url(#filter-shadow-blur-freezer)")
+    .attr("d", postIt[0])
+    .select(function(){return this.parentNode;})
+    .append("path")
+    .style("fill", d => d.color)
+    .attr("d", postIt[1]);
+
   // link.style("stroke", function(d) {
   //   var color = "grey";
   //   for(var j = 0; j< graph.nodes.length; j = j+1){
