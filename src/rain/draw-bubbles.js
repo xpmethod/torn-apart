@@ -78,7 +78,7 @@ export default function(){
     simulation.tick(); 
   }
 
-  // var labels = [2014, 2015, 2016, 2017, 2018];
+  var labels = [2014, 2015, 2016, 2017, 2018];
 
   const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
@@ -113,14 +113,14 @@ export default function(){
     .on("mouseout", handleMouseOut);  
     
 
-  // svg.selectAll("text")
-  //   .data(labels).enter()
-  //   .append("text")
-  //   .text( d => `FY ${d}`)
-  //   .attr("x", d => xCenter[d] - 30)
-  // //this -50 needs to be replaced with something proportional to the text size
-  //   .attr("y", 20)
-  //   .attr("class", "label");
+  svg.selectAll("text")
+    .data(labels).enter()
+    .append("text")
+    .text( d => `FY ${d}`)
+    .classed("subhead", true)
+    .attr("x", d => xCenter[d] - 30)
+  //this -50 needs to be replaced with something proportional to the text size
+    .attr("y", 20);
 
   // Alas…
   // g.selectAll("circle.rain-drop")
