@@ -25,3 +25,5 @@ export const southernBorderBounds = [[34.1638, -97.1375], [25.8439, -118.608244]
 
 // Constants for states.
 export const states = States;
+
+export const opacityRange5 = [0.2, 0.4, 0.6, 0.8, 1];
