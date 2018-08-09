@@ -3,12 +3,12 @@ import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoom } from "d3-zoom";
-import { green, purple } from "../constants"; //add pink and orange back if ysing
+import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import PostIt from "./post-it";
-import { scaleLog } from "d3-scale";
-import { extent } from "d3-array";
+//import { scaleLog } from "d3-scale";
+//import { extent } from "d3-array";
 //import { color } from "d3-color";
 
 
@@ -22,12 +22,12 @@ export default function(){
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
   const height = svg.attr("height");
-  const lw = scaleLog() //sets a scale for line width
-    .domain(extent(Data.links
-      .filter(links => links.contract_value > 0)
-      .map(links => links.contract_value))
-    )
-    .range([25, 100]);
+  //const lw = scaleLog() //sets a scale for line width
+  //  .domain(extent(Data.links
+  //    .filter(links => links.contract_value > 0)
+  //    .map(links => links.contract_value))
+  //  )
+  //  .range([25, 100]);
 
   // zoom handler
   const theZoom = zoom()
@@ -40,7 +40,7 @@ export default function(){
     charge: -2000,
     x: 100,
     y: 100,
-    alphaDecay: 0.01
+    alphaDecay: .09
   };
   const simulation = forceSimulation()
     .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))    // changes spacing of viz via node repulsion
@@ -56,8 +56,8 @@ export default function(){
     .enter().append("line")
     .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
     .attr("opacity", 0.9)
-    .style("stroke-linecap", "round")
-    .style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
+    .style("stroke-linecap", "round");
+    //.style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
   //could get d.source and then search nodes for the id that matches and get its corresponding color.
 
   const nodes = g.append("g")
@@ -68,24 +68,24 @@ export default function(){
     .each( d => {
       switch (d.category) {
       case "product category":
-        d.color = purple;
-        d.scale = largeNote;
-        d.side = 240;
+        d.color = orange;
+        d.scale = smallNote;
+        d.side = 120;
         break;
       case "product":
-        d.color = purple;
+        d.color = green;
         d.scale = smallNote;
-        d.side = 160;
+        d.side = 120;
         break;
       case "company":
-        d.color = green;
+        d.color = pink;
         d.scale = smallNote;
-        d.side = 80;
+        d.side = 120;
         break;
       case "parent company":
-        d.color = green;
-        d.scale = largeNote;
-        d.side = 160;
+        d.color = purple;
+        d.scale = smallNote;
+        d.side = 120;
         break;
       }
     })
