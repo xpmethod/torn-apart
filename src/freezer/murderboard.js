@@ -17,7 +17,7 @@ export default function(){
   const graph = _.cloneDeep(Data);
   // Drawing options for the icons:
   const icon = {
-    draw: "rect", // or "path" for svg or "image"
+    draw: "image", // or "path" for svg or "rect"
     shadow: false, // make true if you want a shadow on the postit svg.
     postIt: PostIt(),
     scale: 1,
@@ -124,7 +124,7 @@ export default function(){
         .attr("d", icon.postIt[1]);
     }
   } else { // it's an image.
-    icons.attr("xlink:href", d => `http://localhost:4000/torn-apart/assets/imgs/post-it-${d.colorText}.png`)
+    icons.attr("xlink:href", d => `http://localhost:4000/torn-apart/assets/imgs/postit-${d.colorText}.png`)
       .attr("height", icon.side)
       .attr("width", icon.side);
 
