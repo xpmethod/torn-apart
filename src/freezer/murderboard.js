@@ -3,13 +3,13 @@ import { select, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoom } from "d3-zoom";
-import { green, purple, orange, pink } from "../constants";
+import { green, purple } from "../constants"; //add pink and orange back if ysing
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import PostIt from "./post-it";
 import { scaleLog } from "d3-scale";
 import { extent } from "d3-array";
-// import { color } from "d3-color";
+//import { color } from "d3-color";
 
 
 export default function(){
@@ -37,14 +37,13 @@ export default function(){
   window.onwheel = function(){return false;};
 
   const forces = {
-    charge: -6000,
-    x: 200,
-    y: 200,
+    charge: -2000,
+    x: 100,
+    y: 100,
     alphaDecay: 0.01
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.id ))
-    // changes spacing of viz via node repulsion
+    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))    // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
@@ -69,7 +68,7 @@ export default function(){
     .each( d => {
       switch (d.category) {
       case "product category":
-        d.color = green;
+        d.color = purple;
         d.scale = largeNote;
         d.side = 240;
         break;
@@ -79,12 +78,12 @@ export default function(){
         d.side = 160;
         break;
       case "company":
-        d.color = orange;
+        d.color = green;
         d.scale = smallNote;
         d.side = 80;
         break;
       case "parent company":
-        d.color = pink;
+        d.color = green;
         d.scale = largeNote;
         d.side = 160;
         break;
@@ -101,11 +100,7 @@ export default function(){
     .attr("transform", d => `scale(${d.scale})translate(-115,-110)`)
     .append("path")
     .attr("opacity", 0.7)
-    .style("fill", "#000000") // Color of the shadow
-  // You can use this line instead to color the shadow
-  // as a tint of the main postit. This requires uncommenting
-  // the color import at the top, however.
-  // .style("fill", d => color(d.color).darker(1.5))
+    .style("fill", "#000000")
     .attr("filter", "url(#filter-shadow-blur-freezer)")
     .attr("d", postIt[0])
     .select(function(){return this.parentNode;})
@@ -129,7 +124,7 @@ export default function(){
     .text( d => d.id );
 
   theZoom(svg);
-  theZoom.scaleTo(svg, 0.01);
+  theZoom.scaleTo(svg, .0001);
 
   simulation
     .nodes(graph.nodes)
