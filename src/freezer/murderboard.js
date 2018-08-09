@@ -16,8 +16,9 @@ export default function(){
 
   const graph = _.cloneDeep(Data);
   const postIt = PostIt();
-  const largeNote = 1;
-  const smallNote = largeNote / 2;
+  const note = .5;
+  //const largeNote = 1;
+  //const smallNote = largeNote / 2;
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
@@ -69,22 +70,22 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = orange;
-        d.scale = smallNote;
+        d.scale = note;
         d.side = 120;
         break;
       case "product":
         d.color = green;
-        d.scale = smallNote;
+        d.scale = note;
         d.side = 120;
         break;
       case "company":
         d.color = pink;
-        d.scale = smallNote;
+        d.scale = note;
         d.side = 120;
         break;
       case "parent company":
         d.color = purple;
-        d.scale = smallNote;
+        d.scale = note;
         d.side = 120;
         break;
       }
