@@ -22,7 +22,7 @@ export default function(districts){
       shape.properties.fy17 = district.fy17;
       shape.properties.fy18 = district.fy18;
       shape.properties.awards = district.awards;
-      shape.properties.total_awards = district.total_awards;
+      shape.properties.total_value = district.total_awards;
       shape.properties.district_url = district.district_url;
     } else {
       stdout.write(`Could not find ${shape.properties.GEOID}\n`);
