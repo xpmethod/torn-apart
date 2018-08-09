@@ -7,6 +7,10 @@ import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import { scalePow } from "d3-scale";
+//import postIts from "./post-its";
+//import { scaleLog} from "d3-scale";
+//import {extent} from "d3-array";
+//import {color} from "d3-color";
 
 
 export default function(){
