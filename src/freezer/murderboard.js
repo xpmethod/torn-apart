@@ -15,10 +15,15 @@ import PostIt from "./post-it";
 export default function(){
 
   const graph = _.cloneDeep(Data);
-  const postIt = PostIt();
-  const note = .5;
-  //const largeNote = 1;
-  //const smallNote = largeNote / 2;
+  // Drawing options for the icons:
+  const icon = {
+    draw: "rect", // or "path" for svg or "image"
+    shadow: false, // make true if you want a shadow on the postit svg.
+    postIt: PostIt(),
+    scale: 1,
+    note: 1,
+    side: 240 // the postit is about 240 x 240
+  };
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
@@ -70,23 +75,19 @@ export default function(){
       switch (d.category) {
       case "product category":
         d.color = orange;
-        d.scale = note;
-        d.side = 120;
+        d.colorText = "orange";
         break;
       case "product":
         d.color = green;
-        d.scale = note;
-        d.side = 120;
+        d.colorText = "green";
         break;
       case "company":
         d.color = pink;
-        d.scale = note;
-        d.side = 120;
+        d.colorText = "pink";
         break;
       case "parent company":
         d.color = purple;
-        d.scale = note;
-        d.side = 120;
+        d.colorText = "purple";
         break;
       }
     })
@@ -98,16 +99,37 @@ export default function(){
       .on("end", dragended));
 
   nodes.append("g")
-    .attr("transform", d => `scale(${d.scale})translate(-115,-110)`)
-    .append("path")
-    .attr("opacity", 0.7)
-    .style("fill", "#000000")
-    .attr("filter", "url(#filter-shadow-blur-freezer)")
-    .attr("d", postIt[0])
-    .select(function(){return this.parentNode;})
-    .append("path")
-    .style("fill", d => d.color)
-    .attr("d", postIt[1]);
+    .attr("transform", `scale(${icon.scale})translate(-115,-110)`)
+    // .attr("transform", d => `scale(${icon.scale})translate(-115,-110)`)
+    .append(icon.draw);
+
+  const icons = nodes.selectAll(icon.draw);
+
+  if(icon.draw === "rect"){
+    icons.style("fill", d => d.color)
+      .attr("height", icon.side)
+      .attr("width", icon.side);
+  } else if(icon.draw === "path"){
+    if(icon.shadow === true){
+      icons.attr("opacity", 0.7)
+        .style("fill", "#000000")
+        .attr("filter", "url(#filter-shadow-blur-freezer)")
+        .attr("d", icon.postIt[0])
+        .select(function(){return this.parentNode;})
+        .append("path")
+        .style("fill", d => d.color)
+        .attr("d", icon.postIt[1]);
+    } else {
+      icons.style("fill", d => d.color)
+        .attr("d", icon.postIt[1]);
+    }
+  } else { // it's an image.
+    icons.attr("xlink:href", d => `http://localhost:4000/torn-apart/assets/imgs/post-it-${d.colorText}.png`)
+      .attr("height", icon.side)
+      .attr("width", icon.side);
+
+  }
+
 
   // link.style("stroke", function(d) {
   //   var color = "grey";
