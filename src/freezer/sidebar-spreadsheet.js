@@ -1,7 +1,8 @@
 import _ from "lodash";
 import { bigMoneyFormat } from "../utils";
 
-export default function(awards){
+export default function(unsortedAwards){
+  const awards = unsortedAwards.sort((a, b) => b.current_total_value - a.current_total_value);
   const html = ["<div class='spreadsheet'><table class='table table-hover table-sm'>"];
   html.push("<thead><tr class='thead-dark'>");
   _.each(["ta-v2-dba", "ta-v2-location", "ta-v2-category", "ta-v2-product-service", "ta-v2-current-value", "ta-v2-potential-value"],
