@@ -105,6 +105,10 @@
   "ta-v2-current-value": "Current Value",
   "ta-v2-potential-value": "Potential Value",
   "ta-description": "Description",
-  "ta-value-to-date": "Total Value to Date"
+  "ta-value-to-date": "Total Value to Date",
+  "ta-republican-cong": "Republican Rep.",
+  "ta-democrat-cong": "Democratic Rep.",
+  "ta-no-rep-cong": "No Rep. in Congress",
+  "ta-ice-money-since-2013": "ICE awards value since 2013"
 }
 

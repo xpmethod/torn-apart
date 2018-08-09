@@ -98,7 +98,10 @@
   "ta-allies-button": "Show allies directory",
   "ta-allies-supp-text": "Supplemental text related to allies",
   "ta-allies-curated-list": "The list below was curated by our research team and is by no means exhaustive.",
-  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory"
-
+  "ta-allies-directory-title": "Torn Apart / Separados Allies Directory",
+  "ta-republican-cong": "Republican Rep.",
+  "ta-democrat-cong": "Democratic Rep.",
+  "ta-no-rep-cong": "No Rep. in Congress",
+  "ta-ice-money-since-2013": "Value of ICE contracts since 2013"
 }
 

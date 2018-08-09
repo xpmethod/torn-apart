@@ -2,7 +2,8 @@ import { writeFile, readFile } from "fs";
 import { stdout } from "process";
 import path from "path";
 import { parse, stringify } from "csv";
-// import _ from "lodash";
+import States from "../states";
+import _ from "lodash";
 
 readFile(path.join("data", "districts", "all_contracts.csv"), (err, data) => {
   if(err) throw err;
@@ -10,17 +11,19 @@ readFile(path.join("data", "districts", "all_contracts.csv"), (err, data) => {
     if (err) throw err;
     stringify(
       awards.map(award => {
+        let value = parseFloat(award.current_total_value_of_award);
+        if(_.isNaN(value)){ 
+          value = 0;
+        }
         return {
           awardID: award.award_id_piid,
           fiscalYear: award.fiscal_year,
-          currentValue: award.current_total_value_of_award,
+          currentValue: value,
           potentialValue: award.potential_total_value_of_award,
           parentCompany: award.recipient_parent_name,
           childCompany: award.recipient_name,
-          companyState: award.recipient_state_code,
-          companyDistrict: award.recipient_congressional_district,
-          performanceState: award.primary_place_of_performance_state_code,
-          performanceDistrict: award.primary_place_of_performance_congressional_district
+          companyCongCode: convertToCongCode(award.recipient_state_code, award.recipient_congressional_district),
+          performanceCongCode: convertToCongCode(award.primary_place_of_performance_state_code, award.primary_place_of_performance_congressional_district)
         };
       }),
       { header: true,
@@ -31,10 +34,8 @@ readFile(path.join("data", "districts", "all_contracts.csv"), (err, data) => {
           "potentialValue",
           "parentCompany",
           "childCompany",
-          "companyState",
-          "companyDistrict",
-          "performanceState",
-          "performanceDistrict"
+          "companyCongCode",
+          "performanceCongCode",
         ]
       }, (err, output) => {
         if(err) throw err;
@@ -45,3 +46,14 @@ readFile(path.join("data", "districts", "all_contracts.csv"), (err, data) => {
       });
   });
 });
+
+function convertToCongCode(abbreviation, district){
+  const state = _.find(States, { abbreviation });
+  let districtString = district.toString();
+  if(districtString.length === 1) districtString = `0${districtString}`;
+  if(state){
+    return `${state.stateFP.replace(/^0/, "")}${districtString}`;
+  } else {
+    return "****";
+  }
+}

@@ -11,7 +11,7 @@ import rainLegend from "./legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
-import { green, purple } from "../constants";
+import { rem, green, purple } from "../constants";
 import Data from "../../data/rainVizData.csv";
 
 export default function(){  
@@ -78,8 +78,6 @@ export default function(){
     simulation.tick(); 
   }
 
-  // var labels = [2014, 2015, 2016, 2017, 2018];
-
   const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
     .attr("height", height);
@@ -113,14 +111,14 @@ export default function(){
     .on("mouseout", handleMouseOut);  
     
 
-  // svg.selectAll("text")
-  //   .data(labels).enter()
-  //   .append("text")
-  //   .text( d => `FY ${d}`)
-  //   .attr("x", d => xCenter[d] - 30)
-  // //this -50 needs to be replaced with something proportional to the text size
-  //   .attr("y", 20)
-  //   .attr("class", "label");
+  svg.selectAll("text")
+    .data([2014, 2015, 2016, 2017, 2018]).enter()
+    .append("text")
+    .text( d => `FY ${d}`)
+    .classed("subhead", true)
+    .classed("centered", true)
+    .attr("x", d => xCenter[d])
+    .attr("y", 1.75 * rem);
 
   // Alas…
   // g.selectAll("circle.rain-drop")
