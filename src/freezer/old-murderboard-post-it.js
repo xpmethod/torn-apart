@@ -6,34 +6,31 @@ import { zoom } from "d3-zoom";
 import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
-import PostIt from "./post-it";
-//import { scaleLog } from "d3-scale";
-//import { extent } from "d3-array";
-//import { color } from "d3-color";
+import { scalePow } from "d3-scale";
 
 
 export default function(){
 
-  const graph = _.cloneDeep(Data);
-  const postIt = PostIt();
-  const note = .5;
-  //const largeNote = 1;
-  //const smallNote = largeNote / 2;
-  const svg = select("#freezer-svg");
-  const g = svg.append("g").attr("id", "topG");
-  const width = svg.attr("width");
-  const height = svg.attr("height");
-  //const lw = scaleLog() //sets a scale for line width
-  //  .domain(extent(Data.links
-  //    .filter(links => links.contract_value > 0)
-  //    .map(links => links.contract_value))
-  //  )
-  //  .range([25, 100]);
+  var lw = scalePow() //sets a scale for line width
+    .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
+    .range([1, 10])
+    .exponent(0.1);
 
-  // zoom handler
+  const graph = _.cloneDeep(Data);
+
+  //zoom handler
   const theZoom = zoom()
     .scaleExtent([0.1, 3])
     .on("zoom", zoomed);
+
+  const svg = select("#freezer-svg");
+
+
+  const g = svg.append("g");
+
+
+  const width = svg.attr("width");
+  const height = svg.attr("height");
 
   window.onwheel = function(){return false;};
 
@@ -41,10 +38,11 @@ export default function(){
     charge: -2000,
     x: 100,
     y: 100,
-    alphaDecay: .09
+    alphaDecay: 0.01
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))    // changes spacing of viz via node repulsion
+    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))
+    // changes spacing of viz via node repulsion
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
@@ -52,44 +50,49 @@ export default function(){
     .alphaDecay(forces.alphaDecay);
 
   var link = g.append("g")
+    .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-    .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
-    .attr("opacity", 0.9)
-    .style("stroke-linecap", "round");
-    //.style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
+    .style("stroke-width", function(d) { return lw(d.contract_value)+1;}); //the +1 is because Roopsi didn't want the $0 contracts to have no link at all.
+
   //could get d.source and then search nodes for the id that matches and get its corresponding color.
 
-  const nodes = g.append("g")
-    .selectAll("g")
+
+
+  var node = g.append("g")
+    .selectAll(".images")
+    .attr("class", "nodes")
     .data(graph.nodes)
-    .enter().append("g")
-    .classed("node-g", true)
+    .enter().append("image")
     .each( d => {
       switch (d.category) {
       case "product category":
-        d.color = orange;
-        d.scale = note;
-        d.side = 120;
+        d.color = green;
+        d.side = 200;
+        d.url = "http://localhost:4000/torn-apart/assets/imgs/post-it-green.png";
         break;
       case "product":
-        d.color = green;
-        d.scale = note;
-        d.side = 120;
+        d.color = purple;
+        d.side = 160;
+        d.url = "http://localhost:4000/torn-apart/assets/imgs/post-it-purple.png";
         break;
       case "company":
-        d.color = pink;
-        d.scale = note;
+        d.color = orange;
         d.side = 120;
+        d.url = "http://localhost:4000/torn-apart/assets/imgs/post-it-orange.png";
         break;
       case "parent company":
-        d.color = purple;
-        d.scale = note;
-        d.side = 120;
+        d.color = pink;
+        d.side = 80;
+        d.url = "http://localhost:4000/torn-apart/assets/imgs/post-it-pink.png";
         break;
       }
     })
+    .attr("width", d => d.side)
+    .attr("height", d => d.side)
+    .attr("xlink:href", d=> d.url)
+  //  .style("fill", d => d.color)
     .on("click", freezerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
@@ -97,35 +100,30 @@ export default function(){
       .on("drag", dragged)
       .on("end", dragended));
 
-  nodes.append("g")
-    .attr("transform", d => `scale(${d.scale})translate(-115,-110)`)
-    .append("path")
-    .attr("opacity", 0.7)
-    .style("fill", "#000000")
-    .attr("filter", "url(#filter-shadow-blur-freezer)")
-    .attr("d", postIt[0])
-    .select(function(){return this.parentNode;})
-    .append("path")
-    .style("fill", d => d.color)
-    .attr("d", postIt[1]);
 
-  // link.style("stroke", function(d) {
-  //   var color = "grey";
-  //   for(var j = 0; j< graph.nodes.length; j = j+1){
-  //     var targetName = d.target;
-  //     if (graph.nodes[j].id === targetName)
-  //     {
-  //       color = graph.nodes[j].color;
-  //     }
-  //   }
-  //   return color;
-  // });
+  link.style("stroke", function(d) {
 
-  nodes.append("title")
+    var color = "grey";
+
+    for(var j = 0; j< graph.nodes.length; j = j+1){
+      var targetName = d.target;
+      if (graph.nodes[j].id === targetName)
+      {
+        color = graph.nodes[j].color;
+      }
+    }
+
+    return color;
+
+  });
+
+
+
+  node.append("title")
     .text( d => d.id );
 
   theZoom(svg);
-  theZoom.scaleTo(svg, .0001);
+  theZoom.scaleTo(svg, 0.0001);
 
   simulation
     .nodes(graph.nodes)
@@ -142,7 +140,9 @@ export default function(){
       .attr("x2", d => d.target.x )
       .attr("y2", d => d.target.y );
 
-    nodes.attr("transform", d => `translate(${d.x},${d.y})`);
+    node
+      .attr("x", d => d.x )
+      .attr("y", d => d.y );
   }
 
   //adds sticky dragging
