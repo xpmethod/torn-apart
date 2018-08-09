@@ -5,9 +5,9 @@ import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
-import congressionalDistricts from "./congressional-districts.geo.json";
+import congressionalDistricts from "../../data/districts/fat_districts.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
-import { states } from "../constants";
+import { states, purple, green } from "../constants";
 import { getOrdinal } from "../utils";
 
 export default function(map){
@@ -37,20 +37,22 @@ export default function(map){
           select(`#${ d.id }`)
             .attr("filter", "");
         };
+        d.color = purple;
+        if(d.properties.party.match("D")) d.color = green;
       }
     })
     .style("pointer-events", "painted")
     .attr("id", d => d.id)
     .classed("viz-hide", true)
-    .classed("districts-polygon", true)
-    .attr("opacity", () => {
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", () => {
       const bins = [0.2, 0.4, 0.6, 0.8, 1];
       return bins[Math.floor(Math.random() * Math.floor(5))];
     })
+    .style("stroke", d => d.color)
+    .style("stroke-opacity", 0.8)
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
-
-
   
   reset();
   map.on("zoomend", reset);
