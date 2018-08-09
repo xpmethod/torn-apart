@@ -28,6 +28,10 @@ text {
   font-size: 10px;
 }
 
+text.centered {
+  text-anchor: middle;
+}
+
 text.subhead {
   fill: $green;
   font-size: 1.75rem;
