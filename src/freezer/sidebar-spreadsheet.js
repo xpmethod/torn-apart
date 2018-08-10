@@ -1,13 +1,18 @@
 import _ from "lodash";
 import { bigMoneyFormat } from "../utils";
 
-export default function(unsortedAwards){
-  const awards = unsortedAwards.sort((a, b) => b.current_total_value - a.current_total_value);
+export default function(d){
+  const awards = d.awards.sort((a, b) => b.current_total_value - a.current_total_value);
   const html = ["<div class='spreadsheet'><table class='table table-hover table-sm'>"];
   html.push("<thead><tr class='thead-dark'>");
-  _.each(["ta-v2-dba", "ta-v2-location", "ta-v2-category", "ta-v2-product-service", "ta-v2-current-value", "ta-v2-potential-value"],
-    header => html.push(`<th><small data-i18n="${header}"></small></th>`));
-  html.push("</td></thead><tbody>");
+  _.each(["ta-v2-dba", "ta-v2-location", "ta-v2-category", "ta-v2-product-service", "ta-v2-current-value", "ta-v2-potential-value"], header => {
+    let th = "<th>";
+    if(d.color){
+      th = `<th style="background-color: ${d.color};">`;
+    }
+    html.push(`${th}<small data-i18n="${header}"></small></th>`);
+  });
+  html.push("</thead><tbody>");
   _.each(awards, award => {
     html.push("<tr>");
     html.push(`<td><small>${award.recipient_name}</small></td>`);
