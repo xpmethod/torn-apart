@@ -49,7 +49,7 @@ export default function(){
     alphaDecay: .09
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))   
+    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
@@ -131,17 +131,17 @@ export default function(){
   }
 
 
-  // link.style("stroke", function(d) {
-  //   var color = "grey";
-  //   for(var j = 0; j< graph.nodes.length; j = j+1){
-  //     var targetName = d.target;
-  //     if (graph.nodes[j].id === targetName)
-  //     {
-  //       color = graph.nodes[j].color;
-  //     }
-  //   }
-  //   return color;
-  // });
+  link.style("stroke", function(d) {
+    var color = "grey";
+    for(var j = 0; j< graph.nodes.length; j = j+1){
+      var targetName = d.target;
+      if (graph.nodes[j].id === targetName)
+      {
+        color = graph.nodes[j].color;
+      }
+    }
+    return color;
+  });
 
   nodes.append("title")
     .text( d => d.id );
