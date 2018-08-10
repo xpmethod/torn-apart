@@ -162,5 +162,11 @@ export default function(){
     $("#rain-legend")[0].getBBox().height})`)
     .selectAll(".legendTitle")
     .classed("subsubhead", true);
+
+  // For if we keep both contract types, the start of cutting the circle icons in half.
+  // select("#rain-size-legend .legendCells")
+  //   .selectAll(".cell")
+  //   .append("circle")
+  //   .attr("r", 20);
 }
 
