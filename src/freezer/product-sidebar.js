@@ -3,7 +3,7 @@ import _ from "lodash";
 export default function(d){
   const html = ["<table class='table table-hover table-sm'>"];
   html.push("<thead><tr class='thead-dark'>");
-  _.each(["ta-v2-product"], header => {
+  _.each(["ta-v2-product-service"], header => {
     let th = "<th>";
     if(d.color){
       th = `<th style="background-color: ${d.color};">`;
