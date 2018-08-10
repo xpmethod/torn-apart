@@ -22,7 +22,7 @@ export default function(){
     postIt: PostIt(),
     scale: 1,
     note: 1,
-    side: 240 // the postit is about 240 x 240
+    side: 120 // the postit is about 240 x 240
   };
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
@@ -49,7 +49,7 @@ export default function(){
     alphaDecay: .09
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))    // changes spacing of viz via node repulsion
+    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))   
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
