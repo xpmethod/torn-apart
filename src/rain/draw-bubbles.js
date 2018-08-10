@@ -50,6 +50,14 @@ export default function(){
     2017: scaled_width*(12+22+31+42)/155+width/15, 
     2018: scaled_width*(12+22+30+42+47)/155+width/15
   };
+
+  const yCenter = {
+    2014: height/3.4,
+    2015: height/2.8, 
+    2016: height/2.4, 
+    2017: height/2, 
+    2018: height/1.8
+  }
   
   // a dictionary here is overkill, but just in case you want to change it to a
   // more nuanced set of colours, e.g. for the 'year' column instead.
@@ -57,7 +65,8 @@ export default function(){
   
   var simulation = forceSimulation(Data) 
     .force("x", forceX().strength(0.8).x( d => xCenter[d.financial_year]))
-    .force("y", forceY(height/1.8).strength(0.3))
+    .force("y", forceY().strength(0.3).y( d => yCenter[d.financial_year]))
+    // .force("y", forceY(height/1.8).strength(0.3))
     .force("collision", forceCollide().radius( d => {
       return Math.max(8, 1.5 * r(d.current_total_value_of_award));
       // if you want more space around the larger dots (i.e. padding as
@@ -90,6 +99,7 @@ export default function(){
     .attr("r", d => r(d.current_total_value_of_award))
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
+    .attr("opacity", 0.9)
     .each(d => {
       d.id = `${d.financial_year}-${d.award_id_piid}`;
       d.tooltip = `<strong>${d.recipient_name}</strong><br />
@@ -130,11 +140,40 @@ export default function(){
   //   .attr("transform", "translate(0,0)");
 
   const legend = rainLegend(r);
+
   svg.append("g")
     .classed("rain-legend legend", true)
     .call(legend)
     .attr("transform", `translate(30, ${svg.attr("height") - 
-      $("g.rain-legend")[0].getBBox().height + 20})`);
+      $("g.rain-legend")[0].getBBox().height + 20})`)
+    .attr("fill", purple);
+
+  svg.append("circle")
+    .attr("cx", 20)
+    .attr("cy", height - $("g.rain-legend")[0].getBBox().height - 20)
+    .attr("r", 10)
+    .attr("fill", green);
+
+
+  svg.append("text")
+    .text("Renewed contracts")
+    .attr("y", height - $("g.rain-legend")[0].getBBox().height - 20)
+    .attr("fill", green)
+    .attr("x", 40);
+
+  svg.append("circle")
+    .attr("cx", 160)
+    .attr("cy", height - $("g.rain-legend")[0].getBBox().height - 20)
+    .attr("r", 10)
+    .attr("fill", purple);
+
+
+  svg.append("text")
+    .text("Unique contracts")
+    .attr("y", height - $("g.rain-legend")[0].getBBox().height - 20)
+    .attr("fill", purple)
+    .attr("x", 180);
+
 
 }
 
