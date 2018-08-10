@@ -13,7 +13,7 @@ export default function(d){
   html.push("</thead><tbody>");
   _.each(d, d => {
     html.push("<tr>");
-    html.push(`<td><small>${d.name}`);
+    html.push(`<td><small>${d.id}`);
     html.push("</tr><tr>");
   });
   html.push("</tbody></table>");
