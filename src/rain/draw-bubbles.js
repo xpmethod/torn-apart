@@ -1,4 +1,5 @@
 import $ from "jquery";
+import _ from "lodash";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 // import { easeElastic } from "d3-ease";
@@ -8,7 +9,7 @@ import { format } from "d3-format";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import { ckmeans } from "simple-statistics";
 import rainSizeLegend from "./size-legend";
-import rainColorLegend from "./color-legend";
+// import rainColorLegend from "./color-legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
@@ -20,9 +21,10 @@ export default function(){
   const height = fillV2DivHeight("#rain-header");
   const bins = ckmeans(Data.map(d => d.current_total_value_of_award), 5);
   bins.shift();
+  const circleSizes = [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
-    .range([1.5, 10, 20, 30, 40]);
+    .range(circleSizes);
   const color = scaleOrdinal()
     .domain([ "multi-year", "unique" ])
     .range([ green, purple ]);
@@ -144,29 +146,50 @@ export default function(){
     .classed("legend", true);
 
   const sizeLegendContent = rainSizeLegend(r);
-  const colorLegendContent = rainColorLegend(color);
+  // const colorLegendContent = rainColorLegend(color);
 
-  legendG.append("g")
-    .attr("id", "rain-color-legend")
-    .call(colorLegendContent);
+  // legendG.append("g")
+  //   .attr("id", "rain-color-legend")
+  //   .call(colorLegendContent);
     
   legendG.append("g")
     .attr("id", "rain-size-legend")
     // 50 = shapePadding in size-legend.js
-    .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
+    // .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
     .call(sizeLegendContent)
     .selectAll("circle")
     .attr("fill", purple);
 
+  const rainLegendWidth = $("#rain-size-legend")[0].getBBox().width;
+  _.each([
+    { text: "Unique contracts", y: 12 },
+    { text: "Renewed contracts", y: 35 }
+  ], d => {
+    select("#rain-size-legend").select("g")
+      .append("text")
+      .attr("transform", `translate(${rainLegendWidth}, ${d.y})`)
+      .text(d.text);
+  });
+  
   legendG.attr("transform", `translate(30, ${svg.attr("height") - 
     $("#rain-legend")[0].getBBox().height})`)
     .selectAll(".legendTitle")
+    .attr("transform", "translate(0, -15)")
     .classed("subsubhead", true);
 
-  // For if we keep both contract types, the start of cutting the circle icons in half.
-  // select("#rain-size-legend .legendCells")
-  //   .selectAll(".cell")
-  //   .append("circle")
-  //   .attr("r", 20);
+  select("#rain-size-legend .legendCells")
+    .selectAll(".cell")
+    .append("circle")
+    .each(function(d, i) {
+      svg.append("clipPath")
+        .attr("id", `rain-size-legend-clip-path-${i}`)
+        .append("rect")
+        .attr("transform", `translate(${circleSizes[i] * -1},0)`)
+        .attr("width", 2 * circleSizes[i])
+        .attr("height", circleSizes[i]);
+    })
+    .attr("clip-path", (d, i) => `url(#rain-size-legend-clip-path-${i}`)
+    .attr("fill", green)
+    .attr("r", (d, i) => circleSizes[i] );
 }
 
