@@ -13,7 +13,8 @@ $.i18n().load({
       "Alex Gil",
       "Moacir P. de Sá Pereira",
       "Paola Verhaert",
-      "Sylvia Fernández"
+      "Sylvia Fernández",
+      "Clément Lévy"
     ],
     "locale": "en"
   },
