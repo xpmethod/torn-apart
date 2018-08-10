@@ -5,9 +5,10 @@ import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
 import { format } from "d3-format";
 // import { extent } from "d3-array";
 // import { scalePow } from "d3-scale";
-import { scaleThreshold } from "d3-scale";
+import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import { ckmeans } from "simple-statistics";
-import rainLegend from "./legend";
+import rainSizeLegend from "./size-legend";
+import rainColorLegend from "./color-legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
@@ -17,15 +18,17 @@ import Data from "../../data/rainVizData.csv";
 export default function(){  
   const width = $("#rain-viz").width();
   const height = fillV2DivHeight("#rain-header");
-  // const maxBubbleSize = width / 30;
-  // const domain = extent(Data, d => d.current_total_value_of_award);
   const bins = ckmeans(Data.map(d => d.current_total_value_of_award), 5);
   bins.shift();
-  // console.log(bins);
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
-    .range([1, 10, 20, 30, 40]);
+    .range([1.5, 10, 20, 30, 40]);
+  const color = scaleOrdinal()
+    .domain([ "multi-year", "unique" ])
+    .range([ green, purple ]);
+
   // const r = scalePow()
+  // 
   //   .exponent(0.5)
   //   .domain(domain)
   //   .range([1, maxBubbleSize]);
@@ -59,10 +62,6 @@ export default function(){
     2018: height/1.8
   };
   
-  // a dictionary here is overkill, but just in case you want to change it to a
-  // more nuanced set of colours, e.g. for the 'year' column instead.
-  const uniqueness_colour = {"multi-year": green, "unique": purple}; 
-  
   var simulation = forceSimulation(Data) 
     .force("x", forceX().strength(0.8).x( d => xCenter[d.financial_year]))
     .force("y", forceY().strength(0.3).y( d => yCenter[d.financial_year]))
@@ -95,7 +94,7 @@ export default function(){
   g.selectAll("circle")
     .data(Data).enter()
     .append("circle")
-    .style("fill", d => uniqueness_colour[d.uniqueness])
+    .style("fill", d => color(d.uniqueness))
     .attr("r", d => r(d.current_total_value_of_award))
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
@@ -121,7 +120,8 @@ export default function(){
     .on("mouseout", handleMouseOut);  
     
 
-  svg.selectAll("text")
+  svg.append("g").attr("id", "rain-subheads-g")
+    .selectAll("text")
     .data([2014, 2015, 2016, 2017, 2018]).enter()
     .append("text")
     .text( d => `FY ${d}`)
@@ -139,41 +139,28 @@ export default function(){
   //   .attr("opacity", 1)
   //   .attr("transform", "translate(0,0)");
 
-  const legend = rainLegend(r);
+  const legendG = svg.append("g")
+    .attr("id", "rain-legend")
+    .classed("legend", true);
 
-  svg.append("g")
-    .classed("rain-legend legend", true)
-    .call(legend)
-    .attr("transform", `translate(30, ${svg.attr("height") - 
-      $("g.rain-legend")[0].getBBox().height + 20})`)
+  const sizeLegendContent = rainSizeLegend(r);
+  const colorLegendContent = rainColorLegend(color);
+
+  legendG.append("g")
+    .attr("id", "rain-color-legend")
+    .call(colorLegendContent);
+    
+  legendG.append("g")
+    .attr("id", "rain-size-legend")
+    // 50 = shapePadding in size-legend.js
+    .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
+    .call(sizeLegendContent)
+    .selectAll("circle")
     .attr("fill", purple);
 
-  svg.append("circle")
-    .attr("cx", 20)
-    .attr("cy", height - $("g.rain-legend")[0].getBBox().height - 20)
-    .attr("r", 10)
-    .attr("fill", green);
-
-
-  svg.append("text")
-    .text("Renewed contracts")
-    .attr("y", height - $("g.rain-legend")[0].getBBox().height - 20)
-    .attr("fill", green)
-    .attr("x", 40);
-
-  svg.append("circle")
-    .attr("cx", 160)
-    .attr("cy", height - $("g.rain-legend")[0].getBBox().height - 20)
-    .attr("r", 10)
-    .attr("fill", purple);
-
-
-  svg.append("text")
-    .text("Unique contracts")
-    .attr("y", height - $("g.rain-legend")[0].getBBox().height - 20)
-    .attr("fill", purple)
-    .attr("x", 180);
-
-
+  legendG.attr("transform", `translate(30, ${svg.attr("height") - 
+    $("#rain-legend")[0].getBBox().height})`)
+    .selectAll(".legendTitle")
+    .classed("subsubhead", true);
 }
 
