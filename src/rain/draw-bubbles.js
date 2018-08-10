@@ -57,7 +57,7 @@ export default function(){
     2016: height/2.4, 
     2017: height/2, 
     2018: height/1.8
-  }
+  };
   
   // a dictionary here is overkill, but just in case you want to change it to a
   // more nuanced set of colours, e.g. for the 'year' column instead.
