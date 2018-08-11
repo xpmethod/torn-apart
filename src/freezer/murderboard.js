@@ -7,12 +7,17 @@ import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import PostIt from "./post-it";
+//import { scalePow } from "d3-scale";
 //import { scaleLog } from "d3-scale";
 //import { extent } from "d3-array";
 //import { color } from "d3-color";
 
 
 export default function(){
+  //var lw = scalePow() //sets a scale for line width
+// .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
+//    .range([1, 10])
+//    .exponent(0.1);
 
   const graph = _.cloneDeep(Data);
   // Drawing options for the icons:
@@ -22,7 +27,7 @@ export default function(){
     postIt: PostIt(),
     scale: 1,
     note: 1,
-    side: 240 // the postit is about 240 x 240
+    side: 120 // the postit is about 240 x 240
   };
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
@@ -49,7 +54,7 @@ export default function(){
     alphaDecay: .09
   };
   const simulation = forceSimulation()
-    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))    // changes spacing of viz via node repulsion
+    .force("link", forceLink().id( d => d.id ).distance(1500).strength(1))
     .force("charge", forceManyBody().strength(forces.charge))
     .force("center", forceCenter(width / 8, height /2))
     .force("x", forceX(forces.x))
@@ -62,9 +67,8 @@ export default function(){
     .enter().append("line")
     .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
     .attr("opacity", 0.9)
-    .style("stroke-linecap", "round");
-    //.style("stroke-width", d => d.contract_value > 0 ? lw(d.contract_value) : 25);
-  //could get d.source and then search nodes for the id that matches and get its corresponding color.
+    .style("stroke-width", 5);
+
 
   const nodes = g.append("g")
     .selectAll("g")
@@ -78,16 +82,16 @@ export default function(){
         d.colorText = "orange";
         break;
       case "product":
-        d.color = green;
-        d.colorText = "green";
+        d.color = purple;
+        d.colorText = "purple";
         break;
       case "company":
         d.color = pink;
         d.colorText = "pink";
         break;
       case "parent company":
-        d.color = purple;
-        d.colorText = "purple";
+        d.color = green;
+        d.colorText = "green";
         break;
       }
     })
@@ -101,7 +105,23 @@ export default function(){
   nodes.append("g")
     .attr("transform", `scale(${icon.scale})translate(-115,-110)`)
     // .attr("transform", d => `scale(${icon.scale})translate(-115,-110)`)
-    .append(icon.draw);
+    .append(icon.draw)
+    .attr("class", "png")
+  //mouseover highlighting
+    .on("mouseover", function(d){
+      link.style("stroke-width", function(l) {
+        if(d === l.source || d === l.target){ //get lines that connect to the node in question
+          return 10; // make them 4x the usual line width
+        }
+      });
+      select(this).attr("width", icon.side*2)
+        .attr("height", icon.side*2);//double size of post-it png on mouseover
+    })
+    .on("mouseout", function() {
+      select(this).attr("width", icon.side)
+        .attr("height", icon.side); //and back to normal size
+      link.style("stroke-width", 5); //same for lines
+    });
 
   const icons = nodes.selectAll(icon.draw);
 
@@ -131,17 +151,17 @@ export default function(){
   }
 
 
-  // link.style("stroke", function(d) {
-  //   var color = "grey";
-  //   for(var j = 0; j< graph.nodes.length; j = j+1){
-  //     var targetName = d.target;
-  //     if (graph.nodes[j].id === targetName)
-  //     {
-  //       color = graph.nodes[j].color;
-  //     }
-  //   }
-  //   return color;
-  // });
+  link.style("stroke", function(d) {
+    var color = "grey";
+    for(var j = 0; j< graph.nodes.length; j = j+1){
+      var targetName = d.target;
+      if (graph.nodes[j].id === targetName)
+      {
+        color = graph.nodes[j].color;
+      }
+    }
+    return color;
+  });
 
   nodes.append("title")
     .text( d => d.id );

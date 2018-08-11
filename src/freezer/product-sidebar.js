@@ -1,21 +1,10 @@
-import _ from "lodash";
+//import { bigMoneyFormat } from "../utils";
+//import sideBarSpreadsheet from "./sidebar-spreadsheet";
 
 export default function(d){
-  const html = ["<table class='table table-hover table-sm'>"];
-  html.push("<thead><tr class='thead-dark'>");
-  _.each(["ta-v2-product"], header => {
-    let th = "<th>";
-    if(d.color){
-      th = `<th style="background-color: ${d.color};">`;
-    }
-    html.push(`${th}<small data-i18n="${header}"></small></th>`);
-  });
-  html.push("</thead><tbody>");
-  _.each(d, d => {
-    html.push("<tr>");
-    html.push(`<td><small>${d.name}`);
-    html.push("</tr><tr>");
-  });
-  html.push("</tbody></table>");
+
+  const html = [`<p><h3 style="color:#8da0cb;">Product:</h3>
+  <h4 style="color:#8da0cb;">${d.name}</h4>`];
+  //html.push(sideBarSpreadsheet(d));
   return html.join("\n");
 }
