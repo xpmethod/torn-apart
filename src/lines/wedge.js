@@ -3,7 +3,7 @@ import L from "leaflet";
 import { select } from "d3-selection";
 import "d3-transition";
 import { scaleLog } from "d3-scale";
-import tip from "d3-tip";
+import Tip from "d3-tip";
 import addGlowFilter from "../add-glow-filter";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
@@ -28,11 +28,11 @@ export default function (map) {
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
   const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
   y.domain([0.1, linesConstants.yMax]); // the largest value.
-  const theTip = tip()
+  const tip = Tip()
     .attr("class", "tooltip")
     .offset([-10, 0])
     .html(d => d.tooltip);
-  svg.call(theTip);
+  svg.call(tip);
 
   const bar = g.selectAll("g")
     .data(Data)
@@ -59,13 +59,13 @@ export default function (map) {
       return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
     })
     .on("mouseover", function(d){
-      theTip.show(d);
+      tip.show(d);
       select(this)
         .attr("fill", d.color)
         .attr("filter", "url(#filter-glow-lines)");
     })
     .on("mouseout", function(d){
-      theTip.hide(d);
+      tip.hide(d);
       select(this)
         .attr("fill", "black")
         .attr("filter", null);
