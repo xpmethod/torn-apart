@@ -33,6 +33,7 @@ export default function(){
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
   const height = svg.attr("height");
+//  const lineWidth = 5; // used for setting stroke-width
   //const lw = scaleLog() //sets a scale for line width
   //  .domain(extent(Data.links
   //    .filter(links => links.contract_value > 0)
@@ -95,7 +96,9 @@ export default function(){
         break;
       }
     })
-    .on("click", freezerMurderboardSidebar)
+    .on("click", function(d){
+		freezerMurderboardSidebar;
+		})
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
       .on("start", dragstarted)
@@ -105,7 +108,23 @@ export default function(){
   nodes.append("g")
     .attr("transform", `scale(${icon.scale})translate(-115,-110)`)
     // .attr("transform", d => `scale(${icon.scale})translate(-115,-110)`)
-    .append(icon.draw);
+    .append(icon.draw)
+	.attr("class", "png")
+	//mouseover highlighting
+	.on("mouseover", function(d){
+		link.style("stroke-width", function(l) {
+			if(d === l.source || d === l.target){ //get lines that connect to the node in question
+				return 3; // make them 3x the usual line width
+			};
+		});
+		select(this).attr("width", icon.side*2)
+					.attr("height", icon.side*2);//double size of post-it png on mouseover
+	})
+	.on("mouseout", function() {
+		select(this).attr("width", icon.side)
+						.attr("height", icon.side); //and back to normal size
+		link.style("stroke-width", 1); //same for lines
+	});
 
   const icons = nodes.selectAll(icon.draw);
 
