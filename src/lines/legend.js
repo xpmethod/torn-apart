@@ -14,6 +14,7 @@ export default function(){
   $("#legend").show();
   $("#lines-slider").click((e) => {
     e.stopPropagation();
+    $(".tooltip").css("opacity", 0);
   });
 }
 
