@@ -9,5 +9,4 @@ export default function(d){
   html.push(sideBarSpreadsheet(d));
   return html.join("\n");
 
-
 }

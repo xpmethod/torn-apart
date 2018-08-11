@@ -3,6 +3,7 @@ import productSidebar from "./product-sidebar";
 import productCategorySidebar from "./product-category-sidebar";
 import companySidebar from "./company-sidebar";
 import parentCompanySidebar from "./parent-company-sidebar";
+import updateTexts from "../update-texts";
 
 export default function(d){
 
@@ -22,4 +23,5 @@ export default function(d){
     break;
   }
   select("#freezer-sidebar").html(html);
+  updateTexts();
 }
