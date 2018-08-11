@@ -1,9 +1,9 @@
-import { handleMouseOver, handleMouseOut } from "../tooltip";
-import { select } from "d3-selection";
-import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
+import { select } from "d3-selection";
+import "d3-transition";
 import { scaleLog } from "d3-scale";
+import tip from "d3-tip";
 import addGlowFilter from "../add-glow-filter";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
@@ -28,6 +28,12 @@ export default function (map) {
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
   const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
   y.domain([0.1, linesConstants.yMax]); // the largest value.
+  const theTip = tip()
+    .attr("class", "tooltip")
+    .offset([-10, 0])
+    .html(d => d.tooltip);
+  svg.call(theTip);
+
   const bar = g.selectAll("g")
     .data(Data)
     .enter().append("g")
@@ -42,16 +48,6 @@ export default function (map) {
       } else { 
         d.tooltip = linesConstants.tooltipPlural(d);
       }
-      d.mouseOver = () => {
-        select(`#${_.camelCase(d.name)}-path`)
-          .attr("fill", d.color)
-          .attr("filter", "url(#filter-glow-lines)");
-      };
-      d.mouseOut = () => {
-        select(`#${_.camelCase(d.name)}-path`)
-          .attr("fill", "black")
-          .attr("filter", "");
-      };
     });
   bar.append("path")
     .style("pointer-events", "painted")
@@ -62,8 +58,18 @@ export default function (map) {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
       return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
     })
-    .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut);
+    .on("mouseover", function(d){
+      theTip.show(d);
+      select(this)
+        .attr("fill", d.color)
+        .attr("filter", "url(#filter-glow-lines)");
+    })
+    .on("mouseout", function(d){
+      theTip.hide(d);
+      select(this)
+        .attr("fill", "black")
+        .attr("filter", null);
+    });
   linesScale(bar, y);
 
   d3Update();

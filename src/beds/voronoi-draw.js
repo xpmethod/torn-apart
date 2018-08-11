@@ -1,8 +1,7 @@
 import L from "leaflet";
 import { scaleThreshold } from "d3-scale";
-import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
-import { handleMouseOver, handleMouseOut } from "../tooltip";
+import tip from "d3-tip";
 import addGlowFilter from "../add-glow-filter";
 import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
@@ -11,6 +10,11 @@ import { slug } from "../utils";
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
+  const theTip = tip()
+    .attr("class", "tooltip")
+    .offset([-10, 0])
+    .html(d => d.properties.name);
+  svg.call(theTip);
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
   const scale = scaleThreshold()
@@ -20,23 +24,14 @@ export default function(map){
     .enter().append("path")
     .each( d => {
       d.id = `${slug(d.properties.name)}-voronoi`;
-      d.tooltip = d.properties.name;
-      d.mouseOver = () => {
-        select(`#${ d.id }`)
-          .attr("filter", "url(#filter-glow-beds)");
-      };
-      d.mouseOut = () => {
-        select(`#${ d.id }`)
-          .attr("filter", "");
-      };
     })
     .style("pointer-events", "painted")
     .attr("id", d => d.id)
     .classed("viz-hide", true)
     .classed("districts-polygon", true)
     .attr("opacity", d => scale(d.properties.cost2019))
-    .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut);
+    .on("mouseover", theTip.show)
+    .on("mouseout", theTip.hide);
 
   reset();
   map.on("zoomend", reset);
