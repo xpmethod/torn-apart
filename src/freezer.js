@@ -14,11 +14,6 @@ export default function(){
       .attr("width", $("#freezer-div").width())
       .attr("height", fillV2DivHeight("#freezer-headers"));
     addGlowFilter(svg);
-    // add a shadow filter for the post-its.
-    svg.append("filter")
-      .attr("id", "filter-shadow-blur-freezer")
-      .append("feGaussianBlur")
-      .attr("stdDeviation", 4);
     freezerMurderboard();
     freezerTree();
     $("#treemap-g").hide();

@@ -4,18 +4,24 @@ import L from "leaflet";
 // import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { scaleThreshold } from "d3-scale";
+import tip from "d3-tip";
 import { ckmeans } from "simple-statistics";
-// import { handleMouseOver, handleMouseOut } from "../tooltip";
 import addGlowFilter from "../add-glow-filter";
 import congressionalDistricts from "../../data/districts/fat_districts.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
 import { orange, purple, green, opacityRange5 } from "../constants";
 // import { getOrdinal } from "../utils";
 import districtsLegend from "./legend";
+import districtsTooltip from "./tooltip";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-districts-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
+  const theTip = tip()
+    .attr("class", "tooltip")
+    .offset([-10, 0])
+    .html(districtsTooltip);
+  svg.call(theTip);
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
   const bins = ckmeans(congressionalDistricts.features.map(d => d.properties.total_value), 5);
@@ -28,6 +34,7 @@ export default function(map){
   const feature = g.selectAll("path").data(congressionalDistricts.features)
     .enter().append("path")
     .each(d => {
+      d.tooltip = "zigmorf";
       // const state = _.find(states, { stateFP: d.properties.STATEFP }).name;
       // d.id = state + "-" + d.properties.CD115FP + "-" + Math.floor(Math.random() * 10);
       // if(d.properties.CD115FP === "00"){
@@ -51,13 +58,23 @@ export default function(map){
       if(d.properties.party.match("N")) d.color = orange;
     })
     .style("pointer-events", "painted")
-    .classed("viz-hide", true)
     .attr("fill", d => d.color)
     .attr("fill-opacity", d => opacity(d.properties.total_value))
     .style("stroke", d => d.color)
     .style("stroke-opacity", 0.8)
-    // .on("mouseover", handleMouseOver)
-    // .on("mouseout", handleMouseOut);
+    .on("mouseover", function(d){
+      theTip.show(d);
+      // select(this)
+      //   each( d => console.log(d))
+      //   .attr("fill", d.color)
+      //   .attr("filter", "url(#filter-glow-lines)");
+    })
+    .on("mouseout", function(d){
+      theTip.hide(d);
+      // select(this)
+      //   .attr("fill", "black")
+      //   .attr("filter", null);
+    })
     .attr("id", d => d.id);
   
   reset();

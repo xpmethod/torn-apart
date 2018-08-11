@@ -1,4 +1,3 @@
-import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import { select } from "d3-selection";
 import {green, orange, purple, pink} from "../constants";
 import { format } from "d3-format";
@@ -41,8 +40,5 @@ export default function(words) {
         select(`#text-${d.id}`).style("opacity",1);
       };
     })
-    .attr("id", d => `text-${d.id}`)
-    .on("mouseover", handleMouseOver) //call the mouse-over handler
-    .on("mouseout", handleMouseOut); //call the mouse-out handler
-	
+    .attr("id", d => `text-${d.id}`);
 }

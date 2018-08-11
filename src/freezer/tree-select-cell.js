@@ -2,10 +2,9 @@ import { select, selectAll } from "d3-selection";
 import treeSidebarShowCard from "./tree-sidebar-show-card";
 
 export default function(d){
-  selectAll("rect")
+  select("#treemap-g").selectAll("rect")
     .attr("filter", null)
-    .attr("fill", d => d.color)
-    .classed("clicked", false);
+    .attr("fill", d => d.color);
   if(typeof(d) === "string"){
     selectAll(`.${d}`)
       .attr("fill", d => d.highlightColor)

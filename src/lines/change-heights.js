@@ -17,7 +17,8 @@ export default function(value){
       } else { 
         d.tooltip = linesConstants.tooltipPlural(d);
       }
-      return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
+      const scaleFactor = d.newHeight / linesConstants.rangeMax;
+      return `M0 0 V -${d.newHeight} H ${scaleFactor * linesConstants.barWidth} Z`;
     })
     .attr("opacity", d => d.currValue);
   _.each(["line", "text"], tag => {

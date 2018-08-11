@@ -1,37 +1,38 @@
 import $ from "jquery";
+import _ from "lodash";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX} from "d3-force";
-// import { easeElastic } from "d3-ease";
 import { format } from "d3-format";
-// import { extent } from "d3-array";
-// import { scalePow } from "d3-scale";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
+import tip from "d3-tip";
 import { ckmeans } from "simple-statistics";
 import rainSizeLegend from "./size-legend";
-import rainColorLegend from "./color-legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
-import { handleMouseOver, handleMouseOut } from "../tooltip"; //Moacir added this so we can all use the same tooltip code
 import { rem, green, purple } from "../constants";
 import Data from "../../data/rainVizData.csv";
 
 export default function(){  
   const width = $("#rain-viz").width();
   const height = fillV2DivHeight("#rain-header");
+  const svg = addGlowFilter(select("#rain-svg"))
+    .attr("width", width)
+    .attr("height", height);
   const bins = ckmeans(Data.map(d => d.current_total_value_of_award), 5);
   bins.shift();
+  const circleSizes = [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
-    .range([1.5, 10, 20, 30, 40]);
+    .range(circleSizes);
   const color = scaleOrdinal()
     .domain([ "multi-year", "unique" ])
     .range([ green, purple ]);
-
-  // const r = scalePow()
-  // 
-  //   .exponent(0.5)
-  //   .domain(domain)
-  //   .range([1, maxBubbleSize]);
+  const theTip = tip()
+    .attr("class", "tooltip")
+    .offset([-10, 0])
+    .html(d => `<strong>${d.recipient_name}</strong><br />
+    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`);
+  svg.call(theTip);
 
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
@@ -86,10 +87,6 @@ export default function(){
     simulation.tick(); 
   }
 
-  const svg = addGlowFilter(select("#rain-svg"))
-    .attr("width", width)
-    .attr("height", height);
-
   const g = svg.append("g").attr("id", "rain-g");
   g.selectAll("circle")
     .data(Data).enter()
@@ -101,23 +98,13 @@ export default function(){
     .attr("opacity", 0.9)
     .each(d => {
       d.id = `${d.financial_year}-${d.award_id_piid}`;
-      d.tooltip = `<strong>${d.recipient_name}</strong><br />
-    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`; // rounded for style
-      d.mouseOver = () => {
-        select(`#circle-${d.id}`) 
-          .attr("filter", "url(#filter-glow-rain)");
-      };
-      d.mouseOut = () => {
-        select(`#circle-${d.id}`)
-          .attr("filter", "");
-      };
     })
     .attr("id", d => `circle-${d.id}`)
     .classed("rain-drop", true)
     // .attr("opacity", 0)
     // .attr("transform", d => `translate(0, ${-1 * d.y})`)
-    .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut);  
+    .on("mouseover", theTip.show)
+    .on("mouseout", theTip.hide);  
     
 
   svg.append("g").attr("id", "rain-subheads-g")
@@ -144,29 +131,50 @@ export default function(){
     .classed("legend", true);
 
   const sizeLegendContent = rainSizeLegend(r);
-  const colorLegendContent = rainColorLegend(color);
+  // const colorLegendContent = rainColorLegend(color);
 
-  legendG.append("g")
-    .attr("id", "rain-color-legend")
-    .call(colorLegendContent);
+  // legendG.append("g")
+  //   .attr("id", "rain-color-legend")
+  //   .call(colorLegendContent);
     
   legendG.append("g")
     .attr("id", "rain-size-legend")
     // 50 = shapePadding in size-legend.js
-    .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
+    // .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
     .call(sizeLegendContent)
     .selectAll("circle")
     .attr("fill", purple);
 
+  const rainLegendWidth = $("#rain-size-legend")[0].getBBox().width;
+  _.each([
+    { text: "Unique contracts", y: 12 },
+    { text: "Renewed contracts", y: 35 }
+  ], d => {
+    select("#rain-size-legend").select("g")
+      .append("text")
+      .attr("transform", `translate(${rainLegendWidth}, ${d.y})`)
+      .text(d.text);
+  });
+  
   legendG.attr("transform", `translate(30, ${svg.attr("height") - 
     $("#rain-legend")[0].getBBox().height})`)
     .selectAll(".legendTitle")
+    .attr("transform", "translate(0, -15)")
     .classed("subsubhead", true);
 
-  // For if we keep both contract types, the start of cutting the circle icons in half.
-  // select("#rain-size-legend .legendCells")
-  //   .selectAll(".cell")
-  //   .append("circle")
-  //   .attr("r", 20);
+  select("#rain-size-legend .legendCells")
+    .selectAll(".cell")
+    .append("circle")
+    .each(function(d, i) {
+      svg.append("clipPath")
+        .attr("id", `rain-size-legend-clip-path-${i}`)
+        .append("rect")
+        .attr("transform", `translate(${circleSizes[i] * -1},0)`)
+        .attr("width", 2 * circleSizes[i])
+        .attr("height", circleSizes[i]);
+    })
+    .attr("clip-path", (d, i) => `url(#rain-size-legend-clip-path-${i}`)
+    .attr("fill", green)
+    .attr("r", (d, i) => circleSizes[i] );
 }
 

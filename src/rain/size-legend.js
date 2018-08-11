@@ -2,7 +2,7 @@ import { legendSize, legendHelpers } from "d3-svg-legend";
 
 export default function(scale){
   return legendSize()
-    .title("Contract Value")
+    .title("Contract Value and Type")
     .scale(scale)
     .shape("circle")
     .shapePadding(50)
