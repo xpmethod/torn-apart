@@ -67,7 +67,7 @@ export default function(){
     .enter().append("line")
     .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
     .attr("opacity", 0.9)
-    .style("stroke-width", 5);
+    .style("stroke-width", 2);
 
 
   const nodes = g.append("g")
@@ -110,21 +110,21 @@ export default function(){
     .on("mouseover", function(d){
       link.style("stroke-width", function(l) {
         if(d === l.source || d === l.target){ //get lines that connect to the node in question
-          return 10; // make them 4x the usual line width
+          return 50; // make them 4x the usual line width
         }
       });
       select(this)
         .attr("transform", "translate(-57, -55)")
         .attr("height", icon.side * 2)
         .attr("width", icon.side * 2);
-        
+
     })
     .on("mouseout", function() {
       select(this)
         .attr("transform", "translate(0,0)")
         .attr("height", icon.side)
         .attr("width", icon.side);
-      link.style("stroke-width", 5); //same for lines
+      link.style("stroke-width", 2); //same for lines
     });
 
   const icons = nodes.selectAll(icon.draw);
