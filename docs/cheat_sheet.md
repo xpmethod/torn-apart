@@ -1,72 +1,74 @@
 ---
-title: ICE Contract Data Cheat Sheet
+title: ICE Awards Data Cheat Sheet
 permalink: cheat-sheet.html
 ---
-#ICE Contract Data Cheat Sheet
+#ICE Awards Data Cheat Sheet
+
+As the *Torn apart/Separados* team grappled with the complexities of the ICE awards data set, we developed an internal "cheat sheet" of notes on the columns of the data set. We share this sheet to assist other teams interested in working with ICE award data.
 
 ##Descriptive Data
 
+The descriptive data corresponds to the unique identifiers for awards and related parent awards in the government contracting database.
+
 **Column A: Unique identifiers for awards**
-[we are totally safe “counting” contracts by column A’s unique identifiers]
+Each award is denoted by a unique identifier.
 
 **Column B: Modification numbers documenting changes to initial award**
-[only latest modifications are in “no dupes” file as they represent the latest changes to the awards]
+Modifications to original awards are denoted by a modification number. The latest (highest numbered) modification provides the most current total values for each award.
 
 **Column C: Transaction number**
-[irrelevant to our data because there aren’t multiple transactions or multiple contracts under the same award number. Apparently this is typical of 94.83% of gov’t contracts according to data related to the Recovery Act Recipient Reporting]
+Transaction numbers indicate multiple transactions under the same award number. There aren't any awards fitting this description in the ICE award data set.
 
 **Column D: Parent Award Agency ID**
-[if the award came through a parent contract - or “parent award” - this is the ID number of the agency that awarded it. A lot of these awards *do* come through parent contracts, which means these companies most likely have their hands in a lot of different gov’t pies - our unique awards/amounts here are just the ICE part]
+If the award came through a parent award, this is the ID number of the agency that awarded it. Many of the awards in this data set came through parent awards, indicating that many contractors have their hands in a lot of different government pies.
 
 **Column E: Parent Award Agency Name**
-[Name of agency where parent award came from. Some of the agencies have multiple agency IDs - e.g. Federal Acquisition Service appears variously as 4730 and 4732 in Column D. This is because they correspond to sub-codes in the Federal Procurement Data System based on type of acquisition.]
+Name of the agency where the parent award came from. Some agencies have multiple agency IDs. For example, Federal Acquisition Service appears variously as 4730 and 4732. This is because they correspond to sub-codes in the Federal Procurement Data System based on type of acquisition.
 
 **Column F: Parent award numbers for procurement related to Federal Supply Schedules**
-[Unique identifiers in Column A may share “parent award numbers” but are still unique awards granted by ICE via Department of Homeland Security]
+Unique identifiers in Column A may share "parent award numbers" but are still unique awards granted by ICE via the Department of Homeland Security.
 
 **Column G: Parent award modification number**
-[indicates if the award is the result of a modification to the parent award]
+Indicates if the award is the result of a modification to a parent award.
 
 ##The Money Data
 
-Gov’t regulations require recording of all contract changes. Negative, very small, and zero amounts are changes made to existing contracts. Negative amounts reflect the de-obligation of the gov’t. The very small/zero amounts reflect a very minimal change in the original contract.
+Government regulations require recording of all contract changes. Negative, very small, and zero amounts of money in the following columns reflect changes made to existing contracts. Negative amounts reflect de-obligation of government responsibility for an award. Very small or zero amounts reflect a very minimal change in the original contract.
 
 **Column H: Federal action obligation**
-[gov’t obligation, de-obligation or liability for contract]
+Total government obligation, de-obligation (if negative), or financial liability for the award or award modification.
 
 **Column I: Base amount and exercised options**
-[amount of all  exercised line items in contract at effective date or modification date]
+Total amount of all exercised contract line items and options upon effective date or modification date.
 
 **Column J: Current total value of award**
-[total amount of $ obliged by the gov’t to date (as of July 4, 2018 when we pulled this data) including base and exercised options. This obligation is legally binding.  
-
-this is, to RR’s mind, the best financial data to use because this is how much we know the gov’t has committed for sure, it also reflects *net* value taking into account contract modifications to-date]
+Total amount of money obligated by the government on the contract to-date (for our data set, as of July 4, 2018), including base contract value and exercised options. This obligation is legally binding and reflects net value of an award, taking into account all award modifications to-date.
 
 **Column K: Base and all options value**
-[ultimate value of contract or modification]
+Ultimate value of award or award modification.
 
 **Column L: Potential total value of award**
 
-[the amount the gov’t could end up dishing out if all options on the contracts are exercised. The gov’t *could* be obligated to this amount legally.
-
-super interesting because it shows potential but RR thinks it risks distorting the picture. In FY 13-16, the current total value was consistently less than the potential value but not too far off. But in FY 17-18, there’s huge divergence. It might appear like a readiness to fund ICE to the hilt, and maybe that’s the case, but RR’s not convinced we need to risk the credibility of what we’re doing on the alarmist worst case scenario - but open to other opinions of course]
+Potential value of award if all options on the award were to be exercised. This column is interesting because it demonstrates the total amount the government *could* be obligated to pay, if it were to exercise all award options. In the case of ICE data, these potential values speaks to the preparedness to expand operations.
 
 ##Temporal Data
 
+Temporal data describes a range of dates associated with the awards.
+
 **Column M: Action Date**
-[date binding agreement was reached]
+Date binding agreement was reached on award or award modification.
 
 **Column N: Period of performance start date**
-[date on which award is effective]
+Date on which award or modification is effective.
 
 **Column O: Period of performance current end date**
-[expected end date of contract]
+Expected end date of award.
 
 **Column P: Period of performance potential end date**
-[potential end date of contract if all options on contract are exercised]
+Potential end date if all options on contract are exercised.
 
 **Column Q: Ordering period end date**
-[date after which no more orders on contract can be placed; only refers to indefinite delivery contracts or blanket purchase agreements]
+Date after which no more orders on awards can be placed. This refers to awards made as "indefinite delivery contracts" (IDCs) or "blanket purchase agreements" (BPAs), where the specific quantities of goods or services during a fixed award period are variable and are "called" by the government when needed. 
 
 ##Agency Data
 
