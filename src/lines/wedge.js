@@ -43,7 +43,7 @@ export default function (map) {
       } else { 
         d.tooltip = linesConstants.tooltipPlural(d);
       }
-	  d.mouseOver = () => {
+      d.mouseOver = () => {
         select(`#${_.camelCase(d.name)}-path`)
           .attr("fill", d.color)
           .attr("filter", "url(#filter-glow-lines)");

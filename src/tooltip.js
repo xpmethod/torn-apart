@@ -1,7 +1,7 @@
 import $ from "jquery";
 import { event, select } from "d3-selection";
 
- export function handleMouseOver(d){
+export function handleMouseOver(d){
   d.mouseOver();
   select("#tooltip")
     .html(d.tooltip)
@@ -25,7 +25,7 @@ import { event, select } from "d3-selection";
     .style("opacity", 1);
 }
 
- export function handleMouseOut(d){
+export function handleMouseOut(d){
   d.mouseOut();
   select("#tooltip").style("opacity", 0);
 }
