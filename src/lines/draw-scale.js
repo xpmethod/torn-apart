@@ -20,5 +20,6 @@ export default function(){ // nb, y becomes x.
     .text("0");
   svg.append("text")
     .attr("transform", "translate(5, 10)")
-    .text("Deportations");
+    .attr("data-i18n", "ta-removals")
+    .text("Removals");
 }
