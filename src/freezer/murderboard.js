@@ -103,8 +103,7 @@ export default function(){
       .on("end", dragended));
 
   nodes.append("g")
-    .attr("transform", `scale(${icon.scale})translate(-115,-110)`)
-    // .attr("transform", d => `scale(${icon.scale})translate(-115,-110)`)
+    .attr("transform", "translate(-57,-55)")
     .append(icon.draw)
     .attr("class", "png")
   //mouseover highlighting
@@ -114,12 +113,17 @@ export default function(){
           return 10; // make them 4x the usual line width
         }
       });
-      select(this).attr("width", icon.side*2)
-        .attr("height", icon.side*2);//double size of post-it png on mouseover
+      select(this)
+        .attr("transform", "translate(-57, -55)")
+        .attr("height", icon.side * 2)
+        .attr("width", icon.side * 2);
+        
     })
     .on("mouseout", function() {
-      select(this).attr("width", icon.side)
-        .attr("height", icon.side); //and back to normal size
+      select(this)
+        .attr("transform", "translate(0,0)")
+        .attr("height", icon.side)
+        .attr("width", icon.side);
       link.style("stroke-width", 5); //same for lines
     });
 
