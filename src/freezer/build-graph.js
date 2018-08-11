@@ -87,6 +87,14 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
         }, 0);
       });
 
+    -(graph.nodes.filter(node => node.category === "product"))
+      .each(product => {
+        product.awards = awards.filter(award => award.naics_cat === product.name);
+        product.total_value = product.awards.reduce ( (sum, award) => {
+          return sum + _.toInteger(award.current_total_value);
+        }, 0);
+      });
+
     _(graph.nodes.filter(node => node.category === "company"))
       .each(company => {
         company.awards = awards.filter(award => award.recipient_name === company.name);

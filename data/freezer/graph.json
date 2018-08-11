@@ -52031,1675 +52031,2233 @@
       "name": "Administrative Management",
       "childOf": "Consulting",
       "id": "Administrative Management||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Security",
       "childOf": "Carceral Services",
       "id": "Security||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Telecom",
       "id": "Surveillance Equipment||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Scanning",
       "childOf": "IT",
       "id": "Scanning||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Guards",
       "childOf": "Carceral Services",
       "id": "Guards||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detention Services",
       "childOf": "Trade & Manufacturing",
       "id": "Detention Services||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Extermination",
       "childOf": "Trade & Manufacturing",
       "id": "Extermination||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Waste Management",
       "childOf": "Trade & Manufacturing",
       "id": "Waste Management||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detention Services",
       "childOf": "Carceral Services",
       "id": "Detention Services||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Vehicles",
       "childOf": "Transportation",
       "id": "Vehicles||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Storage",
       "childOf": "Transportation",
       "id": "Storage||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Fitness Equipment",
       "childOf": "Sports & Rec",
       "id": "Fitness Equipment||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Career Counseling",
       "childOf": "Consulting",
       "id": "Career Counseling||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Phones",
       "childOf": "Telecom",
       "id": "Phones||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Professional Development",
       "childOf": "Research & Professional Development",
       "id": "Professional Development||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Databases",
       "childOf": "IT",
       "id": "Databases||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Training",
       "childOf": "Carceral Services",
       "id": "Software Training||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detainee Meals",
       "childOf": "Food",
       "id": "Detainee Meals||Food",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cameras",
       "childOf": "Trade & Manufacturing",
       "id": "Cameras||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Trade & Manufacturing",
       "id": "Surveillance Equipment||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Electrical",
       "childOf": "Trade & Manufacturing",
       "id": "Electrical||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Physical Plant",
       "childOf": "Trade & Manufacturing",
       "id": "Physical Plant||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Armor",
       "childOf": "Apparel & Leather",
       "id": "Armor||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Storage",
       "childOf": "Munitions",
       "id": "Storage||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Amusement",
       "childOf": "Sports & Rec",
       "id": "Amusement||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conservation",
       "childOf": "Misc.",
       "id": "Conservation||Misc.",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Carceral Services",
       "id": "Surveillance Equipment||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Janitorial",
       "childOf": "Trade & Manufacturing",
       "id": "Janitorial||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Licenses",
       "childOf": "IT",
       "id": "Software Licenses||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Gym Memberships",
       "childOf": "Sports & Rec",
       "id": "Gym Memberships||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Clothes",
       "childOf": "Apparel & Leather",
       "id": "Clothes||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shoes",
       "childOf": "Apparel & Leather",
       "id": "Shoes||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Socks",
       "childOf": "Apparel & Leather",
       "id": "Socks||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Underwear",
       "childOf": "Apparel & Leather",
       "id": "Underwear||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cable & Wifi",
       "childOf": "IT",
       "id": "Cable & Wifi||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Support",
       "childOf": "IT",
       "id": "IT Support||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Landscaping",
       "childOf": "Trade & Manufacturing",
       "id": "Landscaping||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Employee Recognition",
       "childOf": "Trade & Manufacturing",
       "id": "Employee Recognition||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Management",
       "childOf": "Office Supplies",
       "id": "Administrative Management||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Ammo",
       "childOf": "Munitions",
       "id": "Ammo||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Tasers",
       "childOf": "Apparel & Leather",
       "id": "Tasers||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Tasers",
       "childOf": "Munitions",
       "id": "Tasers||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Parking",
       "childOf": "Transportation",
       "id": "Parking||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Construction",
       "childOf": "Trade & Manufacturing",
       "id": "Construction||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cameras",
       "childOf": "IT",
       "id": "Cameras||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computer Peripherals",
       "childOf": "IT",
       "id": "Computer Peripherals||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computers",
       "childOf": "IT",
       "id": "Computers||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Maintenance",
       "childOf": "IT",
       "id": "IT Maintenance||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Network",
       "childOf": "IT",
       "id": "Network||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Office Equipment",
       "childOf": "IT",
       "id": "Office Equipment||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Printers",
       "childOf": "IT",
       "id": "Printers||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Scanners",
       "childOf": "IT",
       "id": "Scanners||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Laundry",
       "childOf": "Apparel & Leather",
       "id": "Laundry||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Lab Equipment",
       "childOf": "Trade & Manufacturing",
       "id": "Lab Equipment||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Court Services",
       "childOf": "Legal",
       "id": "Court Services||Legal",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Remediation Services",
       "childOf": "Trade & Manufacturing",
       "id": "Remediation Services||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computer Accessories",
       "childOf": "IT",
       "id": "Computer Accessories||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Training",
       "childOf": "IT",
       "id": "Software Training||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Vehicles",
       "childOf": "Sports & Rec",
       "id": "Vehicles||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Amusement",
       "childOf": "Trade & Manufacturing",
       "id": "Amusement||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Translation",
       "childOf": "IT",
       "id": "Translation||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Temporary Lodging",
       "childOf": "Hotels",
       "id": "Temporary Lodging||Hotels",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Books",
       "childOf": "Retail",
       "id": "Books||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Phones",
       "childOf": "IT",
       "id": "Phones||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cable & Wifi",
       "childOf": "Telecom",
       "id": "Cable & Wifi||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Firearm Training",
       "childOf": "Research & Professional Development",
       "id": "Firearm Training||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "Telecom",
       "id": "A/V||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "First Aid",
       "childOf": "Trade & Manufacturing",
       "id": "First Aid||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Videoconferencing",
       "childOf": "IT",
       "id": "Videoconferencing||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Couriers",
       "childOf": "Office Supplies",
       "id": "Couriers||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Headsets",
       "childOf": "Apparel & Leather",
       "id": "Headsets||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Packing",
       "childOf": "Trade & Manufacturing",
       "id": "Packing||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "IT",
       "id": "Surveillance Equipment||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Boxed Lunches",
       "childOf": "Food",
       "id": "Boxed Lunches||Food",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Boxed Lunches",
       "childOf": "Trade & Manufacturing",
       "id": "Boxed Lunches||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detention Services",
       "childOf": "Legal",
       "id": "Detention Services||Legal",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "Trade & Manufacturing",
       "id": "A/V||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Court Services",
       "childOf": "Temps",
       "id": "Court Services||Temps",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Guns",
       "childOf": "Munitions",
       "id": "Guns||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Amusement",
       "childOf": "Research & Professional Development",
       "id": "Amusement||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Tablets",
       "childOf": "IT",
       "id": "Tablets||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Translation",
       "childOf": "Legal",
       "id": "Translation||Legal",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shackles",
       "childOf": "Trade & Manufacturing",
       "id": "Shackles||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Investigations",
       "childOf": "Carceral Services",
       "id": "Investigations||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Data Vizualization",
       "childOf": "Research & Professional Development",
       "id": "Data Vizualization||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Jackets",
       "childOf": "Apparel & Leather",
       "id": "Jackets||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Museums",
       "childOf": "Misc.",
       "id": "Museums||Misc.",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Assistant",
       "childOf": "Temps",
       "id": "Administrative Assistant||Temps",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Office Equipment",
       "childOf": "Office Supplies",
       "id": "Office Equipment||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computer Training",
       "childOf": "IT",
       "id": "Computer Training||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Publishers",
       "childOf": "IT",
       "id": "Software Publishers||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chargers",
       "childOf": "Trade & Manufacturing",
       "id": "Chargers||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Tools",
       "childOf": "Trade & Manufacturing",
       "id": "Tools||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Music Publishers",
       "childOf": "Printing & Publishing",
       "id": "Music Publishers||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Radiology",
       "childOf": "Health & Personal Care",
       "id": "Radiology||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Armor",
       "childOf": "Sports & Rec",
       "id": "Armor||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "First Aid",
       "childOf": "Health & Personal Care",
       "id": "First Aid||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Overdose Antidotes",
       "childOf": "Health & Personal Care",
       "id": "Overdose Antidotes||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Management",
       "childOf": "Printing & Publishing",
       "id": "Administrative Management||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Furniture",
       "childOf": "Office Supplies",
       "id": "Furniture||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Bags",
       "childOf": "Trade & Manufacturing",
       "id": "Bags||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Firearm Training",
       "childOf": "Trade & Manufacturing",
       "id": "Firearm Training||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cameras",
       "childOf": "Telecom",
       "id": "Cameras||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Copiers",
       "childOf": "Trade & Manufacturing",
       "id": "Copiers||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Barcode Scanners",
       "childOf": "IT",
       "id": "Barcode Scanners||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "News",
       "childOf": "IT",
       "id": "News||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Data Vizualization",
       "childOf": "IT",
       "id": "Data Vizualization||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Accounting",
       "childOf": "Financial",
       "id": "Accounting||Financial",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Databases",
       "childOf": "Financial",
       "id": "Databases||Financial",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Leadership Training",
       "childOf": "Research & Professional Development",
       "id": "Leadership Training||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Lotion",
       "childOf": "Health & Personal Care",
       "id": "Lotion||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "T-shirts",
       "childOf": "Apparel & Leather",
       "id": "T-shirts||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Catholic Mass",
       "childOf": "Misc.",
       "id": "Catholic Mass||Misc.",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conferences",
       "childOf": "Trade & Manufacturing",
       "id": "Conferences||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Ground Transportation",
       "childOf": "Transportation",
       "id": "Ground Transportation||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Tools",
       "childOf": "Retail",
       "id": "Tools||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Periodicals",
       "childOf": "IT",
       "id": "Periodicals||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Copiers",
       "childOf": "Office Supplies",
       "id": "Copiers||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computers",
       "childOf": "Telecom",
       "id": "Computers||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Management",
       "childOf": "Research & Professional Development",
       "id": "Administrative Management||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Air Charter",
       "childOf": "Transportation",
       "id": "Air Charter||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Supplies",
       "childOf": "Health & Personal Care",
       "id": "Medical Supplies||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Gas",
       "childOf": "Transportation",
       "id": "Gas||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Lab Testing",
       "childOf": "Legal",
       "id": "Lab Testing||Legal",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Packing",
       "childOf": "Transportation",
       "id": "Packing||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Staffing",
       "childOf": "Research & Professional Development",
       "id": "Medical Staffing||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Testing",
       "childOf": "Research & Professional Development",
       "id": "Medical Testing||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conferences",
       "childOf": "Hotels",
       "id": "Conferences||Hotels",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Car Rental",
       "childOf": "Transportation",
       "id": "Car Rental||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Vehicles",
       "childOf": "Telecom",
       "id": "Vehicles||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Correctional Institutions",
       "childOf": "Carceral Services",
       "id": "Correctional Institutions||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detergent",
       "childOf": "Trade & Manufacturing",
       "id": "Detergent||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Air Charter",
       "childOf": "Consulting",
       "id": "Air Charter||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Radio",
       "childOf": "Telecom",
       "id": "Radio||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Munitions",
       "id": "Surveillance Equipment||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Radio",
       "childOf": "Trade & Manufacturing",
       "id": "Radio||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Armor",
       "childOf": "Munitions",
       "id": "Armor||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Marketing",
       "childOf": "Printing & Publishing",
       "id": "Marketing||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Armored Vehicles",
       "childOf": "Transportation",
       "id": "Armored Vehicles||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "HVAC",
       "childOf": "Trade & Manufacturing",
       "id": "HVAC||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Maintenance",
       "childOf": "Trade & Manufacturing",
       "id": "Maintenance||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Radios",
       "childOf": "IT",
       "id": "Radios||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Metal",
       "childOf": "Trade & Manufacturing",
       "id": "Metal||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Vehicles",
       "childOf": "Trade & Manufacturing",
       "id": "Vehicles||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Soap",
       "childOf": "Health & Personal Care",
       "id": "Soap||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Car Rental",
       "childOf": "Financial",
       "id": "Car Rental||Financial",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Network",
       "childOf": "Trade & Manufacturing",
       "id": "Network||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Office Equipment",
       "childOf": "Trade & Manufacturing",
       "id": "Office Equipment||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Paper",
       "childOf": "Office Supplies",
       "id": "Paper||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computer Maintenance",
       "childOf": "IT",
       "id": "Computer Maintenance||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Accreditation",
       "childOf": "Research & Professional Development",
       "id": "Accreditation||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Security",
       "childOf": "Retail",
       "id": "Security||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Training",
       "childOf": "Research & Professional Development",
       "id": "Software Training||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Safes",
       "childOf": "Trade & Manufacturing",
       "id": "Safes||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Heavy Machinery",
       "childOf": "Trade & Manufacturing",
       "id": "Heavy Machinery||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Retirement Training",
       "childOf": "Research & Professional Development",
       "id": "Retirement Training||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shackles",
       "childOf": "Apparel & Leather",
       "id": "Shackles||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Feminine Hygiene",
       "childOf": "Health & Personal Care",
       "id": "Feminine Hygiene||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Hygiene",
       "childOf": "Health & Personal Care",
       "id": "Hygiene||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Linens",
       "childOf": "Apparel & Leather",
       "id": "Linens||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Linens",
       "childOf": "Health & Personal Care",
       "id": "Linens||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Licenses",
       "childOf": "Printing & Publishing",
       "id": "Software Licenses||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chairs",
       "childOf": "Office Supplies",
       "id": "Chairs||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Management",
       "childOf": "Trade & Manufacturing",
       "id": "Administrative Management||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Big Data",
       "childOf": "Research & Professional Development",
       "id": "Big Data||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Guns",
       "childOf": "Trade & Manufacturing",
       "id": "Guns||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Printers",
       "childOf": "Office Supplies",
       "id": "Printers||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Badges",
       "childOf": "Apparel & Leather",
       "id": "Badges||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shredders",
       "childOf": "Trade & Manufacturing",
       "id": "Shredders||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Copiers",
       "childOf": "IT",
       "id": "Copiers||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Media",
       "childOf": "Trade & Manufacturing",
       "id": "Media||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Background Checks",
       "childOf": "Consulting",
       "id": "Background Checks||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Call Centers",
       "childOf": "Trade & Manufacturing",
       "id": "Call Centers||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Graduate Coursework",
       "childOf": "Research & Professional Development",
       "id": "Graduate Coursework||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chargers",
       "childOf": "IT",
       "id": "Chargers||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Doctors",
       "childOf": "Health & Personal Care",
       "id": "Doctors||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Radios",
       "childOf": "Telecom",
       "id": "Radios||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Accreditation",
       "childOf": "Trade & Manufacturing",
       "id": "Accreditation||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cubicles",
       "childOf": "Office Supplies",
       "id": "Cubicles||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Storage",
       "childOf": "IT",
       "id": "Storage||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chairs",
       "childOf": "Trade & Manufacturing",
       "id": "Chairs||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chargers",
       "childOf": "Telecom",
       "id": "Chargers||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Desks",
       "childOf": "Office Supplies",
       "id": "Desks||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Storage",
       "childOf": "Office Supplies",
       "id": "Storage||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Packing",
       "childOf": "Office Supplies",
       "id": "Packing||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "IT",
       "id": "A/V||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Fee Remit",
       "childOf": "Financial",
       "id": "Fee Remit||Financial",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Filing Cabinets",
       "childOf": "Office Supplies",
       "id": "Filing Cabinets||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shelving",
       "childOf": "Office Supplies",
       "id": "Shelving||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Databases",
       "childOf": "Telecom",
       "id": "Databases||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Copiers",
       "childOf": "Telecom",
       "id": "Copiers||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Hygiene",
       "childOf": "Trade & Manufacturing",
       "id": "Hygiene||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Ammo",
       "childOf": "Trade & Manufacturing",
       "id": "Ammo||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Vehicles",
       "childOf": "Apparel & Leather",
       "id": "Vehicles||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shredders",
       "childOf": "Office Supplies",
       "id": "Shredders||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Lab Testing",
       "childOf": "Health & Personal Care",
       "id": "Lab Testing||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Keys",
       "childOf": "Telecom",
       "id": "Keys||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Research & Professional Development",
       "id": "Surveillance Equipment||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Toilet Paper",
       "childOf": "Office Supplies",
       "id": "Toilet Paper||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Toilet Paper",
       "childOf": "Trade & Manufacturing",
       "id": "Toilet Paper||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Night Vision Googles",
       "childOf": "Trade & Manufacturing",
       "id": "Night Vision Googles||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "Office Supplies",
       "id": "A/V||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Employee Recognition",
       "childOf": "Office Supplies",
       "id": "Employee Recognition||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Headsets",
       "childOf": "Telecom",
       "id": "Headsets||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Books",
       "childOf": "Printing & Publishing",
       "id": "Books||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Videoconferencing",
       "childOf": "Telecom",
       "id": "Videoconferencing||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Armored Vehicles",
       "childOf": "Munitions",
       "id": "Armored Vehicles||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Passenger Air",
       "childOf": "Transportation",
       "id": "Passenger Air||Transportation",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Network",
       "childOf": "Carceral Services",
       "id": "Network||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Drives",
       "childOf": "IT",
       "id": "Drives||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detergent",
       "childOf": "Health & Personal Care",
       "id": "Detergent||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Guns",
       "childOf": "Apparel & Leather",
       "id": "Guns||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Shelving",
       "childOf": "Trade & Manufacturing",
       "id": "Shelving||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "Carceral Services",
       "id": "A/V||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Phones",
       "childOf": "Carceral Services",
       "id": "Phones||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Employee Recognition",
       "childOf": "Printing & Publishing",
       "id": "Employee Recognition||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Clothes",
       "childOf": "Trade & Manufacturing",
       "id": "Clothes||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Socks",
       "childOf": "Trade & Manufacturing",
       "id": "Socks||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cleaning Supplies",
       "childOf": "Trade & Manufacturing",
       "id": "Cleaning Supplies||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Dental",
       "childOf": "Health & Personal Care",
       "id": "Dental||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Bags",
       "childOf": "Retail",
       "id": "Bags||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "License Plates",
       "childOf": "Legal",
       "id": "License Plates||Legal",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Firearm Training",
       "childOf": "Retail",
       "id": "Firearm Training||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Detainee Meals",
       "childOf": "Trade & Manufacturing",
       "id": "Detainee Meals||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Periodicals",
       "childOf": "Printing & Publishing",
       "id": "Periodicals||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Engineering Services",
       "childOf": "Trade & Manufacturing",
       "id": "Engineering Services||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Specialty Foods",
       "childOf": "Food",
       "id": "Specialty Foods||Food",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Scanners",
       "childOf": "Office Supplies",
       "id": "Scanners||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Testing",
       "childOf": "Health & Personal Care",
       "id": "Medical Testing||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Education",
       "childOf": "Consulting",
       "id": "Education||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Signs",
       "childOf": "Printing & Publishing",
       "id": "Signs||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Education",
       "childOf": "Research & Professional Development",
       "id": "Education||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Storage",
       "childOf": "Trade & Manufacturing",
       "id": "Storage||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Credit Bureaus",
       "childOf": "Financial",
       "id": "Credit Bureaus||Financial",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Uniforms",
       "childOf": "Apparel & Leather",
       "id": "Uniforms||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Security",
       "childOf": "Trade & Manufacturing",
       "id": "Security||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Gas",
       "childOf": "Trade & Manufacturing",
       "id": "Gas||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Ammo",
       "childOf": "IT",
       "id": "Ammo||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Box Lunches",
       "childOf": "Food",
       "id": "Box Lunches||Food",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conferences",
       "childOf": "Misc.",
       "id": "Conferences||Misc.",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conferences",
       "childOf": "Office Supplies",
       "id": "Conferences||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Surveillance Equipment",
       "childOf": "Apparel & Leather",
       "id": "Surveillance Equipment||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Staffing",
       "childOf": "Health & Personal Care",
       "id": "Medical Staffing||Health & Personal Care",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Databases",
       "childOf": "Carceral Services",
       "id": "Databases||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Databases",
       "childOf": "Office Supplies",
       "id": "Databases||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/v",
       "childOf": "Trade & Manufacturing",
       "id": "A/v||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Ammo",
       "childOf": "Apparel & Leather",
       "id": "Ammo||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Firearm Training",
       "childOf": "Sports & Rec",
       "id": "Firearm Training||Sports & Rec",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Medical Supplies",
       "childOf": "Apparel & Leather",
       "id": "Medical Supplies||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Security",
       "childOf": "Munitions",
       "id": "Security||Munitions",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Spray Canisters",
       "childOf": "Apparel & Leather",
       "id": "Spray Canisters||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Media",
       "childOf": "IT",
       "id": "Media||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Licenses",
       "childOf": "Consulting",
       "id": "Software Licenses||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Maintenance",
       "childOf": "Office Supplies",
       "id": "IT Maintenance||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Support",
       "childOf": "Office Supplies",
       "id": "IT Support||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Licenses",
       "childOf": "Office Supplies",
       "id": "Software Licenses||Office Supplies",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Office Equipment",
       "childOf": "Telecom",
       "id": "Office Equipment||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Locksmiths",
       "childOf": "Trade & Manufacturing",
       "id": "Locksmiths||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Employee Recognition",
       "childOf": "Retail",
       "id": "Employee Recognition||Retail",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cloud",
       "childOf": "IT",
       "id": "Cloud||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Lab Equipment",
       "childOf": "IT",
       "id": "Lab Equipment||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Computer Maintenance",
       "childOf": "Trade & Manufacturing",
       "id": "Computer Maintenance||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Social Media",
       "childOf": "IT",
       "id": "Social Media||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Badges",
       "childOf": "Carceral Services",
       "id": "Badges||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Conferences",
       "childOf": "Research & Professional Development",
       "id": "Conferences||Research & Professional Development",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cameras",
       "childOf": "Carceral Services",
       "id": "Cameras||Carceral Services",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Licenses",
       "childOf": "Telecom",
       "id": "Software Licenses||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Copiers",
       "childOf": "Printing & Publishing",
       "id": "Copiers||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "It Support",
       "childOf": "IT",
       "id": "It Support||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Accounting",
       "childOf": "Consulting",
       "id": "Accounting||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Support",
       "childOf": "Consulting",
       "id": "IT Support||Consulting",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Filing Cabinets",
       "childOf": "Trade & Manufacturing",
       "id": "Filing Cabinets||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "IT Support",
       "childOf": "Telecom",
       "id": "IT Support||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Bags",
       "childOf": "Apparel & Leather",
       "id": "Bags||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Software Training",
       "childOf": "Telecom",
       "id": "Software Training||Telecom",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Administrative Management",
       "childOf": "IT",
       "id": "Administrative Management||IT",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Cable & Wifi",
       "childOf": "Trade & Manufacturing",
       "id": "Cable & Wifi||Trade & Manufacturing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "Chairs",
       "childOf": "Apparel & Leather",
       "id": "Chairs||Apparel & Leather",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     },
     {
       "name": "A/V",
       "childOf": "Printing & Publishing",
       "id": "A/V||Printing & Publishing",
-      "category": "product"
+      "category": "product",
+      "awards": [],
+      "total_value": 0
     }
   ],
   "links": [
