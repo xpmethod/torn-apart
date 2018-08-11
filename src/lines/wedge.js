@@ -9,7 +9,7 @@ import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
 import { purple } from "../constants";
 import linesConstants from "./constants";
-import linesScale from "./scale";
+// import linesScale from "./scale";
 import linesCalcAngles from "./calculate-angles";
 
 // const unknowns = {
@@ -61,11 +61,12 @@ export default function (map) {
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
-      return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
+      const scaleFactor = d.newHeight / linesConstants.rangeMax;
+      return `M0 0 V -${d.newHeight} H ${scaleFactor * linesConstants.barWidth} Z`;
     })
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
-  linesScale(bar, y);
+  // linesScale(bar, y);
 
   d3Update();
 
