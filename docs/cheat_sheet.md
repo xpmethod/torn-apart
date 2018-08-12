@@ -68,71 +68,73 @@ Expected end date of award.
 Potential end date if all options on contract are exercised.
 
 **Column Q: Ordering period end date**
-Date after which no more orders on awards can be placed. This refers to awards made as "indefinite delivery contracts" (IDCs) or "blanket purchase agreements" (BPAs), where the specific quantities of goods or services during a fixed award period are variable and are "called" by the government when needed. 
+Date after which no more orders on awards can be placed. This refers to awards made as "indefinite delivery contracts" (IDCs) or "blanket purchase agreements" (BPAs), where the specific quantities of goods or services during a fixed award period are variable and are "called" by the government when needed.
 
 ##Agency Data
 
+Agency data offers important insight on ICE operations and sub-offices supported by awards.
+
 **Column R: Awarding agency code**
-[code for agency granting award - these awards are all granted by Department of Homeland Security]
+Code for agency granting award. All awards for ICE are granted by the Department of Homeland Security.
 
 **Column S: Awarding agency name**
-[name of awarding agency - all granted by DHS]
+Name for agency granting award. All awards for ICE are granted by the Department of Homeland Security.
 
 **Column T: Awarding subagency code**
-[code for subagency within agency - these are all granted by US Immigration Enforcement]
+Code for subagency within agency granting award. The subagency for awards granted by ICE is ICE itself.
 
 **Column U: Awarding subagency name**
-[name of awarding subagency - all granted by ICE]
+Name for subagency within agency granting award. The subagency for awards granted by ICE is ICE itself.
 
 **Column V: Awarding office code**
-[code for office within subagency granting award]
+Code for office within ICE granting the award.
 
 **Column W: Awarding office name**
-[name of office within ICE granting award;
+Name of office within ICE granting the award.
 
 Categories:
-* Detention Compliance and Removals - office overseeing detention compliance & deportation
-* Detention Management - Laguna - office overseeing detention management
-* Information Technology Division - office overseeing all tech needs related to ICE at the level of systems (individual mission support offices seem to still make individual purchase in relation to operations)
-* Mission Support Dallas - management of critical functions for ICE (financial, acquisition, asset, and logistical management)
-* Mission Support Orlando - management of critical functions for ICE (financial, acquisition, asset, and logistical management)
-* Mission Support Washington - management of critical functions for ICE (financial, acquisition, asset, and logistical management)  ]
+* Detention Compliance and Removals: oversees detention compliance & deportation.
+* Detention Management - Laguna: oversees detention management.
+* Information Technology Division: oversees tech needs related to ICE at the systems level. Individual Mission Support offices make additional technology purchases in relation to their operations.
+* Mission Support Dallas - management of critical functions for ICE (financial, acquisition, asset, and logistical management).
+* Mission Support Orlando - management of critical functions for ICE (financial, acquisition, asset, and logistical management).
+* Mission Support Washington - management of critical functions for ICE (financial, acquisition, asset, and logistical management).
 
 **Column X: Funding Agency Code**
-[code for agency providing preponderance of funds for contract - here, all DHS]
+Code of agency providing the preponderance of funds for the award. For ICE awards, these are all Department of Homeland Security.
 
 **Column Y: Funding Agency Name**
-[name of agency providing preponderance of funds - here all DHS]
+Name of agency providing the preponderance of funds for the award. For ICE awards, these are all Department of Homeland Security.
 
 **Column Z: Funding Sub Agency Code**
-[code for subagency providing preponderance of funds - here all ICE]
+Code of subagency providing the preponderance of funds for the award. For ICE awards, these are all ICE itself.
 
 **Column AA: Funding Sub Agency Name**
-[name of subagency providing preponderance of funds - here all ICE]
+Name of subagency providing the preponderance of funds for the award. For ICE awards, these are all ICE itself.
 
 **Column AB: Funding Office Code**
-[code for suboffice of agency providing preponderance of funds w/in ICE]
+Code for sub-office within ICE providing the preponderance of funds for the award.
 
 **Column AC: Funding Office Name**
-[names of suboffice providing preponderance of funds w/in ICE; this is an additional level of refinement w/in ICE from which contracts are awarded;
+Name for sub-office within ICE providing the preponderance of funds for the award.
 
 Categories:
 * Acquisition Policy Oversight
-* CFO - Assurance Compliance (CFO = chief financial officer at ICE)
+* Chief Financial Officer (CFP) - Assurance Compliance
 * CFO - Office of Asset Management
-* CFO - Financial Management Burlington FC (Burlington, Massachusetts field office w/ jurisdiction over CT, ME, MA, NH, RI, VT)
-* CFO - Financial Management Dallas FO (Dallas field office, jurisdiction: North TX & OK)
+* CFO - Financial Management Burlington FO: Burlington, Massachusetts field office w/ jurisdiction over CT, ME, MA, NH, RI, VT
+* CFO - Financial Management Dallas FO: Dallas, Texas field office, jurisdiction - North TX & OK
 * CFO - Financial Management Headquarters
 * CFO - Budget
-* CIO - Immediate Office of the CIO
-* CIO - Architecture Division (technical architecture)
+* Chief Information Officer (CIO) - Immediate Office of the CIO
+* CIO - Architecture Division: Manages technical/information architecture
 * CIO - Business Resource Management
 * CIO - Chief Info Security Officer
 * CIO - Chief Technology Office
 * CIO - Operations Division
 * Detention Compliance and Removals
 * Detention Management - Laguna
-* DHS Investigations SAC Atlanta (SAC = Special Agent in Chart - a particular kind of field office responsible for the administration and management of all investigative and enforcement activities within the geographic boundaries of the office)
+* Department of Homeland Security (DHS) Investigations Special Agent-in-Charge (SAC) Atlanta: SAC is a particular kind of field office responsible for the administration and management of all investigative and enforcement activities within the geographic boundaries of the office.
 * DHS Investigations SAC Baltimore
 * DHS Investigations SAC Boston
 * DHS Investigations SAC Buffalo
@@ -158,62 +160,62 @@ Categories:
 * DHS Investigations SAC St. Paul
 * DHS Investigations SAC Tampa
 * DHS Investigations SAC Washington, DC
-* EnforcmntRemovl FOD New Orleans (field office for enforcement/removal, jurisdiction: AL, AK, LA, MS, TS)
-* EnforcmntRemovl FOD Salt Lake City (jurisdiction: UT, ID, MT, NV)
-* EnforcmntRemovl FOD San Antonio (jurisdiction: Central South TX)
-* EnforcmntRemovl OPNS FOD Atlanta (jurisdiction: GA, NC, SC)
-* EnforcmntRemovl OPNS FOD Baltimore (jurisdiction: MD)
-* EnforcmntRemovl OPNS FOD Boston (jurisdiction: CT, ME, MA, NH, RI, VT)
-* EnforcmntRemovl OPNS FOD Chicago (jurisdiction: IL, IN, WI, MO, KY, KS)
-* EnforcmntRemovl OPNS FOD Dallas (jurisdiction: North TX, OK)
-* EnforcmntRemovl OPNS FOD Denver (jurisdiction: CO, WY)
-* EnforcmntRemovl OPNS FOD Detroit (jurisdiction: MI, OH)
-* EnforcmntRemovl OPNS FOD El Paso (jurisdiction: West TX, NM)
-* EnforcmntRemovl OPNS FOD Houston (jurisdiction: Southeast TX)
-* EnforcmntRemovl OPNS FOD LA (jurisdiction: Los Angeles Metropolitan Area (Counties of Los Angeles, Orange, Riverside, San Bernardino), and Central Coast (Counties of Ventura, Santa Barbara and San Luis Obispo))
-* EnforcmntRemovl OPNS FOD Miami (jurisdiction: FL, PR, U.S.V.I.)
-* EnforcmntRemovl OPNS FOD New York (jurisdiction: The five boroughs (counties of NYC) and the following counties: Duchess, Nassau, Putnam, Suffolk, Sullivan, Orange, Rockland, Ulster, and Westchester)
-* EnforcmntRemovl OPNS FOD Newark (jurisdiction: NJ)
-* EnforcmntRemovl OPNS FOD Philadelphia (jurisdiction: DE, PA, WV)
-* EnforcmntRemovl OPNS FOD Phoenix (jurisdiction: AZ)
-* EnforcmntRemovl OPNS FOD San Diego (jurisdiction: San Diego & Imperial County)
-* EnforcmntRemovl OPNS FOD San Francisco (jurisdiction: Northern CA, HI, Guam, Saipan)
-* EnforcmntRemovl OPNS FOD Seattle (jurisdiction: AK, OR, WA)
-* EnforcmntRemovl OPNS FOD St. Paul (jurisdiction: IA, MN, NE, ND, SD)
-* EnforcmntRemovl OPNS FOD Washington, DC (jurisdiction: DC, VA)
-* EnforcmntRemovl OPNS HQ Compliance (enforcement & removal compliance at headquarters)
-* EnforcmntRemovl OPNS HQ Crim Alien (the “Criminal Alien” program at headquarters)
-* EnforcmntRemovl OPNS HQ ENF MNGMT (enforcement management at headquarters)
-* EnforcmntRemovl OPNS SPC EL PASO (SPC = service processing center - all SPC are detention centers)
-* EnforcmntRemovl OPNS SPC FLORENCE
+* Enforcement and Removal (EnforcmntRemovl) Field Operations Division (FOD) New Orleans: An FOD is responsible for enforcement/removal in a jurisdiction. Here, AL, AK, LA, MS, TS.
+* EnforcmntRemovl FOD Salt Lake City: jurisdiction - UT, ID, MT, NV
+* EnforcmntRemovl FOD San Antonio: jurisdiction - Central South TX
+* EnforcmntRemovl Operations (OPNS) FOD Atlanta - jurisdiction: GA, NC, SC
+* EnforcmntRemovl OPNS FOD Baltimore: jurisdiction - MD
+* EnforcmntRemovl OPNS FOD Boston: jurisdiction - CT, ME, MA, NH, RI, VT
+* EnforcmntRemovl OPNS FOD Chicago: jurisdiction - IL, IN, WI, MO, KY, KS
+* EnforcmntRemovl OPNS FOD Dallas: jurisdiction - North TX, OK
+* EnforcmntRemovl OPNS FOD Denver: jurisdiction - CO, WY
+* EnforcmntRemovl OPNS FOD Detroit: jurisdiction - MI, OH
+* EnforcmntRemovl OPNS FOD El Paso: jurisdiction - West TX, NM
+* EnforcmntRemovl OPNS FOD Houston: jurisdiction - Southeast TX
+* EnforcmntRemovl OPNS FOD LA: jurisdiction - Los Angeles Metropolitan Area (counties of Los Angeles, Orange, Riverside, San Bernardino) and Central Coast (counties of Ventura, Santa Barbara and San Luis Obispo)
+* EnforcmntRemovl OPNS FOD Miami: jurisdiction - FL, PR, U.S.V.I.
+* EnforcmntRemovl OPNS FOD New York: jurisdiction - The five boroughs (counties of New York City) and Duchess, Nassau, Putnam, Suffolk, Sullivan, Orange, Rockland, Ulster, and Westchester counties
+* EnforcmntRemovl OPNS FOD Newark: jurisdiction - NJ
+* EnforcmntRemovl OPNS FOD Philadelphia: jurisdiction - DE, PA, WV
+* EnforcmntRemovl OPNS FOD Phoenix: jurisdiction - AZ
+* EnforcmntRemovl OPNS FOD San Diego: jurisdiction - San Diego & Imperial County
+* EnforcmntRemovl OPNS FOD San Francisco: jurisdiction - Northern CA, HI, Guam, Saipan
+* EnforcmntRemovl OPNS FOD Seattle: jurisdiction - AK, OR, WA
+* EnforcmntRemovl OPNS FOD St. Paul: jurisdiction - IA, MN, NE, ND, SD
+* EnforcmntRemovl OPNS FOD Washington, DC: jurisdiction - DC, VA
+* EnforcmntRemovl OPNS Headquarters (HQ) Compliance: enforcement & removal compliance oversight at headquarters
+* EnforcmntRemovl OPNS HQ Crim Alien: the “Criminal Alien” program oversight at headquarters
+* EnforcmntRemovl OPNS HQ ENF MNGMT: enforcement management oversight at headquarters
+* EnforcmntRemovl OPNS Service Processing Center (SPC) EL PASO: all SPC are detention centers  
+* EnforcmntRemovl OPNS SPC Florence
 * EnforcmntRemovl OPNS SPC Krome
 * EnforcmntRemovl OPNS SPC Port Isabel
-* EnforcmntRemovl OPNS FOD Buffalo (FOD = field office director)
+* EnforcmntRemovl OPNS Field Office Division (FOD) Buffalo
 * EnforcmntRemovl OPNS FOD Pocbatavia
 * EnforcmntRemovl OPNS HQ Mission Supply
-* * EnforcmntRemovl OPNS HQ Removal Management
+* EnforcmntRemovl OPNS HQ Removal Management
 * Equal Employment Opportunity
-* HOMELAND SECURITY INTEL - HQ DIV 1
-* HOMELAND SECURITY INTEL - HQ DIV 2
-* HOMELAND SECURITY INTEL - HQ DIV 3
-* HOMELAND SECURITY INTEL - HQ DIV 4
-* HOMELAND SECURITY INTEL - HQ DIV 6
-* HOMELAND SECURITY INVEST - HQ DIV 5
-* HSI - HQ - DIV 1
+* Homeland Security Intelligence (INTEL) - HQ DIV 1
+* Homeland Security INTEL - HQ DIV 2
+* Homeland Security INTEL - HQ DIV 3
+* Homeland Security INTEL - HQ DIV 4
+* Homeland Security INTEL - HQ DIV 6
+* Homeland Security INTEL - HQ DIV 5
+* Homeland Security Investigations (HSI) - Headquarters (HQ) - Division (DIV) 1
 * HSI - HQ - DIV 2
 * HSI - HQ - DIV 3
 * HSI - HQ - DIV 5
 * HSI - HQ - DIV 6
 * HSI - HQ - DIV 4
 * Human Capital Office
-* ICE ASST SECRETARY
+* ICE Assistant (Asst) Secretary
 * ICE Intelligence
 * ICE Office of Congressional Relations
 * ICE Student Exchange Visitor Program
 * Information Technology Division
 * Mission Support Orlando
 * Mission Support Washington
-* OFC of the Chief Financial Officer
+* Office (OFC) of the Chief Financial Officer
 * OFC of the Chief Information Officer
 * Office of Training Tactical Programs
 * Office of the Chief Financial Officer
@@ -227,56 +229,73 @@ Categories:
 
 ##Recipient Data
 
+Recipient data provides a wealth of information about which contractors are receiving ICE awards. Contractors include individuals, sole proprietors, companies, parent companies and subsidiaries, and non-profit institutions. This data includes contractor addresses and congressional districts, as well as addresses and congressional districts for the place of performance of business (which may be different from a contractor's business address).
+
 **Column AD: Foreign Funding**
-[rare]
+Indicates whether the award was given to an entity outside of the United States. This is unusual for ICE awards, but not entirely unheard of.
 
 **Column AE: Foreign Funding Description**
-[rare]
+Description of foreign funding.
 
 **Column AF: SAM Exception**
-[everyone taking gov’t money is required to have a unique DUNS code/number, unless they meet the criteria for an exception]
+All government contractors are required to have a unique Data Universal Numbering System (DUNS) code, unless they meet the criteria for an exception. This column indicates an exception, if relevant.
 
 **Column AG: SAM Exception Description**
-[description of SAM exception - this doesn’t seem especially relevant to us]
+Describes the nature of the exception to the DUNS requirement.
 
 **Column AH: DUNS code**
+DUNS code of contractor.
 
 **Column AI: Recipient Name**
+Name of recipient.
 
 **Column AJ: Recipient Doing Business As Name**
-[if recipient is under auspice of another entity; seems largely irrelevant here - haven’t seen entries in the column]
+If the recipient is doing business under a different name, it will be indicated here. This is distinct from the case where a recipient is a subsidiary of a parent company, which is indicated in Column AL.
 
 **Column AK: Cage Code**
-[Commercial and government entity code, issued by Department of Defense, indicates security clearance]
+Commercial and government entity code issued by the Department of Defense. Presence of a CAGE code indicates security clearance.
 
 **Column AL: Recipient Parent Name**
-[parent companies - some interesting stuff here]
+If the recipient is the subsidiary of a parent company, the parent name listed here will be *different* from the recipient name. If the listed name is the same as the recipient name, there recipient is not a subsidiary.
 
 **Column AM: Recipient Parent DUNS**
+DUNS number of the parent.
 
 **Column AN: Recipient Country Code**
+Country abbreviation for the recipient address.
 
 **Column AO: Recipient Country Name**
+Country name for recipient address.
 
 **Column AP: Recipient Address line 1**
+Street address for recipient.
 
 **Column AQ: Recipient Address line 2**
+Additional street address information for recipient, if applicable.
 
 **Column AR: Recipient City**
+City for recipient address.
 
 **Column AS: Recipient State Abbreviation**
+State abbreviation for recipient address.
 
 **Column AT: Recipient State Name**
+State name for recipient address. We noticed some errors in data entry in this column. There are instances where the state name that  is listed is actually the state that corresponds with the place of performance of business. The state abbreviations in Column AS are correct for the recipient addresses and the errors are in this column.
 
 **Column AU: Recipient Zip Code + 4**
+Zip Code + 4 digits for recipient address.
 
 **Column AV: Recipient Congressional District**
+Congressional district for recipient. Number of the district is listed and corresponds to state abbreviation in Column AS (e.g. VA in Column AS and 10 in Column AV corresponds to Virginia's 10th Congressional District).
 
 **Column AW: Recipient Phone**
+Phone number of recipient.
 
 **Column AX: Recipient Fax**
+Fax number of recipient.
 
-**Column AY: Recipient Primary Place of Performance Country Code
+**Column AY: Recipient Primary Place of Performance Country Code**
+Country code for the primary place where the business is performed. 
 [we’re pretty much exclusively dealing with US here]**
 
 **Column AZ: Recipient Primary Place of Performance Country Name**
