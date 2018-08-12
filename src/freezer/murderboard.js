@@ -67,7 +67,7 @@ export default function(){
     .enter().append("line")
     .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
     .attr("opacity", 0.9)
-    .style("stroke-width", 2);
+    .style("stroke-width", 3);
 
 
   const nodes = g.append("g")
@@ -124,7 +124,7 @@ export default function(){
         .attr("transform", "translate(0,0)")
         .attr("height", icon.side)
         .attr("width", icon.side);
-      link.style("stroke-width", 2); //same for lines
+      link.style("stroke-width", 3); //same for lines
     });
 
   const icons = nodes.selectAll(icon.draw);
