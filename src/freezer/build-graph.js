@@ -107,13 +107,21 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
               }, 0);
           });
 
+        _(graph.nodes.filter(node => node.category === "product category"))
+          .each(productCategory => {
+            productCategory.awards = awards.filter(award => award.naics_cat === productCategory.name);
+            productCategory.total_value = productCategory.awards.reduce( (sum, award) => {
+              return sum + _.toInteger(award.current_total_value);
+            }, 0);
+          });
+
         _(graph.nodes)
-          .filter(node => node.category.match(/productcat/))
-          .each(productcatNode => {
+          .filter(node => node.category.match(/product category/))
+          .each(productCategoryNode => {
             _(graph.links)
-              .filter(link => link.source === productcatNode.id)
-              .each(productcatLink => {
-                productcatLink.contract_Value = _.reduce(awards.filter(award => award.naics_cat === productcatNode.name && award.award.product_combo === productcatLink.target),
+              .filter(link => link.source === productCategoryNode.id)
+              .each(productCategoryLink => {
+                productCategoryLink.contract_Value = _.reduce(awards.filter(award => award.naics_cat === productCategoryNode.name && award.product_combo === productCategoryLink.target),
                   (sum, award) => {
                     return sum + _.toInteger(award.current_total_value);
                   }, 0);
