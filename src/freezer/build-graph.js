@@ -127,15 +127,36 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
                   }, 0);
               });
 
+            _(graph.nodes.filter(node => node.category === "product"))
+              .each(product => {
+                product.awards = awards.filter(award => award.naics_description === product.name);
+                product.total_value = product.awards.reduce( (sum, award) => {
+                  return sum + _.toInteger(award.current_total_value);
+                }, 0);
+              });
+
+            _(graph.nodes)
+              .filter(node => node.category.match(/product/))
+              .each(productNode => {
+                _(graph.links)
+                  .filter(link => link.source === productNode.id)
+                  .each(productLink => {
+                    productLink.contract_Value = _.reduce(awards.filter(award => award.naics_description === productNode.name && award.product_combo === productLink.target),
+                      (sum, award) => {
+                        return sum + _.toInteger(award.current_total_value);
+                      }, 0);
+                  });
+
+              });
+
           });
 
-      });
+        writeFile(path.join("data", "freezer", "graph.json"),
+          JSON.stringify(graph, null, 2), (err) => {
+            if(err) throw err;
+            stdout.write("WE DID THE THING 🚀\n");
+          }); // close writeFile callback.
 
-    writeFile(path.join("data", "freezer", "graph.json"),
-      JSON.stringify(graph, null, 2), (err) => {
-        if(err) throw err;
-        stdout.write("WE DID THE THING 🚀\n");
-      }); // close writeFile callback.
-
-  }); // close parse;
-}); // close readFile
+      }); // close parse;
+  }); // close readFile
+});
