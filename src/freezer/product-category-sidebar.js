@@ -4,13 +4,22 @@
 //import { bigMoneyFormat } from "../utils";
 //import sideBarSpreadsheet from "./sidebar-spreadsheet";
 
+import { bigMoneyFormat } from "../utils";
+import sideBarSpreadsheet from "./sidebar-spreadsheet";
 export default function(d){
 
-  const html = [`<p><h3 style="color:#fc8d62;">Product Category:</h3>
-  <h4 style="color:#fc8d62;">${d.name}</h4>`];
-  //html.push(sideBarSpreadsheet(d));
+  const html = [`<h3 style="color:#fc8d62;">${d.name}</h3>`];
+  html.push(`<h4 style="color:#fc8d62;"><span data-i18n="ta-value-to-date"></span>:
+      $${bigMoneyFormat(d.total_value)}</h4>`);
+  html.push(sideBarSpreadsheet(d));
   return html.join("\n");
+
 }
+//  const html = [`<p><h3 style="color:#fc8d62;">Product Category:</h3>
+//  <h4 style="color:#fc8d62;">${d.name}</h4>`];
+//  //html.push(sideBarSpreadsheet(d));
+//  return html.join("\n");
+//}
 
 //export default function(d){
 
