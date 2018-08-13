@@ -7,40 +7,23 @@ import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import PostIt from "./post-it";
-//import { scalePow } from "d3-scale";
-//import { scaleLog } from "d3-scale";
-//import { extent } from "d3-array";
-//import { color } from "d3-color";
-
 
 export default function(){
-  //var lw = scalePow() //sets a scale for line width
-// .domain([100, 12147442]) //hardcoding the min and max contract values from freezer data
-//    .range([1, 10])
-//    .exponent(0.1);
 
   const graph = _.cloneDeep(Data);
-  // Drawing options for the icons:
   const icon = {
-    draw: "image", // or "path" for svg or "rect"
-    shadow: false, // make true if you want a shadow on the postit svg.
+    draw: "image",
+    shadow: false,
     postIt: PostIt(),
     scale: 1,
     note: 1,
-    side: 120 // the postit is about 240 x 240
+    side: 120
   };
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "topG");
   const width = svg.attr("width");
   const height = svg.attr("height");
-  //const lw = scaleLog() //sets a scale for line width
-  //  .domain(extent(Data.links
-  //    .filter(links => links.contract_value > 0)
-  //    .map(links => links.contract_value))
-  //  )
-  //  .range([25, 100]);
 
-  // zoom handler
   const theZoom = zoom()
     .scaleExtent([0.1, 3])
     .on("zoom", zoomed);
@@ -106,11 +89,10 @@ export default function(){
     .attr("transform", "translate(-57,-55)")
     .append(icon.draw)
     .attr("class", "png")
-  //mouseover highlighting
     .on("mouseover", function(d){
       link.style("stroke-width", function(l) {
-        if(d === l.source || d === l.target){ //get lines that connect to the node in question
-          return 50; // make them 4x the usual line width
+        if(d === l.source || d === l.target){
+          return 50;
         }
       });
       select(this)
@@ -124,7 +106,7 @@ export default function(){
         .attr("transform", "translate(0,0)")
         .attr("height", icon.side)
         .attr("width", icon.side);
-      link.style("stroke-width", 3); //same for lines
+      link.style("stroke-width", 3);
     });
 
   const icons = nodes.selectAll(icon.draw);
@@ -147,7 +129,7 @@ export default function(){
       icons.style("fill", d => d.color)
         .attr("d", icon.postIt[1]);
     }
-  } else { // it's an image.
+  } else {
     icons.attr("xlink:href", d => `http://localhost:4000/torn-apart/assets/imgs/postit-${d.colorText}.png`)
       .attr("height", icon.side)
       .attr("width", icon.side);
@@ -209,7 +191,6 @@ export default function(){
     d.fy = d.y;
   }
 
-  //zoom function
   function zoomed()
   {
     g.attr("transform", event.transform);
