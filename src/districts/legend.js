@@ -8,7 +8,7 @@ import { orange, purple, green, opacityRange5 } from "../constants";
 export default function(bins){
   const height = 20;
   $("#legend").show().html(() => {
-    const html = ["<div class='px-3 py-2'><div class='d-flex'>"];// <div class='d-flex justify-content-between'>"];
+    const html = ["<div class='px-3 py-2'><div><p data-i18n='ta-ice-money-since-2013'></p></div><div class='d-flex'>"];// <div class='d-flex justify-content-between'>"];
     const breaks = _.map(bins, (bin, i, array) => {
       if(i < array.length - 1){
         const least = max(bin);
@@ -48,7 +48,7 @@ export default function(bins){
         </div>
         </div>`);
     });
-    html.push("<div class='flex-fill'><div class='legend-svg-div'><p class='axis' data-i18n='ta-republican-cong'></p><p class='axis' data-i18n='ta-democrat-cong'></p><p class='axis' data-i18n='ta-no-rep-cong'></p></div><div><p data-i18n='ta-ice-money-since-2013'></p></div>");
+    html.push("<div class='flex-fill'><div class='pl-1 legend-svg-div'><p class='axis' data-i18n='ta-republican-cong'></p><p class='axis' data-i18n='ta-democrat-cong'></p><p class='axis' data-i18n='ta-no-rep-cong'></p></div><div>&nbsp;</div>");
     html.push("</div></div>");
     // console.log(html.join("\n"));
     return html.join("\n");
