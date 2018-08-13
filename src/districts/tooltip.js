@@ -1,10 +1,23 @@
+import _ from "lodash";
+import $ from "jquery";
+import { getOrdinalSuffix } from "../utils";
+import states from "../states";
 
-export default function (d){
-  const p = d.properties;
-  const html = [`<h3>${p.display_label}</h3>`];
-  
+export default function (geoJSONFeature){
+  const d = geoJSONFeature.properties;
+  const state = _.find(states, { stateFP: d.STATEFP }).name;
+  let districtName;
+  if(d.CD115FP === "00"){
+    districtName = $.i18n("ta-at-large-district");
+  } else {
+    const districtNumber = _.toInteger(d.CD115FP);
+    districtName = $.i18n(`ta-ordinal-${ getOrdinalSuffix(districtNumber) }-m`)
+      .replace(/N/, districtNumber);
+  }
+  const html = [`<h3>${ state } - ${ districtName } District</h3>`];
+  // html.push(`<img class="float-right">
+
   return html.join("d");
-
 }
 // vG"properties": {
 //         "STATEFP": "13",
