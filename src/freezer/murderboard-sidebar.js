@@ -4,6 +4,8 @@ import productCategorySidebar from "./product-category-sidebar";
 import companySidebar from "./company-sidebar";
 import parentCompanySidebar from "./parent-company-sidebar";
 import updateTexts from "../update-texts";
+//import { pink, green, purple, orange } from "../constants";
+//import murderboardLegend from "./murderboard-legend";
 
 export default function(d){
 
@@ -22,6 +24,9 @@ export default function(d){
     html = parentCompanySidebar(d);
     break;
   }
+
+
+
   select("#freezer-sidebar").html(html);
   updateTexts();
 }
