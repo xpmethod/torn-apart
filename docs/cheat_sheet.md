@@ -295,252 +295,325 @@ Phone number of recipient.
 Fax number of recipient.
 
 **Column AY: Recipient Primary Place of Performance Country Code**
-Country code for the primary place where the business is performed. 
-[we’re pretty much exclusively dealing with US here]**
+Country code for the primary place where the business is performed. Primarily the US for this data set.
 
 **Column AZ: Recipient Primary Place of Performance Country Name**
-[we’re pretty much exclusively dealing with US here]
+Country name for primary place of business.
 
 **Column BA: Primary Place of Performance City Name**
+City name for primary place of business.
 
 **Column BB: Primary Place of Performance County Name**
+County name for primary place of business.
 
 **Column BC: Primary Place of Performance State Code**
+State abbreviation for primary place of business.
 
 **Column BD: Primary Place of Performance State Name**
+State name for primary place of business.
 
 **Column BE: Primary Place of Performance Zip Code + 4**
+Zip code + 4 digits for primary place of business.
 
 **Column BF: Primary Place of Performance Congressional District**
+Congressional district of primary place of business.
 
 ##Award Detail Data
 
 **Column BG: Award or IDV Flag**
-[award pertains to an award, IDV pertains to an indefinite delivery contract within a fixed contract period]
+Indicates whether this is an outright award or an indefinite delivery contract (IDV), which allows the government to request delivery of goods and services when necessary, within a fixed contract period.
 
 **Column BH: Award Type Code**
-[only relevant to Awards not IDVs; A = BPA Call, B = Purchase Order , C = Delivery Order]
+Code for award type:
+* A = Blanket Purchase Order (BPA) Call
+* B = Purchase Order
+* C = Delivery Order
 
 **Column BI: Award Type**
-[BPA Call - a call against existing blanket purchase agreement
-Purchase Order - agreement to buy certain goods/services under certain terms/provisions
-Delivery Order - contract that does not procure or supply a firm quantity of goods or services aside from minimum and maximum quantity]
+Specifies award type:
+* BPA Call - a call against existing blanket purchase agreement
+* Purchase Order - agreement to buy certain goods/services under certain terms/provisions
+* Delivery Order - contract that does not procure or supply a firm quantity of goods or services aside from minimum and maximum quantity
 
 **Column BJ: IDV Type Code**
-[Type of IDV; E = blanket purchase agreement, B = indefinite contract delivery
+Code for type of indefinite delivery vehicle:
+* E = blanket purchase agreement
+* B = indefinite contract delivery
 
-**Column BK: IDF Type**
-[BPA = blanket purchase agreement; IDC = indefinite delivery contract]
+**Column BK: IDV Type**
+Specifies IDV type:
+* BPA = blanket purchase agreement
+* IDC = indefinite delivery contract
 
 **Column BL: Multiple or Single Award Code**
-[M = one of multiple awards from a single solicitation; S = single award from single solicitation]
+Code for whether multiple or single awards came from a single solicitation:
+* M = one of multiple awards from a single solicitation
+* S = single award from single solicitation]
 
 **Column BM: Multiple or Single Award IDV**
-[see Column BL]
+Specifies multiple or single award.
 
 **Column BN: Type of IDC Code**
-[A= Indefinite delivery/ requirements; B = Indefinite delivery/ quantity]
+Indicates type of indefinite delivery contract (IDC):
+* A= Indefinite delivery / requirements
+* B = Indefinite delivery / quantity
 
 **Column BO: Type of IDC**
-[see Column BN]
+Specifies type of IDC.
 
 **Column BP: Type of Contract Pricing Code**
-[J = Firm fixed price, U = cost plus fixed fee, Y = Time and materials, 1 = order dependent, Z = labor hours, 2 = Combination, 3 = other   guide is here if I missed some: https://www.fpds.gov/help/Type_of_Contract.htm]
+Codes for pricing of contracted goods and services:
+* J = Firm fixed price
+* U = cost plus fixed fee
+* Y = Time and materials
+* 1 = order dependent
+* Z = labor hours
+* 2 = Combination
+* 3 = other   
+Additional codes available here: [https://www.fpds.gov/help/Type_of_Contract.htm](https://www.fpds.gov/help/Type_of_Contract.htm).
 
 **Column BQ: Type of Contract Pricing**
-[see Column BP]
+Specifies type of Pricing.
 
 **Column BR: Award Description**
-[a half-assed controlled vocabulary of award descriptions]
+A semi-controlled vocabulary of award descriptions.
 
 **Column BS: Action Type Code**
-[pertains to contract options; C = funding only, B = supplemental action, M = Other Administrative Action, G= Exercise and Option, D = Change order, K = Close out; guide here: https://www.fpds.gov/help/Reason_for_Modification.htm]
+Codes for contract options on particular award or award modification:
+* C = funding only
+* B = supplemental action
+* M = Other Administrative Action
+* G= Exercise and Option
+* D = Change order
+* K = Close out
+Additional codes available here: [https://www.fpds.gov/help/Reason_for_Modification.htm](https://www.fpds.gov/help/Reason_for_Modification.htm).
 
 **Column BT: Action Type**
-[see Column BS]
+Specifies action type on award or award modification.
 
 **Column BU: Solicitation Identifier**
-[used to link solicitations across agencies]
+Identifier used to link solicitations across agencies.
 
 **Column BV: Number of Actions**
-[number of actions on award]
+Number of actions on award.
 
 **Column BW: Product or Service Code**
-[codes for particular kinds of services rendered]
+Codes for particular kinds of services rendered.
 
 **Column BX: Product or Service Names**
-[controlled vocabulary of types of products or services - could be super interesting]
+Controlled vocabulary of types of products or services.
 
 **Column BY: Contract Bundling Code**
-[whether contract is bundled - e.g. consolidating procurements previously made under separate contracts]
+Codes whether contract is bundled - if consolidating procurements previously made under separate contracts.
 
 **Column BZ: Contract Bundling**
-[see Column BY]
+Indicates contract bundling.
 
 **Column CA: DOD Claimant Program Code**
-[designates a grouping of supplies. Seems irrelevant here]
+Codes for a grouping of supplies.
 
 **Column CB: DOD Claimant Description**
-[see Column CA]
+Designates a grouping of supplies.
 
 **Column CC: NAICS Description Code**
-[code for program types according to a controlled vocabulary of industry codes]
+Codes for goods and services through industry codes.
 
 **Column CD: NAICS Descriptions**
-[types of services - could be useful]
+Controlled vocabulary of goods and services using industry codes.
 
 ##Law Related Data
 
+Law related data indicates the relationship between awards and various legalities governing government contracting.
+
 **Column CE: Recovered  Materials & Sustainability Code**
-[pertains to contract requirements to use recycled/sustainable materials]
+Codes whether awards must use sustainable materials.
 
 **Column CF: Recovered Materials and Sustainability**
-[contract clauses, if any]
+Sustainability related contract clauses, if any.
 
 **Column CG: Domestic or Foreign Entity Code**
-[US owned or foreign entity]
+Codes whether recipient is a domestic or foreign entity.
 
 **Column CH: Domestic or Foreign Entity**
-[see Column CG]
+Indicates whether recipient is domestic or foreign.
 
 **Column CI: DOD Acquisition Code**
+Code for Department of Defense acquisitions.
 
 **Column CJ: DOD Acquisition**
-[seems irrelevant]
+Indicates DOD acquisition.
 
 **Column CK: Information Technology Commercial Item Category Code**
+Codes whether the information technology service or good is commercially available.
 
 **Column CL: Info Tech Commercial Item Category**
-[is the service/good commercially available]
+Indicates commercial availability of IT goods and services.
 
 **Column CM: EPA Designated Product Code**
+Codes whether there is an EPA designation on the award.
 
 **Column CN: EPA Designated Product**
-[is there EPA desigation]
+Indicates EPA designation.
 
 **Column CO: Country of Product Service Origin Code**
+Code for country of product or service origin.
 
 **Column CP: Country of Product Service Origin**
+Indicates country origin of product or service.
 
 **Column CQ: Place of Manufacture Code**
+Code for location where goods were manufactured.
 
 **Column CR: Place of Manufacture**
+Indicates place where goods were manufactured.
 
 **Column CS: Subcontracting Plan Code**
-[is subcontracting plan required]
+Codes whether subcontracting plan is required.
 
 **Column CT: Subcontract Plan**
-[see Column CS]
+Indicates whether subcontracting is required.
 
 **Column CU: Extent Completed Code**
-[whether the contract required competition]
+Code for whether the award required competition.
 
 **Column CV: Extent Completed**
-[competition requirements; see guide: https://www.fpds.gov/help/Extent_Competed.htm]
+Indicates competition requirements. See guide: [https://www.fpds.gov/help/Extent_Competed.htm](https://www.fpds.gov/help/Extent_Competed.htm).
 
 **Column CW: Solicitation Procedures Code**
-[designator for solicitation procedures]
+Code designating solicitation procedures.
 
 **Column CX: Solicitation Procedures**
-[see guide https://www.fpds.gov/help/Solicitation_Procedure.htm]
+Indicates details of solicitation procedures. See guide: [https://www.fpds.gov/help/Solicitation_Procedure.htm](https://www.fpds.gov/help/Solicitation_Procedure.htm).
 
 **Column CY: Type of Set Aside Code**
-[were contracts set aside for small businesses]
+Codes whether award was set aside for small businesses.
 
 **Column CZ: Type of Set Aside**
-[see guide https://www.fpds.gov/help/Type_of_Set_Aside.htm]
+Indicates type of small-business set aside. See guide: [https://www.fpds.gov/help/Type_of_Set_Aside.htm](https://www.fpds.gov/help/Type_of_Set_Aside.htm).
 
 **Column DA: Evaluated Preference Code**
-[preference for contract action, see guide: https://www.fpds.gov/help/Evaluated_Preference.htm]
+Codes for preferences related to award action.
 
 **Column DB: Evaluated Preference**
-[see Column DA]
+Indicates preference given on award. See guide: [https://www.fpds.gov/help/Evaluated_Preference.htm](https://www.fpds.gov/help/Evaluated_Preference.htm).
 
 **Column DC: Research Code**
+Codes for research.
 
 **Column DD: Research**
+Indicates research related to award.
 
 **Column DE: Fair Opportunity Code**
+Code for whether all contractors on a multi-award contract had equal opportunity to respond to a request for proposals (RFP).
 
 **Column DF: Fair Opportunity**
-[competition reporting]
+Indicates competition reporting.
 
 **Column DG: Other than full and open competition code**
-[solicitation procedure reporting, see guide: https://www.fpds.gov/help/Reason_Not_Competed.htm}
+Codes for solicitation procedures other than open competition. [solicitation procedure reporting, see guide:
 
 **Column DH: Other than full and open competition**
-[see column DG]
+Indicates solicitation procedures aside from open competition. See guide: [https://www.fpds.gov/help/Reason_Not_Competed.htm](https://www.fpds.gov/help/Reason_Not_Competed.htm).
 
 **Column DI: Number of Offers received**
+Indicates number of responses to RFP.
 
 **Column DJ: Commercial Items Acquisitions Procedures Code**
+Codes for whether commercial item acquisition procedures were used.
 
 **Column DK: Commercial Items Acquisitions Code**
 [were commercial item procedures used]
 
-**Column DL: Small business competitiveness demonstration program**
+**Column DL: Small Business Competitiveness Demonstration Program**
+Indicates recipient participation in the Small Business Competitiveness Demonstration Program, which examines the ability of small businesses to compete for unrestricted government awards beyond the small business set-aside program.
 
 **Column DM: Commercial Item Test Program Code**
+Codes whether award is covered under government regulations to simplify commercial acquisitions.
 
 **Column DN: Commercial Item Test Program**
+Indicates award inclusion under simplified commercial acquisition protocols.
 
 **Column DO: A76 Fair Act Action Code**
+Codes compliance with the FAIR Act, which requires reporting of activities that are not "inherently governmental" but are performed by government employees.
 
 **Column DP: A76 Fair Act Action**
+Indicates relationship between award and FAIR Act.
 
 **Column DQ: Federal Business Opportunities Code**
+Code for awards subject to Federal Business Opportunity regulations.
 
 **Column DR: Federal Business Opportunities**
-[bid monitoring through Fed Biz Opps]
+Indicates monitoring via Federal Business Opportunity regulations.
 
 **Column DS: Local Area Set Aside Code**
+Codes for whether only businesses in a specific geographic area could compete for award.
 
 **Column DT: Local Area Set Aside**
-[were there geographical set asides for contracts]
+Indicates geographical set aside.
 
 **Column DU: Price Evaluation Adjustment Preference Percent Difference**
-[was there price evaluation & adjustment]
+Indicates whether there was pricing evaluation and adjustment on the award.
 
 **Column DV: Clinger Cohen Act Planning Code**
-[related to Clinger-Cohen Act - tech management reform]
+Codes for relationship to Clinger-Cohen Act for tech management reform.
 
 **Column DW: Clinger Cohen Act Planning**
+Indicates whether award was subject to Clinger-Cohen Act.
 
 **Column DX:  Materials Supplies Equipment Code**
+Code for bids for materials, supplies, and equipment.
 
 **Column DY: Materials Supplies Equipment**
+Indicates materials, supplies, and equipment.
 
 **Column DZ: Labor Standards Code**
+Codes for labor regulations governing the award.
 
 **Column EA: Labor Standards**
+Indicates labor regulations to which award is subject.
 
 **Column EB: Construction Wage Rate Requirements Code**
+Code for labor wage requirements.
 
 **Column EC: Construction Wage Rate Requirements**
+Indicates wage requirements.
 
 **Column ED: Interagency Contracting Authority Code**
+Code for authority in cases of interagency contracting.
 
 **Column EE: Interagency Contracting Authority**
+Indicates authority for interagency awards.
 
 **Column EF: Other Statutory Authority**
+Indicates whether an alternative entity has authority to execute the award.
 
-## Various Cost/Accounting Data, Not Super Useful
+##Cost/Accounting Data
+
+Cost/Accounting data offers details related to financial transactions on the award. Those that are not self-evident are defined below.
 
 **Column EG: Program Acronym**
+Acronym for contracting program.
 
 **Column EH: Parent Award Type Code**
+Code for type of parent award, if any.
 
 **Column EI: Parent Award Type**
+Indicates parent award type, if relevant.
 
 **Column EJ: Parent Award Single or Multiple Code**
+Code for whether there are single or multiple awards under parent award.
 
 **Column EK: Parent Award Single or Multiple**
+Indicates single or multiple awards under parent award.
 
 **Column EL: Major Program**
+Federal program determination as a "major program".
 
 **Column EM: National Interest Action Code**
+Code for the national interest for which the award was given.
 
 **Column EN: National Interest Action**
+Specifies national interest for award.
 
 **Column EO: Cost or Pricing Data Code**
 
@@ -559,16 +632,22 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 **Column EV: Sea Transportation**
 
 **Column EW: Undefinitized Action Code**
+Code for awards where specific terms have not been agreed on in advance.
 
 **Column EX: Undefinitized Action**
+Specifies awards for which terms have not been subject to prior agreement.
 
 **Column EY: Consolidated Contract Code**
+Code for awards that are the result of consolidation of existing contacts.
 
 **Column EZ: Consolidated Contract**
+Indicates consolidation of prior contracts.
 
-**Column FA: Performance Based Service Acquistion Code**
+**Column FA: Performance Based Service Acquisition Code**
+Code for acquisitions based on services rendered.
 
-**Column FB: Performance Based Service Acquistion**
+**Column FB: Performance Based Service Acquisition**
+Indicates acquisitions based on services rendered.
 
 **Column FC: Multiyear Contract Code**
 
@@ -583,10 +662,14 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 **Column FH: Purchase Card as Payment Method**
 
 **Column FI: Contingency Humanitarian or Peacekeeping Operation Code**
+Codes used to exceed purchasing regulations and thresholds in the case of humanitarian or peacekeeping related contingencies.
 
 **Column FJ: Contingency Humanitarian or Peacekeeping Operation**
+Indicates awards subject to humanitarian or peacekeeping related contingencies.
 
-## Demographic Data of Awarded Contracts
+##Demographic Data of Awarded Contracts
+
+Demographic data is opt-in information on race, ethnicity, gender, veteran status, and socio-economic status supplied by award recipients. Recipients can opt-in to the many categories listed below.
 
 **Column FK: Alaskan Native Owned Corporation or Firm**
 
@@ -626,17 +709,24 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 
 **Column GC: Other Minority Owned Business**
 
-## Business Type Data
+##Recipient Type Data
+
+Recipient type data indicates the type of company, non-profit organization, or other institution (educational, religious, etc.) that has received the award. Those that are not self-evident are defined below.
 
 **Column GD: Contracting Officers Determination of Business Size**
+Determination of business size is handled by the Small Business Administration.
 
 **Column GE: Contracting Officers Determination of Business Size Code**
+Code relating to business size determination.
 
 **Column GF: Emerging Small Business**
+Any small business that is no greater than 50% of the standard numerical size assigned to a contracting opportunity.
 
 **Column GG: Community Developed Corporation Owned Firm**
+Recipient is a corporation developed by a local community for the economic development of the community.
 
 **Column GH: Labor Surplus Area Firm**
+Indicates recipient in a civil jurisdiction that has an employment rate of 20% or more over the average for all states within a two-uear period.
 
 **Column GI: US Federal Government**
 
@@ -678,9 +768,10 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 
 **Column HC: International organization**
 
-**Column HD: US government entity**
+**Column HD: US Government Entity**
 
-**Column HE: Community development corporation**
+**Column HE: Community Development Corporation**
+Non-profit, community-based organizations that focus on revitalizing their geographic areas.
 
 **Column HF: Domestic Shelter**
 
@@ -722,15 +813,18 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 
 **Column HY: Foreign Owned**
 
-**Column HZ: For-profit organization**
+**Column HZ: For-profit Organization**
 
-**Column IA: Non-profit organization**
+**Column IA: Non-profit Organization**
 
-**Column IB: Other not-for-profit organization**
+**Column IB: Other Not-for-profit Organization**
 
 **Column IC: The Ability One Program**
+Source of employment for people with disabilities.
 
-## Organization Details, Maybe Interesting
+##Organization Data
+
+Organization data offers insight on the recipients, from number of employees to annual revenue to institution type.
 
 **Column ID: Number of Employees**
 
@@ -748,7 +842,7 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 
 **Column IK: Minority Institution**
 
-**Column IL: HBCU**
+**Column IL: Historically Black College or University**
 
 **Column IM: Tribal College**
 
@@ -767,9 +861,12 @@ Delivery Order - contract that does not procure or supply a firm quantity of goo
 **Column IT: Small Disadvantaged Business**
 
 **Column IU: C8A Program Participant**
+Capital development program.
 
 **Column IV: Historically Underutilized Business Zone Hubzone Firm**
 
-**Column IW: SBA Certified 8a Joint Venture**
+**Column IW: SBA Certified 8A Joint Venture**
+Joint business agreement between two or more small businesses.
 
 **Column IX: Last Modified Date**
+Last modified date of award.
