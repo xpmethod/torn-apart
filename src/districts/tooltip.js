@@ -2,8 +2,7 @@ import _ from "lodash";
 import $ from "jquery";
 import { getOrdinalSuffix } from "../utils";
 import states from "../states";
-import {format} from "d3-format";
-import {titleUp} from "../utils";
+import { bigMoneyFormat, titleUp } from "../utils";
 
 export default function (geoJSONFeature){
   const d = geoJSONFeature.properties;
@@ -14,34 +13,40 @@ export default function (geoJSONFeature){
   } else {
     const districtNumber = _.toInteger(d.CD115FP);
     districtName = $.i18n(`ta-ordinal-${ getOrdinalSuffix(districtNumber) }-m`)
-      .replace(/N/, districtNumber);
+      .replace(/N/, districtNumber) + " " + $.i18n("ta-district");
   }
+  let party = "republican";
+  if(d.party.match(/D/)) party = "democrat";
+  if(d.party.match(/N/)) party = "no-rep";
   
-  const repName = d.representative; 
-  const party = d.party; 
-  const pic = d.representative_photo_url; //I fucked up the image url in the csv earlier but now I've fixed it, so you just need to rebuild the json from the csv
-  
-  // const pic = "https://upload.wikimedia.org/wikipedia/commons/7/71/Rep_Bradley_Byrne_%28cropped%29.jpg"; //if you want to test photo placement meanwhile you can test with this
-  
-  const totalAwards = $.i18n("ta-total-awards") + ": $" + format(",")(Math.round(d.total_value)); 
-  
-  var lucrative = "";
-  if(d.awards.length > 0){ //making  sure we don't get a heading for "most lucrative awards" if there are none
-    
-    lucrative = "<h4>" + $.i18n("ta-most-lucrative") + ":</h4><ul>";
-    let i = 0;
-  
-    for (i = 0; i< d.awards.length; i=i+1){
-      lucrative = lucrative + "<li>" + titleUp(d.awards[i].childCompany) + ": $" + format(",")(Math.round(d.awards[i].currentValue)) + " (" + d.awards[i].fiscalYear + ")</li>";
-    } //note: using currentValue here means some have $0. Should we use potential value in that case instead?
-  }
-  lucrative = lucrative + "</ul>";
-  
-  
-  const html = [`<h3>${ state } - ${ districtName } District</h3><p>${ repName } (${ party }) <img src="${ pic }" alt="photo" height = "90px" align="right"></img></p><p>${ totalAwards }</p>${ lucrative }`]; 
-  // html.push(`<img class="float-right">
+  let profiteer;
+  if(d.awards.length > 0){
 
-  return html.join("d");
+    profiteer = _(d.awards)
+      .uniqBy("childCompany")
+      .map(award_recip => {
+        return {
+          name: titleUp(award_recip.childCompany),
+          value: _(d.awards)
+            .filter({ childCompany: award_recip.childCompany })
+            .reduce((sum, award) => sum + _.toInteger(award.currentValue), 0)
+        };
+      })
+      .sortBy(["value"])
+      .last();
+  }
+  const html = [`<h4>${ state } <small>${ districtName }</small></h4>`];
+  html.push(`<h3>${ $.i18n("ta-ice-money-since-2013-tooltip") }:<br/><strong>$${ bigMoneyFormat(d.total_value) }</strong></h3>`);
+  html.push(`<img src="${ d.representative_photo_url }" 
+    alt="Photo of ${ d.representative }" 
+    class="rounded float-left mr-3">`);
+  html.push(`<h4><strong>${$.i18n(`ta-${ party }-cong`)}</strong></h4>`);
+  html.push(`<h4>${ d.representative }</h4>`);
+  if(profiteer){
+    html.push(`<h4><br />${ $.i18n("ta-districts-biggest-profiteer") }:<br />
+      ${ profiteer.name }, $${ bigMoneyFormat(profiteer.value) }</h4>`);
+  }
+  return html.join("\n");
 }
 // vG"properties": {
 //         "STATEFP": "13",

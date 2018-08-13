@@ -1,0 +1,47 @@
+// To see this guy in use, see src/wedge.js
+.tooltip {
+  pointer-events: none;
+  position: absolute;
+  min-width: 10rem;
+  max-width: 20rem;
+  min-height: 3rem;
+  padding: 0.5rem;
+  background: $fadedpurple;
+  border-radius: .25rem;
+  color: $white;
+
+  h3 {
+    font-weight: normal;
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-weight: normal;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  img {
+    width: 8rem;
+  }
+}
+
+.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 12px;
+  width: 100%;
+  line-height: 1;
+  color: $fadedpurple;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.tooltip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+
