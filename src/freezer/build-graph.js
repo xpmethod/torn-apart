@@ -69,11 +69,19 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
     _.each(products_uniq, (product) => {
       const name = product.split("||")[0];
       const childOf = product.split("||")[1];
+      const productAwards = _.filter(awards,
+        { naics_description: name, naics_cat: childOf });
+      const total_value = productAwards.reduce( (sum, award) => {
+        return sum + _.toInteger(award.current_total_value);
+      }, 0);
       graph.nodes.push({ name,
         childOf,
         id: product,
-        category: "product"
+        category: "product",
+        awards: productAwards,
+        total_value
       });
+
     }); // close the each on products_uniq
 
     graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
@@ -127,36 +135,16 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
                   }, 0);
               });
 
-            _(graph.nodes.filter(node => node.category === "product"))
-              .each(product => {
-                product.awards = awards.filter(award => award.naics_description === product.name);
-                product.total_value = product.awards.reduce( (sum, award) => {
-                  return sum + _.toInteger(award.current_total_value);
-                }, 0);
-              });
-
-            _(graph.nodes)
-              .filter(node => node.category.match(/product/))
-              .each(productNode => {
-                _(graph.links)
-                  .filter(link => link.source === productNode.id)
-                  .each(productLink => {
-                    productLink.contract_Value = _.reduce(awards.filter(award => award.naics_description === productNode.name && award.product_combo === productLink.target),
-                      (sum, award) => {
-                        return sum + _.toInteger(award.current_total_value);
-                      }, 0);
-                  });
-
-              });
 
           });
 
-        writeFile(path.join("data", "freezer", "graph.json"),
-          JSON.stringify(graph, null, 2), (err) => {
-            if(err) throw err;
-            stdout.write("WE DID THE THING 🚀\n");
-          }); // close writeFile callback.
+      });
 
-      }); // close parse;
-  }); // close readFile
-});
+    writeFile(path.join("data", "freezer", "graph.json"),
+      JSON.stringify(graph, null, 2), (err) => {
+        if(err) throw err;
+        stdout.write("WE DID THE THING 🚀\n");
+      }); // close writeFile callback.
+
+  }); // close parse;
+}); // close readFile
