@@ -69,11 +69,19 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
     _.each(products_uniq, (product) => {
       const name = product.split("||")[0];
       const childOf = product.split("||")[1];
+      const productAwards = _.filter(awards,
+        { naics_description: name, naics_cat: childOf });
+      const total_value = productAwards.reduce( (sum, award) => {
+        return sum + _.toInteger(award.current_total_value);
+      }, 0);
       graph.nodes.push({ name,
         childOf,
         id: product,
-        category: "product"
+        category: "product",
+        awards: productAwards,
+        total_value
       });
+
     }); // close the each on products_uniq
 
     graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
@@ -106,6 +114,30 @@ readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
                 return sum + _.toInteger(award.current_total_value);
               }, 0);
           });
+
+        _(graph.nodes.filter(node => node.category === "product category"))
+          .each(productCategory => {
+            productCategory.awards = awards.filter(award => award.naics_cat === productCategory.name);
+            productCategory.total_value = productCategory.awards.reduce( (sum, award) => {
+              return sum + _.toInteger(award.current_total_value);
+            }, 0);
+          });
+
+        _(graph.nodes)
+          .filter(node => node.category.match(/product category/))
+          .each(productCategoryNode => {
+            _(graph.links)
+              .filter(link => link.source === productCategoryNode.id)
+              .each(productCategoryLink => {
+                productCategoryLink.contract_Value = _.reduce(awards.filter(award => award.naics_cat === productCategoryNode.name && award.product_combo === productCategoryLink.target),
+                  (sum, award) => {
+                    return sum + _.toInteger(award.current_total_value);
+                  }, 0);
+              });
+
+
+          });
+
       });
 
     writeFile(path.join("data", "freezer", "graph.json"),
