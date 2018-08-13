@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { select, event } from "d3-selection";
+import { select, selectAll, event } from "d3-selection";
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceX, forceY } from "d3-force";
 import { drag } from "d3-drag";
 import { zoom } from "d3-zoom";
@@ -7,6 +7,7 @@ import { green, purple, orange, pink } from "../constants";
 import freezerMurderboardSidebar from "./murderboard-sidebar";
 import Data from "../../data/freezer/graph.json";
 import PostIt from "./post-it";
+import { slug } from "../utils";
 
 export default function(){
 
@@ -44,11 +45,14 @@ export default function(){
     .force("y", forceY(forces.y))
     .alphaDecay(forces.alphaDecay);
 
-  var link = g.append("g")
+  const link = g.append("g")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-    .attr("class", d => d.contract_value > 0 ? "link" : "dotted-link")
+    .attr("class", d => {
+      let klass = d.contract_value > 0 ? "link" : "dotted-link";
+      return `${klass} link-${slug(d.source)} link-${slug(d.target)}`;
+    })
     .attr("opacity", 0.9)
     .style("stroke-width", 3);
 
@@ -59,6 +63,7 @@ export default function(){
     .enter().append("g")
     .classed("node-g", true)
     .each( d => {
+      d.dom_id = "node-" + slug(d.id);
       switch (d.category) {
       case "product category":
         d.color = orange;
@@ -78,6 +83,8 @@ export default function(){
         break;
       }
     })
+    .attr("id", d => d.dom_id)
+    .attr("data-color", d => d.color)
     .on("click", freezerMurderboardSidebar)
     .on("mousedown", () => event.stopPropagation )
     .call(drag()
@@ -90,16 +97,12 @@ export default function(){
     .append(icon.draw)
     .attr("class", "png")
     .on("mouseover", function(d){
-      link.style("stroke-width", function(l) {
-        if(d === l.source || d === l.target){
-          return 50;
-        }
-      });
+      selectAll(`.${d.dom_id.replace(/node-/, "link-")}`)
+        .style("stroke-width", 50);
       select(this)
         .attr("transform", "translate(-57, -55)")
         .attr("height", icon.side * 2)
         .attr("width", icon.side * 2);
-
     })
     .on("mouseout", function() {
       select(this)
@@ -136,18 +139,21 @@ export default function(){
 
   }
 
-
-  link.style("stroke", function(d) {
-    var color = "grey";
-    for(var j = 0; j< graph.nodes.length; j = j+1){
-      var targetName = d.target;
-      if (graph.nodes[j].id === targetName)
-      {
-        color = graph.nodes[j].color;
-      }
-    }
-    return color;
+  link.style("stroke", d => {
+    return select(`#node-${slug(d.target)}`)
+      .attr("data-color");
   });
+  // link.style("stroke", function(d) {
+  //   var color = "grey";
+  //   for(var j = 0; j< graph.nodes.length; j = j+1){
+  //     var targetName = d.target;
+  //     if (graph.nodes[j].id === targetName)
+  //     {
+  //       color = graph.nodes[j].color;
+  //     }
+  //   }
+  //   return color;
+  // });
 
   nodes.append("title")
     .text( d => d.id );
