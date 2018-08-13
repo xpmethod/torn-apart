@@ -1,6 +1,3 @@
-//import { bigMoneyFormat } from "../utils";
-//import sideBarSpreadsheet from "./sidebar-spreadsheet";
-
 import { bigMoneyFormat } from "../utils";
 import sideBarSpreadsheet from "./sidebar-spreadsheet";
 export default function(d){
