@@ -13,8 +13,7 @@ export default function(){
           <rect height="${size}" width="${size}" class="legend-polygon" fill="${purple}" /></svg></div>`);
     html.push("<div class ='col-md-5'><p class='axis' data-i18n='ta-parent-company'></p></div>");
     html.push(`<div class = "col-md-1"><svg class="legend-svg" height="${size}" width="${ size}"><rect height="${size}" width="${size}" class="legend-polygon" fill="${green}"/>
-          </svg></div>
-        `
+          </svg></div>`
     );
 
     html.push("<div class ='col-md-5'><p class='axis' data-i18n='ta-product'></p></div></div>");
