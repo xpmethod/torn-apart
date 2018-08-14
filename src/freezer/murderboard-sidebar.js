@@ -8,7 +8,7 @@ import updateTexts from "../update-texts";
 import murderboardLegend from "./murderboard-legend";
 export default function(d){
 	
-	murderboardLegend();
+  murderboardLegend();
 
   let html;
   switch(d.category){
