@@ -5,8 +5,10 @@ import companySidebar from "./company-sidebar";
 import parentCompanySidebar from "./parent-company-sidebar";
 import updateTexts from "../update-texts";
 //import { pink, green, purple, orange } from "../constants";
-//import murderboardLegend from "./murderboard-legend";
+import murderboardLegend from "./murderboard-legend";
 export default function(d){
+	
+	murderboardLegend();
 
   let html;
   switch(d.category){
@@ -23,9 +25,11 @@ export default function(d){
     html = parentCompanySidebar(d);
     break;
   }
+  
+   
   // trying to make legend work
 
-  //  const legend = muderboardLegend(scale);
+  //  const legend = murderboardLegend(scale);
   //  var svg = select("#murderboard-legend");
 
   //  svg.append("g")
