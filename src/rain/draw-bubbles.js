@@ -37,16 +37,6 @@ export default function(){
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
 
-  // this dictionary allows us to grab an x-coordinate to have a node pushed
-  // towards, on the basis of its financial year (from a column I added to the
-  // data, since each financial year was handled by different worksheets in the
-  // original spreadsheet). The values for the centres of each cluster are
-  // determined by approximating the cluster as a circle, assuming similar
-  // distribution of dots in each, and figuring out from the number of nodes per
-  // FY the proportional differences in radius between each, then kind of
-  // handwaving the rest and fiddling with the final term until it looks okay.
-  // At the very minimum, we should probably replace the hardcoded number of
-  // nodes for each FY with the number as grabbed from the data dynamically.
   const xCenter = { 
     2014: scaled_width*4/155+width/15, 
     2015: scaled_width*(12+22)/155+width/15, 
@@ -69,11 +59,7 @@ export default function(){
     // .force("y", forceY(height/1.8).strength(0.3))
     .force("collision", forceCollide().radius( d => {
       return Math.max(8, 1.5 * r(d.currentValue));
-      // if you want more space around the larger dots (i.e. padding as
-      // proportional to radius), increase the number you divide by (currently
-      // 600). If you want more padding around all dots evenly, increase the
-      // additional constant (+8). The ceil is to make sure we don't end up
-      // with anything under 1 pixel radius.
+     
     }))
     .stop();
   // stop the simulation here. This means it doesn't do all its initial stuff
@@ -96,6 +82,7 @@ export default function(){
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
     .attr("opacity", 0.9)
+    .attr("class", function(d) {return "node" + d.duns;}) //this lets us grab them later for mouseover colouring purposes
     .each(d => {
       d.id = `${d.fiscalYear}-${d.awardID}`;
     })
@@ -103,8 +90,14 @@ export default function(){
     .classed("rain-drop", true)
     // .attr("opacity", 0)
     // .attr("transform", d => `translate(0, ${-1 * d.y})`)
-    .on("mouseover", theTip.show)
-    .on("mouseout", theTip.hide);  
+    .on("mouseover", function(d) {
+      theTip.show(d, this);
+      select("#rain-g").selectAll(".node" + d.duns).style("fill", "red");
+    })
+    .on("mouseout", function(d) {
+      select("#rain-g").selectAll(".node" + d.duns).style("fill", d => color(d.multiYear));
+      theTip.hide(d, this);
+    });  
     
 
   svg.append("g").attr("id", "rain-subheads-g")
@@ -117,30 +110,14 @@ export default function(){
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
 
-  // Alas…
-  // g.selectAll("circle.rain-drop")
-  //   .transition()
-  //   .delay(4000)
-  //   .duration(2000)
-  //   .ease(easeElastic)
-  //   .attr("opacity", 1)
-  //   .attr("transform", "translate(0,0)");
-
   const legendG = svg.append("g")
     .attr("id", "rain-legend")
     .classed("legend", true);
 
   const sizeLegendContent = rainSizeLegend(r);
-  // const colorLegendContent = rainColorLegend(color);
-
-  // legendG.append("g")
-  //   .attr("id", "rain-color-legend")
-  //   .call(colorLegendContent);
     
   legendG.append("g")
     .attr("id", "rain-size-legend")
-    // 50 = shapePadding in size-legend.js
-    // .attr("transform", `translate(${$("#rain-color-legend")[0].getBBox().width + 50},0)`)
     .call(sizeLegendContent)
     .selectAll("circle")
     .attr("fill", purple);
