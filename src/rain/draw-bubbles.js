@@ -27,12 +27,16 @@ export default function(){
   const color = scaleOrdinal()
     .domain([ "TRUE", "FALSE" ])
     .range([ purple, green ]);
+  const darkColor = scaleOrdinal() //for darkening on mouseover
+    .domain(["TRUE", "FALSE"])
+    .range([ "#2d715c", "#344873"]);
   const theTip = tip()
     .attr("class", "tooltip")
     .offset([-10, 0])
     .html(d => `<strong>${d.name}</strong><br />
     &#36;${format(",")(Math.round(d.currentValue))}`);
   svg.call(theTip);
+  
 
   const scaled_width = width*0.8; //this is the scaling factor for 
   // determining the centres of each cluster
@@ -92,7 +96,7 @@ export default function(){
     // .attr("transform", d => `translate(0, ${-1 * d.y})`)
     .on("mouseover", function(d) {
       theTip.show(d, this);
-      select("#rain-g").selectAll(".node" + d.duns).style("fill", "red");
+      select("#rain-g").selectAll(".node" + d.duns).style("fill", darkColor(d.multiYear));
     })
     .on("mouseout", function(d) {
       select("#rain-g").selectAll(".node" + d.duns).style("fill", d => color(d.multiYear));
