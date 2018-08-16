@@ -10,7 +10,7 @@ import rainSizeLegend from "./size-legend";
 import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { rem, green, purple } from "../constants";
-import Data from "../../data/rainVizData.csv";
+import Data from "../../data/rain/rainData.csv";
 
 export default function(){  
   const width = $("#rain-viz").width();
@@ -18,20 +18,20 @@ export default function(){
   const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
     .attr("height", height);
-  const bins = ckmeans(Data.map(d => d.current_total_value_of_award), 5);
+  const bins = ckmeans(Data.map(d => d.currentValue), 5);
   bins.shift();
   const circleSizes = [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
     .range(circleSizes);
   const color = scaleOrdinal()
-    .domain([ "multi-year", "unique" ])
-    .range([ green, purple ]);
+    .domain([ "TRUE", "FALSE" ])
+    .range([ purple, green ]);
   const theTip = tip()
     .attr("class", "tooltip")
     .offset([-10, 0])
-    .html(d => `<strong>${d.recipient_name}</strong><br />
-    &#36;${format(",")(Math.round(d.current_total_value_of_award))}`);
+    .html(d => `<strong>${d.name}</strong><br />
+    &#36;${format(",")(Math.round(d.currentValue))}`);
   svg.call(theTip);
 
   const scaled_width = width*0.8; //this is the scaling factor for 
@@ -64,11 +64,11 @@ export default function(){
   };
   
   var simulation = forceSimulation(Data) 
-    .force("x", forceX().strength(0.8).x( d => xCenter[d.financial_year]))
-    .force("y", forceY().strength(0.3).y( d => yCenter[d.financial_year]))
+    .force("x", forceX().strength(0.8).x( d => xCenter[d.fiscalYear]))
+    .force("y", forceY().strength(0.3).y( d => yCenter[d.fiscalYear]))
     // .force("y", forceY(height/1.8).strength(0.3))
     .force("collision", forceCollide().radius( d => {
-      return Math.max(8, 1.5 * r(d.current_total_value_of_award));
+      return Math.max(8, 1.5 * r(d.currentValue));
       // if you want more space around the larger dots (i.e. padding as
       // proportional to radius), increase the number you divide by (currently
       // 600). If you want more padding around all dots evenly, increase the
@@ -91,13 +91,13 @@ export default function(){
   g.selectAll("circle")
     .data(Data).enter()
     .append("circle")
-    .style("fill", d => color(d.uniqueness))
-    .attr("r", d => r(d.current_total_value_of_award))
+    .style("fill", d => color(d.multiYear))
+    .attr("r", d => r(d.currentValue))
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
     .attr("opacity", 0.9)
     .each(d => {
-      d.id = `${d.financial_year}-${d.award_id_piid}`;
+      d.id = `${d.fiscalYear}-${d.awardID}`;
     })
     .attr("id", d => `circle-${d.id}`)
     .classed("rain-drop", true)
