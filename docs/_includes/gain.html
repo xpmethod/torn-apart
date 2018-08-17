@@ -1,50 +1,19 @@
-<!-- We want three visualisations, with one at the top and two side-by-side below. -->
-<!-- Word cloud, and three pie charts. -->
-
-<!––First area: word cloud->
-
 <div class = "row">
 <div id="lexical-fog-div" class="col-md-6">
-  <h3 data-i18n="ta-v2-name-and-gain" id = "wall-of-gain-header"></h3> 
+  <h3 data-i18n="ta-v2-name-and-gain" id="wall-of-gain-header"></h3> 
   <svg id="lexical-fog-svg" ></svg>
 </div>
-
-<!––Second area: pie chart, which has three pie chart svgs and a text one->
 <div id="pie-chart-div" class = "col-md-6">
-
   <h3 data-i18n="ta-v2-equal-opportunities"></h3> 
-  
   <p data-i18n = "ta-v2-piechart-description"> </p>
-  <!--First the legend, which is above them all-->
-  <div id = "legend-div" height = "50px">
-  <h4 data-i18n="ta-v1-legend" class="ml-3"></h4>
-	<svg height = "30px" id = "legend-text-svg"></svg>
+  <div class="d-flex justify-content-end">
+    <div class="btn-group" role="group" aria-label="visualizations toggle">
+      <button type="button" id="gain-viz-button-count" class="gain-viz-button active btn btn-secondary" data-i18n="ta-by-company-count"></button>
+      <button type="button" id="gain-viz-button-value" class="gain-viz-button btn btn-secondary" data-i18n="ta-by-dollar-amount"></button>
+    </div>
   </div>
-  
-
-  <div class = "row">
-  
-  <div id= "ethnicity-div" class = "col-md-4">
-  <svg id="ethnicity-svg">
-  </svg>
-    <h5 data-i18n="ta-v2-ethnicity-pie-chart"></h5>
-  </div>
-  
-  <div id ="gender-div" class = "col-md-4">
-  <svg id="gender-svg"></svg>
-  <h5 data-i18n="ta-v2-gender-pie-chart"></h5>
-  </div>
-   
-    <div id= "intersectionality-div" class = "col-md-4">
-  <svg id="intersectionality-svg"></svg>
-    <h5 data-i18n="ta-v2-intersectionality-pie-chart"></h5>
-  </div>
-  
-  </div>
-  
-
+  <svg id="gain-bars-svg"></svg>
 </div> 
-
 </div>
 	
 
