@@ -1,7 +1,6 @@
-import { green, orange, purple, pink, lime, beige, tan } from "../constants";
 import $ from "jquery";
 import initChart from "../charts/init";
-import buildPieChart from "./pie-chart";
+import gainBars from "./bars";
 import buildLexicalFog from "./lexical-fog";
 import {fillV2DivHeight } from "../utils";
 
@@ -25,10 +24,6 @@ export default function() {
   // The width is calculated on the fly by measuring how wide this div is.
   // it only catches this width because it is already showing the div.
   const svgWidth = $("#pie-chart-div").width();
-  // Or what if we want something to be a third of the container wide?
-  const thirdWidth = Math.floor(svgWidth / 3.5);
-  //radius is thirdWidth/2 - defined in pie-chart.js
-
  
   // Create the "dataObjects."
   // These create a new object for each visualization with certain expected
@@ -38,43 +33,10 @@ export default function() {
     id: "#lexical-fog-svg", svgWidth: svgWidth
   };
   
-  const gender = { data: [
-    // As you can see, here data is going to be an array of objects.
-    {group: "FEM", taName: "female", count: 184, color: purple}, 
-    {group: "NON-FEM", taName: "non-female", count: 940, color: green}
-  ], 
-  margins: { top: 0, bottom: 0, left: 0, right: 0},
-  id: "#gender-svg", number: "count", svgWidth: thirdWidth, svgHeight: thirdWidth
-  };
-  
-  const ethnicity = {data: [
-    {group: "BA", taName: "Black-American", ecount: 61, color: green},
-    {group: "HA", taName: "Hispanic-American", ecount: 57, color: orange},
-    {group: "SAAIA", taName: "Subcontinent-Asian/Asian-Indian-American", ecount: 36, color: purple},
-    {group: "AP", taName: "Asian-Pacific", ecount: 31, color: pink},
-    {group: "NA", taName: "Native-American", ecount: 21, color: lime} , 
-    {group: "OA", taName: "Other-Minority", ecount: 19, color: beige
-    },
-    {group: "AN", taName: "Alaskan-Native", ecount: 12, color: tan}
-  ],  margins: { top: 0, bottom: 0, left: 0, right: 0}, 
-  id: "#ethnicity-svg", number: "ecount", svgWidth: thirdWidth , svgHeight: thirdWidth
-  };
-
-  const intersectionality = { data: [
-    {group: "INT", taName: "intersectional", iCount: 77, color: purple}, 
-    {group: "NON-INT", taName: "non-intersectional", iCount: 344, color: green}
-  ], 
-  margins: { top: 0, bottom: 0, left: 0, right: 0},
-  id: "#intersectionality-svg", number: "iCount", svgWidth: thirdWidth , svgHeight: thirdWidth
-  };
-
-  // Initialize the charts where appropriate.
-  [gender, ethnicity, intersectionality, lexicalFog].forEach(chart => initChart(chart, svgWidth, svgHeight));
+  initChart(lexicalFog, svgWidth, svgHeight);
   
   //build the word cloud
   buildLexicalFog(lexicalFog);
-
-  // now build a pie chart for the three pie charts
-  [gender, ethnicity, intersectionality].forEach(chart => buildPieChart(chart)); 
   
+  gainBars(svgWidth);
 }
