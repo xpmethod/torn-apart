@@ -3,8 +3,8 @@ import { select } from "d3-selection";
 import { stack } from "d3-shape";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
-import { schemeSet2 } from "d3-scale-chromatic";
 import { bigMoneyFormat } from "../utils";
+import { green, orange, pink, lime, beige, tan, lavender, lightGreen } from "../constants";
 import gainBarsLegend from "./bars-legend";
 import Data from "../../data/gain/minority-data.json";
 
@@ -12,12 +12,12 @@ export default function(width){
   const margins = { bottom: 20, left: 70 };
   const height = 450;
   const keys = Data.minorityCategories;
-  const countData = [{type: "Minority-owned"}, {type:"Woman-owned"}];
+  const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
     countData[0][cat] = Data.minorityCompanies[cat].count;
     countData[1][cat] = Data.intersectionalCompanies[cat].count;
   });
-  const valueData = [{type: "Minority-owned"}, {type:"Woman-owned"}];
+  const valueData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
     valueData[0][cat] = Data.minorityCompanies[cat].value;
     valueData[1][cat] = Data.intersectionalCompanies[cat].value;
@@ -35,7 +35,7 @@ export default function(width){
 
   const y = scaleBand()
     .rangeRound([0, height/2 - margins.bottom])
-    .domain(["Minority-owned", "Woman-owned"])
+    .domain(["Minority", "Woman"])
     .paddingInner(0.05)
     .align(0.1);
   const countX = scaleLinear()
@@ -45,10 +45,8 @@ export default function(width){
     .range([0, width - margins.left])
     .domain([0, Data.totalValue]);
   const z = scaleOrdinal()
-    .range(schemeSet2)
+    .range([green, orange, pink, lime, beige, tan, lavender, lightGreen])
     .domain(keys);
-
-
 
   g.append("g")
     .selectAll("g")
