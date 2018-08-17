@@ -87,4 +87,3 @@ export function fillV2DivHeight(elementAbove){
 export function bigMoneyFormat(number){
   return format(".2s")(_.toInteger(number)).replace(/G/, "B");
 }
-
