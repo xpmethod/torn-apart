@@ -3,23 +3,17 @@ import path from "path";
 import parse from "csv-parse";
 import { stdout } from "process";
 import _ from "lodash";
+import gainBuildDunsObject from "./build-duns-object";
 
-readFile(path.join("data", "test.csv"), (err, data) => {
+readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
   if(err) throw err;
-
-  // stdout.write("Going to parse \n");
-
   parse(data, { columns: true }, (err, awards) => {
     if(err) throw err;
-
-    // stdout.write("hi\n");
-    // stdout.write(`${awards.length}\n`);
-
     const uniques = {};
     _.keys(awards[0]).forEach(key => {
       uniques[key] = _.uniqBy(awards, key).length;
     });
-    stdout.write(JSON.stringify(uniques, null, 2));
+    // stdout.write(JSON.stringify(uniques, null, 2));
 
 
 
@@ -41,46 +35,21 @@ readFile(path.join("data", "test.csv"), (err, data) => {
       award.native_american_owned_business === "t";
     });
 
-    const female = {
-      count: _.uniqBy(femaleAward, "recipient_parent_name").length,
-      value: _.reduce(femaleAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award), 0)
-    };
-    const black = {
-      count: _.uniqBy(blackAward, "recipient_name").length,
-      value: _.reduce(blackAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const hispanic = {
-      count: _.uniqBy(hispanicAward, "recipient_name").length,
-      value: _.reduce(hispanicAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const saaia = {
-      count: _.uniqBy(saaiaAward, "recipient_name").length,
-      value: _.reduce(saaiaAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const asianPacific = {
-      count: _.uniqBy(asianPacificAward, "recipient_name").length,
-      value: _.reduce(asianPacificAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const minority = {
-      count: _.uniqBy(minorityAward, "recipient_name").length,
-      value: _.reduce(minorityAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const otherMinority = {
-      count: _.uniqBy(otherMinorityAward, "recipient_name").length,
-      value: _.reduce(otherMinorityAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const alaskan = {
-      count: _.uniqBy(alaskanAward, "recipient_name").length,
-      value: _.reduce(alaskanAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
-    const native = {
-      count: _.uniqBy(nativeAward, "recipient_name").length,
-      value: _.reduce(nativeAward, (sum, award) => sum + _.toInteger(award.current_total_value_of_award))
-    };
+    const female = gainBuildDunsObject(femaleAward);
+    const black = gainBuildDunsObject(blackAward);
+    const hispanic = gainBuildDunsObject(hispanicAward);
+    const saaia = gainBuildDunsObject(saaiaAward);
+    const asianPacific = gainBuildDunsObject(asianPacificAward);
+    const minority = gainBuildDunsObject(minorityAward);
+    const otherMinority = gainBuildDunsObject(otherMinorityAward);
+    const alaskan = gainBuildDunsObject(alaskanAward);
+    const native = gainBuildDunsObject(nativeAward);
 
-    const intersectional = _.map(female, company => {
+    stdout.write(JSON.stringify(female, null, 2));
+    const intersectional = _.map(female.companies, company => {
       _.each([ black, hispanic, saaia, asianPacific, minority, otherMinority, alaskan, native ], group => {
-        const filter = _.find(group, company);
+        // stdout.write(`checking ${
+        const filter = _.find(group.companies, company);
         if(filter){
           return company;
         }
@@ -99,15 +68,10 @@ readFile(path.join("data", "test.csv"), (err, data) => {
       // {group: "INT", taName: "intersectional", iCount: 77, color: purple}, 
       // {group: "NON-INT", taName: "non-intersectional", iCount: 344, color: green}
 
-
-    // stdout.write(JSON.stringify(female, null, 2));
-    // stdout.write("\n");
-
-    // _.each([ female, black, hispanic, saaia, asianPacific, minority, otherMinority, alaskan, native ], (group, i) => {
-    //   stdout.write(`id: ${i}, count: ${group.count}\n`);
-    // });
-
     stdout.write("Intersectional", intersectional.length);
+    stdout.write("\n");
+    // stdout.write(JSON.stringify(intersectional, null, 2));
+    // stdout.write("\n");
 
   });
 });
