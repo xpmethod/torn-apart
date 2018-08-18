@@ -66,6 +66,16 @@
     }
   }
 
+  #gain-profiteers-list {
+    h4 {
+      font-size: 1.25rem;
+    }
+    h5 {
+      font-size: 1rem;
+      color: $purple;
+    }
+  }
+
   @media (min-width: 576px){
     .legend-ul li {
       font-size: 1.0rem;
