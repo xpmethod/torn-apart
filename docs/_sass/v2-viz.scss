@@ -56,6 +56,16 @@
     vertical-align: center;
   }
 
+  .main-gain {
+    color: $purple;
+    line-height: 2rem;
+    font-size: 3rem;
+
+    small {
+      font-size: 1.5rem;
+    }
+  }
+
   @media (min-width: 576px){
     .legend-ul li {
       font-size: 1.0rem;
@@ -78,13 +88,3 @@
   }
 }
 
-// Alex style
-
-.d3-tip {
-  line-height: 1;
-  padding: 6px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 4px;
-  font-size: 12px;
-}
