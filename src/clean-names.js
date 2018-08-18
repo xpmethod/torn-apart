@@ -130,7 +130,7 @@ export default function(vendor){
     if(foundTripleCons !==-1){
       if(vendor.cleanName.substr(foundTripleCons, 2)!=="Mc" && !vendor.cleanName.substr(foundTripleCons, 2).match(/th/i)===true && !vendor.cleanName.substr(foundTripleCons, 1).match(/[sS]/)===true){ 
         vendor.cleanName = vendor.cleanName.replace(/\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i, function(match){return match.toUpperCase();});
-     }
+      }
      
     }
     /*  
@@ -210,11 +210,15 @@ export default function(vendor){
   if(vendor.cleanName === "Green It Systems Group"){
     vendor.cleanName = "Green IT Systems Group";
   }
+  
+  if(vendor.cleanName === "Green It Systems Group"){
+    vendor.cleanName = "Green IT Systems Group";
+  }
 
   
-  vendor.cleanName.replace("Kcorp", "KCorp"); //this one turns up inside a couple of different names
+  vendor.cleanName = vendor.cleanName.replace("Kcorp", "KCorp"); //this one turns up inside a couple of different names
 
-  vendor.cleanName.replace("At&t", "AT&T");
+  vendor.cleanName = vendor.cleanName.replace("At&t", "AT&T");
 
 
   // Global capitalization, since even mixed names often don't
