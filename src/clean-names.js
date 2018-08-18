@@ -214,11 +214,48 @@ export default function(vendor){
   if(vendor.cleanName === "Green It Systems Group"){
     vendor.cleanName = "Green IT Systems Group";
   }
+  
+  if(vendor.cleanName === "Aeec"){
+    vendor.cleanName = "AEEC";
+  }
 
+  if(vendor.cleanName === "Ems Safety Services"){
+    vendor.cleanName = "EMS Safety Services";
+  }
+  
+  if(vendor.cleanName === "Ceb"){
+    vendor.cleanName = "CEB";
+  }
+
+
+  if(vendor.cleanName === "Capp"){
+    vendor.cleanName = "CAPP";
+  }
+  if(vendor.cleanName === "Tu"){
+    vendor.cleanName = "TU";
+  }
+  
+  if(vendor.cleanName === "Nyp"){
+    vendor.cleanName = "NYP";
+  }
+  
+  if(vendor.cleanName === "Kp Electronics"){
+    vendor.cleanName = "KP Electronics";
+  }
+  
+  if(vendor.cleanName === "Nc4"){
+    vendor.cleanName = "NC4";
+  }
   
   vendor.cleanName = vendor.cleanName.replace("Kcorp", "KCorp"); //this one turns up inside a couple of different names
 
   vendor.cleanName = vendor.cleanName.replace("At&t", "AT&T");
+  
+  vendor.cleanName = vendor.cleanName.replace("Nc4", "NC4");
+  
+  vendor.cleanName = vendor.cleanName.replace("Bae Systems", "BAE Systems");
+
+  vendor.cleanName = vendor.cleanName.replace("Caci-Iss", "CACI-ISS");
 
 
   // Global capitalization, since even mixed names often don't
