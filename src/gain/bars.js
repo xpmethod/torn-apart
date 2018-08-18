@@ -1,15 +1,16 @@
+import $ from "jquery";
 import _ from "lodash";
-import { select } from "d3-selection";
+import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import { bigMoneyFormat } from "../utils";
-import { green, orange, pink, lime, beige, tan, lavender, lightGreen } from "../constants";
+import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 // import gainBarsLegend from "./bars-legend";
 import Data from "../../data/gain/minority-data.json";
 
 export default function(width, height){
-  const margins = { bottom: 20, left: 70 };
+  const margins = { bottom: 30, left: 70, right: 15 };
   const keys = Data.minorityCategories;
   const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
@@ -38,13 +39,13 @@ export default function(width, height){
     .paddingInner(0.05)
     .align(0.1);
   const countX = scaleLinear()
-    .range([0, width - margins.left])
-    .domain([0, Data.totalParents]);
+    .range([0, width - margins.left - margins.right])
+    .domain([0, 0.4 * Data.totalParents]);
   const valueX = scaleLinear()
-    .range([0, width - margins.left])
-    .domain([0, Data.totalValue]);
+    .range([0, width - margins.left - margins.right])
+    .domain([0, 0.4 * Data.totalValue]);
   const z = scaleOrdinal()
-    .range([green, orange, pink, lime, beige, tan, lavender, lightGreen])
+    .range([green, orange, pink, lime, beige, tan, lavender])
     .domain(keys);
 
   g.append("g")
@@ -58,7 +59,13 @@ export default function(width, height){
     .attr("y", d => y(d.data.type))
     .attr("x", d => countX(d[0]))
     .attr("height", y.bandwidth())
-    .attr("width", d => countX(d[1]) - countX(d[0]));
+    .attr("width", d => {
+      if(_.isNaN(countX(d[1]) - countX(d[0]))){
+        return 0;
+      } else {
+        return countX(d[1]) - countX(d[0]);
+      }
+    });
 
   g.append("g")
     .attr("class", "axis y-axis")
@@ -87,37 +94,115 @@ export default function(width, height){
     .attr("y", d => y(d.data.type))
     .attr("x", d => valueX(d[0]))
     .attr("height", y.bandwidth())
-    .attr("width", d => valueX(d[1]) - valueX(d[0]));
+    .attr("width", d => {
+      if(_.isNaN(valueX(d[1]) - valueX(d[0]))){
+        return 0;
+      } else {
+        return valueX(d[1]) - valueX(d[0]);
+      }
+    });
 
   g.append("g")
-    .attr("class", "axis")
+    .attr("class", "axis gain-value-axis")
     .attr("transform", `translate(0,${height - margins.bottom})`)
-    .attr("id", "gain-value-axis")
     .call(axisBottom(valueX).ticks(null, "$s"));
 
-  select("#gain-value-axis")
+  const babyHeight = 0.5 * (height/2 - margins.bottom);
+
+  const babyY = scaleBand()
+    .rangeRound([0, babyHeight])
+    .domain(["Minority", "Woman"])
+    .paddingInner(0.05)
+    .align(0.1);
+
+  const babyCountX = scaleLinear()
+    .range([0, width - margins.left - margins.right - countX(0.3 * Data.totalParents) ])
+    .domain([0, Data.totalParents ]);
+
+  const babyValueX = scaleLinear()
+    .range([0, width - margins.left - margins.right - valueX(0.3 * Data.totalValue)])
+    .domain([0, Data.totalValue]);
+
+  const babyCount = g.append("g")
+    .attr("id", "baby-count")
+    .attr("transform", `translate(${countX(0.3 * Data.totalParents)}, ${0.4 * babyHeight})`);
+
+  const babyValue = g.append("g")
+    .attr("id", "baby-value")
+    .attr("transform", `translate(${valueX(0.3 * Data.totalValue)}, ${ height/2 + 0.4 * babyHeight })`);
+  
+  babyCount.selectAll("g")
+    .data(stack().keys(Data.minorityCategories)(countData))
+    .enter().append("g")
+    .attr("fill", d => z(d.key))
+    .selectAll("rect")
+    .data(d => d)
+    .enter().append("rect")
+    .attr("y", d => babyY(d.data.type))
+    .attr("x", d => babyCountX(d[0]))
+    .attr("height", babyY.bandwidth())
+    .attr("width", d => {
+      if(_.isNaN(babyCountX(d[1]) - babyCountX(d[0]))){
+        return 0;
+      } else {
+        return babyCountX(d[1]) - babyCountX(d[0]);
+      }
+    });
+
+  babyCount.append("path")
+    .attr("stroke", "black")
+    .attr("d", `M ${babyCountX(Data.totalParents)},0 V ${ babyHeight }`);
+
+  babyCount.append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0,${ babyHeight })`)
+    .call(axisBottom(babyCountX).ticks(5));
+
+  babyCount.append("text")
+    .style("text-anchor", "end")
+    .attr("transform", `translate(${babyCountX(Data.totalParents) - 10}, 0)rotate(-90)`)
+    .text(`${$.i18n("ta-total")}: ${Data.totalParents}`);
+
+  babyValue.selectAll("g")
+    .data(stack().keys(Data.minorityCategories)(valueData))
+    .enter().append("g")
+    .attr("fill", d => z(d.key))
+    .selectAll("rect")
+    .data(d => d)
+    .enter().append("rect")
+    .attr("y", d => babyY(d.data.type))
+    .attr("x", d => babyValueX(d[0]))
+    .attr("height", babyY.bandwidth())
+    .attr("width", d => {
+      if(_.isNaN(babyValueX(d[1]) - babyValueX(d[0]))){
+        return 0;
+      } else {
+        return babyValueX(d[1]) - babyValueX(d[0]);
+      }
+    });
+
+  babyValue.append("g")
+    .attr("class", "axis gain-value-axis")
+    .attr("transform", `translate(0,${ babyHeight })`)
+    .call(axisBottom(babyValueX).ticks(5, "$s"));
+
+  babyValue.append("path")
+    .attr("stroke", "black")
+    .attr("d", `M ${babyValueX(Data.totalValue)},0 V ${ babyHeight }`);
+
+  babyValue.append("text")
+    .style("text-anchor", "end")
+    .attr("transform", `translate(${babyValueX(Data.totalValue) - 10}, 0)rotate(-90)`)
+    .text(`${$.i18n("ta-total")}: $${bigMoneyFormat(Data.totalValue)}`);
+
+  // const babyValue = g.append("g");
+
+  // gainBarsLegend(g, z);
+
+  selectAll(".gain-value-axis")
     .selectAll("text")
     .text(function(){
       return select(this).text().replace(/G/, "B");
     });
 
-  g.append("path")
-    .attr("stroke", "black")
-    .attr("d", `M ${countX(Data.totalParents)},0 V ${height/2 - margins.bottom}`);
-
-  g.append("text")
-    .style("text-anchor", "end")
-    .attr("transform", `translate(${countX(Data.totalParents) - 10}, 5)rotate(-90)`)
-    .text(`Total companies: ${Data.totalParents}`);
-
-  g.append("path")
-    .attr("stroke", "black")
-    .attr("d", `M ${valueX(Data.totalValue)},${height/2} V ${height - margins.bottom}`);
-
-  g.append("text")
-    .style("text-anchor", "end")
-    .attr("transform", `translate(${valueX(Data.totalValue) - 10}, ${height/2 + 5})rotate(-90)`)
-    .text(`Total value: $${bigMoneyFormat(Data.totalValue)}`);
-
-  // gainBarsLegend(g, z);
 }
