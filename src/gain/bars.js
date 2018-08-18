@@ -5,12 +5,11 @@ import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import { bigMoneyFormat } from "../utils";
 import { green, orange, pink, lime, beige, tan, lavender, lightGreen } from "../constants";
-import gainBarsLegend from "./bars-legend";
+// import gainBarsLegend from "./bars-legend";
 import Data from "../../data/gain/minority-data.json";
 
-export default function(width){
+export default function(width, height){
   const margins = { bottom: 20, left: 70 };
-  const height = 450;
   const keys = Data.minorityCategories;
   const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
@@ -120,5 +119,5 @@ export default function(width){
     .attr("transform", `translate(${valueX(Data.totalValue) - 10}, ${height/2 + 5})rotate(-90)`)
     .text(`Total value: $${bigMoneyFormat(Data.totalValue)}`);
 
-  gainBarsLegend(g, z);
+  // gainBarsLegend(g, z);
 }
