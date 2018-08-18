@@ -4,6 +4,7 @@ import parse from "csv-parse";
 import { stdout } from "process";
 import _ from "lodash";
 import gainBuildDunsObject from "./build-duns-object";
+import gainFindBiggestProfiteer from "./find-biggest-profiteer";
 import awardsValue from "./awards-value";
 
 export default function(){
@@ -17,7 +18,8 @@ export default function(){
         minorityCategories: ["black", "hispanic", "saaia",
           "asianPacific", "native", "otherMinority", "alaskan", "female"],
         minorityCompanies: {},
-        intersectionalCompanies: {}
+        intersectionalCompanies: {},
+        biggestProfiteers: {}
       };
 
       const minorityAwards = {
@@ -40,7 +42,10 @@ export default function(){
       };
 
       const minorityCompanies = {};
-      _.each(output.minorityCategories, minority => minorityCompanies[minority] = gainBuildDunsObject(minorityAwards[minority + "Award"]));
+      _.each(output.minorityCategories, minority => {
+        minorityCompanies[minority] = gainBuildDunsObject(minorityAwards[minority + "Award"]);
+        output.biggestProfiteers[minority] = gainFindBiggestProfiteer(minorityAwards[minority + "Award"]);
+      });
 
       output.minorityCategories.pop();
       output.minorityCategories.map( group => {
