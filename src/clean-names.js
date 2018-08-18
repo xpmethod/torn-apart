@@ -149,6 +149,8 @@ export default function(vendor){
   vendor.cleanName = vendor.cleanName.replace(/(-[a-z])/, function(match){return match.toUpperCase();}); //deals with things like Outlook-nebraska. We could handle them by expanding the split ' ' to include - but there are also examples like Washington-brede that were already problematic and not all caps initially.
   
   
+  
+  //Now we brute force replace a bunch of names because they are stupidly unpredictably capitalised
   if(vendor.cleanName === "Mlinqs"){
     vendor.cleanName = "mLINQS";
   }
@@ -247,12 +249,60 @@ export default function(vendor){
     vendor.cleanName = "NC4";
   }
   
+  if(vendor.cleanName === "Ase Direct"){
+    vendor.cleanName = "ASE Direct";
+  }
+  
+  if(vendor.cleanName === "Wecsys"){
+    vendor.cleanName = "WECsys";
+  }
+  
+  if(vendor.cleanName === "Allworld Language Consultants"){
+    vendor.cleanName = "AllWorld Language Consultants";
+  }
+  
+  if(vendor.cleanName === "Ruag Ammotec USA"){
+    vendor.cleanName = "RUAG Ammotec USA";
+  }
+  
+  if(vendor.cleanName === "Clearavenue"){
+    vendor.cleanName = "clearAvenue";
+  }
+  
+  if(vendor.cleanName === "Emtec"){
+    vendor.cleanName = "EMTEC";
+  }
+  
+  if(vendor.cleanName === "Justicetrax"){
+    vendor.cleanName = "JusticeTrax";
+  }
+  
+  if(vendor.cleanName === "Smartystreets"){
+    vendor.cleanName = "SmartyStreets";
+  }
+  
+  if(vendor.cleanName === "Reconrobotics"){
+    vendor.cleanName = "ReconRobotics";
+  }
+  
+  if(vendor.cleanName === "Accessdata Group"){
+    vendor.cleanName = "AccessData Group";
+  }
+  
+  if(vendor.cleanName === "Mcp Computer Products"){
+    vendor.cleanName = "MCP Computer Products";
+  }
+
+
+  //Below is how you can just change one part of the name. Should use for names that have a single acronym repeated in multiple names, e.g. KCorp Solutions, KCorp Group, etc, and only if the part you are replacing is sufficiently distinctive it won't turn up in other words/phrases you don't want to alter.
   vendor.cleanName = vendor.cleanName.replace("Kcorp", "KCorp"); //this one turns up inside a couple of different names
 
   vendor.cleanName = vendor.cleanName.replace("At&t", "AT&T");
   
   vendor.cleanName = vendor.cleanName.replace("Nc4", "NC4");
   
+  vendor.cleanName = vendor.cleanName.replace("G4s", "G4S");
+
   vendor.cleanName = vendor.cleanName.replace("Bae Systems", "BAE Systems");
 
   vendor.cleanName = vendor.cleanName.replace("Caci-Iss", "CACI-ISS");
