@@ -12,5 +12,5 @@ export default function(){
     .append("p")
     .attr("class", "text-center main-gain")
     .html(d => `${d.name}, <strong>$${bigMoneyFormat(d.total_value)}</strong><br />
-      <small>(${_.capitalize(d.product)})</small>`);
+      <small>(${d.product})</small>`);
 }
