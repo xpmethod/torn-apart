@@ -33,6 +33,7 @@ export default function(){
       stringify(vendors, 
         { header: true,
           columns: [
+            "duns",
             "cleanName",
             "vendorName",
             "origName",
