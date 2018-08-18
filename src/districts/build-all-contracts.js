@@ -21,8 +21,9 @@ export default function(callback){
             fiscalYear: award.fiscal_year,
             currentValue: value,
             potentialValue: award.potential_total_value_of_award,
-            parentCompany: award.recipient_parent_name,
-            childCompany: award.recipient_name,
+            duns: award.recipient_duns,
+            // parentCompany: award.recipient_parent_name,
+            // childCompany: award.recipient_name,
             companyCongCode: convertToCongCode(award.recipient_state_code, award.recipient_congressional_district),
             performanceCongCode: convertToCongCode(award.primary_place_of_performance_state_code, award.primary_place_of_performance_congressional_district)
           };
@@ -33,8 +34,7 @@ export default function(callback){
             "fiscalYear",
             "currentValue",
             "potentialValue",
-            "parentCompany",
-            "childCompany",
+            "duns",
             "companyCongCode",
             "performanceCongCode",
           ]

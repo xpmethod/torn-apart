@@ -1,8 +1,9 @@
 import _ from "lodash";
 import $ from "jquery";
+import getDecoration from "../get-decoration";
 import { getOrdinalSuffix } from "../utils";
 import states from "../states";
-import { bigMoneyFormat, titleUp } from "../utils";
+import { bigMoneyFormat } from "../utils";
 
 export default function (geoJSONFeature){
   const d = geoJSONFeature.properties;
@@ -23,12 +24,13 @@ export default function (geoJSONFeature){
   if(d.awards.length > 0){
 
     profiteer = _(d.awards)
-      .uniqBy("childCompany")
+      .uniqBy("duns")
       .map(award_recip => {
+        const name = getDecoration(award_recip.duns).cleanName;
         return {
-          name: titleUp(award_recip.childCompany),
+          name,
           value: _(d.awards)
-            .filter({ childCompany: award_recip.childCompany })
+            .filter({ duns: award_recip.duns })
             .reduce((sum, award) => sum + _.toInteger(award.currentValue), 0)
         };
       })

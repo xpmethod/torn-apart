@@ -17,7 +17,7 @@ export default function(){
     district.total_awards = 0;
     district.awards = _.filter(contracts, contract => contract.companyCongCode === district.id2);
     district.perfAwards = _.filter(contracts, contract => contract.performanceCongCode === district.id2);
-    _.each([13, 14, 15, 16, 17, 18], year => {
+    _.each([14, 15, 16, 17, 18], year => {
       district[`fy${year}`] = _(district.awards)
         .filter(award => award.fiscalYear === `20${year}`)
         .reduce((sum, award) => {
