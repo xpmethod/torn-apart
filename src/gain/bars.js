@@ -10,7 +10,7 @@ import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 import Data from "../../data/gain/minority-data.json";
 
 export default function(width, height){
-  const margins = { bottom: 30, left: 70, right: 15 };
+  const margins = { bottom: 25, left: 70, right: 15 };
   const keys = Data.minorityCategories;
   const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
@@ -67,10 +67,6 @@ export default function(width, height){
       }
     });
 
-  g.append("g")
-    .attr("class", "axis y-axis")
-    .attr("transform", `translate(0,${height/2})`)
-    .call(axisLeft(y));
 
   g.append("g")
     .attr("class", "axis y-axis")
@@ -81,9 +77,10 @@ export default function(width, height){
     .attr("transform", `translate(0,${height/2 - margins.bottom})`)
     .call(axisBottom(countX));
 
-  g.append("g")
-    .attr("transform", `translate(0, ${height/2})`)
-    .selectAll("g")
+  const value = g.append("g")
+    .attr("transform", `translate(0, ${height/2 + 5})`);
+    
+  value.selectAll("g")
     .data(stack().keys(Data.minorityCategories)(valueData))
     .enter().append("g")
     // .each(d => console.log(d))
@@ -102,9 +99,13 @@ export default function(width, height){
       }
     });
 
-  g.append("g")
+  value.append("g")
+    .attr("class", "axis y-axis")
+    .call(axisLeft(y));
+
+  value.append("g")
     .attr("class", "axis gain-value-axis")
-    .attr("transform", `translate(0,${height - margins.bottom})`)
+    .attr("transform", `translate(0,${height/2 - margins.bottom})`)
     .call(axisBottom(valueX).ticks(null, "$s"));
 
   const babyHeight = 0.5 * (height/2 - margins.bottom);
@@ -127,9 +128,9 @@ export default function(width, height){
     .attr("id", "baby-count")
     .attr("transform", `translate(${countX(0.3 * Data.totalParents)}, ${0.4 * babyHeight})`);
 
-  const babyValue = g.append("g")
+  const babyValue = value.append("g")
     .attr("id", "baby-value")
-    .attr("transform", `translate(${valueX(0.3 * Data.totalValue)}, ${ height/2 + 0.4 * babyHeight })`);
+    .attr("transform", `translate(${valueX(0.3 * Data.totalValue)}, ${ 0.4 * babyHeight })`);
   
   babyCount.selectAll("g")
     .data(stack().keys(Data.minorityCategories)(countData))
