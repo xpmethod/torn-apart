@@ -16,7 +16,7 @@ export default function(){
         totalParents: _.uniqBy(awards, "recipient_parent_duns").length,
         totalValue: awardsValue(awards),
         minorityCategories: ["black", "hispanic", "saaia",
-          "asianPacific", "native", "otherMinority", "alaskan", "female"],
+          "asianPacific", "native", "otherMinority", "female"],
         minorityCompanies: {},
         intersectionalCompanies: {},
         biggestProfiteers: {}
@@ -33,11 +33,8 @@ export default function(){
         saaiaAward: awards.filter(award => award.subcontinent_asian_asian_indian_american_owned_business === "t"),
         asianPacificAward: awards.filter(award => award.asian_pacific_american_owned_business === "t"),
         otherMinorityAward: awards.filter(award => award.other_minority_owned_business === "t"),
-        alaskanAward: awards.filter(award => award.alaskan_native_owned_corporation_or_firm === "t"),
         nativeAward: awards.filter(award => {
-          return award.american_indian_owned_business === "t" ||
-          award.tribally_owned_business === "t" ||
-          award.native_american_owned_business === "t";
+          return award.native_american_owned_business === "t";
         })
       };
 
