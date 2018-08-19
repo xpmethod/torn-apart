@@ -4,6 +4,7 @@ import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
+import Tip from "d3-tip";
 import { bigMoneyFormat } from "../utils";
 import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 // import gainBarsLegend from "./bars-legend";
@@ -31,6 +32,11 @@ export default function(width, height){
     .attr("width", width);
   const g = svg.append("g")
     .attr("transform", `translate(${margins.left},0)`);
+  const tip = Tip()
+    .attr("class", "tooltip")
+    .offset([-10, 0])
+    .html(tooltip);
+  svg.call(tip);
 
 
   const y = scaleBand()
@@ -65,6 +71,12 @@ export default function(width, height){
       } else {
         return countX(d[1]) - countX(d[0]);
       }
+    })
+    .on("mouseover", function(d){
+      tip.show(d, this);
+    })
+    .on("mouseout", function(d){
+      tip.hide(d, this);
     });
 
 
@@ -220,4 +232,14 @@ export default function(width, height){
       return select(this).text().replace(/G/, "B");
     });
 
+  function tooltip(d){
+    return `${$.i18n(`ta-${d}-owned-company`)}<br />
+      <ul>
+        <li>Blah</li>
+      </ul>
+      `;
+  }
+
 }
+
+
