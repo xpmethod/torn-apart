@@ -5,19 +5,40 @@ import parse from "csv-parse";
 import _ from "lodash";
 
 export default function(){
-  readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
+  readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
+  // readFile(path.join("data", "freezer", "freezer.csv"), (err, data) => {
     if(err) throw err;
-    parse(data, {columns: true}, (err, awards) => {
+    parse(data, {columns: true}, (err, rawAwards) => {
       if(err) throw err;
+      const awards = rawAwards.filter(award => award.fiscal_year === "2018");
       const companies = [];
       const products = [];
-      const product_categories = [];
+      const product_categories = [
+        "Those that belong to the emperor",
+        "Embalmed ones",
+        "Those that are trained",
+        "Suckling pigs",
+        "Mermaids (or Sirens)",
+        "Fabulous ones",
+        "Stray dogs",
+        "Those that are included in this classification",
+        "Those that tremble as if they were mad",
+        "Innumerable ones",
+        "Those drawn with a very fine camel hair brush",
+        "Et cetera",
+        "Those that have just broken the flower vase",
+        "Those that, at a distance, resemble flies"
+      ];
+      // const product_categories = [];
       const parent_companies = [];
       _.each(awards, (award) => {
-        companies.push(award.company_combo);
+        award.naics_cat = _.shuffle(product_categories)[0];
+        award.product_combo = award.naics_description + "||" + award.naics_cat;
+        companies.push(award.recipient_duns);
         products.push(award.product_combo);
-        product_categories.push(award.naics_cat);
-        parent_companies.push(award.parent_name);
+        // products.push(award.naics_description);
+        // product_categories.push(award.product_category);
+        parent_companies.push(award.recipient_parent_duns);
       }); // close each
       const companies_uniq = _.uniq(companies);
       const products_uniq = _.uniq(products);
@@ -30,8 +51,8 @@ export default function(){
         { source_array: parent_companies_uniq,
           category: "parent company",
           // combo_col: "company_combo",
-          source_column: "parent_name",
-          target_column: "company_combo"
+          source_column: "recipient_parent_duns",
+          target_column: "recipient_duns"
         },
         { source_array: product_categories_uniq,
           category: "product category",
@@ -42,15 +63,16 @@ export default function(){
         { source_array: companies_uniq,
           // combo_col: "company_combo",
           category: "company",
-          source_column: "company_combo",
+          source_column: "recipient_duns",
           target_column: "product_combo",
-          combo: true
+          // target_column: "naics_description",
+          // combo: true
         }
       ], (sources) => {
         _.each(sources.source_array, (source) => {
-          const name = () => sources.combo ? source.split("||")[0] : source;
-          const childOf = () => sources.combo ? source.split("||")[1] : null;
-          graph.nodes.push({ id: source, name: name(), childOf: childOf(), category: sources.category });
+          const name = sources.combo ? source.split("||")[0] : source;
+          const childOf = sources.combo ? source.split("||")[1] : null;
+          graph.nodes.push({ id: source, name, childOf, category: sources.category });
           const targets_all = awards.map((award) => {
             if(award[sources.source_column] === source){
               return award[sources.target_column];
