@@ -1,4 +1,6 @@
 import { stdout } from "process";
+import _ from "lodash";
+import States from "./states";
 
 export default function(vendor){
   // vendor has four properties:
@@ -6,6 +8,14 @@ export default function(vendor){
   // origName: the name used in follow_the_money_data.csv
   // vendorName: the name from the internet. Can be undefined.
   // url: corporate url. Can be undefined.
+  
+  var stateRegex = createStateRegex(States); //not actually convinced this function is more concise than the previous stateRegex definition below. Maybe there's a better way to do it than either option, so feel free to change.
+  
+//  const stateRegex = "/(\bAK\b|\bAZ\b|\bAR\b|\bCA\b|\bCO\b|\bCT\b|\bFL\b|\bGA\b|\bID\b|\bIL\b|\bIA\b|\bKS\b|\bKY\b|\bLA\b|\bMD\b|\bMA\b|\bMI\b|\bMN\b|\bMO\b|\bMT\b|\bNE\b|\bNV\b|\bNH\b|\bNJ\b|\bNM\b|\bNY\b|\bNC\b|\bND\b|\bOH\b|\bOK\b|\bPA\b|\bRI\b|\bSC\b|\bSD\b|\bTN\b|\bTX\b|\bUT\b|\bVT\b|\bVA\b|\bWA\b|\bWV\b|\bWI\b|\bWY\b)/i"; //all the state abbrevs except for those that are real two-letter words that might plausibly appear in the dataset (OR, IN, ME, DE, MS, HI)
+
+//the pairs of names where we want to brute force things because we can't predict the capitalisation or order or whatever (note: the input names are the OUTPUT of the rest of the script, because this happens last. That makes it easiest for people who spot a problem in the csv later to drop it and the correction in here.)
+  const unpredictables = [["Mlinqs", "mLINQS"], ["Csi Aviation","CSI Aviation" ],["Cbt Nuggets", "CBT Nuggets"], ["Mmi Outdoor", "MMI Outdoor"], ["Npee", "NPEE"], ["Kwizcom Corporation", "KWizCom Corporation"], ["Cookie's Dme", "Cookie's DME"], ["Jsi Telecom", "JSI Telecom"], ["Cjen", "CJEN"], ["Lc Industries", "LC Industries"], ["Palantir Usg", "Palantir USG"], ["4imprint", "4Imprint"], ["Faac", "FAAC"], ["Msab", "MSAB"], ["Dialtoneservices", "DialToneServices"], ["Green It Systems Group", "Green IT Systems Group"], ["Green It Systems Group", "Green IT Systems Group"], ["Aeec", "AEEC"], ["Ems Safety Services", "EMS Safety Services"], ["Ceb", "CEB"], ["Capp", "CAPP"], ["Tu", "TU"], ["Nyp", "NYP"], ["Kp Electronics", "KP Electronics"], ["Nc4", "NC4"], ["Ase Direct", "ASE Direct"], ["Wecsys", "WECsys"], ["Allworld Language Consultants", "AllWorld Language Consultants"], ["Ruag Ammotec USA", "RUAG Ammotec USA"], ["Clearavenue", "clearAvenue"], ["Emtec", "EMTEC"], ["Justicetrax", "JusticeTrax"], ["Smartystreets", "SmartyStreets"], ["Reconrobotics", "ReconRobotics"], ["Accessdata Group", "AccessData Group"], ["Mcp Computer Products", "MCP Computer Products"], ["Howell, Nathaniel", "Nathaniel Howell"], ["MacQueen, Michael C", "Michael C. MacQueen"], ["Marquardt, Jennifer", "Jennifer Marquardt"], ["Donoghue, John M", "John M. Donoghue"], ["Potter, Kevin", "Kevin Potter"], ["Mckinsey & Company, Inc. Washington D.c.", "McKinsey & Company"], ["Radford, Todd", "Todd Radford"], ["Environmental Quality, Texas Commission on", "Texas Commission on Environmental Quality"], ["Imperial, County", "County of Imperial"], ["Forbes, Inc., C.", "Forbes"], ["Vonhof, Jeanne M Arbitrator and Mediator", "Jeanne M. Vonhof, Arbitrator and Mediator"], ["Aiken, R P & Son", "R. P. Aiken & Son"], ["Palmer, Paul", "Paul Palmer"], ["Hibler, Neil S PHD ABBP", "Neil S. Hibler, PhD. ABBP"], ["Tift, Richard T", "Richard T. Tift"], ["Radvany, Paul", "Paul Radvany"], ["G4s Secure Solutions USA", "G4S Secure Solutions USA"], ["Caci-Iss", "CACI-ISS"]]; 
+  
 
   vendor.vendorName = vendor.vendorName || vendor.origName;
 
@@ -28,77 +38,18 @@ export default function(vendor){
     // ", The". and once more to catch ", the, inc."
     .replace(/^(.*), \(?the\)?$/i, "THE $1")
     .replace(/, ?$/, "") // pesky trailing commas
-    // ", City Of" and friends.
-    .replace(/^(.*), (city|town|county|state) of$/i, "$2 OF $1")
+  //  ", City Of" and friends.
+    .replace(/^(.*), (.*) of$/i, "$2 OF $1")
   // 2. "(U.S.A.)"
     .replace(/\(u\.? ?s\.? ?a?\.? ?\)/i, "USA")
   // 3. apostrophes
     .replace(/'/g, "’");
 
-  // Non regexable:
-  if(vendor.cleanName === "ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON"){
-    vendor.cleanName = "Texas Commission on Environmental Quality";
-  }
-  if(vendor.cleanName === "MCKINSEY & COMPANY, INC. WASHINGTON D.C."){
-    vendor.cleanName = "McKinsey & Company";
-  }
-  if(vendor.cleanName === "Mckinsey & Company, Inc. Washington D.C."){
-    vendor.cleanName = "McKinsey & Company";
-  }
-  if(vendor.cleanName === "MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF"){
-    vendor.cleanName = "New York State Department of Motor Vehicles";
-  }
-  if(vendor.cleanName === "Public Safety & Correctional Services, Maryland Dept Of"){
-    vendor.cleanName = "Maryland Dept. of Public Safety & Correctional Services";
-  }
-  if(vendor.cleanName === "STATE POLICE, MICHIGAN DEPARTMENT OF"){
-    vendor.cleanName = "Michigan Department of State Police";
-  }
-  if(vendor.cleanName === "State Police, Michigan Department Of"){
-    vendor.cleanName = "Michigan Department of State Police";
-  }
-  if(vendor.cleanName === "IMPERIAL, COUNTY"){
-    vendor.cleanName = "County of Imperial";
-  }
-  if(vendor.cleanName === "FORBES, INC., C."){
-    vendor.cleanName = "Forbes";
-  }
-  if(vendor.cleanName === "Potter, Kevin"){
-    vendor.cleanName = "Kevin Potter"; // nb: aka KRP Data Systems?
-  }
-  if(vendor.cleanName === "VONHOF, JEANNE M ARBITRATOR AND MEDIATOR"){
-    vendor.cleanName = "Jeanne M. Vonhof, Arbitrator and Mediator";
-  }
-  if(vendor.cleanName === "Marquardt, Jennifer"){
-    vendor.cleanName = "Jennifer Marquardt";
-  }
-  if(vendor.cleanName === "Donoghue, John M"){
-    vendor.cleanName = "John M. Donoghue";
-  }
-  if(vendor.cleanName === "AIKEN, R P & SON"){
-    vendor.cleanName = "R. P. Aiken & Son";
-  }
-  if(vendor.cleanName === "PALMER, PAUL"){
-    vendor.cleanName = "Paul Palmer";
-  }
-  if(vendor.cleanName === "Hibler, Neil S PHD ABBP"){
-    vendor.cleanName = "Neil S. Hibler, PhD. ABBP";
-  }
-  if(vendor.cleanName === "TIFT, RICHARD T"){
-    vendor.cleanName = "Richard T. Tift";
-  }
-  if(vendor.cleanName === "RADVANY, PAUL"){
-    vendor.cleanName = "Paul Radvany";
-  }
-  if(vendor.cleanName === "Radford, Todd"){
-    vendor.cleanName = "Todd Radford";
-  }
-  if(vendor.cleanName === "Howell, Nathaniel"){
-    vendor.cleanName = "Nathaniel Howell";
-  }
-  if(vendor.cleanName === "MacQueen, Michael C"){
-    vendor.cleanName = "Michael C. MacQueen";
-  }
+  // Non regexable: 
+ 
+
+  
+
   // Dunno if these are correct.
   // if(vendor.cleanName === "Senevirante, Anusha"){
   //   vendor.cleanName = "Anusha Senevirante";
@@ -107,10 +58,42 @@ export default function(vendor){
   //   vendor.cleanName = "Anthony Ibeagha";
   // }
 
-  // if(vendor.cleanName.toUpperCase() === vendor.cleanName){
-  //   // it's in ALL CAPS.
-  //   // Do stuff.
-  // }
+  if(vendor.cleanName.toUpperCase() === vendor.cleanName){
+  // it's in ALL CAPS.
+  
+    vendor.cleanName = vendor.cleanName.split(" ") 
+      .map(w => _.capitalize(w))
+      .join(" ")
+      .replace(/\bu\.? ?s\.? ?a?\.? ?\b/i, "USA") //cos now I have caused the Usa problem
+      .replace(stateRegex, function(match){return match.toUpperCase();}); //fix state abbreviations that have been lowercased
+    //this appears unnecessary now - the earlier data required it. Oh well.
+   
+   
+    //fix some of the acronyms that have been lowercased:
+   
+    //detect words that start with three consonants, as they can't be real words (except S--, Mc- and thr)
+    // Can't do anything about mid-word, since exaMPLes, truCKSTop and other real words have three or more consonants across syllable boundaries
+    var foundTripleCons = vendor.cleanName.search(/\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i);
+    if(foundTripleCons !==-1){
+      if(vendor.cleanName.substr(foundTripleCons, 2)!=="Mc" && !vendor.cleanName.substr(foundTripleCons, 2).match(/th/i)===true && !vendor.cleanName.substr(foundTripleCons, 1).match(/[sS]/)===true){ 
+        vendor.cleanName = vendor.cleanName.replace(/\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i, function(match){return match.toUpperCase();});
+      }
+     
+    }
+    /*  
+ //There's no point in this bit after all. It only catches 13 matches, and it turns out on Googling them, about half are not normally capitalised acronyms anyway (like mLINQS, or KWizCom). So might as well just brute-force them. 
+   //double consonant at start of word -- of more than 2 letters, otherwise we get US states again 
+   var foundDoubleCons = vendor.cleanName.search(/\b(?=[a-z]{2})[^aeiouy]{2}[a-z].*?\b/i);
+   if(foundDoubleCons!==-1){; 
+    if(!vendor.cleanName.substr(foundDoubleCons, 2).match(/bl|br|ch|cl|cr|dr|fl|fr|gl|gr|kn|pl|ph|pr|mc|sc|sh|sk|sl|sm|sn|sp|st|sq|sw|th|tr|tw|wh|wr|mr|ms/)===false){ //these are allowed initial consonant clusters in English words. If it's not one of these, it's probably an acronym
+      vendor.cleanName = vendor.cleanName.replace(/\b(?=[a-z]{2})[^aeiouy]{2}[a-z].*?\b/i,function(match){return match.toUpperCase();}); 
+    }
+   }
+*/   
+   
+
+  }
+  vendor.cleanName = vendor.cleanName.replace(/(-[a-z])/, function(match){return match.toUpperCase();}); //deals with things like Outlook-nebraska. We could handle them by expanding the split ' ' to include - but there are also examples like Washington-brede that were already problematic and not all caps initially.
 
 
   // Global capitalization, since even mixed names often don't
@@ -123,9 +106,51 @@ export default function(vendor){
     .replace(/ of /ig, " of ")
     .replace(/ for /ig, " for ")
     .replace(/ the /ig, " the ")
+	.replace(/\bon\b/ig, "on") //word boundaries not spaces because of "Environmental Quality, Texas Commission On" etc
     .replace(/^the /i, "The ");
+
+//Now we brute force replace a bunch of names because they are stupidly unpredictably capitalised
+ 
+ for(let i = 0; i < unpredictables.length; i= i+1){
+    scrub(unpredictables[i][0], unpredictables[i][1], vendor);
+ }
+ 
+
+  //Below is how you can just change one part of the name. Should use for names that have a single acronym repeated in multiple names, e.g. KCorp Solutions, KCorp Group, etc, and only if the part you are replacing is sufficiently distinctive it won't turn up in other words/phrases you don't want to alter.
+  vendor.cleanName = vendor.cleanName.replace("Kcorp", "KCorp"); //this one turns up inside a couple of different names
+  vendor.cleanName = vendor.cleanName.replace("At&t", "AT&T");
+  vendor.cleanName = vendor.cleanName.replace("Nc4", "NC4");
+  vendor.cleanName = vendor.cleanName.replace("Bae Systems", "BAE Systems");
 
   stdout.write(`${vendor.cleanName}          ---- (${vendor.vendorName})\n`);
 
+
   return vendor;
+}
+
+
+
+function createStateRegex(States){
+  
+  const states = States.map(s => s.abbreviation); //from Moacir's list we get the 2-letter abbrevs
+  const statesLeftOut = ["OR", "IN", "ME", "DE", "MS", "HI"]; // these are real words so we can't include them
+  
+  //so filter the first list to only include items that aren't in the second
+  var statesSubset = states.filter(function(item){
+    return statesLeftOut.indexOf(item) === -1;
+  });
+
+  //and now build some regex that includes anything from that subset list, surrounded by word boundaries, so we can plug it in later
+  var stateRegex = "/("
+  for(let i = 0; i<statesSubset.length-1; i=i+1){
+    stateRegex = stateRegex + "\\b" + statesSubset[i] + "\\b|";
+}
+  
+  return stateRegex + "\\b" + states[statesSubset.length-1] + "\\b)/i";
+  }
+  
+function scrub(string, correction, vendor){
+  if(vendor.cleanName === string){
+     vendor.cleanName = correction;
+  }
 }
