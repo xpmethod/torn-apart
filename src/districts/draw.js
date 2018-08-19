@@ -20,7 +20,6 @@ export default function(map){
     path = geoPath().projection(transform);
   congressionalDistricts.features = congressionalDistricts.features.filter(d => d.properties.total_value > 0);
   const bins = ckmeans(congressionalDistricts.features.map(d => d.properties.total_value), 5);
-  bins.shift();
   districtsLegend(bins);
   const opacity = scaleThreshold()
     .domain(bins.map(bin => bin[0]))

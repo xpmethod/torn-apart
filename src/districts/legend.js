@@ -9,30 +9,18 @@ export default function(bins){
   const height = 20;
   $("#legend").show().html(() => {
     const html = ["<div class='px-3 py-2'><div><p data-i18n='ta-ice-money-since-2013'></p></div><div class='d-flex'>"];// <div class='d-flex justify-content-between'>"];
-    const breaks = _.map(bins, (bin, i, array) => {
-      if(i < array.length - 1){
-        const least = max(bin);
-        const most = min(array[i + 1]);
-        return { max: (most - least) / 2 };
-      } else {
-        return { max: max(bin) };
-      }
-    });
-    _.each(breaks, (bk, i, array) => {
-      if( i < array.length -1 ){
-        array[i + 1].min = bk.max;
-      } else {
-        breaks.push({min: bk.max});
-      }
+    const breaks = _.map(bins, (bin) => {
+      return {
+        max: max(bin),
+        min: min(bin)
+      };
     });
     _.each(breaks, (bk, i) => {
       let legend;
-      if(bk.min && bk.max) {
-        legend = `$${bigMoneyFormat(bk.min)} – $${bigMoneyFormat(bk.max)}`;
-      } else if (bk.min) {
-        legend = `> $${bigMoneyFormat(bk.min)}`;
+      if(bk.min === bk.max) {
+        legend = `$${bigMoneyFormat(bk.max)}`;
       } else {
-        legend = `< $${bigMoneyFormat(bk.max)}`;
+        legend = `$${bigMoneyFormat(bk.min)} – $${bigMoneyFormat(bk.max)}`;
       }
       html.push(`<div class="flex-fill"><div class="legend-svg-div">
         <svg class="legend-svg" height="${3 * height}" width="20">
@@ -42,7 +30,7 @@ export default function(bins){
         </svg>
         </div>
         <div>
-          <p>
+          <p class="px-1">
             ${legend}
           </p>
         </div>
