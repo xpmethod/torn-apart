@@ -24,7 +24,7 @@ export default function(){
         </svg></div>
         <div>
           <h4>
-            <small data-i18n="ta-${d}"></small>
+            <small><span data-i18n="ta-${d}"></span>:</small>
             ${company.cleanName}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
           </h4>
         </div>`;
