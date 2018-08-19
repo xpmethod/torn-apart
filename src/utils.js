@@ -74,10 +74,10 @@ export function slug(string) {
   );
 }
 
-export function getOrdinal(n) {
+export function getOrdinalSuffix(n) {
   const suffix = ["th", "st", "nd", "rd"],
     variance = n % 100;
-  return n+(suffix[(variance - 20) % 10]||suffix[variance]||suffix[0]);
+  return suffix[(variance - 20) % 10]||suffix[variance]||suffix[0];
 }
 
 export function fillV2DivHeight(elementAbove){
@@ -85,6 +85,5 @@ export function fillV2DivHeight(elementAbove){
 }
 
 export function bigMoneyFormat(number){
-  return format(".2s")(_.toInteger(number));
+  return format(".2s")(_.toInteger(number)).replace(/G/, "B");
 }
-

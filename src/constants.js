@@ -15,6 +15,8 @@ export const lime = schemeSet2[4];
 export const beige = schemeSet2[5];
 export const tan = schemeSet2[6];
 export const lavender = schemeSet2[7];
+export const darkGreen = "#3a9276";
+export const lightGreen = "#b6e2d4";
 
 // Constant used in banned viz.
 export const muslimBanTotal = 208832081;
@@ -25,3 +27,5 @@ export const southernBorderBounds = [[34.1638, -97.1375], [25.8439, -118.608244]
 
 // Constants for states.
 export const states = States;
+
+export const opacityRange5 = [0.2, 0.4, 0.6, 0.8, 1];

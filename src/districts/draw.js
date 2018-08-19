@@ -1,56 +1,58 @@
 import L from "leaflet";
-import _ from "lodash";
-import { format } from "d3-format";
+// import _ from "lodash";
+// import { format } from "d3-format";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
-import { handleMouseOver, handleMouseOut } from "../tooltip";
+import { scaleThreshold } from "d3-scale";
+import { ckmeans } from "simple-statistics";
 import addGlowFilter from "../add-glow-filter";
-import congressionalDistricts from "./congressional-districts.geo.json";
+import congressionalDistricts from "../../data/districts/fat_districts.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
-import { states } from "../constants";
-import { getOrdinal } from "../utils";
+import { orange, purple, green, opacityRange5 } from "../constants";
+import districtsLegend from "./legend";
+import { handleMouseOver, handleMouseOut } from "../tooltip";
+import districtsTooltip from "./tooltip";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-districts-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
+  congressionalDistricts.features = congressionalDistricts.features.filter(d => d.properties.total_value > 0);
+  const bins = ckmeans(congressionalDistricts.features.map(d => d.properties.total_value), 5);
+  districtsLegend(bins);
+  const opacity = scaleThreshold()
+    .domain(bins.map(bin => bin[0]))
+    .range(opacityRange5);
+
   const feature = g.selectAll("path").data(congressionalDistricts.features)
     .enter().append("path")
     .each(d => {
-      if(+d.properties.STATEFP < 57 && +d.properties.STATEFP !== 11){
-        const state = _.find(states, { stateFP: d.properties.STATEFP }).name;
-        d.id = state + "-" + d.properties.CD115FP + "-" + Math.floor(Math.random() * 10);
-        if(d.properties.CD115FP === "00"){
-          d.districtName = "At-large";
-        } else {
-          const districtNumber = _.toInteger(d.properties.CD115FP);
-          d.districtName = getOrdinal(districtNumber);
-        }
-        d.tooltip = `${ state } - ${ d.districtName} District <br />
-         $${ format(",")(Math.floor(Math.random() * 1000)) } per resident`;
-        d.mouseOver = () => {
-          select(`#${ d.id }`)
-            .attr("filter", "url(#filter-glow-districts)");
-        };
-        d.mouseOut = () => {
-          select(`#${ d.id }`)
-            .attr("filter", "");
-        };
-      }
+      d.mouseOver = () => true;
+      d.mouseOut = () => true;
+      d.color = purple;
+      if(d.properties.party.match(/D/)) d.color = green;
+      if(d.properties.party.match(/N/)) d.color = orange;
     })
     .style("pointer-events", "painted")
-    .attr("id", d => d.id)
-    .classed("viz-hide", true)
-    .classed("districts-polygon", true)
-    .attr("opacity", () => {
-      const bins = [0.2, 0.4, 0.6, 0.8, 1];
-      return bins[Math.floor(Math.random() * Math.floor(5))];
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", d => opacity(d.properties.total_value))
+    .style("stroke", d => d.color)
+    .style("stroke-opacity", 0.8)
+    .on("mouseover", function(d){
+      d.tooltip = districtsTooltip(d);
+      select(this)
+        .attr("fill-opacity", 1)
+        .attr("filter", "url(#filter-glow-districts)");
+      handleMouseOver(d);
     })
-    .on("mouseover", handleMouseOver)
-    .on("mouseout", handleMouseOut);
-
-
+    .on("mouseout", function(d){
+      select(this)
+        .attr("fill-opacity", d => opacity(d.properties.total_value))
+        .attr("filter", "");
+      handleMouseOut(d);
+    })
+    .attr("id", d => d.id);
   
   reset();
   map.on("zoomend", reset);

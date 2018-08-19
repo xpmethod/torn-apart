@@ -22,13 +22,29 @@ export default {
   },
   output: {
     filename: "[name].bundle.js",
+    // chunkFilename: "[name].bundle.js",
     path: out,
     libraryTarget: "umd",
     library: "tornApart",
+    publicPath: "/torn-apart/assets/js/"
   },
   // optimization: {
   //   splitChunks: {
   //     chunks: "all"
+  //   }
+  // },
+  // optimization: {
+  //   // chunks: "all"
+  //   splitChunks: {
+  //     cacheGroups: {
+  //       default: false,
+  //       vendors: false,
+  //       vendor: {
+  //         name: "vendor",
+  //         chunks: "all",
+  //         test: /node_modules/
+  //       }
+  //     }
   //   }
   // },
   externals: {

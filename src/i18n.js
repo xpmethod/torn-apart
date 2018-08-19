@@ -1,26 +1,21 @@
 import $ from "jquery";
-import en from "./i18n/en.json";
-import es from "./i18n/es.json";
-import fr from "./i18n/fr.json";
+import Messages from "./i18n/en-es-fr.json";
 import updateTexts from "./update-texts";
 import { moveLegend } from "./utils";
 
 // load in the i18n files.
-$.i18n().load({
-  "@metadata": {
-    "authors": [
-      "Manan Ahmed",
-      "Alex Gil",
-      "Moacir P. de Sá Pereira",
-      "Paola Verhaert",
-      "Sylvia Fernández"
-    ],
-    "locale": "en"
-  },
-  en,
-  es,
-  fr
-});
+Messages["@metadata"] = {
+  "authors": [
+    "Manan Ahmed",
+    "Alex Gil",
+    "Moacir P. de Sá Pereira",
+    "Paola Verhaert",
+    "Sylvia Fernández",
+    "Clément Lévy"
+  ],
+  "locale": "en"
+};
+$.i18n().load(Messages);
 
 // set the locale.
 const locales = navigator.languages.filter( i => i.match(/(en|fr|es)/) ).map( i => i.replace(/-.*/, ""));

@@ -22,6 +22,15 @@ Gil is Digital Scholarship Librarian and Affiliate Faculty of the Department of 
 by [Daryl Meador](http://twitter.com/darylmeador).   
 PhD student, Cinema Studies, Tisch School of the Arts, New York University.
 
+
+**[41 bullets]({{site.baseurl}}/reflections/sujani_reddy.html)**.  
+by [Sujani Reddy](https://www.uncpress.org/book/9781469625072/nursing-and-empire/).   
+Sujani Reddy is a writer, educator and organizer based in Jackson Heights, New York City.
+
+**[Representation Matters]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira_2.html)**.  
+by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
+Moacir P. de Sá Pereira is Assistant Professor / Faculty Fellow of English at New York University.
+
 <br>
 
 

@@ -13,7 +13,6 @@ export default function(map){
   map.on("click", () => {
     $(".tooltip").css("opacity", 0);
   });
-
 }
 
 

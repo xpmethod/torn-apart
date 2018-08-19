@@ -3,13 +3,15 @@ import { select } from "d3-selection";
 import "d3-transition";
 import _ from "lodash";
 import L from "leaflet";
-import { scaleLog } from "d3-scale";
+// import { scaleLog } from "d3-scale";
 import addGlowFilter from "../add-glow-filter";
 import Data from "../../data/wcs/lines.csv";
 import leafletD3Svg from "../leaflet-d3-svg";
 import { purple } from "../constants";
 import linesConstants from "./constants";
-import linesScale from "./scale";
+// import linesDrawScale from "./draw-scale";
+// import linesScale from "./scale";
+import linesLogScale from "./log-scale";
 import linesCalcAngles from "./calculate-angles";
 
 // const unknowns = {
@@ -26,8 +28,7 @@ import linesCalcAngles from "./calculate-angles";
 export default function (map) {
   const svg = addGlowFilter(leafletD3Svg(map, "d3-lines-svg"));
   const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
-  const y = scaleLog().rangeRound([0, linesConstants.rangeMax]);
-  y.domain([0.1, linesConstants.yMax]); // the largest value.
+  const y = linesLogScale();
   const bar = g.selectAll("g")
     .data(Data)
     .enter().append("g")
@@ -60,11 +61,12 @@ export default function (map) {
     .attr("opacity", d => d.currValue)
     .attr("d", d => {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
-      return `M0 0 V -${d.newHeight} H ${linesConstants.barWidth} Z`;
+      const scaleFactor = d.newHeight / linesConstants.rangeMax;
+      return `M0 0 V -${d.newHeight} H ${scaleFactor * linesConstants.barWidth} Z`;
     })
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
-  linesScale(bar, y);
+  // linesScale(bar, y);
 
   d3Update();
 

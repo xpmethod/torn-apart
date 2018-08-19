@@ -1,16 +1,11 @@
-import _ from "lodash";
-
+import { bigMoneyFormat } from "../utils";
+import sideBarSpreadsheet from "./sidebar-spreadsheet";
 export default function(d){
-  const html = ["<table class='table table-hover table-sm'>"];
-  html.push("<thead><tr class='thead-dark'>");
-  _.each(["ta-v2-product"],
-    header => html.push(`<th><small data-i18n="${header}"></small></th>`));
-  html.push("</td></thead><tbody>");
-  _.each(d, d => {
-    html.push("<tr>");
-    html.push(`<td><small>${d.name}`);
-    html.push("</tr><tr>");
-  });
-  html.push("</tbody></table>");
+
+  const html = [`<h3 style="color:#8da0cb;">${d.name}</h3>`];
+  html.push(`<h4 style="color:#8da0cb;"><span data-i18n="ta-value-to-date"></span>:
+      $${bigMoneyFormat(d.total_value)}</h4>`);
+  html.push(sideBarSpreadsheet(d));
   return html.join("\n");
+
 }

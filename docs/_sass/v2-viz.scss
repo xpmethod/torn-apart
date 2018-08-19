@@ -1,15 +1,3 @@
-// To see this guy in use, see src/wedge.js
-.tooltip {
-  pointer-events: none;
-  position: absolute;
-  width: 10rem;
-  min-height: 3rem;
-  padding: 0.5rem;
-  background: $fadedpurple;
-  border-radius: .25rem;
-  color: $white;
-}
-
 #v2-div {
   position: absolute;
   top: 9rem;
@@ -68,55 +56,35 @@
     vertical-align: center;
   }
 
-  @media (min-width: 576px){
-    .legend-ul li {
-      font-size: 1.0rem;
+  .main-gain {
+    margin: 0;
+    color: $purple;
+    line-height: 2rem;
+    font-size: 2.8rem;
+
+    small {
+      font-size: 1.5rem;
     }
   }
-}
 
-@media (min-width: 576px){
-  #v2-div {
-    font-size: 0.8rem;
+  #gain-profiteers-list {
+    h4 {
+      color: $purple;
+      font-size: 1rem;
+    }
   }
 
-  #v2-div {
+  @media (min-width: 576px){
+    font-size: 0.8rem;
     top: 7.25rem;
     left: .5rem;
     width: calc(100vw - 1rem);
     height: calc(100vh - 7.5rem - 1.75rem);
     min-height: calc(100vh - 7.5rem - 1.75rem);
     max-height: calc(100vh - 7.5rem - 1.75rem);
+
+    .legend-ul li {
+      font-size: 1.0rem;
+    }
   }
-}
-
-// Alex style
-
-.d3-tip {
-  line-height: 1;
-  padding: 6px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 4px;
-  font-size: 12px;
-}
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-/* Style northward tooltips specifically */
-.d3-tip.n:after {
-  margin: -2px 0 0 0;
-  top: 100%;
-  left: 0;
 }

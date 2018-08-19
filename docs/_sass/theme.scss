@@ -2,6 +2,7 @@
 $orange: #fc8d62;
 $green: #66c2a5;
 $midgreen: #41a485;
+$lightgreen: #b6e2d4;
 $darkgreen: #3a9276;
 $purple: #8da0cb;
 $midpurple: #48629d;
@@ -49,3 +50,5 @@ code {
 @import "svg";
 @import "charts";
 @import "v2-viz";
+@import "legend";
+@import "tooltip";

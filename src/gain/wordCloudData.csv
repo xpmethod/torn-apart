@@ -1,57 +1,57 @@
 name,total_value,product,years
-Amazon,11899.52,rescue equipment,1
-AT&T,48560,IT & telephone,1
-Bellsouth,36033,IT components,1
-Canon,158012.76,printing & copying,3
-City of Long Beach,38264,building lease,2
-City of Orlando,10700,education & training,1
-Comcast,14743,IT & telephone,2
-Dell,36288000.76,software,4
-Deloitte,238114497.4,management consulting,3
-Ernst & Young,12315398.58,financial management & training,2
-Federal Express,17448.86,courier,2
-Hyatt,17500,conference & facility space,3
-Johns Hopkins,880458.22,education & training,1
-Konica Minolta,883997.28,photocopying & printing,3
-McKinsey,43867737.51,management consulting,2
-Microsoft,7867894.51,IT support,2
-Motorola,37257230.05,IT support,3
-Northeastern University,2711012.38,research,1
-Office Depot,10200,furniture assembly,2
-PricewaterhouseCoopers,8894231.67,cost-benefit analysis,2
-Reed Elsevier,1527165.6,periodicals,1
-Ricoh,740454.85,photocopying,3
-RStudio,24985,software,1
-Time Warner Cable,583794.18,IT & telephone,3
-University of Alabama,146006,data analysis,2
-Xerox,1382987.08,photocopying & printing,3
-American Correctional Association,265150,accreditation support,3
-Aramark,49410.68,uniforms & laundry,3
-Association for the Blind and Visually Impaired,47972.53,cleaning compounds,1
-Atlantic Diving Supply,4494478.67,armor & tactical equipment,3
-Avaya,3519655.13,telephone,3
-Booz Allen Hamilton,149748532.8,management consulting & IT,4
-Caribbean School,162935,education & training,2
-Comfort Suites,624750,temporary lodging,2
-Colt,2804210,guns,3
-CCA,280179617.1,detention services,3
-Federal Prison Industries,697445.94,clothing & toiletries,3
-General Dynamics,497027.13,ammunition,4
-GEO Group,1015594507,detention services,3
-John Wiley and Sons,71105,books,1
-Lexmark,126475.8,photocopying & printing,3
-Life Fitness,14869.96,exercise equipment,1
-LinkedIn,3615,subscription,1
-MVM,37334686.23,guards,2
-Northrop Grumman,795109,surveillance equipment,2
-Palantir,168799174,software,4
-Remington,5770442.53,ammunition & guns,4
-Sharp,234230.42,photocopying & printing,2
-Simon Wiesenthal Center,142800,professional development,2
-Sixt Rent A Car,39583.21,motor vehicles,1
-Sprint,558926.4,IT & telephone,2
-Thomson Reuters,5965934.2,databases,2
-UPS,1405,courier,2
-University of Maryland,175000,research,2
-Vermont State Colleges,81880,education,3
-Virginia Tech,3137015,laboratory testing,1
+Amazon,11899.52,Rescue Equipment,1
+AT&T,48560,IT & Telephone,1
+Bellsouth,36033,IT Components,1
+Canon,158012.76,Printing & Copying,3
+City of Long Beach,38264,Building Lease,2
+City of Orlando,10700,Education & Training,1
+Comcast,14743,IT & Telephone,2
+Dell,36288000.76,Software,4
+Deloitte,238114497.4,Management Consulting,3
+Ernst & Young,12315398.58,Financial Management & Training,2
+Federal Express,17448.86,Courier,2
+Hyatt,17500,Conference & Facility Space,3
+Johns Hopkins,880458.22,Education & Training,1
+Konica Minolta,883997.28,Photocopying & Printing,3
+McKinsey,43867737.51,Management Consulting,2
+Microsoft,7867894.51,IT Support,2
+Motorola,37257230.05,IT Support,3
+Northeastern University,2711012.38,Research,1
+Office Depot,10200,Furniture Assembly,2
+PricewaterhouseCoopers,8894231.67,Cost-Benefit Analysis,2
+Reed Elsevier,1527165.6,Periodicals,1
+Ricoh,740454.85,Photocopying,3
+RStudio,24985,Software,1
+Time Warner Cable,583794.18,IT & Telephone,3
+University of Alabama,146006,Data Analysis,2
+Xerox,1382987.08,Photocopying & Printing,3
+American Correctional Association,265150,Accreditation Support,3
+Aramark,49410.68,Uniforms & Laundry,3
+Association for the Blind and Visually Impaired,47972.53,Cleaning Compounds,1
+Atlantic Diving Supply,4494478.67,Armor & Tactical Equipment,3
+Avaya,3519655.13,Telephone,3
+Booz Allen Hamilton,149748532.8,Management Consulting & IT,4
+Caribbean School,162935,Education & Training,2
+Comfort Suites,624750,Temporary Lodging,2
+Colt,2804210,Guns,3
+CCA,280179617.1,Detention Services,3
+Federal Prison Industries,697445.94,Clothing & Toiletries,3
+General Dynamics,497027.13,Ammunition,4
+GEO Group,1015594507,Detention Services,3
+John Wiley and Sons,71105,Books,1
+Lexmark,126475.8,Photocopying & Printing,3
+Life Fitness,14869.96,Exercise Equipment,1
+LinkedIn,3615,Subscription,1
+MVM,37334686.23,Guards,2
+Northrop Grumman,795109,Surveillance Equipment,2
+Palantir,168799174,Software,4
+Remington,5770442.53,Ammunition & Guns,4
+Sharp,234230.42,Photocopying & Printing,2
+Simon Wiesenthal Center,142800,Professional Development,2
+Sixt Rent A Car,39583.21,Motor Vehicles,1
+Sprint,558926.4,IT & Telephone,2
+Thomson Reuters,5965934.2,Databases,2
+UPS,1405,Courier,2
+University of Maryland,175000,Research,2
+Vermont State Colleges,81880,Education,3
+Virginia Tech,3137015,Laboratory Testing,1

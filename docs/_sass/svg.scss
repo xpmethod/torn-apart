@@ -1,11 +1,12 @@
-.axis text, .legend text {
-  font: 10px sans-serif;
-}
-
 .axis line, .domain, .tick {
   fill: none;
   stroke: #777;
   stroke-dasharray: 1, 4;
+}
+
+.axis text, .legend text {
+  font: 10px sans-serif;
+  stroke: none;
 }
 
 line.link {
@@ -28,8 +29,17 @@ text {
   font-size: 10px;
 }
 
+text.centered {
+  text-anchor: middle;
+}
+
 text.subhead {
   fill: $green;
   font-size: 1.75rem;
+}
+
+text.subsubhead {
+  fill: $green;
+  font-size: 1.5rem;
 }
 
