@@ -14,19 +14,18 @@ TRUE,TRUE,TRUE,ta-clinks,Clinks,Barrotes,Les taules,
 TRUE,TRUE,TRUE,ta-the-eye,The Eye,El ojo,L’œil,
 TRUE,TRUE,TRUE,ta-charts,Charts,Cifras,Les graphiques,
 TRUE,TRUE,TRUE,ta-orr,ORR,ORR,ORR,
-TRUE,,,ta-districts,Districts,Distritos,Districts,Viz Button Name
-TRUE,,,ta-gain,Gain,Ganancias,Gains,Viz Button Name
-TRUE,,,ta-contracts,Contracts,Contratos,Contrats,Viz Button Name
-TRUE,,,ta-freezer,Freezer,Congelador,Le congélo,Viz Button Name
-TRUE,,,ta-rain,Rain,Lluvia,La pluie,Viz Button Name
-TRUE,,,ta-lines,Lines,Lineas,Lignes,Viz Button Name
-TRUE,,,ta-beds,Beds,Camas,Lits,Viz Button Name
-TRUE,,,ta-banned,Banned,Prohibidxs,Interdits,Viz Button Name
-TRUE,,,ta-murderboard,Murderboard,Pizarrón,Tableau,Viz Button Name
-TRUE,,,ta-ice-tray,ICE Tray,La Bandeja,Bac à ICE,Viz Button Name
-TRUE,,,ta-international,International,Internacionales,Internationaux,Used in Allies
-TRUE,,,ta-united-states,United States,Estados Unidos,Etats Unis,Used in Allies
-TRUE,,,ta-mexico,Mexico,México,Méxique,Used in Allies
+TRUE,TRUE,,ta-districts,Districts,Distritos,Districts,Viz Button Name
+TRUE,TRUE,,ta-gain,Gain,Ganancias,Gains,Viz Button Name
+TRUE,TRUE,,ta-freezer,Freezer,Congelador,Le congélo,Viz Button Name
+TRUE,TRUE,,ta-rain,Rain,Lluvia,La pluie,Viz Button Name
+TRUE,TRUE,,ta-lines,Lines,Lineas,Lignes,Viz Button Name
+TRUE,TRUE,,ta-beds,Beds,Camas,Lits,Viz Button Name
+TRUE,TRUE,,ta-banned,Banned,Prohibidxs,Interdits,Viz Button Name
+TRUE,TRUE,,ta-murderboard,Murderboard,Pizarrón,Tableau,Viz Button Name
+TRUE,TRUE,,ta-ice-tray,ICE Tray,La Bandeja,Bac à ICE,Viz Button Name
+TRUE,TRUE,,ta-international,International,Internacionales,Internationaux,Used in Allies
+TRUE,TRUE,,ta-united-states,United States,Estados Unidos,Etats Unis,Used in Allies
+TRUE,TRUE,,ta-mexico,Mexico,México,Méxique,Used in Allies
 TRUE,TRUE,TRUE,ta-v1-adp,ADP,ADP,ADP,
 TRUE,TRUE,TRUE,ta-v1-facilities,Facilities,Instalaciones,Les installations,
 TRUE,TRUE,TRUE,ta-v1-bookins,Bookins,Registros,Taux,
@@ -47,8 +46,8 @@ TRUE,TRUE,TRUE,ta-v1-adp-text,"ADP is the Average Daily Population and represent
 TRUE,TRUE,TRUE,ta-v1-bookins-october-and-november,Bookins for Oct. and Nov. 2017,Registros Oct-Nov 2017,Taux pour Oct. et Nov. 2017,
 TRUE,TRUE,TRUE,ta-v1-bookins-text,The initial book-ins into detention facilities rate,Medida inicial de arrestos,Le taux initial des installations de réservation et de détention,
 TRUE,TRUE,TRUE,ta-v1-operators-num,Operators number.,Número de operadores.,Nombre d’opérateurs.,
-TRUE,TRUE,TRUE,ta-v1-operators-text,"The facility can be operated by ICE, GEO, MVM, CCA or other contractors",Número activo.,"L’installation peut être exploitée par ICE, GEO, MVM, CCA ou d’autres entreprises.",
-TRUE,TRUE,TRUE,ta-v1-active-num,active number.,"La instalación puede ser operada por ICE, GEO, MVM, CCA o otros contratistas",Nombre actif.,
+TRUE,TRUE,TRUE,ta-v1-operators-text,"The facility can be operated by ICE, GEO, MVM, CCA or other contractors","La instalación puede ser operada por ICE, GEO, MVM, CCA o otros contratistas","L’installation peut être exploitée par ICE, GEO, MVM, CCA ou d’autres entreprises.",
+TRUE,TRUE,TRUE,ta-v1-active-num,active number.,Número activo,Nombre actif.,
 TRUE,TRUE,TRUE,ta-v1-name-header,Facility and Operator,Instalación y Operador,Installation et opérateur,
 TRUE,TRUE,TRUE,ta-v1-mandays-header,Mandays,Mandays,Jours de travail,
 TRUE,TRUE,TRUE,ta-v1-pctDaysInUse-header,Usage,Uso,Usage,
@@ -68,29 +67,28 @@ TRUE,TRUE,TRUE,ta-v1-legend,Legend,Legend,Légende,
 TRUE,TRUE,TRUE,ta-v1-owned-or-operated-by,Owned or operated by,Propiedad de o dirigido por,Détenu ou exploité par :,
 TRUE,TRUE,TRUE,ta-v1-banned-legend,"The population of this ephemeral, blackened country of closed borders is about _N%_ of that of the excluded majority Muslim population banned from entering the US by [Presidential Proclamation 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).","La población de ese país efímero de fronteras cerradas es de aproximadamente _N%_ de la población excluida y mayoritariamente musulmana, prohibida ingresar a los EE. UU. por [Proclamación presidencial 9645](https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).","La population de ce pays éphémère de frontières fermées représente environ _% de la population exclue et principalement musulmane, interdite d’entrer aux États-Unis pour [proclamation présidentielle 9645] (https://en.wikipedia.org/wiki/Executive_Order_13780#Presidential_Proclamation_9645).",
 TRUE,TRUE,TRUE,ta-v1-drafting-borders,Drafting borders…,Delineando fronteras…,Rédaction des frontières ...,
-,,,ta-v2-gain-title,Gain,Ganancias,Gains,
-TRUE,,,ta-v2-freezer-title,The Banality of ICE Funding,La banalidad del presupuesto de ICE,La banalité du financement de l’ICE,
+TRUE,,,ta-v2-gain-title,Wall of Gain,Ganancias,Temple de la rémunérée,
+TRUE,TRUE,,ta-v2-freezer-title,The Banality of ICE Funding,La banalidad del presupuesto de ICE,La banalité du financement de l’ICE,
 ,TRUE,,ta-v2-rain-title,ICE contracts 2014 – 2018,Contratos de ICE 2014 – 2018,Contrats d’ICE 2014 – 2018,
-TRUE,,,ta-v2-lines-legend,"ICE removed over 220,000 people in the United States in 2017. Each person was removed through a port of entry, or, more appropriately, a port of removal. The lines represent this stream of re-displaced people.","ICE expulso a más de 220,000 personas en los EE.UU. en 2017. Cada persona fue expulsada por un puerto de desembarque, o mejor dicho, por un puerto de expulsión. Las lineas representan el flujo de personas re-desplazadas. ","En 2017, ICE a expulsé plus de 220 000 personnes des États-Unis. Chaque personne a été déplacée par un port d’entrée ou, plus précisément, par un port d’enlèvement. Les lignes représentent ce flux de personnes déplacées.",
+TRUE,TRUE,,ta-v2-lines-legend,"ICE removed over 220,000 people in the United States in 2017. Each person was removed through a port of entry, or, more appropriately, a port of removal. The lines represent this stream of re-displaced people.","ICE expulso a más de 220,000 personas en los EE.UU. en 2017. Cada persona fue expulsada por un puerto de desembarque, o mejor dicho, por un puerto de expulsión. Las lineas representan el flujo de personas re-desplazadas. ","En 2017, ICE a expulsé plus de 220 000 personnes des États-Unis. Chaque personne a été déplacée par un port d’entrée ou, plus précisément, par un port d’enlèvement. Les lignes représentent ce flux de personnes déplacées.",
 ,TRUE,,ta-v2-people-removed,people removed in,personas expulsadas en,gens expulsées en,
 ,TRUE,,ta-v2-person-removed,person removed in,persona expulasada en,personne expulsée en,
 ,,,ta-v2-districts-legend,Districts legend,Legenda Distritos,Légende pour Districts,
 ,,,ta-v2-beds-legend,Beds legend,Legenda Camas,Légende pour Gains,
-,,,ta-v2-name-and-gain,Wall of gain,Pared de Ganancias,Mur des gains,
+,TRUE,,ta-v2-name-and-gain,Wall of gain,Pared de Ganancias,Mur des gains,
 ,,,ta-v2-equal-opportunities,Equal opportunity oppression,Igualdad de Opresión,Egalité d’oppression,
 ,TRUE,,ta-v2-gender-pie-chart,Gender,Genero,Genre,
-,,,ta-v2-female,Woman-owned business,Proprietaria mujer,Entreprise appartenant à une femme,
+,,,ta-v2-female,Woman-owned business,Negocio-Proprietaria mujer,Entreprise appartenant à une femme,
 ,TRUE,,ta-v2-non-female,Not identified as a woman-owned business,Negocio no identificado como propiedad de mujer,Non identifié comme une entreprise appartenant à une femme,
 ,TRUE,,ta-v2-ethnicity-pie-chart,Ethnicity,Etnia,Ethnicité,
-,,,ta-v2-Alaskan-Native,Alaskan Native-owned business,Propietario de pueblo indigena de Alaska,Propriétaire du peuple autochtone d’Alaska,
-,,,ta-v2-Asian-Pacific,Asian Pacific-owned business,Propietario asiatico Oceano Pacífico,Propriétaire de l’Asie Pacifique,
-,,,ta-v2-Black-American,Black American-owned business,Propietario afro-americano,Propriétaire noire américaine,
-,,,ta-v2-Hispanic-American,Hispanic American-owned business,Propietario hispano-americano,Propriétaire hispanique,
-,,,ta-v2-Native-American,Native American-owned business,Propietario de pueblo indigena Norte-Americano,Propriétaire Amérindien,
-,,,ta-v2-Subcontinent-AsianAsian-Indian-American,Subcontinent Asian / Asian-Indian American-owned business,Propietario subcontinente asiatico/ indo-americano,Propriétaire du sous-continent Asiatique / Asiatique-Indienne-américaine,
-,,,ta-v2-Other-Minority,Other Minority-owned business,Propietario otro grupo minoritario,Propriétaire d’une autre minorité,
+TRUE,,,ta-asianPacific,Asian Pacific,Negocio-Propietario asiático-Pacífico,Propriétaire de l’Asie Pacifique,
+TRUE,,,ta-black,Black,Negocio-Propietario afro-americano,Propriétaire noire américaine,
+TRUE,,,ta-hispanic,Hispanic,Negocio-Propietario hispano-americano,Propriétaire hispanique,
+TRUE,,,ta-native,Native,Negocio-Propietario nativo-Americano,Propriétaire Amérindien,
+TRUE,,,ta-saaia,Subcontinent Asian,Negocio-Propietario subcontinente asiático/ indo-americano,Propriétaire du sous-continent Asiatique / Asiatique-Indienne-américaine,
+TRUE,,,ta-otherMinority,Other Minority,Negocio-Propietario otro grupo minoritario,Propriétaire d’une autre minorité,
 ,TRUE,,ta-v2-intersectionality-pie-chart,Intersectionality,Interseccionalidad,Intersectionalité,
-,,,ta-v2-intersectional,Business owned by a woman of color,Propietaria mujer de color,Propriétaire noire américaine femme,
+,,,ta-v2-intersectional,Business owned by a woman of color,Negocio-Propietaria mujer de color,Propriétaire noire américaine femme,
 ,,,ta-v2-non-intersectional,Business owned by a person from other marginalized category,Negocio propiedad de persona marginalaza en otra categoría ,Propriétaire d’une autre categorie marginalisée,
 ,,,ta-v2-piechart-description,"Ces diagrammes à secteurs montrent les pourcentages de récipiendaires qui s'identifient comme appartenant à diverses catégories marginalisées. Dans le cas du graphique circulaire Ethnicity and Intersectionality, le 
 total représente le nombre de personnes identifiées comme faisant partie de l'une des catégories marginalisées, et non pas de toutes les personnes récompensées en général. Pour le tableau de genre, le total représente tous les récipiendaires. Les étiquettes de catégorie ici dans la plupart des cas sont celles utilisées dans les documents d'attribution.","Estos gráficos circulares muestran los porcentajes de beneficiarios que se identifican a sí mismos como pertenecientes a varias categorías marginadas. En el caso del gráfico circular Etnia e Interseccionalidad, el total del pastel representa a todas las personas que se identificaron como parte de cualquiera de las categorías marginadas, no a todos los beneficiarios en general. Para el cuadro de género, el total del pastel representa a todos los beneficiarios. Las etiquetas de categoría aquí en la mayoría de los casos son las que se usan en los documentos de adjudicación.","Ces diagrammes à secteurs montrent les pourcentages de récipiendaires qui s’identifient comme appartenant à diverses catégories marginalisées. Dans le cas du graphique circulaire Ethnicité et Intersectionalité, le total représente le nombre de personnes identifiées comme faisant partie de l’une des catégories marginalisées, et non pas de toutes les personnes récompensées en général. Pour le tableau de genre, le total représente tous les récipiendaires. Les étiquettes de catégorie ici dans la plupart des cas sont celles utilisées dans les documents d’attribution.",
@@ -99,19 +97,19 @@ total représente le nombre de personnes identifiées comme faisant partie de l'
 ,TRUE,,ta-allies-supp-text,Our list of allies has been double-vetted for trustworthiness,Nuestra lista de aliado a sido verificada doblemente,Notre liste d’alliés a fait l’objet d’un double contrôle de la fiabilité,
 ,,,ta-allies-curated-list,The list below was curated by our research team and is by no means exhaustive.,La siguiente lista fue comisariada por nuestro equipo de investigación y es de ninguna forma la lista completa,La liste ci-dessous a été organisée par notre équipe de recherche et n’est en aucun cas exhaustive.,
 ,TRUE,,ta-allies-directory-title,Torn Apart / Separados Allies Directory,Directorio de Aliados de Torn Apart / Separados,Répertoire alliés de Torn Apart/Separados,
-,,,ta-v2-dba,D/B/A,???,???,
+TRUE,,,ta-v2-dba,Company / Subsidiary,,Entreprise / Filale,
 ,TRUE,,ta-v2-location,Location,Ubicación,Emplacement,
 ,TRUE,,ta-v2-category,Category,Categoría,Catégorie,
 ,TRUE,,ta-v2-product-service,Product / Service,Producto / Servicio,Produit / Service,
 ,TRUE,,ta-v2-current-value,Current Value,Valor Actual,Valeur actuelle,
 ,,,ta-v2-potential-value,Potential Value,Valor Potencial,Valeur potentielle,
 ,TRUE,,ta-description,Description,Descripción,Description,
-,,,ta-value-to-date,Total Value to Date,Valor total hasta la fecha,Valeur totale à ce jour,
+,TRUE,,ta-value-to-date,Total Value to Date,Valor total hasta la fecha,Valeur totale à ce jour,
 TRUE,TRUE,,ta-republican-cong,Republican Rep.,Rep. Republicano,Représentant démocrate,
 TRUE,TRUE,,ta-democrat-cong,Democratic Rep.,Rep. Demócrata,Représentant républicain,
-TRUE,,,ta-no-rep-cong,No Rep. in Congress,No hay Rep. en el Congreso,Aucun représentant,
-TRUE,TRUE,,ta-ice-money-since-2013,Cumulative ICE awards since 2013 to companies by Congressional district,Premios acumulados de ICE desde 2013 a compañia de districto del congreso,Récompenses d’ICE accumulées depuis 2013 aux societés par district de congrès,
-TRUE,,,ta-ice-money-since-2013-tooltip,ICE money received since 2013,,,
+TRUE,TRUE,,ta-no-rep-cong,No Rep. in Congress,No hay Rep. en el Congreso,Aucun représentant,
+TRUE,TRUE,,ta-ice-money-since-2013,Cumulative ICE awards since 2014 to companies by Congressional district,Premios acumulados de ICE desde 2014 a compañia de districto del congreso,Récompenses d’ICE accumulées depuis 2014 aux societés par district de congrès,
+TRUE,,,ta-ice-money-since-2013-tooltip,ICE money received since 2014,,,
 TRUE,TRUE,,ta-product-cat-consulting,Consulting,Asesoría,Des conseils,
 TRUE,TRUE,,ta-product-cat-carceral-services,Carceral Services,Servicios para reclusos,Services aux détenus,
 TRUE,,,ta-product-cat-telecom,Telecom,Telecom,Télécom,
@@ -132,11 +130,12 @@ TRUE,,,ta-product-cat-temps,Temps,Empleados temporarios,Employés temporaires,
 TRUE,TRUE,,ta-product-cat-printing-publishing,Printing & Publishing,Impresión y Publicación ,Impression et édition,
 TRUE,TRUE,,ta-product-cat-health-personal-care,Health & Personal Care,Salud y Cuidado personal ,Santé et soins personnels,
 TRUE,,,ta-product-cat-financial,Financial,Financiero,Financier,
-TRUE,,,ta-removals,Removals,Expulsiones,Les expulsions,
+TRUE,TRUE,,ta-removals,Removals,Expulsiones,Les expulsions,
 TRUE,,,ta-ordinal-st-m,Nst,el N.er,le Ner,
 TRUE,,,ta-ordinal-nd-m,Nnd,el N.º,le Ne,
 TRUE,,,ta-ordinal-rd-m,Nrd,el N.º,le Ne,
 TRUE,,,ta-ordinal-th-m,Nth,el N.º,le Ne,
-TRUE,,,ta-at-large-district,At-Large District,Distrito en general,district « at large »,
-TRUE,,,ta-district,District,Distrito,district,
-TRUE,,,ta-districts-biggest-profiteer,District's Biggest Profiteer,,,
+TRUE,TRUE,,ta-at-large-district,At-Large District,Distrito en general,district « at large »,
+TRUE,TRUE,,ta-district,District,Distrito,district,
+TRUE,,,ta-districts-biggest-profiteer,Biggest Profiteer,Mayor especulador,,
+TRUE,,,ta-total,Total,,,
