@@ -10,7 +10,7 @@ import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 import Data from "../../data/gain/minority-data.json";
 
 export default function(width, height){
-  const margins = { bottom: 25, left: 70, right: 15 };
+  const margins = { bottom: 35, left: 70, right: 15 };
   const keys = Data.minorityCategories;
   const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
@@ -77,6 +77,13 @@ export default function(width, height){
     .attr("transform", `translate(0,${height/2 - margins.bottom})`)
     .call(axisBottom(countX));
 
+  const countText = g.append("text")
+    .attr("transform", `translate(${width/2},${height/2 - margins.bottom + 30})`)
+    .attr("data-i18n", "ta-companies")
+    .text($.i18n("ta-companies"));
+
+  countText.style("text-anchor", "middle");
+
   const value = g.append("g")
     .attr("transform", `translate(0, ${height/2 + 5})`);
     
@@ -108,6 +115,13 @@ export default function(width, height){
     .attr("transform", `translate(0,${height/2 - margins.bottom})`)
     .call(axisBottom(valueX).ticks(null, "$s"));
 
+  const valueText = value.append("text")
+    .attr("transform", `translate(${width/2},${height/2 - margins.bottom + 30})`)
+    .attr("data-i18n", "ta-total-value-of-awards-since-2014")
+    .text($.i18n("ta-total-value-of-awards-since-2014"));
+  
+  valueText.style("text-anchor", "middle");
+
   const babyHeight = 0.5 * (height/2 - margins.bottom);
 
   const babyY = scaleBand()
@@ -126,11 +140,11 @@ export default function(width, height){
 
   const babyCount = g.append("g")
     .attr("id", "baby-count")
-    .attr("transform", `translate(${countX(0.3 * Data.totalParents)}, ${0.4 * babyHeight})`);
+    .attr("transform", `translate(${countX(0.3 * Data.totalParents)}, 0)`);
 
   const babyValue = value.append("g")
     .attr("id", "baby-value")
-    .attr("transform", `translate(${valueX(0.3 * Data.totalValue)}, ${ 0.4 * babyHeight })`);
+    .attr("transform", `translate(${valueX(0.3 * Data.totalValue)}, 0)`);
   
   babyCount.selectAll("g")
     .data(stack().keys(Data.minorityCategories)(countData))
@@ -160,8 +174,8 @@ export default function(width, height){
     .call(axisBottom(babyCountX).ticks(5));
 
   babyCount.append("text")
-    .style("text-anchor", "end")
     .attr("transform", `translate(${babyCountX(Data.totalParents) - 10}, 0)rotate(-90)`)
+    .style("text-anchor", "end")
     .text(`${$.i18n("ta-total")}: ${Data.totalParents}`);
 
   babyValue.selectAll("g")
@@ -192,8 +206,8 @@ export default function(width, height){
     .attr("d", `M ${babyValueX(Data.totalValue)},0 V ${ babyHeight }`);
 
   babyValue.append("text")
-    .style("text-anchor", "end")
     .attr("transform", `translate(${babyValueX(Data.totalValue) - 10}, 0)rotate(-90)`)
+    .style("text-anchor", "end")
     .text(`${$.i18n("ta-total")}: $${bigMoneyFormat(Data.totalValue)}`);
 
   // const babyValue = g.append("g");
