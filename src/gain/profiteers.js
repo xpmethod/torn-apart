@@ -7,14 +7,6 @@ import Data from "../../data/gain/minority-data.json";
 
 export default function(){
   const list = select("#gain-profiteers-list");
-  const language = {
-    "black": "Black",
-    "hispanic": "Hispanic",
-    "saaia": "Subcontinent Asian",
-    "asianPacific": "Asian Pacific",
-    "native": "Native",
-    "otherMinority": "Other Minority",
-  };
   const colors = [green, orange, pink, lime, beige, tan];
   const racialCats = Data.minorityCategories.map( d => d );
   racialCats.pop();
@@ -33,7 +25,7 @@ export default function(){
         </svg></div>
         <div>
           <h4>
-            <small>${language[d]}</small>
+            <small data-i18n="ta-${d}"></small>
             ${displayName}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
           </h4>
         </div>`;
