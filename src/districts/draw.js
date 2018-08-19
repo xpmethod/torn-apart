@@ -18,6 +18,7 @@ export default function(map){
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const transform = geoTransform({ point: projectPoint }),
     path = geoPath().projection(transform);
+  congressionalDistricts.features = congressionalDistricts.features.filter(d => d.properties.total_value > 0);
   const bins = ckmeans(congressionalDistricts.features.map(d => d.properties.total_value), 5);
   bins.shift();
   districtsLegend(bins);
