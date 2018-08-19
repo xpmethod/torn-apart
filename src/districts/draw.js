@@ -28,7 +28,6 @@ export default function(map){
   const feature = g.selectAll("path").data(congressionalDistricts.features)
     .enter().append("path")
     .each(d => {
-      d.tooltip = (districtsTooltip(d));
       d.mouseOver = () => true;
       d.mouseOut = () => true;
       d.color = purple;
@@ -41,6 +40,7 @@ export default function(map){
     .style("stroke", d => d.color)
     .style("stroke-opacity", 0.8)
     .on("mouseover", function(d){
+      d.tooltip = districtsTooltip(d);
       select(this)
         .attr("fill-opacity", 1)
         .attr("filter", "url(#filter-glow-districts)");
