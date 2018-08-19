@@ -18,7 +18,6 @@ export default function(){
     .html((d,i) => {
       const profiteer = Data.biggestProfiteers[d];
       const company = getDecoration(profiteer.duns);
-      let displayName = company.url ? `<a href="${company.url}">${company.cleanName}</a>` : company.cleanName;
       return `<div class="mr-2"><svg width="${rem}" height="${rem}">
           <rect width="${rem}" height="${rem}" 
           transform="translate(0,${0})" fill="${colors[i]}">
@@ -26,7 +25,7 @@ export default function(){
         <div>
           <h4>
             <small data-i18n="ta-${d}"></small>
-            ${displayName}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
+            ${company.cleanName}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
           </h4>
         </div>`;
     });
