@@ -4,6 +4,7 @@ import _ from "lodash";
 import slugify from "slugify";
 import { rem } from "./constants";
 import { format } from "d3-format";
+import getOrdinalSuffixOrig from "./get-ordinal-suffix";
 
 export function moveLegend() {
   $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
@@ -75,9 +76,7 @@ export function slug(string) {
 }
 
 export function getOrdinalSuffix(n) {
-  const suffix = ["th", "st", "nd", "rd"],
-    variance = n % 100;
-  return suffix[(variance - 20) % 10]||suffix[variance]||suffix[0];
+  return getOrdinalSuffixOrig(n);
 }
 
 export function fillV2DivHeight(elementAbove){

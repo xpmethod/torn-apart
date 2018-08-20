@@ -5,14 +5,11 @@ import parse from "csv-parse";
 import parseSync from "csv-parse/lib/sync";
 import _ from "lodash";
 
-export default function(){
+export default function(decorations){
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if(err) throw err;
     parse(data, {columns: true}, (err, rawAwards) => {
       if(err) throw err;
-      const decorations = parseSync(
-        readFileSync(path.join("data", "vendor_decorations.csv")),
-        { columns: true });
       const product_taxonomy = parseSync(
         readFileSync(path.join("data", "products_taxonomy.csv")),
         { columns: true });
@@ -167,9 +164,9 @@ export default function(){
         return {
           current_total_value_of_award: award.current_total_value_of_award,
           award_description: award.award_description,
-          recipient_city: _.capitalize(award.recipient_city_name),
+          recipient_city: award.recipient_city_name.split(" ").map(word => _.capitalize(word)).join(" "),
           recipient_state: award.recipient_state_code,
-          recipient_duns: award.recipient_duns,
+          // recipient_duns: award.recipient_duns,
           recipient_name: _.find(decorations, { duns: award.recipient_duns }).cleanName
         };
       }

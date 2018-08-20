@@ -31,8 +31,8 @@ export default function(map){
       d.mouseOver = () => true;
       d.mouseOut = () => true;
       d.color = purple;
-      if(d.properties.party.match(/D/)) d.color = green;
-      if(d.properties.party.match(/N/)) d.color = orange;
+      if(d.properties.party.match(/democrat/)) d.color = green;
+      if(d.properties.party.match(/no-rep/)) d.color = orange;
     })
     .style("pointer-events", "painted")
     .attr("fill", d => d.color)

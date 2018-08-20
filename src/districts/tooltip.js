@@ -1,53 +1,17 @@
-import _ from "lodash";
 import $ from "jquery";
-import getDecoration from "../get-decoration";
-import { getOrdinalSuffix } from "../utils";
-import states from "../states";
 import { bigMoneyFormat } from "../utils";
 
 export default function (geoJSONFeature){
   const d = geoJSONFeature.properties;
-  const state = _.find(states, { stateFP: d.STATEFP }).name;
-  let districtName;
-  if(d.CD115FP === "00"){
-    districtName = $.i18n("ta-at-large-district");
-  } else {
-    const districtNumber = _.toInteger(d.CD115FP);
-    districtName = $.i18n(`ta-ordinal-${ getOrdinalSuffix(districtNumber) }-m`)
-      .replace(/N/, districtNumber) + " " + $.i18n("ta-district");
-  }
-  let party = "republican";
-  if(d.party.match(/D/)) party = "democrat";
-  if(d.party.match(/N/)) party = "no-rep";
-  
-  let profiteer;
-  if(d.awards.length > 0){
-
-    profiteer = _(d.awards)
-      .uniqBy("duns")
-      .map(award_recip => {
-        const name = getDecoration(award_recip.duns).cleanName;
-        return {
-          name,
-          value: _(d.awards)
-            .filter({ duns: award_recip.duns })
-            .reduce((sum, award) => sum + _.toInteger(award.currentValue), 0)
-        };
-      })
-      .sortBy(["value"])
-      .last();
-  }
-  const html = [`<h4>${ state } <small>${ districtName }</small></h4>`];
+  const html = [`<h4>${ d.state } <small>${ d.districtName }</small></h4>`];
   html.push(`<h3>${ $.i18n("ta-ice-money-since-2013-tooltip") }:<br/><strong>$${ bigMoneyFormat(d.total_value) }</strong></h3>`);
   html.push(`<img src="${ d.representative_photo_url }" 
     alt="Photo of ${ d.representative }" 
     class="rounded float-left mr-3">`);
-  html.push(`<h4><strong>${$.i18n(`ta-${ party }-cong`)}</strong></h4>`);
+  html.push(`<h4><strong>${$.i18n(`ta-${ d.party }-cong`)}</strong></h4>`);
   html.push(`<h4>${ d.representative }</h4>`);
-  if(profiteer){
-    html.push(`<h4><br />${ $.i18n("ta-districts-biggest-profiteer") }:<br />
-      ${ profiteer.name }, $${ bigMoneyFormat(profiteer.value) }</h4>`);
-  }
+  html.push(`<h4><br />${ $.i18n("ta-districts-biggest-profiteer") }:<br />
+      ${ d.profiteer.name }, $${ bigMoneyFormat(d.profiteer.value) }</h4>`);
   return html.join("\n");
 }
 // vG"properties": {

@@ -5,7 +5,7 @@ import path from "path";
 import _ from "lodash";
 import cleanNames from "./clean-names";
 
-export default function(){
+export default function(callback){
   const vendorData = JSON.parse(readFileSync(path.join("data", "vendor-duns-data.json"))); 
   parse(readFileSync(path.join("data", "follow_the_money_data.csv")),
     { columns: true },
@@ -45,6 +45,7 @@ export default function(){
           writeFile(path.join("data", "vendor_decorations.csv"), output,  (err) => {
             if(err) throw err;
             stdout.write(`There are ${vendors.length} vendors\n`);
+            callback(vendors);
           });
         });
     }

@@ -1,7 +1,7 @@
 import { select } from "d3-selection";
 import { rem, green, orange, pink, lime, beige, tan } from "../constants";
 // import gainBarsLegend from "./bars-legend";
-import getDecoration from "../get-decoration";
+// import getDecoration from "../get-decoration";
 import { bigMoneyFormat } from "../utils";
 import Data from "../../data/gain/minority-data.json";
 
@@ -17,7 +17,7 @@ export default function(){
     .attr("class", "d-flex")
     .html((d,i) => {
       const profiteer = Data.biggestProfiteers[d];
-      const company = getDecoration(profiteer.duns);
+      // const company = getDecoration(profiteer.duns);
       return `<div class="mr-2"><svg width="${rem}" height="${rem}">
           <rect width="${rem}" height="${rem}" 
           transform="translate(0,${0})" fill="${colors[i]}">
@@ -25,7 +25,7 @@ export default function(){
         <div>
           <h4>
             <small><span data-i18n="ta-${d}"></span>:</small>
-            ${company.cleanName}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
+            ${profiteer.duns}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
           </h4>
         </div>`;
     });

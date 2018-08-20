@@ -5,7 +5,7 @@ import _ from "lodash";
 import writeGeoJSON from "./write-geojson";
 import writeCSV from "./write-csv";
 
-export default function(){
+export default function(decorations){
   const contracts = parse(
     readFileSync(path.join("data", "districts", "thin_contracts.csv")),
     { columns: true });
@@ -28,6 +28,6 @@ export default function(){
       district.total_awards = district.total_awards + district[`fy${year}`];
     });
   });
-  writeGeoJSON(districts);
+  writeGeoJSON(districts, decorations);
   writeCSV(districts);
 }

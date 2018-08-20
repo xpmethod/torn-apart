@@ -1,4 +1,4 @@
-import { stdout } from "process";
+// import { stdout } from "process";
 import _ from "lodash";
 import States from "./states";
 
@@ -168,7 +168,7 @@ export default function(vendor){
   vendor.cleanName = vendor.cleanName.replace("Nc4", "NC4");
   vendor.cleanName = vendor.cleanName.replace("Bae Systems", "BAE Systems");
 
-  stdout.write(`${vendor.cleanName}          ---- (${vendor.vendorName})\n`);
+  // stdout.write(`${vendor.cleanName}          ---- (${vendor.vendorName})\n`);
 
 
   return vendor;
