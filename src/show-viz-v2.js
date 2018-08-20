@@ -1,7 +1,6 @@
 import $ from "jquery";
 import updateTexts from "./update-texts";
 import districts from "./districts";
-import beds from "./beds";
 import freezer from "./freezer";
 import rain from "./rain";
 import lines from "./lines";
@@ -34,10 +33,6 @@ export default function (viz, map){
     break;
   case "districts":
     districts(map);
-    updateTexts();
-    break;
-  case "beds":
-    beds(map);
     updateTexts();
     break;
   }
