@@ -1,6 +1,6 @@
 import $ from "jquery";
 import { select } from "d3-selection";
-import { fillV2DivHeight } from "./utils";
+import { resizeDivFromTop, fillV2DivHeight } from "./utils";
 import addGlowFilter from "./add-glow-filter";
 import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
@@ -9,6 +9,7 @@ import freezerMurderboard from "./freezer/murderboard";
 export default function(){
   $("#v2-div").show();
   $(document).ready(() => {
+    resizeDivFromTop("#v2-div");
     $("#freezer-viz").show();
     const svg = select("#freezer-svg")
       .attr("width", $("#freezer-div").width())

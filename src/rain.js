@@ -1,8 +1,12 @@
 import $ from "jquery";
 import drawBubbles from "./rain/draw-bubbles";
+import { resizeDivFromTop } from "./utils";
 
 export default function(){
-  $("#v2-div").show();
-  $("#rain-viz").show();
-  drawBubbles();
+  $(document).ready(() => {
+    $("#v2-div").show();
+    resizeDivFromTop("#v2-div");
+    $("#rain-viz").show();
+    drawBubbles();
+  });
 }
