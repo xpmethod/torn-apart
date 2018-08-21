@@ -50,14 +50,14 @@ export default function(rawDistricts, decorations){
       party,
       profiteer,
       dom_id: `district-${slug(state)}-${districtNumber}`,
-      representative: district.representative,
+      representative: district.representative.replace(/'/g, "’"),
       representative_photo_url: district.representative_photo_url,
       total_value: district.total_awards,
       district_url: district.district_url,
     };
     return feature;
   });
-  writeFile(path.join("data", "districts", "fat_districts.geo.json"), 
+  writeFile(path.join("data", "districts", "fat_districts.geo.json"),
     JSON.stringify({ type: "FeatureCollection", features }, null, 2), (err) => {
       if(err) throw err;
       stdout.write("WE DID THE GEOJSON 🌎\n");
