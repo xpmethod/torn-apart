@@ -24,11 +24,11 @@ export default function(){
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
     .range(circleSizes);
-  const color = scaleOrdinal()
-    .domain([ "TRUE", "FALSE" ])
-    .range([ purple, green ]);
+  const lightColor = scaleOrdinal() 
+    .domain(["FALSE", "TRUE"])
+    .range([green, purple]);
   const darkColor = scaleOrdinal() //for darkening on mouseover
-    .domain(["TRUE", "FALSE"])
+    .domain(["FALSE", "TRUE"])
     .range([ "#2d715c", "#344873"]);
   const theTip = tip()
     .attr("class", "tooltip")
@@ -81,7 +81,7 @@ export default function(){
   g.selectAll("circle")
     .data(Data).enter()
     .append("circle")
-    .style("fill", d => color(d.multiYear))
+    .style("fill", d => lightColor(d.multiYear))
     .attr("r", d => r(d.currentValue))
     .attr("cx", d => d.x)
     .attr("cy", d => d.y)
@@ -95,7 +95,7 @@ export default function(){
       select("#rain-g").selectAll(".node" + d.duns).style("fill", darkColor(d.multiYear));
     })
     .on("mouseout", function(d) {
-      select("#rain-g").selectAll(".node" + d.duns).style("fill", d => color(d.multiYear));
+      select("#rain-g").selectAll(".node" + d.duns).style("fill", lightColor(d.multiYear));
       theTip.hide(d, this);
     });  
     
