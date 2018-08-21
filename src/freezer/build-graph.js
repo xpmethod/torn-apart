@@ -122,7 +122,7 @@ export default function(decorations){
           _(graph.links)
             .filter(link => link.source === companyNode.id)
             .each(companyLink => {
-              companyLink.contract_value = _.reduce(awards.filter(award => award.recipient_duns === companyNode.name && award.product_combo === companyLink.target),
+              companyLink.contract_value = _.reduce(awards.filter(award => award.recipient_duns === companyNode.id && award.product_combo === companyLink.target),
                 (sum, award) => {
                   return sum + _.toInteger(award.current_total_value_of_award);
                 }, 0);
