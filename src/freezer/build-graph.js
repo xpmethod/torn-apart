@@ -167,7 +167,9 @@ export default function(decorations){
           recipient_city: award.recipient_city_name.split(" ").map(word => _.capitalize(word)).join(" "),
           recipient_state: award.recipient_state_code,
           // recipient_duns: award.recipient_duns,
-          recipient_name: _.find(decorations, { duns: award.recipient_duns }).cleanName
+          recipient_name: _.find(decorations, { duns: award.recipient_duns }).cleanName,
+          naics_cat: award.naics_cat,
+          naics_description: titleUp(award.naics_description)
         };
       }
 
