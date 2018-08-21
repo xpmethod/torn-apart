@@ -16,7 +16,7 @@ export default function(width, height){
   const countData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
     countData[0][cat] = Data.minorityCompanies[cat].count;
-    countData[1][cat] = Data.intersectionalCompanies[cat].count;
+    countData[1][cat] = Data.intersectionalCompanies[cat] ? Data.intersectionalCompanies[cat].count : 0;
   });
   const valueData = [{type: "Minority"}, {type:"Woman"}];
   _.each(Data.minorityCategories, cat => {
