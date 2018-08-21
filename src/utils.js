@@ -5,6 +5,7 @@ import slugify from "slugify";
 import { rem } from "./constants";
 import { format } from "d3-format";
 import getOrdinalSuffixOrig from "./get-ordinal-suffix";
+import titleUpOrig from "./title-up";
 
 export function moveLegend() {
   $("#legend").css("top", ($(window).height() - $("#legend").height() - $(".leaflet-control-attribution").height() - 18));
@@ -18,8 +19,8 @@ export function defaultRadius() {
   }
 }
 
-export function titleUp(string) {
-  return _.words(string).map( word => _.capitalize(word)).join(" ");
+export function titleUp(string){
+  return titleUpOrig(string);
 }
 
 export function resizeDivFromTop(div) {

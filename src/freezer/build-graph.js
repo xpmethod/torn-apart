@@ -4,6 +4,7 @@ import path from "path";
 import parse from "csv-parse";
 import parseSync from "csv-parse/lib/sync";
 import _ from "lodash";
+import titleUp from "../title-up";
 
 export default function(decorations){
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
@@ -14,7 +15,6 @@ export default function(decorations){
         readFileSync(path.join("data", "products_taxonomy.csv")),
         { columns: true });
       _.each(product_taxonomy, row => { row.tas_taxonomy = row.tas_taxonomy.trim(); });
-      // const product_categories = _.cloneDeep(product_taxonomy);
       const awards = rawAwards.filter(award => award.fiscal_year === "2018");
       const companies = [];
       const products = [];
@@ -22,7 +22,7 @@ export default function(decorations){
       const product_categories = [];
       _.each(awards, (award) => {
         award.naics_cat = _.find(product_taxonomy, { "naics_description": award.naics_description }).tas_taxonomy;
-        award.product_combo = award.naics_description + "||" + award.naics_cat;
+        award.product_combo = titleUp(award.naics_description) + "||" + award.naics_cat;
         award.company_combo = award.recipient_duns + "||" + award.recipient_parent_duns;
         companies.push(award.company_combo);
         products.push(award.product_combo);
@@ -40,7 +40,7 @@ export default function(decorations){
         { source_array: parent_companies_uniq,
           category: "parent company",
           source_column: "recipient_parent_duns",
-          target_column: "company_combo"
+          target_column: "company_combo",
           // target_column: "recipient_duns"
         },
         { source_array: product_categories_uniq,
@@ -52,14 +52,14 @@ export default function(decorations){
           category: "company",
           source_column: "company_combo",
           target_column: "product_combo",
-          combo: true
+          combo: true,
         }
       ], (sources) => {
         _.each(sources.source_array, (source) => {
-          const name = sources.combo ? source.split("||")[0] : source;
+          const origName = sources.combo ? source.split("||")[0] : source;
           const childOf = sources.combo ? source.split("||")[1] : null;
-          const displayName = name.match(/^\d*$/) ? _.find(decorations, { duns: name }).cleanName : name;
-          graph.nodes.push({ id: source, name, childOf, category: sources.category, displayName });
+          const name = origName.match(/^\d*$/) ? _.find(decorations, { duns: origName }).cleanName : origName;
+          graph.nodes.push({ id: source, name, childOf, category: sources.category });
           const targets_all = awards.map((award) => {
             if(award[sources.source_column] === source){
               return award[sources.target_column];
@@ -100,7 +100,7 @@ export default function(decorations){
 
       _(graph.nodes.filter(node => node.category === "parent company"))
         .each(parentCompany => {
-          parentCompany.awards = awards.filter(award => award.recipient_parent_duns === parentCompany.name)
+          parentCompany.awards = awards.filter(award => award.recipient_parent_duns === parentCompany.id)
             .map(thinAward);
           parentCompany.total_value = parentCompany.awards.reduce( (sum, award) => {
             return sum + _.toInteger(award.current_total_value_of_award);
@@ -109,7 +109,7 @@ export default function(decorations){
 
       _(graph.nodes.filter(node => node.category === "company"))
         .each(company => {
-          company.awards = awards.filter(award => award.recipient_duns === company.name)
+          company.awards = awards.filter(award => award.recipient_duns === company.id.replace(/|.*$/, ""))
             .map(thinAward);
           company.total_value = company.awards.reduce( (sum, award) => {
             return sum + _.toInteger(award.current_total_value_of_award);
@@ -163,7 +163,7 @@ export default function(decorations){
       function thinAward(award){
         return {
           current_total_value_of_award: award.current_total_value_of_award,
-          award_description: award.award_description,
+          award_description: titleUp(award.award_description.replace(/^IGF\S*/, "")),
           recipient_city: award.recipient_city_name.split(" ").map(word => _.capitalize(word)).join(" "),
           recipient_state: award.recipient_state_code,
           // recipient_duns: award.recipient_duns,
@@ -175,4 +175,3 @@ export default function(decorations){
   }); // close readFile
 
 }
-
