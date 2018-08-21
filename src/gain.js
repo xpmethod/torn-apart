@@ -15,8 +15,8 @@ export default function(){
     $("#gain-viz").show();
     gainDisplay();
     gainProfiteers();
-    gainCarousel();
     spinner.stop();
+    gainCarousel();
   });
 }
 
