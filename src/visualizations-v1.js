@@ -2,7 +2,9 @@ import $ from "jquery";
 import initMap from "./map-init";
 import showViz from "./show-viz-v1";
 import { resizeDivFromTop } from "./utils";
+import spinner from "./spinner";
 
+spinner.stop();
 const map = initMap("visualizations-mapdiv");
 const theViz = window.location.href.replace(/^.*#/, "");
 let timer;
