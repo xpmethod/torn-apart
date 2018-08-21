@@ -1,7 +1,7 @@
 import $ from "jquery";
 import L from "leaflet";
 import _ from "lodash";
-import slugify from "slugify";
+import slugOrig from "./slug";
 import { rem } from "./constants";
 import { format } from "d3-format";
 import getOrdinalSuffixOrig from "./get-ordinal-suffix";
@@ -66,14 +66,7 @@ export function mapZoomDisable(map) {
 }
 
 export function slug(string) {
-  return slugify(
-    _.chain(string)
-      .toLower()
-      .words()
-      .value()
-      .join("-")
-      .replace("'", "")
-  );
+  return slugOrig(string);
 }
 
 export function getOrdinalSuffix(n) {
