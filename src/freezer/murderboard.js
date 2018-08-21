@@ -156,7 +156,7 @@ export default function(){
   // });
 
   nodes.append("title")
-    .text( d => d.id );
+    .text( d => d.name );
 
   theZoom(svg);
   theZoom.scaleTo(svg, .0001);

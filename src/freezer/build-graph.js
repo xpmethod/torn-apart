@@ -39,6 +39,7 @@ export default function(decorations){
       _.each([
         { source_array: parent_companies_uniq,
           category: "parent company",
+          // source_column: "recipient_duns",
           source_column: "recipient_parent_duns",
           target_column: "company_combo",
           // target_column: "recipient_duns"
@@ -56,6 +57,7 @@ export default function(decorations){
         }
       ], (sources) => {
         _.each(sources.source_array, (source) => {
+          // source = duns, naics_cat, company_combo
           const origName = sources.combo ? source.split("||")[0] : source;
           const childOf = sources.combo ? source.split("||")[1] : null;
           const name = origName.match(/^\d*$/) ? _.find(decorations, { duns: origName }).cleanName : origName;
@@ -65,12 +67,10 @@ export default function(decorations){
               return award[sources.target_column];
             } // close if
           }); // close awards.map
-          _.each(_.uniq(targets_all), (target) => {
-            if(target){
-              if( source !== target && source !== target.replace(/\|.*$/, "")){
-                const localSource = () => sources.combo && source.split("||")[0] === source.split("||")[1] ? source.split("||")[1] : source;
-                graph.links.push({ source: localSource(), target });
-              }
+          _.each(_(targets_all).uniq().compact().value(), (target) => {
+            if( source !== target || source !== target.replace(/\|.*$/, "")){
+              const localSource = sources.combo && source.split("||")[0] === source.split("||")[1] ? source.split("||")[1] : source;
+              graph.links.push({ source: localSource, target });
             }
           }); // close each on targets_all
         }); // close each on sources.source_array
