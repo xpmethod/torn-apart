@@ -26,17 +26,6 @@
   }
 }
 
-.tooltip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 12px;
-  width: 100%;
-  line-height: 1;
-  color: $fadedpurple;
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
 
 .tooltip.n:after {
   margin: -1px 0 0 0;
