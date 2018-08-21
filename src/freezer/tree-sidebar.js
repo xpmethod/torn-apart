@@ -24,7 +24,7 @@ export default function (data){
     .selectAll("div")
     .data(_.shuffle(data.nodes.filter( node => node.category === "parent company")))
     .enter().append("div")
-    .attr("id", d => `treemap-card-${slug(d.name)}`)
+    .attr("id", d => `treemap-card-${slug(d.id)}`)
     .classed("carousel-item", true)
     .html(treeSidebarEntry);
 
