@@ -5,6 +5,7 @@ import path from "path";
 import _ from "lodash";
 import states from "../states";
 import getOrdinalSuffix from "../get-ordinal-suffix";
+import slug from "../slug";
 
 export default function(rawDistricts, decorations){
   const geoJSON = JSON.parse(
@@ -48,6 +49,7 @@ export default function(rawDistricts, decorations){
       districtName,
       party,
       profiteer,
+      dom_id: `district-${slug(state)}-${districtNumber}`,
       representative: district.representative,
       representative_photo_url: district.representative_photo_url,
       total_value: district.total_awards,

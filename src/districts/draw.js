@@ -52,7 +52,7 @@ export default function(map){
         .attr("filter", "");
       handleMouseOut(d);
     })
-    .attr("id", d => d.id);
+    .attr("id", d => d.properties.dom_id);
   
   reset();
   map.on("zoomend", reset);

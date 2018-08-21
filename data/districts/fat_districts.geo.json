@@ -429,6 +429,7 @@
           "name": "MMI Outdoor",
           "value": 38576
         },
+        "dom_id": "district-alabama-2",
         "representative": "Martha Roby",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Martha_roby_113_congressional_portrait_%28cropped%29.jpg",
         "total_value": 38577.4,
@@ -807,6 +808,7 @@
           "name": "Cold Box Express",
           "value": 171873
         },
+        "dom_id": "district-alabama-4",
         "representative": "Robert Aderholt",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rep._Robert_B._Aderholt_%28cropped%29.jpg",
         "total_value": 171873.55,
@@ -1017,6 +1019,7 @@
           "name": "FPMI Solutions",
           "value": 25672
         },
+        "dom_id": "district-alabama-5",
         "representative": "Mo Brooks",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Mo_Brooks_Portrait_%28cropped%29.jpg",
         "total_value": 40346,
@@ -1375,6 +1378,7 @@
           "name": "Altec Industries",
           "value": 2515330
         },
+        "dom_id": "district-alabama-6",
         "representative": "Gary Palmer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gary_Palmer_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 2515331.75,
@@ -1853,6 +1857,7 @@
           "name": "One Stop Environmental",
           "value": 1028402
         },
+        "dom_id": "district-alabama-7",
         "representative": "Terri Sewell",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Terri_Sewell_official_photo_%28cropped%29.jpg",
         "total_value": 1322097.6,
@@ -11139,6 +11144,7 @@
           "name": "Akima Global Services",
           "value": 276900494
         },
+        "dom_id": "district-alaska-0",
         "representative": "Don Young",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Don_Young%2C_official_115th_Congress_photo_portrait_%28cropped%29.jpg",
         "total_value": 889752125.2799999,
@@ -11897,6 +11903,7 @@
           "name": "Paul Palmer",
           "value": 34306
         },
+        "dom_id": "district-arizona-1",
         "representative": "Tom O'Halleran",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tom_O%27Halleran_official_portrait_%28cropped%29.jpg",
         "total_value": 34306,
@@ -12047,6 +12054,7 @@
           "name": "Arcos de Oro",
           "value": 44939
         },
+        "dom_id": "district-arizona-2",
         "representative": "Martha McSally",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Martha_McSally_official_portrait_%28cropped%29.jpg",
         "total_value": 44939.12,
@@ -12361,6 +12369,7 @@
           "name": "Babco International",
           "value": 17161
         },
+        "dom_id": "district-arizona-3",
         "representative": "Raúl Grijalva",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Raul_Grijalva_Official_Portrait%2C_2015_%28cropped%29.jpg",
         "total_value": 25428.199999999997,
@@ -13447,6 +13456,7 @@
           "name": "County of Pinal",
           "value": 13842
         },
+        "dom_id": "district-arizona-4",
         "representative": "Paul Gosar",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Paul_Gosar_official_portrait_September_2016_%28cropped%29.jpg",
         "total_value": 13843.06,
@@ -13521,6 +13531,7 @@
           "name": "Apl Access & Security",
           "value": 26701
         },
+        "dom_id": "district-arizona-5",
         "representative": "Andy Biggs",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Andy_Biggs%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg",
         "total_value": 30436.57,
@@ -13627,6 +13638,7 @@
           "name": "National Law Enforcement Telecommunications Systems",
           "value": 4042920
         },
+        "dom_id": "district-arizona-6",
         "representative": "David Schweikert",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/David_Schweikert%2C_official_portrait%2C_112th_Congress_2_%28cropped%29.jpg",
         "total_value": 4724541.35,
@@ -13705,6 +13717,7 @@
           "name": "BAE Systems Protection Systems",
           "value": 684863
         },
+        "dom_id": "district-arizona-7",
         "representative": "Ruben Gallego",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ruben_Gallego_official_photo_%28cropped%29.jpg",
         "total_value": 705433.12,
@@ -13839,6 +13852,7 @@
           "name": "BSE Performance",
           "value": 22660
         },
+        "dom_id": "district-arizona-8",
         "representative": "Debbie Lesko",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Debbie_Lesko%2C_official_portrait%2C_115th_Congress.jpg",
         "total_value": 40960,
@@ -13909,6 +13923,7 @@
           "name": "At Your Service Heating & Cooling",
           "value": 444567
         },
+        "dom_id": "district-arizona-9",
         "representative": "Kyrsten Sinema",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Rep_Kyrsten_Sinema%2C_official_portrait_%28cropped%29.jpg",
         "total_value": 821111.0700000001,
@@ -14155,6 +14170,7 @@
           "name": "Crime Information Center, Arkansas",
           "value": 19129
         },
+        "dom_id": "district-arkansas-2",
         "representative": "French Hill",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/French_Hill_official_photo_%28cropped%29.jpg",
         "total_value": 19129.43,
@@ -14829,6 +14845,7 @@
           "name": "Safari Books Online",
           "value": 71600
         },
+        "dom_id": "district-california-2",
         "representative": "Jared Huffman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Jared_Huffman_official_photo_%28cropped%29.png",
         "total_value": 71600,
@@ -15227,6 +15244,7 @@
           "name": "Spectrum Services Group",
           "value": 284748
         },
+        "dom_id": "district-california-3",
         "representative": "John Garamendi",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/John_Garamendi_113th_Congress.jpg",
         "total_value": 307967,
@@ -15613,6 +15631,7 @@
           "name": "Trofholz Technologies",
           "value": 4292761
         },
+        "dom_id": "district-california-4",
         "representative": "Tom McClintock",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tom_McClintock_official_portrait_%28cropped%29.jpg",
         "total_value": 4306605.08,
@@ -15719,6 +15738,7 @@
           "name": "N California Regional Public Safety Training Authority",
           "value": 63362
         },
+        "dom_id": "district-california-6",
         "representative": "Doris Matsui",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Doris_Matsui_Official_Photo_%28cropped%29.JPG",
         "total_value": 130131.4,
@@ -15809,6 +15829,7 @@
           "name": "Visionary Integration Professionals",
           "value": 15791924
         },
+        "dom_id": "district-california-7",
         "representative": "Ami Bera",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ami_Bera_official_portrait_%28cropped_2%29.jpg",
         "total_value": 15885801.82,
@@ -15955,6 +15976,7 @@
           "name": "Safe Restraints",
           "value": 82918
         },
+        "dom_id": "district-california-11",
         "representative": "Mark DeSaulnier",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mark_DeSaulnier-1_%28cropped%29.jpeg",
         "total_value": 82918.08,
@@ -16025,6 +16047,7 @@
           "name": "Blackstone Technology Group",
           "value": 2688034
         },
+        "dom_id": "district-california-12",
         "representative": "Nancy Pelosi",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nancy_Pelosi_2012_%28cropped_2%29.jpg",
         "total_value": 3605698.13,
@@ -16103,6 +16126,7 @@
           "name": "Total Concept 360 Consulting",
           "value": 336214
         },
+        "dom_id": "district-california-13",
         "representative": "Barbara Lee",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Barbara_Lee_official_portrait_%28cropped%29.jpg",
         "total_value": 668990.16,
@@ -16225,6 +16249,7 @@
           "name": "Motiondsp",
           "value": 102002
         },
+        "dom_id": "district-california-14",
         "representative": "Jackie Speier",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Jackie_Speier_official_photo_%28cropped%29.jpg",
         "total_value": 135297.3,
@@ -16363,6 +16388,7 @@
           "name": "Annams Systems Corporation",
           "value": 450769
         },
+        "dom_id": "district-california-15",
         "representative": "Eric Swalwell",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Eric_Swalwell_114th_official_photo_%28cropped_2%29.jpg",
         "total_value": 450769.9,
@@ -16441,6 +16467,7 @@
           "name": "New Tech Solutions",
           "value": 792422
         },
+        "dom_id": "district-california-17",
         "representative": "Ro Khanna",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ro_Khanna%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg",
         "total_value": 1499515.92,
@@ -16583,6 +16610,7 @@
           "name": "Palantir Technologies",
           "value": 64145872
         },
+        "dom_id": "district-california-18",
         "representative": "Anna Eshoo",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rep_Anna_Eshoo_%28cropped%29.jpg",
         "total_value": 65032256.58,
@@ -16717,6 +16745,7 @@
           "name": "County of Santa Clara",
           "value": 6197
         },
+        "dom_id": "district-california-19",
         "representative": "Zoe Lofgren",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Zoe_Lofgren%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 6197.85,
@@ -16951,6 +16980,7 @@
           "name": "Language Line",
           "value": 74334
         },
+        "dom_id": "district-california-20",
         "representative": "Jimmy Panetta",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Jimmy_Panetta_official_portrait_%28cropped%29.jpg",
         "total_value": 74334.1,
@@ -17145,6 +17175,7 @@
           "name": "California Highway Patrolman’s Club",
           "value": 25999
         },
+        "dom_id": "district-california-22",
         "representative": "Devin Nunes",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Devin_Nunes_%28cropped%29.jpg",
         "total_value": 25999.2,
@@ -17559,6 +17590,7 @@
           "name": "County of Kern",
           "value": 18360
         },
+        "dom_id": "district-california-23",
         "representative": "Kevin McCarthy",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/House_Maj._Leader_Kevin_McCarthy_official_photo_%28cropped%29.jpg",
         "total_value": 18360,
@@ -18021,6 +18053,7 @@
           "name": "Tecolote Research",
           "value": 28000
         },
+        "dom_id": "district-california-24",
         "representative": "Salud Carbajal",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Salud_Carbajal_official_photo_%28cropped%29.jpg",
         "total_value": 28000,
@@ -18255,6 +18288,7 @@
           "name": "Anacapa Micro Products",
           "value": 4593358
         },
+        "dom_id": "district-california-26",
         "representative": "Julia Brownley",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Julia_Brownley_official_photo_%28cropped%29.jpg",
         "total_value": 4677619.38,
@@ -18385,6 +18419,7 @@
           "name": "Guidance Software",
           "value": 132990
         },
+        "dom_id": "district-california-27",
         "representative": "Judy Chu",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Judy_Chu_official_photo_%28cropped%29.jpg",
         "total_value": 132990,
@@ -18483,6 +18518,7 @@
           "name": "Aramark Uniform & Career Apparel",
           "value": 49409
         },
+        "dom_id": "district-california-28",
         "representative": "Adam Schiff",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Adam_Schiff_official_portrait_%28cropped%29.jpg",
         "total_value": 89742.88,
@@ -18569,6 +18605,7 @@
           "name": "Logicube",
           "value": 87000
         },
+        "dom_id": "district-california-30",
         "representative": "Brad Sherman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brad_Sherman_official_photo_%28cropped%29.jpg",
         "total_value": 91240,
@@ -18679,6 +18716,7 @@
           "name": "Environmental Systems Research Institute",
           "value": 31920
         },
+        "dom_id": "district-california-31",
         "representative": "Pete Aguilar",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pete_Aguilar_official_portrait_114th_Congress_%28cropped%29.jpg",
         "total_value": 39327,
@@ -18753,6 +18791,7 @@
           "name": "Aardvark",
           "value": 5967022
         },
+        "dom_id": "district-california-32",
         "representative": "Grace Napolitano",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rep-Napolitano_%28cropped%29.jpg",
         "total_value": 5967031.82,
@@ -18923,6 +18962,7 @@
           "name": "Stamps.com",
           "value": 467136
         },
+        "dom_id": "district-california-33",
         "representative": "Ted Lieu",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Congressman_Ted_W._Lieu_official_photo_%28cropped%29.jpg",
         "total_value": 476561,
@@ -19021,6 +19061,7 @@
           "name": "Prado Family Shooting Range",
           "value": 240800
         },
+        "dom_id": "district-california-35",
         "representative": "Norma Torres",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Norma_Torres_115th_official_photo_%28cropped%29.jpg",
         "total_value": 273999.74,
@@ -19215,6 +19256,7 @@
           "name": "Af&s Products & Services",
           "value": 17938
         },
+        "dom_id": "district-california-36",
         "representative": "Raul Ruiz",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Raul_Ruiz%2C_official_portrait%2C_113th_congress_%28cropped%29.jpg",
         "total_value": 17938.8,
@@ -19273,6 +19315,7 @@
           "name": "Simon Wiesenthal Center",
           "value": 142800
         },
+        "dom_id": "district-california-37",
         "representative": "Karen Bass",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Karen-Bass-2012_%28cropped%29.jpg",
         "total_value": 149676.89,
@@ -19371,6 +19414,7 @@
           "name": "IMPRES Technology Solutions",
           "value": 171671
         },
+        "dom_id": "district-california-38",
         "representative": "Linda Sánchez",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Linda_S%C3%A1nchez_official_photo_%28cropped%29.jpg",
         "total_value": 171672.21,
@@ -19481,6 +19525,7 @@
           "name": "Starside Security and Investigation",
           "value": 2571603
         },
+        "dom_id": "district-california-39",
         "representative": "Ed Royce",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Edward_Royce%2C_official_photo_portrait_color_%28cropped%29.jpg",
         "total_value": 2797242.64,
@@ -19539,6 +19584,7 @@
           "name": "Branded Global Partners",
           "value": 2994
         },
+        "dom_id": "district-california-43",
         "representative": "Maxine Waters",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Congresswoman_Waters_official_photo_%28cropped%29.jpg",
         "total_value": 2994.32,
@@ -19617,6 +19663,7 @@
           "name": "International Television",
           "value": 3884
         },
+        "dom_id": "district-california-44",
         "representative": "Nanette Barragán",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nanette_Barragan_official_portrait_%28cropped_2%29.jpg",
         "total_value": 3884.7,
@@ -19695,6 +19742,7 @@
           "name": "Susteen",
           "value": 94690
         },
+        "dom_id": "district-california-45",
         "representative": "Mimi Walters",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Mimi_Walters_full_official_photo_%28cropped%29.jpg",
         "total_value": 216369.71,
@@ -19757,6 +19805,7 @@
           "name": "Pacific Lighting Management",
           "value": 54912
         },
+        "dom_id": "district-california-46",
         "representative": "Lou Correa",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lou_Correa_official_portrait.jpg",
         "total_value": 70587.15,
@@ -19931,6 +19980,7 @@
           "name": "Fleet Management Solutions",
           "value": 1245845
         },
+        "dom_id": "district-california-47",
         "representative": "Alan Lowenthal",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Alan_Lowenthal_113th_Congress_Portrait_%28cropped%29.jpeg",
         "total_value": 1360068.72,
@@ -20025,6 +20075,7 @@
           "name": "Adaptive Digital Systems",
           "value": 1313374
         },
+        "dom_id": "district-california-48",
         "representative": "Dana Rohrabacher",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Dana_Rohrabacher_official_photo_%28cropped%29.jpg",
         "total_value": 1348702.4000000001,
@@ -20163,6 +20214,7 @@
           "name": "Xrad Tele-Services",
           "value": 2467760
         },
+        "dom_id": "district-california-49",
         "representative": "Darrell Issa",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Congressman_Darrell_Issa_%28cropped%29.jpg",
         "total_value": 4832184.57,
@@ -20385,6 +20437,7 @@
           "name": "Spectrum Security Services",
           "value": 863184037
         },
+        "dom_id": "district-california-50",
         "representative": "Duncan D. Hunter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Duncan_D._Hunter%2C_official_photo_portrait%2C_111th_Congress.jpg",
         "total_value": 863249033.5200001,
@@ -20635,6 +20688,7 @@
           "name": "Hariom",
           "value": 624750
         },
+        "dom_id": "district-california-51",
         "representative": "Juan Vargas",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Juan_Vargas_official_photo.jpg",
         "total_value": 1478000.6500000001,
@@ -20805,6 +20859,7 @@
           "name": "Leidos",
           "value": 461705071
         },
+        "dom_id": "district-california-52",
         "representative": "Scott Peters",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Scott_Peter%27s_Official_113th_Congressional_Portrait_%28cropped%29.jpg",
         "total_value": 469904333.9,
@@ -20875,6 +20930,7 @@
           "name": "Blue Tech",
           "value": 2427534
         },
+        "dom_id": "district-california-53",
         "representative": "Susan Davis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Susan_A._Davis_113th_Congress.jpg",
         "total_value": 2497500.66,
@@ -21005,6 +21061,7 @@
           "name": "Denver Health and Hospitals Authority",
           "value": 24360
         },
+        "dom_id": "district-colorado-1",
         "representative": "Diana DeGette",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Diana_DeGette_official_photo_%28cropped_2%29.jpg",
         "total_value": 28585.22,
@@ -21319,6 +21376,7 @@
           "name": "B.i.",
           "value": 390403200
         },
+        "dom_id": "district-colorado-2",
         "representative": "Jared Polis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jared_Polis_official_photo_%28cropped%29.jpg",
         "total_value": 390959143.09999996,
@@ -21733,6 +21791,7 @@
           "name": "Sandoval Custom Creations",
           "value": 63600
         },
+        "dom_id": "district-colorado-4",
         "representative": "Ken Buck",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ken_Buck_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 185884,
@@ -21919,6 +21978,7 @@
           "name": "The Centurion Group",
           "value": 5080909
         },
+        "dom_id": "district-colorado-5",
         "representative": "Doug Lamborn",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Doug_Lamborn_official_portrait_%28cropped%29.jpg",
         "total_value": 7061507.07,
@@ -22109,6 +22169,7 @@
           "name": "Colt Defense",
           "value": 2804209
         },
+        "dom_id": "district-connecticut-1",
         "representative": "John B. Larson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/John_B_Larson%2C_Official_Portrait%2C_circa_111_-_112th_Congress.jpg",
         "total_value": 2842490,
@@ -22387,6 +22448,7 @@
           "name": "Connecticut Trailers",
           "value": 22210
         },
+        "dom_id": "district-connecticut-2",
         "representative": "Joe Courtney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Joe_Courtney_official_photo_%28cropped_2%29.jpg",
         "total_value": 22210,
@@ -22589,6 +22651,7 @@
           "name": "Department of Emergency Services and Public Protection",
           "value": 28168
         },
+        "dom_id": "district-connecticut-3",
         "representative": "Rosa DeLauro",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Rosa_DeLauro_Portrait.jpg",
         "total_value": 28169.839999999997,
@@ -22795,6 +22858,7 @@
           "name": "BML Tool & Mfg",
           "value": 27405
         },
+        "dom_id": "district-connecticut-4",
         "representative": "Jim Himes",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Jim_Himes_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 37594.08,
@@ -23017,6 +23081,7 @@
           "name": "General Dynamics Ordnance and Tactical Systems - Simunition Operations",
           "value": 200518
         },
+        "dom_id": "district-connecticut-5",
         "representative": "Elizabeth Esty",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Elizabeth_Esty_114th_official_portrait_%28cropped%29.jpg",
         "total_value": 200522.13,
@@ -23255,6 +23320,7 @@
           "name": "Sumuri",
           "value": 22017
         },
+        "dom_id": "district-delaware-0",
         "representative": "Lisa Blunt Rochester",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Lisa_Blunt_Rochester_official_photo_%28cropped%29.jpg",
         "total_value": 56804.46,
@@ -23321,6 +23387,7 @@
           "name": "Mckinsey & Company, Inc. Washington D.C.",
           "value": 43867737
         },
+        "dom_id": "district-districtofcolumbia-98",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 111844919.83000001,
@@ -23991,6 +24058,7 @@
           "name": "Patriot Solutions",
           "value": 1723497
         },
+        "dom_id": "district-florida-2",
         "representative": "Neal Dunn",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Neal_Dunn_115th_Congress_photo_%28cropped%29.jpg",
         "total_value": 1834817.4,
@@ -24169,6 +24237,7 @@
           "name": "Sampson Partners",
           "value": 234019
         },
+        "dom_id": "district-florida-3",
         "representative": "Ted Yoho",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ted_Yoho_official_photo_%28cropped%29.jpg",
         "total_value": 234021.66000000003,
@@ -24427,6 +24496,7 @@
           "name": "A. Harold and Associates",
           "value": 3784859
         },
+        "dom_id": "district-florida-4",
         "representative": "John Rutherford",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/John_Rutherford_official_photo_%28cropped%29.jpg",
         "total_value": 3939860.8499999996,
@@ -24817,6 +24887,7 @@
           "name": "SCIF Solutions",
           "value": 405442
         },
+        "dom_id": "district-florida-5",
         "representative": "Al Lawson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Al_Lawson_115th_Congress_photo_%28cropped%29.jpg",
         "total_value": 788309.0700000001,
@@ -24919,6 +24990,7 @@
           "name": "Global Reach Petroleum",
           "value": 597200
         },
+        "dom_id": "district-florida-7",
         "representative": "Stephanie Murphy",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Stephanie_Murphy_official_photo_%28cropped%29.jpg",
         "total_value": 642233.56,
@@ -25061,6 +25133,7 @@
           "name": "Harris Corporation",
           "value": 4832000
         },
+        "dom_id": "district-florida-8",
         "representative": "Bill Posey",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bill_Posey_%28cropped%29.jpg",
         "total_value": 12474147.149999999,
@@ -25171,6 +25244,7 @@
           "name": "Loyal Source Government Services",
           "value": 192298
         },
+        "dom_id": "district-florida-9",
         "representative": "Darren Soto",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Darren_Soto_115th_Congress_photo_%28cropped%29.jpg",
         "total_value": 192298.16,
@@ -25249,6 +25323,7 @@
           "name": "Jasper Sawyer Company",
           "value": 929571
         },
+        "dom_id": "district-florida-10",
         "representative": "Val Demings",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/US_Rep_Val_Demings_%28cropped%29.jpg",
         "total_value": 940271.85,
@@ -25363,6 +25438,7 @@
           "name": "Technology - Management & Innovative Solutions",
           "value": 527023
         },
+        "dom_id": "district-florida-12",
         "representative": "Gus Bilirakis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Gusbilirakis.jpeg",
         "total_value": 680405.38,
@@ -25457,6 +25533,7 @@
           "name": "DTC Communications",
           "value": 21033440
         },
+        "dom_id": "district-florida-13",
         "representative": "Charlie Crist",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Charlie_Crist_115th_Congress_photo_%28cropped%29.jpg",
         "total_value": 21042090.86,
@@ -25547,6 +25624,7 @@
           "name": "Vastec",
           "value": 228742
         },
+        "dom_id": "district-florida-14",
         "representative": "Kathy Castor",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Kathy_Castor_%28cropped%29.png",
         "total_value": 260329.66999999998,
@@ -25661,6 +25739,7 @@
           "name": "G4S Secure Solutions USA",
           "value": 228475596
         },
+        "dom_id": "district-florida-18",
         "representative": "Brian Mast",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Brian_Mast_official_congressional_photo_%28cropped_2%29.jpg",
         "total_value": 249383157.6,
@@ -25819,6 +25898,7 @@
           "name": "Telco Solutions",
           "value": 1463100
         },
+        "dom_id": "district-florida-19",
         "representative": "Francis Rooney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Francis_Rooney_official_portrait_v2_%28cropped%29.jpg",
         "total_value": 1877212.81,
@@ -26009,6 +26089,7 @@
           "name": "American Purchasing Services",
           "value": 1484367
         },
+        "dom_id": "district-florida-20",
         "representative": "Alcee Hastings",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Alcee_Hastings_Portrait_c111-112th_Congress.jpg",
         "total_value": 2469338.28,
@@ -26095,6 +26176,7 @@
           "name": "Best-Tec Asbestos Abatement",
           "value": 65560
         },
+        "dom_id": "district-florida-21",
         "representative": "Lois Frankel",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Lois_Frankel%2C_Official_portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 65560,
@@ -26181,6 +26263,7 @@
           "name": "The GEO Group",
           "value": 596860025
         },
+        "dom_id": "district-florida-22",
         "representative": "Ted Deutch",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ted_Deutsch_%28cropped%29.jpg",
         "total_value": 625677716.1300001,
@@ -26259,6 +26342,7 @@
           "name": "Protective Products Enterprises",
           "value": 3606700
         },
+        "dom_id": "district-florida-23",
         "representative": "Debbie Wasserman Schultz",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/DWS_cropped.jpg",
         "total_value": 4249553.3100000005,
@@ -26341,6 +26425,7 @@
           "name": "American Purchasing Services",
           "value": 74253
         },
+        "dom_id": "district-florida-24",
         "representative": "Frederica Wilson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Frederica_Wilson_official_House_portrait_%28cropped%29.jpg",
         "total_value": 74255.54,
@@ -26487,6 +26572,7 @@
           "name": "B.V. Oil Company",
           "value": 89982
         },
+        "dom_id": "district-florida-25",
         "representative": "Mario Díaz-Balart",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mario_D%C3%ADaz-Balart_official_photo_%28cropped%29.jpg",
         "total_value": 151468.06999999998,
@@ -26825,6 +26911,7 @@
           "name": "Square One Armoring Services Co.",
           "value": 41020
         },
+        "dom_id": "district-florida-26",
         "representative": "Carlos Curbelo",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Carlos_Curbelo_official_photo_%28cropped%29.jpg",
         "total_value": 41020,
@@ -26927,6 +27014,7 @@
           "name": "Red Carrot",
           "value": 396992
         },
+        "dom_id": "district-florida-27",
         "representative": "Ileana Ros-Lehtinen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ileana_Ros-Lehtinen_official_photo_%28cropped%29.jpg",
         "total_value": 516865.78,
@@ -27433,6 +27521,7 @@
           "name": "Federal Prison Industries",
           "value": 243152
         },
+        "dom_id": "district-georgia-1",
         "representative": "Buddy Carter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Buddy_Carter%2C_Official_Portrait%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 260849.78999999998,
@@ -27895,6 +27984,7 @@
           "name": "Southside Garage and Used Auto Parts",
           "value": 112667
         },
+        "dom_id": "district-georgia-2",
         "representative": "Sanford Bishop",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sanford_Bishop_%28cropped%29.jpg",
         "total_value": 117195.6,
@@ -28185,6 +28275,7 @@
           "name": "Cicely B Hudson Solutions",
           "value": 24449
         },
+        "dom_id": "district-georgia-3",
         "representative": "Drew Ferguson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Drew_Ferguson_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 24449,
@@ -28295,6 +28386,7 @@
           "name": "Imagann Cleaning Service",
           "value": 432772
         },
+        "dom_id": "district-georgia-4",
         "representative": "Hank Johnson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Hank_Johnson_official_photo_%28cropped%29.jpg",
         "total_value": 704522.94,
@@ -28393,6 +28485,7 @@
           "name": "Resurgens Risk Management",
           "value": 502174
         },
+        "dom_id": "district-georgia-5",
         "representative": "John Lewis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/John_Lewis-2006_%28cropped%29.jpg",
         "total_value": 755499.47,
@@ -28507,6 +28600,7 @@
           "name": "Silas Frazier Realty",
           "value": 92088
         },
+        "dom_id": "district-georgia-6",
         "representative": "Karen Handel",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karen_C._Handel_%28cropped%29.jpg",
         "total_value": 266302.61,
@@ -28605,6 +28699,7 @@
           "name": "Venture Netcomm",
           "value": 982555
         },
+        "dom_id": "district-georgia-7",
         "representative": "Rob Woodall",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Rob_Woodall%2C_Official_Portrait%2C_112th_Congress_2_%28cropped%29.jpg",
         "total_value": 1096228.83,
@@ -29047,6 +29142,7 @@
           "name": "Lurk Enterprise Solutions",
           "value": 43128
         },
+        "dom_id": "district-georgia-8",
         "representative": "Austin Scott",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Austin_Scott_official_photo_%28cropped%29.jpg",
         "total_value": 47018.88,
@@ -29409,6 +29505,7 @@
           "name": "All Points Logistics",
           "value": 24673238
         },
+        "dom_id": "district-georgia-9",
         "representative": "Doug Collins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Doug_Collins%2C_Official_portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 24673239.05,
@@ -29855,6 +29952,7 @@
           "name": "Middle Georgia Diversified Industries",
           "value": 54018
         },
+        "dom_id": "district-georgia-12",
         "representative": "Rick W. Allen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rick_Allen_Official_Photo%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 109034.89,
@@ -30041,6 +30139,7 @@
           "name": "Glock",
           "value": 815854
         },
+        "dom_id": "district-georgia-13",
         "representative": "David Scott",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/David_Scott_congressional_portrait_%28cropped%29.jpg",
         "total_value": 1239803.98,
@@ -30155,6 +30254,7 @@
           "name": "Alert Holdings Group",
           "value": 12834
         },
+        "dom_id": "district-hawaii-1",
         "representative": "Colleen Hanabusa",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Colleen_Hanabusa_official_photo_%28cropped%29.jpg",
         "total_value": 42866.86,
@@ -31053,6 +31153,7 @@
           "name": "Ammunition Accessories",
           "value": 511320
         },
+        "dom_id": "district-idaho-1",
         "representative": "Raúl Labrador",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Raul_Labrador_115th_%28cropped%29.jpg",
         "total_value": 514682.85,
@@ -31719,6 +31820,7 @@
           "name": "Seikosoft",
           "value": 7999
         },
+        "dom_id": "district-idaho-2",
         "representative": "Mike Simpson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Mike_Simpson_official_portrait_%28cropped%29.jpg",
         "total_value": 17469.6,
@@ -31877,6 +31979,7 @@
           "name": "Scaletta Moloney Armoring",
           "value": 25276
         },
+        "dom_id": "district-illinois-3",
         "representative": "Dan Lipinski",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dan_lipinski_lg_%28cropped%29.jpg",
         "total_value": 43276.2,
@@ -31983,6 +32086,7 @@
           "name": "National Commission on Correctional Health Care",
           "value": 343191
         },
+        "dom_id": "district-illinois-5",
         "representative": "Mike Quigley",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mike_Quigley_official_photo_%28cropped_2%29.jpg",
         "total_value": 430445.89999999997,
@@ -32141,6 +32245,7 @@
           "name": "Wicklander Zulawski and Associates",
           "value": 39722
         },
+        "dom_id": "district-illinois-6",
         "representative": "Peter Roskam",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Peter_Roskam_official_photo_%28cropped%29.jpg",
         "total_value": 39722,
@@ -32239,6 +32344,7 @@
           "name": "Portionpac Chemical Corporation",
           "value": 118939
         },
+        "dom_id": "district-illinois-7",
         "representative": "Danny K. Davis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/DannyKDavis113th_%28cropped%29.jpg",
         "total_value": 118939.23,
@@ -32357,6 +32463,7 @@
           "name": "R A Mechanical & Sons",
           "value": 54775
         },
+        "dom_id": "district-illinois-8",
         "representative": "Raja Krishnamoorthi",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Raja_Krishnamoorthi_official_photo_%28cropped%29.jpg",
         "total_value": 72399,
@@ -32479,6 +32586,7 @@
           "name": "CDW Government",
           "value": 682318
         },
+        "dom_id": "district-illinois-10",
         "representative": "Brad Schneider",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Brad_Schneider_official_photo_%28cropped%29.jpg",
         "total_value": 1007440.5299999999,
@@ -32673,6 +32781,7 @@
           "name": "Computer Projects of Illinois",
           "value": 3338
         },
+        "dom_id": "district-illinois-11",
         "representative": "Bill Foster",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bill_Foster%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 3338.84,
@@ -33055,6 +33164,7 @@
           "name": "Olin Corporation",
           "value": 13295311
         },
+        "dom_id": "district-illinois-12",
         "representative": "Mike Bost",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mike_Bost_official_photo_%28cropped%29.jpg",
         "total_value": 13993293.44,
@@ -33269,6 +33379,7 @@
           "name": "Document Imaging Dimensions",
           "value": 681278
         },
+        "dom_id": "district-illinois-14",
         "representative": "Randy Hultgren",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Randy_Hultgren_Official_Photo_112_%28cropped%29.jpg",
         "total_value": 716524.39,
@@ -33823,6 +33934,7 @@
           "name": "Nova Solutions",
           "value": 15655
         },
+        "dom_id": "district-illinois-15",
         "representative": "John Shimkus",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/John_Shimkus_official_photo_%28cropped%29.jpg",
         "total_value": 15655.64,
@@ -34145,6 +34257,7 @@
           "name": "B & K Technology Solutions",
           "value": 74160
         },
+        "dom_id": "district-illinois-16",
         "representative": "Adam Kinzinger",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Adam_Kinzinger_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 75960,
@@ -34315,6 +34428,7 @@
           "name": "Vohne Liche Kennels",
           "value": 24310
         },
+        "dom_id": "district-indiana-2",
         "representative": "Jackie Walorski",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jackie_Walorski%2C_official_portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 24310,
@@ -34517,6 +34631,7 @@
           "name": "Marquis Consulting Services",
           "value": 3600
         },
+        "dom_id": "district-indiana-3",
         "representative": "Jim Banks",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Jim_Banks_official_portrait_%28cropped%29.jpg",
         "total_value": 3600,
@@ -34775,6 +34890,7 @@
           "name": "Lafayette Instrument Company",
           "value": 62048
         },
+        "dom_id": "district-indiana-4",
         "representative": "Todd Rokita",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Todd_Rokita%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 62048.58,
@@ -34957,6 +35073,7 @@
           "name": "Diverse Staffing Services",
           "value": 226047
         },
+        "dom_id": "district-indiana-5",
         "representative": "Susan Brooks",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Susan_Brooks_official_photo_%28cropped%29.jpg",
         "total_value": 283512.58999999997,
@@ -35023,6 +35140,7 @@
           "name": "Cannon IV",
           "value": 10494
         },
+        "dom_id": "district-indiana-7",
         "representative": "André Carson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Andre_Carson_2009_%28cropped%29.jpg",
         "total_value": 10494,
@@ -35545,6 +35663,7 @@
           "name": "Engel Ballistic Research",
           "value": 25636
         },
+        "dom_id": "district-indiana-8",
         "representative": "Larry Bucshon",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Larry_Bucshon_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 25636.6,
@@ -35839,6 +35958,7 @@
           "name": "Envisage Technologies",
           "value": 8625553
         },
+        "dom_id": "district-indiana-9",
         "representative": "Trey Hollingsworth",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Trey_Hollingsworth_official_photo_%28cropped%29.jpg",
         "total_value": 8625554.36,
@@ -36293,6 +36413,7 @@
           "name": "RMA Armament",
           "value": 12820
         },
+        "dom_id": "district-iowa-2",
         "representative": "Dave Loebsack",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dave_Loebsack_official_photo_%28cropped%29.jpg",
         "total_value": 12820.32,
@@ -36815,6 +36936,7 @@
           "name": "Landoll Corporation",
           "value": 63111
         },
+        "dom_id": "district-kansas-1",
         "representative": "Roger Marshall",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Roger_Marshall_official_portrait_%28cropped_2%29.jpg",
         "total_value": 63111.28,
@@ -37257,6 +37379,7 @@
           "name": "Kalos",
           "value": 396741
         },
+        "dom_id": "district-kansas-2",
         "representative": "Lynn Jenkins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Lynn_Jenkins_115th_official_photo_%28cropped_2%29.jpg",
         "total_value": 438106,
@@ -37379,6 +37502,7 @@
           "name": "Firelake Construction",
           "value": 559467
         },
+        "dom_id": "district-kansas-3",
         "representative": "Kevin Yoder",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Kevin_Yoder%2C_115th_official_photo_%28cropped_2%29.jpg",
         "total_value": 827429.75,
@@ -37653,6 +37777,7 @@
           "name": "Envision",
           "value": 73889
         },
+        "dom_id": "district-kansas-4",
         "representative": "Ron Estes",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ron_Estes%2C_115th_official_photo_%28cropped%29.jpg",
         "total_value": 129880.95999999999,
@@ -37763,6 +37888,7 @@
           "name": "United Parcel Service Co.",
           "value": 3500
         },
+        "dom_id": "district-kentucky-3",
         "representative": "John Yarmuth",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/John_Yarmuth_official_photo_%28cropped%29.jpg",
         "total_value": 3500,
@@ -38405,6 +38531,7 @@
           "name": "Benefit Planning",
           "value": 252677
         },
+        "dom_id": "district-kentucky-4",
         "representative": "Thomas Massie",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Thomas_Massie_official_portrait_%28cropped%29.jpg",
         "total_value": 252680.16000000003,
@@ -38747,6 +38874,7 @@
           "name": "Conduit Language Specialists",
           "value": 8834334
         },
+        "dom_id": "district-kentucky-6",
         "representative": "Andy Barr",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Andy_Barr_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 9340723.81,
@@ -39361,6 +39489,7 @@
           "name": "Watch Systems",
           "value": 100000
         },
+        "dom_id": "district-louisiana-1",
         "representative": "Steve Scalise",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Steve_Scalise_official_portrait_%28cropped%29.jpg",
         "total_value": 209090.25,
@@ -39711,6 +39840,7 @@
           "name": "Hardware",
           "value": 15639
         },
+        "dom_id": "district-louisiana-2",
         "representative": "Cedric Richmond",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cedric_Richmond_official_photo_%28cropped%29.jpg",
         "total_value": 28081.03,
@@ -40189,6 +40319,7 @@
           "name": "Macro Companies",
           "value": 204900
         },
+        "dom_id": "district-louisiana-3",
         "representative": "Clay Higgins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Clay_Higgins_official_portrait_%28cropped%29.jpeg",
         "total_value": 204900,
@@ -40919,6 +41050,7 @@
           "name": "Cookie’s Dme",
           "value": 7470
         },
+        "dom_id": "district-louisiana-5",
         "representative": "Ralph Abraham",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ralph_Abraham_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 7470,
@@ -41821,6 +41953,7 @@
           "name": "Perfect Fit",
           "value": 8530
         },
+        "dom_id": "district-maine-2",
         "representative": "Bruce Poliquin",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bruce_Poliquin_official_photo_%28cropped%29.jpg",
         "total_value": 8530,
@@ -42411,6 +42544,7 @@
           "name": "Incident Communication Solutions",
           "value": 693998
         },
+        "dom_id": "district-maryland-1",
         "representative": "Andy Harris",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Andy_Harris%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 912782.72,
@@ -42629,6 +42763,7 @@
           "name": "The KeyW Corporation",
           "value": 497050
         },
+        "dom_id": "district-maryland-2",
         "representative": "Dutch Ruppersberger",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Dutchruppersberger.jpeg",
         "total_value": 745401.5,
@@ -42907,6 +43042,7 @@
           "name": "Maxim Healthcare Services",
           "value": 61398746
         },
+        "dom_id": "district-maryland-3",
         "representative": "John Sarbanes",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/John_Sarbanes_official_photo_%28cropped%29.jpg",
         "total_value": 112724045.39,
@@ -43113,6 +43249,7 @@
           "name": "Axiscore",
           "value": 549602
         },
+        "dom_id": "district-maryland-4",
         "representative": "Anthony G. Brown",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Anthony_G._Brown_official_photo_%28cropped_2%29.jpg",
         "total_value": 963723,
@@ -43459,6 +43596,7 @@
           "name": "Insight Technology Solutions",
           "value": 17782944
         },
+        "dom_id": "district-maryland-5",
         "representative": "Steny Hoyer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Steny_Hoyer%2C_official_photo_as_Whip_%28cropped%29.jpg",
         "total_value": 25338476.11,
@@ -43841,6 +43979,7 @@
           "name": "Wexler Technical Solutions",
           "value": 18022751
         },
+        "dom_id": "district-maryland-6",
         "representative": "John Delaney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/John_Delaney_113th_Congress_official_photo_%28cropped%29.jpg",
         "total_value": 49188653.07,
@@ -44015,6 +44154,7 @@
           "name": "Price Modern",
           "value": 4506442
         },
+        "dom_id": "district-maryland-7",
         "representative": "Elijah Cummings",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Elijah_Cummings_official_photo_%28cropped%29.jpg",
         "total_value": 8469896.36,
@@ -44249,6 +44389,7 @@
           "name": "Savantage Financial Services",
           "value": 156431799
         },
+        "dom_id": "district-maryland-8",
         "representative": "Jamie Raskin",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Jamie_Raskin_official_%28cropped%29.jpg",
         "total_value": 244493123.4,
@@ -44559,6 +44700,7 @@
           "name": "Optim",
           "value": 8299
         },
+        "dom_id": "district-massachusetts-1",
         "representative": "Richard Neal",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Richardneal.jpg",
         "total_value": 8299.9,
@@ -44857,6 +44999,7 @@
           "name": "United Site Services",
           "value": 20321
         },
+        "dom_id": "district-massachusetts-2",
         "representative": "Jim McGovern",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jim_McGovern_113th_Congress.jpg",
         "total_value": 44665.07,
@@ -45047,6 +45190,7 @@
           "name": "ACT Services",
           "value": 74160
         },
+        "dom_id": "district-massachusetts-3",
         "representative": "Niki Tsongas",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Niki_Tsongas_official_portrait%2C_2013_%28cropped%29.jpg",
         "total_value": 74160,
@@ -45289,6 +45433,7 @@
           "name": "Industrial Video & Control Co.",
           "value": 10226574
         },
+        "dom_id": "district-massachusetts-4",
         "representative": "Joe Kennedy III",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Joe_Kennedy_III%2C_115th_official_photo_%28cropped%29.jpg",
         "total_value": 10497284.4,
@@ -45407,6 +45552,7 @@
           "name": "Lionbridge Global Solutions Ii",
           "value": 5570327
         },
+        "dom_id": "district-massachusetts-5",
         "representative": "Katherine Clark",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Katherine_Clark_114th_%28cropped%29.jpg",
         "total_value": 5643564.82,
@@ -45581,6 +45727,7 @@
           "name": "Gemini Industries",
           "value": 3418343
         },
+        "dom_id": "district-massachusetts-6",
         "representative": "Seth Moulton",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Seth_Moulton_%28cropped_2%29.jpg",
         "total_value": 4429200.859999999,
@@ -45699,6 +45846,7 @@
           "name": "Northeastern University",
           "value": 2711012
         },
+        "dom_id": "district-massachusetts-7",
         "representative": "Mike Capuano",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mike_Capuano_%28cropped%29.jpg",
         "total_value": 2735997.38,
@@ -45969,6 +46117,7 @@
           "name": "USACouriers",
           "value": 213541
         },
+        "dom_id": "district-massachusetts-8",
         "representative": "Stephen F. Lynch",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stephen_F._Lynch%2C_2008_cropped_%28cropped%29.jpg",
         "total_value": 356936.17,
@@ -46571,6 +46720,7 @@
           "name": "Noble Sales Co.",
           "value": 20586
         },
+        "dom_id": "district-massachusetts-9",
         "representative": "Bill Keating",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/William_Keating_112th_Congress_Portrait.jpg",
         "total_value": 20586.66,
@@ -48025,6 +48175,7 @@
           "name": "Central Lake Armor Express",
           "value": 4091413
         },
+        "dom_id": "district-michigan-1",
         "representative": "Jack Bergman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/59d21bbfdbe95.image.jpg",
         "total_value": 4091414,
@@ -48235,6 +48386,7 @@
           "name": "Haworth",
           "value": 4354916
         },
+        "dom_id": "district-michigan-2",
         "representative": "Bill Huizenga",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bill_Huizenga_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 4490602.43,
@@ -48337,6 +48489,7 @@
           "name": "Michigan Department of State Police",
           "value": 20196
         },
+        "dom_id": "district-michigan-8",
         "representative": "Mike Bishop",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mike_Bishop_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 20196,
@@ -48575,6 +48728,7 @@
           "name": "Close Quarters Tactical",
           "value": 120600
         },
+        "dom_id": "district-michigan-10",
         "representative": "Paul Mitchell",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Paul_Mitchell_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 120600,
@@ -48693,6 +48847,7 @@
           "name": "OpTech",
           "value": 5274289
         },
+        "dom_id": "district-michigan-11",
         "representative": "David Trott",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Dave_Trott_official_photo_%28cropped%29.jpg",
         "total_value": 5293540.48,
@@ -48807,6 +48962,7 @@
           "name": "FAAC",
           "value": 66495
         },
+        "dom_id": "district-michigan-12",
         "representative": "Debbie Dingell",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Debbie_Dingell_Official_Headshot_%28square_crop2%29.jpg",
         "total_value": 66495,
@@ -48905,6 +49061,7 @@
           "name": "New Tech Central",
           "value": 13250
         },
+        "dom_id": "district-michigan-13",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 13250,
@@ -49007,6 +49164,7 @@
           "name": "Bromberg & Associates",
           "value": 726002
         },
+        "dom_id": "district-michigan-14",
         "representative": "Brenda Lawrence",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Brenda_Lawrence_official_photo_%28cropped%29.jpg",
         "total_value": 874658.25,
@@ -49245,6 +49403,7 @@
           "name": "West Publishing Corporation",
           "value": 11791476
         },
+        "dom_id": "district-minnesota-2",
         "representative": "Jason Lewis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Jason_Lewis_official_congress.png",
         "total_value": 11791476.99,
@@ -49403,6 +49562,7 @@
           "name": "Rimage Corporation",
           "value": 519259
         },
+        "dom_id": "district-minnesota-3",
         "representative": "Erik Paulsen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Erik_Paulsen_official_photo_%28cropped_2%29.jpg",
         "total_value": 948794.6499999999,
@@ -49505,6 +49665,7 @@
           "name": "Ecolab",
           "value": 109724
         },
+        "dom_id": "district-minnesota-4",
         "representative": "Betty McCollum",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Betty_McCollum_official_photo_%28cropped%29.jpg",
         "total_value": 130864.2,
@@ -49583,6 +49744,7 @@
           "name": "USABancorp",
           "value": 40639024
         },
+        "dom_id": "district-minnesota-5",
         "representative": "Keith Ellison",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Keith_Ellison_official_portrait_%28cropped%29.png",
         "total_value": 40696950.42,
@@ -49825,6 +49987,7 @@
           "name": "Vista Outdoor Sales",
           "value": 32003088
         },
+        "dom_id": "district-minnesota-6",
         "representative": "Tom Emmer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tom_Emmer_official_portrait_114th_Congress_%28cropped%29.jpg",
         "total_value": 37822271.580000006,
@@ -50479,6 +50642,7 @@
           "name": "Fox River Graphics",
           "value": 20286
         },
+        "dom_id": "district-minnesota-7",
         "representative": "Collin Peterson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Collin_Peterson_official_photo_%28cropped%29.jpg",
         "total_value": 20286,
@@ -51157,6 +51321,7 @@
           "name": "American Toner & Ink",
           "value": 46264
         },
+        "dom_id": "district-minnesota-8",
         "representative": "Rick Nolan",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rick_Nolan_115th_official_photo_%28cropped%29.jpg",
         "total_value": 46265.7,
@@ -51451,6 +51616,7 @@
           "name": "Rite-Kem",
           "value": 17132
         },
+        "dom_id": "district-mississippi-1",
         "representative": "Trent Kelly",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Trent_Kelly_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 17132.79,
@@ -51769,6 +51935,7 @@
           "name": "Gulf Breeze Properties, Ii",
           "value": 4665
         },
+        "dom_id": "district-mississippi-4",
         "representative": "Steven Palazzo",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Steven_Palazzo%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 4665,
@@ -51883,6 +52050,7 @@
           "name": "Crossroads Courier",
           "value": 19280
         },
+        "dom_id": "district-missouri-1",
         "representative": "Lacy Clay",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Lacy_Clay_official_photo_%28cropped%29.jpg",
         "total_value": 27579.6,
@@ -52021,6 +52189,7 @@
           "name": "Swank Motion Pictures",
           "value": 66725
         },
+        "dom_id": "district-missouri-2",
         "representative": "Ann Wagner",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ann_Wagner_113th_Congress_official_photo_%28cropped%29.jpg",
         "total_value": 81802.48,
@@ -52387,6 +52556,7 @@
           "name": "TQM",
           "value": 1277097
         },
+        "dom_id": "district-missouri-3",
         "representative": "Blaine Luetkemeyer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Blaine_Luetkemeyer_%28cropped%29.jpg",
         "total_value": 1281180.88,
@@ -52757,6 +52927,7 @@
           "name": "Allied Ink",
           "value": 5258
         },
+        "dom_id": "district-missouri-4",
         "representative": "Vicky Hartzler",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Vicky_Hartzler_official_photo%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 5258.17,
@@ -52983,6 +53154,7 @@
           "name": "Alphapointe",
           "value": 7229
         },
+        "dom_id": "district-missouri-5",
         "representative": "Emanuel Cleaver",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rep._Emanuel_Cleaver_%28cropped%29.jpg",
         "total_value": 7229.04,
@@ -53989,6 +54161,7 @@
           "name": "A2Z Supply",
           "value": 914119
         },
+        "dom_id": "district-montana-0",
         "representative": "Greg Gianforte",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Greg_Gianforte_115th_congress_%28cropped%29.jpg",
         "total_value": 919875.64,
@@ -54363,6 +54536,7 @@
           "name": "Pen-Link",
           "value": 8836197
         },
+        "dom_id": "district-nebraska-1",
         "representative": "Jeff Fortenberry",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rep._Jeff_Fortenberry_%28cropped%29.jpg",
         "total_value": 8836197.6,
@@ -54465,6 +54639,7 @@
           "name": "Outlook-Nebraska",
           "value": 128658
         },
+        "dom_id": "district-nebraska-2",
         "representative": "Don Bacon",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Donald_Bacon_Official_House_Photo_%28cropped%29.jpg",
         "total_value": 128660.81,
@@ -54543,6 +54718,7 @@
           "name": "National Hospitality Management",
           "value": 18660
         },
+        "dom_id": "district-nevada-1",
         "representative": "Dina Titus",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Dina_Titus_official_photo_%28cropped%29.jpg",
         "total_value": 18660,
@@ -54893,6 +55069,7 @@
           "name": "Callyo 2009",
           "value": 97849
         },
+        "dom_id": "district-nevada-2",
         "representative": "Mark Amodei",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mark_Amodei_official_photo_%28cropped_2%29.jpg",
         "total_value": 97849.4,
@@ -55091,6 +55268,7 @@
           "name": "Tririga",
           "value": 2787106
         },
+        "dom_id": "district-nevada-3",
         "representative": "Jacky Rosen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Jacky_Rosen.jpg",
         "total_value": 2802046.15,
@@ -55465,6 +55643,7 @@
           "name": "Sig Sauer",
           "value": 1946394
         },
+        "dom_id": "district-newhampshire-1",
         "representative": "Carol Shea-Porter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Carol_Shea-Porter_%28cropped%29.jpg",
         "total_value": 2005958.8399999999,
@@ -56107,6 +56286,7 @@
           "name": "Red River Technology",
           "value": 1625653
         },
+        "dom_id": "district-newhampshire-2",
         "representative": "Ann McLane Kuster",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ann_McLane_Kuster_official_photo_%28cropped_2%29.jpg",
         "total_value": 2667868.1500000004,
@@ -56285,6 +56465,7 @@
           "name": "Anchortex Corporation",
           "value": 33226
         },
+        "dom_id": "district-newjersey-1",
         "representative": "Donald Norcross",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Donald_Norcross_official_portrait_%28cropped%29.jpg",
         "total_value": 33227.04,
@@ -56603,6 +56784,7 @@
           "name": "City of Vineland",
           "value": 8000
         },
+        "dom_id": "district-newjersey-2",
         "representative": "Frank LoBiondo",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Frank_A._LoBiondo_113th_Congress.jpg",
         "total_value": 8000,
@@ -56761,6 +56943,7 @@
           "name": "Service Works",
           "value": 206617
         },
+        "dom_id": "district-newjersey-4",
         "representative": "Chris Smith",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chris_Smith_official_photo_%28cropped%29.jpg",
         "total_value": 206617,
@@ -57007,6 +57190,7 @@
           "name": "Cellebrite",
           "value": 7152280
         },
+        "dom_id": "district-newjersey-5",
         "representative": "Josh Gottheimer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Josh_Gottheimer_Photo_%28cropped%29.jpg",
         "total_value": 7457039.82,
@@ -57181,6 +57365,7 @@
           "name": "Global Infinity Enterprise",
           "value": 24091
         },
+        "dom_id": "district-newjersey-6",
         "representative": "Frank Pallone",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Frank_Pallone%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 27748.85,
@@ -57419,6 +57604,7 @@
           "name": "Cellco Partnership",
           "value": 549997
         },
+        "dom_id": "district-newjersey-7",
         "representative": "Leonard Lance",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Leonard_Lance_official_congressional_photo_%28cropped_2%29.jpg",
         "total_value": 931123.29,
@@ -57625,6 +57811,7 @@
           "name": "John Wiley & Sons",
           "value": 87760
         },
+        "dom_id": "district-newjersey-8",
         "representative": "Albio Sires",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Albio_Sires_%28cropped%29.jpg",
         "total_value": 92530,
@@ -57807,6 +57994,7 @@
           "name": "SAF Eng Associates",
           "value": 413956
         },
+        "dom_id": "district-newjersey-9",
         "representative": "Bill Pascrell",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bill_pascrell_375_%28cropped%29.jpg",
         "total_value": 450153.42,
@@ -57917,6 +58105,7 @@
           "name": "Supreme Security Systems",
           "value": 39318
         },
+        "dom_id": "district-newjersey-10",
         "representative": "Donald Payne Jr.",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Donald_Payne_Jr_Official_Portrait_113th_Congress_%28cropped%29.png",
         "total_value": 83332.22,
@@ -58079,6 +58268,7 @@
           "name": "Cellebrite",
           "value": 2524680
         },
+        "dom_id": "district-newjersey-11",
         "representative": "Rodney Frelinghuysen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rodney_Frelinghuysen_official_photo%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 2956067.04,
@@ -58241,6 +58431,7 @@
           "name": "Specialty Vehicle Solutions",
           "value": 10823967
         },
+        "dom_id": "district-newjersey-12",
         "representative": "Bonnie Watson Coleman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Bonnie_Watson_Coleman_%28cropped_2%29.jpg",
         "total_value": 10823968.16,
@@ -58491,6 +58682,7 @@
           "name": "CSI Aviation",
           "value": 972882715
         },
+        "dom_id": "district-newmexico-1",
         "representative": "Michelle Lujan Grisham",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Michelle_Lujan_Grisham_official_photo_%28cropped%29.jpg",
         "total_value": 995029844.1199999,
@@ -58921,6 +59113,7 @@
           "name": "Wildflower International",
           "value": 535043
         },
+        "dom_id": "district-newmexico-3",
         "representative": "Ben Ray Luján",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/BenLujan2016_%28cropped%29.jpg",
         "total_value": 535050.13,
@@ -59135,6 +59328,7 @@
           "name": "Vicon Industries",
           "value": 8729
         },
+        "dom_id": "district-newyork-1",
         "representative": "Lee Zeldin",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lee_Zeldin_new_official_portrait_%28cropped%29.jpg",
         "total_value": 8729.91,
@@ -59229,6 +59423,7 @@
           "name": "Helgen Industries",
           "value": 28052
         },
+        "dom_id": "district-newyork-2",
         "representative": "Peter T. King",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Peter_T._King%2C_official_portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 71354.08,
@@ -59367,6 +59562,7 @@
           "name": "Classic Air Charter",
           "value": 125569076
         },
+        "dom_id": "district-newyork-3",
         "representative": "Thomas Suozzi",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Thomas_Suozzi_official_photo_%28cropped%29.jpg",
         "total_value": 125648689.53999999,
@@ -59465,6 +59661,7 @@
           "name": "The Corporate Source",
           "value": 407129
         },
+        "dom_id": "district-newyork-4",
         "representative": "Kathleen Rice",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kathleen_Rice_official_photo_%28cropped%29.jpg",
         "total_value": 636848.8700000001,
@@ -59563,6 +59760,7 @@
           "name": "ISS Action",
           "value": 6427344
         },
+        "dom_id": "district-newyork-5",
         "representative": "Gregory Meeks",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gregory_Meeks%2C_Official_Photo_%28cropped%29.jpg",
         "total_value": 6457344.82,
@@ -59633,6 +59831,7 @@
           "name": "Universal Language Corporation",
           "value": 18691353
         },
+        "dom_id": "district-newyork-6",
         "representative": "Grace Meng",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Grace_Meng_Official_Congressional_Photo_%28cropped%29.jpg",
         "total_value": 23260309.23,
@@ -59731,6 +59930,7 @@
           "name": "City of New York",
           "value": 112215
         },
+        "dom_id": "district-newyork-7",
         "representative": "Nydia Velázquez",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Nydia_Vel%C3%A1zquez_official_photo_%28cropped%29.jpg",
         "total_value": 216252.77,
@@ -59825,6 +60025,7 @@
           "name": "Legal Interpreting Services",
           "value": 11830735
         },
+        "dom_id": "district-newyork-8",
         "representative": "Hakeem Jeffries",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hakeem_Jeffries_official_portrait_%28cropped%29.jpg",
         "total_value": 11959334.129999999,
@@ -59887,6 +60088,7 @@
           "name": "The Corporate Source",
           "value": 1196350
         },
+        "dom_id": "district-newyork-10",
         "representative": "Jerrold Nadler",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Jerrold_Nadler_official_photo_%28cropped%29.jpg",
         "total_value": 2284888.0700000003,
@@ -59993,6 +60195,7 @@
           "name": "C & M Truck & Tire Repair",
           "value": 43632
         },
+        "dom_id": "district-newyork-11",
         "representative": "Dan Donovan",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dan_Donovan_official_photo_%28cropped%29.jpg",
         "total_value": 51785.4,
@@ -60079,6 +60282,7 @@
           "name": "Metropolitan Interpreters & Translators",
           "value": 19136770
         },
+        "dom_id": "district-newyork-12",
         "representative": "Carolyn Maloney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Carolyn_Maloney_official_photo_%28cropped%29.jpg",
         "total_value": 19401829.050000004,
@@ -60177,6 +60381,7 @@
           "name": "Blueline Tactical and Police Supply",
           "value": 958221
         },
+        "dom_id": "district-newyork-17",
         "representative": "Nita Lowey",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Rep_Nita_Lowey_%28cropped%29.jpg",
         "total_value": 958222.2100000001,
@@ -60347,6 +60552,7 @@
           "name": "M. L. Benjamin Enterprises",
           "value": 1875107
         },
+        "dom_id": "district-newyork-18",
         "representative": "Sean Patrick Maloney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Congressman_Maloney_official_%28cropped%29.jpg",
         "total_value": 1877107.86,
@@ -60481,6 +60687,7 @@
           "name": "New York State Department of Motor Vehicles",
           "value": 37825
         },
+        "dom_id": "district-newyork-20",
         "representative": "Paul Tonko",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Paul_Tonko_114th_Congress_photo_%28cropped%29.jpg",
         "total_value": 37825,
@@ -60751,6 +60958,7 @@
           "name": "Central Association for the Blind",
           "value": 134149
         },
+        "dom_id": "district-newyork-22",
         "representative": "Claudia Tenney",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Claudia_Tenney%2C_115th_official_photo_%28cropped%29.jpg",
         "total_value": 134152.2,
@@ -60921,6 +61129,7 @@
           "name": "Gaylord Bros.",
           "value": 9117
         },
+        "dom_id": "district-newyork-24",
         "representative": "John Katko",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/John_Katko_%28cropped%29.jpg",
         "total_value": 9117.45,
@@ -61007,6 +61216,7 @@
           "name": "Asso for the Blind and Visually Impaired-Goodwill Industries of Greater Rochester",
           "value": 116592
         },
+        "dom_id": "district-newyork-25",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 116594.41,
@@ -61145,6 +61355,7 @@
           "name": "Copier Fax Business Technologies",
           "value": 80047
         },
+        "dom_id": "district-newyork-26",
         "representative": "Brian Higgins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Brian_Higgins_official_photo_%28cropped%29.jpg",
         "total_value": 216891.42,
@@ -61435,6 +61646,7 @@
           "name": "Tonawanda Sportsmen’s Club",
           "value": 14620
         },
+        "dom_id": "district-newyork-27",
         "representative": "Chris Collins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chris_Collins_official_photo_%28cropped%29.jpg",
         "total_value": 14620,
@@ -61793,6 +62005,7 @@
           "name": "Eastern Carolina Vocational Center",
           "value": 6192
         },
+        "dom_id": "district-northcarolina-1",
         "representative": "G. K. Butterfield",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/G.K._Butterfield%2C_Official_portrait%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 6192,
@@ -62059,6 +62272,7 @@
           "name": "Net Direct Systems",
           "value": 27768310
         },
+        "dom_id": "district-northcarolina-2",
         "representative": "George Holding",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/George_Holding_%28cropped%29.jpg",
         "total_value": 27855502.279999997,
@@ -62429,6 +62643,7 @@
           "name": "NterOne Corporation",
           "value": 19908
         },
+        "dom_id": "district-northcarolina-3",
         "representative": "Walter B. Jones Jr.",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Walter_Jones%2C_official_portrait%2C_111th_Congress.jpg",
         "total_value": 19908,
@@ -62575,6 +62790,7 @@
           "name": "Net Direct Systems",
           "value": 22785526
         },
+        "dom_id": "district-northcarolina-4",
         "representative": "David Price",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/David_Price%2C_115th_Congress_official_photo_%28cropped%29.jpg",
         "total_value": 22855755.660000015,
@@ -62765,6 +62981,7 @@
           "name": "KDH Defense Systems",
           "value": 6511034
         },
+        "dom_id": "district-northcarolina-6",
         "representative": "Mark Walker",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Walker_Official_Photo_2017_%28cropped%29.jpg",
         "total_value": 16946964.85,
@@ -63039,6 +63256,7 @@
           "name": "Wrigglesworth Enterprises",
           "value": 3500
         },
+        "dom_id": "district-northcarolina-7",
         "representative": "David Rouzer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/David_Rouzer_official_photo_%28cropped%29.jpg",
         "total_value": 3500,
@@ -63257,6 +63475,7 @@
           "name": "Demus Enterprise",
           "value": 46868
         },
+        "dom_id": "district-northcarolina-8",
         "representative": "Richard Hudson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Richard_Hudson_official_photo_%28cropped%29.jpg",
         "total_value": 106998.94,
@@ -63495,6 +63714,7 @@
           "name": "Delitor",
           "value": 2141
         },
+        "dom_id": "district-northcarolina-9",
         "representative": "Robert Pittenger",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Robert_Pittenger%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 2141.81,
@@ -64001,6 +64221,7 @@
           "name": "Atlantic Management Center",
           "value": 4335
         },
+        "dom_id": "district-northcarolina-11",
         "representative": "Mark Meadows",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mark_Meadows%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 4335,
@@ -64119,6 +64340,7 @@
           "name": "Chief Supply Corporation",
           "value": 5196
         },
+        "dom_id": "district-northcarolina-12",
         "representative": "Alma Adams",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Alma_Adams_official_portrait_%28cropped%29.jpg",
         "total_value": 7957.5,
@@ -64337,6 +64559,7 @@
           "name": "Bob Barker Company",
           "value": 28052
         },
+        "dom_id": "district-northcarolina-13",
         "representative": "Ted Budd",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ted_Budd_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 45573.77999999999,
@@ -64487,6 +64710,7 @@
           "name": "Government Acquisitions",
           "value": 3280321
         },
+        "dom_id": "district-ohio-1",
         "representative": "Steve Chabot",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SteveChabot_%28cropped%29.jpg",
         "total_value": 3294518.5999999996,
@@ -64841,6 +65065,7 @@
           "name": "Luxfer Magtech",
           "value": 82586
         },
+        "dom_id": "district-ohio-2",
         "representative": "Brad Wenstrup",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Brad_Wenstrup_official_%28cropped%29.jpg",
         "total_value": 102972.07,
@@ -64971,6 +65196,7 @@
           "name": "The Janz Corporation",
           "value": 107145
         },
+        "dom_id": "district-ohio-3",
         "representative": "Joyce Beatty",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Joyce_Beatty_congressional_portrait_114th_Congress_%28cropped%29.jpg",
         "total_value": 107145.9,
@@ -65237,6 +65463,7 @@
           "name": "Spartan Chemical Company",
           "value": 26530
         },
+        "dom_id": "district-ohio-5",
         "representative": "Bob Latta",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Robert_E._Latta_113th_Congress.jpg",
         "total_value": 26532.089999999997,
@@ -65431,6 +65658,7 @@
           "name": "Shred-It USA",
           "value": 13761
         },
+        "dom_id": "district-ohio-8",
         "representative": "Warren Davidson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Warren_Davidson_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 13761,
@@ -65685,6 +65913,7 @@
           "name": "Kell Systems",
           "value": 6708
         },
+        "dom_id": "district-ohio-9",
         "representative": "Marcy Kaptur",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Marcy_Kaptur_113th_Congress.jpg",
         "total_value": 6708,
@@ -65795,6 +66024,7 @@
           "name": "Solutions Through Innovative Technologies",
           "value": 19617265
         },
+        "dom_id": "district-ohio-10",
         "representative": "Mike Turner",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Congressman_Mike_Turner_%28cropped%29.jpg",
         "total_value": 23026758.76,
@@ -65925,6 +66155,7 @@
           "name": "ABM Parking Services",
           "value": 40000
         },
+        "dom_id": "district-ohio-11",
         "representative": "Marcia Fudge",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Marcia_Fudge_official_photo_%28cropped%29.jpg",
         "total_value": 40000,
@@ -66187,6 +66418,7 @@
           "name": "Farber Specialty Vehicles",
           "value": 1181372
         },
+        "dom_id": "district-ohio-12",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 1181372,
@@ -66393,6 +66625,7 @@
           "name": "TU",
           "value": 129256
         },
+        "dom_id": "district-ohio-13",
         "representative": "Tim Ryan",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rep._Tim_Ryan_Congressional_Head_Shot_2010_%28cropped%29.jpg",
         "total_value": 129256,
@@ -66583,6 +66816,7 @@
           "name": "Ceia USA",
           "value": 92615
         },
+        "dom_id": "district-ohio-14",
         "representative": "David Joyce",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/David_Joyce_%28cropped%29.jpg",
         "total_value": 112495.72000000002,
@@ -66909,6 +67143,7 @@
           "name": "Athens Technical Specialists",
           "value": 15071
         },
+        "dom_id": "district-ohio-15",
         "representative": "Steve Stivers",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Steve_Stivers%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 15071.93,
@@ -67083,6 +67318,7 @@
           "name": "Treasure Electronics",
           "value": 10800
         },
+        "dom_id": "district-oklahoma-1",
         "representative": "",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Markwayne_Mullin_official_photo_%28cropped%29.jpg",
         "total_value": 10800,
@@ -67361,6 +67597,7 @@
           "name": "Leupold & Stevens",
           "value": 7999
         },
+        "dom_id": "district-oregon-1",
         "representative": "Suzanne Bonamici",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Suzanne_Bonamici_%28cropped%29.jpg",
         "total_value": 14679.650000000001,
@@ -68179,6 +68416,7 @@
           "name": "Nosler",
           "value": 24700
         },
+        "dom_id": "district-oregon-2",
         "representative": "Greg Walden",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Greg_Walden_official_photo_%28cropped_2%29.jpg",
         "total_value": 24700,
@@ -68373,6 +68611,7 @@
           "name": "Certified Languages International",
           "value": 233164
         },
+        "dom_id": "district-oregon-3",
         "representative": "Earl Blumenauer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Earlblumenauer.jpeg",
         "total_value": 253419.16,
@@ -68827,6 +69066,7 @@
           "name": "Inseego North America",
           "value": 496364
         },
+        "dom_id": "district-oregon-4",
         "representative": "Peter DeFazio",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Peter_DeFazio_official_photo_%28cropped%29.jpg",
         "total_value": 849140.1799999999,
@@ -68969,6 +69209,7 @@
           "name": "Independent Hardware",
           "value": 3900
         },
+        "dom_id": "district-pennsylvania-1",
         "representative": "Bob Brady",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bobbrady.jpeg",
         "total_value": 3900,
@@ -69039,6 +69280,7 @@
           "name": "American Expediting Company",
           "value": 33572
         },
+        "dom_id": "district-pennsylvania-2",
         "representative": "Dwight Evans",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Dwight_Evans_official_portrait_%28cropped%29.jpg",
         "total_value": 65775.9,
@@ -69277,6 +69519,7 @@
           "name": "McManis Associates",
           "value": 6030832
         },
+        "dom_id": "district-pennsylvania-3",
         "representative": "Mike Kelly",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mike_Kelly%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 6179683.25,
@@ -69431,6 +69674,7 @@
           "name": "Datum Filing Systems",
           "value": 95986
         },
+        "dom_id": "district-pennsylvania-4",
         "representative": "Scott Perry",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Scott_Perry_official_photo_%28cropped%29.jpg",
         "total_value": 95987.65000000001,
@@ -69797,6 +70041,7 @@
           "name": "International Cartridge Corporation",
           "value": 20062
         },
+        "dom_id": "district-pennsylvania-5",
         "representative": "Glenn Thompson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Glenn_Thompson_113th_Congress.jpg",
         "total_value": 31923.72,
@@ -70019,6 +70264,7 @@
           "name": "Ricoh USA",
           "value": 740438
         },
+        "dom_id": "district-pennsylvania-6",
         "representative": "Ryan Costello",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Congressman_Ryan_Costello_%28cropped%29.png",
         "total_value": 990054.8500000001,
@@ -70381,6 +70627,7 @@
           "name": "Adapt Pharma",
           "value": 202620
         },
+        "dom_id": "district-pennsylvania-7",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 323772.26,
@@ -70571,6 +70818,7 @@
           "name": "Dentrust Dental International",
           "value": 275032
         },
+        "dom_id": "district-pennsylvania-8",
         "representative": "Brian Fitzpatrick",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Brian_Fitzpatrick_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 281482.37,
@@ -70969,6 +71217,7 @@
           "name": "Rosamilia Builders",
           "value": 111526
         },
+        "dom_id": "district-pennsylvania-9",
         "representative": "Bill Shuster",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bill_Shuster_official_portrait_%28cropped%29.jpg",
         "total_value": 257731.38,
@@ -71527,6 +71776,7 @@
           "name": "North Central Sight Services",
           "value": 21790
         },
+        "dom_id": "district-pennsylvania-10",
         "representative": "Tom Marino",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tom_Marino_113th_Congress.jpg",
         "total_value": 33316.01,
@@ -71877,6 +72127,7 @@
           "name": "OPTiMO Information Technology",
           "value": 1996800
         },
+        "dom_id": "district-pennsylvania-11",
         "representative": "Lou Barletta",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lou_Barletta_%28cropped%29.jpg",
         "total_value": 2179368.4400000004,
@@ -71991,6 +72242,7 @@
           "name": "ATD-American Co.",
           "value": 5434
         },
+        "dom_id": "district-pennsylvania-13",
         "representative": "Brendan F. Boyle",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Brendan_Boyle_House_Portrait_%28cropped%29.jpg",
         "total_value": 5434,
@@ -72149,6 +72401,7 @@
           "name": "National Cyber-Forensics and Training Alliance.",
           "value": 840199
         },
+        "dom_id": "district-pennsylvania-14",
         "representative": "Michael F. Doyle",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Michael_F._Doyle_113th_Congress.jpg",
         "total_value": 932874.17,
@@ -72391,6 +72644,7 @@
           "name": "Pma-13",
           "value": 8849
         },
+        "dom_id": "district-pennsylvania-15",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 8849.49,
@@ -72585,6 +72839,7 @@
           "name": "Opsec Security",
           "value": 14090
         },
+        "dom_id": "district-pennsylvania-16",
         "representative": "Lloyd Smucker",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Lloyd_Smucker_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 14090,
@@ -72811,6 +73066,7 @@
           "name": "Fisher Scientific Company",
           "value": 7545
         },
+        "dom_id": "district-pennsylvania-18",
         "representative": "Conor Lamb",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Conor_Lamb.jpg",
         "total_value": 7545.51,
@@ -72989,6 +73245,7 @@
           "name": "Brown Point Facility Management Solutions",
           "value": 24816
         },
+        "dom_id": "district-rhodeisland-1",
         "representative": "David Cicilline",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/David_Cicilline_official_photo_%28cropped%29.jpg",
         "total_value": 24816.72,
@@ -73531,6 +73788,7 @@
           "name": "Varner Miller Associates",
           "value": 124998
         },
+        "dom_id": "district-southcarolina-1",
         "representative": "Mark Sanford",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mark_Sanford%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 279874.72000000003,
@@ -73785,6 +74043,7 @@
           "name": "FN America",
           "value": 235882
         },
+        "dom_id": "district-southcarolina-2",
         "representative": "Joe Wilson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Joe_Wilson_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 271500.83999999997,
@@ -74127,6 +74386,7 @@
           "name": "Bottom Line Military Sales",
           "value": 59278
         },
+        "dom_id": "district-southcarolina-3",
         "representative": "Jeff Duncan",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Jeff_Duncan%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 66795.3,
@@ -74837,6 +75097,7 @@
           "name": "Barling Bay",
           "value": 1695631
         },
+        "dom_id": "district-southcarolina-6",
         "representative": "Jim Clyburn",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/James_Clyburn%2C_official_Congressional_Majority_Whip_photo_%28cropped%29.jpg",
         "total_value": 1700451.5999999999,
@@ -75115,6 +75376,7 @@
           "name": "Federal Facilitators",
           "value": 697871
         },
+        "dom_id": "district-southcarolina-7",
         "representative": "Tom Rice",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Tom_Rice%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 697871.27,
@@ -75513,6 +75775,7 @@
           "name": "Victory Supply",
           "value": 3568
         },
+        "dom_id": "district-tennessee-4",
         "representative": "Scott DesJarlais",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Scott_DesJarlais%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 3568,
@@ -75663,6 +75926,7 @@
           "name": "CoreCivic",
           "value": 280179608
         },
+        "dom_id": "district-tennessee-5",
         "representative": "Jim Cooper",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Jim_Cooper_113th_Congress.jpg",
         "total_value": 284518878.86,
@@ -76041,6 +76305,7 @@
           "name": "Research Electronics International",
           "value": 5840
         },
+        "dom_id": "district-tennessee-6",
         "representative": "Diane Black",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Diane_Black%2C_115th_official_photo_%28cropped%29.jpg",
         "total_value": 5840,
@@ -76463,6 +76728,7 @@
           "name": "ASE Direct",
           "value": 6598
         },
+        "dom_id": "district-tennessee-7",
         "representative": "Marsha Blackburn",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Marsha_blackburn_congress_%28cropped_2%29.jpg",
         "total_value": 6598.9,
@@ -76869,6 +77135,7 @@
           "name": "The Terminix International Company Partnership",
           "value": 4539
         },
+        "dom_id": "district-tennessee-8",
         "representative": "David Kustoff",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kustoff_Official_Headshot_%28cropped%29.jpg",
         "total_value": 4539,
@@ -77015,6 +77282,7 @@
           "name": "Data Facts",
           "value": 991420
         },
+        "dom_id": "district-tennessee-9",
         "representative": "Steve Cohen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Stevecohen.jpeg",
         "total_value": 1480287.83,
@@ -77333,6 +77601,7 @@
           "name": "Ben Fitzgerald Real Estate Services",
           "value": 19939269
         },
+        "dom_id": "district-texas-1",
         "representative": "Louie Gohmert",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Louie_Gohmert_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 19962510.73,
@@ -77479,6 +77748,7 @@
           "name": "Valdata Telecom",
           "value": 9088
         },
+        "dom_id": "district-texas-2",
         "representative": "Ted Poe",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ted_Poe_Official_%28cropped%29.jpg",
         "total_value": 15439,
@@ -77565,6 +77835,7 @@
           "name": "Ewing Electronics",
           "value": 26188
         },
+        "dom_id": "district-texas-3",
         "representative": "Sam Johnson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sam_Johnson_113th_Congress.jpg",
         "total_value": 61553.49,
@@ -78067,6 +78338,7 @@
           "name": "L3 Technologies",
           "value": 27159
         },
+        "dom_id": "district-texas-4",
         "representative": "John Ratcliffe",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Congressman_John_Lee_Ratcliffe_%28cropped%29.jpg",
         "total_value": 45973.520000000004,
@@ -78157,6 +78429,7 @@
           "name": "Bashen Corporation",
           "value": 1999787
         },
+        "dom_id": "district-texas-7",
         "representative": "John Culberson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_Culberson_official_portrait_%28cropped%29.jpg",
         "total_value": 2209884.31,
@@ -78415,6 +78688,7 @@
           "name": "Go & Zalez",
           "value": 90000
         },
+        "dom_id": "district-texas-8",
         "representative": "Kevin Brady",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Kevin_Brady_official_photo_%28cropped%29.jpg",
         "total_value": 95300.76000000001,
@@ -78557,6 +78831,7 @@
           "name": "Infocus Health",
           "value": 34350
         },
+        "dom_id": "district-texas-9",
         "representative": "Al Green",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Al_Green_Official_%28cropped_2%29.jpg",
         "total_value": 84704.7,
@@ -78875,6 +79150,7 @@
           "name": "G T Distributors",
           "value": 66392
         },
+        "dom_id": "district-texas-10",
         "representative": "Michael McCaul",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Michael_McCaul_official_photo_%28cropped_2%29.jpg",
         "total_value": 96937.37000000001,
@@ -79285,6 +79561,7 @@
           "name": "EcoVantage Energy",
           "value": 6592
         },
+        "dom_id": "district-texas-11",
         "representative": "Mike Conaway",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Mike_Conaway_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 6592,
@@ -79431,6 +79708,7 @@
           "name": "The J. Diamond Group",
           "value": 5446421
         },
+        "dom_id": "district-texas-12",
         "representative": "Kay Granger",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kay_Granger_%28cropped%29.jpg",
         "total_value": 5749444.24,
@@ -79737,6 +80015,7 @@
           "name": "Creative Corrections",
           "value": 23166046
         },
+        "dom_id": "district-texas-14",
         "representative": "Randy Weber",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Randy_Weber_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 23166047.7,
@@ -80051,6 +80330,7 @@
           "name": "J S J Rodriguez",
           "value": 12930
         },
+        "dom_id": "district-texas-15",
         "representative": "Vicente González",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Vicente_Gonzalez_115th_congress_photo_%28cropped%29.jpg",
         "total_value": 19628.8,
@@ -80149,6 +80429,7 @@
           "name": "Eclipse Business Group",
           "value": 413792
         },
+        "dom_id": "district-texas-16",
         "representative": "Beto O'Rourke",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Beto_O%27Rourke%2C_Official_portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 476631.25000000006,
@@ -80447,6 +80728,7 @@
           "name": "ICS Jail Supplies",
           "value": 20156
         },
+        "dom_id": "district-texas-17",
         "representative": "Bill Flores",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bill_Flores%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 20156.4,
@@ -80561,6 +80843,7 @@
           "name": "Progend",
           "value": 23898
         },
+        "dom_id": "district-texas-18",
         "representative": "Sheila Jackson Lee",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/SheilaJackson.JPG",
         "total_value": 54341.54,
@@ -80659,6 +80942,7 @@
           "name": "Native Energy & Technology",
           "value": 35498523
         },
+        "dom_id": "district-texas-20",
         "representative": "Joaquín Castro",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Joaquin_Castro%2C_official_portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 42686865.980000004,
@@ -80925,6 +81209,7 @@
           "name": "Ingenesis",
           "value": 33108514
         },
+        "dom_id": "district-texas-21",
         "representative": "Lamar Smith",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lamar_Smith%2C_Official_Portrait%2C_c112th_Congress.jpg",
         "total_value": 33858508.239999995,
@@ -81163,6 +81448,7 @@
           "name": "ABM Industry Groups",
           "value": 82625
         },
+        "dom_id": "district-texas-22",
         "representative": "Pete Olson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pete_Olson_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 135602.87,
@@ -82041,6 +82327,7 @@
           "name": "Ingenesis",
           "value": 554032430
         },
+        "dom_id": "district-texas-23",
         "representative": "Will Hurd",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Willhurd_%28cropped%29.jpg",
         "total_value": 554039964,
@@ -82171,6 +82458,7 @@
           "name": "Varidesk",
           "value": 173393
         },
+        "dom_id": "district-texas-24",
         "representative": "Kenny Marchant",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kenny_Marchant_Official_%28cropped%29.jpg",
         "total_value": 216898.06,
@@ -82569,6 +82857,7 @@
           "name": "Migrant Clinicians Network",
           "value": 453946
         },
+        "dom_id": "district-texas-25",
         "representative": "Roger Williams",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Roger_Williams_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 557946.8,
@@ -82695,6 +82984,7 @@
           "name": "ERAD Group",
           "value": 15834
         },
+        "dom_id": "district-texas-26",
         "representative": "Michael C. Burgess",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Michael_Burgess_official_photo_%28cropped%29.jpg",
         "total_value": 15834,
@@ -83089,6 +83379,7 @@
           "name": "Asset Protection & Security Services",
           "value": 237005118
         },
+        "dom_id": "district-texas-27",
         "representative": "",
         "representative_photo_url": "",
         "total_value": 237005119.74,
@@ -83523,6 +83814,7 @@
           "name": "GC Alliance",
           "value": 104920
         },
+        "dom_id": "district-texas-28",
         "representative": "Henry Cuellar",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Henry_Cuellar%2C_official_color_photo_portrait_%28cropped%29.jpg",
         "total_value": 104920.2,
@@ -83629,6 +83921,7 @@
           "name": "SouthEast Vocational Alliance",
           "value": 1258643
         },
+        "dom_id": "district-texas-29",
         "representative": "Gene Green",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Rep._Gene_Green_%28cropped%29.jpg",
         "total_value": 1273913.84,
@@ -83723,6 +84016,7 @@
           "name": "World Wide Enterprises",
           "value": 26883
         },
+        "dom_id": "district-texas-30",
         "representative": "Eddie Bernice Johnson",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Eddie_Bernice_Johnson%2C_Official_Portrait%2C_c112th_Congress.jpg",
         "total_value": 26883,
@@ -83869,6 +84163,7 @@
           "name": "Dell Federal Systems",
           "value": 35768384
         },
+        "dom_id": "district-texas-31",
         "representative": "John Carter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Rep._John_Carter_%28cropped%29.jpg",
         "total_value": 36301747.980000004,
@@ -83971,6 +84266,7 @@
           "name": "Garrett Electronics",
           "value": 2657
         },
+        "dom_id": "district-texas-32",
         "representative": "Pete Sessions",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Pete_Sessions_official_photo_%28cropped%29.jpg",
         "total_value": 2657.53,
@@ -84109,6 +84405,7 @@
           "name": "Freeman Expositions",
           "value": 72797
         },
+        "dom_id": "district-texas-33",
         "representative": "Marc Veasey",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Marc_Veasey_official_photo_%28cropped%29.jpg",
         "total_value": 72799.13,
@@ -84527,6 +84824,7 @@
           "name": "Southwestern Security Services",
           "value": 32214
         },
+        "dom_id": "district-texas-34",
         "representative": "Filemon Vela Jr.",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Filemon_Vela%2C_Official_Portrait%2C_113th_Congress_%28cropped%29.jpg",
         "total_value": 32214.74,
@@ -84741,6 +85039,7 @@
           "name": "C.F.I. Delivery",
           "value": 110586
         },
+        "dom_id": "district-texas-35",
         "representative": "Lloyd Doggett",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lloyd_Doggett_113th_Congress.jpg",
         "total_value": 179052.61,
@@ -85207,6 +85506,7 @@
           "name": "Utah Communications Authority",
           "value": 29648
         },
+        "dom_id": "district-utah-2",
         "representative": "Chris Stewart",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chris_Stewart_official_photo_%28cropped%29.jpg",
         "total_value": 31286.62,
@@ -85613,6 +85913,7 @@
           "name": "SmartyStreets",
           "value": 100000
         },
+        "dom_id": "district-utah-3",
         "representative": "John Curtis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/John_Curtis_%28cropped%29.png",
         "total_value": 142000,
@@ -85799,6 +86100,7 @@
           "name": "Franklin Covey Client Sales",
           "value": 94366
         },
+        "dom_id": "district-utah-4",
         "representative": "Mia Love",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mia_Love_official_portrait_%28cropped%29.jpg",
         "total_value": 95905.65,
@@ -86345,6 +86647,7 @@
           "name": "Vermont State Colleges",
           "value": 69880
         },
+        "dom_id": "district-vermont-0",
         "representative": "Peter Welch",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Peter_Welch_official_photo_%28cropped%29.jpg",
         "total_value": 84288,
@@ -86767,6 +87070,7 @@
           "name": "LT Business Solutions",
           "value": 220210
         },
+        "dom_id": "district-virginia-1",
         "representative": "Rob Wittman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rob_Wittman_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 363491.23,
@@ -87149,6 +87453,7 @@
           "name": "Mythics",
           "value": 18925212
         },
+        "dom_id": "district-virginia-2",
         "representative": "Scott Taylor",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Scott_Taylor_official_photo_%28cropped%29.jpg",
         "total_value": 23464467.310000002,
@@ -87331,6 +87636,7 @@
           "name": "Success Tech Management and Services",
           "value": 1710678
         },
+        "dom_id": "district-virginia-3",
         "representative": "Bobby Scott",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bobby_Scott_%28cropped%29.jpg",
         "total_value": 1802421.02,
@@ -87881,6 +88187,7 @@
           "name": "Shine Enterprises",
           "value": 443212
         },
+        "dom_id": "district-virginia-5",
         "representative": "Tom Garrett Jr.",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Tom_Garrett_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 694020.3500000001,
@@ -88375,6 +88682,7 @@
           "name": "Tactical & Survival Specialties",
           "value": 4984117
         },
+        "dom_id": "district-virginia-6",
         "representative": "Bob Goodlatte",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bob_Goodlatte_official_photo_%28cropped%29.jpg",
         "total_value": 6513077.15,
@@ -88925,6 +89233,7 @@
           "name": "Panamerica Computers",
           "value": 9198722
         },
+        "dom_id": "district-virginia-7",
         "representative": "Dave Brat",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Brat_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 10059802.17,
@@ -89039,6 +89348,7 @@
           "name": "Phacil",
           "value": 245425952
         },
+        "dom_id": "district-virginia-8",
         "representative": "Don Beyer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Don_Beyer%2C_official_114th_Congress_photo_portrait_%28cropped%29.jpeg",
         "total_value": 765093238.8299999,
@@ -89621,6 +89931,7 @@
           "name": "Java Productions",
           "value": 20908081
         },
+        "dom_id": "district-virginia-9",
         "representative": "Morgan Griffith",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Morgan_Griffith%2C_Official_Portrait%2C_112th_Congress_B_%28cropped%29.jpg",
         "total_value": 20920081.94,
@@ -89951,6 +90262,7 @@
           "name": "M V M",
           "value": 211851275
         },
+        "dom_id": "district-virginia-10",
         "representative": "Barbara Comstock",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Barbara_Comstock_official_photo%2C_114th_Congress_%28cropped%29.jpg",
         "total_value": 569353037.8299999,
@@ -90065,6 +90377,7 @@
           "name": "Widepoint Integrated Solutions",
           "value": 164841980
         },
+        "dom_id": "district-virginia-11",
         "representative": "Gerry Connolly",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Gerry_Connolly_official_photo_%28cropped%29.jpg",
         "total_value": 1262739446.81,
@@ -90367,6 +90680,7 @@
           "name": "JDL Digital Systems",
           "value": 34789014
         },
+        "dom_id": "district-washington-1",
         "representative": "Suzan DelBene",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Suzan_DelBene%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg",
         "total_value": 42762393.32000001,
@@ -90645,6 +90959,7 @@
           "name": "TruckVault",
           "value": 24744
         },
+        "dom_id": "district-washington-2",
         "representative": "Rick Larsen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rick_Larsen_113th_Congress.jpg",
         "total_value": 24744,
@@ -91103,6 +91418,7 @@
           "name": "County of Clark",
           "value": 43400
         },
+        "dom_id": "district-washington-3",
         "representative": "Jaime Herrera Beutler",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Jaime_Herrera_Beutler%2C_official_portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 65329.16,
@@ -91385,6 +91701,7 @@
           "name": "Risklens",
           "value": 22000
         },
+        "dom_id": "district-washington-5",
         "representative": "Cathy McMorris Rodgers",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cathy_McMorris_Rodgers_official_photo_%28cropped%29.jpg",
         "total_value": 22000,
@@ -91747,6 +92064,7 @@
           "name": "Wabana Group",
           "value": 1710678
         },
+        "dom_id": "district-washington-6",
         "representative": "Derek Kilmer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Derek_Kilmer_113th_Congress_%28cropped%29.jpg",
         "total_value": 1794713.37,
@@ -91841,6 +92159,7 @@
           "name": "Amazon.com",
           "value": 11899
         },
+        "dom_id": "district-washington-7",
         "representative": "Pramila Jayapal",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pramila_Jayapal_115th_Congress_photo_%28cropped_2%29.jpg",
         "total_value": 11899.52,
@@ -92219,6 +92538,7 @@
           "name": "Black Diamond Gun Club",
           "value": 14832
         },
+        "dom_id": "district-washington-8",
         "representative": "Dave Reichert",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Dave_Reichert%2C_Official_Portrait%2C_112th_Congress_%28cropped%29.jpg",
         "total_value": 19197.63,
@@ -92313,6 +92633,7 @@
           "name": "Concur Technologies",
           "value": 6305099
         },
+        "dom_id": "district-washington-9",
         "representative": "Adam Smith",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Adam_Smith_official_photo_%28cropped%29.jpg",
         "total_value": 7752539.5600000005,
@@ -92799,6 +93120,7 @@
           "name": "clearAvenue",
           "value": 20740278
         },
+        "dom_id": "district-westvirginia-1",
         "representative": "David McKinley",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/David_McKinley_Official_%28cropped%29.jpg",
         "total_value": 20740278.69,
@@ -92989,6 +93311,7 @@
           "name": "Systec Group",
           "value": 18188
         },
+        "dom_id": "district-wisconsin-1",
         "representative": "Paul Ryan",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Paul_Ryan%2C_113th_Congress_%28cropped%29.png",
         "total_value": 18188.53,
@@ -93127,6 +93450,7 @@
           "name": "ANSI-ASQ National Accreditation Board",
           "value": 25550
         },
+        "dom_id": "district-wisconsin-4",
         "representative": "Gwen Moore",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gwen_Moore_official_photo_%28cropped%29.jpg",
         "total_value": 58471.82000000001,
@@ -93317,6 +93641,7 @@
           "name": "Spacesaver Storage Systems",
           "value": 196624
         },
+        "dom_id": "district-wisconsin-5",
         "representative": "Jim Sensenbrenner",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sensenbrenner.jpg",
         "total_value": 281284.92,
@@ -93627,6 +93952,7 @@
           "name": "Pierce Manufacturing",
           "value": 3185922
         },
+        "dom_id": "district-wisconsin-6",
         "representative": "Glenn Grothman",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Glenn_Grothman_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 3242401.6100000003,
@@ -94373,6 +94699,7 @@
           "name": "Qualification Targets",
           "value": 23990
         },
+        "dom_id": "district-wisconsin-7",
         "representative": "Sean Duffy",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sean_Duffy_official_congressional_photo_%28cropped%29.jpg",
         "total_value": 32698.55,
@@ -94871,6 +95198,7 @@
           "name": "The Medalcraft Mint",
           "value": 237391
         },
+        "dom_id": "district-wisconsin-8",
         "representative": "Mike Gallagher",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Mike_Gallagher_Official_Portrait_2017_%28cropped%29.png",
         "total_value": 237392.72999999998,
@@ -95453,6 +95781,7 @@
           "name": "Caribbean School",
           "value": 162935
         },
+        "dom_id": "district-puertorico-98",
         "representative": "Jenniffer González",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Official_portrait_of_Resident_Commissioner_Jenniffer_Gonzalez.jpg/800px-Official_portrait_of_Resident_Commissioner_Jenniffer_Gonzalez.jpg",
         "total_value": 323102.1,
