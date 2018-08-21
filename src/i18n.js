@@ -2,6 +2,10 @@ import $ from "jquery";
 import Messages from "./i18n/en-es-fr.json";
 import updateTexts from "./update-texts";
 import { moveLegend } from "./utils";
+import spinner from "./spinner";
+
+// start the spinner
+spinner.start();
 
 // load in the i18n files.
 Messages["@metadata"] = {

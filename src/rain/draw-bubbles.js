@@ -11,6 +11,7 @@ import addGlowFilter from "../add-glow-filter";
 import { fillV2DivHeight } from "../utils";
 import { rem, green, purple } from "../constants";
 import Data from "../../data/rain/rainData.csv";
+import spinner from "../spinner";
 
 export default function(){  
   const width = $("#rain-viz").width();
@@ -109,6 +110,8 @@ export default function(){
     .classed("centered", true)
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
+
+  spinner.stop();
 
   const legendG = svg.append("g")
     .attr("id", "rain-legend")

@@ -1,8 +1,12 @@
 import $ from "jquery";
 import drawBubbles from "./rain/draw-bubbles";
 import { resizeDivFromTop } from "./utils";
+import spinner from "./spinner";
 
 export default function(){
+  if(!$("#spinner").length){
+    spinner.start();
+  }
   $(document).ready(() => {
     $("#v2-div").show();
     resizeDivFromTop("#v2-div");

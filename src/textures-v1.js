@@ -1,6 +1,8 @@
 import $ from "jquery";
 import updateTexts from "./update-texts";
+import spinner from "./spinner";
 
+spinner.stop();
 $.when(
   $.ajax( "/torn-apart/assets/markdown/textures_v1_en.md" ),
   $.ajax( "/torn-apart/assets/markdown/textures_v1_es.md" ),
