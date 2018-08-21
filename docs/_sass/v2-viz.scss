@@ -89,26 +89,28 @@
   }
 }
 
-.css-box {
-  float: left;
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  border: 1px solid rgba(0, 0, 0, .2);
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.legend-rect {
+		 height: 20px;
+		 width: 20px;
 }
 
 .purple {
-  background: #8da0cb;
+  fill: #8da0cb;
 }
 
 .green {
-  background: #66c2a5;
+  fill: #66c2a5;
 }
 
 .orange {
-  background: #fc8d62;
+  fill: #fc8d62;
 }
 
 .pink {
-  background: #e78ac3;
+  fill: #e78ac3;
 }
