@@ -1,24 +1,32 @@
 import $ from "jquery";
 import { event, select } from "d3-selection";
 
-export function handleMouseOver(d){
+export function handleMouseOver(d, coords){
+  let pageX, pageY;
+  if(coords){
+    pageX = coords[0];
+    pageY = coords[1];
+  } else {
+    pageX = event.pageX;
+    pageY = event.pageY;
+  }
   d.mouseOver();
   select("#tooltip")
     .html(d.tooltip)
     .style("left", function(){
       const toolTipWidth = $("#tooltip").width();
-      if(toolTipWidth > event.pageX){
-        return event.pageX + "px";
+      if(toolTipWidth > pageX){
+        return pageX + "px";
       } else {
-        return (event.pageX - toolTipWidth) + "px";
+        return (pageX - toolTipWidth) + "px";
       }
     })
     .style("top", function(){
       const toolTipHeight = $("#tooltip").height();
-      if(($(window).height() - event.pageY) < toolTipHeight){
-        return (event.pageY - toolTipHeight) + "px";
+      if(($(window).height() - pageY) < toolTipHeight){
+        return (pageY - toolTipHeight) + "px";
       } else {
-        return event.pageY + "px";
+        return pageY + "px";
       }
     })
   // .transition().delay(0).duration(0)

@@ -12,6 +12,7 @@ import { orange, purple, green, opacityRange5 } from "../constants";
 import districtsLegend from "./legend";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import districtsTooltip from "./tooltip";
+import districtsCarousel from "./carousel";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-districts-svg"));
@@ -35,6 +36,7 @@ export default function(map){
       if(d.properties.party.match(/no-rep/)) d.color = orange;
     })
     .style("pointer-events", "painted")
+    .classed("drawn-district", true)
     .attr("fill", d => d.color)
     .attr("fill-opacity", d => opacity(d.properties.total_value))
     .style("stroke", d => d.color)
@@ -49,12 +51,13 @@ export default function(map){
     .on("mouseout", function(d){
       select(this)
         .attr("fill-opacity", d => opacity(d.properties.total_value))
-        .attr("filter", "");
+        .attr("filter", null);
       handleMouseOut(d);
     })
     .attr("id", d => d.properties.dom_id);
   
   reset();
+  districtsCarousel(opacity);
   map.on("zoomend", reset);
 
   function reset() {
