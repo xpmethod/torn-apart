@@ -87,10 +87,6 @@ export default function(){
     .attr("cy", d => d.y)
     .attr("opacity", 0.9)
     .attr("class", function(d) {return "node" + d.duns;}) //this lets us grab them later for mouseover colouring purposes
-    .each(d => {
-      d.id = `${d.fiscalYear}-${d.awardID}`;
-    })
-    .attr("id", d => `circle-${d.id}`)
     .classed("rain-drop", true)
     // .attr("opacity", 0)
     // .attr("transform", d => `translate(0, ${-1 * d.y})`)

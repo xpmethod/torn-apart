@@ -1,5 +1,5 @@
 // import generateLanguageFiles from "./i18n/generate-language-files";
-// import rainBuildData from "./rain/build-rain-data";
+import rainBuildData from "./rain/build-rain-data";
 import buildDecoratorTable from "./build-decorator-table";
 import districtsBuildAllData from "./districts/build-all-contracts";
 import districtsBindData from "./districts/bind-contracts-to-districts";
@@ -9,9 +9,9 @@ import freezerBuildGraph from "./freezer/build-graph";
 buildDecoratorTable(decorations => {
   districtsBuildAllData(districtsBindData(decorations));
   freezerBuildGraph(decorations);
+  rainBuildData(decorations);
 });
 // generateLanguageFiles();
-// rainBuildData();
 // gainBuildData();
 
 

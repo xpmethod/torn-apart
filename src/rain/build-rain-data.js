@@ -4,7 +4,7 @@ import path from "path";
 import { parse, stringify } from "csv";
 import _ from "lodash";
 
-export default function(){
+export default function(decorations){
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if(err) throw err;
     parse(data, {columns: true}, (err, awards) => {
@@ -16,13 +16,10 @@ export default function(){
           value = 0;
         }
         return {
-          awardID: award.award_id_piid,
           fiscalYear: award.fiscal_year,
           currentValue: award.current_total_value_of_award,
-          potentialValue: award.potential_total_value_of_award,
-          name: award.recipient_name,
+          name: _.find(decorations, { duns: award.recipient_duns }).cleanName,
           duns: award.recipient_duns,
-          parentDuns: award.recipient_parent_duns,
           multiYear: "false" 
         };
       });
@@ -31,13 +28,10 @@ export default function(){
       stringify(mapData, 
         { header: true,
           columns: [
-            "awardID",
             "fiscalYear",
             "currentValue",
-            "potentialValue",
             "name",
             "duns",
-            "parentDuns",
             "multiYear",
           ]
         }, (err, output) => {
