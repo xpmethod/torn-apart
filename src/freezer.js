@@ -1,12 +1,16 @@
 import $ from "jquery";
 import { select } from "d3-selection";
 import { resizeDivFromTop, fillV2DivHeight } from "./utils";
+import spinner from "./spinner";
 import addGlowFilter from "./add-glow-filter";
 import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
 import freezerMurderboard from "./freezer/murderboard";
 
 export default function(){
+  if(!$("#spinner").length){
+    spinner.start();
+  }
   $("#v2-div").show();
   $(document).ready(() => {
     resizeDivFromTop("#v2-div");
@@ -16,6 +20,7 @@ export default function(){
       .attr("height", fillV2DivHeight("#freezer-headers"));
     addGlowFilter(svg);
     freezerMurderboard();
+    spinner.stop();
     freezerTree();
     $("#treemap-g").hide();
     updateTexts();
