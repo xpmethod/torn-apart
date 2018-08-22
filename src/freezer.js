@@ -19,11 +19,20 @@ export default function(){
       .attr("width", $("#freezer-div").width())
       .attr("height", fillV2DivHeight("#freezer-headers"));
     addGlowFilter(svg);
-    freezerMurderboard();
+    if(!$("#topG").length){
+      freezerMurderboard();
+    }
     spinner.stop();
-    freezerTree();
-    $("#treemap-g").hide();
+    if(!$("#treemap-g").length){
+      freezerTree();
+    }
     updateTexts();
+    $("#murderboard-button").addClass("active");
+    $("#treemap-button").removeClass("active");
+    $("#topG").show();
+    $("#treemap-g").hide();
+    $("#tree-sidebar").hide();
+    $("#freezer-sidebar").show();
   });
 
   $("#treemap-button").click(() => {
