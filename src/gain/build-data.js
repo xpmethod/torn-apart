@@ -7,7 +7,7 @@ import gainBuildDunsObject from "./build-duns-object";
 import gainFindBiggestProfiteer from "./find-biggest-profiteer";
 import awardsValue from "./awards-value";
 
-export default function(){
+export default function(decorations){
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if(err) throw err;
     parse(data, { columns: true }, (err, awards) => {
@@ -42,8 +42,8 @@ export default function(){
       _.each(output.minorityCategories, minority => {
         minorityCompanies[minority] = gainBuildDunsObject(minorityAwards[minority + "Award"]);
         output.biggestProfiteers[minority] = gainFindBiggestProfiteer(minorityAwards[minority + "Award"]);
+        output.biggestProfiteers[minority].name = _.find(decorations, { duns: output.biggestProfiteers[minority].duns }).cleanName;
       });
-
       output.minorityCategories.pop();
       output.minorityCategories.map( group => {
         const intercompanies = _.intersection(minorityCompanies.female.companies, minorityCompanies[group].companies);
@@ -62,7 +62,7 @@ export default function(){
             value: minorityCompanies[key].value
           };
         });
-      writeFile(path.join("data", "gain", "minority-data.json"), JSON.stringify(output), (err) => {
+      writeFile(path.join("data", "gain", "minority-data.json"), JSON.stringify(output, null, 2), (err) => {
         if(err) throw err;
         stdout.write("WE DID THE GAIN THING 🚀\n");
       });

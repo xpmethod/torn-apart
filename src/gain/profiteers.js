@@ -25,7 +25,7 @@ export default function(){
         <div>
           <h4>
             <small><span data-i18n="ta-${d}"></span>:</small>
-            ${profiteer.duns}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
+            ${profiteer.name}, <strong>$${bigMoneyFormat(profiteer.value)}</strong>
           </h4>
         </div>`;
     });

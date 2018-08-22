@@ -2,6 +2,7 @@ import $ from "jquery";
 import _ from "lodash";
 import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
+import { format } from "d3-format";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import Tip from "d3-tip";
@@ -38,7 +39,7 @@ export default function(width, height){
     .html(tooltip);
   svg.call(tip);
 
-
+  const colors = [green, orange, pink, lime, beige, tan, lavender];
   const y = scaleBand()
     .rangeRound([0, height/2 - margins.bottom])
     .domain(["Minority", "Woman"])
@@ -51,7 +52,7 @@ export default function(width, height){
     .range([0, width - margins.left - margins.right])
     .domain([0, 0.4 * Data.totalValue]);
   const z = scaleOrdinal()
-    .range([green, orange, pink, lime, beige, tan, lavender])
+    .range(colors)
     .domain(keys);
 
   g.append("g")
@@ -62,6 +63,10 @@ export default function(width, height){
     .selectAll("rect")
     .data(d => d)
     .enter().append("rect")
+    .each(function(d) {
+      const color = select(this.parentNode).attr("fill");
+      d.category = Data.minorityCategories[_.indexOf(colors, color)];
+    })
     .attr("y", d => y(d.data.type))
     .attr("x", d => countX(d[0]))
     .attr("height", y.bandwidth())
@@ -107,6 +112,10 @@ export default function(width, height){
     .selectAll("rect")
     .data(d => d)
     .enter().append("rect")
+    .each(function(d) {
+      const color = select(this.parentNode).attr("fill");
+      d.category = Data.minorityCategories[_.indexOf(colors, color)];
+    })
     .attr("y", d => y(d.data.type))
     .attr("x", d => valueX(d[0]))
     .attr("height", y.bandwidth())
@@ -116,6 +125,12 @@ export default function(width, height){
       } else {
         return valueX(d[1]) - valueX(d[0]);
       }
+    })
+    .on("mouseover", function(d){
+      tip.show(d, this);
+    })
+    .on("mouseout", function(d){
+      tip.hide(d, this);
     });
 
   value.append("g")
@@ -178,6 +193,7 @@ export default function(width, height){
 
   babyCount.append("path")
     .attr("stroke", "black")
+    .attr("fill", "none")
     .attr("d", `M ${babyCountX(Data.totalParents)},0 V ${ babyHeight }`);
 
   babyCount.append("g")
@@ -215,6 +231,7 @@ export default function(width, height){
 
   babyValue.append("path")
     .attr("stroke", "black")
+    .attr("fill", "none")
     .attr("d", `M ${babyValueX(Data.totalValue)},0 V ${ babyHeight }`);
 
   babyValue.append("text")
@@ -233,10 +250,13 @@ export default function(width, height){
     });
 
   function tooltip(d){
-    return `${$.i18n(`ta-${d}-owned-company`)}<br />
-      <ul>
-        <li>Blah</li>
-      </ul>
+    // console.log(d);
+    const modifier = d.data.type === "Woman" ? "-women" : "";
+    return `<h3>${$.i18n(`ta-${d.category}${modifier}-owned-companies`)}</h3>
+    <ul>
+      <li>${Data.minorityCompanies[d.category].count} ${ $.i18n("ta-companies-out-of-N-total").replace(/N/, Data.totalParents) } (${format(",.1%")(Data.minorityCompanies[d.category].count / Data.totalParents)}).</li>
+      <li>$${bigMoneyFormat(Data.minorityCompanies[d.category].value)} ${ $.i18n("ta-dollars-out-of-N-in-ICE-awards-since-2014").replace(/N/, bigMoneyFormat(Data.totalValue)) } (${format(",.1%")(Data.minorityCompanies[d.category].value / Data.totalValue)}).</li>
+    </ul>
       `;
   }
 
