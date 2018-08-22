@@ -27,7 +27,8 @@ export default function(){
     select(`#${top15[i].dom_id}`)
       .each(function(d) {
         d.tooltip = districtsTooltip(d);
-        handleMouseOver(d, [bb.x + 0.5 * bb.width, bb.y + 0.5 * bb.height]);
+        d.coords = [bb.x + 0.5 * bb.width, bb.y + 0.5 * bb.height];
+        handleMouseOver(d);
       })
       .attr("fill-opacity", 1)
       .attr("filter", "url(#filter-glow-districts)");
