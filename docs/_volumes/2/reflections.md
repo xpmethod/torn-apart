@@ -14,6 +14,10 @@ Hence, in addition to reflections from our own project group, we have reached ou
 
 <br>
 
+**[The Fight for Dignity]({{site.baseurl}}/reflections/estefania_castaneda.html)**.  
+by [Estefanía Castañeda Perez](https://twitter.com/transb0rder).  
+Ph.D. Student, UCLA Department of Political Science and Ford Foundation and National Science Foundation Predoctoral Fellow;  Co-President, Binational External Affairs Coordinator for @TASO.
+
 **[Needles without a North]({{site.baseurl}}/reflections/alex_gil.html)**.  
 by [Alex Gil](http://www.elotroalex.com) and Myrna Fuentes.   
 Gil is Digital Scholarship Librarian and Affiliate Faculty of the Department of English and Comparative Literature, Columbia University; Fuentes is a business woman in Dominican Republic.
@@ -26,6 +30,10 @@ PhD student, Cinema Studies, Tisch School of the Arts, New York University.
 **[41 bullets]({{site.baseurl}}/reflections/sujani_reddy.html)**.  
 by [Sujani Reddy](https://www.uncpress.org/book/9781469625072/nursing-and-empire/).   
 Sujani Reddy is a writer, educator and organizer based in Jackson Heights, New York City.
+
+**[Seamos aliados]({{site.baseurl}}/reflections/rubria_rocha.html)**.  
+by [Rubria Rocha de Luna](http://twitter.com/RubriaR)
+Rubria Rocha de Luna is a PhD Student in Hispanic Studies at Texas A&M University.
 
 **[Representation Matters]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira_2.html)**.  
 by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
