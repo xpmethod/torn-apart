@@ -23388,10 +23388,10 @@
           "value": 43867737
         },
         "dom_id": "district-districtofcolumbia-98",
-        "representative": "",
-        "representative_photo_url": "",
+        "representative": "Eleanor Holmes Norton",
+        "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Eleanor_Holmes_Norton.jpg/220px-Eleanor_Holmes_Norton.jpg",
         "total_value": 111844919.83000001,
-        "district_url": ""
+        "district_url": "https://en.wikipedia.org/wiki/District_of_Columbia%27s_at-large_congressional_district"
       }
     },
     {
@@ -83380,7 +83380,7 @@
           "value": 237005118
         },
         "dom_id": "district-texas-27",
-        "representative": "",
+        "representative": "Michael Cloud",
         "representative_photo_url": "",
         "total_value": 237005119.74,
         "district_url": "https://en.wikipedia.org/wiki/Texas%27s_27th_congressional_district"
