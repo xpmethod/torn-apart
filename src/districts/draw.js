@@ -13,6 +13,7 @@ import districtsLegend from "./legend";
 import { handleMouseOver, handleMouseOut } from "../tooltip";
 import districtsTooltip from "./tooltip";
 import districtsCarousel from "./carousel";
+import clearIntervals from "../clear-intervals";
 
 export default function(map){
   const svg = addGlowFilter(leafletD3Svg(map, "d3-districts-svg"));
@@ -32,16 +33,18 @@ export default function(map){
       d.mouseOver = () => true;
       d.mouseOut = () => true;
       d.color = purple;
+      d.opacity = opacity(d.properties.total_value);
       if(d.properties.party.match(/democrat/)) d.color = green;
       if(d.properties.party.match(/no-rep/)) d.color = orange;
     })
     .style("pointer-events", "painted")
     .classed("drawn-district", true)
     .attr("fill", d => d.color)
-    .attr("fill-opacity", d => opacity(d.properties.total_value))
+    .attr("fill-opacity", d => d.opacity)
     .style("stroke", d => d.color)
     .style("stroke-opacity", 0.8)
     .on("mouseover", function(d){
+      clearIntervals();
       d.tooltip = districtsTooltip(d);
       select(this)
         .attr("fill-opacity", 1)
@@ -49,6 +52,7 @@ export default function(map){
       handleMouseOver(d);
     })
     .on("mouseout", function(d){
+      districtsCarousel();
       select(this)
         .attr("fill-opacity", d => opacity(d.properties.total_value))
         .attr("filter", null);
@@ -57,7 +61,7 @@ export default function(map){
     .attr("id", d => d.properties.dom_id);
   
   reset();
-  districtsCarousel(opacity);
+  districtsCarousel();
   map.on("zoomend", reset);
 
   function reset() {
