@@ -1,8 +1,5 @@
 import { select } from "d3-selection";
-import productSidebar from "./product-sidebar";
-import productCategorySidebar from "./product-category-sidebar";
-import companySidebar from "./company-sidebar";
-import parentCompanySidebar from "./parent-company-sidebar";
+import murderboardFillInSidebar from "./murderboard-fill-in-sidebar";
 import updateTexts from "../update-texts";
 //import murderboardLegend from "./murderboard-legend";
 export default function(d){
@@ -12,16 +9,16 @@ export default function(d){
   let html;
   switch(d.category){
   case "product":
-    html = productSidebar(d);
+    html = murderboardFillInSidebar(d);
     break;
   case "product category":
-    html = productCategorySidebar(d);
+    html = murderboardFillInSidebar(d);
     break;
   case "company":
-    html = companySidebar(d);
+    html = murderboardFillInSidebar(d);
     break;
   case "parent company":
-    html = parentCompanySidebar(d);
+    html = murderboardFillInSidebar(d);
     break;
   }
 

@@ -22,7 +22,7 @@ export default function(decorations){
       const product_categories = [];
       _.each(awards, (award) => {
         award.naics_cat = _.find(product_taxonomy, { "naics_description": award.naics_description }).tas_taxonomy;
-        award.product_combo = titleUp(award.naics_description) + "||" + award.naics_cat;
+        award.product_combo = award.naics_description + "||" + award.naics_cat;
         award.company_combo = award.recipient_duns + "||" + award.recipient_parent_duns;
         companies.push(award.company_combo);
         products.push(award.product_combo);
@@ -85,7 +85,8 @@ export default function(decorations){
         const total_value = productAwards.reduce( (sum, award) => {
           return sum + _.toInteger(award.current_total_value_of_award);
         }, 0);
-        graph.nodes.push({ name,
+        graph.nodes.push({ 
+          name: titleUp(name),
           childOf,
           id: product,
           category: "product",
@@ -95,8 +96,15 @@ export default function(decorations){
 
       }); // close the each on products_uniq
 
-      graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
-      graph.nodes = _(graph.nodes).uniqBy("id").filter(node => node.name !== node.childOf);
+      // graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
+      graph.links = _(graph.links)
+        .filter(link => link.target !== undefined)
+        .filter(link => link.target !== link.source + "||" + link.source)
+        .uniq();
+      graph.nodes = _(graph.nodes)
+        .uniqBy("id")
+        .filter(node => node.id !== node.childOf)
+        .filter(node => node.id !== node.childOf + "||" + node.childOf);
 
       _(graph.nodes.filter(node => node.category === "parent company"))
         .each(parentCompany => {
@@ -109,7 +117,7 @@ export default function(decorations){
 
       _(graph.nodes.filter(node => node.category === "company"))
         .each(company => {
-          company.awards = awards.filter(award => award.recipient_duns === company.id.replace(/|.*$/, ""))
+          company.awards = awards.filter(award => award.recipient_duns === company.id.replace(/\|.*$/, ""))
             .map(thinAward);
           company.total_value = company.awards.reduce( (sum, award) => {
             return sum + _.toInteger(award.current_total_value_of_award);

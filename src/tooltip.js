@@ -1,17 +1,22 @@
 import $ from "jquery";
-import { event, select } from "d3-selection";
+import { event, selectAll, select } from "d3-selection";
 
-export function handleMouseOver(d, coords){
+export function handleMouseOver(d){
   let pageX, pageY;
-  if(coords){
-    pageX = coords[0];
-    pageY = coords[1];
+  if(d.coords){
+    pageX = d.coords[0];
+    pageY = d.coords[1];
   } else {
     pageX = event.pageX;
     pageY = event.pageY;
   }
   d.mouseOver();
-  select("#tooltip")
+  selectAll(".tooltip").remove();
+  select("body")
+    .append("div")
+    .classed("tooltip", true)
+    .attr("id", "tooltip")
+    .style("opacity", 0.9)
     .html(d.tooltip)
     .style("left", function(){
       const toolTipWidth = $("#tooltip").width();
@@ -28,12 +33,11 @@ export function handleMouseOver(d, coords){
       } else {
         return pageY + "px";
       }
-    })
+    });
   // .transition().delay(0).duration(0)
-    .style("opacity", 1);
 }
 
 export function handleMouseOut(d){
   d.mouseOut();
-  select("#tooltip").style("opacity", 0);
+  selectAll(".tooltip").remove();
 }
