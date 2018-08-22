@@ -36,6 +36,7 @@ export default function(map){
       d.opacity = opacity(d.properties.total_value);
       if(d.properties.party.match(/democrat/)) d.color = green;
       if(d.properties.party.match(/no-rep/)) d.color = orange;
+      if(!d.properties.representative) d.color = orange;
     })
     .style("pointer-events", "painted")
     .classed("drawn-district", true)

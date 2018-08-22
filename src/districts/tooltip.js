@@ -3,13 +3,20 @@ import { bigMoneyFormat } from "../utils";
 
 export default function (geoJSONFeature){
   const d = geoJSONFeature.properties;
-  const district = d.districtNumber === 0 ? "" : $.i18n("ta-district");
-  const html = [`<h4>${ d.state } <small>${ $.i18n(d.districtName).replace(/N/, d.districtNumber) } ${ district }</small></h4>`];
+  const html = [];
+  if(d.districtNumber === 98){
+    html.push(`<h4>${ d.state }</h4>`);
+  } else {
+    const district = d.districtNumber === 0 ? "" : $.i18n("ta-district");
+    html.push(`<h4>${ d.state } <small>${ $.i18n(d.districtName).replace(/N/, d.districtNumber) } ${ district }</small></h4>`);
+  }
   html.push(`<h3>${ $.i18n("ta-ice-money-since-2013-tooltip") }:<br/><strong>$${ bigMoneyFormat(d.total_value) }</strong></h3>`);
-  if(d.representative_photo_url){
-    html.push(`<img src="${ d.representative_photo_url }" 
-      alt="Photo of ${ d.representative }" 
-      class="rounded float-left mr-3">`);
+  if(d.representative){
+    if(d.representative_photo_url){
+      html.push(`<img src="${ d.representative_photo_url }" 
+        alt="Photo of ${ d.representative }" 
+        class="rounded float-left mr-3">`);
+    }
     html.push(`<h4><strong>${$.i18n(`ta-${ d.party }-cong`)}</strong></h4>`);
     html.push(`<h4>${ d.representative }</h4>`);
   } else {
