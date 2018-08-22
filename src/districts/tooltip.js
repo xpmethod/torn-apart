@@ -3,7 +3,7 @@ import { bigMoneyFormat } from "../utils";
 
 export default function (geoJSONFeature){
   const d = geoJSONFeature.properties;
-  const html = [`<h4>${ d.state } <small>${ d.districtName }</small></h4>`];
+  const html = [`<h4>${ d.state } <small>${ $.i18n(d.districtName).replace(/N/, d.districtNumber) } ${ $.i18n("ta-district") }</small></h4>`];
   html.push(`<h3>${ $.i18n("ta-ice-money-since-2013-tooltip") }:<br/><strong>$${ bigMoneyFormat(d.total_value) }</strong></h3>`);
   html.push(`<img src="${ d.representative_photo_url }" 
     alt="Photo of ${ d.representative }" 
