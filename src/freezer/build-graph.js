@@ -95,8 +95,15 @@ export default function(decorations){
 
       }); // close the each on products_uniq
 
-      graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
-      graph.nodes = _(graph.nodes).uniqBy("id").filter(node => node.name !== node.childOf);
+      // graph.links = _.uniq(graph.links.filter(link => link.target !== undefined));
+      graph.links = _(graph.links)
+        .filter(link => link.target !== undefined)
+        .filter(link => link.target !== link.source + "||" + link.source)
+        .uniq();
+      graph.nodes = _(graph.nodes)
+        .uniqBy("id")
+        .filter(node => node.id !== node.childOf)
+        .filter(node => node.id !== node.childOf + "||" + node.childOf);
 
       _(graph.nodes.filter(node => node.category === "parent company"))
         .each(parentCompany => {
