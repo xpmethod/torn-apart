@@ -6,6 +6,7 @@ import _ from "lodash";
 import cleanNames from "./clean-names";
 
 export default function(callback){
+
   const vendorData = JSON.parse(readFileSync(path.join("data", "vendor-duns-data.json"))); 
   parse(readFileSync(path.join("data", "follow_the_money_data.csv")),
     { columns: true },
@@ -27,7 +28,10 @@ export default function(callback){
               csvVendor.vendorName = vendor.sam_data.registration.legalBusinessName;
               csvVendor.url = vendor.sam_data.registration.corporateUrl;
             }
-            return cleanNames(csvVendor);
+            
+            csvVendor.cleanName = csvVendor.vendorName || csvVendor.origName;
+            csvVendor.cleanName = cleanNames(csvVendor.cleanName); //applies title case, sorts out acronyms, etc.
+            return csvVendor;
           }
         });
       stringify(vendors, 
