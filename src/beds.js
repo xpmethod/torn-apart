@@ -4,7 +4,7 @@ import bedsLegend from "./beds/legend";
 import { mapZoomEnable } from "./utils";
 import { lower48Bounds } from "./constants";
 
-export default function(map){
+export default function(map) {
   mapZoomEnable(map);
   bedsVoronoiDraw(map);
   $("#d3-beds-svg").show();

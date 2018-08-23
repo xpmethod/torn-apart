@@ -7,8 +7,8 @@ import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
 import freezerMurderboard from "./freezer/murderboard";
 
-export default function(){
-  if(!$("#spinner").length){
+export default function() {
+  if (!$("#spinner").length) {
     spinner.start();
   }
   $("#v2-div").show();
@@ -19,11 +19,11 @@ export default function(){
       .attr("width", $("#freezer-div").width())
       .attr("height", fillV2DivHeight("#freezer-headers"));
     addGlowFilter(svg);
-    if(!$("#topG").length){
+    if (!$("#topG").length) {
       freezerMurderboard();
     }
     spinner.stop();
-    if(!$("#treemap-g").length){
+    if (!$("#treemap-g").length) {
       freezerTree();
     }
     updateTexts();
@@ -51,6 +51,4 @@ export default function(){
     $("#tree-sidebar").hide();
     $("#freezer-sidebar").show();
   });
-
-
 }

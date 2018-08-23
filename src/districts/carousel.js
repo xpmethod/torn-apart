@@ -4,10 +4,10 @@ import { handleMouseOver, handleMouseOut } from "../tooltip";
 import districtsTooltip from "./tooltip";
 import congressionalDistricts from "../../data/districts/fat_districts.geo.json";
 
-export default function(){
+export default function() {
   const top15 = _(congressionalDistricts.features)
     .map(district => {
-      return { 
+      return {
         dom_id: district.properties.dom_id,
         value: district.properties.total_value
       };
@@ -16,14 +16,16 @@ export default function(){
     .value()
     .reverse()
     .splice(0, 17);
-  let i= 0;
+  let i = 0;
   setInterval(() => {
     selectAll(".drawn-district")
       .each(d => handleMouseOut(d))
       .attr("fill-opacity", d => d.opacity)
       .attr("filter", null);
     i = i === top15.length ? 0 : i;
-    const bb = select(`#${top15[i].dom_id}`).node().getBBox();
+    const bb = select(`#${top15[i].dom_id}`)
+      .node()
+      .getBBox();
     select(`#${top15[i].dom_id}`)
       .each(function(d) {
         d.tooltip = districtsTooltip(d);

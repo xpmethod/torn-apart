@@ -23,6 +23,6 @@ apiKey(emitter);
 //   });
 // });
 
-emitter.on("error", (error) => {
+emitter.on("error", error => {
   stdout.write(`ERROR: ${error} \n`);
 });

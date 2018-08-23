@@ -1,29 +1,38 @@
 import $ from "jquery";
 import { bigMoneyFormat } from "../utils";
 
-export default function (geoJSONFeature){
+export default function(geoJSONFeature) {
   const d = geoJSONFeature.properties;
   const html = [];
-  if(d.districtNumber === 98){
-    html.push(`<h4>${ d.state }</h4>`);
+  if (d.districtNumber === 98) {
+    html.push(`<h4>${d.state}</h4>`);
   } else {
     const district = d.districtNumber === 0 ? "" : $.i18n("ta-district");
-    html.push(`<h4>${ d.state } <small>${ $.i18n(d.districtName).replace(/N/, d.districtNumber) } ${ district }</small></h4>`);
+    html.push(
+      `<h4>${d.state} <small>${$.i18n(d.districtName).replace(
+        /N/,
+        d.districtNumber
+      )} ${district}</small></h4>`
+    );
   }
-  html.push(`<h3>${ $.i18n("ta-ice-money-since-2013-tooltip") }:<br/><strong>$${ bigMoneyFormat(d.total_value) }</strong></h3>`);
-  if(d.representative){
-    if(d.representative_photo_url){
-      html.push(`<img src="${ d.representative_photo_url }" 
-        alt="Photo of ${ d.representative }" 
+  html.push(
+    `<h3>${$.i18n(
+      "ta-ice-money-since-2013-tooltip"
+    )}:<br/><strong>$${bigMoneyFormat(d.total_value)}</strong></h3>`
+  );
+  if (d.representative) {
+    if (d.representative_photo_url) {
+      html.push(`<img src="${d.representative_photo_url}" 
+        alt="Photo of ${d.representative}" 
         class="rounded float-left mr-3">`);
     }
-    html.push(`<h4><strong>${$.i18n(`ta-${ d.party }-cong`)}</strong></h4>`);
-    html.push(`<h4>${ d.representative }</h4>`);
+    html.push(`<h4><strong>${$.i18n(`ta-${d.party}-cong`)}</strong></h4>`);
+    html.push(`<h4>${d.representative}</h4>`);
   } else {
     html.push(`<h4>${$.i18n("ta-vacant-district")}</h4>`);
   }
-  html.push(`<h4><br />${ $.i18n("ta-districts-biggest-profiteer") }:<br />
-      ${ d.profiteer.name }, $${ bigMoneyFormat(d.profiteer.value) }</h4>`);
+  html.push(`<h4><br />${$.i18n("ta-districts-biggest-profiteer")}:<br />
+      ${d.profiteer.name}, $${bigMoneyFormat(d.profiteer.value)}</h4>`);
   return html.join("\n");
 }
 // vG"properties": {
@@ -48,4 +57,3 @@ export default function (geoJSONFeature){
 //         "awards": [],
 //         "total_value": 0,
 //         "district_url": "https://en.wikipedia.org/wiki/Georgia%27s_11th_congressional_district"
- 

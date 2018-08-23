@@ -4,6 +4,7 @@ import districts from "./districts";
 
 const map = initMap("mapdiv");
 $("#indexModal").modal("show");
-$("#legend").click(function(){ $(this).hide(); });
+$("#legend").click(function() {
+  $(this).hide();
+});
 districts(map);
-

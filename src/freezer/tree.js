@@ -12,13 +12,13 @@ import treeSidebar from "./tree-sidebar";
 import treeSelectCell from "./tree-select-cell";
 import Data from "../../data/freezer/graph.json";
 
-export default function(){
+export default function() {
   const colorFade = 0.5;
   const data = _.cloneDeep(Data);
   treeSidebar(data);
   const svg = select("#freezer-svg");
   const g = svg.append("g").attr("id", "treemap-g");
-  const fader = (color => interpolateRgb(color, "#fff")(colorFade));
+  const fader = color => interpolateRgb(color, "#fff")(colorFade);
   const fillColor = scaleOrdinal(schemeSet2.map(fader));
   const highlightColor = scaleOrdinal(schemeSet2);
   const theFormat = format(",d");
@@ -30,26 +30,33 @@ export default function(){
     .round(true)
     .paddingInner(1);
 
-  const theData = { name: "contracts",
+  const theData = {
+    name: "contracts",
     children: _(data.nodes)
       .filter(node => node.category === "product category")
-      .map(node => { return { name: node.name};})
+      .map(node => {
+        return { name: node.name };
+      })
       .each(productCat => {
         productCat.children = _(data.nodes)
           .filter(node => node.childOf === productCat.name)
-          .map(node => { return { name: node.name, graphID: node.id }; })
+          .map(node => {
+            return { name: node.name, graphID: node.id };
+          })
           .each(node => {
             node.children = _(data.links)
-              .filter(link => link.target === node.graphID && link.contract_value > 0)
+              .filter(
+                link => link.target === node.graphID && link.contract_value > 0
+              )
               .value()
-              .map(link => { 
+              .map(link => {
                 const node = _.find(data.nodes, { id: link.source });
-                const parent = () => node.childOf ? node.childOf : node.id;
-                return { 
+                const parent = () => (node.childOf ? node.childOf : node.id);
+                return {
                   name: node.name,
                   parentSlug: slug(parent()),
-                  graphID: link.source, 
-                  contract_value: link.contract_value 
+                  graphID: link.source,
+                  contract_value: link.contract_value
                 };
               });
           });
@@ -57,21 +64,26 @@ export default function(){
   };
 
   const root = hierarchy(theData)
-    .eachBefore(d =>  d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name)
+    .eachBefore(
+      d => (d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name)
+    )
     .sum(d => d.contract_value)
     .sort((a, b) => b.height - a.height || b.value - a.value);
-      
+
   theTree(root);
 
-  const cell = g.selectAll("g")
+  const cell = g
+    .selectAll("g")
     .data(root.leaves())
-    .enter().append("g")
-    .attr("transform", d => `translate(${ d.x0 },${ d.y0 })`);
+    .enter()
+    .append("g")
+    .attr("transform", d => `translate(${d.x0},${d.y0})`);
 
-  cell.append("rect")
+  cell
+    .append("rect")
     // .each(d => console.log(d))
     .attr("id", d => slug(d.data.graphid))
-    .each(d => { 
+    .each(d => {
       d.color = fillColor(d.parent.parent.data.id);
       d.highlightColor = highlightColor(d.parent.parent.data.id);
     })
@@ -81,10 +93,10 @@ export default function(){
     .on("click", treeSelectCell)
     .attr("fill", d => d.color);
 
-  cell.append("title")
-    .text(d => `${ d.data.id.replace("contracts.", "").replace(".", " ") }\n
-      $${ theFormat(d.value)}`);
+  cell.append("title").text(
+    d => `${d.data.id.replace("contracts.", "").replace(".", " ")}\n
+      $${theFormat(d.value)}`
+  );
 
   treemap(root.sum(sum));
-
 }
