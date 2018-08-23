@@ -295,7 +295,7 @@ export default function(width, height) {
 
   function tooltip(d) {
     // console.log(d);
-    if (d.data.type === "Woman") {
+    if (d.data.type === "Woman" && d.category !== "female") {
       return `<h3>${$.i18n(`ta-${d.category}-women-owned-companies`)}</h3>
       <ul>
         <li>${Data.intersectionalCompanies[d.category].count} ${$.i18n(
