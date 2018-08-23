@@ -295,20 +295,42 @@ export default function(width, height) {
 
   function tooltip(d) {
     // console.log(d);
-    const modifier = d.data.type === "Woman" ? "-women" : "";
-    return `<h3>${$.i18n(`ta-${d.category}${modifier}-owned-companies`)}</h3>
-    <ul>
-      <li>${Data.minorityCompanies[d.category].count} ${$.i18n(
-      "ta-companies-out-of-N-total"
-    ).replace(/N/, Data.totalParents)} (${format(",.1%")(
-      Data.minorityCompanies[d.category].count / Data.totalParents
-    )}).</li>
-      <li>$${bigMoneyFormat(Data.minorityCompanies[d.category].value)} ${$.i18n(
-      "ta-dollars-out-of-N-in-ICE-awards-since-2014"
-    ).replace(/N/, bigMoneyFormat(Data.totalValue))} (${format(",.1%")(
-      Data.minorityCompanies[d.category].value / Data.totalValue
-    )}).</li>
-    </ul>
-      `;
+    if (d.data.type === "Woman") {
+      return `<h3>${$.i18n(`ta-${d.category}-women-owned-companies`)}</h3>
+      <ul>
+        <li>${Data.intersectionalCompanies[d.category].count} ${$.i18n(
+        "ta-companies-out-of-N-total"
+      ).replace(/N/, Data.totalParents)} (${format(",.1%")(
+        Data.intersectionalCompanies[d.category].count / Data.totalParents
+      )}).</li>
+        <li>$${bigMoneyFormat(
+          Data.intersectionalCompanies[d.category].value
+        )} ${$.i18n("ta-dollars-out-of-N-in-ICE-awards-since-2014").replace(
+        /N/,
+        bigMoneyFormat(Data.totalValue)
+      )} (${format(",.1%")(
+        Data.intersectionalCompanies[d.category].value / Data.totalValue
+      )}).</li>
+      </ul>
+        `;
+    } else {
+      return `<h3>${$.i18n(`ta-${d.category}-owned-companies`)}</h3>
+      <ul>
+        <li>${Data.minorityCompanies[d.category].count} ${$.i18n(
+        "ta-companies-out-of-N-total"
+      ).replace(/N/, Data.totalParents)} (${format(",.1%")(
+        Data.minorityCompanies[d.category].count / Data.totalParents
+      )}).</li>
+        <li>$${bigMoneyFormat(
+          Data.minorityCompanies[d.category].value
+        )} ${$.i18n("ta-dollars-out-of-N-in-ICE-awards-since-2014").replace(
+        /N/,
+        bigMoneyFormat(Data.totalValue)
+      )} (${format(",.1%")(
+        Data.minorityCompanies[d.category].value / Data.totalValue
+      )}).</li>
+      </ul>
+        `;
+    }
   }
 }
