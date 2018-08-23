@@ -10,6 +10,10 @@ export function handleMouseOver(d){
     pageX = event.pageX;
     pageY = event.pageY;
   }
+  if(pageY < 0){
+    pageX = 30;
+    pageY = 30;
+  }
   d.mouseOver();
   selectAll(".tooltip").remove();
   select("body")
