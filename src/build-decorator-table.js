@@ -39,7 +39,7 @@ export default function(callback) {
                 vendor.sam_data.registration.legalBusinessName;
               csvVendor.url = vendor.sam_data.registration.corporateUrl;
             }
-            
+
             csvVendor.cleanName = csvVendor.vendorName || csvVendor.origName;
             csvVendor.cleanName = cleanNames(csvVendor.cleanName); //applies title case, sorts out acronyms, etc.
             return csvVendor;

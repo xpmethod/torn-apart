@@ -1,6 +1,5 @@
 import cleanNames from "./clean-names";
 
-export default function (string) {
+export default function(string) {
   return cleanNames(string);
-
 }

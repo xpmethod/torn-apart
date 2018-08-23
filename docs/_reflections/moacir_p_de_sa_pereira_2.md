@@ -264,8 +264,7 @@ The oversized role of these technocrats is hinted at in every visualization
 for volume 2 save “Lines.” In
 “[Districts](torn-apart/volume/2/visualizations.html#districts),” we see that
 ICE funding is not evenly distributed around the US, with about 16
-Congressional districts taking home the lion’s share of the ICE budget since
-2014. Yet of those districts getting ICE largesse, several are DC-adjacent,
+Congressional districts taking home the lion’s share of the ICE budget since 2014. Yet of those districts getting ICE largesse, several are DC-adjacent,
 where companies like Phacil and Widepoint Integrated Solutions pull in
 millions of dollars from ICE despite (and because of)  being, basically, IT
 consultants.  This explosion of money to the IT sector happens to be [a

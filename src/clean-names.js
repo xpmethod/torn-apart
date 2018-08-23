@@ -2,10 +2,8 @@
 import _ from "lodash";
 import States from "./states";
 
-export default function(strName){
-  
-  var stateRegex = createStateRegex(States); 
-
+export default function(strName) {
+  var stateRegex = createStateRegex(States);
 
   //the pairs of names where we want to brute force things because we can't predict the capitalisation or order or whatever (note: the input names are the OUTPUT of the rest of the script, because this happens last. That makes it easiest for people who spot a problem in the csv later to drop it and the correction in here.)
 
@@ -70,16 +68,15 @@ export default function(strName){
     ["Radvany, Paul", "Paul Radvany"],
     ["G4s Secure Solutions USA", "G4S Secure Solutions USA"],
     ["Caci-Iss", "CACI-ISS"]
-
   ];
-
 
   // Now the fun begins:
 
   // 1. Endings:
   // trailing spaces
 
-  strName = strName.trim()
+  strName = strName
+    .trim()
 
     // ", The". This has to go first to catch "inc., the"
     .replace(/^(.*), \(?the\)?$/i, "THE $1")
@@ -113,10 +110,11 @@ export default function(strName){
   //   strName = "Anthony Ibeagha";
   // }
 
-  if(strName.toUpperCase() === strName){
-  // it's in ALL CAPS.
-  
-    strName = strName.split(" ") 
+  if (strName.toUpperCase() === strName) {
+    // it's in ALL CAPS.
+
+    strName = strName
+      .split(" ")
 
       .map(w => _.capitalize(w))
       .join(" ")
@@ -133,29 +131,23 @@ export default function(strName){
     //exaMPLes, truCKSTop and other real words have three or more consonants
     //across syllable boundaries
 
-    var foundTripleCons = strName.search(
-      /\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i
-    );
+    var foundTripleCons = strName.search(/\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i);
     if (foundTripleCons !== -1) {
       if (
         strName.substr(foundTripleCons, 2) !== "Mc" &&
         !strName.substr(foundTripleCons, 2).match(/th/i) === true &&
         !strName.substr(foundTripleCons, 1).match(/[sS]/) === true
       ) {
-        strName = strName.replace(
-          /\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i,
-          function(match) {
-            return match.toUpperCase();
-          }
-        );
-
+        strName = strName.replace(/\b(?=[a-z]{3})[^aeiouy]{3}.*?\b/i, function(
+          match
+        ) {
+          return match.toUpperCase();
+        });
       }
     }
   }
 
-  strName = strName.replace(/(-[a-z])/, match =>
-    match.toUpperCase()
-  );
+  strName = strName.replace(/(-[a-z])/, match => match.toUpperCase());
 
   //deals with things like Outlook-nebraska. We could handle them by
   //expanding the split ' ' to include - but there are also examples like
@@ -166,27 +158,27 @@ export default function(strName){
   // respect title case.
 
   strName = strName
-  
-    .replace(/\bde\b/ig, "de")
-    .replace(/\bin\b/ig, "in")
-    .replace(/\bat\b/ig, "at")
-    .replace(/\band\b/ig, "and")
-    .replace(/\bof\b/ig, "of")
-    .replace(/\bfor\b/ig, "for")
-    .replace(/\bthe\b/ig, "the")
-	.replace(/\bto\b/ig, "to")
-	.replace(/\bby\b/ig, "by")
-	.replace(/\bup\b/ig, "up")
-	.replace(/\bas\b/ig, "as")
-	.replace(/\bbut\b/ig, "but")
-	.replace(/\bor\b/ig, "or")
-	.replace(/\bnor\b/ig, "nor")
-    .replace(/\bon\b/ig, "on") //word boundaries not spaces because of "Environmental Quality, Texas Commission On" etc
+
+    .replace(/\bde\b/gi, "de")
+    .replace(/\bin\b/gi, "in")
+    .replace(/\bat\b/gi, "at")
+    .replace(/\band\b/gi, "and")
+    .replace(/\bof\b/gi, "of")
+    .replace(/\bfor\b/gi, "for")
+    .replace(/\bthe\b/gi, "the")
+    .replace(/\bto\b/gi, "to")
+    .replace(/\bby\b/gi, "by")
+    .replace(/\bup\b/gi, "up")
+    .replace(/\bas\b/gi, "as")
+    .replace(/\bbut\b/gi, "but")
+    .replace(/\bor\b/gi, "or")
+    .replace(/\bnor\b/gi, "nor")
+    .replace(/\bon\b/gi, "on") //word boundaries not spaces because of "Environmental Quality, Texas Commission On" etc
     .replace(/^the\b/i, "The ");
 
   //Now we brute force replace a bunch of names because they are stupidly unpredictably capitalised
- 
-  for(let i = 0; i < unpredictables.length; i= i+1){
+
+  for (let i = 0; i < unpredictables.length; i = i + 1) {
     scrub(unpredictables[i][0], unpredictables[i][1], strName);
   }
 
@@ -218,10 +210,9 @@ function createStateRegex(States) {
 
   return stateRegex + "\\b" + states[statesSubset.length - 1] + "\\b)/i";
 }
-  
-function scrub(string, correction, strName){
-  if(strName === string){
-    strName = correction;
 
+function scrub(string, correction, strName) {
+  if (strName === string) {
+    strName = correction;
   }
 }
