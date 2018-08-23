@@ -86,7 +86,6 @@ export default function(decorations){
         const total_value = productAwards.reduce( (sum, award) => {
           return sum + _.toInteger(award.current_total_value_of_award);
         }, 0);
-		stdout.write("just before first titleUp");
         graph.nodes.push({ 
           name: titleUp(name),
           childOf,
