@@ -9,13 +9,21 @@ let timer;
 showViz(theViz, map);
 // jQuery behaviors:
 $(".navbar-toggler").click(() => $("#v2-div").hide());
-$("#legend").click(function(){ $(this).hide(); });
+$("#legend").click(function() {
+  $(this).hide();
+});
 // highlight the proper visualization
-$("[href='/torn-apart/volume/2/visualizations.html#" + theViz + "']").addClass("active");
+$("[href='/torn-apart/volume/2/visualizations.html#" + theViz + "']").addClass(
+  "active"
+);
 $(".viz-button").click(function() {
   clearTimeout(timer);
   $(".viz-button").removeClass("active");
-  $( this ).addClass("active");
-  showViz($( this ).attr("href").replace(/^.*#/, ""), map);
+  $(this).addClass("active");
+  showViz(
+    $(this)
+      .attr("href")
+      .replace(/^.*#/, ""),
+    map
+  );
 });
-

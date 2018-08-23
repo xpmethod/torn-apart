@@ -7,22 +7,27 @@ import states from "../states";
 import getOrdinalSuffix from "../get-ordinal-suffix";
 import slug from "../slug";
 
-export default function(rawDistricts, decorations){
+export default function(rawDistricts, decorations) {
   const geoJSON = JSON.parse(
-    readFileSync(path.join("src", "districts", "congressional-districts.geo.json"))
+    readFileSync(
+      path.join("src", "districts", "congressional-districts.geo.json")
+    )
   );
   const districts = rawDistricts.filter(d => d.total_awards > 0);
   stdout.write(`there are ${districts.length} districts.\n`);
 
   const features = _.map(districts, district => {
-    const id2 =  district.id2.length === 3 ? `0${district.id2}` : district.id2;
+    const id2 = district.id2.length === 3 ? `0${district.id2}` : district.id2;
     const stateFP = id2.substr(0, 2);
     const state = _.find(states, { stateFP }).name;
     const districtNumber = _.toInteger(id2.substr(2));
-    const districtName = districtNumber < 1 ? "ta-at-large-district" : `ta-ordinal-${ getOrdinalSuffix(districtNumber) }-m`;
+    const districtName =
+      districtNumber < 1
+        ? "ta-at-large-district"
+        : `ta-ordinal-${getOrdinalSuffix(districtNumber)}-m`;
     let party = "republican";
-    if(district.party.match(/D/)) party = "democrat";
-    if(district.party.match(/N/)) party = "no-rep";
+    if (district.party.match(/D/)) party = "democrat";
+    if (district.party.match(/N/)) party = "no-rep";
     const profiteer = _(district.awards)
       .uniqBy("duns")
       .map(award_recip => {
@@ -53,13 +58,16 @@ export default function(rawDistricts, decorations){
       representative: district.representative.replace(/'/g, "’"),
       representative_photo_url: district.representative_photo_url,
       total_value: district.total_awards,
-      district_url: district.district_url,
+      district_url: district.district_url
     };
     return feature;
   });
-  writeFile(path.join("data", "districts", "fat_districts.geo.json"),
-    JSON.stringify({ type: "FeatureCollection", features }, null, 2), (err) => {
-      if(err) throw err;
+  writeFile(
+    path.join("data", "districts", "fat_districts.geo.json"),
+    JSON.stringify({ type: "FeatureCollection", features }, null, 2),
+    err => {
+      if (err) throw err;
       stdout.write("WE DID THE GEOJSON 🌎\n");
-    });
+    }
+  );
 }

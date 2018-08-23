@@ -1,4 +1,4 @@
-export default function(){
+export default function() {
   // Returns two paths. The first is the shadow and should have a blur filter
   // added to it.  The second is the actual note.
   return [

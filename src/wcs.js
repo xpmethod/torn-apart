@@ -18,33 +18,33 @@ const alaska = polygon(Alaska.features[0].geometry.coordinates);
 const factor = 10;
 
 const points = [];
-featureEach(Data, (feature) => {
+featureEach(Data, feature => {
   let hits = [];
-  for(let d = -180; d <= 180; d = d + factor){
+  for (let d = -180; d <= 180; d = d + factor) {
     const pt = point(feature.geometry.coordinates);
     const destination = rhumbDestination(pt, 500, d);
-    if(booleanPointInPolygon(destination, usa)){
-      hits.push(bearingToX(d)/factor);
+    if (booleanPointInPolygon(destination, usa)) {
+      hits.push(bearingToX(d) / factor);
     }
   }
   if (hits.length === 0) {
     // stdout.write(`\nNo initial hit for ${feature.properties.name}: `);
     // try again at 750 km.
-    for(let d = -180; d <= 180; d = d + factor){
+    for (let d = -180; d <= 180; d = d + factor) {
       const pt = point(feature.geometry.coordinates);
       const destination = rhumbDestination(pt, 750, d);
-      if(booleanPointInPolygon(destination, usa)){
-        hits.push(bearingToX(d)/factor);
+      if (booleanPointInPolygon(destination, usa)) {
+        hits.push(bearingToX(d) / factor);
       }
     }
     if (hits.length === 0) {
       // stdout.write(" now trying alaska ");
       // try alaska.
-      for(let d = -180; d <= 180; d = d + factor){
+      for (let d = -180; d <= 180; d = d + factor) {
         const pt = point(feature.geometry.coordinates);
         const destination = rhumbDestination(pt, 750, d);
-        if(booleanPointInPolygon(destination, alaska)){
-          hits.push(bearingToX(d)/factor);
+        if (booleanPointInPolygon(destination, alaska)) {
+          hits.push(bearingToX(d) / factor);
         }
       }
       if (hits.length === 0) {
@@ -59,14 +59,14 @@ featureEach(Data, (feature) => {
     }
   }
   // now.
-  if(hits.length > 0){
+  if (hits.length > 0) {
     hits = _.uniq(hits.sort((a, b) => a - b));
-    if(hits[0] === 0 && hits[hits.length - 1] === 35){
+    if (hits[0] === 0 && hits[hits.length - 1] === 35) {
       // friends.
       const length = hits.length;
-      for(let i = 0; i < length; i = i + 1){
-        if(hits[i] === i){
-          hits.push( 36 + i );
+      for (let i = 0; i < length; i = i + 1) {
+        if (hits[i] === i) {
+          hits.push(36 + i);
         } else {
           break;
         }
@@ -75,15 +75,15 @@ featureEach(Data, (feature) => {
     const strings = [];
     hits.forEach((hit, i) => {
       const thisString = [];
-      for(let j = i ; j >= 0; j = j - 1){
-        if(hits[j] - hits[j - 1] === 1){
+      for (let j = i; j >= 0; j = j - 1) {
+        if (hits[j] - hits[j - 1] === 1) {
           thisString.push(hits[j]);
         }
       }
-      if(hits[1] - hits[0] === 1){
+      if (hits[1] - hits[0] === 1) {
         thisString.push(hits[0]);
       }
-      if(hits[2] - hits[1] === 1){
+      if (hits[2] - hits[1] === 1) {
         thisString.push(hits[1]);
       }
       strings.push(thisString);
@@ -91,7 +91,7 @@ featureEach(Data, (feature) => {
     let max = -1;
     let index = -1;
     strings.forEach((a, i) => {
-      if (a.length > max){
+      if (a.length > max) {
         max = a.length;
         index = i;
       }
@@ -106,11 +106,21 @@ featureEach(Data, (feature) => {
     //     stdout.write("\n");
     //   }
     // });
-    if(sortedHits[0] === 0 && sortedHits[sortedHits.length - 1] > 35){
-      sortedHits = sortedHits.splice(sortedHits[sortedHits.length - 1] - 35, sortedHits.length);
+    if (sortedHits[0] === 0 && sortedHits[sortedHits.length - 1] > 35) {
+      sortedHits = sortedHits.splice(
+        sortedHits[sortedHits.length - 1] - 35,
+        sortedHits.length
+      );
     }
-    ["Alexandria Bay", "Wellesley Island", "Thousand Island Bridge", "Ogdensburg", "Massena", "Montreal Canada"].forEach(target => {
-      if(target === feature.properties.name){
+    [
+      "Alexandria Bay",
+      "Wellesley Island",
+      "Thousand Island Bridge",
+      "Ogdensburg",
+      "Massena",
+      "Montreal Canada"
+    ].forEach(target => {
+      if (target === feature.properties.name) {
         // stdout.write(JSON.stringify(sortedHits));
         // stdout.write("\n");
         sortedHits = sortedHits.filter(hit => hit > 4);
@@ -120,7 +130,7 @@ featureEach(Data, (feature) => {
       }
     });
     let minAngle = sortedHits[0] * factor;
-    let maxAngle = sortedHits[sortedHits.length -1] * factor;
+    let maxAngle = sortedHits[sortedHits.length - 1] * factor;
 
     points.push({
       name: feature.properties.name,
@@ -142,13 +152,12 @@ fileWriteCSV(join(dataPath, "lines-with-angles.csv"), points);
 // console.log(data);
 // console.log(JSON.stringify(cleanData, null, 2));
 
-function bearingToX(bearing){
-  if(bearing > 90){
+function bearingToX(bearing) {
+  if (bearing > 90) {
     return 270 + (180 - bearing);
-  } else if (bearing >= 0){
+  } else if (bearing >= 0) {
     return 90 - bearing;
-  } else if (bearing <0){
+  } else if (bearing < 0) {
     return -1 * (bearing - 90);
   }
 }
-

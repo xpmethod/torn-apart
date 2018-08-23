@@ -1,16 +1,16 @@
 import $ from "jquery";
 import { event, selectAll, select } from "d3-selection";
 
-export function handleMouseOver(d){
+export function handleMouseOver(d) {
   let pageX, pageY;
-  if(d.coords){
+  if (d.coords) {
     pageX = d.coords[0];
     pageY = d.coords[1];
   } else {
     pageX = event.pageX;
     pageY = event.pageY;
   }
-  if(pageY < 0){
+  if (pageY < 0) {
     pageX = 30;
     pageY = 30;
   }
@@ -22,18 +22,18 @@ export function handleMouseOver(d){
     .attr("id", "tooltip")
     .style("opacity", 0.9)
     .html(d.tooltip)
-    .style("left", function(){
+    .style("left", function() {
       const toolTipWidth = $("#tooltip").width();
-      if(toolTipWidth > pageX){
+      if (toolTipWidth > pageX) {
         return pageX + "px";
       } else {
-        return (pageX - toolTipWidth) + "px";
+        return pageX - toolTipWidth + "px";
       }
     })
-    .style("top", function(){
+    .style("top", function() {
       const toolTipHeight = $("#tooltip").height();
-      if(($(window).height() - pageY) < toolTipHeight){
-        return (pageY - toolTipHeight) + "px";
+      if ($(window).height() - pageY < toolTipHeight) {
+        return pageY - toolTipHeight + "px";
       } else {
         return pageY + "px";
       }
@@ -41,7 +41,7 @@ export function handleMouseOver(d){
   // .transition().delay(0).duration(0)
 }
 
-export function handleMouseOut(d){
+export function handleMouseOut(d) {
   d.mouseOut();
   selectAll(".tooltip").remove();
 }

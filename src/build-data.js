@@ -13,5 +13,3 @@ buildDecoratorTable(decorations => {
   gainBuildData(decorations);
 });
 generateLanguageFiles();
-
-

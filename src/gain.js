@@ -6,8 +6,8 @@ import { resizeDivFromTop } from "./utils";
 import updateTexts from "./update-texts";
 import spinner from "./spinner";
 
-export default function(){
-  if(!$("#spinner").length){
+export default function() {
+  if (!$("#spinner").length) {
     spinner.start();
   }
   $(document).ready(() => {
@@ -21,5 +21,3 @@ export default function(){
     gainCarousel();
   });
 }
-
-

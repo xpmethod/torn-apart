@@ -1,7 +1,7 @@
 import _ from "lodash";
 import slugify from "slugify";
 
-export default function (string) {
+export default function(string) {
   return slugify(
     _.chain(string)
       .toLower()
@@ -11,4 +11,3 @@ export default function (string) {
       .replace(/\W/g, "")
   );
 }
-

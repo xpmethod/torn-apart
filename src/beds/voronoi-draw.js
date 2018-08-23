@@ -7,7 +7,7 @@ import aorVoronoi from "./aor-voronoi.geo.json";
 import leafletD3Svg from "../leaflet-d3-svg";
 import { slug } from "../utils";
 
-export default function(map){
+export default function(map) {
   const svg = addGlowFilter(leafletD3Svg(map, "d3-beds-svg"));
   const g = svg.append("g").attr("class", "leaflet-zoom-hide");
   const theTip = tip()
@@ -20,9 +20,12 @@ export default function(map){
   const scale = scaleThreshold()
     .domain([75, 105, 130, 150])
     .range([0, 0.4, 0.6, 0.8, 1]);
-  const feature = g.selectAll("path").data(aorVoronoi.features)
-    .enter().append("path")
-    .each( d => {
+  const feature = g
+    .selectAll("path")
+    .data(aorVoronoi.features)
+    .enter()
+    .append("path")
+    .each(d => {
       d.id = `${slug(d.properties.name)}-voronoi`;
     })
     .style("pointer-events", "painted")
@@ -40,7 +43,8 @@ export default function(map){
     const bounds = path.bounds(aorVoronoi),
       topLeft = bounds[0],
       bottomRight = bounds[1];
-    svg.attr("width", bottomRight[0] - topLeft[0])
+    svg
+      .attr("width", bottomRight[0] - topLeft[0])
       .attr("height", bottomRight[1] - topLeft[1])
       .style("left", topLeft[0] + "px")
       .style("top", topLeft[1] + "px");
