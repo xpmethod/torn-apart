@@ -7,6 +7,7 @@ import _ from "lodash";
 import titleUp from "../title-up";
 
 export default function(decorations) {
+
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if (err) throw err;
     parse(data, { columns: true }, (err, rawAwards) => {
