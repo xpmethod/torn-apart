@@ -73,7 +73,6 @@ export default function(strName){
 
   ];
 
-  vendor.vendorName = vendor.vendorName || vendor.origName;
 
   // Now the fun begins:
 
