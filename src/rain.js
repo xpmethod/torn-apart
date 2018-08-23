@@ -11,6 +11,10 @@ export default function(){
     $("#v2-div").show();
     resizeDivFromTop("#v2-div");
     $("#rain-viz").show();
-    drawBubbles();
+    if(!$("#rain-g").length){
+      drawBubbles();
+    } else {
+      spinner.stop();
+    }
   });
 }
