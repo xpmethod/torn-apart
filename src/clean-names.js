@@ -167,20 +167,20 @@ export default function(strName){
 
   strName = strName
   
-    .replace(/\bde\b/ig, " de ")
-    .replace(/\bin\b/ig, " in ")
-    .replace(/\bat\b/ig, " at ")
-    .replace(/\band\b/ig, " and ")
-    .replace(/\bof\b/ig, " of ")
-    .replace(/\bfor\b/ig, " for ")
-    .replace(/\bthe\b/ig, " the ")
-	.replace(/\bto\b/ig, " to ")
-	.replace(/\bby\b/ig, " by ")
-	.replace(/\bup\b/ig, " up ")
-	.replace(/\bas\b/ig, " as ")
-	.replace(/\bbut\b/ig, " but ")
-	.replace(/\bor\b/ig, " or ")
-	.replace(/\bnor\b/ig, " nor ")
+    .replace(/\bde\b/ig, "de")
+    .replace(/\bin\b/ig, "in")
+    .replace(/\bat\b/ig, "at")
+    .replace(/\band\b/ig, "and")
+    .replace(/\bof\b/ig, "of")
+    .replace(/\bfor\b/ig, "for")
+    .replace(/\bthe\b/ig, "the")
+	.replace(/\bto\b/ig, "to")
+	.replace(/\bby\b/ig, "by")
+	.replace(/\bup\b/ig, "up")
+	.replace(/\bas\b/ig, "as")
+	.replace(/\bbut\b/ig, "but")
+	.replace(/\bor\b/ig, "or")
+	.replace(/\bnor\b/ig, "nor")
     .replace(/\bon\b/ig, "on") //word boundaries not spaces because of "Environmental Quality, Texas Commission On" etc
     .replace(/^the\b/i, "The ");
 
