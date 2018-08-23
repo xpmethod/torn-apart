@@ -228,10 +228,10 @@ hierarchically grouped data can represent radically different modes of being
 and interacting with the government contracting machine. In one
 visualization, a messy ball of yarn shows how interconnected companies are
 with the various governmental needs in the awards they win. A company like
-CoreCivic provide “security guards and patrol
+CoreCivic provides “security guards and patrol
 services” (which we categorize under “The Threat of Violence”), “correctional
 institutions” (“Walls”), and “facilities support services” (“Surveillance”).
-Firms like CoreCivic, or even more abstract management and consulting firms
+Companies like CoreCivic, or even more abstract management and consulting firms
 like Booz Hamilton, have their fingers in various ICE contracting pies.
 
 Nevertheless, there are not actually that many companies that are that
@@ -299,7 +299,7 @@ matter), over 1k of them went to one company, North Carolina’s Net Direct
 Systems. The $28M Net Direct has brought to North Carolina’s 2nd district is
 comparable chump change on the ICE scale, but the idea that someone in the ICE
 office, one out of every six times, has awarded a contract to Net Direct
-boggles the mind and fully underscores how the ICE funding apparatus works. If
+boggles the mind and fully delineates how the ICE funding apparatus works. If
 there is an entity to which nearly 20% of my purchases (in terms of number,
 not in terms money spent) goes, it would probably be a grocery store. These
 are the near daily purchases that provide the fuel that keep me running.
