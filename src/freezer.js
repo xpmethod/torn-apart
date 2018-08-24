@@ -42,6 +42,7 @@ export default function() {
     $("#topG").hide();
     $("#tree-sidebar").show();
     $("#freezer-sidebar").hide();
+    $(".carousel-button-play").addClass("active");
   });
   $("#murderboard-button").click(() => {
     $("#murderboard-button").addClass("active");
