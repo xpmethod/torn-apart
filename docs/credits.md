@@ -12,6 +12,8 @@ permalink: credits.html
 [xpMethod](http://xpmethod.plaintext.in) (Manan Ahmed, Alex Gil, Moacir P. de Sá Pereira, Roopika Risam), [Borderlands Archives
 Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fernández), Linda Rodriguez, and Merisa Martinez. We operate on a journal-model with new collaborators and contributors for each issue, as acknowledged below. [Moacir P. de Sá Pereira](http://moacir.com) is the Lead Developer for *Torn Apart* and has hand-cranked the code for most of what you see here.
 
+We envision *Torn Apart* as a scholarly journal--- one led by an editorial board, but with different thematics, issues, and authors for each volume. This modal approach to digital projects comes out of our long-standing commitment to building sustainable infrastructures that will grow as authors, topics and interests grow. With that principle, we have structurally organized *Torn Apart* on Git as modular and volumable (as it were). Scholars, activists, and digital creators are welcome to pitch future volumes. 
+
 ## Volume One 
 ### Team
 
