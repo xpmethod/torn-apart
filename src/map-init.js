@@ -1,5 +1,6 @@
 import $ from "jquery";
 import L from "leaflet";
+import { mobileBounds, lower48Bounds } from "./constants";
 import { moveLegend } from "./utils";
 
 export default function(mapid) {
@@ -8,7 +9,13 @@ export default function(mapid) {
     zoom: 5,
     zoomSnap: 0.25
   });
-  map.fitBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+  if (L.Browser.mobile) {
+    map.fitBounds(mobileBounds);
+    map.removeControl(map.zoomControl);
+  } else {
+    map.fitBounds(lower48Bounds);
+    $(".leaflet-control-zoom").addClass("viz-hide");
+  }
   L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
     {
@@ -16,11 +23,6 @@ export default function(mapid) {
         "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
     }
   ).addTo(map);
-  if (L.Browser.mobile) {
-    map.removeControl(map.zoomControl);
-  } else {
-    $(".leaflet-control-zoom").addClass("viz-hide");
-  }
   moveLegend();
   return map;
 }
