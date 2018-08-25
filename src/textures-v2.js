@@ -21,5 +21,16 @@ $.when(
   $.i18n().load(textures);
   updateTexts();
   $("main").html((i, old) => old.replace(/🛅/g, "$"));
+  $("p").each(function() {
+    if (
+      $(this)
+        .text()
+        .match(/^> /)
+    ) {
+      $(this)
+        .html((i, old) => old.replace(/&gt; /, ""))
+        .wrap("<blockquote></blockquote>");
+    }
+  });
   spinner.stop();
 });

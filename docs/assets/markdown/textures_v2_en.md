@@ -36,7 +36,9 @@ Another critical tension arose over the extent to which we were directly prescri
 
 ## The Endgame
 
-"Nancy Pelosi and the democrats want to abolish the brave men and women of ICE. What I want to do is abolish the killers in ISIS. And you know who is going to win? We are" — Donald Trump. [Aug 22, 2018. Tweet](https://twitter.com/realDonaldTrump/status/1032299750362689536).
+> Nancy Pelosi and the democrats want to abolish the brave men and women of
+ICE. What I want to do is abolish the killers in ISIS. And you know who is
+going to win? We are.[^1] 
 
 What was the endgame of ICE, we asked ourselves? In Vol. 1, we saw the vast territory of containment that ICE had linked, built or purchased. The vast majority of our dots on that map, however, were, small round dots, signifying un-use. They had held no ICE detainees. Why was ICE amassing infrastructure that seemed unlinked to the crisis of family detainment on the southern borders? As we began to plan Vol. 2, we began to map out this world. 
 
@@ -61,3 +63,6 @@ During these efforts, however, we were able to draw some general characterizatio
 After Vol. 1, we imagined passing on the model of Torn Apart/Separados to new teams. The [design and prototype sprints](https://www.hastac.org/blogs/danicasavonick/2018/07/08/torn-apartseparados-hackathon-hastac-meet-recap) we held at the DH2018 conference in Mexico City were part of our efforts to share our rapid approach and ethos with our community. Vol. 2 took longer to produce—though still at light speed in academic years. Life continued, we had a larger team, we had more complex data sets, and we had to tend to other commitments. In both cases, however, model workflows can be abstracted, and we will make that available through the [Nimble Tents Toolkit](https://nimbletents.github.io) in the near future for others who would like to replicate our model with other subject matter, or who would like to take on the mantle of rapidly-deployed ICE research. For those who would take on the latter, we did our best in here to list some of our remaining open questions, but there are many more. For example, we know that data from "sanctuary" cities leaks to ICE through [CopLink](https://theappeal.org/new-documents-reveal-how-ice-mines-local-police-databases-across-the-country-660e2dfddbe3/) and what are known as [Fusion Centers](https://www.aclu.org/other/more-about-fusion-centers). How would a macroscopic view of these data flows look like? Will you be the one to answer?
 
 We are happy to [pass on our data](https://github.com/xpmethod/torn-apart-open-data) and lessons learned to the teams that take on these challenges. Just drop us a line at tornapartseparados@gmail.com if you have any questions.
+
+[^1]: Donald Trump. [Aug 22, 2018.  Tweet](https://twitter.com/realDonaldTrump/status/1032299750362689536).
+
