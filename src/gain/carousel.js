@@ -8,9 +8,10 @@ export default function() {
     .data(Data)
     .enter()
     .append("div")
-    .attr("class", "carousel-item")
+    .classed("carousel-item", true)
+    .classed("main-gain", true)
     .append("p")
-    .attr("class", "text-center main-gain")
+    .attr("class", "text-center")
     .html(
       d => `${d.name}, <strong>$${bigMoneyFormat(d.total_value)}</strong><br />
       <small>(${d.product})</small>`

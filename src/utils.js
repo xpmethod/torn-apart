@@ -28,20 +28,22 @@ export function titleUp(string) {
 }
 
 export function resizeDivFromTop(div) {
-  const navHeight = () => {
-    const height = $("#all-navs").height() + $("#all-navs").position().top;
-    if (height === 0) {
-      return $("nav.navbar").outerHeight();
-    } else {
-      return height;
+  if (!L.Browser.mobile) {
+    const navHeight = () => {
+      const height = $("#all-navs").height() + $("#all-navs").position().top;
+      if (height === 0) {
+        return $("nav.navbar").outerHeight();
+      } else {
+        return height;
+      }
+    };
+    const targetTop = navHeight() + 0.75 * rem;
+    if (targetTop !== $(div).position().top) {
+      const diff = targetTop - $(div).position().top;
+      $(div).css("top", targetTop + "px");
+      $(div).css("max-height", `${$(div).height() - diff}px`);
+      $(div).css("min-height", `${$(div).height() - diff}px`);
     }
-  };
-  const targetTop = navHeight() + 0.75 * rem;
-  if (targetTop !== $(div).position().top) {
-    const diff = targetTop - $(div).position().top;
-    $(div).css("top", targetTop + "px");
-    $(div).css("max-height", `${$(div).height() - diff}px`);
-    $(div).css("min-height", `${$(div).height() - diff}px`);
   }
 }
 
@@ -77,7 +79,11 @@ export function getOrdinalSuffix(n) {
 }
 
 export function fillV2DivHeight(elementAbove) {
-  return $("#v2-div").height() - $(elementAbove).height() - rem;
+  if (L.Browser.mobile) {
+    return $(window).height / 2;
+  } else {
+    return $("#v2-div").height() - $(elementAbove).height() - rem;
+  }
 }
 
 export function bigMoneyFormat(number) {
