@@ -17,23 +17,23 @@ export default function() {
     .reverse()
     .splice(0, 17);
   let i = 0;
-  // setInterval(() => {
-  selectAll(".drawn-district")
-    .each(d => handleMouseOut(d))
-    .attr("fill-opacity", d => d.opacity)
-    .attr("filter", null);
-  i = i === top15.length ? 0 : i;
-  const bb = select(`#${top15[i].dom_id}`)
-    .node()
-    .getBBox();
-  select(`#${top15[i].dom_id}`)
-    .each(function(d) {
-      d.tooltip = districtsTooltip(d);
-      d.coords = [bb.x + 0.5 * bb.width, bb.y + 0.5 * bb.height];
-      handleMouseOver(d);
-    })
-    .attr("fill-opacity", 1)
-    .attr("filter", "url(#filter-glow-districts)");
-  i = i + 1;
-  // }, 10000);
+  setInterval(() => {
+    selectAll(".drawn-district")
+      .each(d => handleMouseOut(d))
+      .attr("fill-opacity", d => d.opacity)
+      .attr("filter", null);
+    i = i === top15.length ? 0 : i;
+    const bb = select(`#${top15[i].dom_id}`)
+      .node()
+      .getBBox();
+    select(`#${top15[i].dom_id}`)
+      .each(function(d) {
+        d.tooltip = districtsTooltip(d);
+        d.coords = [bb.x + 0.5 * bb.width, bb.y + 0.5 * bb.height];
+        handleMouseOver(d);
+      })
+      .attr("fill-opacity", 1)
+      .attr("filter", "url(#filter-glow-districts)");
+    i = i + 1;
+  }, 10000);
 }
