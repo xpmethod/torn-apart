@@ -38,6 +38,7 @@
 {% elsif page.permalink %}
   <script>
     $("#nav-{{ page.permalink | replace: ".html", ""}}").addClass("active");
+    $("#spinner").remove();
   </script>
 {% else %}
 {% endif %}

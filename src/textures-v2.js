@@ -11,11 +11,15 @@ $.when(
   const textures = {};
   [[en, "en"], [es, "es"], [fr, "fr"]].map(data => {
     textures[data[1]] = {};
-    data[0][0].split("#IMGTAG#").map((chunk, i) => {
-      textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
-    });
+    data[0][0]
+      .replace(/\$/g, "🛅")
+      .split("#IMGTAG#")
+      .map((chunk, i) => {
+        textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
+      });
   });
   $.i18n().load(textures);
   updateTexts();
+  $("main").html((i, old) => old.replace(/🛅/g, "$"));
   spinner.stop();
 });

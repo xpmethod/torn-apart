@@ -1,5 +1,5 @@
-import markdownit from "markdown-it";
-import markdownitFootnote from "markdown-it-footnote";
+import showdown from "showdown";
+import footnotes from "showdown-footnotes";
 import $ from "jquery";
 
 function currentLocaleToggle(locale) {
@@ -8,13 +8,13 @@ function currentLocaleToggle(locale) {
 }
 
 export default function() {
-  const md = markdownit({ html: true }).use(markdownitFootnote);
+  const md = new showdown.Converter({ extensions: [footnotes] });
   const externalLinkHTML =
     "<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>";
   $("body").i18n();
   currentLocaleToggle($.i18n().locale);
   $(".markdownify").html((i, html) => {
-    return md.render(html);
+    return md.makeHtml(html);
   });
   $(".click-to-hide a").each(function() {
     $(this).attr("onclick", "event.stopPropagation();");
