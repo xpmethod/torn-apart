@@ -1,9 +1,15 @@
 import { orange } from "./constants";
 import L from "leaflet";
 
-export default function(place, radius = 4, color = orange, interactive = true, opacity = 0){
+export default function(
+  place,
+  radius = 4,
+  color = orange,
+  interactive = true,
+  opacity = 0
+) {
   const circleStyle = {
-    interactive, 
+    interactive,
     weight: 1,
     radius: radius,
     color: "#000",
@@ -15,4 +21,3 @@ export default function(place, radius = 4, color = orange, interactive = true, o
   const lng = +place.lon;
   return L.circleMarker([lat, lng], circleStyle);
 }
-

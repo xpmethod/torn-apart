@@ -6,6 +6,7 @@ import alliesLayer from "./allies/layer";
 import alliesD3 from "./allies/d3";
 
 const map = initMap("allies-mapdiv");
+map.fitBounds([[12.396, -124.848974], [49.384, -66.885444]]);
 alliesLayer().addTo(map);
 alliesModal();
 alliesD3(map);

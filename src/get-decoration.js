@@ -1,11 +1,18 @@
 import _ from "lodash";
-import Decorations from "../data/vendor_decorations.csv";
+import parse from "csv-parse/lib/sync";
+import { readFileSync } from "fs";
+import path from "path";
+// import Decorations from "../data/vendor_decorations.csv";
 
-export default function(duns){
-  const dunsInt = _.toInteger(duns);
-  const company = _.find(Decorations, { "duns": dunsInt });
-  if(company.url && !company.url.match(/^http/)){
-    company.url = company.url.replace(/^/, "http://");
+export default function(duns) {
+  const Decorations = parse(
+    readFileSync(path.join("data", "vendor_decorations.csv")),
+    { columns: true }
+  );
+  const company = _.find(Decorations, { duns });
+  if (company) {
+    return company.cleanName;
+  } else {
+    throw duns;
   }
-  return company;
 }

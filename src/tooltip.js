@@ -1,31 +1,47 @@
 import $ from "jquery";
-import { event, select } from "d3-selection";
+import { event, selectAll, select } from "d3-selection";
 
-export function handleMouseOver(d){
+export function handleMouseOver(d) {
+  let pageX, pageY;
+  if (d.coords) {
+    pageX = d.coords[0];
+    pageY = d.coords[1];
+  } else {
+    pageX = event.pageX;
+    pageY = event.pageY;
+  }
+  if (pageY < 0) {
+    pageX = 30;
+    pageY = 30;
+  }
   d.mouseOver();
-  select("#tooltip")
+  selectAll(".tooltip").remove();
+  select("body")
+    .append("div")
+    .classed("tooltip", true)
+    .attr("id", "tooltip")
+    .style("opacity", 0.9)
     .html(d.tooltip)
-    .style("left", function(){
+    .style("left", function() {
       const toolTipWidth = $("#tooltip").width();
-      if(toolTipWidth > event.pageX){
-        return event.pageX + "px";
+      if (toolTipWidth > pageX) {
+        return pageX + "px";
       } else {
-        return (event.pageX - toolTipWidth) + "px";
+        return pageX - toolTipWidth + "px";
       }
     })
-    .style("top", function(){
+    .style("top", function() {
       const toolTipHeight = $("#tooltip").height();
-      if(($(window).height() - event.pageY) < toolTipHeight){
-        return (event.pageY - toolTipHeight) + "px";
+      if ($(window).height() - pageY < toolTipHeight) {
+        return pageY - toolTipHeight + "px";
       } else {
-        return event.pageY + "px";
+        return pageY + "px";
       }
-    })
+    });
   // .transition().delay(0).duration(0)
-    .style("opacity", 1);
 }
 
-export function handleMouseOut(d){
+export function handleMouseOut(d) {
   d.mouseOut();
-  select("#tooltip").style("opacity", 0);
+  selectAll(".tooltip").remove();
 }

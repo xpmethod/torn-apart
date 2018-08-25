@@ -5,7 +5,7 @@ duns,cleanName,vendorName,origName,url
 179570403,STG International,"STG International, Inc.","STG INTERNATIONAL, INC.",http://www.stginternational.com
 92430107,Continental Transportation Solutions,"CONTINENTAL TRANSPORTATION SOLUTIONS, INC.","CONTINENTAL TRANSPORTATION SOLUTIONS, INC.",www.ctlglobalsolutions.com
 158110697,Good Source Solutions,"Good Source Solutions, Inc.","GOOD SOURCE SOLUTIONS, INC.",http://www.goodsource.com
-80526889,Nathaniel Howell,"Howell, Nathaniel","HOWELL, NATHANIEL",
+80526889,"Howell, Nathaniel","Howell, Nathaniel","HOWELL, NATHANIEL",
 143530926,Creative Corrections,"CREATIVE CORRECTIONS, L.L.C.","CREATIVE CORRECTIONS, L.L.C.",www.creativecorrections.com
 879740454,Trailboss Enterprises,"Trailboss Enterprises, Inc.","TRAILBOSS ENTERPRISES, INC.",http://www.trailbossinc.com
 159734151,CoreCivic,"CoreCivic, Inc.",CORRECTIONS CORPORATION OF AMERICA,http://www.cca.com
@@ -14,13 +14,13 @@ duns,cleanName,vendorName,origName,url
 99903148,Central Association for the Blind,"CENTRAL ASSOCIATION FOR THE BLIND, INC.","CENTRAL ASSOCIATION FOR THE BLIND, INC.",www.cabvi.org
 1903723,G4S Secure Solutions USA,G4S Secure Solutions (USA) Inc,G4S SECURE SOLUTIONS (USA) INC,www.g4s.com/us
 3073525,Price Modern,PRICE MODERN LLC,PRICE MODERN LLC,http://www.pricemodern.com
-612706465,The GEO Group,"GEO Group, Inc., The","GEO GROUP INC., THE",http://www.geogroup.com
+612706465,The  GEO Group,"GEO Group, Inc., The","GEO GROUP INC., THE",http://www.geogroup.com
 19121586,Deloitte Consulting,DELOITTE CONSULTING LLP,DELOITTE CONSULTING LLP,http://www.deloitte.com
 6012801,Herman Miller,"Herman Miller, Inc.","HERMAN MILLER, INC.",http://www.hermanmiller.com/government
-71191787,The Arc of Cumberland and Perry Counties,"Arc of Cumberland and Perry Counties, The","ARC OF CUMBERLAND AND PERRY COUNTIES, THE",http://WWW.CPARC.ORG
+71191787,The  Arc of Cumberland and Perry Counties,"Arc of Cumberland and Perry Counties, The","ARC OF CUMBERLAND AND PERRY COUNTIES, THE",http://WWW.CPARC.ORG
 784141384,Premier & Companies,"Premier & Companies, Inc.",PREMIER AND COMPANIES INCORPORATED,http://www.premierandcompanies.com
 132048377,Capgemini Government Solutions,Capgemini Government Solutions LLC,CAPGEMINI GOVERNMENT SOLUTIONS LLC,HTTP://WWW.CAPGEMINI-GS.COM
-119079903,The Office Group,"Office Group, Inc., The",THE OFFICE GROUP INC,http://WWW.THEOFFICESTORE.COM
+119079903,The  Office Group,"Office Group, Inc., The",THE OFFICE GROUP INC,http://WWW.THEOFFICESTORE.COM
 790801765,Benefit Planning,"BENEFIT PLANNING, INC",BENEFIT PLANNING INCORPORATED,http://www.benefit-planning.com
 198705100,Hariom,Hariom Inc.,HARIOM INC.,http://www.qualitysuitesotaymesa.com
 961704876,Classic Air Charter,CLASSIC AIR CHARTER INC.,CLASSIC AIR CHARTER INC.,www.classicaircharters.com
@@ -45,7 +45,7 @@ duns,cleanName,vendorName,origName,url
 4996112,Garrett Electronics,"GARRETT ELECTRONICS, INC.","GARRETT ELECTRONICS, INC.",
 78622984,Midwest Security Services,"Midwest Security Services, Inc","MIDWEST SECURITY SERVICES, INC",http://mwsecurityservices.com
 243275612,Setcan Corporation,Setcan Corporation,SETCAN CORPORATION,http://www.setcan.com
-112281840,Jesuit Refugee Service USA,JESUIT REFUGEE SERVICE USA,JESUIT REFUGEE SERVICE USA,
+112281840,Jesuit Refugee Service USA,,JESUIT REFUGEE SERVICE USA,
 93019953,Boss Innovation & Marketing,"Boss Innovation & Marketing, Inc.",BOSS INNOVATION & MARKETING,http://www.BossSafety.com
 5103494,W.W. Grainger,"W.W. Grainger, Inc.","W W GRAINGER, INC",http://www.grainger.com
 966648503,Capital Shredder,Capital Shredder Corp,CAPITAL SHREDDER CORP,http://www.papershredders.com
@@ -72,12 +72,12 @@ duns,cleanName,vendorName,origName,url
 80425729,Comcast Cable Communications,"Comcast Cable Communications, LLC","COMCAST CABLE COMMUNICATIONS, LLC",
 58525536,Bob Barker Company,"Bob Barker Company, Inc.","BOB BARKER COMPANY, INC.",https://www.bobbarker.com
 1807549,Outlook-Nebraska,"OUTLOOK-NEBRASKA, INC.","OUTLOOK-NEBRASKA, INC.",
-74811571,The American Correctional Association,"AMERICAN CORRECTIONAL ASSOCIATION, THE","AMERICAN CORRECTIONAL ASSOCIATION, THE",http://www.aca.org
+74811571,The  American Correctional Association,"AMERICAN CORRECTIONAL ASSOCIATION, THE","AMERICAN CORRECTIONAL ASSOCIATION, THE",http://www.aca.org
 148508286,West Publishing Corporation,West Publishing Corporation,WEST PUBLISHING CORPORATION,https://legalsolutions.thomsonreuters.com
 942273863,Pacer Service Center,PACER SERVICE CENTER,PACER SERVICE CENTER,
 827284519,Wolcott Guns,WOLCOTT GUNS INC,WOLCOTT GUNS INC,http://www.wolcottgunsinc.com/
 937939460,Interconnect Communication Specialists,Interconnect Communication Specialists ,INTERCONNECT COMMUNICATION SPECIALISTS,
-126111272,The Highlands Ranch Law Enforcement Training Foundation,"HIGHLANDS RANCH LAW ENFORCEMENT TRAINING FOUNDATION, THE","HIGHLANDS RANCH LAW ENFORCEMENT TRAINING FOUNDATION, THE",
+126111272,The  Highlands Ranch Law Enforcement Training Foundation,"HIGHLANDS RANCH LAW ENFORCEMENT TRAINING FOUNDATION, THE","HIGHLANDS RANCH LAW ENFORCEMENT TRAINING FOUNDATION, THE",
 144906075,Marcon International,"Marcon International, Inc.","MARCON INTERNATIONAL, INC.",https://www.keypersystems.com
 64836799,Prado Family Shooting Range,PRADO FAMILY SHOOTING RANGE,PRADO FAMILY SHOOTING RANGE,http://www.shootprado.com
 626627459,Federal Prison Industries,"Federal Prison Industries, Inc","FEDERAL PRISON INDUSTRIES, INC",http://www.unicor.gov
@@ -91,11 +91,11 @@ duns,cleanName,vendorName,origName,url
 827839981,Global Systems of America Corporation,Global Systems Of America Corporation,GLOBAL SYSTEMS OF AMERICA CORPORATION,www.gsac.us
 6911622,ABM Industries,ABM Industries Incorporated,ABM INDUSTRIES INCORPORATED,http://www.abm.com
 118860779,Envision XPRESS,"ENVISION XPRESS, INC.","ENVISION XPRESS, INC.",
-246787951,7655762 Canada,7655762 CANADA INC,7655762 CANADA INC,
+246787951,7655762 Canada,,7655762 CANADA INC,
 73739955,City of Vineland,"VINELAND, CITY OF","VINELAND, CITY OF",cityofvineland.org
 1376565,Star Poly Bag,"Star Poly Bag, Inc. ","STAR POLY BAG, INC.",http://www.starpoly.com
 8172632,J & S Power Solutions,J & S POWER SOLUTIONS INC,J & S POWER SOLUTIONS INC,
-8188898,The Lighthouse for the Blind in New Orleans,"Lighthouse For The Blind In New Orleans, Incorporated, The","LIGHTHOUSE FOR THE BLIND IN NEW ORLEANS, INCORPORATED, THE",https://www.LighthouseLouisiana.org
+8188898,The  Lighthouse for the Blind in New Orleans,"Lighthouse For The Blind In New Orleans, Incorporated, The","LIGHTHOUSE FOR THE BLIND IN NEW ORLEANS, INCORPORATED, THE",https://www.LighthouseLouisiana.org
 7242498,Envision,"Envision, Inc.","ENVISION, INC.",
 81075704,Demus Enterprise,Demus Enterprise Corp.,DEMUS ENTERPRISE CORP.,
 108608555,Fire Safety Systems,Fire Safety Systems Inc.,FIRE SAFETY SYSTEMS INC.,
@@ -105,7 +105,7 @@ duns,cleanName,vendorName,origName,url
 797470549,Cornell Companies,"Cornell Companies, Inc.","CORNELL COMPANIES, INC.",
 39203740,Management & Training Corporation,Management & Training Corporation,MANAGEMENT & TRAINING CORPORATION,
 783194087,Justice Packaging Corporation,JUSTICE PACKAGING CORPORATION,JUSTICE PACKAGING CORPORATION,http://www.justicepackaging.com
-92591208,New Tech Central,NEW TECH CENTRAL LLC,NEW TECH CENTRAL LLC,
+92591208,New Tech Central,,NEW TECH CENTRAL LLC,
 79090324,Victory Supply,"Victory Supply, LLC","VICTORY SUPPLY, LLC",
 809953081,Hale Outdoor Products,"HALE OUTDOOR PRODUCTS, LLC","HALE OUTDOOR PRODUCTS, LLC",www.motoshot.com
 877474973,County of Orange,COUNTY OF ORANGE,COUNTY OF ORANGE,
@@ -125,7 +125,7 @@ duns,cleanName,vendorName,origName,url
 54007823,Net Direct Systems,"NET DIRECT SYSTEMS, LLC","NET DIRECT SYSTEMS, LLC",HTTP://WWW.NETDIRECTSYSTEMS.COM
 18832795,Envisage Technologies,"Envisage Technologies, LLC","ENVISAGE TECHNOLOGIES, LLC",http://www.envisagenow.com
 82355652,Management Concepts,"Management Concepts, Inc. ",MANAGEMENT CONCEPTS INCORPORATED,http://www.managementconcepts.com
-146047928,The Go To Group,"GO TO GROUP, INC, THE","GO TO GROUP, INC, THE",http://www.go2group.com
+146047928,The  Go to Group,"GO TO GROUP, INC, THE","GO TO GROUP, INC, THE",http://www.go2group.com
 79410657,Marinus Analytics,Marinus Analytics LLC ,MARINUS ANALYTICS LLC,
 37335296,Personnel Decisions Research Institutes,"Personnel Decisions Research Institutes, LLC","PERSONNEL DECISIONS RESEARCH INSTITUTES, INC",www.pdri.com
 80747506,Model Concept Communications,"Model Concept Communications, LLC","MODEL CONCEPT COMMUNICATIONS, LLC",www.themodelconcept.com
@@ -144,7 +144,7 @@ duns,cleanName,vendorName,origName,url
 64465503,Kyocera Document Solutions America,"Kyocera Document Solutions America, Inc. ","KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.",http://usa.kyoceradocumentsolutions.com
 57823684,Strong Group,"STRONG GROUP, INC.","STRONG GROUP, INC.",http://www.strongbadgecase.com
 556496370,Anacapa Micro Products,"Anacapa Micro Products, Inc.","ANACAPA MICRO PRODUCTS, INC.",http://www.anacapamicro.com
-190828541,DTC Communications,"DTC COMMUNICATIONS, INC.","DTC COMMUNICATIONS, INC.",
+190828541,DTC Communications,,"DTC COMMUNICATIONS, INC.",
 825060309,NterOne Corporation,NterOne Corporation,NTERONE CORPORATION,http://nterone.com
 78374094,FS Partners,FS Partners LLP,FS PARTNERS LLP,http://www.firstsourcepartners.com
 611239542,Dollar Thrifty Automotive Group,"Dollar Thrifty Automotive Group, Inc.","DOLLAR THRIFTY AUTOMOTIVE GROUP, INC.",
@@ -186,7 +186,7 @@ duns,cleanName,vendorName,origName,url
 879774248,Sai Systems International,"Sai Systems International, Inc.",SAI SYSTEMS INTERNATIONAL INCORPORATED,http://www.saisystems.com
 48596811,Automation Aids,"AUTOMATION AIDS, INC.","AUTOMATION AIDS, INC",https://www.automationaidsinc.com
 132286332,Blue Fish Worx,"Blue Fish Worx, L.P","BLUE FISH WORX, L.P.",http://www.bluefishworx.com
-806780730,New York State Department of Motor Vehicles,"MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF","MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF",
+806780730,New York State Department of Motor Vehicles,,"MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF",
 118727283,Compu Dynamics,"COMPU DYNAMICS, LLC","COMPU DYNAMICS, LLC",www.compu-dynamics.com
 182546234,Apl Access & Security,"APL ACCESS & SECURITY, INC.","APL ACCESS & SECURITY, INC.",http://www.aplsecurity.com
 944508394,Asset Security Tracking Recove,ASSET SECURITY TRACKING RECOVE ,ASSET SECURITY TRACKING RECOVE,
@@ -198,13 +198,13 @@ duns,cleanName,vendorName,origName,url
 165449872,JDL Digital Systems,JDL DIGITAL SYSTEMS INC ,JDL DIGITAL SYSTEMS INC,http://www.airshipvms.com
 20141404,City of Mesa,"MESA, CITY OF","MESA, CITY OF",http://www.mesaaz.gov
 80524318,TechOps Specialty Vehicles,TechOps Specialty Vehicles LLC,TECHOPS SPECIALTY VEHICLES LLC,
-9307336,Benchmark Filing & Shevling Systems,BENCHMARK FILING & SHEVLING SYSTEMS,BENCHMARK FILING & SHEVLING SYSTEMS,
+9307336,Benchmark Filing & Shevling Systems,,BENCHMARK FILING & SHEVLING SYSTEMS,
 27541754,Kel-Tech Plastics,"Kel-Tech Plastics, Inc.","KEL-TECH PLASTICS, INC.",http://www.keltechplastic.com
 828604871,"Ibeagha, Anthony","Ibeagha, Anthony","IBEAGHA, ANTHONY",
 87701231,Comprehensive Health Services,"Comprehensive Health Services, Inc.","COMPREHENSIVE HEALTH SERVICES, INC.",http://www.chsmedical.com
 70622857,Sonitrol Security Services,"SONITROL SECURITY SERVICES, INC.","SONITROL SECURITY SERVICES, INC.",
 790784474,Time Warner Cable Enterprises,Time Warner Cable Enterprises LLC,TIME WARNER CABLE ENTERPRISES LLC,
-80540981,Michael C. MacQueen,"MacQueen, Michael C","MACQUEEN, MICHAEL C",
+80540981,"MacQueen, Michael C","MacQueen, Michael C","MACQUEEN, MICHAEL C",
 138619452,Astrophysics,Astrophysics Inc.,ASTROPHYSICS INC.,
 121016844,Sentry Air Systems,"Sentry Air Systems, Inc.","SENTRY AIR SYSTEMS, INC.",http://www.sentryair.com
 132095394,Government Training Institute,"Government Training Institute, Inc.","GOVERNMENT TRAINING INSTITUTE, INC.",http://www.gtitraining.org
@@ -214,7 +214,7 @@ duns,cleanName,vendorName,origName,url
 42557936,Heuresis,Heuresis Corp,HEURESIS CORP,http://www.heuresistech.com
 619777097,Unlimited Storage,Unlimited Storage Inc,UNLIMITED STORAGE INC,www.simplyss.com
 806647801,Federal Resources Supply Company,Federal Resources Supply Company ,FEDERAL RESOURCES SUPPLY COMPANY,http://www.federalresources.com
-153956417,GPS Intelligence,GPS INTELLIGENCE LLC,GPS INTELLIGENCE LLC,
+153956417,GPS Intelligence,,GPS INTELLIGENCE LLC,
 5069760,Cummins-Allison,CUMMINS-ALLISON CORP.,CUMMINS-ALLISON CORP.,http://www.cumminsallison.com
 43329327,Huron Valley Guns,HURON VALLEY GUNS,HURON VALLEY GUNS,www.huronvalleyguns.com
 95347159,Ernst & Young,ERNST & YOUNG LLP,ERNST & YOUNG LLP,http://www.ey.com
@@ -228,7 +228,7 @@ duns,cleanName,vendorName,origName,url
 623591174,Safari Books Online,"Safari Books Online, LLC ","SAFARI BOOKS ONLINE, LLC",www.safaribooksonline.com
 788828457,Weidenbenner Marketing Associates,"Weidenbenner Marketing Associates, Inc.","WEIDENBENNER MARKETING ASSOCIATES, INC.",www.iassecurity.com
 90111733,Caribbean School,Caribbean School Inc.,CARIBBEAN SCHOOL INC.,http://www.caribbeanschool.org/
-792851032,The Palmas Academy,THE PALMAS ACADEMY INC,THE PALMAS ACADEMY INC,
+792851032,The  Palmas Academy,THE PALMAS ACADEMY INC,THE PALMAS ACADEMY INC,
 101474992,Harris Corporation,HARRIS CORPORATION,HARRIS CORPORATION,http://www.harris.com
 81154401,"Seneviratne, Anusha","Seneviratne, Anusha","SENEVIRATNE, ANUSHA",
 25761714,Electronic Risks Consultants,"ELECTRONIC RISKS CONSULTANTS, INC","ELECTRONIC RISKS CONSULTANTS, INC",
@@ -248,7 +248,7 @@ duns,cleanName,vendorName,origName,url
 5029718,Spot,SPOT LLC,SPOT LLC,http://findmespot.com/Home.aspx
 96873760,"Crime Information Center, Arkansas","Crime Information Center, Arkansas",CRIME INFORMATION CENTER ARKANSAS,
 33174293,Alert Holdings Group,"Alert Holdings Group, Inc.","ALERT HOLDINGS GROUP, INC.",HTTP://WWW.ALERTALARMHAWAII.COM
-134120422,Marquis Consulting Services,"MARQUIS CONSULTING SERVICES, INC.","MARQUIS CONSULTING SERVICES, INC.",
+134120422,Marquis Consulting Services,,"MARQUIS CONSULTING SERVICES, INC.",
 968908124,Progend,PROGEND INC,PROGEND INC,
 85783707,Digital Intelligence,"Digital Intelligence, Inc. ","DIGITAL INTELLIGENCE, INC.",http://www.digitalintelligence.com
 60643533,Young Scale Co.,"Young Scale Co., LLC ","YOUNG SCALE CO., LLC",
@@ -272,7 +272,7 @@ duns,cleanName,vendorName,origName,url
 155953086,United Parcel Service Co.,UNITED PARCEL SERVICE CO.,UNITED PARCEL SERVICE CO.,
 10891187,Complete Book & Media Supply,"Complete Book & Media Supply, LLC ",COMPLETE BOOK & MEDIA SUPPLY I,https://gsa.completebook.com/
 861004349,Aardvark,AARDVARK,AARDVARK,
-78770392,Sig Sauer,"SIG SAUER, INC","SIG SAUER, INC",
+78770392,Sig Sauer,,"SIG SAUER, INC",
 1519248,John Wiley & Sons,"JOHN WILEY & SONS, INC.",JOHN WILEY AND SONS INCORPORATED,
 790993252,KCorp Support Services,"KCORP SUPPORT SERVICES, INC.","KCORP SUPPORT SERVICES, INC.",
 1121912,Hardigg Industries,"Hardigg Industries, Inc.","HARDIGG INDUSTRIES, INC.",http://www.Pelican.com 
@@ -283,7 +283,7 @@ duns,cleanName,vendorName,origName,url
 124623039,Sampson Partners,Sampson Partners Llc ,SAMPSON PARTNERS LLC,www.tacticalfitnessgsa.com
 182004838,Black Gold Industries,BLACK GOLD INDUSTRIES,BLACK GOLD INDUSTRIES,http://www.bgi1.com
 791990146,"Hergo, Ergonomic Support Systems","Hergo, Ergonomic Support Systems, Inc.","HERGO, ERGONOMIC SUPPORT SYSTEMS, INC.",http://www.hergo.com
-1910777,The Johns Hopkins University,"Johns Hopkins University, The","JOHNS HOPKINS UNIVERSITY, THE",jhu.edu
+1910777,The  Johns Hopkins University,"Johns Hopkins University, The","JOHNS HOPKINS UNIVERSITY, THE",jhu.edu
 618932227,Axiscore,"AXISCORE, LLC",AXISCORE LIMITED LIABILITY COMPANY,http://www.axiscoreshop.com
 14387489,Serco Services,"Serco Services, Inc.",SERCO SERVICES INC.,http://www.serco-na.com
 1453216,Remington Arms Company,"Remington Arms Company, LLC","REMINGTON ARMS COMPANY, LLC",
@@ -304,8 +304,8 @@ duns,cleanName,vendorName,origName,url
 80000464,Global Traveler,Global Traveler LLC,GLOBAL TRAVELER LLC,www.globaltravelerllc.com
 623425563,Testequity,TESTEQUITY LLC,TESTEQUITY LLC,http://www.testequity.com
 16538643,Modular Concepts,"MODULAR CONCEPTS, INC.","MODULAR CONCEPTS, INC.",
-27839211,Forbes,"FORBES, INC., C.","FORBES, INC., C.",http://www.cforbesinc.com
-9557104,At Your Service Heating & Cooling,"AT YOUR SERVICE HEATING & COOLING, LLC","AT YOUR SERVICE HEATING & COOLING, LLC",
+27839211,"Forbes, Inc., C.","FORBES, INC., C.","FORBES, INC., C.",http://www.cforbesinc.com
+9557104,at Your Service Heating & Cooling,"AT YOUR SERVICE HEATING & COOLING, LLC","AT YOUR SERVICE HEATING & COOLING, LLC",
 68267934,Tucson Hotels,TUCSON HOTELS LP,TUCSON HOTELS LP,www.atriumhospitality.com
 6213482,USABancorp,U.S. BANCORP,U.S. BANCORP,http://www.usbank.com
 31414766,Kalos,"Kalos, Inc.","KALOS, INC.",
@@ -322,7 +322,7 @@ duns,cleanName,vendorName,origName,url
 790472240,Avaya Federal Solutions,"Avaya Federal Solutions, Inc.","AVAYA FEDERAL SOLUTIONS, INC.",http://www.avaya.com/avayagov
 109448030,Actionable Intelligence Technologies,"Actionable Intelligence Technologies, Inc.","ACTIONABLE INTELLIGENCE TECHNOLOGIES, INC.",https://www.aitcfis.com
 622594492,Knight Point Systems,"Knight Point Systems, LLC ","KNIGHT POINT SYSTEMS, LLC",http://knightpoint.com
-22567908,MCP Computer Products,Mcp Computer Products Inc.,MCP COMPUTER PRODUCTS INC.,HTTP://WWW.MCPGOV.COM
+22567908,Mcp Computer Products,Mcp Computer Products Inc.,MCP COMPUTER PRODUCTS INC.,HTTP://WWW.MCPGOV.COM
 78368261,Patriot Comm,PATRIOT COMM,PATRIOT COMM,www.patriot-comm.com
 103312802,Acuity,"Acuity, Inc.","ACUITY, INC.",http://www.myacuity.com
 119514144,Trofholz Technologies,"Trofholz Technologies, Inc.","TROFHOLZ TECHNOLOGIES, INC.",http://www.trofholz.com
@@ -339,16 +339,16 @@ duns,cleanName,vendorName,origName,url
 22676698,Metrotec,"Metrotec, Inc.","METROTEC, INC.",
 884261082,FedResults,"FedResults, Inc.","FEDRESULTS, INC.",http://www.fedresults.com
 78643840,RStudio,"RStudio, Inc.","RSTUDIO, INC.",www.rstudio.com
-80388745,DialToneServices,DIALTONESERVICES L.P.,DIALTONESERVICES L.P.,
+80388745,Dialtoneservices,,DIALTONESERVICES L.P.,
 30963826,Mavagi Enterprises,Mavagi Enterprises Inc,MAVAGI ENTERPRISES INCORPORATED,www.mavagi.org
 1818012,Sharp Electronics Corporation,Sharp Electronics Corporation,SHARP ELECTRONICS CORPORATION,http://www.sharp-usa.com
 806933284,One Stop Environmental,"ONE STOP ENVIRONMENTAL, LLC","ONE STOP ENVIRONMENTAL, LLC",http://www.onestopenv.com
 79845709,Proxdose Radiation Sensors,"Proxdose Radiation Sensors, LLC ","PROXDOSE RADIATION SENSORS, LLC",www.PRSdosimetry.com
-102793460,CSI Aviation,"CSI AVIATION, INC.","CSI AVIATION SERVICES, INC.",http://www.csiaviation.com
+102793460,Csi Aviation,"CSI AVIATION, INC.","CSI AVIATION SERVICES, INC.",http://www.csiaviation.com
 608717450,XL Associates,"XL Associates, Inc.","XL ASSOCIATES, INC.",http://www.xla.com
-167646140,National Commission on Correctional Health Care,NATIONAL COMMISSION ON CORRECTIONAL HEALTH CARE,NATIONAL COMMISSION ON CORRECTIONAL HEALTH CARE,
+167646140,National Commission on Correctional Health Care,,NATIONAL COMMISSION ON CORRECTIONAL HEALTH CARE,
 9741190,Danya International,Danya International LLC,DANYA INTERNATIONAL LLC,http://www.DLHcorp.com
-133090261,The Nakamoto Group,"NAKAMOTO GROUP, INC., THE","NAKAMOTO GROUP, INC., THE",
+133090261,The  Nakamoto Group,,"NAKAMOTO GROUP, INC., THE",
 6928857,Booz Allen Hamilton,Booz Allen Hamilton Inc.,BOOZ ALLEN HAMILTON INCORPORATED (3626),HTTP://WWW.BOOZALLEN.COM
 141544648,Fleet Management Solutions,"Fleet Management Solutions, Inc.","FLEET MANAGEMENT SOLUTIONS, INC.",http://www.teletrac.com
 826662421,Migrant Clinicians Network,Migrant Clinicians Network Inc ,MIGRANT CLINICIANS NETWORK INC,
@@ -382,7 +382,7 @@ duns,cleanName,vendorName,origName,url
 29127727,New Life Chinese Laundry,NEW LIFE CHINESE LAUNDRY INC,NEW LIFE CHINESE LAUNDRY INC,http://www.newlifecleaners.net/
 828164087,Buddy’s Snack Bar,Buddy's Snack Bar ,BUDDY'S SNACK BAR,
 78360656,ACT Services,ACT Services Corp,ACT SERVICES CORP,www.Aactservices.com
-808805154,Texas Commission on Environmental Quality,"ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON","ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON",http://www.tceq.texas.gov
+808805154,"Environmental Quality, Texas Commission on","ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON","ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON",http://www.tceq.texas.gov
 30786248,County of Lane,COUNTY OF LANE,COUNTY OF LANE,WWW.LANECOUNTY.ORG
 932061653,Allways Shred,"Allways Shred, INC. ","KLEMES FAMILY HOLDINGS, INC.",www.proshred.com/Raleigh
 939827127,Language Training Center,"Language Training Center, Inc.","LANGUAGE TRAINING CENTER, INC.",http://www.ltclanguagesolutions.com
@@ -391,7 +391,7 @@ duns,cleanName,vendorName,origName,url
 79529872,PricewaterhouseCoopers Public Sector,PricewaterhouseCoopers Public Sector LLP,PRICEWATERHOUSECOOPERS PUBLIC SECTOR LLP,
 111899506,California Highway Patrolman’s Club,CALIFORNIA HIGHWAY PATROLMAN'S CLUB,CALIFORNIA HIGHWAY PATROLMAN'S CLUB,http://www.bak420.com
 126166768,Unifirst Corporation,UNIFIRST CORPORATION,UNIFIRST CORPORATION,http://www.unifirst.com
-1376735,Utah Communications Authority,UTAH COMMUNICATIONS AUTHORITY,UTAH COMMUNICATIONS AUTHORITY,
+1376735,Utah Communications Authority,,UTAH COMMUNICATIONS AUTHORITY,
 46263810,County of Musselshell,"MUSSELSHELL, COUNTY OF","MUSSELSHELL, COUNTY OF",
 603547944,County of Bonner,"BONNER, COUNTY OF","BONNER, COUNTY OF",
 111642997,County of Latah,"LATAH, COUNTY OF","LATAH, COUNTY OF",
@@ -404,21 +404,21 @@ duns,cleanName,vendorName,origName,url
 791326312,Metro Office Products,"Metro Office Products, LLC ","METRO OFFICE PRODUCTS, LLC",http://www.mymetroofficeproducts.net
 79787440,GEO Care,GEO Care LLC,GEO CARE LLC,
 32093028,Laboratory Corporation of America,LABORATORY CORPORATION OF AMERICA,LABORATORY CORPORATION OF AMERICA,
-947905766,Town of Islip,"ISLIP, TOWN OF","ISLIP, TOWN OF",
+947905766,Town of Islip,,"ISLIP, TOWN OF",
 624462131,World Wide Enterprises,WORLD WIDE ENTERPRISES INC,WORLD WIDE ENTERPRISES INC,
 31779838,County of San Diego,"SAN DIEGO, COUNTY OF","SAN DIEGO, COUNTY OF",
 70965805,BNC Enterprises,BNC Enterprises LLC,BNC ENTERPRISES LLC,
-197871515,City of Long Beach,"LONG BEACH, CITY OF","LONG BEACH, CITY OF",
+197871515,City of Long Beach,,"LONG BEACH, CITY OF",
 803838374,Hudson River Park Trust,Hudson River Park Trust,HUDSON RIVER PARK TRUST,www.hudsonriverpark.org
 781162391,Compass House,Compass House ,COMPASS HOUSE,
 131242658,Hartford Parking Authority,Hartford Parking Authority,HARTFORD PARKING AUTHORITY,
-146708227,County of Kern,"KERN, COUNTY OF","KERN, COUNTY OF",
+146708227,County of Kern,,"KERN, COUNTY OF",
 965708477,Infocus Health,"INFOCUS HEALTH, LLC","INFOCUS HEALTH, LLC",
 171880859,Department of Emergency Services and Public Protection,"Emergency Services and Public Protection, Department Of",DEPARTMENT OF EMERGENCY SERVICES AND PUBLIC PROTECTION,
 10552933,Marentco,"MARENTCO, INC.","MARENTCO, INC.",
 139397058,B & K Technology Solutions,B & K Technology Solutions Inc.,B & K TECHNOLOGY SOLUTIONS INC,www.atrecycle.com
 606290401,Maxim Healthcare Services,"Maxim Healthcare Services, Inc. ","MAXIM HEALTHCARE SERVICES, INC.",http://www.maximstaffing.com
-26173034,Millennium Health & Fitness,MILLENNIUM HEALTH & FITNESS INC.,MILLENNIUM HEALTH & FITNESS INC.,
+26173034,Millennium Health & Fitness,,MILLENNIUM HEALTH & FITNESS INC.,
 134265938,Lionbridge Global Solutions Ii,"Lionbridge Global Solutions Ii, Inc.","LIONBRIDGE GLOBAL SOLUTIONS II, INC.",HTTP://WWW.LIONBRIDGE.COM
 606936271,Af&s Products & Services,"AF&S PRODUCTS & SERVICES, INC.",AF&S PRODUCTS AND SERVICES LIMITED LIABILITY COMPANY,
 42598482,Galls,"Galls, LLC","GALLS, INC",HTTP://WWW.GALLS.COM
@@ -433,7 +433,7 @@ duns,cleanName,vendorName,origName,url
 785918954,"HDR Environmental, Operations and Construction","HDR Environmental, Operations and Construction, Inc.","HDR ENVIRONMENTAL, OPERATIONS AND CONSTRUCTION, INC.",http://www.hdrinc.com
 33278685,Texas Workforce Commission,TEXAS WORKFORCE COMMISSION,TEXAS WORKFORCE COMMISSION,www.twc.state.tx.us
 962380692,Security Solutions Group,"SECURITY SOLUTIONS GROUP, L.L.C.","SECURITY SOLUTIONS GROUP, L.L.C.",
-23897666,Kevin Potter,"Potter, Kevin",KRP DATA SYSTEMS,http://www.krpdata.com
+23897666,"Potter, Kevin","Potter, Kevin",KRP DATA SYSTEMS,http://www.krpdata.com
 786892927,Rite-Kem,"RITE-KEM, INC.","RITE-KEM, INC.",HTTP://WWW.RITEKEM.COM
 957523111,Go & Zalez,GO & ZALEZ INC.,GO & ZALEZ INC.,HTTPS://WWW.THUNDERGUNRANGE.COM
 39953744,Cih Support,"CIH SUPPORT, LLC","CIH SUPPORT, LLC",www.cihsupport.com
@@ -443,13 +443,13 @@ duns,cleanName,vendorName,origName,url
 38524929,River City Range,"River City Range, LLC ","RIVER CITY RANGE, LLC",
 610509478,NC4 Public Sector,NC4 PUBLIC SECTOR LLC,NC4 PUBLIC SECTOR LIMITED LIABILITY COMPANY,http://www.nc4.com
 69373090,Motorola Solutions,"MOTOROLA SOLUTIONS, INC.",MOTOROLA INCORPORATED,http://www.MotorolaSolutions.com
-17764031,Layton Landscaping,LAYTON LANDSCAPING,LAYTON LANDSCAPING,
+17764031,Layton Landscaping,,LAYTON LANDSCAPING,
 6254833,Federal Cartridge Company,FEDERAL CARTRIDGE COMPANY,FEDERAL CARTRIDGE COMPANY,http://www.vistaoutdoor.com
 88057158,BSE Performance,BSE Performance LLC,BSE PERFORMANCE LLC,http://www.bseperformance.com/government_services.php
 152871823,Volicon,Volicon Inc.,VOLICON INC.,
 193803103,Omni Business Systems-Fax Plus,"Omni Business Systems-Fax Plus, Inc.",FAX PLUS INCORPORATED,http://www.omnibsi.com
-603126678,Visionary Integration Professionals,VISIONARY INTEGRATION PROFESSIONALS LLC,VISIONARY INTEGRATION PROFESSIONALS LLC,
-18836440,The Corporate Source,"Corporate Source, Inc., The","CORPORATE SOURCE, INC., THE",
+603126678,Visionary Integration Professionals,,VISIONARY INTEGRATION PROFESSIONALS LLC,
+18836440,The  Corporate Source,"Corporate Source, Inc., The","CORPORATE SOURCE, INC., THE",
 97779698,SRA International,"SRA International, Inc.",SYSTEMS RESEARCH AND APPLICATIONS CORPORATION,http://www.csra.com
 623331717,Lexmark International,Lexmark International Inc.,LEXMARK INTERNATIONAL INC,http://www.lexmark.com
 147851054,N California Regional Public Safety Training Authority,N CALIFORNIA REGIONAL PUBLIC SAFETY TRAINING AUTHORITY,N CALIFORNIA REGIONAL PUBLIC SAFETY TRAINING AUTHORITY,
@@ -459,7 +459,7 @@ duns,cleanName,vendorName,origName,url
 171898732,Global Tech,Global Tech Inc.,GLOBAL TECH INC.,http://www.eglobaltech.com
 78738235,Aerostar Airport Holdings,"Aerostar Airport Holdings, LLC","AEROSTAR AIRPORT HOLDINGS, LLC",
 845109339,Resurgens Risk Management,"Resurgens Risk Management, Inc.","RESURGENS RISK MANAGEMENT, INC.",http://www.rrmgt.com
-59954201,"Neil S. Hibler, PhD. ABBP","Hibler, Neil S PHD ABBP","HIBLER, NEIL S PHD ABBP",http://WWW.POLICEPSYCHOLOGY.COM
+59954201,"Hibler, Neil S PHD ABBP","Hibler, Neil S PHD ABBP","HIBLER, NEIL S PHD ABBP",http://WWW.POLICEPSYCHOLOGY.COM
 66753844,Industrial Video & Control Co.,"INDUSTRIAL VIDEO & CONTROL CO., LLC","INDUSTRIAL VIDEO & CONTROL CO., LLC",http://www.ivcco.com
 168719552,Arc Aspicio,Arc Aspicio LLC ,ARC ASPICIO LLC,http://www.arcaspicio.com
 143692858,Java Productions,"JAVA PRODUCTIONS, INC.","JAVA PRODUCTIONS, INC.",http://www.jpidev.com
@@ -470,7 +470,7 @@ duns,cleanName,vendorName,origName,url
 1727135,Managed Care Advisors,"Managed Care Advisors, Inc. ","MANAGED CARE ADVISORS, INC.",http://www.managedcareadvisors.com
 621534887,Halo Group,"Halo Group, Inc.","HALO GROUP, INC.",http://www.halogroupinc.com
 29640740,Convergint Technologies,Convergint Technologies LLC ,CONVERGINT TECHNOLOGIES LLC,www.convergint.com
-137672239,Todd Radford,"Radford, Todd",TODD RADFORD,
+137672239,"Radford, Todd","Radford, Todd",TODD RADFORD,
 48822402,International Satellite Services,"International Satellite Services, Inc.","INTERNATIONAL SATELLITE SERVICES, INC.",
 34595699,Alta Language Services,"Alta Language Services, Inc","ALTA LANGUAGE SERVICES, INC",http://www.altalang.com
 115415338,HR Anew,"HR Anew, Inc.","HR ANEW, INC.",www.hranew.com
@@ -478,8 +478,8 @@ duns,cleanName,vendorName,origName,url
 843894523,Lindholm & Associates,"LINDHOLM & ASSOCIATES, INC.",LINDHOLM AND ASSOCIATES INCORPORATED,http://www.lindholm-associates.com
 805340247,Michigan Department of State Police,"State Police, Michigan Department Of","STATE POLICE, MICHIGAN DEPARTMENT OF",
 54977231,City of New York,"NEW YORK, CITY OF ","NEW YORK, CITY OF",
-839709532,Seattle Police Athletic Assoc,SEATTLE POLICE ATHLETIC ASSOC,SEATTLE POLICE ATHLETIC ASSOC,
-148015449,County of Imperial,"IMPERIAL, COUNTY (INC)","IMPERIAL, COUNTY (INC)",
+839709532,Seattle Police Athletic Assoc,,SEATTLE POLICE ATHLETIC ASSOC,
+148015449,"Imperial, County","IMPERIAL, COUNTY (INC)","IMPERIAL, COUNTY (INC)",
 79481448,Cold Box Express,Cold Box Express LLC ,COLD BOX EXPRESS LLC,
 963846097,Pat V. Mack,"Pat V. Mack, Inc.","PAT V. MACK, INC.",
 52128984,GreenZone Solutions,"GreenZone Solutions, Inc.","GREENZONE SOLUTIONS, INC.",www.greenzoneinc.com
@@ -488,7 +488,7 @@ duns,cleanName,vendorName,origName,url
 3592412,Solutions Through Innovative Technologies,"Solutions Through Innovative Technologies, Inc. ","SOLUTIONS THROUGH INNOVATIVE TECHNOLOGIES, INC.",http://www.sti-tec.com
 192770050,Acorn Office Products,"Acorn Office Products, LLC",ACORN OFFICE PRODUCTS LLC,https://www.acornofficeproducts.com
 197503212,Gemini Industries,Gemini Industries Inc.,GEMINI INDUSTRIES INC.,http://www.gemini-ind.com
-878854504,EMS Safety Services,EMS SAFETY SERVICES INC,EMS SAFETY SERVICES INC,http://www.emssafety.com
+878854504,Ems Safety Services,EMS SAFETY SERVICES INC,EMS SAFETY SERVICES INC,http://www.emssafety.com
 808354448,Shine Enterprises,"Shine Enterprises, LLC","SHINE ENTERPRISES, LLC",http://www.shinesystems.com
 18193669,Integral Consulting Services,Integral Consulting Services Incorporated,INTEGRAL CONSULTING SERVICES INCORPORATED,http://www.e2zintegral.com
 125368121,Zenetex,"Zenetex, LLC","ZENETEX, LLC",http://www.zenetex.com
@@ -504,11 +504,11 @@ duns,cleanName,vendorName,origName,url
 945193316,Folsom Shooting Club,Folsom Shooting Club Inc,FOLSOM SHOOTING CLUB INC,http://wwwsacvalley.org
 945163509,Supreme Security Systems,"Supreme Security Systems, Inc.","SUPREME SECURITY SYSTEMS, INC.",https://www.supremealarm.com
 177886848,ANSI-ASQ National Accreditation Board,"ANSI-ASQ National Accreditation Board, LLC","ANSI-ASQ NATIONAL ACCREDITATION BOARD, LLC",http://www.anab.org
-2906605,"Jeanne M. Vonhof, Arbitrator and Mediator","VONHOF, JEANNE M ARBITRATOR AND MEDIATOR","VONHOF, JEANNE M ARBITRATOR AND MEDIATOR",
+2906605,"Vonhof, Jeanne M Arbitrator and Mediator","VONHOF, JEANNE M ARBITRATOR AND MEDIATOR","VONHOF, JEANNE M ARBITRATOR AND MEDIATOR",
 800250008,Inseego North America,"Inseego North America, LLC","FEENEY WIRELESS, LLC",http://www.inseego.com
 144579815,South Metro Public Safety Training Facility,SOUTH METRO PUBLIC SAFETY TRAINING FACILITY,SOUTH METRO PUBLIC SAFETY TRAINING FACILITY,
 957578685,Vohne Liche Kennels,Vohne Liche Kennels Inc,VOHNE LICHE KENNELS INC,http://www.VOHNELICHE.COM
-79359314,Lurk Enterprise Solutions,LURK ENTERPRISE SOLUTIONS,LURK ENTERPRISE SOLUTIONS,
+79359314,Lurk Enterprise Solutions,,LURK ENTERPRISE SOLUTIONS,
 79251332,Mountain RF Sensors,"Mountain RF Sensors, Inc ","MOUNTAIN RF SENSORS, INC",
 63690705,University of Alabama at Birmingham,University Of Alabama At Birmingham,UNIVERSITY OF ALABAMA AT BIRMINGHAM,www.uab.edu
 135838084,Dun & Bradstreet,"Dun & Bradstreet, Inc. ","DUN & BRADSTREET, INC.",http://www.mydnb.com
@@ -517,7 +517,7 @@ duns,cleanName,vendorName,origName,url
 848452090,Advanced Technology Group,"Advanced Technology Group, Inc.","ADVANCED TECHNOLOGY GROUP, INC.",www.atglearning.com
 66088902,Crime Point,"CRIME POINT, INC.","CRIME POINT, INC.",http://www.crimepoint.net
 4321519,Fisher Scientific Company,Fisher Scientific Company L.L.C. ,FISHER SCIENTIFIC COMPANY L.L.C.,
-784227402,CBT Nuggets,"Cbt Nuggets, Llc","CBT NUGGETS, LLC",https://www.cbtnuggets.com/
+784227402,Cbt Nuggets,"Cbt Nuggets, Llc","CBT NUGGETS, LLC",https://www.cbtnuggets.com/
 788479368,Exxact Corporation,Exxact Corporation,EXXACT CORPORATION,http://www.exxactcorp.com
 4001731,Altec Industries,"ALTEC INDUSTRIES, INC.",ALTEC INDUSTRIES INC,
 155143050,Fox River Graphics,"Fox River Graphics, LLC ",FOX RIVER GRAPHICS,http://www.foxgraph.com
@@ -528,20 +528,20 @@ duns,cleanName,vendorName,origName,url
 58215778,Keysight Technologies,"KEYSIGHT TECHNOLOGIES, INC.","KEYSIGHT TECHNOLOGIES, INC.",www.keysight.com
 58916180,Southern Police Equipment Company,"Southern Police Equipment Company, Inc.",SOUTHERN POLICE EQUIPMENT COMPANY INCORPORATED,http://www.southernpoliceequipment.com
 619503634,Conference Technologies,"Conference Technologies, Inc. ","CONFERENCE TECHNOLOGIES, INC.",http://www.conferencetech.com
-836284091,WECsys,Wecsys LLC,WECSYS LIMITED LIABILITY COMPANY (6769),http://www.wecsysllc.com
+836284091,Wecsys,Wecsys LLC,WECSYS LIMITED LIABILITY COMPANY (6769),http://www.wecsysllc.com
 926705633,Global Data Center,Global Data Center Inc.,GLOBAL DATA CENTER INC,http://www.globaldatacenter.com
-949873624,AllWorld Language Consultants,ALLWORLD LANGUAGE CONSULTANTS INC.,ALLWORLD LANGUAGE CONSULTANTS INC.,ALCINC.COM
+949873624,Allworld Language Consultants,ALLWORLD LANGUAGE CONSULTANTS INC.,ALLWORLD LANGUAGE CONSULTANTS INC.,ALCINC.COM
 186945325,Metropolitan Interpreters & Translators,"Metropolitan Interpreters & Translators, Inc.","METROPOLITAN INTERPRETERS & TRANSLATORS, INC.",http://www.metlang.com
 5065946,Conduit Language Specialists,"Conduit Language Specialists, Inc.","CONDUIT LANGUAGE SPECIALISTS, INC.",http://www.conduitlanguage.com
 967488581,Leidos,"LEIDOS, INC.","LEIDOS, INC.",http://www.leidos.com
 106001675,Farber Specialty Vehicles,"FARBER SPECIALTY VEHICLES, INC.","FARBER SPECIALTY VEHICLES, INC",
 878515956,Nord Atlantic Trading,Nord Atlantic Trading Inc,NORD ATLANTIC TRADING INC,http://gpssignal.com
-79673287,Adapt Pharma,ADAPT PHARMA INC.,ADAPT PHARMA INC.,
+79673287,Adapt Pharma,,ADAPT PHARMA INC.,
 785807611,Government Scientific Source,"Government Scientific Source, Inc.",GOVERNMENT SCIENTIFIC SOURCE INCORPORATED,http://www.govsci.com
-616385667,ASE Direct,"Ase Direct, Inc. ","ASE DIRECT, INC.",http://www.asedirect.com
+616385667,Ase Direct,"Ase Direct, Inc. ","ASE DIRECT, INC.",http://www.asedirect.com
 809019180,Potomacwave Consulting,"Potomacwave Consulting, Inc.","POTOMACWAVE CONSULTING, INC.",
 827022141,Nelson Enterprise Technology Services,Nelson Enterprise Technology Services LLC,NELSON ENTERPRISE TECHNOLOGY SERVICES LLC,http://www.nets-us.com
-6130371,The Medalcraft Mint,"Medalcraft Mint Inc., The","MEDALCRAFT MINT, INC, THE",
+6130371,The  Medalcraft Mint,"Medalcraft Mint Inc., The","MEDALCRAFT MINT, INC, THE",
 790934285,University of Maryland,University Of Maryland,UNIVERSITY OF MARYLAND,
 942408766,MA Federal,"MA Federal, Inc. ","MA FEDERAL, INC.",http://www.igov.com
 21715206,Harris Corporation,HARRIS CORPORATION,HARRIS CORPORATION,HTTP://WWW.HARRIS.COM/
@@ -550,21 +550,21 @@ duns,cleanName,vendorName,origName,url
 14514541,Adams Evidence Grade Technology,"Adams Evidence Grade Technology, Inc.","ADAMS EVIDENCE GRADE TECHNOLOGY, INC.",http://www.evidencegrade.com
 86251469,B.E. Meyers & Co.,B.E. Meyers & Co. Inc.,B.E. MEYERS & CO. INC.,http://www.bemeyers.com
 829695530,Progressive Environmental Services,"Progressive Environmental Services, Inc.","PROGRESSIVE ENVIRONMENTAL SERVICES, INC.",http://www.swsenvironmental.com
-10588770,The Village of Oak Lawn,"Village of Oak Lawn, The ","VILLAGE OF OAK LAWN, THE",
+10588770,The  Village of Oak Lawn,"Village of Oak Lawn, The ","VILLAGE OF OAK LAWN, THE",
 25163324,Family First 5,Family First 5 Inc.,FAMILY FIRST 5 INC.,www.asapdeliverysvc.com
 169942591,SCIF Solutions,"SCIF Solutions, Inc. ","SCIF SOLUTIONS, INC.",http://www.scifsolutions.com
 69482114,Cleatech,Cleatech LLC ,CLEATECH LLC,http://www.cleatech.com
-189211050,Motiondsp,"MOTIONDSP, INC.","MOTIONDSP, INC.",
+189211050,Motiondsp,,"MOTIONDSP, INC.",
 797052701,Susteen,Susteen Inc ,SUSTEEN INC,http://www.secureview.us
 217402193,Matt Burns,MATT BURNS LTD,MATT BURNS LTD,
 131951972,Capital Compressor,"CAPITAL COMPRESSOR, INC.","CAPITAL COMPRESSOR, INC.",
-80638467,Griffeye,GRIFFEYE INC.,GRIFFEYE INC.,
-111476313,The Escal Institute of Advanced Technologies,"Escal Institute of Advanced Technologies, Inc., The","ESCAL INSTITUTE OF ADVANCED TECHNOLOGIES, INC., THE",http://www.sans.org
+80638467,Griffeye,,GRIFFEYE INC.,
+111476313,The  Escal Institute of Advanced Technologies,"Escal Institute of Advanced Technologies, Inc., The","ESCAL INSTITUTE OF ADVANCED TECHNOLOGIES, INC., THE",http://www.sans.org
 9266052,Sirina Protection Systems,Sirina Protection Systems Corp.,SIRINA PROTECTION SYSTEMS CORP.,
 136391252,Foster & Freeman USA,Foster & Freeman USA Inc. ,FOSTER & FREEMAN USA INC.,http://www.fosterfreeman.com
 50669670,Central Parking Corporation,Central Parking Corporation ,CENTRAL PARKING CORPORATION,http://www.spplus.com
 5506826,Mystaire,Mystaire Inc. ,MYSTAIRE INC.,http://www.mystaire.com
-787361302,Square One Armoring Services Co.,SQUARE ONE ARMORING SERVICES CO.,SQUARE ONE ARMORING SERVICES CO.,
+787361302,Square One Armoring Services Co.,,SQUARE ONE ARMORING SERVICES CO.,
 79197169,Simple Technology Solutions,SIMPLE TECHNOLOGY SOLUTIONS INC.,SIMPLE TECHNOLOGY SOLUTIONS INC.,
 847414760,Scaletta Moloney Armoring,Scaletta Moloney Armoring Corp ,SCALETTA MOLONEY ARMORING CORP,http://www.scaletta.com
 808862598,V3Gate,"V3Gate, LLC","V3GATE, LLC",
@@ -580,7 +580,7 @@ duns,cleanName,vendorName,origName,url
 614832819,Bowhead Support Group,Bowhead Support Group LLC ,BOWHEAD SUPPORT GROUP LLC,http://www.bowheadsupport.com
 783080526,Associated Services,ASSOCIATED SERVICES INC,ASSOCIATED SERVICES INC,
 177039286,Logistics Applications,LOGISTICS APPLICATIONS INC.,LOGISTICS APPLICATIONS INC.,http://www.logapp.com
-71172589,Coxcom,"COXCOM, INC.","COXCOM, INC.",
+71172589,Coxcom,,"COXCOM, INC.",
 30352822,Azimuth Corporation,Azimuth Corporation ,AZIMUTH CORPORATION,http://www.Azimuth-Corp.com
 178074969,RHG Group,"RHG GROUP, INC.",R H G GROUP INCORPORATED,http://www.rhggroup.com
 187107958,Deloitte & Touche,Deloitte & Touche LLP,DELOITTE & TOUCHE LLP,http://www.deloitte.com
@@ -590,14 +590,14 @@ duns,cleanName,vendorName,origName,url
 190815519,Pacific Lighting Management,"Pacific Lighting Management, Inc","PACIFIC LIGHTING MANAGEMENT, INC",http://www.pacltg.com/
 128729373,United Parcel Service,"UNITED PARCEL SERVICE, INC. (OH)",UNITED PARCEL SERVICE INCORPORATED (OH) (2075),http://www.ups.com
 185743655,Federal Express Corporation,FEDERAL EXPRESS CORPORATION,FEDERAL EXPRESS CORPORATION,HTTP://WWW.FEDEX.COM
-960380806,The Training Connection,"TRAINING CONNECTION, INC., THE",TRAINING CONNECTION INCORPORATED (6903),www.thetrainingconnection.com
+960380806,The  Training Connection,"TRAINING CONNECTION, INC., THE",TRAINING CONNECTION INCORPORATED (6903),www.thetrainingconnection.com
 53109898,American Immigration Lawyers Association,AMERICAN IMMIGRATION LAWYERS ASSOCIATION,AMERICAN IMMIGRATION LAWYERS ASSOCIATION,https://www.aila.org
 153476226,24/7 Enterprises,"24/7 ENTERPRISES, LLC","24/7 ENTERPRISES, LLC",http://www.247csl.com
 123478914,Step Two Investments,Step Two Investments LLC,STEP TWO INVESTMENTS LLC,http://www.stamp-ede.com
 133129044,USACouriers,"USA COURIERS, INC.","USA COURIERS, INC.",http://www.usacouriers.com
 831017848,Loyal Source Government Services,Loyal Source Government Services LLC,LOYAL SOURCE GOVERNMENT SERVICES LLC,www.loyalsource.com
 969943864,Interpark,INTERPARK LLC,INTERPARK LLC,
-841284099,24/7 Delivery Service,24/7 DELIVERY SERVICE,24/7 DELIVERY SERVICE,
+841284099,24/7 Delivery Service,,24/7 DELIVERY SERVICE,
 828039789,Tenica and Associates,TENICA AND ASSOCIATES LLC,TENICA AND ASSOCIATES LLC,http://www.TENICA.biz
 72595457,Haworth,"HAWORTH, INC.","HAWORTH, INC",http://www.haworth.com
 131666708,KCorp Technology Services,"KCORP TECHNOLOGY SERVICES, INC.","KCORP TECHNOLOGY SERVICES, INC.",
@@ -607,13 +607,13 @@ duns,cleanName,vendorName,origName,url
 74447095,County of Pinal,"Pinal, County Of ","PINAL, COUNTY OF",
 7507671,Johnson Controls Security Solutions,JOHNSON CONTROLS SECURITY SOLUTIONS LLC,TYCO INTEGRATED SECURITY LLC,http://www.tyco.com
 828709589,Joliva Trucking,JOLIVA TRUCKING LLC,J OLIVA TRUCKING,http://www.JOlivaTrucking.com
-79944512,Paul Radvany,"RADVANY, PAUL","RADVANY, PAUL",
+79944512,"Radvany, Paul",,"RADVANY, PAUL",
 167013189,Express Alliance Courier,EXPRESS ALLIANCE COURIER,EXPRESS ALLIANCE COURIER,
-155096154,The Centurion Group,"Centurion Group, Inc., The",CENTURION GROUP INCORPORATED THE,http://www.tcgiteam.com
+155096154,The  Centurion Group,"Centurion Group, Inc., The",CENTURION GROUP INCORPORATED THE,http://www.tcgiteam.com
 17610036,Sayres and Associates Corporation,SAYRES AND ASSOCIATES CORPORATION,SAYRES AND ASSOCIATES CORPORATION,HTTP://WWW.SAYRESANDASSOCIATES.COM
 88736686,Olin Corporation,OLIN CORPORATION ,OLIN CORPORATION,
 827663563,"C2G, Ltd Co.","C2G, Ltd Co.","C2G, LTD CO.",www.c2gltd.com
-364156468,Premium Parking Service,PREMIUM PARKING SERVICE LLC,PREMIUM PARKING SERVICE LLC,
+364156468,Premium Parking Service,,PREMIUM PARKING SERVICE LLC,
 124116463,Visionworx,"Visionworx, LLC","VISIONWORX, LLC",http://www.ccssoutheast.com
 931670392,C.F.I. Delivery,"C.F.I. Delivery, Ltd.","C.F.I. DELIVERY, LTD.",http://www.cfidelivery.com
 802856083,Aero Mobility,"Aero Mobility, Inc. ","AERO MOBILITY, INC.",https://www.aeromobility.com
@@ -626,11 +626,11 @@ duns,cleanName,vendorName,origName,url
 2688059,U.S. Legal Support,"U.S. Legal Support, Inc.","U.S. LEGAL SUPPORT, INC.",http://www.uslegalsupport.com
 607957693,Atkinson-Baker,"Atkinson-Baker, Inc.","ATKINSON-BAKER, INC.",http://www.depo.com
 1627124,Neal R Gross and Company,NEAL R GROSS AND COMPANY INC,NEAL R GROSS AND COMPANY INC,http://www.nealrgross.com
-191386275,Richard T. Tift,"TIFT, RICHARD T","TIFT, RICHARD T",
-602667839,Future Fibre Technologies USA,FUTURE FIBRE TECHNOLOGIES (US) INC.,FUTURE FIBRE TECHNOLOGIES (US) INC.,
+191386275,"Tift, Richard T","TIFT, RICHARD T","TIFT, RICHARD T",
+602667839,Future Fibre Technologies USA,,FUTURE FIBRE TECHNOLOGIES (US) INC.,
 151580305,Simon Wiesenthal Center,"SIMON WIESENTHAL CENTER, INC.","SIMON WIESENTHAL CENTER, INC.",
 33747226,Cubic Global Defense,"Cubic Global Defense, Inc.","CUBIC GLOBAL DEFENSE, INC.",http://www.cubic.com
-40540304,The Mitre Corporation,THE MITRE CORPORATION,THE MITRE CORPORATION,
+40540304,The  Mitre Corporation,THE MITRE CORPORATION,THE MITRE CORPORATION,
 615381907,ST Net-Apptis FirstSource Joint Venture,ST Net-Apptis FirstSource Joint Venture,ST NET APPTIS FIRSTSOURCE JOINT VENTURE,
 127327877,Kadix Systems,"Kadix Systems, LLC","KADIX SYSTEMS, LLC",http://www.kadix.com
 72634389,Colonial Parking,"Colonial Parking, Inc.",COLONIAL PARKING INC,www.ecolonial.com
@@ -658,7 +658,7 @@ duns,cleanName,vendorName,origName,url
 609074612,Aimpoint,"Aimpoint, Inc.","AIMPOINT, INC.",http://www.aimpoint.com
 81113627,360 Total Concept Consulting,"360 Total Concept Consulting, Inc.","360 TOTAL CONCEPT CONSULTING, INC.",
 143339492,FPMI Solutions,"FPMI Solutions, Inc.",FPMI SOLUTIONS INCORPORATED,http://www.fpmi.com
-119969970,Federal Facilitators,"FEDERAL FACILITATORS, LLC.","FEDERAL FACILITATORS, LLC.",
+119969970,Federal Facilitators,,"FEDERAL FACILITATORS, LLC.",
 111187295,Golden Key Group,"GOLDEN KEY GROUP, LLC","GOLDEN KEY GROUP, LLC",http://www.goldenkeygroup.com
 959263484,Rosamilia Builders,ROSAMILIA BUILDERS ,ROSAMILIA BUILDERS,
 133297288,LT Business Solutions,"LT Business Solutions, LLC","LT BUSINESS SOLUTIONS, LLC",http://www.ltbusinesssolutions.com
@@ -669,12 +669,12 @@ duns,cleanName,vendorName,origName,url
 63079268,H Squared,"H Squared, Inc.","H SQUARED, INC.",http://www.quanticotactical.com
 61974549,Datum Filing Systems,"Datum Filing Systems, Inc. ","DATUM FILING SYSTEMS, INC.",http://www.datumstorage.com
 40535536,Graduate School,GRADUATE SCHOOL,GRADUATE SCHOOL,http://www.graduateschool.edu
-184779924,CEB,CEB Inc.,"CORPORATE EXECUTIVE BOARD COMPANY, THE",http://www.cebglobal.com
+184779924,Ceb,CEB Inc.,"CORPORATE EXECUTIVE BOARD COMPANY, THE",http://www.cebglobal.com
 144184392,Elevation,"ELEVATION, LTD",ELEVATION LIMITED,
 134466999,Heckler & Koch Defense,Heckler & Koch Defense Inc. ,HECKLER & KOCH DEFENSE INC.,http://heckler-koch.com
-121396217,Colt Defense,COLT DEFENSE LLC,COLT DEFENSE LLC,
+121396217,Colt Defense,,COLT DEFENSE LLC,
 98401086,FN America,"FN America, LLC ","FN AMERICA, LLC",http://www.fnamerica.com
-616205675,CACI-ISS,"CACI-ISS, INC.","CACI-ISS, INC.",http://www.caci.com
+616205675,Caci-Iss,"CACI-ISS, INC.","CACI-ISS, INC.",http://www.caci.com
 38973392,Bovard,BOVARD INC,BOVARD INC,
 605437870,Universal Music,Universal Music-mgb Na LLC,UNIVERSAL MUSIC-MGB NA LLC,
 44976271,Hill & Mac Gunworks,HILL & MAC GUNWORKS LLC,HILL & MAC GUNWORKS LLC,http://www.hmgunworks.com
@@ -705,48 +705,48 @@ duns,cleanName,vendorName,origName,url
 161619705,Presenta Plaque Corporation,PRESENTA PLAQUE CORPORATION,PRESENTA PLAQUE CORPORATION,http://www.presentaplaque.com
 796830029,Spacesaver Storage Systems,"SPACESAVER STORAGE SYSTEMS, INC.","SPACESAVER STORAGE SYSTEMS, INC.",http://www.spacesaver.com
 21725457,USATactical Supply,U.S. TACTICAL SUPPLY INC.,U S TACTICAL SUPPLY INC,http://www.ustacticalsupply.com/
-621407980,MMI Outdoor,"MMI OUTDOOR, INC.",MONTGOMERY MARKETING INC,http://www.mmioutdoor.net/
+621407980,Mmi Outdoor,"MMI OUTDOOR, INC.",MONTGOMERY MARKETING INC,http://www.mmioutdoor.net/
 146850255,Bottom Line Military Sales,"Bottom Line Military Sales, LLC ","BOTTOM LINE MILITARY SALES, LLC",
 929305191,Chief Supply Corporation,Chief Supply Corporation,CHIEF SUPPLY CORPORATION,http://www.chiefsupply.com
 86003852,Amron International,"Amron International, Inc. ",AMRON INTERNATIONAL DIVING SUPPLY INCORPORATED,http://www.amronintl.com
 626060222,Affordable Interior Systems,"Affordable Interior Systems, Inc.","AFFORDABLE INTERIOR SYSTEMS, INC.",
 801957981,American Toner & Ink,AMERICAN TONER & INK,AMERICAN TONER & INK,http://www.americantoneronline.com
 787815542,Urban Adventures at Gallery Place,"URBAN ADVENTURES AT GALLERY PLACE, LLC","URBAN ADVENTURES AT GALLERY PLACE, LLC",
-962257445,LC Industries,"LC INDUSTRIES, INC.","LC INDUSTRIES, INC.",
+962257445,Lc Industries,,"LC INDUSTRIES, INC.",
 148099450,Glock,"Glock, Inc.","GLOCK, INC.",
-831108928,NPEE,NPEE L.C ,NPEE L.C,HTTP://WWW.NPEE.ORG
-832426261,RUAG Ammotec USA,"RUAG AMMOTEC USA, INC.","RUAG AMMOTEC USA, INC.",http://www.ruag.com
+831108928,Npee,NPEE L.C ,NPEE L.C,HTTP://WWW.NPEE.ORG
+832426261,Ruag Ammotec USA,"RUAG AMMOTEC USA, INC.","RUAG AMMOTEC USA, INC.",http://www.ruag.com
 840215854,International Cartridge Corporation,INTERNATIONAL CARTRIDGE CORPORATION,INTERNATIONAL CARTRIDGE CORPORATION,http://www.iccammo.com
 602335882,Central Lake Armor Express,"Central Lake Armor Express, Inc. ","CENTRAL LAKE ARMOR EXPRESS, INC.",http://www.armorexpress.com/
 123716578,Purple Communications,"Purple Communications, Inc. ","PURPLE COMMUNICATIONS, INC.",www.purple.us
 57223794,Combined Systems,"Combined Systems, Inc. ","COMBINED SYSTEMS, INC.",http://www.combinedsystems.com
 78306688,WMK San Antonio,WMK SAN ANTONIO LLC,WMK SAN ANTONIO LLC,
-618518745,Paul Palmer,"PALMER, PAUL","PALMER, PAUL",
+618518745,"Palmer, Paul",,"PALMER, PAUL",
 187568928,Springfield,"Springfield, L.L.C. ","SPRINGFIELD, L.L.C.",
 80997786,Hyatt Corporation,HYATT CORPORATION,HYATT CORPORATION,HTTPS://WWW.HYATT.COM
 614345809,Office Depot,"OFFICE DEPOT, INC.","OFFICE DEPOT, INC.",
 9028176,Nosler,"Nosler, Inc.","NOSLER, INC.",
 171909963,Southwest Solutions Group,"Southwest Solutions Group, Inc. ","SOUTHWEST SOLUTIONS GROUP, INC.",www.southwestsolutions.com
 828777867,B5 Systems,"B5 SYSTEMS, INC.","B5 SYSTEMS, INC.",http://www.b5systems.com
-49671092,R. P. Aiken & Son,"AIKEN, R P & SON","AIKEN, R P & SON",
+49671092,"Aiken, R P & Son",,"AIKEN, R P & SON",
 79869344,Tomahawk Defense,"Tomahawk Defense, LLC","TOMAHAWK DEFENSE, LLC",tomahawkss.com
 71351449,Response Marketing,"RESPONSE MARKETING, INC.","RESPONSE MARKETING, INC.",www.modernofficefurniture.com
-162823777,Booz Allen Hamilton,BOOZ ALLEN HAMILTON INCORPORATED (3626),BOOZ ALLEN HAMILTON INCORPORATED (3626),
+162823777,Booz Allen Hamilton,,BOOZ ALLEN HAMILTON INCORPORATED (3626),
 627810476,Federal Management Systems,"FEDERAL MANAGEMENT SYSTEMS, INC.","FEDERAL MANAGEMENT SYSTEMS, INC.",http://www.fmshq.com
 64299332,Emtec Federal,"Emtec Federal, LLC",EMTEC FEDERAL INCORPORATED,
 192060796,Bishop & Associates,"BISHOP & ASSOCIATES, INC.",BISHOP & ASSOCIATES INC,http://www.bishopenv.com
 4088980,Cogent Solutions,Cogent Solutions Inc,COGENT SOLUTIONS,http://WWW.COGENT-2000.com
-839671596,Tririga,TRIRIGA INC,TRIRIGA INC,
+839671596,Tririga,,TRIRIGA INC,
 835130485,International Business Machines Corporation,INTERNATIONAL BUSINESS MACHINES CORPORATION,INTERNATIONAL BUSINESS MACHINES CORPORATION,www.ibm.com/industries/federal/contracts/gsa
 78883327,Science Applications International Corporation,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION,
-956259105,Bennet Communications,BENNET COMMUNICATIONS INC,BENNET COMMUNICATIONS INC,
+956259105,Bennet Communications,,BENNET COMMUNICATIONS INC,
 168926264,Dakota Consulting,Dakota Consulting Incorporated,DAKOTA CONSULTING INCORPORATED,http://www.dakota-consulting.com
 878187012,Savantage Financial Services,"SAVANTAGE FINANCIAL SERVICES, INC.","SAVANTAGE FINANCIAL SERVICES,",
 54885111,Phacil,"Phacil, Inc.","PHACIL, INC.",http://www.phacil.com
-131336773,mLINQS,"MLINQS, LLC",MLINQS LIMITED LIABILITY COMPANY,http://www.mlinqs.net
-825284321,Palantir USG,"PALANTIR USG, INC.","PALANTIR USG, INC.",
+131336773,Mlinqs,"MLINQS, LLC",MLINQS LIMITED LIABILITY COMPANY,http://www.mlinqs.net
+825284321,Palantir Usg,"PALANTIR USG, INC.","PALANTIR USG, INC.",
 143147762,InfoReliance,InfoReliance LLC,INFORELIANCE CORPORATION,HTTP://WWW.INFORELIANCE.COM
-124289708,clearAvenue,"Clearavenue, LLC",CLEARAVENUE LIMITED LIABILITY COMPANY,http://www.clearavenue.com/
+124289708,Clearavenue,"Clearavenue, LLC",CLEARAVENUE LIMITED LIABILITY COMPANY,http://www.clearavenue.com/
 73090917,Level 3 Communications,"Level 3 Communications, LLC ",LEVEL 3 COMMUNICATIONS LIMITED LIABILITY COMPANY,http://www.level3.com
 962373515,360 IT Integrated Solutions,360 IT Integrated Solutions ,360 IT INTEGRATED SOLUTIONS,http://www.360itis.com
 175222520,Telco Solutions,Telco Solutions Inc,TELCO SOLUTIONS INC,www.telcosolutions.com
@@ -776,7 +776,7 @@ duns,cleanName,vendorName,origName,url
 956122402,Pyramid Systems,"Pyramid Systems, Inc. ","PYRAMID SYSTEMS, INC.",http://www.pyramidsystems.com
 146881875,Tri-Cor Industries,"Tri-Cor Industries, Inc. ","TRI-COR INDUSTRIES, INC.",http://www.tricorind.com
 13358002,Mythics,"Mythics, Inc.","MYTHICS, INC",www.mythics.com
-3548489,AT&T Mobility,AT&T MOBILITY LLC,AT&T MOBILITY LLC,http://www.wireless.att.com
+3548489,at&t Mobility,AT&T MOBILITY LLC,AT&T MOBILITY LLC,http://www.wireless.att.com
 68729529,Citizant,"Citizant, Inc. ","CITIZANT, INC.",http://www.citizant.com
 112074757,Blackstone Technology Group,Blackstone Technology Group,BLACKSTONE TECHNOLOGY GROUP,http://www.bstonetech.com
 70899393,Tsymmetry,"TSYMMETRY, INC.","TSYMMETRY, INC.",
@@ -799,30 +799,30 @@ duns,cleanName,vendorName,origName,url
 927481239,Tinfoil Security,TINFOIL SECURITY INC ,TINFOIL SECURITY INC,https://www.tinfoilsecurity.com
 807873125,Costcontrol USA,COSTCONTROL USA LLC,COSTCONTROL USA LLC,www.costperform.com
 869159897,Annams Systems Corporation,Annams Systems Corporation,ANNAMS SYSTEMS CORPORATION,http://www.sunflowersystems.com
-12023730,JusticeTrax,JUSTICETRAX INC.,JUSTICETRAX INC.,HTTP://www.JusticeTrax.com
+12023730,Justicetrax,JUSTICETRAX INC.,JUSTICETRAX INC.,HTTP://www.JusticeTrax.com
 18385547,Recovery Point Systems,"Recovery Point Systems, Inc.","RECOVERY POINT SYSTEMS, INC.",HTTP://WWW.RECOVERYPOINT.COM
 126511963,Integration Technologies Group,"Integration Technologies Group, Inc.","INTEGRATION TECHNOLOGIES GROUP, INC.",http://www.itgonline.com
 959391509,Unistar-Sparco Computers,"Unistar-Sparco Computers, Inc. ","UNISTAR-SPARCO COMPUTERS, INC.",http://www.sparco.com
 828787395,Mosaik Solutions,"Mosaik Solutions, LLC","MOSAIK SOLUTIONS, LLC",http://www.mosaik.com
-32543716,SmartyStreets,SMARTYSTREETS LLC ,SMARTYSTREETS LLC,smartystreets.com
-243559783,KWizCom Corporation,KWIZCOM CORPORATION,KWIZCOM CORPORATION,http://www.kwizcom.com
+32543716,Smartystreets,SMARTYSTREETS LLC ,SMARTYSTREETS LLC,smartystreets.com
+243559783,Kwizcom Corporation,KWIZCOM CORPORATION,KWIZCOM CORPORATION,http://www.kwizcom.com
 79463764,Copper River Enterprise Services,"Copper River Enterprise Services, LLC ","COPPER RIVER ENTERPRISE SERVICES, LLC",www.copperriveres.com
 112865048,Optivor Technologies,"Optivor Technologies, L.L.C. ","OPTIVOR TECHNOLOGIES, L.L.C.",www.optivor.com
 361625932,Sytel,"Sytel, Inc. ",SYTEL INCORPORATED,http://www.jacobstechnology.com/ssg.html
 148095086,Leidos,"LEIDOS, INC.",SCIENCE APPLICATIONS INTERNATIONAL CORPORATION,http://www.leidos.com
 858888761,EMCOR Government Services,"EMCOR Government Services, Inc. ","EMCOR GOVERNMENT SERVICES, INC.",http://www.emcorgovservices.com
 73891921,Centerra Group,"Centerra Group, LLC ","WACKENHUT SERVICES, INCORPORATED",centerragroup.com
-31930357,Southwestern Security Services,"SOUTHWESTERN SECURITY SERVICES, INC.","SOUTHWESTERN SECURITY SERVICES, INC.",
+31930357,Southwestern Security Services,,"SOUTHWESTERN SECURITY SERVICES, INC.",
 176329795,Ceia USA,"CEIA USA, LTD",CEIA USA LLC,
-883217606,The J. Diamond Group,"J. DIAMOND GROUP, INC., THE","J. DIAMOND GROUP, INC., THE",
+883217606,The  J. Diamond Group,,"J. DIAMOND GROUP, INC., THE",
 2176741,l & R manufacturing co,l & R manufacturing co inc,L AND R MANUFACTURING COMPANY,http://www.lrultrasonics.com/
 75553560,Eastern Carolina Vocational Center,"EASTERN CAROLINA VOCATIONAL CENTER, INC.",EASTERN CAROLINA VOCATIONAL CENTER INCORPORATED,
 94738007,Johnson Controls Fire Protection,Johnson Controls Fire Protection LP,SIMPLEXGRINNELL LP,
 16736289,Cookie’s Dme,COOKIE'S DME INC,COOKIE'S DME INC,
 196746916,SouthEast Vocational Alliance,SouthEast Vocational Alliance Inc.,SOUTHEAST VOCATIONAL ALLIANCE INC.,
 21569329,GC Alliance,"GC Alliance, LLC","GC ALLIANCE, LLC",
-157241688,The Terminix International Company Partnership,"Terminix International Company Limited Partnership, The",TERMINIX INTERNATIONAL COMPANY,http://www.terminix.com
-610626798,Securityhunter,"SECURITYHUNTER, INC.","SECURITYHUNTER, INC.",
+157241688,The  Terminix International Company Partnership,"Terminix International Company Limited Partnership, The",TERMINIX INTERNATIONAL COMPANY,http://www.terminix.com
+610626798,Securityhunter,,"SECURITYHUNTER, INC.",
 615503877,Anchortex Corporation,ANCHORTEX CORPORATION,ANCHORTEX CORPORATION,http://www.anchortex.com
 5448584,Portionpac Chemical Corporation,Portionpac Chemical Corporation,PORTION-PAC CHEMICAL CORPORATI,http://www.portionpaccorp.com
 83847876,JWM Wholesale,"JWM WHOLESALE, INC.","JWM WHOLESALE, INC.",http://www.jwmwholesale.net
@@ -831,7 +831,7 @@ duns,cleanName,vendorName,origName,url
 879289254,Phoenix Trading,PHOENIX TRADING INC.,PHOENIX TRADING INC.,
 39723387,City of Philadelphia,"PHILADELPHIA, CITY OF","PHILADELPHIA, CITY OF",
 199077819,Merrimac Petroleum,"MERRIMAC PETROLEUM, INC.","MERRIMAC PETROLEUM, INC.",www.merrimacenergy.net
-125535182,The Cresston Company,"Cresston Company LLC, The","CRESSTON COMPANY LLC, THE",http://www.compasslanguages.com
+125535182,The  Cresston Company,"Cresston Company LLC, The","CRESSTON COMPANY LLC, THE",http://www.compasslanguages.com
 6154611,Ecolab,Ecolab Inc.,ECOLAB INC,
 17181079,Success Tech Management and Services,"Success Tech Management and Services, Inc.","SUCCESS TECH MANAGEMENT AND SERVICES, INC.",http://www.success-tech.com
 6301154,Swank Motion Pictures,"Swank Motion Pictures, Inc.","SWANK MOTION PICTURES, INC.",
@@ -841,10 +841,10 @@ duns,cleanName,vendorName,origName,url
 79587040,Premium Stationers,"PREMIUM STATIONERS, INC. ","PREMIUM STATIONERS, INC.",
 39494810,National Business Furniture,"NATIONAL BUSINESS FURNITURE, LLC","NATIONAL BUSINESS FURNITURE, LLC",http://WWW.NATIONALBUSINESSFURNITURE.COM
 797524352,"Carol Davis Reporting, Records & Video","CAROL DAVIS REPORTING, RECORDS & VIDEO, INC.","CAROL DAVIS REPORTING, RECORDS & VIDEO, INC.",
-128256950,The Professionals,"PROFESSIONALS, (THE), LLC","PROFESSIONALS, (THE), LLC",
+128256950,The  Professionals,"PROFESSIONALS, (THE), LLC","PROFESSIONALS, (THE), LLC",
 99376014,Prudential Overall Supply,PRUDENTIAL OVERALL SUPPLY,PRUDENTIAL OVERALL SUPPLY,
 23211535,Textron,TEXTRON INC.,TEXTRON INC.,
-784134470,County of Sherburne,"SHERBURNE, COUNTY OF (INC)","SHERBURNE, COUNTY OF (INC)",
+784134470,County of Sherburne,,"SHERBURNE, COUNTY OF (INC)",
 107910259,Noble Sales Co.,"Noble Sales Co., Inc.",NOBLE SALES CO INC,http://www.noblesupply.com
 1672120,National Industries for the Blind,National Industries For The Blind,NATIONAL INDUSTRIES FOR THE BLIND,
 184200785,Interior Facilities Design,INTERIOR FACILITIES DESIGN LLC,INTERIOR FACILITIES DESIGN LIMITED LIABILITY COMPANY,www.ifdllc.com
@@ -855,7 +855,7 @@ duns,cleanName,vendorName,origName,url
 606673937,Promaxima Manufacturing,"PROMAXIMA MANUFACTURING, LTD.","PROMAXIMA MANUFACTURING, LTD",
 26498019,A-1 Freeman Relocation Services,"A-1 FREEMAN RELOCATION SERVICES, INC.","A-1 FREEMAN RELOCATION SERVICES, INC.",
 787799667,ABM Parking Services,"ABM Parking Services, Inc. ","ABM PARKING SERVICES, INC.",www.abm.com
-161084421,TU,"TU, LLC","TU, LLC",
+161084421,Tu,"TU, LLC","TU, LLC",
 9853045,Lincoln Moving & Storage of Buffalo,"LINCOLN MOVING & STORAGE OF BUFFALO, INC.","LINCOLN MOVING & STORAGE OF BUFFALO, INC.",Lincolnmoving.com
 79812302,Ecology MIR Group,Ecology MIR Group LLC ,ECOLOGY MIR GROUP LLC,www.ecomirgroup.com
 98253771,TRS,TRS Inc. ,TRS INC.,http://www.shippingcontainers.com
@@ -866,19 +866,19 @@ duns,cleanName,vendorName,origName,url
 71550800,County of Sacramento,"Sacramento, County of","SACRAMENTO, COUNTY OF",
 80557824,X Brand Mattress,X Brand Mattress LLC,X BRAND MATTRESS LLC,
 153523022,Cisco-Eagle,"CISCO-EAGLE, INC.","CISCO-EAGLE, INC.",http://www.cisco-eagle.com
-152887261,Crescent Products,"CRESCENT PRODUCTS, INC.","CRESCENT PRODUCTS, INC.",
-969347496,Phoenix Supply,"PHOENIX SUPPLY, LLC","PHOENIX SUPPLY, LLC",
-844278684,DTM Corporation,DTM CORPORATION,DTM CORPORATION,
+152887261,Crescent Products,,"CRESCENT PRODUCTS, INC.",
+969347496,Phoenix Supply,,"PHOENIX SUPPLY, LLC",
+844278684,DTM Corporation,,DTM CORPORATION,
 926769431,Jenkins Security Consultants,"JENKINS SECURITY CONSULTANTS, INC.",JENKINS SECURITY CONSULTANTS INCORPORATED,www.jenkinssecurityconsultants.com
-191067664,ReconRobotics,"Reconrobotics, Inc.","RECONROBOTICS, INC.",http://www.reconrobotics.com
+191067664,Reconrobotics,"Reconrobotics, Inc.","RECONROBOTICS, INC.",http://www.reconrobotics.com
 134510648,Forfeiture Support Associates,"Forfeiture Support Associates, LLC","FORFEITURE SUPPORT ASSOCIATES, LLC",http://fsafederal.com/
 807380951,iRobot Corporation,iRobot Corporation ,IROBOT CORPORATION,http://www.irobot.com
 6126999,Pierce Manufacturing,"Pierce Manufacturing, Inc. ","PIERCE MANUFACTURING, INC.",
-97786441,Starside Security and Investigation,STARSIDE SECURITY AND INVESTIGATION INCORPORATED,STARSIDE SECURITY AND INVESTIGATION INCORPORATED,
-798247446,The Lioce Group,"LIOCE GROUP INC., THE","LIOCE GROUP INC., THE",https://www.liocegroup.com
+97786441,Starside Security and Investigation,,STARSIDE SECURITY AND INVESTIGATION INCORPORATED,
+798247446,The  Lioce Group,"LIOCE GROUP INC., THE","LIOCE GROUP INC., THE",https://www.liocegroup.com
 122559698,IMSolutions,IMSolutions LLC ,IMSOLUTIONS LLC,http://www.imsolutionsllc.com
 168091937,Breaching Technologies,"Breaching Technologies, Inc.","BREACHING TECHNOLOGIES, INC.",https://www.breachingtechnologies.com
-148076107,John M. Donoghue,"Donoghue, John M ","DONOGHUE, JOHN M",
+148076107,"Donoghue, John M","Donoghue, John M ","DONOGHUE, JOHN M",
 191665814,National Cyber-Forensics and Training Alliance.,NATIONAL CYBER-FORENSICS AND TRAINING ALLIANCE LIMITED.,NATIONAL CYBER-FORENSICS AND TRAINING ALLIANCE LIMITED.,www.ncfta.net
 32006470,Broadcast Microwave Services,"Broadcast Microwave Services, Inc","BROADCAST MICROWAVE SERVICES, INC.",http://www.bms-inc.com
 829063734,Abba Technologies,"Abba Technologies, Inc.",ABBA TECHNOLOGIES INC,http://www.abbatech.com
@@ -890,14 +890,14 @@ duns,cleanName,vendorName,origName,url
 622350184,F C I Tech,F C I Tech Inc. ,F C I TECH INC.,http://www.fcitech.com
 1742662,Immediate System Resources,"IMMEDIATE SYSTEM RESOURCES, INC","IMMEDIATE SYSTEM RESOURCES, INC",http://www.isrinc.com
 556915130,Ewing Electronics,"Ewing Electronics, Inc","EWING ELECTRONICS, INC.",http://ewinges.com
-103534595,The Janz Corporation,"JANZ CORPORATION, THE","JANZ CORPORATION, THE",www.janzcorporation.com
+103534595,The  Janz Corporation,"JANZ CORPORATION, THE","JANZ CORPORATION, THE",www.janzcorporation.com
 51237027,Fedstore Corporation,Fedstore Corporation ,FEDSTORE CORPORATION,HTTP://WWW.FEDSTORE.COM
 160759135,Alvarez,Alvarez LLC,"ALVAREZ & ASSOCIATES, LLC",http://www.alvarezit.com
 118052013,L3 Technologies,"L3 TECHNOLOGIES, INC.",L-3 COMMUNICATIONS CORPORATION,
 965669000,Applied Fundamentals Consulting,Applied Fundamentals Consulting LLC ,APPLIED FUNDAMENTALS CONSULTING LLC,www.appliedfundamentals.net
 23573108,Entech Sales and Service,"Entech Sales and Service, LLC","ENTECH SALES AND SERVICE, INC.",http://www.entechsales.com
 98696925,Marriott International,"MARRIOTT INTERNATIONAL, INC.","MARRIOTT INTERNATIONAL, INC.",http://www.marriott.com/hotels/travel/wascc-crystal-city-marriott-at-reagan-national-airport
-79209419,Volexity,"VOLEXITY, INC.","VOLEXITY, INC.",
+79209419,Volexity,,"VOLEXITY, INC.",
 79347168,ERAD Group,"ERAD Group, Inc.","ERAD GROUP, INC.",
 80333696,Obsidian Integration,OBSIDIAN INTEGRATION LLC,OBSIDIAN INTEGRATION LLC,obsidianintegration.com
 144763067,Lyme Computer Systems,"Lyme Computer Systems, Inc.","LYME COMPUTER SYSTEMS, INC.",http://www.lyme.com
@@ -912,9 +912,9 @@ duns,cleanName,vendorName,origName,url
 90012183,Diverse Staffing Services,"Diverse Staffing Services, Inc.","DIVERSE STAFFING SERVICES, INC.",http://www.diversegov.com
 943629535,Priority Courier,PRIORITY COURIER,PRIORITY COURIER,
 962685736,Time Warner Entertainment Company,"TIME WARNER ENTERTAINMENT COMPANY, L.P.","TIME WARNER ENTERTAINMENT COMPANY, L.P.",
-80688784,Jennifer Marquardt,"Marquardt, Jennifer","MARQUARDT, JENNIFER",
-838390933,Total Concept 360 Consulting,"TOTAL CONCEPT 360 CONSULTING, LLC","TOTAL CONCEPT 360 CONSULTING, LLC",
-36279193,AEEC,"AEEC, LLC","AEEC, LLC",http://www.americanconsultants.com
+80688784,"Marquardt, Jennifer","Marquardt, Jennifer","MARQUARDT, JENNIFER",
+838390933,Total Concept 360 Consulting,,"TOTAL CONCEPT 360 CONSULTING, LLC",
+36279193,Aeec,"AEEC, LLC","AEEC, LLC",http://www.americanconsultants.com
 114129591,Out & Equal Workplace Advocates,OUT & EQUAL WORKPLACE ADVOCATES,OUT & EQUAL WORKPLACE ADVOCATES,http://www.outandequal.org
 933766441,Silas Frazier Realty,SILAS FRAZIER REALTY LLC,SILAS FRAZIER REALTY LLC,http://www.silasfrazierrealty.com/
 60704830,Owyhee Group Companies,OWYHEE GROUP COMPANIES,OWYHEE CAPITAL CORP,http://www.initial-attack.com
@@ -927,16 +927,16 @@ duns,cleanName,vendorName,origName,url
 167525638,Zee Technologies,"Zee Technologies, Inc.","ZEE TECHNOLOGIES, INC.",www.zeetechnologies.com
 6173082,3M Company,3M Company,3M COMPANY (7775),
 948928270,Government Contract Solutions,Government Contract Solutions Inc,GOVERNMENT CONTRACT SOLUTIONS INC,http://www.gcsinfo.com
-122071905,4Imprint,"4IMPRINT, INC.","4IMPRINT, INC.",http://www.4imprint.com
+122071905,4imprint,"4IMPRINT, INC.","4IMPRINT, INC.",http://www.4imprint.com
 90599171,Signature Technology Solutions,"Signature Technology Solutions, Inc.","SIGNATURE TECHNOLOGY SOLUTIONS, INC.",http://www.signature-tech.com
 67641597,General Dynamics Information Technology,"GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",ANTEON CORPORATION,http://www.gdit.com
 135726185,Barling Bay,"Barling Bay, LLC",BARLING BAY LLC,www.barlingbay.com
 125744040,Evigilant.com,Evigilant.com Incorporated ,EVIGILANT.COM INCORPORATED,http://www.evigilant.com
-148025380,JSI Telecom,JSI TELECOM INC.,JSI TELECOM INC.,
+148025380,Jsi Telecom,,JSI TELECOM INC.,
 78577552,Indev,"Indev, LLC",INDEV,
-966572682,Green IT Systems Group,GREEN IT SYSTEMS GROUP,GREEN IT SYSTEMS GROUP,
+966572682,Green It Systems Group,,GREEN IT SYSTEMS GROUP,
 124023404,Excella Consulting,"Excella Consulting, Inc.",EXCELLA CONSULTING INCORPORATED,http://www.excella.com
-79254474,Hubstream,"HUBSTREAM, INC","HUBSTREAM, INC",
+79254474,Hubstream,,"HUBSTREAM, INC",
 70939304,Child Rescue Coalition,"CHILD RESCUE COALITION, INC.","CHILD RESCUE COALITION, INC.",https://childrescuecoalition.org
 84567473,Visual Systems Group,"VISUAL SYSTEMS GROUP, INC.","VISUAL SYSTEMS GROUP, INC.",http://www.vsgi.com
 136815235,EClinicalworks,"EClinicalworks, LLC","ECLINICALWORKS, LLC",www.eclinicalworks.com
@@ -945,7 +945,7 @@ duns,cleanName,vendorName,origName,url
 63134175,Environmental Systems Research Institute,"Environmental Systems Research Institute, Inc. ","ENVIRONMENTAL SYSTEMS RESEARCH INSTITUTE, INC.",http://www.esri.com
 40928496,USA21,"US 21, Inc. ","US 21, INC.",http://www.us21.com
 11182784,IMPRES Technology Solutions,"IMPRES Technology Solutions, Inc. ","IMPRES TECHNOLOGY SOLUTIONS, INC.",http://www.imprestechnology.com
-830952458,Valdata Telecom,VALDATA TELECOM,VALDATA TELECOM,
+830952458,Valdata Telecom,,VALDATA TELECOM,
 4946075,Digital Receiver Technology,"Digital Receiver Technology, Inc.","DIGITAL RECEIVER TECHNOLOGY, INC.",https://www.drti.com/
 108319633,D’tel Communications,"D'tel Communications, Inc","D'TEL COMMUNICATIONS, INC",
 123922788,Government Marketing and Procurement,Government Marketing and Procurement LLC ,GOVERNMENT MARKETING AND PROCU,www.gmpgov.com
@@ -962,7 +962,7 @@ duns,cleanName,vendorName,origName,url
 968185491,Comcast Business Communications,"Comcast Business Communications, LLC","COMCAST BUSINESS COMMUNICATIONS, LLC",
 80509660,Entco Government Software,Entco Government Software LLC,ENTCO GOVERNMENT SOFTWARE LLC,https://www.microfocus.com/government-solutions/
 879059400,American Security Programs,"American Security Programs, Inc ","AMERICAN SECURITY PROGRAMS, IN",http://www.securityprograms.com
-1774090,NYP,NYP CORP.,NYP CORP,https://nyp-corp.com/
+1774090,Nyp,NYP CORP.,NYP CORP,https://nyp-corp.com/
 38006110,Eaton Corporation,Eaton Corporation,EATON CORPORATION,http://www.eaton.com
 941326894,Access Distributors,"Access Distributors, Inc.","ACCESS DISTRIBUTORS, INC",http://www.accessdistributors.com
 159987093,Systec Group,SYSTEC GROUP LLC,SYSTEC GROUP LLC,
@@ -974,7 +974,7 @@ duns,cleanName,vendorName,origName,url
 77176477,Babco International,"Babco International, Inc. ","BABCO INTERNATIONAL, INC.",HTTP://WWW.BABCOTUCSON.COM
 3210408,Silent Guard Systems,SILENT GUARD SYSTEMS INC,SILENT GUARD SYSTEMS INC,http://www.silentguardsystems.com
 76881627,Buckstaff Public Safety,"BUCKSTAFF PUBLIC SAFETY, INC.",BUCKSTAFF PUBLIC SAFETY INCORPORATED,http://www.handcuffwarehouse.com
-14654966,CAPP,"CAPP, INC.","CAPP, INC.",http://www.cappusa.com
+14654966,Capp,"CAPP, INC.","CAPP, INC.",http://www.cappusa.com
 790889711,Complete Packaging & Shipping Supplies,COMPLETE PACKAGING & SHIPPING SUPPLIES INC.,COMPLETE PACKAGING & SHIPPING,http://www.completesupplyusa.com
 942173550,Ellison Systems,Ellison Systems Inc. ,ELLISON SYSTEMS INCORPORATED,http://www.shoplet.com
 807941625,SEVA Technical Services,"SEVA Technical Services, Inc.","SEVA TECHNICAL SERVICES, INC.",https://www.sevatechnical.com
@@ -990,7 +990,7 @@ duns,cleanName,vendorName,origName,url
 3219862,Industries of the Blind,"Industries of The Blind, Incorporated","INDUSTRIES OF THE BLIND, INCORPORATED",http://www.industriesoftheblind.com
 7156409,Alphapointe,Alphapointe ,ALPHAPOINTE,http://www.alphapointe.org
 78665809,Treasure Electronics,TREASURE ELECTRONICS INC,TREASURE ELECTRONICS INC,http://www.securitydetection.com
-64103047,Shiffler Equipment Sales,"SHIFFLER EQUIPMENT SALES, INC.","SHIFFLER EQUIPMENT SALES, INC.",
+64103047,Shiffler Equipment Sales,,"SHIFFLER EQUIPMENT SALES, INC.",
 118280150,Middle Georgia Diversified Industries,Middle Georgia Diversified Industries Inc,MIDDLE GEORGIA DIVERSIFIED INDUSTRIES INC,
 808233274,Goaltex,GOALTEX CORP,GOALTEX CORP,http://www.goaltex.com
 932683121,Computech International,"COMPUTECH INTERNATIONAL, INC.","COMPUTECH INTERNATIONAL, INC.",http://www.cti-intl.com
@@ -999,7 +999,7 @@ duns,cleanName,vendorName,origName,url
 79832637,Global Infinity Enterprise,GLOBAL INFINITY ENTERPRISE LIMITED LIABILITY COMPANY ,GLOBAL INFINITY ENTERPRISE LIMITED LIABILITY COMPANY,http://www.giellc.com
 198749777,Selex ES,Selex ES Inc. ,SELEX ES INC.,http://www.us.selex-es.com/
 51266187,Brantley Bros Moving & Stor Co,BRANTLEY BROS MOVING & STOR CO,BRANTLEY BROS MOVING & STOR CO,
-76524429,KP Electronics,KP ELECTRONICS LLC,KP ELECTRONICS LLC,
+76524429,Kp Electronics,KP ELECTRONICS LLC,KP ELECTRONICS LLC,
 103280830,Canal Alarm Devices,"Canal Alarm Devices, Inc. ","CANAL ALARM DEVICES, INC.",http://www.canalalarm.com
 42395868,EcoVantage Energy,EcoVantage Energy Inc.,"ECOVANTAGE ENERGY, INC.",http://www.EcoVantageEnergy.com
 79186185,North Central Sight Services,"NORTH CENTRAL SIGHT SERVICES, INC.","NORTH CENTRAL SIGHT SERVICES, INC.",http://www.ncsight.org
@@ -1011,10 +1011,10 @@ duns,cleanName,vendorName,origName,url
 965068661,Botach,Botach Inc.,BOTACH TACTICAL,http://www.botach.com
 52927001,Optim,OPTIM LLC,OPTIM INC,http://www.optim-llc.com
 786094003,17th St. Photo Supply,"17th St. Photo Supply, Inc.",17TH STREET PHOTO SUPPLY INCORPORATED,https://www.17photo.com
-90031253,The Viking Corporation,"VIKING CORPORATION, THE","VIKING CORPORATION, THE",
+90031253,The  Viking Corporation,"VIKING CORPORATION, THE","VIKING CORPORATION, THE",
 967796173,Sis Global Solutions,"SIS GLOBAL SOLUTIONS, LLC","SIS GLOBAL SOLUTIONS, LLC",
 833045243,Time Warner Cable Information Services (hawaii),"TIME WARNER CABLE INFORMATION SERVICES (HAWAII), LLC","TIME WARNER CABLE INFORMATION SERVICES (HAWAII), LLC",
-827110136,The KeyW Corporation,"KeyW Corporation, The","KEYW CORPORATION, THE",http://www.keywcorp.com
+827110136,The  KeyW Corporation,"KeyW Corporation, The","KEYW CORPORATION, THE",http://www.keywcorp.com
 88603548,Six Continents Hotels,"SIX CONTINENTS HOTELS, INC","SIX CONTINENTS HOTELS, INC",
 948828236,National Hospitality Management,NATIONAL HOSPITALITY MANAGEMENT,NATIONAL HOSPITALITY MANAGEMENT,
 208142526,Sendum Wireless Corporation,Sendum Wireless Corporation,SENDUM WIRELESS CORPORATION,www.sendum.com
@@ -1044,25 +1044,25 @@ duns,cleanName,vendorName,origName,url
 51749415,Specialty Cartridge,"SPECIALTY CARTRIDGE, INC. ","SPECIALTY CARTRIDGE, INC.",http://www.atlantaarms.com
 556308158,Jacques Catering of NY,Jacques Catering Of NY Inc,JACQUES CATERING OF NY INC,www.jacquescatering.com
 178480146,National September 11 Memorial and Museum at the World Trade Center Foundation,"National September 11 Memorial And Museum At The World Trade Center Foundation, Inc. ","NATIONAL SEPTEMBER 11 MEMORIAL AND MUSEUM AT THE WORLD TRADE CENTER FOUNDATION, INC.",http://www.911memorial.org/
-99430634,Meristar Pentagon City,"MERISTAR PENTAGON CITY, LLC","MERISTAR PENTAGON CITY, LLC",
+99430634,Meristar Pentagon City,,"MERISTAR PENTAGON CITY, LLC",
 90161188,Safariland,"Safariland, LLC","SAFARILAND, LLC",http://www.safariland.com
 45776796,Leupold & Stevens,"LEUPOLD & STEVENS, INC.","LEUPOLD & STEVENS, INC.",www.leupold.com
 832503622,PrinTree,PrinTree LLC,PRINTREE LLC,http://www.printreemps.com
 192942972,Cloudburst Technologies,Cloudburst Technologies LLC ,CLOUDBURST TECHNOLOGIES LLC,http://www.cloudbursttecnologies.com
 181272209,Enforcement Technology Group,ENFORCEMENT TECHNOLOGY GROUP INC,ENFORCEMENT TECHNOLOGY GROUP INCORPORATED,http://www.etgi.us
 166994863,Computer Projects of Illinois,"Computer Projects of Illinois, Inc.","COMPUTER PROJECTS OF ILLINOIS, INC.",http://www.openfox.com
-175204163,FAAC,FAAC INCORPORATED,FAAC INCORPORATED,http://www.faac.com
+175204163,Faac,FAAC INCORPORATED,FAAC INCORPORATED,http://www.faac.com
 868095969,Logicube,"LOGICUBE, INC",LOGICUBE CORPORATION,http://www.logicube.com
 830363177,Federal Defense Solutions,"FEDERAL DEFENSE SOLUTIONS, INC.","FEDERAL DEFENSE SOLUTIONS, INC.",http://www.feddef.com
 120840798,TwentyEighty Strategy Execution,"TwentyEighty Strategy Execution, Inc.","TWENTYEIGHTY STRATEGY EXECUTION, INC.",http://www.strategyex.com
 75961300,Cannon IV,"Cannon IV, LLC","CANNON IV, INC.",http://www.cannon4.com
-831301762,MSAB,MSAB Incorporated ,MSAB INCORPORATED,www.msab.com
+831301762,Msab,MSAB Incorporated ,MSAB INCORPORATED,www.msab.com
 144376696,Pacific Datacom Systems,Pacific Datacom Systems Inc. ,PACIFIC DATACOM SYSTEMS INC.,http://www.pacdatacom.com
 33638016,Alexander Electric Co.,Alexander Electric Co.,ALEXANDER ELECTRIC CO.,http://alexander-electric.com
 787800114,General Dynamics Mission Systems,"General Dynamics Mission Systems, Inc","GENERAL DYNAMICS MISSION SYSTEMS, INC",http://gdmissionsystems.com
 157597522,Integrated Exhibits,INTEGRATED EXHIBITS INC,INTEGRATED EXHIBITS INC,www.integratedexhibits.com
 949171268,Recall Technologies,"Recall Technologies, Inc.","RECALL TECHNOLOGIES, INC.",http://WWW.RECALLTECH.COM
-137200726,CJEN,CJEN INC.,CJEN INC.,http://www.c-jen.com/
+137200726,Cjen,CJEN INC.,CJEN INC.,http://www.c-jen.com/
 65717948,Delitor,DELITOR INC,DELITOR INC,www.delitor.com
 780519752,Foster Products,"FOSTER PRODUCTS, INC.","FOSTER PRODUCTS, INC.",
 790637545,Marden Electric,Marden Electric L.L.C.,MARDEN ELECTRIC L.L.C.,
@@ -1073,98 +1073,98 @@ duns,cleanName,vendorName,origName,url
 88605787,Club Car,"Club Car, LLC","CLUB CAR, LLC",http://www.clubcar.com
 139137983,Jack Knelly’s Office Furniture Specialties,"JACK KNELLY'S OFFICE FURNITURE SPECIALTIES, INC.","JACK KNELLY'S OFFICE FURNITURE SPECIALTIES, INC.",http://www.jackknellysofficefurniture.com
 965431047,Wabana Group,WABANA GROUP LLC ,WABANA GROUP LLC,
-844960232,Varner Miller Associates,VARNER MILLER ASSOCIATES,VARNER MILLER ASSOCIATES,
+844960232,Varner Miller Associates,,VARNER MILLER ASSOCIATES,
 151288037,BRMi CONSULTING,"BRMi CONSULTING, INC.","BATTLE RESOURCE MANAGEMENT, INC.",http://www.brmi.com
 176091424,Shred-It USA,SHRED-IT USA LLC,SHRED-IT USA INC.,
 961404241,Universal Language Corporation,UNIVERSAL LANGUAGE CORPORATION,UNIVERSAL LANGUAGE CORPORATION,http://www.unilangcorp.org/
 82894929,M-Pak,"M-PAK, INC.","M-PAK, INC.",http://www.m-pakinc.com
 602938771,Peraton,Peraton Inc.,HARRIS IT SERVICES CORPORATION,www.peraton.com
-737341631,G4S Secure Solutions USA,G4S SECURE SOLUTIONS (USA) INC,G4S SECURE SOLUTIONS (USA) INC,
-14127109,Deloitte Consulting,DELOITTE CONSULTING LLP,DELOITTE CONSULTING LLP,
-382014330,Capgemini Government Solutions,CAPGEMINI GOVERNMENT SOLUTIONS LLC,CAPGEMINI GOVERNMENT SOLUTIONS LLC,
+737341631,G4s Secure Solutions USA,,G4S SECURE SOLUTIONS (USA) INC,
+14127109,Deloitte Consulting,,DELOITTE CONSULTING LLP,
+382014330,Capgemini Government Solutions,,CAPGEMINI GOVERNMENT SOLUTIONS LLC,
 69586055,Ahtna,"Ahtna, Incorporated","AHTNA SUPPORT AND TRAINING SERVICES, LLC",http://ahtna-inc.com/
-210244596,Relx,RELX INC.,RELX INC.,
-236960576,Luxfer Magtech,"LUXFER MAGTECH, INC.","LUXFER MAGTECH, INC.",
+210244596,Relx,,RELX INC.,
+236960576,Luxfer Magtech,,"LUXFER MAGTECH, INC.",
 940825334,Contract Furnishings,"Contract Furnishings, Inc.","CONTRACT FURNISHINGS, INC.",http://www.contractfurnishings.com
-42630900,National Business Furniture,"NATIONAL BUSINESS FURNITURE, LLC","NATIONAL BUSINESS FURNITURE, LLC",
-79253761,Akima Global Services,"AKIMA GLOBAL SERVICES, LLC","AKIMA GLOBAL SERVICES, LLC",
-230792756,Relx,RELX INC.,RELX INC.,
-1307636,Life Fitness,"LIFE FITNESS, INC.","LIFE FITNESS, INC.",
-161906193,Federal Prison Industries,FEDERAL PRISON INDUSTRIES INC,FEDERAL PRISON INDUSTRIES INC,
-251100749,West Publishing Corporation,WEST PUBLISHING CORPORATION,WEST PUBLISHING CORPORATION,
-80408824,Marcon International,"MARCON INTERNATIONAL, INC.","MARCON INTERNATIONAL, INC.",
-985594574,Johnson Controls,"JOHNSON CONTROLS, INC.","JOHNSON CONTROLS, INC.",
+42630900,National Business Furniture,,"NATIONAL BUSINESS FURNITURE, LLC",
+79253761,Akima Global Services,,"AKIMA GLOBAL SERVICES, LLC",
+230792756,Relx,,RELX INC.,
+1307636,Life Fitness,,"LIFE FITNESS, INC.",
+161906193,Federal Prison Industries,,FEDERAL PRISON INDUSTRIES INC,
+251100749,West Publishing Corporation,,WEST PUBLISHING CORPORATION,
+80408824,Marcon International,,"MARCON INTERNATIONAL, INC.",
+985594574,Johnson Controls,,"JOHNSON CONTROLS, INC.",
 8898884,L3 Technologies,"L3 Technologies, Inc.",L-3 COMMUNICATIONS CORPORATION,http://www.L3T.com
 9657602,County of Orange,"Orange, County Of",COUNTY OF ORANGE,http://www.ocgov.com
 69118289,County of Santa Clara,"Santa Clara, County Of ","SANTA CLARA, COUNTY OF",
 3773603,Casey & Hayes,"Casey & Hayes, Inc. ","BREDE-WASHINGTON, INC.",
-3459047,Executive Office of the State of North Carolina,EXECUTIVE OFFICE OF THE STATE OF NORTH CAROLINA,EXECUTIVE OFFICE OF THE STATE OF NORTH CAROLINA,
+3459047,Executive Office of the State of North Carolina,,EXECUTIVE OFFICE OF THE STATE OF NORTH CAROLINA,
 97220180,Gartner,"GARTNER, INC.","PERSONNEL DECISIONS RESEARCH INSTITUTES, INC",http://WWW.GARTNER.COM
-966133477,Omniplex World Services,OMNIPLEX WORLD SERVICES CORP,OMNIPLEX WORLD SERVICES CORP,
-160610809,Kroll Government Services,KROLL GOVERNMENT SERVICES,KROLL GOVERNMENT SERVICES,
+966133477,Omniplex World Services,,OMNIPLEX WORLD SERVICES CORP,
+160610809,Kroll Government Services,,KROLL GOVERNMENT SERVICES,
 962701632,Innoviss,"INNOVISS, INC.",MANTECH M S M SECURITY SERVICE,http://www.innoviss.com
-80011988,CSRA,CSRA LLC,CSRA LLC,
-690557624,Kyocera Document Solutions America,"KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.","KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.",
-611639688,DTC Communications,"DTC COMMUNICATIONS, INC.","DTC COMMUNICATIONS, INC.",
-80234851,Dollar Thrifty Automotive Group,"DOLLAR THRIFTY AUTOMOTIVE GROUP, INC.","DOLLAR THRIFTY AUTOMOTIVE GROUP, INC.",
-690552815,Konica Minolta Business Solutions USA.,"KONICA MINOLTA BUSINESS SOLUTIONS U.S.A., INC.","KONICA MINOLTA BUSINESS SOLUTIONS U.S.A., INC.",
+80011988,CSRA,,CSRA LLC,
+690557624,Kyocera Document Solutions America,,"KYOCERA DOCUMENT SOLUTIONS AMERICA, INC.",
+611639688,DTC Communications,,"DTC COMMUNICATIONS, INC.",
+80234851,Dollar Thrifty Automotive Group,,"DOLLAR THRIFTY AUTOMOTIVE GROUP, INC.",
+690552815,Konica Minolta Business Solutions USA.,,"KONICA MINOLTA BUSINESS SOLUTIONS U.S.A., INC.",
 79481120,Equus Holdings,"Equus Holdings, Inc",RIMAGE CORPORATION,http://www.eqh.com/
 1408673,Thermo Electron Corporation,THERMO ELECTRON CORPORATION,AHURA SCIENTIFIC INC.,
 49591852,Xerox Corporation,Xerox Corporation,XEROX CORPORATION,
 690549118,Ricoh Company,"RICOH COMPANY,LTD.","RICOH USA, INC.",
-690549662,Canon USA.,"CANON U.S.A., INC.","CANON U.S.A., INC.",
-41002973,New York State Department of Motor Vehicles,"MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF","MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF",
-78411793,Comprehensive Health Services,"COMPREHENSIVE HEALTH SERVICES, INC.","COMPREHENSIVE HEALTH SERVICES, INC.",
-150776503,Time Warner Cable Enterprises,TIME WARNER CABLE ENTERPRISES LLC,TIME WARNER CABLE ENTERPRISES LLC,
-7978117,Government Training Institute,"GOVERNMENT TRAINING INSTITUTE, INC.","GOVERNMENT TRAINING INSTITUTE, INC.",
-3133790,Virginia Polytechnic Institute & State University,VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY,VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY,
-90588914,Unlimited Storage,UNLIMITED STORAGE INC,UNLIMITED STORAGE INC,
+690549662,Canon USA.,,"CANON U.S.A., INC.",
+41002973,New York State Department of Motor Vehicles,,"MOTOR VEHICLES, NEW YORK STATE DEPARTMENT OF",
+78411793,Comprehensive Health Services,,"COMPREHENSIVE HEALTH SERVICES, INC.",
+150776503,Time Warner Cable Enterprises,,TIME WARNER CABLE ENTERPRISES LLC,
+7978117,Government Training Institute,,"GOVERNMENT TRAINING INSTITUTE, INC.",
+3133790,Virginia Polytechnic Institute & State University,,VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY,
+90588914,Unlimited Storage,,UNLIMITED STORAGE INC,
 58369562,Ernst & Young,Ernst & Young LLP,ERNST & YOUNG LLP,http://www.ey.com
-627071103,Point Blank Enterprises,"POINT BLANK ENTERPRISES, INC.","POINT BLANK ENTERPRISES, INC.",
-248503187,Guidance Software,"GUIDANCE SOFTWARE, INC.","GUIDANCE SOFTWARE, INC.",
-4203337,Harris Corporation,HARRIS CORPORATION,HARRIS CORPORATION,
-884745530,Amazon.com,AMAZON.COM LLC,AMAZON.COM LLC,
-78857127,Atlantic Diving Supply,"ATLANTIC DIVING SUPPLY, INC.","ATLANTIC DIVING SUPPLY, INC.",
-148301935,Spot,SPOT LLC,SPOT LLC,
-65320400,Crime Information Center Arkansas,CRIME INFORMATION CENTER ARKANSAS,CRIME INFORMATION CENTER ARKANSAS,
-408140007,Marquis Consulting Services,"MARQUIS CONSULTING SERVICES, INC.","MARQUIS CONSULTING SERVICES, INC.",
-808068253,CDW Government,CDW GOVERNMENT LLC,CDW GOVERNMENT LLC,
-533518072,Advanced Defense Technologies,ADVANCED DEFENSE TECHNOLOGIES INC.,ADVANCED DEFENSE TECHNOLOGIES INC.,
+627071103,Point Blank Enterprises,,"POINT BLANK ENTERPRISES, INC.",
+248503187,Guidance Software,,"GUIDANCE SOFTWARE, INC.",
+4203337,Harris Corporation,,HARRIS CORPORATION,
+884745530,Amazon.com,,AMAZON.COM LLC,
+78857127,Atlantic Diving Supply,,"ATLANTIC DIVING SUPPLY, INC.",
+148301935,Spot,,SPOT LLC,
+65320400,Crime Information Center Arkansas,,CRIME INFORMATION CENTER ARKANSAS,
+408140007,Marquis Consulting Services,,"MARQUIS CONSULTING SERVICES, INC.",
+808068253,CDW Government,,CDW GOVERNMENT LLC,
+533518072,Advanced Defense Technologies,,ADVANCED DEFENSE TECHNOLOGIES INC.,
 79728394,Vista Outdoor,Vista Outdoor Inc.,VISTA OUTDOOR SALES LLC,www.vistaoutdoor.com
-347201258,Grant Thornton,GRANT THORNTON LLP,GRANT THORNTON LLP,
-2344208,Vf Imagewear,"VF IMAGEWEAR, INC.","VF IMAGEWEAR, INC.",
+347201258,Grant Thornton,,GRANT THORNTON LLP,
+2344208,Vf Imagewear,,"VF IMAGEWEAR, INC.",
 622692994,Chenega Corporation,CHENEGA CORPORATION,"CHENEGA FACILITIES MANAGEMENT, LLC",http://www.chenega.com
-3141970,Federal Express Corporation,FEDERAL EXPRESS CORPORATION,FEDERAL EXPRESS CORPORATION,
+3141970,Federal Express Corporation,,FEDERAL EXPRESS CORPORATION,
 6991681,United Parcel Service,"UNITED PARCEL SERVICE, INC.",UNITED PARCEL SERVICE CO.,
 943392522,K’oyitl’ots’ina,K'OYITL'OTS'INA LIMITED,"KCORP SUPPORT SERVICES, INC.",
 82193277,Pelican Products,"PELICAN PRODUCTS, INC.","HARDIGG INDUSTRIES, INC.",http://www.pelican.com
-298452707,Serco Services,SERCO SERVICES INC.,SERCO SERVICES INC.,
-14784388,Remington Arms Company,"REMINGTON ARMS COMPANY, LLC","REMINGTON ARMS COMPANY, LLC",
-20256798,Ars Aleut Construction,"ARS ALEUT CONSTRUCTION, LLC","ARS ALEUT CONSTRUCTION, LLC",
-71088637,Vermont State Colleges,VERMONT STATE COLLEGES,VERMONT STATE COLLEGES,
+298452707,Serco Services,,SERCO SERVICES INC.,
+14784388,Remington Arms Company,,"REMINGTON ARMS COMPANY, LLC",
+20256798,Ars Aleut Construction,,"ARS ALEUT CONSTRUCTION, LLC",
+71088637,Vermont State Colleges,,VERMONT STATE COLLEGES,
 6552483,Demco,"Demco, Inc.","GAYLORD BROS., INC.",http://www.demco.com
 824878086,Atrium Hotels,"Atrium Hotels, L.P. ",TUCSON HOTELS LP,http://www.holidayinn.com/h/d/hi/1/en/hotel/sgfno
-601839660,Dell Federal Systems,DELL FEDERAL SYSTEMS L.P.,DELL FEDERAL SYSTEMS L.P.,
-78570513,GTSI,GTSI CORP.,GTSI CORP.,
+601839660,Dell Federal Systems,,DELL FEDERAL SYSTEMS L.P.,
+78570513,GTSI,,GTSI CORP.,
 49159957,Arrow Electronics,"Arrow Electronics, Inc. ","IMMIXTECHNOLOGY, INC.",
-710060653,Fronteo Government Services,"FRONTEO GOVERNMENT SERVICES, INC.","FRONTEO GOVERNMENT SERVICES, INC.",
+710060653,Fronteo Government Services,,"FRONTEO GOVERNMENT SERVICES, INC.",
 79720068,DLT Mergerco,DLT Mergerco LLC ,"DLT SOLUTIONS, LLC",www.dlt.com
-808284181,Avaya Federal Solutions,"AVAYA FEDERAL SOLUTIONS, INC.","AVAYA FEDERAL SOLUTIONS, INC.",
+808284181,Avaya Federal Solutions,,"AVAYA FEDERAL SOLUTIONS, INC.",
 876868563,Westwind Computer Products,"Westwind Computer Products, Inc.",WESTWIND TEAM LLP,https://www.WWCPinc.com
-784964426,Hawaiian Telcom Services Company,"HAWAIIAN TELCOM SERVICES COMPANY, INC","HAWAIIAN TELCOM SERVICES COMPANY, INC",
-690536925,Sharp Electronics Corporation,SHARP ELECTRONICS CORPORATION,SHARP ELECTRONICS CORPORATION,
+784964426,Hawaiian Telcom Services Company,,"HAWAIIAN TELCOM SERVICES COMPANY, INC",
+690536925,Sharp Electronics Corporation,,SHARP ELECTRONICS CORPORATION,
 68678788,DLH Holdings,DLH Holdings Corp.,DANYA INTERNATIONAL LLC,
 964725688,Booz Allen Hamilton Holding Corporation,Booz Allen Hamilton Holding Corporation,BOOZ ALLEN HAMILTON INCORPORATED (3626),HTTP://BOOZALLEN.COM
-80198742,Fleet Management Solutions,"FLEET MANAGEMENT SOLUTIONS, INC.","FLEET MANAGEMENT SOLUTIONS, INC.",
-1673920,McKinsey & Company,"MCKINSEY & COMPANY, INC. WASHINGTON D.C.","MCKINSEY & COMPANY, INC. WASHINGTON D.C.",
+80198742,Fleet Management Solutions,,"FLEET MANAGEMENT SOLUTIONS, INC.",
+1673920,"Mckinsey & Company, Inc. Washington D.c.",,"MCKINSEY & COMPANY, INC. WASHINGTON D.C.",
 1969443,State of Maryland,"Maryland, State of","PUBLIC SAFETY & CORRECTIONAL SERVICES, MARYLAND DEPT OF",
 73370843,San Diego Association of Governments,SAN DIEGO ASSOCIATION OF GOVERNMENTS,SAN DIEGO ASSOCIATION OF GOVERNMENTS,
-791072197,Aramark Uniform & Career Apparel,"ARAMARK UNIFORM & CAREER APPAREL, LLC","ARAMARK UNIFORM & CAREER APPAREL, LLC",
+791072197,Aramark Uniform & Career Apparel,,"ARAMARK UNIFORM & CAREER APPAREL, LLC",
 52089695,Afognak Native Corporation,Afognak Native Corporation,"ALUTIIQ DIVERSIFIED SERVICES, LLC",
-2537595,Texas Commission on Environmental Quality,"ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON","ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON",
+2537595,"Environmental Quality, Texas Commission on",,"ENVIRONMENTAL QUALITY, TEXAS COMMISSION ON",
 1863794,Pricewaterhousecoopers,PRICEWATERHOUSECOOPERS LLP,PRICEWATERHOUSECOOPERS PUBLIC SECTOR LLP,
 19723535,UniFirst Corporation,UniFirst Corporation,UNIFIRST CORPORATION,
-40179749,County of Bonner,"BONNER, COUNTY OF","BONNER, COUNTY OF",
+40179749,County of Bonner,,"BONNER, COUNTY OF",
 60052750,County of Latah,"LATAH, COUNTY OF","LATAH, COUNTY OF",www.latah.id.us
 861422434,Laboratory Corporation of America Holdings,LABORATORY CORPORATION OF AMERICA HOLDINGS,LABORATORY CORPORATION OF AMERICA,
 68034438,Town of Islip,"ISLIP, TOWN OF","ISLIP, TOWN OF",
@@ -1172,127 +1172,127 @@ duns,cleanName,vendorName,origName,url
 75295832,City of Long Beach,"LONG BEACH, CITY OF","LONG BEACH, CITY OF",HTTP://WWW.LONGBEACH.GOV
 63811350,County of Kern,COUNTY OF KERN,"KERN, COUNTY OF",www.co.kern.ca.us
 4534830,State of Connecticut,"CONNECTICUT, STATE OF",DEPARTMENT OF EMERGENCY SERVICES AND PUBLIC PROTECTION,http://www.ct.gov
-824891477,Lionbridge Global Solutions Ii,"LIONBRIDGE GLOBAL SOLUTIONS II, INC.","LIONBRIDGE GLOBAL SOLUTIONS II, INC.",
+824891477,Lionbridge Global Solutions Ii,,"LIONBRIDGE GLOBAL SOLUTIONS II, INC.",
 68668805,HDR,"HDR, Inc.","HDR ENVIRONMENTAL, OPERATIONS AND CONSTRUCTION, INC.",http://www.hdrinc.com
 143630502,NC4,NC4 Inc.,NC4 PUBLIC SECTOR LIMITED LIABILITY COMPANY,http://www.nc4.com
-1325463,Motorola,MOTOROLA INCORPORATED,MOTOROLA INCORPORATED,
-806785247,Visionary Integration Professionals,VISIONARY INTEGRATION PROFESSIONALS LLC,VISIONARY INTEGRATION PROFESSIONALS LLC,
+1325463,Motorola,,MOTOROLA INCORPORATED,
+806785247,Visionary Integration Professionals,,VISIONARY INTEGRATION PROFESSIONALS LLC,
 1381284,General Dynamics Corporation,GENERAL DYNAMICS CORPORATION,SYSTEMS RESEARCH AND APPLICATIONS CORPORATION,
 611641312,Leidos Holdings,"Leidos Holdings, Inc.","LEIDOS, INC.",http://www.leidos.com
-812417640,Aerostar Airport Holdings,"AEROSTAR AIRPORT HOLDINGS, LLC","AEROSTAR AIRPORT HOLDINGS, LLC",
-54698428,Michigan Department of State Police,"STATE POLICE, MICHIGAN DEPARTMENT OF","STATE POLICE, MICHIGAN DEPARTMENT OF",
-73299026,City of New York,"NEW YORK, CITY OF","NEW YORK, CITY OF",
+812417640,Aerostar Airport Holdings,,"AEROSTAR AIRPORT HOLDINGS, LLC",
+54698428,Michigan Department of State Police,,"STATE POLICE, MICHIGAN DEPARTMENT OF",
+73299026,City of New York,,"NEW YORK, CITY OF",
 73354573,County of Imperial,"Imperial, County of","IMPERIAL, COUNTY (INC)",
 79414138,CBX Holding,"CBX Holding, LLC ",COLD BOX EXPRESS LLC,
-55947485,City of Orlando,"ORLANDO, CITY OF","ORLANDO, CITY OF",
+55947485,City of Orlando,,"ORLANDO, CITY OF",
 69672137,County of Hillsborough,"Hillsborough, County of","HILLSBOROUGH, COUNTY OF",http://www.hillsboroughcounty.org
-80483434,Feeney Wireless,"FEENEY WIRELESS, LLC","FEENEY WIRELESS, LLC",
-111023727,Feeney Wireless,"FEENEY WIRELESS, LLC","FEENEY WIRELESS, LLC",
-808245794,University of Alabama at Birmingham,UNIVERSITY OF ALABAMA AT BIRMINGHAM,UNIVERSITY OF ALABAMA AT BIRMINGHAM,
-884114609,Dun & Bradstreet,"DUN & BRADSTREET, INC.","DUN & BRADSTREET, INC.",
-86694861,Altec Industries,ALTEC INDUSTRIES INC,ALTEC INDUSTRIES INC,
+80483434,Feeney Wireless,,"FEENEY WIRELESS, LLC",
+111023727,Feeney Wireless,,"FEENEY WIRELESS, LLC",
+808245794,University of Alabama at Birmingham,,UNIVERSITY OF ALABAMA AT BIRMINGHAM,
+884114609,Dun & Bradstreet,,"DUN & BRADSTREET, INC.",
+86694861,Altec Industries,,ALTEC INDUSTRIES INC,
 79297662,Keysight Technologies,"Keysight Technologies, Inc. ","KEYSIGHT TECHNOLOGIES, INC.",www.keysight.com
 3256088,University System of Maryland,UNIVERSITY SYSTEM OF MARYLAND,UNIVERSITY OF MARYLAND,
-612674457,AccessData Group,ACCESSDATA GROUP INC.,ACCESSDATA GROUP INC.,
-690549415,Rigaku Analytical Devices,"RIGAKU ANALYTICAL DEVICES, INC.","RIGAKU ANALYTICAL DEVICES, INC.",
+612674457,Accessdata Group,,ACCESSDATA GROUP INC.,
+690549415,Rigaku Analytical Devices,,"RIGAKU ANALYTICAL DEVICES, INC.",
 624851515,Sirina Fire Protection,SIRINA FIRE PROTECTION CORP.,SIRINA PROTECTION SYSTEMS CORP.,https://www.sirinafire.com.com
-226012417,Foster & Freeman USA,FOSTER & FREEMAN USA INC.,FOSTER & FREEMAN USA INC.,
+226012417,Foster & Freeman USA,,FOSTER & FREEMAN USA INC.,
 20645206,SP Plus Corporation,SP Plus Corporation,CENTRAL PARKING CORPORATION,
 967356127,Northrop Grumman Corporation,NORTHROP GRUMMAN CORPORATION,NORTHROP GRUMMAN SYSTEMS CORPORATION,
 86352689,Electronic Warfare Associates,"Electronic Warfare Associates, Inc.","EWA GOVERNMENT SYSTEMS, INC.",http://WWW.EWA.COM
-491179547,Nal Research,NAL RESEARCH CORP.,NAL RESEARCH CORP.,
-46901799,Coxcom,"COXCOM, INC.","COXCOM, INC.",
+491179547,Nal Research,,NAL RESEARCH CORP.,
+46901799,Coxcom,,"COXCOM, INC.",
 363596297,Stericycle,"STERICYCLE, INC.",SHRED-IT USA LLC,http://www.stericycle.com
-1724962,Interpark,INTERPARK LLC,INTERPARK LLC,
-79282059,Haworth,"HAWORTH, INC","HAWORTH, INC",
-1338086,Olin Corporation,OLIN CORPORATION,OLIN CORPORATION,
-14089630,Visionworx,"VISIONWORX, LLC","VISIONWORX, LLC",
-750159915,Future Fibre Technologies USA,FUTURE FIBRE TECHNOLOGIES (US) INC.,FUTURE FIBRE TECHNOLOGIES (US) INC.,
-8382293,Cubic Global Defense,"CUBIC GLOBAL DEFENSE, INC.","CUBIC GLOBAL DEFENSE, INC.",
-7872690,The Mitre Corporation,THE MITRE CORPORATION,THE MITRE CORPORATION,
-783837672,Kadix Systems,"KADIX SYSTEMS, LLC","KADIX SYSTEMS, LLC",
-107930133,Colonial Parking,COLONIAL PARKING INC,COLONIAL PARKING INC,
+1724962,Interpark,,INTERPARK LLC,
+79282059,Haworth,,"HAWORTH, INC",
+1338086,Olin Corporation,,OLIN CORPORATION,
+14089630,Visionworx,,"VISIONWORX, LLC",
+750159915,Future Fibre Technologies USA,,FUTURE FIBRE TECHNOLOGIES (US) INC.,
+8382293,Cubic Global Defense,,"CUBIC GLOBAL DEFENSE, INC.",
+7872690,The  Mitre Corporation,THE MITRE CORPORATION,THE MITRE CORPORATION,
+783837672,Kadix Systems,,"KADIX SYSTEMS, LLC",
+107930133,Colonial Parking,,COLONIAL PARKING INC,
 5191895,Cision US,Cision US Inc.,"BULLETIN NEWS, LLC",www.cision.com
-217304393,BAE Systems Aerospace & Defense Group,BAE SYSTEMS AEROSPACE & DEFENSE GROUP INC.,BAE SYSTEMS AEROSPACE & DEFENSE GROUP INC.,
-338309115,KDH Defense Systems,KDH DEFENSE SYSTEMS INC,KDH DEFENSE SYSTEMS INC,
-210091856,Cq-Roll Call,"CQ-ROLL CALL, INC.","CQ-ROLL CALL, INC.",
-78628925,Peraton,PERATON INC.,PERATON INC.,
-355783010,Aimpoint,"AIMPOINT, INC.","AIMPOINT, INC.",
-620371422,FPMI Solutions,FPMI SOLUTIONS INCORPORATED,FPMI SOLUTIONS INCORPORATED,
+217304393,BAE Systems Aerospace & Defense Group,,BAE SYSTEMS AEROSPACE & DEFENSE GROUP INC.,
+338309115,KDH Defense Systems,,KDH DEFENSE SYSTEMS INC,
+210091856,Cq-Roll Call,,"CQ-ROLL CALL, INC.",
+78628925,Peraton,,PERATON INC.,
+355783010,Aimpoint,,"AIMPOINT, INC.",
+620371422,FPMI Solutions,,FPMI SOLUTIONS INCORPORATED,
 825892289,Trusted Translations,"Trusted Translations, Inc. ",TRUSTED TRANSLATIONS INC,www.trustedtranslations.com
-113402713,Franklin Covey Client Sales,FRANKLIN COVEY CLIENT SALES INC,FRANKLIN COVEY CLIENT SALES INC,
-331266275,Heckler & Koch Defense,HECKLER & KOCH DEFENSE INC.,HECKLER & KOCH DEFENSE INC.,
-603395794,Colt Defense,COLT DEFENSE LLC,COLT DEFENSE LLC,
-371972030,Fn America,"FN AMERICA, LLC","FN AMERICA, LLC",
+113402713,Franklin Covey Client Sales,,FRANKLIN COVEY CLIENT SALES INC,
+331266275,Heckler & Koch Defense,,HECKLER & KOCH DEFENSE INC.,
+603395794,Colt Defense,,COLT DEFENSE LLC,
+371972030,Fn America,,"FN AMERICA, LLC",
 45534641,CACI International,CACI International Inc,"CACI-ISS, INC.",http://WWW.CACI.COM
-875632531,Portals Hotel Site,PORTALS HOTEL SITE LLC,PORTALS HOTEL SITE LLC,
-690651989,Sprint Communications Company,SPRINT COMMUNICATIONS COMPANY L.P.,SPRINT COMMUNICATIONS COMPANY L.P.,
+875632531,Portals Hotel Site,,PORTALS HOTEL SITE LLC,
+690651989,Sprint Communications Company,,SPRINT COMMUNICATIONS COMPANY L.P.,
 32672651,Krueger International,"KRUEGER INTERNATIONAL, INC.","SPACESAVER STORAGE SYSTEMS, INC.",
-969380372,Affordable Interior Systems,"AFFORDABLE INTERIOR SYSTEMS, INC.","AFFORDABLE INTERIOR SYSTEMS, INC.",
+969380372,Affordable Interior Systems,,"AFFORDABLE INTERIOR SYSTEMS, INC.",
 3197803,L C Industries,L C Industries Inc.,"LC INDUSTRIES, INC.",
-648551240,Glock,"GLOCK, INC.","GLOCK, INC.",
-485642987,RUAG Ammotec USA,"RUAG AMMOTEC USA, INC.","RUAG AMMOTEC USA, INC.",
-602495579,Hyatt Corporation,HYATT CORPORATION,HYATT CORPORATION,
+648551240,Glock,,"GLOCK, INC.",
+485642987,Ruag Ammotec USA,,"RUAG AMMOTEC USA, INC.",
+602495579,Hyatt Corporation,,HYATT CORPORATION,
 153531108,Office Depot,"OFFICE DEPOT, INC.","OFFICE DEPOT, INC.",
 156992745,Integrio Technologies,"Integrio Technologies, LLC",EMTEC FEDERAL INCORPORATED,http://www.integrio.com
-1368083,Tririga,TRIRIGA INC,TRIRIGA INC,
+1368083,Tririga,,TRIRIGA INC,
 78745061,Science Applications International Corporation,Science Applications International Corporation,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION,http://www.saic.com
-50911668,Level 3 Communications,LEVEL 3 COMMUNICATIONS LIMITED LIABILITY COMPANY,LEVEL 3 COMMUNICATIONS LIMITED LIABILITY COMPANY,
+50911668,Level 3 Communications,,LEVEL 3 COMMUNICATIONS LIMITED LIABILITY COMPANY,
 48620512,Data Systems Analysts,"DATA SYSTEMS ANALYSTS, INC.",PROJECT PERFORMANCE COMPANY LLC,http://www.dsainc.com
-687763879,Bizflow,BIZFLOW CORP.,BIZFLOW CORP.,
+687763879,Bizflow,,BIZFLOW CORP.,
 74103508,Jacobs Engineering Group,Jacobs Engineering Group Inc.,"BLUE CANOPY GROUP, LLC",
-985015354,Defense Point Security,"DEFENSE POINT SECURITY, LLC","DEFENSE POINT SECURITY, LLC",
-108024050,AT&T Mobility,AT&T MOBILITY LLC,AT&T MOBILITY LLC,
+985015354,Defense Point Security,,"DEFENSE POINT SECURITY, LLC",
+108024050,at&t Mobility,,AT&T MOBILITY LLC,
 107212169,Verizon Communications,Verizon Communications Inc.,CELLCO PARTNERSHIP DBA VERIZON WIRELESS,http://www.verizon.com
-78975807,Satcom Direct Communications,"SATCOM DIRECT COMMUNICATIONS, INC.","SATCOM DIRECT COMMUNICATIONS, INC.",
-316268655,Concur Technologies,"CONCUR TECHNOLOGIES, INC.","CONCUR TECHNOLOGIES, INC.",
+78975807,Satcom Direct Communications,,"SATCOM DIRECT COMMUNICATIONS, INC.",
+316268655,Concur Technologies,,"CONCUR TECHNOLOGIES, INC.",
 788549012,Widepoint Corporation,WIDEPOINT CORPORATION,WIDEPOINT INTEGRATED SOLUTIONS CORP.,http://www.widepoint.com
-80521853,Hp Enterprise Services,"HP ENTERPRISE SERVICES, LLC","HP ENTERPRISE SERVICES, LLC",
-144280943,Copper River Enterprise Services,"COPPER RIVER ENTERPRISE SERVICES, LLC","COPPER RIVER ENTERPRISE SERVICES, LLC",
-17106386,Emcor Government Services,"EMCOR GOVERNMENT SERVICES, INC.","EMCOR GOVERNMENT SERVICES, INC.",
-79659453,Wackenhut Services,"WACKENHUT SERVICES, INCORPORATED","WACKENHUT SERVICES, INCORPORATED",
-815554056,Fleet Management Solutions,"FLEET MANAGEMENT SOLUTIONS, INC.","FLEET MANAGEMENT SOLUTIONS, INC.",
-8898843,L-3 Communications Corporation,L-3 COMMUNICATIONS CORPORATION,L-3 COMMUNICATIONS CORPORATION,
-79380105,Terminix International Company,TERMINIX INTERNATIONAL COMPANY,TERMINIX INTERNATIONAL COMPANY,
+80521853,Hp Enterprise Services,,"HP ENTERPRISE SERVICES, LLC",
+144280943,Copper River Enterprise Services,,"COPPER RIVER ENTERPRISE SERVICES, LLC",
+17106386,Emcor Government Services,,"EMCOR GOVERNMENT SERVICES, INC.",
+79659453,Wackenhut Services,,"WACKENHUT SERVICES, INCORPORATED",
+815554056,Fleet Management Solutions,,"FLEET MANAGEMENT SOLUTIONS, INC.",
+8898843,L-3 Communications Corporation,,L-3 COMMUNICATIONS CORPORATION,
+79380105,Terminix International Company,,TERMINIX INTERNATIONAL COMPANY,
 2323145,City of Philadelphia,"Philadelphia, City Of","PHILADELPHIA, CITY OF",http://www.Phila.Gov
-170009687,Language Line,LANGUAGE LINE LLC,LANGUAGE LINE LLC,
+170009687,Language Line,,LANGUAGE LINE LLC,
 28579803,Prudential Overall Supply,Prudential Overall Supply,PRUDENTIAL OVERALL SUPPLY,http://www.pos-clean.com
-1338979,Textron,TEXTRON INC.,TEXTRON INC.,
+1338979,Textron,,TEXTRON INC.,
 40828980,County of Sherburne,"Sherburne, County Of (inc) ","SHERBURNE, COUNTY OF (INC)",
-50726181,Lincoln Moving & Storage of Buffalo,"LINCOLN MOVING & STORAGE OF BUFFALO, INC.","LINCOLN MOVING & STORAGE OF BUFFALO, INC.",
-221908138,Opsec Security,"OPSEC SECURITY, INC.","OPSEC SECURITY, INC.",
+50726181,Lincoln Moving & Storage of Buffalo,,"LINCOLN MOVING & STORAGE OF BUFFALO, INC.",
+221908138,Opsec Security,,"OPSEC SECURITY, INC.",
 6070445,Oshkosh Corporation,Oshkosh Corporation,"PIERCE MANUFACTURING, INC.",
-8381758,Broadcast Microwave Services,"BROADCAST MICROWAVE SERVICES, INC.","BROADCAST MICROWAVE SERVICES, INC.",
-13567606,Sentel Corporation,SENTEL CORPORATION,SENTEL CORPORATION,
-859780389,Tab Products Co,"TAB PRODUCTS CO, LLC","TAB PRODUCTS CO, LLC",
+8381758,Broadcast Microwave Services,,"BROADCAST MICROWAVE SERVICES, INC.",
+13567606,Sentel Corporation,,SENTEL CORPORATION,
+859780389,Tab Products Co,,"TAB PRODUCTS CO, LLC",
 13005702,Marriott International,"Marriott International, Inc.","MARRIOTT INTERNATIONAL, INC.",http://www.marriott.com
 66691122,County of Ventura,COUNTY OF VENTURA,"VENTURA, COUNTY OF",
-523806806,Telerik,TELERIK INC.,TELERIK INC.,
+523806806,Telerik,,TELERIK INC.,
 4671400,Lionbridge Technologies,"LIONBRIDGE TECHNOLOGIES, INC.","LIONBRIDGE GLOBAL SOLUTIONS II, INC.",http://www.lionbridge.com
-368401212,Fiskars Brands,"FISKARS BRANDS, INC.","FISKARS BRANDS, INC.",
+368401212,Fiskars Brands,,"FISKARS BRANDS, INC.",
 480284384,RUAG Holding,RUAG Holding AG,"RUAG AMMOTEC USA, INC.",http://www.ruag.com/
-218114890,4Imprint,"4IMPRINT, INC.","4IMPRINT, INC.",
+218114890,4imprint,,"4IMPRINT, INC.",
 187615534,Old Harbor Native Corporation,Old Harbor Native Corporation,BARLING BAY LLC,http://www.oldharbornativecorp.com
-242694172,JSI Telecom,JSI TELECOM INC.,JSI TELECOM INC.,
-825796688,Visual Systems Group,"VISUAL SYSTEMS GROUP, INC.","VISUAL SYSTEMS GROUP, INC.",
-9256819,The Boeing Company,"Boeing Company, The","DIGITAL RECEIVER TECHNOLOGY, INC.",http://www.boeing.com/
+242694172,Jsi Telecom,,JSI TELECOM INC.,
+825796688,Visual Systems Group,,"VISUAL SYSTEMS GROUP, INC.",
+9256819,The  Boeing Company,"Boeing Company, The","DIGITAL RECEIVER TECHNOLOGY, INC.",http://www.boeing.com/
 22634265,Tessco Technologies,TESSCO TECHNOLOGIES INCORPORATED,TESSCO INCORPORATED,http://www.tessco.com
-57156663,Comcast Business Communications,"COMCAST BUSINESS COMMUNICATIONS, LLC","COMCAST BUSINESS COMMUNICATIONS, LLC",
+57156663,Comcast Business Communications,,"COMCAST BUSINESS COMMUNICATIONS, LLC",
 79834910,Hewlett Packard Enterprise Company,Hewlett Packard Enterprise Company ,ENTCO GOVERNMENT SOFTWARE LLC,www.hpe.com
-985419987,Eaton Corporation,EATON CORPORATION,EATON CORPORATION,
-210273256,Smiths Detection,"SMITHS DETECTION, INC.","SMITHS DETECTION, INC.",
+985419987,Eaton Corporation,,EATON CORPORATION,
+210273256,Smiths Detection,,"SMITHS DETECTION, INC.",
 428869465,Leonardo Spa,LEONARDO SPA,SELEX ES INC.,
-217006709,DTC Communications,"DTC COMMUNICATIONS, INC.","DTC COMMUNICATIONS, INC.",
-961665820,The KeyW Holding Corporation,"KeyW Holding Corporation, The","KEYW CORPORATION, THE",http://www.keywcorp.com
-926878810,Six Continents Hotels,"SIX CONTINENTS HOTELS, INC","SIX CONTINENTS HOTELS, INC",
+217006709,DTC Communications,,"DTC COMMUNICATIONS, INC.",
+961665820,The  KeyW Holding Corporation,"KeyW Holding Corporation, The","KEYW CORPORATION, THE",http://www.keywcorp.com
+926878810,Six Continents Hotels,,"SIX CONTINENTS HOTELS, INC",
 618705925,Orbital ATK,"Orbital ATK, Inc.",AMMUNITION ACCESSORIES INC.,
-107636946,Maryland Economic Development Corporation,MARYLAND ECONOMIC DEVELOPMENT CORPORATION,MARYLAND ECONOMIC DEVELOPMENT CORPORATION,
-78602866,Safariland,"SAFARILAND, LLC","SAFARILAND, LLC",
+107636946,Maryland Economic Development Corporation,,MARYLAND ECONOMIC DEVELOPMENT CORPORATION,
+78602866,Safariland,,"SAFARILAND, LLC",
 6970263,Level 3 Communications,"Level 3 Communications, Inc. ",LEVEL 3 COMMUNICATIONS LIMITED LIABILITY COMPANY,www.level3.com
-825036189,FAAC,FAAC INCORPORATED,FAAC INCORPORATED,
+825036189,Faac,,FAAC INCORPORATED,
 88765177,Miller-Heiman,"Miller-Heiman, Inc.","TWENTYEIGHTY STRATEGY EXECUTION, INC.",http://www.millerheiman.com
 161395389,Unicom Systems,Unicom Systems Inc.,GTSI CORP.,
-355229832,MSAB,MSAB INCORPORATED,MSAB INCORPORATED,
-985033590,Club Car,"CLUB CAR, LLC","CLUB CAR, LLC",
-1023472,Tyco Integrated Security,TYCO INTEGRATED SECURITY LLC,TYCO INTEGRATED SECURITY LLC,
-251923587,Shred-It USA,SHRED-IT USA INC.,SHRED-IT USA INC.,
+355229832,Msab,,MSAB INCORPORATED,
+985033590,Club Car,,"CLUB CAR, LLC",
+1023472,Tyco Integrated Security,,TYCO INTEGRATED SECURITY LLC,
+251923587,Shred-It USA,,SHRED-IT USA INC.,

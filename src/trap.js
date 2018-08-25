@@ -4,7 +4,7 @@ import trapLayer from "./trap/layer";
 import { mapZoomEnable } from "./utils";
 import { southernBorderBounds } from "./constants";
 
-export default function(map){
+export default function(map) {
   mapZoomEnable(map);
   map.flyToBounds(southernBorderBounds);
   $(map.getPanes().overlayPane).append("<svg id='d3-trap-svg'></svg>");

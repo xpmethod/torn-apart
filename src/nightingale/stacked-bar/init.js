@@ -8,11 +8,11 @@ import { purple, green, orange } from "../../constants";
 import { scaleOrdinal, scaleBand, scaleLinear } from "d3-scale";
 import Data from "../army_of_east.csv";
 
-export default function(){
-
+export default function() {
   const width = $("#stackedbar-div").width();
   const height = 0.66 * width;
-  const svg = select("#stackedbar-div").append("svg")
+  const svg = select("#stackedbar-div")
+    .append("svg")
     .attr("height", height)
     .attr("width", width);
   const margins = [5, 25, 30, 35];
@@ -35,29 +35,34 @@ export default function(){
   g.append("g")
     .attr("transform", `translate(${margins[3]},${margins[0]})`)
     .selectAll("g")
-    .data(stack()
-      .order(stackOrderAscending)
-      .keys(keys)(Data))
-    .enter().append("g")
+    .data(
+      stack()
+        .order(stackOrderAscending)
+        .keys(keys)(Data)
+    )
+    .enter()
+    .append("g")
     .attr("fill", d => z(d.key))
     .selectAll("rect")
     .data(d => d)
-    .enter().append("rect")
+    .enter()
+    .append("rect")
     .attr("x", d => x(d.data.yr_month))
     // .attr("x", d => x(timeParse("%B %Y %d")(`${d.data.month} ${d.data.year} 1`)))
     .attr("y", d => y(d[1]))
     .attr("height", d => y(d[0]) - y(d[1]))
-    .attr("width", width/24 - 5);
+    .attr("width", width / 24 - 5);
 
   g.append("g")
     .classed("axis", true)
     .attr("transform", `translate(${margins[3]},${height - margins[2]})`)
     // .call(axisBottom(x).tickFormat(timeFormat("%b %Y")(timeParse("%Y-%m"))));
-    .call(axisBottom(x)
-      // .tickFormat(null, timeFormat("%Y")(timeParse("%Y-%m")))
-      .tickFormat(d => {
-        return timeFormat("%b")(timeParse("%Y-%m")(d));
-      })
+    .call(
+      axisBottom(x)
+        // .tickFormat(null, timeFormat("%Y")(timeParse("%Y-%m")))
+        .tickFormat(d => {
+          return timeFormat("%b")(timeParse("%Y-%m")(d));
+        })
     );
 
   g.append("g")
@@ -65,14 +70,14 @@ export default function(){
     .attr("transform", `translate(${margins[3]},${height - margins[2] + 30})`)
     .selectAll("text")
     .data(["1854-4", "1855-1", "1856-1"])
-    .enter().append("text")
+    .enter()
+    .append("text")
     .attr("x", d => x(d))
     .text(d => d.replace(/-.*/, ""));
 
-
   g.append("g")
     .classed("axis", true)
-    .attr("transform", `translate(${margins[3]},${margins[0]})`)//${height - margins[2]})`)
+    .attr("transform", `translate(${margins[3]},${margins[0]})`) //${height - margins[2]})`)
     .call(axisLeft(y))
     .append("text")
     .attr("transform", "rotate(-90)")
@@ -81,6 +86,4 @@ export default function(){
     .attr("fill", "black")
     .attr("text-anchor", "end")
     .text("Mortality rate per mille per annum");
-
 }
-

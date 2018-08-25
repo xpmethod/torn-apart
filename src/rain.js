@@ -1,8 +1,20 @@
 import $ from "jquery";
 import drawBubbles from "./rain/draw-bubbles";
+import { resizeDivFromTop } from "./utils";
+import spinner from "./spinner";
 
-export default function(){
-  $("#v2-div").show();
-  $("#rain-viz").show();
-  drawBubbles();
+export default function() {
+  if (!$("#spinner").length) {
+    spinner.start();
+  }
+  $(document).ready(() => {
+    $("#v2-div").show();
+    resizeDivFromTop("#v2-div");
+    $("#rain-viz").show();
+    if (!$("#rain-g").length) {
+      drawBubbles();
+    } else {
+      spinner.stop();
+    }
+  });
 }

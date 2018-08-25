@@ -2,7 +2,7 @@ import $ from "jquery";
 import { moveLegend } from "../utils";
 import updateTexts from "../update-texts";
 
-export default function(){
+export default function() {
   $("#legend").show().html(`<div class="px-3 py-2">
     <div class="d-flex justify-content-between">
       <div class="legend-svg-div">
@@ -45,5 +45,3 @@ export default function(){
   $(".legend-svg").attr("width", divWidth);
   $(".legend-polygon").attr("width", divWidth);
 }
-
-

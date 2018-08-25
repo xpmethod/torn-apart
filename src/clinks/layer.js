@@ -15,11 +15,18 @@ export default function() {
 
   iceFacs.map(place => {
     const detloc = place["DETLOC"];
-    const data = [[2014, +place["FY14.ADP"]],[2015, +place["FY15.ADP"]],[2016, +place["FY16.ADP"]],[2017, +place["FY17.ADP"]],[2018, +place["FY18.ADP"]]];
+    const data = [
+      [2014, +place["FY14.ADP"]],
+      [2015, +place["FY15.ADP"]],
+      [2016, +place["FY16.ADP"]],
+      [2017, +place["FY17.ADP"]],
+      [2018, +place["FY18.ADP"]]
+    ];
     const svgData = sparkLine(data);
     let imgSrc = "/torn-apart/assets/imgs/onepixel.png";
     if (detloc !== "Redacted") {
-      imgSrc = imgurImages.filter((img) => img.hasOwnProperty(detloc))[0][detloc].thumb;
+      imgSrc = imgurImages.filter(img => img.hasOwnProperty(detloc))[0][detloc]
+        .thumb;
     }
     const popup = `<div class="row">
       <div class="col-xs pl-3" style="height: 128; width: 128">
@@ -33,7 +40,7 @@ export default function() {
     <h5>${place["Name"]}</h5>
     ${titleUp(place["City"])}, ${place["State"]}
     `;
-    if(!isNaN(place.lat)){
+    if (!isNaN(place.lat)) {
       const circle = circleMarker(place, radius * 2, orange);
       iceFacsLayer.addLayer(circle.bindPopup(popup));
     }
@@ -48,7 +55,7 @@ export default function() {
     <!--<p>${place["Owner"]}</p>-->
     </div>
     `;
-    if(!isNaN(place.lat)){
+    if (!isNaN(place.lat)) {
       const circle = circleMarker(place, radius * 1.5, purple);
       detCtrsLayer.addLayer(circle.bindPopup(popup));
     }
@@ -56,4 +63,3 @@ export default function() {
   indexLayer.addLayer(iceFacsLayer).addLayer(detCtrsLayer);
   return indexLayer;
 }
-

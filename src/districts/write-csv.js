@@ -3,9 +3,11 @@ import path from "path";
 import { writeFile } from "fs";
 import { stdout } from "process";
 
-export default function(districts){
-  stringify(districts, 
-    { header: true,
+export default function(districts) {
+  stringify(
+    districts,
+    {
+      header: true,
       columns: [
         "id",
         "id2",
@@ -30,9 +32,14 @@ export default function(districts){
       ]
     },
     (err, output) => {
-      writeFile(path.join("data", "districts", "fat_districts.csv"), output, (err) => {
-        if(err) throw err;
-        stdout.write("WE DID THE CSV 🚀\n");
-      }); // close writeFile callback.
-    });
+      writeFile(
+        path.join("data", "districts", "fat_districts.csv"),
+        output,
+        err => {
+          if (err) throw err;
+          stdout.write("WE DID THE CSV 🚀\n");
+        }
+      ); // close writeFile callback.
+    }
+  );
 }

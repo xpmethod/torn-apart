@@ -5,7 +5,7 @@ import clinksD3 from "./clinks/d3";
 import { mapZoomEnable } from "./utils";
 import { lower48Bounds } from "./constants";
 
-export default function(map){
+export default function(map) {
   mapZoomEnable(map);
   const layer = clinksLayer(map);
   layer.addTo(map);
@@ -14,4 +14,3 @@ export default function(map){
   map.flyToBounds(lower48Bounds);
   clinksLegend();
 }
-

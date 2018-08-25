@@ -3,7 +3,7 @@ import { moveLegend, defaultRadius } from "../utils";
 import { green } from "../constants";
 import updateTexts from "../update-texts";
 
-export default function(){
+export default function() {
   const radius = defaultRadius();
   $("#legend").html(() => {
     return `<div class="row px-3 pt-2">

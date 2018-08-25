@@ -3,7 +3,7 @@ import chartsDisplay from "./charts/display";
 import { mapZoomEnable } from "./utils";
 import { lower48Bounds } from "./constants";
 
-export default function(map){
+export default function(map) {
   mapZoomEnable(map);
   $(".leaflet-control-zoom").hide();
   $("#d3-dots-svg").show();

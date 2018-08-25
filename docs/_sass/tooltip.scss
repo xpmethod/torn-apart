@@ -17,31 +17,15 @@
 
   h4 {
     font-weight: normal;
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin: 0;
   }
 
   img {
     width: 8rem;
   }
+
+  ul {
+    margin: 0;
+  }
 }
-
-.tooltip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 12px;
-  width: 100%;
-  line-height: 1;
-  color: $fadedpurple;
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-.tooltip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-
-

@@ -5,6 +5,7 @@ env:
   # jquery: true
 extends: 
   - "eslint:recommended"
+  - "plugin:prettier/recommended"
   # - "kentcdodds/possible-errors"
   # - "kentcdodds/es6/possible-errors"
 parserOptions:
@@ -13,15 +14,13 @@ rules:
   eqeqeq:
     - error
     - always
-  indent:
-    - error
-    - 2
   linebreak-style:
     - error
     - unix
   quotes:
     - error
     - double
-  semi:
+  "prettier/prettier":
     - error
-    - always
+plugins: [ "prettier" ]
+

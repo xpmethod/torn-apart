@@ -1,23 +1,38 @@
 import $ from "jquery";
 import { select } from "d3-selection";
-import { fillV2DivHeight } from "./utils";
+import { resizeDivFromTop, fillV2DivHeight } from "./utils";
+import spinner from "./spinner";
 import addGlowFilter from "./add-glow-filter";
 import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
 import freezerMurderboard from "./freezer/murderboard";
 
-export default function(){
+export default function() {
+  if (!$("#spinner").length) {
+    spinner.start();
+  }
   $("#v2-div").show();
   $(document).ready(() => {
+    resizeDivFromTop("#v2-div");
     $("#freezer-viz").show();
     const svg = select("#freezer-svg")
       .attr("width", $("#freezer-div").width())
       .attr("height", fillV2DivHeight("#freezer-headers"));
     addGlowFilter(svg);
-    freezerMurderboard();
-    freezerTree();
-    $("#treemap-g").hide();
+    if (!$("#topG").length) {
+      freezerMurderboard();
+    }
+    spinner.stop();
+    if (!$("#treemap-g").length) {
+      freezerTree();
+    }
     updateTexts();
+    $("#murderboard-button").addClass("active");
+    $("#treemap-button").removeClass("active");
+    $("#topG").show();
+    $("#treemap-g").hide();
+    $("#tree-sidebar").hide();
+    $("#freezer-sidebar").show();
   });
 
   $("#treemap-button").click(() => {
@@ -27,6 +42,7 @@ export default function(){
     $("#topG").hide();
     $("#tree-sidebar").show();
     $("#freezer-sidebar").hide();
+    $(".carousel-button-play").addClass("active");
   });
   $("#murderboard-button").click(() => {
     $("#murderboard-button").addClass("active");
@@ -36,6 +52,4 @@ export default function(){
     $("#tree-sidebar").hide();
     $("#freezer-sidebar").show();
   });
-
-
 }

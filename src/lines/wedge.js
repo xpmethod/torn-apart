@@ -25,22 +25,27 @@ import linesCalcAngles from "./calculate-angles";
 //   name: "Unknown"
 //   };
 
-export default function (map) {
+export default function(map) {
   const svg = addGlowFilter(leafletD3Svg(map, "d3-lines-svg"));
-  const g = svg.append("g").attr("id", "lines-g").classed("leaflet-zoom-hide", true);
+  const g = svg
+    .append("g")
+    .attr("id", "lines-g")
+    .classed("leaflet-zoom-hide", true);
   const y = linesLogScale();
-  const bar = g.selectAll("g")
+  const bar = g
+    .selectAll("g")
     .data(Data)
-    .enter().append("g")
+    .enter()
+    .append("g")
     .attr("id", d => _.camelCase(d.name))
     .each(linesCalcAngles)
     .each(d => {
       d.currYear = 2017;
       d.currValue = d.y2017 + 0.1;
       d.color = purple;
-      if(d.currValue < 2 && d.currValue > 0.2){ 
+      if (d.currValue < 2 && d.currValue > 0.2) {
         d.tooltip = linesConstants.tooltipSingular(d);
-      } else { 
+      } else {
         d.tooltip = linesConstants.tooltipPlural(d);
       }
       d.mouseOver = () => {
@@ -54,7 +59,8 @@ export default function (map) {
           .attr("filter", "");
       };
     });
-  bar.append("path")
+  bar
+    .append("path")
     .style("pointer-events", "painted")
     .attr("id", d => `${_.camelCase(d.name)}-path`)
     .attr("fill", "black")
@@ -62,7 +68,8 @@ export default function (map) {
     .attr("d", d => {
       d.newHeight = y(d.y2017 + 0.1); // can't have 0 as a value…
       const scaleFactor = d.newHeight / linesConstants.rangeMax;
-      return `M0 0 V -${d.newHeight} H ${scaleFactor * linesConstants.barWidth} Z`;
+      return `M0 0 V -${d.newHeight} H ${scaleFactor *
+        linesConstants.barWidth} Z`;
     })
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
@@ -72,22 +79,33 @@ export default function (map) {
 
   map.on("zoomend", d3Update);
 
-  function d3Update(){
+  function d3Update() {
     const toothLength = 30;
     const tL = new L.LatLng(70, -170);
     const bR = new L.LatLng(10, 150);
-    const bottomRight = [map.latLngToLayerPoint(bR).x, map.latLngToLayerPoint(bR).y];
-    const topLeft = [map.latLngToLayerPoint(tL).x, map.latLngToLayerPoint(tL).y];
-    svg.attr("width", bottomRight[0] - topLeft[0])
+    const bottomRight = [
+      map.latLngToLayerPoint(bR).x,
+      map.latLngToLayerPoint(bR).y
+    ];
+    const topLeft = [
+      map.latLngToLayerPoint(tL).x,
+      map.latLngToLayerPoint(tL).y
+    ];
+    svg
+      .attr("width", bottomRight[0] - topLeft[0])
       .attr("height", bottomRight[1] - topLeft[1])
       .style("left", topLeft[0] + "px")
       .style("top", topLeft[1] + "px");
     g.attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
-    select("#lines-g").selectAll("g").attr("transform", d => {
-      const LL = new L.LatLng(d.lat, d.lon);
-      d.newX = map.latLngToLayerPoint(LL).x;
-      d.newY = map.latLngToLayerPoint(LL).y;
-      return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${d.newX},${d.newY + toothLength})`;
-    });
+    select("#lines-g")
+      .selectAll("g")
+      .attr("transform", d => {
+        const LL = new L.LatLng(d.lat, d.lon);
+        d.newX = map.latLngToLayerPoint(LL).x;
+        d.newY = map.latLngToLayerPoint(LL).y;
+        return `rotate(${d.angle}, ${d.newX}, ${d.newY}) translate(${
+          d.newX
+        },${d.newY + toothLength})`;
+      });
   }
 }
