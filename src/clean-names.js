@@ -210,7 +210,7 @@ function findTwoConsAcronyms(string) {
       var clusterSubstr = string.substr(
         foundTwoCluster.index,
         foundTwoCluster[0].length
-      );
+      ); //get just that word, not the whole string!
       string = string.replace(clusterSubstr, clusterSubstr.toUpperCase());
     }
   }
@@ -241,22 +241,20 @@ function findThreeConsAcronyms(string) {
 
 // Deals with Mcs and Macs unless they are "machine":
 function fixMcMac(string) {
-  if (
-    string.search(/\b(Ma?c)([a-zA-Z])(.*$)/) !== -1 &&
-    string.search(/\bmachin/i) !== -1
-  ) {
-    if (string[1] === "a") {
-      //it's a Mac-
+  var inc = 0;
+  var macWord = /\bMa?c[a-zA-Z].*?\b/gi;
+  var foundMacWord;
+  while ((foundMacWord = macWord.exec(string)) !== null) {
+    if (foundMacWord[0].search(/\bmachin/i) === -1) {
+      //ie. as long as it isn't "machine"
+      if (foundMacWord[0][1] === "a") {
+        //it's a Mac-
+        inc = 1;
+      }
       string =
-        string.substr(0, 3) +
-        string[3].toUpperCase() +
-        string.substr(4, string.length);
-    } else {
-      //it's a Mc
-      string =
-        string.substr(0, 2) +
-        string[2].toUpperCase() +
-        string.substr(3, string.length);
+        string.substr(0, foundMacWord.index + 2 + inc) +
+        string[foundMacWord.index + 2 + inc].toUpperCase() +
+        string.substr(foundMacWord.index + 3 + inc, string.length);
     }
   }
   return string;
