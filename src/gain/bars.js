@@ -109,7 +109,7 @@ export default function(width, height) {
       "transform",
       `translate(${width / 2},${height / 2 - margins.bottom + 30})`
     )
-    .attr("data-i18n", "ta-companies")
+    .attr("data-i18n", "ta-total-number-of-companies")
     .text($.i18n("ta-companies"));
 
   countText.style("text-anchor", "middle");
