@@ -8,7 +8,10 @@ let timer;
 
 showViz(theViz, map);
 // jQuery behaviors:
-$(".navbar-toggler").click(() => $("#v2-div").hide());
+$(".navbar-toggler").click(() => {
+  $("#v2-div").hide();
+  $("#tooltip").remove();
+});
 $("#legend").click(function() {
   $(this).hide();
 });
