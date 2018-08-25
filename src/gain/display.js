@@ -6,5 +6,7 @@ export default function() {
   const height = fillV2DivHeight("#gain-headers");
   const width = $("#gain-svg-div").width();
 
+  $("#gain-profiteers").height(height);
+
   gainBars(width, height);
 }

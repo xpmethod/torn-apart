@@ -86,6 +86,7 @@
     height: calc(100vh - 7.5rem - 1.75rem);
     min-height: calc(100vh - 7.5rem - 1.75rem);
     max-height: calc(100vh - 7.5rem - 1.75rem);
+    overflow-y: hidden;
 
     .legend-ul li {
       font-size: 1.0rem;
@@ -103,6 +104,11 @@
         font-size: 1.5rem;
       }
     }
+
+    #gain-profiteers {
+      overflow-y: auto;
+    }
+
   }
 }
 
