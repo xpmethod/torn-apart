@@ -25,7 +25,8 @@ export const lightGreen = "#b6e2d4";
 // Constant used in banned viz.
 export const muslimBanTotal = 208832081;
 
-// Constants for two flyTo bounds.
+// Constants for map bounds.
+export const mobileBounds = [[-25, -140], [70, -50]];
 export const lower48Bounds = [[24.396, -124.848974], [49.384, -66.885444]];
 export const southernBorderBounds = [
   [34.1638, -97.1375],

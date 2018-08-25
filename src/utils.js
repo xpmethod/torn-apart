@@ -8,13 +8,11 @@ import getOrdinalSuffixOrig from "./get-ordinal-suffix";
 import titleUpOrig from "./title-up";
 
 export function moveLegend() {
-  $("#legend").css(
-    "top",
-    $(window).height() -
-      $("#legend").height() -
-      $(".leaflet-control-attribution").height() -
-      18
-  );
+  let displacedHeight = $(window).height() - $("#legend").height();
+  displacedHeight = L.Browser.mobile
+    ? displacedHeight - 18
+    : displacedHeight - $(".leaflet-control-attribution").height() - 18;
+  $("#legend").css("top", displacedHeight);
 }
 
 export function defaultRadius() {
