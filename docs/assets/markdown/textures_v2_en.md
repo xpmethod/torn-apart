@@ -15,7 +15,15 @@ Simply unraveling this data took us down the rabbit holes of government contract
 
 #IMGTAG#
 
-Each award links to a wealth of data, from recipient to parent company to congressional district to bid processes to contract modifications, and more. Our earlier chart demonstrates the challenges of making sense of this data, inaccurately calculating contract modifications in the current and potential contract values. Through our research, however, we recognized that these values were wildly incongruent with ICE budgets and used the learning moment as further impetus to understand the nuances of the data before committing to a set of visualizations. As we worked, we developed a [cheat sheet]({{site.baseurl}}/assets/cheat-sheet.md) for the columns of data that accompany each award to track their meanings. We then dug more deeply into the categories, wondering what they had to say in conversation with each other.
+Each award links to a wealth of data, from recipient to parent company to
+congressional district to bid processes to contract modifications, and more.
+Our earlier chart demonstrates the challenges of making sense of this data,
+inaccurately calculating contract modifications in the current and potential
+contract values. Through our research, however, we recognized that these
+values were wildly incongruent with ICE budgets and used the learning moment
+as further impetus to understand the nuances of the data before committing to
+a set of visualizations. As we worked, we developed a [cheat
+sheet](/torn-apart/assets/cheat-sheet.md) for the columns of data that accompany each award to track their meanings. We then dug more deeply into the categories, wondering what they had to say in conversation with each other.
 
 While the sheer volume of money poured into ICE operations and its startling increase over time is enough of a story, we found other stories hidden in the data. Quantities of goods and services that support detention, enforcement, and deportation are overwhelming. Mundane awards for toilet paper, spray cleaner, and lotion are juxtaposed with carceral technologies: armored vehicles, body armor, and tasers. Such ordinary goods and services that bespeak the banality of evil can be overshadowed by the unfathomable sums spent on titans of the prison industry now in the immigrant detention game: $438,379,354.01 to GEO Group, $120,431,609.32 to MVM, and $151,008,676.20 to CoreCivic (formerly Corrections Corporation of America) in 2018 alone.
 
@@ -37,8 +45,9 @@ In designing Freezer, we wanted to get at the complexity of the data itself. Man
 ## The Endgame
 
 
-> Nancy Pelosi and the Democrats want to abolish the brave men and women of ICE. What I want to do is abolish the killers in ISIS. And you know who is going to win? We are.[^1] 
-
+> Nancy Pelosi and the Democrats want to abolish the brave men and women of
+ICE. What I want to do is abolish the killers in ISIS. And you know who is
+going to win? We are.[^1] 
 
 What was the endgame of ICE, we asked ourselves? In Vol. 1, we saw the vast territory of containment that ICE had linked, built or purchased. The vast majority of our dots on that map, however, were, small round dots, signifying un-use. They had held no ICE detainees. Why was ICE amassing infrastructure that seemed unlinked to the crisis of family detainment on the southern borders? As we began to plan Vol. 2, we began to map out this world.
 
