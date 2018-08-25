@@ -12,16 +12,15 @@ import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 import Data from "../../data/gain/minority-data.json";
 
 export default function(width, height) {
-  const margins = { bottom: 35, left: 70, right: 15 };
   const keys = Data.minorityCategories;
-  const countData = [{ type: "Minority" }, { type: "Woman" }];
+  const countData = [{ type: "minority" }, { type: "women" }];
   _.each(Data.minorityCategories, cat => {
     countData[0][cat] = Data.minorityCompanies[cat].count;
     countData[1][cat] = Data.intersectionalCompanies[cat]
       ? Data.intersectionalCompanies[cat].count
       : 0;
   });
-  const valueData = [{ type: "Minority" }, { type: "Woman" }];
+  const valueData = [{ type: "minority" }, { type: "women" }];
   _.each(Data.minorityCategories, cat => {
     valueData[0][cat] = Data.minorityCompanies[cat].value;
     valueData[1][cat] = Data.intersectionalCompanies[cat].value;
@@ -33,6 +32,7 @@ export default function(width, height) {
   const svg = select("#gain-bars-svg")
     .attr("height", height)
     .attr("width", width);
+  const margins = { bottom: 35, left: 70, right: 15 };
   const g = svg.append("g").attr("transform", `translate(${margins.left},0)`);
   const tip = Tip()
     .attr("class", "tooltip")
@@ -43,7 +43,7 @@ export default function(width, height) {
   const colors = [green, orange, pink, lime, beige, tan, lavender];
   const y = scaleBand()
     .rangeRound([0, height / 2 - margins.bottom])
-    .domain(["Minority", "Woman"])
+    .domain(["minority", "women"])
     .paddingInner(0.05)
     .align(0.1);
   const countX = scaleLinear()
@@ -89,7 +89,13 @@ export default function(width, height) {
 
   g.append("g")
     .attr("class", "axis y-axis")
-    .call(axisLeft(y));
+    .call(axisLeft(y))
+    .selectAll(".tick text")
+    .text(d => $.i18n(`ta-${d}-owned-label`))
+    .classed("wrapped", true)
+    .attr("data-i18n", d => `ta-${d}-owned-label`)
+    .attr("data-wrap-width", 50);
+  // .call(wrap, 50);
 
   g.append("g")
     .attr("class", "axis")
@@ -169,7 +175,7 @@ export default function(width, height) {
 
   const babyY = scaleBand()
     .rangeRound([0, babyHeight])
-    .domain(["Minority", "Woman"])
+    .domain(["minority", "women"])
     .paddingInner(0.05)
     .align(0.1);
 
@@ -295,7 +301,7 @@ export default function(width, height) {
 
   function tooltip(d) {
     // console.log(d);
-    if (d.data.type === "Woman" && d.category !== "female") {
+    if (d.data.type === "women" && d.category !== "female") {
       return `<h3>${$.i18n(`ta-${d.category}-women-owned-companies`)}</h3>
       <ul>
         <li>${Data.intersectionalCompanies[d.category].count} ${$.i18n(

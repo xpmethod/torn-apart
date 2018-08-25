@@ -1,6 +1,8 @@
 import showdown from "showdown";
 import footnotes from "showdown-footnotes";
 import $ from "jquery";
+import { selectAll } from "d3-selection";
+import wrap from "./wrap";
 
 function currentLocaleToggle(locale) {
   $(".locale-toggle-text").removeClass("active");
@@ -25,4 +27,5 @@ export default function() {
     }
   });
   $("a[href^='http']").attr("target", "_blank");
+  selectAll(".wrapped").call(wrap, 50);
 }
