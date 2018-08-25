@@ -94,7 +94,6 @@ export default function(width, height) {
     .text(d => $.i18n(`ta-${d}-owned-label`))
     .classed("wrapped", true)
     .attr("data-i18n", d => `ta-${d}-owned-label`)
-    // .attr("dy", ++lineNumber * lineHeight + dy + "em")
     .attr("data-wrap-align", "vertical")
     .attr("data-wrap-width", 50);
 
@@ -153,7 +152,13 @@ export default function(width, height) {
   value
     .append("g")
     .attr("class", "axis y-axis")
-    .call(axisLeft(y));
+    .call(axisLeft(y))
+    .selectAll(".tick text")
+    .text(d => $.i18n(`ta-${d}-owned-label`))
+    .classed("wrapped", true)
+    .attr("data-i18n", d => `ta-${d}-owned-label`)
+    .attr("data-wrap-align", "vertical")
+    .attr("data-wrap-width", 50);
 
   value
     .append("g")
