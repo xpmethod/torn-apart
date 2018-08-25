@@ -16,11 +16,11 @@ export default function() {
     .data(racialCats)
     .enter()
     .append("div")
-    .attr("class", "d-flex")
+    .attr("class", "d-flex justify-content-start")
     .html((d, i) => {
       const profiteer = Data.biggestProfiteers[d];
       // const company = getDecoration(profiteer.duns);
-      return `<div class="mr-2"><svg width="${rem}" height="${rem}">
+      return `<div class="mr-2" style="max-width: 1.25rem;"><svg width="${rem}" height="${rem}">
           <rect width="${rem}" height="${rem}" 
           transform="translate(0,${0})" fill="${colors[i]}">
         </svg></div>
