@@ -5,7 +5,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,89536827.2,STG International,179570403,false
 2018,14000,Continental Transportation Solutions,92430107,false
 2018,36157.44,Good Source Solutions,158110697,true
-2018,16600,"Howell, Nathaniel",80526889,true
+2018,16600,Nathaniel Howell,80526889,true
 2018,,Creative Corrections,143530926,true
 2018,,Trailboss Enterprises,879740454,true
 2018,2948854.82,CoreCivic,159734151,true
@@ -34,12 +34,12 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,35319616.42,Ahtna Support and Training Services,609636910,true
 2018,383678,Creative Corrections,143530926,true
 2018,5985,Relx,877672683,true
-2018,630000,Xrad Tele-Services,167448955,true
+2018,630000,XRAD Tele-Services,167448955,true
 2018,82918.08,Safe Restraints,160853300,false
 2018,26930813.15,The  GEO Group,612706465,true
 2018,38309.91,Luxfer Magtech,79446686,true
 2018,4225.22,Contract Furnishings,100650816,false
-2018,6444,Ml Click Marketing,12480808,true
+2018,6444,ML Click Marketing,12480808,true
 2018,3638.57,Allied Modular Building Systems,617606645,false
 2018,5584.46,National Business Furniture,76164771,true
 2018,5968701.2,CoreCivic,159734151,true
@@ -48,7 +48,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,8252420,Akima Global Services,832895085,true
 2018,63111.28,Landoll Corporation,31331051,false
 2018,15072,Rita’s Tape Media,1573596,true
-2018,4240,Ml Click Marketing,12480808,true
+2018,4240,ML Click Marketing,12480808,true
 2018,15076.86,ABM Federal Sales,64632888,false
 2018,151590.92,Eclipse Business Group,828373006,true
 2018,7558,Penn Tool Co,11520277,false
@@ -70,12 +70,12 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,9528242,Spectrum Security Services,618954465,true
 2018,13852.57,Uniforms Manufacturing,98009814,true
 2018,4973,Bahfed,78277396,true
-2018,1600200,Xrad Tele-Services,167448955,true
-2018,27380,Ml Click Marketing,12480808,true
+2018,1600200,XRAD Tele-Services,167448955,true
+2018,27380,ML Click Marketing,12480808,true
 2018,22368259.49,Akima Global Services,832895085,true
 2018,1361148.43,The  GEO Group,612706465,true
-2018,16240.7,Ml Click Marketing,12480808,true
-2018,11305,Ml Click Marketing,12480808,true
+2018,16240.7,ML Click Marketing,12480808,true
+2018,11305,ML Click Marketing,12480808,true
 2018,5862.35,Spartan Chemical Company,5036728,true
 2018,7036580.1,CoreCivic,159734151,true
 2018,14548.5,Geo-Med,166569850,false
@@ -124,7 +124,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,3395.76,Haynes Security,68025683,false
 2018,156.4,Pacer Service Center,942273863,true
 2018,1279008,Thomson Reuters Special Services,827821757,true
-2018,23749.28,Ml Click Marketing,12480808,true
+2018,23749.28,ML Click Marketing,12480808,true
 2018,3997,Global Systems of America Corporation,827839981,false
 2018,16320,ABM Industries,6911622,true
 2018,25426.56,Envision XPRESS,118860779,true
@@ -171,7 +171,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,10907.28,Haynes Security,68025683,false
 2018,100,Executive Office of the State of North Carolina,872904193,true
 2018,13141.44,County of Santa Clara,160530572,false
-2018,8849.49,Pma-13,45281529,false
+2018,8849.49,PMA-13,45281529,false
 2018,9996.95,Federal Prison Industries,103385519,true
 2018,10984.5,New Dimension Awards,21522834,false
 2018,,FCN,615378007,true
@@ -198,7 +198,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,2789420.4,OMNIPLEX World Services Corporation,619712672,true
 2018,3719227.2,Keypoint Government Solutions,152867235,true
 2018,1859613.6,MSM Security Services,33892381,true
-2018,5578840.8,Adc LTD Nm,146389994,true
+2018,5578840.8,Adc LTD NM,146389994,true
 2018,4649034,CSRA,79735371,true
 2018,3450,Capitol Digital Document Solutions,807680421,true
 2018,240492.4,FCN,615378007,true
@@ -233,7 +233,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,579.3,Anacapa Micro Products,556496370,true
 2018,4447,DTC Communications,190828541,true
 2018,2997,Kyocera Document Solutions America,64465503,true
-2018,19908,NterOne Corporation,825060309,false
+2018,19908,NTERONE Corporation,825060309,false
 2018,4596.92,FS Partners,78374094,true
 2018,21427.71,Dollar Thrifty Automotive Group,611239542,false
 2018,3470,Itin Scale Co.,20569067,false
@@ -351,7 +351,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,6152.08,Time Warner Cable Enterprises,790784474,true
 2018,4000,Asset Security Tracking Recove,944508394,false
 2018,27380,Cellebrite,33095568,true
-2018,3125,"MacQueen, Michael C",80540981,false
+2018,3125,Michael C. MacQueen,80540981,false
 2018,66434,Astrophysics,138619452,false
 2018,5932.74,Sentry Air Systems,121016844,false
 2018,11000,Government Training Institute,132095394,false
@@ -548,7 +548,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,22780,Varidesk,79464963,true
 2018,5149.08,Testequity,623425563,false
 2018,293946,Modular Concepts,16538643,false
-2018,5253.99,"Forbes, Inc., C.",27839211,false
+2018,5253.99,Forbes,27839211,false
 2018,4838.2,Testequity,623425563,false
 2018,215813.69,at Your Service Heating & Cooling,9557104,true
 2018,4820.2,Tucson Hotels,68267934,false
@@ -679,7 +679,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,12125,C & C International Computers & Consultants,932469612,true
 2018,15574.45,Blue Tech,121701957,true
 2018,7475,Blue Tech,121701957,true
-2018,19392.8,Mcp Computer Products,22567908,true
+2018,19392.8,McP Computer Products,22567908,true
 2018,5098.57,Akira Technologies,605928246,true
 2018,6751.1,Anacapa Micro Products,556496370,true
 2018,23086.8,Panamerica Computers,166669742,true
@@ -767,8 +767,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,59500,Safer Society Group Sweden,350663899,false
 2018,10050,Magnet Forensics USA,80001807,true
 2018,57230,FedResults,884261082,false
-2018,24985,RStudio,78643840,false
-2018,6528,Dialtoneservices,80388745,true
+2018,24985,RSTUDIO,78643840,false
+2018,6528,DialToneServices,80388745,true
 2018,810334.46,Mavagi Enterprises,30963826,true
 2018,169207287.3,Spectrum Security Services,618954465,true
 2018,12594.14,Sharp Electronics Corporation,1818012,true
@@ -789,11 +789,11 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,514201.22,One Stop Environmental,806933284,true
 2018,31367.43,Sharp Electronics Corporation,1818012,true
 2018,47417.68,Proxdose Radiation Sensors,79845709,false
-2018,142866923.2,Csi Aviation,102793460,true
-2018,176837509.4,Csi Aviation,102793460,true
-2018,56662002.61,Csi Aviation,102793460,true
-2018,72212665.68,Csi Aviation,102793460,true
-2018,69551277.83,Csi Aviation,102793460,true
+2018,142866923.2,CSI Aviation,102793460,true
+2018,176837509.4,CSI Aviation,102793460,true
+2018,56662002.61,CSI Aviation,102793460,true
+2018,72212665.68,CSI Aviation,102793460,true
+2018,69551277.83,CSI Aviation,102793460,true
 2018,6039453.59,Creative Corrections,143530926,true
 2018,5839779.02,XL Associates,608717450,true
 2018,60659,National Commission on Correctional Health Care,167646140,true
@@ -811,13 +811,13 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,24650,County of Clark,30783757,true
 2018,57099.9,Osirus,23170694,false
 2018,,The  Nakamoto Group,133090261,false
-2018,3804198.35,"Mckinsey & Company, Inc. Washington D.C.",825229318,true
+2018,3804198.35,McKinsey & Company,825229318,true
 2018,12600,Maryland Dept of Public Safety & Correctional Services,879016178,false
 2018,13294869,Aircraft Transport Services,12630106,true
-2018,22766583.1,"Mckinsey & Company, Inc. Washington D.C.",825229318,true
+2018,22766583.1,McKinsey & Company,825229318,true
 2018,134984,Zephyr Aviation,790555457,true
 2018,2335096,Creative Corrections,143530926,true
-2018,73800.2,Csi Aviation,102793460,true
+2018,73800.2,CSI Aviation,102793460,true
 2018,143900.53,The  Nakamoto Group,133090261,false
 2018,39869,San Diego Association of Governments,94016941,true
 2018,2021460,National Law Enforcement Telecommunications Systems,37619129,true
@@ -876,7 +876,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,40079.28,New Life Chinese Laundry,29127727,true
 2018,132859.67,Buddy’s Snack Bar,828164087,false
 2018,37080,ACT Services,78360656,true
-2018,1837,"Environmental Quality, Texas Commission on",808805154,true
+2018,1837,Texas Commission on Environmental Quality,808805154,true
 2018,5550,County of Lane,30786248,false
 2018,,Ahtna Support and Training Services,609636910,true
 2018,,Akima Global Services,832895085,true
@@ -905,7 +905,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,618758.43,Blueline Tactical and Police Supply,57900928,true
 2018,165800,Elite Shooting Sports,79488432,true
 2018,21380,Talton Communications,136890881,true
-2018,,Macro Companies,34302497,true
+2018,,MacRo Companies,34302497,true
 2018,2936293.39,M V M,38049532,true
 2018,3663439.68,XL Associates,608717450,true
 2018,93149444.76,Asset Protection & Security Services,9741828,true
@@ -966,7 +966,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,3414654.66,M V M,38049532,true
 2018,28975,Galls,42598482,true
 2018,6930.04,Advanced Educational Products,966326514,true
-2018,133837.2,Xrad Tele-Services,167448955,true
+2018,133837.2,XRAD Tele-Services,167448955,true
 2018,2851600,PricewaterhouseCoopers Public Sector,79529872,true
 2018,299448.4,XL Associates,608717450,true
 2018,1874793.64,CoreCivic,159734151,true
@@ -987,7 +987,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,3575764.86,Global Precision Systems,805596710,true
 2018,240000,Hariom,198705100,true
 2018,9900,TCS Interpreting,112636170,false
-2018,13850,Macro Companies,34302497,true
+2018,13850,MacRo Companies,34302497,true
 2018,33571475.82,The  GEO Group,612706465,true
 2018,65718510.49,The  GEO Group,612706465,true
 2018,51955661,M V M,38049532,true
@@ -1003,10 +1003,10 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,19755.84,"HDR Environmental, Operations and Construction",785918954,true
 2018,10000,Texas Workforce Commission,33278685,true
 2018,20000,Security Solutions Group,962380692,false
-2018,19683,"Potter, Kevin",23897666,false
+2018,19683,Kevin Potter,23897666,false
 2018,83000,The  American Correctional Association,74811571,true
 2018,109417,National Commission on Correctional Health Care,167646140,true
-2018,9320,"Howell, Nathaniel",80526889,true
+2018,9320,Nathaniel Howell,80526889,true
 2018,48530.4,Time Warner Cable Enterprises,790784474,true
 2018,8490.1,Rite-Kem,786892927,true
 2018,50000,Go & Zalez,957523111,true
@@ -1045,7 +1045,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,11244642.54,Global Tech,171898732,false
 2018,24000,Aerostar Airport Holdings,78738235,false
 2018,502174.8,Resurgens Risk Management,845109339,false
-2018,229900,"Hibler, Neil S PHD ABBP",59954201,false
+2018,229900,"Neil S. Hibler, PhD. ABBP",59954201,false
 2018,10151574,Industrial Video & Control Co.,66753844,false
 2018,15372241,JDL Digital Systems,165449872,true
 2018,9843,Konica Minolta Business Solutions USA.,626578041,true
@@ -1068,7 +1068,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,19942847.22,DTC Communications,190828541,true
 2018,93875,Halo Group,621534887,false
 2018,17624,Convergint Technologies,29640740,false
-2018,80000,"Radford, Todd",137672239,false
+2018,80000,Todd Radford,137672239,false
 2018,8300,County of San Diego,31779838,true
 2018,112476.14,International Satellite Services,48822402,true
 2018,7812591.68,Grant Thornton,128159105,true
@@ -1099,9 +1099,9 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,18638,Wolcott Guns,827284519,false
 2018,112215.84,City of New York,54977231,false
 2018,19800,Seattle Police Athletic Assoc,839709532,false
-2018,37000,"Imperial, County",148015449,false
+2018,37000,County of Imperial,148015449,false
 2018,171873.55,Cold Box Express,79481448,false
-2018,,Pat V. Mack,963846097,true
+2018,,Pat V. MacK,963846097,true
 2018,1805548.28,GreenZone Solutions,52128984,false
 2018,2318175,Thomson Reuters Special Services,827821757,true
 2018,2711012.38,Northeastern University,1423631,false
@@ -1144,9 +1144,9 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,45146.6,Ricoh USA,43964519,true
 2018,13586765.16,Deloitte Consulting,19121586,true
 2018,6532.03,Canon USA.,116194192,true
-2018,624000,Ems Safety Services,878854504,true
+2018,624000,EMS Safety Services,878854504,true
 2018,2424,Ricoh USA,43964519,true
-2018,398206.01,Pat V. Mack,963846097,true
+2018,398206.01,Pat V. MacK,963846097,true
 2018,443212.8,Shine Enterprises,808354448,false
 2018,6847946.68,Deloitte Consulting,19121586,true
 2018,2850082.92,Integral Consulting Services,18193669,true
@@ -1177,7 +1177,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,34434.24,Supreme Security Systems,945163509,true
 2018,17650,N California Regional Public Safety Training Authority,147851054,true
 2018,25550,ANSI-ASQ National Accreditation Board,177886848,false
-2018,5501.94,"Vonhof, Jeanne M Arbitrator and Mediator",2906605,false
+2018,5501.94,"Jeanne M. Vonhof, Arbitrator and Mediator",2906605,false
 2018,129450,Incident Communication Solutions,784154895,true
 2018,60335,Caribbean School,90111733,true
 2018,11580,The  Palmas Academy,792851032,true
@@ -1212,7 +1212,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,14324,Crime Point,66088902,true
 2018,6577.14,Konica Minolta Business Solutions USA.,626578041,true
 2018,7545.51,Fisher Scientific Company,4321519,false
-2018,90252.51,Cbt Nuggets,784227402,true
+2018,90252.51,CBT Nuggets,784227402,true
 2018,28802,Ricoh USA,43964519,true
 2018,211033.05,Exxact Corporation,788479368,true
 2018,798165,Altec Industries,4001731,true
@@ -1240,7 +1240,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,6627,Kyocera Document Solutions America,64465503,true
 2018,117128.96,Thermo Scientific Portable Analytical Instruments,112893131,true
 2018,4149,Conference Technologies,619503634,true
-2018,6120,Wecsys,836284091,true
+2018,6120,WECsys,836284091,true
 2018,42363.56,Konica Minolta Business Solutions USA.,626578041,true
 2018,5174.28,Exxact Corporation,788479368,true
 2018,4192.62,Konica Minolta Business Solutions USA.,626578041,true
@@ -1253,7 +1253,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,6143.76,Ricoh USA,43964519,true
 2018,13140,Integrated Parcel Network,122767437,false
 2018,592351.28,Integral Consulting Services,18193669,true
-2018,2205468.29,Allworld Language Consultants,949873624,true
+2018,2205468.29,AllWorld Language Consultants,949873624,true
 2018,6981680.29,M V M,38049532,true
 2018,5726712.83,Metropolitan Interpreters & Translators,186945325,true
 2018,3024231.08,Conduit Language Specialists,5065946,true
@@ -1269,7 +1269,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,25030.53,Net Direct Systems,54007823,true
 2018,8856,Canon USA.,116194192,true
 2018,423786.3,Parker Tide,9043600,true
-2018,3299.45,Ase Direct,616385667,true
+2018,3299.45,ASE Direct,616385667,true
 2018,1699040,SRA International,97779698,true
 2018,4468.86,Net Direct Systems,54007823,true
 2018,75856.46,Vastec,808137546,true
@@ -1486,7 +1486,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,6921.53,County of Pinal,74447095,true
 2018,3478.22,Johnson Controls Security Solutions,7507671,true
 2018,42643.56,Joliva Trucking,828709589,true
-2018,5000,"Radvany, Paul",79944512,true
+2018,5000,Paul Radvany,79944512,true
 2018,1177752.9,KCorp Support Services,790993252,true
 2018,1232941.37,Bowhead Communication Services,78825612,false
 2018,57600,Express Alliance Courier,167013189,false
@@ -1508,7 +1508,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,59835.41,Sampson Partners,124623039,true
 2018,378404.68,Haworth,72595457,true
 2018,4933310.2,Keypoint Government Solutions,152867235,true
-2018,4933310.2,Adc LTD Nm,146389994,true
+2018,4933310.2,Adc LTD NM,146389994,true
 2018,1233327.55,MSM Security Services,33892381,true
 2018,8633292.85,CSRA,79735371,true
 2018,3340000,Olin Corporation,88736686,true
@@ -1518,7 +1518,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,299953.28,Vista Outdoor Sales,79331239,true
 2018,284604.6,Atlantic Diving Supply,27079776,true
 2018,2130174.88,KCorp Support Services,790993252,true
-2018,29877.12,"C2G, Ltd Co.",827663563,false
+2018,29877.12,"C2G, LTD Co.",827663563,false
 2018,4285.68,Premium Parking Service,364156468,false
 2018,2997,Visionworx,124116463,true
 2018,57968.08,C.F.I. Delivery,931670392,true
@@ -1551,7 +1551,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,8332.2,Atkinson-Baker,607957693,false
 2018,3490,Neal R Gross and Company,1627124,true
 2018,11743.65,Joliva Trucking,828709589,true
-2018,15125,"Tift, Richard T",191386275,false
+2018,15125,Richard T. Tift,191386275,false
 2018,5874.27,Future Fibre Technologies USA,602667839,true
 2018,35700,Simon Wiesenthal Center,151580305,true
 2018,37118.17,Cubic Global Defense,33747226,true
@@ -1603,7 +1603,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,33625.35,The  Medalcraft Mint,6130371,true
 2018,2233021,Ernst & Young,95347159,true
 2018,435896.18,PCS Enterprises,4841107,true
-2018,7147735.14,Qbase-McNeil Integrated Solutions,961746620,true
+2018,7147735.14,QBASE-McNeil Integrated Solutions,961746620,true
 2018,19358.4,Vista Outdoor Sales,79331239,true
 2018,36360,Hullihens Lawn Care,46859745,false
 2018,12000,Vermont State Colleges,807840608,true
@@ -1669,7 +1669,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,43116.41,Datum Filing Systems,61974549,true
 2018,17378,Graduate School,40535536,true
 2018,1471443.04,Capgemini Government Solutions,132048377,true
-2018,85484,Ceb,184779924,true
+2018,85484,CEB,184779924,true
 2018,3902118.42,Ernst & Young,95347159,true
 2018,115460,Elevation,144184392,true
 2018,9229.3,Aardvark,861004349,true
@@ -1689,7 +1689,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,5000,Olin Corporation,88736686,true
 2018,1538228.32,Olin Corporation,88736686,true
 2018,53672.64,Vista Outdoor Sales,79331239,true
-2018,39759934.02,Caci-Iss,616205675,true
+2018,39759934.02,CACI-ISS,616205675,true
 2018,13232.5,Colt Defense,121396217,true
 2018,420040.4,Remington Arms Company,1453216,true
 2018,19163.04,Vista Outdoor Sales,79331239,true
@@ -1721,7 +1721,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,14995,NetCom Learning,78843526,true
 2018,12227,Tidewater Distributors,802275391,true
 2018,11892.5,Portals Hotel Site,135471162,true
-2018,1800,"Environmental Quality, Texas Commission on",808805154,true
+2018,1800,Texas Commission on Environmental Quality,808805154,true
 2018,11995,Qualification Targets,11457723,true
 2018,64769.4,LiveU,4366082,false
 2018,11934,Atlantic Diving Supply,27079776,true
@@ -1778,7 +1778,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,4201171.05,Deloitte Consulting,19121586,true
 2018,60593.76,USATactical Supply,21725457,true
 2018,1839113.62,Deloitte Consulting,19121586,true
-2018,19288.7,Mmi Outdoor,621407980,true
+2018,19288.7,MMI Outdoor,621407980,true
 2018,29639.61,Bottom Line Military Sales,146850255,true
 2018,6673743.7,Deloitte Consulting,19121586,true
 2018,2598.75,Chief Supply Corporation,929305191,true
@@ -1799,7 +1799,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,616896.56,Knight’s Armament Company,54038138,true
 2018,363307.25,Vista Outdoor Sales,79331239,true
 2018,97500,Urban Adventures at Gallery Place,787815542,true
-2018,82562.55,Lc Industries,962257445,true
+2018,82562.55,LC Industries,962257445,true
 2018,558785,Colt Defense,121396217,true
 2018,500090,Vista Outdoor Sales,79331239,true
 2018,11310.6,Vista Outdoor Sales,79331239,true
@@ -1809,8 +1809,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,649765.78,Vista Outdoor Sales,79331239,true
 2018,15787.38,Vista Outdoor Sales,79331239,true
 2018,90919.8,Olin Corporation,88736686,true
-2018,3522.6,Npee,831108928,true
-2018,2717.28,Ruag Ammotec USA,832426261,true
+2018,3522.6,NPEE,831108928,true
+2018,2717.28,RUAG Ammotec USA,832426261,true
 2018,3870,Vista Outdoor Sales,79331239,true
 2018,68694.96,Olin Corporation,88736686,true
 2018,3030.66,Olin Corporation,88736686,true
@@ -1906,7 +1906,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,9976.52,A2Z Supply,808414531,true
 2018,99799,Sig Sauer,78770392,true
 2018,3357,WMK San Antonio,78306688,true
-2018,34306,"Palmer, Paul",618518745,false
+2018,34306,Paul Palmer,618518745,false
 2018,4926.2,Vista Outdoor Sales,79331239,true
 2018,10837.64,Vista Outdoor Sales,79331239,true
 2018,4078,Springfield,187568928,true
@@ -1923,7 +1923,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,107600,Glock,148099450,true
 2018,20118,A2Z Supply,808414531,true
 2018,149310,B5 Systems,828777867,true
-2018,21991.43,"Aiken, R P & Son",49671092,true
+2018,21991.43,R. P. Aiken & Son,49671092,true
 2018,37133.6,A2Z Supply,808414531,true
 2018,10767,General Dynamics Ordnance and Tactical Systems - Simunition Operations,961846417,true
 2018,42000,Tomahawk Defense,79869344,true
@@ -1950,20 +1950,20 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,13089515.12,Science Applications International Corporation,78883327,false
 2018,35764845.21,Science Applications International Corporation,78883327,false
 2018,3470,Bennet Communications,956259105,false
-2018,,Qbase-McNeil Integrated Solutions,961746620,true
+2018,,QBASE-McNeil Integrated Solutions,961746620,true
 2018,1176094.92,Dakota Consulting,168926264,false
 2018,57136745.01,Savantage Financial Services,878187012,true
 2018,63994130.6,Phacil,54885111,true
 2018,,Kalos,31414766,false
 2018,,Venture Netcomm,942320656,true
 2018,,Venture Netcomm,942320656,true
-2018,1047331.84,Mlinqs,131336773,false
+2018,1047331.84,mLINQS,131336773,false
 2018,9558365.42,Kadix Systems,127327877,false
 2018,2527.65,Dell Marketing,877936518,true
 2018,3962.74,Wildflower International,619719693,true
-2018,,Palantir Usg,825284321,true
+2018,,Palantir USG,825284321,true
 2018,421721.27,InfoReliance,143147762,false
-2018,6913426.23,Clearavenue,124289708,true
+2018,6913426.23,clearAvenue,124289708,true
 2018,238789.23,Level 3 Communications,73090917,true
 2018,20019575.36,Booz Allen Hamilton,6928857,true
 2018,710067.74,International Business Machines Corporation,835130485,true
@@ -1979,7 +1979,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,454729.53,PG Public Services,133661020,true
 2018,4783636.61,Booz Allen Hamilton,6928857,true
 2018,3014577.02,Envisage Technologies,18832795,true
-2018,3963440.55,Qbase-McNeil Integrated Solutions,961746620,true
+2018,3963440.55,QBASE-McNeil Integrated Solutions,961746620,true
 2018,4706807.89,Visionary Integration Professionals,36943280,true
 2018,248858.09,Venture Netcomm,942320656,true
 2018,2385323.52,Sevatec,132599668,true
@@ -1998,7 +1998,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,37161,Packet Forensics,809189173,false
 2018,2197122,Pen-Link,195956636,true
 2018,213640,Fileonq,179886916,true
-2018,,Xrad Tele-Services,167448955,true
+2018,,XRAD Tele-Services,167448955,true
 2018,688605,Integrityone Partners,15277887,false
 2018,175365.87,BizFlow,8913373,false
 2018,76560,PN Automation,184174394,false
@@ -2007,7 +2007,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,2553032,Valytics,786569272,false
 2018,47384418.04,CSRA,79735371,true
 2018,6920852,The  Mitre Corporation,40540304,true
-2018,29136765.54,Qbase-McNeil Integrated Solutions,961746620,true
+2018,29136765.54,QBASE-McNeil Integrated Solutions,961746620,true
 2018,2199677.16,Dev Technology Group,105667401,true
 2018,321776,Cambridge International Systems,74343414,false
 2018,3728190.59,Microsoft Corporation Sitz in Redmond Corporation,81466849,true
@@ -2019,7 +2019,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,1460198.12,Microsoft Corporation Sitz in Redmond Corporation,81466849,true
 2018,107999.84,Govplace,957050883,true
 2018,2944418.24,XL Associates,608717450,true
-2018,8201161.75,Qbase-McNeil Integrated Solutions,961746620,true
+2018,8201161.75,QBASE-McNeil Integrated Solutions,961746620,true
 2018,24293923.61,Knight Point Systems,622594492,true
 2018,5553910.8,Tri-Cor Industries,146881875,true
 2018,2560488.77,Dev Technology Group,105667401,true
@@ -2034,13 +2034,13 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,27945631.6,Savantage Financial Services,878187012,true
 2018,381037.44,Integrityone Partners,15277887,false
 2018,13330510.22,Procentrix,626154640,true
-2018,48560,at&t Mobility,3548489,false
+2018,48560,AT&T Mobility,3548489,false
 2018,530637.38,Avaya Federal Solutions,790472240,true
 2018,1737936,Citizant,68729529,false
 2018,3109129.68,Dev Technology Group,105667401,true
-2018,43540848,Qbase-McNeil Integrated Solutions,961746620,true
+2018,43540848,QBASE-McNeil Integrated Solutions,961746620,true
 2018,1344017.34,Blackstone Technology Group,112074757,true
-2018,4450845.37,Tsymmetry,70899393,false
+2018,4450845.37,TSYMMETRY,70899393,false
 2018,3791567.85,OpTech,127865447,true
 2018,1857656.72,Booz Allen Hamilton Engineering Services,75916762,true
 2018,140828.3,Venture Netcomm,942320656,true
@@ -2137,7 +2137,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,122056,Net Direct Systems,54007823,true
 2018,469071.01,Net Direct Systems,54007823,true
 2018,985082.77,Panamerica Computers,166669742,true
-2018,19920,"Potter, Kevin",23897666,false
+2018,19920,Kevin Potter,23897666,false
 2018,46960,Designsmith,615308954,false
 2018,823612.2,FRONTEO Government Services,623624751,false
 2018,81200,Johnson Controls Security Solutions,7507671,true
@@ -2159,7 +2159,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,13756,Costcontrol USA,807873125,true
 2018,63427.06,Avaya Federal Solutions,790472240,true
 2018,33663.9,Annams Systems Corporation,869159897,true
-2018,29470.56,Justicetrax,12023730,false
+2018,29470.56,JusticeTrax,12023730,false
 2018,49968,Recovery Point Systems,18385547,false
 2018,99263.72,Avaya Federal Solutions,790472240,true
 2018,103459.04,DLT Solutions,786468199,true
@@ -2196,8 +2196,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,28123.62,Panamerica Computers,166669742,true
 2018,5760,LiveU,4366082,false
 2018,77950,Mosaik Solutions,828787395,false
-2018,100000,Smartystreets,32543716,false
-2018,21006,Kwizcom Corporation,243559783,false
+2018,100000,SmartyStreets,32543716,false
+2018,21006,KWizCom Corporation,243559783,false
 2018,251800,Copper River Enterprise Services,79463764,true
 2018,99277.17,Optivor Technologies,112865048,true
 2018,33033391.95,Sytel,361625932,false
@@ -2234,13 +2234,13 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,5434.5,Ceia USA,176329795,false
 2017,3096,Eastern Carolina Vocational Center,75553560,true
 2017,6012.47,Johnson Controls Fire Protection,94738007,false
-2017,7470,Cookie’s Dme,16736289,false
-2017,115684117.6,Csi Aviation,102793460,true
-2017,138339403,Csi Aviation,102793460,true
-2017,43418178.67,Csi Aviation,102793460,true
-2017,56732498.31,Csi Aviation,102793460,true
+2017,7470,Cookie’s DME,16736289,false
+2017,115684117.6,CSI Aviation,102793460,true
+2017,138339403,CSI Aviation,102793460,true
+2017,43418178.67,CSI Aviation,102793460,true
+2017,56732498.31,CSI Aviation,102793460,true
 2017,8663.15,Document Imaging Dimensions,38062712,true
-2017,50379669.08,Csi Aviation,102793460,true
+2017,50379669.08,CSI Aviation,102793460,true
 2017,6063270.52,Creative Corrections,143530926,true
 2017,2694,Whitaker Brothers Business Machines,24292732,true
 2017,5705400.62,XL Associates,608717450,true
@@ -2251,12 +2251,12 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,21376.62,The  Arc of Cumberland and Perry Counties,71191787,true
 2017,1261.09,County of Santa Clara,155922172,true
 2017,5951300,Aircraft Transport Services,12630106,true
-2017,17296956.06,"Mckinsey & Company, Inc. Washington D.C.",825229318,true
+2017,17296956.06,McKinsey & Company,825229318,true
 2017,126000,Fleet Management Solutions,141544648,true
 2017,85500,Zephyr Aviation,790555457,true
 2017,2305096,Creative Corrections,143530926,true
 2017,18586.75,Varidesk,79464963,true
-2017,73800.2,Csi Aviation,102793460,true
+2017,73800.2,CSI Aviation,102793460,true
 2017,4100,L-3 Communications Corporation,112753194,true
 2017,2800,County of Santa Clara,155922172,true
 2017,19640,San Diego Association of Governments,94016941,true
@@ -2349,7 +2349,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,1931999.6,GEO Care,79787440,true
 2017,2019499.95,GEO Care,79787440,true
 2017,39535070.13,Global Precision Systems,805596710,true
-2017,191050,Macro Companies,34302497,true
+2017,191050,MacRo Companies,34302497,true
 2017,61128861.14,The  GEO Group,612706465,true
 2017,1234000,Laboratory Corporation of America,32093028,true
 2017,6000,Texas Workforce Commission,33278685,true
@@ -2391,18 +2391,18 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,6341044.1,CoreCivic,159734151,true
 2017,2639532.83,G4S Secure Solutions USA,1903723,true
 2017,1482401.27,M V M,38049532,true
-2017,6186.32,Wecsys,836284091,true
+2017,6186.32,WECsys,836284091,true
 2017,12396,Premier & Companies,784141384,true
 2017,6930.04,Advanced Educational Products,966326514,true
 2017,7125,Interior Facilities Design,184200785,false
-2017,4365.6,Ml Click Marketing,12480808,true
-2017,32565,Ml Click Marketing,12480808,true
+2017,4365.6,ML Click Marketing,12480808,true
+2017,32565,ML Click Marketing,12480808,true
 2017,5434,ATD-American Co.,1992338,false
 2017,5080,Rita’s Tape Media,1573596,true
 2017,4650.22,Bahfed,78277396,true
 2017,18681.6,Document Imaging Dimensions,38062712,true
 2017,5258.17,Allied Ink,828302864,false
-2017,103723.2,Xrad Tele-Services,167448955,true
+2017,103723.2,XRAD Tele-Services,167448955,true
 2017,5159.49,TSRC,195583778,false
 2017,2076.97,Boofighter,11949569,false
 2017,3174.4,Promaxima Manufacturing,606673937,true
@@ -2440,16 +2440,16 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,17013,San Diego Association of Governments,94016941,true
 2017,19755.84,"HDR Environmental, Operations and Construction",785918954,true
 2017,14880,ABM Industries,6911622,true
-2017,129256,Tu,161084421,false
+2017,129256,TU,161084421,false
 2017,760,Lincoln Moving & Storage of Buffalo,9853045,false
-2017,55368,Ml Click Marketing,12480808,true
+2017,55368,ML Click Marketing,12480808,true
 2017,9422.03,Atlantic Diving Supply,27079776,true
 2017,19102.05,Ecology MIR Group,79812302,true
 2017,3657.53,TRS,98253771,false
 2017,8323.2,Outlook-Nebraska,1807549,true
 2017,22923.24,Time Warner Cable Enterprises,790784474,true
 2017,4268.32,Star Poly Bag,1376565,true
-2017,9320,"Howell, Nathaniel",80526889,true
+2017,9320,Nathaniel Howell,80526889,true
 2017,65200,V.H. Blackinton & Co.,1197789,true
 2017,353.64,Time Warner Cable,75165949,false
 2017,24265.2,Time Warner Cable,75165949,false
@@ -2475,7 +2475,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,9640.8,Crossroads Courier,46198011,true
 2017,12500,Relx,877672683,true
 2017,15527.97,National Industries for the Blind,1672120,true
-2017,3878,Ml Click Marketing,12480808,true
+2017,3878,ML Click Marketing,12480808,true
 2017,23686.8,Envision XPRESS,118860779,true
 2017,1497.16,Branded Global Partners,80354344,true
 2017,2904,River City Range,38524929,true
@@ -2497,21 +2497,21 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,143219,Centerra Group,73891921,false
 2017,7520.96,Ceia USA,176329795,false
 2017,23562,Whitaker Brothers Business Machines,24292732,true
-2017,12704.58,Reconrobotics,191067664,true
+2017,12704.58,ReconRobotics,191067664,true
 2017,8213950.12,Forfeiture Support Associates,134510648,true
 2017,5078,Whitaker Brothers Business Machines,24292732,true
-2017,4875,Reconrobotics,191067664,true
+2017,4875,ReconRobotics,191067664,true
 2017,13261582.79,SRA International,97779698,true
-2017,13290.94,Reconrobotics,191067664,true
+2017,13290.94,ReconRobotics,191067664,true
 2017,37392,Sharp Electronics Corporation,1818012,true
 2017,3220713.43,Corp Ten International,112996327,true
 2017,6956,l & R manufacturing co,2176741,false
 2017,14160,Lexmark International,623331717,true
 2017,200966.74,JTF Business Systems Corporation,948396890,true
-2017,13632.99,Reconrobotics,191067664,true
+2017,13632.99,ReconRobotics,191067664,true
 2017,8559302.4,Arc Aspicio,168719552,true
 2017,17533,iRobot Corporation,807380951,true
-2017,23300,Reconrobotics,191067664,true
+2017,23300,ReconRobotics,191067664,true
 2017,1592961.6,Pierce Manufacturing,6126999,true
 2017,10210.08,Govplace,957050883,true
 2017,2061067.06,Parker Tide,9043600,true
@@ -2533,14 +2533,14 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,3175,JTF Business Systems Corporation,948396890,true
 2017,817208.33,SRA International,97779698,true
 2017,989195.73,Gemini Industries,197503212,true
-2017,624000,Ems Safety Services,878854504,true
+2017,624000,EMS Safety Services,878854504,true
 2017,2992871.19,Conduit Language Specialists,5065946,true
 2017,3726547.47,Legal Interpreting Services,965603293,true
 2017,8712091.66,Metropolitan Interpreters & Translators,186945325,true
 2017,5373200.33,M V M,38049532,true
-2017,1972592.04,Allworld Language Consultants,949873624,true
+2017,1972592.04,AllWorld Language Consultants,949873624,true
 2017,4050.37,Breaching Technologies,168091937,true
-2017,398206.01,Pat V. Mack,963846097,true
+2017,398206.01,Pat V. MacK,963846097,true
 2017,37870.76,Forfeiture Support Associates,134510648,true
 2017,2850082.92,Integral Consulting Services,18193669,true
 2017,768611.96,Ardent Management Consulting,617942987,true
@@ -2551,7 +2551,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,213860,VF Imagewear,4048013,true
 2017,23094,Sandoval Custom Creations,958313769,true
 2017,2220200,Harris Corporation,21715206,true
-2017,1000,"Donoghue, John M",148076107,true
+2017,1000,John M. Donoghue,148076107,true
 2017,814699.92,National Cyber-Forensics and Training Alliance.,191665814,false
 2017,287979.56,Broadcast Microwave Services,32006470,true
 2017,81400,JDL Digital Systems,165449872,true
@@ -2569,7 +2569,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,41492.8,Xerox Corporation,39860122,true
 2017,9457.54,Konica Minolta Business Solutions USA.,626578041,true
 2017,14324,Crime Point,66088902,true
-2017,90252.51,Cbt Nuggets,784227402,true
+2017,90252.51,CBT Nuggets,784227402,true
 2017,10033,Xerox Corporation,39860122,true
 2017,5652.49,Konica Minolta Business Solutions USA.,626578041,true
 2017,211033.05,Exxact Corporation,788479368,true
@@ -2577,7 +2577,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,2095000,Keypoint Government Solutions,152867235,true
 2017,500000,MSM Security Services,33892381,true
 2017,3287054,CSRA,79735371,true
-2017,2750954,Adc LTD Nm,146389994,true
+2017,2750954,Adc LTD NM,146389994,true
 2017,7550,Benefit Planning,790801765,true
 2017,10143,Fox River Graphics,155143050,true
 2017,3991.22,Net Direct Systems,54007823,true
@@ -2617,7 +2617,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,299840.52,Net Direct Systems,54007823,true
 2017,4149,Conference Technologies,619503634,true
 2017,155180.62,Net Direct Systems,54007823,true
-2017,6120,Wecsys,836284091,true
+2017,6120,WECsys,836284091,true
 2017,205154.04,Net Direct Systems,54007823,true
 2017,22080.87,Net Direct Systems,54007823,true
 2017,118358.1,Net Direct Systems,54007823,true
@@ -2656,7 +2656,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,9103.17,Konica Minolta Business Solutions USA.,626578041,true
 2017,592351.28,Integral Consulting Services,18193669,true
 2017,3977.21,Konica Minolta Business Solutions USA.,626578041,true
-2017,2065734.93,Allworld Language Consultants,949873624,true
+2017,2065734.93,AllWorld Language Consultants,949873624,true
 2017,5690057.74,M V M,38049532,true
 2017,4697967.12,Metropolitan Interpreters & Translators,186945325,true
 2017,2817232.19,Conduit Language Specialists,5065946,true
@@ -2701,7 +2701,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,6042,Xerox Corporation,39860122,true
 2017,24510,Focus Camera,147996417,true
 2017,423786.3,Parker Tide,9043600,true
-2017,3299.45,Ase Direct,616385667,true
+2017,3299.45,ASE Direct,616385667,true
 2017,849520,SRA International,97779698,true
 2017,3315,H Squared,63079268,true
 2017,10026,Ricoh USA,43964519,true
@@ -2709,7 +2709,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,4454.44,GPS Intelligence,153956417,true
 2017,75869.38,Vastec,808137546,true
 2017,53922.9,Govplace,957050883,true
-2017,2273245.75,Adc LTD Nm,146389994,true
+2017,2273245.75,Adc LTD NM,146389994,true
 2017,5531,Xerox Corporation,39860122,true
 2017,707880,HR Anew,115415338,true
 2017,974139,Adaptive Digital Systems,43957141,true
@@ -2921,7 +2921,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,1109156.04,KCorp Support Services,790993252,true
 2017,4933310.2,OMNIPLEX World Services Corporation,619712672,true
 2017,4933310.2,Keypoint Government Solutions,152867235,true
-2017,4933310.2,Adc LTD Nm,146389994,true
+2017,4933310.2,Adc LTD NM,146389994,true
 2017,1233327.55,MSM Security Services,33892381,true
 2017,8633292.85,CSRA,79735371,true
 2017,4735.68,Benefit Planning,790801765,true
@@ -2943,7 +2943,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,11743.65,Joliva Trucking,828709589,true
 2017,5874.27,Future Fibre Technologies USA,602667839,true
 2017,35700,Simon Wiesenthal Center,151580305,true
-2017,2568.8,"Marquardt, Jennifer",80688784,false
+2017,2568.8,Jennifer Marquardt,80688784,false
 2017,,Ben Fitzgerald Real Estate Services,53117149,true
 2017,5247,Whitaker Brothers Business Machines,24292732,true
 2017,,Vista Outdoor Sales,79331239,true
@@ -2987,9 +2987,9 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,7307.13,Vista Outdoor Sales,79331239,true
 2017,213156.42,Olin Corporation,88736686,true
 2017,46468.86,Urban Adventures at Gallery Place,787815542,true
-2017,1793.6,Aeec,36279193,true
+2017,1793.6,AEEC,36279193,true
 2017,832754,Remington Arms Company,1453216,true
-2017,37913811.53,Caci-Iss,616205675,true
+2017,37913811.53,CACI-ISS,616205675,true
 2017,6974.89,Knight’s Armament Company,54038138,true
 2017,4120,Remington Arms Company,1453216,true
 2017,139460.7,Aardvark,861004349,true
@@ -3030,11 +3030,11 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,19289747.87,M V M,38049532,true
 2017,98312.73,Spacesaver Storage Systems,796830029,true
 2017,14899.2,Varidesk,79464963,true
-2017,216776.84,Reconrobotics,191067664,true
+2017,216776.84,ReconRobotics,191067664,true
 2017,41535,A2Z Supply,808414531,true
 2017,3820823.6,Deloitte Consulting,19121586,true
 2017,60593.76,USATactical Supply,21725457,true
-2017,19288.7,Mmi Outdoor,621407980,true
+2017,19288.7,MMI Outdoor,621407980,true
 2017,29639.61,Bottom Line Military Sales,146850255,true
 2017,3807113.64,Deloitte Consulting,19121586,true
 2017,2598.75,Chief Supply Corporation,929305191,true
@@ -3056,7 +3056,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,616896.56,Knight’s Armament Company,54038138,true
 2017,363307.25,Vista Outdoor Sales,79331239,true
 2017,97500,Urban Adventures at Gallery Place,787815542,true
-2017,82562.55,Lc Industries,962257445,true
+2017,82562.55,LC Industries,962257445,true
 2017,558785,Colt Defense,121396217,true
 2017,11310.6,Vista Outdoor Sales,79331239,true
 2017,15035.52,Vista Outdoor Sales,79331239,true
@@ -3066,8 +3066,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,649765.78,Vista Outdoor Sales,79331239,true
 2017,15787.38,Vista Outdoor Sales,79331239,true
 2017,90919.8,Olin Corporation,88736686,true
-2017,3522.6,Npee,831108928,true
-2017,2717.28,Ruag Ammotec USA,832426261,true
+2017,3522.6,NPEE,831108928,true
+2017,2717.28,RUAG Ammotec USA,832426261,true
 2017,3870,Vista Outdoor Sales,79331239,true
 2017,68694.96,Olin Corporation,88736686,true
 2017,3030.66,Olin Corporation,88736686,true
@@ -3187,14 +3187,14 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,71949.8,Atlantic Diving Supply,27079776,true
 2017,5583.76,Rosamilia Builders,959263484,true
 2017,12350,Nosler,9028176,true
-2017,6699.69,Mccall Handling Co.,2544492,false
+2017,6699.69,McCall Handling Co.,2544492,false
 2017,145748.12,Point Blank Enterprises,78855857,true
 2017,20837.84,United Tactical Systems,78537385,true
 2017,24263.2,Atlantic Diving Supply,27079776,true
 2017,107600,Glock,148099450,true
 2017,20118,A2Z Supply,808414531,true
 2017,149310,B5 Systems,828777867,true
-2017,21991.43,"Aiken, R P & Son",49671092,true
+2017,21991.43,R. P. Aiken & Son,49671092,true
 2017,37133.6,A2Z Supply,808414531,true
 2017,6122.5,Combined Systems,57223794,true
 2017,59068.7,Ultimate Training Munitions,782677426,false
@@ -3222,9 +3222,9 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,13456,Breaching Technologies,168091937,true
 2017,4595.41,Securityhunter,610626798,false
 2017,8328.06,Anchortex Corporation,615503877,false
-2017,18981.87,4imprint,122071905,false
+2017,18981.87,4Imprint,122071905,false
 2017,4339.54,Document Imaging Dimensions,38062712,true
-2017,4356.54,4imprint,122071905,false
+2017,4356.54,4Imprint,122071905,false
 2017,58079.42,Signature Technology Solutions,90599171,false
 2017,90576.18,Signature Technology Solutions,90599171,false
 2017,6896037.76,General Dynamics Information Technology,67641597,false
@@ -3233,7 +3233,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,1695631.4,Barling Bay,135726185,true
 2017,57136745.01,Savantage Financial Services,878187012,true
 2017,61356488.28,Phacil,54885111,true
-2017,2434946.83,Clearavenue,124289708,true
+2017,2434946.83,clearAvenue,124289708,true
 2017,66673.56,Net Direct Systems,54007823,true
 2017,394843.12,Palantir Technologies,362130952,true
 2017,3934.2,Net Direct Systems,54007823,true
@@ -3256,8 +3256,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,14888.96,Net Direct Systems,54007823,true
 2017,5341.6,Net Direct Systems,54007823,true
 2017,25152.92,Net Direct Systems,54007823,true
-2017,12114489.17,Jsi Telecom,148025380,false
-2017,,Palantir Usg,825284321,true
+2017,12114489.17,JSI Telecom,148025380,false
+2017,,Palantir USG,825284321,true
 2017,8680.1,Net Direct Systems,54007823,true
 2017,8375.04,Net Direct Systems,54007823,true
 2017,9674.2,Net Direct Systems,54007823,true
@@ -3274,7 +3274,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,455550.77,PG Public Services,133661020,true
 2017,3665863.39,Visionary Integration Professionals,36943280,true
 2017,2385323.52,Sevatec,132599668,true
-2017,,Xrad Tele-Services,167448955,true
+2017,,XRAD Tele-Services,167448955,true
 2017,124800,Indev,78577552,true
 2017,15839223,Defense Point Security,832904770,true
 2017,258672.49,ESCgov,136155178,true
@@ -3282,14 +3282,14 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,74219.02,Govplace,957050883,true
 2017,2679505.8,Microsoft Corporation Sitz in Redmond Corporation,81466849,true
 2017,23965006.34,Dev Technology Group,105667401,true
-2017,6703847.92,Qbase-McNeil Integrated Solutions,961746620,true
+2017,6703847.92,QBASE-McNeil Integrated Solutions,961746620,true
 2017,24293923.61,Knight Point Systems,622594492,true
 2017,5553910.8,Tri-Cor Industries,146881875,true
 2017,3353415.04,360 IT Integrated Solutions,962373515,true
 2017,3931369.86,Dev Technology Group,105667401,true
 2017,8941012.49,Dev Technology Group,105667401,true
 2017,3000806.8,Mythics,13358002,true
-2017,315360.5,Green It Systems Group,966572682,true
+2017,315360.5,Green IT Systems Group,966572682,true
 2017,3297,Chainalysis,79827246,true
 2017,407000,Fileonq,179886916,true
 2017,3482154.79,Booz Allen Hamilton,6928857,true
@@ -3625,7 +3625,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,62509.59,Avaya Federal Solutions,790472240,true
 2017,31149.12,Avaya Federal Solutions,790472240,true
 2017,5328,Executive Information Systems,938289527,true
-2017,109150,HRWorx,130902872,false
+2017,109150,HRWORX,130902872,false
 2017,7334.5,Avaya Federal Solutions,790472240,true
 2017,15376.71,Advantage Technologies,150736700,false
 2017,29553.88,Avaya Federal Solutions,790472240,true
@@ -3890,7 +3890,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,116956.68,Dell Federal Systems,149530219,true
 2017,117450,Anacapa Micro Products,556496370,true
 2017,6169.18,Govplace,957050883,true
-2017,3289.5,Mcp Computer Products,22567908,true
+2017,3289.5,McP Computer Products,22567908,true
 2017,140988,Blue Tech,121701957,true
 2017,7106.62,FS Partners,78374094,true
 2017,39449.2,Anacapa Micro Products,556496370,true
@@ -3923,7 +3923,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,2207,Anacapa Micro Products,556496370,true
 2017,8220.61,Optivor Technologies,112865048,true
 2017,251800,Copper River Enterprise Services,79463764,true
-2017,6502.08,Dialtoneservices,80388745,true
+2017,6502.08,DialToneServices,80388745,true
 2017,6538.38,Coxcom,71172589,true
 2017,3359.54,Jetico,540775988,false
 2017,4970.36,B & H Foto & Electronics,116012659,false
@@ -3946,7 +3946,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,3096,Eastern Carolina Vocational Center,75553560,true
 2016,7485,Security Engineered Machinery Co.,5957329,true
 2016,11981.55,National Business Furniture,76164771,true
-2016,4770,Nyp,1774090,false
+2016,4770,NYP,1774090,false
 2016,10650,The  American Correctional Association,74811571,true
 2016,21376.62,The  Arc of Cumberland and Perry Counties,71191787,true
 2016,10517.22,Eaton Corporation,38006110,false
@@ -3972,8 +3972,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,11490,Strong Group,57823684,true
 2016,2401,Electronic Data Carriers,87716924,false
 2016,7327.8,Caprice Electronics,92658152,true
-2016,10157.2,Ml Click Marketing,12480808,true
-2016,2863.4,Ml Click Marketing,12480808,true
+2016,10157.2,ML Click Marketing,12480808,true
+2016,2863.4,ML Click Marketing,12480808,true
 2016,5760,Millennium Health & Fitness,26173034,true
 2016,21529.44,Bob Barker Company,58525536,true
 2016,5520,Star Poly Bag,1376565,true
@@ -3993,10 +3993,10 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,7717.65,Buckstaff Public Safety,76881627,false
 2016,8067.1,Tactical & Survival Specialties,607775848,true
 2016,19699.5,Uniforms Manufacturing,98009814,true
-2016,4842.76,Capp,14654966,false
-2016,6709.53,Ml Click Marketing,12480808,true
+2016,4842.76,CAPP,14654966,false
+2016,6709.53,ML Click Marketing,12480808,true
 2016,6792,Caprice Electronics,92658152,true
-2016,17925.14,Ml Click Marketing,12480808,true
+2016,17925.14,ML Click Marketing,12480808,true
 2016,8742.39,Justice Packaging Corporation,783194087,true
 2016,14530,Uniforms Manufacturing,98009814,true
 2016,7454.2,Premier & Companies,784141384,true
@@ -4005,7 +4005,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,9449.82,Ellison Systems,942173550,false
 2016,6523.2,Bob Barker Company,58525536,true
 2016,16836.82,Ellison Systems,942173550,false
-2016,7560,Ml Click Marketing,12480808,true
+2016,7560,ML Click Marketing,12480808,true
 2016,1885.5,Uniforms Manufacturing,98009814,true
 2016,5640,Galls,42598482,true
 2016,2562,SEVA Technical Services,807941625,false
@@ -4055,7 +4055,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,24449,Cicely B Hudson Solutions,79239061,false
 2016,6102.62,Smiths Detection,194239018,false
 2016,15463.12,Asso for the Blind and Visually Impaired-Goodwill Industries of Greater Rochester,73695165,true
-2016,6667.44,Ml Click Marketing,12480808,true
+2016,6667.44,ML Click Marketing,12480808,true
 2016,5275,R A Mechanical & Sons,932463313,true
 2016,21250,The  Highlands Ranch Law Enforcement Training Foundation,126111272,true
 2016,4081.8,Phoenix Textile Corporation,103202859,false
@@ -4094,8 +4094,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,200000,Selex ES,198749777,false
 2016,35416,Brede-Washington,3250552,true
 2016,16455,Brantley Bros Moving & Stor Co,51266187,false
-2016,14408,Kp Electronics,76524429,false
-2016,11309.4,Ml Click Marketing,12480808,true
+2016,14408,KP Electronics,76524429,false
+2016,11309.4,ML Click Marketing,12480808,true
 2016,1530.48,Canal Alarm Devices,103280830,false
 2016,15767.73,Ecology MIR Group,79812302,true
 2016,3335,Beacon Telecom,873107627,true
@@ -4117,10 +4117,10 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,15580.2,Federal Prison Industries,103385519,true
 2016,2510.8,A1 Tech Pal,80306134,false
 2016,16157.96,M.A.N.S. Distributors,601903479,false
-2016,13144.32,Ml Click Marketing,12480808,true
+2016,13144.32,ML Click Marketing,12480808,true
 2016,3680,Star Poly Bag,1376565,true
 2016,50400,Federal Prison Industries,626627459,true
-2016,14881.44,Ml Click Marketing,12480808,true
+2016,14881.44,ML Click Marketing,12480808,true
 2016,11558.85,Textron,23211535,true
 2016,11428.13,N California Regional Public Safety Training Authority,147851054,true
 2016,857201.75,Starside Security and Investigation,97786441,true
@@ -4148,7 +4148,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,3986.93,Konica Minolta Business Solutions USA.,626578041,true
 2016,9250,Tab Products Co,9154659,true
 2016,4202.04,Konica Minolta Business Solutions USA.,626578041,true
-2016,14655.06,Reconrobotics,191067664,true
+2016,14655.06,ReconRobotics,191067664,true
 2016,4380.59,Xerox Corporation,39860122,true
 2016,11117.7,Ricoh USA,43964519,true
 2016,13041.16,Canon USA.,116194192,true
@@ -4164,7 +4164,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,7366.5,Ricoh USA,43964519,true
 2016,7231.32,Konica Minolta Business Solutions USA.,626578041,true
 2016,6532.03,Canon USA.,116194192,true
-2016,624000,Ems Safety Services,878854504,true
+2016,624000,EMS Safety Services,878854504,true
 2016,2424,Ricoh USA,43964519,true
 2016,6876.89,Botach,965068661,false
 2016,8299.9,Optim,52927001,false
@@ -4222,7 +4222,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,8417,Karda Systems,808474212,false
 2016,4884.98,Supreme Security Systems,945163509,true
 2016,4800,Luella Nelson,105683390,false
-2016,1000,"Donoghue, John M",148076107,true
+2016,1000,John M. Donoghue,148076107,true
 2016,60335,Caribbean School,90111733,true
 2016,11580,The  Palmas Academy,792851032,true
 2016,4665,"Gulf Breeze Properties, Ii",156123916,false
@@ -4308,9 +4308,9 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,43116.41,Datum Filing Systems,61974549,true
 2016,17378,Graduate School,40535536,true
 2016,9215,Qualification Targets,11457723,true
-2016,85484,Ceb,184779924,true
+2016,85484,CEB,184779924,true
 2016,115460,Elevation,144184392,true
-2016,23530.97,Aeec,36279193,true
+2016,23530.97,AEEC,36279193,true
 2016,894909.57,Solutions Through Innovative Technologies,3592412,true
 2016,26589.14,Allclear ID,790818772,true
 2016,9229.3,Aardvark,861004349,true
@@ -4345,7 +4345,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,213156.42,Olin Corporation,88736686,true
 2016,445346.25,Remington Arms Company,1453216,true
 2016,46468.86,Urban Adventures at Gallery Place,787815542,true
-2016,1793.6,Aeec,36279193,true
+2016,1793.6,AEEC,36279193,true
 2016,53672.64,Vista Outdoor Sales,79331239,true
 2016,25705,Atlantic Diving Supply,27079776,true
 2016,832754,Remington Arms Company,1453216,true
@@ -4386,7 +4386,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,9200,National Sheriffs’ Association,20291605,true
 2016,4475,Potomac Forum,11667040,false
 2016,4958,Bovard,38973392,true
-2016,27405,BML Tool & Mfg,46420766,false
+2016,27405,BML Tool & MFG,46420766,false
 2016,11310,Insyte,167095418,false
 2016,8703,City of Hurst,73155822,false
 2016,146642.03,KCorp Support Services,790993252,true
@@ -4431,7 +4431,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,4926.2,Vista Outdoor Sales,79331239,true
 2016,10000,Out & Equal Workplace Advocates,114129591,true
 2016,61356488.28,Phacil,54885111,true
-2016,6913426.23,Clearavenue,124289708,true
+2016,6913426.23,clearAvenue,124289708,true
 2016,67373.64,N2grate Government Technology Solutions,963510578,true
 2016,3665863.39,Visionary Integration Professionals,36943280,true
 2016,203682.5,Net Direct Systems,54007823,true
@@ -4463,7 +4463,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,10051.2,Mythics,13358002,true
 2016,13086.21,Snap,7805067,true
 2016,3000806.8,Mythics,13358002,true
-2016,315360.5,Green It Systems Group,966572682,true
+2016,315360.5,Green IT Systems Group,966572682,true
 2016,18814.52,Cloudburst Technologies,192942972,false
 2016,3297,Chainalysis,79827246,true
 2016,54923659.64,Widepoint Integrated Solutions,4693904,true
@@ -4501,7 +4501,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,27861.67,Avaya Federal Solutions,790472240,true
 2016,32168.55,Avaya Federal Solutions,790472240,true
 2016,16831,Annams Systems Corporation,869159897,true
-2016,66495,Faac,175204163,false
+2016,66495,FAAC,175204163,false
 2016,9375.4,Avaya Federal Solutions,790472240,true
 2016,6371.36,Avaya Federal Solutions,790472240,true
 2016,51751.8,Avaya Federal Solutions,790472240,true
@@ -4558,7 +4558,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,140943.68,IMPRES Technology Solutions,11182784,true
 2016,26366.4,ESCgov,136155178,true
 2016,11410.87,Panamerica Computers,166669742,true
-2016,3412.7,Mcp Computer Products,22567908,true
+2016,3412.7,McP Computer Products,22567908,true
 2016,4768.43,Panamerica Computers,166669742,true
 2016,57210.5,Government Acquisitions,603814054,true
 2016,24613.7,Akira Technologies,605928246,true
@@ -4601,7 +4601,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,96912.8,Anacapa Micro Products,556496370,true
 2016,337665.08,Net Direct Systems,54007823,true
 2016,30566,New Tech Solutions,20149303,true
-2016,12408,Mcp Computer Products,22567908,true
+2016,12408,McP Computer Products,22567908,true
 2016,872.18,Net Direct Systems,54007823,true
 2016,7261.98,Net Direct Systems,54007823,true
 2016,1398732.09,Unicom Government,107939357,true
@@ -4756,7 +4756,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,139500,FCN,615378007,true
 2016,5444.01,FCN,615378007,true
 2016,56016.9,Net Direct Systems,54007823,true
-2016,14604.72,Green It Systems Group,966572682,true
+2016,14604.72,Green IT Systems Group,966572682,true
 2016,18700,Blue Tech,121701957,true
 2016,9971.94,Akira Technologies,605928246,true
 2016,29130,Net Direct Systems,54007823,true
@@ -4848,7 +4848,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,9476.04,Dell Federal Systems,149530219,true
 2016,76020.11,Dell Federal Systems,149530219,true
 2016,4544,Valdata Telecom,830952458,true
-2016,7750,Msab,831301762,false
+2016,7750,MSAB,831301762,false
 2016,25920,Pacific Datacom Systems,144376696,false
 2016,1386.65,Anacapa Micro Products,556496370,true
 2016,6975,Beacon Telecom,873107627,true
@@ -4862,7 +4862,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,14190.07,Integrated Exhibits,157597522,false
 2016,30489.65,Beacon Telecom,873107627,true
 2016,70680,Recall Technologies,949171268,false
-2016,21450,Cjen,137200726,false
+2016,21450,CJEN,137200726,false
 2016,7520,Digital Receiver Technology,4946075,true
 2016,12990,Sumuri,968093398,true
 2016,2141.81,Delitor,65717948,false
@@ -4876,7 +4876,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,62048.58,Lafayette Instrument Company,5080650,false
 2016,84850,Hunter Systems Group,197071892,false
 2016,10000,Tinfoil Security,927481239,true
-2016,6108,Dialtoneservices,80388745,true
+2016,6108,DialToneServices,80388745,true
 2015,169207287.3,Spectrum Security Services,618954465,true
 2015,8955,Flytecomm,946075330,false
 2015,11655,SPS Industrial,167960462,false
@@ -4921,7 +4921,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,103194.63,Net Direct Systems,54007823,true
 2015,6921.53,County of Pinal,74447095,true
 2015,3478.22,Johnson Controls Security Solutions,7507671,true
-2015,5000,"Radvany, Paul",79944512,true
+2015,5000,Paul Radvany,79944512,true
 2015,6172000.41,All Points Logistics,968451591,true
 2015,162378.93,BAE Systems Protection Systems,807545538,true
 2015,530947.28,Deva & Associates,789017506,true
@@ -4979,7 +4979,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,24584283.36,The  Mitre Corporation,40540304,true
 2015,61356488.28,Phacil,54885111,true
 2015,12080065.52,Palantir Technologies,362130952,true
-2015,1434219.84,BRMi CONSULTING,151288037,true
+2015,1434219.84,BRMI CONSULTING,151288037,true
 2015,819430.26,Evigilant.com,125744040,true
 2015,883.56,Net Direct Systems,54007823,true
 2015,9312.66,Net Direct Systems,54007823,true
@@ -5323,7 +5323,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,18112.2,Net Direct Systems,54007823,true
 2014,169207287.3,Spectrum Security Services,618954465,true
 2014,8663.15,Document Imaging Dimensions,38062712,true
-2014,50050874.32,Csi Aviation,102793460,true
+2014,50050874.32,CSI Aviation,102793460,true
 2014,6039453.59,Creative Corrections,143530926,true
 2014,3918900.07,Booz Allen Hamilton,6928857,true
 2014,2694,Whitaker Brothers Business Machines,24292732,true
@@ -5349,7 +5349,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2014,2136489.02,G4S Secure Solutions USA,1903723,true
 2014,50947.69,G4S Secure Solutions USA,1903723,true
 2014,37080,ACT Services,78360656,true
-2014,1837,"Environmental Quality, Texas Commission on",808805154,true
+2014,1837,Texas Commission on Environmental Quality,808805154,true
 2014,4940,Shred-It USA,176091424,false
 2014,18691353.02,Universal Language Corporation,961404241,false
 2014,1853408.05,Spectrum Security Services,618954465,true
@@ -5385,12 +5385,12 @@ fiscalYear,currentValue,name,duns,multiYear
 2014,12000,Vermont State Colleges,807840608,true
 2014,1695631.4,Barling Bay,135726185,true
 2014,61356488.28,Phacil,54885111,true
-2014,2434946.83,Clearavenue,124289708,true
+2014,2434946.83,clearAvenue,124289708,true
 2014,12080065.52,Palantir Technologies,362130952,true
-2014,1434219.84,BRMi CONSULTING,151288037,true
+2014,1434219.84,BRMI CONSULTING,151288037,true
 2014,819430.26,Evigilant.com,125744040,true
 2014,1222.9,Net Direct Systems,54007823,true
-2014,6913426.23,Clearavenue,124289708,true
+2014,6913426.23,clearAvenue,124289708,true
 2014,238789.23,Level 3 Communications,73090917,true
 2014,710067.74,International Business Machines Corporation,835130485,true
 2014,8680.1,Net Direct Systems,54007823,true

@@ -426,7 +426,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Mmi Outdoor",
+          "name": "MMI Outdoor",
           "value": 38576
         },
         "dom_id": "district-alabama-2",
@@ -11900,7 +11900,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Palmer, Paul",
+          "name": "Paul Palmer",
           "value": 34306
         },
         "dom_id": "district-arizona-1",
@@ -20211,7 +20211,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Xrad Tele-Services",
+          "name": "XRAD Tele-Services",
           "value": 2467760
         },
         "dom_id": "district-california-49",
@@ -22855,7 +22855,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "BML Tool & Mfg",
+          "name": "BML Tool & MFG",
           "value": 27405
         },
         "dom_id": "district-connecticut-4",
@@ -23384,7 +23384,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "no-rep",
         "profiteer": {
-          "name": "Mckinsey & Company, Inc. Washington D.C.",
+          "name": "McKinsey & Company",
           "value": 43867737
         },
         "dom_id": "district-districtofcolumbia-98",
@@ -40316,7 +40316,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Macro Companies",
+          "name": "MacRo Companies",
           "value": 204900
         },
         "dom_id": "district-louisiana-3",
@@ -41047,7 +41047,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Cookie’s Dme",
+          "name": "Cookie’s DME",
           "value": 7470
         },
         "dom_id": "district-louisiana-5",
@@ -48959,7 +48959,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Faac",
+          "name": "FAAC",
           "value": 66495
         },
         "dom_id": "district-michigan-12",
@@ -58679,7 +58679,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Csi Aviation",
+          "name": "CSI Aviation",
           "value": 972882715
         },
         "dom_id": "district-newmexico-1",
@@ -62640,7 +62640,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "republican",
         "profiteer": {
-          "name": "NterOne Corporation",
+          "name": "NTERONE Corporation",
           "value": 19908
         },
         "dom_id": "district-northcarolina-3",
@@ -66622,7 +66622,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Tu",
+          "name": "TU",
           "value": 129256
         },
         "dom_id": "district-ohio-13",
@@ -72641,7 +72641,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Pma-13",
+          "name": "PMA-13",
           "value": 8849
         },
         "dom_id": "district-pennsylvania-15",
@@ -76725,7 +76725,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Ase Direct",
+          "name": "ASE Direct",
           "value": 6598
         },
         "dom_id": "district-tennessee-7",
@@ -85910,7 +85910,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Smartystreets",
+          "name": "SmartyStreets",
           "value": 100000
         },
         "dom_id": "district-utah-3",
@@ -93117,7 +93117,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "republican",
         "profiteer": {
-          "name": "Clearavenue",
+          "name": "clearAvenue",
           "value": 20740278
         },
         "dom_id": "district-westvirginia-1",
