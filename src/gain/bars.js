@@ -32,7 +32,7 @@ export default function(width, height) {
   const svg = select("#gain-bars-svg")
     .attr("height", height)
     .attr("width", width);
-  const margins = { bottom: 35, left: 70, right: 15 };
+  const margins = { bottom: 35, left: 65, right: 15 };
   const g = svg.append("g").attr("transform", `translate(${margins.left},0)`);
   const tip = Tip()
     .attr("class", "tooltip")
@@ -172,7 +172,7 @@ export default function(width, height) {
 
   valueText.style("text-anchor", "middle");
 
-  const babyHeight = 0.5 * (height / 2 - margins.bottom);
+  const babyHeight = 0.7 * (height / 2 - margins.bottom);
 
   const babyY = scaleBand()
     .rangeRound([0, babyHeight])
