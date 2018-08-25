@@ -8,10 +8,10 @@ import getOrdinalSuffixOrig from "./get-ordinal-suffix";
 import titleUpOrig from "./title-up";
 
 export function moveLegend() {
-  let displacedHeight = $(window).height() - $("#legend").height();
+  let displacedHeight = $(window).height() - $("#legend").height() - 1.25 * rem;
   displacedHeight = L.Browser.mobile
-    ? displacedHeight - 18
-    : displacedHeight - $(".leaflet-control-attribution").height() - 18;
+    ? displacedHeight
+    : displacedHeight - $(".leaflet-control-attribution").height();
   $("#legend").css("top", displacedHeight);
 }
 
