@@ -6,7 +6,7 @@ import { rem } from "./constants";
 export function handleMouseOver(d) {
   let pageX, pageY;
   let minWidth = 10 * rem;
-  let maxWidth = 28 * rem;
+  let maxWidth = 20 * rem;
   if (L.Browser.mobile) {
     pageX = 1 * rem;
     pageY = 4.5 * rem;

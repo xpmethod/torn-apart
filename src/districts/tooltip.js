@@ -20,12 +20,15 @@ export default function(geoJSONFeature) {
       "ta-ice-money-since-2013-tooltip"
     )}:<br/><strong>$${bigMoneyFormat(d.total_value)}</strong></h3>`
   );
-  if (d.representative) {
-    if (d.representative_photo_url) {
-      html.push(`<img src="${d.representative_photo_url}" 
+  html.push("<div class='row'>");
+  html.push("<div class='pr-0 col-md-4 col-3'>");
+  if (d.representative_photo_url) {
+    html.push(`<img src="${d.representative_photo_url}" 
         alt="Photo of ${d.representative}" 
-        class="rounded float-left mr-3">`);
-    }
+        class="img-fluid rounded">`);
+  }
+  html.push("</div><div class='col-md-8 col-9'>");
+  if (d.representative) {
     html.push(`<h4><strong>${$.i18n(`ta-${d.party}-cong`)}</strong></h4>`);
     html.push(`<h4>${d.representative}</h4>`);
   } else {
@@ -33,6 +36,7 @@ export default function(geoJSONFeature) {
   }
   html.push(`<h4><br />${$.i18n("ta-districts-biggest-profiteer")}:<br />
       ${d.profiteer.name}, $${bigMoneyFormat(d.profiteer.value)}</h4>`);
+  html.push("</div></div>"); // close column and row
   return html.join("\n");
 }
 // vG"properties": {
