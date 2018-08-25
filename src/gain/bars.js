@@ -94,8 +94,9 @@ export default function(width, height) {
     .text(d => $.i18n(`ta-${d}-owned-label`))
     .classed("wrapped", true)
     .attr("data-i18n", d => `ta-${d}-owned-label`)
+    // .attr("dy", ++lineNumber * lineHeight + dy + "em")
+    .attr("data-wrap-align", "vertical")
     .attr("data-wrap-width", 50);
-  // .call(wrap, 50);
 
   g.append("g")
     .attr("class", "axis")
