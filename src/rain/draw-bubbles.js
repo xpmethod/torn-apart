@@ -1,27 +1,29 @@
 import $ from "jquery";
 import _ from "lodash";
+import L from "leaflet";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX } from "d3-force";
-import { format } from "d3-format";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import tip from "d3-tip";
 import { ckmeans } from "simple-statistics";
 import rainSizeLegend from "./size-legend";
 import addGlowFilter from "../add-glow-filter";
-import { fillV2DivHeight } from "../utils";
 import { rem, green, purple } from "../constants";
+import { bigMoneyFormat } from "../utils";
 import Data from "../../data/rain/rainData.csv";
 import spinner from "../spinner";
 
 export default function() {
   const width = $("#rain-viz").width();
-  const height = fillV2DivHeight("#rain-header");
+  const height = $("#v2-div").height() - $("#rain-header").height() - rem;
   const svg = addGlowFilter(select("#rain-svg"))
     .attr("width", width)
     .attr("height", height);
   const bins = ckmeans(Data.map(d => d.currentValue), 5);
   bins.shift();
-  const circleSizes = [1.5, 10, 20, 30, 40];
+  const circleSizes = L.Browser.mobile
+    ? [1.5, 5, 10, 15, 20]
+    : [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
     .range(circleSizes);
@@ -36,7 +38,7 @@ export default function() {
     .offset([-10, 0])
     .html(
       d => `<strong>${d.name}</strong><br />
-    &#36;${format(",")(Math.round(d.currentValue))}`
+    $${bigMoneyFormat(d.currentValue)}`
     );
   svg.call(theTip);
 
@@ -51,25 +53,35 @@ export default function() {
     2018: (scaled_width * (12 + 22 + 30 + 42 + 47)) / 155 + width / 15
   };
 
-  const yCenter = {
-    2014: height / 3.4,
-    2015: height / 2.8,
-    2016: height / 2.4,
-    2017: height / 2,
-    2018: height / 1.8
-  };
+  const yCenter = L.Browser.mobile
+    ? {
+        2014: height / 4,
+        2015: height / 3,
+        2016: height / 2.5,
+        2017: height / 2,
+        2018: height / 2
+      }
+    : {
+        2014: height / 3.4,
+        2015: height / 2.8,
+        2016: height / 2.4,
+        2017: height / 2,
+        2018: height / 1.8
+      };
+
+  const forces = L.Browser.mobile ? { x: 5.5, y: 0.07 } : { x: 0.8, y: 0.3 };
 
   var simulation = forceSimulation(Data)
     .force(
       "x",
       forceX()
-        .strength(0.8)
+        .strength(forces.x)
         .x(d => xCenter[d.fiscalYear])
     )
     .force(
       "y",
       forceY()
-        .strength(0.3)
+        .strength(forces.y)
         .y(d => yCenter[d.fiscalYear])
     )
     // .force("y", forceY(height/1.8).strength(0.3))
@@ -149,26 +161,33 @@ export default function() {
     .selectAll("circle")
     .attr("fill", purple);
 
-  const rainLegendWidth = $("#rain-size-legend")[0].getBBox().width;
-  _.each(
-    [{ text: "Unique contracts", y: 12 }, { text: "Renewed contracts", y: 35 }],
-    d => {
-      select("#rain-size-legend")
-        .select("g")
-        .append("text")
-        .attr("transform", `translate(${rainLegendWidth}, ${d.y})`)
-        .text(d.text);
-    }
-  );
+  _.each(["unique", "renewed"], d => {
+    select("#rain-size-legend")
+      .select("g")
+      .append("text")
+      // .attr("y", [...circleSizes].reverse()[0])
+      // this causes the three-long text to become two rows only.
+      .classed("rain-legend-extras", true)
+      .classed("wrapped", true)
+      .attr("id", `rain-legend-${d}`)
+      .attr("data-i18n", `ta-${d}-contracts`)
+      .attr("data-wrap-align", "vertical")
+      .attr("data-wrap-width", 50)
+      .attr("dy", "0.01")
+      .text();
+  });
+
+  const legendXShift = L.Browser.mobile ? 0 : 30;
 
   legendG
     .attr(
       "transform",
-      `translate(30, ${svg.attr("height") -
+      `translate(${legendXShift}, ${svg.attr("height") -
         $("#rain-legend")[0].getBBox().height})`
     )
     .selectAll(".legendTitle")
-    .attr("transform", "translate(0, -15)")
+    .attr("transform", "translate(0, -10)")
+    .attr("data-i18n", "ta-contract-value-and-type")
     .classed("subsubhead", true);
 
   select("#rain-size-legend .legendCells")

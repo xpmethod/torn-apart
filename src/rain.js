@@ -1,7 +1,9 @@
 import $ from "jquery";
 import drawBubbles from "./rain/draw-bubbles";
+import rainMoveLegendTexts from "./rain/move-legend-texts";
 import { resizeDivFromTop } from "./utils";
 import spinner from "./spinner";
+import updateTexts from "./update-texts";
 
 export default function() {
   if (!$("#spinner").length) {
@@ -16,5 +18,7 @@ export default function() {
     } else {
       spinner.stop();
     }
+    updateTexts();
+    rainMoveLegendTexts();
   });
 }
