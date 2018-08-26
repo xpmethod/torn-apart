@@ -5,8 +5,8 @@ import { parse, stringify } from "csv";
 import States from "../states";
 import _ from "lodash";
 
-// export default function(callback){
-export default function() {
+export default function(callback) {
+  // export default function() {
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if (err) throw err;
     parse(data, { columns: true }, (err, awards) => {
@@ -55,7 +55,7 @@ export default function() {
             err => {
               if (err) throw err;
               stdout.write("WE DID THE THIN CONTRACTS THING 🚀\n");
-              // callback();
+              callback();
             }
           ); // close writeFile callback.
         }
