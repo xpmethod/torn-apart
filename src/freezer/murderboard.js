@@ -1,4 +1,5 @@
 import _ from "lodash";
+import L from "leaflet";
 import { select, selectAll, event } from "d3-selection";
 import {
   forceSimulation,
@@ -188,7 +189,12 @@ export default function() {
   nodes.append("title").text(d => d.name);
 
   theZoom(svg);
-  theZoom.scaleTo(svg, 0.0001);
+
+  if (!L.Browser.mobile) {
+    theZoom.scaleTo(svg, 0.1);
+  } else {
+    theZoom.scaleTo(svg, 0.2);
+  }
 
   simulation.nodes(graph.nodes).on("tick", ticked);
 
