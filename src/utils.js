@@ -80,7 +80,7 @@ export function getOrdinalSuffix(n) {
 
 export function fillV2DivHeight(elementAbove) {
   if (L.Browser.mobile) {
-    return $(window).height / 2;
+    return $(window).height() / 2;
   } else {
     return $("#v2-div").height() - $(elementAbove).height() - rem;
   }

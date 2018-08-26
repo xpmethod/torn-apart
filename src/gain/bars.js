@@ -1,4 +1,5 @@
 import $ from "jquery";
+import L from "leaflet";
 import _ from "lodash";
 import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
@@ -8,6 +9,7 @@ import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import Tip from "d3-tip";
 import { bigMoneyFormat } from "../utils";
 import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
+import spinner from "../spinner";
 // import gainBarsLegend from "./bars-legend";
 import Data from "../../data/gain/minority-data.json";
 
@@ -32,7 +34,7 @@ export default function(width, height) {
   const svg = select("#gain-bars-svg")
     .attr("height", height)
     .attr("width", width);
-  const margins = { bottom: 35, left: 65, right: 15 };
+  const margins = { bottom: 35, left: 65, right: 5 };
   const g = svg.append("g").attr("transform", `translate(${margins.left},0)`);
   const tip = Tip()
     .attr("class", "tooltip")
@@ -178,6 +180,7 @@ export default function(width, height) {
   valueText.style("text-anchor", "middle");
 
   const babyHeight = 0.7 * (height / 2 - margins.bottom);
+  const babyTicks = L.Browser.mobile ? 2 : 5;
 
   const babyY = scaleBand()
     .rangeRound([0, babyHeight])
@@ -240,7 +243,7 @@ export default function(width, height) {
     .append("g")
     .attr("class", "axis")
     .attr("transform", `translate(0,${babyHeight})`)
-    .call(axisBottom(babyCountX).ticks(5));
+    .call(axisBottom(babyCountX).ticks(babyTicks));
 
   babyCount
     .append("text")
@@ -276,7 +279,7 @@ export default function(width, height) {
     .append("g")
     .attr("class", "axis gain-value-axis")
     .attr("transform", `translate(0,${babyHeight})`)
-    .call(axisBottom(babyValueX).ticks(5, "$s"));
+    .call(axisBottom(babyValueX).ticks(babyTicks, "$s"));
 
   babyValue
     .append("path")
@@ -304,6 +307,8 @@ export default function(width, height) {
         .text()
         .replace(/G/, "B");
     });
+
+  spinner.stop();
 
   function tooltip(d) {
     // console.log(d);

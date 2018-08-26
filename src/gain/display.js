@@ -1,4 +1,6 @@
 import $ from "jquery";
+import L from "leaflet";
+import { select } from "d3-selection";
 import gainBars from "./bars";
 import { fillV2DivHeight } from "../utils";
 
@@ -6,7 +8,18 @@ export default function() {
   const height = fillV2DivHeight("#gain-headers");
   const width = $("#gain-svg-div").width();
 
-  $("#gain-profiteers").height(height);
+  if (!L.Browser.mobile) {
+    $("#gain-profiteers").height(height);
+  }
 
-  gainBars(width, height);
+  if (height > 250) {
+    gainBars(width, height);
+  } else {
+    select("#gain-bars-svg").remove();
+    select("#gain-svg-div")
+      .append("h2")
+      .classed("text-center", true)
+      .attr("data-i18n", "ta-please-make-your-browser-window-taller-and-reload")
+      .html($.i18n("ta-please-make-your-browser-window-taller-and-reload"));
+  }
 }
