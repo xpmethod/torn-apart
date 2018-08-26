@@ -1,4 +1,5 @@
 import $ from "jquery";
+import L from "leaflet";
 import _ from "lodash";
 import { select } from "d3-selection";
 import { slug } from "../utils";
@@ -9,8 +10,6 @@ import treeSelectCell from "./tree-select-cell";
 export default function(data) {
   // draw buttons
   treeSidebarPlayButtons();
-
-  // rotate timer
 
   // treeSidebarContent
   select("#tree-sidebar")
@@ -30,17 +29,23 @@ export default function(data) {
     .classed("carousel-item", true)
     .html(treeSidebarEntry);
 
-  const firstCompany = $(
-    "#tree-sidebar-carousel .carousel-inner .carousel-item:first"
-  );
-  firstCompany.addClass("active");
-  treeSelectCell(firstCompany.attr("id").replace("treemap-card-", "parent-"));
-
-  $(".carousel").on("slid.bs.carousel", () => {
-    treeSelectCell(
-      $(".carousel-item.active")
-        .attr("id")
-        .replace("treemap-card-", "parent-")
+  if (!L.Browser.mobile) {
+    const firstCompany = $(
+      "#tree-sidebar-carousel .carousel-inner .carousel-item:first"
     );
-  });
+    firstCompany.addClass("active");
+    treeSelectCell(firstCompany.attr("id").replace("treemap-card-", "parent-"));
+
+    $(".carousel").on("slid.bs.carousel", () => {
+      treeSelectCell(
+        $(".carousel-item.active")
+          .attr("id")
+          .replace("treemap-card-", "parent-")
+      );
+    });
+  } else {
+    $("#tree-sidebar").prepend(
+      "<h3 id='click-on-cube' data-i18n='ta-click-on-cube-to-see-company'></h3>"
+    );
+  }
 }

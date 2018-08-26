@@ -1,4 +1,5 @@
 import $ from "jquery";
+import L from "leaflet";
 import { select } from "d3-selection";
 import { resizeDivFromTop, fillV2DivHeight } from "./utils";
 import spinner from "./spinner";
@@ -15,9 +16,12 @@ export default function() {
   $(document).ready(() => {
     resizeDivFromTop("#v2-div");
     $("#freezer-viz").show();
+    const height = L.Browser.mobile
+      ? $(window).height() / 3
+      : fillV2DivHeight("#freezer-headers");
     const svg = select("#freezer-svg")
       .attr("width", $("#freezer-div").width())
-      .attr("height", fillV2DivHeight("#freezer-headers"));
+      .attr("height", height);
     addGlowFilter(svg);
     if (!$("#topG").length) {
       freezerMurderboard();

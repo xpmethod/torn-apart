@@ -32,6 +32,9 @@ export default function() {
 
   select("#tree-sidebar")
     .append("div")
+    .classed("d-none", true)
+    .classed("d-md-block", true)
+    .append("div")
     .classed("d-flex", true)
     .classed("justify-content-center", true)
     .append("div")
