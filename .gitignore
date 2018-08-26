@@ -2,7 +2,7 @@
 environment.js
 localdata/
 cache/
-data/downloads/everything/html/
+data/downloads/
 tmp/
 .DS_Store
 docs/_site
