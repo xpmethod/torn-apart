@@ -1,5 +1,0 @@
-2
-
-XID: 1488473058
-
-Varnish cache server
