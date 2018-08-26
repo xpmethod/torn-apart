@@ -12,12 +12,15 @@ export default function() {
     $("#gain-profiteers").height(height);
   }
 
-  if (height > 250) {
+  select("#taller-browser").remove();
+
+  if (height > 230) {
     gainBars(width, height);
   } else {
     select("#gain-bars-svg").remove();
     select("#gain-svg-div")
       .append("h2")
+      .attr("id", "taller-browser")
       .classed("text-center", true)
       .attr("data-i18n", "ta-please-make-your-browser-window-taller-and-reload")
       .html($.i18n("ta-please-make-your-browser-window-taller-and-reload"));
