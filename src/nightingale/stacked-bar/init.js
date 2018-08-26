@@ -1,4 +1,5 @@
 import $ from "jquery";
+import L from "leaflet";
 import { axisBottom, axisLeft } from "d3-axis";
 import { stack, stackOrderAscending } from "d3-shape";
 import { select } from "d3-selection";
@@ -53,17 +54,32 @@ export default function() {
     .attr("height", d => y(d[0]) - y(d[1]))
     .attr("width", width / 24 - 5);
 
-  g.append("g")
+  const xAxis = g
+    .append("g")
     .classed("axis", true)
-    .attr("transform", `translate(${margins[3]},${height - margins[2]})`)
-    // .call(axisBottom(x).tickFormat(timeFormat("%b %Y")(timeParse("%Y-%m"))));
-    .call(
+    .attr("transform", `translate(${margins[3]},${height - margins[2]})`);
+  if (L.Browser.mobile) {
+    xAxis.call(
       axisBottom(x)
-        // .tickFormat(null, timeFormat("%Y")(timeParse("%Y-%m")))
+        .tickValues([
+          "1854-4",
+          "1854-8",
+          "1855-1",
+          "1855-4",
+          "1855-8",
+          "1856-1"
+        ])
         .tickFormat(d => {
           return timeFormat("%b")(timeParse("%Y-%m")(d));
         })
     );
+  } else {
+    xAxis.call(
+      axisBottom(x).tickFormat(d => {
+        return timeFormat("%b")(timeParse("%Y-%m")(d));
+      })
+    );
+  }
 
   g.append("g")
     .classed("axis", true)
