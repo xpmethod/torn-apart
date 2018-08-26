@@ -5,9 +5,8 @@ import { select } from "d3-selection";
 import { interpolateRgb } from "d3-interpolate";
 import { schemeSet2 } from "d3-scale-chromatic";
 import { scaleOrdinal } from "d3-scale";
-import { format } from "d3-format";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
-import { slug } from "../utils";
+import { bigMoneyFormat, slug } from "../utils";
 import treeSidebar from "./tree-sidebar";
 import treeSelectCell from "./tree-select-cell";
 import Data from "../../data/freezer/graph.json";
@@ -21,7 +20,6 @@ export default function() {
   const fader = color => interpolateRgb(color, "#fff")(colorFade);
   const fillColor = scaleOrdinal(schemeSet2.map(fader));
   const highlightColor = scaleOrdinal(schemeSet2);
-  const theFormat = format(",d");
 
   const theTree = treemap()
     .tile(treemapResquarify)
@@ -93,10 +91,12 @@ export default function() {
     .on("click", treeSelectCell)
     .attr("fill", d => d.color);
 
-  cell.append("title").text(
-    d => `${d.data.id.replace("contracts.", "").replace(".", " ")}\n
-      $${theFormat(d.value)}`
-  );
+  cell.append("title").text(d => {
+    const [category, description, ...company] = d.data.id.split(".").splice(1);
+    return `${category}
+  ↳ ${description}
+    ↳ ${company.join(".")}, $${bigMoneyFormat(d.value)}`;
+  });
 
   treemap(root.sum(sum));
 }
