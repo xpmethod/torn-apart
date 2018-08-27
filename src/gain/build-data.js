@@ -24,8 +24,8 @@ export default function(decorations) {
           "otherMinority",
           "female"
         ],
-        minorityCompanies: {},
-        intersectionalCompanies: {},
+        minorityContractors: {},
+        intersectionalContractors: {},
         biggestProfiteers: {}
       };
 
@@ -61,9 +61,9 @@ export default function(decorations) {
         })
       };
 
-      const minorityCompanies = {};
+      const minorityContractors = {};
       _.each(output.minorityCategories, minority => {
-        minorityCompanies[minority] = gainBuildDunsObject(
+        minorityContractors[minority] = gainBuildDunsObject(
           minorityAwards[minority + "Award"]
         );
         output.biggestProfiteers[minority] = gainFindBiggestProfiteer(
@@ -75,14 +75,14 @@ export default function(decorations) {
       });
       output.minorityCategories.pop();
       output.minorityCategories.map(group => {
-        const intercompanies = _.intersection(
-          minorityCompanies.female.companies,
-          minorityCompanies[group].companies
+        const intercontractors = _.intersection(
+          minorityContractors.female.contractors,
+          minorityContractors[group].contractors
         );
-        output.intersectionalCompanies[group] = {
-          count: intercompanies.length,
+        output.intersectionalContractors[group] = {
+          count: intercontractors.length,
           value: _.reduce(
-            intercompanies,
+            intercontractors,
             (sum, duns) => {
               return (
                 sum +
@@ -93,12 +93,12 @@ export default function(decorations) {
           )
         };
       });
-      _(minorityCompanies)
+      _(minorityContractors)
         .keys()
         .each(key => {
-          output.minorityCompanies[key] = {
-            count: minorityCompanies[key].count,
-            value: minorityCompanies[key].value
+          output.minorityContractors[key] = {
+            count: minorityContractors[key].count,
+            value: minorityContractors[key].value
           };
         });
       writeFile(
