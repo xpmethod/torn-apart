@@ -18,7 +18,10 @@ export default function(decorations) {
       _.each(product_taxonomy, row => {
         row.tas_taxonomy = row.tas_taxonomy.trim();
       });
-      const awards = rawAwards.filter(award => award.fiscal_year === "2018");
+      const awards = rawAwards.filter(
+        award =>
+          award.fiscal_year === "2018" && award.current_total_value_of_award > 0
+      );
       const companies = [];
       const products = [];
       const parent_companies = [];
