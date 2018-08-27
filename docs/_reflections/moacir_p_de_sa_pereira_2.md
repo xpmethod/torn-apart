@@ -255,10 +255,10 @@ funding is.  The outrage over the zero tolerance policy in part relies on
 characterizing ICE as a bunch of special forces cosplayers, kicking people of
 color with steel-tipped boots and throwing their children in cages.  But it’s
 not just that, else ICE funding would go exclusively to boots and cages. It’s
-also the massive apparatus that keeps white-collar, Hillary-voting, “Pod Save
-America”-listening Northern Virginia technocrats who make sure RStudio is
-running correctly on ICE computers fed, technocrats largely represented by
-Democrats in Congress. 
+also the massive apparatus that keeps white-collar, Hillary-voting, _Pod Save
+America_-listening Northern Virginia technocrats who make sure
+[RStudio](https://www.rstudio.com/) is running correctly on ICE computers fed,
+technocrats largely represented by Democrats in Congress. 
 
 The oversized role of these technocrats is hinted at in every visualization
 for volume 2 save “Lines.” In
@@ -266,7 +266,7 @@ for volume 2 save “Lines.” In
 ICE funding is not evenly distributed around the US, with about 16
 Congressional districts taking home the lion’s share of the ICE budget since 2014. Yet of those districts getting ICE largesse, several are DC-adjacent,
 where companies like Phacil and Widepoint Integrated Solutions pull in
-millions of dollars from ICE despite (and because of)  being, basically, IT
+millions of dollars from ICE despite (and because of) being, basically, IT
 consultants.  This explosion of money to the IT sector happens to be [a
 trademark of Representative Gerry Connolly’s work in
 Congress](https://fcw.com/articles/2015/03/30/gerry-connolly-fitara-force-multiplier.aspx).
@@ -274,20 +274,60 @@ So it should be no surprise that his district is the most remunerated by ICE.
 Since 2014, $1.3B has been showered over the Clinton-by-39-points district,
 much of it to IT companies.
 
-Phacil, based in McLean Virginia, on the other hand, as we see in
-“[Gain](/torn-apart/volume/2/visualizations.html#gain),” has the dubious
-distinction of being the most-remunerated “Black American–owned” business
-regarding ICE, which has paid $310M since 2014 for various IT-related
-services. Phacil brags on their website about their start as “a small,
-minority owned business” that has, obviously, “always embraced diversity and
-inclusion,” but the idea that the money ICE has paid them has gone towards
-encouraging racial equality in the United States is an offensive joke. 
-The minority-owned companies receiving over $1B from ICE since 2014 are, it
-seems, largely in the various banal businesses of logistics and IT. Though
-some, like Akima, are actively in the business of jailing their “fellow”
-people of color, most contribute to the more abstract carceral regimes of the
-state, in facilitating the ways in a laser printer helps keep another child
-separated from their parents.
+<div id="districts-div">
+<svg id="districts-svg"></svg>
+</div>
+
+A brief look at the over $9B in ICE spending since 2014 shows how those 16
+districts chew up the budget. The 17th, marked in orange above, is Washington,
+DC., which while another ICE fat cat, also marks the turn towards vanishingly
+small turns at the authoritarian trough. About 100 districts, or just under a
+quarter of the total, haven’t seen a dime from ICE. Perhaps they need to get
+in the consulting, computing, constructing, and coercing businesses. 
+
+The bipartisan nature of the grotesque gluttony also expresses itself in these
+top districts, where the pitiful Democrats, shut out of every avenue of access
+in Washington, or so they tell us, still manage to bring home the fat at a
+clip outpacing their GOP counterparts. As a final note tying “Districts” to
+other current events, Duncan Hunter may be
+[woeful with his family
+budgeting](https://www.nytimes.com/2018/08/26/us/duncan-hunter-corruption-scandal.html),
+but his district has done well under the ICE regime, as Spectrum Security
+Services has brought in $860M to parts of San Diego and Riverside Counties.
+California’s 50th is the fourth most remunerated district.
+
+The concentrated ICE spending also lets minority- and women-owned
+organizations to shine in the glow of government awards, as we see in
+“[Gain](/torn-apart/volume/2/visualizations.html#gain).” Much of the $890M
+going to Alaska ends up in Akima’s coffers for services rendered mostly in
+running the [Krome detention center in
+Miami](https://www.ice.gov/detention-facility/krome-service-processing-center)
+and the [Buffalo facility in Batavia,
+NY](https://www.ice.gov/detention-facility/buffalo-federal-detention-facility).
+Akima is owned by more than 14k Iñupiat shareholders, and Akima’s ability to
+win awards for various detention-related services make Alaska’s At-Large
+District the third most flush with ICE cash. In the meantime,
+
+> [Many of our shareholders](http://www.akima.com/about/#heritage) still reside in their ancestral villages, relying
+on the land for subsistence just as their people have done for 10,000 years.
+Akima understands the cultural and spiritual importance of this lifestyle that
+bridges generations and connects our shareholders to each other, to their
+ancestors, and to their land.
+
+Back in the Beltway, Phacil, based in Virginia’s 8th District (5th best
+remunerated), has the dubious distinction of being the most-remunerated “Black
+American–owned” business regarding ICE, which has paid $310M since 2014 for
+various IT-related services. Phacil brags on their website about their start
+as “a small, minority owned business” that has, obviously, “[always embraced
+diversity and inclusion](https://www.phacil.com/about/diversity-inclusion/),”
+but the idea that the money ICE has paid them has gone towards encouraging
+racial equality in the United States is an offensive joke. The minority-owned
+companies receiving over $1B from ICE since 2014 are, it seems, largely in the
+various banal businesses of logistics and IT. Though some, like Akima, are
+actively in the business of jailing their “fellow” people of color, most
+contribute to the more abstract carceral regimes of the state, in facilitating
+the ways in a laser printer helps keep another child separated from their
+parents.
 
 Speaking of laser printers, finally, in
 “[Rain](/torn-apart/volume/2/visualizations.html#rain),” we see how ICE’s
