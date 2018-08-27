@@ -1,8 +1,5 @@
 import { select } from "d3-selection";
 import { rem, green, orange, pink, lime, beige, tan } from "../constants";
-// import gainBarsLegend from "./bars-legend";
-// import getDecoration from "../get-decoration";
-//import { bigMoneyFormat } from "../utils";
 import Data from "../../data/gain/minority-data.json";
 
 export default function() {
