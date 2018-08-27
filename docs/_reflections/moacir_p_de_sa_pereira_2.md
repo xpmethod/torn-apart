@@ -1,10 +1,10 @@
 ---
 layout: article
-title: 
+title:
   "long": "Representation Matters"
   "short": "Representation Matters"
 doi:
-author: 
+author:
   creator: "Sá Pereira, Moacir P. de"
   name: Moacir P. de Sá Pereira
   shortname: Moacir
@@ -35,7 +35,7 @@ better than some woman, that terrible hygiene was killing off their troops
 faster than enemy bullets. Half a year after her arrival at the Scutari
 Barracks, now the Selimiye Barracks in the Üsküdar district of Istanbul, the
 mortality rate of British soldiers dropped from 42.7% to 2.2%.[^cohen] She was certain
-it was the introduction of sanitation measures that causes the decrease, but
+it was the introduction of sanitation measures that caused the decrease, but
 how could she show it to drive home the difference her efforts made?
 
 For Nightingale, familiar with the pioneering statistical work of Adolphe
@@ -81,7 +81,7 @@ other causes. In other words, about four times as many soldiers died of
 zymotic diseases.
 
 Does the purple batwing look four times larger than the other two batwings
-combined? 
+combined?
 
 With an *n* of one (my mom), the answer is clearly no. Nightingale is not
 wrong to suggest that too many soldiers are dying of infectious disease. But
@@ -159,7 +159,7 @@ The first volume of _Torn Apart / Separados_ challenged us with several
 questions in terms of visualization, some of which were then discussed in
 several of the first reflections. There was a temptation, for example, to size
 the various dots in proportion with certain data associated with them, such as
-average daily population of detention facilities used by ICE. 
+average daily population of detention facilities used by ICE.
 
 But that would have distracted somewhat from the other, competing desires. If
 the goal is to show that ICE is everywhere, then scaling the markers based on
@@ -213,7 +213,7 @@ and loved ones. But somehow the difference between one and 1,000 also needs to
 be indicated. The solution to me was to use a logarithmic scale. Now, 1,000 is
 a line that’s four times longer than the line for a single removal, and
 every soul gets a wedge cutting across the face of the United States as it
-continues to expel. 
+continues to expel.
 
 In this way, “Lines” has it both ways. It shows the extent of the problem of
 removals across the world as a whole (after all, the US has no problem
@@ -248,7 +248,7 @@ In the other visualization, however, our nine invented categories of
 government awards are more or less laid atop each other, giving the impression
 of a Gordian knot of governmental impenetrability. Neither visualization is
 right; they just aim to highlight different aspects of the same data to make a
-similar, underlying argument. 
+similar, underlying argument.
 
 That underlying argument is, in both cases, underscoring how banal most ICE
 funding is.  The outrage over the zero tolerance policy in part relies on
@@ -258,7 +258,7 @@ not just that, else ICE funding would go exclusively to boots and cages. It’s
 also the massive apparatus that keeps white-collar, Hillary-voting, _Pod Save
 America_-listening Northern Virginia technocrats who make sure
 [RStudio](https://www.rstudio.com/) is running correctly on ICE computers fed,
-technocrats largely represented by Democrats in Congress. 
+technocrats largely represented by Democrats in Congress.
 
 The oversized role of these technocrats is hinted at in every visualization
 for volume 2 save “Lines.” In
@@ -283,7 +283,7 @@ districts chew up the budget. The 17th, marked in orange above, is Washington,
 DC., which while another ICE fat cat, also marks the turn towards vanishingly
 small turns at the authoritarian trough. About 100 districts, or just under a
 quarter of the total, haven’t seen a dime from ICE. Perhaps they need to get
-in the consulting, computing, constructing, and coercing businesses. 
+in the consulting, computing, constructing, and coercing businesses.
 
 The bipartisan nature of the grotesque gluttony also expresses itself in these
 top districts, where the pitiful Democrats, shut out of every avenue of access
