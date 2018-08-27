@@ -97,7 +97,7 @@ export default function(width, height) {
     .classed("wrapped", true)
     .attr("data-i18n", d => `ta-${d}-owned-label`)
     .attr("data-wrap-align", "vertical")
-    .attr("data-wrap-width", 50);
+    .attr("data-wrap-width", margins.left - 9);
 
   g.append("g")
     .attr("class", "axis")
@@ -160,7 +160,7 @@ export default function(width, height) {
     .classed("wrapped", true)
     .attr("data-i18n", d => `ta-${d}-owned-label`)
     .attr("data-wrap-align", "vertical")
-    .attr("data-wrap-width", 50);
+    .attr("data-wrap-width", margins.left - 9);
 
   value
     .append("g")
