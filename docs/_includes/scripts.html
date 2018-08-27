@@ -42,6 +42,14 @@
   </script>
 {% else %}
 {% endif %}
+  <script>
+    const currentVolume = "2"
+    const path = window.location.pathname.split("/");
+    if(path[2] === "volume" && path[3] !== currentVolume){
+      $(".volume-button").removeClass("active");
+      $(`.volume-${path[3]}-button`).addClass("active");
+    }
+  </script>
 
 {% if jekyll.environment == "production" %}
  {% include google_analytics.html %}
