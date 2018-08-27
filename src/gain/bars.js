@@ -17,19 +17,19 @@ export default function(width, height) {
   const keys = Data.minorityCategories;
   const countData = [{ type: "minority" }, { type: "women" }];
   _.each(Data.minorityCategories, cat => {
-    countData[0][cat] = Data.minorityCompanies[cat].count;
-    countData[1][cat] = Data.intersectionalCompanies[cat]
-      ? Data.intersectionalCompanies[cat].count
+    countData[0][cat] = Data.minorityContractors[cat].count;
+    countData[1][cat] = Data.intersectionalContractors[cat]
+      ? Data.intersectionalContractors[cat].count
       : 0;
   });
   const valueData = [{ type: "minority" }, { type: "women" }];
   _.each(Data.minorityCategories, cat => {
-    valueData[0][cat] = Data.minorityCompanies[cat].value;
-    valueData[1][cat] = Data.intersectionalCompanies[cat].value;
+    valueData[0][cat] = Data.minorityContractors[cat].value;
+    valueData[1][cat] = Data.intersectionalContractors[cat].value;
   });
   keys.push("female");
-  countData[1].female = Data.minorityCompanies.female.count;
-  valueData[1].female = Data.minorityCompanies.female.value;
+  countData[1].female = Data.minorityContractors.female.count;
+  valueData[1].female = Data.minorityContractors.female.value;
 
   const svg = select("#gain-bars-svg")
     .attr("height", height)
@@ -110,8 +110,8 @@ export default function(width, height) {
       "transform",
       `translate(${width / 2},${height / 2 - margins.bottom + 30})`
     )
-    .attr("data-i18n", "ta-total-number-of-companies")
-    .text($.i18n("ta-companies"));
+    .attr("data-i18n", "ta-total-number-of-contractors")
+    .text($.i18n("ta-contractors"));
 
   countText.style("text-anchor", "middle");
 
@@ -313,20 +313,20 @@ export default function(width, height) {
   function tooltip(d) {
     // console.log(d);
     if (d.data.type === "women" && d.category !== "female") {
-      return `<h3>${$.i18n(`ta-${d.category}-women-owned-companies`)}</h3>
+      return `<h3>${$.i18n(`ta-${d.category}-women-owned-contractors`)}</h3>
       <ul>
-        <li>${Data.intersectionalCompanies[d.category].count} ${$.i18n(
-        "ta-companies-out-of-N-total"
+        <li>${Data.intersectionalContractors[d.category].count} ${$.i18n(
+        "ta-contractors-out-of-N-total"
       ).replace(/N/, Data.totalParents)} (${format(",.1%")(
-        Data.intersectionalCompanies[d.category].count / Data.totalParents
+        Data.intersectionalContractors[d.category].count / Data.totalParents
       )}).</li>
         <li>$${bigMoneyFormat(
-          Data.intersectionalCompanies[d.category].value
+          Data.intersectionalContractors[d.category].value
         )} ${$.i18n("ta-dollars-out-of-N-in-ICE-awards-since-2014").replace(
         /N/,
         bigMoneyFormat(Data.totalValue)
       )} (${format(",.1%")(
-        Data.intersectionalCompanies[d.category].value / Data.totalValue
+        Data.intersectionalContractors[d.category].value / Data.totalValue
       )}).</li>
 	  <li><h4>${$.i18n("ta-women-biggest-profiteer")}: ${
         Data.biggestProfiteers["female"].name
@@ -336,20 +336,20 @@ export default function(width, height) {
       </ul>
         `;
     } else {
-      return `<h3>${$.i18n(`ta-${d.category}-owned-companies`)}</h3>
+      return `<h3>${$.i18n(`ta-${d.category}-owned-contractors`)}</h3>
       <ul>
-        <li>${Data.minorityCompanies[d.category].count} ${$.i18n(
-        "ta-companies-out-of-N-total"
+        <li>${Data.minorityContractors[d.category].count} ${$.i18n(
+        "ta-contractors-out-of-N-total"
       ).replace(/N/, Data.totalParents)} (${format(",.1%")(
-        Data.minorityCompanies[d.category].count / Data.totalParents
+        Data.minorityContractors[d.category].count / Data.totalParents
       )}).</li>
         <li>$${bigMoneyFormat(
-          Data.minorityCompanies[d.category].value
+          Data.minorityContractors[d.category].value
         )} ${$.i18n("ta-dollars-out-of-N-in-ICE-awards-since-2014").replace(
         /N/,
         bigMoneyFormat(Data.totalValue)
       )} (${format(",.1%")(
-        Data.minorityCompanies[d.category].value / Data.totalValue
+        Data.minorityContractors[d.category].value / Data.totalValue
       )}).</li>
 	  <li><h4>${$.i18n("ta-districts-biggest-profiteer")}: ${
         Data.biggestProfiteers[d.category].name

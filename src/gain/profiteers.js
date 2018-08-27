@@ -2,6 +2,7 @@ import { select } from "d3-selection";
 import { rem, green, orange, pink, lime, beige, tan } from "../constants";
 // import gainBarsLegend from "./bars-legend";
 // import getDecoration from "../get-decoration";
+//import { bigMoneyFormat } from "../utils";
 import Data from "../../data/gain/minority-data.json";
 
 export default function() {
@@ -19,7 +20,7 @@ export default function() {
     .html((d, i) => {
       // const company = getDecoration(profiteer.duns);
       return `<div class="mr-2" style="max-width: 1.25rem;"><svg width="${rem}" height="${rem}">
-          <rect width="${rem}" height="${rem}" 
+          <rect width="${rem}" height="${rem}"
           transform="translate(0,${0})" fill="${colors[i]}">
         </svg></div>
         <div>
