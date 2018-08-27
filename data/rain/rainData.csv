@@ -47,7 +47,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,4906.8,Premier & Companies,784141384,true
 2018,8252420,Akima Global Services,832895085,true
 2018,63111.28,Landoll Corporation,31331051,false
-2018,15072,Rita’s Tape Media,1573596,true
+2018,15072,Rita’S Tape Media,1573596,true
 2018,4240,ML Click Marketing,12480808,true
 2018,15076.86,ABM Federal Sales,64632888,false
 2018,151590.92,Eclipse Business Group,828373006,true
@@ -57,7 +57,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,2657.53,Garrett Electronics,4996112,false
 2018,5655.04,Midwest Security Services,78622984,false
 2018,4175.7,Setcan Corporation,243275612,true
-2018,4999.62,Rita’s Tape Media,1573596,true
+2018,4999.62,Rita’S Tape Media,1573596,true
 2018,383340,Jesuit Refugee Service USA,112281840,true
 2018,22223,Boss Innovation & Marketing,93019953,false
 2018,17988.75,W.W. Grainger,5103494,false
@@ -162,7 +162,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,36625,ABM Industry Groups,80590937,false
 2018,94513.2,Sirona Dental,78613913,false
 2018,3940,Autoclear,601716475,false
-2018,32906.25,Rita’s Tape Media,1573596,true
+2018,32906.25,Rita’S Tape Media,1573596,true
 2018,8500,National Sheriffs’ Association,20291605,true
 2018,2136.76,County of Santa Clara,155922172,true
 2018,10500,Pacer Service Center,942273863,true
@@ -427,13 +427,13 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,1776.62,Price Modern,3073525,true
 2018,9604.7,Atlantic Diving Supply,27079776,true
 2018,471096.64,M. L. Benjamin Enterprises,194508131,true
-2018,110413.1,Knight’s Armament Company,54038138,true
+2018,110413.1,Knight’S Armament Company,54038138,true
 2018,193911.3,Price Modern,3073525,true
 2018,182746.55,Price Modern,3073525,true
 2018,56815,Atlantic Diving Supply,27079776,true
 2018,192202.04,Atlantic Diving Supply,27079776,true
 2018,115422.3,Herman Miller,6012801,false
-2018,179089.92,Knight’s Armament Company,54038138,true
+2018,179089.92,Knight’S Armament Company,54038138,true
 2018,19353.6,Atlantic Diving Supply,27079776,true
 2018,235220,Atlantic Diving Supply,27079776,true
 2018,23160.26,Price Modern,3073525,true
@@ -679,7 +679,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,12125,C & C International Computers & Consultants,932469612,true
 2018,15574.45,Blue Tech,121701957,true
 2018,7475,Blue Tech,121701957,true
-2018,19392.8,McP Computer Products,22567908,true
+2018,19392.8,MCP Computer Products,22567908,true
 2018,5098.57,Akira Technologies,605928246,true
 2018,6751.1,Anacapa Micro Products,556496370,true
 2018,23086.8,Panamerica Computers,166669742,true
@@ -874,7 +874,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,211106.4,Jasper Sawyer Company,969820914,true
 2018,153381.56,Trinity Services Group,621804913,false
 2018,40079.28,New Life Chinese Laundry,29127727,true
-2018,132859.67,Buddy’s Snack Bar,828164087,false
+2018,132859.67,Buddy’S Snack Bar,828164087,false
 2018,37080,ACT Services,78360656,true
 2018,1837,Texas Commission on Environmental Quality,808805154,true
 2018,5550,County of Lane,30786248,false
@@ -892,7 +892,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,24816.72,Brown Point Facility Management Solutions,80438446,false
 2018,73463.55,Sperry West,786235663,true
 2018,3201031.67,PricewaterhouseCoopers Public Sector,79529872,true
-2018,25999.2,California Highway Patrolman’s Club,111899506,false
+2018,25999.2,California Highway Patrolman’S Club,111899506,false
 2018,28406.2,Unifirst Corporation,126166768,true
 2018,37250,Wolcott Guns,827284519,false
 2018,29648,Utah Communications Authority,1376735,false
@@ -951,7 +951,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,,M V M,38049532,true
 2018,17356.68,The  GEO Group,612706465,true
 2018,1852908.95,Lionbridge Global Solutions Ii,134265938,true
-2018,8969.4,Af&s Products & Services,606936271,true
+2018,8969.4,AF&S Products & Services,606936271,true
 2018,4263100,G4S Secure Solutions USA,1903723,true
 2018,1080484.82,Jesuit Refugee Service USA,112281840,true
 2018,2426.64,Galls,42598482,true
@@ -980,7 +980,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,25115817.4,Akima Global Services,832895085,true
 2018,49294991.23,Akima Global Services,832895085,true
 2018,70811.24,The  GEO Group,612706465,true
-2018,3244985.77,People’s Accident Information Service,48229301,true
+2018,3244985.77,People’S Accident Information Service,48229301,true
 2018,39101930.78,CoreCivic,159734151,true
 2018,31975380.96,The  GEO Group,612706465,true
 2018,120703452,B.i.,94160959,true
@@ -995,7 +995,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,40148869.15,Global Precision Systems,805596710,true
 2018,29232,C & M Truck & Tire Repair,175124957,true
 2018,11550,The  American Correctional Association,74811571,true
-2018,14620,Tonawanda Sportsmen’s Club,74019126,false
+2018,14620,Tonawanda SportSmen’s Club,74019126,false
 2018,18852,Imperial Valley Rifle & Pistol Association,141089487,false
 2018,46000,ABM Industry Groups,80590937,false
 2018,32000,Angeles Shooting Ranges,75303198,false
@@ -1705,7 +1705,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,50394,Vista Outdoor Sales,79331239,true
 2018,377071.95,Vista Outdoor Sales,79331239,true
 2018,10976,Vista Outdoor Sales,79331239,true
-2018,6974.89,Knight’s Armament Company,54038138,true
+2018,6974.89,Knight’S Armament Company,54038138,true
 2018,25025.28,Vista Outdoor Sales,79331239,true
 2018,2992767.49,Motorola Solutions,69373090,true
 2018,2015760,Vista Outdoor Sales,79331239,true
@@ -1796,7 +1796,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,4098,Atlantic Diving Supply,27079776,true
 2018,446145.2,Atlantic Diving Supply,27079776,true
 2018,63960,Urban Adventures at Gallery Place,787815542,true
-2018,616896.56,Knight’s Armament Company,54038138,true
+2018,616896.56,Knight’S Armament Company,54038138,true
 2018,363307.25,Vista Outdoor Sales,79331239,true
 2018,97500,Urban Adventures at Gallery Place,787815542,true
 2018,82562.55,LC Industries,962257445,true
@@ -1852,7 +1852,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,66337.78,Olin Corporation,88736686,true
 2018,667.14,Vista Outdoor Sales,79331239,true
 2018,187945,Vista Outdoor Sales,79331239,true
-2018,134205,Knight’s Armament Company,54038138,true
+2018,134205,Knight’S Armament Company,54038138,true
 2018,439630,Atlantic Diving Supply,27079776,true
 2018,303066,Olin Corporation,88736686,true
 2018,397466.5,Remington Arms Company,1453216,true
@@ -1867,7 +1867,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,10336.92,Vista Outdoor Sales,79331239,true
 2018,754.04,Vista Outdoor Sales,79331239,true
 2018,1879.45,Vista Outdoor Sales,79331239,true
-2018,67102.5,Knight’s Armament Company,54038138,true
+2018,67102.5,Knight’S Armament Company,54038138,true
 2018,381600,Golden Key Group,111187295,true
 2018,5452.35,Heckler & Koch Defense,134466999,true
 2018,4757.22,Benefit Planning,790801765,true
@@ -2228,13 +2228,13 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,29326.54,Ricoh USA,43964519,true
 2017,64912.25,Xerox Corporation,39860122,true
 2017,270188631.8,Ingenesis,19992424,true
-2017,8764.8,l & R manufacturing co,2176741,false
+2017,8764.8,L & R manufacturing co,2176741,false
 2017,14398.4,Document Imaging Dimensions,38062712,true
 2017,514201.22,One Stop Environmental,806933284,true
 2017,5434.5,Ceia USA,176329795,false
 2017,3096,Eastern Carolina Vocational Center,75553560,true
 2017,6012.47,Johnson Controls Fire Protection,94738007,false
-2017,7470,Cookie’s DME,16736289,false
+2017,7470,Cookie’S DME,16736289,false
 2017,115684117.6,CSI Aviation,102793460,true
 2017,138339403,CSI Aviation,102793460,true
 2017,43418178.67,CSI Aviation,102793460,true
@@ -2379,7 +2379,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,,M V M,38049532,true
 2017,16251.84,The  GEO Group,612706465,true
 2017,5722.2,Premier & Companies,784141384,true
-2017,8969.4,Af&s Products & Services,606936271,true
+2017,8969.4,AF&S Products & Services,606936271,true
 2017,2066.4,Noble Sales Co.,107910259,true
 2017,4119.31,Johnson Controls Fire Protection,94738007,false
 2017,4263100,G4S Secure Solutions USA,1903723,true
@@ -2398,7 +2398,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,4365.6,ML Click Marketing,12480808,true
 2017,32565,ML Click Marketing,12480808,true
 2017,5434,ATD-American Co.,1992338,false
-2017,5080,Rita’s Tape Media,1573596,true
+2017,5080,Rita’S Tape Media,1573596,true
 2017,4650.22,Bahfed,78277396,true
 2017,18681.6,Document Imaging Dimensions,38062712,true
 2017,5258.17,Allied Ink,828302864,false
@@ -2422,7 +2422,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,19115387.4,Akima Global Services,832895085,true
 2017,22831702.44,Akima Global Services,832895085,true
 2017,600,The  GEO Group,612706465,true
-2017,1323970.44,People’s Accident Information Service,48229301,true
+2017,1323970.44,People’S Accident Information Service,48229301,true
 2017,16494536.42,CoreCivic,159734151,true
 2017,9890800.46,The  GEO Group,612706465,true
 2017,19246256,B.i.,94160959,true
@@ -2505,7 +2505,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,13290.94,ReconRobotics,191067664,true
 2017,37392,Sharp Electronics Corporation,1818012,true
 2017,3220713.43,Corp Ten International,112996327,true
-2017,6956,l & R manufacturing co,2176741,false
+2017,6956,L & R manufacturing co,2176741,false
 2017,14160,Lexmark International,623331717,true
 2017,200966.74,JTF Business Systems Corporation,948396890,true
 2017,13632.99,ReconRobotics,191067664,true
@@ -2990,7 +2990,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,1793.6,AEEC,36279193,true
 2017,832754,Remington Arms Company,1453216,true
 2017,37913811.53,CACI-ISS,616205675,true
-2017,6974.89,Knight’s Armament Company,54038138,true
+2017,6974.89,Knight’S Armament Company,54038138,true
 2017,4120,Remington Arms Company,1453216,true
 2017,139460.7,Aardvark,861004349,true
 2017,2205036.8,Motorola Solutions,69373090,true
@@ -3053,7 +3053,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,5334.1,Benefit Planning,790801765,true
 2017,19960.02,Vista Outdoor Sales,79331239,true
 2017,15109.32,Vista Outdoor Sales,79331239,true
-2017,616896.56,Knight’s Armament Company,54038138,true
+2017,616896.56,Knight’S Armament Company,54038138,true
 2017,363307.25,Vista Outdoor Sales,79331239,true
 2017,97500,Urban Adventures at Gallery Place,787815542,true
 2017,82562.55,LC Industries,962257445,true
@@ -3118,7 +3118,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,10336.92,Vista Outdoor Sales,79331239,true
 2017,754.04,Vista Outdoor Sales,79331239,true
 2017,1879.45,Vista Outdoor Sales,79331239,true
-2017,67102.5,Knight’s Armament Company,54038138,true
+2017,67102.5,Knight’S Armament Company,54038138,true
 2017,12669.35,Price Modern,3073525,true
 2017,4757.22,Benefit Planning,790801765,true
 2017,12172.5,Vista Outdoor Sales,79331239,true
@@ -3211,7 +3211,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,,Government Contract Solutions,948928270,false
 2017,1760,The  Terminix International Company Partnership,157241688,false
 2017,16280,Whitaker Brothers Business Machines,24292732,true
-2017,20475.62,l & R manufacturing co,2176741,false
+2017,20475.62,L & R manufacturing co,2176741,false
 2017,7795,Whitaker Brothers Business Machines,24292732,true
 2017,7347,Whitaker Brothers Business Machines,24292732,true
 2017,9996,Whitaker Brothers Business Machines,24292732,true
@@ -3890,7 +3890,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,116956.68,Dell Federal Systems,149530219,true
 2017,117450,Anacapa Micro Products,556496370,true
 2017,6169.18,Govplace,957050883,true
-2017,3289.5,McP Computer Products,22567908,true
+2017,3289.5,MCP Computer Products,22567908,true
 2017,140988,Blue Tech,121701957,true
 2017,7106.62,FS Partners,78374094,true
 2017,39449.2,Anacapa Micro Products,556496370,true
@@ -4001,7 +4001,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,14530,Uniforms Manufacturing,98009814,true
 2016,7454.2,Premier & Companies,784141384,true
 2016,11001.19,Complete Packaging & Shipping Supplies,790889711,false
-2016,3792,Rita’s Tape Media,1573596,true
+2016,3792,Rita’S Tape Media,1573596,true
 2016,9449.82,Ellison Systems,942173550,false
 2016,6523.2,Bob Barker Company,58525536,true
 2016,16836.82,Ellison Systems,942173550,false
@@ -4059,7 +4059,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,5275,R A Mechanical & Sons,932463313,true
 2016,21250,The  Highlands Ranch Law Enforcement Training Foundation,126111272,true
 2016,4081.8,Phoenix Textile Corporation,103202859,false
-2016,15312,Rita’s Tape Media,1573596,true
+2016,15312,Rita’S Tape Media,1573596,true
 2016,31625,V.H. Blackinton & Co.,1197789,true
 2016,3500,Wrigglesworth Enterprises,612878772,false
 2016,14880,ABM Industries,6911622,true
@@ -4168,7 +4168,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,2424,Ricoh USA,43964519,true
 2016,6876.89,Botach,965068661,false
 2016,8299.9,Optim,52927001,false
-2016,5799,17th St. Photo Supply,786094003,false
+2016,5799,17TH St. Photo Supply,786094003,false
 2016,4050.37,Breaching Technologies,168091937,true
 2016,37870.76,Forfeiture Support Associates,134510648,true
 2016,2850082.92,Integral Consulting Services,18193669,true
@@ -4357,7 +4357,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,19163.04,Vista Outdoor Sales,79331239,true
 2016,3152.6,Vista Outdoor Sales,79331239,true
 2016,222443.64,Remington Arms Company,1453216,true
-2016,260590,Knight’s Armament Company,54038138,true
+2016,260590,Knight’S Armament Company,54038138,true
 2016,383463,Vista Outdoor Sales,79331239,true
 2016,30250.97,Vista Outdoor Sales,79331239,true
 2016,364600.59,Vista Outdoor Sales,79331239,true
@@ -4367,7 +4367,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,50394,Vista Outdoor Sales,79331239,true
 2016,377071.95,Vista Outdoor Sales,79331239,true
 2016,10976,Vista Outdoor Sales,79331239,true
-2016,6974.89,Knight’s Armament Company,54038138,true
+2016,6974.89,Knight’S Armament Company,54038138,true
 2016,25025.28,Vista Outdoor Sales,79331239,true
 2016,27681.25,Remington Arms Company,1453216,true
 2016,87800,Olin Corporation,88736686,true
@@ -4558,7 +4558,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,140943.68,IMPRES Technology Solutions,11182784,true
 2016,26366.4,ESCgov,136155178,true
 2016,11410.87,Panamerica Computers,166669742,true
-2016,3412.7,McP Computer Products,22567908,true
+2016,3412.7,MCP Computer Products,22567908,true
 2016,4768.43,Panamerica Computers,166669742,true
 2016,57210.5,Government Acquisitions,603814054,true
 2016,24613.7,Akira Technologies,605928246,true
@@ -4601,7 +4601,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,96912.8,Anacapa Micro Products,556496370,true
 2016,337665.08,Net Direct Systems,54007823,true
 2016,30566,New Tech Solutions,20149303,true
-2016,12408,McP Computer Products,22567908,true
+2016,12408,MCP Computer Products,22567908,true
 2016,872.18,Net Direct Systems,54007823,true
 2016,7261.98,Net Direct Systems,54007823,true
 2016,1398732.09,Unicom Government,107939357,true
@@ -4881,7 +4881,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,8955,Flytecomm,946075330,false
 2015,11655,SPS Industrial,167960462,false
 2015,31898.84,Club Car,88605787,false
-2015,11526.01,Jack Knelly’s Office Furniture Specialties,139137983,false
+2015,11526.01,Jack Knelly’S Office Furniture Specialties,139137983,false
 2015,22043.82,Aramark Uniform & Career Apparel,88389739,true
 2015,119129.6,Document Imaging Dimensions,38062712,true
 2015,1670723.16,Ben Fitzgerald Real Estate Services,53117149,true

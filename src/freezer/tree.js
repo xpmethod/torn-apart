@@ -8,6 +8,7 @@ import { scaleOrdinal } from "d3-scale";
 import { hierarchy, treemap, treemapResquarify } from "d3-hierarchy";
 import { bigMoneyFormat, slug } from "../utils";
 import treeSidebar from "./tree-sidebar";
+import treeText from "./tree-text";
 import treeSelectCell from "./tree-select-cell";
 import Data from "../../data/freezer/graph.json";
 
@@ -71,21 +72,32 @@ export default function() {
   theTree(root);
 
   const cell = g
+    .append("g")
+    .attr("id", "tree-leaves")
     .selectAll("g")
     .data(root.leaves())
     .enter()
     .append("g")
+    .attr(
+      "class",
+      d =>
+        `parent-${slug(d.data.parentSlug)} ${slug(d.parent.parent.data.name)}`
+    )
     .attr("transform", d => `translate(${d.x0},${d.y0})`);
 
   cell
     .append("rect")
     // .each(d => console.log(d))
-    .attr("id", d => slug(d.data.graphid))
+    .attr("id", d => slug(d.data.graphID))
     .each(d => {
       d.color = fillColor(d.parent.parent.data.id);
       d.highlightColor = highlightColor(d.parent.parent.data.id);
     })
-    .attr("class", d => `parent-${slug(d.data.parentSlug)}`)
+    .attr(
+      "class",
+      d =>
+        `parent-${slug(d.data.parentSlug)} ${slug(d.parent.parent.data.name)}`
+    )
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)
     .on("click", treeSelectCell)
@@ -99,4 +111,5 @@ export default function() {
   });
 
   treemap(root.sum(sum));
+  treeText();
 }

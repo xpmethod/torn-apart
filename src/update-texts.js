@@ -27,5 +27,5 @@ export default function() {
     }
   });
   $("a[href^='http']").attr("target", "_blank");
-  selectAll(".wrapped").call(wrap, 50);
+  selectAll(".wrapped").call(wrap, { width: 50 });
 }
