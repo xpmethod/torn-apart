@@ -328,6 +328,11 @@ export default function(width, height) {
       )} (${format(",.1%")(
         Data.intersectionalContractors[d.category].value / Data.totalValue
       )}).</li>
+	  <li><h4>${$.i18n("ta-women-biggest-profiteer")}: ${
+        Data.biggestProfiteers["female"].name
+      }, <strong>$${bigMoneyFormat(
+        Data.biggestProfiteers["female"].value
+      )}</strong></h4></li>
       </ul>
         `;
     } else {
@@ -346,6 +351,11 @@ export default function(width, height) {
       )} (${format(",.1%")(
         Data.minorityContractors[d.category].value / Data.totalValue
       )}).</li>
+	  <li><h4>${$.i18n("ta-districts-biggest-profiteer")}: ${
+        Data.biggestProfiteers[d.category].name
+      }, <strong>$${bigMoneyFormat(
+        Data.biggestProfiteers[d.category].value
+      )}</strong></h4></li>
       </ul>
         `;
     }
