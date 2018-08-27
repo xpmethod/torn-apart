@@ -328,10 +328,10 @@ export default function(width, height) {
       )} (${format(",.1%")(
         Data.intersectionalCompanies[d.category].value / Data.totalValue
       )}).</li>
-	  <li><h4>${$.i18n("ta-districts-biggest-profiteer")}: ${
-        Data.biggestProfiteers[d.category].name
+	  <li><h4>${$.i18n("ta-women-biggest-profiteer")}: ${
+        Data.biggestProfiteers["female"].name
       }, <strong>$${bigMoneyFormat(
-        Data.biggestProfiteers[d.category].value
+        Data.biggestProfiteers["female"].value
       )}</strong></h4></li>
       </ul>
         `;
