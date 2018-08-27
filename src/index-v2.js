@@ -4,7 +4,7 @@ import districts from "./districts";
 
 const map = initMap("mapdiv");
 $("#indexModal").modal("show");
-$(".navbar-toggler").click(() => {
+$(".navbar").click(() => {
   $("#v2-div").hide();
   $("#tooltip").remove();
 });

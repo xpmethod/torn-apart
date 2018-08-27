@@ -1,7 +1,7 @@
 // from https://bl.ocks.org/mbostock/7555321
 import { select } from "d3-selection";
 
-export default function(text, width = 40) {
+export default function(text, { width = 40, lineHeight = 1.1 }) {
   text.each(function() {
     var text = select(this),
       words = text
@@ -12,7 +12,6 @@ export default function(text, width = 40) {
       word,
       line = [],
       lineNumber = 1,
-      lineHeight = 1.1, // ems
       y = text.attr("y"),
       dy = parseFloat(text.attr("dy")),
       tspan = text

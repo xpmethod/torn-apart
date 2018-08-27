@@ -20,16 +20,28 @@
         <a data-i18n="ta-allies" id="allies-button" class="nav-link nav-item" href="{{ site.baseurl }}/allies.html">Allies</a>
         <a data-i18n="ta-bibliography" id="bibliography-button" class="nav-link nav-item" href="{{ site.baseurl }}/bibliography.html">Bibliography</a>
         <a data-i18n="ta-credits" id="credits-button" class="nav-link nav-item" href="{{ site.baseurl }}/credits.html">Credits</a>
-        {% if page.volume == 1 %}
-        <a id="volume-2-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/2">Vol. 2</a>
-        {% else %}
-        <a id="volume-1-button" class="nav-link nav-item" href="{{ site.baseurl }}/volume/1">Vol. 1</a>
-        {% endif %}
-        <a id="locale-toggle" class="locale-toggle nav-link nav-item" href="{{ site.baseurl }}/#">
-          <span class="locale-toggle-text locale-toggle-en">EN</span> | 
-          <span class="locale-toggle-text locale-toggle-es">ES</span> | 
-          <span class="locale-toggle-text locale-toggle-fr">FR</span>
+        <div class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" href="#" id="languageDropdownButtons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-language"></i>
+          <span class="sr-only">Language selector</span>
         </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdownButtons">
+          <a data-locale="en" class="dropdown-item en-button locale-button active" href="#">English</a>
+          <a data-locale="es" class="dropdown-item es-button locale-button" href="#">Español</a>
+          <a data-locale="fr" class="dropdown-item fr-button locale-button" href="#">Français</a>
+        </div>
+      </div>
+      <div class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" href="#" id="volumeDropdownButtons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="ta-volume">Volume</a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="volumeDropdownButtons">
+          <a class="dropdown-item volume-button volume-1-button" href="{{ site.baseurl }}/volume/1">
+          <span style="color: #fc8d62;">█</span>
+            <span data-i18n="ta-vol"></span> 1</a>
+          <a class="dropdown-item volume-button volume-2-button active" href="{{ site.baseurl }}/volume/2">
+          <span style="color: #8da0cb;">█</span>
+            <span data-i18n="ta-vol"></span> 2</a>
+        </div>
+      </div>
       </nav>
     </div>
       {% if page.url contains "visualizations" %}
@@ -78,11 +90,17 @@
     <div class="modal-content">
       <div class="modal-header d-flex">
         <h2 id="modal-title" class="mr-auto">{{ page.modalTitle }}</h2>
-        <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle nav-link nav-item" href="#">
-          <span class="locale-toggle-text locale-toggle-en">EN</span> | 
-          <span class="locale-toggle-text locale-toggle-es">ES</span> | 
-          <span class="locale-toggle-text locale-toggle-fr">FR</span>
-        </button>
+        <div class="dropdown">
+          <button type="button" id="locale-toggle-modal" class="float-right btn-primary locale-toggle active" href="#">
+            <i class="fas fa-language"></i>
+            <span class="sr-only">Language selector</span>
+          </button>
+          <!-- <div class="dropdown-menu" aria-labelledby="local-toggle-modal"> -->
+          <!--   <a class="dropdown-item en-button locale-button active" href="#">English</a> -->
+          <!--   <a class="dropdown-item es-button locale-button" href="#">Español</a> -->
+          <!--   <a class="dropdown-item fr-button locale-button" href="#">Français</a> -->
+          <!-- </div> -->
+        </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           &times;
         </button>
