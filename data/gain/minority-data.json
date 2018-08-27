@@ -9,7 +9,7 @@
     "native",
     "otherMinority"
   ],
-  "minorityCompanies": {
+  "minorityContractors": {
     "black": {
       "count": 63,
       "value": 594580456
@@ -39,7 +39,7 @@
       "value": 1295352213
     }
   },
-  "intersectionalCompanies": {
+  "intersectionalContractors": {
     "black": {
       "count": 18,
       "value": 32905411
