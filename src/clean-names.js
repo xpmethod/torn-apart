@@ -58,7 +58,10 @@ export default function(strName) {
     ["Radvany, Paul", "Paul Radvany"],
     ["NTERONE", "NterOne"],
     ["KPAUL Properties", "KPaul Properties"],
-    ["Caci-Iss", "CACI-ISS"]
+    ["Caci-Iss", "CACI-ISS"],
+    ["Widepoint", "WidePoint"],
+    ["Nana ", "NANA "],
+    ["Centurylink", "CenturyLink"]
   ];
 
   // Now the fun begins:
@@ -163,7 +166,8 @@ export default function(strName) {
     .replace(/\bAt&t\b/i, "AT&T")
     .replace(/\bBae Systems/i, "BAE Systems")
     .replace(/\bIt Service/i, "IT Service")
-    .replace(/\bIt System/i, "IT System");
+    .replace(/\bIt System/i, "IT System")
+    .replace(/\s\s+/g, " "); // replace doubles
 
   // stdout.write(`${strName}          ---- (${strName})\n`);
 
