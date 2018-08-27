@@ -12,6 +12,7 @@ export default function(strName) {
     ["mlinqs", "mLINQS"],
     ["Kwizcom Corporation", "KWizCom Corporation"],
     ["Palantir Usg", "Palantir USG"],
+    ["Af&s Products & Services", "AF&S Products & Services"],
     ["4imprint", "4Imprint"],
     ["Faac", "FAAC"],
     ["Dialtoneservices", "DialToneServices"],
@@ -55,7 +56,6 @@ export default function(strName) {
     ["Hibler, Neil S PHD ABBP", "Neil S. Hibler, PhD. ABBP"],
     ["Tift, Richard T", "Richard T. Tift"],
     ["Radvany, Paul", "Paul Radvany"],
-    ["G4s Secure Solutions USA", "G4S Secure Solutions USA"],
     ["NTERONE", "NterOne"],
     ["KPAUL Properties", "KPaul Properties"],
     ["Caci-Iss", "CACI-ISS"]
@@ -118,6 +118,7 @@ export default function(strName) {
   //now we identify some acronyms on the basis of disallowed initial consonant clusters.
   strName = findThreeConsAcronyms(strName);
   strName = findTwoConsAcronyms(strName);
+  strName = findAllConsAcronyms(strName);
 
   // Deal with Mcs and Macs unless they are "machine":
   strName = fixMcMac(strName);
@@ -156,10 +157,13 @@ export default function(strName) {
   }
 
   //Below is how you can just change one part of the name. Should use for names that have a single acronym repeated in multiple names, e.g. KCorp Solutions, KCorp Group, etc, and only if the part you are replacing is sufficiently distinctive it won't turn up in other words/phrases you don't want to alter.
-  strName = strName.replace(/Kcorp/i, "KCorp");
-  strName = strName.replace(/\bIce\b/i, "ICE");
-  strName = strName.replace(/\bAt&t\b/i, "AT&T");
-  strName = strName.replace(/\bBae Systems/i, "BAE Systems");
+  strName = strName
+    .replace(/Kcorp/i, "KCorp")
+    .replace(/\bIce\b/i, "ICE")
+    .replace(/\bAt&t\b/i, "AT&T")
+    .replace(/\bBae Systems/i, "BAE Systems")
+    .replace(/\bIt Service/i, "IT Service")
+    .replace(/\bIt System/i, "IT System");
 
   // stdout.write(`${strName}          ---- (${strName})\n`);
 
@@ -255,6 +259,24 @@ function fixMcMac(string) {
         string.substr(0, foundMacWord.index + 2 + inc) +
         string[foundMacWord.index + 2 + inc].toUpperCase() +
         string.substr(foundMacWord.index + 3 + inc, string.length);
+    }
+  }
+  return string;
+}
+
+function findAllConsAcronyms(string) {
+  var allCons = /\b((?![aeiouy])[a-z1-9'&])+\b/gi; //this finds a word that contains no vowels. Some acronyms have numbers in them or an ampersand too.
+  var foundAllCons;
+  while ((foundAllCons = allCons.exec(string)) !== null) {
+    if (
+      foundAllCons[0].search(/\bMr\b|\bMs\b|\bMrs\b|\bDr\b|\bSt\b|\bStr\b/) ===
+      -1
+    ) {
+      var clusterSubstr = string.substr(
+        foundAllCons.index,
+        foundAllCons[0].length
+      );
+      string = string.replace(clusterSubstr, clusterSubstr.toUpperCase());
     }
   }
   return string;
