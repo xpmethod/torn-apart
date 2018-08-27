@@ -34,7 +34,7 @@ We envision *Torn Apart* as a scholarly journal--- one led by an editorial board
 * [Roopika Risam](http://roopikarisam.com/) is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018). She is a member of xpMethod.
 
 ### Contributors
-[Gaiutra Bahadur](https://twitter.com/gbahadur), [Maria Sachiko Cecire](https://twitter.com/mscecire), [Cole D Crawford](https://twitter.com/runcolerun),  [Nicole M. Guidotti-Hernández](https://twitter.com/DrNMGH), [Anna Kijas](https://twitter.com/anna_kijas), [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra), [Erik Simpson](https://twitter.com/ErikTheSimpson), [Bharat Jayram Venkat](https://twitter.com/bhar_venkat)
+[Gaiutra Bahadur](https://twitter.com/gbahadur), [Maria Sachiko Cecire](https://twitter.com/mscecire), [Cole D Crawford](https://twitter.com/runcolerun),  [Nicole M. Guidotti-Hernández](https://twitter.com/DrNMGH), [Anna Kijas](https://twitter.com/anna_kijas), [Durba Mitra](https://wgs.fas.harvard.edu/people/durba-mitra), [Bethany Nowviskie](https://twitter.com/nowviskie), [Erik Simpson](https://twitter.com/ErikTheSimpson), [Bharat Jayram Venkat](https://twitter.com/bhar_venkat)
 
 <br>
 
@@ -63,7 +63,7 @@ Ventura](https://twitter.com/gbaezaventura), [Gaiutra
 Bahadur](https://twitter.com/gbahadur), [Christina
 Bell](https://twitter.com/librarybell), [Christina
 Boyles](https://twitter.com/clboyles), [Isis
-Campos](https://twitter.com/IsisReneeCampos), [Emily
+Campos](https://twitter.com/IsisReneeCampos), [Cathy Davidson](https://twitter.com/CathyNDavidson), [Emily
 Esten](https://twitter.com/sheishistoric), [Noreen
 Farooqui](https://twitter.com/NoreenFarooqui), [Alex
 Galarza](https://twitter.com/galarzaalex), [Lorena
