@@ -22,7 +22,7 @@ export default function() {
             fiscalYear: award.fiscal_year,
             currentValue: value,
             potentialValue: award.potential_total_value_of_award,
-            duns: award.recipient_duns,
+            duns: award.recipient_parent_duns,
             // parentCompany: award.recipient_parent_name,
             // childCompany: award.recipient_name,
             companyCongCode: convertToCongCode(

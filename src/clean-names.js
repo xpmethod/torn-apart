@@ -59,7 +59,8 @@ export default function(strName) {
     ["NTERONE", "NterOne"],
     ["KPAUL Properties", "KPaul Properties"],
     ["Caci-Iss", "CACI-ISS"],
-    ["Widepoint Integrated Solutions Corp.", "WidePoint Integrated Solutions"],
+    // ["Widepoint Integrated Solutions Corp.", "WidePoint Integrated Solutions"],
+    //	["Widepoint Corporation", "WidePoint Corporation"],
     ["Nana Regional Corporation, Inc.", "NANA Regional Corporation"],
     ["Centurylink, Inc.", "CenturyLink"]
   ];
@@ -167,6 +168,7 @@ export default function(strName) {
     .replace(/\bBae Systems/i, "BAE Systems")
     .replace(/\bIt Service/i, "IT Service")
     .replace(/\bIt System/i, "IT System")
+    .replace(/\bWidepoint\b/i, "WidePoint")
     .replace(/\s\s+/g, " "); // replace double spaces one last time.
 
   return strName;

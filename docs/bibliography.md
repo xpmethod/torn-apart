@@ -7,8 +7,10 @@ permalink: bibliography.html
 {: data-i18n="ta-bibliography"}
 
 Below is a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society. You can access most of our data in our [Open Data Repository on GitHub](https://github.com/xpmethod/torn-apart-open-data).
+{:.markdownify data-i18n="ta-bibliography-description"}
 
 ## Data Sources
+{: data-i18n="ta-data-sources"}
 
 * A New Leaf. A Job Ad (Now Removed) from A New Leaf.  
 [http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310.](http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310)
