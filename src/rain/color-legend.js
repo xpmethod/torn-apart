@@ -3,7 +3,7 @@ import { legendColor } from "d3-svg-legend";
 export default function(scale) {
   return legendColor()
     .title("Contract Type")
-    .labels(["Renewed contracts", "Unique contracts"])
+    .labels(["Multiple Awards to Single Contractor", "One-off Awards"])
     .shape("rect")
     .shapeWidth(50)
     .shapePadding(10)
