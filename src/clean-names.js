@@ -59,9 +59,9 @@ export default function(strName) {
     ["NTERONE", "NterOne"],
     ["KPAUL Properties", "KPaul Properties"],
     ["Caci-Iss", "CACI-ISS"],
-    ["Widepoint", "WidePoint"],
-    ["Nana ", "NANA "],
-    ["Centurylink", "CenturyLink"]
+    ["Widepoint Integrated Solutions Corp.", "WidePoint Integrated Solutions"],
+    ["Nana Regional Corporation, Inc.", "NANA Regional Corporation"],
+    ["Centurylink, Inc.", "CenturyLink"]
   ];
 
   // Now the fun begins:
