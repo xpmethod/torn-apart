@@ -162,7 +162,7 @@ export default function() {
       .attr(
         "xlink:href",
         d =>
-          `http://localhost:4000/torn-apart/assets/imgs/postit-${
+          `/torn-apart/assets/imgs/postit-${
             d.colorText
           }.png`
       )
