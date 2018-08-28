@@ -20,7 +20,7 @@ Ph.D. Student, UCLA Department of Political Science and Ford Foundation and Nati
 
 **[Needles without a North]({{site.baseurl}}/reflections/alex_gil.html)**.  
 by [Alex Gil](http://www.elotroalex.com) and Myrna Milagros Fuentes Boom.   
-Gil is Digital Scholarship Librarian and Affiliate Faculty of the Department of English and Comparative Literature, Columbia University; Fuentes Boom is a business woman in Dominican Republic.
+Gil is Digital Scholarship Librarian and Affiliate Faculty of the Department of English and Comparative Literature, Columbia University and the eldest son of Fuentes Boom; Fuentes Boom is a business woman in Dominican Republic.
 
 **[Lines less determined]({{site.baseurl}}/reflections/daryl_meador.html)**.  
 by [Daryl Meador](http://twitter.com/darylmeador).   
