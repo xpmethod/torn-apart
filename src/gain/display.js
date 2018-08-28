@@ -13,7 +13,7 @@ export default function() {
 
   select("#taller-browser").remove();
 
-  if (height > 230) {
+  if (height > 210) {
     gainBars(width, height);
   } else {
     select("#gain-bars-svg").remove();

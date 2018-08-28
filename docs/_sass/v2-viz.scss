@@ -24,11 +24,6 @@
     width: 100%; // keep for wall of gain
   }
 
-  .spreadsheet {
-    overflow-y: auto;
-    max-height: calc(100vh / 3);
-  }
-
   .big-number {
     margin: 0;
     color: $green;
@@ -77,6 +72,10 @@
       font-size: 1rem;
     }
   }
+
+  #freezer-icetray-sidebar {
+    overflow-y: auto;
+  }
   
   @media (min-width: 576px){
     font-size: 0.8rem;
@@ -95,13 +94,15 @@
     .main-gain {
       margin: 0;
       color: $purple;
-      line-height: 2rem;
-      font-size: 2.8rem;
-      min-height: 4.5rem;
-      max-height: 4.5rem;
+      line-height: 1.6rem;
+      font-size: 2rem;
+      // line-height: 2rem;
+      // font-size: 2.8rem;
+      min-height: 3.5rem;
+      max-height: 3.5rem;
 
       small {
-        font-size: 1.5rem;
+        font-size: 1.15rem;
       }
     }
 

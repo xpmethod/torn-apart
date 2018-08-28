@@ -161,10 +161,7 @@ export default function() {
     icons
       .attr(
         "xlink:href",
-        d =>
-          `/torn-apart/assets/imgs/postit-${
-            d.colorText
-          }.png`
+        d => `/torn-apart/assets/imgs/postit-${d.colorText}.png`
       )
       .attr("height", icon.side)
       .attr("width", icon.side);
