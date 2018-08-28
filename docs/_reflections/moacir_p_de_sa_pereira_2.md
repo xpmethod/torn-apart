@@ -8,7 +8,7 @@ author:
   creator: "Sá Pereira, Moacir P. de"
   name: Moacir P. de Sá Pereira
   shortname: Moacir
-  bio: "Moacir P. de Sá Pereira ([@muziejus](http://twitter.com/muziejus)) is a scholar of literature and space.
+  bio: "Moacir P. de Sá Pereira ([@muziejus](http://twitter.com/muziejus)) is a scholar of literature and space."
   date: 2018-06-23
   url: https://moacir.com
 issue: 2
