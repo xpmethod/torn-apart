@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import { event, selectAll, select } from "d3-selection";
 import { rem } from "./constants";
 
@@ -7,7 +6,7 @@ export function handleMouseOver(d) {
   let pageX, pageY;
   let minWidth = 10 * rem;
   let maxWidth = 20 * rem;
-  if (L.Browser.mobile) {
+  if (window.matchMedia("(max-width: 576px)").matches) {
     pageX = 1 * rem;
     pageY = 4.5 * rem;
     minWidth = $(window).width() - 2 * rem;
@@ -41,7 +40,7 @@ export function handleMouseOver(d) {
       }
     })
     .style("top", function() {
-      if (L.Browser.mobile) {
+      if (window.matchMedia("(max-width: 576px)").matches) {
         return pageY + "px";
       } else {
         const toolTipHeight = $("#tooltip").height();

@@ -1,6 +1,5 @@
 import $ from "jquery";
 import _ from "lodash";
-import L from "leaflet";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX } from "d3-force";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
@@ -21,7 +20,7 @@ export default function() {
     .attr("height", height);
   const bins = ckmeans(Data.map(d => d.currentValue), 5);
   bins.shift();
-  const circleSizes = L.Browser.mobile
+  const circleSizes = window.matchMedia("(max-width: 576px)").matches
     ? [1.5, 3, 7, 10, 13]
     : [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
@@ -53,7 +52,7 @@ export default function() {
     2018: (scaled_width * (12 + 22 + 30 + 42 + 47)) / 155 + width / 15
   };
 
-  const yCenter = L.Browser.mobile
+  const yCenter = window.matchMedia("(max-width: 576px)").matches
     ? {
         2014: height / 4,
         2015: height / 3,
@@ -69,7 +68,7 @@ export default function() {
         2018: height / 1.8
       };
 
-  const forces = L.Browser.mobile
+  const forces = window.matchMedia("(max-width: 576px)").matches
     ? { x: 2, y: 0.2, collision1: 3, collision2: 8 }
     : { x: 0.8, y: 0.3, collision1: 1, collision2: 1 };
 
@@ -136,8 +135,6 @@ export default function() {
       theTip.hide(d, this);
     });
 
-  const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
-
   svg
     .append("g")
     .attr("id", "rain-subheads-g")
@@ -148,7 +145,6 @@ export default function() {
     .text(d => `FY ${d}`)
     .classed("subhead", true)
     .classed("centered", true)
-    .style("font-size", fyFont)
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
 
@@ -184,7 +180,7 @@ export default function() {
       .text();
   });
 
-  const legendXShift = L.Browser.mobile ? 0 : 30;
+  const legendXShift = window.matchMedia("(max-width: 576px)").matches ? 0 : 30;
 
   legendG
     .attr(

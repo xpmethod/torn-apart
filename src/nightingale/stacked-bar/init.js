@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import { axisBottom, axisLeft } from "d3-axis";
 import { stack, stackOrderAscending } from "d3-shape";
 import { select } from "d3-selection";
@@ -58,7 +57,7 @@ export default function() {
     .append("g")
     .classed("axis", true)
     .attr("transform", `translate(${margins[3]},${height - margins[2]})`);
-  if (L.Browser.mobile) {
+  if (window.matchMedia("(max-width: 576px)").matches) {
     xAxis.call(
       axisBottom(x)
         .tickValues([
