@@ -805,7 +805,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Cold Box Express",
+          "name": "CBX Holding",
           "value": 171873
         },
         "dom_id": "district-alabama-4",
@@ -1016,7 +1016,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "FPMI Solutions",
+          "name": "Paladin Capital Group",
           "value": 25672
         },
         "dom_id": "district-alabama-5",
@@ -1375,7 +1375,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Altec Industries",
+          "name": "Altec",
           "value": 2515330
         },
         "dom_id": "district-alabama-6",
@@ -11141,13 +11141,13 @@
         "districtName": "ta-at-large-district",
         "party": "republican",
         "profiteer": {
-          "name": "Akima Global Services",
-          "value": 276900494
+          "name": "NANA Regional Corporation",
+          "value": 243843660
         },
         "dom_id": "district-alaska-0",
         "representative": "Don Young",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Don_Young%2C_official_115th_Congress_photo_portrait_%28cropped%29.jpg",
-        "total_value": 889752125.28,
+        "total_value": 889752125.2799999,
         "district_url": "https://en.wikipedia.org/wiki/Alaska%27s_at-large_congressional_district"
       }
     },
@@ -13714,7 +13714,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "BAE Systems Protection Systems",
+          "name": "BAE Systems Aerospace & Defense Group",
           "value": 684863
         },
         "dom_id": "district-arizona-7",
@@ -14167,7 +14167,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Crime Information Center, Arkansas",
+          "name": "State of Arkansas",
           "value": 19129
         },
         "dom_id": "district-arkansas-2",
@@ -16613,7 +16613,7 @@
         "dom_id": "district-california-18",
         "representative": "Anna Eshoo",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rep_Anna_Eshoo_%28cropped%29.jpg",
-        "total_value": 65032256.580000006,
+        "total_value": 65032256.58,
         "district_url": "https://en.wikipedia.org/wiki/California%27s_18th_congressional_district"
       }
     },
@@ -16977,7 +16977,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Language Line",
+          "name": "Language Line Holdings",
           "value": 74334
         },
         "dom_id": "district-california-20",
@@ -18417,7 +18417,7 @@
         "party": "democrat",
         "profiteer": {
           "name": "Guidance Software",
-          "value": 132990
+          "value": 120000
         },
         "dom_id": "district-california-27",
         "representative": "Judy Chu",
@@ -18515,7 +18515,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Aramark Uniform & Career Apparel",
+          "name": "Aramark",
           "value": 49409
         },
         "dom_id": "district-california-28",
@@ -19977,7 +19977,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Fleet Management Solutions",
+          "name": "Fortive Corporation",
           "value": 1245845
         },
         "dom_id": "district-california-47",
@@ -21373,13 +21373,13 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "B.i.",
+          "name": "The Geo Group",
           "value": 390403200
         },
         "dom_id": "district-colorado-2",
         "representative": "Jared Polis",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jared_Polis_official_photo_%28cropped%29.jpg",
-        "total_value": 390959143.1,
+        "total_value": 390959143.09999996,
         "district_url": "https://en.wikipedia.org/wiki/Colorado%27s_2nd_congressional_district"
       }
     },
@@ -22166,7 +22166,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Colt Defense",
+          "name": "Colt Defense Holding",
           "value": 2804209
         },
         "dom_id": "district-connecticut-1",
@@ -22648,7 +22648,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Department of Emergency Services and Public Protection",
+          "name": "State of Connecticut",
           "value": 28168
         },
         "dom_id": "district-connecticut-3",
@@ -23078,7 +23078,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "General Dynamics Ordnance and Tactical Systems",
+          "name": "General Dynamics Corporation",
           "value": 200518
         },
         "dom_id": "district-connecticut-5",
@@ -23390,7 +23390,7 @@
         "dom_id": "district-districtofcolumbia-98",
         "representative": "Delegate Eleanor Holmes Norton",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Eleanor_Holmes_Norton.jpg/220px-Eleanor_Holmes_Norton.jpg",
-        "total_value": 111844919.83,
+        "total_value": 111844919.83000001,
         "district_url": "https://en.wikipedia.org/wiki/District_of_Columbia%27s_at-large_congressional_district"
       }
     },
@@ -25131,12 +25131,12 @@
         "party": "republican",
         "profiteer": {
           "name": "Harris Corporation",
-          "value": 4832000
+          "value": 9291791
         },
         "dom_id": "district-florida-8",
         "representative": "Bill Posey",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bill_Posey_%28cropped%29.jpg",
-        "total_value": 12474147.150000002,
+        "total_value": 12474147.149999999,
         "district_url": "https://en.wikipedia.org/wiki/Florida%27s_8th_congressional_district"
       }
     },
@@ -25530,7 +25530,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "DTC Communications",
+          "name": "Marlin Equity Partners III",
           "value": 21033440
         },
         "dom_id": "district-florida-13",
@@ -25736,7 +25736,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "G4S Secure Solutions USA",
+          "name": "G4S PLC",
           "value": 228475596
         },
         "dom_id": "district-florida-18",
@@ -26261,7 +26261,7 @@
         "party": "democrat",
         "profiteer": {
           "name": "The Geo Group",
-          "value": 596860025
+          "value": 617267921
         },
         "dom_id": "district-florida-22",
         "representative": "Ted Deutch",
@@ -26339,7 +26339,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Protective Products Enterprises",
+          "name": "GPV III",
           "value": 3606700
         },
         "dom_id": "district-florida-23",
@@ -26575,7 +26575,7 @@
         "dom_id": "district-florida-25",
         "representative": "Mario Díaz-Balart",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mario_D%C3%ADaz-Balart_official_photo_%28cropped%29.jpg",
-        "total_value": 151468.07,
+        "total_value": 151468.06999999998,
         "district_url": "https://en.wikipedia.org/wiki/Florida%27s_25th_congressional_district"
       }
     },
@@ -27518,7 +27518,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "republican",
         "profiteer": {
-          "name": "Federal Prison Industries",
+          "name": "Government of the United States",
           "value": 243152
         },
         "dom_id": "district-georgia-1",
@@ -30136,7 +30136,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Glock",
+          "name": "Glock Privatstiftung",
           "value": 815854
         },
         "dom_id": "district-georgia-13",
@@ -31150,7 +31150,7 @@
         "districtName": "ta-ordinal-st-m",
         "party": "republican",
         "profiteer": {
-          "name": "Ammunition Accessories",
+          "name": "Northrop Grumman Innovation Systems",
           "value": 511320
         },
         "dom_id": "district-idaho-1",
@@ -32089,7 +32089,7 @@
         "dom_id": "district-illinois-5",
         "representative": "Mike Quigley",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mike_Quigley_official_photo_%28cropped_2%29.jpg",
-        "total_value": 430445.9,
+        "total_value": 430445.89999999997,
         "district_url": "https://en.wikipedia.org/wiki/Illinois%27s_5th_congressional_district"
       }
     },
@@ -32583,13 +32583,13 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "CDW Government",
+          "name": "CDW Corporation",
           "value": 682318
         },
         "dom_id": "district-illinois-10",
         "representative": "Brad Schneider",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Brad_Schneider_official_photo_%28cropped%29.jpg",
-        "total_value": 1007440.53,
+        "total_value": 1007440.5299999999,
         "district_url": "https://en.wikipedia.org/wiki/Illinois%27s_10th_congressional_district"
       }
     },
@@ -34628,7 +34628,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Marquis Consulting Services",
+          "name": "Gemalto",
           "value": 3600
         },
         "dom_id": "district-indiana-3",
@@ -37885,7 +37885,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "United Parcel Service Co.",
+          "name": "United Parcel Service",
           "value": 3500
         },
         "dom_id": "district-kentucky-3",
@@ -38877,7 +38877,7 @@
         "dom_id": "district-kentucky-6",
         "representative": "Andy Barr",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Andy_Barr_official_congressional_photo_%28cropped%29.jpg",
-        "total_value": 9340723.809999999,
+        "total_value": 9340723.81,
         "district_url": "https://en.wikipedia.org/wiki/Kentucky%27s_6th_congressional_district"
       }
     },
@@ -42760,7 +42760,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "The Keyw Corporation",
+          "name": "The Keyw Holding Corporation",
           "value": 497050
         },
         "dom_id": "district-maryland-2",
@@ -43045,7 +43045,7 @@
         "dom_id": "district-maryland-3",
         "representative": "John Sarbanes",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/John_Sarbanes_official_photo_%28cropped%29.jpg",
-        "total_value": 112724045.39000002,
+        "total_value": 112724045.39,
         "district_url": "https://en.wikipedia.org/wiki/Maryland%27s_3rd_congressional_district"
       }
     },
@@ -44392,7 +44392,7 @@
         "dom_id": "district-maryland-8",
         "representative": "Jamie Raskin",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Jamie_Raskin_official_%28cropped%29.jpg",
-        "total_value": 244493123.39999998,
+        "total_value": 244493123.4,
         "district_url": "https://en.wikipedia.org/wiki/Maryland%27s_8th_congressional_district"
       }
     },
@@ -45549,8 +45549,8 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Lionbridge Global Solutions II",
-          "value": 5570327
+          "name": "Hig Capital Management",
+          "value": 3352327
         },
         "dom_id": "district-massachusetts-5",
         "representative": "Katherine Clark",
@@ -48172,8 +48172,8 @@
         "districtName": "ta-ordinal-st-m",
         "party": "republican",
         "profiteer": {
-          "name": "Central Lake Armor Express",
-          "value": 4091413
+          "name": "Praesidium Spa",
+          "value": 2429603
         },
         "dom_id": "district-michigan-1",
         "representative": "Jack Bergman",
@@ -48383,7 +48383,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Haworth",
+          "name": "Haworth International",
           "value": 4354916
         },
         "dom_id": "district-michigan-2",
@@ -48486,7 +48486,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Michigan Department of State Police",
+          "name": "State of Michigan",
           "value": 20196
         },
         "dom_id": "district-michigan-8",
@@ -48959,7 +48959,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "FAAC",
+          "name": "Arotech Corporation",
           "value": 66495
         },
         "dom_id": "district-michigan-12",
@@ -49400,7 +49400,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "West Publishing Corporation",
+          "name": "The Thomson Company",
           "value": 11791476
         },
         "dom_id": "district-minnesota-2",
@@ -49559,7 +49559,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Rimage Corporation",
+          "name": "Equus Holdings",
           "value": 519259
         },
         "dom_id": "district-minnesota-3",
@@ -49984,8 +49984,8 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Vista Outdoor Sales",
-          "value": 32003088
+          "name": "Vista Outdoor",
+          "value": 33010214
         },
         "dom_id": "district-minnesota-6",
         "representative": "Tom Emmer",
@@ -55265,7 +55265,7 @@
         "districtName": "ta-ordinal-rd-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Tririga",
+          "name": "International Business Machines Corporation",
           "value": 2787106
         },
         "dom_id": "district-nevada-3",
@@ -55646,7 +55646,7 @@
         "dom_id": "district-newhampshire-1",
         "representative": "Carol Shea-Porter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Carol_Shea-Porter_%28cropped%29.jpg",
-        "total_value": 2005958.84,
+        "total_value": 2005958.8399999999,
         "district_url": "https://en.wikipedia.org/wiki/New_Hampshire%27s_1st_congressional_district"
       }
     },
@@ -57601,7 +57601,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Cellco Partnership",
+          "name": "Verizon Communications",
           "value": 549997
         },
         "dom_id": "district-newjersey-7",
@@ -58271,7 +58271,7 @@
         "dom_id": "district-newjersey-11",
         "representative": "Rodney Frelinghuysen",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rodney_Frelinghuysen_official_photo%2C_114th_Congress_%28cropped%29.jpg",
-        "total_value": 2956067.0400000005,
+        "total_value": 2956067.04,
         "district_url": "https://en.wikipedia.org/wiki/New_Jersey%27s_11th_congressional_district"
       }
     },
@@ -59664,7 +59664,7 @@
         "dom_id": "district-newyork-4",
         "representative": "Kathleen Rice",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kathleen_Rice_official_photo_%28cropped%29.jpg",
-        "total_value": 636848.87,
+        "total_value": 636848.8700000001,
         "district_url": "https://en.wikipedia.org/wiki/New_York%27s_4th_congressional_district"
       }
     },
@@ -60684,7 +60684,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "New York State Department of Motor Vehicles",
+          "name": "State of New York",
           "value": 37825
         },
         "dom_id": "district-newyork-20",
@@ -61126,7 +61126,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Gaylord Bros.",
+          "name": "Demco",
           "value": 9117
         },
         "dom_id": "district-newyork-24",
@@ -61358,7 +61358,7 @@
         "dom_id": "district-newyork-26",
         "representative": "Brian Higgins",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Brian_Higgins_official_photo_%28cropped%29.jpg",
-        "total_value": 216891.42000000004,
+        "total_value": 216891.42,
         "district_url": "https://en.wikipedia.org/wiki/New_York%27s_26th_congressional_district"
       }
     },
@@ -62793,7 +62793,7 @@
         "dom_id": "district-northcarolina-4",
         "representative": "David Price",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/David_Price%2C_115th_Congress_official_photo_%28cropped%29.jpg",
-        "total_value": 22855755.66000002,
+        "total_value": 22855755.660000015,
         "district_url": "https://en.wikipedia.org/wiki/North_Carolina%27s_4th_congressional_district"
       }
     },
@@ -62978,8 +62978,8 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "KDH Defense Systems",
-          "value": 6511034
+          "name": "Praesidium Spa",
+          "value": 5998353
         },
         "dom_id": "district-northcarolina-6",
         "representative": "Mark Walker",
@@ -64562,7 +64562,7 @@
         "dom_id": "district-northcarolina-13",
         "representative": "Ted Budd",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ted_Budd_official_congressional_photo_%28cropped%29.jpg",
-        "total_value": 45573.78,
+        "total_value": 45573.77999999999,
         "district_url": "https://en.wikipedia.org/wiki/North_Carolina%27s_13th_congressional_district"
       }
     },
@@ -65062,7 +65062,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "Luxfer Magtech",
+          "name": "Luxfer Holdings PLC",
           "value": 82586
         },
         "dom_id": "district-ohio-2",
@@ -65655,7 +65655,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Shred-It USA",
+          "name": "Stericycle",
           "value": 13761
         },
         "dom_id": "district-ohio-8",
@@ -66152,7 +66152,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "ABM Parking Services",
+          "name": "ABM Industries",
           "value": 40000
         },
         "dom_id": "district-ohio-11",
@@ -69063,13 +69063,13 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Inseego North America",
-          "value": 496364
+          "name": "Novatel Wireless",
+          "value": 475309
         },
         "dom_id": "district-oregon-4",
         "representative": "Peter DeFazio",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Peter_DeFazio_official_photo_%28cropped%29.jpg",
-        "total_value": 849140.1800000002,
+        "total_value": 849140.1799999999,
         "district_url": "https://en.wikipedia.org/wiki/Oregon%27s_4th_congressional_district"
       }
     },
@@ -70261,7 +70261,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Ricoh Usa",
+          "name": "Ricoh Company",
           "value": 740438
         },
         "dom_id": "district-pennsylvania-6",
@@ -72836,7 +72836,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Opsec Security",
+          "name": "Opsec Security Group ",
           "value": 14090
         },
         "dom_id": "district-pennsylvania-16",
@@ -73063,7 +73063,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Fisher Scientific Company",
+          "name": "Thermo Fisher Scientific",
           "value": 7545
         },
         "dom_id": "district-pennsylvania-18",
@@ -74040,7 +74040,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "FN America",
+          "name": "Wespavia SA",
           "value": 235882
         },
         "dom_id": "district-southcarolina-2",
@@ -77132,7 +77132,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "The Terminix International Company Partnership",
+          "name": "ServiceMaster Global Holdings",
           "value": 4539
         },
         "dom_id": "district-tennessee-8",
@@ -81445,7 +81445,7 @@
         "districtName": "ta-ordinal-nd-m",
         "party": "republican",
         "profiteer": {
-          "name": "ABM Industry Groups",
+          "name": "ABM Industries",
           "value": 82625
         },
         "dom_id": "district-texas-22",
@@ -84160,13 +84160,13 @@
         "districtName": "ta-ordinal-st-m",
         "party": "republican",
         "profiteer": {
-          "name": "Dell Federal Systems",
-          "value": 35768384
+          "name": "Dell Technologies",
+          "value": 36295823
         },
         "dom_id": "district-texas-31",
         "representative": "John Carter",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Rep._John_Carter_%28cropped%29.jpg",
-        "total_value": 36301747.98000001,
+        "total_value": 36301747.980000004,
         "district_url": "https://en.wikipedia.org/wiki/Texas%27s_31st_congressional_district"
       }
     },
@@ -86097,7 +86097,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Franklin Covey Client Sales",
+          "name": "Franklin Covey Co.",
           "value": 94366
         },
         "dom_id": "district-utah-4",
@@ -88685,7 +88685,7 @@
         "dom_id": "district-virginia-6",
         "representative": "Bob Goodlatte",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bob_Goodlatte_official_photo_%28cropped%29.jpg",
-        "total_value": 6513077.149999999,
+        "total_value": 6513077.15,
         "district_url": "https://en.wikipedia.org/wiki/Virginia%27s_6th_congressional_district"
       }
     },
@@ -89351,7 +89351,7 @@
         "dom_id": "district-virginia-8",
         "representative": "Don Beyer",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Don_Beyer%2C_official_114th_Congress_photo_portrait_%28cropped%29.jpeg",
-        "total_value": 765093238.8300002,
+        "total_value": 765093238.8299999,
         "district_url": "https://en.wikipedia.org/wiki/Virginia%27s_8th_congressional_district"
       }
     },
@@ -90265,7 +90265,7 @@
         "dom_id": "district-virginia-10",
         "representative": "Barbara Comstock",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Barbara_Comstock_official_photo%2C_114th_Congress_%28cropped%29.jpg",
-        "total_value": 569353037.83,
+        "total_value": 569353037.8299999,
         "district_url": "https://en.wikipedia.org/wiki/Virginia%27s_10th_congressional_district"
       }
     },
@@ -90374,13 +90374,13 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Widepoint Integrated Solutions",
-          "value": 164841980
+          "name": "CSRA",
+          "value": 198781649
         },
         "dom_id": "district-virginia-11",
         "representative": "Gerry Connolly",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Gerry_Connolly_official_photo_%28cropped%29.jpg",
-        "total_value": 1262739446.8099992,
+        "total_value": 1262739446.81,
         "district_url": "https://en.wikipedia.org/wiki/Virginia%27s_11th_congressional_district"
       }
     },
@@ -90683,7 +90683,7 @@
         "dom_id": "district-washington-1",
         "representative": "Suzan DelBene",
         "representative_photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Suzan_DelBene%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg",
-        "total_value": 42762393.32,
+        "total_value": 42762393.32000001,
         "district_url": "https://en.wikipedia.org/wiki/Washington%27s_1st_congressional_district"
       }
     },
@@ -92156,7 +92156,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Amazon.Com",
+          "name": "Amazon.com",
           "value": 11899
         },
         "dom_id": "district-washington-7",
@@ -92630,7 +92630,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "democrat",
         "profiteer": {
-          "name": "Concur Technologies",
+          "name": "Sap Se",
           "value": 6305099
         },
         "dom_id": "district-washington-9",
@@ -93638,7 +93638,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Spacesaver Storage Systems",
+          "name": "Krueger International",
           "value": 196624
         },
         "dom_id": "district-wisconsin-5",
@@ -93949,7 +93949,7 @@
         "districtName": "ta-ordinal-th-m",
         "party": "republican",
         "profiteer": {
-          "name": "Pierce Manufacturing",
+          "name": "Oshkosh Corporation",
           "value": 3185922
         },
         "dom_id": "district-wisconsin-6",

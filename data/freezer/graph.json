@@ -26048,7 +26048,7 @@
     },
     {
       "id": "788549012",
-      "name": "Widepoint Corporation",
+      "name": "WidePoint Corporation",
       "childOf": null,
       "category": "parent company",
       "awards": [
@@ -26057,7 +26057,7 @@
           "award_description": "Cellular Wireless Managed Services for Ocio/ops",
           "recipient_city": "Mc Lean",
           "recipient_state": "VA",
-          "recipient_name": "Widepoint Integrated Solutions",
+          "recipient_name": "WidePoint Integrated Solutions",
           "naics_cat": "Mixed Bag",
           "naics_description": "Custom Computer Programming Services"
         }
@@ -45785,7 +45785,7 @@
           "award_description": "Cellular Wireless Managed Services for Ocio/ops",
           "recipient_city": "Mc Lean",
           "recipient_state": "VA",
-          "recipient_name": "Widepoint Integrated Solutions",
+          "recipient_name": "WidePoint Integrated Solutions",
           "naics_cat": "Mixed Bag",
           "naics_description": "Custom Computer Programming Services"
         }
@@ -54812,7 +54812,7 @@
     },
     {
       "id": "4693904||788549012",
-      "name": "Widepoint Integrated Solutions",
+      "name": "WidePoint Integrated Solutions",
       "childOf": "788549012",
       "category": "company",
       "awards": [
@@ -54821,7 +54821,7 @@
           "award_description": "Cellular Wireless Managed Services for Ocio/ops",
           "recipient_city": "Mc Lean",
           "recipient_state": "VA",
-          "recipient_name": "Widepoint Integrated Solutions",
+          "recipient_name": "WidePoint Integrated Solutions",
           "naics_cat": "Mixed Bag",
           "naics_description": "Custom Computer Programming Services"
         }
@@ -61337,7 +61337,7 @@
           "award_description": "Cellular Wireless Managed Services for Ocio/ops",
           "recipient_city": "Mc Lean",
           "recipient_state": "VA",
-          "recipient_name": "Widepoint Integrated Solutions",
+          "recipient_name": "WidePoint Integrated Solutions",
           "naics_cat": "Mixed Bag",
           "naics_description": "Custom Computer Programming Services"
         }
