@@ -11,7 +11,7 @@ export default function(height, width) {
   const legendG = svg
     .append("g")
     .classed("legendOrdinal", true)
-    .attr("transform", `translate(${width / 2},${height / 3})`)
+    .attr("transform", `translate(${(2 * width) / 5},${(2 * height) / 5})`)
     .attr("id", "districts-legend");
   const scale = scaleOrdinal()
     .domain(["Republican", "Democrat", "No Representative"])
@@ -35,24 +35,26 @@ export default function(height, width) {
   head.call(wrap, { width: width / 2, lineHeight: 1.1 });
   head.attr("transform", `translate(0,-${head.node().getBBox().height})`);
 
-  const selectedDistrict = legendG
-    .append("text")
-    .classed("subsubhead", true)
-    .attr("dy", "0.01")
-    .text("Selected District:");
-  selectedDistrict.attr(
-    "transform",
-    `translate(0, ${legendG.node().getBBox().height / 1.5})`
-  );
+  if (window.matchMedia("(min-width: 576px)").matches) {
+    const selectedDistrict = legendG
+      .append("text")
+      .classed("subsubhead", true)
+      .attr("dy", "0.01")
+      .text("Selected District:");
+    selectedDistrict.attr(
+      "transform",
+      `translate(0, ${legendG.node().getBBox().height / 1.5})`
+    );
 
-  const districtText = legendG
-    .append("text")
-    .attr("id", "district-text")
-    .text("No selected district.");
-  districtText.attr(
-    "transform",
-    `translate(0, ${legendG.node().getBBox().height / 1.5})`
-  );
+    const districtText = legendG
+      .append("text")
+      .attr("id", "district-text")
+      .text("No selected district.");
+    districtText.attr(
+      "transform",
+      `translate(0, ${legendG.node().getBBox().height / 1.5})`
+    );
+  }
 
   const legendBBox = legendG.node().getBBox();
   legendG
