@@ -49,7 +49,7 @@ proposals: more medical supplies, more nurses, less filth.
 
 But as Nightingale explains in the opening of 1858 pamphlet on the mortality of the
 British Army, a diagram will be more useful to carry this affective weight,
-prompting the design of the “batwings,” diagrams that treated the year as a
+prompting the design of the “batwings” diagrams that treated the year as a
 cycle and drew a line around the calendar to show trends in mortality.
 
 <div id="batwing-div">
@@ -69,7 +69,7 @@ EAST</small></h2>
 </div>
 </div>
 
-Despite the fact that for some reason the years go from right to left
+Despite the fact that, for some reason, the years go from right to left
 (reproduced from Nightingale’s original) and that the visualizations begin on
 April 1, or what is 9 o’clock on the calendar wheels, these diagrams
 demonstrate *very* clearly that the bulk of soldiers were dying of infection,
