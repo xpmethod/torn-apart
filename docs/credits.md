@@ -105,7 +105,7 @@ After Volume 1 we asked for volunteer peer reviewers. Many in our scholarly and 
 
 We thank HASTAC for [their generous support during DH2018](https://www.hastac.org/blogs/danicasavonick/2018/07/08/torn-apartseparados-hackathon-hastac-meet-recap) in Mexico City. Volume 2 is a result of the design and prototyping sprints we held there. The Digital Library Federation has already extended a partnering hand to work on abstracting our model of research and help expand the [Nimble Tents Toolkit](https://nimbletents.github.io/), a resource clearinghouse for mobilized scholarship and librarianship.
 
-We owe a special debt of gratitude to [Jacqueline Wernimont](https://twitter.com/profwernimont) and friends for the [DIY Feminist Cybersecurity](https://hackblossom.org/cybersecurity/) they offer us, so we can focus on the work at hand without having to worry about doxxers, trolls and other critters.
+We owe a special debt of gratitude to [Jacqueline Wernimont](https://twitter.com/profwernimont) and friends for the [DIY Feminist Cybersecurity](https://hackblossom.org/cybersecurity/) they offered us, so we could focus on the work at hand without having to worry about doxxers, trolls, and other critters.
 
 And to anyone who shared our project with those for whom it would be most useful, who volunteered, but didn't get a chance to contribute, who debated it at home, who retweeted it, who wrote about it for their publics, we thank you.
 
