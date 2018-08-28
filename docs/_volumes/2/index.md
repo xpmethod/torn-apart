@@ -2,7 +2,6 @@
 layout: index
 volume: 2
 mapid: mapdiv
-redirect_from: /
 modalTitle: Torn Apart / Separados
 ---
 
