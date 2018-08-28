@@ -22,7 +22,7 @@ export default function() {
   const bins = ckmeans(Data.map(d => d.currentValue), 5);
   bins.shift();
   const circleSizes = L.Browser.mobile
-    ? [1.5, 5, 10, 15, 20]
+    ? [1.5, 3, 7, 10, 13]
     : [1.5, 10, 20, 30, 40];
   const r = scaleThreshold()
     .domain(bins.map(bin => bin[0]))
@@ -69,7 +69,9 @@ export default function() {
         2018: height / 1.8
       };
 
-  const forces = L.Browser.mobile ? { x: 5.5, y: 0.07 } : { x: 0.8, y: 0.3 };
+  const forces = L.Browser.mobile
+    ? { x: 2, y: 0.2, collision1: 3, collision2: 8 }
+    : { x: 0.8, y: 0.3, collision1: 1, collision2: 1 };
 
   var simulation = forceSimulation(Data)
     .force(
@@ -88,7 +90,9 @@ export default function() {
     .force(
       "collision",
       forceCollide().radius(d => {
-        return Math.max(8, 1.5 * r(d.currentValue));
+        return (
+          Math.max(8 / forces.collision2, r(d.currentValue)) * forces.collision1
+        );
       })
     )
     .stop();
@@ -132,6 +136,8 @@ export default function() {
       theTip.hide(d, this);
     });
 
+  const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
+
   svg
     .append("g")
     .attr("id", "rain-subheads-g")
@@ -142,6 +148,7 @@ export default function() {
     .text(d => `FY ${d}`)
     .classed("subhead", true)
     .classed("centered", true)
+    .style("font-size", fyFont)
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
 
