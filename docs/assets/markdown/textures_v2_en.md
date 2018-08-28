@@ -33,7 +33,7 @@ Designing “Gain” was a crucial moment where these tensions came to the fore.
 
 For example, Geo Group should actually be 72,2843 times as large as UPS (the smallest item on the word cloud) and 3.6 times as large as Corrections Corporation of America (the second-largest). However, these sizes weren’t possible to represent without logarithmic scaling, which obscures both the absolute and relative dollar values. Therefore, our "Scroll of Shame" avoids this issue by simply displaying contractor names and award values.
 
-![Original "Wall of Shame" and "Equal Opportunity Oppression" pie charts for Gain](torn-apart/docs/_site/assets/imgs/v2/textures-fig2.jpg)
+![Original "Wall of Shame" and "Equal Opportunity Oppression" pie charts for Gain](/torn-apart/assets/imgs/v2/textures-fig2.jpg)
 
 We also originally created “Equal Opportunity Oppression” pie charts representing the participation of people of color, women, and women of color in ICE contracts (Figure 2). Working with this data was a puzzle: in accordance with Equal Opportunity laws, the United States government collects data on gender and racial demographics of business owners who receive contracts—as long as they aren’t white or male. Contractors are given the opportunity to identify with racial and ethnic groups, where they can select multiple categories as well as “other minority.” The categories read like a hodgepodge of census designations over the decades, some now abandoned. Contractors are also asked if they wish to identify as women, women-owned-small-business, women-owned-disadvantaged-business, or joint-venture-women-owned-small-business. There are no non-binary gender options.
 
