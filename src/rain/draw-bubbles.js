@@ -136,7 +136,7 @@ export default function() {
       theTip.hide(d, this);
     });
 
-const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
+  const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
 
   svg
     .append("g")
@@ -148,11 +148,10 @@ const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
     .text(d => `FY ${d}`)
     .classed("subhead", true)
     .classed("centered", true)
-	.style("font-size", fyFont)
+    .style("font-size", fyFont)
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
 
-	
   spinner.stop();
 
   const legendG = svg
