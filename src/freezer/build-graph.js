@@ -32,11 +32,11 @@ export default function(decorations) {
         }).tas_taxonomy;
         award.product_combo = award.naics_description + "||" + award.naics_cat;
         award.company_combo =
-          award.recipient_duns + "||" + award.consolidated_parent_duns;
+          award.recipient_duns + "||" + award.recipient_parent_duns;
         companies.push(award.company_combo);
         products.push(award.product_combo);
         product_categories.push(award.naics_cat);
-        parent_companies.push(award.consolidated_parent_duns);
+        parent_companies.push(award.recipient_parent_duns);
       }); // close each
       const companies_uniq = _.uniq(companies);
       const products_uniq = _.uniq(products);
@@ -51,7 +51,7 @@ export default function(decorations) {
             source_array: parent_companies_uniq,
             category: "parent company",
             // source_column: "recipient_duns",
-            source_column: "consolidated_parent_duns",
+            source_column: "recipient_parent_duns",
             target_column: "company_combo"
             // target_column: "recipient_duns"
           },
@@ -144,9 +144,7 @@ export default function(decorations) {
       _(graph.nodes.filter(node => node.category === "parent company")).each(
         parentCompany => {
           parentCompany.awards = awards
-            .filter(
-              award => award.consolidated_parent_duns === parentCompany.id
-            )
+            .filter(award => award.recipient_parent_duns === parentCompany.id)
             .map(thinAward);
           parentCompany.total_value = parentCompany.awards.reduce(
             (sum, award) => {

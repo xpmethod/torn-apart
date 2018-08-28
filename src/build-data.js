@@ -6,6 +6,7 @@ import freezerBuildGraph from "./freezer/build-graph";
 import buildDecoratorTable from "./build-decorator-table";
 import gainBuildData from "./gain/build-data";
 
+// buildDecoratorTable(() => console.log("hi"));
 buildDecoratorTable(decorations => {
   districtsBuildAllData(districtsBindData(decorations));
   freezerBuildGraph(decorations);

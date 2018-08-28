@@ -23,7 +23,7 @@ export default function() {
             currentValue: value,
             potentialValue: award.potential_total_value_of_award,
             duns: award.recipient_duns,
-            // parentCompany: award.consolidated_parent_name,
+            // parentCompany: award.recipient_parent_name,
             // childCompany: award.recipient_name,
             companyCongCode: convertToCongCode(
               award.recipient_state_code,

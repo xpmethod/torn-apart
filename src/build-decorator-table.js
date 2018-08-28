@@ -1,5 +1,6 @@
 import { writeFile, readFileSync } from "fs";
-import { parse, stringify } from "csv";
+import parse from "csv-parse";
+import stringify from "csv-stringify";
 import parseSync from "csv-parse/lib/sync";
 import { stdout } from "process";
 import path from "path";
@@ -12,7 +13,7 @@ export default function(callback) {
   );
   const hooverDuns = parseSync(
     readFileSync(path.join("data", "hoovers_names_and_duns.csv")),
-    { columns: true }
+    { quote: "'", ltrim: true, rtrim: true, delimiter: ",", columns: true }
   );
   parse(
     readFileSync(path.join("data", "follow_the_money_data.csv")),
@@ -28,8 +29,8 @@ export default function(callback) {
         .concat(
           awards.map(a => {
             return {
-              duns: a.consolidated_parent_duns,
-              origName: a.recipient_name
+              duns: a.recipient_parent_duns,
+              origName: a.recipient_parent_name
             };
           })
         )
@@ -40,6 +41,8 @@ export default function(callback) {
           });
           if (vendor) {
             csvVendor.vendorName = vendor.name;
+            csvVendor.cleanName = cleanNames(csvVendor.vendorName); //applies title case, sorts out acronyms, etc.
+            return csvVendor;
           } else {
             stdout.write(`${csvVendor.duns} is not in Hoover list\n`);
             vendor = _.find(vendorData, { excel_duns: csvVendor.duns });
@@ -52,8 +55,10 @@ export default function(callback) {
                 csvVendor.url = vendor.sam_data.registration.corporateUrl;
               }
             }
+            stdout.write(`${csvVendor.vendorName} is here.`);
             csvVendor.cleanName = csvVendor.vendorName || csvVendor.origName;
             csvVendor.cleanName = cleanNames(csvVendor.cleanName); //applies title case, sorts out acronyms, etc.
+            stdout.write(` and cleanName is ${csvVendor.cleanName}\n`);
             return csvVendor;
           }
         });
