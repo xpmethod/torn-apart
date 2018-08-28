@@ -37,7 +37,7 @@ PhD Student in Hispanic Studies at Texas A&M University.
 
 **[Representation Matters]({{site.baseurl}}/reflections/moacir_p_de_sa_pereira_2.html)**.  
 by [Moacir P. de Sá Pereira](http://twitter.com/muziejus).   
-Assistant Professor / Faculty Fellow of English at New York University.
+Scholar of literature and space.
 
 <br>
 
