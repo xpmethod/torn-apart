@@ -69,7 +69,7 @@ Farooqui](https://twitter.com/NoreenFarooqui), [Alex
 Galarza](https://twitter.com/galarzaalex), [Lorena
 Gauthereau](https://twitter.com/LGauth19), [Erin
 Glass](https://twitter.com/erinroseglass), [Tassie
-Gniadi](https://twitter.com/tassietheg), [Elizabeth
+Gniady](https://twitter.com/tassietheg), [Elizabeth
 Grumbach](https://twitter.com/EMGrumbach), [Juliet Louise
 Hardesty](https://twitter.com/jlhardes), [Kathi Inman
 Berens](https://twitter.com/kathiiberens), [Patrick
