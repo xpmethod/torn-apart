@@ -168,9 +168,10 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * USASpending.gov. “USA Spending - Who’s Getting the Govt’s $$ (e.g. Southwest Key Got ~$1B since 2014).” USASpending.Gov, 2018.  
 [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
 
+* USASpending.gov. "Immigration Customs and Enforcement." USASpending.gov, 2018. [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search). 
+
 * Walters, Edgar, et al. “What We Know about Texas-Regulated Facilities Holding Migrant Children.” *Reveal News*, 20 June 2018.  
 [https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/](https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/).
 
 * Ward, Paula Reed, and Ashley Murray. “Child Migrants Separated from Families Being Housed at Holy Family Institute in Emsworth.” *The Pittsburgh Post-Gazette*.  
 [http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074](http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074).
-
