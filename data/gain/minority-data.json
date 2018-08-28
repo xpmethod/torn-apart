@@ -1,5 +1,5 @@
 {
-  "totalParents": 1041,
+  "totalParents": 1055,
   "totalValue": 9765605771,
   "minorityCategories": [
     "black",
@@ -27,7 +27,7 @@
       "value": 189286545
     },
     "native": {
-      "count": 21,
+      "count": 23,
       "value": 771356902
     },
     "otherMinority": {
@@ -50,7 +50,7 @@
     },
     "saaia": {
       "count": 13,
-      "value": 90003420
+      "value": 73575520
     },
     "asianPacific": {
       "count": 16,
@@ -89,7 +89,7 @@
     "native": {
       "duns": "79253761",
       "value": 243843660,
-      "name": "Akima Global Services"
+      "name": "NANA Regional Corporation"
     },
     "otherMinority": {
       "duns": "59354865",
