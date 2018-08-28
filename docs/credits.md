@@ -12,9 +12,9 @@ permalink: credits.html
 [xpMethod](http://xpmethod.plaintext.in) (Manan Ahmed, Alex Gil, Moacir P. de Sá Pereira, Roopika Risam), [Borderlands Archives
 Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fernández), Linda Rodriguez, and Merisa Martinez. We operate on a journal-model with new collaborators and contributors for each issue, as acknowledged below. [Moacir P. de Sá Pereira](http://moacir.com) is the Lead Developer for *Torn Apart* and has hand-cranked the code for most of what you see here.
 
-We envision *Torn Apart* as a scholarly journal--- one led by an editorial board, but with different thematics, issues, and authors for each volume. This modal approach to digital projects comes out of our long-standing commitment to building sustainable infrastructures that will grow as authors, topics and interests grow. With that principle, we have structurally organized *Torn Apart* on Git as modular and volumable (as it were). Scholars, activists, and digital creators are welcome to pitch future volumes. 
+We envision *Torn Apart* as a scholarly journal--- one led by an editorial board, but with different thematics, issues, and authors for each volume. This modal approach to digital projects comes out of our long-standing commitment to building sustainable infrastructures that will grow as authors, topics, and interests grow. With that principle, we have structurally organized *Torn Apart* on Git as modular and volumable (as it were). Scholars, activists, and digital creators are welcome to pitch future volumes. 
 
-## Volume One 
+## Volume One
 ### Team
 
 * [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/) is an Associate Professor for South Asia in the Department of History at Columbia University. He is a co-founder of xpMethod.
@@ -25,7 +25,7 @@ We envision *Torn Apart* as a scholarly journal--- one led by an editorial board
 
 * [Alex Gil](http://www.elotroalex.com) is Digital Scholarship Librarian at Columbia University Libraries and Affiliate Faculty of the Department of English and Comparative Literature at Columbia University. He is a co-founder of xpMethod.
 
-* [Merisa Martinez](http://www.twitter.com/merisamartinez) is a PhD candidate in The Swedish School of Library and Information Science at the University of Borås, a Visiting Research Fellow at the Cambridge University Digital Library, and a Marie Skłodowska-Curie Research Fellow in the Digital Scholarly Editions Innovative Training Network (DiXiT ITN). She is currently writing a doctoral dissertation on the interplay between cultural heritage digitization, bibliography, and textual criticism. 
+* [Merisa Martinez](http://www.twitter.com/merisamartinez) is a PhD candidate in The Swedish School of Library and Information Science at the University of Borås, a Visiting Research Fellow at the Cambridge University Digital Library, and a Marie Skłodowska-Curie Research Fellow in the Digital Scholarly Editions Innovative Training Network (DiXiT ITN). She is currently writing a doctoral dissertation on the interplay between cultural heritage digitization, bibliography, and textual criticism.
 
 * [Moacir P. de Sá Pereira](https://moacir.com/) is a scholar of literature & space, focusing on the way digital techniques can help elucidate novels of the 20th and 21st centuries. This focus expresses itself in his scholarship and teaching in the Department of English at New York University. He is a member of xpMethod.
 
@@ -38,7 +38,7 @@ We envision *Torn Apart* as a scholarly journal--- one led by an editorial board
 
 <br>
 
-## Volume Two 
+## Volume Two
 ### Team
 
 * [Manan Ahmed](https://history.columbia.edu/faculty/manan-ahmed/) is an Associate Professor for South Asia in the Department of History at Columbia University. He is a co-founder of xpMethod.
@@ -95,7 +95,7 @@ Verhaert](https://twitter.com/paolasinu), [Carolina
 Villarroel](https://twitter.com/rayenchil), [Jacqueline
 Wernimont](https://twitter.com/profwernimont), [Vika
 Zafrin](https://twitter.com/veek), [Annette
-Zapata](https://twitter.com/amzapata1) 
+Zapata](https://twitter.com/amzapata1)
 
 
 
@@ -112,7 +112,7 @@ And to anyone who shared our project with those for whom it would be most useful
 
 ### Data
 
-We began with ICE/CBP websites and got the public geo-data that they serve. We then began looking into business records, federal records, and news records culling data about locations used by federal, state, and private for-profit agencies. Simultaneously, we were assembling data about "Allies"-- those working to resist, assist, or alleviate this crisis. However, our largest data tranche came via our discovery of the ["November 2017 ICE Detention Facility Lists"](https://immigrantjustice.org/staff/blog/ice-released-its-most-comprehensive-immigration-detention-data-yet), which exists because of the FOIA efforts of the Immigrant Legal Resource Center and the National Immigrant Justice Center. Our visualizations thus combine these sets of data. We are extremely grateful to ILRC and NIJC for making the ICE data publicly available. Our full sources of data are in the bibliography. 
+We began with ICE/CBP websites and got the public geo-data that they serve. We then began looking into business records, federal records, and news records culling data about locations used by federal, state, and private for-profit agencies. Simultaneously, we were assembling data about "Allies"-- those working to resist, assist, or alleviate this crisis. However, our largest data tranche came via our discovery of the ["November 2017 ICE Detention Facility Lists"](https://immigrantjustice.org/staff/blog/ice-released-its-most-comprehensive-immigration-detention-data-yet), which exists because of the FOIA efforts of the Immigrant Legal Resource Center and the National Immigrant Justice Center. Our visualizations thus combine these sets of data. We are extremely grateful to ILRC and NIJC for making the ICE data publicly available. Our full sources of data are in the bibliography.
 
 Most of our datasets are [available on GitHub](https://github.com/xpmethod/torn-apart-open-data). If you have any questions, please email [tornapartseparados@gmail.com](mailto:tornapartseparados@gmail.com).
 
