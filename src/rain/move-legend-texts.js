@@ -1,8 +1,7 @@
 import $ from "jquery";
-import L from "leaflet";
 
 export default function() {
-  const divisor = L.Browser.mobile ? 3 : 4;
+  const divisor = window.matchMedia("(max-width: 576px)").matches ? 3 : 4;
   const x = $("#rain-size-legend")[0].getBBox().width - 5;
   const y = $("#rain-size-legend")[0].getBBox().height / divisor;
   const lineHeight = 1.1;

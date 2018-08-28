@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import { select } from "d3-selection";
 import gainBars from "./bars";
 import { fillV2DivHeight } from "../utils";
@@ -8,7 +7,7 @@ export default function() {
   const height = fillV2DivHeight("#gain-headers");
   const width = $("#gain-svg-div").width();
 
-  if (!L.Browser.mobile) {
+  if (window.matchMedia("(min-width: 576px)").matches) {
     $("#gain-profiteers").height(height);
   }
 

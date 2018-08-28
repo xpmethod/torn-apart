@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import _ from "lodash";
 import slugOrig from "./slug";
 import { rem } from "./constants";
@@ -9,14 +8,14 @@ import titleUpOrig from "./title-up";
 
 export function moveLegend() {
   let displacedHeight = $(window).height() - $("#legend").height() - 1.25 * rem;
-  displacedHeight = L.Browser.mobile
+  displacedHeight = window.matchMedia("(max-width: 576px)").matches
     ? displacedHeight
     : displacedHeight - $(".leaflet-control-attribution").height();
   $("#legend").css("top", displacedHeight);
 }
 
 export function defaultRadius() {
-  if (L.Browser.mobile) {
+  if (window.matchMedia("(max-width: 576px)").matches) {
     return 4;
   } else {
     return $(window).width() / 250;
@@ -28,7 +27,7 @@ export function titleUp(string) {
 }
 
 export function resizeDivFromTop(div) {
-  if (!L.Browser.mobile) {
+  if (!window.matchMedia("(max-width: 576px)").matches) {
     const navHeight = () => {
       const height = $("#all-navs").height() + $("#all-navs").position().top;
       if (height === 0) {
@@ -79,7 +78,7 @@ export function getOrdinalSuffix(n) {
 }
 
 export function fillV2DivHeight(elementAbove) {
-  if (L.Browser.mobile) {
+  if (window.matchMedia("(max-width: 576px)").matches) {
     return $(window).height() / 2;
   } else {
     return $("#v2-div").height() - $(elementAbove).height() - rem;

@@ -14,8 +14,8 @@ export default function() {
       { className: "banality", text: "Banality" },
       { className: "surveillance", text: "Surveillance" },
       { className: "thethreatofviolence", text: "The Threat of Violence" },
-      // {className: "formingbodies", text: "Forming Bodies"},
-      { className: "moldingbodies", text: "Molding Bodies" }
+      { className: "reformingbodies", text: "Reforming Bodies" }
+      // { className: "moldingbodies", text: "Molding Bodies" }
     ],
     category => {
       const box = bBoxUnion("g." + category.className);

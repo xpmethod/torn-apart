@@ -35,7 +35,7 @@ better than some woman, that terrible hygiene was killing off their troops
 faster than enemy bullets. Half a year after her arrival at the Scutari
 Barracks, now the Selimiye Barracks in the Üsküdar district of Istanbul, the
 mortality rate of British soldiers dropped from 42.7% to 2.2%.[^cohen] She was certain
-it was the introduction of sanitation measures that causes the decrease, but
+it was the introduction of sanitation measures that caused the decrease, but
 how could she show it to drive home the difference her efforts made?
 
 For Nightingale, familiar with the pioneering statistical work of Adolphe

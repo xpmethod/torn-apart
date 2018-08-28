@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import _ from "lodash";
 import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
@@ -180,7 +179,7 @@ export default function(width, height) {
   valueText.style("text-anchor", "middle");
 
   const babyHeight = 0.7 * (height / 2 - margins.bottom);
-  const babyTicks = L.Browser.mobile ? 2 : 5;
+  const babyTicks = window.matchMedia("(max-width: 576px)").matches ? 2 : 5;
 
   const babyY = scaleBand()
     .rangeRound([0, babyHeight])

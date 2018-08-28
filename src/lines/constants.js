@@ -1,11 +1,10 @@
-import L from "leaflet";
 import $ from "jquery";
 import { format } from "d3-format";
 
 export default {
   yMax: 57296,
-  rangeMax: L.Browser.mobile ? 150 : 300,
-  barWidth: L.Browser.mobile ? 10 : 20,
+  rangeMax: window.matchMedia("(max-width: 576px)").matches ? 150 : 300,
+  barWidth: window.matchMedia("(max-width: 576px)").matches ? 10 : 20,
   opacity: 0.8,
   tooltipPlural(d) {
     return `<strong>${d.name}</strong><br />

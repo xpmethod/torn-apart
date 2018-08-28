@@ -1,5 +1,4 @@
 import $ from "jquery";
-import L from "leaflet";
 import _ from "lodash";
 import { select } from "d3-selection";
 import { slug } from "../utils";
@@ -29,7 +28,11 @@ export default function(data) {
     .classed("carousel-item", true)
     .html(treeSidebarEntry);
 
-  if (!L.Browser.mobile) {
+  if (window.matchMedia("(max-width: 576px)").matches) {
+    $("#tree-sidebar").prepend(
+      "<h3 id='click-on-cube' data-i18n='ta-click-on-cube-to-see-company'></h3>"
+    );
+  } else {
     const firstCompany = $(
       "#tree-sidebar-carousel .carousel-inner .carousel-item:first"
     );
@@ -43,9 +46,5 @@ export default function(data) {
           .replace("treemap-card-", "parent-")
       );
     });
-  } else {
-    $("#tree-sidebar").prepend(
-      "<h3 id='click-on-cube' data-i18n='ta-click-on-cube-to-see-company'></h3>"
-    );
   }
 }
