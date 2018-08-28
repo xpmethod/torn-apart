@@ -12,7 +12,7 @@ permalink: credits.html
 [xpMethod](http://xpmethod.plaintext.in) (Manan Ahmed, Alex Gil, Moacir P. de Sá Pereira, Roopika Risam), [Borderlands Archives
 Cartography](https://www.bacartography.org/) (Maira E. Álvarez, Sylvia A. Fernández), Linda Rodriguez, and Merisa Martinez. We operate on a journal-model with new collaborators and contributors for each issue, as acknowledged below. [Moacir P. de Sá Pereira](http://moacir.com) is the Lead Developer for *Torn Apart* and has hand-cranked the code for most of what you see here.
 
-We envision *Torn Apart* as a scholarly journal--- one led by an editorial board, but with different thematics, issues, and authors for each volume. This modal approach to digital projects comes out of our long-standing commitment to building sustainable infrastructures that will grow as authors, topics, and interests grow. With that principle, we have structurally organized *Torn Apart* on Git as modular and volumable (as it were). Scholars, activists, and digital creators are welcome to pitch future volumes. 
+We envision *Torn Apart* as a scholarly journal--- one led by an editorial board, but with different thematics, issues, and authors for each volume. This modal approach to digital projects comes out of our long-standing commitment to building sustainable infrastructures that will grow as authors, topics, and interests grow. With that principle, we have structurally organized *Torn Apart* on Git as modular and volumable (as it were). Scholars, activists, and digital creators are welcome to pitch future volumes.
 
 ## Volume One
 ### Team
@@ -101,7 +101,7 @@ Zapata](https://twitter.com/amzapata1)
 
 ## Acknowledgements
 
-After Vol.1 we asked for volunteer peer reviewers. Many in our scholarly and librarian community shared their reviews with us. We hope to have addressed most of their suggestions and concerns. Whenever we did not follow those suggestions, we did so after serious deliberation. We thank our reviewers for taking the time to help us improve the project.
+After Volume 1 we asked for volunteer peer reviewers. Many in our scholarly and librarian community shared their reviews with us. We hope to have addressed most of their suggestions and concerns. Whenever we did not follow those suggestions, we did so after serious deliberation. We thank our reviewers for taking the time to help us improve the project.
 
 We thank HASTAC for [their generous support during DH2018](https://www.hastac.org/blogs/danicasavonick/2018/07/08/torn-apartseparados-hackathon-hastac-meet-recap) in Mexico City. Volume 2 is a result of the design and prototyping sprints we held there. The Digital Library Federation has already extended a partnering hand to work on abstracting our model of research and help expand the [Nimble Tents Toolkit](https://nimbletents.github.io/), a resource clearinghouse for mobilized scholarship and librarianship.
 
