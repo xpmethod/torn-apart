@@ -21,7 +21,6 @@ export default function() {
             awardID: award.award_id_piid,
             fiscalYear: award.fiscal_year,
             currentValue: value,
-            potentialValue: award.potential_total_value_of_award,
             duns: award.recipient_parent_duns,
             // parentCompany: award.recipient_parent_name,
             // childCompany: award.recipient_name,
@@ -41,7 +40,6 @@ export default function() {
             "awardID",
             "fiscalYear",
             "currentValue",
-            "potentialValue",
             "duns",
             "companyCongCode",
             "performanceCongCode"
