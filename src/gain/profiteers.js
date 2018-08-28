@@ -22,7 +22,7 @@ export default function() {
         </svg></div>
         <div>
           <h4>
-            <small><span data-i18n="ta-${d}"></span>
+            <small><span data-i18n="ta-${d}-owned-contractors"></span>
           </h4>
         </div>`;
     });
