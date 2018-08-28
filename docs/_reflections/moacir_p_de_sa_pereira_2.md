@@ -316,7 +316,7 @@ of the biggest ANC bringing money to Alaska is much greater. The NANA Regional
 Corporation represents over 14,000 Iñupiat shareholders, who largely
 [participate in subsistence activities and full-time or part-time
 employment](http://www.nana.com/regional/about-us/our-shareholders/) above the
-Arctic Circle. Nevertheless, NANA’s subsidiary, Akima, has net those
+Arctic Circle. Nevertheless, NANA’s subsidiary, Akima, has grossed those
 subsistence shareholders over $200M in ICE awards since 2014, mostly in
 relation to running the [Krome detention center in
 Miami](https://www.ice.gov/detention-facility/krome-service-processing-center)
