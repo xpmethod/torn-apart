@@ -22,13 +22,14 @@ export default function() {
   const height = 0.66 * width;
 
   const x = scaleBand()
-    // .range([0, width - 20])
-    .rangeRound([0, width - margins.left])
+    // .rangeRound([0, width - margins.left])
+    .range([0, width - margins.left])
     .paddingInner(0.05)
     .align(0.1)
-    .domain(data.map((d, i) => i + 1));
+    .domain(data.map((d, i) => i));
   const y = scaleLinear()
-    .rangeRound([height - margins.bottom, 0])
+    .range([height - margins.bottom, 1])
+    // .rangeRound([height - margins.bottom, 1])
     .domain([1, total]);
 
   const svg = select("#districts-svg")
@@ -58,7 +59,7 @@ export default function() {
           : data[i - 1].cumulativeAwards + d.total_awards;
     })
     .attr("y", d => y(d.cumulativeAwards))
-    .attr("x", (d, i) => x(i) - 32)
+    .attr("x", (d, i) => x(i))
     .attr("height", d => height - margins.bottom - y(d.total_awards))
     .attr("width", 15 * x.bandwidth())
     .on("mouseover", function(d) {
