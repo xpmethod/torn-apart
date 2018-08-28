@@ -26,10 +26,10 @@ export default function() {
     .rangeRound([0, width - margins.left])
     .paddingInner(0.05)
     .align(0.1)
-    .domain(data.map((d, i) => i));
+    .domain(data.map((d, i) => i + 1));
   const y = scaleLinear()
     .rangeRound([height - margins.bottom, 0])
-    .domain([0, total]);
+    .domain([1, total]);
 
   const svg = select("#districts-svg")
     .attr("height", height)
