@@ -2120,7 +2120,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2018,14306.72,Panamerica Computers,166669742,true
 2018,9160.75,Anacapa Micro Products,556496370,true
 2018,2126594.1,Akira Technologies,605928246,true
-2018,54923659.64,Widepoint Integrated Solutions,4693904,true
+2018,54923659.64,WidePoint Integrated Solutions,4693904,true
 2018,467136,Stamps.com,10521297,false
 2018,1451286.1,Escgov,136155178,true
 2018,2496579.84,Four Points Technology,89896737,true
@@ -3568,11 +3568,11 @@ fiscalYear,currentValue,name,duns,multiYear
 2017,98000,Net Direct Systems,54007823,true
 2017,36033.43,Bellsouth Telecommunications,796646453,false
 2017,20786.04,BCS Systems,788459154,false
-2017,19631.87,Widepoint Integrated Solutions,4693904,true
-2017,54923659.64,Widepoint Integrated Solutions,4693904,true
+2017,19631.87,WidePoint Integrated Solutions,4693904,true
+2017,54923659.64,WidePoint Integrated Solutions,4693904,true
 2017,6037.4,Net Direct Systems,54007823,true
 2017,1451286.1,Escgov,136155178,true
-2017,51372.16,Widepoint Integrated Solutions,4693904,true
+2017,51372.16,WidePoint Integrated Solutions,4693904,true
 2017,10446,Net Direct Systems,54007823,true
 2017,6097.42,Net Direct Systems,54007823,true
 2017,15390.45,Net Direct Systems,54007823,true
@@ -4466,7 +4466,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2016,315360.5,Green IT Systems Group,966572682,true
 2016,18814.52,Cloudburst Technologies,192942972,false
 2016,3297,Chainalysis,79827246,true
-2016,54923659.64,Widepoint Integrated Solutions,4693904,true
+2016,54923659.64,WidePoint Integrated Solutions,4693904,true
 2016,38165.82,Net Direct Systems,54007823,true
 2016,1451286.1,Escgov,136155178,true
 2016,1327.48,Net Direct Systems,54007823,true
@@ -5024,8 +5024,8 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,27947.53,Net Direct Systems,54007823,true
 2015,217849.38,Net Direct Systems,54007823,true
 2015,6004.99,Net Direct Systems,54007823,true
-2015,19631.87,Widepoint Integrated Solutions,4693904,true
-2015,54923659.64,Widepoint Integrated Solutions,4693904,true
+2015,19631.87,WidePoint Integrated Solutions,4693904,true
+2015,54923659.64,WidePoint Integrated Solutions,4693904,true
 2015,4630.72,Net Direct Systems,54007823,true
 2015,72998.1,Mythics,13358002,true
 2015,71876.66,Net Direct Systems,54007823,true
@@ -5035,7 +5035,7 @@ fiscalYear,currentValue,name,duns,multiYear
 2015,5751.68,Net Direct Systems,54007823,true
 2015,8533.04,Net Direct Systems,54007823,true
 2015,1451286.1,Escgov,136155178,true
-2015,51372.16,Widepoint Integrated Solutions,4693904,true
+2015,51372.16,WidePoint Integrated Solutions,4693904,true
 2015,20456.64,Net Direct Systems,54007823,true
 2015,10446,Net Direct Systems,54007823,true
 2015,15390.45,Net Direct Systems,54007823,true
