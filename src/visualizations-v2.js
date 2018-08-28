@@ -30,3 +30,6 @@ $(".viz-button").click(function() {
     map
   );
 });
+if (window.matchMedia("(max-width: 576px)").matches) {
+  $("#indexModal").modal("show");
+}
