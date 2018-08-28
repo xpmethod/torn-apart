@@ -203,7 +203,7 @@ majority at that.
 
 ## Volume 2
 
-The second volume, however, also presents challenges in terms of
+The second volume, however, also presented challenges in terms of
 representation. “[Lines](/torn-apart/volume/2/visualizations.html#lines),” for example, shows how pervasive the American
 removal engine is. Yet the number of deportations at a specific port of
 entry can be single digits or it can be over 1,000. Furthermore, simply
@@ -225,7 +225,7 @@ even one removal is a scar on the national image.
 Both [Freezer](/torn-apart/volume/2/visualizations.html#freezer)
 visualizations work from literally the same data set, indicating that the same
 hierarchically grouped data can represent radically different modes of being
-and interacting with the government contracting machine. In one visualization,
+and interacting with the government contracting machine.[^datasets] In one visualization,
 a messy ball of yarn shows how interconnected contractors are with the various
 governmental needs in the awards they win. A sprawling monster like CoreCivic
 provides “security guards and patrol services” (which we categorize under “The
@@ -250,66 +250,63 @@ of a Gordian knot of governmental impenetrability. Neither visualization is
 right; they just aim to highlight different aspects of the same data to make a
 similar, underlying argument. 
 
-That underlying argument is, in both cases, underscoring how banal most ICE
-funding is.  The outrage over the zero tolerance policy in part relies on
-characterizing ICE as a bunch of special forces cosplayers, kicking people of
-color with steel-tipped boots and throwing their children in cages.  But it’s
-not just that, else ICE funding would go exclusively to boots and cages. It’s
-also the massive apparatus that keeps white-collar, Hillary-voting, _Pod Save
-America_-listening Northern Virginia technocrats who make sure
-[RStudio](https://www.rstudio.com/) is running correctly on ICE computers fed,
-technocrats largely represented by Democrats in Congress. 
+In short, ICE funding can be stultifyingly banal.  The outrage over the zero
+tolerance policy in part relies on characterizing ICE as a bunch of special
+forces cosplayers, kicking people of color with steel-tipped boots and
+throwing their children in cages.  But it’s not just that, else ICE funding
+would go exclusively to boots and cages. It’s also the massive apparatus that
+keeps Hillary-voting, lanyard-wearing, _Pod Save America_–listening Northern
+Virginia technocrats fed, technocrats largely represented by Democrats in
+Congress. 
 
 The oversized role of these technocrats is hinted at in every visualization
 for volume 2 save “Lines.” In
 “[Districts](torn-apart/volume/2/visualizations.html#districts),” we see that
 ICE funding is not evenly distributed around the US, with 16 Congressional
-districts taking home almost 90% of the ICE budget since 2014. Of these 16
-districts getting ICE largesse, several are DC-adjacent, where companies like
-Phacil and WidePoint Integrated Solutions pull in millions of dollars from ICE
-despite (and because of) being, basically, IT consultants.  Unsurprisingly
-this explosion of money to the IT sector happens to be [a trademark of
-Representative Gerry Connolly’s work in
+districts taking home almost 90% of the ICE budget since 2014. Of these 16,
+several are DC-adjacent, where companies like Phacil and WidePoint Integrated
+Solutions pull in millions of dollars from ICE despite (and because of) being,
+basically, IT consultants.  Unsurprisingly this explosion of money to the IT
+sector happens to be [a trademark of Representative Gerry Connolly’s work in
 Congress](https://fcw.com/articles/2015/03/30/gerry-connolly-fitara-force-multiplier.aspx).
-Small wonder that his district is the most remunerated by ICE.  Since 2014,
-$1.3B has been showered over his Clinton-by-39-points district, much of it to
-IT companies.
+Small wonder, then, that his district is also the most remunerated by ICE.
+Since 2014, $1.3B has been showered over his Clinton-by-39-points district,
+much of it to IT companies.
 
 <div id="districts-div">
 <svg id="districts-svg"></svg>
 </div>
 
 This visualization, showing the distribution of the over $9B in ICE spending
-since 2014 underscores how those 16 districts chew up the budget. In 17th
+since 2014 recontextualizes how those 16 districts chew up the budget. In 17th
 place, marked in orange above, is Washington, DC., which while another ICE fat
 cat, also marks the turn towards quickly shrinking turns at the authoritarian
-trough.  After all, about a quarter all Congressional districts haven’t seen a
-dime from ICE. Perhaps they need to get in the consulting, computing,
-constructing, and coercing businesses. 
+trough. And this visualization skips the quarter of all Congressional
+districts that haven’t seen a dime from ICE. Perhaps they need to get in the
+consulting, computing, constructing, and coercing businesses. 
 
 The bipartisan nature of the grotesque gluttony also expresses itself in these
 top districts, where the pitiful Democrats, shut out of every avenue of access
 in Washington, or so they tell us, still manage to bring home the fat in
 thicker, richer slices than their GOP counterparts. 
 
-Finally, I should in passing, tying “Districts” to other current events, that
-Duncan Hunter may be [woeful with his family
+Finally, I should in passing, tying “Districts” to other current events, note
+that Duncan Hunter may be [woeful with his family
 budgeting](https://www.nytimes.com/2018/08/26/us/duncan-hunter-corruption-scandal.html),
 but his district has done well under the ICE regime, as Spectrum Security
 Services has brought in $860M to parts of San Diego and Riverside Counties.
 California’s 50th is the fourth most remunerated district.
 
-The concentrated ICE spending also lets minority- and women-owned
-companies to shine in the glow of government awards, as we see in
+The concentrated ICE spending also lets minority- and women-owned companies
+shine in the glow of government awards, as we see in
 “[Gain](/torn-apart/volume/2/visualizations.html#gain).” Much of the $890M
-going to Alaska ends up in the coffers of businesses that are registered as
-“Alaska Native Corporations” (ANC) with the government. One such company, Barling
-Bay, which is a subsidiary of the Old Harbor Native Coporation, describes the
-benefits of doing business with an ANC by pointing out that “[Alaska Native
-Villages suffer from some of the worst poverty in this
-country](http://www.barlingbay.com/family.html),” and, hence,
-it’s important to support ANCs who enjoy special rights in the Federal
-procurement process. 
+going to Alaska ends up in the coffers of businesses that are registered with
+the government as “Alaska Native Corporations” (ANC). One such company,
+Barling Bay, which is a subsidiary of the Old Harbor Native Coporation,
+describes the benefits of doing business with an ANC by pointing out that
+“[Alaska Native Villages suffer from some of the worst poverty in this
+country](http://www.barlingbay.com/family.html),” and, hence, it’s important
+to support ANCs who enjoy special rights in the Federal procurement process. 
 
 Barling Bay seems to provide ICE only with IT-related services, but the reach
 of the biggest ANC bringing money to Alaska is much greater. The NANA Regional
@@ -337,10 +334,10 @@ that the money ICE has paid them has gone towards encouraging racial equality
 in the United States is an offensive joke. These minority-owned companies
 receiving over $1B from ICE since 2014 are, it seems, largely in the various
 banal businesses of logistics and IT, enriching workers already in these
-largely white-collar sectors. Though contractors, like Akima, are actively in
-the business of jailing their “fellow” people of color, most contribute to the
-more abstract carceral regimes of the state, facilitating the ways in which a
-laser printer helps keep another child separated from their parents.
+largely white-collar sectors. Though contractors like Akima are actively in
+the business of jailing their “fellow” people of color, most simply contribute
+to the more abstract carceral regimes of the state, facilitating the ways in
+which a laser printer helps keep another child separated from their parents.
 
 Speaking of laser printers, finally, in
 “[Rain](/torn-apart/volume/2/visualizations.html#rain),” we see how ICE’s
@@ -367,6 +364,8 @@ running.
 [^nightingale]: Florence Nightingale, _Mortality of the British Army, at Home, at Home and Abroad, and During the Russian War, as Compared with the Mortality of the Civil Population in England_ (London: Harrison and Sons, 1858), 1.
 
 [^monmonier]: Mark Monmonier, _How to Lie with Maps_ (Chicago, University of Chicago Press, 1991), 1.
+
+[^datasets]: In more detail, “Lines” relies on its own dataset, whereas the four other visualizations take our master file of 5,500 ICE awards and filter it in different ways for each visualization. For “Freezer,” it takes only 2018 awards, with values greater than 0, and then builds a network graph linking parent companies, companies, [NAICS](https://www.census.gov/eos/www/naics/) descriptions of the awards, and our own, decolonial ontology of 9 super-categories of NAICS descriptions.  While it was relatively easy to build a one-to-many link between our categories and the NAICS descriptions, the parent/subsidiary relationships on the contractor side of things ended up being occasionally many-to-many, accounting for changes in ownership, corporate restructuring, or even, I suspect, about 20 times, simple user error up at ICE Towers.
 
 ---
 
