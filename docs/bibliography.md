@@ -39,6 +39,10 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * Colibri Center for Human Rights. “Reportar una Persona Desparecida en la Frontera \| Report a Missing Person on the Border.” Colibri Center for Human Rights, 2018.  
 [http://www.colibricenter.org/report-a-missing-border-crosser/](http://www.colibricenter.org/report-a-missing-border-crosser/).
 
+* Department of Homeland Security. "FY 18 ICE Budget." Department of Homeland Security, 2017. [https://www.dhs.gov/sites/default/files/publications/ICE%20FY18%20Budget.pdf](https://www.dhs.gov/sites/default/files/publications/ICE%20FY18%20Budget.pdf).
+
+* Department of Homeland Security. "FY 2019 Budget-in-Brief." Department of Homeland Security, 2018. [https://www.dhs.gov/publication/fy-2019-budget-brief](https://www.dhs.gov/publication/fy-2019-budget-brief).
+
 * Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” *The News Tribune*, 14 June 2018.  
 [https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy](https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy).
 
@@ -71,6 +75,8 @@ Below is a list of our data sources. For a larger list of sources please visit o
 
 * ICE.gov. Berks Family Residential Center.  
 [https://www.ice.gov/detention-facility/berks-family-residential-center](https://www.ice.gov/detention-facility/berks-family-residential-center).
+
+* ICE.gov. "Removals by AOR FY 2009-February 25, 2017." ICE.gov, 2017.  [https://www.ice.gov/doclib/foia/immigration_statistics/Removals-AOR-FY2009-Feb2017.xlsx](https://www.ice.gov/doclib/foia/immigration_statistics/Removals-AOR-FY2009-Feb2017.xlsx).
 
 *  ---. Elizabeth Contract Detention Facility.  
 [https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility](https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility).
@@ -168,7 +174,7 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * USASpending.gov. “USA Spending - Who’s Getting the Govt’s $$ (e.g. Southwest Key Got ~$1B since 2014).” USASpending.Gov, 2018.  
 [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
 
-* USASpending.gov. "Immigration Customs and Enforcement." USASpending.gov, 2018. [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search). 
+* USASpending.gov. "Immigration Customs and Enforcement." USASpending.gov, 2018. [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
 
 * Walters, Edgar, et al. “What We Know about Texas-Regulated Facilities Holding Migrant Children.” *Reveal News*, 20 June 2018.  
 [https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/](https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/).
