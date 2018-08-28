@@ -12,7 +12,10 @@ export default function(d) {
       .attr("fill", d => d.highlightColor)
       .attr("filter", "url(#filter-glow-freezer)");
   } else {
-    selectAll(`.${select(this).attr("class")}`)
+    const parentClass = select(this)
+      .attr("class")
+      .match(/(parent-[^\s]*)/)[1];
+    selectAll(`.${parentClass}`)
       .attr("fill", d => d.highlightColor)
       .attr("filter", "url(#filter-glow-freezer)");
     treeSidebarShowCard(d);

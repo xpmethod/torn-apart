@@ -11,7 +11,7 @@ export default function() {
         className: "theflowofbodiesandgoods",
         text: "The Flow of Bodies and Goods"
       },
-      { className: "banality", text: "Banality" },
+      { className: "staples", text: "Staples" },
       { className: "surveillance", text: "Surveillance" },
       { className: "thethreatofviolence", text: "The Threat of Violence" },
       { className: "reformingbodies", text: "Reforming Bodies" }
