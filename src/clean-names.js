@@ -58,7 +58,10 @@ export default function(strName) {
     ["Radvany, Paul", "Paul Radvany"],
     ["NTERONE", "NterOne"],
     ["KPAUL Properties", "KPaul Properties"],
-    ["Caci-Iss", "CACI-ISS"]
+    ["Caci-Iss", "CACI-ISS"],
+    ["Widepoint Integrated Solutions Corp.", "WidePoint Integrated Solutions"],
+    ["Nana Regional Corporation, Inc.", "NANA Regional Corporation"],
+    ["Centurylink, Inc.", "CenturyLink"]
   ];
 
   // Now the fun begins:
@@ -163,9 +166,8 @@ export default function(strName) {
     .replace(/\bAt&t\b/i, "AT&T")
     .replace(/\bBae Systems/i, "BAE Systems")
     .replace(/\bIt Service/i, "IT Service")
-    .replace(/\bIt System/i, "IT System");
-
-  // stdout.write(`${strName}          ---- (${strName})\n`);
+    .replace(/\bIt System/i, "IT System")
+    .replace(/\s\s+/g, " "); // replace double spaces one last time.
 
   return strName;
 }
