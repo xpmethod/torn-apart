@@ -9,7 +9,7 @@ export default function() {
     .show()
     .html(() => {
       const html = [
-        "<div class='px-3 py-2'><div><p data-i18n='ta-murderboard-legend-title'></p></div>"
+        "<div class='px-3 py-2'><div><p data-i18n='ta-v2-freezer-description'></p></div>"
       ]; //
 
       html.push(`<div class="row form-group"><div class = "col-md-1">
@@ -39,7 +39,9 @@ export default function() {
       html.push(
         "<div class ='col-md-5'><p class='axis' data-i18n='ta-product-category'></p></div></div>"
       );
-
+      html.push(
+        "<div class ='col-md-5'><p class='axis' data-i18n='ta-product-category'></p></div></div>"
+      );
       return html.join("\n");
     });
   updateTexts();
