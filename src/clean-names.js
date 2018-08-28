@@ -167,9 +167,7 @@ export default function(strName) {
     .replace(/\bBae Systems/i, "BAE Systems")
     .replace(/\bIt Service/i, "IT Service")
     .replace(/\bIt System/i, "IT System")
-    .replace(/\s\s+/g, " "); // replace doubles
-
-  // stdout.write(`${strName}          ---- (${strName})\n`);
+    .replace(/\s\s+/g, " "); // replace double spaces one last time.
 
   return strName;
 }

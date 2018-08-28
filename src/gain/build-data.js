@@ -13,7 +13,7 @@ export default function(decorations) {
     parse(data, { columns: true }, (err, awards) => {
       if (err) throw err;
       const output = {
-        totalParents: _.uniqBy(awards, "recipient_parent_duns").length,
+        totalParents: _.uniqBy(awards, "consolidated_parent_duns").length,
         totalValue: awardsValue(awards),
         minorityCategories: [
           "black",
@@ -86,7 +86,9 @@ export default function(decorations) {
             (sum, duns) => {
               return (
                 sum +
-                awardsValue(_.filter(awards, { recipient_parent_duns: duns }))
+                awardsValue(
+                  _.filter(awards, { consolidated_parent_duns: duns })
+                )
               );
             },
             0

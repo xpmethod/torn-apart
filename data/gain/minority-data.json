@@ -1,5 +1,5 @@
 {
-  "totalParents": 1055,
+  "totalParents": 1041,
   "totalValue": 9765605771,
   "minorityCategories": [
     "black",
@@ -27,7 +27,7 @@
       "value": 189286545
     },
     "native": {
-      "count": 23,
+      "count": 21,
       "value": 771356902
     },
     "otherMinority": {
@@ -50,7 +50,7 @@
     },
     "saaia": {
       "count": 13,
-      "value": 73575520
+      "value": 90003420
     },
     "asianPacific": {
       "count": 16,

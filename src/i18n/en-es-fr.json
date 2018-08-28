@@ -146,7 +146,7 @@
     "ta-contractor": "Contractor",
     "ta-subsidiary-contractor": "Subsidiary Contractor",
     "ta-women-biggest-profiteer": "Biggest Profiteer (Women-Owned)",
-    "ta-v2-gross-companies": "Scroll of Shame"
+    "ta-v2-gross-contractors": "Scroll of Shame"
   },
   "es": {
     "ta-v1-index-modal": "Una intervención crítica de gráficas y datos, desplegada rápidamente como respuesta a la nueva “Política de cero tolerancia” de los EE. UU. en contra de los solicitantes de asilo en sus puertos y la crisis humanitaria que resulta.",
@@ -427,6 +427,6 @@
     "ta-unique-contracts": "Contrats uniques",
     "ta-renewed-contracts": "Contrats renouvelés",
     "ta-contractor": "Entrepreneur titulaire du contrat",
-    "ta-v2-gross-companies": "Défilé de honte"
+    "ta-v2-gross-contractors": "Défilé de honte"
   }
 }
