@@ -68,9 +68,13 @@ export default function() {
         2018: height / 1.8
       };
 
-  const forces = window.matchMedia("(max-width: 576px)").matches
+  let forces = window.matchMedia("(max-width: 576px)").matches
     ? { x: 2, y: 0.2, collision1: 3, collision2: 8 }
     : { x: 0.8, y: 0.3, collision1: 1, collision2: 1 };
+
+  // if (window.matchMedia("(min-width: 1000px)").matches) {
+  //   forces = { x: 0.7, y: 0.2, collision1: 9, collision2: 9 };
+  // }
 
   var simulation = forceSimulation(Data)
     .force(
