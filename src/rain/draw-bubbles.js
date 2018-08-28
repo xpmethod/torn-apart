@@ -70,8 +70,8 @@ export default function() {
       };
 
   const forces = L.Browser.mobile
-    ? { x: 2, y: 0.2, collisiony: 3, collisionx: 8 }
-    : { x: 0.8, y: 0.3, collisiony: 1, collisionx: 1 };
+    ? { x: 2, y: 0.2, collision1: 3, collision2: 8 }
+    : { x: 0.8, y: 0.3, collision1: 1, collision2: 1 };
 
   var simulation = forceSimulation(Data)
     .force(
@@ -91,7 +91,7 @@ export default function() {
       "collision",
       forceCollide().radius(d => {
         return (
-          Math.max(8 / forces.collisionx, r(d.currentValue)) * forces.collisiony
+          Math.max(8 / forces.collision2, r(d.currentValue)) * forces.collision1
         );
       })
     )
@@ -136,6 +136,8 @@ export default function() {
       theTip.hide(d, this);
     });
 
+const fyFont = L.Browser.mobile ? "0.75rem" : "2rem";
+
   svg
     .append("g")
     .attr("id", "rain-subheads-g")
@@ -146,9 +148,11 @@ export default function() {
     .text(d => `FY ${d}`)
     .classed("subhead", true)
     .classed("centered", true)
+	.style("font-size", fyFont)
     .attr("x", d => xCenter[d])
     .attr("y", 1.75 * rem);
 
+	
   spinner.stop();
 
   const legendG = svg
