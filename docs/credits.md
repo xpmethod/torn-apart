@@ -118,7 +118,7 @@ Most of our datasets are [available on GitHub](https://github.com/xpmethod/torn-
 
 ### Visualizations
 
-We want to acknowledge the work of Josh Begley's [Prison Map: What does the geography of incarceration for United States look like?](http://prisonmap.com/) for inspiring our "The Eye".  
+We want to acknowledge the work of Josh Begley's [Prison Map: What does the geography of incarceration for United States look like?](http://prisonmap.com/) for inspiring our "The Eye."  
 
 The website is based on [@muziejus/leaflet-quickstart](http://github.com/muziejus/leaflet-quickstart), a GitHub repository that lets learners build much, much simpler maps online quickly. But it would not be possible without the efforts of everyone who has ever written a tutorial or answered a question about programming online. It makes use of the following open technologies:
 
