@@ -81,7 +81,9 @@ export default function() {
     .attr(
       "class",
       d =>
-        `parent-${slug(d.data.parentSlug)} ${slug(d.parent.parent.data.name)}`
+        `parent-${slug(d.data.parentSlug)} ${_.toLower(
+          d.parent.parent.data.name
+        ).replace(/ /g, "-")}`
     )
     .attr("transform", d => `translate(${d.x0},${d.y0})`);
 
@@ -96,7 +98,9 @@ export default function() {
     .attr(
       "class",
       d =>
-        `parent-${slug(d.data.parentSlug)} ${slug(d.parent.parent.data.name)}`
+        `parent-${slug(d.data.parentSlug)} ${_.toLower(
+          d.parent.parent.data.name
+        ).replace(/ /g, "-")}`
     )
     .attr("width", d => d.x1 - d.x0)
     .attr("height", d => d.y1 - d.y0)

@@ -8,13 +8,13 @@ export default function() {
   _.each(
     [
       {
-        className: "theflowofbodiesandgoods",
+        className: "the-flow-of-bodies-and-goods",
         text: "The Flow of Bodies and Goods"
       },
       { className: "staples", text: "Staples" },
       { className: "surveillance", text: "Surveillance" },
-      { className: "thethreatofviolence", text: "The Threat of Violence" },
-      { className: "reformingbodies", text: "Reforming Bodies" }
+      { className: "the-threat-of-violence", text: "The Threat of Violence" },
+      { className: "reforming-bodies", text: "Reforming Bodies" }
       // { className: "moldingbodies", text: "Molding Bodies" }
     ],
     category => {
@@ -24,6 +24,9 @@ export default function() {
       const text = treeG
         .append("text")
         .text(category.text)
+        .classed("wrapped", true)
+        .attr("data-wrap-width", 0.95 * box.width)
+        .attr("data-i18n", `ta-v2-${category.className}`)
         .attr("dy", "0.01")
         .style("text-anchor", "middle")
         .style("fill", "#666")
