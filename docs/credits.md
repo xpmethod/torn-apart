@@ -27,7 +27,7 @@ We envision *Torn Apart* as a scholarly journal--- one led by an editorial board
 
 * [Merisa Martinez](http://www.twitter.com/merisamartinez) is a PhD candidate in The Swedish School of Library and Information Science at the University of Borås, a Visiting Research Fellow at the Cambridge University Digital Library, and a Marie Skłodowska-Curie Research Fellow in the Digital Scholarly Editions Innovative Training Network (DiXiT ITN). She is currently writing a doctoral dissertation on the interplay between cultural heritage digitization, bibliography, and textual criticism.
 
-* [Moacir P. de Sá Pereira](https://moacir.com/) is a scholar of literature & space, focusing on the way digital techniques can help elucidate novels of the 20th and 21st centuries. This focus expresses itself in his scholarship and teaching in the Department of English at New York University. He is a member of xpMethod.
+* [Moacir P. de Sá Pereira](https://moacir.com/) is a scholar of literature & space, focusing on the way digital techniques can help elucidate novels of the 20th and 21st centuries. He is a member of xpMethod.
 
 * [Linda Rodriguez](https://twitter.com/LMRodriguez) is a Visiting Scholar at the Center for Latin American and Caribbean Studies at New York University. Her research focuses on race and the visual arts in early nineteenth-century Havana, including using digital methods to explore these histories.
 
@@ -51,7 +51,7 @@ We envision *Torn Apart* as a scholarly journal--- one led by an editorial board
 
 * [Rachel Hendery](https://twitter.com/RHendery) is Associate Professor of Digital Humanities at Western Sydney University in Sydney, Australia. She works on language contact and change in Australia and the Pacific, and how mapping, simulation, and virtual reality data visualisation can help us better understand this history.
 
-* [Moacir P. de Sá Pereira](https://moacir.com/) is a scholar of literature & space, focusing on the way digital techniques can help elucidate novels of the 20th and 21st centuries. This focus expresses itself in his scholarship and teaching in the Department of English at New York University. He is a member of xpMethod.
+* [Moacir P. de Sá Pereira](https://moacir.com/) is a scholar of literature & space, focusing on the way digital techniques can help elucidate novels of the 20th and 21st centuries. He is a member of xpMethod.
 
 * [Roopika Risam](http://roopikarisam.com/) is an Assistant Professor of English at Salem State University. She is the author of *New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy* (Northwestern UP, 2018). She is a member of xpMethod.
 
@@ -127,6 +127,11 @@ The website is based on [@muziejus/leaflet-quickstart](http://github.com/muzieju
 visualizations
 * [Bootstrap](http://getbootstrap.com), which allowed us to quickly develop a coherent visual style
 * [Jekyll](http://jekyllrb.com), which provides the structural frame for the project
+* [Nodejs](http://nodejs.org), which allowed us to develop a JavaScript
+back-end for building the different slices of data used in vol. 2.
+* [Babel](http://babaljs.io), which compiled our JavaScript.
+* [Webpack](http://webpack.js.orga), which bundled our JavaScript and
+(hopefully) makes the whole site load more quickly..
 
 <br>
 
