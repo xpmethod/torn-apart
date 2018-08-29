@@ -11,16 +11,12 @@ $.when(
   const textures = {};
   [[en, "en"], [es, "es"], [fr, "fr"]].map(data => {
     textures[data[1]] = {};
-    let textArr = data[0][0]
-      // data[0][0]
+    data[0][0]
       .replace(/\$/g, "🛅")
-      // .split("#IMGTAG#")
-      .split("#IMGTAG#");
-    console.log(data[1], textArr.length, textArr);
-    textArr.map((chunk, i) => {
-      // .map((chunk, i) => {
-      textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
-    });
+      .split("#IMGTAG#")
+      .map((chunk, i) => {
+        textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
+      });
   });
   $.i18n().load(textures);
   updateTexts();
