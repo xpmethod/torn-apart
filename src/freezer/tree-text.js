@@ -14,7 +14,11 @@ export default function() {
       { className: "staples", text: "Staples" },
       { className: "surveillance", text: "Surveillance" },
       { className: "the-threat-of-violence", text: "The Threat of Violence" },
-      { className: "reforming-bodies", text: "Reforming Bodies" }
+      { className: "reforming-bodies", text: "Reforming Bodies" },
+      { className: "walls", text: "Walls" },
+      { className: "machines", text: "Machines" },
+      { className: "mixed-bag", text: "Mixed Bag" },
+      { className: "doctrine", text: "Doctrine" }
       // { className: "moldingbodies", text: "Molding Bodies" }
     ],
     category => {
@@ -30,6 +34,7 @@ export default function() {
         .attr("dy", "0.01")
         .style("text-anchor", "middle")
         .style("fill", "#666")
+        .style("opacity", 0.4)
         .attr("x", box.topX + box.width / 2)
         .attr("y", box.topY + box.height / 2)
         .style("pointer-events", "none")

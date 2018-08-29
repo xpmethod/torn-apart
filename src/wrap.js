@@ -53,5 +53,8 @@ export default function(text, { height = 1000, width = 40, lineHeight = 1.1 }) {
     while (text.node().getBBox().width > width) {
       text.style("font-size", parseInt(text.style("font-size")) - 2 + "px");
     }
+    if (parseInt(text.style("font-size")) < 7) {
+      text.style("opacity", 0);
+    }
   });
 }
