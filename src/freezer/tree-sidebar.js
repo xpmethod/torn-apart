@@ -30,7 +30,7 @@ export default function(data) {
 
   if (window.matchMedia("(max-width: 576px)").matches) {
     $("#tree-sidebar").prepend(
-      "<h3 id='click-on-cube' data-i18n='ta-click-on-cube-to-see-company'></h3>"
+      "<h3 id='click-on-cube' data-i18n='ta-click-on-cube-to-see-contractor'></h3>"
     );
   } else {
     const firstCompany = $(
