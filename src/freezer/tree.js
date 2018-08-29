@@ -1,4 +1,4 @@
-// import $ from "jquery";
+import $ from "jquery";
 import _ from "lodash";
 import { sum } from "d3-array";
 import { select } from "d3-selection";

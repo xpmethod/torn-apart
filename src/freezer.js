@@ -29,7 +29,11 @@ export default function() {
   }
   spinner.stop();
   if (!$("#treemap-g").length) {
-    freezerTree();
+    $(document).ready(() => {
+      freezerTree();
+      updateTexts();
+      $("#treemap-g").hide();
+    });
   }
   updateTexts();
   $("#murderboard-button").addClass("active");

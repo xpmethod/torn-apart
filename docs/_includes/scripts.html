@@ -49,6 +49,7 @@
       $(".volume-button").removeClass("active");
       $(`.volume-${path[3]}-button`).addClass("active");
     }
+    $("#spinner").remove();
   </script>
 
 {% if jekyll.environment == "production" %}
