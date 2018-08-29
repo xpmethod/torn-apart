@@ -270,7 +270,7 @@ basically, IT consultants.  Unsurprisingly this explosion of money to the IT
 sector happens to be [a trademark of Representative Gerry Connolly’s work in
 Congress](https://fcw.com/articles/2015/03/30/gerry-connolly-fitara-force-multiplier.aspx).
 Small wonder, then, that his district is also the most remunerated by ICE.
-Since 2014, $1.3B has been showered over his Clinton-by-39-points district,
+Since 2014, $1.3B has been showered over the Clinton-by-39-points district,
 much of it to IT companies.
 
 <div id="districts-div">
@@ -278,9 +278,9 @@ much of it to IT companies.
 </div>
 
 This visualization, showing the distribution of the over $9B in ICE spending
-since 2014 recontextualizes how those 16 districts chew up the budget. In 17th
+since 2014, recontextualizes how those 16 districts chew up the budget. In 17th
 place, marked in orange above, is Washington, DC., which while another ICE fat
-cat, also marks the turn towards quickly shrinking turns at the authoritarian
+cat, also marks the bend towards quickly shrinking turns at the authoritarian
 trough. And this visualization skips the quarter of all Congressional
 districts that haven’t seen a dime from ICE. Perhaps they need to get in the
 consulting, computing, constructing, and coercing businesses. 
