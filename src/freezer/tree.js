@@ -17,7 +17,10 @@ export default function() {
   const data = _.cloneDeep(Data);
   treeSidebar(data);
   const svg = select("#freezer-svg");
-  const g = svg.append("g").attr("id", "treemap-g");
+  const g = svg
+    .append("g")
+    .attr("id", "treemap-g")
+    .style("display", "block");
   const fader = color => interpolateRgb(color, "#fff")(colorFade);
   const fillColor = scaleOrdinal(schemeSet2.map(fader));
   const highlightColor = scaleOrdinal(schemeSet2);

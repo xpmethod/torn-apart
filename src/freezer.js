@@ -39,7 +39,6 @@ export default function() {
   $("#murderboard-button").addClass("active");
   $("#treemap-button").removeClass("active");
   $("#topG").show();
-  $("#treemap-g").hide();
   $("#tree-sidebar").hide();
   $("#freezer-sidebar").show();
 
