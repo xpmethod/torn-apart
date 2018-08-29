@@ -12,34 +12,32 @@ export default function() {
     spinner.start();
   }
   $("#v2-div").show();
-  $(document).ready(() => {
-    resizeDivFromTop("#v2-div");
-    $("#freezer-viz").show();
-    const height = window.matchMedia("(max-width: 576px)").matches
-      ? $(window).height() / 3
-      : fillV2DivHeight("#freezer-headers");
-    if (window.matchMedia("(min-width: 576px)").matches) {
-      $("#freezer-icetray-sidebar").height(height);
-    }
-    const svg = select("#freezer-svg")
-      .attr("width", $("#freezer-div").width())
-      .attr("height", height);
-    addGlowFilter(svg);
-    if (!$("#topG").length) {
-      freezerMurderboard();
-    }
-    spinner.stop();
-    if (!$("#treemap-g").length) {
-      freezerTree();
-    }
-    updateTexts();
-    $("#murderboard-button").addClass("active");
-    $("#treemap-button").removeClass("active");
-    $("#topG").show();
-    $("#treemap-g").hide();
-    $("#tree-sidebar").hide();
-    $("#freezer-sidebar").show();
-  });
+  resizeDivFromTop("#v2-div");
+  $("#freezer-viz").show();
+  const height = window.matchMedia("(max-width: 576px)").matches
+    ? $(window).height() / 3
+    : fillV2DivHeight("#freezer-headers");
+  if (window.matchMedia("(min-width: 576px)").matches) {
+    $("#freezer-icetray-sidebar").height(height);
+  }
+  const svg = select("#freezer-svg")
+    .attr("width", $("#freezer-div").width())
+    .attr("height", height);
+  addGlowFilter(svg);
+  if (!$("#topG").length) {
+    freezerMurderboard();
+  }
+  spinner.stop();
+  if (!$("#treemap-g").length) {
+    freezerTree();
+  }
+  updateTexts();
+  $("#murderboard-button").addClass("active");
+  $("#treemap-button").removeClass("active");
+  $("#topG").show();
+  $("#treemap-g").hide();
+  $("#tree-sidebar").hide();
+  $("#freezer-sidebar").show();
 
   $("#treemap-button").click(() => {
     $("#treemap-button").addClass("active");
