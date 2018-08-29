@@ -11,7 +11,7 @@ $(".navbar").click(() => {
 $("#legend").click(function() {
   $(this).hide();
 });
-if (window.matchMedia("(max-width: 576px)").matches) {
+if (window.matchMedia("(max-width: 330px)").matches) {
   $("#iphone-se-alert").removeClass("d-none");
 }
 districts(map);
