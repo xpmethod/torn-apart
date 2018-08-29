@@ -35,7 +35,7 @@ export default function() {
         .style("pointer-events", "none")
         .style("font-weight", "bold")
         .style("font-size", 2 * rem + "px");
-      text.call(wrap, { width: 0.95 * box.width });
+      text.call(wrap, { height: box.height / 2, width: 0.95 * box.width });
       text.selectAll("tspan").attr("x", text.attr("x"));
     }
   );

@@ -2,7 +2,7 @@
 import _ from "lodash";
 import { select } from "d3-selection";
 
-export default function(text, { width = 40, lineHeight = 1.1 }) {
+export default function(text, { height = 1000, width = 40, lineHeight = 1.1 }) {
   text.each(function() {
     var text = select(this),
       words = text
@@ -46,6 +46,9 @@ export default function(text, { width = 40, lineHeight = 1.1 }) {
         "transform",
         `translate(0, -${(10 * (lineNumber * lineHeight - dy)) / 2})`
       );
+    }
+    while (text.node().getBBox().height > height) {
+      text.style("font-size", parseInt(text.style("font-size")) - 2 + "px");
     }
   });
 }
