@@ -28,7 +28,7 @@ How to effectively convey these stories was itself a matter of debate that refle
 
 Designing “Gain” was a crucial moment where these tensions came to the fore. The idea behind this visualization was to feature the most stunning examples of collusion with immigration enforcement through companies and institutions named on the "Scroll of Shame”—some for their grotesque profits, some for their curious presence in the data set, others for their household names. On our original “Wall of Shame,” a play on a word cloud, we had to scale the data so the smallest words were still visible while the largest ones still fit the page.
 
-For example, Geo Group should actually be 72,2843 times as large as UPS (the smallest item on the word cloud) and 3.6 times as large as Corrections Corporation of America (the second-largest). However, these sizes weren’t possible to represent without logarithmic scaling, which obscures both the absolute and relative dollar values. Our final decision to create a "Scroll of Shame" avoids this issue by simply displaying contractor names and award values.
+For example, GEO Group should actually be 72,2843 times as large as UPS (the smallest item on the word cloud) and 3.6 times as large as Corrections Corporation of America (the second-largest). However, these sizes weren’t possible to represent without logarithmic scaling, which obscures both the absolute and relative dollar values. Our final decision to create a "Scroll of Shame" avoids this issue by simply displaying contractor names and award values.
 
 ![Original "Wall of Shame" and "Equal Opportunity Oppression" pie charts for Gain](/torn-apart/assets/imgs/v2/textures-fig2.jpg)
 

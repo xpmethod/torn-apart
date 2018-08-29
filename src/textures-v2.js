@@ -11,26 +11,18 @@ $.when(
   const textures = {};
   [[en, "en"], [es, "es"], [fr, "fr"]].map(data => {
     textures[data[1]] = {};
-    data[0][0]
+    let textArr = data[0][0]
+      // data[0][0]
       .replace(/\$/g, "🛅")
-      .split("#IMGTAG#")
-      .map((chunk, i) => {
-        textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
-      });
+      // .split("#IMGTAG#")
+      .split("#IMGTAG#");
+    console.log(data[1], textArr.length, textArr);
+    textArr.map((chunk, i) => {
+      // .map((chunk, i) => {
+      textures[data[1]][`ta-v2-textures-full-text-${i + 1}`] = chunk;
+    });
   });
   $.i18n().load(textures);
   updateTexts();
-  $("main").html((i, old) => old.replace(/🛅/g, "$"));
-  $("p").each(function() {
-    if (
-      $(this)
-        .text()
-        .match(/^> /)
-    ) {
-      $(this)
-        .html((i, old) => old.replace(/&gt; /, ""))
-        .wrap("<blockquote></blockquote>");
-    }
-  });
   spinner.stop();
 });

@@ -28,4 +28,22 @@ export default function() {
   });
   $("a[href^='http']").attr("target", "_blank");
   selectAll(".wrapped").call(wrap, { width: 50 });
+  updateTextures();
+}
+
+function updateTextures() {
+  // if (window.location.pathname.match(/textures/)) {
+  $("main.page").html((i, old) => old.replace(/🛅/g, "$"));
+  $("p").each(function() {
+    if (
+      $(this)
+        .text()
+        .match(/^> /)
+    ) {
+      $(this)
+        .html((i, old) => old.replace(/&gt; /, ""))
+        .wrap("<blockquote></blockquote>");
+    }
+  });
+  // }
 }
