@@ -58,6 +58,7 @@ export default function(width, height) {
     .domain(keys);
 
   g.append("g")
+    .attr("id", "count-bars")
     .selectAll("g")
     .data(stack().keys(Data.minorityCategories)(countData))
     .enter()
@@ -116,6 +117,7 @@ export default function(width, height) {
 
   const value = g
     .append("g")
+    .attr("id", "value-bars")
     .attr("transform", `translate(0, ${height / 2 + 5})`);
 
   value

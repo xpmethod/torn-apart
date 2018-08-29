@@ -7,17 +7,19 @@ import updateTexts from "./update-texts";
 import spinner from "./spinner";
 
 export default function() {
-  if (!$("#spinner").length) {
+  if (!$("#spinner").length && !$("#count-bars").length) {
     spinner.start();
   }
-  $(document).ready(() => {
-    $("#v2-div").show();
-    resizeDivFromTop("#v2-div");
-    $("#gain-viz").show();
+  // $(document).ready(() => {
+  $("#v2-div").show();
+  resizeDivFromTop("#v2-div");
+  $("#gain-viz").show();
+  if (!$("#count-bars").length) {
     gainDisplay();
     gainProfiteers();
-    updateTexts();
-    spinner.stop();
-    gainCarousel();
-  });
+  }
+  updateTexts();
+  spinner.stop();
+  gainCarousel();
+  // });
 }
