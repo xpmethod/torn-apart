@@ -3,7 +3,6 @@ import gainDisplay from "./gain/display";
 import gainCarousel from "./gain/carousel";
 import gainProfiteers from "./gain/profiteers";
 import { resizeDivFromTop } from "./utils";
-import updateTexts from "./update-texts";
 import spinner from "./spinner";
 
 export default function() {
@@ -18,7 +17,6 @@ export default function() {
     gainDisplay();
     gainProfiteers();
   }
-  updateTexts();
   spinner.stop();
   gainCarousel();
   // });

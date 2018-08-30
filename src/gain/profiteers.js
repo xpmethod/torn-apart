@@ -1,3 +1,4 @@
+import $ from "jquery";
 import { select } from "d3-selection";
 import { rem, green, orange, pink, lime, beige, tan } from "../constants";
 import Data from "../../data/gain/minority-data.json";
@@ -22,7 +23,9 @@ export default function() {
         </svg></div>
         <div>
           <h4>
-            <small><span data-i18n="ta-${d}-owned-contractors"></span>
+            <small><span data-i18n="ta-${d}-owned-contractors">${$.i18n(
+        `ta-${d}-owned-contractors`
+      )}</span>
           </h4>
         </div>`;
     });

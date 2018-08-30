@@ -47,7 +47,7 @@ export default function(bins) {
         </div>`);
       });
       html.push(
-        "<div class='flex-fill'><div class='pl-1 legend-svg-div'><p class='axis' data-i18n='ta-republican-cong'></p><p class='axis' data-i18n='ta-democrat-cong'></p><p class='axis' data-i18n='ta-no-rep-cong'></p></div><div>&nbsp;</div>"
+        "<div class='flex-fill'><div class='pl-1 legend-svg-div'><p class='axis' data-i18n='ta-republican-cong' id='districts-i18n-test-p'></p><p class='axis' data-i18n='ta-democrat-cong'></p><p class='axis' data-i18n='ta-no-rep-cong'></p></div><div>&nbsp;</div>"
       );
       html.push("</div></div>");
       // console.log(html.join("\n"));

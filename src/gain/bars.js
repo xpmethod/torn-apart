@@ -6,6 +6,7 @@ import { format } from "d3-format";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import Tip from "d3-tip";
+import wrap from "../wrap";
 import { bigMoneyFormat } from "../utils";
 import { green, orange, pink, lime, beige, tan, lavender } from "../constants";
 import spinner from "../spinner";
@@ -111,7 +112,7 @@ export default function(width, height) {
       `translate(${width / 2},${height / 2 - margins.bottom + 30})`
     )
     .attr("data-i18n", "ta-total-number-of-contractors")
-    .text($.i18n("ta-contractors"));
+    .text($.i18n("ta-total-number-of-contractors"));
 
   countText.style("text-anchor", "middle");
 
@@ -179,6 +180,8 @@ export default function(width, height) {
     .text($.i18n("ta-total-value-of-awards-since-2014"));
 
   valueText.style("text-anchor", "middle");
+
+  selectAll(".wrapped").call(wrap, { width: margins.left - 9 });
 
   const babyHeight = 0.7 * (height / 2 - margins.bottom);
   const babyTicks = window.matchMedia("(max-width: 576px)").matches ? 2 : 5;
@@ -330,9 +333,9 @@ export default function(width, height) {
         Data.intersectionalContractors[d.category].value / Data.totalValue
       )}).</li>
 	  <li>${$.i18n("ta-women-biggest-profiteer")}: ${
-        Data.biggestProfiteers["female"].name
+        Data.biggestProfiteers.female.name
       }, <strong>$${bigMoneyFormat(
-        Data.biggestProfiteers["female"].value
+        Data.biggestProfiteers.female.value
       )}</strong></li>
       </ul>
         `;

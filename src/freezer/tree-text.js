@@ -19,7 +19,6 @@ export default function() {
       { className: "machines", text: "Machines" },
       { className: "mixed-bag", text: "Mixed Bag" },
       { className: "doctrine", text: "Doctrine" }
-      // { className: "moldingbodies", text: "Molding Bodies" }
     ],
     category => {
       const box = bBoxUnion("g." + category.className);
@@ -30,6 +29,7 @@ export default function() {
         .text(category.text)
         .classed("wrapped", true)
         .attr("data-wrap-width", 0.95 * box.width)
+        .attr("data-wrap-height", box.height / 2)
         .attr("data-i18n", `ta-v2-${category.className}`)
         .attr("dy", "0.01")
         .style("text-anchor", "middle")
@@ -41,7 +41,7 @@ export default function() {
         .style("font-weight", "bold")
         .style("font-size", 2 * rem + "px");
       text.call(wrap, { height: box.height / 2, width: 0.95 * box.width });
-      text.selectAll("tspan").attr("x", text.attr("x"));
+      // text.selectAll("tspan").attr("x", text.attr("x"));
     }
   );
 }

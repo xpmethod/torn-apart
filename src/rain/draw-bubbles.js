@@ -1,16 +1,15 @@
 import $ from "jquery";
-import _ from "lodash";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX } from "d3-force";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import tip from "d3-tip";
 import { ckmeans } from "simple-statistics";
-import rainSizeLegend from "./size-legend";
 import addGlowFilter from "../add-glow-filter";
 import { rem, green, purple } from "../constants";
 import { bigMoneyFormat } from "../utils";
 import Data from "../../data/rain/rainData.csv";
 import spinner from "../spinner";
+import rainLegend from "./legend";
 
 export default function() {
   const width = $("#rain-viz").width();
@@ -154,62 +153,5 @@ export default function() {
 
   spinner.stop();
 
-  const legendG = svg
-    .append("g")
-    .attr("id", "rain-legend")
-    .classed("legend", true);
-
-  const sizeLegendContent = rainSizeLegend(r);
-
-  legendG
-    .append("g")
-    .attr("id", "rain-size-legend")
-    .call(sizeLegendContent)
-    .selectAll("circle")
-    .attr("fill", purple);
-
-  _.each(["unique", "renewed"], d => {
-    select("#rain-size-legend")
-      .select("g")
-      .append("text")
-      // .attr("y", [...circleSizes].reverse()[0])
-      // this causes the three-long text to become two rows only.
-      .classed("rain-legend-extras", true)
-      .classed("wrapped", true)
-      .attr("id", `rain-legend-${d}`)
-      .attr("data-i18n", `ta-${d}-contracts`)
-      .attr("data-wrap-align", "vertical")
-      .attr("data-wrap-width", 50)
-      .attr("dy", "0.01")
-      .text();
-  });
-
-  const legendXShift = window.matchMedia("(max-width: 576px)").matches ? 0 : 30;
-
-  legendG
-    .attr(
-      "transform",
-      `translate(${legendXShift}, ${svg.attr("height") -
-        $("#rain-legend")[0].getBBox().height})`
-    )
-    .selectAll(".legendTitle")
-    .attr("transform", "translate(0, -10)")
-    .attr("data-i18n", "ta-contract-value-and-type")
-    .classed("subsubhead", true);
-
-  select("#rain-size-legend .legendCells")
-    .selectAll(".cell")
-    .append("circle")
-    .each(function(d, i) {
-      svg
-        .append("clipPath")
-        .attr("id", `rain-size-legend-clip-path-${i}`)
-        .append("rect")
-        .attr("transform", `translate(${circleSizes[i] * -1},0)`)
-        .attr("width", 2 * circleSizes[i])
-        .attr("height", circleSizes[i]);
-    })
-    .attr("clip-path", (d, i) => `url(#rain-size-legend-clip-path-${i}`)
-    .attr("fill", green)
-    .attr("r", (d, i) => circleSizes[i]);
+  rainLegend(svg, r, circleSizes);
 }

@@ -22,7 +22,9 @@ export default function(d) {
       if (d.color) {
         th = `<th style="background-color: ${d.color};">`;
       }
-      html.push(`${th}<small data-i18n="${header}"></small></th>`);
+      html.push(
+        `${th}<small data-i18n="${header}">${$.i18n(header)}</small></th>`
+      );
     }
   );
   html.push("</thead><tbody>");
@@ -44,9 +46,9 @@ export default function(d) {
     html.push("</tr><tr>");
     html.push("<td>&nbsp;</td>");
     html.push(
-      `<td colspan="5" class="award-description"><small><span data-i18n="ta-description"></span>: ${
-        award.award_description
-      }</small></td>`
+      `<td colspan="5" class="award-description"><small><span data-i18n="ta-description">${$.i18n(
+        "ta-description"
+      )}</span>: ${award.award_description}</small></td>`
     );
     html.push("</tr>");
   });

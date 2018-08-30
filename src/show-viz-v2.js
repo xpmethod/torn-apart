@@ -17,15 +17,15 @@ export default function(viz, map) {
   switch (viz) {
     case "gain":
       gain(map);
-      updateTexts();
+      updateTexts("#gain-header", "#gain-viz");
       break;
     case "rain":
       rain(map);
-      updateTexts();
+      updateTexts("#rain-h2", "#rain-viz");
       break;
     case "freezer":
       freezer(map);
-      updateTexts();
+      updateTexts("#freezer-h2", "#freezer-viz");
       break;
     case "lines":
       lines(map);
@@ -33,7 +33,7 @@ export default function(viz, map) {
       break;
     case "districts":
       districts(map);
-      updateTexts();
+      updateTexts("#districts-i18n-test-p", "#legend");
       break;
   }
 }

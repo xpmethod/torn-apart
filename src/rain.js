@@ -1,15 +1,14 @@
 import $ from "jquery";
 import drawBubbles from "./rain/draw-bubbles";
-import rainMoveLegendTexts from "./rain/move-legend-texts";
+// import rainMoveLegendTexts from "./rain/move-legend-texts";
 import { resizeDivFromTop } from "./utils";
 import spinner from "./spinner";
-import updateTexts from "./update-texts";
 
 export default function() {
   if (!$("#spinner").length) {
     spinner.start();
   }
-  $(document).ready(() => {
+  // $(document).ready(() => {
     $("#v2-div").show();
     resizeDivFromTop("#v2-div");
     $("#rain-viz").show();
@@ -18,7 +17,6 @@ export default function() {
     } else {
       spinner.stop();
     }
-    updateTexts();
-    rainMoveLegendTexts();
-  });
+    // rainMoveLegendTexts();
+  // });
 }

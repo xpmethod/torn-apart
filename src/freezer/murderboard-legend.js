@@ -1,6 +1,4 @@
 import $ from "jquery";
-import { moveLegend } from "../utils";
-import updateTexts from "../update-texts";
 import { orange, purple, green, pink } from "../constants";
 
 export default function() {
@@ -44,6 +42,4 @@ export default function() {
       );
       return html.join("\n");
     });
-  updateTexts();
-  moveLegend();
 }

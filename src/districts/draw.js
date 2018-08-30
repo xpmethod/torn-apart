@@ -1,6 +1,4 @@
 import L from "leaflet";
-// import _ from "lodash";
-// import { format } from "d3-format";
 import { select } from "d3-selection";
 import { geoPath, geoTransform } from "d3-geo";
 import { scaleThreshold } from "d3-scale";

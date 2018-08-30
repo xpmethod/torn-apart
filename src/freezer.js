@@ -3,7 +3,6 @@ import { select } from "d3-selection";
 import { resizeDivFromTop, fillV2DivHeight } from "./utils";
 import spinner from "./spinner";
 import addGlowFilter from "./add-glow-filter";
-import updateTexts from "./update-texts";
 import freezerTree from "./freezer/tree";
 import freezerMurderboard from "./freezer/murderboard";
 
@@ -27,25 +26,22 @@ export default function() {
   if (!$("#topG").length) {
     freezerMurderboard();
   }
-  spinner.stop();
   if (!$("#treemap-g").length) {
-    $(document).ready(() => {
-      freezerTree();
-      updateTexts();
-      $("#treemap-g").hide();
-    });
+    freezerTree();
   }
-  updateTexts();
+  spinner.stop();
   $("#murderboard-button").addClass("active");
   $("#treemap-button").removeClass("active");
   $("#topG").show();
   $("#tree-sidebar").hide();
+  $("#treemap-g").hide();
   $("#freezer-sidebar").show();
 
   $("#treemap-button").click(() => {
     $("#treemap-button").addClass("active");
     $("#murderboard-button").removeClass("active");
     $("#treemap-g").show();
+    // $("#treemap-g").css("opacity", 1);
     $("#topG").hide();
     $("#tree-sidebar").show();
     $("#freezer-sidebar").hide();
@@ -55,8 +51,11 @@ export default function() {
     $("#murderboard-button").addClass("active");
     $("#treemap-button").removeClass("active");
     $("#topG").show();
+    // $("#treemap-g").css("opacity", 0);
     $("#treemap-g").hide();
     $("#tree-sidebar").hide();
     $("#freezer-sidebar").show();
   });
+
+  // $("#treemap-g").hide();
 }
