@@ -1,12 +1,12 @@
 .env
-environment.mjs
+environment.js
 localdata/
 cache/
-data/downloads/everything/html/
+data/downloads/
 tmp/
 .DS_Store
 docs/_site
 imgur_config.yml
 node_modules/
 dist/
-
+src/environment.js

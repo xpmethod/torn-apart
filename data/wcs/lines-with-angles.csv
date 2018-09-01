@@ -1,0 +1,323 @@
+name,minAngle,maxAngle
+Aruba,0,0
+Agana,0,0
+Saipan,0,0
+Christiansted,0,0
+Ponce,0,0
+Antonio Rivera-Rodriguez Airport,0,0
+Mayaguez,0,0
+Benjamin Rivera Noriega Airport - Culebra,0,0
+Cruz Bay,0,0
+Charlotte Amalie,0,0
+Aguadilla,0,0
+Luis Munoz Marin Int'L Airport,0,0
+San Juan,0,0
+Honolulu,0,0
+Lihue,0,0
+Key West,80,100
+Nassau,140,160
+Miami Seaport Fl,110,120
+Miami International Airport,110,120
+Brownsville-Matamor,60,130
+Veterans Intl Bridge,60,130
+Brownsville,60,130
+Free Trade Bridge,60,130
+Port Isabel,60,130
+Progreso,60,120
+Port Everglades,110,130
+Hidalgo,60,120
+Fort Lauderdale,110,120
+Anzalduas Port of Entry,50,120
+Naples,90,110
+Donna,60,120
+Harlingen,50,130
+Pharr,60,120
+Mcallen,60,120
+Valley International Airport,50,130
+Los Ebanos,50,120
+Rio Grande City,50,130
+Roma,40,120
+Freeport,130,140
+Falcon Heights,40,140
+Fort Myers,90,130
+West Palm Beach,110,130
+Fort Pierce,100,140
+Juarez-Lincoln Bridge,30,150
+Laredo,30,150
+Laredo,30,150
+Port Manatee,80,140
+Laredo Columbia Bridge,30,150
+Corpus Christi,30,150
+Tampa,80,140
+Orlando,80,150
+Eagle Pass,10,150
+Eagle Pass,10,150
+Sanford,70,160
+Galveston,0,220
+Del Rio,0,150
+San Antonio,10,180
+Amistad Dam,360,510
+Presidio,350,510
+Hobby Airport,0,190
+Houston,0,230
+Houston Airport,230,560
+New Orleans International Airport,0,190
+Panama City,30,340
+Lake Charles,0,210
+Austin,0,190
+Jacksonville,60,170
+Pascaguola,0,180
+Gulfport,0,180
+Baton Rouge,0,200
+Mobile,360,550
+Brunswick,50,280
+Fort Hancock,350,530
+Alexandria International Airport,360,580
+Naco,360,520
+Nogales,0,160
+Douglas,360,520
+Antelope Wells,350,520
+Sasabe,10,160
+Fabens,350,540
+Paso Del Norte,350,540
+Ysleta,350,540
+Stanton St Bridge,350,540
+El Paso,350,540
+Bridge Of Americas,350,540
+Columbus,340,530
+Santa Teresa,350,540
+Lukeville,0,150
+Savannah,40,270
+Tucson,360,530
+Hamilton,0,0
+San Luis,360,510
+Otay Cross Border Express,360,490
+San Ysidro,360,490
+Otay Mesa,360,490
+Tecate,360,500
+Campo,360,500
+Calexico-East,360,510
+Calexico,360,510
+San Diego,360,490
+Andrade,360,510
+San Diego Airport,360,490
+Charleston,40,260
+Dallas,330,620
+Phoenix,350,540
+Hartsfield International Airport,0,300
+John Wayne Airport,350,490
+San Pedro,350,490
+Long Beach Ca Seaport/Poe,350,490
+Los Angeles International Airport,350,490
+Los Angeles,350,490
+Ontario International Airport,350,500
+Wilmington,70,220
+Ventura,350,480
+Mariposa,320,570
+Port Of Chattanooga,360,710
+Albuquerque,300,590
+Memphis,360,710
+Charlotte,50,260
+Oklahoma City,360,710
+Raleigh-Durham International Airport,50,240
+Nashville,360,710
+Las Vegas,310,560
+Fresno,310,490
+Norfolk,70,230
+San Jose,320,470
+Richmond,50,250
+San Francisco,320,460
+Oakland,320,460
+Louisville,80,400
+Sacramento,310,470
+St. Louis,80,410
+Andrews Afb,40,260
+Dulles International Airport,40,260
+Kansas City Mo,360,710
+Cincinnati,90,400
+Dover Afb,40,250
+Baltimore airport,30,260
+South Locust Point Marine Terminal,30,260
+Atlantic City International Airport,60,250
+Reno,280,500
+Wilmington,40,260
+Denver,360,710
+Indianapolis,70,380
+Philadelphia International Airport,50,260
+Cherry Hill,50,260
+Columbus,110,400
+Harrisburg,20,280
+Pittsburg International Airport,140,400
+John F. Kennedy International Airport,50,240
+Newark International Airport,50,250
+New York,50,240
+Salt Lake City,360,710
+Akron,120,390
+Bridgeport,50,230
+Omaha,360,710
+New Haven,50,240
+New London,50,220
+Griffing Airport,160,380
+Cleveland,130,380
+Des Moines,30,360
+Toledo,150,380
+Hartford,40,220
+Midway Airport,50,350
+Providence,60,230
+Ashtabula,140,390
+Chicago-O'Hare International Airport,50,350
+Erie,150,390
+Detroit Airport,120,370
+Port Of Battle Creek,110,360
+Ambassador Bridge,120,370
+Fort Street Cargo Facility,120,370
+Medford,290,460
+Detroit-Windsor Tunnel,120,370
+Detroit,120,370
+Logan International Airport,60,210
+Algonac,130,370
+Albany,30,250
+Oakland County International Airport,130,360
+Marine City,130,370
+Jamisons Lane,160,380
+Grand Rapids Port Of Entry,120,350
+Buffalo,160,380
+Peace Bridge,160,380
+Port Huron,130,360
+Milwaukee,130,330
+Syracuse,10,250
+Rainbow Bridge,160,380
+Niagara Falls,160,380
+Whirlpool Bridge,160,380
+Queenstone Bridge,160,380
+Rochester,190,380
+Toronto,170,370
+Portland,190,230
+Cape Vincent,0,290
+Wellesley Island,230,280
+Alexandria Bay,230,280
+Thousand Island Bridge,230,280
+Bar Harbor,180,220
+Pinnacle Road,200,250
+Burlington,210,260
+Buckport,180,220
+Ogdensburg,230,280
+Bangor International Airport,180,230
+St. Albans,200,260
+Halifax International Airport,150,190
+Chateaugay,20,270
+Massena,230,270
+St. Paul,120,320
+Churubusco,20,260
+Cannon Corners,230,260
+Alburg,210,260
+Highgate Springs,210,250
+Champlain,210,260
+Fort Covington,0,270
+West Berkshire,210,250
+Rouses Point,210,260
+Canaan,210,240
+Richford,210,250
+Rt. 5,210,250
+I-91,210,250
+Beebe Plain,210,250
+Beecher Falls,210,240
+East Richford,210,250
+Pittsburg,210,240
+Alpena,160,330
+Calais,190,230
+Coburn Gore,210,240
+Ottawa,240,380
+Montreal Canada,210,260
+Portland,270,410
+Vanceboro,190,240
+Jackman,200,250
+Forest City,190,240
+Orient,200,240
+Lakeland Airport,140,350
+Houlton,200,250
+Longview,270,390
+Astoria,280,390
+Bridgewater,200,240
+Sault St. Marie,180,280
+Helena,160,390
+Daaquam,210,260
+Easton,210,240
+Duluth,160,310
+Limestone,210,240
+Aberdeen,280,380
+Hamlin,210,240
+Van Buren,210,240
+Tacoma,270,380
+Madawaska,220,240
+Pacific Highway,270,380
+Seaport,270,370
+Seattle,270,370
+Spokane,190,370
+Ely,170,310
+Grand Forks,170,340
+Grand Portage,170,320
+Everett,270,370
+Port Angeles,280,370
+Minot,180,360
+Crane Lake,180,330
+Piegan,180,360
+Anacortes,260,360
+International Falls,180,330
+Baudette,180,330
+Bellingham,260,360
+Scobey,180,360
+Dunseith,180,350
+Turner,180,360
+Lancaster,180,330
+Metaline Falls,190,360
+Raymond,180,360
+Noonan,180,360
+Carbury,180,350
+Whitetail,180,360
+Warroad,180,330
+Walhalla,180,340
+Oroville,230,360
+Lynden,260,360
+Hansboro,180,350
+Ambrose,180,360
+Pembina,180,330
+Nighthawk,230,360
+Antler,180,350
+Hannah,180,350
+Pine Creek,180,320
+Pinecreek Port Of Entry,180,320
+Neche,180,350
+Point Roberts,270,360
+Danville,220,360
+Morgan,190,350
+Blaine,260,350
+Portal,190,350
+Sweetgrass,190,350
+Noyes,190,330
+Porthill,200,350
+Boundary,250,350
+Maida,190,340
+Del Bonita,190,350
+Laurier,210,350
+Eastport,210,350
+Frontier,190,350
+Sumas,260,350
+Vancouver,270,350
+Winnipeg,200,330
+Calgary,210,330
+Shannon,0,0
+Edmonton,230,310
+Dutch Harbor,40,80
+Prince Rupert,NaN,NaN
+Ketchikan,0,0
+Seaport,120,140
+Juneau,120,150
+Dalton Cache,110,170
+Skagway,120,170
+Anchorage,60,190
+Alcan,90,200
+Poker Creek,120,210
+Seaport,320,420
+Eagle,130,230
+Fairbanks,120,240

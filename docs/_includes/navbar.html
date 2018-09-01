@@ -1,16 +1,24 @@
-<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+{% if page.volume %}
+  {% assign volume = page.volume %}
+{% else %}
+  {% assign volume = site.current_volume %}
+{% endif %}
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark justify-content-start">
   <a data-i18n="ta-sitename" class="navbar-brand" href="{{ site.baseurl }}/">Torn Apart</a>
-
-  <div class="collapse navbar-collapse" id="navbarList">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse" id="navbarList" style="z-index: 4000; flex-basis: fit-content;">
+    <ul class="nav">
       <li class="nav-item">
-        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/visualizations.html#clinks">Visualizations</a>
+      {% if volume == 2 %}
+        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#districts">Visualizations</a>
+      {% else %}
+        <a data-i18n="ta-visualizations" id="nav-visualizations" class="nav-link" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#clinks">Visualizations</a>
+      {% endif %}
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link" href="{{ site.baseurl }}/textures.html">Textures</a>
+        <a data-i18n="ta-textures"  id="nav-textures" class="nav-link " href="{{ site.baseurl }}/volume/{{ volume }}/textures.html">Textures</a>
       </li>
       <li class="nav-item">
-        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link" href="{{ site.baseurl }}/reflections.html">Reflections</a>
+        <a data-i18n="ta-reflections"  id="nav-reflections" class="nav-link " href="{{ site.baseurl }}/volume/{{ volume }}/reflections.html">Reflections</a>
       </li>
       <li class="nav-item">
         <a  data-i18n="ta-allies" id="nav-allies" class="nav-link" href="{{ site.baseurl }}/allies.html">Allies</a>
@@ -22,11 +30,54 @@
         <a  data-i18n="ta-credits" id="nav-credits" class="nav-link" href="{{ site.baseurl }}/credits.html">Credits</a>
       </li>
     </ul>
+{% if page.mapid == "visualizations-mapdiv" %}
+      <div class="dropdown-divider"></div>
+    <ul class="nav mb-2 viz-nav-vol-{{volume}}">
+        {% assign tabs = site.data.vizNavbars[volume] %}
+        {% for tab in tabs %}
+        <li class="nav-item viz-item-{{ volume }}">
+          <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link viz-button viz-dropdown" href="{{ site.baseurl }}/volume/{{ volume }}/visualizations.html#{{ tab }}">Clinks</a>
+        </li>
+      {% endfor %}
+    </ul>
+{% endif %}
   </div>
-  <a class="ml-auto en-button locale-button active nav-item nav-link" href="#" data-locale="en">EN</a> |
-  <a class="es-button locale-button nav-item nav-link" href="#" data-locale="es">ES</a> | 
-  <a class="fr-button locale-button nav-item nav-link" href="#" data-locale="fr">FR</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+
+  <ul class="nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-language"></i>
+        <span class="sr-only">Language selector</span>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
+        <a data-locale="en" class="dropdown-item en-button locale-button active" href="#">English</a>
+        <a data-locale="es" class="dropdown-item es-button locale-button" href="#">Español</a>
+        <a data-locale="fr" class="dropdown-item fr-button locale-button" href="#">Français</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="volumeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span data-i18n="ta-volume" class="d-none d-md-inline">Volume</span>
+        <span data-i18n="ta-vol" class="d-md-none">Vol.</span>
+        </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="volumeDropdown">
+        <a class="dropdown-item volume-button volume-1-button" href="{{ site.baseurl }}/volume/1">
+          <span style="color: #fc8d62;">█</span>
+          <span data-i18n="ta-vol"></span> 1</a>
+        <a class="dropdown-item volume-button volume-2-button active" href="{{ site.baseurl }}/volume/2">
+          <span style="color: #8da0cb;">█</span>
+          <span data-i18n="ta-vol"></span> 2</a>
+      </div>
+    </li>
+  </ul>
+
+{% if page.mapid == "visualizations-mapdiv" %}
+  <button class="ml-auto navbar-toggler navbar-toggler-vol-{{volume}}" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+{% else %}
+  <button class="ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+{% endif %}
 </nav>

@@ -6,9 +6,11 @@ permalink: bibliography.html
 # Bibliography
 {: data-i18n="ta-bibliography"}
 
-Below is a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society.
+Below is a list of our data sources. For a larger list of sources please visit our open [Zotero group](https://www.zotero.org/groups/2199147/hummingbird/). For a larger scholarly bibliography, we recommend the open [#ImmigrationSyllabus](http://editions.lib.umn.edu/immigrationsyllabus/) by the Immigration History Research Center at the University of Minnesota and the Immigration and Ethnic History Society. You can access most of our data in our [Open Data Repository on GitHub](https://github.com/xpmethod/torn-apart-open-data).
+{:.markdownify data-i18n="ta-bibliography-description"}
 
 ## Data Sources
+{: data-i18n="ta-data-sources"}
 
 * A New Leaf. A Job Ad (Now Removed) from A New Leaf.  
 [http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310.](http://jobs.turnanewleaf.org/youth-care-worker-spanish-english-bilingual/job/7448310)
@@ -36,6 +38,10 @@ Below is a list of our data sources. For a larger list of sources please visit o
 
 * Colibri Center for Human Rights. “Reportar una Persona Desparecida en la Frontera \| Report a Missing Person on the Border.” Colibri Center for Human Rights, 2018.  
 [http://www.colibricenter.org/report-a-missing-border-crosser/](http://www.colibricenter.org/report-a-missing-border-crosser/).
+
+* Department of Homeland Security. "FY 18 ICE Budget." Department of Homeland Security, 2017. [https://www.dhs.gov/sites/default/files/publications/ICE%20FY18%20Budget.pdf](https://www.dhs.gov/sites/default/files/publications/ICE%20FY18%20Budget.pdf).
+
+* Department of Homeland Security. "FY 2019 Budget-in-Brief." Department of Homeland Security, 2018. [https://www.dhs.gov/publication/fy-2019-budget-brief](https://www.dhs.gov/publication/fy-2019-budget-brief).
 
 * Driscoll, Matt. “The Boys Came North without Parents or Papers. Now They’re Detained in Fife. What Does Their Future Hold?” *The News Tribune*, 14 June 2018.  
 [https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy](https://www.thenewstribune.com/news/local/news-columns-blogs/matt-driscoll/article213016629.html#storylink=cpy).
@@ -69,6 +75,8 @@ Below is a list of our data sources. For a larger list of sources please visit o
 
 * ICE.gov. Berks Family Residential Center.  
 [https://www.ice.gov/detention-facility/berks-family-residential-center](https://www.ice.gov/detention-facility/berks-family-residential-center).
+
+* ICE.gov. "Removals by AOR FY 2009-February 25, 2017." ICE.gov, 2017.  [https://www.ice.gov/doclib/foia/immigration_statistics/Removals-AOR-FY2009-Feb2017.xlsx](https://www.ice.gov/doclib/foia/immigration_statistics/Removals-AOR-FY2009-Feb2017.xlsx).
 
 *  ---. Elizabeth Contract Detention Facility.  
 [https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility](https://www.ice.gov/detention-facility/elizabeth-contract-detention-facility).
@@ -166,9 +174,10 @@ Below is a list of our data sources. For a larger list of sources please visit o
 * USASpending.gov. “USA Spending - Who’s Getting the Govt’s $$ (e.g. Southwest Key Got ~$1B since 2014).” USASpending.Gov, 2018.  
 [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
 
+* USASpending.gov. "Immigration Customs and Enforcement." USASpending.gov, 2018. [https://www.usaspending.gov/#/search](https://www.usaspending.gov/#/search).
+
 * Walters, Edgar, et al. “What We Know about Texas-Regulated Facilities Holding Migrant Children.” *Reveal News*, 20 June 2018.  
 [https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/](https://www.revealnews.org/article/everything-we-know-about-texas-regulated-facilities-holding-migrant-children-violations-numbers-and-more/).
 
 * Ward, Paula Reed, and Ashley Murray. “Child Migrants Separated from Families Being Housed at Holy Family Institute in Emsworth.” *The Pittsburgh Post-Gazette*.  
 [http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074](http://www.post-gazette.com/news/faith-religion/2018/06/17/Child-migrants-separated-from-families-being-housed-at-Holy-Family-Institute/stories/201806160074).
-

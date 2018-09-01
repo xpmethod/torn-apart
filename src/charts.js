@@ -1,13 +1,14 @@
 import $ from "jquery";
-import chartsDisplay from "./charts-display";
+import chartsDisplay from "./charts/display";
 import { mapZoomEnable } from "./utils";
+import { lower48Bounds } from "./constants";
 
-export default function(map){
+export default function(map) {
   mapZoomEnable(map);
   $(".leaflet-control-zoom").hide();
   $("#d3-dots-svg").show();
   $("#zero-g").hide();
-  map.flyToBounds([[24.396, -124.848974], [49.384, -66.885444]]);
+  map.flyToBounds(lower48Bounds);
   $("#charts-div").show();
   chartsDisplay(map);
 }

@@ -1,0 +1,121 @@
+#v2-div {
+  position: absolute;
+  top: 4.5rem;
+  left: 1rem;
+  height: calc(100vh - 3rem - 8.5rem );
+  min-height: calc(100vh - 4rem - 8.5rem );
+  max-height: calc(100vh - 4rem - 8.5rem );
+  width: calc(100vw - 2rem);
+  display: none;
+  z-index: 990;
+  overflow-y: auto;
+
+  background-color: rgba(255, 255, 255, 0.93);
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $green;
+  }
+
+  h2 {
+    text-align: right;
+  }
+
+  svg {
+    width: 100%; // keep for wall of gain
+  }
+
+  .big-number {
+    margin: 0;
+    color: $green;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .big-number-desc {
+    text-align: center;
+  }
+
+  .legend-ul li {
+    font-weight: bold;
+  }
+
+  h5 {
+    margin: 0 .5rem;
+    color: #000000;
+    font-size: 1.0rem;
+  }
+
+  .table .thead-dark th {
+    background-color: $green;
+    border: none;
+    vertical-align: center;
+  }
+
+  .main-gain {
+    margin: 0;
+    color: $purple;
+    line-height: 1.6rem;
+    font-size: 1.75rem;
+    min-height: 4.75rem;
+    max-height: 4.75rem;
+    overflow-y: hidden;
+
+    small {
+      font-size: 1.25rem;
+    }
+  }
+
+  #gain-profiteers-list {
+    h4 {
+      color: $purple;
+      font-size: 1rem;
+    }
+  }
+
+  // #treemap-g {
+  //   display: none;
+  // }
+
+  #freezer-icetray-sidebar {
+    overflow-y: auto;
+  }
+  
+  @media (min-width: 576px){
+    font-size: 0.8rem;
+    top: 7.25rem;
+    left: .5rem;
+    width: calc(100vw - 1rem);
+    height: calc(100vh - 7.5rem - 1.75rem);
+    min-height: calc(100vh - 7.5rem - 1.75rem);
+    max-height: calc(100vh - 7.5rem - 1.75rem);
+    overflow-y: hidden;
+
+    .legend-ul li {
+      font-size: 1.0rem;
+    }
+
+    .main-gain {
+      margin: 0;
+      color: $purple;
+      line-height: 1.6rem;
+      font-size: 2rem;
+      // line-height: 2rem;
+      // font-size: 2.8rem;
+      min-height: 3.5rem;
+      max-height: 3.5rem;
+
+      small {
+        font-size: 1.15rem;
+      }
+    }
+
+    #gain-profiteers {
+      overflow-y: auto;
+    }
+
+  }
+}
+
+
+

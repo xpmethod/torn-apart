@@ -7,6 +7,21 @@
   background-color: $green !important;
 }
 
+.volume-1-nav-link {
+  text-decoration: underline $orange double ;
+}
+
+.volume-2-nav-link {
+  text-decoration: underline $purple double ;
+}
+
+#volume-1-button.nav-link.nav-item {
+  background-color: $orange;
+}
+
+#volume-2-button.nav-link.nav-item {
+  background-color: $purple;
+}
 
 #index-nav.nav, #visualizations-nav.nav, #time-series-nav.nav { 
   margin-top: .5rem;
@@ -25,6 +40,18 @@
 
 .navbar-toggler {
   font-size: 1rem;
+}
+
+.navbar-toggler-vol-2 {
+  background-color: $purple;
+}
+
+.navbar-toggler-vol-1 {
+  background-color: $orange;
+}
+
+.nav-item.viz-button {
+  padding: 0 1rem;
 }
 
 .locale-toggle-text.active {
@@ -62,8 +89,12 @@
   }
 }
 
-#visualizations-nav.nav a.nav-link, #visualizations-teeny-nav.nav a.nav-link {
+#visualizations-nav.nav a.orange-button {
   background-color: $orange;
+}
+
+#visualizations-nav.nav a.purple-button {
+  background-color: $purple;
 }
 
 #visualizations-teeny-nav.nav a.nav-link {
@@ -72,12 +103,21 @@
   padding: .5rem;
 }
 
+.viz-nav-vol-1 {
+  background-color: $orange;
+}
+
+.viz-nav-vol-2 {
+  background-color: $purple;
+}
+
+
 // Localization links:
 
 .navbar {
   color: $faintwhite;
-
-  a.nav-item {
+  
+  a {
     color: $faintwhite; 
   }
 
@@ -86,3 +126,26 @@
   }
 }
 
+.dropdown-menu {
+  background-color: $green;
+}
+
+#index-nav a.dropdown-item, a.dropdown-item {
+  border: none;
+  border-radius: 0rem;
+  padding: .5rem;
+  margin: 0;
+}
+
+#index-nav a.dropdown-item.active, a.dropdown-item.active {
+  background-color: $darkgreen;
+}
+
+#index-nav a.dropdown-item:focus, #index-nav a.dropdown-item:hover, 
+a.dropdown-item:focus, a.dropdown-item:hover {
+  background-color: $darkgreen;
+}
+
+.nav-link {
+  padding: .5rem
+}

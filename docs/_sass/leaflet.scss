@@ -23,6 +23,11 @@
     margin: .25rem .5rem .5rem 0;
   }
 
+  svg.legend-svg {
+    display: block;
+    margin: 0;
+  }
+
 }
 
 .legend {
@@ -157,8 +162,12 @@
   box-shadow: 0px 0px 50px 5px #000000 !important;
 }
 
-.orange-dot, .purple-dot {
+.orange-dot, .green-dot, .purple-dot {
   fill-opacity: 0.8;
+}
+
+.green-dot {
+  fill: $green;
 }
 
 .purple-dot {
@@ -169,7 +178,16 @@
   fill: $orange;
 }
 
-.orange-polygon {
+.districts-polygon {
+  fill: $purple;
+  stroke: $purple;
+  stroke-width: 2;
+  stroke-opacity: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.orange-polygon, .purple-polygon {
   pointer-events: none;
   fill: $orange;
   fill-opacity: 0.5;
@@ -180,6 +198,10 @@
   stroke-linejoin: round;
 }
 
+.purple-polygon {
+  fill: $purple;
+  stroke: $purple;
+}
 
 @media (min-width: 576px){
   #legend, #banned-legend, #orr-legend {
@@ -192,5 +214,15 @@
     left: .5rem;
     max-height: calc(100vh - 7.5rem - 1.75rem);
   }
+}
+
+.ally-entry h4 {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.modal-content .ally-entry h4 {
+    margin-top: 1.4rem;
 }
 

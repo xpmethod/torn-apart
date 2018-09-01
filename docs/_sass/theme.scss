@@ -2,13 +2,18 @@
 $orange: #fc8d62;
 $green: #66c2a5;
 $midgreen: #41a485;
+$lightgreen: #b6e2d4;
 $darkgreen: #3a9276;
 $purple: #8da0cb;
+$midpurple: #48629d;
+$darkpurple: #40578c;
 $white: #ffffff;
 $faintwhite: rgba(255,255,255,.5);
 // Color Danger:
 $pink: #e78ac3;
 $lime: #a6d854;
+
+$fadedpurple: rgba(141, 160, 203, 0.85);
 
 main {
   margin-top: 60px;
@@ -26,8 +31,32 @@ code {
   color: $green;
 }
 
+.green {
+  color: $green;
+}
+
+.purple {
+  color: $purple;
+}
+
+.orange {
+  color: $orange;
+}
+
+.modal {
+  z-index: 2000;
+}
+
+.modal-backdrop {
+  z-index: 1900;
+}
+
 @import "buttons";
 @import "page";
 @import "navbar";
 @import "leaflet";
+@import "svg";
 @import "charts";
+@import "v2-viz";
+@import "legend";
+@import "tooltip";

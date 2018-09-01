@@ -1,3 +1,0 @@
-
-Reason: The "Config" layout is not chosen as layout for the template of this page. 
-Tips: The "Content" layout is for content sections only and "Config" for templates.
