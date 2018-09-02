@@ -7,6 +7,14 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route("gain");
+  this.route("rain");
+  this.route("districts");
+  this.route("lines");
+  this.route('freezer', function() {
+    this.route('icetray');
+    this.route('murderboard');
+  });
 });
 
 export default Router;
