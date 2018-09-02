@@ -1,0 +1,13 @@
+  <div class="d-none d-md-block">
+    {{#bs-nav id=id type=type backgroundColor=bg position=position toggleBreakpoint=toggleBreakpoint class=className collapsed=collapsed onCollapse=(action (mut collapsed) true) onExpand=(action (mut collapsed) false) as |nav|}}
+      {{#nav.item}}{{#nav.link-to "index"}}Torn Apart{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Textures{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Reflections{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Allies{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Bibliography{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Credits{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Lang{{/nav.link-to}}{{/nav.item}}
+      {{#nav.item}}{{#nav.link-to "index"}}Volume{{/nav.link-to}}{{/nav.item}}
+    {{/bs-nav}}
+  
+  </div>
