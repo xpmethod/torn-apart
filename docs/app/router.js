@@ -1,5 +1,5 @@
-import EmberRouter from '@ember/routing/router';
-import config from './config/environment';
+import EmberRouter from "@ember/routing/router";
+import config from "./config/environment";
 
 const Router = EmberRouter.extend({
   location: config.locationType,
@@ -11,9 +11,9 @@ Router.map(function() {
   this.route("rain");
   this.route("districts");
   this.route("lines");
-  this.route('freezer', function() {
-    this.route('icetray');
-    this.route('murderboard');
+  this.route("freezer", function() {
+    this.route("icetray");
+    this.route("murderboard");
   });
 });
 

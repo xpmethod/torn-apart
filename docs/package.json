@@ -13,6 +13,7 @@
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint .",
+    "lint": "eslint app/ tests/ --fix",
     "start": "ember serve",
     "test": "ember test"
   },
