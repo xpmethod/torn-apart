@@ -1,5 +1,12 @@
-<nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start">
-  <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link {{ button-class }} viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a>
-  {% endfor %}
-</nav>
+{{#bs-nav type=type justified=justified stacked=stacked as |nav|}}
+  {{#nav.item}}{{#nav.link-to "districts"}}Districts{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "rain"}}Rain{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "gain"}}Gain{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "freezer"}}Freezer{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "lines"}}Lines{{/nav.link-to}}{{/nav.item}}
+{{/bs-nav}}
+<!-- <nav id="visualizations-nav" class="d-none nav d-md-flex justify-content-around justify-content-md-start"> -->
+<!--   <a data-i18n="ta-{{ tab }}" id="{{ tab }}-button" class="nav-link {{ button-class }} viz-button nav-item" href="{{ site.baseurl }}/volume/{{ page.volume }}/visualizations.html#{{ tab }}"></a> -->
+<!--   {% endfor %} -->
+<!-- </nav> -->
 
