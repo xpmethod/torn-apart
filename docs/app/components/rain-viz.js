@@ -2,12 +2,14 @@ import Component from "@ember/component";
 import { run } from "@ember/runloop";
 import { set, get } from "@ember/object";
 import $ from "jquery";
+import "d3-transition";
 import { select } from "d3-selection";
 import { forceSimulation, forceCollide, forceY, forceX } from "d3-force";
 import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import layout from "../templates/components/rain-viz";
 import colors from "../mixins/colors";
 import Data from "../data/rain/data";
+import rainLegend from "../helpers/rain/legend";
 
 export default Component.extend(colors, {
   layout,
@@ -168,5 +170,7 @@ export default Component.extend(colors, {
       .attr("x", d => xCenter[d])
       // .attr("y", 1.75 * rem);
       .attr("y", 1.75 * 16);
+
+    rainLegend(svg, r, circleSizes);
   }
 });
