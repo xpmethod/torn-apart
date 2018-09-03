@@ -1,15 +1,24 @@
 import { writeFile, readFile } from "fs";
 import { stdout } from "process";
 import path from "path";
-import { parse, stringify } from "csv";
+import { parse } from "csv";
 import _ from "lodash";
+import { ckmeans } from "simple-statistics";
 
 export default function(decorations) {
   readFile(path.join("data", "follow_the_money_data.csv"), (err, data) => {
     if (err) throw err;
-    parse(data, { columns: true }, (err, awards) => {
+    parse(data, { columns: true }, (err, csvData) => {
       if (err) throw err;
 
+      const awards = csvData.filter(d => d.current_total_value_of_award !== "");
+      const bins = ckmeans(
+        awards.map(award => {
+          return parseFloat(award.current_total_value_of_award);
+        }),
+        5
+      );
+      bins.shift();
       var mapData = awards.map(award => {
         let value = parseFloat(award.current_total_value_of_award);
         if (_.isNaN(value)) {
@@ -24,21 +33,14 @@ export default function(decorations) {
         };
       });
       checkYears(mapData);
-
-      stringify(
-        mapData,
-        {
-          header: true,
-          columns: ["fiscalYear", "currentValue", "name", "duns", "multiYear"]
-        },
-        (err, output) => {
+      writeFile(
+        path.join("docs", "app", "data", "rain", "data.json"),
+        JSON.stringify({ bins, mapData }, null, 2),
+        err => {
           if (err) throw err;
-          writeFile(path.join("data", "rain", "rainData.csv"), output, err => {
-            if (err) throw err;
-            stdout.write("WE DID THE RAIN THING\n");
-          }); // close writeFile callback.
+          stdout.write("WE DID THE RAIN THING\n");
         }
-      ); //end stringify
+      ); // close writeFile callback.
     }); //end parse
   });
 }
