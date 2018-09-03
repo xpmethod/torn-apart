@@ -4,13 +4,13 @@ import rainBuildData from "./rain/build-rain-data";
 // import districtsBindData from "./districts/bind-contracts-to-districts";
 // import freezerBuildGraph from "./freezer/build-graph";
 import buildDecoratorTable from "./build-decorator-table";
-// import gainBuildData from "./gain/build-data";
+import gainBuildData from "./gain/build-data";
 
 generateLanguageFiles();
 // buildDecoratorTable(() => console.log("hi"));
 buildDecoratorTable(decorations => {
   // districtsBuildAllData(districtsBindData(decorations));
-  // gainBuildData(decorations);
+  gainBuildData(decorations);
   // freezerBuildGraph(decorations);
   rainBuildData(decorations);
 });

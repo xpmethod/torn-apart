@@ -1,0 +1,20 @@
+{{#each data as |company index|}}
+  <div class="d-flex justify-content-start">
+    <div class="mr-2" style="max-width: 1.25rem;">
+      <svg width="16" height="16">
+        <rect width="16" height="16" fill="{{ get fills index }}" />
+      </svg>
+    </div>
+    <div>
+      <h4>
+        <small>
+          <span data-i18n="ta-${d}-owned-contractors">
+            {{ company }}, {{index}}
+          </span>
+          {{ fills.[index] }}
+        </small>
+      </h4>
+    </div>
+  </div>
+{{/each}}
+

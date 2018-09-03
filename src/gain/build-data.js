@@ -102,7 +102,7 @@ export default function(decorations) {
           };
         });
       writeFile(
-        path.join("data", "gain", "minority-data.json"),
+        path.join("docs", "app", "data", "gain", "minority.json"),
         JSON.stringify(output, null, 2),
         err => {
           if (err) throw err;

@@ -118,6 +118,13 @@
   "mapData": [
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Spectrum Security Services",
+      "duns": "618954465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "6877",
       "name": "Range 54",
       "duns": "79518541",
@@ -156,6 +163,20 @@
       "currentValue": "16600",
       "name": "Nathaniel Howell",
       "duns": "80526889",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Creative Corrections",
+      "duns": "143530926",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Trailboss Enterprises",
+      "duns": "879740454",
       "multiYear": "true"
     },
     {
@@ -1322,6 +1343,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "FCN",
+      "duns": "615378007",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "9898.98",
       "name": "Net Direct Systems",
       "duns": "54007823",
@@ -1364,6 +1392,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Personnel Decisions Research Institutes",
+      "duns": "37335296",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "278884.4",
       "name": "Model Concept Communications",
       "duns": "80747506",
@@ -1374,6 +1409,13 @@
       "currentValue": "3579102.91",
       "name": "Bowhead Communication Services",
       "duns": "78825612",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Dentrust Dental International",
+      "duns": "964551386",
       "multiYear": "false"
     },
     {
@@ -2995,6 +3037,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Vista Outdoor Sales",
+      "duns": "79331239",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "23389.17",
       "name": "Umbc Training Centers",
       "duns": "198350394",
@@ -3803,7 +3852,7 @@
       "currentValue": "11860",
       "name": "Goodco Mechanical",
       "duns": "15490144",
-      "multiYear": "false"
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -3937,6 +3986,13 @@
       "name": "Tucson Hotels",
       "duns": "68267934",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "FCN",
+      "duns": "615378007",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -5739,6 +5795,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Nakamoto Group",
+      "duns": "133090261",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "3804198.35",
       "name": "McKinsey & Company",
       "duns": "825229318",
@@ -5837,6 +5900,20 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Asset Protection & Security Services",
+      "duns": "9741828",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "CoreCivic",
+      "duns": "159734151",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "908595.72",
       "name": "Ben Fitzgerald Real Estate Services",
       "duns": "53117149",
@@ -5851,9 +5928,37 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "17728.8",
       "name": "Ricoh Usa",
       "duns": "43964519",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Trailboss Enterprises",
+      "duns": "879740454",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Jasper Sawyer Company",
+      "duns": "969820914",
       "multiYear": "true"
     },
     {
@@ -5991,6 +6096,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Quality Coast",
+      "duns": "791120124",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "119129.6",
       "name": "Document Imaging Dimensions",
       "duns": "38062712",
@@ -6057,6 +6169,34 @@
       "currentValue": "186300",
       "name": "Good Source Solutions",
       "duns": "158110697",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "J.P. Industries",
+      "duns": "958098352",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Akima Global Services",
+      "duns": "832895085",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "B.i.",
+      "duns": "94160959",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "M V M",
+      "duns": "38049532",
       "multiYear": "true"
     },
     {
@@ -6128,6 +6268,55 @@
       "name": "County of Lane",
       "duns": "30786248",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Ahtna Support and Training Services",
+      "duns": "609636910",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Akima Global Services",
+      "duns": "832895085",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Eclipse Business Group",
+      "duns": "828373006",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Jesuit Refugee Service USA",
+      "duns": "112281840",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Global Precision Systems",
+      "duns": "805596710",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -6267,6 +6456,13 @@
       "currentValue": "21380",
       "name": "Talton Communications",
       "duns": "136890881",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "MacRo Companies, Inc. of Delaware",
+      "duns": "34302497",
       "multiYear": "true"
     },
     {
@@ -6540,6 +6736,34 @@
       "currentValue": "6768",
       "name": "Millennium Health & Fitness",
       "duns": "26173034",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "CoreCivic",
+      "duns": "159734151",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Global Precision Systems",
+      "duns": "805596710",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "M V M",
+      "duns": "38049532",
       "multiYear": "true"
     },
     {
@@ -7153,6 +7377,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Cellebrite",
+      "duns": "33095568",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "14142151.34",
       "name": "SRA International",
       "duns": "97779698",
@@ -7598,6 +7829,13 @@
       "name": "Cold Box Express",
       "duns": "79481448",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Pat V. MacK",
+      "duns": "963846097",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -8235,6 +8473,20 @@
       "name": "The Corporate Source",
       "duns": "18836440",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Giant Oak",
+      "duns": "831127738",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Comprehensive Health Services",
+      "duns": "87701231",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -10009,6 +10261,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Johns Hopkins University",
+      "duns": "1910777",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "13761",
       "name": "Shred-It USA",
       "duns": "80537986",
@@ -10968,6 +11227,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Bashen Corporation",
+      "duns": "877933408",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "5950685.58",
       "name": "Deloitte & Touche",
       "duns": "187107958",
@@ -11119,6 +11385,13 @@
       "name": "Aimpoint",
       "duns": "609074612",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Goodco Mechanical",
+      "duns": "15490144",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -11370,6 +11643,20 @@
       "currentValue": "100360",
       "name": "Rosamilia Builders",
       "duns": "959263484",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Benefit Planning",
+      "duns": "790801765",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Atlantic Diving Supply",
+      "duns": "27079776",
       "multiYear": "true"
     },
     {
@@ -11983,6 +12270,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Red Carrot",
+      "duns": "31689583",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "352512.62",
       "name": "Technology - Management & Innovative Solutions",
       "duns": "135665169",
@@ -12008,6 +12302,27 @@
       "name": "Ace Parking Management",
       "duns": "73351538",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Sig Sauer",
+      "duns": "78770392",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Vista Outdoor Sales",
+      "duns": "79331239",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Tactical & Survival Specialties",
+      "duns": "607775848",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2018",
@@ -13460,6 +13775,13 @@
     },
     {
       "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "QBASE-McNeil Integrated Solutions",
+      "duns": "961746620",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
       "currentValue": "1176094.92",
       "name": "Dakota Consulting",
       "duns": "168926264",
@@ -13477,6 +13799,27 @@
       "currentValue": "63994130.6",
       "name": "Phacil",
       "duns": "54885111",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Kalos",
+      "duns": "31414766",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Venture Netcomm",
+      "duns": "942320656",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Venture Netcomm",
+      "duns": "942320656",
       "multiYear": "true"
     },
     {
@@ -13505,6 +13848,13 @@
       "currentValue": "3962.74",
       "name": "Wildflower International",
       "duns": "619719693",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "Palantir USG",
+      "duns": "825284321",
       "multiYear": "true"
     },
     {
@@ -13757,6 +14107,13 @@
       "currentValue": "213640",
       "name": "Fileonq",
       "duns": "179886916",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2018",
+      "currentValue": "",
+      "name": "XRAD Tele-Services",
+      "duns": "167448955",
       "multiYear": "true"
     },
     {
@@ -15672,6 +16029,34 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Trailboss Enterprises",
+      "duns": "879740454",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Jasper Sawyer Company",
+      "duns": "969820914",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "1001711.07",
       "name": "Ben Fitzgerald Real Estate Services",
       "duns": "53117149",
@@ -15777,6 +16162,20 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "B.i.",
+      "duns": "94160959",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "M V M",
+      "duns": "38049532",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "58360",
       "name": "Ben Fitzgerald Real Estate Services",
       "duns": "53117149",
@@ -15830,6 +16229,41 @@
       "name": "City of Philadelphia",
       "duns": "39723387",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Merrimac Petroleum",
+      "duns": "199077819",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Akima Global Services",
+      "duns": "832895085",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Global Precision Systems",
+      "duns": "805596710",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2017",
@@ -16298,6 +16732,34 @@
       "currentValue": "6768",
       "name": "Millennium Health & Fitness",
       "duns": "26173034",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "The Geo Group",
+      "duns": "612706465",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Global Precision Systems",
+      "duns": "805596710",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "M V M",
+      "duns": "38049532",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "M V M",
+      "duns": "38049532",
       "multiYear": "true"
     },
     {
@@ -17086,6 +17548,20 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "DTM Corporation",
+      "duns": "844278684",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Jenkins Security Consultants",
+      "duns": "926769431",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "11421.93",
       "name": "Ceia Usa",
       "duns": "176329795",
@@ -17530,6 +18006,27 @@
       "currentValue": "81400",
       "name": "JDL Digital Systems",
       "duns": "165449872",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Farber Specialty Vehicles",
+      "duns": "106001675",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Giant Oak",
+      "duns": "831127738",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Comprehensive Health Services",
+      "duns": "87701231",
       "multiYear": "true"
     },
     {
@@ -20236,9 +20733,23 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Ben Fitzgerald Real Estate Services",
+      "duns": "53117149",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "5247",
       "name": "Whitaker Brothers Business Machines",
       "duns": "24292732",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Vista Outdoor Sales",
+      "duns": "79331239",
       "multiYear": "true"
     },
     {
@@ -20316,6 +20827,13 @@
       "currentValue": "15585.92",
       "name": "Vista Outdoor Sales",
       "duns": "79331239",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Goodco Mechanical",
+      "duns": "15490144",
       "multiYear": "true"
     },
     {
@@ -20407,6 +20925,13 @@
       "currentValue": "243667.2",
       "name": "Vista Outdoor Sales",
       "duns": "79331239",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Benefit Planning",
+      "duns": "790801765",
       "multiYear": "true"
     },
     {
@@ -20579,6 +21104,13 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Red Carrot",
+      "duns": "31689583",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "174511.2",
       "name": "Technology - Management & Innovative Solutions",
       "duns": "135665169",
@@ -20604,6 +21136,20 @@
       "name": "Silas Frazier Realty",
       "duns": "933766441",
       "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Vista Outdoor Sales",
+      "duns": "79331239",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Tactical & Survival Specialties",
+      "duns": "607775848",
+      "multiYear": "true"
     },
     {
       "fiscalYear": "2017",
@@ -22035,6 +22581,13 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Government Contract Solutions",
+      "duns": "948928270",
+      "multiYear": "false"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "1760",
       "name": "The Terminix International Company Partnership",
       "duns": "157241688",
@@ -22371,6 +22924,13 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Palantir USG",
+      "duns": "825284321",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "8680.1",
       "name": "Net Direct Systems",
       "duns": "54007823",
@@ -22427,6 +22987,13 @@
     },
     {
       "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Deloitte Consulting",
+      "duns": "19121586",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
       "currentValue": "3983658.6",
       "name": "Booz Allen Hamilton",
       "duns": "6928857",
@@ -22472,6 +23039,13 @@
       "currentValue": "2385323.52",
       "name": "Sevatec",
       "duns": "132599668",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "XRAD Tele-Services",
+      "duns": "167448955",
       "multiYear": "true"
     },
     {
@@ -23936,6 +24510,13 @@
       "name": "Net Direct Systems",
       "duns": "54007823",
       "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2017",
+      "currentValue": "",
+      "name": "Eclinicalworks",
+      "duns": "136815235",
+      "multiYear": "false"
     },
     {
       "fiscalYear": "2017",
@@ -36913,6 +37494,13 @@
       "currentValue": "944256.93",
       "name": "Ben Fitzgerald Real Estate Services",
       "duns": "53117149",
+      "multiYear": "true"
+    },
+    {
+      "fiscalYear": "2014",
+      "currentValue": "",
+      "name": "J.P. Industries",
+      "duns": "958098352",
       "multiYear": "true"
     },
     {

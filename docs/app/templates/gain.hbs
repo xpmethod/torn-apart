@@ -1,6 +1,6 @@
 {{#full-page-visualization}}
 <div id="gain-headers">
-  <h2 style="margin: 0;" data-i18n="ta-v2-gain-title" id = "gain-header">Gain yo</h2>
+  <h2 style="margin: 0;" data-i18n="ta-v2-gain-title" id = "gain-header">Gain</h2>
   <h3 style="margin: 0;" data-i18n="ta-v2-gross-contractors"></h3>
       {{gain-carousel}}
   <hr>
@@ -8,12 +8,13 @@
 </div>
 <div class="row">
   <div id="gain-profiteers" class="col-md-4">
-    <p data-i18n="ta-v2-piechart-description"> </p>
-    <div id="gain-profiteers-list"></div>
+    <p data-i18n="ta-v2-piechart-description">Long paragraph.</p>
+    {{gain-profiteers}}
+    <!-- <div id="gain-profiteers-list"></div> -->
   </div>
   <div id="gain-svg-div" class="col-md-8">
     {{gain-viz}}
-    <svg id="gain-bars-svg"></svg>
+    <!-- <svg id="gain-bars-svg"></svg> -->
   </div>
 </div>
 {{/full-page-visualization}}
