@@ -1,0 +1,19 @@
+{{#bs-carousel
+  autoPlay=true
+  wrap=wrap
+  interval=integerInterval
+  keyboard=keyboard
+  ltr=ltr
+  model=this
+  pauseOnMouseEnter=pauseOnMouseEnter
+  showControls=showControls
+  showIndicators=showIndicators
+as |car|}}
+  {{#each carousel as |company| }}
+    {{#car.slide}}
+    <p class="text-center main-gain">{{ company.name }}, 
+      <strong>${{ big-money-format company.total_value }}</strong><br/>
+        <small>({{ company.product }})</small></p>
+    {{/car.slide}}
+  {{/each}}
+{{/bs-carousel}}

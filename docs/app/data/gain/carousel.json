@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Booz Allen Hamilton",
+    "total_value": 149748532.8,
+    "product": "Management Consulting & IT",
+    "years": 4
+  },
+  {
+    "name": "Northeastern University",
+    "total_value": 2711012.38,
+    "product": "Research",
+    "years": 1
+  },
+  {
+    "name": "Sprint",
+    "total_value": 558926.4,
+    "product": "IT & Telephone",
+    "years": 2
+  },
+  {
+    "name": "Deloitte",
+    "total_value": 238114497.4,
+    "product": "Management Consulting",
+    "years": 3
+  },
+  {
+    "name": "Ricoh",
+    "total_value": 740454.85,
+    "product": "Photocopying",
+    "years": 3
+  },
+  {
+    "name": "Remington",
+    "total_value": 5770442.53,
+    "product": "Ammunition & Guns",
+    "years": 4
+  },
+  {
+    "name": "Comcast",
+    "total_value": 14743,
+    "product": "IT & Telephone",
+    "years": 2
+  },
+  {
+    "name": "LinkedIn",
+    "total_value": 3615,
+    "product": "Subscription",
+    "years": 1
+  },
+  {
+    "name": "Amazon",
+    "total_value": 11899.52,
+    "product": "Rescue Equipment",
+    "years": 1
+  },
+  {
+    "name": "Reed Elsevier",
+    "total_value": 1527165.6,
+    "product": "Periodicals",
+    "years": 1
+  },
+  {
+    "name": "Virginia Tech",
+    "total_value": 3137015,
+    "product": "Laboratory Testing",
+    "years": 1
+  },
+  {
+    "name": "Colt",
+    "total_value": 2804210,
+    "product": "Guns",
+    "years": 3
+  },
+  {
+    "name": "Ernst & Young",
+    "total_value": 12315398.58,
+    "product": "Financial Management & Training",
+    "years": 2
+  },
+  {
+    "name": "Caribbean School",
+    "total_value": 162935,
+    "product": "Education & Training",
+    "years": 2
+  },
+  {
+    "name": "Simon Wiesenthal Center",
+    "total_value": 142800,
+    "product": "Professional Development",
+    "years": 2
+  },
+  {
+    "name": "Hyatt",
+    "total_value": 17500,
+    "product": "Conference & Facility Space",
+    "years": 3
+  },
+  {
+    "name": "Federal Prison Industries",
+    "total_value": 697445.94,
+    "product": "Clothing & Toiletries",
+    "years": 3
+  },
+  {
+    "name": "RStudio",
+    "total_value": 24985,
+    "product": "Software",
+    "years": 1
+  },
+  {
+    "name": "Life Fitness",
+    "total_value": 14869.96,
+    "product": "Exercise Equipment",
+    "years": 1
+  },
+  {
+    "name": "Xerox",
+    "total_value": 1382987.08,
+    "product": "Photocopying & Printing",
+    "years": 3
+  },
+  {
+    "name": "McKinsey",
+    "total_value": 43867737.51,
+    "product": "Management Consulting",
+    "years": 2
+  },
+  {
+    "name": "Palantir",
+    "total_value": 168799174,
+    "product": "Software",
+    "years": 4
+  },
+  {
+    "name": "Vermont State Colleges",
+    "total_value": 81880,
+    "product": "Education",
+    "years": 3
+  },
+  {
+    "name": "Bellsouth",
+    "total_value": 36033,
+    "product": "IT Components",
+    "years": 1
+  },
+  {
+    "name": "University of Alabama",
+    "total_value": 146006,
+    "product": "Data Analysis",
+    "years": 2
+  },
+  {
+    "name": "Johns Hopkins",
+    "total_value": 880458.22,
+    "product": "Education & Training",
+    "years": 1
+  },
+  {
+    "name": "General Dynamics",
+    "total_value": 497027.13,
+    "product": "Ammunition",
+    "years": 4
+  },
+  {
+    "name": "Microsoft",
+    "total_value": 7867894.51,
+    "product": "IT Support",
+    "years": 2
+  },
+  {
+    "name": "Thomson Reuters",
+    "total_value": 5965934.2,
+    "product": "Databases",
+    "years": 2
+  },
+  {
+    "name": "Konica Minolta",
+    "total_value": 883997.28,
+    "product": "Photocopying & Printing",
+    "years": 3
+  },
+  {
+    "name": "Sixt Rent A Car",
+    "total_value": 39583.21,
+    "product": "Motor Vehicles",
+    "years": 1
+  },
+  {
+    "name": "Atlantic Diving Supply",
+    "total_value": 4494478.67,
+    "product": "Armor & Tactical Equipment",
+    "years": 3
+  },
+  {
+    "name": "AT&T",
+    "total_value": 48560,
+    "product": "IT & Telephone",
+    "years": 1
+  },
+  {
+    "name": "University of Maryland",
+    "total_value": 175000,
+    "product": "Research",
+    "years": 2
+  },
+  {
+    "name": "Aramark",
+    "total_value": 49410.68,
+    "product": "Uniforms & Laundry",
+    "years": 3
+  },
+  {
+    "name": "Office Depot",
+    "total_value": 10200,
+    "product": "Furniture Assembly",
+    "years": 2
+  },
+  {
+    "name": "CCA",
+    "total_value": 280179617.1,
+    "product": "Detention Services",
+    "years": 3
+  },
+  {
+    "name": "UPS",
+    "total_value": 1405,
+    "product": "Courier",
+    "years": 2
+  },
+  {
+    "name": "City of Long Beach",
+    "total_value": 38264,
+    "product": "Building Lease",
+    "years": 2
+  },
+  {
+    "name": "Avaya",
+    "total_value": 3519655.13,
+    "product": "Telephone",
+    "years": 3
+  },
+  {
+    "name": "Time Warner Cable",
+    "total_value": 583794.18,
+    "product": "IT & Telephone",
+    "years": 3
+  },
+  {
+    "name": "GEO Group",
+    "total_value": 1015594507,
+    "product": "Detention Services",
+    "years": 3
+  },
+  {
+    "name": "Federal Express",
+    "total_value": 17448.86,
+    "product": "Courier",
+    "years": 2
+  },
+  {
+    "name": "Comfort Suites",
+    "total_value": 624750,
+    "product": "Temporary Lodging",
+    "years": 2
+  },
+  {
+    "name": "Motorola",
+    "total_value": 37257230.05,
+    "product": "IT Support",
+    "years": 3
+  },
+  {
+    "name": "City of Orlando",
+    "total_value": 10700,
+    "product": "Education & Training",
+    "years": 1
+  },
+  {
+    "name": "MVM",
+    "total_value": 37334686.23,
+    "product": "Guards",
+    "years": 2
+  },
+  {
+    "name": "American Correctional Association",
+    "total_value": 265150,
+    "product": "Accreditation Support",
+    "years": 3
+  },
+  {
+    "name": "PricewaterhouseCoopers",
+    "total_value": 8894231.67,
+    "product": "Cost-Benefit Analysis",
+    "years": 2
+  },
+  {
+    "name": "Canon",
+    "total_value": 158012.76,
+    "product": "Printing & Copying",
+    "years": 3
+  },
+  {
+    "name": "Northrop Grumman",
+    "total_value": 795109,
+    "product": "Surveillance Equipment",
+    "years": 2
+  },
+  {
+    "name": "Sharp",
+    "total_value": 234230.42,
+    "product": "Photocopying & Printing",
+    "years": 2
+  },
+  {
+    "name": "John Wiley and Sons",
+    "total_value": 71105,
+    "product": "Books",
+    "years": 1
+  },
+  {
+    "name": "Lexmark",
+    "total_value": 126475.8,
+    "product": "Photocopying & Printing",
+    "years": 3
+  },
+  {
+    "name": "Dell",
+    "total_value": 36288000.76,
+    "product": "Software",
+    "years": 4
+  }
+]

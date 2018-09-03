@@ -5,7 +5,13 @@ const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     "ember-bootstrap": {
-      whitelist: ["bs-dropdown", "bs-button", "bs-collapse", "bs-navbar"],
+      whitelist: [
+        "bs-button",
+        "bs-carousel",
+        "bs-collapse",
+        "bs-dropdown",
+        "bs-navbar"
+      ],
       bootstrapVersion: 4,
       importBootstrapFont: false,
       importBootstrapCSS: false
