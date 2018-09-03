@@ -11,10 +11,14 @@ export default function(decorations) {
     parse(data, { columns: true }, (err, csvData) => {
       if (err) throw err;
 
-      const awards = csvData.filter(d => d.current_total_value_of_award !== "");
+      const awards = csvData; //.filter(d => d.current_total_value_of_award !== "");
       const bins = ckmeans(
         awards.map(award => {
-          return parseFloat(award.current_total_value_of_award);
+          let value = parseFloat(award.current_total_value_of_award);
+          if (_.isNaN(value)) {
+            value = 0;
+          }
+          return value;
         }),
         5
       );
