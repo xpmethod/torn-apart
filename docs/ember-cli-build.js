@@ -7,6 +7,7 @@ module.exports = function(defaults) {
     "ember-bootstrap": {
       whitelist: [
         "bs-button",
+        "bs-button-group",
         "bs-carousel",
         "bs-collapse",
         "bs-dropdown",

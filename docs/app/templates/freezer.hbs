@@ -1,3 +1,28 @@
 {{#full-page-visualization}}
-{{outlet}}
+  <div id="freezer-headers">
+    <h2 id="freezer-h2" data-i18n="ta-v2-freezer-title">Freezer</h2>
+  </div>
+  <div class="row">
+    <div id="freezer-div" class="col-md-6 col-lg-7">
+      {{outlet}}
+      <!-- <svg id="freezer-svg"></svg> -->
+    </div>
+    <div id="freezer-icetray-sidebar" class="col-md-6 col-lg-5">
+      <div class="justify-content-center d-flex">
+        <div id="freezer-buttons" class="btn-group" role="group" aria-label="Explorer visualizations">
+          {{#bs-button-group}}
+            {{#link-to "freezer.murderboard" class="btn btn-secondary"}}
+              Murderboard
+            {{/link-to}}
+            {{#link-to "freezer.icetray" class="btn btn-secondary"}}
+              ICE Tray
+            {{/link-to}}
+          {{/bs-button-group}}
+        </div>
+      </div>
+      <div id="freezer-sidebars-container" class="mt-3">
+        {{ freezer-sidebar }}
+      </div>
+    </div>
+  </div>
 {{/full-page-visualization}}

@@ -1,11 +1,9 @@
 import Component from "@ember/component";
 import { run } from "@ember/runloop";
 import { set, get } from "@ember/object";
-import $ from "jquery";
 import _ from "lodash";
 import { select, selectAll } from "d3-selection";
 import { stack } from "d3-shape";
-// import { format } from "d3-format";
 import { axisLeft, axisBottom } from "d3-axis";
 import { scaleBand, scaleOrdinal, scaleLinear } from "d3-scale";
 import layout from "../templates/components/gain-viz";
