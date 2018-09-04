@@ -9,7 +9,7 @@ import { scaleThreshold, scaleOrdinal } from "d3-scale";
 import layout from "../templates/components/rain-viz";
 import colors from "../mixins/colors";
 import Data from "../data/rain/data";
-import rainLegend from "../helpers/rain/legend";
+import rainLegend from "../visualizations/rain/legend";
 
 export default Component.extend(colors, {
   layout,
