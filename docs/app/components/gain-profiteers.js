@@ -9,13 +9,11 @@ export default Component.extend(colors, {
     this.fills = [
       get(this, "green"),
       get(this, "orange"),
-      get(this, "purple"),
       get(this, "pink"),
-      get(this, "lime")
+      get(this, "lime"),
+      get(this, "beige"),
+      get(this, "tan")
     ];
-    this.data = Minority.minorityCategories
-      .reverse()
-      .splice(1)
-      .reverse();
+    this.data = [].concat(Minority.minorityCategories);
   }
 });

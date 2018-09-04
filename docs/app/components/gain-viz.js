@@ -55,6 +55,7 @@ export default Component.extend(colors, {
     const width = get(this, "width");
     const data = get(this, "data");
     const keys = data.minorityCategories;
+    console.log(data, keys);
     const countData = [{ type: "minority" }, { type: "women" }];
     _.each(keys, cat => {
       countData[0][cat] = data.minorityContractors[cat].count;
