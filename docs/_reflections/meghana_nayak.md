@@ -20,6 +20,9 @@ dcType: article
 
 # The Violence of Immigration Deterrence
 
+{: .author-credit }
+by [Meghana V. Nayak](https://www.pace.edu/dyson/the-dyson-difference/faculty-bookshelf/meghana-nayak)
+
 As soon as I learned about the family separations policy this past spring 2018, I got on the phone. I called all the numbers on the Office of Refugee Resettlement (ORR) website for my area. I called shelters rumored to hold unaccompanied and separated children. I called immigration lawyers. I called City Council members. I called everyone I know who works on asylum, refugee, and immigration issues so that I could provide logistical support or connect trauma specialists and doctors to those who were seeking those services. I have spent the past 20 years learning about the experiences of asylum seekers and undocumented migrants as they cross into or live inside U.S., have been asked to serve as an expert witness on asylum cases, and maintain connections to migrants' rights organizations with which I volunteered when I was a college student in Texas. I am well aware of the byzantine nature of the U.S. immigration system. So, I should have known better.
 
 No one answered their phones. Voicemail boxes were full. The few times people did pick up the phone, they were absolutely overwhelmed and in triage mode. More importantly, the network of shelters and private citizens housing separated and unaccompanied children is notoriously opaque. I saw many of my lawyer/doctor/therapist colleagues and friends face roadblock after roadblock when they tried to offer pro bono services to separated families.
@@ -51,3 +54,10 @@ Volume 2 specifically shows that the immigration deterrence regime is also a *ne
 The profitability of deterrence is not limited to U.S. territory. The U.S. has been pouring money and resources into the Mérida Initiative and *Programa Frontera Sur* (Southern Border Plan), which assist Mexico in fighting drug trafficking and enforcing its southern border to prevent Central American migration. These programs ultimately escalate Mexican cartel and gang power, which are then able to target Central American migrants with impunity, and target migrants with the same tactics as in the U.S. An interesting next step might be to map the U.S. financing of immigration deterrence in Mexico.
 
 But what is absolutely beautiful about this project is that while carceral geographies and financing are visualized only in the U.S., what is listed/visualized in *both* the U.S. and Mexico are *allies*, groups that are working on the frontlines of supporting migrants' rights. And perhaps that is a lesson; some of us are very good at critiquing how power operates. We need to get better at seeing the possibilities of solidarity around us for resisting and reworking that power.
+
+---
+
+{: .bio-slug}
+Meghana V. Nayak is Professor of Political Science, Affiliate Faculty of Women's and Gender Studies, Pace University. Author of *Who Is Worthy of Protection? Gender-Based Asylum and U.S. Immigration Politics* (New York: Oxford University Press, 2015).
+
+<br>
