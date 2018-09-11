@@ -80,7 +80,7 @@ Locke](https://twitter.com/brandontlocke), [Kathryn
 McDonald](https://www.linkedin.com/in/smilodon-fatalis/), [Kristen
 Mapes](https://twitter.com/kmapesy), Vinicius Marquet, [Jodi
 Mikesell](https://twitter.com/JodiMikesell), [Chelsea
-Miya](https://twitter.com/chelseamiya), [Gregory
+Miya](https://twitter.com/chelseamiya), [Meghana V. Nayak](https://www.pace.edu/dyson/the-dyson-difference/faculty-bookshelf/meghana-nayak), [Gregory
 Palermo](https://twitter.com/gregory_palermo), [Dimitris
 Papadopoulos](https://twitter.com/dimaterialist), Andrew Petersen, [Rubria
 Rocha](https://twitter.com/RubriaR), [Brian
