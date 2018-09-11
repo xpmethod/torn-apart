@@ -26,7 +26,7 @@ Gil is Digital Scholarship Librarian and Affiliate Faculty of the Department of 
 by [Daryl Meador](http://twitter.com/darylmeador).   
 PhD student, Cinema Studies, Tisch School of the Arts, New York University.
 
-**["The Violence of Immigration Deterrence"]({{site.baseurl}}/reflections/meghana_nayak.html)**.   
+**[The Violence of Immigration Deterrence]({{site.baseurl}}/reflections/meghana_nayak.html)**.   
 by [Meghana V. Nayak](https://www.pace.edu/dyson/the-dyson-difference/faculty-bookshelf/meghana-nayak).   
 Professor of Political Science, Affiliate Faculty of Women's and Gender Studies, Pace University. Author of *Who Is Worthy of Protection? Gender-Based Asylum and U.S. Immigration Politics*
 
