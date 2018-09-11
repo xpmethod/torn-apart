@@ -24,7 +24,7 @@ As soon as I learned about the family separations policy this past spring 2018, 
 
 No one answered their phones. Voicemail boxes were full. The few times people did pick up the phone, they were absolutely overwhelmed and in triage mode. More importantly, the network of shelters and private citizens housing separated and unaccompanied children is notoriously opaque. I saw many of my lawyer/doctor/therapist colleagues and friends face roadblock after roadblock when they tried to offer pro bono services to separated families.
 
-Then, one day, someone in one my advocacy networks posted a link to \*Torn Apart/Separados\*. And that is when I finally found a way to think through my response to the separated families crisis.
+Then, one day, someone in one my advocacy networks posted a link to *Torn Apart/Separados*. And that is when I finally found a way to think through my response to the separated families crisis.
 
 Three particular pages on the site caught my attention.
 
